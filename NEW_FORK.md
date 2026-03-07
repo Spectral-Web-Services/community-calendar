@@ -58,7 +58,6 @@ psql $DATABASE_URL -f supabase/ddl/10_user_settings.sql
 psql $DATABASE_URL -f supabase/ddl/11_category_overrides.sql
 psql $DATABASE_URL -f supabase/ddl/11_admin_google_users.sql
 psql $DATABASE_URL -f supabase/ddl/12_ics_categories.sql
-```
 
 Then set up the scheduled cron job — edit `supabase/ddl/05_cron_jobs.sql`, replacing `YOUR_SUPABASE_URL` with your actual project URL, and adding your anon key, then run it.
 
@@ -232,7 +231,9 @@ python3 -m http.server 8080
 For Python scripts that talk to Supabase, set env vars locally:
 ```bash
 export SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+
 export SUPABASE_KEY=eyJ...   # your legacy anon key, NOT the publishable key
+
 export ANTHROPIC_API_KEY=sk-ant-...
 python3 scripts/classify_events_anthropic.py --limit 50 --dry-run
 ```
