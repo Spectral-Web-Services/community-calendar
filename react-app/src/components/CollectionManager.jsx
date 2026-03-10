@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Plus, Trash2, ChevronDown, ChevronRight, Link2, X, Zap, RotateCcw, Pencil, Check } from 'lucide-react';
+import { Plus, Trash2, ChevronDown, ChevronRight, Link2, Code, X, Zap, RotateCcw, Pencil, Check } from 'lucide-react';
 import { useCollections } from '../hooks/useCollections.js';
 import { usePicks } from '../hooks/usePicks.jsx';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
@@ -32,6 +32,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   const [expandedEvents, setExpandedEvents] = useState([]);
   const [excludedEvents, setExcludedEvents] = useState([]);
   const [copied, setCopied] = useState(null);
+  const [embedId, setEmbedId] = useState(null);
   const [renamingId, setRenamingId] = useState(null);
   const [renameValue, setRenameValue] = useState('');
   const renameRef = useRef(null);
@@ -116,6 +117,20 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
     const url = `${window.location.origin}${window.location.pathname}?feed=${id}`;
     navigator.clipboard.writeText(url);
     setCopied(id);
+    setTimeout(() => setCopied(null), 2000);
+  };
+
+  const buildEmbedCode = (col) => {
+    const base = `${window.location.origin}${window.location.pathname}`;
+    const params = new URLSearchParams({ embed: col.id });
+    params.set('title', col.name);
+    if (col.card_style && col.card_style !== 'accent') params.set('style', col.card_style);
+    return `<iframe src="${base}?${params}" width="100%" height="600" frameborder="0" style="border:none;"></iframe>`;
+  };
+
+  const copyEmbedCode = (col) => {
+    navigator.clipboard.writeText(buildEmbedCode(col));
+    setCopied('embed-' + col.id);
     setTimeout(() => setCopied(null), 2000);
   };
 
@@ -315,6 +330,19 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                   {copied === col.id ? 'Copied!' : <Link2 size={13} />}
                 </button>
                 <button
+                  onClick={() => embedId === col.id ? setEmbedId(null) : setEmbedId(col.id)}
+                  className={`text-xs px-2 py-0.5 rounded transition-colors ${
+                    copied === 'embed-' + col.id
+                      ? 'bg-green-100 text-green-700'
+                      : embedId === col.id
+                        ? 'text-gray-700 bg-gray-100'
+                        : 'text-gray-400 hover:text-gray-600 hover:bg-gray-50'
+                  }`}
+                  title="Embed code"
+                >
+                  {copied === 'embed-' + col.id ? 'Copied!' : <Code size={13} />}
+                </button>
+                <button
                   onClick={() => handleDelete(col.id)}
                   className="text-gray-300 hover:text-red-400 transition-colors"
                   title="Delete collection"
@@ -322,6 +350,27 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                   <Trash2 size={13} />
                 </button>
               </div>
+
+              {/* Embed code panel */}
+              {embedId === col.id && (
+                <div className="border-t border-gray-50 px-3 py-2">
+                  <p className="text-[10px] font-medium text-gray-500 mb-1">Embed code</p>
+                  <div className="flex gap-1.5">
+                    <code className="flex-1 text-[11px] text-gray-600 bg-gray-50 border border-gray-200 rounded px-2 py-1.5 block overflow-x-auto whitespace-nowrap">
+                      {buildEmbedCode(col)}
+                    </code>
+                    <button
+                      onClick={() => copyEmbedCode(col)}
+                      className="flex-shrink-0 px-2.5 py-1.5 text-xs font-medium bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors"
+                    >
+                      Copy
+                    </button>
+                  </div>
+                  <p className="text-[10px] text-gray-400 mt-1">
+                    Add <code className="bg-gray-100 px-0.5 rounded">style=compact</code> or <code className="bg-gray-100 px-0.5 rounded">title=My+Events</code> to customize.
+                  </p>
+                </div>
+              )}
 
               {/* Expanded: show events in this collection */}
               {expanded === col.id && (

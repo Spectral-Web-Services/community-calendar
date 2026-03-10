@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import CityPicker from './components/CityPicker.jsx';
+import EmbedView from './components/EmbedView.jsx';
 import FeedView from './components/FeedView.jsx';
 import Header from './components/Header.jsx';
 import SearchBar from './components/SearchBar.jsx';
@@ -16,9 +17,15 @@ import { useAuth } from './hooks/useAuth.jsx';
 import { getActiveCategories } from './lib/helpers.js';
 
 function App() {
-  const { feed, city } = useMemo(() => {
+  const { embed, embedStyle, embedTitle, feed, city } = useMemo(() => {
     const params = new URLSearchParams(window.location.search);
-    return { feed: params.get('feed') || null, city: params.get('city') || null };
+    return {
+      embed: params.get('embed') || null,
+      embedStyle: params.get('style') || null,
+      embedTitle: params.get('title') || null,
+      feed: params.get('feed') || null,
+      city: params.get('city') || null,
+    };
   }, []);
 
   const { user } = useAuth();
@@ -77,6 +84,10 @@ function App() {
       document.title = (CITY_NAMES[city] || city) + ' Community Calendar';
     }
   }, [city]);
+
+  if (embed) {
+    return <EmbedView feedId={embed} style={embedStyle} title={embedTitle} />;
+  }
 
   if (feed) {
     return <FeedView feedId={feed} />;
