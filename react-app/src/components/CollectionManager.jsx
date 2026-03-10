@@ -125,7 +125,8 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
     const params = new URLSearchParams({ embed: col.id });
     params.set('title', col.name);
     if (col.card_style && col.card_style !== 'accent') params.set('style', col.card_style);
-    return `<iframe src="${base}?${params}" width="100%" height="600" frameborder="0" style="border:none;"></iframe>`;
+    const src = `${base}?${params}`;
+    return `<iframe id="cc-embed-${col.id}" src="${src}" width="100%" frameborder="0" style="border:none;overflow:hidden;" scrolling="no"></iframe>\n<script>window.addEventListener("message",function(e){if(e.data&&e.data.type==="community-calendar-embed-resize"){document.getElementById("cc-embed-${col.id}").style.height=e.data.height+"px"}});</script>`;
   };
 
   const copyEmbedCode = (col) => {

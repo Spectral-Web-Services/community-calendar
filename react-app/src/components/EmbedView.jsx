@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect, useRef } from 'react';
 import { useCollection } from '../hooks/useCollection.js';
 import { useColumnCount } from '../hooks/useColumnCount.js';
 import { getMasonryColumns } from '../lib/helpers.js';
@@ -7,10 +7,30 @@ import MasonryGrid from './MasonryGrid.jsx';
 /**
  * Minimal embeddable feed view.
  * URL params: embed={feedId}, style={cardStyle}, title={custom title}
+ *
+ * Posts height to parent window via postMessage so the host page
+ * can auto-resize the iframe (no scroll-within-scroll).
  */
 export default function EmbedView({ feedId, style, title }) {
   const { collection, events, loading } = useCollection(feedId);
   const rawColumnCount = useColumnCount();
+  const containerRef = useRef(null);
+
+  // Post document height to parent for auto-resize
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const post = () => {
+      window.parent.postMessage(
+        { type: 'community-calendar-embed-resize', height: el.scrollHeight },
+        '*'
+      );
+    };
+    const observer = new ResizeObserver(post);
+    observer.observe(el);
+    post();
+    return () => observer.disconnect();
+  }, []);
 
   const cardStyle = style || collection?.card_style || 'compact';
 
@@ -40,7 +60,7 @@ export default function EmbedView({ feedId, style, title }) {
   }
 
   return (
-    <div className="w-full px-3 py-4 bg-gray-50 min-h-screen">
+    <div ref={containerRef} className="w-full px-3 py-4 bg-gray-50">
       {displayTitle && (
         <h1 className="text-lg font-bold text-gray-900 mb-3 px-1">{displayTitle}</h1>
       )}
