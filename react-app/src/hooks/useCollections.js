@@ -33,22 +33,33 @@ export function useCollections() {
   }, [user, session, city, refreshKey]);
 
   // Build reverse map: event_id → collections it belongs to
+  // For manual collections: query collection_events
+  // For auto collections: check rules against events client-side (done via allEvents param)
   useEffect(() => {
     if (!session || !collections.length) { setMembershipMap({}); return; }
-    const ids = collections.map(c => c.id);
-    fetch(
-      `${SUPABASE_URL}/rest/v1/collection_events?collection_id=in.(${ids.join(',')})&select=collection_id,event_id`,
-      { headers: { apikey: SUPABASE_KEY, Authorization: 'Bearer ' + session.access_token } }
-    )
-      .then(r => r.json())
+
+    const manualCols = collections.filter(c => c.type !== 'auto');
+    const manualIds = manualCols.map(c => c.id);
+
+    // Fetch manual collection memberships
+    const manualPromise = manualIds.length
+      ? fetch(
+          `${SUPABASE_URL}/rest/v1/collection_events?collection_id=in.(${manualIds.join(',')})&select=collection_id,event_id`,
+          { headers: { apikey: SUPABASE_KEY, Authorization: 'Bearer ' + session.access_token } }
+        ).then(r => r.json())
+      : Promise.resolve([]);
+
+    manualPromise
       .then(rows => {
-        if (!Array.isArray(rows)) { setMembershipMap({}); return; }
+        if (!Array.isArray(rows)) rows = [];
         const colMap = Object.fromEntries(collections.map(c => [c.id, c.name]));
         const map = {};
         for (const row of rows) {
           if (!map[row.event_id]) map[row.event_id] = [];
           map[row.event_id].push({ id: row.collection_id, name: colMap[row.collection_id] });
         }
+        // Auto-collection membership is computed at render time in components
+        // since we'd need the full events list here which we don't have
         setMembershipMap(map);
       })
       .catch(() => setMembershipMap({}));
@@ -56,17 +67,22 @@ export function useCollections() {
 
   const refresh = useCallback(() => setRefreshKey(k => k + 1), []);
 
-  const createCollection = useCallback(async (name) => {
+  const createCollection = useCallback(async (name, opts) => {
     const h = headers();
     if (!h || !user || !city) return null;
+    const body = { user_id: user.id, city, name };
+    if (opts?.type === 'auto') {
+      body.type = 'auto';
+      body.rules = opts.rules || {};
+    }
     const res = await fetch(`${SUPABASE_URL}/rest/v1/collections`, {
       method: 'POST', headers: { ...h, Prefer: 'return=representation' },
-      body: JSON.stringify({ user_id: user.id, city, name }),
+      body: JSON.stringify(body),
     });
     const data = await res.json();
     refresh();
     return Array.isArray(data) ? data[0] : data;
-  }, [headers, user, refresh]);
+  }, [headers, user, city, refresh]);
 
   const deleteCollection = useCallback(async (id) => {
     const h = headers();
@@ -87,25 +103,68 @@ export function useCollections() {
     refresh();
   }, [headers, refresh]);
 
-  const removeEventFromCollection = useCallback(async (collectionId, eventId) => {
+  const removeEventFromCollection = useCallback(async (collectionId, eventId, sourceUid) => {
     const h = headers();
     if (!h) return;
-    await fetch(`${SUPABASE_URL}/rest/v1/collection_events?collection_id=eq.${collectionId}&event_id=eq.${eventId}`, {
-      method: 'DELETE', headers: h,
-    });
+    const col = collections.find(c => c.id === collectionId);
+    if (col?.type === 'auto') {
+      // Insert exclusion by source_uid
+      if (!sourceUid) return;
+      await fetch(`${SUPABASE_URL}/rest/v1/auto_collection_exclusions`, {
+        method: 'POST', headers: h,
+        body: JSON.stringify({ collection_id: collectionId, source_uid: sourceUid }),
+      });
+    } else {
+      await fetch(`${SUPABASE_URL}/rest/v1/collection_events?collection_id=eq.${collectionId}&event_id=eq.${eventId}`, {
+        method: 'DELETE', headers: h,
+      });
+    }
     refresh();
-  }, [headers, refresh]);
+  }, [headers, collections, refresh]);
 
   const getCollectionEvents = useCallback(async (collectionId) => {
     const h = headers();
     if (!h) return [];
+
+    const col = collections.find(c => c.id === collectionId);
+
+    if (col?.type === 'auto') {
+      // Query events directly using rules
+      const rules = col.rules || {};
+      const now = new Date().toISOString();
+      let url = `${SUPABASE_URL}/rest/v1/events?city=eq.${encodeURIComponent(col.city)}&start_time=gte.${now}&order=start_time.asc&select=*`;
+      if (rules.sources?.length) {
+        url += `&source=in.(${rules.sources.map(s => encodeURIComponent(s)).join(',')})`;
+      }
+      if (rules.categories?.length) {
+        url += `&category=in.(${rules.categories.map(c => encodeURIComponent(c)).join(',')})`;
+      }
+
+      const [evRes, exRes] = await Promise.all([
+        fetch(url, { headers: h }),
+        fetch(`${SUPABASE_URL}/rest/v1/auto_collection_exclusions?collection_id=eq.${collectionId}&select=source_uid`, { headers: h }),
+      ]);
+      const events = await evRes.json();
+      const exclusions = await exRes.json();
+      const excludedUids = new Set((Array.isArray(exclusions) ? exclusions : []).map(e => e.source_uid));
+
+      const filtered = (Array.isArray(events) ? events : []).filter(ev => !excludedUids.has(ev.source_uid));
+      // Return in same shape as manual: array of {id, event_id, events: {...}}
+      return filtered.map(ev => ({
+        id: ev.id,
+        event_id: ev.id,
+        events: ev,
+      }));
+    }
+
+    // Manual collection: existing code
     const res = await fetch(
       `${SUPABASE_URL}/rest/v1/collection_events?collection_id=eq.${collectionId}&select=id,event_id,sort_order,events(id,title,start_time,location)&order=sort_order`,
       { headers: h }
     );
     const data = await res.json();
     return Array.isArray(data) ? data : [];
-  }, [headers]);
+  }, [headers, collections]);
 
   return { collections, membershipMap, createCollection, deleteCollection, addEventToCollection, removeEventFromCollection, getCollectionEvents, refresh };
 }

@@ -47,6 +47,13 @@ export default function FeedView({ feedId }) {
         {/* Collection header */}
         <div className="mb-6">
           <h1 className="text-2xl font-bold text-gray-900">{collection.name}</h1>
+          {collection.type === 'auto' && collection.rules && (
+            <p className="text-sm text-gray-500 mt-1">
+              Auto-updating
+              {collection.rules.categories?.length ? ` · ${collection.rules.categories.join(', ')}` : ''}
+              {collection.rules.sources?.length ? ` from ${collection.rules.sources.join(', ')}` : ''}
+            </p>
+          )}
           {collection.description && (
             <p className="text-gray-500 mt-1">{collection.description}</p>
           )}

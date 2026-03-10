@@ -10,6 +10,9 @@ function CollectionDropdown({ eventId, collections, addEventToCollection }) {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
 
+  // Filter out auto-collections — events are added to those by rules, not manually
+  const manualCollections = collections.filter(c => c.type !== 'auto');
+
   useEffect(() => {
     if (!open) return;
     const handler = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
@@ -17,7 +20,20 @@ function CollectionDropdown({ eventId, collections, addEventToCollection }) {
     return () => document.removeEventListener('mousedown', handler);
   }, [open]);
 
-  if (!collections.length) return null;
+  if (!manualCollections.length) return null;
+
+  // Single manual collection: skip dropdown, add directly on click
+  if (manualCollections.length === 1) {
+    return (
+      <button
+        onClick={() => addEventToCollection(manualCollections[0].id, eventId)}
+        className="text-gray-300 hover:text-gray-500 transition-colors p-1"
+        title={`Add to ${manualCollections[0].name}`}
+      >
+        <FolderPlus size={14} />
+      </button>
+    );
+  }
 
   return (
     <div className="relative" ref={ref}>
@@ -30,7 +46,7 @@ function CollectionDropdown({ eventId, collections, addEventToCollection }) {
       </button>
       {open && (
         <div className="absolute right-0 top-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-50 min-w-[160px] py-1">
-          {collections.map(col => (
+          {manualCollections.map(col => (
             <button
               key={col.id}
               onClick={async () => {
