@@ -68,8 +68,8 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
 
   // In enrich mode, load existing enrichment
   useEffect(() => {
-    if (mode !== 'enrich' || !pick || !user) return;
-    const eventId = pick.event_id || pick.events?.id;
+    if (mode !== 'enrich' || !user) return;
+    const eventId = pick?.event_id || pick?.events?.id || event?.id;
     if (!eventId) return;
 
     fetch(`${SUPABASE_URL}/rest/v1/event_enrichments?event_id=eq.${eventId}&curator_id=eq.${user.id}`, {
@@ -148,7 +148,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
         setSuccess(true);
       } else {
         // Enrich mode — upsert enrichment with all fields
-        const eventId = pick.event_id || pick.events?.id;
+        const eventId = pick?.event_id || pick?.events?.id || event?.id;
         const startTime = (date || '') + 'T' + (time || '00:00') + ':00';
         const endTimeStr = endTime ? (date || '') + 'T' + endTime + ':00' : null;
         await fetch(`${SUPABASE_URL}/rest/v1/event_enrichments?on_conflict=event_id,curator_id`, {
