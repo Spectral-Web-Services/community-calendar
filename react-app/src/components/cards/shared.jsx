@@ -1,7 +1,7 @@
 import React from 'react';
 import { createPortal } from 'react-dom';
 import {
-  Info, CalendarPlus, Download, Bookmark, Pencil, X,
+  Info, CalendarPlus, Download, Bookmark, Pencil, X, Settings2,
   Palette, BookOpen, Laugh, Users, Drama, GraduationCap, Baby,
   Film, UtensilsCrossed, Landmark, Heart, Clock, Music,
   TreePine, Church, Dumbbell, Calendar,
@@ -23,6 +23,7 @@ import {
 import { categoryColorMap } from '../../lib/categories.js';
 import CATEGORIES from '../../lib/categories.js';
 import { SUPABASE_URL, SUPABASE_KEY } from '../../lib/supabase.js';
+import EnrichmentEditor from '../EnrichmentEditor.jsx';
 
 export const CATEGORY_ICONS = {
   'Arts / Culture': Palette,
@@ -73,33 +74,85 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
   const { user } = useAuth();
   const feedCtx = useFeedContext();
   const [showCatModal, setShowCatModal] = React.useState(false);
+  const [showEnrich, setShowEnrich] = React.useState(false);
 
   const isAutoFeed = feedCtx?.collection?.type === 'auto';
   const removeTitle = isAutoFeed ? 'Exclude from collection' : 'Remove from collection';
 
   return (
-    <div className="flex items-center gap-2">
-      <CategoryBadgeInline
-        category={event.category}
-        colors={colors}
-        onClick={() => onCategoryFilter && onCategoryFilter(event.category)}
-      />
-      {user && event.category && (
-        <button
-          onClick={() => setShowCatModal(true)}
+    <div>
+      {/* Public tools row */}
+      <div className="flex items-center gap-2">
+        <CategoryBadgeInline
+          category={event.category}
+          colors={colors}
+          onClick={() => onCategoryFilter && onCategoryFilter(event.category)}
+        />
+        <div className="flex-1" />
+        {(event.description || event.image_url) && (
+          <button
+            onClick={onShowDetail}
+            className="text-gray-300 hover:text-gray-500 transition-colors"
+            title="View details"
+          >
+            <Info size={16} />
+          </button>
+        )}
+        <a
+          href={buildGoogleCalendarUrl(event)}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-gray-300 hover:text-gray-500 transition-colors"
-          title="Override category"
+          title="Add to Google Calendar"
         >
-          <Pencil size={12} />
-        </button>
-      )}
-      {user && !event.category && (
+          <CalendarPlus size={16} />
+        </a>
         <button
-          onClick={() => setShowCatModal(true)}
-          className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+          onClick={() => downloadEventICS(event)}
+          className="text-gray-300 hover:text-gray-500 transition-colors"
+          title="Download .ics"
         >
-          + category
+          <Download size={16} />
         </button>
+      </div>
+      {/* Curator tools row */}
+      {user && (
+        <div className="flex items-center gap-2 mt-1.5">
+          {event.category ? (
+            <button
+              onClick={() => setShowCatModal(true)}
+              className="text-gray-300 hover:text-gray-500 transition-colors"
+              title="Override category"
+            >
+              <Pencil size={12} />
+            </button>
+          ) : (
+            <button
+              onClick={() => setShowCatModal(true)}
+              className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+            >
+              + category
+            </button>
+          )}
+          <button
+            onClick={() => setShowEnrich(true)}
+            className="text-gray-300 hover:text-gray-500 transition-colors"
+            title="Edit enrichment"
+          >
+            <Settings2 size={14} />
+          </button>
+          <div className="flex-1" />
+          {feedCtx?.onRemoveEvent && (
+            <button
+              onClick={() => feedCtx.onRemoveEvent(event)}
+              className="text-gray-300 hover:text-red-400 transition-colors"
+              title={removeTitle}
+            >
+              <X size={16} />
+            </button>
+          )}
+          <BookmarkButton event={event} />
+        </div>
       )}
       {showCatModal && (
         <CategoryOverrideModal
@@ -107,49 +160,88 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
           onClose={() => setShowCatModal(false)}
         />
       )}
-      <div className="flex-1" />
-      {feedCtx?.onRemoveEvent && (
-        <button
-          onClick={() => feedCtx.onRemoveEvent(event)}
-          className="text-gray-300 hover:text-red-400 transition-colors"
-          title={removeTitle}
-        >
-          <X size={16} />
-        </button>
+      {showEnrich && (
+        <EnrichmentEditor
+          event={event}
+          mode="enrich"
+          onClose={() => setShowEnrich(false)}
+          onSaved={() => setShowEnrich(false)}
+        />
       )}
-      <BookmarkButton event={event} />
-      {(event.description || event.image_url) && (
-        <button
-          onClick={onShowDetail}
-          className="text-gray-300 hover:text-gray-500 transition-colors"
-          title="View details"
-        >
-          <Info size={16} />
-        </button>
-      )}
-      <a
-        href={buildGoogleCalendarUrl(event)}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-gray-300 hover:text-gray-500 transition-colors"
-        title="Add to Google Calendar"
-      >
-        <CalendarPlus size={16} />
-      </a>
-      <button
-        onClick={() => downloadEventICS(event)}
-        className="text-gray-300 hover:text-gray-500 transition-colors"
-        title="Download .ics"
-      >
-        <Download size={16} />
-      </button>
     </div>
+  );
+}
+
+/** Curator tools for compact/hover cards — shown inline. */
+export function CuratorTools({ event }) {
+  const { user } = useAuth();
+  const feedCtx = useFeedContext();
+  const [showCatModal, setShowCatModal] = React.useState(false);
+  const [showEnrich, setShowEnrich] = React.useState(false);
+
+  if (!user) return null;
+
+  const isAutoFeed = feedCtx?.collection?.type === 'auto';
+  const removeTitle = isAutoFeed ? 'Exclude from collection' : 'Remove from collection';
+
+  return (
+    <>
+      <div className="flex items-center gap-1.5">
+        {event.category ? (
+          <button
+            onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
+            className="text-gray-300 hover:text-gray-500 transition-colors"
+            title="Override category"
+          >
+            <Pencil size={12} />
+          </button>
+        ) : (
+          <button
+            onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
+            className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            +cat
+          </button>
+        )}
+        <button
+          onClick={e => { e.stopPropagation(); setShowEnrich(true); }}
+          className="text-gray-300 hover:text-gray-500 transition-colors"
+          title="Edit enrichment"
+        >
+          <Settings2 size={12} />
+        </button>
+        {feedCtx?.onRemoveEvent && (
+          <button
+            onClick={e => { e.stopPropagation(); feedCtx.onRemoveEvent(event); }}
+            className="text-gray-300 hover:text-red-400 transition-colors"
+            title={removeTitle}
+          >
+            <X size={14} />
+          </button>
+        )}
+        <BookmarkButton event={event} size={14} />
+      </div>
+      {showCatModal && (
+        <CategoryOverrideModal
+          event={event}
+          onClose={() => setShowCatModal(false)}
+        />
+      )}
+      {showEnrich && (
+        <EnrichmentEditor
+          event={event}
+          mode="enrich"
+          onClose={() => setShowEnrich(false)}
+          onSaved={() => setShowEnrich(false)}
+        />
+      )}
+    </>
   );
 }
 
 const DEFAULT_BOOKMARK_COLOR = '#1e3a5f';
 
-function BookmarkButton({ event }) {
+function BookmarkButton({ event, size = 16 }) {
   const { user } = useAuth();
   const { togglePick } = usePicks();
   const picked = useIsEventPicked(event.id);
@@ -193,7 +285,7 @@ function BookmarkButton({ event }) {
       style={filled ? { color: pickedColor } : undefined}
       title={title}
     >
-      <Bookmark size={16} fill={filled ? 'currentColor' : 'none'} />
+      <Bookmark size={size} fill={filled ? 'currentColor' : 'none'} />
     </button>
   );
 }
