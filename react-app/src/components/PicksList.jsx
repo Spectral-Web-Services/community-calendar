@@ -70,8 +70,8 @@ export default function PicksList() {
   const [enrichPick, setEnrichPick] = useState(null);
   const [expanded, setExpanded] = useState(null);
 
-  // The expanded manual collection (if any) — picks are clickable to add to it
-  const expandedCol = expanded ? collections.find(c => c.id === expanded && c.type !== 'auto') : null;
+  // The expanded collection (if any) — picks are clickable to add to it
+  const expandedCol = expanded ? collections.find(c => c.id === expanded) : null;
 
   if (!picks.length) {
     return (

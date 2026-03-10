@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { FolderPlus, X, Plus } from 'lucide-react';
+import { FolderPlus, X, Plus, Zap } from 'lucide-react';
 import { useTargetCollection } from '../hooks/useTargetCollection.jsx';
 
 export default function CollectionTargetBar() {
-  const { target, setTarget, manualCollections, createCollection } = useTargetCollection();
+  const { target, setTarget, collections, createCollection } = useTargetCollection();
   const [creating, setCreating] = useState(false);
   const [newName, setNewName] = useState('');
 
@@ -37,13 +37,13 @@ export default function CollectionTargetBar() {
 
   return (
     <div className="flex items-center gap-2 mb-3 flex-wrap">
-      {manualCollections.map(col => (
+      {collections.map(col => (
         <button
           key={col.id}
           onClick={() => setTarget(col.id)}
           className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-gray-600 bg-white border border-gray-200 rounded-lg hover:border-gray-400 hover:text-gray-800 transition-colors"
         >
-          <FolderPlus size={12} />
+          {col.type === 'auto' ? <Zap size={12} className="text-amber-500" /> : <FolderPlus size={12} />}
           {col.name}
         </button>
       ))}

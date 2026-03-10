@@ -39,15 +39,23 @@ export function useCollection(feedId) {
             url += `&category=in.(${rules.categories.map(c => encodeURIComponent(c)).join(',')})`;
           }
 
-          const [evRes, exRes] = await Promise.all([
+          const [evRes, exRes, manualRes] = await Promise.all([
             fetch(url, { headers }),
             fetch(`${SUPABASE_URL}/rest/v1/auto_collection_exclusions?collection_id=eq.${feedId}&select=source_uid`, { headers }),
+            fetch(`${SUPABASE_URL}/rest/v1/collection_events?collection_id=eq.${feedId}&select=event_id,events(*)`, { headers }),
           ]);
           const evData = await evRes.json();
           const exclusions = await exRes.json();
+          const manualAdds = await manualRes.json();
           const excludedUids = new Set((Array.isArray(exclusions) ? exclusions : []).map(e => e.source_uid));
 
-          rawEvents = (Array.isArray(evData) ? evData : []).filter(ev => !excludedUids.has(ev.source_uid));
+          const ruleMatched = (Array.isArray(evData) ? evData : []).filter(ev => !excludedUids.has(ev.source_uid));
+          // Merge manually-added events not already matched by rules
+          const matchedIds = new Set(ruleMatched.map(ev => ev.id));
+          const manualEvents = (Array.isArray(manualAdds) ? manualAdds : [])
+            .filter(ce => ce.events && !matchedIds.has(ce.event_id))
+            .map(ce => ce.events);
+          rawEvents = [...ruleMatched, ...manualEvents];
         } else {
           // Manual collection: query collection_events joined with events
           const evRes = await fetch(

@@ -8,8 +8,7 @@ export function TargetCollectionProvider({ children }) {
   const [targetId, setTargetId] = useState(null);
 
   // Resolve target from collections (null if deleted or not found)
-  const manualCollections = collections.filter(c => c.type !== 'auto');
-  const target = targetId ? manualCollections.find(c => c.id === targetId) || null : null;
+  const target = targetId ? collections.find(c => c.id === targetId) || null : null;
 
   const setTarget = useCallback((id) => setTargetId(id), []);
 
@@ -24,7 +23,7 @@ export function TargetCollectionProvider({ children }) {
   }, [target, removeEventFromCollection]);
 
   return (
-    <Ctx.Provider value={{ target, setTarget, addToTarget, removeFromTarget, manualCollections, createCollection, membershipMap, refresh }}>
+    <Ctx.Provider value={{ target, setTarget, addToTarget, removeFromTarget, collections, createCollection, membershipMap, refresh }}>
       {children}
     </Ctx.Provider>
   );

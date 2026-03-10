@@ -122,9 +122,20 @@ export function useCollections() {
     refresh();
   }, [headers, collections, refresh]);
 
+  const restoreExcludedEvent = useCallback(async (collectionId, sourceUid) => {
+    const h = headers();
+    if (!h) return;
+    await fetch(
+      `${SUPABASE_URL}/rest/v1/auto_collection_exclusions?collection_id=eq.${collectionId}&source_uid=eq.${encodeURIComponent(sourceUid)}`,
+      { method: 'DELETE', headers: h }
+    );
+    refresh();
+  }, [headers, refresh]);
+
+  /** For auto collections, returns { active, excluded }. For manual, returns { active, excluded: [] }. */
   const getCollectionEvents = useCallback(async (collectionId) => {
     const h = headers();
-    if (!h) return [];
+    if (!h) return { active: [], excluded: [] };
 
     const col = collections.find(c => c.id === collectionId);
 
@@ -140,21 +151,31 @@ export function useCollections() {
         url += `&category=in.(${rules.categories.map(c => encodeURIComponent(c)).join(',')})`;
       }
 
-      const [evRes, exRes] = await Promise.all([
+      const [evRes, exRes, manualRes] = await Promise.all([
         fetch(url, { headers: h }),
         fetch(`${SUPABASE_URL}/rest/v1/auto_collection_exclusions?collection_id=eq.${collectionId}&select=source_uid`, { headers: h }),
+        fetch(`${SUPABASE_URL}/rest/v1/collection_events?collection_id=eq.${collectionId}&select=id,event_id,events(*)`, { headers: h }),
       ]);
-      const events = await evRes.json();
+      const allEvents = await evRes.json();
       const exclusions = await exRes.json();
+      const manualAdds = await manualRes.json();
       const excludedUids = new Set((Array.isArray(exclusions) ? exclusions : []).map(e => e.source_uid));
 
-      const filtered = (Array.isArray(events) ? events : []).filter(ev => !excludedUids.has(ev.source_uid));
-      // Return in same shape as manual: array of {id, event_id, events: {...}}
-      return filtered.map(ev => ({
-        id: ev.id,
-        event_id: ev.id,
-        events: ev,
-      }));
+      const ruleMatched = Array.isArray(allEvents) ? allEvents : [];
+      const active = ruleMatched.filter(ev => !excludedUids.has(ev.source_uid));
+      const excludedEvents = ruleMatched.filter(ev => excludedUids.has(ev.source_uid));
+
+      // Merge manually-added events (not already in active from rules)
+      const activeIds = new Set(active.map(ev => ev.id));
+      const manualRows = (Array.isArray(manualAdds) ? manualAdds : []).filter(ce => ce.events && !activeIds.has(ce.event_id));
+      const manualEvents = manualRows.map(ce => ce.events);
+
+      const toShape = (ev) => ({ id: ev.id, event_id: ev.id, events: ev });
+
+      return {
+        active: [...active.map(toShape), ...manualEvents.map(toShape)],
+        excluded: excludedEvents.map(toShape),
+      };
     }
 
     // Manual collection: existing code
@@ -163,8 +184,8 @@ export function useCollections() {
       { headers: h }
     );
     const data = await res.json();
-    return Array.isArray(data) ? data : [];
+    return { active: Array.isArray(data) ? data : [], excluded: [] };
   }, [headers, collections]);
 
-  return { collections, membershipMap, createCollection, deleteCollection, addEventToCollection, removeEventFromCollection, getCollectionEvents, refresh };
+  return { collections, membershipMap, createCollection, deleteCollection, addEventToCollection, removeEventFromCollection, restoreExcludedEvent, getCollectionEvents, refresh };
 }

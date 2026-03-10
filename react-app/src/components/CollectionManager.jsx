@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Plus, Trash2, ChevronDown, ChevronRight, Link2, X, Zap } from 'lucide-react';
+import { Plus, Trash2, ChevronDown, ChevronRight, Link2, X, Zap, RotateCcw } from 'lucide-react';
 import { useCollections } from '../hooks/useCollections.js';
 import { usePicks } from '../hooks/usePicks.jsx';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
@@ -18,7 +18,7 @@ function ruleSummary(rules) {
 export default function CollectionManager({ expanded, onExpandedChange }) {
   const {
     collections, createCollection, deleteCollection,
-    getCollectionEvents, removeEventFromCollection,
+    getCollectionEvents, removeEventFromCollection, restoreExcludedEvent,
   } = useCollections();
   const { city } = usePicks();
 
@@ -30,6 +30,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   const [creating, setCreating] = useState(false);
   const setExpanded = onExpandedChange;
   const [expandedEvents, setExpandedEvents] = useState([]);
+  const [excludedEvents, setExcludedEvents] = useState([]);
   const [copied, setCopied] = useState(null);
 
   // Fetch distinct sources when type is 'auto'
@@ -56,8 +57,11 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
 
   // Load events when a collection is expanded
   useEffect(() => {
-    if (!expanded) { setExpandedEvents([]); return; }
-    getCollectionEvents(expanded).then(setExpandedEvents);
+    if (!expanded) { setExpandedEvents([]); setExcludedEvents([]); return; }
+    getCollectionEvents(expanded).then(({ active, excluded }) => {
+      setExpandedEvents(active);
+      setExcludedEvents(excluded);
+    });
   }, [expanded, getCollectionEvents, collections]);
 
   const handleCreate = async () => {
@@ -85,8 +89,24 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   };
 
   const handleRemoveEvent = async (collectionId, eventId, sourceUid) => {
+    const col = collections.find(c => c.id === collectionId);
     await removeEventFromCollection(collectionId, eventId, sourceUid);
-    setExpandedEvents(prev => prev.filter(ce => ce.event_id !== eventId));
+    if (col?.type === 'auto' && sourceUid) {
+      // Move to excluded list locally
+      const removed = expandedEvents.find(ce => ce.event_id === eventId);
+      setExpandedEvents(prev => prev.filter(ce => ce.event_id !== eventId));
+      if (removed) setExcludedEvents(prev => [...prev, removed]);
+    } else {
+      setExpandedEvents(prev => prev.filter(ce => ce.event_id !== eventId));
+    }
+  };
+
+  const handleRestoreEvent = async (collectionId, sourceUid) => {
+    await restoreExcludedEvent(collectionId, sourceUid);
+    // Move from excluded back to active locally
+    const restored = excludedEvents.find(ce => ce.events?.source_uid === sourceUid);
+    setExcludedEvents(prev => prev.filter(ce => ce.events?.source_uid !== sourceUid));
+    if (restored) setExpandedEvents(prev => [...prev, restored]);
   };
 
   const copyShareUrl = (id) => {
@@ -245,7 +265,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
               {/* Expanded: show events in this collection */}
               {expanded === col.id && (
                 <div className="border-t border-gray-50 px-3 py-2">
-                  {expandedEvents.length === 0 ? (
+                  {expandedEvents.length === 0 && excludedEvents.length === 0 ? (
                     <p className="text-xs text-gray-400">
                       {isAuto ? 'No matching events.' : 'No events in this collection. Add them from your picks below.'}
                     </p>
@@ -274,6 +294,37 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                           </div>
                         );
                       })}
+                      {/* Excluded events (auto-collections only) */}
+                      {isAuto && excludedEvents.length > 0 && (
+                        <>
+                          <div className="border-t border-gray-100 mt-2 pt-2">
+                            <p className="text-[10px] text-gray-400 mb-1">Excluded</p>
+                          </div>
+                          {excludedEvents.map(ce => {
+                            const ev = ce.events;
+                            if (!ev) return null;
+                            return (
+                              <div key={ce.id || ce.event_id} className="flex items-center gap-2 text-xs text-gray-400">
+                                <span className="flex-1 truncate line-through">
+                                  {ev.title}
+                                  {ev.start_time && (
+                                    <span className="ml-1">
+                                      · {formatDayOfWeek(ev.start_time)} {formatMonthDay(ev.start_time)}
+                                    </span>
+                                  )}
+                                </span>
+                                <button
+                                  onClick={() => handleRestoreEvent(col.id, ev.source_uid)}
+                                  className="text-gray-300 hover:text-green-500 flex-shrink-0"
+                                  title="Restore to collection"
+                                >
+                                  <RotateCcw size={12} />
+                                </button>
+                              </div>
+                            );
+                          })}
+                        </>
+                      )}
                     </div>
                   )}
                 </div>
