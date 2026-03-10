@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CalendarPlus, Download, ChevronRight } from 'lucide-react';
-import { useEventCardData, SearchSnippet, DetailModal, CategoryIcon } from './shared.jsx';
+import { useEventCardData, SearchSnippet, DetailModal, CategoryIcon, CuratorTools } from './shared.jsx';
 import { buildGoogleCalendarUrl, downloadEventICS } from '../../lib/helpers.js';
 
 export default function CompactCard({ event, filterTerm, onCategoryFilter }) {
@@ -11,7 +11,7 @@ export default function CompactCard({ event, filterTerm, onCategoryFilter }) {
     <>
       <div className="mb-1.5">
         <div
-          className="bg-white rounded-lg border border-gray-100 overflow-hidden
+          className="group/compact bg-white rounded-lg border border-gray-100 overflow-hidden
                      hover:bg-gray-50 hover:border-gray-200 transition-all duration-150 cursor-pointer"
           onClick={() => (event.description || event.image_url) && setShowDetail(true)}
         >
@@ -59,6 +59,10 @@ export default function CompactCard({ event, filterTerm, onCategoryFilter }) {
                 className="text-gray-300 hover:text-gray-500 transition-colors" title="Download .ics">
                 <Download size={14} />
               </button>
+            </div>
+
+            <div className="opacity-0 group-hover/compact:opacity-100 transition-opacity flex-shrink-0">
+              <CuratorTools event={event} />
             </div>
 
             {(event.description || event.image_url) && (
