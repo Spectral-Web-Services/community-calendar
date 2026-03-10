@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth.jsx';
 import { usePicks, useIsEventPicked } from '../../hooks/usePicks.jsx';
+import { useTargetCollection } from '../../hooks/useTargetCollection.jsx';
 import {
   formatDayOfWeek,
   formatMonthDay,
@@ -138,30 +139,42 @@ function BookmarkButton({ event }) {
   const { user } = useAuth();
   const { togglePick } = usePicks();
   const picked = useIsEventPicked(event.id);
+  const { target, addToTarget } = useTargetCollection();
   const [toggling, setToggling] = React.useState(false);
 
   if (!user) return null;
 
   const colors = categoryColorMap[event.category];
   const pickedColor = colors ? colors.label : DEFAULT_BOOKMARK_COLOR;
+  const hasTarget = !!target;
 
   async function handleClick() {
     if (toggling) return;
     setToggling(true);
-    try { await togglePick(event); } finally { setToggling(false); }
+    try {
+      if (hasTarget) {
+        // Add to target collection; also pick if not already picked
+        if (!picked) await togglePick(event);
+        await addToTarget(event.id);
+      } else {
+        await togglePick(event);
+      }
+    } finally { setToggling(false); }
   }
 
+  const title = hasTarget
+    ? `Add to ${target.name}`
+    : picked ? 'Remove from picks' : 'Add to picks';
+
   return (
-    <>
-      <button
-        onClick={handleClick}
-        className={`transition-colors ${picked ? '' : 'text-gray-300 hover:text-gray-500'}`}
-        style={picked ? { color: pickedColor } : undefined}
-        title={picked ? 'Remove from picks' : 'Add to picks'}
-      >
-        <Bookmark size={16} fill={picked ? 'currentColor' : 'none'} />
-      </button>
-    </>
+    <button
+      onClick={handleClick}
+      className={`transition-colors ${picked ? '' : 'text-gray-300 hover:text-gray-500'}`}
+      style={picked ? { color: pickedColor } : undefined}
+      title={title}
+    >
+      <Bookmark size={16} fill={picked ? 'currentColor' : 'none'} />
+    </button>
   );
 }
 

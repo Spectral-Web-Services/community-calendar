@@ -6,6 +6,7 @@ import SearchBar from './components/SearchBar.jsx';
 import StyleSwitcher from './components/StyleSwitcher.jsx';
 import MasonryGrid from './components/MasonryGrid.jsx';
 import PicksList from './components/PicksList.jsx';
+import CollectionTargetBar from './components/CollectionTargetBar.jsx';
 import { useEvents } from './hooks/useEvents.js';
 import { useEnrichments } from './hooks/useEnrichments.js';
 import { useProcessedEvents } from './hooks/useProcessedEvents.js';
@@ -114,6 +115,7 @@ function App() {
 
         {viewMode === 'cards' && (
           <>
+            {user && <CollectionTargetBar />}
             <SearchBar
               filterTerm={filterTerm}
               onFilterTermChange={(val) => { setFilterTerm(val); setDisplayCount(50); }}
