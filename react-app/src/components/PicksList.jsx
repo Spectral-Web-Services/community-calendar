@@ -68,11 +68,15 @@ export default function PicksList() {
   const { picks, removePick } = usePicks();
   const { collections, membershipMap, addEventToCollection } = useCollections();
   const [enrichPick, setEnrichPick] = useState(null);
+  const [expanded, setExpanded] = useState(null);
+
+  // The expanded manual collection (if any) — picks are clickable to add to it
+  const expandedCol = expanded ? collections.find(c => c.id === expanded && c.type !== 'auto') : null;
 
   if (!picks.length) {
     return (
       <div className="max-w-2xl mx-auto">
-        <CollectionManager />
+        <CollectionManager expanded={expanded} onExpandedChange={setExpanded} />
         <div className="text-center py-12 text-gray-400">
           <p className="text-lg font-medium mb-1">No picks yet</p>
           <p className="text-sm">Bookmark events from the cards to save them here.</p>
@@ -83,7 +87,11 @@ export default function PicksList() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <CollectionManager />
+      <CollectionManager expanded={expanded} onExpandedChange={setExpanded} />
+
+      {expandedCol && (
+        <p className="text-xs text-indigo-500 mb-2">Click a pick to add it to <span className="font-semibold">{expandedCol.name}</span></p>
+      )}
 
       <div className="space-y-2">
         {picks.map(pick => {
@@ -94,7 +102,15 @@ export default function PicksList() {
           const timeStr = formatTime(event.start_time);
 
           return (
-            <div key={pick.id} className="flex items-start gap-3 p-3 rounded-lg bg-white border border-gray-100 hover:border-gray-200 transition-colors group">
+            <div
+              key={pick.id}
+              onClick={expandedCol ? () => addEventToCollection(expandedCol.id, event.id) : undefined}
+              className={`flex items-start gap-3 p-3 rounded-lg bg-white border transition-colors group ${
+                expandedCol
+                  ? 'border-indigo-200 hover:border-indigo-400 cursor-pointer'
+                  : 'border-gray-100 hover:border-gray-200'
+              }`}
+            >
               <div className="flex-1 min-w-0">
                 {event.url ? (
                   <a href={event.url} target="_blank" rel="noopener noreferrer"

@@ -15,7 +15,7 @@ function ruleSummary(rules) {
   return parts.join(' · ');
 }
 
-export default function CollectionManager() {
+export default function CollectionManager({ expanded, onExpandedChange }) {
   const {
     collections, createCollection, deleteCollection,
     getCollectionEvents, removeEventFromCollection,
@@ -28,7 +28,7 @@ export default function CollectionManager() {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [availableSources, setAvailableSources] = useState([]);
   const [creating, setCreating] = useState(false);
-  const [expanded, setExpanded] = useState(null); // collection id
+  const setExpanded = onExpandedChange;
   const [expandedEvents, setExpandedEvents] = useState([]);
   const [copied, setCopied] = useState(null);
 
