@@ -139,7 +139,7 @@ function BookmarkButton({ event }) {
   const { user } = useAuth();
   const { togglePick } = usePicks();
   const picked = useIsEventPicked(event.id);
-  const { target, addToTarget } = useTargetCollection();
+  const { target, addToTarget, removeFromTarget, membershipMap } = useTargetCollection();
   const [toggling, setToggling] = React.useState(false);
 
   if (!user) return null;
@@ -147,15 +147,21 @@ function BookmarkButton({ event }) {
   const colors = categoryColorMap[event.category];
   const pickedColor = colors ? colors.label : DEFAULT_BOOKMARK_COLOR;
   const hasTarget = !!target;
+  const inTarget = hasTarget && membershipMap[event.id]?.some(c => c.id === target.id);
+  const filled = hasTarget ? inTarget : picked;
 
   async function handleClick() {
     if (toggling) return;
     setToggling(true);
     try {
       if (hasTarget) {
-        // Add to target collection; also pick if not already picked
-        if (!picked) await togglePick(event);
-        await addToTarget(event.id);
+        if (inTarget) {
+          await removeFromTarget(event.id);
+        } else {
+          // Add to target collection; also pick if not already picked
+          if (!picked) await togglePick(event);
+          await addToTarget(event.id);
+        }
       } else {
         await togglePick(event);
       }
@@ -163,17 +169,17 @@ function BookmarkButton({ event }) {
   }
 
   const title = hasTarget
-    ? `Add to ${target.name}`
+    ? inTarget ? `Remove from ${target.name}` : `Add to ${target.name}`
     : picked ? 'Remove from picks' : 'Add to picks';
 
   return (
     <button
       onClick={handleClick}
-      className={`transition-colors ${picked ? '' : 'text-gray-300 hover:text-gray-500'}`}
-      style={picked ? { color: pickedColor } : undefined}
+      className={`transition-colors ${filled ? '' : 'text-gray-300 hover:text-gray-500'}`}
+      style={filled ? { color: pickedColor } : undefined}
       title={title}
     >
-      <Bookmark size={16} fill={picked ? 'currentColor' : 'none'} />
+      <Bookmark size={16} fill={filled ? 'currentColor' : 'none'} />
     </button>
   );
 }

@@ -4,7 +4,7 @@ import { useCollections } from './useCollections.js';
 const Ctx = createContext({ target: null, setTarget: () => {}, addToTarget: () => {} });
 
 export function TargetCollectionProvider({ children }) {
-  const { collections, addEventToCollection, createCollection, refresh } = useCollections();
+  const { collections, addEventToCollection, removeEventFromCollection, createCollection, membershipMap, refresh } = useCollections();
   const [targetId, setTargetId] = useState(null);
 
   // Resolve target from collections (null if deleted or not found)
@@ -18,8 +18,13 @@ export function TargetCollectionProvider({ children }) {
     await addEventToCollection(target.id, eventId);
   }, [target, addEventToCollection]);
 
+  const removeFromTarget = useCallback(async (eventId) => {
+    if (!target) return;
+    await removeEventFromCollection(target.id, eventId);
+  }, [target, removeEventFromCollection]);
+
   return (
-    <Ctx.Provider value={{ target, setTarget, addToTarget, manualCollections, createCollection, refresh }}>
+    <Ctx.Provider value={{ target, setTarget, addToTarget, removeFromTarget, manualCollections, createCollection, membershipMap, refresh }}>
       {children}
     </Ctx.Provider>
   );
