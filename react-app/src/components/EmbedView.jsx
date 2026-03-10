@@ -6,12 +6,12 @@ import MasonryGrid from './MasonryGrid.jsx';
 
 /**
  * Minimal embeddable feed view.
- * URL params: embed={feedId}, style={cardStyle}, title={custom title}
+ * URL params: embed={feedId}, style={cardStyle}, title={custom title}, bg={color}
  *
  * Posts height to parent window via postMessage so the host page
  * can auto-resize the iframe (no scroll-within-scroll).
  */
-export default function EmbedView({ feedId, style, title }) {
+export default function EmbedView({ feedId, style, title, bg }) {
   const { collection, events, loading } = useCollection(feedId);
   const rawColumnCount = useColumnCount();
   const containerRef = useRef(null);
@@ -60,7 +60,7 @@ export default function EmbedView({ feedId, style, title }) {
   }
 
   return (
-    <div ref={containerRef} className="w-full px-3 py-4 bg-gray-50">
+    <div ref={containerRef} className="w-full px-3 py-4" style={{ backgroundColor: bg || 'transparent' }}>
       {displayTitle && (
         <h1 className="text-lg font-bold text-gray-900 mb-3 px-1">{displayTitle}</h1>
       )}
