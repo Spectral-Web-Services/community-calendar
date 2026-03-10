@@ -38,7 +38,7 @@ export default function FeedView({ feedId }) {
 
   const handleRemoveEvent = useCallback(async (event) => {
     if (!collection) return;
-    await removeEventFromCollection(collection.id, event.id, event.source_uid);
+    await removeEventFromCollection(collection.id, event.id, event.source_uid, { type: collection.type });
     setRemovedIds(prev => new Set(prev).add(event.id));
   }, [collection, removeEventFromCollection]);
 

@@ -113,11 +113,12 @@ export function useCollections() {
     refresh();
   }, [headers, refresh]);
 
-  const removeEventFromCollection = useCallback(async (collectionId, eventId, sourceUid) => {
+  const removeEventFromCollection = useCallback(async (collectionId, eventId, sourceUid, { type } = {}) => {
     const h = headers();
     if (!h) return;
     const col = collections.find(c => c.id === collectionId);
-    if (col?.type === 'auto') {
+    const colType = type || col?.type;
+    if (colType === 'auto') {
       // Insert exclusion by source_uid
       if (!sourceUid) return;
       await fetch(`${SUPABASE_URL}/rest/v1/auto_collection_exclusions`, {
