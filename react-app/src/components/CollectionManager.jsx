@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Plus, Trash2, ChevronDown, ChevronRight, Link2, X, Zap, RotateCcw } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Plus, Trash2, ChevronDown, ChevronRight, Link2, X, Zap, RotateCcw, Pencil, Check } from 'lucide-react';
 import { useCollections } from '../hooks/useCollections.js';
 import { usePicks } from '../hooks/usePicks.jsx';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
@@ -17,7 +17,7 @@ function ruleSummary(rules) {
 
 export default function CollectionManager({ expanded, onExpandedChange }) {
   const {
-    collections, createCollection, deleteCollection,
+    collections, createCollection, renameCollection, deleteCollection,
     getCollectionEvents, removeEventFromCollection, restoreExcludedEvent,
   } = useCollections();
   const { city } = usePicks();
@@ -32,6 +32,9 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   const [expandedEvents, setExpandedEvents] = useState([]);
   const [excludedEvents, setExcludedEvents] = useState([]);
   const [copied, setCopied] = useState(null);
+  const [renamingId, setRenamingId] = useState(null);
+  const [renameValue, setRenameValue] = useState('');
+  const renameRef = useRef(null);
 
   // Fetch distinct sources when type is 'auto'
   useEffect(() => {
@@ -114,6 +117,20 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
     navigator.clipboard.writeText(url);
     setCopied(id);
     setTimeout(() => setCopied(null), 2000);
+  };
+
+  const startRename = (col) => {
+    setRenamingId(col.id);
+    setRenameValue(col.name);
+    setTimeout(() => renameRef.current?.focus(), 0);
+  };
+
+  const commitRename = async () => {
+    const trimmed = renameValue.trim();
+    if (trimmed && renamingId) {
+      await renameCollection(renamingId, trimmed);
+    }
+    setRenamingId(null);
   };
 
   const toggleSource = (s) => setSelectedSources(prev =>
@@ -237,11 +254,47 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                 </button>
                 {isAuto && <Zap size={12} className="text-amber-500 flex-shrink-0" />}
                 <div className="flex-1 min-w-0">
-                  <span className="text-sm font-medium text-gray-800 truncate block">{col.name}</span>
+                  {renamingId === col.id ? (
+                    <input
+                      ref={renameRef}
+                      type="text"
+                      value={renameValue}
+                      onChange={e => setRenameValue(e.target.value)}
+                      onKeyDown={e => { if (e.key === 'Enter') commitRename(); if (e.key === 'Escape') setRenamingId(null); }}
+                      onBlur={commitRename}
+                      className="text-sm font-medium text-gray-800 w-full px-1 py-0 border border-gray-300 rounded focus:outline-none focus:border-gray-500"
+                    />
+                  ) : (
+                    <span
+                      className="text-sm font-medium text-gray-800 truncate block cursor-pointer"
+                      onDoubleClick={() => startRename(col)}
+                      title="Double-click to rename"
+                    >
+                      {col.name}
+                    </span>
+                  )}
                   {isAuto && summary && (
                     <span className="text-[10px] text-gray-400 truncate block">{summary}</span>
                   )}
                 </div>
+                {renamingId !== col.id && (
+                  <button
+                    onClick={() => startRename(col)}
+                    className="text-gray-300 hover:text-gray-500 transition-colors"
+                    title="Rename collection"
+                  >
+                    <Pencil size={12} />
+                  </button>
+                )}
+                {renamingId === col.id && (
+                  <button
+                    onClick={commitRename}
+                    className="text-green-500 hover:text-green-600 transition-colors"
+                    title="Save name"
+                  >
+                    <Check size={14} />
+                  </button>
+                )}
                 <button
                   onClick={() => copyShareUrl(col.id)}
                   className={`text-xs px-2 py-0.5 rounded transition-colors ${
