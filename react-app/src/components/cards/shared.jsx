@@ -92,7 +92,7 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
         {(event.description || event.image_url) && (
           <button
             onClick={onShowDetail}
-            className="text-gray-300 hover:text-gray-500 transition-colors"
+            className="text-gray-400 hover:text-gray-600 transition-colors"
             title="View details"
           >
             <Info size={16} />
@@ -102,14 +102,14 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
           href={buildGoogleCalendarUrl(event)}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-gray-500 transition-colors"
+          className="text-gray-400 hover:text-gray-600 transition-colors"
           title="Add to Google Calendar"
         >
           <CalendarPlus size={16} />
         </a>
         <button
           onClick={() => downloadEventICS(event)}
-          className="text-gray-300 hover:text-gray-500 transition-colors"
+          className="text-gray-400 hover:text-gray-600 transition-colors"
           title="Download .ics"
         >
           <Download size={16} />
@@ -117,11 +117,13 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
       </div>
       {/* Curator tools row */}
       {user && (
-        <div className="flex items-center gap-2 mt-1.5">
+        <div className="border-t border-gray-100 mt-2 pt-2 flex items-center gap-2">
+          <span className="text-[10px] font-medium text-gray-400 uppercase tracking-wide">Curator</span>
+          <div className="flex-1" />
           {event.category ? (
             <button
               onClick={() => setShowCatModal(true)}
-              className="text-gray-300 hover:text-gray-500 transition-colors"
+              className="text-gray-400 hover:text-gray-600 transition-colors"
               title="Override category"
             >
               <Pencil size={12} />
@@ -129,23 +131,22 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
           ) : (
             <button
               onClick={() => setShowCatModal(true)}
-              className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+              className="text-xs text-gray-500 hover:text-gray-700 transition-colors"
             >
               + category
             </button>
           )}
           <button
             onClick={() => setShowEnrich(true)}
-            className="text-gray-300 hover:text-gray-500 transition-colors"
+            className="text-gray-400 hover:text-gray-600 transition-colors"
             title="Edit enrichment"
           >
             <Settings2 size={14} />
           </button>
-          <div className="flex-1" />
           {feedCtx?.onRemoveEvent && (
             <button
               onClick={() => feedCtx.onRemoveEvent(event)}
-              className="text-gray-300 hover:text-red-400 transition-colors"
+              className="text-gray-400 hover:text-red-400 transition-colors"
               title={removeTitle}
             >
               <X size={16} />
@@ -190,7 +191,7 @@ export function CuratorTools({ event }) {
         {event.category ? (
           <button
             onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
-            className="text-gray-300 hover:text-gray-500 transition-colors"
+            className="text-gray-400 hover:text-gray-600 transition-colors"
             title="Override category"
           >
             <Pencil size={12} />
@@ -198,14 +199,14 @@ export function CuratorTools({ event }) {
         ) : (
           <button
             onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
-            className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+            className="text-xs text-gray-500 hover:text-gray-700 transition-colors"
           >
             +cat
           </button>
         )}
         <button
           onClick={e => { e.stopPropagation(); setShowEnrich(true); }}
-          className="text-gray-300 hover:text-gray-500 transition-colors"
+          className="text-gray-400 hover:text-gray-600 transition-colors"
           title="Edit enrichment"
         >
           <Settings2 size={12} />
@@ -213,7 +214,7 @@ export function CuratorTools({ event }) {
         {feedCtx?.onRemoveEvent && (
           <button
             onClick={e => { e.stopPropagation(); feedCtx.onRemoveEvent(event); }}
-            className="text-gray-300 hover:text-red-400 transition-colors"
+            className="text-gray-400 hover:text-red-400 transition-colors"
             title={removeTitle}
           >
             <X size={14} />
@@ -281,7 +282,7 @@ function BookmarkButton({ event, size = 16 }) {
   return (
     <button
       onClick={handleClick}
-      className={`transition-colors ${filled ? '' : 'text-gray-300 hover:text-gray-500'}`}
+      className={`transition-colors ${filled ? '' : 'text-gray-400 hover:text-gray-600'}`}
       style={filled ? { color: pickedColor } : undefined}
       title={title}
     >

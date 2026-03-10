@@ -51,12 +51,12 @@ export default function CompactCard({ event, filterTerm, onCategoryFilter }) {
             <div className="flex items-center gap-1.5 flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity"
               style={{ opacity: undefined }}>
               <a href={buildGoogleCalendarUrl(event)} target="_blank" rel="noopener noreferrer"
-                className="text-gray-300 hover:text-gray-500 transition-colors" title="Add to Google Calendar"
+                className="text-gray-400 hover:text-gray-600 transition-colors" title="Add to Google Calendar"
                 onClick={e => e.stopPropagation()}>
                 <CalendarPlus size={14} />
               </a>
               <button onClick={e => { e.stopPropagation(); downloadEventICS(event); }}
-                className="text-gray-300 hover:text-gray-500 transition-colors" title="Download .ics">
+                className="text-gray-400 hover:text-gray-600 transition-colors" title="Download .ics">
                 <Download size={14} />
               </button>
             </div>
