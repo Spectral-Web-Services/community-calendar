@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import {
   Info, CalendarPlus, Download, Bookmark, Pencil,
   Palette, BookOpen, Laugh, Users, Drama, GraduationCap, Baby,
@@ -6,7 +7,7 @@ import {
   TreePine, Church, Dumbbell, Calendar,
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth.jsx';
-import { usePicks } from '../../hooks/usePicks.jsx';
+import { usePicks, useIsEventPicked } from '../../hooks/usePicks.jsx';
 import EnrichmentEditor from '../EnrichmentEditor.jsx';
 import {
   formatDayOfWeek,
@@ -134,13 +135,12 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
 
 function BookmarkButton({ event }) {
   const { user } = useAuth();
-  const { isEventPicked, togglePick } = usePicks();
+  const { togglePick } = usePicks();
+  const picked = useIsEventPicked(event.id);
   const [toggling, setToggling] = React.useState(false);
   const [showEditor, setShowEditor] = React.useState(false);
 
   if (!user) return null;
-
-  const picked = isEventPicked(event.id);
 
   async function handleClick() {
     if (picked) {
@@ -285,7 +285,7 @@ function CategoryOverrideModal({ event, onClose }) {
     }
   }
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={onClose}>
       <div className="bg-white rounded-xl max-w-sm w-full max-h-[70vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
         <div className="px-5 pt-4 pb-2">
@@ -334,6 +334,7 @@ function CategoryOverrideModal({ event, onClose }) {
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
