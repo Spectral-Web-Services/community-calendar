@@ -84,6 +84,16 @@ export function useCollections() {
     return Array.isArray(data) ? data[0] : data;
   }, [headers, user, city, refresh]);
 
+  const renameCollection = useCallback(async (id, newName) => {
+    const h = headers();
+    if (!h) return;
+    await fetch(`${SUPABASE_URL}/rest/v1/collections?id=eq.${id}`, {
+      method: 'PATCH', headers: h,
+      body: JSON.stringify({ name: newName }),
+    });
+    refresh();
+  }, [headers, refresh]);
+
   const deleteCollection = useCallback(async (id) => {
     const h = headers();
     if (!h) return;
@@ -187,5 +197,5 @@ export function useCollections() {
     return { active: Array.isArray(data) ? data : [], excluded: [] };
   }, [headers, collections]);
 
-  return { collections, membershipMap, createCollection, deleteCollection, addEventToCollection, removeEventFromCollection, restoreExcludedEvent, getCollectionEvents, refresh };
+  return { collections, membershipMap, createCollection, renameCollection, deleteCollection, addEventToCollection, removeEventFromCollection, restoreExcludedEvent, getCollectionEvents, refresh };
 }

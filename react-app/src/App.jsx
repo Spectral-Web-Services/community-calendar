@@ -91,27 +91,27 @@ function App() {
       <div className="max-w-[1400px] w-full px-4 py-6">
         <Header city={city} events={processedEvents} />
 
-        {/* View mode tabs — only show picks tab when signed in */}
-        <div className="flex gap-1 mb-4">
-          <button
-            onClick={() => setViewMode('cards')}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-              viewMode === 'cards' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
-            }`}
-          >
-            Cards
-          </button>
-          {user && (
+        {/* View mode tabs — only show when signed in */}
+        {user && (
+          <div className="flex gap-1 mb-4">
+            <button
+              onClick={() => setViewMode('cards')}
+              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                viewMode === 'cards' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
+              }`}
+            >
+              Cards
+            </button>
             <button
               onClick={() => setViewMode('picks')}
               className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
                 viewMode === 'picks' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
               }`}
             >
-              My Picks
+              My Collections
             </button>
-          )}
-        </div>
+          </div>
+        )}
 
         {viewMode === 'cards' && (
           <>
