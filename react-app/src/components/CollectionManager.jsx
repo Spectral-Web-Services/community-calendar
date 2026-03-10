@@ -368,7 +368,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                     </button>
                   </div>
                   <p className="text-[10px] text-gray-400 mt-1">
-                    Add <code className="bg-gray-100 px-0.5 rounded">style=compact</code> or <code className="bg-gray-100 px-0.5 rounded">title=My+Events</code> to customize.
+                    Params: <code className="bg-gray-100 px-0.5 rounded">style=compact</code>, <code className="bg-gray-100 px-0.5 rounded">title=My+Events</code>, <code className="bg-gray-100 px-0.5 rounded">bg=%23f9fafb</code>
                   </p>
                 </div>
               )}

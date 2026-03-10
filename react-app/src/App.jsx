@@ -17,12 +17,13 @@ import { useAuth } from './hooks/useAuth.jsx';
 import { getActiveCategories } from './lib/helpers.js';
 
 function App() {
-  const { embed, embedStyle, embedTitle, feed, city } = useMemo(() => {
+  const { embed, embedStyle, embedTitle, embedBg, feed, city } = useMemo(() => {
     const params = new URLSearchParams(window.location.search);
     return {
       embed: params.get('embed') || null,
       embedStyle: params.get('style') || null,
       embedTitle: params.get('title') || null,
+      embedBg: params.get('bg') || null,
       feed: params.get('feed') || null,
       city: params.get('city') || null,
     };
@@ -86,7 +87,7 @@ function App() {
   }, [city]);
 
   if (embed) {
-    return <EmbedView feedId={embed} style={embedStyle} title={embedTitle} />;
+    return <EmbedView feedId={embed} style={embedStyle} title={embedTitle} bg={embedBg} />;
   }
 
   if (feed) {
