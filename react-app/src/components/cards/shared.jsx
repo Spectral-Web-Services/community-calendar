@@ -251,23 +251,20 @@ function BookmarkButton({ event, size = 16 }) {
   const [toggling, setToggling] = React.useState(false);
 
   if (!user) return null;
+  // On feed pages, the X button handles removal — hide bookmark to avoid confusion
+  if (feedCtx?.onRemoveEvent) return null;
 
   const colors = categoryColorMap[event.category];
   const pickedColor = colors ? colors.label : DEFAULT_BOOKMARK_COLOR;
-
-  // On a feed page, bookmark means "remove from this collection"
-  const inFeed = !!feedCtx?.onRemoveEvent;
   const hasTarget = !!target;
   const inTarget = hasTarget && membershipMap[event.id]?.some(c => c.id === target.id);
-  const filled = inFeed ? true : hasTarget ? inTarget : picked;
+  const filled = hasTarget ? inTarget : picked;
 
   async function handleClick() {
     if (toggling) return;
     setToggling(true);
     try {
-      if (inFeed) {
-        await feedCtx.onRemoveEvent(event);
-      } else if (hasTarget) {
+      if (hasTarget) {
         if (inTarget) {
           await removeFromTarget(event.id);
         } else {
@@ -281,12 +278,9 @@ function BookmarkButton({ event, size = 16 }) {
     } finally { setToggling(false); }
   }
 
-  const feedName = feedCtx?.collection?.name || 'collection';
-  const title = inFeed
-    ? `Remove from ${feedName}`
-    : hasTarget
-      ? inTarget ? `Remove from ${target.name}` : `Add to ${target.name}`
-      : picked ? 'Remove from picks' : 'Add to picks';
+  const title = hasTarget
+    ? inTarget ? `Remove from ${target.name}` : `Add to ${target.name}`
+    : picked ? 'Remove from picks' : 'Add to picks';
 
   return (
     <button
