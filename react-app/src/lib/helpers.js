@@ -34,7 +34,7 @@ export function filterEvents(events, term, category) {
 
 // --- Cumulative events (for cards view infinite scroll) ---
 // Returns { events, hasMore }
-export function getCumulativeEvents(events, term, count, category) {
+export function getCumulativeEvents(events, term, count, category, featuredIds) {
   const filtered = filterEvents(events, term, category);
   const n = (Number.isFinite(count) && count > 0) ? count : 50;
   if (!filtered.length) {
@@ -43,8 +43,15 @@ export function getCumulativeEvents(events, term, count, category) {
   if (term) {
     return { events: filtered, hasMore: false };
   }
+  const sliced = filtered.slice(0, n);
+  // Partition featured to top if featuredIds provided
+  if (featuredIds && featuredIds.size > 0) {
+    const featured = sliced.filter(e => featuredIds.has(e.id));
+    const rest = sliced.filter(e => !featuredIds.has(e.id));
+    return { events: [...featured, ...rest], hasMore: filtered.length > n };
+  }
   return {
-    events: filtered.slice(0, n),
+    events: sliced,
     hasMore: filtered.length > n,
   };
 }
@@ -400,6 +407,8 @@ export function applyEnrichments(events, enrichments) {
     if (enrichment.location) overrides.location = enrichment.location;
     if (enrichment.description) overrides.description = enrichment.description;
     if (enrichment.url) overrides.url = enrichment.url;
+
+    if (enrichment.featured) overrides._featured = true;
 
     if (Object.keys(overrides).length === 0) return event;
     return { ...event, ...overrides };

@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react';
+import React, { useState, useCallback, useMemo, useSyncExternalStore } from 'react';
 import CityPicker from './components/CityPicker.jsx';
 import EmbedView from './components/EmbedView.jsx';
 import FeedView from './components/FeedView.jsx';
@@ -14,6 +14,7 @@ import { useProcessedEvents } from './hooks/useProcessedEvents.js';
 import { useInfiniteScroll } from './hooks/useInfiniteScroll.js';
 import { useColumnCount } from './hooks/useColumnCount.js';
 import { useAuth } from './hooks/useAuth.jsx';
+import { useFeatured } from './hooks/useFeatured.jsx';
 import { getActiveCategories } from './lib/helpers.js';
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
   }, []);
 
   const { user } = useAuth();
+  const { featuredStore } = useFeatured();
+  const featuredIds = useSyncExternalStore(featuredStore.subscribe, featuredStore.getSnapshot);
   const [filterTerm, setFilterTerm] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
   const [displayCount, setDisplayCount] = useState(50);
@@ -52,7 +55,8 @@ function App() {
     filterTerm,
     displayCount,
     categoryFilter,
-    columnCount
+    columnCount,
+    featuredIds
   );
 
   const activeCategories = useMemo(

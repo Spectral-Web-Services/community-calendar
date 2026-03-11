@@ -9,7 +9,7 @@ import {
 } from '../lib/helpers.js';
 import { getDateRange } from './useEvents.js';
 
-export function useProcessedEvents(events, enrichments, filterTerm, displayCount, categoryFilter, columnCount) {
+export function useProcessedEvents(events, enrichments, filterTerm, displayCount, categoryFilter, columnCount, featuredIds) {
   const { from, to } = useMemo(() => getDateRange(), []);
 
   const processedEvents = useMemo(() => {
@@ -22,8 +22,8 @@ export function useProcessedEvents(events, enrichments, filterTerm, displayCount
   }, [events, enrichments, from, to]);
 
   const { events: cardEvents, hasMore } = useMemo(() => {
-    return getCumulativeEvents(processedEvents, filterTerm, displayCount, categoryFilter);
-  }, [processedEvents, filterTerm, displayCount, categoryFilter]);
+    return getCumulativeEvents(processedEvents, filterTerm, displayCount, categoryFilter, featuredIds);
+  }, [processedEvents, filterTerm, displayCount, categoryFilter, featuredIds]);
 
   const masonryColumns = useMemo(() => {
     return getMasonryColumns(cardEvents, columnCount);

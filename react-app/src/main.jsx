@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import { AuthProvider } from './hooks/useAuth.jsx'
 import { PicksProvider } from './hooks/usePicks.jsx'
+import { FeaturedProvider } from './hooks/useFeatured.jsx'
 import { TargetCollectionProvider } from './hooks/useTargetCollection.jsx'
 import './index.css'
 
@@ -14,9 +15,11 @@ function Root() {
     <React.StrictMode>
       <AuthProvider>
         <PicksProvider city={city}>
-          <TargetCollectionProvider>
-            <App />
-          </TargetCollectionProvider>
+          <FeaturedProvider city={city}>
+            <TargetCollectionProvider>
+              <App />
+            </TargetCollectionProvider>
+          </FeaturedProvider>
         </PicksProvider>
       </AuthProvider>
     </React.StrictMode>

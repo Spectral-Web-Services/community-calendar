@@ -74,9 +74,18 @@ export function useCollection(feedId) {
           { headers }
         );
         const enrichments = await enrRes.json();
-        const enriched = applyEnrichments(rawEvents, Array.isArray(enrichments) ? enrichments : []);
+        const enrichArr = Array.isArray(enrichments) ? enrichments : [];
+        const enriched = applyEnrichments(rawEvents, enrichArr);
 
-        setEvents(enriched);
+        // Sort featured events to the front
+        const featuredSet = new Set(enrichArr.filter(e => e.featured && e.event_id).map(e => e.event_id));
+        if (featuredSet.size > 0) {
+          const featured = enriched.filter(e => featuredSet.has(e.id));
+          const rest = enriched.filter(e => !featuredSet.has(e.id));
+          setEvents([...featured, ...rest]);
+        } else {
+          setEvents(enriched);
+        }
       } catch {
         setCollection(null);
         setEvents([]);

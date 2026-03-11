@@ -1,13 +1,14 @@
 import React from 'react';
 import { createPortal } from 'react-dom';
 import {
-  Info, CalendarPlus, Download, Bookmark, Pencil, X, Settings2,
+  Info, CalendarPlus, Download, Bookmark, Pencil, X, Settings2, Star,
   Palette, BookOpen, Laugh, Users, Drama, GraduationCap, Baby,
   Film, UtensilsCrossed, Landmark, Heart, Clock, Music,
   TreePine, Church, Dumbbell, Calendar,
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth.jsx';
 import { usePicks, useIsEventPicked } from '../../hooks/usePicks.jsx';
+import { useFeatured, useIsEventFeatured } from '../../hooks/useFeatured.jsx';
 import { useTargetCollection } from '../../hooks/useTargetCollection.jsx';
 import { useFeedContext } from '../../hooks/useFeedContext.jsx';
 import {
@@ -152,6 +153,7 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
               <X size={16} />
             </button>
           )}
+          <StarButton event={event} />
           <BookmarkButton event={event} />
         </div>
       )}
@@ -220,6 +222,7 @@ export function CuratorTools({ event }) {
             <X size={14} />
           </button>
         )}
+        <StarButton event={event} size={14} />
         <BookmarkButton event={event} size={14} />
       </div>
       {showCatModal && (
@@ -237,6 +240,24 @@ export function CuratorTools({ event }) {
         />
       )}
     </>
+  );
+}
+
+function StarButton({ event, size = 16 }) {
+  const { user } = useAuth();
+  const { toggleFeatured } = useFeatured();
+  const featured = useIsEventFeatured(event.id);
+
+  if (!user) return null;
+
+  return (
+    <button
+      onClick={(e) => { e.stopPropagation(); toggleFeatured(event); }}
+      className={`transition-colors ${featured ? 'text-amber-400' : 'text-gray-400 hover:text-amber-400'}`}
+      title={featured ? 'Remove from featured' : 'Feature this event'}
+    >
+      <Star size={size} fill={featured ? 'currentColor' : 'none'} />
+    </button>
   );
 }
 
