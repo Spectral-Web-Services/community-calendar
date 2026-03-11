@@ -16,11 +16,15 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Urban Adamah | `https://www.urbanadamah.org/events/?ical=1` | 30 | Farm + Jewish programming; descriptions contain page HTML - needs cleanup |
 | Kehilla Community Synagogue | `https://www.kehillasynagogue.org/events/?ical=1` | 26 | Good descriptions (meditation, learning, services) |
 | The Magnes Collection (UC Berkeley) | `https://magnes.berkeley.edu/events/?ical=1` | 8 | Jewish art & life museum, good descriptions |
+| Temple Beth Abraham (Oakland) | `https://www.tbaoakland.org/happenings/?ical=1` | 344 | Conservative synagogue, good descriptions |
 
 ### Google Calendar Feeds
 | Source | Feed URL | Events | Notes |
 |--------|----------|--------|-------|
 | Congregation Beth Sholom SF | `https://calendar.google.com/calendar/ical/bethsholomsf%40gmail.com/public/basic.ics` | 7172 | Very large - includes recurring services, will need review |
+| Peninsula Temple Beth El (Worship) | `https://calendar.google.com/calendar/ical/ptbepublic%40gmail.com/public/basic.ics` | 861 | Erev Shabbat, minyan, holidays |
+| Peninsula Temple Beth El (Education) | `https://calendar.google.com/calendar/ical/s2l7r73tbre0l6qm0m2562op78%40group.calendar.google.com/public/basic.ics` | 356 | Classes, study groups |
+| Peninsula Temple Beth El (Community) | `https://calendar.google.com/calendar/ical/38p21cqhdqhliae6im7lms4has%40group.calendar.google.com/public/basic.ics` | 1565 | Social, community events |
 
 ### Meetup Groups
 | Source | Feed URL | Events | Notes |
@@ -38,6 +42,7 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | JCC East Bay | eventbrite.com/o/jcc-east-bay-9035654915 | 3 upcoming events |
 | Jewish Baby Network - East Bay | eventbrite.com/o/jewish-baby-network-jbn-east-bay-56946956693 | Family (0-36 months) |
 | Jewish Baby Network - Peninsula | eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253 | 3 upcoming events |
+| Jewish Baby Network - SF | eventbrite.com/o/jewish-baby-network-jbn-san-francisco-60081113283 | 1 upcoming event |
 
 ## Discovered - Needs Investigation
 
@@ -58,9 +63,6 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Berkeley Hillel | berkeleyhillel.org | WordPress + The Events Calendar | /calendar/ page exists but ICS feed returns empty |
 | Stanford Hillel | stanfordhillel.org | Own website | /event-list; also on events.stanford.edu |
 
-## Discovered - Eventbrite Organizers (need scraper)
-(all moved to Currently Implemented)
-
 ## Discovered - Non-Starters
 
 | Source | Reason |
@@ -68,8 +70,16 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Congregation Sherith Israel | ShulCloud platform, 406 errors on fetch |
 | Congregation Netivot Shalom | ShulCloud platform - no public ICS |
 | Chabad of SF (main site) | 403 Forbidden |
+| Chabad of the Bay Area (jbayarea.org) | 403 Forbidden |
 | Congregation Etz Chayim | 406 error on fetch |
+| Congregation Beth Israel (Berkeley) | WordPress but no calendar plugin; no ICS at /calendar/ or /events/ |
+| Temple Sinai (Oakland) | oaklandsinai.org returns 406 |
+| Congregation Sha'ar Zahav (SF) | ShulCloud platform - no public ICS |
+| Congregation Beth Am (Los Altos Hills) | ShulCloud platform, 406 errors on fetch |
+| Congregation Beth El (Berkeley) | bethelberkeley.org returns 406 |
 | Tribester Jewish Experiences | National aggregator, only 1 Bay Area event |
+| Jewish High Tech Community (jhtc.org) | WordPress but no calendar plugin, no ICS |
+| OneTable (onetable.org) | /events returns 404 |
 | SF Bay Area Jewish Hikers (Meetup) | ICS feed returns 0 events |
 | Friday Night Hub (Meetup) | ICS feed returns 0 events |
 | Bay Area Israelis Meetup | ICS feed returns 0 events |
@@ -78,24 +88,13 @@ This calendar aggregates events from Jewish organizations across the San Francis
 
 ## To Investigate
 
-### More Congregations
-- [ ] Congregation Beth Israel (Berkeley)
-- [ ] Temple Sinai (Oakland)
-- [ ] Congregation Sha'ar Zahav (SF - LGBTQ)
-- [ ] Congregation Beth Am (Los Altos Hills)
-- [ ] Temple Beth Abraham (Oakland)
-- [ ] Peninsula Temple Beth El (San Mateo)
-
-### Other Organizations from Resource Guide
+### Organizations from Resource Guide
 - [ ] Moishe House / Mem Global (redirects to memglobal.org, 404)
-- [ ] OneTable (Shabbat dinners for young adults)
 - [ ] Israel Center of SF / Israeli Consulate events
 - [ ] Jewish Vocational Service (JVS)
 - [ ] Israeli Folk Dancing groups (Cafe Simcha, etc.)
 - [ ] Yiddish cultural organizations
 - [ ] BBYO Central Region West (teen programs)
-- [ ] Jewish High Tech Community (jhtc.org)
-- [ ] Chabad of the Bay Area (jbayarea.org) - Jewish calendar page
 
 ### Resource Guide Categories Not Yet Searched
 - [ ] Agencies & Organizations > Federations
