@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-11T19:42:21.217323",
+  "generated": "2026-03-11T19:49:56.873470",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -37646,7 +37646,7 @@
           "history": [
             {
               "date": "2026-03-11",
-              "count": 0
+              "count": 12
             }
           ]
         },
@@ -37665,16 +37665,40 @@
               "count": 68
             }
           ]
+        },
+        "city_of_evanston": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 10
+            }
+          ]
+        },
+        "city_of_evanston_council": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 4
+            }
+          ]
+        },
+        "city_of_evanston_meetings": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 37
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 444
+          "count": 445
         },
         {
           "category": "Education / Workshops",
-          "count": 403
+          "count": 408
         },
         {
           "category": "Arts / Culture",
@@ -37682,39 +37706,39 @@
         },
         {
           "category": "Community / Social",
-          "count": 144
+          "count": 152
         },
         {
           "category": "Music / Concerts",
-          "count": 136
+          "count": 137
+        },
+        {
+          "category": "Government / Civic",
+          "count": 118
         },
         {
           "category": "Books / Literature / Poetry",
           "count": 112
         },
         {
-          "category": "Government / Civic",
-          "count": 92
-        },
-        {
           "category": "Health / Wellness",
-          "count": 83
+          "count": 84
         },
         {
           "category": "Sports / Fitness",
-          "count": 70
+          "count": 71
         },
         {
           "category": "Film / Cinema",
           "count": 60
         },
         {
-          "category": "Food / Drink",
-          "count": 53
+          "category": "History / Heritage",
+          "count": 57
         },
         {
-          "category": "History / Heritage",
-          "count": 52
+          "category": "Food / Drink",
+          "count": 53
         },
         {
           "category": "Dance / Performance",
@@ -37734,7 +37758,7 @@
         }
       ],
       "images": {
-        "total": 1948,
+        "total": 1996,
         "with_image": 454,
         "by_source": [
           {
@@ -37805,11 +37829,17 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 1948,
-        "total_events": 1948,
-        "unique_urls": 1775,
-        "generic_count": 0,
-        "generic_domains": [],
+        "total_with_url": 1980,
+        "total_events": 1996,
+        "unique_urls": 1790,
+        "generic_count": 12,
+        "generic_domains": [
+          {
+            "domain": "www.eths202.org",
+            "events": 12,
+            "url": "https://www.eths202.org/calendar"
+          }
+        ],
         "http_count": 0,
         "http_domains": 0,
         "source_specificity": [
@@ -37892,15 +37922,15 @@
             "specificity_pct": 100
           },
           {
+            "source": "City of Evanston Meetings",
+            "events": 14,
+            "unique_urls": 8,
+            "specificity_pct": 57
+          },
+          {
             "source": "Nw Womens Lacrosse",
             "events": 14,
             "unique_urls": 14,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Nw Football",
-            "events": 12,
-            "unique_urls": 12,
             "specificity_pct": 100
           }
         ]
