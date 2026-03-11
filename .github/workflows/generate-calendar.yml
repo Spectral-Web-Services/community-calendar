@@ -840,6 +840,7 @@ jobs:
         # Northwestern Athletics (Google Calendar syncs)
         curl -sL -A "Mozilla/5.0" "https://calendar.google.com/calendar/ical/jsngbk0i8va6uorpk6v7jjltfccp94eg%40import.calendar.google.com/public/basic.ics" -o nw_mens_basketball.ics || true
         curl -sL -A "Mozilla/5.0" "https://calendar.google.com/calendar/ical/ho3mvmg665805gfalfr2orsajd95d97n%40import.calendar.google.com/public/basic.ics" -o nw_baseball.ics || true
+        curl -sL -A "Mozilla/5.0" "https://calendar.google.com/calendar/ical/fddenohomaoj9d48m087j9s1kss68kp9%40import.calendar.google.com/public/basic.ics" -o nw_football.ics || true
         # Religious / Community
         curl -sL -A "Mozilla/5.0" "https://bethemet.org/calendar/?ical=1" -o beth_emet.ics || true
         # Government
