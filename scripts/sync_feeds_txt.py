@@ -26,6 +26,10 @@ CITY_SECTIONS = {
     'petaluma': 'Petaluma',
     'toronto': 'Toronto',
     'raleighdurham': 'Raleigh-Durham',
+    'montclair': 'Montclair',
+    'roanoke': 'Roanoke',
+    'matsu': 'MatSu (Matanuska-Susitna)',
+    'jweekly': 'JWeekly (Jewish Northern California)',
 }
 
 
