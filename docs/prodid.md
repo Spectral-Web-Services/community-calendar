@@ -210,6 +210,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 |--------|------|-------|
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//DaylightPirates//EB-to-iCAL//EN` | raleighdurham | quail_ridge_books |
+| `-//SIDEARM Sports//NONSGML SIDEARM//EN` | evanston | nw_baseball, nw_field_hockey, nw_football, nw_mens_basketball, nw_mens_soccer, nw_softball, nw_volleyball, nw_womens_basketball, nw_womens_lacrosse, nw_womens_soccer, nw_womens_swimming, nw_wrestling |
 | `-//SIDEARM Sports//NONSGML SIDEARM//EN` | montclair | msu_athletics |
 | `-//SIDEARM Sports//NONSGML SIDEARM//EN` | raleighdurham | duke_athletics, ncsu_athletics, unc_athletics |
 | `-//Sabre//Sabre VObject 4.5.8//EN` | evanston | lincolnwood_library, morton_grove_library, skokie_library, winnetka_northfield_library |

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-11T17:34:44.626604",
+  "generated": "2026-03-11T18:02:23.379480",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -37433,77 +37433,181 @@
               "count": 270
             }
           ]
+        },
+        "northwestern": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 291
+            }
+          ]
+        },
+        "nw_baseball": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 40
+            }
+          ]
+        },
+        "nw_field_hockey": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "nw_football": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 12
+            }
+          ]
+        },
+        "nw_mens_basketball": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 2
+            }
+          ]
+        },
+        "nw_mens_soccer": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "nw_softball": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 29
+            }
+          ]
+        },
+        "nw_volleyball": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "nw_womens_basketball": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "nw_womens_lacrosse": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 16
+            }
+          ]
+        },
+        "nw_womens_soccer": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "nw_womens_swimming": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 1
+            }
+          ]
+        },
+        "nw_wrestling": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 1
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 433
+          "count": 435
         },
         {
           "category": "Education / Workshops",
-          "count": 331
+          "count": 340
+        },
+        {
+          "category": "Arts / Culture",
+          "count": 201
         },
         {
           "category": "Community / Social",
-          "count": 132
+          "count": 135
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 101
+          "count": 105
         },
         {
           "category": "Government / Civic",
           "count": 90
         },
         {
-          "category": "Arts / Culture",
-          "count": 75
+          "category": "Music / Concerts",
+          "count": 73
+        },
+        {
+          "category": "Sports / Fitness",
+          "count": 68
         },
         {
           "category": "Health / Wellness",
-          "count": 59
+          "count": 60
         },
         {
           "category": "Film / Cinema",
-          "count": 56
+          "count": 58
         },
         {
           "category": "History / Heritage",
-          "count": 51
-        },
-        {
-          "category": "Music / Concerts",
-          "count": 29
+          "count": 52
         },
         {
           "category": "Dance / Performance",
-          "count": 21
+          "count": 33
         },
         {
           "category": "Food / Drink",
           "count": 18
         },
         {
+          "category": "Religion / Spirituality",
+          "count": 16
+        },
+        {
           "category": "Nature / Outdoors / Recreation",
           "count": 16
         },
         {
-          "category": "Religion / Spirituality",
-          "count": 15
-        },
-        {
           "category": "Comedy / Improv",
-          "count": 5
-        },
-        {
-          "category": "Sports / Fitness",
-          "count": 1
+          "count": 6
         }
       ],
       "images": {
-        "total": 1433,
-        "with_image": 251,
+        "total": 1706,
+        "with_image": 252,
         "by_source": [
           {
             "source": "Winnetka Northfield Library",
@@ -37518,7 +37622,7 @@
           {
             "source": "Beth Emet",
             "total": 29,
-            "with_image": 23
+            "with_image": 24
           },
           {
             "source": "Meetup Af Northshore",
@@ -37558,9 +37662,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 1433,
-        "total_events": 1433,
-        "unique_urls": 1389,
+        "total_with_url": 1706,
+        "total_events": 1706,
+        "unique_urls": 1533,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -37591,9 +37695,21 @@
             "specificity_pct": 100
           },
           {
+            "source": "Northwestern University",
+            "events": 206,
+            "unique_urls": 77,
+            "specificity_pct": 37
+          },
+          {
             "source": "Lincolnwood Library",
             "events": 151,
             "unique_urls": 151,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Nw Baseball",
+            "events": 38,
+            "unique_urls": 38,
             "specificity_pct": 100
           },
           {
@@ -37621,6 +37737,18 @@
             "specificity_pct": 100
           },
           {
+            "source": "Nw Womens Lacrosse",
+            "events": 14,
+            "unique_urls": 14,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Nw Football",
+            "events": 12,
+            "unique_urls": 12,
+            "specificity_pct": 100
+          },
+          {
             "source": "Meetup Af Northshore",
             "events": 10,
             "unique_urls": 10,
@@ -37630,30 +37758,6 @@
             "source": "Meetup Evanston Writers",
             "events": 10,
             "unique_urls": 10,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup Drum Circle",
-            "events": 10,
-            "unique_urls": 10,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Lincolnwood Library, Winnetka Northfield Library",
-            "events": 6,
-            "unique_urls": 6,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Skokie Library, Winnetka Northfield Library",
-            "events": 4,
-            "unique_urls": 4,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup: Yolo Board Game Gathering",
-            "events": 3,
-            "unique_urls": 3,
             "specificity_pct": 100
           }
         ]
