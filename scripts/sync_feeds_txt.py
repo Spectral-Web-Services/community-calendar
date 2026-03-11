@@ -30,7 +30,7 @@ CITY_SECTIONS = {
     'roanoke': 'Roanoke',
     'matsu': 'MatSu (Matanuska-Susitna)',
     'jweekly': 'JWeekly (Jewish Northern California)',
-    'evanston': 'Evanston',
+    'evanston': 'Evanston, IL',
 }
 
 
