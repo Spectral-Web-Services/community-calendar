@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-11T14:46:59.471570",
+  "generated": "2026-03-11T16:31:43.609814",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -37002,32 +37002,104 @@
               "count": 29
             }
           ]
+        },
+        "adamah": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 30
+            }
+          ]
+        },
+        "eventbrite_jbn_sf": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "jewishlearningworks": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 2
+            }
+          ]
+        },
+        "jvs": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 4
+            }
+          ]
+        },
+        "ptbe_community": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 25
+            }
+          ]
+        },
+        "ptbe_education": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "ptbe_worship": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 56
+            }
+          ]
+        },
+        "temple_beth_abraham": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 344
+            }
+          ]
         }
       },
       "categories": [
         {
-          "category": "Community / Social",
-          "count": 52
+          "category": "Religion / Spirituality",
+          "count": 201
         },
         {
           "category": "Education / Workshops",
-          "count": 27
+          "count": 168
+        },
+        {
+          "category": "Community / Social",
+          "count": 71
         },
         {
           "category": "Family / Kids",
-          "count": 24
+          "count": 28
         },
         {
-          "category": "Religion / Spirituality",
-          "count": 19
+          "category": "Government / Civic",
+          "count": 26
         },
         {
           "category": "Food / Drink",
-          "count": 15
+          "count": 20
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 12
+          "count": 14
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 11
         },
         {
           "category": "Music / Concerts",
@@ -37035,31 +37107,23 @@
         },
         {
           "category": "Health / Wellness",
+          "count": 7
+        },
+        {
+          "category": "Nature / Outdoors / Recreation",
           "count": 6
         },
         {
           "category": "Arts / Culture",
-          "count": 5
-        },
-        {
-          "category": "Nature / Outdoors / Recreation",
-          "count": 4
+          "count": 6
         },
         {
           "category": "History / Heritage",
-          "count": 4
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 3
+          "count": 5
         },
         {
           "category": "Dance / Performance",
           "count": 3
-        },
-        {
-          "category": "Government / Civic",
-          "count": 2
         },
         {
           "category": "Comedy / Improv",
@@ -37071,8 +37135,8 @@
         }
       ],
       "images": {
-        "total": 186,
-        "with_image": 109,
+        "total": 576,
+        "with_image": 126,
         "by_source": [
           {
             "source": "Jcc East Bay",
@@ -37081,12 +37145,17 @@
           },
           {
             "source": "Urban Adamah",
-            "total": 28,
-            "with_image": 19
+            "total": 27,
+            "with_image": 18
           },
           {
             "source": "Jewish Fed",
             "total": 21,
+            "with_image": 15
+          },
+          {
+            "source": "Adamah",
+            "total": 15,
             "with_image": 15
           },
           {
@@ -37115,6 +37184,11 @@
             "with_image": 5
           },
           {
+            "source": "Temple Beth Abraham",
+            "total": 341,
+            "with_image": 3
+          },
+          {
             "source": "Meetup Jewish Singles",
             "total": 3,
             "with_image": 3
@@ -37137,14 +37211,20 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 161,
-        "total_events": 186,
-        "unique_urls": 161,
+        "total_with_url": 523,
+        "total_events": 576,
+        "unique_urls": 523,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
         "http_domains": 0,
         "source_specificity": [
+          {
+            "source": "Temple Beth Abraham",
+            "events": 341,
+            "unique_urls": 341,
+            "specificity_pct": 100
+          },
           {
             "source": "Jcc East Bay",
             "events": 28,
@@ -37153,8 +37233,8 @@
           },
           {
             "source": "Urban Adamah",
-            "events": 28,
-            "unique_urls": 28,
+            "events": 27,
+            "unique_urls": 27,
             "specificity_pct": 100
           },
           {
@@ -37171,6 +37251,12 @@
           },
           {
             "source": "Jweekly",
+            "events": 15,
+            "unique_urls": 15,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Adamah",
             "events": 15,
             "unique_urls": 15,
             "specificity_pct": 100
@@ -37200,6 +37286,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "Jvs",
+            "events": 4,
+            "unique_urls": 4,
+            "specificity_pct": 100
+          },
+          {
             "source": "Meetup Jewish Singles",
             "events": 3,
             "unique_urls": 3,
@@ -37215,24 +37307,6 @@
             "source": "JCCSF, Jccsf",
             "events": 3,
             "unique_urls": 3,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup Bayareajews",
-            "events": 2,
-            "unique_urls": 2,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Jcc East Bay, Jewish Fed",
-            "events": 1,
-            "unique_urls": 1,
-            "specificity_pct": 100
-          },
-          {
-            "source": "JCCSF, Jccsf, Jweekly",
-            "events": 1,
-            "unique_urls": 1,
             "specificity_pct": 100
           }
         ]

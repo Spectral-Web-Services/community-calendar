@@ -1,138 +1,164 @@
-2026-03-11 14:45:45,007 - INFO - Scraping JCCSF
-2026-03-11 14:45:47,031 - INFO - Discovered 24 event URLs from organizer page
-2026-03-11 14:45:47,031 - INFO - Fetching 24 event pages (parallel)...
-2026-03-11 14:45:47,869 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-passover-create-your-own-meaningful-seder-registration-1981902155699
-2026-03-11 14:45:47,896 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/newborn-playgroup-registration-1977747580252
-2026-03-11 14:45:48,043 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sarah-silverman-in-conversation-tickets-1982933098276
-2026-03-11 14:45:48,479 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/roots-fruits-a-tu-bishvat-seder-printmaking-workshop-registration-1978348946956
-2026-03-11 14:45:48,552 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/maxine-sharf-maxis-kitchen-book-tour-tickets-1980493952726
-2026-03-11 14:45:49,185 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dance-with-us-zumbathon-2026-registration-1977999549900
-2026-03-11 14:45:49,320 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purimpalooza-registration-1981052035968
-2026-03-11 14:45:49,435 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/understanding-anosognosia-hidden-barrier-in-dementia-care-registration-1981797963056
-2026-03-11 14:45:49,567 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/live-long-prosper-jews-star-trek-registration-1980672668269
-2026-03-11 14:45:49,625 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-play-become-purim-mask-making-workshop-registration-1980520244365
-2026-03-11 14:45:49,825 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-registration-1981046075139
-2026-03-11 14:45:49,961 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1980032568714
-2026-03-11 14:45:50,024 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/zoe-aqua-and-her-transylvanian-string-band-in-a-sea-of-stars-tickets-1980011804608
-2026-03-11 14:45:50,159 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-registration-1977673868779
-2026-03-11 14:45:50,467 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/roots-wings-gallery-reception-artist-talk-with-ronit-shalem-registration-1983390898569
-2026-03-11 14:45:50,497 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-san-francisco-symphony-presents-a-purim-community-concert-registration-1981799638066
-2026-03-11 14:45:50,662 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rebecca-newberger-goldstein-the-mattering-instinct-tickets-1978327130703
-2026-03-11 14:45:50,881 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/monet-venice-a-groundbreaking-exhibition-registration-1983910013255
-2026-03-11 14:45:50,943 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-girl-swing-bands-female-entertainers-wwii-registration-1981807169593
-2026-03-11 14:45:50,944 - INFO - Got 5 future events
-2026-03-11 14:45:50,944 - INFO - Found 5 events
-2026-03-11 14:45:50,945 - INFO - Written to cities/jweekly/eventbrite_jccsf.ics
-2026-03-11 14:45:51,096 - INFO - Scraping Congregation Emanu-El SF
-2026-03-11 14:45:52,288 - INFO - Discovered 5 event URLs from organizer page
-2026-03-11 14:45:52,288 - INFO - Fetching 5 event pages (parallel)...
-2026-03-11 14:45:52,951 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/israeli-superstar-david-broza-in-concert-tickets-1613110690499
-2026-03-11 14:45:52,964 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/emmanuel-acho-at-congregation-emanu-el-san-francisco-tickets-1778174540919
-2026-03-11 14:45:52,966 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/winner-of-the-2024-national-jewish-councils-book-of-the-year-tickets-1269729116969
-2026-03-11 14:45:52,972 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/koleinu-things-are-gonna-change-tickets-1976926979814
-2026-03-11 14:45:53,314 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yossi-klein-halevi-at-emanu-el-tickets-1319523894489
-2026-03-11 14:45:53,315 - INFO - Got 0 future events
-2026-03-11 14:45:53,315 - INFO - Found 0 events
-2026-03-11 14:45:53,315 - INFO - Written to cities/jweekly/eventbrite_emanu_el.ics
-2026-03-11 14:45:53,464 - INFO - Scraping Chabad SF SOMA Shul
-2026-03-11 14:45:55,437 - INFO - Discovered 13 event URLs from organizer page
-2026-03-11 14:45:55,437 - INFO - Fetching 13 event pages (parallel)...
-2026-03-11 14:45:56,262 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-mingle-in-the-sukkah-tickets-1708762878769
-2026-03-11 14:45:56,293 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-fall-edition-tickets-1956879883409
-2026-03-11 14:45:56,312 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/chanukah-lux-tickets-1968322667083
-2026-03-11 14:45:56,531 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-courage-connection-tickets-1478621198809
-2026-03-11 14:45:56,974 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-happy-hour-40s-up-tickets-1465682117669
-2026-03-11 14:45:57,023 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-winter-shabbat-tickets-1979935351936
-2026-03-11 14:45:57,201 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1583607184719
-2026-03-11 14:45:57,228 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1872012994259
-2026-03-11 14:45:57,337 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-madarae-tickets-1981651817932
-2026-03-11 14:45:57,712 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-feast-tickets-1983383564633
-2026-03-11 14:45:57,809 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/havdalah-pizza-tickets-1981611634743
-2026-03-11 14:45:58,004 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/artisan-hamantash-bake-tickets-1982802035263
-2026-03-11 14:45:58,005 - INFO - Got 1 future events
-2026-03-11 14:45:58,005 - INFO - Found 1 events
-2026-03-11 14:45:58,006 - INFO - Written to cities/jweekly/eventbrite_chabad_soma.ics
-2026-03-11 14:45:58,156 - INFO - Scraping JCC East Bay
-2026-03-11 14:46:00,338 - INFO - Discovered 18 event URLs from organizer page
-2026-03-11 14:46:00,338 - INFO - Fetching 18 event pages (parallel)...
-2026-03-11 14:46:00,662 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-carnival-under-the-sea-tickets-1980420984476
-2026-03-11 14:46:01,037 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-december-1-2025-tickets-1296259329549
-2026-03-11 14:46:01,054 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/older-adult-chanukah-luncheon-tickets-1873570623169
-2026-03-11 14:46:01,144 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976923082156
-2026-03-11 14:46:01,222 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-september-29-2025-tickets-1296257423849
-2026-03-11 14:46:01,769 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976918523521
-2026-03-11 14:46:01,868 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-chanukah-festival-spark-tickets-1962765225626
-2026-03-11 14:46:02,009 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/empower-yourself-against-antisemitism-on-social-media-tickets-1984335716545
-2026-03-11 14:46:02,041 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1762088075869
-2026-03-11 14:46:02,253 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-october-27-2025-tickets-1296258085829
-2026-03-11 14:46:02,682 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/hands-on-passover-cooking-workshop-with-aliza-grayevsky-somekh-of-bishulim-tickets-1984343795710
-2026-03-11 14:46:02,930 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yom-hashoah-tales-from-a-survivors-descendant-tickets-1984500775240
-2026-03-11 14:46:03,003 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-sukkot-shake-your-lulav-and-etrog-tickets-1670001402149
-2026-03-11 14:46:03,386 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tu-bshvat-family-celebration-tickets-1977454610973
-2026-03-11 14:46:03,662 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/cantamos-tickets-1629074438499
-2026-03-11 14:46:03,662 - INFO - Got 3 future events
-2026-03-11 14:46:03,663 - INFO - Found 3 events
-2026-03-11 14:46:03,664 - INFO - Written to cities/jweekly/eventbrite_jcc_east_bay.ics
-2026-03-11 14:46:03,815 - INFO - Scraping Jewish Baby Network East Bay
-2026-03-11 14:46:05,165 - INFO - Discovered 12 event URLs from organizer page
-2026-03-11 14:46:05,166 - INFO - Fetching 12 event pages (parallel)...
-2026-03-11 14:46:05,881 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-park-registration-1404168518839
-2026-03-11 14:46:05,919 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shake-the-lulav-sukkot-celebration-registration-1708176545029
-2026-03-11 14:46:06,030 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-newborn-playgroup-for-babies-0-9-months-registration-1451170162019
-2026-03-11 14:46:06,053 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1485385059699
-2026-03-11 14:46:06,104 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1404019342649
-2026-03-11 14:46:06,483 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1319521657799
-2026-03-11 14:46:06,719 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shavuot-ice-cream-party-registration-1319537836189
-2026-03-11 14:46:06,827 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-pride-party-registration-1369176928049
-2026-03-11 14:46:06,928 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/apples-and-honey-rosh-hashanah-celebration-registration-1602970079659
-2026-03-11 14:46:06,933 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-by-the-lake-registration-1299962204949
-2026-03-11 14:46:07,195 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-ready-for-thanksgiving-registration-1810068606929
-2026-03-11 14:46:07,683 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dreidels-dancing-and-donuts-registration-1963648697113
-2026-03-11 14:46:07,683 - INFO - Got 0 future events
-2026-03-11 14:46:07,684 - INFO - Found 0 events
-2026-03-11 14:46:07,684 - INFO - Written to cities/jweekly/eventbrite_jbn_east_bay.ics
-2026-03-11 14:46:07,834 - INFO - Scraping Jewish Baby Network Peninsula
-2026-03-11 14:46:09,215 - INFO - Discovered 12 event URLs from organizer page
-2026-03-11 14:46:09,215 - INFO - Fetching 12 event pages (parallel)...
-2026-03-11 14:46:09,904 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-sunday-funday-registration-1830301203169
-2026-03-11 14:46:09,920 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-garden-registration-1316839254659
-2026-03-11 14:46:10,111 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451150603519
-2026-03-11 14:46:10,181 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/peninsula-newborn-playgroup-for-babies-0-9-months-registration-1574595009059
-2026-03-11 14:46:10,322 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/fall-family-fun-havdalah-registration-1775217024909
-2026-03-11 14:46:10,752 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1314185035819
-2026-03-11 14:46:10,804 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1316910347299
-2026-03-11 14:46:10,990 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/festival-of-lights-hanukkah-party-registration-1963549079153
-2026-03-11 14:46:11,083 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rosh-hashanah-a-sweet-new-year-registration-1564809470249
-2026-03-11 14:46:11,168 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tot-shabbat-picnic-registration-1481949554009
-2026-03-11 14:46:11,689 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451147795119
-2026-03-11 14:46:11,792 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sukkot-party-in-the-sukkah-registration-1670336424209
-2026-03-11 14:46:11,793 - INFO - Got 0 future events
-2026-03-11 14:46:11,793 - INFO - Found 0 events
-2026-03-11 14:46:11,793 - INFO - Written to cities/jweekly/eventbrite_jbn_peninsula.ics
-2026-03-11 14:46:26,819 - INFO - Processing meetup_bayareajews.ics...
-2026-03-11 14:46:26,820 - INFO -   Fetching image for: https://www.meetup.com/bayareajews/events/313611489/
-2026-03-11 14:46:28,679 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/3/5/600_533012053.jpeg
-2026-03-11 14:46:28,679 - INFO -   Fetching image for: https://www.meetup.com/bayareajews/events/313611763/
-2026-03-11 14:46:31,826 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/c/e/600_533012206.jpeg
-2026-03-11 14:46:31,827 - INFO - meetup_bayareajews.ics: added 2 image(s)
-2026-03-11 14:46:31,827 - INFO - Processing meetup_jewish_singles.ics...
-2026-03-11 14:46:31,827 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313436197/
-2026-03-11 14:46:32,684 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
-2026-03-11 14:46:32,685 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313436582/
-2026-03-11 14:46:33,623 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
-2026-03-11 14:46:33,624 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313566009/
-2026-03-11 14:46:34,657 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
-2026-03-11 14:46:34,657 - INFO - meetup_jewish_singles.ics: added 3 image(s)
-2026-03-11 14:46:34,657 - INFO - Processing meetup_mountain_jew.ics...
-2026-03-11 14:46:34,658 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622188/
-2026-03-11 14:46:35,444 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/6/c/4/600_533022692.jpeg
-2026-03-11 14:46:35,444 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622189/
-2026-03-11 14:46:36,254 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/5/a/600_532933402.jpeg
-2026-03-11 14:46:36,254 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313533754/
-2026-03-11 14:46:37,349 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/3/3/600_532920819.jpeg
-2026-03-11 14:46:37,349 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622190/
-2026-03-11 14:46:38,124 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/5/a/600_532933402.jpeg
-2026-03-11 14:46:38,124 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313533755/
-2026-03-11 14:46:40,381 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/3/4/600_532920820.jpeg
-2026-03-11 14:46:40,381 - INFO - meetup_mountain_jew.ics: added 5 image(s)
-2026-03-11 14:46:40,381 - INFO - Done. Total images added: 10
+2026-03-11 16:30:00,093 - JewishLearningWorksScraper - INFO - Scraping Jewish LearningWorks
+2026-03-11 16:30:00,303 - __main__ - INFO - Found 21 events from API
+2026-03-11 16:30:00,826 - __main__ - INFO -   2026-05-19 — 2026 Ruby Award: Inside the Adolescent Mind
+2026-03-11 16:30:00,990 - __main__ - INFO -   2026-05-05 — Voices for Good Fellowship Siyum
+2026-03-11 16:30:01,648 - __main__ - INFO -   2026-03-13 — Israel in Early Childhood Education: Embracing Complexity with Care
+2026-03-11 16:30:04,249 - JewishLearningWorksScraper - INFO - Filtered 1 events beyond 2 months out
+2026-03-11 16:30:04,249 - JewishLearningWorksScraper - INFO - Found 2 events
+2026-03-11 16:30:04,250 - JewishLearningWorksScraper - INFO - Written to cities/jweekly/jewishlearningworks.ics
+2026-03-11 16:30:04,423 - INFO - Scraping JCCSF
+2026-03-11 16:30:06,194 - INFO - Discovered 24 event URLs from organizer page
+2026-03-11 16:30:06,194 - INFO - Fetching 24 event pages (parallel)...
+2026-03-11 16:30:06,920 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/monet-venice-a-groundbreaking-exhibition-registration-1983910013255
+2026-03-11 16:30:06,922 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/roots-fruits-a-tu-bishvat-seder-printmaking-workshop-registration-1978348946956
+2026-03-11 16:30:07,079 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/live-long-prosper-jews-star-trek-registration-1980672668269
+2026-03-11 16:30:07,271 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sarah-silverman-in-conversation-tickets-1982933098276
+2026-03-11 16:30:07,500 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-registration-1977673868779
+2026-03-11 16:30:07,608 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/zoe-aqua-and-her-transylvanian-string-band-in-a-sea-of-stars-tickets-1980011804608
+2026-03-11 16:30:07,886 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-san-francisco-symphony-presents-a-purim-community-concert-registration-1981799638066
+2026-03-11 16:30:08,166 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1980032568714
+2026-03-11 16:30:08,194 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purimpalooza-registration-1981052035968
+2026-03-11 16:30:08,554 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-passover-create-your-own-meaningful-seder-registration-1981902155699
+2026-03-11 16:30:08,624 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dance-with-us-zumbathon-2026-registration-1977999549900
+2026-03-11 16:30:08,702 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rebecca-newberger-goldstein-the-mattering-instinct-tickets-1978327130703
+2026-03-11 16:30:09,004 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-registration-1981046075139
+2026-03-11 16:30:09,060 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/maxine-sharf-maxis-kitchen-book-tour-tickets-1980493952726
+2026-03-11 16:30:09,171 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/newborn-playgroup-registration-1977747580252
+2026-03-11 16:30:09,260 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/understanding-anosognosia-hidden-barrier-in-dementia-care-registration-1981797963056
+2026-03-11 16:30:09,691 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/roots-wings-gallery-reception-artist-talk-with-ronit-shalem-registration-1983390898569
+2026-03-11 16:30:09,751 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-girl-swing-bands-female-entertainers-wwii-registration-1981807169593
+2026-03-11 16:30:10,015 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-play-become-purim-mask-making-workshop-registration-1980520244365
+2026-03-11 16:30:10,016 - INFO - Got 5 future events
+2026-03-11 16:30:10,016 - INFO - Found 5 events
+2026-03-11 16:30:10,017 - INFO - Written to cities/jweekly/eventbrite_jccsf.ics
+2026-03-11 16:30:10,167 - INFO - Scraping Congregation Emanu-El SF
+2026-03-11 16:30:11,133 - INFO - Discovered 5 event URLs from organizer page
+2026-03-11 16:30:11,133 - INFO - Fetching 5 event pages (parallel)...
+2026-03-11 16:30:11,650 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yossi-klein-halevi-at-emanu-el-tickets-1319523894489
+2026-03-11 16:30:11,866 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/israeli-superstar-david-broza-in-concert-tickets-1613110690499
+2026-03-11 16:30:11,946 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/winner-of-the-2024-national-jewish-councils-book-of-the-year-tickets-1269729116969
+2026-03-11 16:30:11,995 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/emmanuel-acho-at-congregation-emanu-el-san-francisco-tickets-1778174540919
+2026-03-11 16:30:12,044 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/koleinu-things-are-gonna-change-tickets-1976926979814
+2026-03-11 16:30:12,044 - INFO - Got 0 future events
+2026-03-11 16:30:12,045 - INFO - Found 0 events
+2026-03-11 16:30:12,045 - INFO - Written to cities/jweekly/eventbrite_emanu_el.ics
+2026-03-11 16:30:12,195 - INFO - Scraping Chabad SF SOMA Shul
+2026-03-11 16:30:13,481 - INFO - Discovered 13 event URLs from organizer page
+2026-03-11 16:30:13,481 - INFO - Fetching 13 event pages (parallel)...
+2026-03-11 16:30:14,101 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-winter-shabbat-tickets-1979935351936
+2026-03-11 16:30:14,383 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-feast-tickets-1983383564633
+2026-03-11 16:30:14,401 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/chanukah-lux-tickets-1968322667083
+2026-03-11 16:30:14,465 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1583607184719
+2026-03-11 16:30:14,498 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-happy-hour-40s-up-tickets-1465682117669
+2026-03-11 16:30:14,895 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/havdalah-pizza-tickets-1981611634743
+2026-03-11 16:30:15,020 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/artisan-hamantash-bake-tickets-1982802035263
+2026-03-11 16:30:15,263 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-madarae-tickets-1981651817932
+2026-03-11 16:30:15,280 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1872012994259
+2026-03-11 16:30:15,632 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-mingle-in-the-sukkah-tickets-1708762878769
+2026-03-11 16:30:15,871 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-courage-connection-tickets-1478621198809
+2026-03-11 16:30:15,906 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-fall-edition-tickets-1956879883409
+2026-03-11 16:30:15,907 - INFO - Got 1 future events
+2026-03-11 16:30:15,907 - INFO - Found 1 events
+2026-03-11 16:30:15,908 - INFO - Written to cities/jweekly/eventbrite_chabad_soma.ics
+2026-03-11 16:30:16,061 - INFO - Scraping JCC East Bay
+2026-03-11 16:30:17,655 - INFO - Discovered 18 event URLs from organizer page
+2026-03-11 16:30:17,655 - INFO - Fetching 18 event pages (parallel)...
+2026-03-11 16:30:18,287 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-october-27-2025-tickets-1296258085829
+2026-03-11 16:30:18,500 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-chanukah-festival-spark-tickets-1962765225626
+2026-03-11 16:30:18,507 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-sukkot-shake-your-lulav-and-etrog-tickets-1670001402149
+2026-03-11 16:30:18,531 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976918523521
+2026-03-11 16:30:19,109 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-september-29-2025-tickets-1296257423849
+2026-03-11 16:30:19,195 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1762088075869
+2026-03-11 16:30:19,211 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/hands-on-passover-cooking-workshop-with-aliza-grayevsky-somekh-of-bishulim-tickets-1984343795710
+2026-03-11 16:30:19,828 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-carnival-under-the-sea-tickets-1980420984476
+2026-03-11 16:30:19,939 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976923082156
+2026-03-11 16:30:19,952 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yom-hashoah-tales-from-a-survivors-descendant-tickets-1984500775240
+2026-03-11 16:30:19,976 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/empower-yourself-against-antisemitism-on-social-media-tickets-1984335716545
+2026-03-11 16:30:20,263 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/older-adult-chanukah-luncheon-tickets-1873570623169
+2026-03-11 16:30:20,523 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/cantamos-tickets-1629074438499
+2026-03-11 16:30:20,631 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-december-1-2025-tickets-1296259329549
+2026-03-11 16:30:20,762 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tu-bshvat-family-celebration-tickets-1977454610973
+2026-03-11 16:30:20,763 - INFO - Got 3 future events
+2026-03-11 16:30:20,763 - INFO - Found 3 events
+2026-03-11 16:30:20,764 - INFO - Written to cities/jweekly/eventbrite_jcc_east_bay.ics
+2026-03-11 16:30:20,920 - INFO - Scraping Jewish Baby Network East Bay
+2026-03-11 16:30:21,952 - INFO - Discovered 12 event URLs from organizer page
+2026-03-11 16:30:21,952 - INFO - Fetching 12 event pages (parallel)...
+2026-03-11 16:30:22,569 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shake-the-lulav-sukkot-celebration-registration-1708176545029
+2026-03-11 16:30:22,778 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-newborn-playgroup-for-babies-0-9-months-registration-1451170162019
+2026-03-11 16:30:22,793 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-by-the-lake-registration-1299962204949
+2026-03-11 16:30:22,854 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1319521657799
+2026-03-11 16:30:22,893 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dreidels-dancing-and-donuts-registration-1963648697113
+2026-03-11 16:30:23,106 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-pride-party-registration-1369176928049
+2026-03-11 16:30:23,332 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1485385059699
+2026-03-11 16:30:23,415 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1404019342649
+2026-03-11 16:30:23,575 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shavuot-ice-cream-party-registration-1319537836189
+2026-03-11 16:30:23,671 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-ready-for-thanksgiving-registration-1810068606929
+2026-03-11 16:30:23,957 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-park-registration-1404168518839
+2026-03-11 16:30:23,969 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/apples-and-honey-rosh-hashanah-celebration-registration-1602970079659
+2026-03-11 16:30:23,970 - INFO - Got 0 future events
+2026-03-11 16:30:23,970 - INFO - Found 0 events
+2026-03-11 16:30:23,970 - INFO - Written to cities/jweekly/eventbrite_jbn_east_bay.ics
+2026-03-11 16:30:24,121 - INFO - Scraping Jewish Baby Network Peninsula
+2026-03-11 16:30:25,510 - INFO - Discovered 12 event URLs from organizer page
+2026-03-11 16:30:25,510 - INFO - Fetching 12 event pages (parallel)...
+2026-03-11 16:30:26,147 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rosh-hashanah-a-sweet-new-year-registration-1564809470249
+2026-03-11 16:30:26,248 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-garden-registration-1316839254659
+2026-03-11 16:30:26,330 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451147795119
+2026-03-11 16:30:26,350 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/peninsula-newborn-playgroup-for-babies-0-9-months-registration-1574595009059
+2026-03-11 16:30:26,426 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sukkot-party-in-the-sukkah-registration-1670336424209
+2026-03-11 16:30:26,895 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1314185035819
+2026-03-11 16:30:26,938 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451150603519
+2026-03-11 16:30:26,974 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/fall-family-fun-havdalah-registration-1775217024909
+2026-03-11 16:30:27,087 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1316910347299
+2026-03-11 16:30:27,228 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tot-shabbat-picnic-registration-1481949554009
+2026-03-11 16:30:27,466 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/festival-of-lights-hanukkah-party-registration-1963549079153
+2026-03-11 16:30:27,545 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-sunday-funday-registration-1830301203169
+2026-03-11 16:30:27,546 - INFO - Got 0 future events
+2026-03-11 16:30:27,546 - INFO - Found 0 events
+2026-03-11 16:30:27,546 - INFO - Written to cities/jweekly/eventbrite_jbn_peninsula.ics
+2026-03-11 16:30:27,698 - INFO - Scraping Jewish Baby Network SF
+2026-03-11 16:30:28,942 - INFO - Discovered 12 event URLs from organizer page
+2026-03-11 16:30:28,942 - INFO - Fetching 12 event pages (parallel)...
+2026-03-11 16:30:29,513 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/love-you-a-latke-hanukkah-party-registration-1077875728319
+2026-03-11 16:30:29,543 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sing-shalom-registration-1250085091159
+2026-03-11 16:30:29,547 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sing-shalom-registration-1291976710119
+2026-03-11 16:30:29,555 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tots-together-in-the-sukkah-registration-1008857348487
+2026-03-11 16:30:29,754 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sf-newborn-playgroup-for-babies-0-9-months-registration-1275219067559
+2026-03-11 16:30:30,102 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-musical-mitzvah-morning-registration-1115844945269
+2026-03-11 16:30:30,130 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sf-newborn-playgroup-for-babies-0-9-months-registration-1008855603267
+2026-03-11 16:30:30,146 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/love-you-a-latke-hanukkah-party-registration-1963578256423
+2026-03-11 16:30:30,318 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/birthday-of-the-trees-registration-1124743220249
+2026-03-11 16:30:30,517 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rosh-hashanah-extravaganza-registration-976502072987
+2026-03-11 16:30:30,952 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/intergenerational-gratitude-playdate-registration-1044518772767
+2026-03-11 16:30:32,729 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-registration-942603862527
+2026-03-11 16:30:32,729 - INFO - Got 0 future events
+2026-03-11 16:30:32,729 - INFO - Found 0 events
+2026-03-11 16:30:32,730 - INFO - Written to cities/jweekly/eventbrite_jbn_sf.ics
+2026-03-11 16:31:00,275 - INFO - Processing meetup_bayareajews.ics...
+2026-03-11 16:31:00,276 - INFO -   Fetching image for: https://www.meetup.com/bayareajews/events/313611489/
+2026-03-11 16:31:01,385 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/3/5/600_533012053.jpeg
+2026-03-11 16:31:01,386 - INFO -   Fetching image for: https://www.meetup.com/bayareajews/events/313611763/
+2026-03-11 16:31:02,654 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/c/e/600_533012206.jpeg
+2026-03-11 16:31:02,654 - INFO - meetup_bayareajews.ics: added 2 image(s)
+2026-03-11 16:31:02,654 - INFO - Processing meetup_jewish_singles.ics...
+2026-03-11 16:31:02,655 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313436197/
+2026-03-11 16:31:03,448 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-11 16:31:03,448 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313436582/
+2026-03-11 16:31:04,711 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-11 16:31:04,711 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313566009/
+2026-03-11 16:31:05,746 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-11 16:31:05,746 - INFO - meetup_jewish_singles.ics: added 3 image(s)
+2026-03-11 16:31:05,747 - INFO - Processing meetup_mountain_jew.ics...
+2026-03-11 16:31:05,747 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622188/
+2026-03-11 16:31:06,529 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/6/c/4/600_533022692.jpeg
+2026-03-11 16:31:06,530 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622189/
+2026-03-11 16:31:07,379 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/5/a/600_532933402.jpeg
+2026-03-11 16:31:07,379 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313533754/
+2026-03-11 16:31:08,205 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/3/3/600_532920819.jpeg
+2026-03-11 16:31:08,205 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622190/
+2026-03-11 16:31:09,757 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/5/a/600_532933402.jpeg
+2026-03-11 16:31:09,757 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313533755/
+2026-03-11 16:31:10,647 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/3/4/600_532920820.jpeg
+2026-03-11 16:31:10,647 - INFO - meetup_mountain_jew.ics: added 5 image(s)
+2026-03-11 16:31:10,648 - INFO - Done. Total images added: 10
