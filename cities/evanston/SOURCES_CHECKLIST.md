@@ -53,14 +53,27 @@
 | Chicago Drum Circle | `https://www.meetup.com/chicagodrumcircle/events/ical/` | 10 events, meets at Double Clutch Brewing |
 | Evanston Trivia Nerds | `https://www.meetup.com/evanston-trivia-nerds-meetup/events/ical/` | 1 event, meets at Stacked and Folded |
 
+### Eventbrite Organizers (via scraper)
+| Source | Eventbrite Organizer URL | Notes |
+|--------|--------------------------|-------|
+| Bookends & Beginnings | `eventbrite.com/o/bookends-beginnings-30806170182` | ~5 upcoming events; bookstore, author talks |
+| The Wine Goddess | `eventbrite.com/o/the-wine-goddess-3108057164` | ~7 events; cooking, wine tastings |
+| Hive Center for the Book Arts | `eventbrite.com/o/hive-center-for-the-book-arts-70775141113` | ~4 events; literary, workshops |
+| YWCA Evanston/North Shore | `eventbrite.com/o/ywca-evanstonnorth-shore-32016273019` | ~5 events; community, workforce |
+| Block Museum of Art | `eventbrite.com/o/the-block-museum-of-art-northwestern-university-9891072212` | ~2 events; film, art |
+| Goldfish Swim School Evanston | `eventbrite.com/o/goldfish-swim-school-evanston-17557648193` | ~9 events; family |
+| Open Studio Project | `eventbrite.com/o/open-studio-project-72607065443` | ~2 events; community art |
+| Prairie Moon | `eventbrite.com/o/prairie-moon-51597641783` | ~1 event; jazz, music |
+| Downtown Evanston | `eventbrite.com/o/downtown-evanston-6767069203` | Art receptions, community events |
+| The Backyard Barbecue Store | `eventbrite.com/o/dan-marguerite-16757593742` | ~9 events; BBQ classes |
+
 ## Discovered - Non-Starters
 
 | Source | Reason |
 |--------|--------|
 | Evanston Public Library | BiblioCommons platform, no ICS/RSS feed |
-| Northwestern Athletics (nusports.evenue.net) | Paciolan ticketing platform; 403 Forbidden |
 | Northwestern Bienen School of Music | No feed export visible |
-| Block Museum (Northwestern) | Calendar page 404 |
+| Block Museum (Northwestern) | Calendar page 404; now via Eventbrite |
 | Illinois Holocaust Museum (Skokie) | WordPress but no ICS feed at ?ical=1 |
 | Chicago Botanic Garden (Glencoe) | Drupal; no ICS feed — now scraped via chicagobotanic.py |
 | Evanston Art Center | Drupal, no feeds |
@@ -70,7 +83,7 @@
 | Temperance Beer | 401 Unauthorized |
 | Sketchbook Brewing | No events page found |
 | McGaw YMCA | No feed visible |
-| Downtown Evanston | Custom site, no feeds |
+| Downtown Evanston | Custom site, no feeds; now via Eventbrite |
 | Evanston RoundTable | Embedded calendar, no ICS at ?ical=1 |
 | Wilmette Village | Redirects, 404 |
 | Evanston Art Center Eventbrite | Organizer page 404 |
@@ -85,7 +98,7 @@
 
 ## To Investigate
 
-- [ ] More Eventbrite organizers in Evanston
+- [ ] SPACE Evanston (Squarespace + See Tickets widget, events load via JS — needs investigation)
 - [ ] Evanston Farmers Market
 - [ ] Celtic Knot Public House events
 - [ ] Skokie Village other calendar categories (Health/Human Services, Public Meetings, Sustainability, Storefront)

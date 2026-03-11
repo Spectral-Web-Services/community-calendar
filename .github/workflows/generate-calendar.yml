@@ -869,6 +869,17 @@ jobs:
         python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston" --categories "Events" --output cities/evanston/city_of_evanston.ics || true
         python scrapers/planitpurple.py --categories 2 --days 60 --name "Northwestern University" --output cities/evanston/northwestern.ics || true
         python scrapers/chicagobotanic.py --output cities/evanston/chicago_botanic.ics || true
+        # Eventbrite organizers
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/bookends-beginnings-30806170182" --name "Bookends & Beginnings" -o cities/evanston/eb_bookends.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/the-wine-goddess-3108057164" --name "The Wine Goddess" -o cities/evanston/eb_wine_goddess.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/hive-center-for-the-book-arts-70775141113" --name "Hive Center for the Book Arts" -o cities/evanston/eb_hive_book_arts.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/ywca-evanstonnorth-shore-32016273019" --name "YWCA Evanston/North Shore" -o cities/evanston/eb_ywca.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/the-block-museum-of-art-northwestern-university-9891072212" --name "Block Museum of Art" -o cities/evanston/eb_block_museum.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/goldfish-swim-school-evanston-17557648193" --name "Goldfish Swim School Evanston" -o cities/evanston/eb_goldfish.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/open-studio-project-72607065443" --name "Open Studio Project" -o cities/evanston/eb_open_studio.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/prairie-moon-51597641783" --name "Prairie Moon" -o cities/evanston/eb_prairie_moon.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/downtown-evanston-6767069203" --name "Downtown Evanston" -o cities/evanston/eb_downtown_evanston.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/dan-marguerite-16757593742" --name "The Backyard Barbecue Store" -o cities/evanston/eb_backyard_bbq.ics || true
 
     - name: Combine Evanston ICS
       if: contains(steps.locations.outputs.list, 'evanston')
