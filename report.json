@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-11T18:02:23.379480",
+  "generated": "2026-03-11T18:16:18.296631",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -36983,7 +36983,7 @@
           "history": [
             {
               "date": "2026-03-11",
-              "count": 5
+              "count": 6
             }
           ]
         },
@@ -37063,7 +37063,7 @@
           "history": [
             {
               "date": "2026-03-11",
-              "count": 344
+              "count": 343
             }
           ]
         }
@@ -37075,15 +37075,15 @@
         },
         {
           "category": "Education / Workshops",
-          "count": 168
+          "count": 173
         },
         {
           "category": "Community / Social",
-          "count": 71
+          "count": 72
         },
         {
           "category": "Family / Kids",
-          "count": 28
+          "count": 27
         },
         {
           "category": "Government / Civic",
@@ -37096,10 +37096,6 @@
         {
           "category": "Books / Literature / Poetry",
           "count": 14
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 11
         },
         {
           "category": "Music / Concerts",
@@ -37115,6 +37111,10 @@
         },
         {
           "category": "Arts / Culture",
+          "count": 6
+        },
+        {
+          "category": "(uncategorized)",
           "count": 6
         },
         {
@@ -37136,7 +37136,7 @@
       ],
       "images": {
         "total": 576,
-        "with_image": 126,
+        "with_image": 127,
         "by_source": [
           {
             "source": "Jcc East Bay",
@@ -37180,12 +37180,12 @@
           },
           {
             "source": "Meetup Mountain Jew",
-            "total": 5,
-            "with_image": 5
+            "total": 6,
+            "with_image": 6
           },
           {
             "source": "Temple Beth Abraham",
-            "total": 341,
+            "total": 340,
             "with_image": 3
           },
           {
@@ -37221,8 +37221,8 @@
         "source_specificity": [
           {
             "source": "Temple Beth Abraham",
-            "events": 341,
-            "unique_urls": 341,
+            "events": 340,
+            "unique_urls": 340,
             "specificity_pct": 100
           },
           {
@@ -37281,8 +37281,8 @@
           },
           {
             "source": "Meetup Mountain Jew",
-            "events": 5,
-            "unique_urls": 5,
+            "events": 6,
+            "unique_urls": 6,
             "specificity_pct": 100
           },
           {
@@ -37537,32 +37537,44 @@
               "count": 1
             }
           ]
+        },
+        "chicago_botanic": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 139
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 435
+          "count": 436
         },
         {
           "category": "Education / Workshops",
-          "count": 340
+          "count": 397
         },
         {
           "category": "Arts / Culture",
-          "count": 201
+          "count": 212
         },
         {
           "category": "Community / Social",
-          "count": 135
+          "count": 137
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 105
+          "count": 106
         },
         {
           "category": "Government / Civic",
           "count": 90
+        },
+        {
+          "category": "Health / Wellness",
+          "count": 83
         },
         {
           "category": "Music / Concerts",
@@ -37570,11 +37582,7 @@
         },
         {
           "category": "Sports / Fitness",
-          "count": 68
-        },
-        {
-          "category": "Health / Wellness",
-          "count": 60
+          "count": 70
         },
         {
           "category": "Film / Cinema",
@@ -37585,19 +37593,19 @@
           "count": 52
         },
         {
+          "category": "Food / Drink",
+          "count": 44
+        },
+        {
           "category": "Dance / Performance",
           "count": 33
         },
         {
-          "category": "Food / Drink",
-          "count": 18
+          "category": "Nature / Outdoors / Recreation",
+          "count": 28
         },
         {
           "category": "Religion / Spirituality",
-          "count": 16
-        },
-        {
-          "category": "Nature / Outdoors / Recreation",
           "count": 16
         },
         {
@@ -37606,9 +37614,14 @@
         }
       ],
       "images": {
-        "total": 1706,
-        "with_image": 252,
+        "total": 1841,
+        "with_image": 387,
         "by_source": [
+          {
+            "source": "Chicago Botanic Garden",
+            "total": 135,
+            "with_image": 135
+          },
           {
             "source": "Winnetka Northfield Library",
             "total": 252,
@@ -37662,9 +37675,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 1706,
-        "total_events": 1706,
-        "unique_urls": 1533,
+        "total_with_url": 1841,
+        "total_events": 1841,
+        "unique_urls": 1668,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -37704,6 +37717,12 @@
             "source": "Lincolnwood Library",
             "events": 151,
             "unique_urls": 151,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Chicago Botanic Garden",
+            "events": 135,
+            "unique_urls": 135,
             "specificity_pct": 100
           },
           {
@@ -37750,12 +37769,6 @@
           },
           {
             "source": "Meetup Af Northshore",
-            "events": 10,
-            "unique_urls": 10,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup Evanston Writers",
             "events": 10,
             "unique_urls": 10,
             "specificity_pct": 100

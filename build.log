@@ -1,90 +1,271 @@
+2026-03-11 18:12:51,256 - JewishLearningWorksScraper - INFO - Scraping Jewish LearningWorks
+2026-03-11 18:12:52,695 - __main__ - INFO - Found 21 events from API
+2026-03-11 18:12:53,119 - __main__ - INFO -   2026-05-19 — 2026 Ruby Award: Inside the Adolescent Mind
+2026-03-11 18:12:53,529 - __main__ - INFO -   2026-05-05 — Voices for Good Fellowship Siyum
+2026-03-11 18:12:57,181 - __main__ - INFO -   2026-03-13 — Israel in Early Childhood Education: Embracing Complexity with Care
+2026-03-11 18:13:09,944 - JewishLearningWorksScraper - INFO - Filtered 1 events beyond 2 months out
+2026-03-11 18:13:09,944 - JewishLearningWorksScraper - INFO - Found 2 events
+2026-03-11 18:13:09,945 - JewishLearningWorksScraper - INFO - Written to cities/jweekly/jewishlearningworks.ics
+2026-03-11 18:13:10,106 - INFO - Scraping JCCSF
+2026-03-11 18:13:11,889 - INFO - Discovered 24 event URLs from organizer page
+2026-03-11 18:13:11,889 - INFO - Fetching 24 event pages (parallel)...
+2026-03-11 18:13:12,488 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-san-francisco-symphony-presents-a-purim-community-concert-registration-1981799638066
+2026-03-11 18:13:12,587 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/roots-wings-gallery-reception-artist-talk-with-ronit-shalem-registration-1983390898569
+2026-03-11 18:13:12,882 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sarah-silverman-in-conversation-tickets-1982933098276
+2026-03-11 18:13:13,033 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purimpalooza-registration-1981052035968
+2026-03-11 18:13:13,050 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/monet-venice-a-groundbreaking-exhibition-registration-1983910013255
+2026-03-11 18:13:13,235 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-registration-1981046075139
+2026-03-11 18:13:13,307 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rebecca-newberger-goldstein-the-mattering-instinct-tickets-1978327130703
+2026-03-11 18:13:13,631 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/zoe-aqua-and-her-transylvanian-string-band-in-a-sea-of-stars-tickets-1980011804608
+2026-03-11 18:13:13,914 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/newborn-playgroup-registration-1977747580252
+2026-03-11 18:13:14,171 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-registration-1977673868779
+2026-03-11 18:13:14,252 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-passover-create-your-own-meaningful-seder-registration-1981902155699
+2026-03-11 18:13:14,470 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/understanding-anosognosia-hidden-barrier-in-dementia-care-registration-1981797963056
+2026-03-11 18:13:14,527 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-play-become-purim-mask-making-workshop-registration-1980520244365
+2026-03-11 18:13:14,603 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/maxine-sharf-maxis-kitchen-book-tour-tickets-1980493952726
+2026-03-11 18:13:14,733 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-girl-swing-bands-female-entertainers-wwii-registration-1981807169593
+2026-03-11 18:13:14,987 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dance-with-us-zumbathon-2026-registration-1977999549900
+2026-03-11 18:13:15,108 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1980032568714
+2026-03-11 18:13:15,147 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/live-long-prosper-jews-star-trek-registration-1980672668269
+2026-03-11 18:13:15,298 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/roots-fruits-a-tu-bishvat-seder-printmaking-workshop-registration-1978348946956
+2026-03-11 18:13:15,298 - INFO - Got 5 future events
+2026-03-11 18:13:15,298 - INFO - Found 5 events
+2026-03-11 18:13:15,300 - INFO - Written to cities/jweekly/eventbrite_jccsf.ics
+2026-03-11 18:13:15,447 - INFO - Scraping Congregation Emanu-El SF
+2026-03-11 18:13:16,579 - INFO - Discovered 5 event URLs from organizer page
+2026-03-11 18:13:16,579 - INFO - Fetching 5 event pages (parallel)...
+2026-03-11 18:13:17,210 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yossi-klein-halevi-at-emanu-el-tickets-1319523894489
+2026-03-11 18:13:17,240 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/koleinu-things-are-gonna-change-tickets-1976926979814
+2026-03-11 18:13:17,265 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/israeli-superstar-david-broza-in-concert-tickets-1613110690499
+2026-03-11 18:13:17,287 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/winner-of-the-2024-national-jewish-councils-book-of-the-year-tickets-1269729116969
+2026-03-11 18:13:17,293 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/emmanuel-acho-at-congregation-emanu-el-san-francisco-tickets-1778174540919
+2026-03-11 18:13:17,294 - INFO - Got 0 future events
+2026-03-11 18:13:17,294 - INFO - Found 0 events
+2026-03-11 18:13:17,294 - INFO - Written to cities/jweekly/eventbrite_emanu_el.ics
+2026-03-11 18:13:17,443 - INFO - Scraping Chabad SF SOMA Shul
+2026-03-11 18:13:18,636 - INFO - Discovered 13 event URLs from organizer page
+2026-03-11 18:13:18,636 - INFO - Fetching 13 event pages (parallel)...
+2026-03-11 18:13:19,238 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-mingle-in-the-sukkah-tickets-1708762878769
+2026-03-11 18:13:19,338 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-courage-connection-tickets-1478621198809
+2026-03-11 18:13:19,398 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1583607184719
+2026-03-11 18:13:19,447 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-happy-hour-40s-up-tickets-1465682117669
+2026-03-11 18:13:19,578 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1872012994259
+2026-03-11 18:13:19,908 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-winter-shabbat-tickets-1979935351936
+2026-03-11 18:13:19,968 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-feast-tickets-1983383564633
+2026-03-11 18:13:20,206 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-madarae-tickets-1981651817932
+2026-03-11 18:13:20,207 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/artisan-hamantash-bake-tickets-1982802035263
+2026-03-11 18:13:20,539 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/havdalah-pizza-tickets-1981611634743
+2026-03-11 18:13:20,578 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-fall-edition-tickets-1956879883409
+2026-03-11 18:13:20,918 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/chanukah-lux-tickets-1968322667083
+2026-03-11 18:13:20,919 - INFO - Got 1 future events
+2026-03-11 18:13:20,919 - INFO - Found 1 events
+2026-03-11 18:13:20,920 - INFO - Written to cities/jweekly/eventbrite_chabad_soma.ics
+2026-03-11 18:13:21,067 - INFO - Scraping JCC East Bay
+2026-03-11 18:13:22,680 - INFO - Discovered 18 event URLs from organizer page
+2026-03-11 18:13:22,680 - INFO - Fetching 18 event pages (parallel)...
+2026-03-11 18:13:23,306 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/hands-on-passover-cooking-workshop-with-aliza-grayevsky-somekh-of-bishulim-tickets-1984343795710
+2026-03-11 18:13:23,326 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/older-adult-chanukah-luncheon-tickets-1873570623169
+2026-03-11 18:13:23,358 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976923082156
+2026-03-11 18:13:23,405 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/empower-yourself-against-antisemitism-on-social-media-tickets-1984335716545
+2026-03-11 18:13:23,933 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-carnival-under-the-sea-tickets-1980420984476
+2026-03-11 18:13:23,944 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yom-hashoah-tales-from-a-survivors-descendant-tickets-1984500775240
+2026-03-11 18:13:24,006 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-september-29-2025-tickets-1296257423849
+2026-03-11 18:13:24,455 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976918523521
+2026-03-11 18:13:24,510 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tu-bshvat-family-celebration-tickets-1977454610973
+2026-03-11 18:13:24,521 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-sukkot-shake-your-lulav-and-etrog-tickets-1670001402149
+2026-03-11 18:13:24,543 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-chanukah-festival-spark-tickets-1962765225626
+2026-03-11 18:13:24,600 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1762088075869
+2026-03-11 18:13:25,052 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-december-1-2025-tickets-1296259329549
+2026-03-11 18:13:25,064 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-october-27-2025-tickets-1296258085829
+2026-03-11 18:13:25,395 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/cantamos-tickets-1629074438499
+2026-03-11 18:13:25,395 - INFO - Got 3 future events
+2026-03-11 18:13:25,396 - INFO - Found 3 events
+2026-03-11 18:13:25,397 - INFO - Written to cities/jweekly/eventbrite_jcc_east_bay.ics
+2026-03-11 18:13:25,543 - INFO - Scraping Jewish Baby Network East Bay
+2026-03-11 18:13:26,620 - INFO - Discovered 12 event URLs from organizer page
+2026-03-11 18:13:26,620 - INFO - Fetching 12 event pages (parallel)...
+2026-03-11 18:13:27,210 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-park-registration-1404168518839
+2026-03-11 18:13:27,249 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-by-the-lake-registration-1299962204949
+2026-03-11 18:13:27,338 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1485385059699
+2026-03-11 18:13:27,369 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/apples-and-honey-rosh-hashanah-celebration-registration-1602970079659
+2026-03-11 18:13:27,420 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-ready-for-thanksgiving-registration-1810068606929
+2026-03-11 18:13:27,755 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-newborn-playgroup-for-babies-0-9-months-registration-1451170162019
+2026-03-11 18:13:27,819 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shake-the-lulav-sukkot-celebration-registration-1708176545029
+2026-03-11 18:13:27,941 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1319521657799
+2026-03-11 18:13:27,968 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1404019342649
+2026-03-11 18:13:27,981 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dreidels-dancing-and-donuts-registration-1963648697113
+2026-03-11 18:13:28,333 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-pride-party-registration-1369176928049
+2026-03-11 18:13:28,424 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shavuot-ice-cream-party-registration-1319537836189
+2026-03-11 18:13:28,424 - INFO - Got 0 future events
+2026-03-11 18:13:28,425 - INFO - Found 0 events
+2026-03-11 18:13:28,425 - INFO - Written to cities/jweekly/eventbrite_jbn_east_bay.ics
+2026-03-11 18:13:28,570 - INFO - Scraping Jewish Baby Network Peninsula
+2026-03-11 18:13:29,977 - INFO - Discovered 12 event URLs from organizer page
+2026-03-11 18:13:29,977 - INFO - Fetching 12 event pages (parallel)...
+2026-03-11 18:13:30,652 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tot-shabbat-picnic-registration-1481949554009
+2026-03-11 18:13:30,695 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1316910347299
+2026-03-11 18:13:30,738 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/peninsula-newborn-playgroup-for-babies-0-9-months-registration-1574595009059
+2026-03-11 18:13:30,856 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sukkot-party-in-the-sukkah-registration-1670336424209
+2026-03-11 18:13:30,928 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rosh-hashanah-a-sweet-new-year-registration-1564809470249
+2026-03-11 18:13:31,154 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451150603519
+2026-03-11 18:13:31,257 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1314185035819
+2026-03-11 18:13:31,292 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451147795119
+2026-03-11 18:13:31,440 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-garden-registration-1316839254659
+2026-03-11 18:13:31,540 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/fall-family-fun-havdalah-registration-1775217024909
+2026-03-11 18:13:31,799 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-sunday-funday-registration-1830301203169
+2026-03-11 18:13:31,834 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/festival-of-lights-hanukkah-party-registration-1963549079153
+2026-03-11 18:13:31,834 - INFO - Got 0 future events
+2026-03-11 18:13:31,834 - INFO - Found 0 events
+2026-03-11 18:13:31,835 - INFO - Written to cities/jweekly/eventbrite_jbn_peninsula.ics
+2026-03-11 18:13:31,983 - INFO - Scraping Jewish Baby Network SF
+2026-03-11 18:13:33,025 - INFO - Discovered 12 event URLs from organizer page
+2026-03-11 18:13:33,025 - INFO - Fetching 12 event pages (parallel)...
+2026-03-11 18:13:33,641 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/birthday-of-the-trees-registration-1124743220249
+2026-03-11 18:13:33,647 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sing-shalom-registration-1291976710119
+2026-03-11 18:13:33,668 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/love-you-a-latke-hanukkah-party-registration-1963578256423
+2026-03-11 18:13:33,737 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sing-shalom-registration-1250085091159
+2026-03-11 18:13:33,789 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sf-newborn-playgroup-for-babies-0-9-months-registration-1275219067559
+2026-03-11 18:13:34,254 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sf-newborn-playgroup-for-babies-0-9-months-registration-1008855603267
+2026-03-11 18:13:34,260 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-musical-mitzvah-morning-registration-1115844945269
+2026-03-11 18:13:34,285 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/love-you-a-latke-hanukkah-party-registration-1077875728319
+2026-03-11 18:13:34,350 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tots-together-in-the-sukkah-registration-1008857348487
+2026-03-11 18:13:34,401 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-registration-942603862527
+2026-03-11 18:13:34,800 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rosh-hashanah-extravaganza-registration-976502072987
+2026-03-11 18:13:34,898 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/intergenerational-gratitude-playdate-registration-1044518772767
+2026-03-11 18:13:34,898 - INFO - Got 0 future events
+2026-03-11 18:13:34,898 - INFO - Found 0 events
+2026-03-11 18:13:34,899 - INFO - Written to cities/jweekly/eventbrite_jbn_sf.ics
+2026-03-11 18:14:03,218 - INFO - Processing meetup_bayareajews.ics...
+2026-03-11 18:14:03,218 - INFO -   Fetching image for: https://www.meetup.com/bayareajews/events/313611489/
+2026-03-11 18:14:04,010 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/3/5/600_533012053.jpeg
+2026-03-11 18:14:04,010 - INFO -   Fetching image for: https://www.meetup.com/bayareajews/events/313611763/
+2026-03-11 18:14:04,853 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/c/e/600_533012206.jpeg
+2026-03-11 18:14:04,853 - INFO - meetup_bayareajews.ics: added 2 image(s)
+2026-03-11 18:14:04,853 - INFO - Processing meetup_jewish_singles.ics...
+2026-03-11 18:14:04,853 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313436197/
+2026-03-11 18:14:05,758 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-11 18:14:05,758 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313436582/
+2026-03-11 18:14:06,554 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-11 18:14:06,555 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313566009/
+2026-03-11 18:14:07,378 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-11 18:14:07,378 - INFO - meetup_jewish_singles.ics: added 3 image(s)
+2026-03-11 18:14:07,378 - INFO - Processing meetup_mountain_jew.ics...
+2026-03-11 18:14:07,379 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622188/
+2026-03-11 18:14:08,208 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/6/c/4/600_533022692.jpeg
+2026-03-11 18:14:08,208 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622189/
+2026-03-11 18:14:09,031 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/5/a/600_532933402.jpeg
+2026-03-11 18:14:09,032 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313533754/
+2026-03-11 18:14:09,930 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/3/3/600_532920819.jpeg
+2026-03-11 18:14:09,930 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313745835/
+2026-03-11 18:14:10,943 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/5/a/600_532933402.jpeg
+2026-03-11 18:14:10,943 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622190/
+2026-03-11 18:14:11,753 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/5/a/600_532933402.jpeg
+2026-03-11 18:14:11,754 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313533755/
+2026-03-11 18:14:12,566 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/3/4/600_532920820.jpeg
+2026-03-11 18:14:12,567 - INFO - meetup_mountain_jew.ics: added 6 image(s)
+2026-03-11 18:14:12,567 - INFO - Done. Total images added: 11
 python: can't open file '/home/runner/work/community-calendar/community-calendar/scrapers/revize.py': [Errno 2] No such file or directory
-2026-03-11 18:01:37,255 - PlanItPurpleScraper - INFO - Scraping Northwestern University
-2026-03-11 18:01:39,050 - __main__ - INFO - Fetched 291 events from PlanIt Purple
-2026-03-11 18:01:39,052 - PlanItPurpleScraper - INFO - Found 291 events
-2026-03-11 18:01:39,150 - PlanItPurpleScraper - INFO - Written to cities/evanston/northwestern.ics
-2026-03-11 18:01:39,277 - INFO - Processing meetup_af_northshore.ics...
-2026-03-11 18:01:39,278 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627452/
-2026-03-11 18:01:39,841 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
-2026-03-11 18:01:39,842 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312930678/
-2026-03-11 18:01:40,396 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/7/6/a/600_532290570.jpeg
-2026-03-11 18:01:40,396 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313509334/
-2026-03-11 18:01:40,947 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
-2026-03-11 18:01:40,947 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313077527/
-2026-03-11 18:01:41,547 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/4/4/600_480743108.jpeg
-2026-03-11 18:01:41,547 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313039549/
-2026-03-11 18:01:42,114 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
-2026-03-11 18:01:42,114 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518016/
-2026-03-11 18:01:42,668 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/c/1/1/600_480764049.jpeg
-2026-03-11 18:01:42,668 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627471/
-2026-03-11 18:01:43,761 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
-2026-03-11 18:01:43,761 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518017/
-2026-03-11 18:01:44,323 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
-2026-03-11 18:01:44,323 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312272027/
-2026-03-11 18:01:44,885 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/b/c/a/600_531592170.jpeg
-2026-03-11 18:01:44,885 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313513417/
-2026-03-11 18:01:45,439 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
-2026-03-11 18:01:45,440 - INFO - meetup_af_northshore.ics: added 10 image(s)
-2026-03-11 18:01:45,440 - INFO - Processing meetup_black_girls_read.ics...
-2026-03-11 18:01:45,440 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/312310442/
-2026-03-11 18:01:45,993 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/4/4/3/600_531809763.jpeg
-2026-03-11 18:01:45,993 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/313518369/
-2026-03-11 18:01:46,558 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/f/b/f/600_532909087.jpeg
-2026-03-11 18:01:46,558 - INFO - meetup_black_girls_read.ics: added 2 image(s)
-2026-03-11 18:01:46,558 - INFO - Processing meetup_board_games.ics...
-2026-03-11 18:01:46,558 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484474/
-2026-03-11 18:01:47,119 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
-2026-03-11 18:01:47,119 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484476/
-2026-03-11 18:01:47,681 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
-2026-03-11 18:01:47,682 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484480/
-2026-03-11 18:01:48,245 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
-2026-03-11 18:01:48,246 - INFO - meetup_board_games.ics: added 3 image(s)
-2026-03-11 18:01:48,246 - INFO - Processing meetup_drum_circle.ics...
-2026-03-11 18:01:48,246 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992477/
-2026-03-11 18:01:48,811 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
-2026-03-11 18:01:48,811 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992483/
-2026-03-11 18:01:49,370 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
-2026-03-11 18:01:49,370 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/308108162/
-2026-03-11 18:01:49,932 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:49,932 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825846/
-2026-03-11 18:01:50,489 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:50,489 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825845/
-2026-03-11 18:01:51,059 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:51,060 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825844/
-2026-03-11 18:01:51,610 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:51,611 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcmbxb/
-2026-03-11 18:01:52,163 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:52,163 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcnbvb/
-2026-03-11 18:01:52,734 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:52,734 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcpbbc/
-2026-03-11 18:01:53,295 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:53,295 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcqbxb/
-2026-03-11 18:01:53,853 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:01:53,853 - INFO - meetup_drum_circle.ics: added 10 image(s)
-2026-03-11 18:01:53,853 - INFO - Processing meetup_evanston_writers.ics...
-2026-03-11 18:01:53,854 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313119719/
-2026-03-11 18:01:54,408 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
-2026-03-11 18:01:54,408 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313173658/
-2026-03-11 18:01:54,961 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/b/6/b/600_532556171.jpeg
-2026-03-11 18:01:54,961 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721320/
-2026-03-11 18:01:55,518 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:01:55,518 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312039916/
-2026-03-11 18:01:56,072 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:01:56,072 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/311601176/
-2026-03-11 18:01:56,624 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:01:56,625 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313405151/
-2026-03-11 18:01:57,179 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:01:57,180 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721321/
-2026-03-11 18:01:57,733 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:01:57,733 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312760683/
-2026-03-11 18:01:58,286 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
-2026-03-11 18:01:58,286 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313462483/
-2026-03-11 18:01:59,001 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:01:59,002 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721322/
-2026-03-11 18:01:59,555 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:01:59,556 - INFO - meetup_evanston_writers.ics: added 10 image(s)
-2026-03-11 18:01:59,556 - INFO - Processing meetup_trivia_nerds.ics...
-2026-03-11 18:01:59,556 - INFO -   Fetching image for: https://www.meetup.com/evanston-trivia-nerds-meetup/events/313546846/
-2026-03-11 18:02:00,118 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/e/c/600_532645836.jpeg
-2026-03-11 18:02:00,119 - INFO - meetup_trivia_nerds.ics: added 1 image(s)
-2026-03-11 18:02:00,119 - INFO - Done. Total images added: 36
+2026-03-11 18:15:35,948 - PlanItPurpleScraper - INFO - Scraping Northwestern University
+2026-03-11 18:15:37,494 - __main__ - INFO - Fetched 291 events from PlanIt Purple
+2026-03-11 18:15:37,496 - PlanItPurpleScraper - INFO - Found 291 events
+2026-03-11 18:15:37,594 - PlanItPurpleScraper - INFO - Written to cities/evanston/northwestern.ics
+2026-03-11 18:15:37,907 - ChicagoBotanicScraper - INFO - Scraping Chicago Botanic Garden
+2026-03-11 18:15:37,907 - __main__ - INFO - Fetching page 0: https://www.chicagobotanic.org/calendar
+2026-03-11 18:15:38,373 - __main__ - INFO - Fetching page 1: https://www.chicagobotanic.org/calendar?page=1
+2026-03-11 18:15:38,667 - __main__ - INFO - Fetching page 2: https://www.chicagobotanic.org/calendar?page=2
+2026-03-11 18:15:38,983 - __main__ - INFO - Fetching page 3: https://www.chicagobotanic.org/calendar?page=3
+2026-03-11 18:15:39,309 - __main__ - INFO - Fetching page 4: https://www.chicagobotanic.org/calendar?page=4
+2026-03-11 18:15:39,593 - __main__ - INFO - Fetching page 5: https://www.chicagobotanic.org/calendar?page=5
+2026-03-11 18:15:39,954 - __main__ - INFO - Fetching page 6: https://www.chicagobotanic.org/calendar?page=6
+2026-03-11 18:15:40,259 - __main__ - INFO - Fetching page 7: https://www.chicagobotanic.org/calendar?page=7
+2026-03-11 18:15:40,640 - __main__ - INFO - Fetching page 8: https://www.chicagobotanic.org/calendar?page=8
+2026-03-11 18:15:40,964 - __main__ - INFO - No more events on page 8, stopping
+2026-03-11 18:15:40,964 - __main__ - INFO - Found 162 events total
+2026-03-11 18:15:40,965 - ChicagoBotanicScraper - INFO - Filtered 22 events beyond 2 months out
+2026-03-11 18:15:40,965 - ChicagoBotanicScraper - INFO - Found 140 events
+2026-03-11 18:15:40,986 - ChicagoBotanicScraper - INFO - Written to cities/evanston/chicago_botanic.ics
+2026-03-11 18:15:41,125 - INFO - Processing meetup_af_northshore.ics...
+2026-03-11 18:15:41,126 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627452/
+2026-03-11 18:15:41,753 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
+2026-03-11 18:15:41,753 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312930678/
+2026-03-11 18:15:42,376 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/7/6/a/600_532290570.jpeg
+2026-03-11 18:15:42,376 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313509334/
+2026-03-11 18:15:42,992 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
+2026-03-11 18:15:42,992 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313077527/
+2026-03-11 18:15:43,607 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/4/4/600_480743108.jpeg
+2026-03-11 18:15:43,607 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313039549/
+2026-03-11 18:15:44,221 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
+2026-03-11 18:15:44,221 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518016/
+2026-03-11 18:15:44,832 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/c/1/1/600_480764049.jpeg
+2026-03-11 18:15:44,832 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627471/
+2026-03-11 18:15:45,442 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
+2026-03-11 18:15:45,443 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518017/
+2026-03-11 18:15:46,069 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
+2026-03-11 18:15:46,070 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312272027/
+2026-03-11 18:15:46,682 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/b/c/a/600_531592170.jpeg
+2026-03-11 18:15:46,682 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313513417/
+2026-03-11 18:15:47,295 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
+2026-03-11 18:15:47,295 - INFO - meetup_af_northshore.ics: added 10 image(s)
+2026-03-11 18:15:47,295 - INFO - Processing meetup_black_girls_read.ics...
+2026-03-11 18:15:47,296 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/312310442/
+2026-03-11 18:15:47,895 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/4/4/3/600_531809763.jpeg
+2026-03-11 18:15:47,895 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/313518369/
+2026-03-11 18:15:48,510 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/f/b/f/600_532909087.jpeg
+2026-03-11 18:15:48,510 - INFO - meetup_black_girls_read.ics: added 2 image(s)
+2026-03-11 18:15:48,510 - INFO - Processing meetup_board_games.ics...
+2026-03-11 18:15:48,510 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484474/
+2026-03-11 18:15:49,123 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
+2026-03-11 18:15:49,123 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484476/
+2026-03-11 18:15:49,721 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
+2026-03-11 18:15:49,721 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484480/
+2026-03-11 18:15:50,334 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
+2026-03-11 18:15:50,334 - INFO - meetup_board_games.ics: added 3 image(s)
+2026-03-11 18:15:50,334 - INFO - Processing meetup_drum_circle.ics...
+2026-03-11 18:15:50,335 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992477/
+2026-03-11 18:15:50,932 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
+2026-03-11 18:15:50,932 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992483/
+2026-03-11 18:15:51,532 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
+2026-03-11 18:15:51,532 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/308108162/
+2026-03-11 18:15:52,135 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:52,135 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825846/
+2026-03-11 18:15:52,748 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:52,748 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825845/
+2026-03-11 18:15:53,356 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:53,356 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825844/
+2026-03-11 18:15:53,947 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:53,947 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcmbxb/
+2026-03-11 18:15:54,570 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:54,570 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcnbvb/
+2026-03-11 18:15:55,169 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:55,169 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcpbbc/
+2026-03-11 18:15:55,772 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:55,772 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcqbxb/
+2026-03-11 18:15:56,372 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 18:15:56,372 - INFO - meetup_drum_circle.ics: added 10 image(s)
+2026-03-11 18:15:56,372 - INFO - Processing meetup_evanston_writers.ics...
+2026-03-11 18:15:56,373 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313119719/
+2026-03-11 18:15:56,972 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
+2026-03-11 18:15:56,972 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313173658/
+2026-03-11 18:15:57,567 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/b/6/b/600_532556171.jpeg
+2026-03-11 18:15:57,567 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721320/
+2026-03-11 18:15:58,170 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 18:15:58,170 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312039916/
+2026-03-11 18:15:58,781 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 18:15:58,781 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/311601176/
+2026-03-11 18:15:59,391 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 18:15:59,391 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313405151/
+2026-03-11 18:15:59,994 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 18:15:59,994 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721321/
+2026-03-11 18:16:00,597 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 18:16:00,597 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312760683/
+2026-03-11 18:16:01,197 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
+2026-03-11 18:16:01,197 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313462483/
+2026-03-11 18:16:01,804 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 18:16:01,804 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721322/
+2026-03-11 18:16:02,402 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 18:16:02,403 - INFO - meetup_evanston_writers.ics: added 10 image(s)
+2026-03-11 18:16:02,403 - INFO - Processing meetup_trivia_nerds.ics...
+2026-03-11 18:16:02,403 - INFO -   Fetching image for: https://www.meetup.com/evanston-trivia-nerds-meetup/events/313546846/
+2026-03-11 18:16:03,006 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/e/c/600_532645836.jpeg
+2026-03-11 18:16:03,007 - INFO - meetup_trivia_nerds.ics: added 1 image(s)
+2026-03-11 18:16:03,007 - INFO - Done. Total images added: 36

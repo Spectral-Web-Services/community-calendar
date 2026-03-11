@@ -4,15 +4,15 @@ PRODID:-//JCCSF//eventbrite.com//
 X-WR-CALNAME:JCCSF
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Sunday Fun Day
+SUMMARY:Sunday Funday
 DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260322T153000
 DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260322T170000
-UID:b9a91c86e0af1c339676f047f1156155@eventbrite.com
+UID:f1d73fbd3b300e93e7a2c2dcd8c360b5@eventbrite.com
 DESCRIPTION:Get ready for Passover with Jen Altman from Jewish Baby Networ
  k!
 LOCATION:Jewish Community Center of San Francisco\, 3200 California Street
  \, San Francisco\, CA 94118\, San Francisco\, CA
-URL:https://www.eventbrite.com/e/sunday-fun-day-registration-1983491230665
+URL:https://www.eventbrite.com/e/sunday-funday-registration-1983491230665
 X-SOURCE:JCCSF
 END:VEVENT
 BEGIN:VEVENT
@@ -30,19 +30,6 @@ URL:https://www.eventbrite.com/e/first-night-passover-seder-tickets-198190
 X-SOURCE:JCCSF
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DAYENU – A MUSICAL CELEBRATION OF FREEDOM WITH TASTE OF TALENT
-DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260330T131500
-DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260330T141500
-UID:6cd94ec304aee407e677098f56623a44@eventbrite.com
-DESCRIPTION:The beloved ensemble returns with an all-new\, all ages musica
- l revue celebrating freedom\, resilience\, and the power of song
-LOCATION:Jewish Community Center of San Francisco\, 3200 California Street
- \, San Francisco\, CA 94118\, San Francisco\, CA
-URL:https://www.eventbrite.com/e/dayenu-a-musical-celebration-of-freedom-w
- ith-taste-of-talent-registration-1981800875768
-X-SOURCE:JCCSF
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Twist of Tradition: Hands-On Challah
 DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260327T143000
 DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260327T173000
@@ -53,6 +40,19 @@ LOCATION:Jewish Community Center of San Francisco\, 3200 California Street
  \, San Francisco\, CA 94118\, San Francisco\, CA
 URL:https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-regis
  tration-1980521179161
+X-SOURCE:JCCSF
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DAYENU – A MUSICAL CELEBRATION OF FREEDOM WITH TASTE OF TALENT
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260330T131500
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260330T141500
+UID:6cd94ec304aee407e677098f56623a44@eventbrite.com
+DESCRIPTION:The beloved ensemble returns with an all-new\, all ages musica
+ l revue celebrating freedom\, resilience\, and the power of song
+LOCATION:Jewish Community Center of San Francisco\, 3200 California Street
+ \, San Francisco\, CA 94118\, San Francisco\, CA
+URL:https://www.eventbrite.com/e/dayenu-a-musical-celebration-of-freedom-w
+ ith-taste-of-talent-registration-1981800875768
 X-SOURCE:JCCSF
 END:VEVENT
 BEGIN:VEVENT
