@@ -81,7 +81,7 @@ function App() {
       const CITY_NAMES = {
         santarosa: 'Santa Rosa', davis: 'Davis', bloomington: 'Bloomington',
         petaluma: 'Petaluma', toronto: 'Toronto', raleighdurham: 'Raleigh-Durham',
-        montclair: 'Montclair', roanoke: 'Roanoke', matsu: 'MatSu',
+        montclair: 'Montclair', roanoke: 'Roanoke', matsu: 'MatSu', jweekly: 'JWeekly',
       };
       document.title = (CITY_NAMES[city] || city) + ' Community Calendar';
     }

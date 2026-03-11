@@ -11,6 +11,7 @@ const CITIES = [
   { id: 'montclair', name: 'Montclair' },
   { id: 'roanoke', name: 'Roanoke' },
   { id: 'matsu', name: 'MatSu' },
+  { id: 'jweekly', name: 'JWeekly' },
 ];
 
 export default function CityPicker() {
