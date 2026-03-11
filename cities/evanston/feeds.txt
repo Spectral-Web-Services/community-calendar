@@ -8,6 +8,8 @@
 cities/evanston/city_of_evanston.ics
 # cmd: python scrapers/planitpurple.py --categories 2 --days 60 --name "Northwestern University"
 cities/evanston/northwestern.ics
+# cmd: python scrapers/chicagobotanic.py
+cities/evanston/chicago_botanic.ics
 
 # --- Live feeds ---
 # iCal feed

@@ -12,6 +12,7 @@
 | Beth Emet Synagogue | `https://bethemet.org/calendar/?ical=1` | WordPress + The Events Calendar |
 | Village of Skokie Community Calendar | `https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=22&feed=calendar` | CivicPlus; 25 events |
 | City of Evanston | `scrapers/revize.py` (Events category) | Revize CMS JSON API; 39 events |
+| Chicago Botanic Garden | `scrapers/chicagobotanic.py` | Drupal calendar scraper; ~157 events with images |
 
 ### Libraries
 | Source | Feed URL | Notes |
@@ -61,7 +62,7 @@
 | Northwestern Bienen School of Music | No feed export visible |
 | Block Museum (Northwestern) | Calendar page 404 |
 | Illinois Holocaust Museum (Skokie) | WordPress but no ICS feed at ?ical=1 |
-| Chicago Botanic Garden (Glencoe) | Drupal, no feeds exposed |
+| Chicago Botanic Garden (Glencoe) | Drupal; no ICS feed — now scraped via chicagobotanic.py |
 | Evanston Art Center | Drupal, no feeds |
 | Glenview Park District | Individual ICS download only, no feed |
 | Skokie Park District | Custom system, no feeds |
