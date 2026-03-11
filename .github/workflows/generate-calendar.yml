@@ -884,8 +884,12 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/dan-marguerite-16757593742" --name "The Backyard Barbecue Store" -o cities/evanston/eb_backyard_bbq.ics || true
         # Ticketmaster (requires TICKETMASTER_API_KEY secret)
         if [ -n "$TICKETMASTER_API_KEY" ]; then
-          python scrapers/ticketmaster.py --promoter-id 6085 --name "SPACE Evanston" --timezone America/Chicago -o cities/evanston/ticketmaster_space.ics || true
+          python scrapers/ticketmaster.py --promoter-id 6085 --name "Ticketmaster/Evanston" --timezone America/Chicago -o cities/evanston/ticketmaster_evanston.ics || true
+          python scrapers/ticketmaster.py --venue-id KovZpakJQe --venue-id KovZ917At8O --name "Ticketmaster/Evanston Venues" --timezone America/Chicago -o cities/evanston/ticketmaster_evanston_venues.ics || true
         fi
+        # School district calendars (Finalsite)
+        python scrapers/finalsite.py --url "https://www.district65.net/about/calendar" --name "District 65" --output cities/evanston/district65.ics || true
+        python scrapers/finalsite.py --url "https://www.eths202.org/calendar" --name "ETHS District 202" --output cities/evanston/eths202.ics || true
 
     - name: Combine Evanston ICS
       if: contains(steps.locations.outputs.list, 'evanston')

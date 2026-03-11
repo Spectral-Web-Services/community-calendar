@@ -79,7 +79,7 @@ class TicketmasterScraper(BaseScraper):
                f"&size={PAGE_SIZE}&page={page}"
                f"&sort=date,asc")
         if self.venue_id:
-            url += f"&venueId={self.venue_id}"
+            url += f"&venueId={','.join(self.venue_id) if isinstance(self.venue_id, list) else self.venue_id}"
         if self.promoter_id:
             url += f"&promoterId={self.promoter_id}"
         if self.latlong:
@@ -168,18 +168,32 @@ class TicketmasterScraper(BaseScraper):
         else:
             location = ''
 
-        return {
+        # Prefer 640x360 image, fall back to first non-fallback
+        image_url = ''
+        for img in e.get('images', []):
+            if img.get('width') == 640 and img.get('height') == 360:
+                image_url = img['url']
+                break
+        if not image_url:
+            non_fallback = [img for img in e.get('images', []) if not img.get('fallback')]
+            if non_fallback:
+                image_url = non_fallback[0]['url']
+
+        event = {
             'title': e.get('name', 'Untitled'),
             'dtstart': dtstart,
             'url': e.get('url', ''),
             'location': location,
             'description': '',
         }
+        if image_url:
+            event['image_url'] = image_url
+        return event
 
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape Ticketmaster venue/promoter events")
-    parser.add_argument('--venue-id', help='Ticketmaster venue ID')
+    parser.add_argument('--venue-id', action='append', help='Ticketmaster venue ID (repeatable)')
     parser.add_argument('--promoter-id', help='Ticketmaster promoter ID')
     parser.add_argument('--city', help='City name filter')
     parser.add_argument('--state', help='State code filter (e.g., IL)')
