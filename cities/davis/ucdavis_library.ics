@@ -4,110 +4,6 @@ PRODID:-//UC Davis Library//events.library.ucdavis.edu//
 X-WR-CALNAME:UC Davis Library
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:UC Love Data Week 2026 (February 9-13)
-DTSTART;VALUE=DATE-TIME:20260209T190000Z
-DTEND;VALUE=DATE-TIME:20260210T000000Z
-UID:tag:localist.com\,2008:EventInstance_51959615320335
-DESCRIPTION:UC Love Data Week (UCLDW) is a week-long offering of presentat
- ions and workshops from across the University of California focused on all
-  things data. All members of the UC community are welcome to attend this f
- ree\, virtual event. See the full schedule by day and register now. With o
- ver 20 presentations and workshops\, whether you’re working with qualita
- tive or quantitative data\, there’s plenty to choose from. This year's t
- opics include: Data visualizationIntegrating AIWorking with data in R and 
- PythonData repositoriesand much more! Workshops taught during UCLDW by UC 
- Davis DataLab and Librarians include: Monday\, 2/9 at 11 AM - Intro to Ope
- nRefine for Data CleaningMonday\, 2/9 at 2 PM - How to Use Data Repository
-  FindersWednesday\, 2/11 at 10 AM - How I Slacked at Work and Accidentally
-  Built an Automated\, AI Driven ETL PipelineThursday\, 2/12 at 10 AM - Vis
- ualizing data with ggplot for R users (offered in person at DataLab and vi
- a Zoom!) For more information please visit the UC Love Data Week website. 
- Please register with your UC campus email. Zoom links will be emailed to r
- egistered participants.
-URL:https://events.library.ucdavis.edu/event/uc-love-data-week-2026-februa
- ry-9-13
-X-SOURCE:UC Davis Library
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Workshop: Intro to OpenRefine for Data Cleaning
-DTSTART;VALUE=DATE-TIME:20260209T190000Z
-DTEND;VALUE=DATE-TIME:20260209T200000Z
-UID:tag:localist.com\,2008:EventInstance_51836881356432
-DESCRIPTION:Learn how to clean\, standardize\, and transform messy data us
- ing OpenRefine\, a powerful open source tool for working with large or inc
- onsistent datasets. This hands on session will introduce key features such
-  as faceting\, clustering\, data transformation\, and enrichment. OpenRefi
- ne runs locally in your web browser and works especially well with CSV and
-  TSV files. What You’ll Learn • How to explore and assess a dataset 
- • Techniques for identifying and resolving inconsistencies • Ways to s
- plit\, transform\, and standardize data Prerequisites • Install OpenRefi
- ne before the workshop by going to https://openrefine.org/ • Basic famil
- iarity with Excel or Google Sheets Who Should Attend Researchers\, student
- s\, librarians\, and anyone who works with structured data and wants faste
- r\, more reliable cleanup workflows. This workshop is offered as part of U
- C Love Data Week. Advance registration required. Questions? Contact datala
- b-training@ucdavis.edu.
-URL:https://events.library.ucdavis.edu/event/workshop-w2026-open-refine
-X-SOURCE:UC Davis Library
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Collaborative Data Science Office Hours (virtual)
-DTSTART;VALUE=DATE-TIME:20260209T210000Z
-DTEND;VALUE=DATE-TIME:20260209T220000Z
-UID:tag:localist.com\,2008:EventInstance_50756015390844
-DESCRIPTION:DataLab and colleagues from research computing and statistical
-  service units across UC Davis offer weekly free virtual office hours duri
- ng which UC Davis researchers can obtain help and advice on working with t
- heir data. During these short\, just-in-time sessions we meet with faculty
- \, students\, postdoctoral scholars\, and research staff from all domains 
- across the University to discuss their research challenges. Register in ad
- vance for the Zoom link. This helps us connect you to the right expert for
-  your question. In addition to DataLab\, the collaborative data science of
- fice hours are supported by: Biostatistics (Clinical and Translational Sci
- ence Center\, CTSC)Computational Research Data Service (College of Letters
-  & Science)High Performance Computing (HPC) CoreResearcher Services (UC Da
- vis Library)Stat Lab (Department of Statistics)Common office hours help to
- pics include: Open Source Programming (R\, Python\, Julia\, etc.)Reproduci
- ble research computing and data scienceResponsible and ethical data scienc
- eData gathering\, organization\, databases\, and experimental designData a
- nalysis\, statistics\, and explorationData visualizationMachine learning a
- nd neural networksText mining and natural language processingGeospatial sc
- iencesRemote and high performance computingComputational pedagogy… and m
- ore!Please note that drop-in office hours are not offered during Universit
- y holidays\, academic breaks and finals week. Summer schedule varies based
-  on availability. Note: Office hours are intended for short "just in time"
-  research support. If you require extensive assistance we may refer you a 
- recharge service\, upcoming funding/project calls\, and/or other resources
- . We are unable to provide support for assigned coursework (homework assig
- nments\, class projects\, etc.) during office hours. If you need such help
-  please contact your instructor or TA for assistance. If you need help wit
- h technical problems such system administration and hardware issues\, chec
- k out the the UC Davis ServiceHub and/or contact your departmental IT.
-URL:https://events.library.ucdavis.edu/event/copy-of-collaborative-data-sc
- ience-office-hours-virtual
-X-SOURCE:UC Davis Library
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Workshop: How to Use Data Repository Finders
-DTSTART;VALUE=DATE-TIME:20260209T220000Z
-DTEND;VALUE=DATE-TIME:20260209T230000Z
-UID:tag:localist.com\,2008:EventInstance_51836922377962
-DESCRIPTION:Choosing a repository is an important task that can impact the
-  discoverability and long-term maintenance of your research data. There ar
- e several interactive tools designed to help with the selection process. T
- hese include filterable repository “finders\," which allow researchers t
- o identify and compare relevant repositories. In this session\, learners w
- ill learn when to use repository finders\, receive demonstrations of two r
- epository finders\, and participate in evaluating repositories based on th
- eir characteristics. Learners will receive a summary handout after attendi
- ng this session. This workshop is offered as part of UC Love Data Week. Ad
- vance registration required. Questions? Contact datalab-training@ucdavis.e
- du.
-URL:https://events.library.ucdavis.edu/event/workshop-w2026-repository-fin
- ders
-X-SOURCE:UC Davis Library
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Human x Machine: A Collaborative AI Learning Lab for Undergrads
 DTSTART;VALUE=DATE-TIME:20260210T180000Z
 DTEND;VALUE=DATE-TIME:20260210T200000Z
@@ -2030,6 +1926,43 @@ DESCRIPTION:DataLab offers free in person drop-in office hours during whic
 LOCATION:Shields Library\, 360
 URL:https://events.library.ucdavis.edu/event/copy-of-datalab-office-hours-
  in-person
+X-SOURCE:UC Davis Library
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Collaborative Data Science Office Hours (virtual)
+DTSTART;VALUE=DATE-TIME:20260511T200000Z
+DTEND;VALUE=DATE-TIME:20260511T210000Z
+UID:tag:localist.com\,2008:EventInstance_50756015399047
+DESCRIPTION:DataLab and colleagues from research computing and statistical
+  service units across UC Davis offer weekly free virtual office hours duri
+ ng which UC Davis researchers can obtain help and advice on working with t
+ heir data. During these short\, just-in-time sessions we meet with faculty
+ \, students\, postdoctoral scholars\, and research staff from all domains 
+ across the University to discuss their research challenges. Register in ad
+ vance for the Zoom link. This helps us connect you to the right expert for
+  your question. In addition to DataLab\, the collaborative data science of
+ fice hours are supported by: Biostatistics (Clinical and Translational Sci
+ ence Center\, CTSC)Computational Research Data Service (College of Letters
+  & Science)High Performance Computing (HPC) CoreResearcher Services (UC Da
+ vis Library)Stat Lab (Department of Statistics)Common office hours help to
+ pics include: Open Source Programming (R\, Python\, Julia\, etc.)Reproduci
+ ble research computing and data scienceResponsible and ethical data scienc
+ eData gathering\, organization\, databases\, and experimental designData a
+ nalysis\, statistics\, and explorationData visualizationMachine learning a
+ nd neural networksText mining and natural language processingGeospatial sc
+ iencesRemote and high performance computingComputational pedagogy… and m
+ ore!Please note that drop-in office hours are not offered during Universit
+ y holidays\, academic breaks and finals week. Summer schedule varies based
+  on availability. Note: Office hours are intended for short "just in time"
+  research support. If you require extensive assistance we may refer you a 
+ recharge service\, upcoming funding/project calls\, and/or other resources
+ . We are unable to provide support for assigned coursework (homework assig
+ nments\, class projects\, etc.) during office hours. If you need such help
+  please contact your instructor or TA for assistance. If you need help wit
+ h technical problems such system administration and hardware issues\, chec
+ k out the the UC Davis ServiceHub and/or contact your departmental IT.
+URL:https://events.library.ucdavis.edu/event/copy-of-collaborative-data-sc
+ ience-office-hours-virtual
 X-SOURCE:UC Davis Library
 END:VEVENT
 END:VCALENDAR

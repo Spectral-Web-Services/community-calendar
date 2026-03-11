@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313420958@meetup.com
-SEQUENCE:1
-DTSTAMP:20260310T015217Z
-DTSTART;TZID=America/New_York:20260310T183000
-DTEND;TZID=America/New_York:20260310T213000
-SUMMARY:*IN-PERSON* SF/F Group
-DESCRIPTION:Durham Writers Group\nWe will be at the People's Solidarity Hub at 1809 Chapel Hill Rd\, Durham. This venue does not serve food or drink\, but feel free to bring your own. There is a kitchenette for our use\, but be sure to clean up afterwards. The space might be a little cozy\; please consider masking or staying home if you have a respiratory ailment.\n\nThis sub-group focuses on Speculative Fiction\, including Science Fiction\, Fantasy and Horror. If you have anything that falls under that category — be it short story\, poem\, novel-in-progress or screenplay — then come! We'd love to hear from you.\n\nOur format allows each reader 15 minutes to present their work aloud\, followed by approximately 20 minutes of feedback from the other attendees. To ensure fairness\, each attendee is limited to 1 minute of Initial Feedback time. During that period\, the author remains silent. Next\, we have a 5 minute Free-For-All discussion about the work -- then the author may speak. (We usually get through three readers.)\n\nThough not required\, in order to receive more in-depth feed-back\, readers may post their work in advance on our Google Group:\nhttps://groups.google.com/d/forum/durham-sff-writers-group\n\nWe ask that participants keep their comments constructive and respectful\, focusing on what works or doesn't work in the piece.\n\nWe also ask that readers provide a warning\, both on the Google Group and during the meeting\, if their story features content that some readers might find upsetting. This includes descriptions of violence or sexual content.\n\nReaders are:\n• Sagar\n• Zack\n• Sigma\n\nBackup Readers are:\n• Crystina\n• Ruth\n• Allegra\n\nDeep Backup:\n• Milbre\n\n***\n\n***We meet every Tuesday at the same time\, but alternate between In-Person*** ***and on Zoom. Members may attend both formats\, if desired\, but readers will be listed separately under the In-Person or Zoom weeks.***
-URL;VALUE=URI:https://www.meetup.com/dwg-writers/events/313420958/
-STATUS:CONFIRMED
-CREATED:20260219T000115Z
-LAST-MODIFIED:20260219T000115Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/a/6/4/1/600_531882561.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_312995718@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260317T183000
 DTEND;TZID=America/New_York:20260317T213000
 SUMMARY:*VIRTUAL* SF/F Group
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313514714@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260324T183000
 DTEND;TZID=America/New_York:20260324T213000
 SUMMARY:*IN-PERSON* SF/F Group
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312995719@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260331T183000
 DTEND;TZID=America/New_York:20260331T213000
 SUMMARY:*VIRTUAL* SF/F Group
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_tttfwtyjcgbkb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260407T183000
 DTEND;TZID=America/New_York:20260407T213000
 SUMMARY:*IN-PERSON* SF/F Group
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312995720@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260414T183000
 DTEND;TZID=America/New_York:20260414T213000
 SUMMARY:*VIRTUAL* SF/F Group
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_tttfwtyjcgbcc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260421T183000
 DTEND;TZID=America/New_York:20260421T213000
 SUMMARY:*IN-PERSON* SF/F Group
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312995721@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260428T183000
 DTEND;TZID=America/New_York:20260428T213000
 SUMMARY:*VIRTUAL* SF/F Group
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_tttfwtyjchbhb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260505T183000
 DTEND;TZID=America/New_York:20260505T213000
 SUMMARY:*IN-PERSON* SF/F Group
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312995722@meetup.com
 SEQUENCE:1
-DTSTAMP:20260310T015217Z
+DTSTAMP:20260311T015353Z
 DTSTART;TZID=America/New_York:20260512T183000
 DTEND;TZID=America/New_York:20260512T213000
 SUMMARY:*VIRTUAL* SF/F Group
@@ -173,6 +158,21 @@ CREATED:20260121T234744Z
 LAST-MODIFIED:20260121T234744Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/b/8/8/600_524243432.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_tttfwtyjchbzb@meetup.com
+SEQUENCE:1
+DTSTAMP:20260311T015353Z
+DTSTART;TZID=America/New_York:20260519T183000
+DTEND;TZID=America/New_York:20260519T213000
+SUMMARY:*IN-PERSON* SF/F Group
+DESCRIPTION:Durham Writers Group\nWe will be at the People's Solidarity Hub at 1809 Chapel Hill Rd\, Durham. This venue does not serve food or drink\, but feel free to bring your own. There is a kitchenette for our use\, but be sure to clean up afterwards. The space might be a little cozy\; please consider masking or staying home if you have a respiratory ailment.\n\nThis sub-group focuses on Speculative Fiction\, including Science Fiction\, Fantasy and Horror. If you have anything that falls under that category — be it short story\, poem\, novel-in-progress or screenplay — then come! We'd love to hear from you.\n\nOur format allows each reader 15 minutes to present their work aloud\, followed by approximately 20 minutes of feedback from the other attendees. To ensure fairness\, each attendee is limited to 1 minute of Initial Feedback time. During that period\, the author remains silent. Next\, we have a 5 minute Free-For-All discussion about the work -- then the author may speak. (We usually get through three readers.)\n\nThough not required\, in order to receive more in-depth feed-back\, readers may post their work in advance on our Google Group:\nhttps://groups.google.com/d/forum/durham-sff-writers-group\n\nWe ask that participants keep their comments constructive and respectful\, focusing on what works or doesn't work in the piece.\n\nWe also ask that readers provide a warning\, both on the Google Group and during the meeting\, if their story features content that some readers might find upsetting. This includes descriptions of violence or sexual content.\n\nReaders are:\n•\n•\n•\n\nBackup Readers are:\n•\n•\n•\n\nDeep Backup:\n•\n\n***\n\n***We meet every Tuesday at the same time\, but alternate between In-Person*** ***and on Zoom. Members may attend both formats\, if desired\, but readers will be listed separately under the In-Person or Zoom weeks.***
+URL;VALUE=URI:https://www.meetup.com/dwg-writers/events/tttfwtyjchbzb/
+STATUS:CONFIRMED
+CREATED:20260225T021211Z
+LAST-MODIFIED:20260225T021211Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/a/6/4/1/600_531882561.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/DWG-Writers/events/ical/
 X-WR-CALNAME:Durham Writers Group
