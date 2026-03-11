@@ -868,6 +868,7 @@ jobs:
       run: |
         python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston" --categories "Events" --output cities/evanston/city_of_evanston.ics || true
         python scrapers/planitpurple.py --categories 2 --days 60 --name "Northwestern University" --output cities/evanston/northwestern.ics || true
+        python scrapers/chicagobotanic.py --output cities/evanston/chicago_botanic.ics || true
 
     - name: Combine Evanston ICS
       if: contains(steps.locations.outputs.list, 'evanston')
