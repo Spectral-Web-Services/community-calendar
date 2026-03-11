@@ -4,6 +4,8 @@
 
 # --- Scrapers ---
 # Scraper
+# cmd: python scrapers/jewishlearningworks.py
+cities/jweekly/jewishlearningworks.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/115705078411" --name "JCCSF"
 cities/jweekly/eventbrite_jccsf.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/congregation-emanu-el-san-francisco-74110536583" --name "Congregation Emanu-El SF"
@@ -31,6 +33,8 @@ https://www.urbanadamah.org/events/?ical=1
 https://www.kehillasynagogue.org/events/?ical=1
 https://magnes.berkeley.edu/events/?ical=1
 https://www.tbaoakland.org/happenings/?ical=1
+https://adamah.org/events/?ical=1
+https://jvs.org/events/?ical=1
 
 # Google Calendar
 https://calendar.google.com/calendar/ical/bethsholomsf%40gmail.com/public/basic.ics

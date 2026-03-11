@@ -17,6 +17,8 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Kehilla Community Synagogue | `https://www.kehillasynagogue.org/events/?ical=1` | 26 | Good descriptions (meditation, learning, services) |
 | The Magnes Collection (UC Berkeley) | `https://magnes.berkeley.edu/events/?ical=1` | 8 | Jewish art & life museum, good descriptions |
 | Temple Beth Abraham (Oakland) | `https://www.tbaoakland.org/happenings/?ical=1` | 344 | Conservative synagogue, good descriptions |
+| Adamah (formerly Wilderness Torah) | `https://adamah.org/events/?ical=1` | ~25 | Bay Area hikes, retreats, teen programs |
+| Jewish Vocational Service (JVS) | `https://jvs.org/events/?ical=1` | ~10 | Workforce training events |
 
 ### Google Calendar Feeds
 | Source | Feed URL | Events | Notes |
@@ -53,7 +55,6 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Congregation Emanu-El SF | emanuelsf.org | WordPress + Salesforce/FullCalendar.js | Custom CRM integration; also on Eventbrite |
 | JCC Sonoma County | jccsoco.org | Wix | Wix site - no feed expected |
 | Addison-Penzak JCC (Los Gatos) | apjcc.org | WordPress + Elementor | No calendar plugin detected |
-| Wilderness Torah | wildernesstorah.org | WordPress (Avada theme) | 404 on /events, /calendar paths |
 | New Lehrhaus | newlehrhaus.org | Custom CMS ("Agile") | Programs at /learn-with-us, no ICS |
 | GatherBay | gatherbay.org | Unknown | SSL certificate expired; major Bay Area Jewish event aggregator |
 | SF Black & Jewish Unity Coalition | sfunitygroup.org | Squarespace | Has ?format=ical but returned 0 events |
@@ -62,6 +63,11 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | JFCS Holocaust Center | holocaustcenter.jfcs.org | Unknown | /community-events/upcoming-events/ - not a WordPress ICS |
 | Berkeley Hillel | berkeleyhillel.org | WordPress + The Events Calendar | /calendar/ page exists but ICS feed returns empty |
 | Stanford Hillel | stanfordhillel.org | Own website | /event-list; also on events.stanford.edu |
+
+### Scrapers
+| Source | Scraper | Notes |
+|--------|---------|-------|
+| Jewish LearningWorks | `scrapers/jewishlearningworks.py` | WP REST API + detail page scraping; professional-learning category |
 
 ## Discovered - Non-Starters
 
@@ -85,16 +91,21 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Bay Area Israelis Meetup | ICS feed returns 0 events |
 | Jewish Geeks - Bay Area (Meetup) | ICS feed returns 0 events |
 | SF Bay Area Hebrew Speakers (Meetup) | ICS feed returns 0 events |
+| Israel Center of SF / Israeli Consulate | All known URLs dead (israelinsf.org, sfconsulate.org, etc.) |
+| BBYO Central Region West | Events only in member app/portal, no public feed |
+| Israeli Folk Dancing (Cafe Simcha) | cafesimcha.org has static HTML schedule only, unmaintained since 2022 |
+| KlezCalifornia | klezcalifornia.org uses Modern Events Calendar plugin but ICS export disabled |
+| Mame-Loshn (Yiddish events) | mameloshn.org uses MEC plugin, no ICS feed exposed |
+| Bay Yiddish | bayyiddish.net /events returns 404 |
+| Moishe House SF | Uses Luma (lu.ma/mohonobhill), no public ICS URL available |
+| Oshman Family JCC | No ICS feed; Eventbrite page exists but currently inactive |
+| Contemporary Jewish Museum | Temporarily closed; Blackbaud platform, no feeds |
+| Jewish Museum of American West | Online-only historical archive, no events |
+| Taube Center / Taube Philanthropies | Foundation/funder, not an event organizer |
+| JCRC Bay Area | Events published as blog posts only, uses FormAssembly for registration |
+| Jewish LearningWorks | jewishlearning.works/calendar/ has events but no ICS feed (JetEngine custom posts) |
 
 ## To Investigate
-
-### Organizations from Resource Guide
-- [ ] Moishe House / Mem Global (redirects to memglobal.org, 404)
-- [ ] Israel Center of SF / Israeli Consulate events
-- [ ] Jewish Vocational Service (JVS)
-- [ ] Israeli Folk Dancing groups (Cafe Simcha, etc.)
-- [ ] Yiddish cultural organizations
-- [ ] BBYO Central Region West (teen programs)
 
 ### Resource Guide Categories Not Yet Searched
 - [ ] Agencies & Organizations > Federations

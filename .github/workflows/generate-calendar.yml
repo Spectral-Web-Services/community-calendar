@@ -767,10 +767,11 @@ jobs:
     # ==========================================
     # JWeekly (Jewish Northern California)
     # ==========================================
-    - name: Scrape JWeekly Eventbrite sources
+    - name: Scrape JWeekly sources
       if: contains(steps.locations.outputs.list, 'jweekly') && github.event.inputs.regenerate_only != 'true'
       run: |
-        echo "Scraping JWeekly Eventbrite sources..."
+        echo "Scraping JWeekly sources..."
+        python scrapers/jewishlearningworks.py --output cities/jweekly/jewishlearningworks.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/115705078411" --name "JCCSF" --output cities/jweekly/eventbrite_jccsf.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/congregation-emanu-el-san-francisco-74110536583" --name "Congregation Emanu-El SF" --output cities/jweekly/eventbrite_emanu_el.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/chabad-sf-soma-shul-3729957203" --name "Chabad SF SOMA Shul" --output cities/jweekly/eventbrite_chabad_soma.ics || true
@@ -804,6 +805,9 @@ jobs:
         curl -sL "https://calendar.google.com/calendar/ical/ptbepublic%40gmail.com/public/basic.ics" -o ptbe_worship.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/s2l7r73tbre0l6qm0m2562op78%40group.calendar.google.com/public/basic.ics" -o ptbe_education.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/38p21cqhdqhliae6im7lms4has%40group.calendar.google.com/public/basic.ics" -o ptbe_community.ics || true
+        # Additional orgs
+        curl -sL -A "Mozilla/5.0" "https://adamah.org/events/?ical=1" -o adamah.ics || true
+        curl -sL -A "Mozilla/5.0" "https://jvs.org/events/?ical=1" -o jvs.ics || true
         # Meetup groups
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/bayareajews/events/ical/" -o meetup_bayareajews.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/Bay-Area-Jewish-Singles-Havurah/events/ical/" -o meetup_jewish_singles.ics || true
