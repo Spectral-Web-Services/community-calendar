@@ -30,6 +30,8 @@ cities/evanston/eb_prairie_moon.ics
 cities/evanston/eb_downtown_evanston.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/dan-marguerite-16757593742" --name "The Backyard Barbecue Store"
 cities/evanston/eb_backyard_bbq.ics
+# cmd: python scrapers/ticketmaster.py --promoter-id 6085 --name "SPACE Evanston" --timezone America/Chicago
+cities/evanston/ticketmaster_space.ics
 
 # --- Live feeds ---
 # iCal feed

@@ -865,6 +865,8 @@ jobs:
 
     - name: Scrape Evanston sources
       if: contains(steps.locations.outputs.list, 'evanston')
+      env:
+        TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       run: |
         python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston" --categories "Events" --output cities/evanston/city_of_evanston.ics || true
         python scrapers/planitpurple.py --categories 2 --days 60 --name "Northwestern University" --output cities/evanston/northwestern.ics || true
@@ -880,6 +882,10 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/prairie-moon-51597641783" --name "Prairie Moon" -o cities/evanston/eb_prairie_moon.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/downtown-evanston-6767069203" --name "Downtown Evanston" -o cities/evanston/eb_downtown_evanston.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/dan-marguerite-16757593742" --name "The Backyard Barbecue Store" -o cities/evanston/eb_backyard_bbq.ics || true
+        # Ticketmaster (requires TICKETMASTER_API_KEY secret)
+        if [ -n "$TICKETMASTER_API_KEY" ]; then
+          python scrapers/ticketmaster.py --promoter-id 6085 --name "SPACE Evanston" --timezone America/Chicago -o cities/evanston/ticketmaster_space.ics || true
+        fi
 
     - name: Combine Evanston ICS
       if: contains(steps.locations.outputs.list, 'evanston')

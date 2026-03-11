@@ -1,18 +1,27 @@
 #!/usr/bin/env python3
 """
-Scraper for Ticketmaster venue events via the Discovery API.
+Scraper for Ticketmaster events via the Discovery API.
+
+Supports querying by venue ID, promoter ID, city/state, or lat/long radius.
 
 Requires a TICKETMASTER_API_KEY environment variable (or --api-key).
 Free keys: https://developer.ticketmaster.com/products-and-docs/apis/getting-started/
 
 Usage:
+    # By venue:
     python scrapers/ticketmaster.py \
         --venue-id KovZpa2X8e --name "DPAC" \
         --output cities/raleighdurham/dpac.ics
 
+    # By promoter (e.g., SPACE Evanston = 6085):
     python scrapers/ticketmaster.py \
-        --venue-id KovZpZAJledA --name "Martin Marietta Center" \
-        --output cities/raleighdurham/martin_marietta.ics
+        --promoter-id 6085 --name "SPACE Evanston" \
+        --output cities/evanston/ticketmaster_space.ics
+
+    # By lat/long radius:
+    python scrapers/ticketmaster.py \
+        --latlong 42.0451,-87.6878 --radius 8 --name "Evanston Area" \
+        --output cities/evanston/ticketmaster_area.ics
 """
 
 import sys
@@ -45,10 +54,19 @@ class TicketmasterScraper(BaseScraper):
     domain = "ticketmaster.com"
     timezone = "America/New_York"
 
-    def __init__(self, venue_id: str, api_key: str, source_name: Optional[str] = None,
+    def __init__(self, api_key: str, venue_id: Optional[str] = None,
+                 promoter_id: Optional[str] = None,
+                 latlong: Optional[str] = None, radius: Optional[int] = None,
+                 city: Optional[str] = None, state: Optional[str] = None,
+                 source_name: Optional[str] = None,
                  tz: Optional[str] = None):
         super().__init__()
         self.venue_id = venue_id
+        self.promoter_id = promoter_id
+        self.latlong = latlong
+        self.radius = radius
+        self.city = city
+        self.state = state
         self.api_key = api_key
         if source_name:
             self.name = source_name
@@ -58,8 +76,20 @@ class TicketmasterScraper(BaseScraper):
     def _fetch_page(self, page: int) -> dict:
         """Fetch one page of events from the Discovery API."""
         url = (f"{API_BASE}/events.json?apikey={self.api_key}"
-               f"&venueId={self.venue_id}&size={PAGE_SIZE}&page={page}"
+               f"&size={PAGE_SIZE}&page={page}"
                f"&sort=date,asc")
+        if self.venue_id:
+            url += f"&venueId={self.venue_id}"
+        if self.promoter_id:
+            url += f"&promoterId={self.promoter_id}"
+        if self.latlong:
+            url += f"&latlong={self.latlong}"
+        if self.radius:
+            url += f"&radius={self.radius}&unit=miles"
+        if self.city:
+            url += f"&city={self.city}"
+        if self.state:
+            url += f"&stateCode={self.state}"
         req = Request(url)
         with urlopen(req, timeout=30) as resp:
             return json.loads(resp.read().decode('utf-8'))
@@ -77,7 +107,7 @@ class TicketmasterScraper(BaseScraper):
 
         total = data.get('page', {}).get('totalElements', 0)
         total_pages = data.get('page', {}).get('totalPages', 0)
-        self.logger.info(f"Ticketmaster: {total} events across {total_pages} pages for venue {self.venue_id}")
+        self.logger.info(f"Ticketmaster: {total} events across {total_pages} pages")
 
         while True:
             for e in data.get('_embedded', {}).get('events', []):
@@ -148,8 +178,13 @@ class TicketmasterScraper(BaseScraper):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Scrape Ticketmaster venue events")
-    parser.add_argument('--venue-id', required=True, help='Ticketmaster venue ID')
+    parser = argparse.ArgumentParser(description="Scrape Ticketmaster venue/promoter events")
+    parser.add_argument('--venue-id', help='Ticketmaster venue ID')
+    parser.add_argument('--promoter-id', help='Ticketmaster promoter ID')
+    parser.add_argument('--city', help='City name filter')
+    parser.add_argument('--state', help='State code filter (e.g., IL)')
+    parser.add_argument('--latlong', help='Lat,Long for geo search (e.g., 42.0451,-87.6878)')
+    parser.add_argument('--radius', type=int, help='Radius in miles (use with --latlong)')
     parser.add_argument('--name', default='Ticketmaster', help='Source name')
     parser.add_argument('--output', '-o', help='Output ICS file')
     parser.add_argument('--api-key', default=os.environ.get('TICKETMASTER_API_KEY'),
@@ -162,12 +197,21 @@ def main():
         print("Error: --api-key or TICKETMASTER_API_KEY env var required", file=sys.stderr)
         sys.exit(1)
 
+    if not any([args.venue_id, args.promoter_id, args.city, args.latlong]):
+        print("Error: provide --venue-id, --promoter-id, --city, or --latlong", file=sys.stderr)
+        sys.exit(1)
+
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
     scraper = TicketmasterScraper(
-        venue_id=args.venue_id,
         api_key=args.api_key,
+        venue_id=args.venue_id,
+        promoter_id=args.promoter_id,
+        city=args.city,
+        state=args.state,
+        latlong=args.latlong,
+        radius=args.radius,
         source_name=args.name,
         tz=args.timezone,
     )

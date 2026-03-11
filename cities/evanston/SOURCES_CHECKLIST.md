@@ -67,6 +67,11 @@
 | Downtown Evanston | `eventbrite.com/o/downtown-evanston-6767069203` | Art receptions, community events |
 | The Backyard Barbecue Store | `eventbrite.com/o/dan-marguerite-16757593742` | ~9 events; BBQ classes |
 
+### Ticketmaster (via Discovery API)
+| Source | Query | Notes |
+|--------|-------|-------|
+| SPACE Evanston | `--promoter-id 6085` | Promoter ID from evanstonspace.com; requires TICKETMASTER_API_KEY |
+
 ## Discovered - Non-Starters
 
 | Source | Reason |
@@ -79,7 +84,7 @@
 | Evanston Art Center | Drupal, no feeds |
 | Glenview Park District | Individual ICS download only, no feed |
 | Skokie Park District | Custom system, no feeds |
-| SPACE Evanston | Squarespace + Ticketmaster, no feeds |
+| SPACE Evanston (website) | Squarespace + See Tickets widget, events load via JS only |
 | Temperance Beer | 401 Unauthorized |
 | Sketchbook Brewing | No events page found |
 | McGaw YMCA | No feed visible |
@@ -98,7 +103,6 @@
 
 ## To Investigate
 
-- [ ] SPACE Evanston (Squarespace + See Tickets widget, events load via JS — needs investigation)
 - [ ] Evanston Farmers Market
 - [ ] Celtic Knot Public House events
 - [ ] Skokie Village other calendar categories (Health/Human Services, Public Meetings, Sustainability, Storefront)
