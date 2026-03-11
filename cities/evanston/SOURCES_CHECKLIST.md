@@ -10,6 +10,8 @@
 | North Shore Center for the Performing Arts | `https://www.northshorecenter.org/events/?ical=1` | WordPress + The Events Calendar; 28 events |
 | Evanston History Center | `https://evanstonhistorycenter.org/calendar-of-events/?ical=1` | WordPress + The Events Calendar |
 | Skokie Public Library | `https://www.skokielibrary.info/events/feed/ical` | Drupal + Sabre VObject; library events |
+| Morton Grove Public Library | `https://www.mgpl.org/events/feed/ical` | Sabre VObject; library events |
+| Oakton Community College | `https://events.oakton.edu/calendar/1.ics` | Localist; ~200 calendar resources |
 
 ### Meetup Groups
 | Source | Feed URL | Notes |
@@ -17,6 +19,7 @@
 | Alliance Française du North Shore | `https://www.meetup.com/afnorthshore/events/ical/` | Cultural events |
 | Evanston Board Games Meetup | `https://www.meetup.com/evanston-beer-and-board-games-meetup/events/ical/` | 3 events, meets at Sketchbook Brewing |
 | Evanston Writers Workshop | `https://www.meetup.com/evanstonwriters/events/ical/` | 9 events, poetry/fiction/screenwriting |
+| Black Girls Read Book Club | `https://www.meetup.com/black-girls-read-book-club/events/ical/` | 2 events, meets in Evanston |
 
 ## Discovered - Non-Starters
 
@@ -40,21 +43,21 @@
 | Evanston RoundTable | Embedded calendar with ad-blocker issues |
 | Wilmette Village | Redirects, 404 |
 | Evanston Art Center Eventbrite | Organizer page 404 |
+| Wilmette Public Library | Communico platform with ICS/RSS disabled |
+| Writers Theatre | Custom CMS + proprietary ticketing (my.writerstheatre.org) |
+| Music Theater Works | Custom site, no feeds or calendar |
 
 ## To Investigate
 
 - [ ] Evanston Public Library via BiblioCommons API or RSS
-- [ ] Wilmette Public Library
 - [ ] Glenview Public Library
 - [ ] Lincolnwood Public Library
-- [ ] Morton Grove Public Library
-- [ ] Writers Theatre (writerstheatre.org)
-- [ ] Music Theater Works
 - [ ] Evanston Folk Festival
 - [ ] Northwestern athletics (nuwildcats.com was ECONNREFUSED)
 - [ ] Beth Emet Synagogue
-- [ ] Other Meetup groups in the area
+- [ ] More Meetup groups in the area
 - [ ] More Eventbrite organizers in Evanston
 - [ ] Evanston Farmers Market
 - [ ] Celtic Knot Public House events
-- [ ] Oakton Community College events
+- [ ] Niles Public Library
+- [ ] Northfield Township events
