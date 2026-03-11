@@ -29,6 +29,16 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Bay Area Jewish Singles Havurah | `https://www.meetup.com/Bay-Area-Jewish-Singles-Havurah/events/ical/` | 3 | 40s-60s hiking, dinners, cultural |
 | Mountain Jew | `https://www.meetup.com/mountain-jew/events/ical/` | 5 | Young professionals, hikes, Shabbat |
 
+### Eventbrite Organizers (via scraper)
+| Source | Eventbrite Organizer URL | Notes |
+|--------|--------------------------|-------|
+| JCCSF | eventbrite.com/o/115705078411 | 19 upcoming events |
+| Congregation Emanu-El SF | eventbrite.com/o/congregation-emanu-el-san-francisco-74110536583 | Multiple pages |
+| Chabad SF - SOMA Shul | eventbrite.com/o/chabad-sf-soma-shul-3729957203 | 2 upcoming events |
+| JCC East Bay | eventbrite.com/o/jcc-east-bay-9035654915 | 3 upcoming events |
+| Jewish Baby Network - East Bay | eventbrite.com/o/jewish-baby-network-jbn-east-bay-56946956693 | Family (0-36 months) |
+| Jewish Baby Network - Peninsula | eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253 | 3 upcoming events |
+
 ## Discovered - Needs Investigation
 
 | Source | URL | Platform | Notes |
@@ -49,15 +59,7 @@ This calendar aggregates events from Jewish organizations across the San Francis
 | Stanford Hillel | stanfordhillel.org | Own website | /event-list; also on events.stanford.edu |
 
 ## Discovered - Eventbrite Organizers (need scraper)
-
-| Source | Eventbrite Organizer URL | Notes |
-|--------|--------------------------|-------|
-| JCCSF | eventbrite.com/o/115705078411 | 19 upcoming events |
-| Congregation Emanu-El SF | eventbrite.com/o/congregation-emanu-el-san-francisco-74110536583 | Multiple pages |
-| Chabad SF - SOMA Shul | eventbrite.com/o/chabad-sf-soma-shul-3729957203 | 2 upcoming events |
-| JCC East Bay | eventbrite.com/o/jcc-east-bay-9035654915 | 3 upcoming events |
-| Jewish Baby Network - East Bay | eventbrite.com/o/jewish-baby-network-jbn-east-bay-56946956693 | Family (0-36 months) |
-| Jewish Baby Network - Peninsula | eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253 | 3 upcoming events |
+(all moved to Currently Implemented)
 
 ## Discovered - Non-Starters
 

@@ -767,6 +767,18 @@ jobs:
     # ==========================================
     # JWeekly (Jewish Northern California)
     # ==========================================
+    - name: Scrape JWeekly Eventbrite sources
+      if: contains(steps.locations.outputs.list, 'jweekly') && github.event.inputs.regenerate_only != 'true'
+      run: |
+        echo "Scraping JWeekly Eventbrite sources..."
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/115705078411" --name "JCCSF" --output cities/jweekly/eventbrite_jccsf.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/congregation-emanu-el-san-francisco-74110536583" --name "Congregation Emanu-El SF" --output cities/jweekly/eventbrite_emanu_el.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/chabad-sf-soma-shul-3729957203" --name "Chabad SF SOMA Shul" --output cities/jweekly/eventbrite_chabad_soma.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jcc-east-bay-9035654915" --name "JCC East Bay" --output cities/jweekly/eventbrite_jcc_east_bay.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-east-bay-56946956693" --name "Jewish Baby Network East Bay" --output cities/jweekly/eventbrite_jbn_east_bay.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253" --name "Jewish Baby Network Peninsula" --output cities/jweekly/eventbrite_jbn_peninsula.ics || true
+      continue-on-error: true
+
     - name: Download JWeekly feeds
       if: contains(steps.locations.outputs.list, 'jweekly')
       run: |
