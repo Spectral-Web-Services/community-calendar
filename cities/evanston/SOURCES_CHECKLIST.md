@@ -11,6 +11,7 @@
 | Evanston History Center | `https://evanstonhistorycenter.org/calendar-of-events/?ical=1` | WordPress + The Events Calendar |
 | Beth Emet Synagogue | `https://bethemet.org/calendar/?ical=1` | WordPress + The Events Calendar |
 | Village of Skokie Community Calendar | `https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=22&feed=calendar` | CivicPlus; 25 events |
+| City of Evanston | `scrapers/revize.py` (Events category) | Revize CMS JSON API; 39 events |
 
 ### Libraries
 | Source | Feed URL | Notes |
@@ -39,7 +40,7 @@
 
 | Source | Reason |
 |--------|--------|
-| City of Evanston (cityofevanston.org) | Revize CMS, no standard feeds |
+| City of Evanston (cityofevanston.org) | Revize CMS — now scraped via revize.py |
 | Evanston Public Library | BiblioCommons platform, no ICS/RSS feed |
 | Northwestern PlanIt Purple | No feed export, browse-only calendar |
 | Northwestern Bienen School of Music | No feed export visible |
@@ -68,7 +69,6 @@
 
 ## To Investigate
 
-- [ ] City of Evanston Revize calendar scraper (cityofevanston.org/calendar.php)
 - [ ] Northwestern athletics (nuwildcats.com was ECONNREFUSED)
 - [ ] More Eventbrite organizers in Evanston
 - [ ] Evanston Farmers Market

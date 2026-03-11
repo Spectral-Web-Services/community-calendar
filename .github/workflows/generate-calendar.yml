@@ -823,6 +823,12 @@ jobs:
     # ==========================================
     # Evanston, IL
     # ==========================================
+    - name: Scrape Evanston sources
+      if: contains(steps.locations.outputs.list, 'evanston') && github.event.inputs.regenerate_only != 'true'
+      run: |
+        python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston" --categories "Events" --output cities/evanston/city_of_evanston.ics || true
+      continue-on-error: true
+
     - name: Download Evanston feeds
       if: contains(steps.locations.outputs.list, 'evanston')
       run: |
