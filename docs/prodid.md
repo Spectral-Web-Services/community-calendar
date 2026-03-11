@@ -216,6 +216,8 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Sabre//Sabre VObject 4.5.8//EN` | evanston | lincolnwood_library, morton_grove_library, skokie_library, winnetka_northfield_library |
 | `-//Santa Rosa Junior College//NONSGML v1.0//EN` | santarosa | srjc |
 | `-//Teamup Solutions AG//Teamup Calendar//EN` | montclair | shomrei_emunah |
+| `-//Ticketmaster/Evanston Venues//ticketmaster.com//` | evanston | ticketmaster_evanston_venues |
+| `-//Ticketmaster/Evanston//ticketmaster.com//` | evanston | ticketmaster_evanston |
 | `-//YWCA Evanston/North Shore//eventbrite.com//` | evanston | eb_ywca |
 | `icalendar-ruby` | matsu | matsuk12 |
 | `www.maak-agenda.nl` | raleighdurham | nc_courage |

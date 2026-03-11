@@ -1,292 +1,307 @@
 python: can't open file '/home/runner/work/community-calendar/community-calendar/scrapers/revize.py': [Errno 2] No such file or directory
-2026-03-11 18:49:46,617 - PlanItPurpleScraper - INFO - Scraping Northwestern University
-2026-03-11 18:49:48,131 - __main__ - INFO - Fetched 291 events from PlanIt Purple
-2026-03-11 18:49:48,133 - PlanItPurpleScraper - INFO - Found 291 events
-2026-03-11 18:49:48,228 - PlanItPurpleScraper - INFO - Written to cities/evanston/northwestern.ics
-2026-03-11 18:49:48,456 - ChicagoBotanicScraper - INFO - Scraping Chicago Botanic Garden
-2026-03-11 18:49:48,457 - __main__ - INFO - Fetching page 0: https://www.chicagobotanic.org/calendar
-2026-03-11 18:49:48,912 - __main__ - INFO - Fetching page 1: https://www.chicagobotanic.org/calendar?page=1
-2026-03-11 18:49:49,168 - __main__ - INFO - Fetching page 2: https://www.chicagobotanic.org/calendar?page=2
-2026-03-11 18:49:49,416 - __main__ - INFO - Fetching page 3: https://www.chicagobotanic.org/calendar?page=3
-2026-03-11 18:49:49,680 - __main__ - INFO - Fetching page 4: https://www.chicagobotanic.org/calendar?page=4
-2026-03-11 18:49:49,889 - __main__ - INFO - Fetching page 5: https://www.chicagobotanic.org/calendar?page=5
-2026-03-11 18:49:50,102 - __main__ - INFO - Fetching page 6: https://www.chicagobotanic.org/calendar?page=6
-2026-03-11 18:49:50,333 - __main__ - INFO - Fetching page 7: https://www.chicagobotanic.org/calendar?page=7
-2026-03-11 18:49:50,534 - __main__ - INFO - Fetching page 8: https://www.chicagobotanic.org/calendar?page=8
-2026-03-11 18:49:50,758 - __main__ - INFO - No more events on page 8, stopping
-2026-03-11 18:49:50,758 - __main__ - INFO - Found 162 events total
-2026-03-11 18:49:50,758 - ChicagoBotanicScraper - INFO - Filtered 22 events beyond 2 months out
-2026-03-11 18:49:50,758 - ChicagoBotanicScraper - INFO - Found 140 events
-2026-03-11 18:49:50,779 - ChicagoBotanicScraper - INFO - Written to cities/evanston/chicago_botanic.ics
-2026-03-11 18:49:50,947 - INFO - Scraping Bookends & Beginnings
-2026-03-11 18:49:52,036 - INFO - Discovered 17 event URLs from organizer page
-2026-03-11 18:49:52,036 - INFO - Fetching 17 event pages (parallel)...
-2026-03-11 18:49:52,593 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/injustice-town-an-eveing-with-journalists-rick-tulsky-and-peter-slevin-tickets-1982084875218
-2026-03-11 18:49:52,753 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/before-the-byline-an-evening-with-news-journalist-don-wycliff-tickets-1980123957059
-2026-03-11 18:49:53,197 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/writing-the-romance-novel-from-meet-cutes-to-happily-ever-afters-tickets-1982040155460
-2026-03-11 18:49:53,281 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/character-and-voice-a-writing-workshop-tickets-1981485043104
-2026-03-11 18:49:53,287 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/global-issues-local-responses-book-club-february-meeting-tickets-1979563996201
-2026-03-11 18:49:53,295 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/january-jumpstart-tickets-1977095676390
-2026-03-11 18:49:53,645 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/janet-burroway-amy-danzer-and-miles-harvey-on-fiction-tickets-1980209254185
-2026-03-11 18:49:53,687 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rob-miller-rhett-miller-talk-country-punk-and-bloodshot-records-tickets-1976746479934
-2026-03-11 18:49:53,821 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/door-county-tamara-gaumond-and-jean-obrien-gibbons-tickets-1982092324499
-2026-03-11 18:49:53,862 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/reading-the-cards-a-tarot-study-group-tickets-1979230548851
-2026-03-11 18:49:54,026 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/an-evening-with-jonathan-gleason-on-field-guide-to-falling-ill-tickets-1979536658433
-2026-03-11 18:49:54,162 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-things-horror-with-ashley-cullins-and-jimmy-juliano-tickets-1804303944669
-2026-03-11 18:49:54,211 - INFO - Got 5 future events
-2026-03-11 18:49:54,212 - INFO - Filtered 1 events beyond 2 months out
-2026-03-11 18:49:54,212 - INFO - Found 4 events
-2026-03-11 18:49:54,213 - INFO - Written to cities/evanston/eb_bookends.ics
-2026-03-11 18:49:54,352 - INFO - Scraping The Wine Goddess
-2026-03-11 18:49:55,432 - INFO - Discovered 19 event URLs from organizer page
-2026-03-11 18:49:55,432 - INFO - Fetching 19 event pages (parallel)...
-2026-03-11 18:49:56,125 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-great-wines-of-the-napa-valley-tickets-1977084240184
-2026-03-11 18:49:56,139 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-guide-to-organic-biodynamic-and-natural-wine-tickets-1977090036521
-2026-03-11 18:49:56,717 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sparkling-wine-from-around-the-world-and-their-cheese-match-made-in-heaven-tickets-1770848699129
-2026-03-11 18:49:56,775 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-wine-and-cheese-of-italy-tickets-1485224018019
-2026-03-11 18:49:56,972 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-mega-tasting-230-400-pm-session-tickets-1748876539809
-2026-03-11 18:49:57,274 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/from-vine-to-wine-how-wine-is-made-tickets-1485209905809
-2026-03-11 18:49:57,307 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-taste-of-new-spain-with-sean-sutton-of-vino-vi-co-tickets-1839388643949
-2026-03-11 18:49:57,499 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-mega-tasting-430-600-pm-session-tickets-1748888054249
-2026-03-11 18:49:57,528 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sparkling-wine-from-around-the-world-and-their-cheese-match-made-in-heaven-tickets-1770877294659
-2026-03-11 18:49:57,857 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sparkling-wine-from-around-the-world-and-their-cheese-match-made-in-heaven-tickets-1770827485679
-2026-03-11 18:49:57,913 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-italians-do-it-better-italys-take-on-international-wine-grapes-tickets-1977086278280
-2026-03-11 18:49:58,022 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/wine-piron-chocolate-tickets-1977086602249
-2026-03-11 18:49:58,023 - INFO - Got 7 future events
-2026-03-11 18:49:58,023 - INFO - Found 7 events
-2026-03-11 18:49:58,024 - INFO - Written to cities/evanston/eb_wine_goddess.ics
-2026-03-11 18:49:58,161 - INFO - Scraping Hive Center for the Book Arts
-2026-03-11 18:49:59,340 - INFO - Discovered 16 event URLs from organizer page
-2026-03-11 18:49:59,340 - INFO - Fetching 16 event pages (parallel)...
-2026-03-11 18:49:59,959 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/postponed-hive-salon-series-book-launch-the-scapegoat-child-tickets-1980492554544
-2026-03-11 18:49:59,963 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-tender-at-the-bone-tickets-1979028155487
-2026-03-11 18:50:00,422 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-the-crime-brulee-bake-off-tickets-1712282616399
-2026-03-11 18:50:00,467 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-a-paradise-built-in-hell-tickets-1744406559979
-2026-03-11 18:50:00,525 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-107-days-tickets-1744397131779
-2026-03-11 18:50:00,650 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-bite-by-bite-nourishment-and-jamborees-tickets-1982460647162
-2026-03-11 18:50:00,905 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-in-the-country-we-love-tickets-1979680757437
-2026-03-11 18:50:00,973 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/comic-strip-fun-a-hands-on-workshop-at-hive-tickets-1849059449589
-2026-03-11 18:50:01,032 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-all-the-way-to-the-river-tickets-1982465404391
-2026-03-11 18:50:01,066 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-the-next-day-tickets-1974435607051
-2026-03-11 18:50:01,576 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-for-never-and-always-tickets-1712273840149
-2026-03-11 18:50:01,619 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-the-particular-sadness-of-lemon-cake-tickets-1980409102938
-2026-03-11 18:50:01,619 - INFO - Got 3 future events
-2026-03-11 18:50:01,619 - INFO - Found 3 events
-2026-03-11 18:50:01,620 - INFO - Written to cities/evanston/eb_hive_book_arts.ics
-2026-03-11 18:50:01,763 - INFO - Scraping YWCA Evanston/North Shore
-2026-03-11 18:50:03,130 - INFO - Discovered 17 event URLs from organizer page
-2026-03-11 18:50:03,130 - INFO - Fetching 17 event pages (parallel)...
-2026-03-11 18:50:03,859 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/i-have-a-dream-a-walk-into-your-future-career-event-tickets-1977925831406
-2026-03-11 18:50:03,899 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/film-discussion-stamped-from-the-beginning-tickets-1981046562597
-2026-03-11 18:50:03,961 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/prek-4th-grade-caregiver-sex-education-workshop-its-that-easy-tickets-1527608882289
-2026-03-11 18:50:04,375 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-soul-of-black-poetry-celebrating-and-centering-beauty-of-blackness-tickets-1981045894599
-2026-03-11 18:50:04,436 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/basic-money-management-for-all-a-free-ywca-financial-wellness-workshop-tickets-1740323226619
-2026-03-11 18:50:04,460 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/prevention-through-education-a-discussion-on-teen-dating-violence-tickets-1975147136254
-2026-03-11 18:50:04,821 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/in-her-voice-a-conversation-with-taylor-armstrong-tickets-1704153542119
-2026-03-11 18:50:04,942 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/3rd-annual-ywca-domestic-violence-awareness-month-community-resource-fair-tickets-1708832015559
-2026-03-11 18:50:04,997 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yw-culinary-information-session-tickets-1983362734329
-2026-03-11 18:50:05,441 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/from-hate-to-humanity-the-history-of-anti-blackness-in-the-united-states-tickets-1981045370030
-2026-03-11 18:50:05,476 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/40-hour-domestic-violence-training-tickets-1758446543949
-2026-03-11 18:50:05,557 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yw-culinary-information-session-tickets-1983361674158
-2026-03-11 18:50:05,557 - INFO - Got 5 future events
-2026-03-11 18:50:05,557 - INFO - Filtered 1 events beyond 2 months out
-2026-03-11 18:50:05,557 - INFO - Found 4 events
-2026-03-11 18:50:05,559 - INFO - Written to cities/evanston/eb_ywca.ics
-2026-03-11 18:50:05,699 - INFO - Scraping Block Museum of Art
-2026-03-11 18:50:06,849 - INFO - Discovered 14 event URLs from organizer page
-2026-03-11 18:50:06,849 - INFO - Fetching 14 event pages (parallel)...
-2026-03-11 18:50:07,395 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/union-2024-with-filmmaker-brett-story-in-person-tickets-1980738179214
-2026-03-11 18:50:07,426 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nashville-1975-in-35mm-with-professor-heather-hendershot-tickets-1981593272822
-2026-03-11 18:50:07,444 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/they-shoot-horses-dont-they-1969-in-16mm-tickets-1982229064492
-2026-03-11 18:50:07,912 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-the-living-room-tickets-1977631833049
-2026-03-11 18:50:07,961 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/exhibition-keynote-des-marabouts-de-djenne-and-west-african-portraiture-tickets-1977636184063
-2026-03-11 18:50:08,000 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/gallery-talk-marisa-cruz-branco-on-teresa-montoyas-to-itso-yellow-water-tickets-1977631071772
-2026-03-11 18:50:08,026 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/seeds-2025-tickets-1980753491012
-2026-03-11 18:50:08,037 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/curator-talk-hamdia-traores-des-marabouts-de-djenne-tickets-1977604536404
-2026-03-11 18:50:08,428 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-hamdia-traores-des-marabouts-de-djenne-tickets-1977717481225
-2026-03-11 18:50:08,497 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-hamdia-traores-des-marabouts-de-djenne-tickets-1977728608507
-2026-03-11 18:50:08,506 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-teresa-montoyas-to-itso-yellow-water-tickets-1977672781527
-2026-03-11 18:50:08,509 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/immigrant-owned-photographer-jonathan-castillo-in-conversation-tickets-1977660004310
-2026-03-11 18:50:08,509 - INFO - Got 2 future events
-2026-03-11 18:50:08,509 - INFO - Found 2 events
-2026-03-11 18:50:08,510 - INFO - Written to cities/evanston/eb_block_museum.ics
-2026-03-11 18:50:08,652 - INFO - Scraping Goldfish Swim School Evanston
-2026-03-11 18:50:09,827 - INFO - Discovered 21 event URLs from organizer page
-2026-03-11 18:50:09,827 - INFO - Fetching 21 event pages (parallel)...
-2026-03-11 18:50:10,386 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/presidents-day-family-swim-tickets-1981792958086
-2026-03-11 18:50:10,402 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1918704379449
-2026-03-11 18:50:10,467 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mlk-jr-family-swim-event-tickets-1978906921874
-2026-03-11 18:50:10,914 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sweetheart-swim-tickets-1980514937492
-2026-03-11 18:50:10,934 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1974939549356
-2026-03-11 18:50:11,556 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/cookies-cocoa-and-family-swim-tickets-1974940464092
-2026-03-11 18:50:11,563 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/noon-years-eve-tickets-1975188216125
-2026-03-11 18:50:11,629 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1685802754419
-2026-03-11 18:50:11,969 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trunk-or-treat-tickets-1685827337949
-2026-03-11 18:50:12,010 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/goldfish-swim-school-evanston-back-to-school-bash-tickets-1556743103529
-2026-03-11 18:50:12,121 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1685790467669
-2026-03-11 18:50:12,145 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pride-night-at-goldfish-evanston-tickets-1411205787499
-2026-03-11 18:50:12,561 - INFO - Got 8 future events
-2026-03-11 18:50:12,561 - INFO - Found 8 events
-2026-03-11 18:50:12,563 - INFO - Written to cities/evanston/eb_goldfish.ics
-2026-03-11 18:50:12,699 - INFO - Scraping Open Studio Project
-2026-03-11 18:50:13,723 - INFO - Discovered 12 event URLs from organizer page
-2026-03-11 18:50:13,724 - INFO - Fetching 12 event pages (parallel)...
-2026-03-11 18:50:14,241 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/main-street-mural-community-workshop-tickets-1983334011418
-2026-03-11 18:50:14,276 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshop-for-kids-mosaics-tickets-935770533857
-2026-03-11 18:50:14,310 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/intro-to-the-open-studio-process-tickets-1778967211819
-2026-03-11 18:50:14,347 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshops-for-kids-clay-tickets-935745829967
-2026-03-11 18:50:14,349 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshop-for-kids-printmaking-tickets-935754826877
-2026-03-11 18:50:14,724 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/open-studio-kids-workshop-bug-coffins-tickets-733065287007
-2026-03-11 18:50:14,885 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/holiday-graham-cracker-building-tickets-771830956167
-2026-03-11 18:50:15,267 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/holiday-pop-up-free-cookie-decorating-artisan-market-tickets-1977067989578
-2026-03-11 18:50:15,424 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshop-for-kids-felting-tickets-935814716007
-2026-03-11 18:50:15,888 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-wellness-tickets-730717594997
-2026-03-11 18:50:15,888 - INFO - Got 2 future events
-2026-03-11 18:50:15,889 - INFO - Found 2 events
-2026-03-11 18:50:15,889 - INFO - Written to cities/evanston/eb_open_studio.ics
-2026-03-11 18:50:16,028 - INFO - Scraping Prairie Moon
-2026-03-11 18:50:17,280 - INFO - Discovered 13 event URLs from organizer page
-2026-03-11 18:50:17,280 - INFO - Fetching 13 event pages (parallel)...
-2026-03-11 18:50:17,835 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/andrew-meyer-quintet-at-prairie-moon-restaurant-in-evanston-tickets-1979675529801
-2026-03-11 18:50:17,875 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/aaron-brenton-quartet-at-prairie-moon-restaurant-in-evanston-tickets-1979675386372
-2026-03-11 18:50:17,887 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/millie-aheart-quintet-at-prairie-moon-restaurant-in-evanston-tickets-1979675624083
-2026-03-11 18:50:17,897 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/holiday-concert-with-myles-hayes-quartet-in-evanston-tickets-1976637266273
-2026-03-11 18:50:17,964 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/chad-mccullough-quartet-at-prairie-moon-in-evanston-tickets-1925689060819
-2026-03-11 18:50:18,363 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mardi-gras-in-evanston-tickets-1982601088225
-2026-03-11 18:50:18,365 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dan-nicholson-quartet-at-prairie-moon-restaurant-in-evanston-tickets-1976641183991
-2026-03-11 18:50:18,445 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/oliver-scott-trio-at-prairie-moon-restaurant-in-evanston-tickets-1976640757716
-2026-03-11 18:50:18,452 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sam-robinson-quintet-at-prairie-moon-in-evanston-tickets-1925627346229
-2026-03-11 18:50:18,485 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/geordie-kelly-organ-duo-at-prairie-moon-restaurant-in-evanston-tickets-1979675268018
-2026-03-11 18:50:18,979 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/kabir-dalawari-quartet-at-prairie-moon-restaurant-in-evanston-tickets-1976637202081
-2026-03-11 18:50:18,985 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/steve-million-organ-trio-at-prairie-moon-in-evanston-tickets-1925671127179
-2026-03-11 18:50:19,627 - INFO - Got 0 future events
-2026-03-11 18:50:19,627 - INFO - Found 0 events
-2026-03-11 18:50:19,628 - INFO - Written to cities/evanston/eb_prairie_moon.ics
-2026-03-11 18:50:19,760 - INFO - Scraping Downtown Evanston
-2026-03-11 18:50:21,006 - INFO - Discovered 13 event URLs from organizer page
-2026-03-11 18:50:21,006 - INFO - Fetching 13 event pages (parallel)...
-2026-03-11 18:50:21,526 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/evanston-cars-coffee-tickets-1363197082169
-2026-03-11 18:50:21,578 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanstons-2024-warm-bevvy-walk-tickets-1073341767119
-2026-03-11 18:50:21,581 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanstons-2025-warm-bevvy-walk-tickets-1954904866079
-2026-03-11 18:50:21,615 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanston-spring-sip-stroll-tickets-882582065717
-2026-03-11 18:50:21,823 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-a-bottlecap-pin-cushion-with-denise-handwerker-tickets-525106366277
-2026-03-11 18:50:22,034 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/naked-lady-party-clothes-swap-tickets-525948144057
-2026-03-11 18:50:22,118 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/spring-sip-n-stroll-tickets-616000874197
-2026-03-11 18:50:22,227 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanston-warm-bevvy-walk-tickets-756590050207
-2026-03-11 18:50:22,332 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/watercolor-landscape-class-with-kate-wyatt-fine-art-tickets-521198126627
-2026-03-11 18:50:22,516 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanston-2025-spring-sip-stroll-tickets-1296148678589
-2026-03-11 18:50:22,646 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-embroidery-how-to-class-botanical-designs-iris-tickets-520801229497
-2026-03-11 18:50:22,663 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/evanston-en-blanc-tickets-667826144977
-2026-03-11 18:50:22,664 - INFO - Got 1 future events
-2026-03-11 18:50:22,664 - INFO - Found 1 events
-2026-03-11 18:50:22,665 - INFO - Written to cities/evanston/eb_downtown_evanston.ics
-2026-03-11 18:50:22,804 - INFO - Scraping The Backyard Barbecue Store
-2026-03-11 18:50:24,065 - INFO - Discovered 21 event URLs from organizer page
-2026-03-11 18:50:24,065 - INFO - Fetching 21 event pages (parallel)...
-2026-03-11 18:50:24,621 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-essentials-from-the-smoker-grill-tickets-1545146848819
-2026-03-11 18:50:24,665 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pizza-class-with-matt-halack-from-grateful-bites-tickets-1978333399453
-2026-03-11 18:50:24,706 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-brisket-class-with-8-time-grand-champion-chris-marks-tickets-1976776869831
-2026-03-11 18:50:25,175 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/big-green-egg-class-tickets-1978323922106
-2026-03-11 18:50:25,203 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/girls-who-grill-griddle-class-tickets-1732645141259
-2026-03-11 18:50:25,223 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-essentials-from-the-smoker-grill-tickets-1545074883569
-2026-03-11 18:50:25,781 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/weber-pellet-class-with-maddy-rydz-tickets-1680526954359
-2026-03-11 18:50:26,281 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-pork-class-with-old-arthurs-tickets-1732649253559
-2026-03-11 18:50:26,343 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/big-green-egg-class-w-turkey-tickets-1965475249380
-2026-03-11 18:50:26,365 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/don-julio-tequila-tasting-food-pairing-tickets-1976932158303
-2026-03-11 18:50:26,641 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/smoke-grill-serve-superbowl-game-day-bbq-class-tickets-1978426062611
-2026-03-11 18:50:26,787 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/girls-who-grill-grilling-class-tickets-1542726128379
-2026-03-11 18:50:26,787 - INFO - Got 9 future events
-2026-03-11 18:50:26,788 - INFO - Filtered 8 events beyond 2 months out
-2026-03-11 18:50:26,788 - INFO - Found 1 events
-2026-03-11 18:50:26,788 - INFO - Written to cities/evanston/eb_backyard_bbq.ics
-2026-03-11 18:50:26,925 - INFO - Scraping SPACE Evanston
-2026-03-11 18:50:27,181 - INFO - Ticketmaster: 3 events across 1 pages
-2026-03-11 18:50:27,191 - INFO - Parsed 3 events for SPACE Evanston
-2026-03-11 18:50:27,191 - INFO - Filtered 2 events beyond 2 months out
-2026-03-11 18:50:27,191 - INFO - Found 1 events
-2026-03-11 18:50:27,191 - INFO - Written to cities/evanston/ticketmaster_space.ics
-2026-03-11 18:50:27,309 - INFO - Processing meetup_af_northshore.ics...
-2026-03-11 18:50:27,310 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627452/
-2026-03-11 18:50:27,917 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
-2026-03-11 18:50:27,917 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312930678/
-2026-03-11 18:50:28,463 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/7/6/a/600_532290570.jpeg
-2026-03-11 18:50:28,463 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313509334/
-2026-03-11 18:50:29,005 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
-2026-03-11 18:50:29,005 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313077527/
-2026-03-11 18:50:29,552 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/4/4/600_480743108.jpeg
-2026-03-11 18:50:29,552 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313039549/
-2026-03-11 18:50:30,097 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
-2026-03-11 18:50:30,098 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518016/
-2026-03-11 18:50:30,676 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/c/1/1/600_480764049.jpeg
-2026-03-11 18:50:30,676 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627471/
-2026-03-11 18:50:31,236 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
-2026-03-11 18:50:31,236 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518017/
-2026-03-11 18:50:31,778 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
-2026-03-11 18:50:31,779 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312272027/
-2026-03-11 18:50:32,334 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/b/c/a/600_531592170.jpeg
-2026-03-11 18:50:32,335 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313513417/
-2026-03-11 18:50:32,891 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
-2026-03-11 18:50:32,891 - INFO - meetup_af_northshore.ics: added 10 image(s)
-2026-03-11 18:50:32,892 - INFO - Processing meetup_black_girls_read.ics...
-2026-03-11 18:50:32,892 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/312310442/
-2026-03-11 18:50:33,444 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/4/4/3/600_531809763.jpeg
-2026-03-11 18:50:33,444 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/313518369/
-2026-03-11 18:50:33,987 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/f/b/f/600_532909087.jpeg
-2026-03-11 18:50:33,987 - INFO - meetup_black_girls_read.ics: added 2 image(s)
-2026-03-11 18:50:33,987 - INFO - Processing meetup_board_games.ics...
-2026-03-11 18:50:33,988 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484474/
-2026-03-11 18:50:34,530 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
-2026-03-11 18:50:34,530 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484476/
-2026-03-11 18:50:35,093 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
-2026-03-11 18:50:35,093 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484480/
-2026-03-11 18:50:35,638 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
-2026-03-11 18:50:35,638 - INFO - meetup_board_games.ics: added 3 image(s)
-2026-03-11 18:50:35,638 - INFO - Processing meetup_drum_circle.ics...
-2026-03-11 18:50:35,639 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992477/
-2026-03-11 18:50:36,195 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
-2026-03-11 18:50:36,196 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992483/
-2026-03-11 18:50:36,756 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
-2026-03-11 18:50:36,756 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/308108162/
-2026-03-11 18:50:37,320 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:37,320 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825846/
-2026-03-11 18:50:37,880 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:37,880 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825845/
-2026-03-11 18:50:38,450 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:38,450 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825844/
-2026-03-11 18:50:39,011 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:39,011 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcmbxb/
-2026-03-11 18:50:39,575 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:39,575 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcnbvb/
-2026-03-11 18:50:40,132 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:40,133 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcpbbc/
-2026-03-11 18:50:40,673 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:40,673 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcqbxb/
-2026-03-11 18:50:41,221 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
-2026-03-11 18:50:41,222 - INFO - meetup_drum_circle.ics: added 10 image(s)
-2026-03-11 18:50:41,222 - INFO - Processing meetup_evanston_writers.ics...
-2026-03-11 18:50:41,222 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313119719/
-2026-03-11 18:50:41,773 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
-2026-03-11 18:50:41,773 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313173658/
-2026-03-11 18:50:42,377 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/b/6/b/600_532556171.jpeg
-2026-03-11 18:50:42,377 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721320/
-2026-03-11 18:50:42,920 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:50:42,920 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312039916/
-2026-03-11 18:50:43,482 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:50:43,482 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/311601176/
-2026-03-11 18:50:44,022 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:50:44,022 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313405151/
-2026-03-11 18:50:44,566 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:50:44,566 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721321/
-2026-03-11 18:50:45,127 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:50:45,127 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312760683/
-2026-03-11 18:50:45,667 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
-2026-03-11 18:50:45,668 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313462483/
-2026-03-11 18:50:46,229 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:50:46,229 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721322/
-2026-03-11 18:50:46,782 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-2026-03-11 18:50:46,782 - INFO - meetup_evanston_writers.ics: added 10 image(s)
-2026-03-11 18:50:46,782 - INFO - Processing meetup_trivia_nerds.ics...
-2026-03-11 18:50:46,782 - INFO -   Fetching image for: https://www.meetup.com/evanston-trivia-nerds-meetup/events/313546846/
-2026-03-11 18:50:47,339 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/e/c/600_532645836.jpeg
-2026-03-11 18:50:47,339 - INFO - meetup_trivia_nerds.ics: added 1 image(s)
-2026-03-11 18:50:47,339 - INFO - Done. Total images added: 36
+2026-03-11 19:40:59,206 - PlanItPurpleScraper - INFO - Scraping Northwestern University
+2026-03-11 19:41:00,937 - __main__ - INFO - Fetched 291 events from PlanIt Purple
+2026-03-11 19:41:00,938 - PlanItPurpleScraper - INFO - Found 291 events
+2026-03-11 19:41:01,038 - PlanItPurpleScraper - INFO - Written to cities/evanston/northwestern.ics
+2026-03-11 19:41:01,295 - ChicagoBotanicScraper - INFO - Scraping Chicago Botanic Garden
+2026-03-11 19:41:01,295 - __main__ - INFO - Fetching page 0: https://www.chicagobotanic.org/calendar
+2026-03-11 19:41:01,615 - __main__ - INFO - Fetching page 1: https://www.chicagobotanic.org/calendar?page=1
+2026-03-11 19:41:01,774 - __main__ - INFO - Fetching page 2: https://www.chicagobotanic.org/calendar?page=2
+2026-03-11 19:41:01,927 - __main__ - INFO - Fetching page 3: https://www.chicagobotanic.org/calendar?page=3
+2026-03-11 19:41:02,087 - __main__ - INFO - Fetching page 4: https://www.chicagobotanic.org/calendar?page=4
+2026-03-11 19:41:02,378 - __main__ - INFO - Fetching page 5: https://www.chicagobotanic.org/calendar?page=5
+2026-03-11 19:41:02,541 - __main__ - INFO - Fetching page 6: https://www.chicagobotanic.org/calendar?page=6
+2026-03-11 19:41:02,698 - __main__ - INFO - Fetching page 7: https://www.chicagobotanic.org/calendar?page=7
+2026-03-11 19:41:02,840 - __main__ - INFO - Fetching page 8: https://www.chicagobotanic.org/calendar?page=8
+2026-03-11 19:41:02,980 - __main__ - INFO - No more events on page 8, stopping
+2026-03-11 19:41:02,980 - __main__ - INFO - Found 162 events total
+2026-03-11 19:41:02,980 - ChicagoBotanicScraper - INFO - Filtered 22 events beyond 2 months out
+2026-03-11 19:41:02,981 - ChicagoBotanicScraper - INFO - Found 140 events
+2026-03-11 19:41:03,002 - ChicagoBotanicScraper - INFO - Written to cities/evanston/chicago_botanic.ics
+2026-03-11 19:41:03,175 - INFO - Scraping Bookends & Beginnings
+2026-03-11 19:41:04,622 - INFO - Discovered 17 event URLs from organizer page
+2026-03-11 19:41:04,622 - INFO - Fetching 17 event pages (parallel)...
+2026-03-11 19:41:04,836 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/before-the-byline-an-evening-with-news-journalist-don-wycliff-tickets-1980123957059
+2026-03-11 19:41:04,862 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/january-jumpstart-tickets-1977095676390
+2026-03-11 19:41:04,865 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/writing-the-romance-novel-from-meet-cutes-to-happily-ever-afters-tickets-1982040155460
+2026-03-11 19:41:04,911 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-things-horror-with-ashley-cullins-and-jimmy-juliano-tickets-1804303944669
+2026-03-11 19:41:05,057 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/janet-burroway-amy-danzer-and-miles-harvey-on-fiction-tickets-1980209254185
+2026-03-11 19:41:05,089 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/door-county-tamara-gaumond-and-jean-obrien-gibbons-tickets-1982092324499
+2026-03-11 19:41:05,195 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/global-issues-local-responses-book-club-february-meeting-tickets-1979563996201
+2026-03-11 19:41:05,293 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/reading-the-cards-a-tarot-study-group-tickets-1979230548851
+2026-03-11 19:41:05,302 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/an-evening-with-jonathan-gleason-on-field-guide-to-falling-ill-tickets-1979536658433
+2026-03-11 19:41:05,392 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/character-and-voice-a-writing-workshop-tickets-1981485043104
+2026-03-11 19:41:05,489 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/injustice-town-an-eveing-with-journalists-rick-tulsky-and-peter-slevin-tickets-1982084875218
+2026-03-11 19:41:05,518 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rob-miller-rhett-miller-talk-country-punk-and-bloodshot-records-tickets-1976746479934
+2026-03-11 19:41:05,519 - INFO - Got 5 future events
+2026-03-11 19:41:05,519 - INFO - Filtered 1 events beyond 2 months out
+2026-03-11 19:41:05,519 - INFO - Found 4 events
+2026-03-11 19:41:05,520 - INFO - Written to cities/evanston/eb_bookends.ics
+2026-03-11 19:41:05,670 - INFO - Scraping The Wine Goddess
+2026-03-11 19:41:06,990 - INFO - Discovered 19 event URLs from organizer page
+2026-03-11 19:41:06,990 - INFO - Fetching 19 event pages (parallel)...
+2026-03-11 19:41:07,589 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-great-wines-of-the-napa-valley-tickets-1977084240184
+2026-03-11 19:41:07,602 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-wine-and-cheese-of-italy-tickets-1485224018019
+2026-03-11 19:41:07,607 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-taste-of-new-spain-with-sean-sutton-of-vino-vi-co-tickets-1839388643949
+2026-03-11 19:41:07,686 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sparkling-wine-from-around-the-world-and-their-cheese-match-made-in-heaven-tickets-1770848699129
+2026-03-11 19:41:08,377 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-italians-do-it-better-italys-take-on-international-wine-grapes-tickets-1977086278280
+2026-03-11 19:41:08,385 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-mega-tasting-430-600-pm-session-tickets-1748888054249
+2026-03-11 19:41:08,892 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sparkling-wine-from-around-the-world-and-their-cheese-match-made-in-heaven-tickets-1770827485679
+2026-03-11 19:41:08,965 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-mega-tasting-230-400-pm-session-tickets-1748876539809
+2026-03-11 19:41:08,979 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/wine-piron-chocolate-tickets-1977086602249
+2026-03-11 19:41:09,297 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-guide-to-organic-biodynamic-and-natural-wine-tickets-1977090036521
+2026-03-11 19:41:09,582 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sparkling-wine-from-around-the-world-and-their-cheese-match-made-in-heaven-tickets-1770877294659
+2026-03-11 19:41:09,600 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/from-vine-to-wine-how-wine-is-made-tickets-1485209905809
+2026-03-11 19:41:09,668 - INFO - Got 7 future events
+2026-03-11 19:41:09,668 - INFO - Found 7 events
+2026-03-11 19:41:09,670 - INFO - Written to cities/evanston/eb_wine_goddess.ics
+2026-03-11 19:41:09,819 - INFO - Scraping Hive Center for the Book Arts
+2026-03-11 19:41:11,115 - INFO - Discovered 16 event URLs from organizer page
+2026-03-11 19:41:11,115 - INFO - Fetching 16 event pages (parallel)...
+2026-03-11 19:41:11,764 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-for-never-and-always-tickets-1712273840149
+2026-03-11 19:41:12,308 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-in-the-country-we-love-tickets-1979680757437
+2026-03-11 19:41:12,316 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-the-next-day-tickets-1974435607051
+2026-03-11 19:41:12,704 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/postponed-hive-salon-series-book-launch-the-scapegoat-child-tickets-1980492554544
+2026-03-11 19:41:12,812 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-the-particular-sadness-of-lemon-cake-tickets-1980409102938
+2026-03-11 19:41:13,256 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/comic-strip-fun-a-hands-on-workshop-at-hive-tickets-1849059449589
+2026-03-11 19:41:13,277 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-a-paradise-built-in-hell-tickets-1744406559979
+2026-03-11 19:41:13,278 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-bite-by-bite-nourishment-and-jamborees-tickets-1982460647162
+2026-03-11 19:41:13,539 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-the-crime-brulee-bake-off-tickets-1712282616399
+2026-03-11 19:41:13,773 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-all-the-way-to-the-river-tickets-1982465404391
+2026-03-11 19:41:13,864 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-real-non-fiction-book-group-107-days-tickets-1744397131779
+2026-03-11 19:41:14,286 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/eat-their-words-tender-at-the-bone-tickets-1979028155487
+2026-03-11 19:41:14,286 - INFO - Got 3 future events
+2026-03-11 19:41:14,287 - INFO - Found 3 events
+2026-03-11 19:41:14,288 - INFO - Written to cities/evanston/eb_hive_book_arts.ics
+2026-03-11 19:41:14,437 - INFO - Scraping YWCA Evanston/North Shore
+2026-03-11 19:41:15,796 - INFO - Discovered 17 event URLs from organizer page
+2026-03-11 19:41:15,796 - INFO - Fetching 17 event pages (parallel)...
+2026-03-11 19:41:16,295 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/film-discussion-stamped-from-the-beginning-tickets-1981046562597
+2026-03-11 19:41:16,338 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/i-have-a-dream-a-walk-into-your-future-career-event-tickets-1977925831406
+2026-03-11 19:41:16,365 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/from-hate-to-humanity-the-history-of-anti-blackness-in-the-united-states-tickets-1981045370030
+2026-03-11 19:41:16,472 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/40-hour-domestic-violence-training-tickets-1758446543949
+2026-03-11 19:41:16,700 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-soul-of-black-poetry-celebrating-and-centering-beauty-of-blackness-tickets-1981045894599
+2026-03-11 19:41:16,775 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/3rd-annual-ywca-domestic-violence-awareness-month-community-resource-fair-tickets-1708832015559
+2026-03-11 19:41:16,915 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/basic-money-management-for-all-a-free-ywca-financial-wellness-workshop-tickets-1740323226619
+2026-03-11 19:41:17,012 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/prevention-through-education-a-discussion-on-teen-dating-violence-tickets-1975147136254
+2026-03-11 19:41:17,399 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yw-culinary-information-session-tickets-1983362734329
+2026-03-11 19:41:17,479 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yw-culinary-information-session-tickets-1983361674158
+2026-03-11 19:41:17,556 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/in-her-voice-a-conversation-with-taylor-armstrong-tickets-1704153542119
+2026-03-11 19:41:17,978 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/prek-4th-grade-caregiver-sex-education-workshop-its-that-easy-tickets-1527608882289
+2026-03-11 19:41:18,079 - INFO - Got 5 future events
+2026-03-11 19:41:18,079 - INFO - Filtered 1 events beyond 2 months out
+2026-03-11 19:41:18,079 - INFO - Found 4 events
+2026-03-11 19:41:18,081 - INFO - Written to cities/evanston/eb_ywca.ics
+2026-03-11 19:41:18,231 - INFO - Scraping Block Museum of Art
+2026-03-11 19:41:19,766 - INFO - Discovered 14 event URLs from organizer page
+2026-03-11 19:41:19,766 - INFO - Fetching 14 event pages (parallel)...
+2026-03-11 19:41:20,286 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/curator-talk-hamdia-traores-des-marabouts-de-djenne-tickets-1977604536404
+2026-03-11 19:41:20,288 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/exhibition-keynote-des-marabouts-de-djenne-and-west-african-portraiture-tickets-1977636184063
+2026-03-11 19:41:20,321 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-teresa-montoyas-to-itso-yellow-water-tickets-1977672781527
+2026-03-11 19:41:20,374 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/immigrant-owned-photographer-jonathan-castillo-in-conversation-tickets-1977660004310
+2026-03-11 19:41:20,752 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-the-living-room-tickets-1977631833049
+2026-03-11 19:41:20,767 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/union-2024-with-filmmaker-brett-story-in-person-tickets-1980738179214
+2026-03-11 19:41:20,838 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-hamdia-traores-des-marabouts-de-djenne-tickets-1977717481225
+2026-03-11 19:41:20,848 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-talks-hamdia-traores-des-marabouts-de-djenne-tickets-1977728608507
+2026-03-11 19:41:20,905 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/gallery-talk-marisa-cruz-branco-on-teresa-montoyas-to-itso-yellow-water-tickets-1977631071772
+2026-03-11 19:41:21,311 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/they-shoot-horses-dont-they-1969-in-16mm-tickets-1982229064492
+2026-03-11 19:41:21,326 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nashville-1975-in-35mm-with-professor-heather-hendershot-tickets-1981593272822
+2026-03-11 19:41:21,337 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/seeds-2025-tickets-1980753491012
+2026-03-11 19:41:21,337 - INFO - Got 2 future events
+2026-03-11 19:41:21,337 - INFO - Found 2 events
+2026-03-11 19:41:21,338 - INFO - Written to cities/evanston/eb_block_museum.ics
+2026-03-11 19:41:21,487 - INFO - Scraping Goldfish Swim School Evanston
+2026-03-11 19:41:22,659 - INFO - Discovered 21 event URLs from organizer page
+2026-03-11 19:41:22,659 - INFO - Fetching 21 event pages (parallel)...
+2026-03-11 19:41:23,192 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/cookies-cocoa-and-family-swim-tickets-1974940464092
+2026-03-11 19:41:23,201 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1685802754419
+2026-03-11 19:41:23,283 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1918704379449
+2026-03-11 19:41:23,642 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trunk-or-treat-tickets-1685827337949
+2026-03-11 19:41:23,658 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/noon-years-eve-tickets-1975188216125
+2026-03-11 19:41:23,662 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/goldfish-swim-school-evanston-back-to-school-bash-tickets-1556743103529
+2026-03-11 19:41:24,094 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1685790467669
+2026-03-11 19:41:24,174 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mlk-jr-family-swim-event-tickets-1978906921874
+2026-03-11 19:41:24,600 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/baby-brunch-and-swim-tickets-1974939549356
+2026-03-11 19:41:24,641 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/presidents-day-family-swim-tickets-1981792958086
+2026-03-11 19:41:24,671 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pride-night-at-goldfish-evanston-tickets-1411205787499
+2026-03-11 19:41:25,134 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sweetheart-swim-tickets-1980514937492
+2026-03-11 19:41:25,156 - INFO - Got 8 future events
+2026-03-11 19:41:25,156 - INFO - Found 8 events
+2026-03-11 19:41:25,158 - INFO - Written to cities/evanston/eb_goldfish.ics
+2026-03-11 19:41:25,308 - INFO - Scraping Open Studio Project
+2026-03-11 19:41:26,412 - INFO - Discovered 12 event URLs from organizer page
+2026-03-11 19:41:26,412 - INFO - Fetching 12 event pages (parallel)...
+2026-03-11 19:41:26,960 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/holiday-graham-cracker-building-tickets-771830956167
+2026-03-11 19:41:26,962 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/open-studio-kids-workshop-bug-coffins-tickets-733065287007
+2026-03-11 19:41:26,978 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/main-street-mural-community-workshop-tickets-1983334011418
+2026-03-11 19:41:26,986 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshops-for-kids-clay-tickets-935745829967
+2026-03-11 19:41:27,489 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/holiday-pop-up-free-cookie-decorating-artisan-market-tickets-1977067989578
+2026-03-11 19:41:27,501 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshop-for-kids-felting-tickets-935814716007
+2026-03-11 19:41:27,725 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/intro-to-the-open-studio-process-tickets-1778967211819
+2026-03-11 19:41:28,040 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshop-for-kids-mosaics-tickets-935770533857
+2026-03-11 19:41:28,089 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-in-art-workshop-for-kids-printmaking-tickets-935754826877
+2026-03-11 19:41:28,154 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/art-wellness-tickets-730717594997
+2026-03-11 19:41:28,154 - INFO - Got 2 future events
+2026-03-11 19:41:28,155 - INFO - Found 2 events
+2026-03-11 19:41:28,155 - INFO - Written to cities/evanston/eb_open_studio.ics
+2026-03-11 19:41:28,306 - INFO - Scraping Prairie Moon
+2026-03-11 19:41:29,478 - INFO - Discovered 13 event URLs from organizer page
+2026-03-11 19:41:29,478 - INFO - Fetching 13 event pages (parallel)...
+2026-03-11 19:41:30,042 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/kabir-dalawari-quartet-at-prairie-moon-restaurant-in-evanston-tickets-1976637202081
+2026-03-11 19:41:30,068 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/andrew-meyer-quintet-at-prairie-moon-restaurant-in-evanston-tickets-1979675529801
+2026-03-11 19:41:30,086 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sam-robinson-quintet-at-prairie-moon-in-evanston-tickets-1925627346229
+2026-03-11 19:41:30,099 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/steve-million-organ-trio-at-prairie-moon-in-evanston-tickets-1925671127179
+2026-03-11 19:41:30,543 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/aaron-brenton-quartet-at-prairie-moon-restaurant-in-evanston-tickets-1979675386372
+2026-03-11 19:41:30,566 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mardi-gras-in-evanston-tickets-1982601088225
+2026-03-11 19:41:30,604 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dan-nicholson-quartet-at-prairie-moon-restaurant-in-evanston-tickets-1976641183991
+2026-03-11 19:41:30,637 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/chad-mccullough-quartet-at-prairie-moon-in-evanston-tickets-1925689060819
+2026-03-11 19:41:31,045 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/holiday-concert-with-myles-hayes-quartet-in-evanston-tickets-1976637266273
+2026-03-11 19:41:31,071 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/millie-aheart-quintet-at-prairie-moon-restaurant-in-evanston-tickets-1979675624083
+2026-03-11 19:41:31,124 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/oliver-scott-trio-at-prairie-moon-restaurant-in-evanston-tickets-1976640757716
+2026-03-11 19:41:31,137 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/geordie-kelly-organ-duo-at-prairie-moon-restaurant-in-evanston-tickets-1979675268018
+2026-03-11 19:41:31,138 - INFO - Got 0 future events
+2026-03-11 19:41:31,138 - INFO - Found 0 events
+2026-03-11 19:41:31,138 - INFO - Written to cities/evanston/eb_prairie_moon.ics
+2026-03-11 19:41:31,286 - INFO - Scraping Downtown Evanston
+2026-03-11 19:41:32,470 - INFO - Discovered 13 event URLs from organizer page
+2026-03-11 19:41:32,471 - INFO - Fetching 13 event pages (parallel)...
+2026-03-11 19:41:33,008 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/evanston-en-blanc-tickets-667826144977
+2026-03-11 19:41:33,047 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanstons-2024-warm-bevvy-walk-tickets-1073341767119
+2026-03-11 19:41:33,051 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanston-2025-spring-sip-stroll-tickets-1296148678589
+2026-03-11 19:41:33,151 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanstons-2025-warm-bevvy-walk-tickets-1954904866079
+2026-03-11 19:41:33,505 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/evanston-cars-coffee-tickets-1363197082169
+2026-03-11 19:41:33,556 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-embroidery-how-to-class-botanical-designs-iris-tickets-520801229497
+2026-03-11 19:41:33,579 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/naked-lady-party-clothes-swap-tickets-525948144057
+2026-03-11 19:41:33,580 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanston-warm-bevvy-walk-tickets-756590050207
+2026-03-11 19:41:33,758 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-a-bottlecap-pin-cushion-with-denise-handwerker-tickets-525106366277
+2026-03-11 19:41:34,115 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/spring-sip-n-stroll-tickets-616000874197
+2026-03-11 19:41:34,120 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/watercolor-landscape-class-with-kate-wyatt-fine-art-tickets-521198126627
+2026-03-11 19:41:34,140 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/downtown-evanston-spring-sip-stroll-tickets-882582065717
+2026-03-11 19:41:34,140 - INFO - Got 1 future events
+2026-03-11 19:41:34,140 - INFO - Found 1 events
+2026-03-11 19:41:34,141 - INFO - Written to cities/evanston/eb_downtown_evanston.ics
+2026-03-11 19:41:34,289 - INFO - Scraping The Backyard Barbecue Store
+2026-03-11 19:41:35,561 - INFO - Discovered 21 event URLs from organizer page
+2026-03-11 19:41:35,562 - INFO - Fetching 21 event pages (parallel)...
+2026-03-11 19:41:36,091 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/girls-who-grill-griddle-class-tickets-1732645141259
+2026-03-11 19:41:36,142 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-essentials-from-the-smoker-grill-tickets-1545074883569
+2026-03-11 19:41:36,155 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/smoke-grill-serve-superbowl-game-day-bbq-class-tickets-1978426062611
+2026-03-11 19:41:36,656 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/girls-who-grill-grilling-class-tickets-1542726128379
+2026-03-11 19:41:37,261 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/big-green-egg-class-tickets-1978323922106
+2026-03-11 19:41:37,262 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-essentials-from-the-smoker-grill-tickets-1545146848819
+2026-03-11 19:41:37,336 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-pork-class-with-old-arthurs-tickets-1732649253559
+2026-03-11 19:41:37,369 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pizza-class-with-matt-halack-from-grateful-bites-tickets-1978333399453
+2026-03-11 19:41:37,836 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/weber-pellet-class-with-maddy-rydz-tickets-1680526954359
+2026-03-11 19:41:37,925 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/big-green-egg-class-w-turkey-tickets-1965475249380
+2026-03-11 19:41:37,939 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/all-brisket-class-with-8-time-grand-champion-chris-marks-tickets-1976776869831
+2026-03-11 19:41:38,019 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/don-julio-tequila-tasting-food-pairing-tickets-1976932158303
+2026-03-11 19:41:38,019 - INFO - Got 9 future events
+2026-03-11 19:41:38,019 - INFO - Filtered 8 events beyond 2 months out
+2026-03-11 19:41:38,020 - INFO - Found 1 events
+2026-03-11 19:41:38,020 - INFO - Written to cities/evanston/eb_backyard_bbq.ics
+2026-03-11 19:41:38,167 - INFO - Scraping Ticketmaster/Evanston
+2026-03-11 19:41:38,467 - INFO - Ticketmaster: 3 events across 1 pages
+2026-03-11 19:41:38,474 - INFO - Parsed 3 events for Ticketmaster/Evanston
+2026-03-11 19:41:38,475 - INFO - Filtered 2 events beyond 2 months out
+2026-03-11 19:41:38,475 - INFO - Found 1 events
+2026-03-11 19:41:38,475 - INFO - Written to cities/evanston/ticketmaster_evanston.ics
+2026-03-11 19:41:38,621 - INFO - Scraping Ticketmaster/Evanston Venues
+2026-03-11 19:41:38,999 - INFO - Ticketmaster: 99 events across 1 pages
+2026-03-11 19:41:39,003 - INFO - Parsed 99 events for Ticketmaster/Evanston Venues
+2026-03-11 19:41:39,003 - INFO - Filtered 31 events beyond 2 months out
+2026-03-11 19:41:39,003 - INFO - Found 68 events
+2026-03-11 19:41:39,014 - INFO - Written to cities/evanston/ticketmaster_evanston_venues.ics
+2026-03-11 19:41:39,231 - FinalsiteScraper - INFO - Scraping District 65
+2026-03-11 19:41:39,585 - __main__ - INFO - Found 18 events from https://www.district65.net/about/calendar
+2026-03-11 19:41:39,585 - FinalsiteScraper - INFO - Found 18 events
+2026-03-11 19:41:39,588 - FinalsiteScraper - INFO - Written to cities/evanston/district65.ics
+2026-03-11 19:41:39,811 - FinalsiteScraper - INFO - Scraping ETHS District 202
+2026-03-11 19:41:41,755 - __main__ - INFO - Found 15 events from https://www.eths202.org/calendar
+2026-03-11 19:41:41,756 - FinalsiteScraper - INFO - Filtered 15 events beyond 2 months out
+2026-03-11 19:41:41,756 - FinalsiteScraper - INFO - Found 0 events
+2026-03-11 19:41:41,756 - FinalsiteScraper - INFO - Written to cities/evanston/eths202.ics
+2026-03-11 19:41:41,900 - INFO - Processing meetup_af_northshore.ics...
+2026-03-11 19:41:41,902 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627452/
+2026-03-11 19:41:42,677 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
+2026-03-11 19:41:42,678 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312930678/
+2026-03-11 19:41:43,619 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/7/6/a/600_532290570.jpeg
+2026-03-11 19:41:43,620 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313509334/
+2026-03-11 19:41:44,347 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
+2026-03-11 19:41:44,348 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313077527/
+2026-03-11 19:41:45,104 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/4/4/600_480743108.jpeg
+2026-03-11 19:41:45,104 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313039549/
+2026-03-11 19:41:45,824 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
+2026-03-11 19:41:45,825 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518016/
+2026-03-11 19:41:46,579 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/c/1/1/600_480764049.jpeg
+2026-03-11 19:41:46,580 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/308627471/
+2026-03-11 19:41:47,319 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/5/6/d/600_513822349.jpeg
+2026-03-11 19:41:47,319 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313518017/
+2026-03-11 19:41:48,098 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/6/e/5/600_524002245.jpeg
+2026-03-11 19:41:48,098 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/312272027/
+2026-03-11 19:41:48,937 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/b/c/a/600_531592170.jpeg
+2026-03-11 19:41:48,938 - INFO -   Fetching image for: https://www.meetup.com/afnorthshore/events/313513417/
+2026-03-11 19:41:49,757 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/8/7/c/600_528450844.jpeg
+2026-03-11 19:41:49,757 - INFO - meetup_af_northshore.ics: added 10 image(s)
+2026-03-11 19:41:49,758 - INFO - Processing meetup_black_girls_read.ics...
+2026-03-11 19:41:49,758 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/312310442/
+2026-03-11 19:41:50,524 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/4/4/3/600_531809763.jpeg
+2026-03-11 19:41:50,524 - INFO -   Fetching image for: https://www.meetup.com/black-girls-read-book-club/events/313518369/
+2026-03-11 19:41:51,293 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/f/b/f/600_532909087.jpeg
+2026-03-11 19:41:51,293 - INFO - meetup_black_girls_read.ics: added 2 image(s)
+2026-03-11 19:41:51,293 - INFO - Processing meetup_board_games.ics...
+2026-03-11 19:41:51,294 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484474/
+2026-03-11 19:41:52,027 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
+2026-03-11 19:41:52,027 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484476/
+2026-03-11 19:41:52,813 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
+2026-03-11 19:41:52,814 - INFO -   Fetching image for: https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484480/
+2026-03-11 19:41:53,547 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
+2026-03-11 19:41:53,547 - INFO - meetup_board_games.ics: added 3 image(s)
+2026-03-11 19:41:53,548 - INFO - Processing meetup_drum_circle.ics...
+2026-03-11 19:41:53,548 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992477/
+2026-03-11 19:41:54,352 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
+2026-03-11 19:41:54,353 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/312992483/
+2026-03-11 19:41:54,916 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/d/b/600_526127579.jpeg
+2026-03-11 19:41:54,916 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/308108162/
+2026-03-11 19:41:56,213 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:41:56,214 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825846/
+2026-03-11 19:41:57,171 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:41:57,171 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825845/
+2026-03-11 19:41:57,889 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:41:57,889 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/310825844/
+2026-03-11 19:41:58,622 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:41:58,622 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcmbxb/
+2026-03-11 19:41:59,390 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:41:59,390 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcnbvb/
+2026-03-11 19:42:00,161 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:42:00,161 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcpbbc/
+2026-03-11 19:42:00,967 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:42:00,968 - INFO -   Fetching image for: https://www.meetup.com/chicagodrumcircle/events/nwsbjtyjcqbxb/
+2026-03-11 19:42:01,856 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/6/2/a/600_466697962.jpeg
+2026-03-11 19:42:01,856 - INFO - meetup_drum_circle.ics: added 10 image(s)
+2026-03-11 19:42:01,856 - INFO - Processing meetup_evanston_writers.ics...
+2026-03-11 19:42:01,857 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313119719/
+2026-03-11 19:42:02,898 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
+2026-03-11 19:42:02,898 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313173658/
+2026-03-11 19:42:03,864 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/b/6/b/600_532556171.jpeg
+2026-03-11 19:42:03,864 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721320/
+2026-03-11 19:42:04,661 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 19:42:04,661 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312039916/
+2026-03-11 19:42:05,612 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 19:42:05,612 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/311601176/
+2026-03-11 19:42:06,409 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 19:42:06,409 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313405151/
+2026-03-11 19:42:07,183 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 19:42:07,183 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721321/
+2026-03-11 19:42:07,941 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 19:42:07,941 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/312760683/
+2026-03-11 19:42:08,700 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
+2026-03-11 19:42:08,700 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/313462483/
+2026-03-11 19:42:09,497 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 19:42:09,497 - INFO -   Fetching image for: https://www.meetup.com/evanstonwriters/events/308721322/
+2026-03-11 19:42:10,240 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+2026-03-11 19:42:10,241 - INFO - meetup_evanston_writers.ics: added 10 image(s)
+2026-03-11 19:42:10,241 - INFO - Processing meetup_trivia_nerds.ics...
+2026-03-11 19:42:10,241 - INFO -   Fetching image for: https://www.meetup.com/evanston-trivia-nerds-meetup/events/313546846/
+2026-03-11 19:42:10,964 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/e/c/600_532645836.jpeg
+2026-03-11 19:42:10,964 - INFO - meetup_trivia_nerds.ics: added 1 image(s)
+2026-03-11 19:42:10,965 - INFO - Done. Total images added: 36

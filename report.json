@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-11T18:50:48.902730",
+  "generated": "2026-03-11T19:42:21.217323",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -37390,7 +37390,7 @@
           "history": [
             {
               "date": "2026-03-11",
-              "count": 454
+              "count": 452
             }
           ]
         },
@@ -37633,6 +37633,38 @@
               "count": 1
             }
           ]
+        },
+        "district65": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 6
+            }
+          ]
+        },
+        "eths202": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 0
+            }
+          ]
+        },
+        "ticketmaster_evanston": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 1
+            }
+          ]
+        },
+        "ticketmaster_evanston_venues": {
+          "history": [
+            {
+              "date": "2026-03-11",
+              "count": 68
+            }
+          ]
         }
       },
       "categories": [
@@ -37642,15 +37674,19 @@
         },
         {
           "category": "Education / Workshops",
-          "count": 401
+          "count": 403
         },
         {
           "category": "Arts / Culture",
-          "count": 214
+          "count": 215
         },
         {
           "category": "Community / Social",
-          "count": 140
+          "count": 144
+        },
+        {
+          "category": "Music / Concerts",
+          "count": 136
         },
         {
           "category": "Books / Literature / Poetry",
@@ -37658,15 +37694,11 @@
         },
         {
           "category": "Government / Civic",
-          "count": 90
+          "count": 92
         },
         {
           "category": "Health / Wellness",
           "count": 83
-        },
-        {
-          "category": "Music / Concerts",
-          "count": 74
         },
         {
           "category": "Sports / Fitness",
@@ -37677,12 +37709,12 @@
           "count": 60
         },
         {
-          "category": "History / Heritage",
-          "count": 52
+          "category": "Food / Drink",
+          "count": 53
         },
         {
-          "category": "Food / Drink",
-          "count": 50
+          "category": "History / Heritage",
+          "count": 52
         },
         {
           "category": "Dance / Performance",
@@ -37702,8 +37734,8 @@
         }
       ],
       "images": {
-        "total": 1874,
-        "with_image": 387,
+        "total": 1948,
+        "with_image": 454,
         "by_source": [
           {
             "source": "Chicago Botanic Garden",
@@ -37719,6 +37751,11 @@
             "source": "Morton Grove Library",
             "total": 211,
             "with_image": 70
+          },
+          {
+            "source": "Ticketmaster/Evanston Venues",
+            "total": 66,
+            "with_image": 66
           },
           {
             "source": "Beth Emet",
@@ -37759,13 +37796,18 @@
             "source": "Meetup Trivia Nerds",
             "total": 1,
             "with_image": 1
+          },
+          {
+            "source": "Ticketmaster/Evanston",
+            "total": 1,
+            "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 1874,
-        "total_events": 1874,
-        "unique_urls": 1701,
+        "total_with_url": 1948,
+        "total_events": 1948,
+        "unique_urls": 1775,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -37773,8 +37815,8 @@
         "source_specificity": [
           {
             "source": "Skokie Library",
-            "events": 434,
-            "unique_urls": 434,
+            "events": 432,
+            "unique_urls": 432,
             "specificity_pct": 100
           },
           {
@@ -37811,6 +37853,12 @@
             "source": "Chicago Botanic Garden",
             "events": 135,
             "unique_urls": 135,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Ticketmaster/Evanston Venues",
+            "events": 66,
+            "unique_urls": 66,
             "specificity_pct": 100
           },
           {
@@ -37853,12 +37901,6 @@
             "source": "Nw Football",
             "events": 12,
             "unique_urls": 12,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup Af Northshore",
-            "events": 10,
-            "unique_urls": 10,
             "specificity_pct": 100
           }
         ]
