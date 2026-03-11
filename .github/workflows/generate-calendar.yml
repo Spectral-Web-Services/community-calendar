@@ -777,6 +777,7 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jcc-east-bay-9035654915" --name "JCC East Bay" --output cities/jweekly/eventbrite_jcc_east_bay.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-east-bay-56946956693" --name "Jewish Baby Network East Bay" --output cities/jweekly/eventbrite_jbn_east_bay.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253" --name "Jewish Baby Network Peninsula" --output cities/jweekly/eventbrite_jbn_peninsula.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-san-francisco-60081113283" --name "Jewish Baby Network SF" --output cities/jweekly/eventbrite_jbn_sf.ics || true
       continue-on-error: true
 
     - name: Download JWeekly feeds
@@ -797,6 +798,12 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://magnes.berkeley.edu/events/?ical=1" -o magnes.ics || true
         # Google Calendar feeds
         curl -sL "https://calendar.google.com/calendar/ical/bethsholomsf%40gmail.com/public/basic.ics" -o beth_sholom.ics || true
+        # Congregations
+        curl -sL -A "Mozilla/5.0" "https://www.tbaoakland.org/happenings/?ical=1" -o temple_beth_abraham.ics || true
+        # Peninsula Temple Beth El (Google Calendar feeds)
+        curl -sL "https://calendar.google.com/calendar/ical/ptbepublic%40gmail.com/public/basic.ics" -o ptbe_worship.ics || true
+        curl -sL "https://calendar.google.com/calendar/ical/s2l7r73tbre0l6qm0m2562op78%40group.calendar.google.com/public/basic.ics" -o ptbe_education.ics || true
+        curl -sL "https://calendar.google.com/calendar/ical/38p21cqhdqhliae6im7lms4has%40group.calendar.google.com/public/basic.ics" -o ptbe_community.ics || true
         # Meetup groups
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/bayareajews/events/ical/" -o meetup_bayareajews.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/Bay-Area-Jewish-Singles-Havurah/events/ical/" -o meetup_jewish_singles.ics || true

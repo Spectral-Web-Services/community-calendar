@@ -16,6 +16,8 @@ cities/jweekly/eventbrite_jcc_east_bay.ics
 cities/jweekly/eventbrite_jbn_east_bay.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253" --name "Jewish Baby Network Peninsula"
 cities/jweekly/eventbrite_jbn_peninsula.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-san-francisco-60081113283" --name "Jewish Baby Network SF"
+cities/jweekly/eventbrite_jbn_sf.ics
 
 # --- Live feeds ---
 # iCal feed
@@ -28,9 +30,13 @@ https://www.jewishfed.org/events/?ical=1
 https://www.urbanadamah.org/events/?ical=1
 https://www.kehillasynagogue.org/events/?ical=1
 https://magnes.berkeley.edu/events/?ical=1
+https://www.tbaoakland.org/happenings/?ical=1
 
 # Google Calendar
 https://calendar.google.com/calendar/ical/bethsholomsf%40gmail.com/public/basic.ics
+https://calendar.google.com/calendar/ical/ptbepublic%40gmail.com/public/basic.ics
+https://calendar.google.com/calendar/ical/s2l7r73tbre0l6qm0m2562op78%40group.calendar.google.com/public/basic.ics
+https://calendar.google.com/calendar/ical/38p21cqhdqhliae6im7lms4has%40group.calendar.google.com/public/basic.ics
 
 # Meetup
 https://www.meetup.com/bayareajews/events/ical/
