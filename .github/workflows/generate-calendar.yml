@@ -850,6 +850,12 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/evanston-trivia-nerds-meetup/events/ical/" -o meetup_trivia_nerds.ics || true
         cd ../..
 
+    - name: Scrape Evanston sources
+      if: contains(steps.locations.outputs.list, 'evanston')
+      run: |
+        python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston" --categories "Events" --output cities/evanston/city_of_evanston.ics || true
+        python scrapers/planitpurple.py --categories 2 --days 60 --name "Northwestern University" --output cities/evanston/northwestern.ics || true
+
     - name: Combine Evanston ICS
       if: contains(steps.locations.outputs.list, 'evanston')
       run: |
