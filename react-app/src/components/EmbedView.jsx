@@ -3,15 +3,23 @@ import { useCollection } from '../hooks/useCollection.js';
 import { useColumnCount } from '../hooks/useColumnCount.js';
 import { getMasonryColumns } from '../lib/helpers.js';
 import MasonryGrid from './MasonryGrid.jsx';
+import UniformGrid from './UniformGrid.jsx';
 
 /**
  * Minimal embeddable feed view.
- * URL params: embed={feedId}, style={cardStyle}, title={custom title}, bg={color}
+ * URL params:
+ *   embed={feedId}          — collection to display
+ *   style={cardStyle}       — card variant (accent, compact, grid, gridtile, etc.)
+ *   title={custom title}    — single heading above all events (legacy, overrides both)
+ *   featured_title={text}   — heading above featured events section
+ *   normal_title={text}     — heading above regular events section
+ *   bg={color}              — background color
+ *   mode=dark               — dark mode
  *
  * Posts height to parent window via postMessage so the host page
  * can auto-resize the iframe (no scroll-within-scroll).
  */
-export default function EmbedView({ feedId, style, title, bg, mode }) {
+export default function EmbedView({ feedId, style, title, featuredTitle, normalTitle, bg, mode }) {
   const isDark = mode === 'dark';
   const { collection, events, loading } = useCollection(feedId);
   const rawColumnCount = useColumnCount();
@@ -51,6 +59,8 @@ export default function EmbedView({ feedId, style, title, bg, mode }) {
 
   const cardStyle = style || collection?.card_style || 'compact';
 
+  const gridStyles = ['grid', 'gridcompact', 'gridtile'];
+  const isGridLayout = gridStyles.includes(cardStyle);
   const oneColStyles = ['list'];
   const twoColStyles = ['compact', 'split', 'splitimage'];
   const columnCount = oneColStyles.includes(cardStyle) ? 1
@@ -73,7 +83,9 @@ export default function EmbedView({ feedId, style, title, bg, mode }) {
     [regularEvents, columnCount]
   );
 
-  const displayTitle = title || collection?.name;
+  // Title resolution: legacy `title` param overrides both; otherwise use individual params
+  const displayFeaturedTitle = title || featuredTitle;
+  const displayNormalTitle = title ? null : normalTitle;
 
   let content;
   if (loading) {
@@ -87,27 +99,55 @@ export default function EmbedView({ feedId, style, title, bg, mode }) {
   } else if (events.length === 0) {
     content = <p className="text-center text-gray-400 py-8 text-sm">No events yet.</p>;
   } else {
+    const hasFeatured = featuredEvents.length > 0;
     content = (
       <>
-        {displayTitle && (
-          <h1 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-3 px-1">{displayTitle}</h1>
-        )}
-        {featuredColumns.some(col => col.length > 0) && (
+        {hasFeatured && (
           <div className="mb-6">
-            <MasonryGrid
-              masonryColumns={featuredColumns}
-              filterTerm=""
-              onCategoryFilter={() => {}}
-              variant={cardStyle}
-            />
+            {displayFeaturedTitle && (
+              <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-3 px-1">{displayFeaturedTitle}</h2>
+            )}
+            {isGridLayout ? (
+              <UniformGrid
+                events={featuredEvents}
+                filterTerm=""
+                onCategoryFilter={() => {}}
+                variant={cardStyle}
+                columnCount={columnCount}
+              />
+            ) : (
+              <MasonryGrid
+                masonryColumns={featuredColumns}
+                filterTerm=""
+                onCategoryFilter={() => {}}
+                variant={cardStyle}
+              />
+            )}
           </div>
         )}
-        <MasonryGrid
-          masonryColumns={masonryColumns}
-          filterTerm=""
-          onCategoryFilter={() => {}}
-          variant={cardStyle}
-        />
+        {displayNormalTitle && (
+          <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-3 px-1">{displayNormalTitle}</h2>
+        )}
+        {/* If no featured section exists and legacy title is set, show it above regular events */}
+        {!hasFeatured && title && (
+          <h1 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-3 px-1">{title}</h1>
+        )}
+        {isGridLayout ? (
+          <UniformGrid
+            events={regularEvents}
+            filterTerm=""
+            onCategoryFilter={() => {}}
+            variant={cardStyle}
+            columnCount={columnCount}
+          />
+        ) : (
+          <MasonryGrid
+            masonryColumns={masonryColumns}
+            filterTerm=""
+            onCategoryFilter={() => {}}
+            variant={cardStyle}
+          />
+        )}
       </>
     );
   }
