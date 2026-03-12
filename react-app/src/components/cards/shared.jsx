@@ -121,51 +121,46 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
         >
           <Download size={16} />
         </button>
+        {user && <BookmarkButton event={event} />}
       </div>
-      {/* User tools row — bookmark for any logged-in user */}
-      {user && (
+      {/* Curator tools row */}
+      {canCurate && (
         <div className="border-t border-gray-100 dark:border-gray-700 mt-2 pt-2 flex items-center gap-2">
-          {canCurate && (
-            <>
-              <span className="text-[10px] font-medium text-gray-400 uppercase tracking-wide">Curator</span>
-              <div className="flex-1" />
-              {event.category ? (
-                <button
-                  onClick={() => setShowCatModal(true)}
-                  className="text-gray-400 hover:text-gray-600 transition-colors"
-                  title="Override category"
-                >
-                  <Pencil size={12} />
-                </button>
-              ) : (
-                <button
-                  onClick={() => setShowCatModal(true)}
-                  className="text-xs text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:text-gray-300 transition-colors"
-                >
-                  + category
-                </button>
-              )}
-              <button
-                onClick={() => setShowEnrich(true)}
-                className="text-gray-400 hover:text-gray-600 transition-colors"
-                title="Edit enrichment"
-              >
-                <Settings2 size={14} />
-              </button>
-              {feedCtx?.onRemoveEvent && (
-                <button
-                  onClick={() => feedCtx.onRemoveEvent(event)}
-                  className="text-gray-400 hover:text-red-400 transition-colors"
-                  title={removeTitle}
-                >
-                  <X size={16} />
-                </button>
-              )}
-              <StarButton event={event} />
-            </>
+          <span className="text-[10px] font-medium text-gray-400 uppercase tracking-wide">Curator</span>
+          <div className="flex-1" />
+          {event.category ? (
+            <button
+              onClick={() => setShowCatModal(true)}
+              className="text-gray-400 hover:text-gray-600 transition-colors"
+              title="Override category"
+            >
+              <Pencil size={12} />
+            </button>
+          ) : (
+            <button
+              onClick={() => setShowCatModal(true)}
+              className="text-xs text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:text-gray-300 transition-colors"
+            >
+              + category
+            </button>
           )}
-          {!canCurate && <div className="flex-1" />}
-          <BookmarkButton event={event} />
+          <button
+            onClick={() => setShowEnrich(true)}
+            className="text-gray-400 hover:text-gray-600 transition-colors"
+            title="Edit enrichment"
+          >
+            <Settings2 size={14} />
+          </button>
+          {feedCtx?.onRemoveEvent && (
+            <button
+              onClick={() => feedCtx.onRemoveEvent(event)}
+              className="text-gray-400 hover:text-red-400 transition-colors"
+              title={removeTitle}
+            >
+              <X size={16} />
+            </button>
+          )}
+          <StarButton event={event} />
         </div>
       )}
       {showCatModal && (
