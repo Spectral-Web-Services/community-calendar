@@ -34,7 +34,7 @@ export function filterEvents(events, term, category) {
 
 // --- Cumulative events (for cards view infinite scroll) ---
 // Returns { events, hasMore }
-export function getCumulativeEvents(events, term, count, category, featuredIds) {
+export function getCumulativeEvents(events, term, count, category) {
   const filtered = filterEvents(events, term, category);
   const n = (Number.isFinite(count) && count > 0) ? count : 50;
   if (!filtered.length) {
@@ -43,15 +43,8 @@ export function getCumulativeEvents(events, term, count, category, featuredIds) 
   if (term) {
     return { events: filtered, hasMore: false };
   }
-  const sliced = filtered.slice(0, n);
-  // Partition featured to top if featuredIds provided
-  if (featuredIds && featuredIds.size > 0) {
-    const featured = sliced.filter(e => featuredIds.has(e.id));
-    const rest = sliced.filter(e => !featuredIds.has(e.id));
-    return { events: [...featured, ...rest], hasMore: filtered.length > n };
-  }
   return {
-    events: sliced,
+    events: filtered.slice(0, n),
     hasMore: filtered.length > n,
   };
 }

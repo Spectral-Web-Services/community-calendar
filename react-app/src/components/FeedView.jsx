@@ -29,9 +29,20 @@ export default function FeedView({ feedId }) {
     [rawEvents, removedIds]
   );
 
+  const { featuredEvents, regularEvents } = useMemo(() => {
+    const featured = events.filter(e => e._featured);
+    if (featured.length === 0) return { featuredEvents: [], regularEvents: events };
+    return { featuredEvents: featured, regularEvents: events.filter(e => !e._featured) };
+  }, [events]);
+
+  const featuredColumns = useMemo(
+    () => getMasonryColumns(featuredEvents, columnCount),
+    [featuredEvents, columnCount]
+  );
+
   const masonryColumns = useMemo(
-    () => getMasonryColumns(events, columnCount),
-    [events, columnCount]
+    () => getMasonryColumns(regularEvents, columnCount),
+    [regularEvents, columnCount]
   );
 
   const isOwner = user && collection && user.id === collection.user_id;
@@ -67,12 +78,24 @@ export default function FeedView({ feedId }) {
       {events.length === 0 ? (
         <p className="text-center text-gray-400 py-12">This collection has no events yet.</p>
       ) : (
-        <MasonryGrid
-          masonryColumns={masonryColumns}
-          filterTerm=""
-          onCategoryFilter={() => {}}
-          variant={cardStyle}
-        />
+        <>
+          {featuredColumns.some(col => col.length > 0) && (
+            <div className="mb-6">
+              <MasonryGrid
+                masonryColumns={featuredColumns}
+                filterTerm=""
+                onCategoryFilter={() => {}}
+                variant={cardStyle}
+              />
+            </div>
+          )}
+          <MasonryGrid
+            masonryColumns={masonryColumns}
+            filterTerm=""
+            onCategoryFilter={() => {}}
+            variant={cardStyle}
+          />
+        </>
       )}
     </>
   );

@@ -22,12 +22,24 @@ export function useProcessedEvents(events, enrichments, filterTerm, displayCount
   }, [events, enrichments, from, to]);
 
   const { events: cardEvents, hasMore } = useMemo(() => {
-    return getCumulativeEvents(processedEvents, filterTerm, displayCount, categoryFilter, featuredIds);
-  }, [processedEvents, filterTerm, displayCount, categoryFilter, featuredIds]);
+    return getCumulativeEvents(processedEvents, filterTerm, displayCount, categoryFilter);
+  }, [processedEvents, filterTerm, displayCount, categoryFilter]);
+
+  const { featuredEvents, regularEvents } = useMemo(() => {
+    if (!featuredIds || featuredIds.size === 0) return { featuredEvents: [], regularEvents: cardEvents };
+    return {
+      featuredEvents: cardEvents.filter(e => featuredIds.has(e.id)),
+      regularEvents: cardEvents.filter(e => !featuredIds.has(e.id)),
+    };
+  }, [cardEvents, featuredIds]);
+
+  const featuredColumns = useMemo(() => {
+    return getMasonryColumns(featuredEvents, columnCount);
+  }, [featuredEvents, columnCount]);
 
   const masonryColumns = useMemo(() => {
-    return getMasonryColumns(cardEvents, columnCount);
-  }, [cardEvents, columnCount]);
+    return getMasonryColumns(regularEvents, columnCount);
+  }, [regularEvents, columnCount]);
 
-  return { processedEvents, cardEvents, hasMore, masonryColumns };
+  return { processedEvents, cardEvents, hasMore, featuredColumns, masonryColumns };
 }

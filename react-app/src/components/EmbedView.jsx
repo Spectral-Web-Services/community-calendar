@@ -57,9 +57,20 @@ export default function EmbedView({ feedId, style, title, bg, mode }) {
     : twoColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 2)
     : rawColumnCount;
 
+  const { featuredEvents, regularEvents } = useMemo(() => {
+    const featured = events.filter(e => e._featured);
+    if (featured.length === 0) return { featuredEvents: [], regularEvents: events };
+    return { featuredEvents: featured, regularEvents: events.filter(e => !e._featured) };
+  }, [events]);
+
+  const featuredColumns = useMemo(
+    () => getMasonryColumns(featuredEvents, columnCount),
+    [featuredEvents, columnCount]
+  );
+
   const masonryColumns = useMemo(
-    () => getMasonryColumns(events, columnCount),
-    [events, columnCount]
+    () => getMasonryColumns(regularEvents, columnCount),
+    [regularEvents, columnCount]
   );
 
   const displayTitle = title || collection?.name;
@@ -80,6 +91,16 @@ export default function EmbedView({ feedId, style, title, bg, mode }) {
       <>
         {displayTitle && (
           <h1 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-3 px-1">{displayTitle}</h1>
+        )}
+        {featuredColumns.some(col => col.length > 0) && (
+          <div className="mb-6">
+            <MasonryGrid
+              masonryColumns={featuredColumns}
+              filterTerm=""
+              onCategoryFilter={() => {}}
+              variant={cardStyle}
+            />
+          </div>
         )}
         <MasonryGrid
           masonryColumns={masonryColumns}

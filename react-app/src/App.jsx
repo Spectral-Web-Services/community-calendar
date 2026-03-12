@@ -49,7 +49,7 @@ function App() {
     : twoColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 2)
     : rawColumnCount;
 
-  const { processedEvents, cardEvents, hasMore, masonryColumns } = useProcessedEvents(
+  const { processedEvents, cardEvents, hasMore, featuredColumns, masonryColumns } = useProcessedEvents(
     events,
     enrichments,
     filterTerm,
@@ -152,6 +152,16 @@ function App() {
 
             {!loading && events && (
               <>
+                {featuredColumns.some(col => col.length > 0) && (
+                  <div className="mb-6">
+                    <MasonryGrid
+                      masonryColumns={featuredColumns}
+                      filterTerm={filterTerm}
+                      onCategoryFilter={handleCategoryFilter}
+                      variant={cardStyle}
+                    />
+                  </div>
+                )}
                 <MasonryGrid
                   masonryColumns={masonryColumns}
                   filterTerm={filterTerm}
