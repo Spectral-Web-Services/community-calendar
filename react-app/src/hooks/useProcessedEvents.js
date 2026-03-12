@@ -21,16 +21,21 @@ export function useProcessedEvents(events, enrichments, filterTerm, displayCount
     return filterHiddenSources(deduped, []);
   }, [events, enrichments, from, to]);
 
-  const { events: cardEvents, hasMore } = useMemo(() => {
-    return getCumulativeEvents(processedEvents, filterTerm, displayCount, categoryFilter);
-  }, [processedEvents, filterTerm, displayCount, categoryFilter]);
-
-  const { featuredEvents, regularEvents } = useMemo(() => {
+  // Extract featured from the full processed list (before slicing) so they always appear
+  const { featuredEvents, nonFeaturedEvents } = useMemo(() => {
     const isFeatured = e => (featuredIds && featuredIds.has(e.id)) || e._featured;
-    const featured = cardEvents.filter(isFeatured);
-    if (featured.length === 0) return { featuredEvents: [], regularEvents: cardEvents };
-    return { featuredEvents: featured, regularEvents: cardEvents.filter(e => !isFeatured(e)) };
-  }, [cardEvents, featuredIds]);
+    const featured = processedEvents.filter(isFeatured);
+    if (featured.length === 0) return { featuredEvents: [], nonFeaturedEvents: processedEvents };
+    return { featuredEvents: featured, nonFeaturedEvents: processedEvents.filter(e => !isFeatured(e)) };
+  }, [processedEvents, featuredIds]);
+
+  const { events: regularEvents, hasMore } = useMemo(() => {
+    return getCumulativeEvents(nonFeaturedEvents, filterTerm, displayCount, categoryFilter);
+  }, [nonFeaturedEvents, filterTerm, displayCount, categoryFilter]);
+
+  const cardEvents = useMemo(() => {
+    return [...featuredEvents, ...regularEvents];
+  }, [featuredEvents, regularEvents]);
 
   const featuredColumns = useMemo(() => {
     return getMasonryColumns(featuredEvents, columnCount);
