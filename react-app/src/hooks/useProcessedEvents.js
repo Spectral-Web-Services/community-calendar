@@ -26,11 +26,10 @@ export function useProcessedEvents(events, enrichments, filterTerm, displayCount
   }, [processedEvents, filterTerm, displayCount, categoryFilter]);
 
   const { featuredEvents, regularEvents } = useMemo(() => {
-    if (!featuredIds || featuredIds.size === 0) return { featuredEvents: [], regularEvents: cardEvents };
-    return {
-      featuredEvents: cardEvents.filter(e => featuredIds.has(e.id)),
-      regularEvents: cardEvents.filter(e => !featuredIds.has(e.id)),
-    };
+    const isFeatured = e => (featuredIds && featuredIds.has(e.id)) || e._featured;
+    const featured = cardEvents.filter(isFeatured);
+    if (featured.length === 0) return { featuredEvents: [], regularEvents: cardEvents };
+    return { featuredEvents: featured, regularEvents: cardEvents.filter(e => !isFeatured(e)) };
   }, [cardEvents, featuredIds]);
 
   const featuredColumns = useMemo(() => {
