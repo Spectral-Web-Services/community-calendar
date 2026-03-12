@@ -4,6 +4,8 @@
 
 # --- Scrapers ---
 # Scraper
+# cmd: python scrapers/bu_cfa.py --topic 8637 --name "BU School of Theatre"
+cities/boston/bu_theatre.ics
 # cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/4216344-citizens-opera-house" --name "Citizens Opera House"
 cities/boston/songkick_citizens_opera.ics
 # cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/4875-emerson-colonial-theatre" --name "Emerson Colonial Theatre"

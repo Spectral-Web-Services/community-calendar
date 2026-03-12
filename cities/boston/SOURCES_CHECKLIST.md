@@ -2,12 +2,17 @@
 
 Focus: Theater (initial phase)
 
-## Currently Implemented (6 sources)
+## Currently Implemented (7 sources)
 
 ### Theater — ICS Feeds
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
 | ArtsEmerson | WordPress Tribe ICS | 1+ | Emerson College's performing arts org |
+
+### Theater — Custom Scrapers
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| BU School of Theatre | bu_cfa.py (topic 8637) | 23 | WordPress AJAX calendar, shows + student productions |
 
 ### Theater — Songkick Venues
 | Source | Type | Events | Notes |
@@ -35,7 +40,7 @@ Focus: Theater (initial phase)
 | Source | Reason |
 |--------|--------|
 | SpeakEasy Stage ICS | WordPress Tribe installed; webcal:// URL exists but returns empty ICS (0 events via curl, Google Calendar import also empty) |
-| Boston University CFA | Custom AJAX calendar, no feeds |
+| Boston University CFA (generic) | Use bu_cfa.py with --topic filter instead; generic page mixes all arts |
 | Emerson College events | Empty events page; use ArtsEmerson instead |
 | Cambridge Multicultural Arts Center | Site down (ECONNREFUSED) |
 | Open Theater Project | Site down (ECONNREFUSED) |
