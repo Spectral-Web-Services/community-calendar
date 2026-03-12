@@ -17,19 +17,19 @@ CREATE POLICY "auto_collection_exclusions_select_public"
   ON auto_collection_exclusions FOR SELECT
   USING (true);
 
-CREATE POLICY "auto_collection_exclusions_insert_owner"
+CREATE POLICY "auto_collection_exclusions_insert_curator"
   ON auto_collection_exclusions FOR INSERT
   WITH CHECK (
-    EXISTS (
+    public.is_curator() AND EXISTS (
       SELECT 1 FROM collections
       WHERE id = collection_id AND user_id = auth.uid()
     )
   );
 
-CREATE POLICY "auto_collection_exclusions_delete_owner"
+CREATE POLICY "auto_collection_exclusions_delete_curator"
   ON auto_collection_exclusions FOR DELETE
   USING (
-    EXISTS (
+    public.is_curator() AND EXISTS (
       SELECT 1 FROM collections
       WHERE id = collection_id AND user_id = auth.uid()
     )
