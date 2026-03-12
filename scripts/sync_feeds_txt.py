@@ -32,6 +32,7 @@ CITY_SECTIONS = {
     'jweekly': 'JWeekly (Jewish Northern California)',
     'evanston': 'Evanston, IL',
     'portland': 'Portland',
+    'boston': 'Boston',
 }
 
 

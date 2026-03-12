@@ -1029,6 +1029,27 @@ jobs:
         python scripts/combine_ics.py --input-dir cities/portland --output cities/portland/combined.ics --name "Portland Community Calendar"
 
     # ==========================================
+    # Boston
+    # ==========================================
+    - name: Scrape Boston sources
+      if: contains(steps.locations.outputs.list, 'boston') && github.event.inputs.regenerate_only != 'true'
+      run: |
+        # Songkick theater venues
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/4216344-citizens-opera-house" --name "Citizens Opera House" --output cities/boston/songkick_citizens_opera.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/4875-emerson-colonial-theatre" --name "Emerson Colonial Theatre" --output cities/boston/songkick_emerson_colonial.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/656711-huntington-theatre" --name "Huntington Theatre" --output cities/boston/songkick_huntington.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/4441925-lyric-stage-company-of-boston" --name "Lyric Stage Company" --output cities/boston/songkick_lyric_stage.ics || true
+
+    - name: Fetch Boston live feeds
+      if: contains(steps.locations.outputs.list, 'boston') && github.event.inputs.regenerate_only != 'true'
+      run: |
+        cd cities/boston
+        # Theater ICS feeds
+        curl -sL "https://artsemerson.org/events/?ical=1" -o artsemerson.ics || true
+        cd ../..
+        python scripts/combine_ics.py --input-dir cities/boston --output cities/boston/combined.ics --name "Boston Community Calendar"
+
+    # ==========================================
     # Post-processing (all cities)
     # ==========================================
     - name: Convert ICS to JSON for Supabase
