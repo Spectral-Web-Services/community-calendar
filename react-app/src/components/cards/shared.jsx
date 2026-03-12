@@ -25,6 +25,7 @@ import { categoryColorMap } from '../../lib/categories.js';
 import CATEGORIES from '../../lib/categories.js';
 import { SUPABASE_URL, SUPABASE_KEY } from '../../lib/supabase.js';
 import EnrichmentEditor from '../EnrichmentEditor.jsx';
+import EmbedModal from '../EmbedModal.jsx';
 
 export const CATEGORY_ICONS = {
   'Arts / Culture': Palette,
@@ -341,10 +342,7 @@ export function SearchSnippet({ html }) {
 // Detail modal — renders DB event descriptions (same trust model as existing XMLUI app)
 export function DetailModal({ event, dateStr, timeStr, onClose }) {
   return (
-    <div
-      className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
-      onClick={onClose}
-    >
+    <EmbedModal onClose={onClose}>
       <div
         className="bg-white dark:bg-gray-800 rounded-lg max-w-lg w-full max-h-[80vh] overflow-y-auto p-6 shadow-xl"
         onClick={e => e.stopPropagation()}
@@ -375,7 +373,7 @@ export function DetailModal({ event, dateStr, timeStr, onClose }) {
           Close
         </button>
       </div>
-    </div>
+    </EmbedModal>
   );
 }
 

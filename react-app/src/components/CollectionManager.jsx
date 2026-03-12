@@ -126,7 +126,9 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
     params.set('title', col.name);
     if (col.card_style && col.card_style !== 'accent') params.set('style', col.card_style);
     const src = `${base}?${params}`;
-    return `<iframe id="cc-embed-${col.id}" src="${src}" width="100%" frameborder="0" style="border:none;overflow:hidden;" scrolling="no"></iframe>\n<script>window.addEventListener("message",function(e){if(e.data&&e.data.type==="community-calendar-embed-resize"){document.getElementById("cc-embed-${col.id}").style.height=e.data.height+"px"}});</script>`;
+    const iframeId = `cc-embed-${col.id}`;
+    return `<iframe id="${iframeId}" src="${src}" width="100%" frameborder="0" style="border:none;overflow:hidden;" scrolling="no"></iframe>
+<script>(function(){var f=document.getElementById("${iframeId}");function send(){var r=f.getBoundingClientRect();f.contentWindow.postMessage({type:"community-calendar-embed-viewport",iframeTop:r.top+window.scrollY,iframeHeight:r.height,viewportHeight:window.innerHeight,parentScrollY:window.scrollY},"*")}window.addEventListener("message",function(e){if(e.data&&e.data.type==="community-calendar-embed-resize"){f.style.height=e.data.height+"px";send()}if(e.data&&e.data.type==="community-calendar-embed-ready"){send()}});window.addEventListener("scroll",send,{passive:true});window.addEventListener("resize",send,{passive:true})})();</script>`;
   };
 
   const copyEmbedCode = (col) => {

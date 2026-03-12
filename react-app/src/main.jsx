@@ -5,6 +5,7 @@ import { AuthProvider } from './hooks/useAuth.jsx'
 import { PicksProvider } from './hooks/usePicks.jsx'
 import { FeaturedProvider } from './hooks/useFeatured.jsx'
 import { TargetCollectionProvider } from './hooks/useTargetCollection.jsx'
+import { EmbedViewportProvider } from './hooks/useEmbedViewport.jsx'
 import './index.css'
 
 function Root() {
@@ -17,7 +18,9 @@ function Root() {
         <PicksProvider city={city}>
           <FeaturedProvider city={city}>
             <TargetCollectionProvider>
-              <App />
+              <EmbedViewportProvider>
+                <App />
+              </EmbedViewportProvider>
             </TargetCollectionProvider>
           </FeaturedProvider>
         </PicksProvider>
