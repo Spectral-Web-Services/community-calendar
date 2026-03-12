@@ -912,6 +912,18 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/habitat-for-humanity-portland-region-education-55187284613" --name "Habitat for Humanity Portland" --output cities/portland/eventbrite_habitat_pdx.ics || true
         python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/events" --name "Portland Saturday Market" --output cities/portland/saturday_market.ics || true
         python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/stage-performances" --name "Portland Saturday Market Stage" --output cities/portland/saturday_market_stage.ics || true
+        python scrapers/squarespace.py --url "https://www.tryonfriends.org/calendar" --name "Friends of Tryon Creek" --output cities/portland/tryon_creek.ics || true
+        python scrapers/squarespace.py --url "https://csrgpdx.org/event-calendar" --name "Crystal Springs Rhododendron Garden" --output cities/portland/crystal_springs.ics || true
+        python scrapers/wccls_library.py --output cities/portland/wccls_library.ics || true
+        # Songkick music venues
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/2845468-revolution-hall" --name "Revolution Hall" --output cities/portland/songkick_revolution_hall.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/5776-mississippi-studios" --name "Mississippi Studios" --output cities/portland/songkick_mississippi_studios.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/1433-wonder-ballroom" --name "Wonder Ballroom" --output cities/portland/songkick_wonder_ballroom.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/1207-aladdin-theater" --name "Aladdin Theater" --output cities/portland/songkick_aladdin.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/11593-hawthorne-theatre" --name "Hawthorne Theatre" --output cities/portland/songkick_hawthorne.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/2328-arlene-schnitzer-concert-hall" --name "Arlene Schnitzer Concert Hall" --output cities/portland/songkick_schnitzer.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/1000291-alberta-rose-theatre" --name "Alberta Rose Theatre" --output cities/portland/songkick_alberta_rose.ics || true
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/70405-keller-auditorium" --name "Keller Auditorium" --output cities/portland/songkick_keller.ics || true
       continue-on-error: true
 
     - name: Download Portland live feeds and combine ICS
@@ -935,6 +947,13 @@ jobs:
         curl -sL "https://japanesegarden.org/events/?ical=1" -o japanese_garden.ics || true
         curl -sL "https://www.portlandfarmersmarket.org/?post_type=tribe_events&ical=1" -o portland_farmers_market.ics || true
         curl -sL "https://www.thesquarepdx.org/events/list/?ical=1" -o pioneer_square.ics || true
+        curl -sL "https://birdallianceoregon.org/events/?ical=1" -o bird_alliance_oregon.ics || true
+        curl -sL "https://lansugarden.org/events/?ical=1" -o lan_su_garden.ics || true
+        curl -sL "https://www.hoytarboretum.org/visit/events/?ical=1" -o hoyt_arboretum.ics || true
+        curl -sL "https://www.crystalballroompdx.com/events/?ical=1" -o crystal_ballroom.ics || true
+        curl -sL "https://pdxparent.com/?post_type=tribe_events&ical=1&eventDisplay=list" -o pdx_parent.ics || true
+        curl -sL "https://anandaportland.org/?post_type=tribe_events&ical=1&eventDisplay=list" -o ananda_portland.ics || true
+        curl -sL "https://calendar.google.com/calendar/ical/c_f7874efb584df10c8a9a4a06f0ec2562d20426bc84a0f89335fe20429c498448%40group.calendar.google.com/public/basic.ics" -o portland_public_schools.ics || true
         # Community tech calendar
         curl -sL "https://calagator.org/events.ics" -o calagator.ics || true
         # Athletics (SIDEARM Sports)
@@ -971,6 +990,11 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-fine-arts-guild/events/ical/" -o meetup_art_guild.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-arts-and-craft-meetup-group/events/ical/" -o meetup_arts_craft.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/pop-up-paint-and-sip/events/ical/" -o meetup_paint_and_sip.ics || true
+        # Meetup groups - Community/Wellness/Family
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portlandfreecomunity/events/ical/" -o meetup_portland_free_community.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portlandyoungmeditators/events/ical/" -o meetup_meditation.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-active-dads/events/ical/" -o meetup_active_dads.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/meetup-group-ccddsysh/events/ical/" -o meetup_contra_dance.ics || true
         cd ../..
         python scripts/enrich_meetup_images.py --dir cities/portland || true
         python scripts/combine_ics.py --input-dir cities/portland --output cities/portland/combined.ics --name "Portland Community Calendar"

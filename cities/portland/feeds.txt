@@ -16,12 +16,34 @@ cities/portland/eventbrite_nw_trail_alliance.ics
 cities/portland/eventbrite_portland_nursery.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/habitat-for-humanity-portland-region-education-55187284613" --name "Habitat for Humanity Portland"
 cities/portland/eventbrite_habitat_pdx.ics
+# cmd: python scrapers/wccls_library.py
+cities/portland/wccls_library.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/2845468-revolution-hall" --name "Revolution Hall"
+cities/portland/songkick_revolution_hall.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/5776-mississippi-studios" --name "Mississippi Studios"
+cities/portland/songkick_mississippi_studios.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/1433-wonder-ballroom" --name "Wonder Ballroom"
+cities/portland/songkick_wonder_ballroom.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/1207-aladdin-theater" --name "Aladdin Theater"
+cities/portland/songkick_aladdin.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/11593-hawthorne-theatre" --name "Hawthorne Theatre"
+cities/portland/songkick_hawthorne.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/2328-arlene-schnitzer-concert-hall" --name "Arlene Schnitzer Concert Hall"
+cities/portland/songkick_schnitzer.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/1000291-alberta-rose-theatre" --name "Alberta Rose Theatre"
+cities/portland/songkick_alberta_rose.ics
+# cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/70405-keller-auditorium" --name "Keller Auditorium"
+cities/portland/songkick_keller.ics
 
 # Squarespace
 # cmd: python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/events" --name "Portland Saturday Market"
 cities/portland/saturday_market.ics
 # cmd: python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/stage-performances" --name "Portland Saturday Market Stage"
 cities/portland/saturday_market_stage.ics
+# cmd: python scrapers/squarespace.py --url "https://www.tryonfriends.org/calendar" --name "Friends of Tryon Creek"
+cities/portland/tryon_creek.ics
+# cmd: python scrapers/squarespace.py --url "https://csrgpdx.org/event-calendar" --name "Crystal Springs Rhododendron Garden"
+cities/portland/crystal_springs.ics
 
 # --- Live feeds ---
 # Tockify
@@ -46,8 +68,15 @@ https://literary-arts.org/events/?ical=1
 https://japanesegarden.org/events/?ical=1
 https://www.portlandfarmersmarket.org/?post_type=tribe_events&ical=1
 https://www.thesquarepdx.org/events/list/?ical=1
+https://birdallianceoregon.org/events/?ical=1
+https://lansugarden.org/events/?ical=1
+https://www.hoytarboretum.org/visit/events/?ical=1
+https://www.crystalballroompdx.com/events/?ical=1
+https://pdxparent.com/?post_type=tribe_events&ical=1&eventDisplay=list
+https://anandaportland.org/?post_type=tribe_events&ical=1&eventDisplay=list
 
 # Google Calendar
+https://calendar.google.com/calendar/ical/c_f7874efb584df10c8a9a4a06f0ec2562d20426bc84a0f89335fe20429c498448%40group.calendar.google.com/public/basic.ics
 https://www.google.com/calendar/ical/629tvcnf17grg9v0fgvge9pb7c%40group.calendar.google.com/public/basic.ics
 https://calendar.google.com/calendar/ical/kqt4cjm6mi8r1jpl3j5fpb8h0k%40group.calendar.google.com/public/basic.ics
 
@@ -75,3 +104,7 @@ https://www.meetup.com/portland-coffee-sketch-club/events/ical/
 https://www.meetup.com/portland-fine-arts-guild/events/ical/
 https://www.meetup.com/portland-arts-and-craft-meetup-group/events/ical/
 https://www.meetup.com/pop-up-paint-and-sip/events/ical/
+https://www.meetup.com/portlandfreecomunity/events/ical/
+https://www.meetup.com/portlandyoungmeditators/events/ical/
+https://www.meetup.com/portland-active-dads/events/ical/
+https://www.meetup.com/meetup-group-ccddsysh/events/ical/

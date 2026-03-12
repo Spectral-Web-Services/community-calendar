@@ -1,6 +1,6 @@
 # Portland Sources Checklist
 
-## Currently Implemented (47 sources)
+## Currently Implemented (69 sources)
 
 ### Aggregators / Community Calendars
 | Source | Type | Events | Notes |
@@ -15,10 +15,28 @@
 | Literary Arts | WordPress Tribe ICS | 30 | Readings, writing workshops |
 | Portland Japanese Garden | WordPress WP Events Manager | 161 (2026) | Gardens, cultural events |
 | Calagator | Custom ICS | 35 | Portland tech community calendar |
-| Portland Farmers Market | WordPress Tribe ICS | 3 | 5 market locations, images included |
-| Pioneer Courthouse Square | WordPress Tribe ICS | 30 | Free concerts, festivals, community events; images |
-| Portland Saturday Market | Squarespace scraper | 31 | Seasonal market events, crafts, special events |
+| Portland Farmers Market | WordPress Tribe ICS | 3 | 5 market locations, images |
+| Pioneer Courthouse Square | WordPress Tribe ICS | 30 | Free concerts, festivals; images |
+| Portland Saturday Market | Squarespace scraper | 31 | Seasonal market events |
 | Portland Saturday Market Stage | Squarespace scraper | 18 | Live music performances |
+| Crystal Ballroom | WordPress Tribe ICS | 31 | McMenamins venue; images |
+| Lan Su Chinese Garden | WordPress Tribe ICS | 30 | Tea tastings, cultural events; images |
+| Hoyt Arboretum | WordPress Events Manager | 50 | Nature walks, forest bathing; images |
+| Ananda Portland | WordPress Events Manager | 50 | Meditation, yoga, kirtan |
+| PDX Parent | WordPress Tribe ICS | 30 | Family events calendar |
+| Portland Public Schools | Google Calendar | 12 | School district calendar |
+
+### Nature & Outdoors
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| Bird Alliance of Oregon | WordPress Tribe ICS | 30 | Birding, nature walks; images |
+| Friends of Tryon Creek | Squarespace scraper | 21 | Trail volunteering, nature storytimes |
+| Crystal Springs Rhododendron Garden | Squarespace scraper | 3 | Forest therapy, birding walks |
+
+### Libraries
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| WCCLS Libraries | BiblioCommons scraper | 1,970 | 13+ branches, storytimes, classes, book clubs |
 
 ### Eventbrite Organizers (free events)
 | Source | Type | Events | Notes |
@@ -27,6 +45,18 @@
 | Northwest Trail Alliance | Eventbrite scraper | 11 | Free mountain bike trail building; images |
 | Portland Nursery | Eventbrite scraper | 4 | Free gardening classes; images |
 | Habitat for Humanity Portland | Eventbrite scraper | 3 | Free homeownership education; images |
+
+### Songkick Music Venues (8)
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| Revolution Hall | Songkick scraper | 5 | Major concert venue |
+| Mississippi Studios | Songkick scraper | 5 | Indie music |
+| Wonder Ballroom | Songkick scraper | 5 | Concerts |
+| Aladdin Theater | Songkick scraper | 4 | Historic music venue |
+| Hawthorne Theatre | Songkick scraper | 5 | Rock/indie |
+| Arlene Schnitzer Concert Hall | Songkick scraper | 5 | Portland'5 venue |
+| Alberta Rose Theatre | Songkick scraper | 4 | Music, comedy, spoken word |
+| Keller Auditorium | Songkick scraper | 2 | Portland'5 venue |
 
 ### Universities
 | Source | Type | Events | Notes |
@@ -93,35 +123,44 @@
 | Portland Arts & Craft | Meetup ICS | 10 | Fused glass, hands-on crafts |
 | Pop Up Paint and Sip | Meetup ICS | 6 | Paint party events |
 
+### Meetup Groups - Community/Wellness/Family (4)
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| Portland Free & Community | Meetup ICS | 10 | Free community events, wellness |
+| Decompress + Connect Meditation | Meetup ICS | 10 | Free meditation sessions |
+| Portland Active Dads | Meetup ICS | 1 | Dads + kids outdoor activities |
+| Contra Dancing | Meetup ICS | 2 | Saturday contra dances |
+
 ## Discovered - Needs Scraper
 | Source | URL | Notes |
 |--------|-----|-------|
+| Multnomah County Library | events.multcolib.org/events | Communico platform, needs OAuth or headless browser |
 | Portland State University | pdx.edu/calendar/month | Drupal, per-event "Add to Calendar" only |
-| Multnomah County Library | events.multcolib.org/events | Communico platform, has ICAL option but dynamic URLs |
-| City of Portland | portland.gov/arts/arts-events | Drupal, no feeds. Arts via Cruncho embed |
-| Oregon Zoo | oregonzoo.org/events | No feeds found |
-| OMSI | omsi.edu/whats-on/ | WordPress, no feeds found |
+| Oregon Zoo | oregonzoo.org/events | Drupal, sparse events, check seasonally |
+| OMSI | omsi.edu/whats-on/ | WordPress, REST API blocked by security plugin |
 | Oregon Symphony | orsymphony.org/calendar/ | No feeds found |
+| Portland Parks & Recreation | portland.gov/parks/events | Drupal, 114 events (mostly volunteer) |
+| City of Portland Arts | portland.gov/arts/arts-events | Drupal, no feeds. Arts via Cruncho embed |
+| Powell's Books | powells.com/events | Blocks automated access (403) |
+| Portland Center Stage | pcs.org/events | Custom CMS, no feeds |
+| Helium Comedy Club | portland.heliumcomedy.com | SeatEngine ticketing, JSON-LD available |
+| Hollywood Theatre | hollywoodtheatre.org | Cloudflare-blocked |
+| Q Center | pdxqcenter.org/calendar | Wix, no feeds |
 
 ## Non-Starters
 | Source | Reason |
 |--------|--------|
 | Portland city government (Legistar) | Not on Legistar; uses own system at portland.gov |
 | Concordia University Portland | Closed permanently in 2020 |
+| Portland Children's Museum | Closed permanently in 2021 |
+| Doug Fir Lounge | Relocating, no events currently |
 
 ## To Investigate
-- [ ] Arlene Schnitzer Concert Hall
-- [ ] Revolution Hall
-- [ ] Doug Fir Lounge
-- [ ] Crystal Ballroom
-- [ ] Powell's Books
-- [ ] Portland Center Stage
-- [x] Portland Saturday Market (Squarespace scraper, 49 events)
-- [x] Pioneer Courthouse Square (WordPress ICS, 30 events with images)
-- [x] Portland Farmers Market (WordPress ICS, images)
-- [x] Eventbrite Portland (4 free organizers: Trailkeepers, NW Trail Alliance, Portland Nursery, Habitat)
 - [ ] Ticketmaster Portland venues (scraper exists in repo)
-- [ ] Songkick Portland venues
+- [ ] Portland'5 Centers full calendar (Drupal scraper for non-music events)
 - [ ] PDX Pipeline (blog RSS, not structured events)
 - [ ] EverOut Portland
 - [ ] DoPDX
+- [ ] Friends of Trees (Cloudflare-blocked WordPress, likely has ICS)
+- [ ] Portland Shambhala Center (Cloudflare-blocked, likely has ICS)
+- [ ] Hands On Greater Portland (volunteer platform)
