@@ -2,12 +2,13 @@
 
 Focus: Theater (initial phase)
 
-## Currently Implemented (11 sources)
+## Currently Implemented (12 sources)
 
 ### Theater — ICS Feeds
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
 | ArtsEmerson | WordPress Tribe ICS | 1+ | Emerson College's performing arts org |
+| Tufts TDPS | Trumba ICS | 9 | Theater, dance, and performance studies at Tufts |
 
 ### Theater — Custom Scrapers
 | Source | Type | Events | Notes |
@@ -33,11 +34,8 @@ Focus: Theater (initial phase)
 ## Discovered - Needs Investigation
 | Source | URL | Notes |
 |--------|-----|-------|
-| Company One Theatre | companyone.org | WordPress/Divi, performs at BCA |
-| Boston Center for the Arts | bostonarts.org | WordPress, Salesforce ticketing |
-| Tufts TDPS | tdps.tufts.edu | Trumba calendar integration |
-| Wellesley Repertory Theatre | wellesleyrepertorytheatre.org | Squarespace, SimpleTix |
-| Front Porch Arts Collective | frontporcharts.org | Weebly, GiveButter ticketing |
+| Company One Theatre | companyone.org | WordPress/Divi, client-rendered, no calendar structure |
+| Front Porch Arts Collective | frontporcharts.org | Weebly, GiveButter ticketing, only 2 upcoming performances |
 
 ## Non-Starters
 | Source | Reason |
@@ -49,8 +47,12 @@ Focus: Theater (initial phase)
 | Cambridge Multicultural Arts Center | Site down (ECONNREFUSED) |
 | Open Theater Project | Site down (ECONNREFUSED) |
 | Calderwood Pavilion | Not separate entity; events listed by resident companies |
+| Boston Center for the Arts | Residencies and exhibitions, not theater productions |
+| Wellesley Repertory Theatre | Squarespace without events collection; SimpleTix; only 1 production at a time |
 
 ## To Investigate (future phases)
+- [ ] Company One Theatre — needs custom WordPress/Divi scraper
+- [ ] Front Porch Arts Collective — Weebly/GiveButter, low volume
 - [ ] Ticketmaster venue IDs for Citizens Opera House, Emerson Colonial (for richer data)
 - [ ] Huntington calendar Vue API
 - [ ] Music venues, comedy clubs, community events, meetups, libraries

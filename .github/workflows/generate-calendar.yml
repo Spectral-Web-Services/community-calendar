@@ -1054,6 +1054,8 @@ jobs:
         cd cities/boston
         # Theater ICS feeds
         curl -sL "https://artsemerson.org/events/?ical=1" -o artsemerson.ics || true
+        # Tufts TDPS (Trumba calendar)
+        curl -sL "https://www.trumba.com/calendars/tts-wms-managed-tdps.ics" -o tufts_tdps.ics || true
         cd ../..
         python scripts/combine_ics.py --input-dir cities/boston --output cities/boston/combined.ics --name "Boston Community Calendar"
 
