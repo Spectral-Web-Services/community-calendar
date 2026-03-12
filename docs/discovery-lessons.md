@@ -49,6 +49,9 @@ Real-world lessons from source discovery across cities. These complement the str
 - [LibCal Library Calendars](#libcal-library-calendars)
 - [CampusLabs University Calendars](#campuslabs-university-calendars)
 - [TeamUp Calendars](#teamup-calendars)
+- [Communico Libraries: Skip the API, Scrape the Drupal Site](#communico-libraries-skip-the-api-scrape-the-drupal-site)
+- [WordPress Plugin Installed but Empty: Check for Embedded Calendars](#wordpress-plugin-installed-but-empty-check-for-embedded-calendars)
+- [Drupal City Government Sites with Category Filters](#drupal-city-government-sites-with-category-filters)
 
 ## "Curl-and-Done" Sources: No Scraper Needed
 
@@ -271,6 +274,8 @@ Unlike WordPress (where Tribe = `?ical=1` and MEC = `?mec-ical-feed=1`), Drupal 
 - `field-event` or `field--name-title` (Drupal field formatters)
 
 **What to try first:** Always check `?_format=json` on Drupal URLs — some sites have REST exports enabled (returns JSON). If you get `"A route that returns a rendered array..."`, REST is not configured for that view.
+
+**Drupal Views AJAX:** Some Drupal sites expose a Views AJAX endpoint that returns JSON with rendered HTML fragments. Try `{url}/views/ajax?view_name={view}&view_display_id=page_1&page=0`. This is often easier to parse than the rendered page and supports pagination. See [Communico Libraries](#communico-libraries-skip-the-api-scrape-the-drupal-site) and [Drupal City Government Sites](#drupal-city-government-sites-with-category-filters) for examples.
 
 ## Classify WordPress Sites at Scale with Plugin Detection
 
@@ -557,3 +562,45 @@ https://ics.teamup.com/{calendar_key}
 Find the calendar key by looking for TeamUp embeds in the organization's website (iframe `src` containing `teamup.com`).
 
 **Example:** Congregation Shomrei Emunah — 80 events from a TeamUp ICS feed.
+
+## Communico Libraries: Skip the API, Scrape the Drupal Site
+
+Libraries using Communico (events.{library}.org, powered by api.communico.co) require OAuth authentication for their API — a dead end for automated scraping. However, many of these libraries also have a **parallel Drupal website** with a public events listing that uses Drupal Views AJAX.
+
+**The pattern:** If `events.{library}.org` requires auth, check `{library}.org/events-classes` or `{library}.org/events`. Drupal Views AJAX endpoints are public and return JSON with embedded HTML fragments:
+```
+https://{library}.org/views/ajax?view_name=events_list&view_display_id=page_1&page=0
+```
+
+The response is a JSON array of command objects; extract the one with `data` containing HTML event cards. Parse event details from CSS classes like `.event__title`, `.event__date`, `.event__time`, `.event__location`, `.event__summary`.
+
+**Also check BiblioCommons:** Some libraries use both Communico for event management and BiblioCommons for their catalog. But BiblioCommons events may be disabled — `{library}.bibliocommons.com/v2/events` returning 403 means events aren't available there.
+
+**Example:** Multnomah County Library — Communico API returns 401, BiblioCommons returns 403, but `multcolib.org/views/ajax` serves 1,795 events across 90 pages with no authentication. See `scrapers/multcolib.py`.
+
+## WordPress Plugin Installed but Empty: Check for Embedded Calendars
+
+When a WordPress site has The Events Calendar (Tribe) plugin installed but `?ical=1` returns 0 events, the organization may have abandoned the plugin in favor of an **embedded external calendar** on a different page.
+
+**The pattern:** Before giving up on a WordPress events site:
+1. Check `/events/?ical=1` — if empty, the plugin is installed but unused
+2. Browse other pages (look for "Calendar", "Event Calendar", "Schedule" in navigation)
+3. View page source on the real calendar page — look for embedded `<iframe>` from Google Calendar, Tockify, or other platforms
+4. Extract the feed URL from the embed
+
+**Example:** Friends of Trees (friendsoftrees.org) — Tribe Events is installed but has 0 events. The real calendar is at `/event-calendar/` which embeds three Google Calendars. Two are active with ~135 combined events of free outdoor tree-planting volunteer events. The WordPress `?ical=1` was a red herring.
+
+## Drupal City Government Sites with Category Filters
+
+City government websites on Drupal often have event listing pages with faceted search filters. These filters use query parameters that can be used to produce separate feeds per category, which is cleaner than one giant feed.
+
+**The pattern:** City event pages at `{city}.gov/events` often support:
+```
+https://{city}.gov/events?f[0]=type:{TYPE_ID}
+```
+
+Type IDs can be discovered by inspecting the filter dropdown HTML or clicking filter links and reading the URL. Each category becomes a separate scraper invocation producing its own ICS file.
+
+**Why separate feeds matter:** Government calendars mix very different event types (community festivals, council meetings, volunteer opportunities, public hearings). Separate feeds allow the pipeline to classify and present them differently, and curators can selectively include/exclude categories.
+
+**Example:** Portland.gov — 5 category feeds from one scraper: Community Events (type 329, 59 events), Volunteer Events (type 364, 92 events), Classes & Activities (type 583, 33 events), Public Meetings (type 333, 85 events), Council Meetings (type 651, 49 events). Detail pages provide location (`field--name-field-location`) and images (`og:image`). See `scrapers/portland_gov.py`.
