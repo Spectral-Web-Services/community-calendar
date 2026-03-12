@@ -4,19 +4,6 @@ PRODID:-//Portland Council Meetings//portland.gov//
 X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Climate\, Resilience\, and Land Use Committee Meeting
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260312T093000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260312T093000
-UID:48fa8979666d47e02475f2947170c6c5@portland.gov
-DESCRIPTION:
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get Directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/3/12/climat
- e-resilience-and-land-use-committee-meeting
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Labor and Workforce Development Committee Meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260312T120000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260312T120000
@@ -336,6 +323,22 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get Directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/7/city-co
  uncil-meeting-tentative
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260513T093000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260513T093000
+UID:30a25965981b18099322a859df69c95a@portland.gov
+DESCRIPTION:City Council holds regular meetings at 9:30 a.m. on the first\
+ , second\, fourth and fifth Wednesday and 6:00 p.m. on the third Wednesday
+  of each month. If there is sufficient business\, additional meetings are 
+ held the following Thursday at 2:00 p.m.
+LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
+ um Portland\,\n                                OR\n                       
+                    97204 Get Directions More about this location
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/13/city-c
+ ouncil-meeting
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 END:VCALENDAR

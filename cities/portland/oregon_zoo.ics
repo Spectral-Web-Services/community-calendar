@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Oregon Zoo//oregonzoo.org//
+X-WR-CALNAME:Oregon Zoo
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VEVENT
+SUMMARY:Hop into Spring
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T170000
+UID:768ab5fa1a5a4c7c2b6153067a33fcd5@oregonzoo.org
+ATTACH;FMTTYPE=image/jpeg:https://www.oregonzoo.org/sites/default/files/20
+ 26-02/h-hop-into-spring.jpg
+DESCRIPTION:Celebrate spring with special fun family activities and entert
+ ainment.
+LOCATION:Oregon Zoo\, 4001 SW Canyon Road\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/hop
+X-SOURCE:Oregon Zoo
+END:VEVENT
+END:VCALENDAR

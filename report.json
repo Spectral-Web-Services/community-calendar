@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T16:33:11.455475",
+  "generated": "2026-03-12T17:23:51.750794",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -40842,7 +40842,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 1413
+              "count": 1420
             }
           ]
         },
@@ -40885,48 +40885,104 @@
               "count": 64
             }
           ]
+        },
+        "friends_of_trees_green_space": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 13
+            }
+          ]
+        },
+        "friends_of_trees_neighborhood": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 6
+            }
+          ]
+        },
+        "multcolib": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 1795
+            }
+          ]
+        },
+        "oregon_zoo": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 1
+            }
+          ]
+        },
+        "ticketmaster_moda_center": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 46
+            }
+          ]
+        },
+        "ticketmaster_theater_clouds": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "ticketmaster_veterans_coliseum": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 27
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 681
+          "count": 1129
         },
         {
           "category": "Family / Kids",
-          "count": 510
+          "count": 1034
         },
         {
           "category": "Community / Social",
-          "count": 341
+          "count": 452
         },
         {
           "category": "Sports / Fitness",
-          "count": 264
+          "count": 299
         },
         {
           "category": "Arts / Culture",
-          "count": 207
+          "count": 252
         },
         {
           "category": "Music / Concerts",
-          "count": 190
+          "count": 245
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 172
+          "count": 188
         },
         {
           "category": "Health / Wellness",
-          "count": 128
+          "count": 151
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 115
+          "count": 135
         },
         {
           "category": "Government / Civic",
-          "count": 105
+          "count": 122
         },
         {
           "category": "Religion / Spirituality",
@@ -40934,33 +40990,38 @@
         },
         {
           "category": "Food / Drink",
-          "count": 38
+          "count": 45
         },
         {
           "category": "Film / Cinema",
-          "count": 33
+          "count": 35
         },
         {
           "category": "(uncategorized)",
-          "count": 30
-        },
-        {
-          "category": "History / Heritage",
-          "count": 23
+          "count": 33
         },
         {
           "category": "Dance / Performance",
-          "count": 22
+          "count": 28
+        },
+        {
+          "category": "History / Heritage",
+          "count": 26
         },
         {
           "category": "Comedy / Improv",
-          "count": 4
+          "count": 9
         }
       ],
       "images": {
-        "total": 2927,
-        "with_image": 864,
+        "total": 4247,
+        "with_image": 2135,
         "by_source": [
+          {
+            "source": "Multnomah County Library",
+            "total": 1247,
+            "with_image": 1190
+          },
           {
             "source": "Lewis Clark",
             "total": 275,
@@ -40977,9 +41038,14 @@
             "with_image": 47
           },
           {
-            "source": "Tockify Kptv Calendar",
+            "source": "Moda Center",
             "total": 41,
             "with_image": 41
+          },
+          {
+            "source": "Tockify Kptv Calendar",
+            "total": 40,
+            "with_image": 40
           },
           {
             "source": "Tockify Theoldchurch",
@@ -40988,13 +41054,18 @@
           },
           {
             "source": "Portland Community Events",
-            "total": 44,
-            "with_image": 31
+            "total": 43,
+            "with_image": 30
           },
           {
             "source": "Lan Su Garden",
             "total": 30,
             "with_image": 30
+          },
+          {
+            "source": "Multnomah County Library, WCCLS Libraries",
+            "total": 29,
+            "with_image": 29
           },
           {
             "source": "Literary Arts",
@@ -41024,6 +41095,11 @@
           {
             "source": "Portland Classes & Activities",
             "total": 18,
+            "with_image": 11
+          },
+          {
+            "source": "Veterans Memorial Coliseum",
+            "total": 11,
             "with_image": 11
           },
           {
@@ -41192,6 +41268,16 @@
             "with_image": 1
           },
           {
+            "source": "Oregon Zoo, Tockify Kptv Calendar",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Multnomah County Library, Portland Community Events",
+            "total": 1,
+            "with_image": 1
+          },
+          {
             "source": "Japanese Garden, Tockify Kptv Calendar",
             "total": 1,
             "with_image": 1
@@ -41199,18 +41285,24 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 2895,
-        "total_events": 2927,
-        "unique_urls": 2610,
+        "total_with_url": 4171,
+        "total_events": 4247,
+        "unique_urls": 3886,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 34,
         "http_domains": 1,
         "source_specificity": [
           {
+            "source": "Multnomah County Library",
+            "events": 1247,
+            "unique_urls": 1247,
+            "specificity_pct": 100
+          },
+          {
             "source": "WCCLS Libraries",
-            "events": 1101,
-            "unique_urls": 1101,
+            "events": 1078,
+            "unique_urls": 1078,
             "specificity_pct": 100
           },
           {
@@ -41263,14 +41355,14 @@
           },
           {
             "source": "Portland Community Events",
-            "events": 44,
-            "unique_urls": 44,
+            "events": 43,
+            "unique_urls": 43,
             "specificity_pct": 100
           },
           {
             "source": "Tockify Kptv Calendar",
-            "events": 41,
-            "unique_urls": 41,
+            "events": 40,
+            "unique_urls": 40,
             "specificity_pct": 100
           },
           {
@@ -41290,12 +41382,6 @@
             "events": 34,
             "unique_urls": 16,
             "specificity_pct": 47
-          },
-          {
-            "source": "Crystal Ballroom",
-            "events": 30,
-            "unique_urls": 30,
-            "specificity_pct": 100
           }
         ]
       }

@@ -1,711 +1,918 @@
 Fetched 2 events from Legistar
 Wrote cities/portland/legistar_oregon_metro.ics
-2026-03-12 16:23:12,367 - INFO - Scraping Portland Community Events
-2026-03-12 16:23:12,367 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A329
-2026-03-12 16:23:12,567 - INFO -   Got 20 events (total: 20)
-2026-03-12 16:23:12,567 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A329
-2026-03-12 16:23:12,675 - INFO -   Got 20 events (total: 40)
-2026-03-12 16:23:12,675 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A329
-2026-03-12 16:23:12,787 - INFO -   Got 19 events (total: 59)
-2026-03-12 16:23:12,788 - INFO - Enriching up to 59 events with detail pages...
-2026-03-12 16:23:16,941 - INFO - Filtered 11 events beyond 2 months out
-2026-03-12 16:23:16,941 - INFO - Found 48 events
-2026-03-12 16:23:16,952 - INFO - Written to cities/portland/pdxgov_community.ics
-2026-03-12 16:23:17,195 - INFO - Scraping Portland Volunteer Events
-2026-03-12 16:23:17,195 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A364
-2026-03-12 16:23:17,307 - INFO -   Got 20 events (total: 20)
-2026-03-12 16:23:17,307 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A364
-2026-03-12 16:23:17,412 - INFO -   Got 20 events (total: 40)
-2026-03-12 16:23:17,412 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A364
-2026-03-12 16:23:17,531 - INFO -   Got 20 events (total: 60)
-2026-03-12 16:23:17,531 - INFO - Fetching page 3: https://www.portland.gov/events?page=3&f%5B0%5D=type%3A364
-2026-03-12 16:23:17,634 - INFO -   Got 20 events (total: 80)
-2026-03-12 16:23:17,635 - INFO - Fetching page 4: https://www.portland.gov/events?page=4&f%5B0%5D=type%3A364
-2026-03-12 16:23:17,738 - INFO -   Got 20 events (total: 100)
-2026-03-12 16:23:17,738 - INFO - Fetching page 5: https://www.portland.gov/events?page=5&f%5B0%5D=type%3A364
-2026-03-12 16:23:17,826 - INFO -   Got 4 events (total: 104)
-2026-03-12 16:23:17,826 - INFO - Enriching up to 104 events with detail pages...
-2026-03-12 16:23:24,808 - INFO - Filtered 40 events beyond 2 months out
-2026-03-12 16:23:24,808 - INFO - Found 64 events
-2026-03-12 16:23:24,819 - INFO - Written to cities/portland/pdxgov_volunteer.ics
-2026-03-12 16:23:25,052 - INFO - Scraping Portland Classes & Activities
-2026-03-12 16:23:25,052 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A583
-2026-03-12 16:23:26,325 - INFO -   Got 20 events (total: 20)
-2026-03-12 16:23:26,325 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A583
-2026-03-12 16:23:27,676 - INFO -   Got 13 events (total: 33)
-2026-03-12 16:23:27,677 - INFO - Enriching up to 33 events with detail pages...
-2026-03-12 16:24:01,101 - INFO - Filtered 15 events beyond 2 months out
-2026-03-12 16:24:01,101 - INFO - Found 18 events
-2026-03-12 16:24:01,104 - INFO - Written to cities/portland/pdxgov_classes.ics
-2026-03-12 16:24:01,327 - INFO - Scraping Portland Public Meetings
-2026-03-12 16:24:01,327 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A333
-2026-03-12 16:24:02,438 - INFO -   Got 20 events (total: 20)
-2026-03-12 16:24:02,438 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A333
-2026-03-12 16:24:04,003 - INFO -   Got 20 events (total: 40)
-2026-03-12 16:24:04,003 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A333
-2026-03-12 16:24:05,813 - INFO -   Got 20 events (total: 60)
-2026-03-12 16:24:05,813 - INFO - Fetching page 3: https://www.portland.gov/events?page=3&f%5B0%5D=type%3A333
-2026-03-12 16:24:08,376 - INFO -   Got 20 events (total: 80)
-2026-03-12 16:24:08,376 - INFO - Fetching page 4: https://www.portland.gov/events?page=4&f%5B0%5D=type%3A333
-2026-03-12 16:24:09,909 - INFO -   Got 5 events (total: 85)
-2026-03-12 16:24:09,909 - INFO - Enriching up to 85 events with detail pages...
-2026-03-12 16:25:30,973 - INFO - Filtered 47 events beyond 2 months out
-2026-03-12 16:25:30,973 - INFO - Found 38 events
-2026-03-12 16:25:30,979 - INFO - Written to cities/portland/pdxgov_public_meetings.ics
-2026-03-12 16:25:31,200 - INFO - Scraping Portland Council Meetings
-2026-03-12 16:25:31,201 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A651
-2026-03-12 16:25:32,089 - INFO -   Got 20 events (total: 20)
-2026-03-12 16:25:32,090 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A651
-2026-03-12 16:25:34,154 - INFO -   Got 20 events (total: 40)
-2026-03-12 16:25:34,154 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A651
-2026-03-12 16:25:36,106 - INFO -   Got 9 events (total: 49)
-2026-03-12 16:25:36,106 - INFO - Enriching up to 49 events with detail pages...
-2026-03-12 16:26:25,686 - INFO - Filtered 26 events beyond 2 months out
-2026-03-12 16:26:25,686 - INFO - Found 23 events
-2026-03-12 16:26:25,690 - INFO - Written to cities/portland/pdxgov_council.ics
-2026-03-12 16:26:25,867 - INFO - Scraping Trailkeepers of Oregon
-2026-03-12 16:26:27,296 - INFO - Discovered 24 event URLs from organizer page
-2026-03-12 16:26:27,296 - INFO - Fetching 24 event pages (parallel)...
-2026-03-12 16:26:27,523 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/short-beach-railing-trail-party-north-coast-registration-1982929688076
-2026-03-12 16:26:27,530 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/salmon-falls-county-park-trail-party-willamette-valley-registration-1981386870467
-2026-03-12 16:26:27,536 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tku-saw-school-crosscut-saw-recertification-1-day-mt-hood-registration-1982198828054
-2026-03-12 16:26:27,561 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/wahclella-trail-gorge-registration-1983994492936
-2026-03-12 16:26:27,723 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/larchwahkeena-loop-gorge-registration-1983992678509
-2026-03-12 16:26:27,753 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/wahclella-trail-gorge-registration-1983993357540
-2026-03-12 16:26:27,754 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/gwynn-creek-trail-party-central-coast-registration-1983401853335
-2026-03-12 16:26:27,942 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/herman-creek-trail-party-gorge-registration-1984483876696
-2026-03-12 16:26:27,981 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tku-saw-school-chainsaw-recertification-1-day-mt-hood-registration-1982324674464
-2026-03-12 16:26:28,192 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/salmon-falls-county-park-trail-party-willamette-valley-registration-1981386802263
-2026-03-12 16:26:28,337 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/short-beach-railing-trail-party-north-coast-registration-1982928538638
-2026-03-12 16:26:28,351 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/metzler-park-trail-party-pdx-registration-1983983681599
-2026-03-12 16:26:28,422 - INFO - Got 11 future events
-2026-03-12 16:26:28,422 - INFO - Found 11 events
-2026-03-12 16:26:28,425 - INFO - Written to cities/portland/eventbrite_trailkeepers.ics
-2026-03-12 16:26:28,573 - INFO - Scraping Northwest Trail Alliance
-2026-03-12 16:26:30,187 - INFO - Discovered 24 event URLs from organizer page
-2026-03-12 16:26:30,187 - INFO - Fetching 24 event pages (parallel)...
-2026-03-12 16:26:30,399 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trail-sisters-bike-maintenance-clinic-metropolis-cycles-tickets-1982361547753
-2026-03-12 16:26:30,408 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/stub-trail-restoration-day-0222-tickets-1977851512115
-2026-03-12 16:26:30,623 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-rocky-point-levitation-sponsored-by-metropolis-tickets-1983624887436
-2026-03-12 16:26:30,639 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/stub-trail-restoration-day-0308-tickets-1977851622445
-2026-03-12 16:26:30,763 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/stub-trail-restoration-day-0228-tickets-1977851596367
-2026-03-12 16:26:30,810 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-rocky-point-rollercoaster-tickets-1984395799254
-2026-03-12 16:26:30,818 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tsi-advanced-trail-school-trail-building-start-to-finish-tickets-1976669462573
-2026-03-12 16:26:30,831 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-sandy-ridge-little-monkey-drop-feature-and-follow-the-leader-tickets-1982749431925
-2026-03-12 16:26:31,009 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trail-work-day-sunday-march-1st-tickets-1983820147464
-2026-03-12 16:26:31,032 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-rocky-point-sad-birthday-sponsored-by-cascade-bikes-tickets-1982978231270
-2026-03-12 16:26:31,049 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-tillamook-tickets-1767200316719
-2026-03-12 16:26:31,188 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trail-sisters-dig-day-klootchy-creek-tickets-1980673265054
-2026-03-12 16:26:31,225 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nwta-dig-day-powell-butte-tickets-1984647914337
-2026-03-12 16:26:31,237 - INFO - Got 11 future events
-2026-03-12 16:26:31,237 - INFO - Found 11 events
-2026-03-12 16:26:31,240 - INFO - Written to cities/portland/eventbrite_nw_trail_alliance.ics
-2026-03-12 16:26:31,388 - INFO - Scraping Portland Nursery
-2026-03-12 16:26:33,127 - INFO - Discovered 16 event URLs from organizer page
-2026-03-12 16:26:33,127 - INFO - Fetching 16 event pages (parallel)...
-2026-03-12 16:26:33,350 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/blueberry-pruning-at-division-tickets-1981452525844
-2026-03-12 16:26:33,352 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mason-bee-revolution-with-dave-hunter-of-crown-bees-at-stark-tickets-1981966304570
-2026-03-12 16:26:33,357 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dry-farming-in-urban-gardens-at-stark-tickets-1981958764016
-2026-03-12 16:26:33,376 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/useful-weeds-at-division-tickets-1981959855280
-2026-03-12 16:26:33,554 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/growing-asparagus-and-other-perennial-vegetables-at-stark-tickets-1981955580494
-2026-03-12 16:26:33,581 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rat-prevention-and-control-at-division-tickets-1981963682728
-2026-03-12 16:26:33,599 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/preparing-and-planting-your-spring-vegetable-garden-at-division-tickets-1981957855298
-2026-03-12 16:26:33,710 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rose-pruning-demo-and-pruner-sharpening-event-at-division-tickets-1981960459086
-2026-03-12 16:26:33,771 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pruning-raspberries-and-blackberries-at-stark-tickets-1981967034754
-2026-03-12 16:26:33,782 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/food-forests-at-stark-tickets-1981957251492
-2026-03-12 16:26:33,814 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/plan-your-tastiest-vegetable-garden-yet-at-division-tickets-1981956357819
-2026-03-12 16:26:33,875 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/making-maple-syrup-from-native-big-leaf-maple-at-stark-tickets-1981960065910
-2026-03-12 16:26:33,875 - INFO - Got 4 future events
-2026-03-12 16:26:33,875 - INFO - Found 4 events
-2026-03-12 16:26:33,877 - INFO - Written to cities/portland/eventbrite_portland_nursery.ics
-2026-03-12 16:26:34,025 - INFO - Scraping Habitat for Humanity Portland
-2026-03-12 16:26:35,097 - INFO - Discovered 15 event URLs from organizer page
-2026-03-12 16:26:35,098 - INFO - Fetching 15 event pages (parallel)...
-2026-03-12 16:26:35,307 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/safe-financial-beginnings-1-goals-tools-tickets-1976752425718
-2026-03-12 16:26:35,308 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-workshop-kitchen-bath-basics-tickets-1976762557021
-2026-03-12 16:26:35,316 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/protecting-your-home-essentials-of-home-insurance-tickets-1376760791589
-2026-03-12 16:26:35,341 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ready-set-winter-winter-weather-preparedness-indoor-air-quality-tickets-1740126127089
-2026-03-12 16:26:35,353 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/online-resource-rundown-for-homeowners-save-and-connect-tickets-1482163744659
-2026-03-12 16:26:35,515 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-money-makeover-tickets-1740566393939
-2026-03-12 16:26:35,525 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/save-water-save-money-tickets-1376742346419
-2026-03-12 16:26:35,538 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-safe-financial-beginnings-2-credit-debt-tickets-1976756817855
-2026-03-12 16:26:35,541 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-safe-financial-beginnings-3-income-taxes-tickets-1976757447739
-2026-03-12 16:26:35,714 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-winter-weatherization-tickets-1740520215819
-2026-03-12 16:26:35,736 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-resource-rundown-for-homeowners-save-and-connect-tickets-1918827106529
-2026-03-12 16:26:35,741 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-estate-planning-essentials-tickets-1740350237409
-2026-03-12 16:26:35,767 - INFO - Got 3 future events
-2026-03-12 16:26:35,767 - INFO - Filtered 1 events beyond 2 months out
-2026-03-12 16:26:35,767 - INFO - Found 2 events
-2026-03-12 16:26:35,768 - INFO - Written to cities/portland/eventbrite_habitat_pdx.ics
-2026-03-12 16:26:35,913 - INFO - Scraping Portland Saturday Market
-2026-03-12 16:26:35,913 - INFO - Fetching event list from https://www.portlandsaturdaymarket.com/events
-2026-03-12 16:26:36,114 - INFO - Found 31 event URLs
-2026-03-12 16:26:36,114 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490v21rsh?format=ical
-2026-03-12 16:26:36,735 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490v21rsh-x5dnp?format=ical
-2026-03-12 16:26:37,348 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490v21rsh-x5dnp-9jsdl?format=ical
-2026-03-12 16:26:37,956 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/adaptive-mobility-demonstration-and-discussion?format=ical
-2026-03-12 16:26:38,569 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/coffee-and-color?format=ical
-2026-03-12 16:26:39,200 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/crafternoon?format=ical
-2026-03-12 16:26:39,833 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/crafternoon-pottery-palooza?format=ical
-2026-03-12 16:26:40,439 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/day-of-the-dead-celebration?format=ical
-2026-03-12 16:26:41,048 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/free-livining-museum-tours?format=ical
-2026-03-12 16:26:41,769 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/halloween-eekstravaganza?format=ical
-2026-03-12 16:26:42,378 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/helium-comedy-club?format=ical
-2026-03-12 16:26:43,001 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/helium-comedy-club-stand-up-comedy-event?format=ical
-2026-03-12 16:26:43,613 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/last-market-of-the-2025-season?format=ical
-2026-03-12 16:26:44,227 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/mini-makers-market-vendor-application?format=ical
-2026-03-12 16:26:44,859 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-ride?format=ical
-2026-03-12 16:26:45,469 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-ride-lcax6?format=ical
-2026-03-12 16:26:46,079 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-ride-lcax6-8twsx?format=ical
-2026-03-12 16:26:46,697 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/openind-day?format=ical
-2026-03-12 16:26:47,313 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/opening-day?format=ical
-2026-03-12 16:26:47,934 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/paint-sip?format=ical
-2026-03-12 16:26:48,540 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/portland-saturday-market-50-years-of-craft-and-community?format=ical
-2026-03-12 16:26:49,159 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/portland-saturday-market-doc?format=ical
-2026-03-12 16:26:49,776 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/pugapalooza?format=ical
-2026-03-12 16:26:50,386 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/put-a-bird-on-it-psm-collage-workshop?format=ical
-2026-03-12 16:26:51,002 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/quillandchill?format=ical
-2026-03-12 16:26:51,610 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-stanton-yard?format=ical
-2026-03-12 16:26:52,220 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-stanton-yard-f5b8l?format=ical
-2026-03-12 16:26:52,831 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-stanton-yard-f5b8l-m5p6c?format=ical
-2026-03-12 16:26:53,444 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/spirits-fest?format=ical
-2026-03-12 16:26:54,050 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/wc6jb8e36pkfuoacijery41tr1giu4?format=ical
-2026-03-12 16:26:54,662 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/wc6jb8e36pkfuoacijery41tr1giu4-32jfy?format=ical
-2026-03-12 16:26:55,269 - INFO - Found 31 events
-2026-03-12 16:26:55,273 - INFO - Written to cities/portland/saturday_market.ics
-2026-03-12 16:26:55,418 - INFO - Scraping Portland Saturday Market Stage
-2026-03-12 16:26:55,418 - INFO - Fetching event list from https://www.portlandsaturdaymarket.com/stage-performances
-2026-03-12 16:26:55,558 - INFO - Found 18 event URLs
-2026-03-12 16:26:55,558 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/acoustic-minds?format=ical
-2026-03-12 16:26:56,167 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx?format=ical
-2026-03-12 16:26:56,772 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9?format=ical
-2026-03-12 16:26:57,384 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj?format=ical
-2026-03-12 16:26:57,993 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj-ell9w?format=ical
-2026-03-12 16:26:58,606 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj-ell9w-ts562?format=ical
-2026-03-12 16:26:59,220 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj-ell9w-ts562-rstpe?format=ical
-2026-03-12 16:26:59,845 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/charles-shaw?format=ical
-2026-03-12 16:27:00,450 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/gentle-creatures?format=ical
-2026-03-12 16:27:01,064 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/gentle-creatures-6j998?format=ical
-2026-03-12 16:27:01,673 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/gentle-creatures-6j998-ljref?format=ical
-2026-03-12 16:27:02,281 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/give-it-fm?format=ical
-2026-03-12 16:27:02,891 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/no-soap-radio?format=ical
-2026-03-12 16:27:03,503 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/pythias-braswell?format=ical
-2026-03-12 16:27:04,120 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/shoehorn?format=ical
-2026-03-12 16:27:04,732 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/sign-up-for-2025-main-stage-performances?format=ical
-2026-03-12 16:27:05,341 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/story-tune?format=ical
-2026-03-12 16:27:05,950 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/traffyk-jam?format=ical
-2026-03-12 16:27:06,563 - INFO - Found 18 events
-2026-03-12 16:27:06,566 - INFO - Written to cities/portland/saturday_market_stage.ics
-2026-03-12 16:27:06,710 - INFO - Scraping Friends of Tryon Creek
-2026-03-12 16:27:06,710 - INFO - Fetching event list from https://www.tryonfriends.org/calendar
-2026-03-12 16:27:06,918 - INFO - Found 54 event URLs
-2026-03-12 16:27:06,918 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/7l3ge2rn7sg2g2yyakodib4vtnw5ng?format=ical
-2026-03-12 16:27:07,539 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/8yaqu1axmjy2i3h7rahio94dq0pipk?format=ical
-2026-03-12 16:27:08,152 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/full-moon-hike-2cxss-7mk4s?format=ical
-2026-03-12 16:27:08,785 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/full-moon-hike-2cxss-fcp79?format=ical
-2026-03-12 16:27:09,468 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/love-the-land-seed-swap?format=ical
-2026-03-12 16:27:10,086 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-educator-training-2026?format=ical
-2026-03-12 16:27:10,700 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-journaling-owls?format=ical
-2026-03-12 16:27:11,314 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-journaling-owls-p38dl?format=ical
-2026-03-12 16:27:11,922 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-journaling-owls-p38dl-4f2c4?format=ical
-2026-03-12 16:27:12,540 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-walk-for-autism-community-dhtrb-lzrhl-kyyla-laz7t-necdj-n4zek-ht9g5-gk4hn-ykks5-gyzkr?format=ical
-2026-03-12 16:27:13,166 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp?format=ical
-2026-03-12 16:27:13,781 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-5t595?format=ical
-2026-03-12 16:27:14,399 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-5t595-zwyh4?format=ical
-2026-03-12 16:27:15,011 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-5t595-zwyh4-y9be5?format=ical
-2026-03-12 16:27:15,622 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-n6gfx?format=ical
-2026-03-12 16:27:16,233 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-n6gfx-a6crl?format=ical
-2026-03-12 16:27:16,845 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-gp53g?format=ical
-2026-03-12 16:27:17,459 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/owl-fest?format=ical
-2026-03-12 16:27:18,079 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id?format=ical
-2026-03-12 16:27:18,694 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3?format=ical
-2026-03-12 16:27:19,308 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw?format=ical
-2026-03-12 16:27:19,924 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw-k5wng?format=ical
-2026-03-12 16:27:20,538 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw-k5wng-n8b44?format=ical
-2026-03-12 16:27:21,156 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw-k5wng-n8b44-4der2?format=ical
-2026-03-12 16:27:21,775 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-wwkgs?format=ical
-2026-03-12 16:27:22,501 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry?format=ical
-2026-03-12 16:27:23,112 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry-2cg3y?format=ical
-2026-03-12 16:27:23,732 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry-56r3r?format=ical
-2026-03-12 16:27:24,346 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym?format=ical
-2026-03-12 16:27:24,966 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6?format=ical
-2026-03-12 16:27:25,587 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33?format=ical
-2026-03-12 16:27:26,209 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4?format=ical
-2026-03-12 16:27:26,825 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx?format=ical
-2026-03-12 16:27:27,438 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x?format=ical
-2026-03-12 16:27:28,055 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x-kgal6?format=ical
-2026-03-12 16:27:28,673 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x-kgal6-n4hh6?format=ical
-2026-03-12 16:27:29,284 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x-kgal6-rxh4t?format=ical
-2026-03-12 16:27:29,892 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-knr4c?format=ical
-2026-03-12 16:27:30,504 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-t4dwx?format=ical
-2026-03-12 16:27:31,121 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-wmza4?format=ical
-2026-03-12 16:27:31,736 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-9p6sz-3b856-w4rzk-5b9la?format=ical
-2026-03-12 16:27:32,358 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls?format=ical
-2026-03-12 16:27:32,973 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls-g2at7?format=ical
-2026-03-12 16:27:33,584 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls-g2at7-ggm4b?format=ical
-2026-03-12 16:27:34,196 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls-ycpk2?format=ical
-2026-03-12 16:27:34,811 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/trillium-festival-2026?format=ical
-2026-03-12 16:27:35,429 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/trillium-festival-member-gathering?format=ical
-2026-03-12 16:27:36,039 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1?format=ical
-2026-03-12 16:27:36,654 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1-z5st9?format=ical
-2026-03-12 16:27:37,267 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1-z5st9-mkxfk?format=ical
-2026-03-12 16:27:37,876 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1-z5st9-mkxfk-jkzb3?format=ical
-2026-03-12 16:27:38,497 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/weaving2-sl56t-a435a?format=ical
-2026-03-12 16:27:39,111 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/weaving2-sl56t-a435a-dthyr?format=ical
-2026-03-12 16:27:39,722 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/weaving2-sl56t-a435a-dthyr-66mkw?format=ical
-2026-03-12 16:27:40,332 - INFO - Found 54 events
-2026-03-12 16:27:40,340 - INFO - Written to cities/portland/tryon_creek.ics
-2026-03-12 16:27:40,484 - INFO - Scraping Crystal Springs Rhododendron Garden
-2026-03-12 16:27:40,484 - INFO - Fetching event list from https://csrgpdx.org/event-calendar
-2026-03-12 16:27:40,646 - INFO - Found 5 event URLs
-2026-03-12 16:27:40,646 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/bird-walk-with-osu-naturalist-jasper-leiber?format=ical
-2026-03-12 16:27:41,298 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/birding-for-all-neurodivergents-family-and-friends-with-rey-snyder-bird-alliance?format=ical
-2026-03-12 16:27:41,941 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/guided-forest-therapy-with-shawna-hartung?format=ical
-2026-03-12 16:27:42,563 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/wildlife-detectives-with-zoology-teacher-anthony-aceves?format=ical
-2026-03-12 16:27:43,175 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/wildlife-walk-with-trudy-and-hilary5l9hl-eyx3k-wzz28?format=ical
-2026-03-12 16:27:43,787 - INFO - Found 5 events
-2026-03-12 16:27:43,789 - INFO - Written to cities/portland/crystal_springs.ics
-2026-03-12 16:27:44,003 - WCCLSLibraryScraper - INFO - Scraping WCCLS Libraries
-2026-03-12 16:28:07,327 - WCCLSLibraryScraper - INFO - Collected 2433 Bibliocommons events (wccls)
-2026-03-12 16:28:07,330 - WCCLSLibraryScraper - INFO - Filtered 1019 events beyond 2 months out
-2026-03-12 16:28:07,330 - WCCLSLibraryScraper - INFO - Found 1414 events
-2026-03-12 16:28:07,596 - WCCLSLibraryScraper - INFO - Written to cities/portland/wccls_library.ics
-2026-03-12 16:28:07,757 - INFO - Scraping Revolution Hall
-2026-03-12 16:28:07,924 - INFO - Found 5 future events from Songkick
-2026-03-12 16:28:07,925 - INFO - Found 5 events
-2026-03-12 16:28:07,926 - INFO - Written to cities/portland/songkick_revolution_hall.ics
-2026-03-12 16:28:08,074 - INFO - Scraping Mississippi Studios
-2026-03-12 16:28:08,240 - INFO - Found 5 future events from Songkick
-2026-03-12 16:28:08,240 - INFO - Found 5 events
-2026-03-12 16:28:08,242 - INFO - Written to cities/portland/songkick_mississippi_studios.ics
-2026-03-12 16:28:08,389 - INFO - Scraping Wonder Ballroom
-2026-03-12 16:28:08,773 - INFO - Found 5 future events from Songkick
-2026-03-12 16:28:08,774 - INFO - Found 5 events
-2026-03-12 16:28:08,775 - INFO - Written to cities/portland/songkick_wonder_ballroom.ics
-2026-03-12 16:28:08,924 - INFO - Scraping Aladdin Theater
-2026-03-12 16:28:09,264 - INFO - Found 4 future events from Songkick
-2026-03-12 16:28:09,264 - INFO - Found 4 events
-2026-03-12 16:28:09,265 - INFO - Written to cities/portland/songkick_aladdin.ics
-2026-03-12 16:28:09,415 - INFO - Scraping Hawthorne Theatre
-2026-03-12 16:28:09,803 - INFO - Found 5 future events from Songkick
-2026-03-12 16:28:09,803 - INFO - Found 5 events
-2026-03-12 16:28:09,804 - INFO - Written to cities/portland/songkick_hawthorne.ics
-2026-03-12 16:28:09,950 - INFO - Scraping Arlene Schnitzer Concert Hall
-2026-03-12 16:28:10,337 - INFO - Found 5 future events from Songkick
-2026-03-12 16:28:10,337 - INFO - Found 5 events
-2026-03-12 16:28:10,338 - INFO - Written to cities/portland/songkick_schnitzer.ics
-2026-03-12 16:28:10,484 - INFO - Scraping Alberta Rose Theatre
-2026-03-12 16:28:10,650 - INFO - Found 4 future events from Songkick
-2026-03-12 16:28:10,650 - INFO - Found 4 events
-2026-03-12 16:28:10,651 - INFO - Written to cities/portland/songkick_alberta_rose.ics
-2026-03-12 16:28:10,797 - INFO - Scraping Keller Auditorium
-2026-03-12 16:28:10,968 - INFO - Found 2 future events from Songkick
-2026-03-12 16:28:10,968 - INFO - Found 2 events
-2026-03-12 16:28:10,969 - INFO - Written to cities/portland/songkick_keller.ics
-2026-03-12 16:28:45,761 - INFO - Processing meetup_active_dads.ics...
-2026-03-12 16:28:45,762 - INFO -   Fetching image for: https://www.meetup.com/portland-active-dads/events/313322113/
-2026-03-12 16:28:46,508 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/3/a/c/600_532701420.jpeg
-2026-03-12 16:28:46,509 - INFO - meetup_active_dads.ics: added 1 image(s)
-2026-03-12 16:28:46,509 - INFO - Processing meetup_art_guild.ics...
-2026-03-12 16:28:46,509 - INFO -   Fetching image for: https://www.meetup.com/portland-fine-arts-guild/events/313531878/
-2026-03-12 16:28:47,250 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/f/600_532920095.jpeg
-2026-03-12 16:28:47,251 - INFO -   Fetching image for: https://www.meetup.com/portland-fine-arts-guild/events/313620765/
-2026-03-12 16:28:47,967 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/2/7/f/600_532457023.jpeg
-2026-03-12 16:28:47,967 - INFO -   Fetching image for: https://www.meetup.com/portland-fine-arts-guild/events/313379022/
-2026-03-12 16:28:48,682 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/2/7/f/600_532457023.jpeg
-2026-03-12 16:28:48,683 - INFO - meetup_art_guild.ics: added 3 image(s)
-2026-03-12 16:28:48,683 - INFO - Processing meetup_arts_craft.ics...
-2026-03-12 16:28:48,683 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489917/
-2026-03-12 16:28:49,413 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:49,413 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313582833/
-2026-03-12 16:28:50,148 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/3/c/600_532367420.jpeg
-2026-03-12 16:28:50,148 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/312703168/
-2026-03-12 16:28:51,029 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:51,029 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489926/
-2026-03-12 16:28:51,793 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:51,793 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/312703187/
-2026-03-12 16:28:52,549 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:52,550 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489932/
-2026-03-12 16:28:55,557 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:55,557 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489933/
-2026-03-12 16:28:56,284 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:56,284 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313582847/
-2026-03-12 16:28:57,121 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/3/c/600_532367420.jpeg
-2026-03-12 16:28:57,121 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313529095/
-2026-03-12 16:28:57,872 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:57,872 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/fbvdwtyjcgbdb/
-2026-03-12 16:28:58,650 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
-2026-03-12 16:28:58,650 - INFO - meetup_arts_craft.ics: added 10 image(s)
-2026-03-12 16:28:58,650 - INFO - Processing meetup_code_for_pdx.ics...
-2026-03-12 16:28:58,650 - INFO -   Fetching image for: https://www.meetup.com/codepdx/events/313622282/
-2026-03-12 16:28:59,389 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/7/4/d/600_517915117.jpeg
-2026-03-12 16:28:59,389 - INFO - meetup_code_for_pdx.ics: added 1 image(s)
-2026-03-12 16:28:59,389 - INFO - Processing meetup_coffee_sketch.ics...
-2026-03-12 16:28:59,390 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/313479013/
-2026-03-12 16:29:00,152 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:00,152 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/313562297/
-2026-03-12 16:29:00,964 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:00,964 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/313697301/
-2026-03-12 16:29:01,766 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:01,766 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbgb/
-2026-03-12 16:29:03,158 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:03,158 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbpb/
-2026-03-12 16:29:03,890 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:03,891 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbxb/
-2026-03-12 16:29:04,662 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:04,662 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbhc/
-2026-03-12 16:29:05,403 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:05,403 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjchbdb/
-2026-03-12 16:29:06,139 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:06,140 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjchbmb/
-2026-03-12 16:29:06,867 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:06,867 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjchbvb/
-2026-03-12 16:29:07,587 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
-2026-03-12 16:29:07,588 - INFO - meetup_coffee_sketch.ics: added 10 image(s)
-2026-03-12 16:29:07,588 - INFO - Processing meetup_contra_dance.ics...
-2026-03-12 16:29:07,588 - INFO -   Fetching image for: https://www.meetup.com/meetup-group-ccddsysh/events/313547035/
-2026-03-12 16:29:08,327 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/a/e/4/600_526487844.jpeg
-2026-03-12 16:29:08,327 - INFO -   Fetching image for: https://www.meetup.com/meetup-group-ccddsysh/events/313547215/
-2026-03-12 16:29:09,233 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/f/9/600_532933561.jpeg
-2026-03-12 16:29:09,233 - INFO - meetup_contra_dance.ics: added 2 image(s)
-2026-03-12 16:29:09,233 - INFO - Processing meetup_meditation.ics...
-2026-03-12 16:29:09,234 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313458092/
-2026-03-12 16:29:09,993 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:09,993 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313458094/
-2026-03-12 16:29:10,800 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:10,800 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313458095/
-2026-03-12 16:29:11,599 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:11,599 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313362282/
-2026-03-12 16:29:12,806 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:12,806 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313689848/
-2026-03-12 16:29:13,587 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:13,588 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313737579/
-2026-03-12 16:29:14,325 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:14,325 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbfb/
-2026-03-12 16:29:15,143 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:15,144 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbjb/
-2026-03-12 16:29:15,952 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:15,952 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbnb/
-2026-03-12 16:29:16,708 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:16,708 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbrb/
-2026-03-12 16:29:17,552 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
-2026-03-12 16:29:17,552 - INFO - meetup_meditation.ics: added 10 image(s)
-2026-03-12 16:29:17,553 - INFO - Processing meetup_more_than_reading.ics...
-2026-03-12 16:29:17,553 - INFO -   Fetching image for: https://www.meetup.com/itsmorethanjustreadingbooks/events/312921267/
-2026-03-12 16:29:18,345 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/4/3/1/600_532281553.jpeg
-2026-03-12 16:29:18,345 - INFO -   Fetching image for: https://www.meetup.com/itsmorethanjustreadingbooks/events/313471442/
-2026-03-12 16:29:19,084 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/1/0/c/600_532857612.jpeg
-2026-03-12 16:29:19,084 - INFO - meetup_more_than_reading.ics: added 2 image(s)
-2026-03-12 16:29:19,084 - INFO - Processing meetup_nw_trail_runners.ics...
-2026-03-12 16:29:19,085 - INFO -   Fetching image for: https://www.meetup.com/northwest-trail-runners/events/313689618/
-2026-03-12 16:29:19,823 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/a/7/1/600_533087729.jpeg
-2026-03-12 16:29:19,824 - INFO -   Fetching image for: https://www.meetup.com/northwest-trail-runners/events/313745476/
-2026-03-12 16:29:20,625 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/8/5/8/600_533151288.jpeg
-2026-03-12 16:29:20,625 - INFO -   Fetching image for: https://www.meetup.com/northwest-trail-runners/events/313135370/
-2026-03-12 16:29:21,380 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/8/d/600_532508845.jpeg
-2026-03-12 16:29:21,380 - INFO - meetup_nw_trail_runners.ics: added 3 image(s)
-2026-03-12 16:29:21,380 - INFO - Processing meetup_padnug.ics...
-2026-03-12 16:29:21,381 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/312213858/
-2026-03-12 16:29:22,162 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:22,162 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/312214082/
-2026-03-12 16:29:24,156 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:24,157 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/313070682/
-2026-03-12 16:29:25,089 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:25,089 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/313637947/
-2026-03-12 16:29:25,854 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/a/9/a/600_533035962.jpeg
-2026-03-12 16:29:25,854 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/txfbwtyjcgbsb/
-2026-03-12 16:29:26,594 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:26,594 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/cfllmtyjcgbcc/
-2026-03-12 16:29:27,349 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:27,349 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/312930539/
-2026-03-12 16:29:28,421 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:28,422 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/zffcltyjchbhb/
-2026-03-12 16:29:29,225 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:29,226 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/txfbwtyjchbqb/
-2026-03-12 16:29:29,961 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:29,961 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/cfllmtyjchbzb/
-2026-03-12 16:29:30,784 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-2026-03-12 16:29:30,784 - INFO - meetup_padnug.ics: added 10 image(s)
-2026-03-12 16:29:30,784 - INFO - Processing meetup_paint_and_sip.ics...
-2026-03-12 16:29:30,785 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313672704/
-2026-03-12 16:29:31,542 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/e/3/4/600_533064116.jpeg
-2026-03-12 16:29:31,542 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313672982/
-2026-03-12 16:29:33,344 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/e/7/9/600_533064185.jpeg
-2026-03-12 16:29:33,344 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313573395/
-2026-03-12 16:29:34,111 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/0/6/3/600_532956963.jpeg
-2026-03-12 16:29:34,111 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313704946/
-2026-03-12 16:29:34,876 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/4/c/0/600_533109408.jpeg
-2026-03-12 16:29:34,876 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313715143/
-2026-03-12 16:29:35,775 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/4/6/7/600_533121607.jpeg
-2026-03-12 16:29:35,776 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313717410/
-2026-03-12 16:29:36,539 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/b/a/0/600_533123456.jpeg
-2026-03-12 16:29:36,540 - INFO - meetup_paint_and_sip.ics: added 6 image(s)
-2026-03-12 16:29:36,540 - INFO - Processing meetup_pdxcpp.ics...
-2026-03-12 16:29:36,541 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937491/
-2026-03-12 16:29:37,414 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:37,414 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937493/
-2026-03-12 16:29:38,319 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:38,319 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937495/
-2026-03-12 16:29:39,052 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:39,052 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937500/
-2026-03-12 16:29:39,831 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:39,831 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjckbcc/
-2026-03-12 16:29:40,655 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:40,656 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjclbxb/
-2026-03-12 16:29:41,429 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:41,429 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcmbtb/
-2026-03-12 16:29:42,282 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:42,282 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcnbbc/
-2026-03-12 16:29:43,320 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:43,320 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcpbwb/
-2026-03-12 16:29:45,115 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:45,115 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcqbtb/
-2026-03-12 16:29:45,882 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-2026-03-12 16:29:45,882 - INFO - meetup_pdxcpp.ics: added 10 image(s)
-2026-03-12 16:29:45,882 - INFO - Processing meetup_pdxgames.ics...
-2026-03-12 16:29:45,883 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457140/
-2026-03-12 16:29:46,641 - INFO -     -> https://secure.meetupstatic.com/photos/event/f/5/5/600_519903925.jpeg
-2026-03-12 16:29:46,641 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457247/
-2026-03-12 16:29:47,335 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/b/0/1/600_532063777.jpeg
-2026-03-12 16:29:47,336 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313456699/
-2026-03-12 16:29:48,113 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/d/f/2/600_519528626.jpeg
-2026-03-12 16:29:48,113 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313198924/
-2026-03-12 16:29:48,840 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/5/b/d/600_518593757.jpeg
-2026-03-12 16:29:48,841 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457101/
-2026-03-12 16:29:49,603 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/2/0/600_513263072.jpeg
-2026-03-12 16:29:49,603 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457745/
-2026-03-12 16:29:50,336 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/4/e/0/600_532145344.jpeg
-2026-03-12 16:29:50,337 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457990/
-2026-03-12 16:29:51,054 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/2/d/1/600_532217105.jpeg
-2026-03-12 16:29:51,054 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313470491/
-2026-03-12 16:29:51,752 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/c/e/8/600_531348360.jpeg
-2026-03-12 16:29:51,752 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313481725/
-2026-03-12 16:29:52,515 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/5/f/d/600_526426589.jpeg
-2026-03-12 16:29:52,515 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313481847/
-2026-03-12 16:29:53,227 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/d/e/4/600_491655844.jpeg
-2026-03-12 16:29:53,227 - INFO - meetup_pdxgames.ics: added 10 image(s)
-2026-03-12 16:29:53,227 - INFO - Processing meetup_portland_2030.ics...
-2026-03-12 16:29:53,228 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/312757943/
-2026-03-12 16:29:53,988 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
-2026-03-12 16:29:53,988 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/312757944/
-2026-03-12 16:29:54,764 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
-2026-03-12 16:29:54,765 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313192357/
-2026-03-12 16:29:55,528 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
-2026-03-12 16:29:55,528 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471682/
-2026-03-12 16:29:56,614 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
-2026-03-12 16:29:56,614 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313466799/
-2026-03-12 16:29:57,381 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/1/0/b/600_519457131.jpeg
-2026-03-12 16:29:57,382 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471683/
-2026-03-12 16:29:58,214 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
-2026-03-12 16:29:58,215 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471684/
-2026-03-12 16:29:59,181 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
-2026-03-12 16:29:59,181 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471685/
-2026-03-12 16:29:59,962 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
-2026-03-12 16:29:59,963 - INFO - meetup_portland_2030.ics: added 8 image(s)
-2026-03-12 16:29:59,963 - INFO - Processing meetup_portland_city_walking.ics...
-2026-03-12 16:29:59,963 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313449416/
-2026-03-12 16:30:00,727 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/7/e/600_529352126.jpeg
-2026-03-12 16:30:00,727 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313706684/
-2026-03-12 16:30:01,500 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/7/2/f/600_531914127.jpeg
-2026-03-12 16:30:01,500 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313069312/
-2026-03-12 16:30:02,393 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/2/a/7/600_507713927.jpeg
-2026-03-12 16:30:02,394 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313746621/
-2026-03-12 16:30:07,369 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/b/f/c/600_515723548.jpeg
-2026-03-12 16:30:07,370 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313734783/
-2026-03-12 16:30:08,142 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/a/b/2/600_532767314.jpeg
-2026-03-12 16:30:08,143 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313527283/
-2026-03-12 16:30:08,852 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/7/e/600_529352126.jpeg
-2026-03-12 16:30:08,852 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313727467/
-2026-03-12 16:30:09,894 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/5/0/f/600_533134063.jpeg
-2026-03-12 16:30:09,894 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313403966/
-2026-03-12 16:30:10,714 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/2/a/7/600_507713927.jpeg
-2026-03-12 16:30:10,715 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313721157/
-2026-03-12 16:30:11,424 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/7/2/f/600_531914127.jpeg
-2026-03-12 16:30:11,424 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313734803/
-2026-03-12 16:30:12,138 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/7/2/f/600_531914127.jpeg
-2026-03-12 16:30:12,139 - INFO - meetup_portland_city_walking.ics: added 10 image(s)
-2026-03-12 16:30:12,139 - INFO - Processing meetup_portland_code_coffee.ics...
-2026-03-12 16:30:12,139 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313453514/
-2026-03-12 16:30:12,930 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:12,931 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313331045/
-2026-03-12 16:30:13,765 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:13,765 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/312937865/
-2026-03-12 16:30:14,519 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/5/7/c/600_522305500.jpeg
-2026-03-12 16:30:14,519 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313619903/
-2026-03-12 16:30:15,506 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:15,506 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313728474/
-2026-03-12 16:30:16,239 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:16,239 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbjb/
-2026-03-12 16:30:17,030 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:17,030 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbrb/
-2026-03-12 16:30:17,823 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:17,824 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313458792/
-2026-03-12 16:30:18,662 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/5/7/c/600_522305500.jpeg
-2026-03-12 16:30:18,663 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbbc/
-2026-03-12 16:30:19,515 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:19,515 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbkc/
-2026-03-12 16:30:20,295 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
-2026-03-12 16:30:20,296 - INFO - meetup_portland_code_coffee.ics: added 10 image(s)
-2026-03-12 16:30:20,296 - INFO - Processing meetup_portland_free_community.ics...
-2026-03-12 16:30:20,297 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313485581/
-2026-03-12 16:30:21,073 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
-2026-03-12 16:30:21,074 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313492215/
-2026-03-12 16:30:21,876 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
-2026-03-12 16:30:21,876 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313596595/
-2026-03-12 16:30:22,678 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
-2026-03-12 16:30:22,678 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313602965/
-2026-03-12 16:30:23,531 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
-2026-03-12 16:30:23,531 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313706100/
-2026-03-12 16:30:24,356 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
-2026-03-12 16:30:24,356 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313712844/
-2026-03-12 16:30:25,139 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
-2026-03-12 16:30:25,139 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/pdblnsyjcgbgb/
-2026-03-12 16:30:26,096 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
-2026-03-12 16:30:26,097 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/wdblnsyjcgbhb/
-2026-03-12 16:30:27,186 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
-2026-03-12 16:30:27,187 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/pdblnsyjcgbpb/
-2026-03-12 16:30:27,954 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
-2026-03-12 16:30:27,955 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/wdblnsyjcgbqb/
-2026-03-12 16:30:28,928 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
-2026-03-12 16:30:28,929 - INFO - meetup_portland_free_community.ics: added 10 image(s)
-2026-03-12 16:30:28,929 - INFO - Processing meetup_portland_fun_run.ics...
-2026-03-12 16:30:28,930 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/313552921/
-2026-03-12 16:30:29,748 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:29,749 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/313661929/
-2026-03-12 16:30:30,496 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:30,496 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbcb/
-2026-03-12 16:30:31,246 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:31,247 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgblb/
-2026-03-12 16:30:31,982 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:31,983 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbtb/
-2026-03-12 16:30:32,726 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:32,726 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbdc/
-2026-03-12 16:30:33,435 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:33,435 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbmc/
-2026-03-12 16:30:34,641 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:34,641 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjchbjb/
-2026-03-12 16:30:35,392 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:35,392 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjchbrb/
-2026-03-12 16:30:36,116 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:36,117 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjchbbc/
-2026-03-12 16:30:37,099 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
-2026-03-12 16:30:37,100 - INFO - meetup_portland_fun_run.ics: added 10 image(s)
-2026-03-12 16:30:37,100 - INFO - Processing meetup_portland_hiking.ics...
-2026-03-12 16:30:37,101 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313694225/
-2026-03-12 16:30:38,103 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/0/7/5/600_533093365.jpeg
-2026-03-12 16:30:38,103 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/312735326/
-2026-03-12 16:30:38,885 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-2026-03-12 16:30:38,886 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313526556/
-2026-03-12 16:30:39,669 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/b/c/8/600_532916264.jpeg
-2026-03-12 16:30:39,669 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313495323/
-2026-03-12 16:30:40,235 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/7/b/600_532887515.jpeg
-2026-03-12 16:30:40,235 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313044868/
-2026-03-12 16:30:40,992 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-2026-03-12 16:30:40,992 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313044914/
-2026-03-12 16:30:41,729 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-2026-03-12 16:30:41,730 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141507/
-2026-03-12 16:30:42,462 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-2026-03-12 16:30:42,463 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141509/
-2026-03-12 16:30:43,666 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-2026-03-12 16:30:43,667 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141510/
-2026-03-12 16:30:44,413 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-2026-03-12 16:30:44,414 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141511/
-2026-03-12 16:30:45,180 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-2026-03-12 16:30:45,180 - INFO - meetup_portland_hiking.ics: added 10 image(s)
-2026-03-12 16:30:45,180 - INFO - Processing meetup_portland_outdoors.ics...
-2026-03-12 16:30:45,181 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313258408/
-2026-03-12 16:30:45,927 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:45,928 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/311399125/
-2026-03-12 16:30:46,685 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:46,685 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313258409/
-2026-03-12 16:30:47,426 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:47,427 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313667146/
-2026-03-12 16:30:48,272 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:48,272 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/311399147/
-2026-03-12 16:30:49,061 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:49,062 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313036864/
-2026-03-12 16:30:49,947 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:49,948 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313036865/
-2026-03-12 16:30:50,695 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:50,695 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/311399189/
-2026-03-12 16:30:51,468 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:51,468 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/vdtxrtyjcgbcc/
-2026-03-12 16:30:52,242 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:52,243 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/vdtxrtyjcgblc/
-2026-03-12 16:30:53,838 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
-2026-03-12 16:30:53,838 - INFO - meetup_portland_outdoors.ics: added 10 image(s)
-2026-03-12 16:30:53,838 - INFO - Processing meetup_portland_running_co.ics...
-2026-03-12 16:30:53,839 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313456327/
-2026-03-12 16:30:54,641 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/a/7/5/600_487531349.jpeg
-2026-03-12 16:30:54,641 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313492810/
-2026-03-12 16:30:55,555 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
-2026-03-12 16:30:55,555 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313516471/
-2026-03-12 16:30:56,298 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
-2026-03-12 16:30:56,298 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313517773/
-2026-03-12 16:30:57,039 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/d/c/600_510180476.jpeg
-2026-03-12 16:30:57,040 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313535162/
-2026-03-12 16:30:57,759 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
-2026-03-12 16:30:57,759 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313568367/
-2026-03-12 16:30:58,493 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/a/7/5/600_487531349.jpeg
-2026-03-12 16:30:58,493 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313604060/
-2026-03-12 16:30:59,210 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
-2026-03-12 16:30:59,210 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313458618/
-2026-03-12 16:31:00,039 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
-2026-03-12 16:31:00,039 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313628208/
-2026-03-12 16:31:00,790 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/d/c/600_510180476.jpeg
-2026-03-12 16:31:00,790 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313643992/
-2026-03-12 16:31:01,550 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
-2026-03-12 16:31:01,550 - INFO - meetup_portland_running_co.ics: added 10 image(s)
-2026-03-12 16:31:01,550 - INFO - Processing meetup_portland_trail_runners.ics...
-2026-03-12 16:31:01,551 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313591914/
-2026-03-12 16:31:02,280 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/0/f/0/600_532988432.jpeg
-2026-03-12 16:31:02,280 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313682975/
-2026-03-12 16:31:03,688 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/1/7/600_531442295.jpeg
-2026-03-12 16:31:03,688 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313518505/
-2026-03-12 16:31:04,446 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/0/c/0/600_532909344.jpeg
-2026-03-12 16:31:04,446 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313580417/
-2026-03-12 16:31:05,188 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/8/0/600_532971072.jpeg
-2026-03-12 16:31:05,188 - INFO - meetup_portland_trail_runners.ics: added 4 image(s)
-2026-03-12 16:31:05,188 - INFO - Processing meetup_silent_book_club_portland.ics...
-2026-03-12 16:31:05,188 - INFO -   Fetching image for: https://www.meetup.com/silent-book-club-portland/events/313752057/
-2026-03-12 16:31:05,906 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/0/5/e/600_533157438.jpeg
-2026-03-12 16:31:05,907 - INFO - meetup_silent_book_club_portland.ics: added 1 image(s)
-2026-03-12 16:31:05,907 - INFO - Processing meetup_silent_books_club.ics...
-2026-03-12 16:31:05,907 - INFO -   Fetching image for: https://www.meetup.com/silent-books-club/events/313737378/
-2026-03-12 16:31:06,661 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/d/9/e/600_520916734.jpeg
-2026-03-12 16:31:06,661 - INFO - meetup_silent_books_club.ics: added 1 image(s)
-2026-03-12 16:31:06,661 - INFO - Processing meetup_slowpo_runners.ics...
-2026-03-12 16:31:06,662 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/313479056/
-2026-03-12 16:31:07,402 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:07,402 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/313590195/
-2026-03-12 16:31:08,276 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:08,277 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/313697336/
-2026-03-12 16:31:08,996 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:08,996 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbgb/
-2026-03-12 16:31:09,733 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:09,734 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbpb/
-2026-03-12 16:31:10,636 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:10,636 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbxb/
-2026-03-12 16:31:11,392 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:11,392 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbhc/
-2026-03-12 16:31:12,111 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:12,111 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjchbdb/
-2026-03-12 16:31:13,607 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:13,607 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjchbmb/
-2026-03-12 16:31:14,445 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:14,446 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjchbvb/
-2026-03-12 16:31:15,242 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
-2026-03-12 16:31:15,243 - INFO - meetup_slowpo_runners.ics: added 10 image(s)
-2026-03-12 16:31:15,243 - INFO - Processing meetup_techacademy.ics...
-2026-03-12 16:31:15,243 - INFO -   Fetching image for: https://www.meetup.com/techacademy/events/313637928/
-2026-03-12 16:31:16,030 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/5/5/f/600_533121855.jpeg
-2026-03-12 16:31:16,030 - INFO -   Fetching image for: https://www.meetup.com/techacademy/events/313544163/
-2026-03-12 16:31:16,832 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/b/6/c/600_532931116.jpeg
-2026-03-12 16:31:16,833 - INFO - meetup_techacademy.ics: added 2 image(s)
-2026-03-12 16:31:16,833 - INFO - Processing meetup_womens_wanderers.ics...
-2026-03-12 16:31:16,833 - INFO -   Fetching image for: https://www.meetup.com/womens-wednesday-wanderers/events/313222187/
-2026-03-12 16:31:17,590 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/5/2/f/600_525034095.jpeg
-2026-03-12 16:31:17,590 - INFO -   Fetching image for: https://www.meetup.com/womens-wednesday-wanderers/events/313222220/
-2026-03-12 16:31:18,905 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/a/f/6/600_516351958.jpeg
-2026-03-12 16:31:18,906 - INFO - meetup_womens_wanderers.ics: added 2 image(s)
-2026-03-12 16:31:18,906 - INFO - Done. Total images added: 176
+2026-03-12 17:10:05,601 - INFO - Scraping Portland Community Events
+2026-03-12 17:10:05,601 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A329
+2026-03-12 17:10:11,284 - INFO -   Got 20 events (total: 20)
+2026-03-12 17:10:11,285 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A329
+2026-03-12 17:10:15,758 - INFO -   Got 20 events (total: 40)
+2026-03-12 17:10:15,758 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A329
+2026-03-12 17:10:18,968 - INFO -   Got 19 events (total: 59)
+2026-03-12 17:10:18,969 - INFO - Enriching up to 59 events with detail pages...
+2026-03-12 17:11:10,744 - INFO - Filtered 11 events beyond 2 months out
+2026-03-12 17:11:10,744 - INFO - Found 48 events
+2026-03-12 17:11:10,752 - INFO - Written to cities/portland/pdxgov_community.ics
+2026-03-12 17:11:10,980 - INFO - Scraping Portland Volunteer Events
+2026-03-12 17:11:10,980 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A364
+2026-03-12 17:11:14,017 - INFO -   Got 20 events (total: 20)
+2026-03-12 17:11:14,017 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A364
+2026-03-12 17:11:17,480 - INFO -   Got 20 events (total: 40)
+2026-03-12 17:11:17,480 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A364
+2026-03-12 17:11:20,360 - INFO -   Got 20 events (total: 60)
+2026-03-12 17:11:20,360 - INFO - Fetching page 3: https://www.portland.gov/events?page=3&f%5B0%5D=type%3A364
+2026-03-12 17:11:22,405 - INFO -   Got 20 events (total: 80)
+2026-03-12 17:11:22,405 - INFO - Fetching page 4: https://www.portland.gov/events?page=4&f%5B0%5D=type%3A364
+2026-03-12 17:11:25,050 - INFO -   Got 20 events (total: 100)
+2026-03-12 17:11:25,051 - INFO - Fetching page 5: https://www.portland.gov/events?page=5&f%5B0%5D=type%3A364
+2026-03-12 17:11:26,490 - INFO -   Got 4 events (total: 104)
+2026-03-12 17:11:26,490 - INFO - Enriching up to 104 events with detail pages...
+2026-03-12 17:13:06,025 - INFO - Filtered 40 events beyond 2 months out
+2026-03-12 17:13:06,025 - INFO - Found 64 events
+2026-03-12 17:13:06,036 - INFO - Written to cities/portland/pdxgov_volunteer.ics
+2026-03-12 17:13:06,262 - INFO - Scraping Portland Classes & Activities
+2026-03-12 17:13:06,262 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A583
+2026-03-12 17:13:07,876 - INFO -   Got 20 events (total: 20)
+2026-03-12 17:13:07,876 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A583
+2026-03-12 17:13:09,255 - INFO -   Got 13 events (total: 33)
+2026-03-12 17:13:09,255 - INFO - Enriching up to 33 events with detail pages...
+2026-03-12 17:13:41,995 - INFO - Filtered 15 events beyond 2 months out
+2026-03-12 17:13:41,995 - INFO - Found 18 events
+2026-03-12 17:13:41,998 - INFO - Written to cities/portland/pdxgov_classes.ics
+2026-03-12 17:13:42,219 - INFO - Scraping Portland Public Meetings
+2026-03-12 17:13:42,219 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A333
+2026-03-12 17:13:43,854 - INFO -   Got 20 events (total: 20)
+2026-03-12 17:13:43,854 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A333
+2026-03-12 17:13:45,266 - INFO -   Got 20 events (total: 40)
+2026-03-12 17:13:45,266 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A333
+2026-03-12 17:13:47,290 - INFO -   Got 20 events (total: 60)
+2026-03-12 17:13:47,290 - INFO - Fetching page 3: https://www.portland.gov/events?page=3&f%5B0%5D=type%3A333
+2026-03-12 17:13:48,783 - INFO -   Got 20 events (total: 80)
+2026-03-12 17:13:48,783 - INFO - Fetching page 4: https://www.portland.gov/events?page=4&f%5B0%5D=type%3A333
+2026-03-12 17:13:50,049 - INFO -   Got 5 events (total: 85)
+2026-03-12 17:13:50,050 - INFO - Enriching up to 85 events with detail pages...
+2026-03-12 17:15:05,469 - INFO - Filtered 47 events beyond 2 months out
+2026-03-12 17:15:05,469 - INFO - Found 38 events
+2026-03-12 17:15:05,475 - INFO - Written to cities/portland/pdxgov_public_meetings.ics
+2026-03-12 17:15:05,704 - INFO - Scraping Portland Council Meetings
+2026-03-12 17:15:05,704 - INFO - Fetching page 0: https://www.portland.gov/events?page=0&f%5B0%5D=type%3A651
+2026-03-12 17:15:07,432 - INFO -   Got 19 events (total: 19)
+2026-03-12 17:15:07,433 - INFO - Fetching page 1: https://www.portland.gov/events?page=1&f%5B0%5D=type%3A651
+2026-03-12 17:15:09,329 - INFO -   Got 20 events (total: 39)
+2026-03-12 17:15:09,329 - INFO - Fetching page 2: https://www.portland.gov/events?page=2&f%5B0%5D=type%3A651
+2026-03-12 17:15:10,885 - INFO -   Got 9 events (total: 48)
+2026-03-12 17:15:10,886 - INFO - Enriching up to 48 events with detail pages...
+2026-03-12 17:15:54,179 - INFO - Filtered 25 events beyond 2 months out
+2026-03-12 17:15:54,179 - INFO - Found 23 events
+2026-03-12 17:15:54,183 - INFO - Written to cities/portland/pdxgov_council.ics
+2026-03-12 17:15:54,412 - INFO - Scraping Multnomah County Library
+2026-03-12 17:15:54,412 - INFO - Fetching page 1/90...
+2026-03-12 17:15:54,954 - INFO -   Got 20 events (total: 20)
+2026-03-12 17:15:54,954 - INFO - Fetching page 2/90...
+2026-03-12 17:15:55,533 - INFO -   Got 20 events (total: 40)
+2026-03-12 17:15:55,533 - INFO - Fetching page 3/90...
+2026-03-12 17:15:56,006 - INFO -   Got 20 events (total: 60)
+2026-03-12 17:15:56,006 - INFO - Fetching page 4/90...
+2026-03-12 17:15:56,635 - INFO -   Got 20 events (total: 80)
+2026-03-12 17:15:56,635 - INFO - Fetching page 5/90...
+2026-03-12 17:15:57,237 - INFO -   Got 20 events (total: 100)
+2026-03-12 17:15:57,237 - INFO - Fetching page 6/90...
+2026-03-12 17:15:57,795 - INFO -   Got 20 events (total: 120)
+2026-03-12 17:15:57,795 - INFO - Fetching page 7/90...
+2026-03-12 17:15:58,537 - INFO -   Got 20 events (total: 140)
+2026-03-12 17:15:58,537 - INFO - Fetching page 8/90...
+2026-03-12 17:15:59,066 - INFO -   Got 20 events (total: 160)
+2026-03-12 17:15:59,066 - INFO - Fetching page 9/90...
+2026-03-12 17:15:59,606 - INFO -   Got 20 events (total: 180)
+2026-03-12 17:15:59,606 - INFO - Fetching page 10/90...
+2026-03-12 17:16:00,522 - INFO -   Got 20 events (total: 200)
+2026-03-12 17:16:00,523 - INFO - Fetching page 11/90...
+2026-03-12 17:16:01,382 - INFO -   Got 20 events (total: 220)
+2026-03-12 17:16:01,382 - INFO - Fetching page 12/90...
+2026-03-12 17:16:01,976 - INFO -   Got 20 events (total: 240)
+2026-03-12 17:16:01,976 - INFO - Fetching page 13/90...
+2026-03-12 17:16:02,551 - INFO -   Got 20 events (total: 260)
+2026-03-12 17:16:02,551 - INFO - Fetching page 14/90...
+2026-03-12 17:16:03,360 - INFO -   Got 20 events (total: 280)
+2026-03-12 17:16:03,360 - INFO - Fetching page 15/90...
+2026-03-12 17:16:04,071 - INFO -   Got 20 events (total: 300)
+2026-03-12 17:16:04,071 - INFO - Fetching page 16/90...
+2026-03-12 17:16:04,778 - INFO -   Got 20 events (total: 320)
+2026-03-12 17:16:04,778 - INFO - Fetching page 17/90...
+2026-03-12 17:16:05,510 - INFO -   Got 20 events (total: 340)
+2026-03-12 17:16:05,510 - INFO - Fetching page 18/90...
+2026-03-12 17:16:06,132 - INFO -   Got 20 events (total: 360)
+2026-03-12 17:16:06,132 - INFO - Fetching page 19/90...
+2026-03-12 17:16:06,831 - INFO -   Got 20 events (total: 380)
+2026-03-12 17:16:06,832 - INFO - Fetching page 20/90...
+2026-03-12 17:16:07,506 - INFO -   Got 20 events (total: 400)
+2026-03-12 17:16:07,506 - INFO - Fetching page 21/90...
+2026-03-12 17:16:08,198 - INFO -   Got 20 events (total: 420)
+2026-03-12 17:16:08,198 - INFO - Fetching page 22/90...
+2026-03-12 17:16:08,897 - INFO -   Got 20 events (total: 440)
+2026-03-12 17:16:08,897 - INFO - Fetching page 23/90...
+2026-03-12 17:16:09,589 - INFO -   Got 20 events (total: 460)
+2026-03-12 17:16:09,589 - INFO - Fetching page 24/90...
+2026-03-12 17:16:10,267 - INFO -   Got 20 events (total: 480)
+2026-03-12 17:16:10,268 - INFO - Fetching page 25/90...
+2026-03-12 17:16:11,118 - INFO -   Got 20 events (total: 500)
+2026-03-12 17:16:11,118 - INFO - Fetching page 26/90...
+2026-03-12 17:16:11,838 - INFO -   Got 20 events (total: 520)
+2026-03-12 17:16:11,838 - INFO - Fetching page 27/90...
+2026-03-12 17:16:12,639 - INFO -   Got 20 events (total: 540)
+2026-03-12 17:16:12,640 - INFO - Fetching page 28/90...
+2026-03-12 17:16:13,473 - INFO -   Got 20 events (total: 560)
+2026-03-12 17:16:13,474 - INFO - Fetching page 29/90...
+2026-03-12 17:16:14,302 - INFO -   Got 20 events (total: 580)
+2026-03-12 17:16:14,302 - INFO - Fetching page 30/90...
+2026-03-12 17:16:15,098 - INFO -   Got 20 events (total: 600)
+2026-03-12 17:16:15,098 - INFO - Fetching page 31/90...
+2026-03-12 17:16:15,839 - INFO -   Got 20 events (total: 620)
+2026-03-12 17:16:15,840 - INFO - Fetching page 32/90...
+2026-03-12 17:16:16,789 - INFO -   Got 20 events (total: 640)
+2026-03-12 17:16:16,789 - INFO - Fetching page 33/90...
+2026-03-12 17:16:17,626 - INFO -   Got 20 events (total: 660)
+2026-03-12 17:16:17,626 - INFO - Fetching page 34/90...
+2026-03-12 17:16:18,325 - INFO -   Got 20 events (total: 680)
+2026-03-12 17:16:18,325 - INFO - Fetching page 35/90...
+2026-03-12 17:16:19,173 - INFO -   Got 20 events (total: 700)
+2026-03-12 17:16:19,173 - INFO - Fetching page 36/90...
+2026-03-12 17:16:20,026 - INFO -   Got 20 events (total: 720)
+2026-03-12 17:16:20,026 - INFO - Fetching page 37/90...
+2026-03-12 17:16:20,889 - INFO -   Got 20 events (total: 740)
+2026-03-12 17:16:20,889 - INFO - Fetching page 38/90...
+2026-03-12 17:16:21,675 - INFO -   Got 20 events (total: 760)
+2026-03-12 17:16:21,675 - INFO - Fetching page 39/90...
+2026-03-12 17:16:22,287 - INFO -   Got 20 events (total: 780)
+2026-03-12 17:16:22,287 - INFO - Fetching page 40/90...
+2026-03-12 17:16:22,992 - INFO -   Got 20 events (total: 800)
+2026-03-12 17:16:22,992 - INFO - Fetching page 41/90...
+2026-03-12 17:16:23,775 - INFO -   Got 20 events (total: 820)
+2026-03-12 17:16:23,775 - INFO - Fetching page 42/90...
+2026-03-12 17:16:24,660 - INFO -   Got 20 events (total: 840)
+2026-03-12 17:16:24,660 - INFO - Fetching page 43/90...
+2026-03-12 17:16:25,613 - INFO -   Got 20 events (total: 860)
+2026-03-12 17:16:25,613 - INFO - Fetching page 44/90...
+2026-03-12 17:16:26,394 - INFO -   Got 20 events (total: 880)
+2026-03-12 17:16:26,394 - INFO - Fetching page 45/90...
+2026-03-12 17:16:27,313 - INFO -   Got 20 events (total: 900)
+2026-03-12 17:16:27,313 - INFO - Fetching page 46/90...
+2026-03-12 17:16:28,124 - INFO -   Got 20 events (total: 920)
+2026-03-12 17:16:28,124 - INFO - Fetching page 47/90...
+2026-03-12 17:16:28,723 - INFO -   Got 20 events (total: 940)
+2026-03-12 17:16:28,723 - INFO - Fetching page 48/90...
+2026-03-12 17:16:29,534 - INFO -   Got 20 events (total: 960)
+2026-03-12 17:16:29,534 - INFO - Fetching page 49/90...
+2026-03-12 17:16:30,241 - INFO -   Got 20 events (total: 980)
+2026-03-12 17:16:30,241 - INFO - Fetching page 50/90...
+2026-03-12 17:16:30,841 - INFO -   Got 20 events (total: 1000)
+2026-03-12 17:16:30,841 - INFO - Fetching page 51/90...
+2026-03-12 17:16:31,939 - INFO -   Got 20 events (total: 1020)
+2026-03-12 17:16:31,940 - INFO - Fetching page 52/90...
+2026-03-12 17:16:32,462 - INFO -   Got 20 events (total: 1040)
+2026-03-12 17:16:32,462 - INFO - Fetching page 53/90...
+2026-03-12 17:16:33,218 - INFO -   Got 20 events (total: 1060)
+2026-03-12 17:16:33,218 - INFO - Fetching page 54/90...
+2026-03-12 17:16:33,926 - INFO -   Got 20 events (total: 1080)
+2026-03-12 17:16:33,926 - INFO - Fetching page 55/90...
+2026-03-12 17:16:34,793 - INFO -   Got 20 events (total: 1100)
+2026-03-12 17:16:34,793 - INFO - Fetching page 56/90...
+2026-03-12 17:16:35,516 - INFO -   Got 20 events (total: 1120)
+2026-03-12 17:16:35,516 - INFO - Fetching page 57/90...
+2026-03-12 17:16:36,452 - INFO -   Got 20 events (total: 1140)
+2026-03-12 17:16:36,452 - INFO - Fetching page 58/90...
+2026-03-12 17:16:37,333 - INFO -   Got 20 events (total: 1160)
+2026-03-12 17:16:37,333 - INFO - Fetching page 59/90...
+2026-03-12 17:16:38,221 - INFO -   Got 20 events (total: 1180)
+2026-03-12 17:16:38,221 - INFO - Fetching page 60/90...
+2026-03-12 17:16:39,048 - INFO -   Got 20 events (total: 1200)
+2026-03-12 17:16:39,049 - INFO - Fetching page 61/90...
+2026-03-12 17:16:39,956 - INFO -   Got 20 events (total: 1220)
+2026-03-12 17:16:39,956 - INFO - Fetching page 62/90...
+2026-03-12 17:16:40,780 - INFO -   Got 20 events (total: 1240)
+2026-03-12 17:16:40,780 - INFO - Fetching page 63/90...
+2026-03-12 17:16:41,547 - INFO -   Got 20 events (total: 1260)
+2026-03-12 17:16:41,547 - INFO - Fetching page 64/90...
+2026-03-12 17:16:42,492 - INFO -   Got 20 events (total: 1280)
+2026-03-12 17:16:42,492 - INFO - Fetching page 65/90...
+2026-03-12 17:16:43,403 - INFO -   Got 20 events (total: 1300)
+2026-03-12 17:16:43,403 - INFO - Fetching page 66/90...
+2026-03-12 17:16:44,323 - INFO -   Got 20 events (total: 1320)
+2026-03-12 17:16:44,323 - INFO - Fetching page 67/90...
+2026-03-12 17:16:45,168 - INFO -   Got 20 events (total: 1340)
+2026-03-12 17:16:45,168 - INFO - Fetching page 68/90...
+2026-03-12 17:16:45,854 - INFO -   Got 20 events (total: 1360)
+2026-03-12 17:16:45,854 - INFO - Fetching page 69/90...
+2026-03-12 17:16:46,717 - INFO -   Got 20 events (total: 1380)
+2026-03-12 17:16:46,717 - INFO - Fetching page 70/90...
+2026-03-12 17:16:47,313 - INFO -   Got 20 events (total: 1400)
+2026-03-12 17:16:47,313 - INFO - Fetching page 71/90...
+2026-03-12 17:16:48,122 - INFO -   Got 20 events (total: 1420)
+2026-03-12 17:16:48,122 - INFO - Fetching page 72/90...
+2026-03-12 17:16:49,009 - INFO -   Got 20 events (total: 1440)
+2026-03-12 17:16:49,009 - INFO - Fetching page 73/90...
+2026-03-12 17:16:49,954 - INFO -   Got 20 events (total: 1460)
+2026-03-12 17:16:49,954 - INFO - Fetching page 74/90...
+2026-03-12 17:16:50,870 - INFO -   Got 20 events (total: 1480)
+2026-03-12 17:16:50,870 - INFO - Fetching page 75/90...
+2026-03-12 17:16:51,913 - INFO -   Got 20 events (total: 1500)
+2026-03-12 17:16:51,913 - INFO - Fetching page 76/90...
+2026-03-12 17:16:52,856 - INFO -   Got 20 events (total: 1520)
+2026-03-12 17:16:52,856 - INFO - Fetching page 77/90...
+2026-03-12 17:16:53,458 - INFO -   Got 20 events (total: 1540)
+2026-03-12 17:16:53,458 - INFO - Fetching page 78/90...
+2026-03-12 17:16:54,349 - INFO -   Got 20 events (total: 1560)
+2026-03-12 17:16:54,349 - INFO - Fetching page 79/90...
+2026-03-12 17:16:55,146 - INFO -   Got 20 events (total: 1580)
+2026-03-12 17:16:55,146 - INFO - Fetching page 80/90...
+2026-03-12 17:16:55,993 - INFO -   Got 20 events (total: 1600)
+2026-03-12 17:16:55,993 - INFO - Fetching page 81/90...
+2026-03-12 17:16:56,815 - INFO -   Got 20 events (total: 1620)
+2026-03-12 17:16:56,815 - INFO - Fetching page 82/90...
+2026-03-12 17:16:57,338 - INFO -   Got 20 events (total: 1640)
+2026-03-12 17:16:57,338 - INFO - Fetching page 83/90...
+2026-03-12 17:16:58,016 - INFO -   Got 20 events (total: 1660)
+2026-03-12 17:16:58,017 - INFO - Fetching page 84/90...
+2026-03-12 17:16:58,714 - INFO -   Got 20 events (total: 1680)
+2026-03-12 17:16:58,714 - INFO - Fetching page 85/90...
+2026-03-12 17:16:59,479 - INFO -   Got 20 events (total: 1700)
+2026-03-12 17:16:59,479 - INFO - Fetching page 86/90...
+2026-03-12 17:17:00,201 - INFO -   Got 20 events (total: 1720)
+2026-03-12 17:17:00,202 - INFO - Fetching page 87/90...
+2026-03-12 17:17:00,841 - INFO -   Got 20 events (total: 1740)
+2026-03-12 17:17:00,842 - INFO - Fetching page 88/90...
+2026-03-12 17:17:01,719 - INFO -   Got 20 events (total: 1760)
+2026-03-12 17:17:01,719 - INFO - Fetching page 89/90...
+2026-03-12 17:17:02,532 - INFO -   Got 20 events (total: 1780)
+2026-03-12 17:17:02,532 - INFO - Fetching page 90/90...
+2026-03-12 17:17:03,289 - INFO -   Got 15 events (total: 1795)
+2026-03-12 17:17:03,289 - INFO - Fetched 1795 events total from 90 pages
+2026-03-12 17:17:03,292 - INFO - Found 1795 events
+2026-03-12 17:17:03,651 - INFO - Written to cities/portland/multcolib.ics
+2026-03-12 17:17:03,883 - INFO - Scraping Oregon Zoo
+2026-03-12 17:17:03,883 - INFO - Fetching listing page 0: https://www.oregonzoo.org/events
+2026-03-12 17:17:04,007 - INFO -   Got 1 events (total: 1)
+2026-03-12 17:17:04,007 - INFO - Enriching 1 events from detail pages...
+2026-03-12 17:17:04,130 - INFO - Found 1 events
+2026-03-12 17:17:04,131 - INFO - Written to cities/portland/oregon_zoo.ics
+2026-03-12 17:17:04,284 - INFO - Scraping Moda Center
+2026-03-12 17:17:04,718 - INFO - Ticketmaster: 220 events across 3 pages
+2026-03-12 17:17:05,909 - INFO - Parsed 220 events for Moda Center
+2026-03-12 17:17:05,909 - INFO - Filtered 174 events beyond 2 months out
+2026-03-12 17:17:05,909 - INFO - Found 46 events
+2026-03-12 17:17:05,917 - INFO - Written to cities/portland/ticketmaster_moda_center.ics
+2026-03-12 17:17:06,064 - INFO - Scraping Veterans Memorial Coliseum
+2026-03-12 17:17:06,380 - INFO - Ticketmaster: 40 events across 1 pages
+2026-03-12 17:17:06,383 - INFO - Parsed 40 events for Veterans Memorial Coliseum
+2026-03-12 17:17:06,383 - INFO - Filtered 7 events beyond 2 months out
+2026-03-12 17:17:06,383 - INFO - Found 33 events
+2026-03-12 17:17:06,389 - INFO - Written to cities/portland/ticketmaster_veterans_coliseum.ics
+2026-03-12 17:17:06,535 - INFO - Scraping Theater of the Clouds
+2026-03-12 17:17:06,753 - INFO - Ticketmaster: 0 events across 0 pages
+2026-03-12 17:17:06,753 - INFO - Parsed 0 events for Theater of the Clouds
+2026-03-12 17:17:06,753 - INFO - Found 0 events
+2026-03-12 17:17:06,754 - INFO - Written to cities/portland/ticketmaster_theater_clouds.ics
+2026-03-12 17:17:06,995 - INFO - Scraping Trailkeepers of Oregon
+2026-03-12 17:17:10,022 - INFO - Discovered 24 event URLs from organizer page
+2026-03-12 17:17:10,022 - INFO - Fetching 24 event pages (parallel)...
+2026-03-12 17:17:10,306 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/salmon-falls-county-park-trail-party-willamette-valley-registration-1981386870467
+2026-03-12 17:17:10,321 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/gwynn-creek-trail-party-central-coast-registration-1983401853335
+2026-03-12 17:17:10,330 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tku-saw-school-chainsaw-recertification-1-day-mt-hood-registration-1982324674464
+2026-03-12 17:17:10,341 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/wahclella-trail-gorge-registration-1983993357540
+2026-03-12 17:17:10,571 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tku-saw-school-crosscut-saw-recertification-1-day-mt-hood-registration-1982198828054
+2026-03-12 17:17:10,614 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/wahclella-trail-gorge-registration-1983994492936
+2026-03-12 17:17:10,816 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/larchwahkeena-loop-gorge-registration-1983992678509
+2026-03-12 17:17:10,847 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/short-beach-railing-trail-party-north-coast-registration-1982928538638
+2026-03-12 17:17:11,098 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/salmon-falls-county-park-trail-party-willamette-valley-registration-1981386802263
+2026-03-12 17:17:11,126 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/metzler-park-trail-party-pdx-registration-1983983681599
+2026-03-12 17:17:11,379 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/short-beach-railing-trail-party-north-coast-registration-1982929688076
+2026-03-12 17:17:11,480 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/herman-creek-trail-party-gorge-registration-1984483876696
+2026-03-12 17:17:11,582 - INFO - Got 11 future events
+2026-03-12 17:17:11,582 - INFO - Found 11 events
+2026-03-12 17:17:11,584 - INFO - Written to cities/portland/eventbrite_trailkeepers.ics
+2026-03-12 17:17:11,733 - INFO - Scraping Northwest Trail Alliance
+2026-03-12 17:17:13,237 - INFO - Discovered 24 event URLs from organizer page
+2026-03-12 17:17:13,237 - INFO - Fetching 24 event pages (parallel)...
+2026-03-12 17:17:13,501 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-rocky-point-levitation-sponsored-by-metropolis-tickets-1983624887436
+2026-03-12 17:17:13,523 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-rocky-point-sad-birthday-sponsored-by-cascade-bikes-tickets-1982978231270
+2026-03-12 17:17:13,549 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/stub-trail-restoration-day-0228-tickets-1977851596367
+2026-03-12 17:17:13,551 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tsi-advanced-trail-school-trail-building-start-to-finish-tickets-1976669462573
+2026-03-12 17:17:13,802 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trail-sisters-dig-day-klootchy-creek-tickets-1980673265054
+2026-03-12 17:17:13,820 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nwta-dig-day-powell-butte-tickets-1984647914337
+2026-03-12 17:17:14,064 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/stub-trail-restoration-day-0308-tickets-1977851622445
+2026-03-12 17:17:14,071 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-sandy-ridge-little-monkey-drop-feature-and-follow-the-leader-tickets-1982749431925
+2026-03-12 17:17:14,219 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trail-work-day-sunday-march-1st-tickets-1983820147464
+2026-03-12 17:17:14,294 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-tillamook-tickets-1767200316719
+2026-03-12 17:17:14,308 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trail-sisters-bike-maintenance-clinic-metropolis-cycles-tickets-1982361547753
+2026-03-12 17:17:14,564 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dig-day-rocky-point-rollercoaster-tickets-1984395799254
+2026-03-12 17:17:14,589 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/stub-trail-restoration-day-0222-tickets-1977851512115
+2026-03-12 17:17:14,709 - INFO - Got 11 future events
+2026-03-12 17:17:14,710 - INFO - Found 11 events
+2026-03-12 17:17:14,712 - INFO - Written to cities/portland/eventbrite_nw_trail_alliance.ics
+2026-03-12 17:17:14,860 - INFO - Scraping Portland Nursery
+2026-03-12 17:17:16,389 - INFO - Discovered 16 event URLs from organizer page
+2026-03-12 17:17:16,389 - INFO - Fetching 16 event pages (parallel)...
+2026-03-12 17:17:16,670 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dry-farming-in-urban-gardens-at-stark-tickets-1981958764016
+2026-03-12 17:17:16,709 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/food-forests-at-stark-tickets-1981957251492
+2026-03-12 17:17:16,918 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rose-pruning-demo-and-pruner-sharpening-event-at-division-tickets-1981960459086
+2026-03-12 17:17:16,928 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/making-maple-syrup-from-native-big-leaf-maple-at-stark-tickets-1981960065910
+2026-03-12 17:17:16,966 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/blueberry-pruning-at-division-tickets-1981452525844
+2026-03-12 17:17:17,154 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/preparing-and-planting-your-spring-vegetable-garden-at-division-tickets-1981957855298
+2026-03-12 17:17:17,171 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/growing-asparagus-and-other-perennial-vegetables-at-stark-tickets-1981955580494
+2026-03-12 17:17:17,199 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/useful-weeds-at-division-tickets-1981959855280
+2026-03-12 17:17:17,202 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rat-prevention-and-control-at-division-tickets-1981963682728
+2026-03-12 17:17:17,395 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mason-bee-revolution-with-dave-hunter-of-crown-bees-at-stark-tickets-1981966304570
+2026-03-12 17:17:17,422 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pruning-raspberries-and-blackberries-at-stark-tickets-1981967034754
+2026-03-12 17:17:17,435 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/plan-your-tastiest-vegetable-garden-yet-at-division-tickets-1981956357819
+2026-03-12 17:17:17,436 - INFO - Got 4 future events
+2026-03-12 17:17:17,436 - INFO - Found 4 events
+2026-03-12 17:17:17,437 - INFO - Written to cities/portland/eventbrite_portland_nursery.ics
+2026-03-12 17:17:17,586 - INFO - Scraping Habitat for Humanity Portland
+2026-03-12 17:17:18,957 - INFO - Discovered 15 event URLs from organizer page
+2026-03-12 17:17:18,957 - INFO - Fetching 15 event pages (parallel)...
+2026-03-12 17:17:19,251 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/safe-financial-beginnings-1-goals-tools-tickets-1976752425718
+2026-03-12 17:17:19,254 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/protecting-your-home-essentials-of-home-insurance-tickets-1376760791589
+2026-03-12 17:17:19,417 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-winter-weatherization-tickets-1740520215819
+2026-03-12 17:17:19,461 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-estate-planning-essentials-tickets-1740350237409
+2026-03-12 17:17:19,526 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-safe-financial-beginnings-2-credit-debt-tickets-1976756817855
+2026-03-12 17:17:19,530 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/save-water-save-money-tickets-1376742346419
+2026-03-12 17:17:19,693 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/online-resource-rundown-for-homeowners-save-and-connect-tickets-1482163744659
+2026-03-12 17:17:19,779 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ready-set-winter-winter-weather-preparedness-indoor-air-quality-tickets-1740126127089
+2026-03-12 17:17:19,790 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diy-workshop-kitchen-bath-basics-tickets-1976762557021
+2026-03-12 17:17:19,811 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-money-makeover-tickets-1740566393939
+2026-03-12 17:17:19,951 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-safe-financial-beginnings-3-income-taxes-tickets-1976757447739
+2026-03-12 17:17:20,063 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-resource-rundown-for-homeowners-save-and-connect-tickets-1918827106529
+2026-03-12 17:17:20,063 - INFO - Got 3 future events
+2026-03-12 17:17:20,063 - INFO - Filtered 1 events beyond 2 months out
+2026-03-12 17:17:20,063 - INFO - Found 2 events
+2026-03-12 17:17:20,064 - INFO - Written to cities/portland/eventbrite_habitat_pdx.ics
+2026-03-12 17:17:20,210 - INFO - Scraping Portland Saturday Market
+2026-03-12 17:17:20,210 - INFO - Fetching event list from https://www.portlandsaturdaymarket.com/events
+2026-03-12 17:17:20,398 - INFO - Found 31 event URLs
+2026-03-12 17:17:20,398 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490v21rsh?format=ical
+2026-03-12 17:17:21,030 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490v21rsh-x5dnp?format=ical
+2026-03-12 17:17:21,659 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490v21rsh-x5dnp-9jsdl?format=ical
+2026-03-12 17:17:22,276 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/adaptive-mobility-demonstration-and-discussion?format=ical
+2026-03-12 17:17:22,903 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/coffee-and-color?format=ical
+2026-03-12 17:17:23,519 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/crafternoon?format=ical
+2026-03-12 17:17:24,125 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/crafternoon-pottery-palooza?format=ical
+2026-03-12 17:17:24,739 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/day-of-the-dead-celebration?format=ical
+2026-03-12 17:17:25,375 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/free-livining-museum-tours?format=ical
+2026-03-12 17:17:25,998 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/halloween-eekstravaganza?format=ical
+2026-03-12 17:17:26,616 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/helium-comedy-club?format=ical
+2026-03-12 17:17:27,223 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/helium-comedy-club-stand-up-comedy-event?format=ical
+2026-03-12 17:17:27,837 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/last-market-of-the-2025-season?format=ical
+2026-03-12 17:17:28,442 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/mini-makers-market-vendor-application?format=ical
+2026-03-12 17:17:29,058 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-ride?format=ical
+2026-03-12 17:17:29,669 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-ride-lcax6?format=ical
+2026-03-12 17:17:30,278 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-ride-lcax6-8twsx?format=ical
+2026-03-12 17:17:30,896 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/openind-day?format=ical
+2026-03-12 17:17:31,503 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/opening-day?format=ical
+2026-03-12 17:17:32,107 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/paint-sip?format=ical
+2026-03-12 17:17:32,715 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/portland-saturday-market-50-years-of-craft-and-community?format=ical
+2026-03-12 17:17:33,320 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/portland-saturday-market-doc?format=ical
+2026-03-12 17:17:33,928 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/pugapalooza?format=ical
+2026-03-12 17:17:34,543 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/put-a-bird-on-it-psm-collage-workshop?format=ical
+2026-03-12 17:17:35,156 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/quillandchill?format=ical
+2026-03-12 17:17:35,771 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-stanton-yard?format=ical
+2026-03-12 17:17:36,383 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-stanton-yard-f5b8l?format=ical
+2026-03-12 17:17:37,002 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-stanton-yard-f5b8l-m5p6c?format=ical
+2026-03-12 17:17:37,635 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/spirits-fest?format=ical
+2026-03-12 17:17:38,244 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/wc6jb8e36pkfuoacijery41tr1giu4?format=ical
+2026-03-12 17:17:38,865 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/events/wc6jb8e36pkfuoacijery41tr1giu4-32jfy?format=ical
+2026-03-12 17:17:39,477 - INFO - Found 31 events
+2026-03-12 17:17:39,481 - INFO - Written to cities/portland/saturday_market.ics
+2026-03-12 17:17:39,626 - INFO - Scraping Portland Saturday Market Stage
+2026-03-12 17:17:39,626 - INFO - Fetching event list from https://www.portlandsaturdaymarket.com/stage-performances
+2026-03-12 17:17:39,755 - INFO - Found 18 event URLs
+2026-03-12 17:17:39,755 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/acoustic-minds?format=ical
+2026-03-12 17:17:40,374 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx?format=ical
+2026-03-12 17:17:40,979 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9?format=ical
+2026-03-12 17:17:41,587 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj?format=ical
+2026-03-12 17:17:42,201 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj-ell9w?format=ical
+2026-03-12 17:17:42,808 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj-ell9w-ts562?format=ical
+2026-03-12 17:17:43,435 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/bqxyfs9nm7ufn3aq0w2v1ypwr8uqbx-2hab9-lpbpj-ell9w-ts562-rstpe?format=ical
+2026-03-12 17:17:44,050 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/charles-shaw?format=ical
+2026-03-12 17:17:44,660 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/gentle-creatures?format=ical
+2026-03-12 17:17:45,264 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/gentle-creatures-6j998?format=ical
+2026-03-12 17:17:45,880 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/gentle-creatures-6j998-ljref?format=ical
+2026-03-12 17:17:46,497 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/give-it-fm?format=ical
+2026-03-12 17:17:47,112 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/no-soap-radio?format=ical
+2026-03-12 17:17:47,717 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/pythias-braswell?format=ical
+2026-03-12 17:17:48,321 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/shoehorn?format=ical
+2026-03-12 17:17:48,929 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/sign-up-for-2025-main-stage-performances?format=ical
+2026-03-12 17:17:49,536 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/story-tune?format=ical
+2026-03-12 17:17:50,151 - INFO - Fetching iCal: https://www.portlandsaturdaymarket.com/stage-performances/traffyk-jam?format=ical
+2026-03-12 17:17:50,763 - INFO - Found 18 events
+2026-03-12 17:17:50,766 - INFO - Written to cities/portland/saturday_market_stage.ics
+2026-03-12 17:17:50,909 - INFO - Scraping Friends of Tryon Creek
+2026-03-12 17:17:50,909 - INFO - Fetching event list from https://www.tryonfriends.org/calendar
+2026-03-12 17:17:51,118 - INFO - Found 54 event URLs
+2026-03-12 17:17:51,118 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/7l3ge2rn7sg2g2yyakodib4vtnw5ng?format=ical
+2026-03-12 17:17:51,736 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/8yaqu1axmjy2i3h7rahio94dq0pipk?format=ical
+2026-03-12 17:17:52,355 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/full-moon-hike-2cxss-7mk4s?format=ical
+2026-03-12 17:17:52,976 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/full-moon-hike-2cxss-fcp79?format=ical
+2026-03-12 17:17:53,585 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/love-the-land-seed-swap?format=ical
+2026-03-12 17:17:54,197 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-educator-training-2026?format=ical
+2026-03-12 17:17:54,813 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-journaling-owls?format=ical
+2026-03-12 17:17:55,418 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-journaling-owls-p38dl?format=ical
+2026-03-12 17:17:56,025 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-journaling-owls-p38dl-4f2c4?format=ical
+2026-03-12 17:17:56,634 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/nature-walk-for-autism-community-dhtrb-lzrhl-kyyla-laz7t-necdj-n4zek-ht9g5-gk4hn-ykks5-gyzkr?format=ical
+2026-03-12 17:17:57,253 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp?format=ical
+2026-03-12 17:17:57,859 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-5t595?format=ical
+2026-03-12 17:17:58,478 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-5t595-zwyh4?format=ical
+2026-03-12 17:17:59,088 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-5t595-zwyh4-y9be5?format=ical
+2026-03-12 17:17:59,704 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-n6gfx?format=ical
+2026-03-12 17:18:00,318 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-6yhpp-n6gfx-a6crl?format=ical
+2026-03-12 17:18:00,923 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4b-f96kh-ngjds-d5y6b-gp53g?format=ical
+2026-03-12 17:18:01,531 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/owl-fest?format=ical
+2026-03-12 17:18:02,156 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id?format=ical
+2026-03-12 17:18:02,764 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3?format=ical
+2026-03-12 17:18:03,372 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw?format=ical
+2026-03-12 17:18:03,980 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw-k5wng?format=ical
+2026-03-12 17:18:04,605 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw-k5wng-n8b44?format=ical
+2026-03-12 17:18:05,213 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-8xxtw-k5wng-n8b44-4der2?format=ical
+2026-03-12 17:18:05,838 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig-id-ccss3-wwkgs?format=ical
+2026-03-12 17:18:06,457 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry?format=ical
+2026-03-12 17:18:07,078 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry-2cg3y?format=ical
+2026-03-12 17:18:07,683 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry-56r3r?format=ical
+2026-03-12 17:18:08,305 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym?format=ical
+2026-03-12 17:18:08,917 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6?format=ical
+2026-03-12 17:18:09,521 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33?format=ical
+2026-03-12 17:18:10,127 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4?format=ical
+2026-03-12 17:18:10,738 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx?format=ical
+2026-03-12 17:18:11,357 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x?format=ical
+2026-03-12 17:18:11,963 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x-kgal6?format=ical
+2026-03-12 17:18:12,582 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x-kgal6-n4hh6?format=ical
+2026-03-12 17:18:13,201 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx-2556x-kgal6-rxh4t?format=ical
+2026-03-12 17:18:13,810 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-knr4c?format=ical
+2026-03-12 17:18:14,426 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-texym-t4dwx?format=ical
+2026-03-12 17:18:15,068 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-4lzyr-wmza4?format=ical
+2026-03-12 17:18:15,673 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jheh-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-9p6sz-3b856-w4rzk-5b9la?format=ical
+2026-03-12 17:18:16,291 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls?format=ical
+2026-03-12 17:18:16,915 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls-g2at7?format=ical
+2026-03-12 17:18:17,519 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls-g2at7-ggm4b?format=ical
+2026-03-12 17:18:18,128 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/storytime-owls-ycpk2?format=ical
+2026-03-12 17:18:18,736 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/trillium-festival-2026?format=ical
+2026-03-12 17:18:19,351 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/trillium-festival-member-gathering?format=ical
+2026-03-12 17:18:19,958 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1?format=ical
+2026-03-12 17:18:20,564 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1-z5st9?format=ical
+2026-03-12 17:18:21,170 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1-z5st9-mkxfk?format=ical
+2026-03-12 17:18:21,780 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/volunteer-trail-crew-1-z5st9-mkxfk-jkzb3?format=ical
+2026-03-12 17:18:22,396 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/weaving2-sl56t-a435a?format=ical
+2026-03-12 17:18:23,012 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/weaving2-sl56t-a435a-dthyr?format=ical
+2026-03-12 17:18:23,628 - INFO - Fetching iCal: https://www.tryonfriends.org/calendar/weaving2-sl56t-a435a-dthyr-66mkw?format=ical
+2026-03-12 17:18:24,247 - INFO - Found 54 events
+2026-03-12 17:18:24,255 - INFO - Written to cities/portland/tryon_creek.ics
+2026-03-12 17:18:24,398 - INFO - Scraping Crystal Springs Rhododendron Garden
+2026-03-12 17:18:24,398 - INFO - Fetching event list from https://csrgpdx.org/event-calendar
+2026-03-12 17:18:24,554 - INFO - Found 5 event URLs
+2026-03-12 17:18:24,554 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/bird-walk-with-osu-naturalist-jasper-leiber?format=ical
+2026-03-12 17:18:25,183 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/birding-for-all-neurodivergents-family-and-friends-with-rey-snyder-bird-alliance?format=ical
+2026-03-12 17:18:25,790 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/guided-forest-therapy-with-shawna-hartung?format=ical
+2026-03-12 17:18:26,424 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/wildlife-detectives-with-zoology-teacher-anthony-aceves?format=ical
+2026-03-12 17:18:27,133 - INFO - Fetching iCal: https://csrgpdx.org/event-calendar/wildlife-walk-with-trudy-and-hilary5l9hl-eyx3k-wzz28?format=ical
+2026-03-12 17:18:27,761 - INFO - Found 5 events
+2026-03-12 17:18:27,762 - INFO - Written to cities/portland/crystal_springs.ics
+2026-03-12 17:18:27,977 - WCCLSLibraryScraper - INFO - Scraping WCCLS Libraries
+2026-03-12 17:18:45,720 - WCCLSLibraryScraper - INFO - Collected 2433 Bibliocommons events (wccls)
+2026-03-12 17:18:45,723 - WCCLSLibraryScraper - INFO - Filtered 1012 events beyond 2 months out
+2026-03-12 17:18:45,723 - WCCLSLibraryScraper - INFO - Found 1421 events
+2026-03-12 17:18:45,987 - WCCLSLibraryScraper - INFO - Written to cities/portland/wccls_library.ics
+2026-03-12 17:18:46,146 - INFO - Scraping Revolution Hall
+2026-03-12 17:18:46,206 - INFO - Found 5 future events from Songkick
+2026-03-12 17:18:46,207 - INFO - Found 5 events
+2026-03-12 17:18:46,208 - INFO - Written to cities/portland/songkick_revolution_hall.ics
+2026-03-12 17:18:46,352 - INFO - Scraping Mississippi Studios
+2026-03-12 17:18:46,393 - INFO - Found 5 future events from Songkick
+2026-03-12 17:18:46,393 - INFO - Found 5 events
+2026-03-12 17:18:46,395 - INFO - Written to cities/portland/songkick_mississippi_studios.ics
+2026-03-12 17:18:46,538 - INFO - Scraping Wonder Ballroom
+2026-03-12 17:18:46,577 - INFO - Found 5 future events from Songkick
+2026-03-12 17:18:46,577 - INFO - Found 5 events
+2026-03-12 17:18:46,578 - INFO - Written to cities/portland/songkick_wonder_ballroom.ics
+2026-03-12 17:18:46,720 - INFO - Scraping Aladdin Theater
+2026-03-12 17:18:46,762 - INFO - Found 4 future events from Songkick
+2026-03-12 17:18:46,762 - INFO - Found 4 events
+2026-03-12 17:18:46,763 - INFO - Written to cities/portland/songkick_aladdin.ics
+2026-03-12 17:18:46,906 - INFO - Scraping Hawthorne Theatre
+2026-03-12 17:18:46,950 - INFO - Found 5 future events from Songkick
+2026-03-12 17:18:46,950 - INFO - Found 5 events
+2026-03-12 17:18:46,951 - INFO - Written to cities/portland/songkick_hawthorne.ics
+2026-03-12 17:18:47,095 - INFO - Scraping Arlene Schnitzer Concert Hall
+2026-03-12 17:18:47,138 - INFO - Found 5 future events from Songkick
+2026-03-12 17:18:47,138 - INFO - Found 5 events
+2026-03-12 17:18:47,139 - INFO - Written to cities/portland/songkick_schnitzer.ics
+2026-03-12 17:18:47,283 - INFO - Scraping Alberta Rose Theatre
+2026-03-12 17:18:47,332 - INFO - Found 4 future events from Songkick
+2026-03-12 17:18:47,332 - INFO - Found 4 events
+2026-03-12 17:18:47,333 - INFO - Written to cities/portland/songkick_alberta_rose.ics
+2026-03-12 17:18:47,482 - INFO - Scraping Keller Auditorium
+2026-03-12 17:18:47,524 - INFO - Found 2 future events from Songkick
+2026-03-12 17:18:47,524 - INFO - Found 2 events
+2026-03-12 17:18:47,524 - INFO - Written to cities/portland/songkick_keller.ics
+2026-03-12 17:19:25,441 - INFO - Processing meetup_active_dads.ics...
+2026-03-12 17:19:25,442 - INFO -   Fetching image for: https://www.meetup.com/portland-active-dads/events/313322113/
+2026-03-12 17:19:26,181 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/3/a/c/600_532701420.jpeg
+2026-03-12 17:19:26,181 - INFO - meetup_active_dads.ics: added 1 image(s)
+2026-03-12 17:19:26,181 - INFO - Processing meetup_art_guild.ics...
+2026-03-12 17:19:26,182 - INFO -   Fetching image for: https://www.meetup.com/portland-fine-arts-guild/events/313531878/
+2026-03-12 17:19:26,914 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/f/600_532920095.jpeg
+2026-03-12 17:19:26,915 - INFO -   Fetching image for: https://www.meetup.com/portland-fine-arts-guild/events/313620765/
+2026-03-12 17:19:27,635 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/2/7/f/600_532457023.jpeg
+2026-03-12 17:19:27,635 - INFO -   Fetching image for: https://www.meetup.com/portland-fine-arts-guild/events/313379022/
+2026-03-12 17:19:28,367 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/2/7/f/600_532457023.jpeg
+2026-03-12 17:19:28,367 - INFO - meetup_art_guild.ics: added 3 image(s)
+2026-03-12 17:19:28,367 - INFO - Processing meetup_arts_craft.ics...
+2026-03-12 17:19:28,368 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489917/
+2026-03-12 17:19:29,107 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:29,108 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313582833/
+2026-03-12 17:19:29,856 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/3/c/600_532367420.jpeg
+2026-03-12 17:19:29,856 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/312703168/
+2026-03-12 17:19:30,675 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:30,676 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489926/
+2026-03-12 17:19:31,989 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:31,989 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/312703187/
+2026-03-12 17:19:33,018 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:33,018 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489932/
+2026-03-12 17:19:33,785 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:33,785 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313489933/
+2026-03-12 17:19:34,524 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:34,524 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313582847/
+2026-03-12 17:19:35,276 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/9/3/c/600_532367420.jpeg
+2026-03-12 17:19:35,277 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/313529095/
+2026-03-12 17:19:36,028 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:36,028 - INFO -   Fetching image for: https://www.meetup.com/portland-arts-and-craft-meetup-group/events/fbvdwtyjcgbdb/
+2026-03-12 17:19:36,772 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/8/0/600_525722432.jpeg
+2026-03-12 17:19:36,773 - INFO - meetup_arts_craft.ics: added 10 image(s)
+2026-03-12 17:19:36,773 - INFO - Processing meetup_code_for_pdx.ics...
+2026-03-12 17:19:36,773 - INFO -   Fetching image for: https://www.meetup.com/codepdx/events/313622282/
+2026-03-12 17:19:37,480 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/7/4/d/600_517915117.jpeg
+2026-03-12 17:19:37,480 - INFO - meetup_code_for_pdx.ics: added 1 image(s)
+2026-03-12 17:19:37,481 - INFO - Processing meetup_coffee_sketch.ics...
+2026-03-12 17:19:37,481 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/313479013/
+2026-03-12 17:19:38,274 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:38,275 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/313562297/
+2026-03-12 17:19:39,236 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:39,236 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/313697301/
+2026-03-12 17:19:40,203 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:40,204 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbgb/
+2026-03-12 17:19:41,000 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:41,001 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbpb/
+2026-03-12 17:19:41,971 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:41,971 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbxb/
+2026-03-12 17:19:42,859 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:42,860 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjcgbhc/
+2026-03-12 17:19:44,653 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:44,653 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjchbdb/
+2026-03-12 17:19:45,405 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:45,405 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjchbmb/
+2026-03-12 17:19:46,142 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:46,142 - INFO -   Fetching image for: https://www.meetup.com/portland-coffee-sketch-club/events/ltjnvtyjchbvb/
+2026-03-12 17:19:46,867 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/9/b/2/600_502686578.jpeg
+2026-03-12 17:19:46,867 - INFO - meetup_coffee_sketch.ics: added 10 image(s)
+2026-03-12 17:19:46,867 - INFO - Processing meetup_contra_dance.ics...
+2026-03-12 17:19:46,868 - INFO -   Fetching image for: https://www.meetup.com/meetup-group-ccddsysh/events/313547035/
+2026-03-12 17:19:47,604 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/a/e/4/600_526487844.jpeg
+2026-03-12 17:19:47,604 - INFO -   Fetching image for: https://www.meetup.com/meetup-group-ccddsysh/events/313547215/
+2026-03-12 17:19:48,328 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/4/f/9/600_532933561.jpeg
+2026-03-12 17:19:48,329 - INFO - meetup_contra_dance.ics: added 2 image(s)
+2026-03-12 17:19:48,329 - INFO - Processing meetup_meditation.ics...
+2026-03-12 17:19:48,330 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313458092/
+2026-03-12 17:19:48,887 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:48,887 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313458094/
+2026-03-12 17:19:49,642 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:49,643 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313458095/
+2026-03-12 17:19:50,428 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:50,428 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313362282/
+2026-03-12 17:19:51,204 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:51,205 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313689848/
+2026-03-12 17:19:52,074 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:52,074 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/313737579/
+2026-03-12 17:19:53,271 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:53,271 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbfb/
+2026-03-12 17:19:54,009 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:54,010 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbjb/
+2026-03-12 17:19:54,963 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:54,964 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbnb/
+2026-03-12 17:19:55,736 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:55,736 - INFO -   Fetching image for: https://www.meetup.com/decompress-connect/events/mcphvtyjcgbrb/
+2026-03-12 17:19:56,520 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/4/a/4/600_530905764.jpeg
+2026-03-12 17:19:56,521 - INFO - meetup_meditation.ics: added 10 image(s)
+2026-03-12 17:19:56,521 - INFO - Processing meetup_more_than_reading.ics...
+2026-03-12 17:19:56,521 - INFO -   Fetching image for: https://www.meetup.com/itsmorethanjustreadingbooks/events/312921267/
+2026-03-12 17:19:57,281 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/4/3/1/600_532281553.jpeg
+2026-03-12 17:19:57,281 - INFO -   Fetching image for: https://www.meetup.com/itsmorethanjustreadingbooks/events/313471442/
+2026-03-12 17:19:58,040 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/1/0/c/600_532857612.jpeg
+2026-03-12 17:19:58,040 - INFO - meetup_more_than_reading.ics: added 2 image(s)
+2026-03-12 17:19:58,040 - INFO - Processing meetup_nw_trail_runners.ics...
+2026-03-12 17:19:58,041 - INFO -   Fetching image for: https://www.meetup.com/northwest-trail-runners/events/313689618/
+2026-03-12 17:19:58,755 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/a/7/1/600_533087729.jpeg
+2026-03-12 17:19:58,755 - INFO -   Fetching image for: https://www.meetup.com/northwest-trail-runners/events/313745476/
+2026-03-12 17:19:59,491 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/8/5/8/600_533151288.jpeg
+2026-03-12 17:19:59,491 - INFO -   Fetching image for: https://www.meetup.com/northwest-trail-runners/events/313135370/
+2026-03-12 17:20:00,259 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/8/d/600_532508845.jpeg
+2026-03-12 17:20:00,259 - INFO - meetup_nw_trail_runners.ics: added 3 image(s)
+2026-03-12 17:20:00,259 - INFO - Processing meetup_padnug.ics...
+2026-03-12 17:20:00,260 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/312213858/
+2026-03-12 17:20:01,177 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:01,178 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/312214082/
+2026-03-12 17:20:01,957 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:01,957 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/313070682/
+2026-03-12 17:20:02,705 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:02,706 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/313637947/
+2026-03-12 17:20:03,414 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/a/9/a/600_533035962.jpeg
+2026-03-12 17:20:03,414 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/txfbwtyjcgbsb/
+2026-03-12 17:20:04,179 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:04,179 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/cfllmtyjcgbcc/
+2026-03-12 17:20:04,946 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:04,946 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/312930539/
+2026-03-12 17:20:06,000 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:06,000 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/zffcltyjchbhb/
+2026-03-12 17:20:06,847 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:06,847 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/txfbwtyjchbqb/
+2026-03-12 17:20:07,660 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:07,660 - INFO -   Fetching image for: https://www.meetup.com/padnug/events/cfllmtyjchbzb/
+2026-03-12 17:20:08,440 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+2026-03-12 17:20:08,441 - INFO - meetup_padnug.ics: added 10 image(s)
+2026-03-12 17:20:08,441 - INFO - Processing meetup_paint_and_sip.ics...
+2026-03-12 17:20:08,441 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313672704/
+2026-03-12 17:20:09,228 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/e/3/4/600_533064116.jpeg
+2026-03-12 17:20:09,228 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313672982/
+2026-03-12 17:20:10,215 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/e/7/9/600_533064185.jpeg
+2026-03-12 17:20:10,216 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313573395/
+2026-03-12 17:20:11,002 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/0/6/3/600_532956963.jpeg
+2026-03-12 17:20:11,002 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313704946/
+2026-03-12 17:20:11,782 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/4/c/0/600_533109408.jpeg
+2026-03-12 17:20:11,783 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313715143/
+2026-03-12 17:20:12,517 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/4/6/7/600_533121607.jpeg
+2026-03-12 17:20:12,517 - INFO -   Fetching image for: https://www.meetup.com/pop-up-paint-and-sip/events/313717410/
+2026-03-12 17:20:13,918 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/b/a/0/600_533123456.jpeg
+2026-03-12 17:20:13,919 - INFO - meetup_paint_and_sip.ics: added 6 image(s)
+2026-03-12 17:20:13,919 - INFO - Processing meetup_pdxcpp.ics...
+2026-03-12 17:20:13,920 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937491/
+2026-03-12 17:20:14,656 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:14,656 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937493/
+2026-03-12 17:20:15,413 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:15,413 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937495/
+2026-03-12 17:20:16,185 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:16,185 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/312937500/
+2026-03-12 17:20:16,914 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:16,914 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjckbcc/
+2026-03-12 17:20:17,745 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:17,745 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjclbxb/
+2026-03-12 17:20:18,472 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:18,473 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcmbtb/
+2026-03-12 17:20:19,231 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:19,231 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcnbbc/
+2026-03-12 17:20:19,990 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:19,990 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcpbwb/
+2026-03-12 17:20:20,726 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:20,726 - INFO -   Fetching image for: https://www.meetup.com/pdxcpp/events/fvprbtyjcqbtb/
+2026-03-12 17:20:21,479 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+2026-03-12 17:20:21,480 - INFO - meetup_pdxcpp.ics: added 10 image(s)
+2026-03-12 17:20:21,480 - INFO - Processing meetup_pdxgames.ics...
+2026-03-12 17:20:21,481 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457140/
+2026-03-12 17:20:22,323 - INFO -     -> https://secure.meetupstatic.com/photos/event/f/5/5/600_519903925.jpeg
+2026-03-12 17:20:22,323 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457247/
+2026-03-12 17:20:23,074 - INFO -     -> https://secure.meetupstatic.com/photos/event/a/b/0/1/600_532063777.jpeg
+2026-03-12 17:20:23,074 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313456699/
+2026-03-12 17:20:23,787 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/d/f/2/600_519528626.jpeg
+2026-03-12 17:20:23,788 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313198924/
+2026-03-12 17:20:26,747 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/5/b/d/600_518593757.jpeg
+2026-03-12 17:20:26,747 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457101/
+2026-03-12 17:20:27,434 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/2/0/600_513263072.jpeg
+2026-03-12 17:20:27,434 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457745/
+2026-03-12 17:20:28,146 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/4/e/0/600_532145344.jpeg
+2026-03-12 17:20:28,147 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313457990/
+2026-03-12 17:20:28,992 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/2/d/1/600_532217105.jpeg
+2026-03-12 17:20:28,993 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313470491/
+2026-03-12 17:20:29,747 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/c/e/8/600_531348360.jpeg
+2026-03-12 17:20:29,747 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313481725/
+2026-03-12 17:20:30,460 - INFO -     -> https://secure.meetupstatic.com/photos/event/b/5/f/d/600_526426589.jpeg
+2026-03-12 17:20:30,460 - INFO -   Fetching image for: https://www.meetup.com/pdxgames/events/313481847/
+2026-03-12 17:20:31,191 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/d/e/4/600_491655844.jpeg
+2026-03-12 17:20:31,192 - INFO - meetup_pdxgames.ics: added 10 image(s)
+2026-03-12 17:20:31,192 - INFO - Processing meetup_portland_2030.ics...
+2026-03-12 17:20:31,193 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/312757943/
+2026-03-12 17:20:31,966 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
+2026-03-12 17:20:31,967 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/312757944/
+2026-03-12 17:20:32,930 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
+2026-03-12 17:20:32,931 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313192357/
+2026-03-12 17:20:33,746 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
+2026-03-12 17:20:33,746 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471682/
+2026-03-12 17:20:34,584 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
+2026-03-12 17:20:34,584 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313466799/
+2026-03-12 17:20:35,401 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/1/0/b/600_519457131.jpeg
+2026-03-12 17:20:35,401 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471683/
+2026-03-12 17:20:36,211 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
+2026-03-12 17:20:36,212 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471684/
+2026-03-12 17:20:37,100 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
+2026-03-12 17:20:37,100 - INFO -   Fetching image for: https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/313471685/
+2026-03-12 17:20:37,927 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/8/f/600_531807535.jpeg
+2026-03-12 17:20:37,928 - INFO - meetup_portland_2030.ics: added 8 image(s)
+2026-03-12 17:20:37,928 - INFO - Processing meetup_portland_city_walking.ics...
+2026-03-12 17:20:37,928 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313449416/
+2026-03-12 17:20:38,705 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/7/e/600_529352126.jpeg
+2026-03-12 17:20:38,706 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313706684/
+2026-03-12 17:20:39,475 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/7/2/f/600_531914127.jpeg
+2026-03-12 17:20:39,475 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313069312/
+2026-03-12 17:20:40,230 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/2/a/7/600_507713927.jpeg
+2026-03-12 17:20:40,231 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313746621/
+2026-03-12 17:20:40,950 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/b/f/c/600_515723548.jpeg
+2026-03-12 17:20:40,951 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313734783/
+2026-03-12 17:20:41,751 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/a/b/2/600_532767314.jpeg
+2026-03-12 17:20:41,752 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313527283/
+2026-03-12 17:20:43,241 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/7/e/600_529352126.jpeg
+2026-03-12 17:20:43,241 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313727467/
+2026-03-12 17:20:43,964 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/5/0/f/600_533134063.jpeg
+2026-03-12 17:20:43,964 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313403966/
+2026-03-12 17:20:44,737 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/2/a/7/600_507713927.jpeg
+2026-03-12 17:20:44,737 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313721157/
+2026-03-12 17:20:45,798 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/7/2/f/600_531914127.jpeg
+2026-03-12 17:20:45,799 - INFO -   Fetching image for: https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313734803/
+2026-03-12 17:20:46,567 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/7/2/f/600_531914127.jpeg
+2026-03-12 17:20:46,567 - INFO - meetup_portland_city_walking.ics: added 10 image(s)
+2026-03-12 17:20:46,567 - INFO - Processing meetup_portland_code_coffee.ics...
+2026-03-12 17:20:46,568 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313453514/
+2026-03-12 17:20:47,359 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:47,359 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313331045/
+2026-03-12 17:20:48,213 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:48,214 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/312937865/
+2026-03-12 17:20:48,952 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/5/7/c/600_522305500.jpeg
+2026-03-12 17:20:48,952 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313619903/
+2026-03-12 17:20:49,669 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:49,670 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313728474/
+2026-03-12 17:20:50,497 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:50,497 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbjb/
+2026-03-12 17:20:51,265 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:51,266 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbrb/
+2026-03-12 17:20:52,034 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:52,034 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/313458792/
+2026-03-12 17:20:52,774 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/5/7/c/600_522305500.jpeg
+2026-03-12 17:20:52,775 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbbc/
+2026-03-12 17:20:53,666 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:53,667 - INFO -   Fetching image for: https://www.meetup.com/portland-code-coffee/events/lxkgwtyjcgbkc/
+2026-03-12 17:20:55,315 - INFO -     -> https://secure.meetupstatic.com/photos/event/9/6/0/a/600_524858410.jpeg
+2026-03-12 17:20:55,315 - INFO - meetup_portland_code_coffee.ics: added 10 image(s)
+2026-03-12 17:20:55,315 - INFO - Processing meetup_portland_free_community.ics...
+2026-03-12 17:20:55,316 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313485581/
+2026-03-12 17:20:56,177 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
+2026-03-12 17:20:56,177 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313492215/
+2026-03-12 17:20:57,099 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
+2026-03-12 17:20:57,099 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313596595/
+2026-03-12 17:20:58,596 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
+2026-03-12 17:20:58,596 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313602965/
+2026-03-12 17:20:59,341 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
+2026-03-12 17:20:59,341 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313706100/
+2026-03-12 17:21:00,165 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
+2026-03-12 17:21:00,165 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/313712844/
+2026-03-12 17:21:01,009 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
+2026-03-12 17:21:01,010 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/pdblnsyjcgbgb/
+2026-03-12 17:21:02,055 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
+2026-03-12 17:21:02,056 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/wdblnsyjcgbhb/
+2026-03-12 17:21:03,339 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
+2026-03-12 17:21:03,340 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/pdblnsyjcgbpb/
+2026-03-12 17:21:04,253 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/3/600_498012659.jpeg
+2026-03-12 17:21:04,254 - INFO -   Fetching image for: https://www.meetup.com/portlandfreecomunity/events/wdblnsyjcgbqb/
+2026-03-12 17:21:05,450 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/f/600_498012671.jpeg
+2026-03-12 17:21:05,451 - INFO - meetup_portland_free_community.ics: added 10 image(s)
+2026-03-12 17:21:05,451 - INFO - Processing meetup_portland_fun_run.ics...
+2026-03-12 17:21:05,452 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/313552921/
+2026-03-12 17:21:06,185 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:06,186 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/313661929/
+2026-03-12 17:21:06,929 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:06,930 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbcb/
+2026-03-12 17:21:07,828 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:07,829 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgblb/
+2026-03-12 17:21:08,615 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:08,615 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbtb/
+2026-03-12 17:21:09,917 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:09,917 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbdc/
+2026-03-12 17:21:10,720 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:10,720 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjcgbmc/
+2026-03-12 17:21:11,456 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:11,456 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjchbjb/
+2026-03-12 17:21:12,200 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:12,201 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjchbrb/
+2026-03-12 17:21:12,997 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:12,997 - INFO -   Fetching image for: https://www.meetup.com/portland-fun-run/events/wxqxvtyjchbbc/
+2026-03-12 17:21:13,860 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/a/6/1/600_503363137.jpeg
+2026-03-12 17:21:13,860 - INFO - meetup_portland_fun_run.ics: added 10 image(s)
+2026-03-12 17:21:13,860 - INFO - Processing meetup_portland_hiking.ics...
+2026-03-12 17:21:13,861 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313694225/
+2026-03-12 17:21:14,575 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/0/7/5/600_533093365.jpeg
+2026-03-12 17:21:14,576 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/312735326/
+2026-03-12 17:21:15,569 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+2026-03-12 17:21:15,569 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313526556/
+2026-03-12 17:21:16,304 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/b/c/8/600_532916264.jpeg
+2026-03-12 17:21:16,304 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313495323/
+2026-03-12 17:21:17,054 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/b/7/b/600_532887515.jpeg
+2026-03-12 17:21:17,054 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313044868/
+2026-03-12 17:21:17,798 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+2026-03-12 17:21:17,799 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313044914/
+2026-03-12 17:21:18,614 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+2026-03-12 17:21:18,615 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141507/
+2026-03-12 17:21:19,926 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+2026-03-12 17:21:19,926 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141509/
+2026-03-12 17:21:21,732 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+2026-03-12 17:21:21,732 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141510/
+2026-03-12 17:21:22,448 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+2026-03-12 17:21:22,448 - INFO -   Fetching image for: https://www.meetup.com/the-portland-hiking-meetup-group/events/313141511/
+2026-03-12 17:21:23,171 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+2026-03-12 17:21:23,171 - INFO - meetup_portland_hiking.ics: added 10 image(s)
+2026-03-12 17:21:23,171 - INFO - Processing meetup_portland_outdoors.ics...
+2026-03-12 17:21:23,172 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313258408/
+2026-03-12 17:21:24,011 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:24,011 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/311399125/
+2026-03-12 17:21:24,747 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:24,748 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313258409/
+2026-03-12 17:21:25,514 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:25,514 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313667146/
+2026-03-12 17:21:26,264 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:26,265 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/311399147/
+2026-03-12 17:21:27,037 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:27,038 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313036864/
+2026-03-12 17:21:27,784 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:27,785 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/313036865/
+2026-03-12 17:21:28,640 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:28,640 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/311399189/
+2026-03-12 17:21:29,540 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:29,541 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/vdtxrtyjcgbcc/
+2026-03-12 17:21:30,280 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:30,280 - INFO -   Fetching image for: https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/vdtxrtyjcgblc/
+2026-03-12 17:21:31,062 - INFO -     -> https://secure.meetupstatic.com/photos/event/6/2/7/0/600_523105200.jpeg
+2026-03-12 17:21:31,062 - INFO - meetup_portland_outdoors.ics: added 10 image(s)
+2026-03-12 17:21:31,062 - INFO - Processing meetup_portland_running_co.ics...
+2026-03-12 17:21:31,063 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313456327/
+2026-03-12 17:21:31,840 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/a/7/5/600_487531349.jpeg
+2026-03-12 17:21:31,841 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313492810/
+2026-03-12 17:21:32,556 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
+2026-03-12 17:21:32,556 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313516471/
+2026-03-12 17:21:33,352 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
+2026-03-12 17:21:33,352 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313517773/
+2026-03-12 17:21:34,126 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/d/c/600_510180476.jpeg
+2026-03-12 17:21:34,126 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313535162/
+2026-03-12 17:21:34,969 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
+2026-03-12 17:21:34,969 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313568367/
+2026-03-12 17:21:35,772 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/a/7/5/600_487531349.jpeg
+2026-03-12 17:21:35,773 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313604060/
+2026-03-12 17:21:36,692 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
+2026-03-12 17:21:36,692 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313458618/
+2026-03-12 17:21:37,536 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
+2026-03-12 17:21:37,536 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313628208/
+2026-03-12 17:21:38,836 - INFO -     -> https://secure.meetupstatic.com/photos/event/1/d/c/600_510180476.jpeg
+2026-03-12 17:21:38,836 - INFO -   Fetching image for: https://www.meetup.com/portland-running-co-weekly-group-runs/events/313643992/
+2026-03-12 17:21:39,861 - INFO -     -> https://secure.meetupstatic.com/photos/event/4/a/7/7/600_459139063.jpeg
+2026-03-12 17:21:39,861 - INFO - meetup_portland_running_co.ics: added 10 image(s)
+2026-03-12 17:21:39,862 - INFO - Processing meetup_portland_trail_runners.ics...
+2026-03-12 17:21:39,862 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313591914/
+2026-03-12 17:21:40,714 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/0/f/0/600_532988432.jpeg
+2026-03-12 17:21:40,715 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313682975/
+2026-03-12 17:21:41,600 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/7/1/7/600_531442295.jpeg
+2026-03-12 17:21:41,601 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313518505/
+2026-03-12 17:21:42,342 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/0/c/0/600_532909344.jpeg
+2026-03-12 17:21:42,342 - INFO -   Fetching image for: https://www.meetup.com/portland-trail-runners-group/events/313580417/
+2026-03-12 17:21:43,081 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/7/8/0/600_532971072.jpeg
+2026-03-12 17:21:43,082 - INFO - meetup_portland_trail_runners.ics: added 4 image(s)
+2026-03-12 17:21:43,082 - INFO - Processing meetup_silent_book_club_portland.ics...
+2026-03-12 17:21:43,083 - INFO -   Fetching image for: https://www.meetup.com/silent-book-club-portland/events/313752057/
+2026-03-12 17:21:43,802 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/0/5/e/600_533157438.jpeg
+2026-03-12 17:21:43,803 - INFO - meetup_silent_book_club_portland.ics: added 1 image(s)
+2026-03-12 17:21:43,803 - INFO - Processing meetup_silent_books_club.ics...
+2026-03-12 17:21:43,803 - INFO -   Fetching image for: https://www.meetup.com/silent-books-club/events/313737378/
+2026-03-12 17:21:45,407 - INFO -     -> https://secure.meetupstatic.com/photos/event/d/d/9/e/600_520916734.jpeg
+2026-03-12 17:21:45,407 - INFO - meetup_silent_books_club.ics: added 1 image(s)
+2026-03-12 17:21:45,407 - INFO - Processing meetup_slowpo_runners.ics...
+2026-03-12 17:21:45,408 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/313479056/
+2026-03-12 17:21:46,163 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:46,164 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/313590195/
+2026-03-12 17:21:46,943 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:46,944 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/313697336/
+2026-03-12 17:21:47,768 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:47,769 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbgb/
+2026-03-12 17:21:48,517 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:48,517 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbpb/
+2026-03-12 17:21:49,308 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:49,308 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbxb/
+2026-03-12 17:21:50,080 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:50,080 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjcgbhc/
+2026-03-12 17:21:50,822 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:50,822 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjchbdb/
+2026-03-12 17:21:51,908 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:51,908 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjchbmb/
+2026-03-12 17:21:52,638 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:52,638 - INFO -   Fetching image for: https://www.meetup.com/slowpo-runners/events/jdwfgtyjchbvb/
+2026-03-12 17:21:53,447 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/2/a/5/600_483428869.jpeg
+2026-03-12 17:21:53,447 - INFO - meetup_slowpo_runners.ics: added 10 image(s)
+2026-03-12 17:21:53,448 - INFO - Processing meetup_techacademy.ics...
+2026-03-12 17:21:53,448 - INFO -   Fetching image for: https://www.meetup.com/techacademy/events/313637928/
+2026-03-12 17:21:54,558 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/5/5/f/600_533121855.jpeg
+2026-03-12 17:21:54,558 - INFO -   Fetching image for: https://www.meetup.com/techacademy/events/313544163/
+2026-03-12 17:21:55,331 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/b/6/c/600_532931116.jpeg
+2026-03-12 17:21:55,332 - INFO - meetup_techacademy.ics: added 2 image(s)
+2026-03-12 17:21:55,332 - INFO - Processing meetup_womens_wanderers.ics...
+2026-03-12 17:21:55,332 - INFO -   Fetching image for: https://www.meetup.com/womens-wednesday-wanderers/events/313222187/
+2026-03-12 17:21:56,090 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/5/2/f/600_525034095.jpeg
+2026-03-12 17:21:56,090 - INFO -   Fetching image for: https://www.meetup.com/womens-wednesday-wanderers/events/313222220/
+2026-03-12 17:21:56,821 - INFO -     -> https://secure.meetupstatic.com/photos/event/c/a/f/6/600_516351958.jpeg
+2026-03-12 17:21:56,822 - INFO - meetup_womens_wanderers.ics: added 2 image(s)
+2026-03-12 17:21:56,822 - INFO - Done. Total images added: 176

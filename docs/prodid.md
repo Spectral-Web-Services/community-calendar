@@ -9,8 +9,8 @@ used across all city feeds, identified by their PRODID header.
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, davis, evanston, jweekly, montclair, petaluma, portland, raleighdurham, roanoke, santarosa, toronto | 167 |
 | **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, davis, evanston, jweekly, matsu, montclair, petaluma, portland, raleighdurham, roanoke, santarosa, toronto | 86 |
+| **Google Calendar** | Public Google Calendar ICS export. | bloomington, davis, jweekly, montclair, petaluma, portland, raleighdurham, roanoke, santarosa, toronto | 53 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, evanston, matsu, montclair, raleighdurham, roanoke, santarosa | 53 |
-| **Google Calendar** | Public Google Calendar ICS export. | bloomington, davis, jweekly, montclair, petaluma, portland, raleighdurham, roanoke, santarosa, toronto | 51 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland, raleighdurham | 24 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, petaluma, portland, santarosa, toronto | 10 |
 | **MaxPreps** | High school sports schedules. | montclair, petaluma, santarosa | 10 |
@@ -78,6 +78,30 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **toronto** (23): bata_shoe_museum, bloor_west_village, boulderzclimbing, culturelink, factory_theatre, gardiner_museum, golatindance, grossmans_tavern, indigenous, jazz_bistro, knitters_guild, now_toronto, ontario_historical_society, ontario_nature, site3, sunshinecentres, textile_museum, toronto_botanical, union_station, uoft_engineering, uoft_indigenous, uoft_philosophy, uoft_socialwork
 
+### Google Calendar (53 feeds)
+
+Public Google Calendar ICS export.
+
+**bloomington** (16): bloominglabs, bloomington_gov, bsquare_bptc, bsquare_critical_mass, bsquare_government, bsquare_misc_civic, btonline_events, btonline_food, btonline_shopping, calendar_bloomington_in_gov_c657mi332p5sjpq2lcht9i, calendar_cuc66guoam1hhcqq2rnaniinl8_40group_calend, calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend, calendar_shweekend_40gmail_com_public, city_boards_commissions, farmers_market, parks_and_rec
+
+**davis** (1): davis_bike_club
+
+**jweekly** (4): beth_sholom, ptbe_community, ptbe_education, ptbe_worship
+
+**montclair** (2): fcc_montclair, uu_montclair
+
+**petaluma** (3): brooksnote, elks_lodge, garden_club
+
+**portland** (5): friends_of_trees_green_space, friends_of_trees_neighborhood, portland_public_schools, portland_thorns, portland_timbers
+
+**raleighdurham** (16): bike_durham, calendar_c_dl4511hfnoong3b3171k6smt74_40group_cale, calendar_c_j40ldpocctr71k99n0n2lr9c14_40group_cale, calendar_cb2ajgfjpk6bf9gifg6kg2hn1s_40group_calend, calendar_lgbtqcenterofdurham_org_qb71v8n48d0a304sq, durham_resistance_1, durham_resistance_2, durham_resistance_3, durham_resistance_4, eno_river, gizmo_brew_works, lgbtq_center_durham, new_hope_bird_alliance, sw_durham_rotary, triangle_cycling, wake_audubon
+
+**roanoke** (1): berglund_center
+
+**santarosa** (2): arlene_francis_theater, sonoma_county_dsa
+
+**toronto** (3): cita_local_events, cita_seminars, cita_special_events
+
 ### CivicPlus (ical.net) (53 feeds)
 
 Government CMS using ical.net library. Common for city/county websites.
@@ -95,30 +119,6 @@ Government CMS using ical.net library. Common for city/county websites.
 **roanoke** (9): roanoke_boards_commissions, roanoke_city_council, roanoke_neighborhood_events, roanoke_public_events, roanoke_special_events, salem_civic_center, salem_government_meetings, salem_main_calendar, salem_parks_rec
 
 **santarosa** (32): SRCity_Art_in_Public_Places_Committee, SRCity_Board_of_Building_Regulation_Appeals, SRCity_COVID-19_Business_Webinars, SRCity_Charter_Review_Committee, SRCity_CityBus, SRCity_City_Council, SRCity_City_Offices_Closed, SRCity_Climate_Action_Subcommittee, SRCity_Community_Advisory_Board, SRCity_Community_Calendar, SRCity_Creek_Stewardship, SRCity_Cultural_Heritage_Board, SRCity_Design_Review_Board, SRCity_Downtown_Subcommittee, SRCity_Economic_Development_Subcommittee, SRCity_Events, SRCity_HCS_and_Code, SRCity_Main_Calendar, SRCity_Neighborhood_Meetings, SRCity_Parking, SRCity_Planning_Commission, SRCity_Planning_and_Economic_Development, SRCity_Police, SRCity_Public_Works, SRCity_Recreation_and_Parks, SRCity_Santa_Rosa_Water, SRCity_Subdivision_Committee, SRCity_Tourism_Business_Improvement_Area_Advisory_Board, SRCity_Transportation_and_Public_Works, SRCity_Waterways_Advisory_Committee, SRCity_Wildfire_Ready, SRCity_Zoning_Administrator
-
-### Google Calendar (51 feeds)
-
-Public Google Calendar ICS export.
-
-**bloomington** (16): bloominglabs, bloomington_gov, bsquare_bptc, bsquare_critical_mass, bsquare_government, bsquare_misc_civic, btonline_events, btonline_food, btonline_shopping, calendar_bloomington_in_gov_c657mi332p5sjpq2lcht9i, calendar_cuc66guoam1hhcqq2rnaniinl8_40group_calend, calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend, calendar_shweekend_40gmail_com_public, city_boards_commissions, farmers_market, parks_and_rec
-
-**davis** (1): davis_bike_club
-
-**jweekly** (4): beth_sholom, ptbe_community, ptbe_education, ptbe_worship
-
-**montclair** (2): fcc_montclair, uu_montclair
-
-**petaluma** (3): brooksnote, elks_lodge, garden_club
-
-**portland** (3): portland_public_schools, portland_thorns, portland_timbers
-
-**raleighdurham** (16): bike_durham, calendar_c_dl4511hfnoong3b3171k6smt74_40group_cale, calendar_c_j40ldpocctr71k99n0n2lr9c14_40group_cale, calendar_cb2ajgfjpk6bf9gifg6kg2hn1s_40group_calend, calendar_lgbtqcenterofdurham_org_qb71v8n48d0a304sq, durham_resistance_1, durham_resistance_2, durham_resistance_3, durham_resistance_4, eno_river, gizmo_brew_works, lgbtq_center_durham, new_hope_bird_alliance, sw_durham_rotary, triangle_cycling, wake_audubon
-
-**roanoke** (1): berglund_center
-
-**santarosa** (2): arlene_francis_theater, sonoma_county_dsa
-
-**toronto** (3): cita_local_events, cita_seminars, cita_special_events
 
 ### Localist (24 feeds)
 
