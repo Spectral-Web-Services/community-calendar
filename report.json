@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T19:34:23.337436",
+  "generated": "2026-03-12T19:37:48.003112",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -41569,12 +41569,12 @@
       },
       "categories": [
         {
-          "category": "Dance / Performance",
-          "count": 72
+          "category": "Arts / Culture",
+          "count": 122
         },
         {
-          "category": "Arts / Culture",
-          "count": 35
+          "category": "Dance / Performance",
+          "count": 120
         },
         {
           "category": "Family / Kids",
@@ -41589,6 +41589,10 @@
           "count": 2
         },
         {
+          "category": "Comedy / Improv",
+          "count": 2
+        },
+        {
           "category": "Film / Cinema",
           "count": 1
         },
@@ -41598,9 +41602,14 @@
         }
       ],
       "images": {
-        "total": 130,
-        "with_image": 4,
+        "total": 267,
+        "with_image": 141,
         "by_source": [
+          {
+            "source": "Boston Theatre Scene",
+            "total": 137,
+            "with_image": 137
+          },
           {
             "source": "Tufts Tdps",
             "total": 9,
@@ -41609,9 +41618,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 124,
-        "total_events": 130,
-        "unique_urls": 43,
+        "total_with_url": 261,
+        "total_events": 267,
+        "unique_urls": 59,
         "generic_count": 16,
         "generic_domains": [
           {
@@ -41623,6 +41632,12 @@
         "http_count": 4,
         "http_domains": 1,
         "source_specificity": [
+          {
+            "source": "Boston Theatre Scene",
+            "events": 137,
+            "unique_urls": 16,
+            "specificity_pct": 12
+          },
           {
             "source": "Central Square Theater",
             "events": 38,
