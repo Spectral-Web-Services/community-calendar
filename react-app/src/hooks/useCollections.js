@@ -198,5 +198,15 @@ export function useCollections() {
     return { active: Array.isArray(data) ? data : [], excluded: [] };
   }, [headers, collections]);
 
-  return { collections, membershipMap, createCollection, renameCollection, deleteCollection, addEventToCollection, removeEventFromCollection, restoreExcludedEvent, getCollectionEvents, refresh };
+  const updateAllowedDomains = useCallback(async (collectionId, domains) => {
+    const h = headers();
+    if (!h) return;
+    await fetch(`${SUPABASE_URL}/rest/v1/collections?id=eq.${collectionId}`, {
+      method: 'PATCH', headers: h,
+      body: JSON.stringify({ allowed_domains: domains }),
+    });
+    refresh();
+  }, [headers, refresh]);
+
+  return { collections, membershipMap, createCollection, renameCollection, deleteCollection, addEventToCollection, removeEventFromCollection, restoreExcludedEvent, getCollectionEvents, updateAllowedDomains, refresh };
 }

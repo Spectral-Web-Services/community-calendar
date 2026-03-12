@@ -19,6 +19,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   const {
     collections, createCollection, renameCollection, deleteCollection,
     getCollectionEvents, removeEventFromCollection, restoreExcludedEvent,
+    updateAllowedDomains,
   } = useCollections();
   const { city } = usePicks();
 
@@ -35,6 +36,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   const [embedId, setEmbedId] = useState(null);
   const [renamingId, setRenamingId] = useState(null);
   const [renameValue, setRenameValue] = useState('');
+  const [domainInput, setDomainInput] = useState('');
   const renameRef = useRef(null);
 
   // Fetch distinct sources when type is 'auto'
@@ -375,6 +377,58 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                   <p className="text-[10px] text-gray-400 mt-0.5">
                     Styles: classic, accent, magazine, compact, modern, overlay, alwaysimage, minimal, split, splitimage, polaroid, ticket, list, grid, gridcompact, gridtile
                   </p>
+
+                  {/* Domain allowlist */}
+                  <div className="mt-3 pt-2 border-t border-gray-100">
+                    <p className="text-[10px] font-medium text-gray-500 mb-1">Allowed domains</p>
+                    <div className="flex gap-1.5 mb-1.5">
+                      <input
+                        type="text"
+                        value={domainInput}
+                        onChange={e => setDomainInput(e.target.value)}
+                        onKeyDown={e => {
+                          if (e.key === 'Enter') {
+                            const d = domainInput.trim().toLowerCase();
+                            if (d && !(col.allowed_domains || []).includes(d)) {
+                              updateAllowedDomains(col.id, [...(col.allowed_domains || []), d]);
+                            }
+                            setDomainInput('');
+                          }
+                        }}
+                        placeholder="e.g. mysite.com"
+                        className="flex-1 px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400"
+                      />
+                      <button
+                        onClick={() => {
+                          const d = domainInput.trim().toLowerCase();
+                          if (d && !(col.allowed_domains || []).includes(d)) {
+                            updateAllowedDomains(col.id, [...(col.allowed_domains || []), d]);
+                          }
+                          setDomainInput('');
+                        }}
+                        className="px-2 py-1 text-xs font-medium bg-gray-900 text-white rounded hover:bg-gray-800"
+                      >
+                        Add
+                      </button>
+                    </div>
+                    {(col.allowed_domains || []).length > 0 ? (
+                      <div className="flex flex-wrap gap-1">
+                        {col.allowed_domains.map(d => (
+                          <span key={d} className="inline-flex items-center gap-1 px-2 py-0.5 text-xs bg-gray-100 text-gray-700 rounded-full">
+                            {d}
+                            <button
+                              onClick={() => updateAllowedDomains(col.id, col.allowed_domains.filter(x => x !== d))}
+                              className="text-gray-400 hover:text-red-400"
+                            >
+                              <X size={10} />
+                            </button>
+                          </span>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="text-[10px] text-gray-400">No restrictions — embed works on any site.</p>
+                    )}
+                  </div>
                 </div>
               )}
 

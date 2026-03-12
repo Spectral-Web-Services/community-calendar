@@ -87,6 +87,20 @@ export default function EmbedView({ feedId, style, title, featuredTitle, normalT
   const displayFeaturedTitle = title || featuredTitle;
   const displayNormalTitle = title ? null : normalTitle;
 
+  // Domain allowlist check
+  const domainBlocked = useMemo(() => {
+    if (!collection?.allowed_domains?.length) return false;
+    try {
+      const referrerHost = new URL(document.referrer).hostname;
+      return !collection.allowed_domains.some(d =>
+        referrerHost === d || referrerHost.endsWith('.' + d)
+      );
+    } catch {
+      // No referrer or invalid — block when allowlist is set
+      return true;
+    }
+  }, [collection]);
+
   let content;
   if (loading) {
     content = (
@@ -96,6 +110,8 @@ export default function EmbedView({ feedId, style, title, featuredTitle, normalT
     );
   } else if (!collection) {
     content = <p className="text-center text-gray-400 py-8 text-sm">Collection not found.</p>;
+  } else if (domainBlocked) {
+    content = <p className="text-center text-gray-400 py-8 text-sm">This embed is not authorized for this domain.</p>;
   } else if (events.length === 0) {
     content = <p className="text-center text-gray-400 py-8 text-sm">No events yet.</p>;
   } else {
