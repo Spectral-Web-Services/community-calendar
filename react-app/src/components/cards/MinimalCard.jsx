@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, hideOnImgError } from './shared.jsx';
 
 export default function MinimalCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -10,7 +10,7 @@ export default function MinimalCard({ event, filterTerm, onCategoryFilter }) {
       <div className="mb-6 px-1">
         {/* Image — full bleed, no card chrome */}
         {event.image_url && (
-          <img src={event.image_url} alt="" className="w-full h-[180px] object-cover rounded mb-3" loading="lazy" />
+          <img src={event.image_url} alt="" className="w-full h-[180px] object-cover rounded mb-3" loading="lazy" onError={hideOnImgError} />
         )}
 
         {/* Category as colored uppercase label */}

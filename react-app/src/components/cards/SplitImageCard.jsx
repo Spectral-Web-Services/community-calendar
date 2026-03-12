@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, CategoryIcon } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, CategoryIcon, hideOnImgError } from './shared.jsx';
 
 export default function SplitImageCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -14,7 +14,7 @@ export default function SplitImageCard({ event, filterTerm, onCategoryFilter }) 
             {/* Left — image or narrow icon placeholder */}
             <div className={`flex-shrink-0 ${event.image_url ? 'w-2/5' : 'w-16'}`}>
               {event.image_url ? (
-                <img src={event.image_url} alt="" className="w-full h-full min-h-[160px] object-cover" loading="lazy" />
+                <img src={event.image_url} alt="" className="w-full h-full min-h-[160px] object-cover" loading="lazy" onError={hideOnImgError} />
               ) : (
                 <div
                   className="w-full h-full min-h-[100px] flex items-center justify-center"

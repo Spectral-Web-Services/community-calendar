@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, hideOnImgError } from './shared.jsx';
 
 export default function ModernCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -15,7 +15,7 @@ export default function ModernCard({ event, filterTerm, onCategoryFilter }) {
           {/* Image with inset rounded corners */}
           {event.image_url && (
             <div className="p-3 pb-0">
-              <img src={event.image_url} alt="" className="w-full h-[170px] object-cover rounded-xl" loading="lazy" />
+              <img src={event.image_url} alt="" className="w-full h-[170px] object-cover rounded-xl" loading="lazy" onError={hideOnImgError} />
             </div>
           )}
 

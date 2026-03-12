@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, CategoryIcon } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, CategoryIcon, hideOnImgError } from './shared.jsx';
 
 export default function AlwaysImageCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -15,7 +15,7 @@ export default function AlwaysImageCard({ event, filterTerm, onCategoryFilter })
           {/* Image or category icon placeholder — inset with rounded corners like Modern */}
           <div className="p-3 pb-0">
             {event.image_url ? (
-              <img src={event.image_url} alt="" className="w-full h-[170px] object-cover rounded-xl" loading="lazy" />
+              <img src={event.image_url} alt="" className="w-full h-[170px] object-cover rounded-xl" loading="lazy" onError={hideOnImgError} />
             ) : (
               <div
                 className="w-full h-[120px] flex items-center justify-center rounded-xl"

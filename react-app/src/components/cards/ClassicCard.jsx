@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Card } from 'flowbite-react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, hideOnImgError } from './shared.jsx';
 
 export default function ClassicCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -12,7 +12,7 @@ export default function ClassicCard({ event, filterTerm, onCategoryFilter }) {
         <Card
           className="max-w-sm"
           renderImage={event.image_url ? () => (
-            <img src={event.image_url} alt="" className="w-full h-[180px] object-cover rounded-t-lg" loading="lazy" />
+            <img src={event.image_url} alt="" className="w-full h-[180px] object-cover rounded-t-lg" loading="lazy" onError={hideOnImgError} />
           ) : undefined}
         >
           <p className="text-sm text-gray-500 dark:text-gray-400">

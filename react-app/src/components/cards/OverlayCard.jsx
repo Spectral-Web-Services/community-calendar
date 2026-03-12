@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, hideOnImgError } from './shared.jsx';
 
 export default function OverlayCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -14,7 +14,7 @@ export default function OverlayCard({ event, filterTerm, onCategoryFilter }) {
           {event.image_url ? (
             /* Image with date chip + category overlaid */
             <div className="relative">
-              <img src={event.image_url} alt="" className="w-full h-[180px] object-cover" loading="lazy" />
+              <img src={event.image_url} alt="" className="w-full h-[180px] object-cover" loading="lazy" onError={hideOnImgError} />
               {/* Date chip — top left */}
               <div
                 className="absolute top-3 left-3 w-12 h-14 rounded-lg flex flex-col items-center justify-center text-center shadow-md"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, hideOnImgError } from './shared.jsx';
 
 export default function TicketCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -32,7 +32,7 @@ export default function TicketCard({ event, filterTerm, onCategoryFilter }) {
           <div className="flex-1 p-4 min-w-0">
             {/* Image thumbnail if available */}
             {event.image_url && (
-              <img src={event.image_url} alt="" className="w-full h-[120px] object-cover rounded mb-2" loading="lazy" />
+              <img src={event.image_url} alt="" className="w-full h-[120px] object-cover rounded mb-2" loading="lazy" onError={hideOnImgError} />
             )}
 
             <EventTitle event={event} />

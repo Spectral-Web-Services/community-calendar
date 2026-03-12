@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, hideOnImgError } from './shared.jsx';
 
 export default function MagazineCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -13,7 +13,7 @@ export default function MagazineCard({ event, filterTerm, onCategoryFilter }) {
           {/* Hero area — image with overlay, or colored block */}
           {event.image_url ? (
             <div className="relative h-[200px]">
-              <img src={event.image_url} alt="" className="w-full h-full object-cover" loading="lazy" />
+              <img src={event.image_url} alt="" className="w-full h-full object-cover" loading="lazy" onError={hideOnImgError} />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
               {/* Date badge overlaid on image */}
               <div className="absolute top-3 left-3 bg-white dark:bg-gray-800/90 backdrop-blur-sm rounded-lg px-2 py-1 text-center shadow-sm">

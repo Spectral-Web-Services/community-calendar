@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, CategoryIcon } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, CategoryIcon, hideOnImgError } from './shared.jsx';
 
 export default function PolaroidCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -14,7 +14,7 @@ export default function PolaroidCard({ event, filterTerm, onCategoryFilter }) {
           {/* Photo area with white border (polaroid frame) */}
           <div className="border border-gray-100 dark:border-gray-700">
             {event.image_url ? (
-              <img src={event.image_url} alt="" className="w-full h-[200px] object-cover" loading="lazy" />
+              <img src={event.image_url} alt="" className="w-full h-[200px] object-cover" loading="lazy" onError={hideOnImgError} />
             ) : (
               <div
                 className="w-full h-[140px] flex items-center justify-center"

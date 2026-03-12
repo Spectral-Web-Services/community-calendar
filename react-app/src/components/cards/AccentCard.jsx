@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, hideOnImgError } from './shared.jsx';
 
 export default function AccentCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -15,7 +15,7 @@ export default function AccentCard({ event, filterTerm, onCategoryFilter }) {
         >
           {event.image_url ? (
             <div className="relative">
-              <img src={event.image_url} alt="" className="w-full h-[180px] object-cover" loading="lazy" />
+              <img src={event.image_url} alt="" className="w-full h-[180px] object-cover" loading="lazy" onError={hideOnImgError} />
               <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-white dark:from-gray-800 to-transparent" />
             </div>
           ) : (
