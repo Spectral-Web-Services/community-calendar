@@ -314,6 +314,22 @@ LOCATION:Bye and Bye: 1011 NE Alberta St\, Portland OR 97211 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260312T172753Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T140000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T120000
+DTSTAMP;VALUE=DATE-TIME:20260312T172753Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260312T172753Z
+UID:http://calagator.org/events/1250482502
+DESCRIPTION: Come hang out with other tech people for lunch last Wednesda
+ y of the month at Papaccino’s from 12 ~ 2pm. \n\nImported from: http://c
+ alagator.org/events/1250482502
+URL:https://flyersky.org/community/woodstock-portland-oregon/groups/woods
+ tock-tech-lunch-fhrtqa/meetups/cde6cd94-51e5-40b0-ac64-bd605ce78ab0
+SUMMARY:March 25th Tech Lunch At Papaccino's
+LOCATION:Papaccino's: false
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20250918T041829Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T210000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T183000

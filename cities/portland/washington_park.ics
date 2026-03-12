@@ -1,0 +1,411 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Explore Washington Park - ECPv6.15.14//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Explore Washington Park
+X-ORIGINAL-URL:https://explorewashingtonpark.org
+X-WR-CALDESC:Events for Explore Washington Park
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260301T100000
+DTEND;TZID=America/Los_Angeles:20260731T160000
+DTSTAMP:20260312T111035
+CREATED:20260209T191513Z
+LAST-MODIFIED:20260305T005048Z
+UID:10003056-1772359200-1785513600@explorewashingtonpark.org
+SUMMARY:Forest Hope Through Innovation
+DESCRIPTION:Forest Hope Through Innovation is an interdisciplinary art-forest-science exhibition at World Forestry Center’s Discovery Museum that explores how creativity\, research\, and community action can shape a sustainable future for the forests we rely on. Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations.  Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations. In this moment of climate uncertainty\, World Forestry Center is leveraging creativity\, art\, and storytelling to spotlight forest-based solutions as an optimistic path forward. Forest Hope Through Innovation is designed to spark climate hope and inspire community-based approaches that support resilient forests for generations to come. Included with museum admission.
+URL:https://explorewashingtonpark.org/event/forest-hope-through-innovation/
+LOCATION:Discovery Museum\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260307T100000
+DTEND;TZID=America/Los_Angeles:20260615T160000
+DTSTAMP:20260312T111035
+CREATED:20260127T223907Z
+LAST-MODIFIED:20260305T005051Z
+UID:10003039-1772877600-1781539200@explorewashingtonpark.org
+SUMMARY:Enduring Impressions: Contemporary Woodblock Prints
+DESCRIPTION:This March\, step into a world where nature-themed prints meet Portland Japanese Garden’s springtime vibrance in Enduring Impressions: Contemporary Woodblock Prints. Featuring the art of mokuhanga (木版画)\, Japanese-style woodblock printmaking\, this exhibition reveals how a centuries-old tradition is experiencing a contemporary revival among artists around the world\, who use the quiet power and unique characteristics of woodblock printmaking to create captivating works of art. Mokuhanga has been embraced by artists as an environmentally friendly art form that uses wood\, water-based pigments\, and paper made from plant fibers. The exhibition’s featured artists are among the growing international movement where meticulously crafted art prints incorporating these traditional tools and techniques are complemented by alternative printmaking technologies and strategies for contemporary expression. This exhibition marks the Garden’s first collaboration with the Honolulu Museum of Art and is co-curated by Stephen Salel\, the Museum’s Curator of Japanese Art. Across the galleries at Portland Japanese Garden\, Enduring Impressions presents an eclectic range of contemporary prints\, custom-made for the show\,  alongside a behind-the-scenes look at the process\, history and future of this iconic art form.  Included with garden admission.
+URL:https://explorewashingtonpark.org/event/enduring-impressions-contemporary-woodblock-prints/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260312T130000
+DTEND;TZID=America/Los_Angeles:20260312T150000
+DTSTAMP:20260312T111035
+CREATED:20260209T191719Z
+LAST-MODIFIED:20260305T005258Z
+UID:10003058-1773320400-1773327600@explorewashingtonpark.org
+SUMMARY:Forest Field Day: Creek Exploration
+DESCRIPTION:Did you know a creek runs through Hoyt Arboretum? On this program\, students will learn about our watershed\, discover who lives in the Arboretum’s creek\, and walk away with a better understanding of how healthy riparian ecosystems are vital to health of our larger forest ecosystem. This event is coordinated by Hoyt Arboretum ad registration is required through their website.
+URL:https://explorewashingtonpark.org/event/forest-field-day-creek-exploration-2/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260313T131500
+DTEND;TZID=America/Los_Angeles:20260313T141500
+DTSTAMP:20260312T111035
+CREATED:20260212T224234Z
+LAST-MODIFIED:20260306T190728Z
+UID:10003067-1773407700-1773411300@explorewashingtonpark.org
+SUMMARY:Cultural Performance: Shinobue Flute\, Tsugaru Shamisen & Piano Performance by Maido Mind
+DESCRIPTION:Join us for a free musical performance featuring shinobue flute\, Tsugaru Shamisen and a piano performance by Maido Mind. This cultural performance will be held from 1:15 to 2:15pm in the Jordan Schnitzer Japanese Arts Learning Center. Yumi Torimaru and Nozomi Imade\, who come from profoundly different musical backgrounds\, formed Maido Mind in 2022. Yumi studied traditional Japanese instruments including taiko drum\, shinobue (bamboo flutes)\, and Tsugara Shamisen (Japanese lute). Classically trained Nozomi started studying piano at the age 3 and studied vocal music at a prestigious music university in Japan. Both women were born and raised in the Kansai region of Japan. In the Kansai dialect\, “Maido” is a versatile word used as a greeting\, a farewell\, and a thank you. The mind enables a person to be aware of the world and their experiences: to think and to feel. Maido Mind\, with Yumi on shinobue and Nozomi’s piano and vocal performance\, offers a wide variety of music\, from tradition to modern\, standard to original\, and Japanese to Western. Included with garden admission.
+URL:https://explorewashingtonpark.org/event/cultural-performance-shinobue-flute-tsugaru-shamisen-piano-performance-by-maido-mind/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260314T100000
+DTEND;TZID=America/Los_Angeles:20260314T111500
+DTSTAMP:20260312T111035
+CREATED:20260212T224350Z
+LAST-MODIFIED:20260305T005259Z
+UID:10003068-1773482400-1773486900@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one. Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-331/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260314T103000
+DTEND;TZID=America/Los_Angeles:20260314T123000
+DTSTAMP:20260312T111035
+CREATED:20260115T190205Z
+LAST-MODIFIED:20260305T005259Z
+UID:10003015-1773484200-1773491400@explorewashingtonpark.org
+SUMMARY:Brainy Birds
+DESCRIPTION:Birds are incredible and have adapted to survive in dynamic & changing environments. Every species has unique traits and sometimes quite specialized strategies. Using the backdrop of seasonal changes at Hoyt Arboretum\, Dr. Kiki Sanford will facilitate discovery of the many ways it is connected to its avian inhabitants. Winter classes will center on adaptations for surviving intense seasonal conditions. Spring brings the frenzy of breeding season. Summer includes juvenile development and the onset of the next annual cycle. And\, Autumn classes will focus on the fall migration. Each seasonal class will highlight the various birds present in the Arboretum\, and include observation & discussion of specific aspects of how their brains & bodies lead to certain behaviors useful in the Hoyt habitats. Short informal lectures and group discussions will be followed by exploratory bird-watching hikes to observe these processes in action. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/brainy-birds-3/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260314T103000
+DTEND;TZID=America/Los_Angeles:20260314T123000
+DTSTAMP:20260312T111035
+CREATED:20260209T191719Z
+LAST-MODIFIED:20260305T005259Z
+UID:10003059-1773484200-1773491400@explorewashingtonpark.org
+SUMMARY:PNW Conifer Tree ID Walk
+DESCRIPTION:The Pacific Northwest is world famous for conifers\, and these unique trees are botanically some of the most unique and ancient of modern plants. Hoyt Arboretum’s conifer collection includes our spectacular native species and many species from all across the world. Join arborist Casey Clapp of podcast Completely Arbortrary to explore our collection\, learn key ways to identify different species\, and spotlight his (unabashed) favorite type of trees. This event is coordinated by Hoyt Arboretum and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/pnw-conifer-tree-id-walk-3/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260314T131500
+DTEND;TZID=America/Los_Angeles:20260314T143000
+DTSTAMP:20260312T111035
+CREATED:20260305T005459Z
+LAST-MODIFIED:20260305T005459Z
+UID:10003098-1773494100-1773498600@explorewashingtonpark.org
+SUMMARY:Cultural Demonstration: Tea Ceremony
+DESCRIPTION:Portland Japanese Garden will offer free public demonstrations of Chadō\, the Way of Tea\, at the Cathy Rudd Cultural Corner in the Jordan Schnitzer Japanese Arts Learning Center from 1:15 – 2:15pm. The Way of Tea is intrinsically linked to Japanese gardens and understanding the kokoro (heart) of Japanese gardening. The traditional Japanese tea ceremony is a manner of preparing and drinking a bowl of tea. More than just making tea\, it reflects the Japanese sense of omotenashi\, or wholehearted hospitality. It involves choreographed movements where both the host and guest escape the fast pace of life and experience calm. Included with garden admission.
+URL:https://explorewashingtonpark.org/event/cultural-demonstration-tea-ceremony-142/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260315T103000
+DTEND;TZID=America/Los_Angeles:20260315T130000
+DTSTAMP:20260312T111035
+CREATED:20260115T190205Z
+LAST-MODIFIED:20260305T005459Z
+UID:10003016-1773570600-1773579600@explorewashingtonpark.org
+SUMMARY:Spring Equinox: Balance\, Symbolism & Renewal
+DESCRIPTION:Explore pressed flowers\, symbolism\, and the first signs of awakening!\nThis early-spring session celebrates Hoyt Arboretum’s landscape as it reawakens—especially the magnolia and emerging buds. Using pressed plants\, flowers\, and delicate collage techniques\, we explore themes of emergence\, renewal\, and balance as the Earth invites us to reinvent ourselves in tune with the Spring season. You will learn: How to create collages and visual poems using pressed botanicals – The symbolism of early spring blooms and cultural celebrations of the Spring Equinox (magnolia\, trilliums\, snowdrops\, and more) – Creative prompts that invite balance and personal renewal at the Equinox. You will leave with: A spring botanical collage or visual poem – A personal self-note for the season of renewal – A renewed sense of hope\, softness\, and alignment with nature’s cycles. This event is coordinated by Hoyt Arboretum \, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/spring-equinox-balance-symbolism-renewal/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260315T130000
+DTEND;TZID=America/Los_Angeles:20260315T150000
+DTSTAMP:20260312T111035
+CREATED:20260127T224007Z
+LAST-MODIFIED:20260305T005459Z
+UID:10003042-1773579600-1773586800@explorewashingtonpark.org
+SUMMARY:Into the Trees: Personal Vision Quest
+DESCRIPTION:Dive into what you want to express and the direction your life is calling you. This workshop helps you shake off what’s complete and make space for the new energy rising within you. With the generous\, stabilizing support of the trees\, you’ll explore what is unfolding in your life. Using the Tree Transformation Oracle Deck\, each participant will receive a few personal cards to illuminate insights\, patterns\, and next steps. We’ll deepen this guidance through meditation\, visualization\, and presence practices among the trees. Being in the forest amplifies everything—clarity\, intuition\, and connection—so we will spend time outdoors as weather allows\, with sheltered space available as needed.  You will visit specific trees to assist in clarifying your vision and direction for the year ahead. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/into-the-trees-personal-vision-quest/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260315T131500
+DTEND;TZID=America/Los_Angeles:20260315T143000
+DTSTAMP:20260312T111035
+CREATED:20260115T190205Z
+LAST-MODIFIED:20260305T005459Z
+UID:10003017-1773580500-1773585000@explorewashingtonpark.org
+SUMMARY:Cultural Performance: Oregon Koto-Kai
+DESCRIPTION:Enjoy a free koto performance by Oregon Koto-Kai at 1:15pm at the Cathy Rudd Cultural Corner in the Jordan Schnitzer Japanese Arts Learning Center. Oregon Koto-Kai is a group passionate about the Japanese koto\, a 13-stringed zither with over 1000 years of history. Founded by Mitsuki Dazai in February 2012\, the ensemble performed its first concert in Portland\, Oregon. Since then\, they have performed throughout the state at venues like the Portland Japanese Garden\, Portland Rose Festival\, and Oregon Shakespeare Festival in Ashland. Their mission is to introduce Japanese koto music to the broader community by providing concerts and lessons. They collaborate with local musicians\, improve players’ skills\, and contribute to the culture. This performance is included with garden admission.
+URL:https://explorewashingtonpark.org/event/cultural-performance-oregon-koto-kai-25/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260316T090000
+DTEND;TZID=America/Los_Angeles:20260316T110000
+DTSTAMP:20260312T111035
+CREATED:20260305T005658Z
+LAST-MODIFIED:20260305T005658Z
+UID:10003099-1773651600-1773658800@explorewashingtonpark.org
+SUMMARY:MAC Trail Volunteers
+DESCRIPTION:Join Portland Parks & Recreation on the MAC Trail in Washington Park most Mondays\, rain or shine. The MAC Trail winds its way through the park\, connecting community and visitors to the parks many amenities and attractions.  Spend a couple of hours with us\, weeding\, mulching\, planting\, and learning about invasive plant management. Meet at the Elephant House Picnic Shelter\, near the Washington Park playground. Registration is required.
+URL:https://explorewashingtonpark.org/event/mac-trail-volunteers-15/
+LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260316T100000
+DTEND;TZID=America/Los_Angeles:20260316T111500
+DTSTAMP:20260312T111035
+CREATED:20260212T224451Z
+LAST-MODIFIED:20260305T005459Z
+UID:10003069-1773655200-1773659700@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one. Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-332/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260320T100000
+DTEND;TZID=America/Los_Angeles:20260320T120000
+DTSTAMP:20260312T111035
+CREATED:20260305T005658Z
+LAST-MODIFIED:20260305T005658Z
+UID:10003100-1774000800-1774008000@explorewashingtonpark.org
+SUMMARY:Cloud Forest Volunteers
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest in Washington Park most Fridays\, rain or shine. Spend a couple of hours with us\, weeding\, mulching\, planting\, and learning about invasive plant management. We will meet near the restroom building at the Oregon Holocaust Memorial and the project site is located right across from here. Registration required.
+URL:https://explorewashingtonpark.org/event/cloud-forest-volunteers-17/
+LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260321T090000
+DTEND;TZID=America/Los_Angeles:20260321T120000
+DTSTAMP:20260312T111035
+CREATED:20260209T191920Z
+LAST-MODIFIED:20260305T005658Z
+UID:10003060-1774083600-1774094400@explorewashingtonpark.org
+SUMMARY:Saturday Crew
+DESCRIPTION:Volunteer to care for Hoyt Arboretum’s trees and trails with the Saturday Crew! With 189-acres and more than 6\,000 trees along 12 miles of trails\, volunteers are incredibly important to maintaining Hoyt Arboretum’s tree collection and trail system\, and it’s a unique opportunity for volunteers to learn about and care for rare and unusual trees and plants from around the world. No previous stewardship crew experience is required; training\, tools\, gloves\, and volunteer parking passes are provided. Registration is required through the Hoyt Arboretum website.
+URL:https://explorewashingtonpark.org/event/saturday-crew-33/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260321T100000
+DTEND;TZID=America/Los_Angeles:20260321T111500
+DTSTAMP:20260312T111035
+CREATED:20260212T224451Z
+LAST-MODIFIED:20260305T005658Z
+UID:10003070-1774087200-1774091700@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one. Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-333/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260321T103000
+DTEND;TZID=America/Los_Angeles:20260321T123000
+DTSTAMP:20260312T111035
+CREATED:20260127T224007Z
+LAST-MODIFIED:20260305T005658Z
+UID:10003043-1774089000-1774096200@explorewashingtonpark.org
+SUMMARY:Resin Jewelry Making Workshop
+DESCRIPTION:This hands-on art class introduces you to the creative process of making resin jewelry using UV resin\, pigments\, polymer clay\, and pressed natural elements. The workshop will begin with a casual nature walk to gather inspiration and learn about some PNW native plants before moving into the studio portion. Back inside you will explore fundamental resin techniques\, experiment with color blending\, try out clay sculpting to incorporate into the resin pieces\, and practice embedding natural materials. The workshop emphasizes creativity\, craftsmanship\, and the joy of working with both natural and handmade elements. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/resin-jewelry-making-workshop-2/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260321T131500
+DTEND;TZID=America/Los_Angeles:20260321T141500
+DTSTAMP:20260312T111035
+CREATED:20260212T224652Z
+LAST-MODIFIED:20260305T005758Z
+UID:10003071-1774098900-1774102500@explorewashingtonpark.org
+SUMMARY:Cultural Demonstration: Ikebana by Miwa Satoh
+DESCRIPTION:Ikebana\, the Japanese art of flower arranging\, has been translated as “living flowers” or “giving life to flowers.” Join us from 1:15-2:15pm for an ikebana presentation byMiwa Satoh from the Ohara School of Ikebana in the Jordan Schnitzer Japanese Arts Learning Center. Miwa Satoh obtained her teacher’s qualification from the Ohara school in Japan in 2000. After that\, she took a break from her Ikebana practice to study in the United States. Once her family life was settled\, she resumed her practice in 2017. She currently teaches in Vancouver\, Washington while studying under an assistant professor based in Japan. She belongs to the Ohara School Northern California chapter in the US\, and the Kurume chapter in Japan.
+URL:https://explorewashingtonpark.org/event/cultural-demonstration-ikebana-by-miwa-satoh/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260322T090000
+DTEND;TZID=America/Los_Angeles:20260322T100000
+DTSTAMP:20260312T111035
+CREATED:20260115T190205Z
+LAST-MODIFIED:20260305T005759Z
+UID:10003018-1774170000-1774173600@explorewashingtonpark.org
+SUMMARY:Member Only Mindfulness Tour
+DESCRIPTION:This intimate tour focuses not on meditation\, but instead on learning to bring mindful awareness to oneself\, and the world around us\, through intentional observation and connections. An experienced guide will provide a foundation for the art of contemplative exploration throughout various Garden spaces\, and gently guide awareness away from the busyness of everyday life\, back toward the connection to nature and experience of peace.
+URL:https://explorewashingtonpark.org/event/member-only-mindfulness-tour-16/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260322T090000
+DTEND;TZID=America/Los_Angeles:20260322T120000
+DTSTAMP:20260312T111035
+CREATED:20260127T224106Z
+LAST-MODIFIED:20260305T005758Z
+UID:10003044-1774170000-1774180800@explorewashingtonpark.org
+SUMMARY:Public Tour Guides Volunteer Training
+DESCRIPTION:Hoyt Arboretum is recruiting volunteer tour guides for the 2026 public tour season! Tour guides lead an informative and engaging 60-minute tour along the Arboretum’s trails to teach visitors about Hoyt Arboretum\, its trees and plants\, and the Arboretum’s role in global conservation. Public tours are scheduled on Sundays at 11am from April through October. This volunteer position is a great opportunity for individuals with an interest in trees\, plants\, and conservation to expand their knowledge while developing public speaking and visitor engagement skills. Join us at the Public Tour Guide volunteer training on Sunday\, March 22 from 9am-12pm to learn more about Hoyt’s public tour program. During the training\, volunteers will learn best practices for leading public tours including communication\, visitor engagement\, and group management. The training will also cover seasonal tour content and additional resources for expanding your knowledge of the trees and plants found in Hoyt Arboretum. New Tour Guides will be required to participate in follow-up training sessions prior to leading tours at the Arboretum. This event is coordinated by Hoyt Arboretum\, registration is required through their website.
+URL:https://explorewashingtonpark.org/event/public-tour-guides-volunteer-training-2/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260323T090000
+DTEND;TZID=America/Los_Angeles:20260323T110000
+DTSTAMP:20260312T111035
+CREATED:20260305T005900Z
+LAST-MODIFIED:20260305T005900Z
+UID:10003102-1774256400-1774263600@explorewashingtonpark.org
+SUMMARY:MAC Trail Volunteers
+DESCRIPTION:Join Portland Parks & Recreation on the MAC Trail in Washington Park most Mondays\, rain or shine. The MAC Trail winds its way through the park\, connecting community and visitors to the parks many amenities and attractions.  Spend a couple of hours with us\, weeding\, mulching\, planting\, and learning about invasive plant management. Meet at the Elephant House Picnic Shelter\, near the Washington Park playground. Registration is required.
+URL:https://explorewashingtonpark.org/event/mac-trail-volunteers-16/
+LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260323T100000
+DTEND;TZID=America/Los_Angeles:20260323T111500
+DTSTAMP:20260312T111035
+CREATED:20260212T224652Z
+LAST-MODIFIED:20260305T005759Z
+UID:10003072-1774260000-1774264500@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one. Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-334/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260323T100000
+DTEND;TZID=America/Los_Angeles:20260327T120000
+DTSTAMP:20260312T111035
+CREATED:20260305T005759Z
+LAST-MODIFIED:20260305T005759Z
+UID:10003101-1774260000-1774612800@explorewashingtonpark.org
+SUMMARY:Spring Break Pop-Up Nature!
+DESCRIPTION:When PPS and many Portland-area schools are out for spring break\, it also happens to be a wonderful time to explore nature at Hoyt Arboretum! Each day there will be an exploration station with an educator ready to share a new nature topic with you. Hands-on activities and fun facts will help youth connect with the trees\, flowers\, and animals found throughout the Arboretum. Activities are designed for ages 3-8\, but all are welcome! Drop in at the Hoyt Arboretum Visitor Center to Participate. These events are free and do not require registration.
+URL:https://explorewashingtonpark.org/event/spring-break-pop-up-nature/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260325T131500
+DTEND;TZID=America/Los_Angeles:20260325T143000
+DTSTAMP:20260312T111035
+CREATED:20260305T005900Z
+LAST-MODIFIED:20260305T005900Z
+UID:10003103-1774444500-1774449000@explorewashingtonpark.org
+SUMMARY:Cultural Demonstration: Tea Ceremony
+DESCRIPTION:Portland Japanese Garden will offer free public demonstrations of Chadō\, the Way of Tea\, at the Cathy Rudd Cultural Corner in the Jordan Schnitzer Japanese Arts Learning Center from 1:15 – 2:15pm. The Way of Tea is intrinsically linked to Japanese gardens and understanding the kokoro (heart) of Japanese gardening. The traditional Japanese tea ceremony is a manner of preparing and drinking a bowl of tea. More than just making tea\, it reflects the Japanese sense of omotenashi\, or wholehearted hospitality. It involves choreographed movements where both the host and guest escape the fast pace of life and experience calm. Included with garden admission.
+URL:https://explorewashingtonpark.org/event/cultural-demonstration-tea-ceremony-143/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260326T063000
+DTEND;TZID=America/Los_Angeles:20260326T080000
+DTSTAMP:20260312T111035
+CREATED:20260305T005900Z
+LAST-MODIFIED:20260305T005900Z
+UID:10003104-1774506600-1774512000@explorewashingtonpark.org
+SUMMARY:Photographer Member Hours
+DESCRIPTION:Photographer-level Members and their guests are exclusively invited to capture Portland Japanese Garden’s beauty during twilight hours. These exclusive sessions offer a rare opportunity to document the Garden’s evolving seasonal landscape during ‘golden hours’ when the paths are quiet\, the lighting is evocative\, and the landscape’s natural harmony is on full display. Please join us for this special Member Photo Session. Whether you are looking to capture the unique traditional Japanese architecture or the organic transitions of the current season\, these sessions provide the time and space needed for thoughtful composition and creative exploration.
+URL:https://explorewashingtonpark.org/event/photographer-member-hours-21/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260327T100000
+DTEND;TZID=America/Los_Angeles:20260327T120000
+DTSTAMP:20260312T111035
+CREATED:20260305T005901Z
+LAST-MODIFIED:20260305T005901Z
+UID:10003106-1774605600-1774612800@explorewashingtonpark.org
+SUMMARY:Cloud Forest Volunteers
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest in Washington Park most Fridays\, rain or shine. Spend a couple of hours with us\, weeding\, mulching\, planting\, and learning about invasive plant management. We will meet near the restroom building at the Oregon Holocaust Memorial and the project site is located right across from here. Registration required.
+URL:https://explorewashingtonpark.org/event/cloud-forest-volunteers-18/
+LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260327T160000
+DTEND;TZID=America/Los_Angeles:20260327T170000
+DTSTAMP:20260312T111035
+CREATED:20260305T005900Z
+LAST-MODIFIED:20260305T005900Z
+UID:10003105-1774627200-1774630800@explorewashingtonpark.org
+SUMMARY:Artist Gallery Tour: Enduring Impressions
+DESCRIPTION:Join woodblock artist and expert printmaker\, April Vollmer\, and Stephen Salel\, Curator of Japanese Art at the Honolulu Museum of Art to take a closer look at the iconic art of mokuhanga\, Japanese woodblock printing. This personal tour of Enduring Impressions: Contemporary Woodblock Prints will introduce you to the art form as well as its contemporary practice and include a Q&A session. Included with daily admission.
+URL:https://explorewashingtonpark.org/event/artist-gallery-tour-enduring-impressions/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260328T100000
+DTEND;TZID=America/Los_Angeles:20260328T111500
+DTSTAMP:20260312T111035
+CREATED:20260212T224652Z
+LAST-MODIFIED:20260305T005959Z
+UID:10003073-1774692000-1774696500@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one. Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-335/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260328T103000
+DTEND;TZID=America/Los_Angeles:20260328T233000
+DTSTAMP:20260312T111035
+CREATED:20260305T010000Z
+LAST-MODIFIED:20260305T010000Z
+UID:10003107-1774693800-1774740600@explorewashingtonpark.org
+SUMMARY:Rooted in Nature: Artist Talk with Printmaker April Vollmer
+DESCRIPTION:The art of mokuhanga\, Japanese woodblock printing\, is rooted in the natural world. Enduring Impressions exhibiting artist and expert printmaker April Vollmer (author of Japanese Woodblock Print Workshop\, Watson-Guptill\, 2015) invites audience members on a journey of inspiration through the coastal ecology of Southern California to the flora and fauna of New York\, touching on the inspiration and themes that underpin her work. This behind-the-scenes look at Vollmer’s extensive printmaking practice offers an exclusive perspective on the vibrant contemporary landscape of the International Mokuhanga Movement\, from one of its forefront artists. Stephen Salel\, Curator of Japanese Art at the Honolulu Museum of Art and Co-Curator of Enduring Impressions: Contemporary Woodblock Prints\, will moderate the talk.  Tickets required.
+URL:https://explorewashingtonpark.org/event/rooted-in-nature-artist-talk-with-printmaker-april-vollmer/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260328T130000
+DTEND;TZID=America/Los_Angeles:20260328T150000
+DTSTAMP:20260312T111035
+CREATED:20260127T224107Z
+LAST-MODIFIED:20260305T005959Z
+UID:10003045-1774702800-1774710000@explorewashingtonpark.org
+SUMMARY:Moss and Lichens of the PNW
+DESCRIPTION:If you’ve explored anywhere in the Portland area\, you’ve probably noted how green it is. The trees and the ferns provide much of the green\, but so do the lichens and moss. Join instructor Ruth Williams as she takes you on a walking exploration of the most common tiny green wonders you will see on local trails. Learn what makes each of them unique and how to identify common species. This event is corrdinated by Hoyt Arboretum\, and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/moss-and-lichens-of-the-pnw-3/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+END:VCALENDAR

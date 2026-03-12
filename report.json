@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T17:23:51.750794",
+  "generated": "2026-03-12T18:35:38.495417",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -40298,7 +40298,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 35
+              "count": 36
             }
           ]
         },
@@ -40570,7 +40570,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 222
+              "count": 218
             }
           ]
         },
@@ -40842,7 +40842,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 1420
+              "count": 1419
             }
           ]
         },
@@ -40906,7 +40906,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 1795
+              "count": 1800
             }
           ]
         },
@@ -40941,40 +40941,112 @@
               "count": 27
             }
           ]
+        },
+        "hollywood_fm": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "hollywood_fm_events": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "hollywood_fm_music": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "jamo": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 4
+            }
+          ]
+        },
+        "oc_farmers_market": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 3
+            }
+          ]
+        },
+        "pdx_jazz": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "portland_fruit_tree": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 1
+            }
+          ]
+        },
+        "vancouver_farmers_market": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 4
+            }
+          ]
+        },
+        "washington_park": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 28
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 1129
+          "count": 1125
         },
         {
           "category": "Family / Kids",
-          "count": 1034
+          "count": 1051
         },
         {
           "category": "Community / Social",
-          "count": 452
+          "count": 456
         },
         {
           "category": "Sports / Fitness",
-          "count": 299
+          "count": 298
         },
         {
           "category": "Arts / Culture",
-          "count": 252
+          "count": 258
         },
         {
           "category": "Music / Concerts",
-          "count": 245
+          "count": 247
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 188
+          "count": 194
         },
         {
           "category": "Health / Wellness",
-          "count": 151
+          "count": 153
         },
         {
           "category": "Books / Literature / Poetry",
@@ -40982,7 +41054,7 @@
         },
         {
           "category": "Government / Civic",
-          "count": 122
+          "count": 121
         },
         {
           "category": "Religion / Spirituality",
@@ -40990,7 +41062,7 @@
         },
         {
           "category": "Food / Drink",
-          "count": 45
+          "count": 51
         },
         {
           "category": "Film / Cinema",
@@ -40998,29 +41070,29 @@
         },
         {
           "category": "(uncategorized)",
-          "count": 33
+          "count": 32
+        },
+        {
+          "category": "History / Heritage",
+          "count": 29
         },
         {
           "category": "Dance / Performance",
           "count": 28
         },
         {
-          "category": "History / Heritage",
-          "count": 26
-        },
-        {
           "category": "Comedy / Improv",
-          "count": 9
+          "count": 8
         }
       ],
       "images": {
-        "total": 4247,
-        "with_image": 2135,
+        "total": 4285,
+        "with_image": 2142,
         "by_source": [
           {
             "source": "Multnomah County Library",
-            "total": 1247,
-            "with_image": 1190
+            "total": 1253,
+            "with_image": 1197
           },
           {
             "source": "Lewis Clark",
@@ -41029,8 +41101,8 @@
           },
           {
             "source": "Japanese Garden",
-            "total": 115,
-            "with_image": 115
+            "total": 108,
+            "with_image": 108
           },
           {
             "source": "Portland Volunteer Events",
@@ -41055,17 +41127,12 @@
           {
             "source": "Portland Community Events",
             "total": 43,
-            "with_image": 30
+            "with_image": 31
           },
           {
             "source": "Lan Su Garden",
             "total": 30,
             "with_image": 30
-          },
-          {
-            "source": "Multnomah County Library, WCCLS Libraries",
-            "total": 29,
-            "with_image": 29
           },
           {
             "source": "Literary Arts",
@@ -41076,6 +41143,11 @@
             "source": "Portland Art Museum",
             "total": 29,
             "with_image": 29
+          },
+          {
+            "source": "Multnomah County Library, WCCLS Libraries",
+            "total": 28,
+            "with_image": 28
           },
           {
             "source": "Crystal Ballroom",
@@ -41193,6 +41265,11 @@
             "with_image": 4
           },
           {
+            "source": "Jamo",
+            "total": 4,
+            "with_image": 4
+          },
+          {
             "source": "Portland Farmers Market",
             "total": 3,
             "with_image": 3
@@ -41204,6 +41281,11 @@
           },
           {
             "source": "Meetup Art Guild",
+            "total": 3,
+            "with_image": 3
+          },
+          {
+            "source": "Oc Farmers Market",
             "total": 3,
             "with_image": 3
           },
@@ -41285,9 +41367,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 4171,
-        "total_events": 4247,
-        "unique_urls": 3886,
+        "total_with_url": 4209,
+        "total_events": 4285,
+        "unique_urls": 3928,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 34,
@@ -41295,14 +41377,14 @@
         "source_specificity": [
           {
             "source": "Multnomah County Library",
-            "events": 1247,
-            "unique_urls": 1247,
+            "events": 1253,
+            "unique_urls": 1253,
             "specificity_pct": 100
           },
           {
             "source": "WCCLS Libraries",
-            "events": 1078,
-            "unique_urls": 1078,
+            "events": 1081,
+            "unique_urls": 1081,
             "specificity_pct": 100
           },
           {
@@ -41319,14 +41401,14 @@
           },
           {
             "source": "Reed College",
-            "events": 145,
+            "events": 141,
             "unique_urls": 75,
-            "specificity_pct": 52
+            "specificity_pct": 53
           },
           {
             "source": "Japanese Garden",
-            "events": 115,
-            "unique_urls": 115,
+            "events": 108,
+            "unique_urls": 108,
             "specificity_pct": 100
           },
           {
@@ -41379,9 +41461,9 @@
           },
           {
             "source": "Calagator",
-            "events": 34,
-            "unique_urls": 16,
-            "specificity_pct": 47
+            "events": 35,
+            "unique_urls": 17,
+            "specificity_pct": 49
           }
         ]
       }
