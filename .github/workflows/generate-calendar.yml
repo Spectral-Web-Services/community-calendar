@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       locations:
-        description: 'Locations to process (comma-separated: santarosa,bloomington,davis,petaluma,jweekly,evanston or "all")'
+        description: 'Locations to process (comma-separated: santarosa,bloomington,davis,petaluma,portland,jweekly,evanston or "all")'
         required: false
         default: 'all'
       regenerate_only:
@@ -898,6 +898,74 @@ jobs:
       run: |
         python scripts/enrich_meetup_images.py --dir cities/evanston || true
         python scripts/combine_ics.py --input-dir cities/evanston --output cities/evanston/combined.ics --name "Evanston Community Calendar"
+
+    # ==========================================
+    # Portland
+    # ==========================================
+    - name: Scrape Portland sources
+      if: contains(steps.locations.outputs.list, 'portland') && github.event.inputs.regenerate_only != 'true'
+      run: |
+        python scrapers/legistar.py --client oregonmetro --source "Oregon Metro" --output cities/portland/legistar_oregon_metro.ics || true
+      continue-on-error: true
+
+    - name: Download Portland live feeds and combine ICS
+      if: contains(steps.locations.outputs.list, 'portland')
+      run: |
+        cd cities/portland
+        # Tockify
+        curl -sL "https://tockify.com/api/feeds/ics/theoldchurch" -o tockify_theoldchurch.ics || true
+        curl -sL "https://tockify.com/api/feeds/ics/kptv.calendar" -o tockify_kptv_calendar.ics || true
+        # Universities (Localist)
+        curl -sL "https://up.enterprise.localist.com/calendar/1.ics" -o university_of_portland.ics || true
+        curl -sL "https://events.reed.edu/calendar/1.ics" -o reed_college.ics || true
+        # Universities (LiveWhale)
+        curl -sL "https://www.lclark.edu/live/ical/events" -o lewis_clark.ics || true
+        curl -sL "https://events.pcc.edu/live/ical/events" -o portland_community_college.ics || true
+        # LibCal
+        curl -sL "https://librarycalendar.ohsu.edu/ical_subscribe.php?src=p&cid=6248" -o ohsu_library.ics || true
+        # WordPress ICS
+        curl -sL "https://portlandartmuseum.org/events/?ical=1" -o portland_art_museum.ics || true
+        curl -sL "https://literary-arts.org/events/?ical=1" -o literary_arts.ics || true
+        curl -sL "https://japanesegarden.org/events/?ical=1" -o japanese_garden.ics || true
+        # Community tech calendar
+        curl -sL "https://calagator.org/events.ics" -o calagator.ics || true
+        # Athletics (SIDEARM Sports)
+        curl -sL "https://goviks.com/calendar.ashx/calendar.ics" -o psu_athletics.ics || true
+        curl -sL "https://portlandpilots.com/calendar.ashx/calendar.ics" -o up_athletics.ics || true
+        # Google Calendar
+        curl -sL "https://www.google.com/calendar/ical/629tvcnf17grg9v0fgvge9pb7c%40group.calendar.google.com/public/basic.ics" -o portland_timbers.ics || true
+        curl -sL "https://calendar.google.com/calendar/ical/kqt4cjm6mi8r1jpl3j5fpb8h0k%40group.calendar.google.com/public/basic.ics" -o portland_thorns.ics || true
+        # Meetup groups - Tech
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-code-coffee/events/ical/" -o meetup_portland_code_coffee.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/code-for-pdx/events/ical/" -o meetup_code_for_pdx.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/padnug/events/ical/" -o meetup_padnug.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/pdxcpp/events/ical/" -o meetup_pdxcpp.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/techacademy/events/ical/" -o meetup_techacademy.ics || true
+        # Meetup groups - Hiking/Outdoor
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-outdoors-20s-and-30s-hiking-group/events/ical/" -o meetup_portland_outdoors.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/the-portland-hiking-meetup-group/events/ical/" -o meetup_portland_hiking.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/womens-wednesday-wanderers/events/ical/" -o meetup_womens_wanderers.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-2030-coffee-bars-and-hiking/events/ical/" -o meetup_portland_2030.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/ical/" -o meetup_portland_city_walking.ics || true
+        # Meetup groups - Running/Fitness
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/northwest-trail-runners/events/ical/" -o meetup_nw_trail_runners.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-trail-runners-group/events/ical/" -o meetup_portland_trail_runners.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-running-co-weekly-group-runs/events/ical/" -o meetup_portland_running_co.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/slowpo-runners/events/ical/" -o meetup_slowpo_runners.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-fun-run/events/ical/" -o meetup_portland_fun_run.ics || true
+        # Meetup groups - Social/Games/Books
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/pdxgames/events/ical/" -o meetup_pdxgames.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/silent-books-club/events/ical/" -o meetup_silent_books_club.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/silent-book-club-portland/events/ical/" -o meetup_silent_book_club_portland.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/itsmorethanjustreadingbooks/events/ical/" -o meetup_more_than_reading.ics || true
+        # Meetup groups - Arts/Creative
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-coffee-sketch-club/events/ical/" -o meetup_coffee_sketch.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-fine-arts-guild/events/ical/" -o meetup_art_guild.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-arts-and-craft-meetup-group/events/ical/" -o meetup_arts_craft.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/pop-up-paint-and-sip/events/ical/" -o meetup_paint_and_sip.ics || true
+        cd ../..
+        python scripts/enrich_meetup_images.py --dir cities/portland || true
+        python scripts/combine_ics.py --input-dir cities/portland --output cities/portland/combined.ics --name "Portland Community Calendar"
 
     # ==========================================
     # Post-processing (all cities)
