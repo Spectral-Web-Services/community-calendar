@@ -20,12 +20,14 @@ import { useFeatured } from './hooks/useFeatured.jsx';
 import { getActiveCategories } from './lib/helpers.js';
 
 function App() {
-  const { embed, embedStyle, embedTitle, embedBg, embedMode, feed, city } = useMemo(() => {
+  const { embed, embedStyle, embedTitle, embedFeaturedTitle, embedNormalTitle, embedBg, embedMode, feed, city } = useMemo(() => {
     const params = new URLSearchParams(window.location.search);
     return {
       embed: params.get('embed') || null,
       embedStyle: params.get('style') || null,
       embedTitle: params.get('title') || null,
+      embedFeaturedTitle: params.get('featured_title') || null,
+      embedNormalTitle: params.get('normal_title') || null,
       embedBg: params.get('bg') || null,
       embedMode: params.get('mode') || null,
       feed: params.get('feed') || null,
@@ -100,7 +102,7 @@ function App() {
   }, [city]);
 
   if (embed) {
-    return <EmbedView feedId={embed} style={embedStyle} title={embedTitle} bg={embedBg} mode={embedMode} />;
+    return <EmbedView feedId={embed} style={embedStyle} title={embedTitle} featuredTitle={embedFeaturedTitle} normalTitle={embedNormalTitle} bg={embedBg} mode={embedMode} />;
   }
 
   if (feed) {
