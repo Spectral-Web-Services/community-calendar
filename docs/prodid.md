@@ -239,6 +239,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Teamup Solutions AG//Teamup Calendar//EN` | montclair | shomrei_emunah |
 | `-//Ticketmaster/Evanston Venues//ticketmaster.com//` | evanston | ticketmaster_evanston_venues |
 | `-//Ticketmaster/Evanston//ticketmaster.com//` | evanston | ticketmaster_evanston |
+| `-//Trumba Corporation//Trumba Calendar Services 0.11.25510//EN` | boston | tufts_tdps |
 | `-//YWCA Evanston/North Shore//eventbrite.com//` | evanston | eb_ywca |
 | `X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN` | portland | calagator |
 | `icalendar-ruby` | matsu | matsuk12 |

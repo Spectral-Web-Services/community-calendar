@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T18:59:37.180162",
+  "generated": "2026-03-12T19:19:09.237166",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -41474,7 +41474,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 0
+              "count": 38
             }
           ]
         },
@@ -41498,7 +41498,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 17
+              "count": 22
             }
           ]
         },
@@ -41506,7 +41506,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 23
+              "count": 46
             }
           ]
         },
@@ -41514,7 +41514,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 8
+              "count": 15
             }
           ]
         },
@@ -41549,16 +41549,28 @@
               "count": 0
             }
           ]
+        },
+        "tufts_tdps": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 9
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Dance / Performance",
-          "count": 49
+          "count": 72
+        },
+        {
+          "category": "Arts / Culture",
+          "count": 35
         },
         {
           "category": "Family / Kids",
-          "count": 8
+          "count": 15
         },
         {
           "category": "Music / Concerts",
@@ -41566,18 +41578,32 @@
         },
         {
           "category": "Education / Workshops",
+          "count": 2
+        },
+        {
+          "category": "Film / Cinema",
+          "count": 1
+        },
+        {
+          "category": "Community / Social",
           "count": 1
         }
       ],
       "images": {
-        "total": 62,
-        "with_image": 0,
-        "by_source": []
+        "total": 130,
+        "with_image": 4,
+        "by_source": [
+          {
+            "source": "Tufts Tdps",
+            "total": 9,
+            "with_image": 4
+          }
+        ]
       },
       "url_quality": {
-        "total_with_url": 62,
-        "total_events": 62,
-        "unique_urls": 12,
+        "total_with_url": 124,
+        "total_events": 130,
+        "unique_urls": 43,
         "generic_count": 16,
         "generic_domains": [
           {
@@ -41591,9 +41617,21 @@
         "source_specificity": [
           {
             "source": "Central Square Theater",
-            "events": 19,
-            "unique_urls": 1,
+            "events": 38,
+            "unique_urls": 2,
             "specificity_pct": 5
+          },
+          {
+            "source": "American Repertory Theater",
+            "events": 29,
+            "unique_urls": 29,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Actors' Shakespeare Project",
+            "events": 18,
+            "unique_urls": 1,
+            "specificity_pct": 6
           },
           {
             "source": "BU School of Theatre",
@@ -41602,22 +41640,22 @@
             "specificity_pct": 6
           },
           {
-            "source": "Actors' Shakespeare Project",
-            "events": 14,
-            "unique_urls": 1,
-            "specificity_pct": 7
-          },
-          {
             "source": "Wheelock Family Theatre",
-            "events": 8,
+            "events": 15,
             "unique_urls": 4,
-            "specificity_pct": 50
+            "specificity_pct": 27
           },
           {
             "source": "Emerson Colonial Theatre",
             "events": 4,
             "unique_urls": 4,
             "specificity_pct": 100
+          },
+          {
+            "source": "Tufts Tdps",
+            "events": 3,
+            "unique_urls": 1,
+            "specificity_pct": 33
           },
           {
             "source": "Artsemerson",

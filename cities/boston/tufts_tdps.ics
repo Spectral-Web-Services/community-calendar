@@ -1,0 +1,506 @@
+BEGIN:VCALENDAR
+PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.25510//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+X-WR-CALNAME:TTS-WMS Managed|Theatre\, Dance\, and Performance Studies
+X-WR-TIMEZONE:America/New_York
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:TDPS Course Preview Mixer
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260325T120000
+DTEND;TZID=America/New_York:20260325T131500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Bal
+ ch Arena Theater Lobby
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+DTSTAMP:20260219T084037Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
+ mpus: Medford/Somerville campus\nLocation Details: Balch Arena Theater L
+ obby\nOpen to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: 
+ School of Arts and Sciences\n\nCome to our TDPS course preview mixer and
+  learn about what new courses we’ll be offering next semester! Take this
+  opportunity to pick up a schedule of our Fall 2026 courses and begin pl
+ anning what your next semester will look like over catered lunch!
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/197624890
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d197624890
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Women Take the Reel Film Festival: A collection of shorts from t
+ he works of Ng'endo Mukii
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260326T163000
+DTEND;TZID=America/New_York:20260326T174500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Barnum Ha
+ ll
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDEy4mrPp5obosYgf6RkaDn.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Bar
+ num LL08\n163 Packard Avenue\nMedford\, MA 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Film Sc
+ reening\,Lecture/Presentation/Seminar
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Arts
+ \,Humanities
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Department / Area";ID=68507;TYP
+ E=CustomAsset:Film and Media Studies program
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Details";ID=23317;TYPE=SingleLi
+ ne:Tufts Film and Media Studies
+X-TRUMBA-CUSTOMFIELD;NAME="Speaker Name";ID=67519;TYPE=SingleLine:Ng’end
+ o Mukii
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ Gina O'Connor
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:gina
+ .o_connor@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgBvyUZ7hLy%2A69t3kgSfMNY9.jpg
+DTSTAMP:20260211T123039Z
+DESCRIPTION:Building: Barnum Hall\nCity: Medford\, MA 02155\nCampus: Med
+ ford/Somerville campus\nLocation Details: Barnum LL08\n163 Packard Avenu
+ e\nMedford\, MA 02155\nOpen to Public: Yes\nEvent Type: Film Screening\,
+ Lecture/Presentation/Seminar\nEvent Subject: Arts\,Humanities\nEvent Spo
+ nsor: School of Arts and Sciences\nEvent Sponsor Department / Area: Film
+  and Media Studies program\nEvent Sponsor Details: Tufts Film and Media 
+ Studies\nSpeaker Name: Ng’endo Mukii\nEvent Contact Name: Gina O'Connor
+ \nEvent Contact Email: gina.o_connor@tufts.edu\n\nPresented as part of th
+ e Boston Women Take the Reel Film Festival.\n\nNg'endo Mukii will presen
+ t a collection of short\, animated films spanning a decade of work. She 
+ will surface the themes and process of her work\, contextualizing them i
+ n her heritage as a Kenyan\, and her experience as part of the Afro dias
+ pora.\n\nFollowing the films will be a Q&A discussion with writer and di
+ rector\, Ng'endo Mukii.\n\nNg'endo Mukii is an animation writer and dire
+ ctor\, and Professor of the Practice at the SMFA at Tufts. She's best kn
+ own for “Enkai”\, her Annie Award-winning episode in the Disney+ antholo
+ gy series Kizazi Moto: Generation Fire.\n\nHer Royal College of Art grad
+ uation film\, Yellow Fever is a critically acclaimed animated documentar
+ y exploring Western influences on African women's beauty. Her mixed-medi
+ a and inter-genre approach to film making\, gives her an incredibly uniq
+ ue visual language and a preeminent voice in animation.​\n \nNMukii Phot
+ o Fall 2023\n\nCo-sponsored by Consortium for Graduate Studies in GCWS\;
+  Women's\, Gender\, Sexuality Studies at Tufts\; SMFA at Tufts\; The Fil
+ m and Media Studies Program at Tufts\; Tufts Department of Theatre\, Dan
+ ce\, and Performance Studies\; Tufts Department of Studies in Race\, Col
+ onialism\, and Diaspora (RCD).
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgBvyUZ7hLy%2A69t3kgSfMNY9.jpg
+UID:http://uid.trumba.com/event/194656590
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d194656590
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dances at Noon
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260327T120000
+DTEND;TZID=America/New_York:20260327T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Jackson G
+ ym
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Somerville\, 
+ MA 02144
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Dance Lab
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Jac
+ kson Dance Lab\, 50 Talbot Avenue\, Medford\, MA 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Wheelchair Accessible";ID=67490;TYPE=CustomAs
+ set:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Primary Audience";ID=66852;TYPE=CustomAsset:A
+ lumni and Friends\,Faculty\,Interns and Residents\,Parents\,Postdoctoral
+  Fellows\,Staff\,Students (Graduate)\,Students (Postdoctoral)\,Students 
+ (Undergraduate)
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Department / Area";ID=68507;TYP
+ E=CustomAsset:Theatre\, Dance\, and Performance Studies department
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Details";ID=23317;TYPE=SingleLi
+ ne:Tufts Dance Program
+X-TRUMBA-CUSTOMFIELD;NAME="Admission/Cost";ID=23316;TYPE=SingleLine:Free
+  and Open to the Public
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ Jenny Oliver
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:Jenn
+ y.Oliver@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Phone";ID=23315;TYPE=SingleLine
+ :617-627-2556
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgBS59CYVJaMOnD23uTLkUYL.jpg
+DTSTAMP:20260304T125003Z
+DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
+ nce Lab\nCampus: Medford/Somerville campus\nLocation Details: Jackson Da
+ nce Lab\, 50 Talbot Avenue\, Medford\, MA 02155\nWheelchair Accessible: 
+ Yes\nOpen to Public: Yes\nPrimary Audience: Alumni and Friends\,Faculty
+ \,Interns and Residents\,Parents\,Postdoctoral Fellows\,Staff\,Students (
+ Graduate)\,Students (Postdoctoral)\,Students (Undergraduate)\nEvent Type
+ : Performance\nEvent Subject: Theater/Dance\nEvent Sponsor: School of Ar
+ ts and Sciences\nEvent Sponsor Department / Area: Theatre\, Dance\, and 
+ Performance Studies department\nEvent Sponsor Details: Tufts Dance Progr
+ am\nAdmission/Cost: Free and Open to the Public\nEvent Contact Name: Jen
+ ny Oliver\nEvent Contact Email: Jenny.Oliver@tufts.edu\nEvent Contact Ph
+ one: 617-627-2556\n\nAn interactive demonstration of Breakin’ as communi
+ ty dance practice. Over the course of 45 minutes to an hour\, Swift Char
+ akterz invites you to get involved. The demonstration blends workshop el
+ ements with an ongoing cypher\, allowing participants to get involved to
+  whatever degree they are interested in (e.g. observing the cypher\, lea
+ rning on the side one-on-one with members of the crew\, dancing the circ
+ le). There will be a DJ cutting the music live.\n\nFree and open to the 
+ public. No registration required. Free parking available.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgBS59CYVJaMOnD23uTLkUYL.jpg
+UID:http://uid.trumba.com/event/198218465
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d198218465
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Tap Dance Jam with Ian Berg
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260328T181500
+DTEND;TZID=America/New_York:20260328T210000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Sophia Go
+ rdon Hall
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Somerville\, 
+ MA 02144
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgClq9do1eSoafMfm3zqvK0D.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Sophia Gordon
+  Hall - Multipurpose Room
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Wheelchair Accessible";ID=67490;TYPE=CustomAs
+ set:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Primary Audience";ID=66852;TYPE=CustomAsset:A
+ lumni and Friends\,Faculty\,Interns and Residents\,Parents\,Postdoctoral
+  Fellows\,Staff\,Students (Graduate)\,Students (Postdoctoral)\,Students 
+ (Undergraduate)
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Department / Area";ID=68507;TYP
+ E=CustomAsset:Theatre\, Dance\, and Performance Studies department
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Details";ID=23317;TYPE=SingleLi
+ ne:Tufts Dance Program
+X-TRUMBA-CUSTOMFIELD;NAME="RSVP Information";ID=23318;TYPE=SingleLine:da
+ nce@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Admission/Cost";ID=23316;TYPE=SingleLine:Free
+  and Open to the Public
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ Jaclyn Waguespack
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:danc
+ e@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Phone";ID=23315;TYPE=SingleLine
+ :617-627-2556
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgCithmr-wUiVjLlBGzGjF6m.jpg
+DTSTAMP:20260304T172833Z
+DESCRIPTION:Building: Sophia Gordon Hall\nCity: Somerville\, MA 02144\nR
+ oom: Sophia Gordon Hall - Multipurpose Room\nCampus: Medford/Somerville 
+ campus\nWheelchair Accessible: Yes\nOpen to Public: Yes\nPrimary Audienc
+ e: Alumni and Friends\,Faculty\,Interns and Residents\,Parents\,Postdoct
+ oral Fellows\,Staff\,Students (Graduate)\,Students (Postdoctoral)\,Stude
+ nts (Undergraduate)\nEvent Type: Performance\nEvent Subject: Theater/Dan
+ ce\nEvent Sponsor: School of Arts and Sciences\nEvent Sponsor Department
+  / Area: Theatre\, Dance\, and Performance Studies department\nEvent Spo
+ nsor Details: Tufts Dance Program\nRSVP Information: dance@tufts.edu\nAd
+ mission/Cost: Free and Open to the Public\nEvent Contact Name: Jaclyn Wa
+ guespack\nEvent Contact Email: dance@tufts.edu\nEvent Contact Phone: 617
+ -627-2556\n\nTufts Dance Program faculty member Ian Berg leads a tap wor
+ kshop followed by an open tap jam with live musicians. Bring tap shoes o
+ r sneakers for moving! Anyone at any level is welcome to join!\n\nClass
+ \n6:15-7:00PM\n\nOpen Jam\n7:00-9:00PM\n\nSophia Gordon Multi-purpose Roo
+ m\, 15 Talbot Avenue\, Medford\, MA 02155\n\nFree and open to all. No re
+ gistration required. Free parking available.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgCithmr-wUiVjLlBGzGjF6m.jpg
+UID:http://uid.trumba.com/event/198218561
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d198218561
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring 2026 Dance Concert
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260417T190000
+DTEND;TZID=America/New_York:20260417T203000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Jackson G
+ ym
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Somerville\, 
+ MA 02144
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Dance Lab
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Wheelchair Accessible";ID=67490;TYPE=CustomAs
+ set:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:TDPS
+ @tufts.edu
+DTSTAMP:20251217T090055Z
+DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
+ nce Lab\nCampus: Medford/Somerville campus\nWheelchair Accessible: Yes\n
+ Open to Public: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dan
+ ce\nEvent Sponsor: School of Arts and Sciences\nEvent Contact Email: TDP
+ S@tufts.edu\nLink: https://www.tuftstdpstickets.com/section/tdps-2025-20
+ 26-season-ywz8\n\nFeaturing Choreography from Senior TDPS Majors and Dan
+ ce Minors
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/194681716
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d194681716
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring 2026 Dance Concert
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260418T190000
+DTEND;TZID=America/New_York:20260418T203000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Jackson G
+ ym
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Somerville\, 
+ MA 02144
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Dance Lab
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Wheelchair Accessible";ID=67490;TYPE=CustomAs
+ set:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:TDPS
+ @tufts.edu
+DTSTAMP:20251217T090046Z
+DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
+ nce Lab\nCampus: Medford/Somerville campus\nWheelchair Accessible: Yes\n
+ Open to Public: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dan
+ ce\nEvent Sponsor: School of Arts and Sciences\nEvent Contact Email: TDP
+ S@tufts.edu\nLink: https://www.tuftstdpstickets.com/section/tdps-2025-20
+ 26-season-ywz8\n\nFeaturing Choreography from Senior TDPS Majors and Dan
+ ce Minors
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/194681718
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d194681718
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Journal of the Plague Year
+LOCATION:Medford/Somerville campus
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260427
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Balch Arena T
+ heater
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ John Stark
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
+ .Stark@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+DTSTAMP:20251217T090439Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
+ om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
+ ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
+ onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
+ t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
+ s.com/section/tdps-2025-2026-season-ywz8\n\nTerayama Shuji’s 1975 play\,
+  A Journal of the Plague Year\, pushes us to think about the violence of
+  a nation’s imperial past (or present!) and epidemic disease both as a l
+ iteral threat and as a metaphor for the way war crimes infect victims an
+ d perpetrators alike.\n\nIt can also be seen as a play about protest\, r
+ esistance\, and activism. Its emphasis on memory\, for instance\, as an 
+ act of resistance against colonial amnesia\, and community in the face o
+ f all that tears us apart\, is profoundly relevant for a 21st-century US
+ -based audience. \n\nThe message of hopeful urgency at the end of the pl
+ ay—“The time is now! The time is now!”—captures the spirit of student pr
+ otest today.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+UID:http://uid.trumba.com/event/194681740
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d194681740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tufts Dance Program MashUP
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260427T180000
+DTEND;TZID=America/New_York:20260427T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Jackson G
+ ym
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Somerville\, 
+ MA 02144
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Dance Lab
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Jac
+ kson Dance Lab\, 50 Talbot Avenue\, Medford\, MA 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Wheelchair Accessible";ID=67490;TYPE=CustomAs
+ set:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Primary Audience";ID=66852;TYPE=CustomAsset:A
+ lumni and Friends\,Faculty\,Interns and Residents\,Parents\,Postdoctoral
+  Fellows\,Staff\,Students (Graduate)\,Students (Postdoctoral)\,Students 
+ (Undergraduate)
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Department / Area";ID=68507;TYP
+ E=CustomAsset:Theatre\, Dance\, and Performance Studies department
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Details";ID=23317;TYPE=SingleLi
+ ne:Tufts Dance Program
+X-TRUMBA-CUSTOMFIELD;NAME="Admission/Cost";ID=23316;TYPE=SingleLine:Free
+  and Open to the Public
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ Anja Voges
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:danc
+ e@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Phone";ID=23315;TYPE=SingleLine
+ :617-627-2556
+DTSTAMP:20260304T140412Z
+DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
+ nce Lab\nCampus: Medford/Somerville campus\nLocation Details: Jackson Da
+ nce Lab\, 50 Talbot Avenue\, Medford\, MA 02155\nWheelchair Accessible: 
+ Yes\nOpen to Public: Yes\nPrimary Audience: Alumni and Friends\,Faculty
+ \,Interns and Residents\,Parents\,Postdoctoral Fellows\,Staff\,Students (
+ Graduate)\,Students (Postdoctoral)\,Students (Undergraduate)\nEvent Type
+ : Performance\nEvent Subject: Theater/Dance\nEvent Sponsor: School of Ar
+ ts and Sciences\nEvent Sponsor Department / Area: Theatre\, Dance\, and 
+ Performance Studies department\nEvent Sponsor Details: Tufts Dance Progr
+ am\nAdmission/Cost: Free and Open to the Public\nEvent Contact Name: Anj
+ a Voges\nEvent Contact Email: dance@tufts.edu\nEvent Contact Phone: 617-
+ 627-2556\n\nJoin us for MashUp\, an informal showing of works created in
+  Dance Program classes! Free and open to anyone! Contact dance@tufts.edu
+  if you have any questions about this event.
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/198219776
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d198219776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TDPS End of Semester Mixer
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260429T120000
+DTEND;TZID=America/New_York:20260429T131500
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Bal
+ ch Arena Theater Lobby
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+DTSTAMP:20260219T084118Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
+ mpus: Medford/Somerville campus\nLocation Details: Balch Arena Theater L
+ obby\nOpen to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: 
+ School of Arts and Sciences\n\nCome hang out with TDPS to wrap up the se
+ mester! Take a break from the finals madness\, grab some delicious food 
+ from Dave’s Fresh Pasta\, and chill with us as we look back on all the g
+ reat moments from this semester!
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/197624891
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d197624891
+END:VEVENT
+END:VCALENDAR
