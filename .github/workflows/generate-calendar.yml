@@ -1057,6 +1057,10 @@ jobs:
         # Tufts TDPS (Trumba calendar)
         curl -sL "https://www.trumba.com/calendars/tts-wms-managed-tdps.ics" -o tufts_tdps.ics || true
         cd ../..
+
+    - name: Combine Boston ICS files
+      if: contains(steps.locations.outputs.list, 'boston')
+      run: |
         python scripts/combine_ics.py --input-dir cities/boston --output cities/boston/combined.ics --name "Boston Community Calendar"
 
     # ==========================================
