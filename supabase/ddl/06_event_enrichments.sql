@@ -36,17 +36,17 @@ CREATE POLICY "Enrichments are publicly readable"
   ON event_enrichments FOR SELECT
   USING (true);
 
--- Users can insert their own enrichments
-CREATE POLICY "Users can insert own enrichments"
+-- Curators can insert their own enrichments
+CREATE POLICY "Curators can insert own enrichments"
   ON event_enrichments FOR INSERT
-  WITH CHECK (auth.uid() = curator_id);
+  WITH CHECK (auth.uid() = curator_id AND public.is_curator());
 
--- Users can update their own enrichments
-CREATE POLICY "Users can update own enrichments"
+-- Curators can update their own enrichments
+CREATE POLICY "Curators can update own enrichments"
   ON event_enrichments FOR UPDATE
-  USING (auth.uid() = curator_id);
+  USING (auth.uid() = curator_id AND public.is_curator());
 
--- Users can delete their own enrichments
-CREATE POLICY "Users can delete own enrichments"
+-- Curators can delete their own enrichments
+CREATE POLICY "Curators can delete own enrichments"
   ON event_enrichments FOR DELETE
-  USING (auth.uid() = curator_id);
+  USING (auth.uid() = curator_id AND public.is_curator());

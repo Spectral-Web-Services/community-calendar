@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import { AuthProvider } from './hooks/useAuth.jsx'
+import { CuratorProvider } from './hooks/useCurator.jsx'
 import { PicksProvider } from './hooks/usePicks.jsx'
 import { FeaturedProvider } from './hooks/useFeatured.jsx'
 import { TargetCollectionProvider } from './hooks/useTargetCollection.jsx'
@@ -15,15 +16,17 @@ function Root() {
   return (
     <React.StrictMode>
       <AuthProvider>
-        <PicksProvider city={city}>
-          <FeaturedProvider city={city}>
-            <TargetCollectionProvider>
-              <EmbedViewportProvider>
-                <App />
-              </EmbedViewportProvider>
-            </TargetCollectionProvider>
-          </FeaturedProvider>
-        </PicksProvider>
+        <CuratorProvider>
+          <PicksProvider city={city}>
+            <FeaturedProvider city={city}>
+              <TargetCollectionProvider>
+                <EmbedViewportProvider>
+                  <App />
+                </EmbedViewportProvider>
+              </TargetCollectionProvider>
+            </FeaturedProvider>
+          </PicksProvider>
+        </CuratorProvider>
       </AuthProvider>
     </React.StrictMode>
   );

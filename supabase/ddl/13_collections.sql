@@ -18,15 +18,15 @@ CREATE POLICY "collections_select_public"
   ON collections FOR SELECT
   USING (true);
 
-CREATE POLICY "collections_insert_owner"
+CREATE POLICY "collections_insert_curator"
   ON collections FOR INSERT
-  WITH CHECK (auth.uid() = user_id);
+  WITH CHECK (auth.uid() = user_id AND public.is_curator());
 
-CREATE POLICY "collections_update_owner"
+CREATE POLICY "collections_update_curator"
   ON collections FOR UPDATE
-  USING (auth.uid() = user_id)
-  WITH CHECK (auth.uid() = user_id);
+  USING (auth.uid() = user_id AND public.is_curator())
+  WITH CHECK (auth.uid() = user_id AND public.is_curator());
 
-CREATE POLICY "collections_delete_owner"
+CREATE POLICY "collections_delete_curator"
   ON collections FOR DELETE
-  USING (auth.uid() = user_id);
+  USING (auth.uid() = user_id AND public.is_curator());

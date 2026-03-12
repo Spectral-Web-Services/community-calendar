@@ -7,6 +7,7 @@ import {
   TreePine, Church, Dumbbell, Calendar,
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth.jsx';
+import { useCurator } from '../../hooks/useCurator.jsx';
 import { usePicks, useIsEventPicked } from '../../hooks/usePicks.jsx';
 import { useFeatured, useIsEventFeatured } from '../../hooks/useFeatured.jsx';
 import { useTargetCollection } from '../../hooks/useTargetCollection.jsx';
@@ -76,6 +77,7 @@ export function useEventCardData(event, filterTerm) {
 
 export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
   const { user } = useAuth();
+  const { isCurator } = useCurator();
   const feedCtx = useFeedContext();
   const [showCatModal, setShowCatModal] = React.useState(false);
   const [showEnrich, setShowEnrich] = React.useState(false);
@@ -119,44 +121,49 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
           <Download size={16} />
         </button>
       </div>
-      {/* Curator tools row */}
+      {/* User tools row — bookmark for any logged-in user */}
       {user && (
         <div className="border-t border-gray-100 dark:border-gray-700 mt-2 pt-2 flex items-center gap-2">
-          <span className="text-[10px] font-medium text-gray-400 uppercase tracking-wide">Curator</span>
-          <div className="flex-1" />
-          {event.category ? (
-            <button
-              onClick={() => setShowCatModal(true)}
-              className="text-gray-400 hover:text-gray-600 transition-colors"
-              title="Override category"
-            >
-              <Pencil size={12} />
-            </button>
-          ) : (
-            <button
-              onClick={() => setShowCatModal(true)}
-              className="text-xs text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:text-gray-300 transition-colors"
-            >
-              + category
-            </button>
+          {isCurator && (
+            <>
+              <span className="text-[10px] font-medium text-gray-400 uppercase tracking-wide">Curator</span>
+              <div className="flex-1" />
+              {event.category ? (
+                <button
+                  onClick={() => setShowCatModal(true)}
+                  className="text-gray-400 hover:text-gray-600 transition-colors"
+                  title="Override category"
+                >
+                  <Pencil size={12} />
+                </button>
+              ) : (
+                <button
+                  onClick={() => setShowCatModal(true)}
+                  className="text-xs text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:text-gray-300 transition-colors"
+                >
+                  + category
+                </button>
+              )}
+              <button
+                onClick={() => setShowEnrich(true)}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+                title="Edit enrichment"
+              >
+                <Settings2 size={14} />
+              </button>
+              {feedCtx?.onRemoveEvent && (
+                <button
+                  onClick={() => feedCtx.onRemoveEvent(event)}
+                  className="text-gray-400 hover:text-red-400 transition-colors"
+                  title={removeTitle}
+                >
+                  <X size={16} />
+                </button>
+              )}
+              <StarButton event={event} />
+            </>
           )}
-          <button
-            onClick={() => setShowEnrich(true)}
-            className="text-gray-400 hover:text-gray-600 transition-colors"
-            title="Edit enrichment"
-          >
-            <Settings2 size={14} />
-          </button>
-          {feedCtx?.onRemoveEvent && (
-            <button
-              onClick={() => feedCtx.onRemoveEvent(event)}
-              className="text-gray-400 hover:text-red-400 transition-colors"
-              title={removeTitle}
-            >
-              <X size={16} />
-            </button>
-          )}
-          <StarButton event={event} />
+          {!isCurator && <div className="flex-1" />}
           <BookmarkButton event={event} />
         </div>
       )}
@@ -181,6 +188,7 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
 /** Curator tools for compact/hover cards — shown inline. */
 export function CuratorTools({ event }) {
   const { user } = useAuth();
+  const { isCurator } = useCurator();
   const feedCtx = useFeedContext();
   const [showCatModal, setShowCatModal] = React.useState(false);
   const [showEnrich, setShowEnrich] = React.useState(false);
@@ -193,39 +201,43 @@ export function CuratorTools({ event }) {
   return (
     <>
       <div className="flex items-center gap-1.5">
-        {event.category ? (
-          <button
-            onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
-            className="text-gray-400 hover:text-gray-600 transition-colors"
-            title="Override category"
-          >
-            <Pencil size={12} />
-          </button>
-        ) : (
-          <button
-            onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
-            className="text-xs text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:text-gray-300 transition-colors"
-          >
-            +cat
-          </button>
+        {isCurator && (
+          <>
+            {event.category ? (
+              <button
+                onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+                title="Override category"
+              >
+                <Pencil size={12} />
+              </button>
+            ) : (
+              <button
+                onClick={e => { e.stopPropagation(); setShowCatModal(true); }}
+                className="text-xs text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:text-gray-300 transition-colors"
+              >
+                +cat
+              </button>
+            )}
+            <button
+              onClick={e => { e.stopPropagation(); setShowEnrich(true); }}
+              className="text-gray-400 hover:text-gray-600 transition-colors"
+              title="Edit enrichment"
+            >
+              <Settings2 size={12} />
+            </button>
+            {feedCtx?.onRemoveEvent && (
+              <button
+                onClick={e => { e.stopPropagation(); feedCtx.onRemoveEvent(event); }}
+                className="text-gray-400 hover:text-red-400 transition-colors"
+                title={removeTitle}
+              >
+                <X size={14} />
+              </button>
+            )}
+            <StarButton event={event} size={14} />
+          </>
         )}
-        <button
-          onClick={e => { e.stopPropagation(); setShowEnrich(true); }}
-          className="text-gray-400 hover:text-gray-600 transition-colors"
-          title="Edit enrichment"
-        >
-          <Settings2 size={12} />
-        </button>
-        {feedCtx?.onRemoveEvent && (
-          <button
-            onClick={e => { e.stopPropagation(); feedCtx.onRemoveEvent(event); }}
-            className="text-gray-400 hover:text-red-400 transition-colors"
-            title={removeTitle}
-          >
-            <X size={14} />
-          </button>
-        )}
-        <StarButton event={event} size={14} />
         <BookmarkButton event={event} size={14} />
       </div>
       {showCatModal && (

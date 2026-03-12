@@ -14,6 +14,7 @@ import { useProcessedEvents } from './hooks/useProcessedEvents.js';
 import { useInfiniteScroll } from './hooks/useInfiniteScroll.js';
 import { useColumnCount } from './hooks/useColumnCount.js';
 import { useAuth } from './hooks/useAuth.jsx';
+import { useCurator } from './hooks/useCurator.jsx';
 import { useFeatured } from './hooks/useFeatured.jsx';
 import { getActiveCategories } from './lib/helpers.js';
 
@@ -32,6 +33,7 @@ function App() {
   }, []);
 
   const { user } = useAuth();
+  const { isCurator } = useCurator();
   const { featuredStore } = useFeatured();
   const featuredIds = useSyncExternalStore(featuredStore.subscribe, featuredStore.getSnapshot);
   const [filterTerm, setFilterTerm] = useState('');
@@ -109,8 +111,8 @@ function App() {
       <div className="max-w-[1400px] w-full px-4 py-6">
         <Header city={city} events={processedEvents} />
 
-        {/* View mode tabs — only show when signed in */}
-        {user && (
+        {/* View mode tabs — Collections tab only for curators */}
+        {isCurator && (
           <div className="flex gap-1 mb-4">
             <button
               onClick={() => setViewMode('cards')}
@@ -133,7 +135,7 @@ function App() {
 
         {viewMode === 'cards' && (
           <>
-            {user && <CollectionTargetBar />}
+            {isCurator && <CollectionTargetBar />}
             <SearchBar
               filterTerm={filterTerm}
               onFilterTermChange={(val) => { setFilterTerm(val); setDisplayCount(50); }}
