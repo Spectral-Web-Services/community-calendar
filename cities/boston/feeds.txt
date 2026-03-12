@@ -20,6 +20,8 @@ cities/boston/ovationtix_central_square.ics
 cities/boston/ovationtix_asp.ics
 # cmd: python scrapers/ovationtix.py --org 177 --name "Wheelock Family Theatre"
 cities/boston/ovationtix_wheelock.ics
+# cmd: python scrapers/art_calendar.py
+cities/boston/art.ics
 
 # --- Live feeds ---
 # iCal feed

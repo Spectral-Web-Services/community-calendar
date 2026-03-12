@@ -2,7 +2,7 @@
 
 Focus: Theater (initial phase)
 
-## Currently Implemented (10 sources)
+## Currently Implemented (11 sources)
 
 ### Theater — ICS Feeds
 | Source | Type | Events | Notes |
@@ -12,6 +12,7 @@ Focus: Theater (initial phase)
 ### Theater — Custom Scrapers
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
+| American Repertory Theater | art_calendar.py (embedded JSON) | 38 | Embedded FullCalendar JSON in /calendar/ page |
 | BU School of Theatre | bu_cfa.py (topic 8637) | 23 | WordPress AJAX calendar, shows + student productions |
 
 ### Theater — OvationTix Venues
@@ -32,7 +33,6 @@ Focus: Theater (initial phase)
 ## Discovered - Needs Investigation
 | Source | URL | Notes |
 |--------|-----|-------|
-| American Repertory Theater (A.R.T.) | americanrepertorytheater.org | WordPress, JSON in /calendar page, self-hosted ticketing |
 | Company One Theatre | companyone.org | WordPress/Divi, performs at BCA |
 | Boston Center for the Arts | bostonarts.org | WordPress, Salesforce ticketing |
 | Tufts TDPS | tdps.tufts.edu | Trumba calendar integration |
@@ -52,6 +52,5 @@ Focus: Theater (initial phase)
 
 ## To Investigate (future phases)
 - [ ] Ticketmaster venue IDs for Citizens Opera House, Emerson Colonial (for richer data)
-- [ ] A.R.T. calendar page JSON scraper
 - [ ] Huntington calendar Vue API
 - [ ] Music venues, comedy clubs, community events, meetups, libraries

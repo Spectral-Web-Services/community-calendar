@@ -1045,6 +1045,8 @@ jobs:
         python scrapers/ovationtix.py --org 2462 --name "Central Square Theater" --output cities/boston/ovationtix_central_square.ics || true
         python scrapers/ovationtix.py --org 921 --name "Actors' Shakespeare Project" --output cities/boston/ovationtix_asp.ics || true
         python scrapers/ovationtix.py --org 177 --name "Wheelock Family Theatre" --output cities/boston/ovationtix_wheelock.ics || true
+        # A.R.T. (embedded JSON calendar)
+        python scrapers/art_calendar.py --output cities/boston/art.ics || true
 
     - name: Fetch Boston live feeds
       if: contains(steps.locations.outputs.list, 'boston') && github.event.inputs.regenerate_only != 'true'
