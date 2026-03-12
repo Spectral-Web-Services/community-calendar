@@ -27,6 +27,8 @@ import { SUPABASE_URL, SUPABASE_KEY } from '../../lib/supabase.js';
 import EnrichmentEditor from '../EnrichmentEditor.jsx';
 import EmbedModal from '../EmbedModal.jsx';
 
+export const hideOnImgError = (e) => { e.target.style.display = 'none'; };
+
 export const CATEGORY_ICONS = {
   'Arts / Culture': Palette,
   'Books / Literature / Poetry': BookOpen,
@@ -354,7 +356,7 @@ export function DetailModal({ event, dateStr, timeStr, onClose }) {
         {event.location && <p className="text-sm text-gray-700 dark:text-gray-300 mb-1">{event.location}</p>}
         {event.source && <p className="text-sm text-gray-400 italic mb-3">{event.source}</p>}
         {event.image_url && (
-          <img src={event.image_url} alt="" className="w-full object-contain mb-4 rounded-lg" />
+          <img src={event.image_url} alt="" className="w-full object-contain mb-4 rounded-lg" onError={hideOnImgError} />
         )}
         {event.description && (
           <div

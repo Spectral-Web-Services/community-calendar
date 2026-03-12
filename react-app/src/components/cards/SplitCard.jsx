@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle } from './shared.jsx';
+import { useEventCardData, ActionBar, SearchSnippet, DetailModal, EventTitle, hideOnImgError } from './shared.jsx';
 
 export default function SplitCard({ event, filterTerm, onCategoryFilter }) {
   const [showDetail, setShowDetail] = useState(false);
@@ -14,7 +14,7 @@ export default function SplitCard({ event, filterTerm, onCategoryFilter }) {
             {/* Left — image */}
             {event.image_url && (
               <div className="w-2/5 flex-shrink-0">
-                <img src={event.image_url} alt="" className="w-full h-full min-h-[160px] object-cover" loading="lazy" />
+                <img src={event.image_url} alt="" className="w-full h-full min-h-[160px] object-cover" loading="lazy" onError={hideOnImgError} />
               </div>
             )}
 
