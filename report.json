@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T20:14:26.105789",
+  "generated": "2026-03-12T20:21:27.680030",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -41589,32 +41589,44 @@
               "count": 0
             }
           ]
+        },
+        "emerson_theatres": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 15
+            }
+          ]
+        },
+        "lyric_stage": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 60
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Arts / Culture",
-          "count": 235
+          "count": 257
         },
         {
           "category": "Dance / Performance",
-          "count": 119
-        },
-        {
-          "category": "Music / Concerts",
-          "count": 21
+          "count": 162
         },
         {
           "category": "Film / Cinema",
-          "count": 18
+          "count": 22
+        },
+        {
+          "category": "Music / Concerts",
+          "count": 22
         },
         {
           "category": "Family / Kids",
           "count": 17
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 11
         },
         {
           "category": "Comedy / Improv",
@@ -41634,8 +41646,8 @@
         }
       ],
       "images": {
-        "total": 429,
-        "with_image": 277,
+        "total": 488,
+        "with_image": 338,
         "by_source": [
           {
             "source": "Boston Theatre Scene",
@@ -41653,16 +41665,31 @@
             "with_image": 54
           },
           {
+            "source": "Lyric Stage Company",
+            "total": 46,
+            "with_image": 46
+          },
+          {
+            "source": "Emerson Theatres",
+            "total": 13,
+            "with_image": 13
+          },
+          {
             "source": "Tufts Tdps",
             "total": 9,
             "with_image": 4
+          },
+          {
+            "source": "ArtsEmerson, Emerson Theatres",
+            "total": 2,
+            "with_image": 2
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 387,
-        "total_events": 429,
-        "unique_urls": 185,
+        "total_with_url": 446,
+        "total_events": 488,
+        "unique_urls": 200,
         "generic_count": 16,
         "generic_domains": [
           {
@@ -41687,6 +41714,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "Lyric Stage Company",
+            "events": 46,
+            "unique_urls": 2,
+            "specificity_pct": 4
+          },
+          {
             "source": "Central Square Theater",
             "events": 38,
             "unique_urls": 2,
@@ -41706,8 +41739,8 @@
           },
           {
             "source": "ArtsEmerson",
-            "events": 27,
-            "unique_urls": 27,
+            "events": 25,
+            "unique_urls": 25,
             "specificity_pct": 100
           },
           {
@@ -41729,10 +41762,22 @@
             "specificity_pct": 27
           },
           {
+            "source": "Emerson Theatres",
+            "events": 13,
+            "unique_urls": 13,
+            "specificity_pct": 100
+          },
+          {
             "source": "Tufts Tdps",
             "events": 3,
             "unique_urls": 1,
             "specificity_pct": 33
+          },
+          {
+            "source": "ArtsEmerson, Emerson Theatres",
+            "events": 2,
+            "unique_urls": 2,
+            "specificity_pct": 100
           }
         ]
       }

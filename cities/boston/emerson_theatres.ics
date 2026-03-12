@@ -1,0 +1,240 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Emerson Theatres - ECPv6.15.13.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Emerson Theatres
+X-ORIGINAL-URL:https://emersontheatres.org
+X-WR-CALDESC:Events for Emerson Theatres
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260314T000000
+DTEND;TZID=America/New_York:20260314T235959
+DTSTAMP:20260312T161741
+CREATED:20251110T173139Z
+LAST-MODIFIED:20251209T175642Z
+UID:10000044-1773446400-1773532799@emersontheatres.org
+SUMMARY:Heart of a Dog
+DESCRIPTION:HEART OF A DOG\n\n\n\nBased on the satirical novel by Mikhail BulgakovDirected by Konstantin KamenskyStarring: Alexandr Feklistov\, Artur Smolyaninov\, Semyon Shteinberg\, Grigory Sluzhitel\, Sasha Aleksis and Irina Soboleva \n\n\n\n \n\n\n\n\nStep into the surreal and satirical world of Mikhail Bulgakov’s Heart of a Dog\, where a stray dog’s astonishing transformation into a man reveals the absurdities\, contradictions\, and fragile hopes of a society in flux. Sharp humor meets profound social commentary in this gripping tale\, making Bulgakov’s classic as electrifying and relevant today as it was in 1920s Moscow. \n\n\n\nUnder the visionary direction of Konstantin Kamensky\, the production comes alive with immersive multimedia\, striking visuals\, and bold performances. \n\n\n\nMore than a play\, Heart of a Dog is an unforgettable theatrical journey that entertains\, challenges\, and lingers long after the curtain falls—holding a mirror up to our world with Bulgakov’s timeless wit and piercing insight. \n\n\n\n\n\n\n\nWatch the Trailer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Info\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVenue\n\n\n\n\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n1 Hour 45 minutes with no intermission \n\n\n\n\n\n\nThis play is performed in Russian without Subtitles\n\n\n\n\n\n\nHealth & Safety Information
+URL:https://emersontheatres.org/event/heart-of-a-dog/
+LOCATION:Emerson Cutler Majestic Theatre\, 219 Tremont St\, Boston\, MA\, 02116\, United States
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/11/v1_300x250_COFF.png.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260318T000000
+DTEND;TZID=America/New_York:20260321T235959
+DTSTAMP:20260312T161741
+CREATED:20250905T193246Z
+LAST-MODIFIED:20260206T170333Z
+UID:10000038-1773792000-1774137599@emersontheatres.org
+SUMMARY:NEWFEST: SHORT WORKS 2026
+DESCRIPTION:NEWFEST: SHORT WORKS 2026\n\n\n\n\nA festival of short plays written\, directed\, and performed by Emerson College Performing Arts students. \n\n\n\nPLEASE NOTE: This is a free event. Guests will be seated on a first-come\, first-served basis upon arrival. Reserving your tickets does not necessarily guarantee admission\, but we rarely turn anyone away from our free events. Please plan to arrive early—ideally 20 to 30 minutes before showtime—to ensure entry. \n\n\n\n\n\n\n\nTo reserve your tickets\, please fill out this form: \n\n\n\nTickets\n\n\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Info\n\n\n\nTo reserve your tickets\, please fill out this form: \n\n\n\nTickets\n\n\n\nVenue\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n1 Hour 45 Mins \n\n\n\n\n\n\n\n\n\n\n\nAge 12+ \n\n\n\n\n\n\n\n\n\n\n\nFree with RSVP \n\n\n\n\n\nHealth & Safety Information
+URL:https://emersontheatres.org/event/newfest-short-works-2026/
+LOCATION:Semel Theatre\, 10 Boylston Pl\, Boston\, Massachusetts\, 02116\, United States
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/09/NewWorksThumb.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260325T000000
+DTEND;TZID=America/New_York:20260328T235959
+DTSTAMP:20260312T161741
+CREATED:20250905T193845Z
+LAST-MODIFIED:20260309T162853Z
+UID:10000039-1774396800-1774742399@emersontheatres.org
+SUMMARY:NewFest: ROD PARKER PRODUCTION
+DESCRIPTION:When Death Crashes a Dinner Party \n\n\n\nNewFest: Rod Parker Production\n\n\n\nDirected by Joe Antoun\n\n\n\n\nAt a refined cocktail hour meant to honor the mysteriously absent Edmund Ford\, five guests exchange martinis\, pleasantries\, and—very quickly—accusations. What begins as polite chatter devolves into a chaotic unraveling of secrets\, grudges\, and unexpected reckonings with one another and themselves. \n\n\n\n\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Info\n\n\n\nVenue\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n1 Hour 15 Mins \n\n\n\n\n\n\n\n\n\n\n\nAge 13+ \n\n\n\n\n\nHealth & Safety Information
+URL:https://emersontheatres.org/event/newfest-rod-parker-production/
+LOCATION:Greene Theatre\, 10 Boylston Place 6th floor\, Boston\, Massachusetts\, 02116\, United States
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/09/networksThumb.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260403T000000
+DTEND;TZID=America/New_York:20260403T235959
+DTSTAMP:20260312T161741
+CREATED:20260311T143554Z
+LAST-MODIFIED:20260311T164104Z
+UID:10000078-1775174400-1775260799@emersontheatres.org
+SUMMARY:Orwell 2+2=5
+DESCRIPTION:George Orwell was one of the most visionary authors of the 20th Century\, whose novels\, 1984 and Animal Farm\, foretold a chilling\, authoritarian future. Acclaimed director Raoul Peck (I Am Not Your Negro) interweaves clips\, readings from Orwell’s diary\, cinematic references\, and modern-day footage to craft not only a portrait of the writer\, but a fresh take on how prophetic his work has become.
+URL:https://artsemerson.org/events/shared-stories-orwell/#new_tab
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/Orwell-with-AE-Logo.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260404T000000
+DTEND;TZID=America/New_York:20260404T235959
+DTSTAMP:20260312T161741
+CREATED:20260311T163835Z
+LAST-MODIFIED:20260311T164117Z
+UID:10000079-1775260800-1775347199@emersontheatres.org
+SUMMARY:Family Matters
+DESCRIPTION:Spanning twenty-four years and four distinct time periods\, Family Matters follows the seemingly ordinary lives of a Taiwanese family. Each member faces a life-altering challenge: the elder sister seeks her true origins\, the younger brother meets his birth father by chance\, the mother grapples with artificial insemination\, and the father desperately tries to turn his life around. \n\n\n\nTold from the perspectives of different family members\, the film delves into the complexities of family bonds and how love and resilience shape their lives. Some confront their challenges head-on\, while others quietly let go. Yet\, through their moments of despair and hope\, they cling to each other\, refusing to let each other drift apart. \n\n\n\nUltimately\, Family Matters because\, in the end\, it’s what truly matters to us all.
+URL:https://artsemerson.org/events/projecting-connections-family-matters/
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/family-matters-w-AE-overlay.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260416T000000
+DTEND;TZID=America/New_York:20260418T235959
+DTSTAMP:20260312T161741
+CREATED:20250905T193939Z
+LAST-MODIFIED:20251031T143736Z
+UID:10000040-1776297600-1776556799@emersontheatres.org
+SUMMARY:SWEET CHARITY
+DESCRIPTION:SWEET CHARITY\n\n\n\nBook by Neil SimonMusic by Cy ColemanLyrics by Dorothy FieldsDirected & Choreographed by Larry SousaMusic Direction by Jonathan Goldberg\n\n\n\n\nThe story of Charity Hope Valentine\, a dance hall hostess in NYC\, who is optimistic and always searching for love despite a string of bad relationships. The musical follws her misadventures as she encounters various men\, including a famous move star and a shy accountant\, ultimately grappling with her hopes and disappointments in love. \n\n\n\n \n\n\n\nSWEET CHARITY is presented by special arrangement with Concord Theatricals on behalf of Tams Witmark\, LLC.  \n\n\n\n\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Info\n\n\n\nVenue\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n2 hours 30 mins \n\n\n\nincluding a 15 min intermission \n\n\n\n\n\n\n\n\n\n\n\nAges 14+ \n\n\n\n\n\n\n\n\n\n\n\nContent Warning: \n\n\n\nMature themes such as alcohol use\, smoking\, sexual references & themes including sex work and sexually suggestive humor. \n\n\n\n\n\nHealth & Safety Information
+URL:https://emersontheatres.org/event/sweet-charity/
+LOCATION:Emerson Cutler Majestic Theatre\, 219 Tremont St\, Boston\, MA\, 02116\, United States
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/09/CharityThumb.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260423T000000
+DTEND;TZID=America/New_York:20260423T235959
+DTSTAMP:20260312T161741
+CREATED:20260311T164610Z
+LAST-MODIFIED:20260311T164614Z
+UID:10000080-1776902400-1776988799@emersontheatres.org
+SUMMARY:Special Presentation: Saving Face
+DESCRIPTION:A queer romantic comedy set in vibrant\, multicultural New York City\, Alice Wu’s irresistible feature debut breathed fresh life into the genre by combining snappy dialogue and a swooning love story with a poignant narrative about a mother and daughter coming to terms with each other. Just as Wil (Michelle Krusiec)\, a harried young surgical resident\, begins a promising romance with the flirtatious dancer Vivian (Lynn Chen)\, her life is turned upside down when her more traditional Chinese mother (Joan Chen)—unwed and unexpectedly pregnant—moves in with her\, forcing both women to confront the generational and cultural barriers that have long troubled their relationship. Both embracing and cleverly subverting rom-com conventions\, Wu delivers a bighearted ode to the Chinese American diaspora\, and the liberating joy of living one’s truth.
+URL:https://artsemerson.org/events/saving-face/
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/saving-face.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260424T000000
+DTEND;TZID=America/New_York:20260424T235959
+DTSTAMP:20260312T161741
+CREATED:20260311T164834Z
+LAST-MODIFIED:20260311T164838Z
+UID:10000081-1776988800-1777075199@emersontheatres.org
+SUMMARY:Special Presentation: The Half of It
+DESCRIPTION:When smart but cash-strapped teen Ellie Chu agrees to write a love letter for a jock\, she doesn’t expect to become his friend — or fall for his crush.
+URL:https://artsemerson.org/events/the-half-of-it/
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/half-of-it.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260424T000000
+DTEND;TZID=America/New_York:20260503T235959
+DTSTAMP:20260312T161741
+CREATED:20250625T172022Z
+LAST-MODIFIED:20260311T174959Z
+UID:10000017-1776988800-1777852799@emersontheatres.org
+SUMMARY:The Secret Sharer
+DESCRIPTION:In this world premiere performance\, Joseph Conrad’s acclaimed novella is adapted to tell a powerful tale of two men\, outsiders in their societies\, who forge a shared\, intimate\, and healing connection against all odds.
+URL:https://artsemerson.org/events/the-secret-sharer/
+LOCATION:Emerson Paramount Center\, 559 Washington St\, Boston\, MA 02111\, Boston\, MA\, 02111\, United States
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/06/secret-sharere-AE-overlay.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260424T193000
+DTEND;TZID=America/New_York:20260424T223000
+DTSTAMP:20260312T161741
+CREATED:20260309T140000Z
+LAST-MODIFIED:20260309T141148Z
+UID:10000077-1777059000-1777069800@emersontheatres.org
+SUMMARY:Mozart’s Idomeneo
+DESCRIPTION:Presented by Boston Baroque \n\n\n\nMozart’s Idomeneo\n\n\n\n\nBoston Baroque proudly presents Idomeneo\, the powerful opera by Wolfgang Amadeus Mozart that explores the tragic conflict between duty and love. Premiered in Munich in 1781 for the court of Elector Karl Theodor of Bavaria\, the opera was written at a time when Mozart was eager to establish himself as a serious composer of opera seria. Drawing on the classical tradition of Italian opera\, he infused Idomeneo with unprecedented emotional depth\, psychological realism\, and dramatic sophistication. Each aria and ensemble is carefully crafted to reveal the inner conflicts of the characters\, showcasing Mozart’s mastery of orchestration and his innovative approach to character development\, rather than simply highlighting vocal virtuosity. \n\n\n\nThe libretto\, based on a Greek myth\, enabled Mozart to explore themes of duty\, sacrifice\, and human frailty. He pushed the boundaries of the form by blending the formal elegance of opera seria with sudden bursts of dramatic tension and expressive orchestral color. Notably\, Idomeneo includes intricate ensembles\, choruses\, and orchestral passages that heighten the emotional stakes\, a bold move for its time. Mozart’s score also hints at the influence of The Enlightenment\, emphasizing moral dilemmas and the complex interplay of personal desire and social responsibility. \n\n\n\nSet in the aftermath of the Trojan War\, the opera follows King Idomeneo of Crete as he returns home from battle. When a violent storm threatens to destroy his fleet\, he makes a desperate vow to Neptune that he will sacrifice the first living being he encounters upon reaching land if his life is spared. Fate intervenes when that person turns out to be his own son\, Idamante. As Idomeneo struggles with the devastating promise he has made\, a web of love\, jealousy\, and loyalty unfolds: Idamante and the Trojan princess Ilia fall deeply in love\, while the fiery Elettra\, daughter of Agamemnon\, burns with jealous desire for Idamante. \n\n\n\nThis semi-staged production is led by conductor David Bates and stage director Bill Barclay and features an exceptional cast\, including David Portillo as Idomeneo\, Valerie Eickhoff as Idamante\, Hera Hyesang Park as Ilia\, Omar Najmi as Arbace\, Wendy Bryn Harmer as Elettra\, and Joel Clemens as La Voce. \n\n\n\nThe opera will be performed at Boston’s Emerson Paramount Center\, a beautifully restored 1930s movie palace located in the vibrant Theater District. The elegant Robert J. Orchard Stage\, with its intimate 572-seat capacity and art deco design\, offers an immersive atmosphere that perfectly complements the emotional depth and grandeur of Mozart’s masterpiece. \n\n\n\nJoin us for this historic first presentation of Idomeneo by Boston Baroque\, where myth\, music\, and heartfelt drama combine in an unforgettable operatic experience. \n\n\n\n\n\n\n\nEvent Info\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 26 AT 3:00 pm – 6:00 pm \n\n\n\n\n\n\n\n\n\nVenue\n\n\n\n\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n3 Hours wtih 20 minute intermission \n\n\n\n\n\n\n\n\n\n\n\nAll Ages \n\n\n\n\n\n\n\n\n\n\n\nPerformed in Italian with surtitles \n\n\n\n\n\nLearn More \n\n\n\n\n\nHealth & Safety Information
+URL:https://emersontheatres.org/event/mozarts-idomeneo/
+LOCATION:Robert J. Orchard Stage\, Emerson Paramount Center\, 559 Washington St\, Boston\, Massachusetts\, 02111\, United States
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/Homepage-feature.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260515T000000
+DTEND;TZID=America/New_York:20260515T235959
+DTSTAMP:20260312T161741
+CREATED:20260311T171109Z
+LAST-MODIFIED:20260311T171113Z
+UID:10000082-1778803200-1778889599@emersontheatres.org
+SUMMARY:Beam Me Up\, Sulu
+DESCRIPTION:In 1985\, George Takei helped a group of diehard Star Trek fans to make a student film in the California forest\, but the footage mysteriously disappeared. 36 years later\, Beam Me Up\, Sulu tells the story of Takei’s extraordinary act of kindness\, explores the history of Asian-American representation in television\, and shows what Star Trek’s legacy of inclusion means to millions of fans.
+URL:https://artsemerson.org/events/shared-stories-beam-me-up-sulu/
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/beam-me-up-sulu-ae-overlay.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260515T190000
+DTEND;TZID=America/New_York:20260516T130000
+DTSTAMP:20260312T161741
+CREATED:20260220T155215Z
+LAST-MODIFIED:20260225T184533Z
+UID:10000066-1778871600-1778936400@emersontheatres.org
+SUMMARY:Forward
+DESCRIPTION:FORWARD\n\n\n\nDance Transformed\n\n\n\n\n\n\nChoreographer\n\n\n\nAlessandro GiaquintoKen OssolaJacopo GodaniJames GreggYury YanowskyEkko Greenbaum \n\n\n\n\n\n Works\n\n\n\nYasuragi No ChiOf LightEchoes from a Restless SoulWorld PremiereWorld PremiereWorld Premiere \n\n\n\n\n\nFORWARD propels dance beyond its limits\, amplifying the voices of visionary choreographers who are redefining the art form. Featuring three world premieres and three Boston premieres\, this evening marks a powerful evolution of intimate works designed to ignite\, challenge\, and transform the way you experience art. Drawing artists from across the globe\, FORWARD channels vitality\, curiosity\, and fearless innovation into a dynamic landscape of contemporary dance. \n\n\n\nAlessandro Giaquinto (Yasuragi No Chi)\, the renowned Italian choreographer\, is celebrated for work rooted in human connection\, memory\, and emotion. Swiss choreographer Ken Ossola (Of Light) brings sculpted movement and a distinct poetic voice. World-renowned Jacopo Godani (Echoes from a Restless Soul) delivers his signature high-velocity\, technically demanding style to Boston. \n\n\n\nEkko Greenbaum (World Premiere) is one to watch as she debuts her first commissioned work with Lam Dance Works\, her narrative movement speaks volumes\, drawing from authentic experience to challenge and reshape perception. Los Angeles–based James Gregg (World Premiere) creates a mesmerizing collective vision that transports audiences to a place of utopia. Spanish choreographer Yury Yanowsky (World Premiere) completes the program\, offering a rich world of possibilities through his prolific artistic lens. \n\n\n\nJoin us for an extraordinary evening of dance showcasing exceptional artistry. \n\n\n\nExplore more at: www.lamdanceworks.org \n\n\n\nFollow us at: @lamdanceworks \n\n\n\n\n\n\n\nWelcoming Receptions Before Both Performances\n\n\n\nStarting 90 minutes before each performance and lasting an hour each\, a welcome reception with beverages and light bites provided by Formaggio Kitchen can be added on to your FORWARD ticket order for $55 per person. To book\, select a FORWARD performance date and time below and choose your seats. You will be prompted with the option to add Reception tickets to your cart before heading to checkout. \n\n\n\n\n\n\n\nEvent Info\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVenue\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n80 minutes including a 15 minute intermission \n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\nInfants and children under 2 not permittedin the theatre. \n\n\n\n\nSpecial Events\n\n\n\n\n\n\n\n\n\n\nFriday\, May 15th at 5:30 – 6:30pm \n\n\n\nCocktails with light bites provided by Formaggio Kitchen  \n\n\n\n\n\n\n\n\n\n\n\nSaturday\, May 16th 11:30 – 12:30pm \n\n\n\nMix & Mingle light bites provided by Formaggio Kitchen  \n\n\n\n\n \n\n\n\n\nHealth & Safety Information
+URL:https://emersontheatres.org/event/lam-dance-works/
+LOCATION:Emerson Paramount Center\, 559 Washington St\, Boston\, MA 02111\, Boston\, MA\, 02111\, United States
+ATTACH;FMTTYPE=image/jpeg:https://emersontheatres.org/wp-content/uploads/sites/81/2026/02/Banners_Homepage-Feature.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260516T000000
+DTEND;TZID=America/New_York:20260516T235959
+DTSTAMP:20260312T161741
+CREATED:20260311T171558Z
+LAST-MODIFIED:20260311T171601Z
+UID:10000083-1778889600-1778975999@emersontheatres.org
+SUMMARY:Profiles of Boston: Portraits from the Heart of Chinatown
+DESCRIPTION:Four short films that illuminate Boston’s Chinatown through personal stories of family\, memory\, and resilience. \n\n\n\nTogether\, they form a living portrait of a vibrant and enduring community shaped by generations of perseverance\, care\, and connection.
+URL:https://artsemerson.org/events/projecting-connections-profiles-of-boston-portraits-from-the-heart-of-chinatown/
+ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/home-plate-AE-overlay.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260606T160000
+DTEND;TZID=America/New_York:20260606T173000
+DTSTAMP:20260312T161741
+CREATED:20260211T155716Z
+LAST-MODIFIED:20260211T164235Z
+UID:10000061-1780761600-1780767000@emersontheatres.org
+SUMMARY:THE SCREWTAPE LETTERS
+DESCRIPTION:Presented by Fellowship for Performing Arts \n\n\n\nC.S.Lewis’ The Screwtape Letters\n\n\n\n\nA battle is being waged for your soul from an office in hell! Witness a fast-paced\, tour-de-force performance in this acclaimed adaptation of C.S. Lewis’ satiric masterpiece. \n\n\n\nThis international hit offers a faithful stage adaptation of Lewis’ The Screwtape Letters\, following Screwtape\, a senior tempter in Hell\, as he schemes to capture the soul of an unsuspecting human on earth and reveals spiritual warfare in vivid\, humorous and powerful ways. \n\n\n\n\n\nGallery\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n			\n				\n			\n		\n\n\n\n\n			\n				\n			\n		\n\n\n\n\n			\n				\n			\n		\n\n\n\n\n			\n				\n			\n		\n\n\n\n\n			\n				\n			\n		\n\n\n\n\nLearn More\n\n\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Info\n\n\n\nVenue\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n90 mins with no intermission \n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\nAges 13+\, Children under 4 are not admitted \n\n\n\n\n \n\n\n\n\nHealth & Safety Information
+URL:https://emersontheatres.org/event/the-screwtape-letters/
+LOCATION:Emerson Cutler Majestic Theatre\, 219 Tremont St\, Boston\, MA\, 02116\, United States
+ATTACH;FMTTYPE=image/jpeg:https://emersontheatres.org/wp-content/uploads/sites/81/2026/02/TSL_BostonVenue-350x255_a.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260613T000000
+DTEND;TZID=America/New_York:20260628T235959
+DTSTAMP:20260312T161741
+CREATED:20250625T172022Z
+LAST-MODIFIED:20260105T191706Z
+UID:10000016-1781308800-1782691199@emersontheatres.org
+SUMMARY:In Old Age
+DESCRIPTION:In a house filled with memory\, an unexpected bond brings healing\, hope\, and the courage to move on.
+URL:https://artsemerson.org/events/in-old-age/
+LOCATION:Emerson Paramount Center\, 559 Washington St\, Boston\, MA 02111\, Boston\, MA\, 02111\, United States
+ATTACH;FMTTYPE=image/jpeg:https://emersontheatres.org/wp-content/uploads/sites/81/2025/06/Old-Age-AE-brand-scaled.jpg
+END:VEVENT
+END:VCALENDAR
