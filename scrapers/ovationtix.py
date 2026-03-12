@@ -231,50 +231,84 @@ class OvationTixScraper(BaseScraper):
     def _parse_grid_view(self, soup, production, prod_url, venue):
         """Parse grid/calendar view with month header and day-number cells.
 
-        Performance links (ci.ovationtix.com/.../production/X?performanceId=Y)
-        sit inside table cells. We find the month/year from the page, then
-        resolve each cell's day number to a full date.
+        The grid shows one month at a time with navigation links to other months.
+        We parse the current month, then follow "next month" links to get all
+        performances across the production's run.
         """
-        # Find month/year — look for "March 2026" pattern in page text
-        text = soup.get_text()
-        months_found = re.findall(r'(January|February|March|April|May|June|July|'
-                                  r'August|September|October|November|December)\s+(\d{4})', text)
-        if not months_found:
-            return []
+        events = []
+        seen_perf_ids = set()
+        url = f'{BASE_URL}/{self.org_id}?productionId={production["id"]}'
 
-        # Use the first month found (current view)
-        month_name, year_str = months_found[0]
-        base_month = datetime.strptime(f'{month_name} {year_str}', '%B %Y')
+        for _ in range(6):  # max 6 months forward
+            month_events, next_url = self._parse_single_grid_month(
+                soup, production, prod_url, venue, seen_perf_ids)
+            events.extend(month_events)
+
+            if not next_url:
+                break
+
+            # Fetch next month
+            try:
+                resp = self.session.get(next_url, timeout=15)
+                resp.raise_for_status()
+                soup = BeautifulSoup(resp.text, 'html.parser')
+            except Exception:
+                break
+
+        return events
+
+    def _parse_single_grid_month(self, soup, production, prod_url, venue, seen_perf_ids):
+        """Parse one month of a grid calendar. Returns (events, next_month_url)."""
+        text = soup.get_text()
+
+        # Find the displayed month. The page text has nav like:
+        #   "<<\xa0March 2026\n\nMarch 2026\nApril 2026\n\nMay 2026\xa0>>"
+        # The current month is right before the day-of-week headers (Sun/Mon/...).
+        month_pattern = r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})'
+
+        # Best approach: find month right before "Sun" (day-of-week header)
+        cal_match = re.search(month_pattern + r'[^\n]*\n+\s*Sun', text)
+        if cal_match:
+            month_name, year_str = cal_match.group(1), cal_match.group(2)
+        else:
+            # Fallback: skip first month (it's the << nav link), use second
+            all_months = re.findall(month_pattern, text)
+            if len(all_months) >= 2:
+                month_name, year_str = all_months[1]
+            elif all_months:
+                month_name, year_str = all_months[0]
+            else:
+                return [], None
+
+        try:
+            base_month = datetime.strptime(f'{month_name} {year_str}', '%B %Y')
+        except ValueError:
+            return [], None
 
         events = []
-        # Find all performance links for this production
         for link in soup.find_all('a', href=re.compile(rf'/production/{production["id"]}\b')):
+            # Extract performanceId to dedup across months
+            href = link.get('href', '')
+            perf_match = re.search(r'performanceId=(\d+)', href)
+            if perf_match:
+                perf_id = perf_match.group(1)
+                if perf_id in seen_perf_ids:
+                    continue
+                seen_perf_ids.add(perf_id)
+
             time_text = link.get_text(strip=True)
             time_match = re.match(r'(\d{1,2}:\d{2}\s*[ap]m)', time_text, re.IGNORECASE)
             if not time_match:
                 continue
 
-            # Walk up to find the day number in a parent cell
             day = self._find_day_in_parents(link)
             if not day:
                 continue
 
-            # Determine the correct month — if day < current month's first
-            # performance day and we have multiple months, it might be next month
-            dt = base_month.replace(day=day)
-
-            # If multiple months are shown, check if this day belongs to a later month
-            if len(months_found) > 1:
-                # Find which month section this link falls in by checking
-                # position relative to month headers in the HTML
-                for mn, yr in months_found:
-                    try:
-                        candidate = datetime.strptime(f'{mn} {day} {yr}', '%B %d %Y')
-                        # Simple heuristic: use later month if day is small
-                        # and appears after the first month's days
-                        dt = candidate
-                    except ValueError:
-                        continue
+            try:
+                dt = base_month.replace(day=day)
+            except ValueError:
+                continue
 
             full_dt = self._combine_date_time(dt, time_match.group(1))
             if full_dt:
@@ -286,7 +320,23 @@ class OvationTixScraper(BaseScraper):
                     'location': venue,
                 })
 
-        return events
+        # Find next month navigation link
+        next_url = None
+        next_link = soup.find('a', string=re.compile(r'>>\s*$'))
+        if not next_link:
+            # Try finding a link with ">>" in its text
+            for a in soup.find_all('a'):
+                if '>>' in a.get_text():
+                    next_link = a
+                    break
+        if next_link and next_link.get('href'):
+            href = next_link['href']
+            if href.startswith('/'):
+                next_url = f'https://web.ovationtix.com{href}'
+            elif href.startswith('http'):
+                next_url = href
+
+        return events, next_url
 
     def _find_day_in_parents(self, element):
         """Walk up from a link to find the day number in a parent table cell."""
