@@ -1,6 +1,6 @@
 # Portland Sources Checklist
 
-## Currently Implemented (74 sources)
+## Currently Implemented (81 sources)
 
 ### Aggregators / Community Calendars
 | Source | Type | Events | Notes |
@@ -32,11 +32,15 @@
 | Bird Alliance of Oregon | WordPress Tribe ICS | 30 | Birding, nature walks; images |
 | Friends of Tryon Creek | Squarespace scraper | 21 | Trail volunteering, nature storytimes |
 | Crystal Springs Rhododendron Garden | Squarespace scraper | 3 | Forest therapy, birding walks |
+| Friends of Trees (Green Space) | Google Calendar ICS | 75 | Free tree-planting volunteer events |
+| Friends of Trees (Neighborhood) | Google Calendar ICS | 60 | Free neighborhood tree-planting events |
+| Oregon Zoo | oregon_zoo.py scraper | 1-3 | Family events, seasonal; images |
 
 ### Libraries
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
 | WCCLS Libraries | BiblioCommons scraper | 1,970 | 13+ branches, storytimes, classes, book clubs |
+| Multnomah County Library | multcolib.py scraper | 1,795 | Drupal Views AJAX, all branches; images |
 
 ### Eventbrite Organizers (free events)
 | Source | Type | Events | Notes |
@@ -45,6 +49,13 @@
 | Northwest Trail Alliance | Eventbrite scraper | 11 | Free mountain bike trail building; images |
 | Portland Nursery | Eventbrite scraper | 4 | Free gardening classes; images |
 | Habitat for Humanity Portland | Eventbrite scraper | 3 | Free homeownership education; images |
+
+### Ticketmaster Venues (3)
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| Moda Center | Ticketmaster scraper | varies | Trail Blazers, concerts, family shows; images |
+| Veterans Memorial Coliseum | Ticketmaster scraper | varies | Winterhawks, concerts, trade shows; images |
+| Theater of the Clouds | Ticketmaster scraper | varies | Comedy, mid-size concerts; images |
 
 ### Songkick Music Venues (8)
 | Source | Type | Events | Notes |
@@ -139,13 +150,9 @@
 ## Discovered - Needs Scraper
 | Source | URL | Notes |
 |--------|-----|-------|
-| Multnomah County Library | events.multcolib.org/events | Communico platform, needs OAuth or headless browser |
 | Portland State University | pdx.edu/calendar/month | Drupal, per-event "Add to Calendar" only |
-| Oregon Zoo | oregonzoo.org/events | Drupal, sparse events, check seasonally |
 | OMSI | omsi.edu/whats-on/ | WordPress, REST API blocked by security plugin |
 | Oregon Symphony | orsymphony.org/calendar/ | No feeds found |
-| Portland Parks & Recreation | portland.gov/parks/events | Covered by portland_gov.py type filters |
-| City of Portland Arts | portland.gov/arts/arts-events | Covered by portland_gov.py community events |
 | Powell's Books | powells.com/events | Blocks automated access (403) |
 | Portland Center Stage | pcs.org/events | Custom CMS, no feeds |
 | Helium Comedy Club | portland.heliumcomedy.com | SeatEngine ticketing, JSON-LD available |
@@ -156,16 +163,16 @@
 | Source | Reason |
 |--------|--------|
 | Portland city government (Legistar) | Not on Legistar; now scraped via portland_gov.py |
+| Portland Parks & Recreation | portland.gov/parks/events | Covered by portland_gov.py type filters |
+| City of Portland Arts | portland.gov/arts/arts-events | Covered by portland_gov.py community events |
 | Concordia University Portland | Closed permanently in 2020 |
 | Portland Children's Museum | Closed permanently in 2021 |
 | Doug Fir Lounge | Relocating, no events currently |
 
 ## To Investigate
-- [ ] Ticketmaster Portland venues (scraper exists in repo)
 - [ ] Portland'5 Centers full calendar (Drupal scraper for non-music events)
 - [ ] PDX Pipeline (blog RSS, not structured events)
 - [ ] EverOut Portland
 - [ ] DoPDX
-- [ ] Friends of Trees (Cloudflare-blocked WordPress, likely has ICS)
 - [ ] Portland Shambhala Center (Cloudflare-blocked, likely has ICS)
 - [ ] Hands On Greater Portland (volunteer platform)

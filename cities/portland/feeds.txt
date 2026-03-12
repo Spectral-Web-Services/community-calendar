@@ -18,6 +18,10 @@ cities/portland/pdxgov_classes.ics
 cities/portland/pdxgov_public_meetings.ics
 # cmd: python scrapers/portland_gov.py --type 651 --name "Portland Council Meetings"
 cities/portland/pdxgov_council.ics
+# cmd: python scrapers/multcolib.py
+cities/portland/multcolib.ics
+# cmd: python scrapers/oregon_zoo.py
+cities/portland/oregon_zoo.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon"
 cities/portland/eventbrite_trailkeepers.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance"
@@ -44,6 +48,12 @@ cities/portland/songkick_schnitzer.ics
 cities/portland/songkick_alberta_rose.ics
 # cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/70405-keller-auditorium" --name "Keller Auditorium"
 cities/portland/songkick_keller.ics
+# cmd: python scrapers/ticketmaster.py --venue-id KovZpa6MXe --name "Moda Center" --timezone America/Los_Angeles
+cities/portland/ticketmaster_moda_center.ics
+# cmd: python scrapers/ticketmaster.py --venue-id KovZpZAJ67kA --name "Veterans Memorial Coliseum" --timezone America/Los_Angeles
+cities/portland/ticketmaster_veterans_coliseum.ics
+# cmd: python scrapers/ticketmaster.py --venue-id KovZpZAJ6E6A --name "Theater of the Clouds" --timezone America/Los_Angeles
+cities/portland/ticketmaster_theater_clouds.ics
 
 # Squarespace
 # cmd: python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/events" --name "Portland Saturday Market"
@@ -89,6 +99,8 @@ https://anandaportland.org/?post_type=tribe_events&ical=1&eventDisplay=list
 https://calendar.google.com/calendar/ical/c_f7874efb584df10c8a9a4a06f0ec2562d20426bc84a0f89335fe20429c498448%40group.calendar.google.com/public/basic.ics
 https://www.google.com/calendar/ical/629tvcnf17grg9v0fgvge9pb7c%40group.calendar.google.com/public/basic.ics
 https://calendar.google.com/calendar/ical/kqt4cjm6mi8r1jpl3j5fpb8h0k%40group.calendar.google.com/public/basic.ics
+https://calendar.google.com/calendar/ical/friendsoftrees.org_t2a9f98m9qpie05r3r9koc79do%40group.calendar.google.com/public/basic.ics
+https://calendar.google.com/calendar/ical/friendsoftrees.org_0n4gn3378fgvrj7lh216ssei8s%40group.calendar.google.com/public/basic.ics
 
 # Meetup
 https://www.meetup.com/portland-code-coffee/events/ical/

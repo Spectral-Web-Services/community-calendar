@@ -904,6 +904,8 @@ jobs:
     # ==========================================
     - name: Scrape Portland sources
       if: contains(steps.locations.outputs.list, 'portland') && github.event.inputs.regenerate_only != 'true'
+      env:
+        TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       run: |
         python scrapers/legistar.py --client oregonmetro --source "Oregon Metro" --output cities/portland/legistar_oregon_metro.ics || true
         # Portland.gov city events (per category)
@@ -912,6 +914,15 @@ jobs:
         python scrapers/portland_gov.py --type 583 --name "Portland Classes & Activities" --output cities/portland/pdxgov_classes.ics || true
         python scrapers/portland_gov.py --type 333 --name "Portland Public Meetings" --output cities/portland/pdxgov_public_meetings.ics || true
         python scrapers/portland_gov.py --type 651 --name "Portland Council Meetings" --output cities/portland/pdxgov_council.ics || true
+        # Multnomah County Library
+        python scrapers/multcolib.py --output cities/portland/multcolib.ics || true
+        # Oregon Zoo
+        python scrapers/oregon_zoo.py --output cities/portland/oregon_zoo.ics || true
+        # Ticketmaster venues
+        python scrapers/ticketmaster.py --venue-id KovZpa6MXe --name "Moda Center" --timezone America/Los_Angeles -o cities/portland/ticketmaster_moda_center.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpZAJ67kA --name "Veterans Memorial Coliseum" --timezone America/Los_Angeles -o cities/portland/ticketmaster_veterans_coliseum.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpZAJ6E6A --name "Theater of the Clouds" --timezone America/Los_Angeles -o cities/portland/ticketmaster_theater_clouds.ics || true
+        # Eventbrite organizers
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon" --output cities/portland/eventbrite_trailkeepers.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance" --output cities/portland/eventbrite_nw_trail_alliance.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/portland-nursery-classes-31455803001" --name "Portland Nursery" --output cities/portland/eventbrite_portland_nursery.ics || true
@@ -968,6 +979,9 @@ jobs:
         # Google Calendar
         curl -sL "https://www.google.com/calendar/ical/629tvcnf17grg9v0fgvge9pb7c%40group.calendar.google.com/public/basic.ics" -o portland_timbers.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/kqt4cjm6mi8r1jpl3j5fpb8h0k%40group.calendar.google.com/public/basic.ics" -o portland_thorns.ics || true
+        # Friends of Trees (Google Calendar)
+        curl -sL "https://calendar.google.com/calendar/ical/friendsoftrees.org_t2a9f98m9qpie05r3r9koc79do%40group.calendar.google.com/public/basic.ics" -o friends_of_trees_green_space.ics || true
+        curl -sL "https://calendar.google.com/calendar/ical/friendsoftrees.org_0n4gn3378fgvrj7lh216ssei8s%40group.calendar.google.com/public/basic.ics" -o friends_of_trees_neighborhood.ics || true
         # Meetup groups - Tech
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/portland-code-coffee/events/ical/" -o meetup_portland_code_coffee.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/code-for-pdx/events/ical/" -o meetup_code_for_pdx.ics || true
