@@ -1,6 +1,6 @@
 # Portland Sources Checklist
 
-## Currently Implemented (69 sources)
+## Currently Implemented (74 sources)
 
 ### Aggregators / Community Calendars
 | Source | Type | Events | Notes |
@@ -79,6 +79,11 @@
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
 | Oregon Metro | Legistar scraper | varies | Metro Council meetings |
+| Portland Community Events | portland_gov.py (type 329) | 59 | City community events; images, locations |
+| Portland Volunteer Events | portland_gov.py (type 364) | 92 | City volunteer events; images, locations |
+| Portland Classes & Activities | portland_gov.py (type 583) | 33 | City classes and activities; images |
+| Portland Public Meetings | portland_gov.py (type 333) | 85 | Public meetings; locations |
+| Portland Council Meetings | portland_gov.py (type 651) | 49 | City council meetings |
 
 ### Meetup Groups - Tech (5)
 | Source | Type | Events | Notes |
@@ -139,8 +144,8 @@
 | Oregon Zoo | oregonzoo.org/events | Drupal, sparse events, check seasonally |
 | OMSI | omsi.edu/whats-on/ | WordPress, REST API blocked by security plugin |
 | Oregon Symphony | orsymphony.org/calendar/ | No feeds found |
-| Portland Parks & Recreation | portland.gov/parks/events | Drupal, 114 events (mostly volunteer) |
-| City of Portland Arts | portland.gov/arts/arts-events | Drupal, no feeds. Arts via Cruncho embed |
+| Portland Parks & Recreation | portland.gov/parks/events | Covered by portland_gov.py type filters |
+| City of Portland Arts | portland.gov/arts/arts-events | Covered by portland_gov.py community events |
 | Powell's Books | powells.com/events | Blocks automated access (403) |
 | Portland Center Stage | pcs.org/events | Custom CMS, no feeds |
 | Helium Comedy Club | portland.heliumcomedy.com | SeatEngine ticketing, JSON-LD available |
@@ -150,7 +155,7 @@
 ## Non-Starters
 | Source | Reason |
 |--------|--------|
-| Portland city government (Legistar) | Not on Legistar; uses own system at portland.gov |
+| Portland city government (Legistar) | Not on Legistar; now scraped via portland_gov.py |
 | Concordia University Portland | Closed permanently in 2020 |
 | Portland Children's Museum | Closed permanently in 2021 |
 | Doug Fir Lounge | Relocating, no events currently |

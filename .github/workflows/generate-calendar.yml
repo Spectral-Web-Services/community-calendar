@@ -906,6 +906,12 @@ jobs:
       if: contains(steps.locations.outputs.list, 'portland') && github.event.inputs.regenerate_only != 'true'
       run: |
         python scrapers/legistar.py --client oregonmetro --source "Oregon Metro" --output cities/portland/legistar_oregon_metro.ics || true
+        # Portland.gov city events (per category)
+        python scrapers/portland_gov.py --type 329 --name "Portland Community Events" --output cities/portland/pdxgov_community.ics || true
+        python scrapers/portland_gov.py --type 364 --name "Portland Volunteer Events" --output cities/portland/pdxgov_volunteer.ics || true
+        python scrapers/portland_gov.py --type 583 --name "Portland Classes & Activities" --output cities/portland/pdxgov_classes.ics || true
+        python scrapers/portland_gov.py --type 333 --name "Portland Public Meetings" --output cities/portland/pdxgov_public_meetings.ics || true
+        python scrapers/portland_gov.py --type 651 --name "Portland Council Meetings" --output cities/portland/pdxgov_council.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon" --output cities/portland/eventbrite_trailkeepers.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance" --output cities/portland/eventbrite_nw_trail_alliance.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/portland-nursery-classes-31455803001" --name "Portland Nursery" --output cities/portland/eventbrite_portland_nursery.ics || true

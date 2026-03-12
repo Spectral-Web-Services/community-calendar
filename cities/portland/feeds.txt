@@ -8,6 +8,16 @@
 cities/portland/legistar_oregon_metro.ics
 
 # Scraper
+# cmd: python scrapers/portland_gov.py --type 329 --name "Portland Community Events"
+cities/portland/pdxgov_community.ics
+# cmd: python scrapers/portland_gov.py --type 364 --name "Portland Volunteer Events"
+cities/portland/pdxgov_volunteer.ics
+# cmd: python scrapers/portland_gov.py --type 583 --name "Portland Classes & Activities"
+cities/portland/pdxgov_classes.ics
+# cmd: python scrapers/portland_gov.py --type 333 --name "Portland Public Meetings"
+cities/portland/pdxgov_public_meetings.ics
+# cmd: python scrapers/portland_gov.py --type 651 --name "Portland Council Meetings"
+cities/portland/pdxgov_council.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon"
 cities/portland/eventbrite_trailkeepers.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance"
