@@ -7,432 +7,12 @@ X-WR-CALNAME:Roanoke Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-ID:berglund_center
-X-SOURCE:Berglund Center
-DTSTART;VALUE=DATE:20260308
-DTEND;VALUE=DATE:20260326
-DTSTAMP:20260308T234540Z
-UID:3535d45r8v5o0fk9cc18er6qba@google.com
-CREATED:20250623T183538Z
-LAST-MODIFIED:20250623T183538Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Ice Out
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8627"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8627
-DESCRIPTION:City Council Chambers 4th Floor  https://www.roanokeva.gov/cal
- endar.aspx?EID=8627
-DTEND;TZID=America/New_York:20260309T163000
-DTSTAMP;TZID=America/New_York:20260108T101257
-DTSTART;TZID=America/New_York:20260309T133000
-LAST-MODIFIED;TZID=America/New_York:20260108T101257
-LOCATION:Noel C. Taylor Municipal Building - 215 Church Ave. SW  Roanoke V
- A 24011
-SEQUENCE:0
-SUMMARY:City Planning Commission
-UID:8627
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8709"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8709
-DESCRIPTION: https://www.roanokeva.gov/calendar.aspx?EID=8709
-DTEND;TZID=America/New_York:20260309T170000
-DTSTAMP;TZID=America/New_York:20260113T134142
-DTSTART;TZID=America/New_York:20260309T160000
-LAST-MODIFIED;TZID=America/New_York:20260113T134142
-LOCATION:<p>Finance 4<sup data-pasted="true">th</sup> Floor South Conferen
- ce Room</p> - 215 Church Avenue SW  Roanoke VA 24011
-SEQUENCE:0
-SUMMARY:City of Roanoke Finance Board
-UID:8709
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/312791997/"}
-X-SOURCE-ID:meetup_make_roanoke
-X-SOURCE:Meetup Make Roanoke
-UID:event_312791997@meetup.com
-SEQUENCE:1
-DTSTAMP:20260308T234541Z
-DTSTART;TZID=America/New_York:20260309T180000
-DTEND;TZID=America/New_York:20260309T190000
-SUMMARY:MAKE Roanoke Virtual Community Meeting
-DESCRIPTION:MAKE Roanoke\nJoin us online on Google Meet for our monthly Virtual Community Meetings on the Second Monday of each month at 6 pm! No sign-in is required to participate! [https://meet.google.com/ckf-jaic-knt](https://meet.google.com/ckf-jaic-knt?fbclid=IwZXh0bgNhZW0CMTAAAR0I87MPxEC08SRY4Sx0Wff900Qm-Yim7_sSMIk-WqTq5589seAJseGMOZc_aem_1Bo1hNJsLG4ISssxeKfDSg)\n\nThe evening starts with a slideshow sharing the latest updates about Roanoke's own non-profit community makerspace\, including upcoming events\, new tools\, and member announcements. After the updates\, we open the floor for "Maker Show and Tell" where anyone can showcase their creative projects--whether it's a 3D Print\, a woodworking piece\, electronics project\, embroidery\, or any other creative endeavor.\n\nIt's a great way to connect with your fellow Roanoke makers\, get inspired\, collaborate\, and share your passion for making!\n\nThese meetings are free and open to the public\, you do not need to be a MAKE Roanoke Member to attend! All are welcome\, and feel free to lurk!
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/312791997/
-STATUS:CONFIRMED
-CREATED:20260108T220810Z
-LAST-MODIFIED:20260108T220810Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/b/d/7/6/600_530748502.jpeg
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Salem Government Meetings": "https://www.salemva.gov/calendar.aspx?EID=1358"}
-X-SOURCE-ID:salem_government_meetings
-X-SOURCE:Salem Government Meetings
-URL:https://www.salemva.gov/calendar.aspx?EID=1358
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1358
-DTEND;TZID=America/New_York:20260309T193000
-DTSTAMP;TZID=America/New_York:20251125T100119
-DTSTART;TZID=America/New_York:20260309T183000
-LAST-MODIFIED;TZID=America/New_York:20251125T100119
-LOCATION: -
-SEQUENCE:0
-SUMMARY:City Council Meeting
-UID:1358
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313607304/"}
-X-SOURCE-ID:meetup_make_roanoke
-X-SOURCE:Meetup Make Roanoke
-UID:event_313607304@meetup.com
-SEQUENCE:1
-DTSTAMP:20260308T234541Z
-DTSTART;TZID=America/New_York:20260310T100000
-DTEND;TZID=America/New_York:20260310T230000
-SUMMARY:Bite-Size Charity for MAKE Roanoke at Vinton Pizza Hut!
-DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is hosting a fundraiser at the Vinton Pizza Hut on Tuesday\, March 10 from 10 AM - 11 PM!\n\nReady for a mouthwatering meal that supports a great cause? Join us at Pizza Hut (1060 Bypass Road) on Tuesday\, March 10th between 12:00 AM - 11:30 PM and make a difference! With every order you place\, 20% will be donated to MAKE Roanoke. Be sure to [show this flyer](https://drive.google.com/file/d/18XU4S1E32MnQMEU4qqjjUnTM79NRbEru/view?usp=drive_link) to have your purchase count towards our fundraiser!\n\nMAKE Roanoke has made just shy of $800 thanks to restaurant charity fundraisers like this one. We appreciate your support!!
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313607304/
-STATUS:CONFIRMED
-CREATED:20260302T202102Z
-LAST-MODIFIED:20260302T202102Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/7/0/e/1/600_533008897.jpeg
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/ribbon-cutting-qdoba-mexican-eats"}
-X-SOURCE-ID:roanoke_chamber
-SUMMARY:Ribbon Cutting - Qdoba Mexican Eats
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260310T101500
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260310T103000
-UID:b9f4e2b273b1326bef085e65a602d73b@growthzone.com
-DESCRIPTION:✂️Upcoming Ribbon Cutting: Qdoba Mexican Eats✂️ We’r
- e excited to invite you to help us celebrate the grand opening of Qdoba wi
- th an official Ribbon Cutting! 🎉✂️ There’s nothing better than we
- lcoming a new business that brings fresh flavor\, new jobs\, and more ener
- gy to our community. Qdoba is serving up bold\, customizable Mexican eats 
- and now they’re bringing that same zest right here to our region. Join u
- s as we cut the ribbon\, meet the team\, and give them the warm Roanoke we
- lcome they deserve. We’d love to see our members\, ambassadors\, and com
- munity champions there to help mark the moment. Soft Opening – Monday\, 
- February 23\, 2026\, at 10:30 AM to 11PM This will be their first day serv
- ing the Roanoke community. Grand Opening Celebration – Tuesday\, March 1
- 0\, 2026- Ribbon cutting at 10:15am opening at 10:30am They are planning a
-  high-energy community celebration! Event highlights include: • First 10
- 0 guests receive FREE burritos for a year • Spin-to-Win prize wheel give
- aways • Live DJ on 
-URL:https://business.roanokechamber.org/events/details/ribbon-cutting-qdob
- a-mexican-eats
-X-SOURCE:Roanoke Regional Chamber
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8714"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8714
-DESCRIPTION: https://www.roanokeva.gov/calendar.aspx?EID=8714
-DTEND;TZID=America/New_York:20260310T120000
-DTSTAMP;TZID=America/New_York:20260114T094135
-DTSTART;TZID=America/New_York:20260310T110000
-LAST-MODIFIED;TZID=America/New_York:20260114T094135
-LOCATION:Berglund Center - 710 Williamson Road   Roanoke VA 24016
-SEQUENCE:0
-SUMMARY:Roanoke Civic Center Commission
-UID:8714
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/ribbon-cutting-seeking-wellness-counseling-services"}
-X-SOURCE-ID:roanoke_chamber
-SUMMARY:Ribbon Cutting - Seeking Wellness Counseling Services
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260310T113000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260310T120000
-UID:9a6eeb3346603802ce0843cdfb8c6494@growthzone.com
-DESCRIPTION:✂️ Upcoming Ribbon Cutting: Seeking Wellness Counseling Se
- rvices ✂️ Join us as we celebrate Seeking Wellness Counseling Services
-  with an official ribbon cutting! This special event marks an exciting mil
- estone for a business dedicated to supporting mental health\, healing\, an
- d overall well-being in our community. Come help us welcome their team\, s
- how your support\, and celebrate the impact they’re making for individua
- ls and families throughout our region. We’d love to see our Chamber memb
- ers\, ambassadors\, and community partners there to help make this moment 
- extra meaningful. Seeking Wellness Counseling Services is a compassionate 
- sanctuary where mental health and celebrating culture take center stage\, 
- and empowering therapy becomes a transformative journey for communities an
- d their allies facing systemic barriers. They understand that navigating l
- ife's challenges can be an uphill battle\, particularly for individuals an
- d groups who face systemic oppression\, discrimination\, and marginaliza
-URL:https://business.roanokechamber.org/events/details/ribbon-cutting-seek
- ing-wellness-counseling-services
-X-SOURCE:Roanoke Regional Chamber
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Hollins University": "https://www.hollins.edu/event/mfa-thesis-readings/"}
-X-SOURCE-ID:hollins_university
-X-SOURCE:Hollins University
-DTSTART;TZID=America/New_York:20260310T183000
-DTEND;TZID=America/New_York:20260310T193000
-DTSTAMP:20260308T194541
-CREATED:20251008T164536Z
-LAST-MODIFIED:20251008T164544Z
-UID:71852-1773167400-1773171000@www.hollins.edu
-SUMMARY:MFA Thesis Readings
-DESCRIPTION:Second year MFA in Creative Writing students will read from their work. Each night will consist of three or four students reading for fifteen minutes in a variety of genres. There will be a small reception following each reading on the Porches of Main. Sponsored by the Department of English and Creative Writing
-URL:https://www.hollins.edu/event/mfa-thesis-readings/
-LOCATION:Green Drawing Room\, Main
-CATEGORIES:English and Creative Writing
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Hollins University": "https://www.hollins.edu/event/student-recital-6/"}
-X-SOURCE-ID:hollins_university
-X-SOURCE:Hollins University
-DTSTART;TZID=America/New_York:20260310T190000
-DTEND;TZID=America/New_York:20260310T200000
-DTSTAMP:20260308T194541
-CREATED:20260209T160544Z
-LAST-MODIFIED:20260209T160544Z
-UID:73526-1773169200-1773172800@www.hollins.edu
-SUMMARY:Student Recital
-DESCRIPTION:Join us as Hollins students enrolled in private lessons present a recital of their favorite music for family and friends.
-URL:https://www.hollins.edu/event/student-recital-6/
-LOCATION:Talmadge Recital Hall\, Bradley
-CATEGORIES:Concerts,Music,Open to the Public
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1433"}
-X-SOURCE-ID:salem_civic_center
-X-SOURCE:Salem Civic Center
-URL:https://www.salemva.gov/calendar.aspx?EID=1433
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1433
-DTEND;TZID=America/New_York;VALUE=DATE:20260315
-DTSTAMP;TZID=America/New_York:20260228T125159
-DTSTART;TZID=America/New_York;VALUE=DATE:20260311
-LAST-MODIFIED;TZID=America/New_York:20260228T125159
-LOCATION:Salem Civic Center - 1001 Roanoke Blvd.  Salem VA 24153
-SEQUENCE:0
-SUMMARY:Back on the Rack Consignment Sale
-UID:1433
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/good-morning-vbr-march-2026"}
-X-SOURCE-ID:roanoke_chamber
-SUMMARY:Good Morning VBR - March 2026
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260311T080000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260311T091500
-UID:50cc9a678026049c5b7fc37d2c937f92@growthzone.com
-DESCRIPTION:Good Morning\, VBR is a premier morning event series hosted by
-  the Roanoke Regional Chamber\, designed to connect business and community
-  leaders with the people\, initiatives\, and insights shaping the future o
- f Virginia’s Blue Ridge. Offering a comprehensive view of progress\, pri
- orities\, opportunities\, and regional collaboration\, each session featur
- es regional updates and forward-looking conversations from key local leade
- rs representing: City of Roanoke - Ross Campbell\, Director of Public Work
- s Roanoke County - Phil North\, Hollins District Supervisor Botetourt Coun
- ty - Brent Watts\, Director of Communications Franklin County - Lorie Smit
- h\, Chair - Board of Supervisors Town of Rocky Mount - Mark Moore\, Assist
- ant Town Manager City of Salem - Chris Dorsey - City Manager Town of Vinto
- n - Mandy Adkins\, Director of Cultural Placemaking & Events Good Morning 
- VBR provides a platform to explore topics impacting economic development\,
-  infrastructure\, workforce\, community growth\, and more—while streng
-URL:https://business.roanokechamber.org/events/details/good-morning-vbr-ma
- rch-2026
-X-SOURCE:Roanoke Regional Chamber
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/ribbon-cutting-agape-home-health-care"}
-X-SOURCE-ID:roanoke_chamber
-SUMMARY:Ribbon Cutting - Agape Home for Veterans Independent Living
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260311T103000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260311T110000
-UID:285f324e866a201dbc53f0eb5c79113c@growthzone.com
-DESCRIPTION:✂️ Upcoming Ribbon Cutting: Agape Home for Veterans Indepe
- ndent Living ✂️ Please join us for an upcoming ribbon cutting celebrat
- ing Agape Agape Home for Veterans Independent Living! ✂️💙 We’re p
- roud to officially welcome Agape Home for Veterans Independent Living to t
- he Roanoke Regional Chamber and celebrate the important work they do suppo
- rting individuals and families right here in our community. This ribbon cu
- tting is a great opportunity to meet their team\, learn more about their s
- ervices\, and show support for a business dedicated to compassionate\, qua
- lity care. We hope you’ll join us as we help Agape Home for Veterans Ind
- ependent Living mark this exciting milestone and celebrate their commitmen
- t to serving our region.
-URL:https://business.roanokechamber.org/events/details/ribbon-cutting-agap
- e-home-health-care
-X-SOURCE:Roanoke Regional Chamber
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8640"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8640
-DESCRIPTION: https://www.roanokeva.gov/calendar.aspx?EID=8640
-DTEND;TZID=America/New_York:20260311T120000
-DTSTAMP;TZID=America/New_York:20260108T101414
-DTSTART;TZID=America/New_York:20260311T110000
-LAST-MODIFIED;TZID=America/New_York:20260108T101414
-LOCATION:Noel C. Taylor Municipal Building - 215 Church Ave. SW  Roanoke V
- A 24011
-SEQUENCE:0
-SUMMARY:Board of Zoning Appeals: Work Session
-UID:8640
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8653"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8653
-DESCRIPTION: https://www.roanokeva.gov/calendar.aspx?EID=8653
-DTEND;TZID=America/New_York:20260311T150000
-DTSTAMP;TZID=America/New_York:20260108T101505
-DTSTART;TZID=America/New_York:20260311T130000
-LAST-MODIFIED;TZID=America/New_York:20260108T101505
-LOCATION:Noel C. Taylor Municipal Building > City Council Chambers - 215 C
- hurch Ave. SW  Roanoke VA 24011
-SEQUENCE:0
-SUMMARY:Board of Zoning Appeals
-UID:8653
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8827"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8827
-DESCRIPTION: https://www.roanokeva.gov/calendar.aspx?EID=8827
-DTEND;TZID=America/New_York:20260311T170000
-DTSTAMP;TZID=America/New_York:20260213T140608
-DTSTART;TZID=America/New_York:20260311T160000
-LAST-MODIFIED;TZID=America/New_York:20260213T140608
-LOCATION:<p><span style="font-family: Arial\,Helvetica\,sans-serif\;">Disc
- overy Center<br></span><span style="color: rgb(31\, 31\, 31)\; font-famil
- y: Arial\, Helvetica\, sans-serif\; font-size: 14px\; font-style: normal\
- ; font-variant-ligatures: normal\; font-variant-caps: normal\; font-weigh
- t: 400\; letter-spacing: normal\; orphans: 2\; text-align: start\; text-i
- ndent: 0px\; text-transform: none\; widows: 2\; word-spacing: 0px\; -webk
- it-text-stroke-width: 0px\; white-space: normal\; text-decoration-thickne
- ss: initial\; text-decoration-style: initial\; text-decoration-color: ini
- tial\; float: none\; display: inline !important\;" data-pasted="true">200
- 0 Jb Fishburn Pkwy SE</span><span style="font-family: Arial\,Helvetica\,s
- ans-serif\;"><br></span><span style="color: rgb(31\, 31\, 31)\; font-fami
- ly: Arial\, Helvetica\, sans-serif\; font-size: 14px\; font-style: normal
- \; font-variant-ligatures: normal\; font-variant-caps: normal\; font-weig
- ht: 400\; letter-spacing: normal\; orphans: 2\; text-align: start\; text-
- indent: 0px\; text-transform: none\; widows: 2\; word-spacing: 0px\; -web
- kit-text-stroke-width: 0px\; white-space: normal\; text-decoration-thickn
- ess: initial\; text-decoration-style: initial\; text-decoration-color: in
- itial\; float: none\; display: inline !important\;">Roanoke\, VA 24013</s
- pan></p> -   Roanoke VA 24011
-SEQUENCE:0
-SUMMARY:Mill Mountain Advisory Board
-UID:8827
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=7950"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=7950
-DESCRIPTION: https://www.roanokeva.gov/calendar.aspx?EID=7950
-DTEND;TZID=America/New_York:20260311T183000
-DTSTAMP;TZID=America/New_York:20250103T100515
-DTSTART;TZID=America/New_York:20260311T173000
-LAST-MODIFIED;TZID=America/New_York:20250103T100515
-LOCATION:<p>Agendas are posted online the Friday before each meeting:&nbsp
- \;<a href="https://www.roanokeva.gov/1420/RNA-Meeting-Information" id="is
- Pasted">RNA Meeting Information | Roanoke\, VA</a></p> -
-SEQUENCE:0
-SUMMARY:Roanoke Neighborhood Advocates
-UID:7950
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313315057/"}
-X-SOURCE-ID:meetup_make_roanoke
-X-SOURCE:Meetup Make Roanoke
-UID:event_313315057@meetup.com
-SEQUENCE:1
-DTSTAMP:20260308T234541Z
-DTSTART;TZID=America/New_York:20260311T183000
-DTEND;TZID=America/New_York:20260311T193000
-SUMMARY:Maker Mini: Designing Projects to Account for Wood Movement
-DESCRIPTION:MAKE Roanoke\nJoin us at MAKE Roanoke for another FREE Maker Mini!\n\nThis lecture will focus on how wood naturally moves and how to account for this movement when designing wooden projects. We'll focus on material choice\, glueing methods\, and different ways of attaching tabletops.\n\nThis Maker Mini is recommended for those age 12 and up\, and it is suitable for beginner to intermediate woodworkers.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at [https://mkroa.org/waiver](https://mkroa.org/waiver "https://mkroa.org/waiver")\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313315057/
-STATUS:CONFIRMED
-CREATED:20260211T205636Z
-LAST-MODIFIED:20260211T205636Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/f/9/d/600_532696285.jpeg
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Neighborhood Events": "https://www.roanokeva.gov/calendar.aspx?EID=8878"}
-X-SOURCE-ID:roanoke_neighborhood_events
-X-SOURCE:Roanoke Neighborhood Events
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8878
-DESCRIPTION:City staff from Parks & Rec\, Transportation\, Planning\, and 
- Economic Development will be holding an open house on various projects in
-  and near the Gainsboro and 11th Street emerging neighborhood centers. ht
- tps://www.roanokeva.gov/calendar.aspx?EID=8878
-DTEND;TZID=America/New_York:20260311T200000
-DTSTAMP;TZID=America/New_York:20260304T134857
-DTSTART;TZID=America/New_York:20260311T183000
-LAST-MODIFIED;TZID=America/New_York:20260304T134857
-LOCATION: - Empowerment Center 40 Douglas Ave. NW Roanoke VA 24017
-SEQUENCE:0
-SUMMARY:Open House: Gainsboro\, 11th Street projects
-UID:8878
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=35
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Salem Government Meetings": "https://www.salemva.gov/calendar.aspx?EID=1335"}
-X-SOURCE-ID:salem_government_meetings
-X-SOURCE:Salem Government Meetings
-URL:https://www.salemva.gov/calendar.aspx?EID=1335
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1335
-DTEND;TZID=America/New_York:20260311T193000
-DTSTAMP;TZID=America/New_York:20251118T105343
-DTSTART;TZID=America/New_York:20260311T183000
-LAST-MODIFIED;TZID=America/New_York:20251118T105343
-LOCATION: -
-SEQUENCE:0
-SUMMARY:Planning Commission Meeting
-UID:1335
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Meetup Roanoke Spiritual": "https://www.meetup.com/roanoke-spiritual-experiences-group/events/313553451/"}
-X-SOURCE-ID:meetup_roanoke_spiritual
-X-SOURCE:Meetup Roanoke Spiritual
-UID:event_313553451@meetup.com
-SEQUENCE:1
-DTSTAMP:20260308T234543Z
-DTSTART;TZID=America/New_York:20260311T190000
-DTEND;TZID=America/New_York:20260311T200000
-SUMMARY:"A Sheep From Another Fold"- Spiritual Video Night
-DESCRIPTION:Roanoke Spiritual Experiences Group\n**Description:**\nCome join us for a 30-minute video of timeless wisdom from Harold Klemp’s talk\, **“A Sheep From Another Fold.**” Uplifting and insightful\, his talks can help you unravel some of the perplexing mysteries of life. Each showing will be followed by group discussion\; a time to share your own experiences and nagging questions about life’s many challenges.\nSponsored by ECKANKAR\, the Path of Spiritual Freedom.\nPlease register in advance for this meeting at:\n[https://us06web.zoom.us/meeting/register/DZQK4PUeSBmaxdeqEy_Hjw](https://us06web.zoom.us/meeting/register/DZQK4PUeSBmaxdeqEy_Hjw)\nAfter registering\, you will receive a confirmation email containing login information for joining the meeting.\nINTERNATIONAL GUESTS\, PLEASE NOTE: This event is not intended for anyone who is barred by the laws of their country from attending. Please follow the laws of your home country.
-URL;VALUE=URI:https://www.meetup.com/roanoke-spiritual-experiences-group/events/313553451/
-STATUS:CONFIRMED
-CREATED:20260227T052718Z
-LAST-MODIFIED:20260227T052718Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/e/b/9/600_530368345.jpeg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Hollins University": "https://www.hollins.edu/about-hollins/commitment-to-access-and-excellence-for-all/leading-equity-diversity-and-justice-conference/#new_tab"}
 X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260312T000000
 DTEND;TZID=America/New_York:20260313T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260204T135353Z
 LAST-MODIFIED:20260302T154134Z
 UID:73494-1773273600-1773446399@www.hollins.edu
@@ -466,7 +46,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313449224@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260312T114500
 DTEND;TZID=America/New_York:20260312T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -484,7 +64,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313449225@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260312T120000
 DTEND;TZID=America/New_York:20260312T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -608,7 +188,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260312T190000
 DTEND;TZID=America/New_York:20260312T200000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250905T180410Z
 LAST-MODIFIED:20260216T182038Z
 UID:71484-1773342000-1773345600@www.hollins.edu
@@ -832,7 +412,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313528859@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234541Z
+DTSTAMP:20260312T020215Z
 DTSTART;TZID=America/New_York:20260314T130000
 DTEND;TZID=America/New_York:20260314T160000
 SUMMARY:MEMBERS ONLY: Intro to TIG Welding
@@ -850,7 +430,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313396356@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234543Z
+DTSTAMP:20260312T020217Z
 DTSTART;TZID=America/New_York:20260314T130000
 DTEND;TZID=America/New_York:20260314T143000
 SUMMARY:Shut Up & Write!® in Tanglewood
@@ -868,11 +448,11 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312806295@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234541Z
+DTSTAMP:20260312T020215Z
 DTSTART;TZID=America/New_York:20260314T160000
 DTEND;TZID=America/New_York:20260314T200000
 SUMMARY:MEMBERS (& Guests) ONLY: Community Craft Day
-DESCRIPTION:MAKE Roanoke\nCome work on whatever project you want and enjoy the company of fellow MAKE Roanoke Members! Carve out some time to create for the sake of creating! From coloring to making hats to restoring machinery\, this is a social night of crafting of all kinds for makers of all kinds!\n\nBring some dough to chip in for dinner if you want some!\n\nThis event runs from 4-8pm and is for MAKE Roanoke members and guests.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at https://mkroa.org/waiver\n* Children who are not participating in the event are not permitted in the space.\n* **Closed toed shoes are required** in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc. for safety.\n* Guests\, and members not signed off on yellow/red tools\, are only permitted to use green level tools\, but feel free to bring your own tools to create something fun!
+DESCRIPTION:MAKE Roanoke\nCome work on whatever project you want and enjoy the company of fellow MAKE Roanoke Members! Carve out some time to create for the sake of creating! From coloring to making hats to restoring machinery\, this is a social night of crafting of all kinds for makers of all kinds!\n\n**This month\, help out with our Daisy Art Parade Carnival game! We're looking for people of all ages to play test our foil boat challenge. Come put your engineering expertise to the test to see who can build the strongest boat\, what materials we should have out\, and how we should structure the challenge.**\n\nBring some dough to chip in for dinner if you want some!\n\nThis event runs from 4-8pm and is for MAKE Roanoke members and guests.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at https://mkroa.org/waiver\n* Children who are not participating in the event are not permitted in the space.\n* **Closed toed shoes are required** in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc. for safety.\n* Guests\, and members not signed off on yellow/red tools\, are only permitted to use green level tools\, but feel free to bring your own tools to create something fun!
 URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/312806295/
 STATUS:CONFIRMED
 CREATED:20260109T191247Z
@@ -907,7 +487,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313396346@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234543Z
+DTSTAMP:20260312T020217Z
 DTSTART;TZID=America/New_York:20260315T130000
 DTEND;TZID=America/New_York:20260315T143000
 SUMMARY:Shut Up & Write!® at Bibliopub
@@ -953,7 +533,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260315T180000
 DTEND;TZID=America/New_York:20260315T190000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260209T160658Z
 LAST-MODIFIED:20260227T205713Z
 UID:73529-1773597600-1773601200@www.hollins.edu
@@ -1021,7 +601,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313432150@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234541Z
+DTSTAMP:20260312T020215Z
 DTSTART;TZID=America/New_York:20260316T200000
 DTEND;TZID=America/New_York:20260316T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -1100,7 +680,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260317T183000
 DTEND;TZID=America/New_York:20260317T193000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T164846Z
 LAST-MODIFIED:20251008T164846Z
 UID:71853-1773772200-1773775800@www.hollins.edu
@@ -1165,7 +745,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313559833@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260319T114500
 DTEND;TZID=America/New_York:20260319T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -1183,7 +763,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313559834@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260319T120000
 DTEND;TZID=America/New_York:20260319T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -1214,6 +794,24 @@ UID:8734
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313729286/"}
+X-SOURCE-ID:meetup_make_roanoke
+X-SOURCE:Meetup Make Roanoke
+UID:event_313729286@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T020215Z
+DTSTART;TZID=America/New_York:20260319T180000
+DTEND;TZID=America/New_York:20260319T190000
+SUMMARY:Stained Glass Planning Meeting
+DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is looking to add a Stained Glass area to our makerspace! We are having a special stained glass planning meeting on Thursday\, March 19 at 6 pm for current and prospective members.\n\nThis is your opportunity to shape what our stained glass area will look like\, what tools we'll have\, and more! We want to build this to suit the needs of our members\, so we really need your input!\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at [https://mkroa.org/waiver](https://mkroa.org/waiver "https://mkroa.org/waiver")\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313729286/
+STATUS:CONFIRMED
+CREATED:20260310T172655Z
+LAST-MODIFIED:20260310T172655Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/e/3/6/600_533136406.jpeg
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1331"}
 X-SOURCE-ID:salem_civic_center
 X-SOURCE:Salem Civic Center
@@ -1235,7 +833,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313566939@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260319T190000
 DTEND;TZID=America/New_York:20260319T210000
 SUMMARY:Mastering Impromptu Speaking at the Blacksburg Toastmasters Club
@@ -1253,7 +851,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313432308@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234541Z
+DTSTAMP:20260312T020215Z
 DTSTART;TZID=America/New_York:20260320T180000
 DTEND;TZID=America/New_York:20260320T190000
 SUMMARY:Maker Mini: Multi-Material 3D Printing with Orcaslicer
@@ -1301,7 +899,7 @@ X-SOURCE-ID:meetup_roanoke_spiritual
 X-SOURCE:Meetup Roanoke Spiritual
 UID:event_313553467@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234543Z
+DTSTAMP:20260312T020217Z
 DTSTART;TZID=America/New_York:20260321T100000
 DTEND;TZID=America/New_York:20260321T170000
 SUMMARY:Explore Spiritual Freedom with Eckankar at the 2026 Festival of Light!
@@ -1314,12 +912,39 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/7/3/d/600_532938237.jpeg
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/free-art-venture-march-21"}
+X-SOURCE-ID:taubman_museum
+SUMMARY:Free Art Venture Community Day
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20260321T100000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20260321T160000
+UID:10001963-1774087200-1774108800@www.taubmanmuseum.org
+ATTACH;FMTTYPE=image/jpeg:https://www.taubmanmuseum.org/wp-content/uploads
+ /2024/06/Art-Venture-Dress-Up.jpg
+DESCRIPTION:Enjoy Art Venture with FREE admission thanks to our friends at
+  Brain Injury Solutions!\n\nFor this Free Art Venture Day\, experience all
+  of the stations in our interactive gallery including special projects tha
+ t celebrate arts and culture in southwest Virginia!\n\nVisitors to Art Ven
+ ture can paint\, draw\, build\, connect music with art\, investigate 3D pr
+ inting and printmaking\, create sculptures\, display artwork\, and much mo
+ re. Stations are designed to engage families and children.\n\nThe Museum i
+ s also pleased to share the new exhibition\, LeUyen Came Along: The Art of
+  LeUyen Pham featuring the work of the beloved children’s illustrator be
+ hind such classic series as “Itty-Bitty Kitty Corn\,” “Vampirina Bal
+ lerina\,” “Bear Came Along\,” and more. This exhibition is also free
+  and welcoming to all.\n\nNo registration required – walk-in’s welcome
+ !\n\nSource: https://www.taubmanmuseum.org/free-art-venture-march-21
+LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
+  United States
+URL:https://www.taubmanmuseum.org/free-art-venture-march-21
+X-SOURCE:Taubman Museum of Art
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313432537/"}
 X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313432537@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234541Z
+DTSTAMP:20260312T020215Z
 DTSTART;TZID=America/New_York:20260321T130000
 DTEND;TZID=America/New_York:20260321T160000
 SUMMARY:Intro to Home Assistant and ESPHome
@@ -1353,7 +978,7 @@ X-SOURCE-ID:meetup_roanoke_spiritual
 X-SOURCE:Meetup Roanoke Spiritual
 UID:event_313553471@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234543Z
+DTSTAMP:20260312T020217Z
 DTSTART;TZID=America/New_York:20260322T100000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:Explore Spiritual Freedom with Eckankar at the 2026 Festival of Light!
@@ -1364,6 +989,24 @@ CREATED:20260227T053406Z
 LAST-MODIFIED:20260227T053406Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/7/3/d/600_532938237.jpeg
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313744165/"}
+X-SOURCE-ID:meetup_make_roanoke
+X-SOURCE:Meetup Make Roanoke
+UID:event_313744165@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T020215Z
+DTSTART;TZID=America/New_York:20260322T110000
+DTEND;TZID=America/New_York:20260322T170000
+SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
+DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is thrilled to be attending the Lynchburg Maker Fair again this year!\n\nMaker Faire is a gathering of fascinating\, curious people who enjoy learning and who love sharing what they can do. From engineers to artists to scientists to crafters\, Maker Faire is a venue for these "makers" to show hobbies\, experiments\, projects.\nWe call it the Greatest Show (& Tell) on Earth - a family-friendly showcase of invention\, creativity\, and resourcefulness.\nGlimpse the future and get inspired!\n\nMAKE Roanoke will have our Pantograph Engraver where people can engrave their very own MAKE Roanoke keychain\, a fun game of Hextraction people use physics and strategy to play against each other and get their ball to the bottom the fastest\, and will be showcasing some items made by our members!\n\nIf you're interested in helping to staff our table\, please contact Michelle at mdonohoe@makeroanoke.org\n\nTo find out more about the event go to [lynchburg.makerfaire.com](https://lynchburg.makerfaire.com)
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313744165/
+STATUS:CONFIRMED
+CREATED:20260311T154643Z
+LAST-MODIFIED:20260311T154643Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/3/4/4/600_533149988.jpeg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/event/garden-sculpture-workshop-with-artist-larry-bechtel-part-2/"}
@@ -1445,9 +1088,9 @@ DESCRIPTION:Healthcare is a critical pillar of our regional economy and qu
  nter\, Mike Abbott will share insights into the current healthcare landsca
  pe\, highlight key initiatives and special projects\, and discuss what lie
  s ahead for the region. Additional speaker details from LewisGale Medical 
- Center will be announced soon. Attendees will gain a clearer understanding
-  of how regional healthcare systems are evolving\, the investments being m
- ade locally\, and the role healthcare plays in driving economic v
+ Center will be April Woodward\, Vice President of Oncology and Steven Evan
+ s\, Assistant Vice President. Attendees will gain a clearer understanding 
+ of how regional healthcare systems are evolving\, the investments 
 URL:https://business.roanokechamber.org/events/details/2026-state-of-healt
  hcare
 X-SOURCE:Roanoke Regional Chamber
@@ -1475,7 +1118,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313668798@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260326T114500
 DTEND;TZID=America/New_York:20260326T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -1493,7 +1136,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313668799@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260326T120000
 DTEND;TZID=America/New_York:20260326T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -1511,7 +1154,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234541Z
+DTSTAMP:20260312T020215Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -1540,12 +1183,29 @@ UID:1429
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/fortress-community-appreciation-music-bingo-night-bubba-s-33"}
+X-SOURCE-ID:roanoke_chamber
+SUMMARY:Fortress Community Appreciation - Music Bingo Night - Bubba's 33
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260326T183000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260326T210000
+UID:9af6fdb42c9dc3404cf67e4237bd8e8f@growthzone.com
+DESCRIPTION:Hello Everyone\, Fortress is hosting a music bingo night at Bu
+ bba's 33. Please register via this link https://FortressFunNight0326.event
+ brite.com if interested Free food\, prizes and fun for the family! Call me
+  with any questions. Jon Burger | Business Development Fortress Foundation
+  Solutions Office (844) 529-4957 Cell (434) 818-5937 129 Vista Centre Dr. 
+ Suite A Forest\, VA 24551
+URL:https://business.roanokechamber.org/events/details/fortress-community-
+ appreciation-music-bingo-night-bubba-s-33
+X-SOURCE:Roanoke Regional Chamber
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260326T193000
 DTEND;TZID=America/New_York:20260326T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260308T045959Z;BYDAY=TH
-DTSTAMP:20260308T234540Z
+DTSTAMP:20260312T020214Z
 UID:57gb4bmvjhfn0gp9ngupohs0eb@google.com
 CREATED:20250623T185456Z
 LAST-MODIFIED:20250623T185456Z
@@ -1577,7 +1237,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260327T130000Z
 DTEND:20260327T150000Z
-DTSTAMP:20260308T234540Z
+DTSTAMP:20260312T020214Z
 UID:0p6sa4pvd7p7ttiulghef5f8l7@google.com
 CREATED:20250623T172452Z
 LAST-MODIFIED:20250623T172452Z
@@ -1591,7 +1251,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260327T151500Z
 DTEND:20260327T171500Z
-DTSTAMP:20260308T234540Z
+DTSTAMP:20260312T020214Z
 UID:7cd0kkonekgmp367hpatt0tgda@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:ice.berglundcenter@gmail.com
 SUMMARY:Busy
@@ -1706,7 +1366,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234541Z
+DTSTAMP:20260312T020215Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -1719,11 +1379,29 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/0/e/600_532168430.jpeg
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/312807964/"}
+X-SOURCE-ID:meetup_make_roanoke
+X-SOURCE:Meetup Make Roanoke
+UID:event_312807964@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T020215Z
+DTSTART;TZID=America/New_York:20260328T120000
+DTEND;TZID=America/New_York:20260328T160000
+SUMMARY:Space Improvement Day
+DESCRIPTION:MAKE Roanoke\nMAKE Roanoke hosts Space Improvement Days on the last Saturday of every month!\n\nCome volunteer your time to improve our community makerspace. Space Improvement Days are for any and all projects to improve our space from cleaning\, to painting walls\, to repairing plumbing\, to sewing window dressings. **No personal projects may be worked on at the shop on Space Improvement Days**.\n\nVolunteers must have a signed waiver on file\, and anyone under the age of 18 must be accompanied by an adult\, and their waiver must be signed by a parent or legal guardian.\n\nOur priority list will be posted on our Discord before the event.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. [Fill out your waiver ahead of time here](mkroa.org/waiver)\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/312807964/
+STATUS:CONFIRMED
+CREATED:20260109T210817Z
+LAST-MODIFIED:20260109T210817Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/8/3/600_530488547.jpeg
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260328T130000Z
 DTEND:20260328T150000Z
-DTSTAMP:20260308T234540Z
+DTSTAMP:20260312T020214Z
 UID:68io17mdi06i0mo2g38kkr6iod@google.com
 CREATED:20250623T172458Z
 LAST-MODIFIED:20250623T172459Z
@@ -1738,7 +1416,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313396362@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234543Z
+DTSTAMP:20260312T020217Z
 DTSTART;TZID=America/New_York:20260328T130000
 DTEND;TZID=America/New_York:20260328T143000
 SUMMARY:Shut Up & Write!® in Tanglewood
@@ -1809,27 +1487,10 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260328T151500Z
 DTEND:20260328T171500Z
-DTSTAMP:20260308T234540Z
+DTSTAMP:20260312T020214Z
 UID:4i61gpo0psml09bu511ica8vj9@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:ice.berglundcenter@gmail.com
 SUMMARY:Busy
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/haydn-the-glory-of-the-natural-horn/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260328T190000
-DTEND;TZID=America/New_York:20260328T203000
-DTSTAMP:20260308T105647
-CREATED:20250627T141723Z
-LAST-MODIFIED:20260121T213244Z
-UID:10000077-1774724400-1774729800@rso.com
-SUMMARY:Haydn: The Glory of the Natural Horn
-DESCRIPTION:Revel in the power\, precision\, and poetry of this rare musical experience.\nJoin David Stewart Wiley and our new RSO Principal Horn Christopher Caudill and his wife Rachel Niketopoulos in an evening that showcases the brilliance and beauty of the natural horn.  We will feature both Beethoven and Telemann concerto’s with amazing virtuoso displays on period horn instruments. \nThanks to our Sponsor!
-URL:https://rso.com/event/haydn-the-glory-of-the-natural-horn/
-LOCATION:Shaftman Performance Hall\, 541 Luck Avenue\, Roanoke\, VA\, 24016\, United States
-CATEGORIES:Destinations
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements14.jpg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Special Events": "https://www.roanokeva.gov/calendar.aspx?EID=8826"}
@@ -1919,7 +1580,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260331T193000
 DTEND;TZID=America/New_York:20260331T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TU
-DTSTAMP:20260308T234540Z
+DTSTAMP:20260312T020214Z
 UID:5nrtt7b91cc3gpo519hgh26cft@google.com
 CREATED:20250623T185514Z
 LAST-MODIFIED:20250623T185514Z
@@ -1978,7 +1639,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280246@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260402T090000
 DTEND;TZID=America/New_York:20260402T103000
 SUMMARY:Greenway Litter Pickup
@@ -2039,7 +1700,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_sxzzstyjcgbdb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260402T114500
 DTEND;TZID=America/New_York:20260402T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -2057,7 +1718,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_zxzzstyjcgbdb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260402T120000
 DTEND;TZID=America/New_York:20260402T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -2075,7 +1736,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580095@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234543Z
+DTSTAMP:20260312T020217Z
 DTSTART;TZID=America/New_York:20260402T180000
 DTEND;TZID=America/New_York:20260402T200000
 SUMMARY:In Person-Salem: presentation by Cameron Presley
@@ -2093,7 +1754,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313581994@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260402T190000
 DTEND;TZID=America/New_York:20260402T210000
 SUMMARY:Mastering Impromptu Speaking at the Blacksburg Toastmasters Club
@@ -2111,7 +1772,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TH
-DTSTAMP:20260308T234540Z
+DTSTAMP:20260312T020214Z
 UID:0ev0uk8jovf35t2iardafu81a4@google.com
 CREATED:20250623T185525Z
 LAST-MODIFIED:20250623T185525Z
@@ -2126,7 +1787,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T203000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260218T180115Z
 LAST-MODIFIED:20260218T180115Z
 UID:73667-1775158200-1775161800@www.hollins.edu
@@ -2229,7 +1890,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260407T183000
 DTEND;TZID=America/New_York:20260407T193000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T164915Z
 LAST-MODIFIED:20251008T164915Z
 UID:71854-1775586600-1775590200@www.hollins.edu
@@ -2272,6 +1933,25 @@ UID:1353
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/kiwanis-speaker-victoria-gardner"}
+X-SOURCE-ID:roanoke_chamber
+SUMMARY:Kiwanis Speaker - Victoria Gardner
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T120000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T133000
+UID:24ee51c147df8d22c6219fd0ec6e34f3@growthzone.com
+DESCRIPTION:Join the Kiwanis Club of Roanoke Wednesday April 8 for our wee
+ kly meeting in Charter Hall on the third floor of the City Market Building
+ \; networking and lunch begin at 12:00PM. We will listen to Victoria Gardn
+ er\, author of "Survival Has Consequences." She will address her recovery 
+ from the live on-air shooting at Smith Mountain Lake which took the lives 
+ of two young WDBJ7 employees and left her with life threatening injuries. 
+ Guest attendance is free of charge\, with no obligation\, and includes lun
+ ch.
+URL:https://business.roanokechamber.org/events/details/kiwanis-speaker-vic
+ toria-gardner
+X-SOURCE:Roanoke Regional Chamber
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8706"}
 X-SOURCE-ID:roanoke_boards_commissions
 X-SOURCE:Roanoke Boards Commissions
@@ -2312,7 +1992,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260409T000000
 DTEND;TZID=America/New_York:20260411T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250911T172907Z
 LAST-MODIFIED:20250911T172953Z
 UID:71566-1775692800-1775951999@www.hollins.edu
@@ -2332,19 +2012,19 @@ DTEND;TZID=PDT;VALUE=DATE-TIME:20260409T123000
 UID:f89a49dc4d19de7113b2b325f0f725e6@growthzone.com
 DESCRIPTION:National Civics Bee – Local Competition Hosted by the Roanok
  e Regional Chamber of Commerce Foundation Presented by P1 Technologies 
- 📅 Date: April 9\, 2026 ⏰ Time: 10:00 AM – 12:30 PM 📍 Location: R
- oanoke College The Roanoke Regional Chamber of Commerce Foundation is prou
- d to host the National Civics Bee – Local Competition. This exciting eve
- nt is designed to inspire middle school students to engage in civic discou
- rse and expand their knowledge of our government\, history\, and democracy
- . Join us as local student finalists compete in a live quiz-style competit
- ion\, showcasing their understanding of civic principles and the responsib
- ilities of citizenship. These bright young minds have worked hard to reach
-  this stage\, and we invite the community to come out and show their suppo
- rt! By attending\, you’ll witness the next generation of civic leaders i
- n action and celebrate the importance of informed and engaged citizenship.
-  Let’s rally behind our local students as they compete for a chance to a
- dva
+ 📅 Date: April 9\, 2026 ⏰ Time: 10:00 AM – 12:30 PM 📍 Location: E
+ astlake Community Church - Roanoke Campus The Roanoke Regional Chamber of 
+ Commerce Foundation is proud to host the National Civics Bee – Local Com
+ petition. This exciting event is designed to inspire middle school student
+ s to engage in civic discourse and expand their knowledge of our governmen
+ t\, history\, and democracy. Join us as local student finalists compete in
+  a live quiz-style competition\, showcasing their understanding of civic p
+ rinciples and the responsibilities of citizenship. These bright young mind
+ s have worked hard to reach this stage\, and we invite the community to co
+ me out and show their support! By attending\, you’ll witness the next ge
+ neration of civic leaders in action and celebrate the importance of inform
+ ed and engaged citizenship. Let’s rally behind our local students as the
+ y c
 URL:https://business.roanokechamber.org/events/details/2026-national-civic
  s-bee-local-competition
 X-SOURCE:Roanoke Regional Chamber
@@ -2428,23 +2108,6 @@ UID:8680
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/classical-mystery-tour/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260410T193000
-DTEND;TZID=America/New_York:20260410T210000
-DTSTAMP:20260308T105647
-CREATED:20250627T135642Z
-LAST-MODIFIED:20260227T202519Z
-UID:10000071-1775849400-1775854800@rso.com
-SUMMARY:Beatle Mania: Classical Mystery Tour
-DESCRIPTION:Relive the Beatles Like Never Before!\nGet ready for an electrifying night as the Roanoke Symphony Orchestra teams up with Classical Mystery Tour to bring you Beatle Mania — a symphonic celebration of the Fab Four’s greatest hits. From the haunting beauty of Yesterday to the psychedelic brilliance of I Am the Walrus\, and the timeless joy of Penny Lane and A Hard Day’s Night — this is more than a concert. It’s a magical journey through the music that changed the world. One stage. One night. Unlimited nostalgia. Don’t miss it! \nThanks to our Sponsors!
-URL:https://rso.com/event/classical-mystery-tour/
-LOCATION:Salem Civic Center\, 1001 Roanoke Blvd\, Salem\, VA\, 24153\, United States
-CATEGORIES:Pops
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements8.jpg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1281"}
 X-SOURCE-ID:salem_civic_center
 X-SOURCE:Salem Civic Center
@@ -2495,7 +2158,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260411T090000
 DTEND;TZID=America/New_York:20260411T160000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T165430Z
 LAST-MODIFIED:20260225T191823Z
 UID:71856-1775898000-1775923200@www.hollins.edu
@@ -2538,7 +2201,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260412T000000
 DTEND;TZID=America/New_York:20260413T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260204T135707Z
 LAST-MODIFIED:20260204T135707Z
 UID:73496-1775952000-1776124799@www.hollins.edu
@@ -2548,23 +2211,6 @@ URL:https://admissions.hollins.edu/portal/asd#new_tab
 LOCATION:Hollins University Campus\, 7916 Williamson Road\, Roanoke\, VA\, 24020\, United States
 CATEGORIES:Admission
 ORGANIZER;CN="Hollins Admission":MAILTO:huadm@hollins.edu
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/magnificat/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260412T150000
-DTEND;TZID=America/New_York:20260412T163000
-DTSTAMP:20260308T105647
-CREATED:20250627T134133Z
-LAST-MODIFIED:20251013T145449Z
-UID:10000068-1776006000-1776011400@rso.com
-SUMMARY:Magnificat
-DESCRIPTION:The versatile performers of the RSO and Chorus present the splendor and devotional richness of the Baroque era. Handel’s Music for the Royal Fireworks dazzles with its bold brass and was written to accompany a grand celebration in London’s Green Park. Vivaldi’s Gloria\, is a joyful and spirited work filled with vibrant contrasts and lyrical beauty sure to uplift. J.S. Bach’s brilliant Magnificat is a masterful setting of the Virgin Mary’s song of praise\, blending intricate counterpoint with exuberant choruses\, virtuoso trumpet solos\, and joyful choral writing. \nDavid Stewart Wiley\, conductor\nRoanoke Symphony Chorus\nJohn Hugo\, chorus master \nGeorge Frideric Handel: Selections from Music for The Royal Fireworks\nAntonio Vivaldi: Gloria\, RV589\nJ.S. Bach: Magnificat\, BWV 243 in D Major \nThanks to our Sponsors!
-URL:https://rso.com/event/magnificat/
-LOCATION:Berglund Performing Arts Theatre\, 710 Williamson Rd NE\, Roanoke\, VA\, 24016\, United States
-CATEGORIES:Masterworks
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements5.jpg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Special Events": "https://www.roanokeva.gov/calendar.aspx?EID=8612"}
@@ -2753,6 +2399,45 @@ UID:8743
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/april-member-hour-75th-anniversary-and-new-visions-for-the-permanent-collection"}
+X-SOURCE-ID:taubman_museum
+SUMMARY:April Member Hour: 75th Anniversary and New Visions for the Perman
+ ent Collection - Part 2
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20260417T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20260417T100000
+UID:10001964-1776416400-1776420000@www.taubmanmuseum.org
+ATTACH;FMTTYPE=image/jpeg:https://www.taubmanmuseum.org/wp-content/uploads
+ /2026/03/Gallery-shot-New-Visions-PC.jpg
+DESCRIPTION:Join Laura K. Higgins\, Curator of 75th Anniversary Gifts to t
+ he Permanent Collection\, for guided spotlights in the Museum’s newest e
+ xhibition\, 75th Anniversary: New Visions for the Permanent Collection .\n
+ \nFor 75 years\, the Museum’s Permanent Collection has been shaped by la
+ ndmark gifts\, sustained generosity\, and careful stewardship. What began 
+ as a regional commitment to art has grown into a collection defined by dep
+ th\, continuity\, and evolving perspective.\n\nThis exhibition reflects bo
+ th history and momentum. At its core are gifts made in honor of the Museum
+ ’s 75th Anniversary — works that expand the Collection across media\, 
+ cultures\, and time periods. Installed in dialogue with longstanding holdi
+ ngs\, these new acquisitions illuminate established strengths while openin
+ g new areas of inquiry.\n\nThroughout the galleries\, historical foundatio
+ ns and contemporary voices are interwoven. Photography speaks across gener
+ ations\; regional narratives sit alongside global traditions\; established
+  icons are reframed through present-day perspectives.\n\nA permanent colle
+ ction is not static. It is built over time\, shaped by community support\,
+  guided by professional standards\, and entrusted to future generations. W
+ ith these 152 gifts\, this anniversary marks both a milestone and a beginn
+ ing — honoring the past while setting the course for what comes next.\n\
+ nMembers are encouraged to bring up to two paying guests for this special 
+ morning program.\n\nMembers: Free | Member Guests: $10\n\nSource: https://
+ www.taubmanmuseum.org/april-member-hour-75th-anniversary-and-new-visions-f
+ or-the-permanent-collection
+LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
+  United States
+URL:https://www.taubmanmuseum.org/april-member-hour-75th-anniversary-and-n
+ ew-visions-for-the-permanent-collection
+X-SOURCE:Taubman Museum of Art
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/architectural-highlights-behind-the-scenes-tour-april-17"}
 X-SOURCE-ID:taubman_museum
 SUMMARY:Architectural Highlights Behind-the-Scenes Tour: April 17
@@ -2845,7 +2530,7 @@ DTEND;TZID=America/New_York;VALUE=DATE-TIME:20280611T235959
 UID:10001950-1776470400-1844380799@www.taubmanmuseum.org
 DESCRIPTION:Source: https://www.taubmanmuseum.org/event/mokha-laget-mural-
  title-tbd/
-LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA 24011
+LOCATION:VA
 URL:https://www.taubmanmuseum.org/event/mokha-laget-mural-title-tbd/
 X-SOURCE:Taubman Museum of Art
 END:VEVENT
@@ -2881,6 +2566,45 @@ SEQUENCE:0
 SUMMARY:2026 Spring Home Show
 UID:1354
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/conversation-with-the-curator-laget"}
+X-SOURCE-ID:taubman_museum
+SUMMARY:Conversation with the Curator: Mokha Laget
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20260418T140000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20260418T150000
+UID:10001959-1776520800-1776524400@www.taubmanmuseum.org
+ATTACH;FMTTYPE=image/jpeg:https://www.taubmanmuseum.org/wp-content/uploads
+ /2026/02/Mokha-Laget-Mural.png
+DESCRIPTION:Join the Taubman Museum of Art for a special Conversation with
+  the Curator featuring artist Mokha Laget\, whose newly commissioned mural
+  celebrates the Museum’s 75th anniversary.\n\nLaget will be joined by Ka
+ tie Hirsch\, Deputy Director of Exhibitions\, for a discussion about the i
+ nspiration\, process\, and ideas behind the new work.\n\nCreated specifica
+ lly for the Taubman\, Laget’s mural draws inspiration from the Museum’
+ s striking architecture\, designed by acclaimed architect Randall Stout\, 
+ as well as the surrounding Blue Ridge landscape and the layered histories 
+ of the Roanoke Valley. Through her signature language of bold geometric ab
+ straction\, Laget translates architectural forms\, shifting planes\, and r
+ egional color into a vibrant composition that invites viewers to see the M
+ useum in a new way.\n\nDuring this conversation\, Laget and Hirsch will ex
+ plore how the mural came to life—from the artist’s early ideas and des
+ ign process to the themes embedded in the final work.\n\nThe discussion wi
+ ll also highlight how elements of the mural reference the region’s geolo
+ gy\, natural environment\, and cultural history\, including the Blue Ridge
+  Mountains\, the movement of water in the landscape\, and the architectura
+ l materials of the Museum itself.\n\nThis conversation offers a unique opp
+ ortunity to hear directly from the artist about how architecture\, landsca
+ pe\, and abstraction intersect in her work—and how the Taubman’s iconi
+ c building served as a starting point for the mural’s design.\n\nFollowi
+ ng the discussion\, guests will have the opportunity to view the mural and
+  experience the work firsthand.\n\nFree and welcoming to all. Registration
+  required.\n\nSource: https://www.taubmanmuseum.org/conversation-with-the-
+ curator-laget
+LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
+  United States
+URL:https://www.taubmanmuseum.org/conversation-with-the-curator-laget
+X-SOURCE:Taubman Museum of Art
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Special Events": "https://www.roanokeva.gov/calendar.aspx?EID=8607"}
@@ -2927,7 +2651,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260420T170000
 DTEND;TZID=America/New_York:20260420T183000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250905T180619Z
 LAST-MODIFIED:20250905T201818Z
 UID:71485-1776704400-1776709800@www.hollins.edu
@@ -3014,7 +2738,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260423T193000
 DTEND;TZID=America/New_York:20260423T203000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250922T152313Z
 LAST-MODIFIED:20251008T163956Z
 UID:71688-1776972600-1776976200@www.hollins.edu
@@ -3043,6 +2767,31 @@ SEQUENCE:0
 SUMMARY:Grandin Chillage
 UID:8716
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/kiwanis-pancake-and-auction-day"}
+X-SOURCE-ID:roanoke_chamber
+SUMMARY:Kiwanis Pancake and Auction Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260425T070000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260425T123000
+UID:82d1f0ace3230f1c9ce939494158215e@growthzone.com
+DESCRIPTION:Join us on April 25\, 2026 from 7:00am to 12:30pm for the larg
+ est breakfast in Roanoke. We are holding the event at the Berglund Center.
+  Thousands will be able to enjoy an all-you-can-eat pancake breakfast. All
+  will have the opportunity to participate in a 50/50 raffle. Individual ti
+ ckets for breakfast are $8.00 when purchased in advance and $10.00 when pu
+ rchased on-site\; children 5 years of age and under are free. Breakfast in
+ cludes pancakes\, sausages\, syrup and toppings\, cold and hot drinks. Enj
+ oy listening to a DJ and live music. A breakfast to-go option will be avai
+ lable to those not dining in person. The winner of the 50/50 raffle will c
+ ollect half of all the raffle ticket sales money collected. We are gratefu
+ l that Haley Toyota is a Gold level sponsor\, and that WFJX Fox Radio and 
+ SERVPRO of South Roanoke County are Silver level sponsors of this year's e
+ vent. Additional sponsor opportunities are available. For 30+ years\, our 
+ Club has conducted an annual event to raise money by hold
+URL:https://business.roanokechamber.org/events/details/kiwanis-pancake-and
+ -auction-day
+X-SOURCE:Roanoke Regional Chamber
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/lewisgale-s-joggin-for-your-noggin"}
@@ -3326,7 +3075,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280265@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260507T090000
 DTEND;TZID=America/New_York:20260507T103000
 SUMMARY:Greenway Litter Pickup
@@ -3381,7 +3130,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580154@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234543Z
+DTSTAMP:20260312T020217Z
 DTSTART;TZID=America/New_York:20260507T180000
 DTEND;TZID=America/New_York:20260507T200000
 SUMMARY:Online: The 1-Person DevOps Stack presentation by Lionel Sapp
@@ -3399,7 +3148,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260507T193000
 DTEND;TZID=America/New_York:20260507T203000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T171105Z
 LAST-MODIFIED:20251008T171105Z
 UID:71858-1778182200-1778185800@www.hollins.edu
@@ -3475,7 +3224,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260509T130000
 DTEND;TZID=America/New_York:20260509T153000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251215T155627Z
 LAST-MODIFIED:20251215T155627Z
 UID:72971-1778331600-1778340600@www.hollins.edu
@@ -3521,23 +3270,6 @@ SEQUENCE:0
 SUMMARY:Mother's Day R&B Festival
 UID:8881
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/elgar-dvorak/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260509T193000
-DTEND;TZID=America/New_York:20260509T210000
-DTSTAMP:20260308T105647
-CREATED:20250627T134411Z
-LAST-MODIFIED:20251013T145538Z
-UID:10000069-1778355000-1778360400@rso.com
-SUMMARY:Elgar & Dvořak
-DESCRIPTION:Two works of incredible emotion and orchestral power will close our must-see Masterworks season in May. Elgar’s Enigma Variations is a great showpiece for orchestra with each variation portraying one of his own friends through vivid musical character sketches. The mysterious “Enigma” theme\, never fully revealed\, adds a layer of suspense and intrigue to the work’s emotional range and rich orchestration. Dvořák’s Cello Concerto is a powerful and lyrical masterpiece\, performed by acclaimed American cellist Julie Albers\, principal with the world-class St. Paul Chamber Orchestra. This masterpiece blends Bohemian folk influences with sweeping Romantic expression\, and showcases the cello’s full emotional and technical range which is regarded as one of the greatest concertos ever written for the instrument. \nDavid Stewart Wiley\, conductor\nJulie Albers\, cello \nEdward Elgar: “Enigma” Variations\, Op. 36\nAntonio Dvořak: Cello Concerto Op. 104 in B minor \nThanks to our Sponsors!
-URL:https://rso.com/event/elgar-dvorak/
-LOCATION:Berglund Performing Arts Theatre\, 710 Williamson Rd NE\, Roanoke\, VA\, 24016\, United States
-CATEGORIES:Masterworks
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements6.jpg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1323"}
@@ -3632,7 +3364,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260511T170000
 DTEND;TZID=America/New_York:20260511T183000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250905T180803Z
 LAST-MODIFIED:20250910T165734Z
 UID:71486-1778518800-1778524200@www.hollins.edu
@@ -3993,7 +3725,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260517T100000
 DTEND;TZID=America/New_York:20260517T120000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250910T144650Z
 LAST-MODIFIED:20260302T144545Z
 UID:71515-1779012000-1779019200@www.hollins.edu
@@ -4287,7 +4019,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260529T000000
 DTEND;TZID=America/New_York:20260531T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251204T174803Z
 LAST-MODIFIED:20251204T174803Z
 UID:72820-1780012800-1780271999@www.hollins.edu
@@ -4555,7 +4287,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280281@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260604T073000
 DTEND;TZID=America/New_York:20260604T090000
 SUMMARY:Greenway Litter Pickup
@@ -4654,44 +4386,6 @@ SEQUENCE:0
 SUMMARY:R&B is For Lovers Festival
 UID:8856
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/architectural-highlights-behind-the-scenes-tour-june-6"}
-X-SOURCE-ID:taubman_museum
-SUMMARY:Architectural Highlights Behind-the-Scenes Tour: June 6
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20260606T130000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20260606T143000
-UID:10001944-1780750800-1780756200@www.taubmanmuseum.org
-ATTACH;FMTTYPE=image/jpeg:https://www.taubmanmuseum.org/wp-content/uploads
- /2026/01/Taubman-Exterior-at-Dusk-Richard-Boyd.jpg
-DESCRIPTION:Discover the Taubman Museum of Art from a whole new perspectiv
- e during this Architectural Highlights Tour\, an engaging\, behind-the-sce
- nes experience that reveals the vision\, innovation\, and craftsmanship be
- hind one of Roanoke’s most iconic landmarks that Architectural Digest na
- med one of the best designed museums in the nation.\n\nLed in collaboratio
- n with local architects and individuals directly involved in the creation 
- of the building\, this approximately 90-minute guided tour traces the Muse
- um’s architectural story from the ground up.\n\nDesigned by Randall Stou
- t and inspired by the natural forms of Virginia’s landscape\, the buildi
- ng’s soaring glass\, steel\, patinated zinc\, and locally sourced Hokie 
- Stone come alive through expert insight and little-known details.\n\nAlong
-  the way\, guests will explore dramatic interior spaces\, flexible perform
- ance and gallery areas\, the “Vault” where artworks not on view are st
- ored\, and the sophisticated systems that protect the Museum’s art while
-  welcoming the community.\n\nThe tour culminates at the Top of the Taubman
-  Balcony\, where sweeping views of downtown Roanoke\, the railroad corrido
- r\, and surrounding landmarks provide a fitting finale. Guests are invited
-  to raise a glass during a celebratory champagne toast to cap off this spe
- cial experience.\n\nWhether you’re a design enthusiast\, architecture pr
- ofessional\, or curious local\, this special tour offers rare access\, com
- pelling stories\, and a memorable way to experience the Taubman Museum of 
- Art.\n\nSource: https://www.taubmanmuseum.org/architectural-highlights-beh
- ind-the-scenes-tour-june-6
-LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
-  United States
-URL:https://www.taubmanmuseum.org/architectural-highlights-behind-the-scen
- es-tour-june-6
-X-SOURCE:Taubman Museum of Art
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8630"}
@@ -4865,23 +4559,6 @@ UID:8846
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/nashville-meets-the-symphony/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260612T193000
-DTEND;TZID=America/New_York:20260612T210000
-DTSTAMP:20260308T105647
-CREATED:20250627T135800Z
-LAST-MODIFIED:20251013T145802Z
-UID:10000072-1781292600-1781298000@rso.com
-SUMMARY:Nashville Meets the Symphony
-DESCRIPTION:A Heartland Hit Parade!\nGet ready for a night where the soul of country collides with the power of the orchestra in a show-stopping celebration of America’s music. From twang to triumph\, heartbreak to high notes\, this Heartland concert brings the raw emotion of classic and modern country to life like never before. \nFeel the thrill as the Roanoke Symphony Orchestra takes on unforgettable hits from Miranda Lambert\, Carrie Underwood\,\nZac Brown Band\, Vince Gill\, Tim McGraw\, Dolly Parton\, The Chicks\, Johnny Cash\, and more! \nOne stage. One night. All heart.\nDon’t miss this electrifying tribute to country’s greatest legends! \nThank you to our Sponsors!
-URL:https://rso.com/event/nashville-meets-the-symphony/
-LOCATION:Salem Civic Center\, 1001 Roanoke Blvd\, Salem\, VA\, 24153\, United States
-CATEGORIES:Pops
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements9.jpg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1282"}
 X-SOURCE-ID:salem_civic_center
 X-SOURCE:Salem Civic Center
@@ -4898,38 +4575,12 @@ UID:1282
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/happy-hearts-community-session-ages-10-and-under-june-13"}
-X-SOURCE-ID:taubman_museum
-SUMMARY:Happy HeARTs Community Session: Ages 10 and Under - June 13
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20260613T100000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20260613T110000
-UID:10001935-1781344800-1781348400@www.taubmanmuseum.org
-ATTACH;FMTTYPE=image/jpeg:https://www.taubmanmuseum.org/wp-content/uploads
- /2022/09/happy-hearts.jpg
-DESCRIPTION:Join us as we explore the Taubman Museum of Art!\n\nThis sessi
- on is designed for participants up to age 10 and their families or caretak
- ers with specific adaptations for those who identify as:\n\nIn each Happy 
- HeARTs session\, participants focus on a particular work of art in the gal
- leries and take part in an art activity that is accessible and sensory-fri
- endly. Participants also have the opportunity to explore the Museum’s in
- teractive gallery\, Art Venture.\n\nFree\, but registration highly encoura
- ged.\n\nContact Katrina King-Singh at kking@taubmanmuseum.org or 540-204-4
- 131 with any questions and to learn more about this free program.\n\nSourc
- e: https://www.taubmanmuseum.org/happy-hearts-community-session-ages-10-an
- d-under-june-13
-LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
-  United States
-URL:https://www.taubmanmuseum.org/happy-hearts-community-session-ages-10-a
- nd-under-june-13
-X-SOURCE:Taubman Museum of Art
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Hollins University": "https://www.hollins.edu/academics/continuing-education-camps/tinker-mountain-writing-workshops/tmww-summer-residential-workshops/"}
 X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260614T000000
 DTEND;TZID=America/New_York:20260619T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251114T170519Z
 LAST-MODIFIED:20251114T170519Z
 UID:72456-1781395200-1781913599@www.hollins.edu
@@ -5152,32 +4803,6 @@ UID:8727
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Taubman Museum": "https://www.taubmanmuseum.org/happy-hearts-community-session-ages-10-and-older-june-27"}
-X-SOURCE-ID:taubman_museum
-SUMMARY:Happy HeARTs Community Session: Ages 10 and Older - June 27
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20260627T100000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20260627T110000
-UID:10001931-1782554400-1782558000@www.taubmanmuseum.org
-ATTACH;FMTTYPE=image/jpeg:https://www.taubmanmuseum.org/wp-content/uploads
- /2023/06/DSC00134-3-scaled.jpg
-DESCRIPTION:Join us as we explore the Taubman Museum of Art! This session 
- is designed for participants 10 years and older and their families or care
- takers with specific adaptations for those who identify as:\n\nIn each Hap
- py HeARTs session\, participants focus on a particular work of art in the 
- galleries and take part in an art activity that is accessible and sensory-
- friendly. Participants also have the opportunity to explore the Museum’s
-  interactive gallery\, Art Venture.\n\nFree and welcoming\, though registr
- ation is highly encouraged.\n\nContact Katrina King-Singh at kking@taubman
- museum.org or 540-204-4131 with any questions and to learn more about this
-  free program.\n\nSource: https://www.taubmanmuseum.org/happy-hearts-commu
- nity-session-ages-10-and-older-june-27
-LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
-  United States
-URL:https://www.taubmanmuseum.org/happy-hearts-community-session-ages-10-a
- nd-older-june-27
-X-SOURCE:Taubman Museum of Art
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Special Events": "https://www.roanokeva.gov/calendar.aspx?EID=8745"}
 X-SOURCE-ID:roanoke_special_events
 X-SOURCE:Roanoke Special Events
@@ -5312,7 +4937,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280290@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260709T073000
 DTEND;TZID=America/New_York:20260709T090000
 SUMMARY:Greenway Litter Pickup
@@ -5366,12 +4991,12 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260710T000000
 DTEND;TZID=America/New_York:20260712T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260219T213020Z
-LAST-MODIFIED:20260305T202544Z
+LAST-MODIFIED:20260310T184029Z
 UID:73706-1783641600-1783900799@www.hollins.edu
 SUMMARY:3rd Biennial Children’s Literature Symposium 
-DESCRIPTION:The Pleasures and Problems of Pooh\nThe 3rd Biennial Children’s Literature Symposium\nOn Zoom\nFriday–Sunday\, July 10–12\, 2026 \n\n\n\n\nConference Details\n\n 	\nHost: Hollins University Graduate Programs in Children’s Literature \n\n 	\nChair: Chaired by Dr. Lisa Rowe Fraustino \n\n\nThis year’s hundredth anniversary of A. A. Milne’s Winnie-the-Pooh\, published in 1926\, provides a springboard for reflection on the role of classic children’s literature. \n\n“Here–we–are…all–of–us\, and then\, suddenly\, we wake up one morning and\, what do we find? We find a Strange Animal among us. An animal of whom we have never heard before! An animal who carries her family about with her in her pocket!” — Rabbit\nINVITED KEYNOTERS INCLUDE:\n\n 	Lara Saguisag\, Associate Professor and Georgiou Chair in Children’s Literature and Literacy at New York University and President of the Children’s Literature Association\n 	A Pooh Panel with Jennifer Harrison\, editor of Positioning Pooh: Edward Bear after 100 Years; volume contributor and Millersville University professor Sarah E. Jackson; and distinguished East Carolina University emeritus professor C.W. Sullivan III\n\nSYMPOSIUM ABSTRACT SUBMISSION\nThis online symposium seeks presentation proposals from authors\, illustrators\, librarians\, publishers\, educators\, and scholars in any field. Submit proposals of 500 words to Symposium-Abstract-Submissions by May 1\, 2026. Submit Symposium Abstracts online \n\nART CHALLENGE\nIllustrators are invited to submit images of your own creations related to Pooh and Pooh adjacent or influenced subjects. The symposium will include a digital art show and panel discussion session. Please submit artwork as JPGs or PNGs\, no larger than 1000 pixels wide or no larger than 5mb. Submit online\nGIRLS LITERATURE DISCUSSION GROUP\nThe final session of the symposium will be a meeting of the Hollins Girls’ Literature Discussion Group\, for which we’ll be reading Tuck Everlasting upon its 50th anniversary of publication.
+DESCRIPTION:The Pleasures and Problems of Pooh\nThe 3rd Biennial Children’s Literature Symposium\nOn Zoom\nFriday–Sunday\, July 10–12\, 2026 \n\n\n\n\nConference Details\n\n 	\nHost: Hollins University Graduate Programs in Children’s Literature \n\n 	\nChair: Chaired by Dr. Lisa Rowe Fraustino \n\n\nThis year’s hundredth anniversary of A. A. Milne’s Winnie-the-Pooh\, published in 1926\, provides a springboard for reflection on the role of classic children’s literature. \n\n“Here–we–are…all–of–us\, and then\, suddenly\, we wake up one morning and\, what do we find? We find a Strange Animal among us. An animal of whom we have never heard before! An animal who carries her family about with her in her pocket!” — Rabbit\nINVITED KEYNOTERS INCLUDE:\n\n 	Lara Saguisag\, Associate Professor and Georgiou Chair in Children’s Literature and Literacy at New York University and President of the Children’s Literature Association\n 	A Pooh Panel with Jennifer Harrison\, editor of Positioning Pooh: Edward Bear after 100 Years; volume contributor and Millersville University professor Sarah E. Jackson; and distinguished East Carolina University emeritus professor C.W. Sullivan III\n\nSYMPOSIUM ABSTRACT SUBMISSION\nThis online symposium seeks presentation proposals from authors\, illustrators\, librarians\, publishers\, educators\, and scholars in any field. View the Call for Papers. Submit proposals of 500 words to Symposium-Abstract-Submissions by May 1\, 2026. Submit Symposium Abstracts online \n\nART CHALLENGE\nIllustrators are invited to submit images of your own creations related to Pooh and Pooh adjacent or influenced subjects. The symposium will include a digital art show and panel discussion session. Please submit artwork as JPGs or PNGs\, no larger than 1000 pixels wide or no larger than 5mb. Submit online\nGIRLS LITERATURE DISCUSSION GROUP\nThe final session of the symposium will be a meeting of the Hollins Girls’ Literature Discussion Group\, for which we’ll be reading Tuck Everlasting upon its 50th anniversary of publication.
 URL:https://www.hollins.edu/event/3rd-biennial-childrens-literature-symposium/
 LOCATION:Hollins University Campus\, 7916 Williamson Road\, Roanoke\, VA\, 24020\, United States
 CATEGORIES:Children's Literature,Graduate Programs
@@ -5401,7 +5026,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260718T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250930T140902Z
 LAST-MODIFIED:20251029T175051Z
 UID:71745-1783814400-1784419199@www.hollins.edu
@@ -5419,7 +5044,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260725T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251216T212637Z
 LAST-MODIFIED:20251216T212637Z
 UID:73040-1783814400-1785023999@www.hollins.edu
@@ -5430,6 +5055,27 @@ LOCATION:Hollins University Campus\, 7916 Williamson Road\, Roanoke\, VA\, 24020
 CATEGORIES:Admission,Summer Programs
 ATTACH;FMTTYPE=image/jpeg:https://www.hollins.edu/wp-content/uploads/2023/09/Hollins-summer-girls-sitting-hill.jpg
 ORGANIZER;CN="Hollins Admission":MAILTO:huadm@hollins.edu
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Roanoke Special Events": "https://ridewithgps.com/routes/53283520"}
+X-SOURCE-ID:roanoke_special_events
+X-SOURCE:Roanoke Special Events
+URL:https://ridewithgps.com/routes/53283520
+DESCRIPTION:Carvins Cove \nRace begins and finishes at Hollins University.
+  The riders access carvins cove via the boat dock (permissions granted by
+  WVA Water Authority). Looped course. Closed to non participant.  \n \nRo
+ ute available here: https://ridewithgps.com/routes/53283520 https://www.r
+ oanokeva.gov/calendar.aspx?EID=8886
+DTEND;TZID=America/New_York:20260712T170000
+DTSTAMP;TZID=America/New_York:20260311T114331
+DTSTART;TZID=America/New_York:20260712T073000
+LAST-MODIFIED;TZID=America/New_York:20260311T114331
+LOCATION:<p>Carvins Cove</p> -   Roanoke VA 24011
+SEQUENCE:0
+SUMMARY:USA Cycling Endurance Mountain Bike Marathon (XCM) National Champi
+ onship
+UID:8886
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8631"}
@@ -5760,7 +5406,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280295@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260806T073000
 DTEND;TZID=America/New_York:20260806T090000
 SUMMARY:Greenway Litter Pickup
@@ -6164,7 +5810,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280300@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20260903T073000
 DTEND;TZID=America/New_York:20260903T090000
 SUMMARY:Greenway Litter Pickup
@@ -6672,7 +6318,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280305@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20261001T090000
 DTEND;TZID=America/New_York:20261001T103000
 SUMMARY:Greenway Litter Pickup
@@ -7155,7 +6801,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280307@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20261105T090000
 DTEND;TZID=America/New_York:20261105T103000
 SUMMARY:Greenway Litter Pickup
@@ -7558,7 +7204,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280318@meetup.com
 SEQUENCE:1
-DTSTAMP:20260308T234542Z
+DTSTAMP:20260312T020216Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T103000
 SUMMARY:Greenway Litter Pickup

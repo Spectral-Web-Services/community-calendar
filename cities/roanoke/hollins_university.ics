@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hollins University - ECPv6.15.17//NONSGML v1.0//EN
+PRODID:-//Hollins University - ECPv6.15.17.1//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Hollins University
@@ -49,35 +49,9 @@ DTSTART:20271107T060000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260310T183000
-DTEND;TZID=America/New_York:20260310T193000
-DTSTAMP:20260308T194541
-CREATED:20251008T164536Z
-LAST-MODIFIED:20251008T164544Z
-UID:71852-1773167400-1773171000@www.hollins.edu
-SUMMARY:MFA Thesis Readings
-DESCRIPTION:Second year MFA in Creative Writing students will read from their work. Each night will consist of three or four students reading for fifteen minutes in a variety of genres. There will be a small reception following each reading on the Porches of Main. Sponsored by the Department of English and Creative Writing
-URL:https://www.hollins.edu/event/mfa-thesis-readings/
-LOCATION:Green Drawing Room\, Main
-CATEGORIES:English and Creative Writing
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260310T190000
-DTEND;TZID=America/New_York:20260310T200000
-DTSTAMP:20260308T194541
-CREATED:20260209T160544Z
-LAST-MODIFIED:20260209T160544Z
-UID:73526-1773169200-1773172800@www.hollins.edu
-SUMMARY:Student Recital
-DESCRIPTION:Join us as Hollins students enrolled in private lessons present a recital of their favorite music for family and friends.
-URL:https://www.hollins.edu/event/student-recital-6/
-LOCATION:Talmadge Recital Hall\, Bradley
-CATEGORIES:Concerts,Music,Open to the Public
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260312T000000
 DTEND;TZID=America/New_York:20260313T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260204T135353Z
 LAST-MODIFIED:20260302T154134Z
 UID:73494-1773273600-1773446399@www.hollins.edu
@@ -91,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260312T190000
 DTEND;TZID=America/New_York:20260312T200000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250905T180410Z
 LAST-MODIFIED:20260216T182038Z
 UID:71484-1773342000-1773345600@www.hollins.edu
@@ -105,7 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260315T180000
 DTEND;TZID=America/New_York:20260315T190000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260209T160658Z
 LAST-MODIFIED:20260227T205713Z
 UID:73529-1773597600-1773601200@www.hollins.edu
@@ -118,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260317T183000
 DTEND;TZID=America/New_York:20260317T193000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T164846Z
 LAST-MODIFIED:20251008T164846Z
 UID:71853-1773772200-1773775800@www.hollins.edu
@@ -131,7 +105,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T203000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260218T180115Z
 LAST-MODIFIED:20260218T180115Z
 UID:73667-1775158200-1775161800@www.hollins.edu
@@ -144,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260407T183000
 DTEND;TZID=America/New_York:20260407T193000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T164915Z
 LAST-MODIFIED:20251008T164915Z
 UID:71854-1775586600-1775590200@www.hollins.edu
@@ -157,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260409T000000
 DTEND;TZID=America/New_York:20260411T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250911T172907Z
 LAST-MODIFIED:20250911T172953Z
 UID:71566-1775692800-1775951999@www.hollins.edu
@@ -171,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260411T090000
 DTEND;TZID=America/New_York:20260411T160000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T165430Z
 LAST-MODIFIED:20260225T191823Z
 UID:71856-1775898000-1775923200@www.hollins.edu
@@ -185,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260412T000000
 DTEND;TZID=America/New_York:20260413T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260204T135707Z
 LAST-MODIFIED:20260204T135707Z
 UID:73496-1775952000-1776124799@www.hollins.edu
@@ -199,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260420T170000
 DTEND;TZID=America/New_York:20260420T183000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250905T180619Z
 LAST-MODIFIED:20250905T201818Z
 UID:71485-1776704400-1776709800@www.hollins.edu
@@ -213,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260423T193000
 DTEND;TZID=America/New_York:20260423T203000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250922T152313Z
 LAST-MODIFIED:20251008T163956Z
 UID:71688-1776972600-1776976200@www.hollins.edu
@@ -228,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260507T193000
 DTEND;TZID=America/New_York:20260507T203000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251008T171105Z
 LAST-MODIFIED:20251008T171105Z
 UID:71858-1778182200-1778185800@www.hollins.edu
@@ -241,7 +215,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260509T130000
 DTEND;TZID=America/New_York:20260509T153000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251215T155627Z
 LAST-MODIFIED:20251215T155627Z
 UID:72971-1778331600-1778340600@www.hollins.edu
@@ -256,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260511T170000
 DTEND;TZID=America/New_York:20260511T183000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250905T180803Z
 LAST-MODIFIED:20250910T165734Z
 UID:71486-1778518800-1778524200@www.hollins.edu
@@ -270,7 +244,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260517T100000
 DTEND;TZID=America/New_York:20260517T120000
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250910T144650Z
 LAST-MODIFIED:20260302T144545Z
 UID:71515-1779012000-1779019200@www.hollins.edu
@@ -285,7 +259,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260529T000000
 DTEND;TZID=America/New_York:20260531T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251204T174803Z
 LAST-MODIFIED:20251204T174803Z
 UID:72820-1780012800-1780271999@www.hollins.edu
@@ -299,7 +273,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260614T000000
 DTEND;TZID=America/New_York:20260619T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251114T170519Z
 LAST-MODIFIED:20251114T170519Z
 UID:72456-1781395200-1781913599@www.hollins.edu
@@ -314,12 +288,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260710T000000
 DTEND;TZID=America/New_York:20260712T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20260219T213020Z
-LAST-MODIFIED:20260305T202544Z
+LAST-MODIFIED:20260310T184029Z
 UID:73706-1783641600-1783900799@www.hollins.edu
 SUMMARY:3rd Biennial Children’s Literature Symposium 
-DESCRIPTION:The Pleasures and Problems of Pooh\nThe 3rd Biennial Children’s Literature Symposium\nOn Zoom\nFriday–Sunday\, July 10–12\, 2026 \n\n\n\n\nConference Details\n\n 	\nHost: Hollins University Graduate Programs in Children’s Literature \n\n 	\nChair: Chaired by Dr. Lisa Rowe Fraustino \n\n\nThis year’s hundredth anniversary of A. A. Milne’s Winnie-the-Pooh\, published in 1926\, provides a springboard for reflection on the role of classic children’s literature. \n\n“Here–we–are…all–of–us\, and then\, suddenly\, we wake up one morning and\, what do we find? We find a Strange Animal among us. An animal of whom we have never heard before! An animal who carries her family about with her in her pocket!” — Rabbit\nINVITED KEYNOTERS INCLUDE:\n\n 	Lara Saguisag\, Associate Professor and Georgiou Chair in Children’s Literature and Literacy at New York University and President of the Children’s Literature Association\n 	A Pooh Panel with Jennifer Harrison\, editor of Positioning Pooh: Edward Bear after 100 Years; volume contributor and Millersville University professor Sarah E. Jackson; and distinguished East Carolina University emeritus professor C.W. Sullivan III\n\nSYMPOSIUM ABSTRACT SUBMISSION\nThis online symposium seeks presentation proposals from authors\, illustrators\, librarians\, publishers\, educators\, and scholars in any field. Submit proposals of 500 words to Symposium-Abstract-Submissions by May 1\, 2026. Submit Symposium Abstracts online \n\nART CHALLENGE\nIllustrators are invited to submit images of your own creations related to Pooh and Pooh adjacent or influenced subjects. The symposium will include a digital art show and panel discussion session. Please submit artwork as JPGs or PNGs\, no larger than 1000 pixels wide or no larger than 5mb. Submit online\nGIRLS LITERATURE DISCUSSION GROUP\nThe final session of the symposium will be a meeting of the Hollins Girls’ Literature Discussion Group\, for which we’ll be reading Tuck Everlasting upon its 50th anniversary of publication.
+DESCRIPTION:The Pleasures and Problems of Pooh\nThe 3rd Biennial Children’s Literature Symposium\nOn Zoom\nFriday–Sunday\, July 10–12\, 2026 \n\n\n\n\nConference Details\n\n 	\nHost: Hollins University Graduate Programs in Children’s Literature \n\n 	\nChair: Chaired by Dr. Lisa Rowe Fraustino \n\n\nThis year’s hundredth anniversary of A. A. Milne’s Winnie-the-Pooh\, published in 1926\, provides a springboard for reflection on the role of classic children’s literature. \n\n“Here–we–are…all–of–us\, and then\, suddenly\, we wake up one morning and\, what do we find? We find a Strange Animal among us. An animal of whom we have never heard before! An animal who carries her family about with her in her pocket!” — Rabbit\nINVITED KEYNOTERS INCLUDE:\n\n 	Lara Saguisag\, Associate Professor and Georgiou Chair in Children’s Literature and Literacy at New York University and President of the Children’s Literature Association\n 	A Pooh Panel with Jennifer Harrison\, editor of Positioning Pooh: Edward Bear after 100 Years; volume contributor and Millersville University professor Sarah E. Jackson; and distinguished East Carolina University emeritus professor C.W. Sullivan III\n\nSYMPOSIUM ABSTRACT SUBMISSION\nThis online symposium seeks presentation proposals from authors\, illustrators\, librarians\, publishers\, educators\, and scholars in any field. View the Call for Papers. Submit proposals of 500 words to Symposium-Abstract-Submissions by May 1\, 2026. Submit Symposium Abstracts online \n\nART CHALLENGE\nIllustrators are invited to submit images of your own creations related to Pooh and Pooh adjacent or influenced subjects. The symposium will include a digital art show and panel discussion session. Please submit artwork as JPGs or PNGs\, no larger than 1000 pixels wide or no larger than 5mb. Submit online\nGIRLS LITERATURE DISCUSSION GROUP\nThe final session of the symposium will be a meeting of the Hollins Girls’ Literature Discussion Group\, for which we’ll be reading Tuck Everlasting upon its 50th anniversary of publication.
 URL:https://www.hollins.edu/event/3rd-biennial-childrens-literature-symposium/
 LOCATION:Hollins University Campus\, 7916 Williamson Road\, Roanoke\, VA\, 24020\, United States
 CATEGORIES:Children's Literature,Graduate Programs
@@ -329,7 +303,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260718T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20250930T140902Z
 LAST-MODIFIED:20251029T175051Z
 UID:71745-1783814400-1784419199@www.hollins.edu
@@ -344,7 +318,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260725T235959
-DTSTAMP:20260308T194541
+DTSTAMP:20260311T220215
 CREATED:20251216T212637Z
 LAST-MODIFIED:20251216T212637Z
 UID:73040-1783814400-1785023999@www.hollins.edu

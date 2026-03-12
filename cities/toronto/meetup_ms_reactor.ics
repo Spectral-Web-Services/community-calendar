@@ -25,84 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313244697@meetup.com
-SEQUENCE:1
-DTSTAMP:20260311T014437Z
-DTSTART;TZID=America/Toronto:20260311T110000
-DTEND;TZID=America/Toronto:20260311T120000
-SUMMARY:Build\, Scale & Govern AI Agents
-DESCRIPTION:Microsoft Reactor Toronto\nIn this session\, you’ll explore how to design scalable and reliable multi‑step AI agents by combining agentic RAG techniques\, MCP‑based tool use\, and proven agent design patterns. We’ll break down how these components work together to create agents that reason effectively\, coordinate tasks\, and integrate seamlessly with external systems.\n\nThrough practical examples and reusable patterns\, you’ll learn how to build agents that can scale across teams\, extend to complex workflows\, or be adapted for your personal projects. You’ll leave with a toolkit of approaches you can immediately apply to accelerate your agent development journey.\n\n-----------------------------------------------\n[The Java Script AI Build-a-thon](https://aka.ms/JSAIBuildathon)\n\n📌 This session is a part of a series! Learn more [here](https://developer.microsoft.com/reactor/series/S-1628/?wt.mc_id=meetup_S-1628_webpage_reactor)
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313244697/
-STATUS:CONFIRMED
-CREATED:20260207T001404Z
-LAST-MODIFIED:20260207T001404Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/1/0/0/6/600_532684102.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_312718527@meetup.com
-SEQUENCE:1
-DTSTAMP:20260311T014437Z
-DTSTART;TZID=America/Toronto:20260311T120000
-DTEND;TZID=America/Toronto:20260311T130000
-SUMMARY:Build Secure\, Observable\, Production-ready Agents with a Control Plane
-DESCRIPTION:Microsoft Reactor Toronto\n**Brought to you by Microsoft and NVIDIA**\n\nOrchestrate\, secure and observe agents enabling advanced AI workflows. Reliable agent orchestration requires clear separation between control and execution. In this joint session\, Microsoft and NVIDIA present a multi-agent architecture where Foundry Agent Service coordinates GPU-backed agents running on Azure Container Apps.\n\nUsing a document processing scenario with multiple open-source models including NVIDIA Nemotron models\, we show how agents route requests\, apply security controls\, and monitor execution across GPU workloads\, producing consistent and explainable results suitable for production environments.\n\n🔔 This session will be presented in two time zones. For our later stream\, [click here](https://developer.microsoft.com/reactor/events/26683?wt.mc_id=meetup_26660_webpage_reactor)\n\n[This session is a part of a series\, learn more here](https://developer.microsoft.com/reactor/series/S-1590/?wt.mc_id=meetup_26660_webpage_reactor)
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/312718527/
-STATUS:CONFIRMED
-CREATED:20260104T204147Z
-LAST-MODIFIED:20260104T204147Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/b/1/2/e/600_532485358.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_313448486@meetup.com
-SEQUENCE:1
-DTSTAMP:20260311T014437Z
-DTSTART;TZID=America/Toronto:20260311T130000
-DTEND;TZID=America/Toronto:20260311T140000
-SUMMARY:IA y Seguridad: La innovación por IA no sirve de nada si no es segura
-DESCRIPTION:Microsoft Reactor Toronto\n¿Está tu equipo de seguridad escalando a la misma velocidad que tu código generado por IA? Te invitamos a una sesión exclusiva donde revisaremos las capacidades de IA que existen hoy en día dentro del mundo de Seguridad. En la era de la IA\, la brecha entre desarrollo y seguridad se está cerrando. Queremos mostrarte cómo GitHub está liderando esta convergencia\, permitiendo que los equipos de DevSecOps operen con una visibilidad total y sin fricciones.\n\n**¿Qué verás en esta sesión?**\n\n* IA + Seguridad Nativa: Cómo detectar vulnerabilidades y secretos en tiempo real.\n* Visibilidad Unificada: Una única "torre de control" para gestionar el riesgo de toda tu cadena de suministro.\n* Automatización de remediacion: Dejar de solo encontrar problemas para empezar a resolverlos con sugerencias de IA.\n* Roadmap de Innovación: Las capacidades de IA que están cambiando las reglas del juego para los expertos en ciberseguridad.\n\nFinalizaremos con un Q&A en vivo para resolver tus retos específicos de infraestructura y cumplimiento.\n\n📌 Esta sesión forma parte de una serie. [Más información aquí](https://developer.microsoft.com/reactor/series/S-1311?wt.mc_id=meetup_S-1311_webpage_reactor)
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313448486/
-STATUS:CONFIRMED
-CREATED:20260220T175024Z
-LAST-MODIFIED:20260220T175024Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/9/b/600_532828571.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_313175243@meetup.com
-SEQUENCE:1
-DTSTAMP:20260311T014437Z
-DTSTART;TZID=America/Toronto:20260311T150000
-DTEND;TZID=America/Toronto:20260311T160000
-SUMMARY:Descubriendo GitHub Copilot CLI
-DESCRIPTION:Microsoft Reactor Toronto\nGitHub Copilot CLI es una herramienta que lleva la inteligencia del coding agent de Copilot directamente a tu terminal. Con ella puedes conversar con un agente AI para explorar tu código\, refactorizar\, depurar y ejecutar tareas complejas sin salir del CLI\, utilizando lenguaje natural para interactuar con tus repositorios\, issues y pull requests. Este enfoque mantiene el contexto de GitHub y la integración con tu flujo de trabajo mientras automatiza y acelera tareas repetitivas.
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313175243/
-STATUS:CONFIRMED
-CREATED:20260202T173133Z
-LAST-MODIFIED:20260202T173133Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/8/a/c/600_532559564.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_313403856@meetup.com
-SEQUENCE:1
-DTSTAMP:20260311T014437Z
-DTSTART;TZID=America/Toronto:20260311T150000
-DTEND;TZID=America/Toronto:20260311T160000
-SUMMARY:Azure Decoded: Getting Ready for the Migrate & Modernize Summit
-DESCRIPTION:Microsoft Reactor Toronto\nThe Migrate & Modernize Summit is where Microsoft brings together the latest thinking on how to move faster on Azure — using AI‑powered\, agentic approaches to modernize infrastructure\, databases\, and applications.\n\nIn this Azure Decoded episode\, you’ll get a sneak peek at what’s coming: the key themes you’ll hear across Summit keynotes and breakouts\, the real‑world migration and modernization scenarios being spotlighted\, and why this event matters if you’re planning your next move to Azure. We’ll also highlight the skilling opportunities connected to the Summit\, including the Migrate & Modernize Foundations Virtual Training Day\, so you’ll know how to get ready\, what to focus on during the event\, and how to turn what you learn into action afterward.\n\n**What you’ll learn:**\n- What to expect at the Migrate & Modernize Summit — key themes like agentic AI\, Azure Copilot\, Azure Migrate\, and modernization pathways across compute\, data\, and apps.\n- How Microsoft approaches migration and modernization today — from assessment and planning to modernization\, security\, and optimization after the move.\n- How to skill up before and after the Summit — including how the Migrate & Modernize Foundations VTD and learning paths help turn Summit insights into hands‑on capability.\n\n-------------------------------------------------------\n[Explore the Learn Path](https://learn.microsoft.com/plans/j2j1fz78ndwp8m/&wt.mc_id=meetup_26841_webpage_reactor)\n[Azure Skilling - Build Your Azure Migrate and Modernize Skills](https://azure.github.io/MigrateModernizeSkilling/)\n[Microsoft Azure Summit: Migrate and Modernize with Agentic AI](https://www.microsoft.com/events/launch-events/migrate-and-modernize-summit?msockid=0a79b602dee169e70531a109dfa968ea/&wt.mc_id=meetup_26841_webpage_reactor)\n\n📌 This session is a part of a series! Learn more [**here**](https://developer.microsoft.com/reactor/series/S-1644/?wt.mc_id=meetup_S-1644_webpage_reactor)
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313403856/
-STATUS:CONFIRMED
-CREATED:20260217T222857Z
-LAST-MODIFIED:20260217T222857Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/e/5/4/600_532792820.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313103095@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T014437Z
+DTSTAMP:20260312T014531Z
 DTSTART;TZID=America/Toronto:20260311T210000
 DTEND;TZID=America/Toronto:20260311T220000
 SUMMARY:Build Secure\, Observable\, Production-ready Agents with a Control Plane
@@ -117,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312298329@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T014437Z
+DTSTAMP:20260312T014531Z
 DTSTART;TZID=America/Toronto:20260312T080000
 DTEND;TZID=America/Toronto:20260312T090000
 SUMMARY:Safety\, Reliability & Best Practices in LangChain4j
@@ -132,9 +57,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313227144@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T014437Z
+DTSTAMP:20260312T014531Z
 DTSTART;TZID=America/Toronto:20260313T110000
-DTEND;TZID=America/Toronto:20260313T120000
+DTEND;TZID=America/Toronto:20260313T113000
 SUMMARY:Global Build-a-thon Hack!
 DESCRIPTION:Microsoft Reactor Toronto\nIn this livestream\, we officially kick off the Global Buildathon Hack\, bringing builders from around the world together to apply what they’ve learned throughout the series and turn ideas into real\, working AI solutions.\n\nWe’ll walk through the hackathon theme\, structure\, timelines\, and judging criteria\, highlight the tools and resources available to participants\, and share what success looks like - from learning outcomes to real‑world impact.\n\n-----------------------------------------------\n[The Java-Script AI Build-a-thon](https://aka.ms/JSAIBuildathon)\n\n📌 This session is a part of a series! Learn more [here](https://developer.microsoft.com/reactor/series/S-1628/?wt.mc_id=meetup_S-1628_webpage_reactor)
 URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313227144/
@@ -147,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313315383@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T014437Z
+DTSTAMP:20260312T014531Z
 DTSTART;TZID=America/Toronto:20260316T133000
 DTEND;TZID=America/Toronto:20260316T143000
 SUMMARY:Model Mondays - What's New In Foundry IQ?
@@ -162,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313095353@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T014437Z
+DTSTAMP:20260312T014531Z
 DTSTART;TZID=America/Toronto:20260316T180000
 DTEND;TZID=America/Toronto:20260316T190000
 SUMMARY:DevOps sin filtros: lo que nadie te cuenta
@@ -173,6 +98,81 @@ CREATED:20260128T140508Z
 LAST-MODIFIED:20260128T140508Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/a/5/c/b/600_532482443.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313240204@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T014531Z
+DTSTART;TZID=America/Toronto:20260317T130000
+DTEND;TZID=America/Toronto:20260317T140000
+SUMMARY:Extend Azure SRE Agent: Custom Runbooks and Ecosystem Tools for Proactive Reliab
+DESCRIPTION:Microsoft Reactor Toronto\nTake Azure SRE Agent beyond out-of-the-box capabilities by extending it with custom runbooks and ecosystem tools.\n\nThis session covers how to tailor automation for your environment\, integrate with your existing toolchain\, and build proactive reliability workflows that prevent\, diagnose\, and mitigate issues before they escalate.\n\nWe'll walk through real-world examples of extending the agent to handle complex operational scenarios and orchestrate advanced workflows for resilient architectures.\n\n📌 This session is a part of a series! [Learn more here](https://developer.microsoft.com/reactor/series/S-1625/?wt.mc_id=meetup_S-1625_webpage_reactor)
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313240204/
+STATUS:CONFIRMED
+CREATED:20260206T183321Z
+LAST-MODIFIED:20260206T183321Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/8/6/6/600_532611302.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_312735393@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T014531Z
+DTSTART;TZID=America/Toronto:20260318T130000
+DTEND;TZID=America/Toronto:20260318T140000
+SUMMARY:Conceptos avanzados de redes en Microsoft Azure
+DESCRIPTION:Microsoft Reactor Toronto\nProfundiza en la arquitectura de redes en Azure\, incluyendo conectividad híbrida\, balanceo de carga\, seguridad de red y mejores prácticas para entornos empresariales.
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/312735393/
+STATUS:CONFIRMED
+CREATED:20260105T175806Z
+LAST-MODIFIED:20260105T175806Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/2/7/5/600_532113397.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313175332@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T014531Z
+DTSTART;TZID=America/Toronto:20260318T150000
+DTEND;TZID=America/Toronto:20260318T160000
+SUMMARY:Implementando GitHub Copilot CLI SDKs
+DESCRIPTION:Microsoft Reactor Toronto\nLos Copilot CLI SDKs son kits de desarrollo que permiten integrar el motor agentico de Copilot en aplicaciones y servicios propios. Están disponibles en varios lenguajes (Node.js/TypeScript\, Python\, Go\, .NET) y exponen la misma capacidad de planificación\, invocación de herramientas\, edición de archivos y autenticación que usa Copilot CLI\, pero de forma programática para que puedas construir aplicaciones con comportamientos inteligentes incorporados.
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313175332/
+STATUS:CONFIRMED
+CREATED:20260202T173838Z
+LAST-MODIFIED:20260202T173838Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/8/b/2/600_532559570.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313404622@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T014531Z
+DTSTART;TZID=America/Toronto:20260318T150000
+DTEND;TZID=America/Toronto:20260318T160000
+SUMMARY:Azure Decoded: Kickstart AI Security with Microsoft Defender for Cloud
+DESCRIPTION:Microsoft Reactor Toronto\nStart your journey to secure AI workloads in the cloud. Learn how Defender for Cloud provides foundational protection for your AI solutions and why it’s essential for modern security strategies.\n\n**What you’ll learn:**\n- Identify the layers that make up AI workloads in Azure\n- Recognize security risks unique to AI\, including prompt injection\, data leakage\, and model misuse\n- Explain how Microsoft Foundry provides guardrails and observability for AI models\n- Describe how Microsoft Defender for Cloud\, Microsoft Purview\, and Microsoft Entra ID work together to secure and govern AI workloads\n- Summarize how these services align to create a unified\, defense-in-depth strategy for AI security in Azure\n\n**Who should attend:** Developers\, Security Engineers\, and technical professionals who want to learn how Defender for Cloud provides foundational protection for AI solutions and why it’s essential for modern security strategies.\n\n-------------------------------------------------------\n[Enable threat protection for AI services](https://learn.microsoft.com/azure/defender-for-cloud/ai-onboarding/?wt.mc_id=meetup_26842_webpage_reactor)\n[Defender for Cloud - AI threat protection](https://learn.microsoft.com/azure/defender-for-cloud/ai-threat-protection/?wt.mc_id=meetup_26842_webpage_reactor)\n\n📌 This session is a part of a series! Learn more [**here**](https://developer.microsoft.com/reactor/series/S-1644/?wt.mc_id=meetup_S-1644_webpage_reactor)
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/313404622/
+STATUS:CONFIRMED
+CREATED:20260217T235318Z
+LAST-MODIFIED:20260217T235318Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/2/0/a/600_532793770.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_312864547@meetup.com
+SEQUENCE:1
+DTSTAMP:20260312T014531Z
+DTSTART;TZID=America/Toronto:20260319T080000
+DTEND;TZID=America/Toronto:20260319T090000
+SUMMARY:Agentic Patterns with LangChain4j
+DESCRIPTION:Microsoft Reactor Toronto\nIn this **BONUS** finale\, we graduate from single agents to full multi-agent systems. We'll explore 8 patterns that power production AI: chain agents like an assembly line\, fan-out for parallel expert opinions\, loop until a critic approves\, and route requests to the right specialist. Then unlock Supervisor agents that delegate like project managers and Human-in-the-Loop gates when humans need the final say. Finally\, explore goal-oriented planners that find optimal paths and peer-to-peer meshes where agents collaborate as equals without a boss.\n\nPre-requisites:\nCheck out the LangChain4j beginners series: https://aka.ms/langchain4j-for-beginners\nSign up for an Azure free trial: https://aka.ms/AzureFreeTrialDevRelAll
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/312864547/
+STATUS:CONFIRMED
+CREATED:20260113T164657Z
+LAST-MODIFIED:20260113T164657Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/a/5/e/3/600_532482467.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/microsoft-reactor-toronto/events/ical/
 X-WR-CALNAME:Microsoft Reactor Toronto

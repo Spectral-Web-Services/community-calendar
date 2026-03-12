@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313426884@meetup.com
-SEQUENCE:1
-DTSTAMP:20260311T015356Z
-DTSTART;TZID=America/New_York:20260311T140000
-DTEND;TZID=America/New_York:20260311T150000
-SUMMARY:Building Agent-Ready Data Architectures on Google Cloud
-DESCRIPTION:Data Science Raleigh\nAI agents are only as effective as the data they can access. Yet most enterprise architectures still depend on batch pipelines\, fragmented systems\, and tightly controlled operational environments that limit real-time context.\n\nIn this technical deep dive\, Striim and Google Cloud outline a practical\, production-ready architecture for streaming real-time operational data into Google Cloud to power AI at scale.\nWe’ll examine how low-latency Change Data Capture (CDC) enables continuous movement of trusted enterprise data from on-prem\, hybrid\, and multi-cloud environments into BigQuery and Cloud Storage—creating a dynamic foundation for analytics\, model training\, evaluation\, and serving on Vertex AI.\n\nThe session goes beyond reference diagrams. We’ll explore how continuously refreshed data supports goal-directed reasoning in AI agents\, improves memory retention through up-to-date context\, and enables dynamic planning in real-world operational workflows. Just as importantly\, we’ll address governance\, observability\, and architectural flexibility—so teams can modernize without compromising compliance or performance.\n\nIf you're building AI systems that need fresh enterprise context to act safely and effectively\, this session will give you a blueprint grounded in real-world constraints.\n\n**What You'll Learn:**\n\n1️⃣ **Real-Time Data as Agent Context:** How low-latency CDC pipelines create continuously updated data products that power training\, evaluation\, and real-time inference on Vertex AI.\n\n2️⃣ **Architecture for Hybrid and Multi-Cloud Enterprises:** Patterns for securely streaming operational data from on-prem and distributed systems into BigQuery and Cloud Storage without disrupting core systems.\n\n3️⃣ **From Data Movement to AI Activation:** How fresh\, governed data enables agent memory\, dynamic decision-making\, and modular AI workflows at scale.\n\n4️⃣ **Governance\, Observability\, and Control:** How to maintain compliance\, enforce access controls\, and monitor data pipelines while supporting production-grade AI systems.\n\n5️⃣**Future-Proof Platform Design:** How to architect for flexibility—so your AI stack can evolve as models\, agents\, and enterprise requirements change.\n\nThis is an architecture-led session for data and AI leaders who want to move beyond experimentation and build enterprise AI systems that operate in real time—securely\, reliably\, and at scale.\n\n**[Register here](https://hubs.ly/Q043XKZQ0)**
-URL;VALUE=URI:https://www.meetup.com/data-science-nc/events/313426884/
-STATUS:CONFIRMED
-CREATED:20260219T084709Z
-LAST-MODIFIED:20260219T084709Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/b/8/9/4/600_532907252.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_312179809@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260318T140000
 DTEND;TZID=America/New_York:20260318T150000
 SUMMARY:AI Infrastructure That Scales: Foundations for Real-World Deployment
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313619206@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260325T140000
 DTEND;TZID=America/New_York:20260325T150000
 SUMMARY: Building with Mistral: Open\, Powerful\, and Ready to Scale
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312860655@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260331T140000
 DTEND;TZID=America/New_York:20260331T160000
 SUMMARY:Plug & Play: Live AI Workflows in Action
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313187079@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260415T140000
 DTEND;TZID=America/New_York:20260415T150000
 SUMMARY:From AI to ROI: Turning Pilots Into Scalable Impact
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313251922@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260506T140000
 DTEND;TZID=America/New_York:20260506T150000
 SUMMARY:AI Demo Day Q2
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313260755@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260513T140000
 DTEND;TZID=America/New_York:20260513T150000
 SUMMARY:The Context Layer: The Emerging Stack for Context-Aware AI
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313262785@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260603T140000
 DTEND;TZID=America/New_York:20260603T150000
 SUMMARY:Agentic AI in Action: 10-Minute Demo Spotlights from the Frontier Q2
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313263417@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260610T140000
 DTEND;TZID=America/New_York:20260610T160000
 SUMMARY: Plug & Play: Live AI Workflows in Action Q2
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313278597@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260617T140000
 DTEND;TZID=America/New_York:20260617T150000
 SUMMARY:Scaling AI: Designing Systems Built to Grow

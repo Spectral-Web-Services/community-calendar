@@ -203,6 +203,32 @@ UID:858
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=996
+DTEND;TZID=America/Anchorage:20260527T230000
+DTSTAMP;TZID=America/Anchorage:20260309T095335
+DTSTART;TZID=America/Anchorage:20260527T180000
+LAST-MODIFIED;TZID=America/Anchorage:20260309T095335
+LOCATION:City Hall > Council Chambers - 290 E Herning Ave  Wasilla AK 99654
+SEQUENCE:0
+SUMMARY:City Council Special Meeting - Budget Deliberations (CIP). The bud
+ get may be amended and adopted.
+UID:996
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=995
+DTEND;TZID=America/Anchorage:20260518T230000
+DTSTAMP;TZID=America/Anchorage:20260309T095233
+DTSTART;TZID=America/Anchorage:20260518T180000
+LAST-MODIFIED;TZID=America/Anchorage:20260309T095233
+LOCATION:City Hall > Council Chambers - 290 E Herning Ave  Wasilla AK 99654
+SEQUENCE:0
+SUMMARY:City Council Special Meeting - Budget Deliberations (Operations). 
+ The budget may be amended.
+UID:995
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=857
 DTEND;TZID=America/Anchorage:20260511T210000
 DTSTAMP;TZID=America/Anchorage:20251110T114055
@@ -287,18 +313,6 @@ LOCATION:City Hall > Council Chambers - 290 E Herning Ave  Wasilla AK 99654
 SEQUENCE:0
 SUMMARY:City Council Regular Meeting
 UID:854
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=853
-DTEND;TZID=America/Anchorage:20260309T210000
-DTSTAMP;TZID=America/Anchorage:20251110T113845
-DTSTART;TZID=America/Anchorage:20260309T180000
-LAST-MODIFIED;TZID=America/Anchorage:20251110T113845
-LOCATION:City Hall > Council Chambers - 290 E Herning Ave  Wasilla AK 99654
-SEQUENCE:0
-SUMMARY:City Council Regular Meeting
-UID:853
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
 END:VEVENT
 END:VCALENDAR

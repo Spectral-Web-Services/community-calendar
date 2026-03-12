@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313346931@meetup.com
-SEQUENCE:1
-DTSTAMP:20260311T015356Z
-DTSTART;TZID=America/New_York:20260311T110000
-DTEND;TZID=America/New_York:20260311T170000
-SUMMARY:Engineering with AI: Tools & Workflows for Next Gen Development Workshop
-DESCRIPTION:Modern Web (Triangle)\nJoin this immersive workshop to learn how modern engineering teams are integrating AI into everyday workflows. Through hands-on sessions\, you’ll explore proven frameworks and practical AI playbooks that make code reviews faster\, documentation smoother\, and planning more strategic.\n\nYou’ll leave with battle-tested frameworks\, real experience\, and a concrete plan to bring AI tools and automation into your daily dev process.\n\n**[This is a ticketed event. Seats are limited! Learn more here!](https://ai.thisdot.co/workshops)**\n\n**Use code MODERNWEB at checkout for $50 tickets!**
-URL;VALUE=URI:https://www.meetup.com/trianglemodernweb/events/313346931/
-STATUS:CONFIRMED
-CREATED:20260213T212219Z
-LAST-MODIFIED:20260213T212219Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/c/7/4/600_532720052.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313491893@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260312T183000
 DTEND;TZID=America/New_York:20260312T203000
 SUMMARY:Triangle Devs Talks @ Bandwidth HQ
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313297099@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260318T123000
 DTEND;TZID=America/New_York:20260318T143000
 SUMMARY:State of React Native
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313436071@meetup.com
 SEQUENCE:1
-DTSTAMP:20260311T015356Z
+DTSTAMP:20260312T015446Z
 DTSTART;TZID=America/New_York:20260422T110000
 DTEND;TZID=America/New_York:20260422T170000
 SUMMARY:Engineering with AI: Tools & Workflows for Next Gen Development Workshop

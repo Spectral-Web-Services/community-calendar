@@ -488,28 +488,4 @@ SUMMARY:City Council Meeting
 UID:1371
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1335
-DTEND;TZID=America/New_York:20260311T193000
-DTSTAMP;TZID=America/New_York:20251118T105343
-DTSTART;TZID=America/New_York:20260311T183000
-LAST-MODIFIED;TZID=America/New_York:20251118T105343
-LOCATION: -
-SEQUENCE:0
-SUMMARY:Planning Commission Meeting
-UID:1335
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1358
-DTEND;TZID=America/New_York:20260309T193000
-DTSTAMP;TZID=America/New_York:20251125T100119
-DTSTART;TZID=America/New_York:20260309T183000
-LAST-MODIFIED;TZID=America/New_York:20251125T100119
-LOCATION: -
-SEQUENCE:0
-SUMMARY:City Council Meeting
-UID:1358
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27
-END:VEVENT
 END:VCALENDAR
