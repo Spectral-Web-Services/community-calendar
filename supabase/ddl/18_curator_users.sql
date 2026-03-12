@@ -2,6 +2,7 @@
 
 CREATE TABLE IF NOT EXISTS curator_users (
   user_id uuid PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+  cities text[] DEFAULT '{}',
   created_at timestamptz DEFAULT now()
 );
 

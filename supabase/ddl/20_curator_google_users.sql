@@ -2,6 +2,7 @@
 
 CREATE TABLE IF NOT EXISTS curator_google_users (
   google_email text PRIMARY KEY,
+  cities text[] DEFAULT '{}',
   created_at timestamptz DEFAULT now()
 );
 

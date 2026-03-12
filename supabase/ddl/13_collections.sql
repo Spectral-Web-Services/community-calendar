@@ -20,13 +20,13 @@ CREATE POLICY "collections_select_public"
 
 CREATE POLICY "collections_insert_curator"
   ON collections FOR INSERT
-  WITH CHECK (auth.uid() = user_id AND public.is_curator());
+  WITH CHECK (auth.uid() = user_id AND public.is_curator_for_city(city));
 
 CREATE POLICY "collections_update_curator"
   ON collections FOR UPDATE
-  USING (auth.uid() = user_id AND public.is_curator())
-  WITH CHECK (auth.uid() = user_id AND public.is_curator());
+  USING (auth.uid() = user_id AND public.is_curator_for_city(city))
+  WITH CHECK (auth.uid() = user_id AND public.is_curator_for_city(city));
 
 CREATE POLICY "collections_delete_curator"
   ON collections FOR DELETE
-  USING (auth.uid() = user_id AND public.is_curator());
+  USING (auth.uid() = user_id AND public.is_curator_for_city(city));

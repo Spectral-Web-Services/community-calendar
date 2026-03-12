@@ -21,17 +21,19 @@ CREATE POLICY "collection_events_select_public"
 CREATE POLICY "collection_events_insert_curator"
   ON collection_events FOR INSERT
   WITH CHECK (
-    public.is_curator() AND EXISTS (
+    EXISTS (
       SELECT 1 FROM collections
       WHERE id = collection_id AND user_id = auth.uid()
     )
+    AND public.is_curator_for_city((SELECT city FROM collections WHERE id = collection_id))
   );
 
 CREATE POLICY "collection_events_delete_curator"
   ON collection_events FOR DELETE
   USING (
-    public.is_curator() AND EXISTS (
+    EXISTS (
       SELECT 1 FROM collections
       WHERE id = collection_id AND user_id = auth.uid()
     )
+    AND public.is_curator_for_city((SELECT city FROM collections WHERE id = collection_id))
   );

@@ -77,11 +77,12 @@ export function useEventCardData(event, filterTerm) {
 
 export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
   const { user } = useAuth();
-  const { isCurator } = useCurator();
+  const { isCuratorForCity } = useCurator();
   const feedCtx = useFeedContext();
   const [showCatModal, setShowCatModal] = React.useState(false);
   const [showEnrich, setShowEnrich] = React.useState(false);
 
+  const canCurate = isCuratorForCity(event.city);
   const isAutoFeed = feedCtx?.collection?.type === 'auto';
   const removeTitle = isAutoFeed ? 'Exclude from collection' : 'Remove from collection';
 
@@ -124,7 +125,7 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
       {/* User tools row — bookmark for any logged-in user */}
       {user && (
         <div className="border-t border-gray-100 dark:border-gray-700 mt-2 pt-2 flex items-center gap-2">
-          {isCurator && (
+          {canCurate && (
             <>
               <span className="text-[10px] font-medium text-gray-400 uppercase tracking-wide">Curator</span>
               <div className="flex-1" />
@@ -163,7 +164,7 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
               <StarButton event={event} />
             </>
           )}
-          {!isCurator && <div className="flex-1" />}
+          {!canCurate && <div className="flex-1" />}
           <BookmarkButton event={event} />
         </div>
       )}
@@ -188,20 +189,21 @@ export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {
 /** Curator tools for compact/hover cards — shown inline. */
 export function CuratorTools({ event }) {
   const { user } = useAuth();
-  const { isCurator } = useCurator();
+  const { isCuratorForCity } = useCurator();
   const feedCtx = useFeedContext();
   const [showCatModal, setShowCatModal] = React.useState(false);
   const [showEnrich, setShowEnrich] = React.useState(false);
 
   if (!user) return null;
 
+  const canCurate = isCuratorForCity(event.city);
   const isAutoFeed = feedCtx?.collection?.type === 'auto';
   const removeTitle = isAutoFeed ? 'Exclude from collection' : 'Remove from collection';
 
   return (
     <>
       <div className="flex items-center gap-1.5">
-        {isCurator && (
+        {canCurate && (
           <>
             {event.category ? (
               <button

@@ -2,6 +2,7 @@
 
 CREATE TABLE IF NOT EXISTS curator_github_users (
   github_user text PRIMARY KEY,
+  cities text[] DEFAULT '{}',
   created_at timestamptz DEFAULT now()
 );
 

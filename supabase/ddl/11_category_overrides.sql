@@ -14,8 +14,8 @@ CREATE TABLE IF NOT EXISTS category_overrides (
 ALTER TABLE category_overrides ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Anyone can read overrides" ON category_overrides FOR SELECT USING (true);
-CREATE POLICY "Curators can insert overrides" ON category_overrides FOR INSERT WITH CHECK (auth.uid() = curator_id AND public.is_curator());
-CREATE POLICY "Curators can update own overrides" ON category_overrides FOR UPDATE USING (auth.uid() = curator_id AND public.is_curator());
+CREATE POLICY "Curators can insert overrides" ON category_overrides FOR INSERT WITH CHECK (auth.uid() = curator_id AND public.is_curator_for_city((SELECT city FROM events WHERE id = event_id)));
+CREATE POLICY "Curators can update own overrides" ON category_overrides FOR UPDATE USING (auth.uid() = curator_id AND public.is_curator_for_city((SELECT city FROM events WHERE id = event_id)));
 
 -- Trigger: store original category then propagate override to events.category
 CREATE OR REPLACE FUNCTION apply_category_override()

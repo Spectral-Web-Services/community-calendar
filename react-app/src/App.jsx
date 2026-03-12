@@ -33,7 +33,8 @@ function App() {
   }, []);
 
   const { user } = useAuth();
-  const { isCurator } = useCurator();
+  const { isCurator, isCuratorForCity } = useCurator();
+  const canCurateCity = isCuratorForCity(city);
   const { featuredStore } = useFeatured();
   const featuredIds = useSyncExternalStore(featuredStore.subscribe, featuredStore.getSnapshot);
   const [filterTerm, setFilterTerm] = useState('');
@@ -111,8 +112,8 @@ function App() {
       <div className="max-w-[1400px] w-full px-4 py-6">
         <Header city={city} events={processedEvents} />
 
-        {/* View mode tabs — Collections tab only for curators */}
-        {isCurator && (
+        {/* View mode tabs — Collections tab only for curators with access to this city */}
+        {canCurateCity && (
           <div className="flex gap-1 mb-4">
             <button
               onClick={() => setViewMode('cards')}
@@ -135,7 +136,7 @@ function App() {
 
         {viewMode === 'cards' && (
           <>
-            {isCurator && <CollectionTargetBar />}
+            {canCurateCity && <CollectionTargetBar />}
             <SearchBar
               filterTerm={filterTerm}
               onFilterTermChange={(val) => { setFilterTerm(val); setDisplayCount(50); }}
