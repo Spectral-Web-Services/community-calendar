@@ -1047,15 +1047,23 @@ jobs:
         python scrapers/ovationtix.py --org 177 --name "Wheelock Family Theatre" --output cities/boston/ovationtix_wheelock.ics || true
         # A.R.T. (embedded JSON calendar)
         python scrapers/art_calendar.py --output cities/boston/art.ics || true
+        # ArtsEmerson (Tribe Events REST API — ICS feed is broken)
+        python scrapers/artsemerson.py --output cities/boston/artsemerson.ics || true
         # Boston Theatre Scene (aggregator)
         python scrapers/boston_theatre_scene.py --output cities/boston/boston_theatre_scene.ics || true
+        # Ticketmaster venues (requires TICKETMASTER_API_KEY secret)
+        if [ -n "$TICKETMASTER_API_KEY" ]; then
+          python scrapers/ticketmaster.py --venue-id KovZpZAFd1JA --name "Citizens Opera House" -o cities/boston/ticketmaster_citizens_opera.ics || true
+          python scrapers/ticketmaster.py --venue-id KovZpZAJd66A --name "Emerson Colonial Theatre" -o cities/boston/ticketmaster_emerson_colonial.ics || true
+          python scrapers/ticketmaster.py --venue-id KovZpZAan76A --name "Lyric Stage Company" -o cities/boston/ticketmaster_lyric_stage.ics || true
+        fi
+      env:
+        TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
 
     - name: Fetch Boston live feeds
       if: contains(steps.locations.outputs.list, 'boston') && github.event.inputs.regenerate_only != 'true'
       run: |
         cd cities/boston
-        # Theater ICS feeds
-        curl -sL "https://artsemerson.org/events/?ical=1" -o artsemerson.ics || true
         # Tufts TDPS (Trumba calendar)
         curl -sL "https://www.trumba.com/calendars/tts-wms-managed-tdps.ics" -o tufts_tdps.ics || true
         cd ../..

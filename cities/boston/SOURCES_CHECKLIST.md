@@ -2,7 +2,7 @@
 
 Focus: Theater (initial phase)
 
-## Currently Implemented (13 sources)
+## Currently Implemented (16 sources)
 
 ### Theater — Aggregators
 | Source | Type | Events | Notes |
@@ -12,13 +12,13 @@ Focus: Theater (initial phase)
 ### Theater — ICS Feeds
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
-| ArtsEmerson | WordPress Tribe ICS | 1+ | Emerson College's performing arts org |
 | Tufts TDPS | Trumba ICS | 9 | Theater, dance, and performance studies at Tufts |
 
 ### Theater — Custom Scrapers
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
 | American Repertory Theater | art_calendar.py (embedded JSON) | 38 | Embedded FullCalendar JSON in /calendar/ page |
+| ArtsEmerson | artsemerson.py (Tribe Events REST API) | 32 | ICS feed broken; uses REST API instead |
 | BU School of Theatre | bu_cfa.py (topic 8637) | 23 | WordPress AJAX calendar, shows + student productions |
 
 ### Theater — OvationTix Venues
@@ -28,13 +28,20 @@ Focus: Theater (initial phase)
 | Actors' Shakespeare Project | ovationtix.py (org 921) | 22 | OvationTix org 921 |
 | Wheelock Family Theatre | ovationtix.py (org 177) | 15 | Mix of productions and children's classes |
 
+### Theater — Ticketmaster Venues
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| Citizens Opera House | ticketmaster.py (KovZpZAFd1JA) | 303 | Broadway touring house; The Outsiders, Beauty and the Beast, Les Mis |
+| Emerson Colonial Theatre | ticketmaster.py (KovZpZAJd66A) | 134 | Broadway touring house; Suffs, etc. |
+| Lyric Stage Company | ticketmaster.py (KovZpZAan76A) | 0 | 244-seat intimate theater; may not sell via TM |
+
 ### Theater — Songkick Venues
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
-| Citizens Opera House | Songkick scraper | 3 | Broadway touring house (was Citizens Bank Opera House) |
-| Emerson Colonial Theatre | Songkick scraper | 8 | Broadway touring house, ATG Tickets |
+| Citizens Opera House | Songkick scraper | 3 | Fallback; Ticketmaster has richer data |
+| Emerson Colonial Theatre | Songkick scraper | 8 | Fallback; Ticketmaster has richer data |
 | Huntington Theatre | Songkick scraper | 3 | Major regional theater |
-| Lyric Stage Company | Songkick scraper | 1 | 244-seat intimate theater |
+| Lyric Stage Company | Songkick scraper | 1 | Fallback; Ticketmaster venue has 0 events currently |
 
 ## Discovered - Needs Investigation
 | Source | URL | Notes |
@@ -58,6 +65,6 @@ Focus: Theater (initial phase)
 ## To Investigate (future phases)
 - [ ] Company One Theatre — needs custom WordPress/Divi scraper
 - [ ] Front Porch Arts Collective — Weebly/GiveButter, low volume
-- [ ] Ticketmaster venue IDs for Citizens Opera House, Emerson Colonial (for richer data)
+- [x] Ticketmaster venue IDs for Citizens Opera House, Emerson Colonial, Lyric Stage (added)
 - [ ] Huntington calendar Vue API
 - [ ] Music venues, comedy clubs, community events, meetups, libraries
