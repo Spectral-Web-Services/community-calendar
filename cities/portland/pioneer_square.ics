@@ -1,0 +1,437 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Square - ECPv6.15.17.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Square
+X-ORIGINAL-URL:https://www.thesquarepdx.org
+X-WR-CALDESC:Events for The Square
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260312T120000
+DTEND;TZID=America/Los_Angeles:20260312T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T180625Z
+LAST-MODIFIED:20260210T180625Z
+UID:20940-1773316800-1773320400@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Jay Ringer and the Bells at Pioneer Place
+DESCRIPTION:Trumpeter\, pianist\, guitarist\, and vocalist Jay Ringer does it all with a smooth and peaceful sound that’s very much his own. \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-jay-ringer-and-the-bells-at-pioneer-place/
+LOCATION:Pioneer Place\, 700 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2026/02/Jay-Ringer.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260317T120000
+DTEND;TZID=America/Los_Angeles:20260317T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T192449Z
+LAST-MODIFIED:20260219T195928Z
+UID:20944-1773748800-1773752400@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Sweet N’ Juicy at Sixth+Main
+DESCRIPTION:Sweet N’ Juicy will be performing at Sixth+Main on Downtown’s Transit Mall! \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-sweet-n-juicy-at-sixthmain/
+LOCATION:SW 6th Ave & SW Main St\, Portland\, OR 97205\, SW 6th Ave & SW Main St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2026/02/Sweet-N-Juicy.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260319T120000
+DTEND;TZID=America/Los_Angeles:20260319T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T194704Z
+LAST-MODIFIED:20260219T200009Z
+UID:20947-1773921600-1773925200@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Curtis Reynolds at Pendleton
+DESCRIPTION:Curtis Reynolds will be performing at Pendleton on Downtown’s transit mall! \nCurtis Reynolds is a Portland-based singer/songwriter with a pop/soul influenced vibe express through powerful vocals and acoustic guitar. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-curtis-reynolds-2/
+LOCATION:Pendleton\, 825 SW Yamhill St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2025/07/Curtis-Reynolds.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260324T120000
+DTEND;TZID=America/Los_Angeles:20260324T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T195911Z
+LAST-MODIFIED:20260210T195911Z
+UID:20950-1774353600-1774357200@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Cosacchi at Less and More Coffee
+DESCRIPTION:Cosacchi will be performing at Less and More Coffee on Downtown’s transit mall! \nCosacchi is an Indie Rock band from Portland\, OR. It was created by singer-songwriter and multi-instrumentalist Conor Adams in 2020. Their sound is heavily influenced by American Folk-Rock and Jazz music. Adam’s distinctive voice is a soothing element of the music\, together with the harmonies provided by vocalist Alena Bagoly they create a unique blend that comforts the listener. Songs range from laid-back talksing songwriting\, to high energy/guitar driven anthems. With Cosacchi\, there is truly a sound for every occasion. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-cosacchi-at-less-and-more-coffee/
+LOCATION:Less & More Coffee\, 1003 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2025/07/08-Cosacchi-Photo-1.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260326T120000
+DTEND;TZID=America/Los_Angeles:20260326T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T203804Z
+LAST-MODIFIED:20260210T203804Z
+UID:20952-1774526400-1774530000@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Joel Shelley at Pioneer Place
+DESCRIPTION:Joel Shelley will be performing at Pioneer Place on Downtown’s Transit Mall! \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-joel-shelley-at-pioneer-place/
+LOCATION:Pioneer Place\, 700 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/02/PMMI_Social-Media_General.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260329T103000
+DTEND;TZID=America/Los_Angeles:20260329T160000
+DTSTAMP:20260312T085135
+CREATED:20260303T001147Z
+LAST-MODIFIED:20260303T001147Z
+UID:21160-1774780200-1774800000@www.thesquarepdx.org
+SUMMARY:Piano Day 2026
+DESCRIPTION:Piano Day is a free public celebration that brings together professional pianists\, students\, and the community.
+URL:https://www.thesquarepdx.org/event/piano-day-2026/
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave.\, Portland\, OR\, 97204\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260331T120000
+DTEND;TZID=America/Los_Angeles:20260331T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T204442Z
+LAST-MODIFIED:20260210T204442Z
+UID:20954-1774958400-1774962000@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – The AM (Acoustic Minds) at Sixth+Main
+DESCRIPTION:The AM (Acoustic Minds) will be performing at Sixth+Main on Downtown’s Transit Mall! The AM (Acoustic Minds) is comprised of identical twin sister singers and songwriters Jenni and Amanda Price. (Piano/Guitar/Vocals). They have toured through 11 countries and blend genres of edm\, hip hop\, soul and pop. Known for their songwriting and unique sibling harmonies combined with 80’s synth and heavy bass. \nFor more information\, CLICK HERE.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-the-am-acoustic-minds-at-sixthmain-3/
+LOCATION:SW 6th Ave & SW Main St\, Portland\, OR 97205\, SW 6th Ave & SW Main St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/04/Acoustic-Minds.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260402T120000
+DTEND;TZID=America/Los_Angeles:20260402T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T204644Z
+LAST-MODIFIED:20260210T204644Z
+UID:20956-1775131200-1775134800@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Reisender at Big Pink
+DESCRIPTION:Reisender will be performing at Big Pink on Downtown’s Transit Mall!! \nReisender is the musical endeavor of west-coast songwriter & multi-instrumentalist Paul Conroy. With influences ranging from Paul Simon to The Flaming Lips\, Conroy crafts upbeat\, moody\, and eclectic synth & guitar-driven indie-pop anthems. Having performed alongside national artists including Drake Bell\, Eisley\, and Hippo Campus\, Reisender has toured across the western US as well as in Europe and Korea\, and boasts both an international and local following. His single “Generation 1099” has been described as “a seriously replay-worthy track” by the Bay Bridged\, and his 2021 Album Fmly as “an indie/alt festival-ready collection of gems” by FourCulture. Reisender is currently based in Portland\, OR with a lineup comprising Paul Conroy and his cousin Ben Stager on drums. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-reisender-at-big-pink/
+LOCATION:Big Pink\, 111 SW 5th Ave #1250\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/png:https://www.thesquarepdx.org/wp-content/uploads/2025/05/Reisender_PaulConroy.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260404T120000
+DTEND;TZID=America/Los_Angeles:20260404T160000
+DTSTAMP:20260312T085135
+CREATED:20260205T000950Z
+LAST-MODIFIED:20260205T000950Z
+UID:20904-1775304000-1775318400@www.thesquarepdx.org
+SUMMARY:Holi Festival of Colors
+DESCRIPTION:Portland Holi returns! Come dressed in white and play with color powder to celebrate India’s festival HOLI to welcome Spring! For more information\, CLICK HERE.
+URL:https://www.thesquarepdx.org/event/holi-festival-of-colors-2/2026-04-04/
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave.\, Portland\, OR\, 97204\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260407T120000
+DTEND;TZID=America/Los_Angeles:20260407T130000
+DTSTAMP:20260312T085135
+CREATED:20260210T205718Z
+LAST-MODIFIED:20260219T200122Z
+UID:20958-1775563200-1775566800@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – The BrazilTones at Less and More Coffee
+DESCRIPTION:The BrazilTones will be performing at Less and More Coffee on Downtown’s transit mall! \nThe BrazilTones are Deborah Bayardino on vocals\, Ronnie Robins on guitar and vocals and Brian L. Davis on percussion. They embrace the beauty\, poetic lyrics and rhythmic wonder of Bossa Nova\, Samba and MPB (Música Popular Brasileira). They also perform original songs composed by Robins. \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-the-braziltones-at-less-and-more-coffee/
+LOCATION:Less & More Coffee\, 1003 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2026/02/The-BrazilTones.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260409T120000
+DTEND;TZID=America/Los_Angeles:20260409T130000
+DTSTAMP:20260312T085135
+CREATED:20260211T001816Z
+LAST-MODIFIED:20260211T001816Z
+UID:20961-1775736000-1775739600@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Jet Black Pearl at Pendleton
+DESCRIPTION:Accordionist and flautist Jet Black Pearl will be performing at Pendleton Pioneer Place on Downtown’s Transit Mall! Jet Black Pearl’s smartly wacky songs sound like a mad hatter’s European tea party with a funky attitude. Before your very eyes\, she creates grooves and loops of flute\, plastic bottles\, rubber pigs\, vocal percussion and harmonies\, while squeezing her red accordion. She also might do a little dance for you. \nFor more information\, CLICK HERE.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-jet-black-pearl-at-pendleton/
+LOCATION:Pendleton\, 825 SW Yamhill St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2021/02/JBP-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260414T100000
+DTEND;TZID=America/Los_Angeles:20260414T170000
+DTSTAMP:20260312T085135
+CREATED:20260303T000026Z
+LAST-MODIFIED:20260303T000026Z
+UID:21155-1776160800-1776186000@www.thesquarepdx.org
+SUMMARY:Yom HaShoah – Day of Remembrance
+DESCRIPTION:Presented by the Oregon Jewish Museum and Center for Holocaust Education.
+URL:https://www.thesquarepdx.org/event/yom-hashoah-day-of-remembrance-5/
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave.\, Portland\, OR\, 97204\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260414T120000
+DTEND;TZID=America/Los_Angeles:20260414T130000
+DTSTAMP:20260312T085135
+CREATED:20260211T002109Z
+LAST-MODIFIED:20260211T002109Z
+UID:20963-1776168000-1776171600@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Tyler Langham at Sixth+Main
+DESCRIPTION:Tyler Langham will be performing at Sixth+Main on Downtown’s Transit Mall! \nTyler Langham found his love of songwriting along side the cold mountains of Alaska. His lyrics are heartfelt and the instrumentation behind them rhythmically driven. The shows are always intimate and full of laughter and introspection.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-tyler-langham-at-sixthmain/
+LOCATION:SW 6th Ave & SW Main St\, Portland\, OR 97205\, SW 6th Ave & SW Main St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2025/07/Tyler-Langham.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260416T120000
+DTEND;TZID=America/Los_Angeles:20260416T130000
+DTSTAMP:20260312T085135
+CREATED:20260211T002638Z
+LAST-MODIFIED:20260211T002638Z
+UID:20965-1776340800-1776344400@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Kendall Lujan at Less and More Coffee
+DESCRIPTION:Kendal Lujan will be performing at Less and More Coffee on Downtown’s Transit Mall! \nPortland\, Oregon based artist\, Kendall Lujan embarks on her first full length album “Lucky Penny’ it is set to be released Fall 2024. ‘Lucky Penny’ features many genres Including Jazz\, Folk\,  Bosa Nova and Indie-Rock. Her writing is real\, introspective and reflective. After touring the songs in Europe twice this past Fall Lujan is ready to show her versatility and growth as an artist. The first single to be released late March 2024 titled ‘Goodbyes’. Lujan is set to tour Germany\, Austria\, and Switzerland again fall 2024 with a full band.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-kendall-lujan-at-less-and-more-coffee-2/
+LOCATION:Less & More Coffee\, 1003 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/07/k-31-scaled.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T120000
+DTEND;TZID=America/Los_Angeles:20260421T130000
+DTSTAMP:20260312T085135
+CREATED:20260211T003017Z
+LAST-MODIFIED:20260211T003017Z
+UID:20967-1776772800-1776776400@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Sasa Fox at Big Pink
+DESCRIPTION:Sasa Fox will be performing at Big Pink on Downtown’s Transit Mall! Portland based songwriter Sasa Fox brings a splash of color to the dreary Northwest with clever pop songs written about the spectrum of emotions and experiences that are integral to being human.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-sasa-fox-at-big-pink/
+LOCATION:Big Pink\, 111 SW 5th Ave #1250\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2022/11/Sasa-Fox_Sarah-Vitort.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260423T120000
+DTEND;TZID=America/Los_Angeles:20260423T130000
+DTSTAMP:20260312T085135
+CREATED:20260211T003857Z
+LAST-MODIFIED:20260211T003857Z
+UID:20969-1776945600-1776949200@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Jordan Sings Pioneer Place
+DESCRIPTION:Soulful vocalist and guitarist Jordan Sings will be performing in front of David Yurman at Pioneer Place on Downtown’s Transit Mall! \nFor more information\, CLICK HERE.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-jordan-sings-pioneer-place/
+LOCATION:Pioneer Place\, 700 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2021/08/Jordan_Sings-9.21.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260428T120000
+DTEND;TZID=America/Los_Angeles:20260428T130000
+DTSTAMP:20260312T085135
+CREATED:20260211T004614Z
+LAST-MODIFIED:20260211T004614Z
+UID:20971-1777377600-1777381200@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Machado Mijiga at Sixth+Main
+DESCRIPTION:Classically-trained multi-instrumentalist Machado Mijiga brings his unique brand of hip-hop and electronica-infused remixes to Sixth+Main on Downtown’s Transit Mall. \nFor more information\, CLICK HERE.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-machado-mijiga-at-sixthmain-3/
+LOCATION:SW 6th Ave & SW Main St\, Portland\, OR 97205\, SW 6th Ave & SW Main St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/02/Machado-White-Background-Abby-Gordon-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260430T120000
+DTEND;TZID=America/Los_Angeles:20260430T130000
+DTSTAMP:20260312T085135
+CREATED:20260211T004858Z
+LAST-MODIFIED:20260211T004858Z
+UID:20973-1777550400-1777554000@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Abigail Krawson at Pendleton
+DESCRIPTION:Opera singer Abigail Krawson will be performing at Pendleton on Downtown’s Transit Mall! Opera singer Abigail Krawson will be performing at Pioneer Place on Downtown’s Transit Mall! Acclaimed as “bewitching\,” having “her own soubrette-ish delivery\,” as well as “wringing every bit of sentiment out of her aria\,” Abigail Krawson is garnering critical and audience praise for her energetic and heartfelt operatic portrayals. She is on the roster of both The Portland Opera Chorus and The Portland Symphonic Choir\, the Director of Children and Youth Choirs at Lake Grove Presbyterian Church\, the Communications Director for Renegade Opera\, a private voice and piano teacher\, and also maintains an active solo calendar in and around Portland. \nFor more information\, CLICK HERE.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-abigail-krawson-at-pendleton/
+LOCATION:Pendleton\, 825 SW Yamhill St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/02/PMMI_Social-Media_General.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260502T120000
+DTEND;TZID=America/Los_Angeles:20260502T220000
+DTSTAMP:20260312T085135
+CREATED:20260303T002358Z
+LAST-MODIFIED:20260303T002358Z
+UID:21164-1777723200-1777759200@www.thesquarepdx.org
+SUMMARY:Shaken Up the House
+DESCRIPTION:5 De Mayo Celebration.
+URL:https://www.thesquarepdx.org/event/shaken-up-the-house/
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave.\, Portland\, OR\, 97204\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260505T120000
+DTEND;TZID=America/Los_Angeles:20260505T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T183503Z
+LAST-MODIFIED:20260219T183503Z
+UID:21015-1777982400-1777986000@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Johnny Franco and His Real Brother Dom at Nordstrom
+DESCRIPTION:Johnny Franco and his Real Brother Dom will be performing at Nordstrom on Downtown’s Transit Mall! Walk down any street in Portland\, Oregon and you are sure to encounter a mustachioed Brazilian rock and roll troubadour named Johnny Franco and (his real brother) Dom. Recently moving from Sao Paulo\, the duo has developed a cult following in Portland for their high energy performance and music. The self-proclaimed Professional Entertainer has sold out his last two headline shows at the Doug Fir in Portland\, Oregon.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-johnny-franco-and-his-real-brother-dom-at-nordstrom-4/
+LOCATION:Nordstrom @ SW Morrison & Broadway\, 701 SW Broadway St.\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/04/Johnny-Franco2-1-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T120000
+DTEND;TZID=America/Los_Angeles:20260507T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T183830Z
+LAST-MODIFIED:20260219T183830Z
+UID:21017-1778155200-1778158800@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Chasing Ebenezer at Less and More Coffee
+DESCRIPTION:Chasing Ebenezer will be performing at Less and More Coffee on Downtown’s transit mall! \nChasing Ebenezer is a world folk-rock band based in Portland\, Oregon. With influences from Celtic\, African\, and Middle Eastern music\, their songs make it hard for audiences to sit still. Their tunes are alive with bohemian violin licks\, world percussion\, and an ever-increasing array of instruments. The band is fronted by husband and wife team Benjamin & Heidi Beth Sadler. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-chasing-ebenezer-at-less-and-more-coffee/
+LOCATION:Less & More Coffee\, 1003 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2025/05/photocreditnataliekristeen.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260512T120000
+DTEND;TZID=America/Los_Angeles:20260512T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T184234Z
+LAST-MODIFIED:20260219T184234Z
+UID:21019-1778587200-1778590800@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Sadie Gregg at Pioneer Place
+DESCRIPTION:Opera singer Sadie Gregg will be performing at Pioneer Place in front of Saint Laurent on Downtown’s Transit Mall! Sadie Gregg has been commended by the press as “a mezzo-soprano with a rich\, flexible instrument\,” and as “a standout” whose “amber-toned mezzo-soprano sounded strong across her full range.” Performances include Seattle Opera\, Portland Opera\, Boston Lyric Opera\, Odyssey Opera\, Oregon Mahler Festival\, Tualatin Valley Symphony\, and Bravo! Concerts Northwest. \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-sadie-gregg-at-pioneer-place/
+LOCATION:Pioneer Place Main Entrance\, 700 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/02/PMMI_Social-Media_Website-Tile.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260514T120000
+DTEND;TZID=America/Los_Angeles:20260514T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T184554Z
+LAST-MODIFIED:20260219T184554Z
+UID:21021-1778760000-1778763600@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Tyler Waltner Trio at Sixth+Main
+DESCRIPTION:The Tyler Waltner Trio will be performing at Sixth+Main on Downtown’s Transit Mall! The Tyler Waltner Trio plays heavy blues\, swing\, bebop\, hard-bop\, Latin\, funk\, and modern jazz influenced tunes featuring complex rhythms and abstract harmonies to put together a unique fabric of music\, sound\, and textures that only a fraction of musicians their age can accomplish. \nFor more information\, CLICK HERE. \n\n\n\n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-tyler-waltner-trio-at-sixthmain-2/
+LOCATION:SW 6th Ave & SW Main St\, Portland\, OR 97205\, SW 6th Ave & SW Main St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/02/PMMI_Social-Media_Website-Tile.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260519T120000
+DTEND;TZID=America/Los_Angeles:20260519T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T185930Z
+LAST-MODIFIED:20260219T200254Z
+UID:21023-1779192000-1779195600@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Jennifer Holman at Nordstrom
+DESCRIPTION:Singer/ songwriter Jennifer Holman brings her beautiful voice to delight passersby at Nordstrom on Downtown’s Transit Mall.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-jennifer-oleary-at-nordstrom/
+LOCATION:Nordstrom @ SW Morrison & Broadway\, 701 SW Broadway St.\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/02/PMMI_Social-Media_General.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260521T120000
+DTEND;TZID=America/Los_Angeles:20260521T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T190358Z
+LAST-MODIFIED:20260219T190358Z
+UID:21025-1779364800-1779368400@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Machado Mijiga at Big Pink
+DESCRIPTION:Classically-trained multi-instrumentalist Machado Mijiga brings his unique brand of hip-hop and electronica-infused remixes to Big Pink on Downtown’s Transit Mall. \nFor more information\, CLICK HERE.
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-machado-mijiga-at-big-pink/
+LOCATION:Big Pink\, 111 SW 5th Ave #1250\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/02/Machado-White-Background-Abby-Gordon-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260526T120000
+DTEND;TZID=America/Los_Angeles:20260526T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T190833Z
+LAST-MODIFIED:20260219T190833Z
+UID:21027-1779796800-1779800400@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Pablo Rivarola at Pendleton
+DESCRIPTION:Jazz trumpeter Pablo Rivarola will be performing at Pendleton on Downtown’s Transit Mall! \nFor more information\, CLICK HERE
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-pablo-rivarola-at-pendleton/
+LOCATION:Pendleton\, 825 SW Yamhill St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2021/06/Pablo_Rivarola.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260528T120000
+DTEND;TZID=America/Los_Angeles:20260528T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T191340Z
+LAST-MODIFIED:20260219T191340Z
+UID:21029-1779969600-1779973200@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Gabe Hess at Sixth+Main
+DESCRIPTION:Gabe Hess will be performing at Sixth+Main on Downtown’s Transit Mall! Gabe Hess is a singer/songwriter\, composer\, and arranger based out of the Pacific Northwest. Gabe first began working in the music industry during his college years\, performing in clubs in Boise Idaho with several different bands and collaborations. In 2018\, Gabe released his first EP titled “Working” which was comprised of an eclectic group of original songs spiced with styles from country to classic soul. \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-gabe-hess-at-sixthmain-2/
+LOCATION:SW 6th Ave & SW Main St\, Portland\, OR 97205\, SW 6th Ave & SW Main St\, Portland\, OR\, 97205\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2024/09/Gabe-Hess.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260602T120000
+DTEND;TZID=America/Los_Angeles:20260602T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T192015Z
+LAST-MODIFIED:20260219T192015Z
+UID:21031-1780401600-1780405200@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – MC Shoehorn at Pioneer Place
+DESCRIPTION:MC Shoehorn will be performing at Pioneer Place on Downtown’s Transit Mall! Shoehorn began his musical journey in 1979 as a street performer in New Orleans\, where he got his first pair of tap shoes. He went on to perform in 30 countries and most of the USA\, and has released 6 full-length CDs featuring tap dance on his original compositions and his arrangements of show tunes. He plays a lot of instruments but is best known for simultaneously playing sax and tap dancing. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-mc-shoehorn-at-pioneer-place-3/
+LOCATION:Pioneer Place @ David Yurman\, 700 SW 5th Ave #2105\, Portland\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2021/04/MC_Shoehorn_PDD.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260604T120000
+DTEND;TZID=America/Los_Angeles:20260604T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T192405Z
+LAST-MODIFIED:20260219T192405Z
+UID:21034-1780574400-1780578000@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – JoAnna Lee at Pioneer Place
+DESCRIPTION:Pop singer-songwriter and guitarist JoAnna Lee will be performing at Pioneer Place on Downtown’s Transit Mall! JoAnna brings a unique array of influences to her rootsy soul sound. When all her friends in grade school were getting into N’SYNC and Britney Spears\, her mother was introducing her to Stevie Wonder. Surrounded by a family full of cousins who all played instruments\, she took naturally to incorporating R&B (her original dream was to be a Motown singer) with her acoustic guitar. \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-joanna-lee-at-pioneer-place-3/
+LOCATION:Pioneer Place Main Entrance\, 700 SW 5th Ave\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/jpeg:https://www.thesquarepdx.org/wp-content/uploads/2021/07/JoAnna_Lee.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260609T120000
+DTEND;TZID=America/Los_Angeles:20260609T130000
+DTSTAMP:20260312T085135
+CREATED:20260219T192713Z
+LAST-MODIFIED:20260219T192713Z
+UID:21036-1781006400-1781010000@www.thesquarepdx.org
+SUMMARY:In Concert on Downtown’s Transit Mall – Ben Grace at Big Pink
+DESCRIPTION:Ben Grace will be performing at Big Pink on Downtown’s Transit Mall! \nAt the center of Australian singer-songwriter Ben Grace’s impeccably crafted songs is a story of undoing. Drawn by the roots-driven tradition of Americana to sing the stories that need to be told\, Ben’s music hovers in the space between lightness and the depths\, wrestling its way through humor and melody to peel back the layers and reveal the naked truth of us. Through the specificity of his own deconstruction\, Ben writes into our universal search for belonging\, spiritual homecoming\, and desire to live seen and unashamed. \nFor more information\, CLICK HERE. \n 
+URL:https://www.thesquarepdx.org/event/in-concert-on-downtowns-transit-mall-ben-grace-at-big-pink/
+LOCATION:Big Pink\, 111 SW 5th Ave #1250\, Portland\, OR\, 97204\, United States
+ATTACH;FMTTYPE=image/webp:https://www.thesquarepdx.org/wp-content/uploads/2026/02/Ben-Grace.webp
+END:VEVENT
+END:VCALENDAR

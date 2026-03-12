@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-12T15:35:13.349846",
+  "generated": "2026-03-12T15:53:27.085632",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -40322,7 +40322,7 @@
           "history": [
             {
               "date": "2026-03-12",
-              "count": 296
+              "count": 297
             }
           ]
         },
@@ -40605,44 +40605,104 @@
               "count": 113
             }
           ]
+        },
+        "eventbrite_habitat_pdx": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "eventbrite_nw_trail_alliance": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "eventbrite_portland_nursery": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "eventbrite_trailkeepers": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "pioneer_square": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 30
+            }
+          ]
+        },
+        "portland_farmers_market": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 3
+            }
+          ]
+        },
+        "saturday_market": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
+        },
+        "saturday_market_stage": {
+          "history": [
+            {
+              "date": "2026-03-12",
+              "count": 0
+            }
+          ]
         }
       },
       "categories": [
         {
-          "category": "Sports / Fitness",
-          "count": 259
+          "category": "Education / Workshops",
+          "count": 266
         },
         {
-          "category": "Education / Workshops",
-          "count": 254
+          "category": "Sports / Fitness",
+          "count": 260
         },
         {
           "category": "Community / Social",
-          "count": 236
+          "count": 239
         },
         {
           "category": "Arts / Culture",
-          "count": 139
+          "count": 140
+        },
+        {
+          "category": "Music / Concerts",
+          "count": 119
         },
         {
           "category": "Health / Wellness",
           "count": 100
         },
         {
-          "category": "Music / Concerts",
-          "count": 93
-        },
-        {
           "category": "Nature / Outdoors / Recreation",
-          "count": 88
+          "count": 90
         },
         {
           "category": "Religion / Spirituality",
-          "count": 50
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 37
+          "count": 51
         },
         {
           "category": "Books / Literature / Poetry",
@@ -40657,12 +40717,16 @@
           "count": 33
         },
         {
-          "category": "Family / Kids",
-          "count": 24
+          "category": "(uncategorized)",
+          "count": 30
         },
         {
           "category": "Food / Drink",
-          "count": 21
+          "count": 24
+        },
+        {
+          "category": "Family / Kids",
+          "count": 24
         },
         {
           "category": "Dance / Performance",
@@ -40678,8 +40742,8 @@
         }
       ],
       "images": {
-        "total": 1426,
-        "with_image": 628,
+        "total": 1468,
+        "with_image": 666,
         "by_source": [
           {
             "source": "Lewis Clark",
@@ -40710,6 +40774,11 @@
             "source": "Portland Art Museum",
             "total": 29,
             "with_image": 29
+          },
+          {
+            "source": "Pioneer Square",
+            "total": 30,
+            "with_image": 26
           },
           {
             "source": "Meetup Portland Hiking",
@@ -40787,6 +40856,16 @@
             "with_image": 4
           },
           {
+            "source": "Portland Nursery",
+            "total": 4,
+            "with_image": 4
+          },
+          {
+            "source": "Portland Farmers Market",
+            "total": 3,
+            "with_image": 3
+          },
+          {
             "source": "Meetup Nw Trail Runners",
             "total": 3,
             "with_image": 3
@@ -40798,6 +40877,16 @@
           },
           {
             "source": "Meetup Techacademy",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "Trailkeepers of Oregon",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "Habitat for Humanity Portland",
             "total": 2,
             "with_image": 2
           },
@@ -40827,6 +40916,11 @@
             "with_image": 1
           },
           {
+            "source": "Northwest Trail Alliance",
+            "total": 1,
+            "with_image": 1
+          },
+          {
             "source": "Japanese Garden, Tockify Kptv Calendar",
             "total": 1,
             "with_image": 1
@@ -40834,9 +40928,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 1394,
-        "total_events": 1426,
-        "unique_urls": 1109,
+        "total_with_url": 1436,
+        "total_events": 1468,
+        "unique_urls": 1151,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -40903,6 +40997,12 @@
             "specificity_pct": 47
           },
           {
+            "source": "Pioneer Square",
+            "events": 30,
+            "unique_urls": 30,
+            "specificity_pct": 100
+          },
+          {
             "source": "Literary Arts",
             "events": 29,
             "unique_urls": 29,
@@ -40922,12 +41022,6 @@
           },
           {
             "source": "Meetup Portland Hiking",
-            "events": 10,
-            "unique_urls": 10,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup Portland City Walking",
             "events": 10,
             "unique_urls": 10,
             "specificity_pct": 100
