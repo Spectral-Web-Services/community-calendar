@@ -802,6 +802,7 @@ AGGREGATORS = {
     'NOW Toronto',
     'Toronto Events (Tockify)',
     'Montclair Local News',
+    'Boston Theatre Scene',
 }
 
 
