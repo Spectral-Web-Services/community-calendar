@@ -1,6 +1,6 @@
 # Portland Sources Checklist
 
-## Currently Implemented (81 sources)
+## Currently Implemented (88 sources)
 
 ### Aggregators / Community Calendars
 | Source | Type | Events | Notes |
@@ -16,6 +16,13 @@
 | Portland Japanese Garden | WordPress WP Events Manager | 161 (2026) | Gardens, cultural events |
 | Calagator | Custom ICS | 35 | Portland tech community calendar |
 | Portland Farmers Market | WordPress Tribe ICS | 3 | 5 market locations, images |
+| Hollywood Farmers Market | Squarespace scraper | varies | Music, special events, market events (3 collections) |
+| Vancouver Farmers Market | WordPress Tribe ICS | varies | Downtown & East Vancouver markets |
+| Oregon City Farmers Market | WordPress Tribe ICS | varies | Winter/summer market at Clackamas CC |
+| PDX Jazz | Squarespace scraper | varies | Jazz festival and season concerts |
+| Portland Fruit Tree Project | Squarespace scraper | varies | Volunteer harvests, gardening workshops |
+| Explore Washington Park | WordPress Tribe ICS | ~31 | Park-wide events; some overlap with Hoyt/Japanese Garden |
+| JAMO (Japanese American Museum of Oregon) | WordPress Tribe ICS | varies | Cultural workshops, exhibits, history events |
 | Pioneer Courthouse Square | WordPress Tribe ICS | 30 | Free concerts, festivals; images |
 | Portland Saturday Market | Squarespace scraper | 31 | Seasonal market events |
 | Portland Saturday Market Stage | Squarespace scraper | 18 | Live music performances |
@@ -170,9 +177,35 @@
 | Doug Fir Lounge | Relocating, no events currently |
 
 ## To Investigate
+
+### High-Value (from Stumptown Savings newsletter, March 2026)
+- [x] PDX Jazz (pdxjazz.org) — Squarespace events collection added
+- [x] Explore Washington Park (explorewashingtonpark.org) — WordPress Tribe ICS added (~31 events, some overlap with Hoyt/Japanese Garden)
+- [x] Portland Fruit Tree Project (portlandfruit.org) — Squarespace events collection added
+- [x] JAMO (jamo.org) — WordPress Tribe ICS added
+- [ ] OSU Extension (extension.oregonstate.edu) — Drupal, no feeds; filter by county only, no Portland metro filter
+- [ ] WonderLove PDX (wonderlovepdx.com) — WordPress/Divi, no event plugin or feeds; food venue
+- [ ] People's Food Co-op (peoples.coop) — Squarespace, community room closed, no events listed
+- [ ] Rockwood Common (tools.rockwoodcommon.org) — Lend Engine tool library, no calendar feeds
+- [ ] PDX Night Market (pdxnm.com) — Wix, no feeds
+- [ ] Portland Dining Month (pdxdiningmonth.com) — seasonal restaurant event
+- [ ] PNW CSA Coalition (pnwcsa.org) — CSA share fair
+- [ ] First Friday PDX (firstfridaypdx.org) — site down (ECONNREFUSED)
+
+### Farmers Markets (from Stumptown Savings newsletter)
+- [x] Hollywood Farmers Market (hollywoodfarmersmarket.org) — Squarespace, 3 event collections added
+- [x] Vancouver Farmers Market (vancouverfarmersmarket.org) — WordPress Tribe ICS added
+- [x] Oregon City Farmers Market (orcityfarmersmarket.com) — WordPress Tribe ICS added
+- [ ] Beaverton Farmers Market (beavertonfarmersmarket.com) — Wix, no feeds
+- [ ] Hillsdale Farmers Market (hillsdalefarmersmarket.com) — Squarespace, no events collection
+- [ ] Montavilla Farmers Market (montavillamarket.org) — Squarespace, static schedule only
+- [ ] Sunnyside Farmers Market (sunnysidefarmersmarkets.com) — 403 blocked
+- [ ] Woodlawn Farmers Market (woodlawnfarmersmarket.org) — Squarespace, no events collection
+
+### Previously Identified
 - [ ] Portland'5 Centers full calendar (Drupal scraper for non-music events)
 - [ ] PDX Pipeline (blog RSS, not structured events)
-- [ ] EverOut Portland
+- [ ] EverOut Portland (everout.com) — 10 links in newsletter, aggregator
 - [ ] DoPDX
 - [ ] Portland Shambhala Center (Cloudflare-blocked, likely has ICS)
 - [ ] Hands On Greater Portland (volunteer platform)

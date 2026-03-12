@@ -64,6 +64,16 @@ cities/portland/saturday_market_stage.ics
 cities/portland/tryon_creek.ics
 # cmd: python scrapers/squarespace.py --url "https://csrgpdx.org/event-calendar" --name "Crystal Springs Rhododendron Garden"
 cities/portland/crystal_springs.ics
+# cmd: python scrapers/squarespace.py --url "https://www.hollywoodfarmersmarket.org/music-schedule" --name "Hollywood Farmers Market Music"
+cities/portland/hollywood_fm_music.ics
+# cmd: python scrapers/squarespace.py --url "https://www.hollywoodfarmersmarket.org/event-schedule" --name "Hollywood Farmers Market Events"
+cities/portland/hollywood_fm_events.ics
+# cmd: python scrapers/squarespace.py --url "https://www.hollywoodfarmersmarket.org/events" --name "Hollywood Farmers Market"
+cities/portland/hollywood_fm.ics
+# cmd: python scrapers/squarespace.py --url "https://www.pdxjazz.org/events" --name "PDX Jazz"
+cities/portland/pdx_jazz.ics
+# cmd: python scrapers/squarespace.py --url "https://www.portlandfruit.org/event-calendar" --name "Portland Fruit Tree Project"
+cities/portland/portland_fruit_tree.ics
 
 # --- Live feeds ---
 # Tockify
@@ -87,6 +97,10 @@ https://portlandartmuseum.org/events/?ical=1
 https://literary-arts.org/events/?ical=1
 https://japanesegarden.org/events/?ical=1
 https://www.portlandfarmersmarket.org/?post_type=tribe_events&ical=1
+https://www.vancouverfarmersmarket.org/events/?ical=1
+https://www.orcityfarmersmarket.com/events/?ical=1
+https://explorewashingtonpark.org/events/?ical=1
+https://jamo.org/events/?ical=1
 https://www.thesquarepdx.org/events/list/?ical=1
 https://birdallianceoregon.org/events/?ical=1
 https://lansugarden.org/events/?ical=1

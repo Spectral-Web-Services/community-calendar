@@ -931,6 +931,11 @@ jobs:
         python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/stage-performances" --name "Portland Saturday Market Stage" --output cities/portland/saturday_market_stage.ics || true
         python scrapers/squarespace.py --url "https://www.tryonfriends.org/calendar" --name "Friends of Tryon Creek" --output cities/portland/tryon_creek.ics || true
         python scrapers/squarespace.py --url "https://csrgpdx.org/event-calendar" --name "Crystal Springs Rhododendron Garden" --output cities/portland/crystal_springs.ics || true
+        python scrapers/squarespace.py --url "https://www.hollywoodfarmersmarket.org/music-schedule" --name "Hollywood Farmers Market Music" --output cities/portland/hollywood_fm_music.ics || true
+        python scrapers/squarespace.py --url "https://www.hollywoodfarmersmarket.org/event-schedule" --name "Hollywood Farmers Market Events" --output cities/portland/hollywood_fm_events.ics || true
+        python scrapers/squarespace.py --url "https://www.hollywoodfarmersmarket.org/events" --name "Hollywood Farmers Market" --output cities/portland/hollywood_fm.ics || true
+        python scrapers/squarespace.py --url "https://www.pdxjazz.org/events" --name "PDX Jazz" --output cities/portland/pdx_jazz.ics || true
+        python scrapers/squarespace.py --url "https://www.portlandfruit.org/event-calendar" --name "Portland Fruit Tree Project" --output cities/portland/portland_fruit_tree.ics || true
         python scrapers/wccls_library.py --output cities/portland/wccls_library.ics || true
         # Songkick music venues
         python scrapers/songkick.py --url "https://www.songkick.com/venues/2845468-revolution-hall" --name "Revolution Hall" --output cities/portland/songkick_revolution_hall.ics || true
@@ -963,6 +968,10 @@ jobs:
         curl -sL "https://literary-arts.org/events/?ical=1" -o literary_arts.ics || true
         curl -sL "https://japanesegarden.org/events/?ical=1" -o japanese_garden.ics || true
         curl -sL "https://www.portlandfarmersmarket.org/?post_type=tribe_events&ical=1" -o portland_farmers_market.ics || true
+        curl -sL "https://www.vancouverfarmersmarket.org/events/?ical=1" -o vancouver_farmers_market.ics || true
+        curl -sL "https://www.orcityfarmersmarket.com/events/?ical=1" -o oc_farmers_market.ics || true
+        curl -sL "https://explorewashingtonpark.org/events/?ical=1" -o washington_park.ics || true
+        curl -sL "https://jamo.org/events/?ical=1" -o jamo.ics || true
         curl -sL "https://www.thesquarepdx.org/events/list/?ical=1" -o pioneer_square.ics || true
         curl -sL "https://birdallianceoregon.org/events/?ical=1" -o bird_alliance_oregon.ics || true
         curl -sL "https://lansugarden.org/events/?ical=1" -o lan_su_garden.ics || true
