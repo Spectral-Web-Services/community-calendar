@@ -906,6 +906,12 @@ jobs:
       if: contains(steps.locations.outputs.list, 'portland') && github.event.inputs.regenerate_only != 'true'
       run: |
         python scrapers/legistar.py --client oregonmetro --source "Oregon Metro" --output cities/portland/legistar_oregon_metro.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon" --output cities/portland/eventbrite_trailkeepers.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance" --output cities/portland/eventbrite_nw_trail_alliance.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/portland-nursery-classes-31455803001" --name "Portland Nursery" --output cities/portland/eventbrite_portland_nursery.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/habitat-for-humanity-portland-region-education-55187284613" --name "Habitat for Humanity Portland" --output cities/portland/eventbrite_habitat_pdx.ics || true
+        python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/events" --name "Portland Saturday Market" --output cities/portland/saturday_market.ics || true
+        python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/stage-performances" --name "Portland Saturday Market Stage" --output cities/portland/saturday_market_stage.ics || true
       continue-on-error: true
 
     - name: Download Portland live feeds and combine ICS
@@ -927,6 +933,8 @@ jobs:
         curl -sL "https://portlandartmuseum.org/events/?ical=1" -o portland_art_museum.ics || true
         curl -sL "https://literary-arts.org/events/?ical=1" -o literary_arts.ics || true
         curl -sL "https://japanesegarden.org/events/?ical=1" -o japanese_garden.ics || true
+        curl -sL "https://www.portlandfarmersmarket.org/?post_type=tribe_events&ical=1" -o portland_farmers_market.ics || true
+        curl -sL "https://www.thesquarepdx.org/events/list/?ical=1" -o pioneer_square.ics || true
         # Community tech calendar
         curl -sL "https://calagator.org/events.ics" -o calagator.ics || true
         # Athletics (SIDEARM Sports)

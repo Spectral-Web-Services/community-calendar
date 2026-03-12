@@ -1,6 +1,6 @@
 # Portland Sources Checklist
 
-## Currently Implemented (39 sources)
+## Currently Implemented (47 sources)
 
 ### Aggregators / Community Calendars
 | Source | Type | Events | Notes |
@@ -15,6 +15,18 @@
 | Literary Arts | WordPress Tribe ICS | 30 | Readings, writing workshops |
 | Portland Japanese Garden | WordPress WP Events Manager | 161 (2026) | Gardens, cultural events |
 | Calagator | Custom ICS | 35 | Portland tech community calendar |
+| Portland Farmers Market | WordPress Tribe ICS | 3 | 5 market locations, images included |
+| Pioneer Courthouse Square | WordPress Tribe ICS | 30 | Free concerts, festivals, community events; images |
+| Portland Saturday Market | Squarespace scraper | 31 | Seasonal market events, crafts, special events |
+| Portland Saturday Market Stage | Squarespace scraper | 18 | Live music performances |
+
+### Eventbrite Organizers (free events)
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| Trailkeepers of Oregon | Eventbrite scraper | 11 | Free trail volunteer events; images |
+| Northwest Trail Alliance | Eventbrite scraper | 11 | Free mountain bike trail building; images |
+| Portland Nursery | Eventbrite scraper | 4 | Free gardening classes; images |
+| Habitat for Humanity Portland | Eventbrite scraper | 3 | Free homeownership education; images |
 
 ### Universities
 | Source | Type | Events | Notes |
@@ -104,10 +116,10 @@
 - [ ] Crystal Ballroom
 - [ ] Powell's Books
 - [ ] Portland Center Stage
-- [ ] Portland Saturday Market
-- [ ] Pioneer Courthouse Square events
-- [ ] Portland Farmers Market
-- [ ] Eventbrite Portland (scraper exists in repo)
+- [x] Portland Saturday Market (Squarespace scraper, 49 events)
+- [x] Pioneer Courthouse Square (WordPress ICS, 30 events with images)
+- [x] Portland Farmers Market (WordPress ICS, images)
+- [x] Eventbrite Portland (4 free organizers: Trailkeepers, NW Trail Alliance, Portland Nursery, Habitat)
 - [ ] Ticketmaster Portland venues (scraper exists in repo)
 - [ ] Songkick Portland venues
 - [ ] PDX Pipeline (blog RSS, not structured events)

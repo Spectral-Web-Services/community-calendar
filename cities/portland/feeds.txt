@@ -7,6 +7,22 @@
 # cmd: python scrapers/legistar.py --client oregonmetro --source "Oregon Metro"
 cities/portland/legistar_oregon_metro.ics
 
+# Scraper
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon"
+cities/portland/eventbrite_trailkeepers.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance"
+cities/portland/eventbrite_nw_trail_alliance.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/portland-nursery-classes-31455803001" --name "Portland Nursery"
+cities/portland/eventbrite_portland_nursery.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/habitat-for-humanity-portland-region-education-55187284613" --name "Habitat for Humanity Portland"
+cities/portland/eventbrite_habitat_pdx.ics
+
+# Squarespace
+# cmd: python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/events" --name "Portland Saturday Market"
+cities/portland/saturday_market.ics
+# cmd: python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/stage-performances" --name "Portland Saturday Market Stage"
+cities/portland/saturday_market_stage.ics
+
 # --- Live feeds ---
 # Tockify
 https://tockify.com/api/feeds/ics/theoldchurch
@@ -28,6 +44,8 @@ https://librarycalendar.ohsu.edu/ical_subscribe.php?src=p&cid=6248
 https://portlandartmuseum.org/events/?ical=1
 https://literary-arts.org/events/?ical=1
 https://japanesegarden.org/events/?ical=1
+https://www.portlandfarmersmarket.org/?post_type=tribe_events&ical=1
+https://www.thesquarepdx.org/events/list/?ical=1
 
 # Google Calendar
 https://www.google.com/calendar/ical/629tvcnf17grg9v0fgvge9pb7c%40group.calendar.google.com/public/basic.ics

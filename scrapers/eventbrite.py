@@ -132,6 +132,9 @@ class EventbriteScraper(BaseScraper):
         desc = re.sub(r'<[^>]+>', ' ', desc).strip()
         desc = re.sub(r'\s+', ' ', desc)
 
+        # Image
+        image_url = item.get('image', '')
+
         return {
             'title': title,
             'dtstart': dtstart,
@@ -139,6 +142,7 @@ class EventbriteScraper(BaseScraper):
             'location': location,
             'description': desc[:500] if desc else '',
             'url': url,
+            'image_url': image_url,
         }
 
     def fetch_events(self) -> list[dict[str, Any]]:
