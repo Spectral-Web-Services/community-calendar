@@ -1066,6 +1066,8 @@ jobs:
       if: contains(steps.locations.outputs.list, 'boston') && github.event.inputs.regenerate_only != 'true'
       run: |
         cd cities/boston
+        # Emerson Theatres (WordPress Tribe Events ICS — Sweet Charity, NewFest, etc.)
+        curl -sL "https://emersontheatres.org/events/?ical=1" -o emerson_theatres.ics || true
         # Tufts TDPS (Trumba calendar)
         curl -sL "https://www.trumba.com/calendars/tts-wms-managed-tdps.ics" -o tufts_tdps.ics || true
         cd ../..

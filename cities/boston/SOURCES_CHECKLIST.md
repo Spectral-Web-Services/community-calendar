@@ -12,6 +12,7 @@ Focus: Theater (initial phase)
 ### Theater — ICS Feeds
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
+| Emerson Theatres | WordPress Tribe ICS | 15 | Sweet Charity, NewFest, Heart of a Dog, etc. (emersontheatres.org) |
 | Tufts TDPS | Trumba ICS | 9 | Theater, dance, and performance studies at Tufts |
 
 ### Theater — Custom Scrapers
@@ -56,7 +57,7 @@ Focus: Theater (initial phase)
 | SpeakEasy Stage Company | WordPress Tribe installed; ICS (`?ical=1`) returns HTML not ICS; webcal:// URL returns empty ICS (0 events via curl and Google Calendar import) |
 | Central Square Theater EventON | EventON 5.0.2 AJAX requires session-bound nonce; can't scrape via requests. Using OvationTix instead |
 | Boston University CFA (generic) | Use bu_cfa.py with --topic filter instead; generic page mixes all arts |
-| Emerson College events | Empty events page; use ArtsEmerson instead |
+| Emerson College events (emerson.edu) | Empty events page; use emersontheatres.org + ArtsEmerson instead |
 | Cambridge Multicultural Arts Center | Site down (ECONNREFUSED) |
 | Open Theater Project | Site down (ECONNREFUSED) |
 | Calderwood Pavilion | Not separate entity; events listed by resident companies |
