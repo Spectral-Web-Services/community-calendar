@@ -38,9 +38,10 @@ Deno.serve(async (req) => {
     const supabaseServiceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
     const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
-    // Fetch events from all cities, delete stale records, then upsert
+    // Fetch events from all cities, then upsert (no blanket delete — preserves
+    // enrichments, overrides, picks, and collection_events via stable row IDs)
     const allEvents: any[] = [];
-    let deleted = 0;
+    const citySourceUids = new Map<string, string[]>();
     for (const [city, url] of Object.entries(EVENTS_URLS)) {
       console.log(`Fetching events from ${city}:`, url);
       try {
@@ -54,17 +55,11 @@ Deno.serve(async (req) => {
         for (const event of events) {
           event.city = event.city || city;
         }
-        // Delete existing events for this city to remove stale records
-        const { count, error: delError } = await supabase
-          .from("events")
-          .delete({ count: "exact" })
-          .eq("city", city);
-        if (delError) {
-          console.error(`Delete ${city} error:`, delError);
-        } else {
-          deleted += count || 0;
-          console.log(`Deleted ${count} existing events for ${city}`);
-        }
+        // Track source_uids per city for stale-event pruning (before dedup)
+        citySourceUids.set(
+          city,
+          events.map((e: any) => e.source_uid).filter(Boolean)
+        );
         allEvents.push(...events);
         console.log(`Fetched ${events.length} events from ${city}`);
       } catch (e) {
@@ -106,12 +101,56 @@ Deno.serve(async (req) => {
       }
     }
 
+    // Prune stale events per city: delete events whose source_uid is no longer
+    // in the incoming feed. Uses a two-step approach (fetch current UIDs, compute
+    // stale set, delete in batches) to avoid URL length limits.
+    let pruned = 0;
+    const pruneBatchSize = 100;
+    for (const [city, incomingUids] of citySourceUids.entries()) {
+      const incomingSet = new Set(incomingUids);
+
+      // Fetch all current source_uids for this city from the database
+      const { data: currentRows, error: fetchError } = await supabase
+        .from("events")
+        .select("source_uid")
+        .eq("city", city);
+
+      if (fetchError) {
+        console.error(`Fetch current UIDs for ${city} error:`, fetchError);
+        continue;
+      }
+
+      const staleUids = (currentRows || [])
+        .map((r: any) => r.source_uid)
+        .filter((uid: string) => uid && !incomingSet.has(uid));
+
+      if (staleUids.length === 0) continue;
+
+      console.log(`Pruning ${staleUids.length} stale events from ${city}`);
+
+      // Delete stale events in batches
+      for (let i = 0; i < staleUids.length; i += pruneBatchSize) {
+        const batch = staleUids.slice(i, i + pruneBatchSize);
+        const { count, error: delError } = await supabase
+          .from("events")
+          .delete({ count: "exact" })
+          .eq("city", city)
+          .in("source_uid", batch);
+
+        if (delError) {
+          console.error(`Prune batch ${city} error:`, delError);
+        } else {
+          pruned += count || 0;
+        }
+      }
+    }
+
     const result = {
       success: inserted > 0 && errors < uniqueEvents.size,
       fetched: allEvents.length,
       unique: uniqueEvents.size,
-      deleted,
       inserted,
+      pruned,
       errors,
     };
 
