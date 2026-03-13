@@ -1081,6 +1081,10 @@ jobs:
         # IRE/NICAR conference schedules (S3 JSON — fail gracefully if not yet published)
         python scrapers/ire_schedule.py --conference ire-2026 --output cities/publisher-resources/ire_2026.ics || true
         python scrapers/ire_schedule.py --conference nicar-2026 --output cities/publisher-resources/nicar_2026.ics || true
+        # LION Publishers — HTML scraper (WordPress free-form)
+        python scrapers/lion_publishers.py --output cities/publisher-resources/lion_publishers.ics || true
+        # Editor & Publisher — HTML scraper (industry conference calendar)
+        python scrapers/editor_publisher.py --output cities/publisher-resources/editor_publisher.ics || true
       continue-on-error: true
 
     - name: Fetch Publisher Resources live feeds

@@ -19,15 +19,16 @@ No geolocation filtering applied.
 ### Scrapers
 - [ ] SEJ (Society of Environmental Journalists) — `sej_calendar.py` (RSS calendar at `sej.org/rss_calendar`)
 - [ ] IRE/NICAR Conference Schedules — `ire_schedule.py` (S3 JSON, updated per conference cycle)
+- [ ] LION Publishers — `lion_publishers.py` (HTML scraper, WordPress free-form events page)
+- [ ] Editor & Publisher — `editor_publisher.py` (HTML scraper, industry conference calendar)
 
 ### Scrapable (no feeds, but server-rendered HTML)
 - [ ] ONA (Online News Association) — `https://journalists.org/events/` (Novi AMS, server-rendered list with dates/times)
-- [ ] Editor & Publisher — `https://www.editorandpublisher.com/calendar/` (Creative Circle Media CMS, server-rendered event cards with date ranges)
 - [ ] Knight Center for Journalism — `https://journalismcourses.org/course-library/` (WordPress/Elementor, paginated course cards with dates, instructors, pricing)
 
 ## Investigated — Not Viable
 
-- **LION Publishers** — No calendar feeds; WordPress events page at `https://lionpublishers.com/events/` could be scraped
+- **LION Publishers** — Now implemented as scraper (see above)
 - **American Journalism Project** — No public events; invitation-only (AJPalooza)
 - **Virginia Local News Project** — No events calendar; runs ongoing programs only
 - **GIJN** — Site returns 403 to all automated requests; no public feeds
@@ -43,7 +44,7 @@ No geolocation filtering applied.
 - **AAJA** — No event-specific feeds; RSS has news only
 - **Inside the Newsroom (Substack)** — Blog post listing deadlines in prose; no structured data or feeds
 - **Hearst Awards** — TLS certificate error (ERR_TLS_CERT_ALTNAME_INVALID); site inaccessible
-- **Editor & Publisher** — No ICS/RSS feeds; Creative Circle Media CMS — but calendar page is scrapable (see above)
+- **Editor & Publisher** — Now implemented as scraper (see above)
 - **SPJ Freelance Calendar** — Same feed as SPJ already implemented (`webcal://calendar.spjnetwork.org/calendar.php`)
 - **Trauma Journalism** — WordPress custom calendar, no ICS/RSS export; stale events only
 - **IRE** — WordPress (Beaver Builder) but no ICS export; `?ical=1` returns HTML; RSS is blog posts only; events load via JavaScript (not scrapable without headless browser)
@@ -55,7 +56,6 @@ No geolocation filtering applied.
 
 ## To Investigate
 
-- LION Publishers events page scraper
 - Hacks/Hackers events
 - SRCCON / OpenNews
 - Lenfest Institute
