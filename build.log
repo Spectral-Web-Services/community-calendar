@@ -1,20 +1,20 @@
-2026-03-13 17:50:10,793 - SEJCalendarScraper - INFO - Scraping Society of Environmental Journalists
-2026-03-13 17:50:10,793 - SEJCalendarScraper - INFO - Fetching RSS feed: https://www.sej.org/rss_calendar
-2026-03-13 17:50:11,141 - SEJCalendarScraper - INFO - Found 10 entries in RSS feed
-2026-03-13 17:50:11,173 - SEJCalendarScraper - INFO - Found event: Waterman Fund Essay Contest for Emerging Writers on 2026-03-15 00:00:00-04:00
-2026-03-13 17:50:11,175 - SEJCalendarScraper - INFO - Found event: Travel grants to the first International Conference for the Just Transition Away from Fossil Fuels on 2026-03-17 00:00:00-04:00
-2026-03-13 17:50:11,177 - SEJCalendarScraper - INFO - Found event: DC Environmental Film Festival on 2026-03-19 00:00:00-04:00
-2026-03-13 17:50:11,179 - SEJCalendarScraper - INFO - Found event: 2026 Islamic Scholarship Fund on 2026-03-21 00:00:00-04:00
-2026-03-13 17:50:11,180 - SEJCalendarScraper - INFO - Found event: Al Neuharth Free Spirit and Journalism Conference for High School Juniors on 2026-03-25 00:00:00-04:00
-2026-03-13 17:50:11,182 - SEJCalendarScraper - INFO - Found event: Science Talk ’26 on 2026-03-26 00:00:00-04:00
-2026-03-13 17:50:11,184 - SEJCalendarScraper - INFO - Found event: Kovler Prize for Trust in Life Science Journalism on 2026-03-27 00:00:00-04:00
-2026-03-13 17:50:11,185 - SEJCalendarScraper - INFO - Found event: EVOME Institute Science Journalism Fellowship on 2026-03-27 00:00:00-04:00
-2026-03-13 17:50:11,187 - SEJCalendarScraper - INFO - Found event: Online News Association Conference on 2026-03-30 00:00:00-04:00
-2026-03-13 17:50:11,189 - SEJCalendarScraper - INFO - Found event: Eric and Wendy Schmidt Awards for Excellence in Science Communications on 2026-04-03 00:00:00-04:00
-2026-03-13 17:50:11,189 - SEJCalendarScraper - INFO - Found 10 events
-2026-03-13 17:50:11,191 - SEJCalendarScraper - INFO - Written to cities/publisher-resources/sej.ics
-2026-03-13 17:50:11,415 - IREScheduleScraper - INFO - Scraping IRE 2026
-2026-03-13 17:50:11,415 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json
+2026-03-13 18:02:58,778 - SEJCalendarScraper - INFO - Scraping Society of Environmental Journalists
+2026-03-13 18:02:58,778 - SEJCalendarScraper - INFO - Fetching RSS feed: https://www.sej.org/rss_calendar
+2026-03-13 18:02:59,286 - SEJCalendarScraper - INFO - Found 10 entries in RSS feed
+2026-03-13 18:02:59,298 - SEJCalendarScraper - INFO - Found event: Waterman Fund Essay Contest for Emerging Writers on 2026-03-15 00:00:00-04:00
+2026-03-13 18:02:59,299 - SEJCalendarScraper - INFO - Found event: Travel grants to the first International Conference for the Just Transition Away from Fossil Fuels on 2026-03-17 00:00:00-04:00
+2026-03-13 18:02:59,301 - SEJCalendarScraper - INFO - Found event: DC Environmental Film Festival on 2026-03-19 00:00:00-04:00
+2026-03-13 18:02:59,303 - SEJCalendarScraper - INFO - Found event: 2026 Islamic Scholarship Fund on 2026-03-21 00:00:00-04:00
+2026-03-13 18:02:59,304 - SEJCalendarScraper - INFO - Found event: Al Neuharth Free Spirit and Journalism Conference for High School Juniors on 2026-03-25 00:00:00-04:00
+2026-03-13 18:02:59,306 - SEJCalendarScraper - INFO - Found event: Science Talk ’26 on 2026-03-26 00:00:00-04:00
+2026-03-13 18:02:59,308 - SEJCalendarScraper - INFO - Found event: Kovler Prize for Trust in Life Science Journalism on 2026-03-27 00:00:00-04:00
+2026-03-13 18:02:59,310 - SEJCalendarScraper - INFO - Found event: EVOME Institute Science Journalism Fellowship on 2026-03-27 00:00:00-04:00
+2026-03-13 18:02:59,311 - SEJCalendarScraper - INFO - Found event: Online News Association Conference on 2026-03-30 00:00:00-04:00
+2026-03-13 18:02:59,313 - SEJCalendarScraper - INFO - Found event: Eric and Wendy Schmidt Awards for Excellence in Science Communications on 2026-04-03 00:00:00-04:00
+2026-03-13 18:02:59,314 - SEJCalendarScraper - INFO - Found 10 events
+2026-03-13 18:02:59,316 - SEJCalendarScraper - INFO - Written to cities/publisher-resources/sej.ics
+2026-03-13 18:02:59,541 - IREScheduleScraper - INFO - Scraping IRE 2026
+2026-03-13 18:02:59,542 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json
 Traceback (most recent call last):
   File "/home/runner/work/community-calendar/community-calendar/scrapers/ire_schedule.py", line 165, in <module>
     IREScheduleScraper.main()
@@ -27,64 +27,82 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.10.20/x64/lib/python3.10/site-packages/requests/models.py", line 960, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json
-2026-03-13 17:50:11,772 - IREScheduleScraper - INFO - Scraping NICAR 2026
-2026-03-13 17:50:11,772 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/nicar-2026/nicar-2026-schedule.json
-2026-03-13 17:50:12,024 - IREScheduleScraper - INFO - Found 233 sessions
-2026-03-13 17:50:12,099 - IREScheduleScraper - INFO - Found 232 events
-2026-03-13 17:50:12,142 - IREScheduleScraper - INFO - Written to cities/publisher-resources/nicar_2026.ics
-2026-03-13 17:50:12,366 - LIONPublishersScraper - INFO - Scraping LION Publishers
-2026-03-13 17:50:15,838 - LIONPublishersScraper - INFO - Found: 2026 Independent News Sustainability Summit on 2026-09-09
-2026-03-13 17:50:15,839 - LIONPublishersScraper - INFO - Found 1 events
-2026-03-13 17:50:15,839 - LIONPublishersScraper - INFO - Written to cities/publisher-resources/lion_publishers.ics
-2026-03-13 17:50:16,063 - EditorPublisherScraper - INFO - Scraping Editor & Publisher
-2026-03-13 17:50:16,355 - EditorPublisherScraper - INFO - Found: 2026 Mega-Conference on 2026-03-30
-2026-03-13 17:50:16,356 - EditorPublisherScraper - INFO - Found: N.E.A.C.E. 2026 Annual Conference on 2026-04-26
-2026-03-13 17:50:16,359 - EditorPublisherScraper - INFO - Found: 2026 Niche Media Conference on 2026-04-08
-2026-03-13 17:50:16,359 - EditorPublisherScraper - INFO - Found: 2026 South Dakota NewsMedia Association Convention on 2026-04-30
-2026-03-13 17:50:16,359 - EditorPublisherScraper - INFO - Found: INMA World Congress of News Media on 2026-05-04
-2026-03-13 17:50:16,359 - EditorPublisherScraper - INFO - Found: 2026 MDDC Conference & Celebration on 2026-05-08
-2026-03-13 17:50:16,359 - EditorPublisherScraper - INFO - Found: 2026 Media Financial Management Association and Financial Executives International Annual Conference on 2026-05-17
-2026-03-13 17:50:16,360 - EditorPublisherScraper - INFO - Found: 2026 Illinois Press Annual Convention on 2026-06-04
-2026-03-13 17:50:16,360 - EditorPublisherScraper - INFO - Found: Texas Press Association Convention & Trade Show on 2026-06-18
-2026-03-13 17:50:16,360 - EditorPublisherScraper - INFO - Found: Alabama Press Association Summer Convention & Awards Banquet on 2026-06-25
-2026-03-13 17:50:16,360 - EditorPublisherScraper - INFO - Found: 2026 ADMA Conference on 2026-06-10
-2026-03-13 17:50:16,360 - EditorPublisherScraper - INFO - Found: 2026 Mississippi Press 160th Annual Meeting on 2026-06-26
-2026-03-13 17:50:16,360 - EditorPublisherScraper - INFO - Found: 2026 Senior Leadership Conference on 2026-09-14
-2026-03-13 17:50:16,360 - EditorPublisherScraper - INFO - Found 13 events
-2026-03-13 17:50:16,362 - EditorPublisherScraper - INFO - Written to cities/publisher-resources/editor_publisher.ics
-2026-03-13 17:50:16,539 - INFO - Scraping Center for Cooperative Media
-2026-03-13 17:50:17,665 - INFO - Discovered 15 event URLs from organizer page
-2026-03-13 17:50:17,665 - INFO - Fetching 15 event pages (parallel)...
-2026-03-13 17:50:17,887 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-snap-funding-and-federal-policy-changes-in-new-jersey-tickets-1980017997130
-2026-03-13 17:50:17,895 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-accept-corporate-sponsorships-tickets-1980033354063
-2026-03-13 17:50:17,900 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-work-with-influencers-tickets-1542880921369
-2026-03-13 17:50:17,947 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/our-collaborative-has-all-this-data-now-what-tickets-1640829899399
-2026-03-13 17:50:18,115 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-raise-money-from-small-dollar-donors-tickets-1981952222450
-2026-03-13 17:50:18,123 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/media-liability-insurance-for-nj-local-news-orgs-tickets-1708596471039
-2026-03-13 17:50:18,129 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-dave-cole-of-the-new-jersey-office-of-innovation-tickets-1829943453129
-2026-03-13 17:50:18,144 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/using-public-data-to-report-on-snap-policy-changes-tickets-1982386277721
-2026-03-13 17:50:18,334 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/climate-resilience-and-environmental-justice-for-new-jersey-communities-tickets-1968808736931
-2026-03-13 17:50:18,344 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/statewide-news-collective-the-community-impact-of-independent-journalism-tickets-1781731931169
-2026-03-13 17:50:18,347 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-excellence-in-community-media-awards-tickets-1982292738944
-2026-03-13 17:50:18,356 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-budget-transparency-tool-demonstration-and-qa-tickets-1542483492649
-2026-03-13 17:50:18,439 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-content-sharing-platforms-w-distributed-media-lab-plucky-works-tickets-1656757138199
-2026-03-13 17:50:18,439 - INFO - Got 2 future events
-2026-03-13 17:50:18,439 - INFO - Found 2 events
-2026-03-13 17:50:18,440 - INFO - Written to cities/publisher-resources/eventbrite_coop_media.ics
-2026-03-13 17:50:18,588 - INFO - Scraping Associated Press
-2026-03-13 17:50:19,561 - INFO - Discovered 5 event URLs from organizer page
-2026-03-13 17:50:19,561 - INFO - Fetching 5 event pages (parallel)...
-2026-03-13 17:50:19,854 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1038893587687
-2026-03-13 17:50:19,868 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ap-photography-showcase-capturing-the-solar-eclipse-tickets-782142809197
-2026-03-13 17:50:19,870 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1269725024729
-2026-03-13 17:50:19,870 - INFO - Got 1 future events
-2026-03-13 17:50:19,870 - INFO - Found 1 events
-2026-03-13 17:50:19,871 - INFO - Written to cities/publisher-resources/eventbrite_ap.ics
-2026-03-13 17:50:20,088 - ONAEventsScraper - INFO - Scraping Online News Association
-2026-03-13 17:50:20,506 - ONAEventsScraper - INFO - Found: AI Innovator Collaborative on 2026-03-17
-2026-03-13 17:50:20,506 - ONAEventsScraper - INFO - Found: Quick Hits and Deep Dives: Consumer Investigations Any Newsroom Can Do on 2026-03-18
-2026-03-13 17:50:20,506 - ONAEventsScraper - INFO - Found: ONA26 - Annual Conference of the Online News Association on 2026-03-30
-2026-03-13 17:50:20,507 - ONAEventsScraper - INFO - Found: From Fear to Focus: Navigating Your Next Move After a Layoff on 2026-04-14
-2026-03-13 17:50:20,507 - ONAEventsScraper - INFO - Found: Develop a Walking Tour Pilot for Your Newsroom in 60 Minutes on 2026-04-16
-2026-03-13 17:50:20,507 - ONAEventsScraper - INFO - Found 5 events
-2026-03-13 17:50:20,508 - ONAEventsScraper - INFO - Written to cities/publisher-resources/ona_events.ics
+2026-03-13 18:03:00,016 - IREScheduleScraper - INFO - Scraping NICAR 2026
+2026-03-13 18:03:00,016 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/nicar-2026/nicar-2026-schedule.json
+2026-03-13 18:03:00,509 - IREScheduleScraper - INFO - Found 233 sessions
+2026-03-13 18:03:00,581 - IREScheduleScraper - INFO - Found 232 events
+2026-03-13 18:03:00,625 - IREScheduleScraper - INFO - Written to cities/publisher-resources/nicar_2026.ics
+2026-03-13 18:03:00,848 - LIONPublishersScraper - INFO - Scraping LION Publishers
+2026-03-13 18:03:02,460 - LIONPublishersScraper - INFO - Found: 2026 Independent News Sustainability Summit on 2026-09-09
+2026-03-13 18:03:02,460 - LIONPublishersScraper - INFO - Found 1 events
+2026-03-13 18:03:02,461 - LIONPublishersScraper - INFO - Written to cities/publisher-resources/lion_publishers.ics
+2026-03-13 18:03:02,687 - EditorPublisherScraper - INFO - Scraping Editor & Publisher
+2026-03-13 18:03:05,030 - EditorPublisherScraper - INFO - Found: 2026 Mega-Conference on 2026-03-30
+2026-03-13 18:03:05,031 - EditorPublisherScraper - INFO - Found: N.E.A.C.E. 2026 Annual Conference on 2026-04-26
+2026-03-13 18:03:05,034 - EditorPublisherScraper - INFO - Found: 2026 Niche Media Conference on 2026-04-08
+2026-03-13 18:03:05,034 - EditorPublisherScraper - INFO - Found: 2026 South Dakota NewsMedia Association Convention on 2026-04-30
+2026-03-13 18:03:05,034 - EditorPublisherScraper - INFO - Found: INMA World Congress of News Media on 2026-05-04
+2026-03-13 18:03:05,034 - EditorPublisherScraper - INFO - Found: 2026 MDDC Conference & Celebration on 2026-05-08
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found: 2026 Media Financial Management Association and Financial Executives International Annual Conference on 2026-05-17
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found: 2026 Illinois Press Annual Convention on 2026-06-04
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found: Texas Press Association Convention & Trade Show on 2026-06-18
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found: Alabama Press Association Summer Convention & Awards Banquet on 2026-06-25
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found: 2026 ADMA Conference on 2026-06-10
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found: 2026 Mississippi Press 160th Annual Meeting on 2026-06-26
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found: 2026 Senior Leadership Conference on 2026-09-14
+2026-03-13 18:03:05,035 - EditorPublisherScraper - INFO - Found 13 events
+2026-03-13 18:03:05,038 - EditorPublisherScraper - INFO - Written to cities/publisher-resources/editor_publisher.ics
+2026-03-13 18:03:05,250 - INFO - Scraping Center for Cooperative Media
+2026-03-13 18:03:06,843 - INFO - Discovered 15 event URLs from organizer page
+2026-03-13 18:03:06,843 - INFO - Fetching 15 event pages (parallel)...
+2026-03-13 18:03:07,414 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/using-public-data-to-report-on-snap-policy-changes-tickets-1982386277721
+2026-03-13 18:03:07,556 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-budget-transparency-tool-demonstration-and-qa-tickets-1542483492649
+2026-03-13 18:03:07,656 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-work-with-influencers-tickets-1542880921369
+2026-03-13 18:03:07,738 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-content-sharing-platforms-w-distributed-media-lab-plucky-works-tickets-1656757138199
+2026-03-13 18:03:08,192 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-dave-cole-of-the-new-jersey-office-of-innovation-tickets-1829943453129
+2026-03-13 18:03:08,230 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/statewide-news-collective-the-community-impact-of-independent-journalism-tickets-1781731931169
+2026-03-13 18:03:08,509 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/our-collaborative-has-all-this-data-now-what-tickets-1640829899399
+2026-03-13 18:03:08,551 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/media-liability-insurance-for-nj-local-news-orgs-tickets-1708596471039
+2026-03-13 18:03:08,727 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-accept-corporate-sponsorships-tickets-1980033354063
+2026-03-13 18:03:08,779 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-snap-funding-and-federal-policy-changes-in-new-jersey-tickets-1980017997130
+2026-03-13 18:03:09,146 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-raise-money-from-small-dollar-donors-tickets-1981952222450
+2026-03-13 18:03:09,315 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-excellence-in-community-media-awards-tickets-1982292738944
+2026-03-13 18:03:09,338 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/climate-resilience-and-environmental-justice-for-new-jersey-communities-tickets-1968808736931
+2026-03-13 18:03:09,339 - INFO - Got 2 future events
+2026-03-13 18:03:09,339 - INFO - Found 2 events
+2026-03-13 18:03:09,340 - INFO - Written to cities/publisher-resources/eventbrite_coop_media.ics
+2026-03-13 18:03:09,489 - INFO - Scraping Associated Press
+2026-03-13 18:03:10,740 - INFO - Discovered 5 event URLs from organizer page
+2026-03-13 18:03:10,741 - INFO - Fetching 5 event pages (parallel)...
+2026-03-13 18:03:11,694 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ap-photography-showcase-capturing-the-solar-eclipse-tickets-782142809197
+2026-03-13 18:03:11,722 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1269725024729
+2026-03-13 18:03:11,738 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1038893587687
+2026-03-13 18:03:11,787 - INFO - Got 1 future events
+2026-03-13 18:03:11,787 - INFO - Found 1 events
+2026-03-13 18:03:11,788 - INFO - Written to cities/publisher-resources/eventbrite_ap.ics
+2026-03-13 18:03:12,004 - ONAEventsScraper - INFO - Scraping Online News Association
+2026-03-13 18:03:14,275 - ONAEventsScraper - INFO - Found: AI Innovator Collaborative on 2026-03-17
+2026-03-13 18:03:14,275 - ONAEventsScraper - INFO - Found: Quick Hits and Deep Dives: Consumer Investigations Any Newsroom Can Do on 2026-03-18
+2026-03-13 18:03:14,276 - ONAEventsScraper - INFO - Found: ONA26 - Annual Conference of the Online News Association on 2026-03-30
+2026-03-13 18:03:14,276 - ONAEventsScraper - INFO - Found: From Fear to Focus: Navigating Your Next Move After a Layoff on 2026-04-14
+2026-03-13 18:03:14,276 - ONAEventsScraper - INFO - Found: Develop a Walking Tour Pilot for Your Newsroom in 60 Minutes on 2026-04-16
+2026-03-13 18:03:14,277 - ONAEventsScraper - INFO - Found 5 events
+2026-03-13 18:03:14,278 - ONAEventsScraper - INFO - Written to cities/publisher-resources/ona_events.ics
+2026-03-13 18:03:14,505 - KnightCenterScraper - INFO - Scraping Knight Center for Journalism
+2026-03-13 18:03:14,678 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
+2026-03-13 18:03:14,679 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
+2026-03-13 18:03:14,680 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
+2026-03-13 18:03:14,680 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
+2026-03-13 18:03:14,681 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
+2026-03-13 18:03:14,682 - KnightCenterScraper - INFO - Found: Desde la redacción: cómo la IA está transformando el periodismo on 2026-03-26
+2026-03-13 18:03:14,682 - KnightCenterScraper - INFO - Found: Direto da Redação: como a IA está transformando o jornalismo on 2026-03-25
+2026-03-13 18:03:14,683 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
+2026-03-13 18:03:14,832 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
+2026-03-13 18:03:14,833 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
+2026-03-13 18:03:14,833 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
+2026-03-13 18:03:14,834 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
+2026-03-13 18:03:14,835 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
+2026-03-13 18:03:14,835 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
+2026-03-13 18:03:14,836 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
+2026-03-13 18:03:15,144 - KnightCenterScraper - INFO - Found 5 events
+2026-03-13 18:03:15,145 - KnightCenterScraper - INFO - Written to cities/publisher-resources/knight_center.ics

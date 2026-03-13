@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T17:50:29.632475",
+  "generated": "2026-03-13T18:03:20.359897",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -43209,12 +43209,20 @@
               "count": 5
             }
           ]
+        },
+        "knight_center": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 3
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 49
+          "count": 52
         },
         {
           "category": "Community / Social",
@@ -43242,7 +43250,7 @@
         }
       ],
       "images": {
-        "total": 73,
+        "total": 76,
         "with_image": 12,
         "by_source": [
           {
@@ -43268,9 +43276,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 72,
-        "total_events": 73,
-        "unique_urls": 72,
+        "total_with_url": 75,
+        "total_events": 76,
+        "unique_urls": 75,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 19,
@@ -43314,6 +43322,12 @@
           },
           {
             "source": "Poynter Institute",
+            "events": 3,
+            "unique_urls": 3,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Knight Center for Journalism",
             "events": 3,
             "unique_urls": 3,
             "specificity_pct": 100
