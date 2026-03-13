@@ -15,6 +15,7 @@ const CITIES = [
   { id: 'evanston', name: 'Evanston' },
   { id: 'portland', name: 'Portland' },
   { id: 'boston', name: 'Boston' },
+  { id: 'publisher-resources', name: 'Publisher Resources' },
 ];
 
 export default function CityPicker() {
