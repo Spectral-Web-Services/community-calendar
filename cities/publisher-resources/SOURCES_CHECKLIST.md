@@ -23,7 +23,7 @@ No geolocation filtering applied.
 - [ ] SEJ (Society of Environmental Journalists) — `sej_calendar.py` (RSS calendar at `sej.org/rss_calendar`)
 - [ ] IRE/NICAR Conference Schedules — `ire_schedule.py` (S3 JSON, updated per conference cycle)
 - [ ] SJN (Solutions Journalism Network) — `sjn_events.py` (Drupal HTML scraper at `solutionsjournalism.org/events`)
-- [ ] PEN America — `pen_america.py` (WordPress REST API at `pen.org/wp-json/wp/v2/event`)
+- [ ] PEN America — `pen_america.py` (WordPress REST API at `pen.org/wp-json/wp/v2/event`) + `eventbrite.py` (organizer `31882531335`)
 - [ ] NABJ (National Assoc. of Black Journalists) — `nabj_events.py` (Wild Apricot RSS at `nabj.org/resource/rss/events.rss`)
 - [ ] American Press Institute — `eventbrite.py` (Eventbrite organizer `59619554833`; 0 upcoming as of 2026-03)
 

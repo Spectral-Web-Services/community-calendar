@@ -1083,8 +1083,10 @@ jobs:
         python scrapers/ire_schedule.py --conference nicar-2026 --output cities/publisher-resources/nicar_2026.ics || true
         # SJN (Solutions Journalism Network) — Drupal HTML scraper
         python scrapers/sjn_events.py --output cities/publisher-resources/sjn.ics || true
-        # PEN America — WordPress REST API scraper
+        # PEN America — WordPress REST API scraper (more events)
         python scrapers/pen_america.py --output cities/publisher-resources/pen_america.ics || true
+        # PEN America — Eventbrite organizer page (supplements REST API)
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/pen-america-31882531335" --name "PEN America" --output cities/publisher-resources/pen_america_eventbrite.ics || true
         # NABJ (National Assoc. of Black Journalists) — Wild Apricot RSS feed
         python scrapers/nabj_events.py --output cities/publisher-resources/nabj.ics || true
         # American Press Institute — Eventbrite organizer page
