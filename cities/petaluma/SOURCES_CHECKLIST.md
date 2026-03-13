@@ -12,7 +12,7 @@
 | ~~Eventbrite Petaluma~~ | ~~Scraper~~ | — | Retired 2026-02-15: scraper broken |
 | Petaluma High School Athletics | MaxPreps Scraper | 9 | ✅ In CI |
 | Casa Grande High School Athletics | MaxPreps Scraper | 8 | ✅ In CI |
-| SRJC Petaluma Campus | LiveWhale Scraper | 17 | ✅ In CI |
+| SRJC Petaluma Campus | LiveWhale ICS | ~10 | ✅ In CI |
 | HenHouse Brewing Petaluma | Scraper | 2-3 | ✅ In CI |
 | ~~Phoenix Theater~~ | ~~Eventbrite Scraper~~ | — | Retired 2026-02-15: Eventbrite-dependent |
 | Mercury Theater | Squarespace JSON Scraper | 12 | ✅ In CI |
@@ -28,48 +28,32 @@
 | Petaluma Elks Lodge | Google Calendar ICS | ~568 | ✅ In CI |
 | Petaluma Garden Club | Google Calendar ICS | ~131 | ✅ In CI |
 | Petaluma Bounty | WordPress iCal | ~19 | ✅ In CI |
+| Petaluma River Park | Squarespace Scraper | ~8 | ✅ In CI |
+| Petaluma Historical Library & Museum | WordPress iCal | ~2 | ✅ In CI |
+| Blue Zones Project Petaluma | Eventbrite Scraper | ~4 | ✅ In CI |
 | Meetup: Mindful Petaluma | ICS | 10 | ✅ In CI |
 | Meetup: Candlelight Yoga | ICS | 10 | ✅ In CI |
 | Meetup: Rebel Craft Collective | ICS | 6 | ✅ In CI |
-| Meetup: Sonoma-Marin Brat Pack | ICS | 2 | ✅ In CI |
 | Meetup: Figure Drawing | ICS | 1 | ✅ In CI |
-| Meetup: Petaluma Salon | ICS | 1 | ✅ In CI |
 | Meetup: Book & Brew Club | ICS | 1 | ✅ In CI |
 | Meetup: Active 20-30 | ICS | 2 | ✅ In CI |
 | Meetup: Sonoma County Outdoors | ICS | ~10 | ✅ In CI |
-| Meetup: North Bay Contra Dance | ICS | ~10 | ✅ In CI |
-| Meetup: Sonoma County Boomers | ICS | ~7 | ✅ In CI |
-| Meetup: Go Wild Hikers | ICS | ~3 | ✅ In CI |
 | Meetup: Meditate with a Monk | ICS | ~10 | ✅ In CI |
-| Meetup: North Bay Adventure Club | ICS | ~10 | ✅ In CI |
-| Meetup: North Bay Tails and Trails | ICS | ~5 | ✅ In CI |
-| Meetup: North Bay 50+ Nature and Outdoors | ICS | ~10 | ✅ In CI |
-| Meetup: Senior Walkabouters (SWAG) | ICS | ~5 | ✅ In CI |
-| Meetup: Sonoma County Wanderers | ICS | ~10 | ✅ In CI |
-| Meetup: Mindfull Hikes | ICS | ~5 | ✅ In CI |
-| Meetup: Four Corners Hiking & Beer | ICS | ~5 | ✅ In CI |
-
-**Total: ~1440+ events (before deduplication)**
 
 ---
 
 ## To Investigate
 
 ### Needs custom scraper
-- Montagne Russe Winery (russewines.com/Events) - WineDirect platform, HTML scraping needed, ~6 events
-- Cinnabar Theater (cinnabartheater.org/shows/) - WordPress + Beaver Builder, HTML-only, 5 shows
+- Montagne Russe Winery (russewines.com/Events) - Vin65 platform, no structured data, ~6 events
 
 ### Not yet investigated
-- Village Network of Petaluma (ClubExpress - check for iCal)
-- Blue Zones Project Petaluma (Eventbrite-based, likely no public feed)
-- Sonoma County Regional Parks (parks.sonomacounty.ca.gov/play/calendar/hiking)
+- Village Network of Petaluma (HelpfulVillage platform - events page wouldn't load, needs retry)
+- Sonoma County Regional Parks (parks.sonomacounty.ca.gov/play/calendar/hiking) - no ICS, would need scraper; Tolay Lake hikes may be within radius
 - Petaluma Cycling Club (Wild Apricot - no native ICS)
 - Empire Runners Club (Wild Apricot - no native ICS)
-- Petaluma River Park (petalumariverpark.org/calendar - weekly Tuesday walks)
-- Petaluma Historical Library & Museum (petalumamuseum.com/events/) - concerts, speakers
-- Sonoma-Marin Fairgrounds (sonoma-marinfair.org/calendar) - check closer to summer fair season
-- Healthy Petaluma (healthypetaluma.org/calendar-of-events) - Squarespace, 10 upcoming but board meetings only
-- Petaluma Wetlands Alliance (petalumawetlands.org/calendar/) - not yet checked
+- Sonoma-Marin Fairgrounds (sonoma-marinfair.org/calendar) - WordPress Events Calendar, ICS empty, check closer to fair season
+- Petaluma Wetlands Alliance (petalumawetlands.org/calendar/) - WordPress/Divi, JS-rendered calendar, couldn't see events
 
 ---
 
@@ -78,7 +62,7 @@
 | Source | Reason |
 |--------|--------|
 | City of Petaluma website | Cloudflare protection |
-| Various Marin-based Meetup groups | Too far from Petaluma |
+| Various Marin-based Meetup groups | Too far from Petaluma (removed 2026-03-13) |
 | Mindful-Monday Meetup | Virtual conference calls, not local |
 | Petaluma Wildlife Museum | School tours/private events, not public |
 | Youth sports leagues | Member-only platforms, no public calendar exports (see below) |
@@ -86,6 +70,9 @@
 | 350 Petaluma | Squarespace events but dead since Oct 2023 |
 | Petaluma People Services | Squarespace but hand-curated page, not events collection |
 | Rotary Club of Petaluma | ClubRunner site deactivated |
+| Cinnabar Theater | Shows at SSU Warren Theater in Rohnert Park, outside 8mi radius |
+| Healthy Petaluma | Squarespace, board meetings only |
+| 14 regional Meetup groups | Removed 2026-03-13: events outside 8mi radius or 0 events |
 
 ### Youth Sports Research (2026-02-14)
 
