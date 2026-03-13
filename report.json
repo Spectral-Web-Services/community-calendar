@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T15:51:50.672992",
+  "generated": "2026-03-13T18:03:20.359897",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -43153,16 +43153,80 @@
               "count": 19
             }
           ]
+        },
+        "tiny_news_members_only": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 6
+            }
+          ]
+        },
+        "editor_publisher": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 13
+            }
+          ]
+        },
+        "eventbrite_ap": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 0
+            }
+          ]
+        },
+        "eventbrite_coop_media": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 0
+            }
+          ]
+        },
+        "journalism_deadlines": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 7
+            }
+          ]
+        },
+        "lion_publishers": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 1
+            }
+          ]
+        },
+        "ona_events": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 5
+            }
+          ]
+        },
+        "knight_center": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 3
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 19
+          "count": 52
         },
         {
           "category": "Community / Social",
-          "count": 17
+          "count": 19
         },
         {
           "category": "Books / Literature / Poetry",
@@ -43186,8 +43250,8 @@
         }
       ],
       "images": {
-        "total": 41,
-        "with_image": 9,
+        "total": 76,
+        "with_image": 12,
         "by_source": [
           {
             "source": "Institute for Nonprofit News",
@@ -43198,13 +43262,23 @@
             "source": "Poynter Institute",
             "total": 3,
             "with_image": 3
+          },
+          {
+            "source": "Center for Cooperative Media",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "Associated Press",
+            "total": 1,
+            "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 41,
-        "total_events": 41,
-        "unique_urls": 41,
+        "total_with_url": 75,
+        "total_events": 76,
+        "unique_urls": 75,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 19,
@@ -43217,9 +43291,21 @@
             "specificity_pct": 100
           },
           {
+            "source": "Editor & Publisher",
+            "events": 13,
+            "unique_urls": 13,
+            "specificity_pct": 100
+          },
+          {
             "source": "Society of Environmental Journalists",
             "events": 10,
             "unique_urls": 10,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Journalism Internship & Fellowship Deadlines",
+            "events": 7,
+            "unique_urls": 7,
             "specificity_pct": 100
           },
           {
@@ -43229,7 +43315,19 @@
             "specificity_pct": 100
           },
           {
+            "source": "Online News Association",
+            "events": 5,
+            "unique_urls": 5,
+            "specificity_pct": 100
+          },
+          {
             "source": "Poynter Institute",
+            "events": 3,
+            "unique_urls": 3,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Knight Center for Journalism",
             "events": 3,
             "unique_urls": 3,
             "specificity_pct": 100
@@ -43238,6 +43336,30 @@
             "source": "Assoc. of LGBTQ+ Journalists",
             "events": 3,
             "unique_urls": 3,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Center for Cooperative Media",
+            "events": 2,
+            "unique_urls": 2,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Tiny News Members Only",
+            "events": 2,
+            "unique_urls": 2,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Associated Press",
+            "events": 1,
+            "unique_urls": 1,
+            "specificity_pct": 100
+          },
+          {
+            "source": "LION Publishers",
+            "events": 1,
+            "unique_urls": 1,
             "specificity_pct": 100
           }
         ]

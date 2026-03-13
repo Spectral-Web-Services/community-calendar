@@ -9,7 +9,7 @@ used across all city feeds, identified by their PRODID header.
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, davis, evanston, jweekly, montclair, petaluma, portland, raleighdurham, roanoke, santarosa, toronto | 161 |
 | **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, davis, evanston, jweekly, matsu, montclair, petaluma, portland, publisher-resources, raleighdurham, roanoke, santarosa, toronto | 93 |
-| **Google Calendar** | Public Google Calendar ICS export. | bloomington, davis, jweekly, montclair, petaluma, portland, raleighdurham, roanoke, santarosa, toronto | 53 |
+| **Google Calendar** | Public Google Calendar ICS export. | bloomington, davis, jweekly, montclair, petaluma, portland, publisher-resources, raleighdurham, roanoke, santarosa, toronto | 55 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, evanston, matsu, montclair, raleighdurham, roanoke, santarosa | 53 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland, raleighdurham | 24 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, petaluma, portland, santarosa, toronto | 10 |
@@ -82,7 +82,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **toronto** (23): bata_shoe_museum, bloor_west_village, boulderzclimbing, culturelink, factory_theatre, gardiner_museum, golatindance, grossmans_tavern, indigenous, jazz_bistro, knitters_guild, now_toronto, ontario_historical_society, ontario_nature, site3, sunshinecentres, textile_museum, toronto_botanical, union_station, uoft_engineering, uoft_indigenous, uoft_philosophy, uoft_socialwork
 
-### Google Calendar (53 feeds)
+### Google Calendar (55 feeds)
 
 Public Google Calendar ICS export.
 
@@ -97,6 +97,8 @@ Public Google Calendar ICS export.
 **petaluma** (3): brooksnote, elks_lodge, garden_club
 
 **portland** (5): friends_of_trees_green_space, friends_of_trees_neighborhood, portland_public_schools, portland_thorns, portland_timbers
+
+**publisher-resources** (2): journalism_deadlines, tiny_news_members_only
 
 **raleighdurham** (16): bike_durham, calendar_c_dl4511hfnoong3b3171k6smt74_40group_cale, calendar_c_j40ldpocctr71k99n0n2lr9c14_40group_cale, calendar_cb2ajgfjpk6bf9gifg6kg2hn1s_40group_calend, calendar_lgbtqcenterofdurham_org_qb71v8n48d0a304sq, durham_resistance_1, durham_resistance_2, durham_resistance_3, durham_resistance_4, eno_river, gizmo_brew_works, lgbtq_center_durham, new_hope_bird_alliance, sw_durham_rotary, triangle_cycling, wake_audubon
 

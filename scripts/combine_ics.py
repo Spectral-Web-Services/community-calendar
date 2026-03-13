@@ -439,6 +439,14 @@ SOURCE_NAMES = {
     'sej': 'Society of Environmental Journalists',
     'ire_2026': 'IRE 2026 Conference',
     'nicar_2026': 'NICAR 2026 Conference',
+    'tiny_news_members_only': 'Tiny News Members Only',
+    'journalism_deadlines': 'Journalism Internship & Fellowship Deadlines',
+    'lion_publishers': 'LION Publishers',
+    'editor_publisher': 'Editor & Publisher',
+    'eventbrite_coop_media': 'Center for Cooperative Media',
+    'eventbrite_ap': 'Associated Press',
+    'ona_events': 'Online News Association',
+    'knight_center': 'Knight Center for Journalism',
 }
 
 # Fallback URLs for sources whose ICS events lack a URL property.

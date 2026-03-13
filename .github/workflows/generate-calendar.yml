@@ -1091,6 +1091,17 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/american-press-institute-59619554833" --name "American Press Institute" --output cities/publisher-resources/api_eventbrite.ics || true
         # Center for Cooperative Media — Eventbrite organizer page
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/center-for-cooperative-media-5988913981" --name "Center for Cooperative Media" --output cities/publisher-resources/cooperative_media_eventbrite.ics || true
+        # LION Publishers — HTML scraper (WordPress free-form)
+        python scrapers/lion_publishers.py --output cities/publisher-resources/lion_publishers.ics || true
+        # Editor & Publisher — HTML scraper (industry conference calendar)
+        python scrapers/editor_publisher.py --output cities/publisher-resources/editor_publisher.ics || true
+        # Center for Cooperative Media — Eventbrite organizer
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/center-for-cooperative-media-5988913981" --name "Center for Cooperative Media" --output cities/publisher-resources/eventbrite_coop_media.ics || true
+        # Associated Press — Eventbrite organizer
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/72823983313" --name "Associated Press" --output cities/publisher-resources/eventbrite_ap.ics || true
+        # ONA (Online News Association) — HTML scraper (Novi AMS, no feeds)
+        python scrapers/ona_events.py --output cities/publisher-resources/ona_events.ics || true
+        python scrapers/knight_center.py --output cities/publisher-resources/knight_center.ics || true
       continue-on-error: true
 
     - name: Fetch Publisher Resources live feeds
@@ -1113,6 +1124,10 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://sabew.org/?post_type=tribe_events&ical=1&eventDisplay=list" -o sabew.ics || true
         # Hacks/Hackers — Luma calendar ICS feed
         curl -sL "https://api2.luma.com/ics/get?entity=calendar&id=cal-09kcgQfLYGyy2JP" -o hackshackers.ics || true
+        # Tiny News Members Only (Google Calendar)
+        curl -sL "https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics" -o tiny_news_members_only.ics || true
+        # Journalism Internship & Fellowship Deadlines (Google Calendar)
+        curl -sL "https://calendar.google.com/calendar/ical/er06vtjd12h86b4rej5bts6p6c%40group.calendar.google.com/public/basic.ics" -o journalism_deadlines.ics || true
         cd ../..
 
     - name: Combine Publisher Resources ICS files

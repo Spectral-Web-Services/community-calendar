@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useMemo, useSyncExternalStore } from 'react';
+import { Plus } from 'lucide-react';
 import CityPicker from './components/CityPicker.jsx';
 import EmbedView from './components/EmbedView.jsx';
 import FeedView from './components/FeedView.jsx';
@@ -9,6 +10,7 @@ import MasonryGrid from './components/MasonryGrid.jsx';
 import UniformGrid from './components/UniformGrid.jsx';
 import PicksList from './components/PicksList.jsx';
 import CollectionTargetBar from './components/CollectionTargetBar.jsx';
+import EnrichmentEditor from './components/EnrichmentEditor.jsx';
 import { useEvents } from './hooks/useEvents.js';
 import { useEnrichments } from './hooks/useEnrichments.js';
 import { useProcessedEvents } from './hooks/useProcessedEvents.js';
@@ -47,6 +49,7 @@ function App() {
   const [displayCount, setDisplayCount] = useState(50);
   const [cardStyle, setCardStyle] = useState('accent');
   const [viewMode, setViewMode] = useState('cards');
+  const [showCreateEvent, setShowCreateEvent] = useState(false);
 
   const { events, loading } = useEvents(city);
   const enrichments = useEnrichments(city);
@@ -116,7 +119,7 @@ function App() {
 
         {/* View mode tabs — Collections tab only for curators with access to this city */}
         {canCurateCity && (
-          <div className="flex gap-1 mb-4">
+          <div className="flex gap-1 mb-4 items-center">
             <button
               onClick={() => setViewMode('cards')}
               className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
@@ -133,7 +136,24 @@ function App() {
             >
               My Collections
             </button>
+            <div className="ml-auto">
+              <button
+                onClick={() => setShowCreateEvent(true)}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+              >
+                <Plus size={16} />
+                Add Event
+              </button>
+            </div>
           </div>
+        )}
+
+        {showCreateEvent && (
+          <EnrichmentEditor
+            mode="create"
+            onClose={() => setShowCreateEvent(false)}
+            onSaved={() => setShowCreateEvent(false)}
+          />
         )}
 
         {viewMode === 'cards' && (

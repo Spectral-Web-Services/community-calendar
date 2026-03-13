@@ -27,7 +27,8 @@ const DAY_OPTIONS = [
   { value: 'SA', label: 'Saturday' },
 ];
 
-// Mode: 'pick' (picking an event, with form) or 'enrich' (editing enrichment for existing pick)
+// Mode: 'pick' (picking an event, with form), 'enrich' (editing enrichment for existing pick),
+//        or 'create' (manual event — standalone enrichment, no linked event)
 export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, onSaved }) {
   const { user, session } = useAuth();
 
@@ -107,7 +108,40 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
     const curatorName = user.user_metadata?.preferred_username || user.user_metadata?.full_name || user.email || 'curator';
 
     try {
-      if (mode === 'pick') {
+      if (mode === 'create') {
+        // Manual event — create standalone enrichment with no event_id
+        if (!title.trim()) { setError('Title is required'); setSaving(false); return; }
+        if (!date) { setError('Date is required'); setSaving(false); return; }
+
+        const startTime = (date || '') + 'T' + (time || '00:00') + ':00';
+        const endTimeStr = endTime ? (date || '') + 'T' + endTime + ':00' : null;
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/event_enrichments`, {
+          method: 'POST',
+          headers: { ...headers, Prefer: 'return=representation' },
+          body: JSON.stringify({
+            event_id: null,
+            curator_id: user.id,
+            rrule: rruleStr,
+            title: title.trim(),
+            start_time: startTime,
+            end_time: endTimeStr,
+            location: location || null,
+            description: description || null,
+            url: urlValue || null,
+            notes: notesValue || null,
+            city: new URLSearchParams(window.location.search).get('city') || null,
+            curator_name: curatorName,
+          }),
+        });
+
+        if (!res.ok) {
+          setError('Failed to create event');
+          setSaving(false);
+          return;
+        }
+
+        setSuccess(true);
+      } else if (mode === 'pick') {
         // Create pick
         const pickRes = await fetch(`${SUPABASE_URL}/rest/v1/picks`, {
           method: 'POST',
@@ -211,7 +245,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
         {/* Header */}
         <div className="flex items-center justify-between px-6 pt-5 pb-3">
           <h2 className="text-lg font-bold text-gray-900">
-            {mode === 'pick' ? 'Add to My Picks' : 'Enrich Event'}
+            {mode === 'create' ? 'Add Event' : mode === 'pick' ? 'Add to My Picks' : 'Enrich Event'}
           </h2>
           <button onClick={onClose} className="text-gray-400 hover:text-gray-600 transition-colors">
             <X size={20} />
@@ -221,9 +255,13 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
         <div className="px-6 pb-5">
           {!success ? (
             <>
-              {/* Event info */}
-              <p className="font-semibold text-gray-900 text-sm">{event?.title || pick?.events?.title}</p>
-              {eventDate && <p className="text-xs text-gray-500 mb-4">{eventDate}</p>}
+              {/* Event info (skip for create mode — no existing event) */}
+              {mode !== 'create' && (
+                <>
+                  <p className="font-semibold text-gray-900 text-sm">{event?.title || pick?.events?.title}</p>
+                  {eventDate && <p className="text-xs text-gray-500 mb-4">{eventDate}</p>}
+                </>
+              )}
 
               <div className="space-y-3 mb-4">
                 <Field label="Title" value={title} onChange={setTitle} />
@@ -345,7 +383,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
                   disabled={saving}
                   className="px-4 py-1.5 rounded-lg bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 transition-colors disabled:opacity-40"
                 >
-                  {saving ? 'Saving...' : mode === 'pick' ? 'Add to My Picks' : 'Save'}
+                  {saving ? 'Saving...' : mode === 'create' ? 'Add Event' : mode === 'pick' ? 'Add to My Picks' : 'Save'}
                 </button>
               </div>
             </>
@@ -353,8 +391,12 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
             /* Success state */
             <div className="text-center py-6">
               <CheckCircle size={36} className="text-green-500 mx-auto mb-3" />
-              <p className="font-semibold text-gray-900 text-lg mb-1">Event picked!</p>
-              <p className="text-sm text-gray-500 mb-5">"{title}" has been added to your picks.</p>
+              <p className="font-semibold text-gray-900 text-lg mb-1">
+                {mode === 'create' ? 'Event added!' : 'Event picked!'}
+              </p>
+              <p className="text-sm text-gray-500 mb-5">
+                "{title}" has been {mode === 'create' ? 'added to the calendar' : 'added to your picks'}.
+              </p>
 
               <div className="space-y-2 mb-4">
                 <p className="text-sm font-medium text-gray-700">Add to your calendar:</p>

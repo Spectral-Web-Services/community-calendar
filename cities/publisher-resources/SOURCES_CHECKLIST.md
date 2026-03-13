@@ -15,6 +15,10 @@ No geolocation filtering applied.
 - [ ] SABEW (Soc. for Advancing Business Editing & Writing) — `https://sabew.org/?post_type=tribe_events&ical=1&eventDisplay=list` (WordPress Tribe Events)
 - [ ] Hacks/Hackers — `https://api2.luma.com/ics/get?entity=calendar&id=cal-09kcgQfLYGyy2JP` (Luma calendar ICS)
 
+### Google Calendar
+- [ ] Tiny News Members Only — `https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics`
+- [ ] Journalism Internship & Fellowship Deadlines — `https://calendar.google.com/calendar/ical/er06vtjd12h86b4rej5bts6p6c%40group.calendar.google.com/public/basic.ics`
+
 ### Scrapers
 - [ ] SEJ (Society of Environmental Journalists) — `sej_calendar.py` (RSS calendar at `sej.org/rss_calendar`)
 - [ ] IRE/NICAR Conference Schedules — `ire_schedule.py` (S3 JSON, updated per conference cycle)
@@ -27,47 +31,47 @@ No geolocation filtering applied.
 
 ## Investigated — Possible with Scraper
 - **RJI (Reynolds Journalism Institute)** — ICS feed at `calendar.missouri.edu/live/ical/events/group/Reynolds%20Journalism%20Institute/` works but very low volume (2 events), Columbia MO only
+- [ ] LION Publishers — `lion_publishers.py` (HTML scraper, WordPress free-form events page)
+- [ ] Editor & Publisher — `editor_publisher.py` (HTML scraper, industry conference calendar)
+- [ ] Center for Cooperative Media — `eventbrite.py` (Eventbrite organizer scraper)
+- [ ] Associated Press — `eventbrite.py` (Eventbrite organizer scraper)
+- [ ] ONA (Online News Association) — `ona_events.py` (HTML scraper, Novi AMS events page)
+
+### Scrapable (no feeds, but server-rendered HTML)
+- [ ] Knight Center for Journalism — `https://journalismcourses.org/course-library/` (WordPress/Elementor, paginated course cards with dates, instructors, pricing)
 
 ## Investigated — Not Viable
 
-- **LION Publishers** — No calendar feeds; WordPress events page at `https://lionpublishers.com/events/` could be scraped
+- **LION Publishers** — Now implemented as scraper (see above)
 - **American Journalism Project** — No public events; invitation-only (AJPalooza)
 - **Virginia Local News Project** — No events calendar; runs ongoing programs only
 - **GIJN** — Site returns 403 to all automated requests; no public feeds
 - **East-West Center** — Cloudflare 403 on all automated access
 - **The Open Notebook** — Trainings are custom-booked/on-demand, no scheduled events
 - **Trusting News** — Events announced via blog posts with Zoom links, no structured data
-- **ONA** — No public feeds; Novi AMS platform, EventScribe for conferences
+- **ONA** — No ICS/RSS feeds; Novi AMS platform — but events page is scrapable (see above)
 - **Knight Foundation** — Events infrastructure under development, not live
-- **RTDNA** — No public feeds; /events/feed returns 500
+- **RTDNA** — No public feeds; Novi AMS platform, /events/feed returns 500
 - **National Press Club** — Custom calendar grid, no feeds
 - **EWA** — No feeds; custom WordPress events with AJAX
 - **NABJ** — ~~Site returns 403 to automated access~~ Moved to Scrapers (RSS feed at CDN bypasses Cloudflare)
 - **AAJA** — No event-specific feeds; RSS has news only
-- **Listening Post Collective** — WordPress with The Events Calendar plugin (ICS likely at `/events/?ical=1`), but Cloudflare bot protection blocks all automated access (403)
-- **BlueLena** — Client-only roundtables posted as retrospective recaps; no public event feeds (WordPress/Newspack)
-- **Blue Engine Collaborative** — No events; Squarespace consulting site with cohort-based accelerator programs only
-- **IWMF (Intl Women's Media Foundation)** — WordPress; robots.txt blocks ClaudeBot and all AI crawlers; 403 on all requests
-- **CPJ (Committee to Protect Journalists)** — WordPress; events archive dormant since 2018; safety workshops are private
-- **RCFP (Reporters Committee)** — WordPress; no events plugin; trainings are request-based, no scheduled public events
-- **The IIJ (Institute for Independent Journalists)** — Squarespace; webinars listed as past replays only, no upcoming dates posted
-- **Maynard Institute** — WordPress; no events plugin; custom HTML event pages, no feeds
-- **Religion News Association** — Squarespace; one annual conference; no feeds or structured data
-- **JAWS (Journalism & Women Symposium)** — Squarespace; one annual conference (CAMP); no feeds
-- **Indigenous Journalists Assoc. (f/k/a NAJA)** — naja.com dead; new site indigenousjournalists.org (WordPress) has no event feeds; one annual conference (IMC)
-- **Local Media Association** — WordPress Events Manager; ICS at `/events/?ical=1` exists but stale (last updated 2024)
-- **News Product Alliance** — Squarespace; one annual summit via Eventbrite; no feeds
-- **SRCCON / OpenNews** — Static sites; no feeds; SRCCON 2026 Jul 8-9 Minneapolis; manual add only
-- **Lenfest Institute** — WordPress; no events plugin; 3 events hand-maintained on static page
-- **News Revenue Hub** — WordPress; no events page; RSS feed empty; consulting site only
-- **Report for America** — WordPress (Elementor); no events page or feeds
-- **Alaska Press Club** — WordPress.com hosted; no events plugin; conference info in blog posts only
-- **SembraMedia** — WordPress; no events page or feeds; blog/content-focused
-- **Student Press Law Center** — WordPress; no events page; trainings are on-request/private
-- **LION Publishers** — No calendar feeds; WordPress events page at `https://lionpublishers.com/events/` could be scraped
-- **Branch Four** — GoDaddy static site; no events page, no feeds; training is on-request only
-- **Indiegraf** — WordPress; webinars are static pages with no event plugin or feeds
-- **NC Local** — WordPress/Newspack; static events page; events hosted on Eventbrite
-- **Nieman Foundation** — WordPress; no events section; /calendar/ returns 401 (private)
-- **Journalist's Resource** — WordPress; webinars are past-recap blog posts only, no upcoming events
-- **Tiny News Collective** — Ghost CMS; events are members-only, no public feeds
+- **Inside the Newsroom (Substack)** — Blog post listing deadlines in prose; no structured data or feeds
+- **Hearst Awards** — TLS certificate error (ERR_TLS_CERT_ALTNAME_INVALID); site inaccessible
+- **Editor & Publisher** — Now implemented as scraper (see above)
+- **SPJ Freelance Calendar** — Same feed as SPJ already implemented (`webcal://calendar.spjnetwork.org/calendar.php`)
+- **Trauma Journalism** — WordPress custom calendar, no ICS/RSS export; stale events only
+- **IRE** — WordPress (Beaver Builder) but no ICS export; `?ical=1` returns HTML; RSS is blog posts only; events load via JavaScript (not scrapable without headless browser)
+- **CPJ** — WordPress, no events ICS feed; events page is server-rendered but stale (last event 2018)
+- **IWMF** — Returns 403 to automated access
+- **Knight Center (journalismcourses.org)** — No calendar feeds; WordPress/WooCommerce — but course library is scrapable (see above)
+- **Pulitzer Center** — Returns 403 to automated access
+- **TCIJ (Centre for Investigative Journalism)** — Returns 403 to automated access
+
+## To Investigate
+
+- Hacks/Hackers events
+- SRCCON / OpenNews
+- Lenfest Institute
+- Report for America
+- Solutions Journalism Network

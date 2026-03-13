@@ -7,6 +7,30 @@ X-WR-CALNAME:Publisher Resources Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://docs.google.com/forms/d/e/1FAIpQLSfthOXkGo8S2IoQRk-2sQ7-3E5aa7R38KElW4TCwoX3KeOsrA/viewform"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://docs.google.com/forms/d/e/1FAIpQLSfthOXkGo8S2IoQRk-2sQ7-3E5aa7R38KElW4TCwoX3KeOsrA/viewform
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+DTSTAMP:20260313T180318Z
+UID:2kdjkt9j1gjvloejpseichas1e@google.com
+CREATED:20260226T023214Z
+DESCRIPTION:See the full program description: <a href="https://docs.google.
+ com/forms/d/e/1FAIpQLSfthOXkGo8S2IoQRk-2sQ7-3E5aa7R38KElW4TCwoX3KeOsrA/view
+ form">https://docs.google.com/forms/d/e/1FAIpQLSfthOXkGo8S2IoQRk-2sQ7-3E5aa
+ 7R38KElW4TCwoX3KeOsrA/viewform</a><br><br>Pay: $16.90 / hour<br><br>Apply b
+ y March 15.<br><br>Sign up for even more journalism jobs openings via the J
+ ournalism jobs and a photo of my dog newsletter: <a href="https://journojob
+ s.substack.com/subscribe" target="_blank"><u><u><u><u>https://journojobs.su
+ bstack.com/subscribe</u></u></u></u></a>
+LAST-MODIFIED:20260226T023214Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:AAJA Sacramento 2026 Internship Program with The Sacramento Bee
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-waterman-fund-essay-contest-emerging-writers"}
 X-SOURCE-ID:sej
 SUMMARY:Waterman Fund Essay Contest for Emerging Writers
@@ -28,7 +52,7 @@ X-SOURCE-ID:poynter
 X-SOURCE:Poynter Institute
 DTSTART;TZID=America/Chicago:20260316T093000
 DTEND;TZID=America/Chicago:20260316T173000
-DTSTAMP:20260313T091441
+DTSTAMP:20260313T135025
 CREATED:20260225T165916Z
 LAST-MODIFIED:20260310T150550Z
 UID:1190562-1773653400-1773682200@www.poynter.org
@@ -65,7 +89,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260317T150000
 DTEND;TZID=America/New_York:20260317T160000
-DTSTAMP:20260313T115143
+DTSTAMP:20260313T135023
 CREATED:20251014T194807Z
 LAST-MODIFIED:20251211T214028Z
 UID:10004834-1773759600-1773763200@inn.org
@@ -74,6 +98,17 @@ DESCRIPTION:Join the Institute for Nonprofit News (INN) and Tiny News Collective
 URL:https://inn.org/event/news-startup-sessions-inn-tiny-news-collective-2/2026-03-17/
 CATEGORIES:Services
 ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2025/06/300-x-250-_-CTA-with-TNC-6.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/ai-innovator-collaborative3-10-2026"}
+X-SOURCE-ID:ona_events
+SUMMARY:AI Innovator Collaborative
+DTSTART;VALUE=DATE-TIME:20260317T150000
+DTEND;VALUE=DATE-TIME:20260317T160000
+UID:3588306cef301db29c1568a0454c8217@journalists.org
+DESCRIPTION:
+URL:https://journalists.org/events/ai-innovator-collaborative3-10-2026
+X-SOURCE:Online News Association
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://calendar.spjnetwork.org/displayevent.php?e=9EkwgN4zTa-8228911091"}
@@ -87,6 +122,19 @@ SUMMARY:SPJ Freelance Community Board Meeting
 URL:http://calendar.spjnetwork.org/displayevent.php?e=9EkwgN4zTa-8228911091
 DESCRIPTION:SPJ members are welcome to attend. Email spjfreelancecommunity@gmail.com to request a login.
 LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/quick-hits-and-deep-dives-consumer-investigations-any-newsroom-can-do"}
+X-SOURCE-ID:ona_events
+SUMMARY:Quick Hits and Deep Dives: Consumer Investigations Any Newsroom Ca
+ n Do
+DTSTART;VALUE=DATE-TIME:20260318T140000
+DTEND;VALUE=DATE-TIME:20260318T150000
+UID:ac71c78782401effaa5b45a0f0d2f22d@journalists.org
+DESCRIPTION:
+URL:https://journalists.org/events/quick-hits-and-deep-dives-consumer-inve
+ stigations-any-newsroom-can-do
+X-SOURCE:Online News Association
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/dc-environmental-film-festival"}
@@ -103,6 +151,29 @@ DESCRIPTION:The Environmental Film Festival in the Nation’s Capital (DCE
  A VA WV)\, Other Events\, Journalism & Media
 URL:https://www.sej.org/calendar/dc-environmental-film-festival
 X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://airtable.com/appKqpCg8wtgbO8DP/shrCXgMZovAfN8aJ4"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://airtable.com/appKqpCg8wtgbO8DP/shrCXgMZovAfN8aJ4
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+DTSTAMP:20260313T180318Z
+UID:4g399htv2ifu4i2sfpmpc1r2hq@google.com
+CREATED:20260226T023633Z
+DESCRIPTION:See the full program description: <a href="https://airtable.com
+ /appKqpCg8wtgbO8DP/shrCXgMZovAfN8aJ4">https://airtable.com/appKqpCg8wtgbO8D
+ P/shrCXgMZovAfN8aJ4</a><br><br>Pay: $75\,000<br><br>Apply by March 20 at 5 
+ p.m. PT.<br><br>Sign up for even more journalism jobs openings via the Jour
+ nalism jobs and a photo of my dog newsletter: <a href="https://journojobs.s
+ ubstack.com/subscribe" target="_blank"><u><u><u><u>https://journojobs.subst
+ ack.com/subscribe</u></u></u></u></a>
+LAST-MODIFIED:20260226T023633Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The 19th's Frances Ellen Watkins Harper fellowship
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.eventbrite.com/e/2026-career-day-at-the-national-press-club-tickets-1982993687500?aff=oddtdtcreator"}
@@ -172,12 +243,29 @@ DESCRIPTION:The Ethics in Journalism Award honors journalists or news organizati
 LOCATION:
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Center for Cooperative Media": "https://www.eventbrite.com/e/how-journalism-collaboratives-can-stay-safe-tickets-1984574945084"}
+X-SOURCE-ID:eventbrite_coop_media
+SUMMARY:How journalism collaboratives can stay safe
+DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260324T120000
+DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260324T130000
+UID:3cab9fc3b935a3947e0165cf1d17c41f@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1179199041%2F66857244479%2F1%2Foriginal.20260306-133017?crop=
+ focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.138&
+ fp-y=0.446&s=c6ae93c3d3177832f85c837a6665e952
+DESCRIPTION:Learn from experts about how to safely practice journalism and
+  prepare for and respond to evolving safety challenges.
+URL:https://www.eventbrite.com/e/how-journalism-collaboratives-can-stay-sa
+ fe-tickets-1984574945084
+X-SOURCE:Center for Cooperative Media
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Poynter Institute": "https://www.poynter.org/event/truth-on-the-line-journalisms-role-in-protecting-democracy/"}
 X-SOURCE-ID:poynter
 X-SOURCE:Poynter Institute
 DTSTART;TZID=America/New_York:20260324T180000
 DTEND;TZID=America/New_York:20260324T200000
-DTSTAMP:20260313T091441
+DTSTAMP:20260313T135025
 CREATED:20260213T192122Z
 LAST-MODIFIED:20260302T211830Z
 UID:1189352-1774375200-1774382400@www.poynter.org
@@ -188,6 +276,19 @@ LOCATION:Selby Public Library\, 1331 First Street\, Sarasota\, FL\, 34236\, Unit
 CATEGORIES:In-person Event
 ATTACH;FMTTYPE=image/png:https://www.poynter.org/wp-content/uploads/2026/02/3.Collage.png
 ORGANIZER;CN="The Poynter Institute":MAILTO:marketing@poynter.org
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Knight Center for Journalism": "https://journalismcourses.org/product/como-la-ia-esta-transformando-o-jornalismo/"}
+X-SOURCE-ID:knight_center
+SUMMARY:Direto da Redação: como a IA está transformando o jornalismo
+DTSTART;VALUE=DATE-TIME:20260325T000000
+DTEND;VALUE=DATE-TIME:20260325T000000
+UID:db38823bbd4e6e14db27c01d191e0bd9@journalismcourses.org
+DESCRIPTION:A inteligência artificial está transformando a forma como in
+ vestigamos\, produzimos e distribuímos informação na América Latina.
+URL:https://journalismcourses.org/product/como-la-ia-esta-transformando-o-
+ jornalismo/
+X-SOURCE:Knight Center for Journalism
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-al-neuharth-free-spirit-and-journalism-conference-high-school-juniors"}
@@ -206,6 +307,56 @@ DESCRIPTION:High school juniors with an interest in journalism can apply t
 URL:https://www.sej.org/calendar/deadline-al-neuharth-free-spirit-and-jour
  nalism-conference-high-school-juniors
 X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://springernature.wd3.myworkdayjobs.com/en-US/SpringerNatureCareers/details/News-Intern_JR105539?q=scientific%20american"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://springernature.wd3.myworkdayjobs.com/en-US/SpringerNatureCareers/details/News-Intern_JR105539?q=scientific%20american
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+DTSTAMP:20260313T180318Z
+UID:7o9asn7nqpqo968idu9qo01d9d@google.com
+CREATED:20260302T025938Z
+DESCRIPTION:See the full program descriptions: <br><br>News Intern: <a href
+ ="https://springernature.wd3.myworkdayjobs.com/en-US/SpringerNatureCareers/
+ details/News-Intern_JR105539?q=scientific%20american" target="_blank">https
+ ://springernature.<u></u>wd3.myworkdayjobs.com/en-US/<u></u>SpringerNatureC
+ areers/details/<u></u>News-Intern_JR105539?q=<u></u>scientific%20american</
+ a><br><br>Audience Engagement Intern: <a href="https://springernature.wd3.m
+ yworkdayjobs.com/en-US/SpringerNatureCareers/details/Audience-Engagement-In
+ tern_JR105543?q=scientific%20american" target="_blank">https://<u></u>sprin
+ gernature.wd3.<u></u>myworkdayjobs.com/en-US/<u></u>SpringerNatureCareers/d
+ etails/<u></u>Audience-Engagement-Intern_<u></u>JR105543?q=scientific%<u></
+ u>20american</a><br><br>Graphics Intern: <a href="https://springernature.wd
+ 3.myworkdayjobs.com/en-US/SpringerNatureCareers/details/Graphics-Intern_JR1
+ 05541?q=scientific%20american" target="_blank">https://<u></u>springernatur
+ e.wd3.<u></u>myworkdayjobs.com/en-US/<u></u>SpringerNatureCareers/details/<
+ u></u>Graphics-Intern_JR105541?q=<u></u>scientific%20american</a><br><br>Pa
+ y: $22 / hour<br><br>Apply by March 26.<br><br><br><br>Sign up for even mor
+ e journalism jobs openings via the Journalism jobs and a photo of my dog ne
+ wsletter: <a href="https://journojobs.substack.com/subscribe" target="_blan
+ k"><u><u><u><u><u>https://journojobs.substack.com/subscribe</u></u></u></u>
+ </u></a>
+LAST-MODIFIED:20260302T025955Z
+LOCATION:New York\, NY\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Scientific American Internships
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Knight Center for Journalism": "https://journalismcourses.org/product/desde-la-redaccion-como-la-ia-esta-transformando-el-periodismo/"}
+X-SOURCE-ID:knight_center
+SUMMARY:Desde la redacción: cómo la IA está transformando el periodismo
+DTSTART;VALUE=DATE-TIME:20260326T000000
+DTEND;VALUE=DATE-TIME:20260326T000000
+UID:312391cd971af8d2d7b5ce7800518261@journalismcourses.org
+DESCRIPTION:La inteligencia artificial está redefiniendo cómo se investi
+ ga\, se produce y se distribuye la información en América Latina.
+URL:https://journalismcourses.org/product/desde-la-redaccion-como-la-ia-es
+ ta-transformando-el-periodismo/
+X-SOURCE:Knight Center for Journalism
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/science-talk"}
@@ -281,7 +432,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260328T100000
 DTEND;TZID=America/New_York:20260328T140000
-DTSTAMP:20260313T115145
+DTSTAMP:20260313T140317
 CREATED:20260223T202227Z
 LAST-MODIFIED:20260223T202227Z
 UID:16847-1774692000-1774706400@www.nlgja.org
@@ -290,6 +441,53 @@ DESCRIPTION:Registration is open for our annual job fair\, co-hosted with George
 URL:https://www.nlgja.org/event/dc-journalism-job-fair/
 LOCATION:Georgetown University Capitol Campus
 CATEGORIES:Chapters
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/2026-mega-conference-march-30-april-1,255351"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 Mega-Conference
+DTSTART;VALUE=DATE-TIME:20260330T000000
+DTEND;VALUE=DATE-TIME:20260401T000000
+UID:feda879c65dacdadfbc84837d668b65a@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/2026-mega-conference-march-
+ 30-april-1,255351
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://ona26.journalists.org/"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://ona26.journalists.org/
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260402
+DTSTAMP:20260313T180318Z
+UID:562n3tttu4lspjeet6cc461l0n@google.com
+CREATED:20260226T021524Z
+DESCRIPTION:See the full conference description: <a href="https://ona26.jou
+ rnalists.org/">https://ona26.journalists.org/</a><br><br>Runs March 30-Apri
+ l 1.<br><p>Sign up for even more journalism jobs openings via the Journalis
+ m jobs and a photo of my dog newsletter: <a href="https://journojobs.substa
+ ck.com/subscribe" target="_blank"><u><u><u><u><u><u><u><u><u><u><u><u><u><u
+ ><u><u><u>https://journojobs.substack.com/subscribe</u></u></u></u></u></u>
+ </u></u></u></u></u></u></u></u></u></u></u></a></p>
+LAST-MODIFIED:20260226T021524Z
+LOCATION:Chicago\, IL\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:ONA26
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/ona26"}
+X-SOURCE-ID:ona_events
+SUMMARY:ONA26 - Annual Conference of the Online News Association
+DTSTART;VALUE=DATE-TIME:20260330T000000
+DTEND;VALUE=DATE-TIME:20260401T000000
+UID:f1c956e1b8436f622e5aa1db581526f5@journalists.org
+DESCRIPTION:
+URL:https://journalists.org/events/ona26
+X-SOURCE:Online News Association
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/online-news-association-conference"}
@@ -312,7 +510,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260331T150000
 DTEND;TZID=America/New_York:20260331T160000
-DTSTAMP:20260313T115143
+DTSTAMP:20260313T135023
 CREATED:20251014T194807Z
 LAST-MODIFIED:20251211T214028Z
 UID:10004835-1774969200-1774972800@inn.org
@@ -323,12 +521,56 @@ CATEGORIES:Services
 ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2025/06/300-x-250-_-CTA-with-TNC-6.png
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09"}
+X-SOURCE-ID:tiny_news_members_only
+X-SOURCE:Tiny News Members Only
+URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
+DTSTART;TZID=America/Chicago:20260401T160000
+DTEND;TZID=America/Chicago:20260401T170000
+DTSTAMP:20260313T180317Z
+UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260304T220000@google.com
+RECURRENCE-ID;TZID=America/Chicago:20260401T160000
+CREATED:20250102T172959Z
+DESCRIPTION:<p>Our monthly Collective Call is part collective update and pa
+ rt town-hall-style conversation. All members\, staff and TNC board members 
+ are invited to attend. They take place over Zoom on the first Wednesday of 
+ every month at 1 p.m. AKT / 2 p.m. PT / 4 p.m. CT / 5 p.m. ET.</p><p>TNC st
+ aff share updates about work underway with the Collective. We highlight pro
+ grams\, new resources and decisions that affect members. Founders are invit
+ ed to share updates about their work. This is a space to surface challenges
+ \, ask questions and celebrate progress. Together\, we discuss what members
+  need and explore ways TNC can support them. The goal is to learn from one 
+ another and stay connected as a community.</p><br><br><br>Tiny News Collect
+ ive is inviting you to a scheduled Zoom meeting.<br><br>Topic: TNC Collecti
+ ve Call<br>Time: This is a recurring meeting Meet anytime<br>Join Zoom Meet
+ ing<br><a href="https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFV
+ W1UN3Y1TVpKZz09" target="_blank">https://us06web.zoom.us/j/92829491964?pwd=
+ Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09</a><br><br>Meeting ID: 928 2949 1964<br>Pa
+ sscode: 687155<br><br>---<br><br>One tap mobile<br>+13017158592\,\,92829491
+ 964#\,\,\,\,*687155# US (Washington DC)<br>+13052241968\,\,92829491964#\,\,
+ \,\,*687155# US<br><br>---<br><br>Dial by your location<br>• +1 301 715 859
+ 2 US (Washington DC)<br>• +1 305 224 1968 US<br>• +1 309 205 3325 US<br>• +
+ 1 312 626 6799 US (Chicago)<br>• +1 646 931 3860 US<br>• +1 929 436 2866 US
+  (New York)<br>• +1 253 205 0468 US<br>• +1 253 215 8782 US (Tacoma)<br>• +
+ 1 346 248 7799 US (Houston)<br>• +1 360 209 5623 US<br>• +1 386 347 5053 US
+ <br>• +1 507 473 4847 US<br>• +1 564 217 2000 US<br>• +1 669 444 9171 US<br
+ >• +1 669 900 6833 US (San Jose)<br>• +1 689 278 1000 US<br>• +1 719 359 45
+ 80 US<br><br>Meeting ID: 928 2949 1964<br>Passcode: 687155<br><br>Find your
+  local number: <a href="https://us06web.zoom.us/u/kbdovsDm91" target="_blan
+ k">https://us06web.zoom.us/u/kbdovsDm91</a>
+LAST-MODIFIED:20260311T170242Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TNC Monthly Collective Call
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/projourn-legal-checkup-clinic/2026-04-02/"}
 X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260402T153000
 DTEND;TZID=America/New_York:20260402T163000
-DTSTAMP:20260313T115143
+DTSTAMP:20260313T135023
 CREATED:20260302T153409Z
 LAST-MODIFIED:20260302T153409Z
 UID:10004846-1775143800-1775147400@inn.org
@@ -336,6 +578,28 @@ SUMMARY:ProJourn Legal Checkup Clinic
 DESCRIPTION:When it comes to a news organization’s legal needs\, understanding how to operate safely and sustainably from a business standpoint is just as important as knowing what challenges might arise in the reporting process. This session\, led by ProJourn\, a program of the Reporters Committee for Freedom of the Press\, will help newsroom leaders assess and prioritize their organization’s legal needs. Attorneys will guide attendees through a checklist\, developed in collaboration with ProJourn partner Davis Wright Tremaine LLP\, of key areas to consider legal risk and needs\, including: \n\nBusiness models and Governance (e.g.\, 501(c)(3)\, compliance with IRS requirements\, tax-exempt status\, incorporation\, fiscal sponsorship\, and/or hybrid entity formation\, news collaboratives and joint ventures);\nIntellectual property\, data protection\, privacy (e.g.\, copyright infringement\, website terms and conditions\, and privacy policies);\nEmployment  (e.g.\, employee handbook; independent journalist contract template);\nMedia Liability (e.g.\, media liability insurance\, defamation risks\, pre-publication review\, and access to records); and\nSafety and Security (e.g.\, protest safety and reporting\, police interaction\, digital security).\n\nParticipation in this clinic does not constitute acceptance of your matter for representation nor a promise to do so and does not create an attorney-client relationship between you and in-house counsel\, the law firm\, the Reporters Committee for Freedom of the Press or any other participating law firm and company\, their employees\, directors or officers. \nPlease note\, slots are limited and will be assigned on a first come first serve basis. If you cancel less than 48 hours before your scheduled Checkup\, your organization will be moved to the bottom of the waiting list. \n\nIf you are not yet a ProJourn client\,  please fill out our eligibility form here: https://forms.office.com/r/S3qpVvg1Mt
 URL:https://inn.org/event/projourn-legal-checkup-clinic/2026-04-02/
 ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2024/06/INN-Events-Operations.jpg
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://mentalhealthjournalism.org/become-a-fellow/"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://mentalhealthjournalism.org/become-a-fellow/
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+DTSTAMP:20260313T180318Z
+UID:0q0tk0huussebt15hjmvlrrqm7@google.com
+CREATED:20260226T022003Z
+DESCRIPTION:See the full program description: <a href="https://mentalhealth
+ journalism.org/become-a-fellow/">https://mentalhealthjournalism.org/become-
+ a-fellow/</a><br><br>Apply by April 3.<br><br>Sign up for even more journal
+ ism jobs openings via the Journalism jobs and a photo of my dog newsletter:
+  <a href="https://journojobs.substack.com/subscribe" target="_blank"><u><u>
+ <u><u>https://journojobs.substack.com/subscribe</u></u></u></u></a>
+LAST-MODIFIED:20260226T022004Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Rosalynn Carter Fellowships for Mental Health Journalism
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-eric-and-wendy-schmidt-awards-excellence-science-communications"}
@@ -354,6 +618,47 @@ DESCRIPTION:This National Academies program will award $640\,000 in prizes
 URL:https://www.sej.org/calendar/deadline-eric-and-wendy-schmidt-awards-ex
  cellence-science-communications
 X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/niche-media-conference-april-8-10,258025"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 Niche Media Conference
+DTSTART;VALUE=DATE-TIME:20260408T000000
+DTEND;VALUE=DATE-TIME:20260410T000000
+UID:721d68ddfd9673a64c4f66e97bf63968@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/niche-media-conference-apri
+ l-8-10,258025
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1"}
+X-SOURCE-ID:tiny_news_members_only
+X-SOURCE:Tiny News Members Only
+URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
+DTSTART;TZID=America/New_York:20260408T160000
+DTEND;TZID=America/New_York:20260408T170000
+DTSTAMP:20260313T180317Z
+UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com
+RECURRENCE-ID;TZID=America/New_York:20260408T160000
+CREATED:20251212T131931Z
+DESCRIPTION:<p>Tiny News Collective is inviting you to a scheduled Zoom mee
+ ting.</p><br>Topic: Founders Show and Tell<br>Time: Mar 11\, 2026 04:00 PM 
+ Eastern Time (US and Canada)<br>Join Zoom Meeting<br><a href="https://us06w
+ eb.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1" target="_bla
+ nk">https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60
+ P.1</a><br><br>Meeting ID: 865 5294 3689<br>Passcode: 313729<br><br>---<br>
+ <br>One tap mobile<br>+13052241968\,\,86552943689#\,\,\,\,*313729# US<br>+1
+ 3092053325\,\,86552943689#\,\,\,\,*313729# US<br><br>Join instructions<br><
+ a href="https://us06web.zoom.us/meetings/86552943689/invitations?signature=
+ zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI" target="_blank">https://us06we
+ b.zoom.us/meetings/86552943689/invitations?signature=zG9hTHI0UHT25lEhR7WKst
+ pH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><br></b>
+LAST-MODIFIED:20260313T041450Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Founder Show and Tell
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/distinguished-teaching-in-journalism-award/"}
@@ -482,6 +787,19 @@ DESCRIPTION:Learn\, network and get your questions answered about challenges fac
 LOCATION:1802 North Central Avenue\, Phoenix\, AZ\, USA
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Knight Center for Journalism": "https://journalismcourses.org/product/advanced-prompt-engineering-for-journalists/"}
+X-SOURCE-ID:knight_center
+SUMMARY:Advanced Prompt Engineering for Journalists
+DTSTART;VALUE=DATE-TIME:20260413T000000
+DTEND;VALUE=DATE-TIME:20260510T000000
+UID:a4d253e27b4082b4398700c3f5829b98@journalismcourses.org
+DESCRIPTION:Move beyond chat interfaces and start building real AI-powered
+  workflows for journalism.
+URL:https://journalismcourses.org/product/advanced-prompt-engineering-for-
+ journalists/
+X-SOURCE:Knight Center for Journalism
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http:// publichealth.pagesconferences.org/"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
@@ -501,12 +819,36 @@ We eagerly anticipate your participation in this exciting and inspiring event in
 LOCATION:Paris\, France
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/from-fear-to-focus-navigating-your-next-move-after-a-layoff"}
+X-SOURCE-ID:ona_events
+SUMMARY:From Fear to Focus: Navigating Your Next Move After a Layoff
+DTSTART;VALUE=DATE-TIME:20260414T120000
+DTEND;VALUE=DATE-TIME:20260414T130000
+UID:c36a146a4c6a5ca5a0f54a6c3927c488@journalists.org
+DESCRIPTION:
+URL:https://journalists.org/events/from-fear-to-focus-navigating-your-next
+ -move-after-a-layoff
+X-SOURCE:Online News Association
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/develop-a-walking-tour-pilot-for-your-newsroom-in-60-minutes"}
+X-SOURCE-ID:ona_events
+SUMMARY:Develop a Walking Tour Pilot for Your Newsroom in 60 Minutes
+DTSTART;VALUE=DATE-TIME:20260416T150000
+DTEND;VALUE=DATE-TIME:20260416T160000
+UID:eba4a073d4469bbdf49eba5e58f03f65@journalists.org
+DESCRIPTION:
+URL:https://journalists.org/events/develop-a-walking-tour-pilot-for-your-n
+ ewsroom-in-60-minutes
+X-SOURCE:Online News Association
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Assoc. of LGBTQ+ Journalists": "https://www.nlgja.org/event/headlines-headliners/"}
 X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260416T183000
 DTEND;TZID=America/New_York:20260416T213000
-DTSTAMP:20260313T115145
+DTSTAMP:20260313T140317
 CREATED:20260218T180601Z
 LAST-MODIFIED:20260218T182113Z
 UID:16824-1776364200-1776375000@www.nlgja.org
@@ -530,12 +872,71 @@ DESCRIPTION:Sponsored by the Park Center for Independent Media at Ithaca College
 LOCATION:Park Center for Independent Media  at Ithaca College
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-ID:tiny_news_members_only
+X-SOURCE:Tiny News Members Only
+DTSTART:20260421T200000Z
+DTEND:20260421T210000Z
+DTSTAMP:20260313T180317Z
+UID:6ubpt0oc287io5a9jsp01q02vl@google.com
+CREATED:20260220T203220Z
+DESCRIPTION:<p><strong>From Founder to Leader: What to Consider as Your Org
+ anization Evolves</strong></p><p>As your organization grows\, your role has
+  to grow with it. What made you a strong founder is not always what will ma
+ ke you an effective leader at the next stage.</p><p>This interactive sessio
+ n invites you to pause and reflect on that transition.</p><p>We’ll begin by
+  grounding ourselves in what leadership means to each of us\, then explore 
+ the distinction between “founder mode” and “leader mode.” From there\, we’l
+ l work through a set of practical\, self-reflective questions designed to h
+ elp you assess where you are and what may need to shift.</p><p>We’ll examin
+ e four key areas:</p><ul><li><p><strong>Identity and attachment:</strong> W
+ hat is the line between you and the organization?Who are you without the da
+ ily hustle of building? Where might ego\, control or fear be shaping decisi
+ ons?</p></li><li><p><strong>Strategic clarity:</strong> Are you leading fro
+ m a clear north star\, or reacting to urgent demands?</p></li><li><p><stron
+ g>Hard conversations:</strong> What are you avoiding that a leader must add
+ ress?</p></li><li><p><strong>Sustainable leadership:</strong> Are you build
+ ing a role that can last\, or one that depends entirely on your personal ov
+ erextension?</p></li></ul><p>You’ll also be guided through a <strong>person
+ al SWOT analysis</strong> tailored to your leadership evolution\, with a li
+ ve example to help you think concretely about strengths\, blind spots\, ris
+ ks and opportunities.</p><p>We’ll close with Q&amp\;A and an invitation: ch
+ oose one leadership question to sit with this week and complete your own pe
+ rsonal SWOT. Those who sign up for a follow-up coaching session can bring t
+ heir reflection for deeper discussion and accountability.</p><p>This sessio
+ n is designed for founders who sense that the next stage requires something
+  different from them and are ready to lead more intentionally\, not just wo
+ rk harder.</p>
+LAST-MODIFIED:20260220T204650Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:From Founder to Leader: What to Consider as Your Organization Evolv
+ es
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Associated Press": "https://www.eventbrite.com/e/media-literacy-research-rights-and-reality-tickets-1978160791177"}
+X-SOURCE-ID:eventbrite_ap
+SUMMARY:Media Literacy: Research\, Rights and Reality
+DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260422T140000
+DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260424T151500
+UID:51d49a30ce78cbb37844b184565f69be@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1177318883%2F843245173423%2F1%2Foriginal.20260211-210616?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.123
+ &fp-y=0.442&s=b2a6c8363ece2965d3bca984b9d2c57d
+DESCRIPTION:Learn to navigate media for documentary\, content creation and
+  news storytelling.
+URL:https://www.eventbrite.com/e/media-literacy-research-rights-and-realit
+ y-tickets-1978160791177
+X-SOURCE:Associated Press
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/projourn-legal-checkup-clinic/2026-04-23/"}
 X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260423T130000
 DTEND;TZID=America/New_York:20260423T150000
-DTSTAMP:20260313T115143
+DTSTAMP:20260313T135023
 CREATED:20260302T153409Z
 LAST-MODIFIED:20260302T153409Z
 UID:10004847-1776949200-1776956400@inn.org
@@ -543,6 +944,111 @@ SUMMARY:ProJourn Legal Checkup Clinic
 DESCRIPTION:When it comes to a news organization’s legal needs\, understanding how to operate safely and sustainably from a business standpoint is just as important as knowing what challenges might arise in the reporting process. This session\, led by ProJourn\, a program of the Reporters Committee for Freedom of the Press\, will help newsroom leaders assess and prioritize their organization’s legal needs. Attorneys will guide attendees through a checklist\, developed in collaboration with ProJourn partner Davis Wright Tremaine LLP\, of key areas to consider legal risk and needs\, including: \n\nBusiness models and Governance (e.g.\, 501(c)(3)\, compliance with IRS requirements\, tax-exempt status\, incorporation\, fiscal sponsorship\, and/or hybrid entity formation\, news collaboratives and joint ventures);\nIntellectual property\, data protection\, privacy (e.g.\, copyright infringement\, website terms and conditions\, and privacy policies);\nEmployment  (e.g.\, employee handbook; independent journalist contract template);\nMedia Liability (e.g.\, media liability insurance\, defamation risks\, pre-publication review\, and access to records); and\nSafety and Security (e.g.\, protest safety and reporting\, police interaction\, digital security).\n\nParticipation in this clinic does not constitute acceptance of your matter for representation nor a promise to do so and does not create an attorney-client relationship between you and in-house counsel\, the law firm\, the Reporters Committee for Freedom of the Press or any other participating law firm and company\, their employees\, directors or officers. \nPlease note\, slots are limited and will be assigned on a first come first serve basis. If you cancel less than 48 hours before your scheduled Checkup\, your organization will be moved to the bottom of the waiting list. \n\nIf you are not yet a ProJourn client\,  please fill out our eligibility form here: https://forms.office.com/r/S3qpVvg1Mt
 URL:https://inn.org/event/projourn-legal-checkup-clinic/2026-04-23/
 ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2024/06/INN-Events-Operations.jpg
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/neace,260559"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:N.E.A.C.E. 2026 Annual Conference
+DTSTART;VALUE=DATE-TIME:20260426T000000
+DTEND;VALUE=DATE-TIME:20260427T000000
+UID:3f192829c40538c1b69a0b45b62a8dd8@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/neace,260559
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/2026-south-dakota-newsmedia-association-convention-april-30-may-2,257301"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 South Dakota NewsMedia Association Convention
+DTSTART;VALUE=DATE-TIME:20260430T000000
+DTEND;VALUE=DATE-TIME:20260502T000000
+UID:e42ce0759f1f599e2e3185836097534d@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/2026-south-dakota-newsmedia
+ -association-convention-april-30-may-2,257301
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/inma-world-congress-of-news-media-may-4-8,257997"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:INMA World Congress of News Media
+DTSTART;VALUE=DATE-TIME:20260504T000000
+DTEND;VALUE=DATE-TIME:20260508T000000
+UID:d3f251252da300d6e00c22c9e925a039@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/inma-world-congress-of-news
+ -media-may-4-8,257997
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/mddc-conference-celebration-may-8,257462"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 MDDC Conference & Celebration
+DTSTART;VALUE=DATE-TIME:20260508T000000
+DTEND;VALUE=DATE-TIME:20260508T000000
+UID:ca02eebc521632098d3bb7093562d47f@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/mddc-conference-celebration
+ -may-8,257462
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center for Cooperative Media": "https://www.eventbrite.com/e/2026-collaborative-journalism-summit-tickets-1977919688031"}
+X-SOURCE-ID:eventbrite_coop_media
+SUMMARY:2026 Collaborative Journalism Summit
+DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260514T140000
+DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260515T160000
+UID:0a20d95cb62ae08f351248c202596a9d@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1175487210%2F230377467245%2F1%2Foriginal.20260121-204658?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
+ p-y=0.5&s=c762f014956c1041fce87f0b2197651c
+DESCRIPTION:Join the world's only symposium dedicated to the study and cel
+ ebration of collaborative journalism.
+LOCATION:Temple University\, 1801 North Broad Street\, Philadelphia\, PA 1
+ 9122\, Philadelphia\, PA
+URL:https://www.eventbrite.com/e/2026-collaborative-journalism-summit-tick
+ ets-1977919688031
+X-SOURCE:Center for Cooperative Media
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/2026-media-financial-management-association-mfm-and-financial-executives-international-fei,258027"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 Media Financial Management Association and Financial Executiv
+ es International Annual Conference
+DTSTART;VALUE=DATE-TIME:20260517T000000
+DTEND;VALUE=DATE-TIME:20260520T000000
+UID:87111fe8bd38bfea936fceed043c5cd1@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/2026-media-financial-manage
+ ment-association-mfm-and-financial-executives-international-fei,258027
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260606
+DTSTAMP:20260313T180318Z
+UID:38vhr0gb8vnlj42tr2rpgdgtnu@google.com
+CREATED:20260302T030352Z
+DESCRIPTION:See the full conference description: <a href="https://ewa.org/e
+ vents/upcoming-events/2026-education-writers-association-national-seminar">
+ https://ewa.org/events/upcoming-events/2026-education-writers-association-n
+ ational-seminar</a><br><br>Runs June 2-5.<br><p>Sign up for even more journ
+ alism jobs openings via the Journalism jobs and a photo of my dog newslette
+ r: <a href="https://journojobs.substack.com/subscribe" target="_blank"><u><
+ u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u>https://journojobs.substa
+ ck.com/subscribe</u></u></u></u></u></u></u></u></u></u></u></u></u></u></u
+ ></u></u></u></a></p>
+LAST-MODIFIED:20260302T030353Z
+LOCATION:Baltimore\, MD\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:2026 EWA National Seminar
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar"}
@@ -560,6 +1066,30 @@ The 79th annual National Seminar will follow seismic changes to education at the
 
 EWA will use this unprecedented moment to help members understand how stakeholders are affected amid major shifts in federal oversight and funding while also providing training and offering solutions on how to best cover persistent education issues. Sessions focusing on journalism skills ??' from best FOIA request practices to effectively using archival material in coverage ??' will also be a key part of the conference. 
 LOCATION:401 West Pratt Street\, Baltimore\, Maryland 21201\, USA
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/2026-illinois-press-annual-convention-june-4,258022"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 Illinois Press Annual Convention
+DTSTART;VALUE=DATE-TIME:20260604T000000
+DTEND;VALUE=DATE-TIME:20260604T000000
+UID:9aaef4e2088cfd65fd9c81e2310a998e@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/2026-illinois-press-annual-
+ convention-june-4,258022
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/2026-adma-conference-june-10-12,257996"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 ADMA Conference
+DTSTART;VALUE=DATE-TIME:20260610T000000
+DTEND;VALUE=DATE-TIME:20260612T000000
+UID:9127e1871fdadf793decaf1be5d76664@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/2026-adma-conference-june-1
+ 0-12,257996
+X-SOURCE:Editor & Publisher
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://us02web.zoom.us/meeting/register/Mv1mwwaDQ5O6OCsEMnRQzg"}
@@ -587,7 +1117,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260313T115143
+DTSTAMP:20260313T135023
 CREATED:20260123T165431Z
 LAST-MODIFIED:20260206T171526Z
 UID:10004840-1781568000-1781827199@inn.org
@@ -603,7 +1133,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260616T170000
 DTEND;TZID=America/New_York:20260616T203000
-DTSTAMP:20260313T115143
+DTSTAMP:20260313T135023
 CREATED:20260209T143527Z
 LAST-MODIFIED:20260209T143527Z
 UID:10004844-1781629200-1781641800@inn.org
@@ -618,7 +1148,7 @@ X-SOURCE-ID:poynter
 X-SOURCE:Poynter Institute
 DTSTART;TZID=Europe/Vilnius:20260617T080000
 DTEND;TZID=Europe/Vilnius:20260619T170000
-DTSTAMP:20260313T091441
+DTSTAMP:20260313T135025
 CREATED:20260219T160726Z
 LAST-MODIFIED:20260224T182258Z
 UID:1189666-1781683200-1781888400@www.poynter.org
@@ -628,6 +1158,43 @@ URL:https://www.poynter.org/event/global-fact-2026/
 LOCATION:Taškius\, Vilnius\, Lithuania
 CATEGORIES:In-person Event
 ATTACH;FMTTYPE=image/png:https://www.poynter.org/wp-content/uploads/2026/02/Vilnius.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/texas-press-association-convention-trade-show-june-18-20,258034"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:Texas Press Association Convention & Trade Show
+DTSTART;VALUE=DATE-TIME:20260618T000000
+DTEND;VALUE=DATE-TIME:20260620T000000
+UID:e2094502b30da0e051a7383e5c8ea022@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/texas-press-association-con
+ vention-trade-show-june-18-20,258034
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://www.ire.org/training/conferences/ire-2026/"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://www.ire.org/training/conferences/ire-2026/
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260622
+DTSTAMP:20260313T180318Z
+UID:4onag31t66iv7lht4jcddi2iub@google.com
+CREATED:20260226T021319Z
+DESCRIPTION:See the full conference description: <a href="https://www.ire.o
+ rg/training/conferences/ire-2026/">https://www.ire.org/training/conferences
+ /ire-2026/</a><br><br>Runs June 18-21.<br><p>Sign up for even more journali
+ sm jobs openings via the Journalism jobs and a photo of my dog newsletter: 
+ <a href="https://journojobs.substack.com/subscribe" target="_blank"><u><u><
+ u><u><u><u><u><u><u><u><u><u><u><u><u><u><u>https://journojobs.substack.com
+ /subscribe</u></u></u></u></u></u></u></u></u></u></u></u></u></u></u></u><
+ /u></a></p>
+LAST-MODIFIED:20260226T021319Z
+LOCATION:National Harbor\, MD\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:IRE 2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.freedomforum.org/al-neuharth-free-spirit-and-journalism-conference/?utm_source=spjnetwork&utm_medium=Posting&utm_campaign=FSC2026&utm_content=Calendar"}
@@ -645,12 +1212,48 @@ Participants also receive a $1\,000 college scholarship and ongoing support from
 LOCATION:610 Water St SW\, Ste 300. Washington\, DC 20024
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/alabama-press-association-summer-convention-awards-banquet-june-25-27,257999"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:Alabama Press Association Summer Convention & Awards Banquet
+DTSTART;VALUE=DATE-TIME:20260625T000000
+DTEND;VALUE=DATE-TIME:20260627T000000
+UID:b86a04f6d10f4a5008fe96f9a5c1058f@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/alabama-press-association-s
+ ummer-convention-awards-banquet-june-25-27,257999
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/mississippi-press-160th-annual-meeting,257303"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 Mississippi Press 160th Annual Meeting
+DTSTART;VALUE=DATE-TIME:20260626T000000
+DTEND;VALUE=DATE-TIME:20260627T000000
+UID:69eb42de28b07fc6d01f56e81f440c66@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/mississippi-press-160th-ann
+ ual-meeting,257303
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"LION Publishers": "https://lionpublishers.com/summit-2026/"}
+X-SOURCE-ID:lion_publishers
+SUMMARY:2026 Independent News Sustainability Summit
+DTSTART;VALUE=DATE-TIME:20260909T000000
+DTEND;VALUE=DATE-TIME:20260911T000000
+UID:516fb0ca2c31b7c4033d8960b70b3eba@lionpublishers.com
+DESCRIPTION:
+LOCATION:San Diego\, CA
+URL:https://lionpublishers.com/summit-2026/
+X-SOURCE:LION Publishers
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Assoc. of LGBTQ+ Journalists": "https://www.nlgja.org/event/2026-national-convention/"}
 X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260313T115145
+DTSTAMP:20260313T140317
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
@@ -659,5 +1262,17 @@ DESCRIPTION:Join us from Sept. 10 through 13 for our 35th annual National Conven
 URL:https://www.nlgja.org/event/2026-national-convention/
 LOCATION:Hyatt Regency Embaradero\, San Francisco\, CA\, United States
 CATEGORIES:Convention,National
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/2026-senior-leadership-conference-sept-14-16,257896"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:2026 Senior Leadership Conference
+DTSTART;VALUE=DATE-TIME:20260914T000000
+DTEND;VALUE=DATE-TIME:20260916T000000
+UID:7dbf661267913f2591c0dd70902208e9@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/2026-senior-leadership-conf
+ erence-sept-14-16,257896
+X-SOURCE:Editor & Publisher
 END:VEVENT
 END:VCALENDAR
