@@ -338,7 +338,29 @@ export function expandEnrichments(enrichments, fromDateStr, toDateStr) {
   const virtualEvents = [];
 
   enrichments.forEach(enrichment => {
-    if (!enrichment.rrule || !enrichment.start_time || !enrichment.title) return;
+    if (!enrichment.start_time || !enrichment.title) return;
+
+    // Standalone enrichment (manual event, no linked event, no recurrence)
+    if (!enrichment.rrule && !enrichment.event_id) {
+      const dt = new Date(enrichment.start_time);
+      if (dt >= fromDate && dt <= toDate) {
+        virtualEvents.push({
+          id: 'enrichment-' + enrichment.id,
+          title: enrichment.title,
+          start_time: enrichment.start_time,
+          end_time: enrichment.end_time || null,
+          location: enrichment.location || null,
+          description: enrichment.description || null,
+          url: enrichment.url || null,
+          source: 'Picks: ' + (enrichment.curator_name || 'curator'),
+          city: enrichment.city || null,
+          _enrichment_id: enrichment.id,
+        });
+      }
+      return;
+    }
+
+    if (!enrichment.rrule) return;
 
     try {
       const dtstart = new Date(enrichment.start_time);
