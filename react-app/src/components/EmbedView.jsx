@@ -69,10 +69,11 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
   const threeColStyles = ['ticket'];
   const columnCount = oneColStyles.includes(cardStyle) ? 1
     : twoColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 2)
-    : threeColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 3)
+    : threeColStyles.includes(cardStyle) ? Math.max(1, Math.min(rawColumnCount - 1, 3))
     : rawColumnCount;
   const featuredColumnCount = oneColStyles.includes(featuredCardStyle) ? 1
     : twoColStyles.includes(featuredCardStyle) ? Math.min(rawColumnCount, 2)
+    : threeColStyles.includes(featuredCardStyle) ? Math.max(1, Math.min(rawColumnCount - 1, 3))
     : rawColumnCount;
 
   const { featuredEvents, regularEvents } = useMemo(() => {
