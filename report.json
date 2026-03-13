@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T00:15:33.485615",
+  "generated": "2026-03-13T00:22:50.919372",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -30092,12 +30092,36 @@
               "count": 172
             }
           ]
+        },
+        "bluezones_petaluma": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 0
+            }
+          ]
+        },
+        "petaluma_museum": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 0
+            }
+          ]
+        },
+        "petaluma_river_park": {
+          "history": [
+            {
+              "date": "2026-03-13",
+              "count": 8
+            }
+          ]
         }
       },
       "url_quality": {
-        "total_with_url": 842,
-        "total_events": 842,
-        "unique_urls": 805,
+        "total_with_url": 854,
+        "total_events": 854,
+        "unique_urls": 817,
         "generic_count": 30,
         "generic_domains": [
           {
@@ -30222,7 +30246,7 @@
         },
         {
           "category": "Community / Social",
-          "count": 111
+          "count": 112
         },
         {
           "category": "Sports / Fitness",
@@ -30230,18 +30254,18 @@
         },
         {
           "category": "Education / Workshops",
-          "count": 46
+          "count": 58
         },
         {
           "category": "Family / Kids",
-          "count": 42
-        },
-        {
-          "category": "Arts / Culture",
-          "count": 33
+          "count": 43
         },
         {
           "category": "Health / Wellness",
+          "count": 34
+        },
+        {
+          "category": "Arts / Culture",
           "count": 33
         },
         {
@@ -30249,12 +30273,12 @@
           "count": 26
         },
         {
-          "category": "Religion / Spirituality",
-          "count": 15
+          "category": "Nature / Outdoors / Recreation",
+          "count": 17
         },
         {
-          "category": "(uncategorized)",
-          "count": 14
+          "category": "Religion / Spirituality",
+          "count": 15
         },
         {
           "category": "Books / Literature / Poetry",
@@ -30263,10 +30287,6 @@
         {
           "category": "Comedy / Improv",
           "count": 12
-        },
-        {
-          "category": "Nature / Outdoors / Recreation",
-          "count": 10
         },
         {
           "category": "Film / Cinema",
@@ -30279,11 +30299,15 @@
         {
           "category": "History / Heritage",
           "count": 6
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 4
         }
       ],
       "images": {
-        "total": 842,
-        "with_image": 613,
+        "total": 854,
+        "with_image": 624,
         "by_source": [
           {
             "source": "Griffo Distillery",
@@ -30346,6 +30370,11 @@
             "with_image": 9
           },
           {
+            "source": "Petaluma River Park",
+            "total": 8,
+            "with_image": 8
+          },
+          {
             "source": "Mercury Theater",
             "total": 7,
             "with_image": 7
@@ -30359,6 +30388,11 @@
             "source": "Meetup: Rebel Craft Collective",
             "total": 4,
             "with_image": 4
+          },
+          {
+            "source": "Blue Zones Project Petaluma",
+            "total": 4,
+            "with_image": 3
           },
           {
             "source": "Polly Klaas Community Theater",
