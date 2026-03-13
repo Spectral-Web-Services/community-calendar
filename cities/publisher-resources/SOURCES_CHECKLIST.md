@@ -11,6 +11,9 @@ No geolocation filtering applied.
 - [ ] Poynter Institute — `https://www.poynter.org/events/?ical=1` (WordPress Tribe Events)
 - [ ] NAHJ (National Assoc. of Hispanic Journalists) — `https://nahj.org/events/?ical=1` (WordPress Tribe Events)
 - [ ] NLGJA (Assoc. of LGBTQ+ Journalists) — `https://www.nlgja.org/events/?ical=1` (WordPress Tribe Events)
+- [ ] AHCJ (Assoc. of Health Care Journalists) — `https://healthjournalism.org/events/?ical=1` (WordPress Tribe Events)
+- [ ] SABEW (Soc. for Advancing Business Editing & Writing) — `https://sabew.org/?post_type=tribe_events&ical=1&eventDisplay=list` (WordPress Tribe Events)
+- [ ] Hacks/Hackers — `https://api2.luma.com/ics/get?entity=calendar&id=cal-09kcgQfLYGyy2JP` (Luma calendar ICS)
 
 ### Google Calendar
 - [ ] Tiny News Members Only — `https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics`
@@ -19,6 +22,15 @@ No geolocation filtering applied.
 ### Scrapers
 - [ ] SEJ (Society of Environmental Journalists) — `sej_calendar.py` (RSS calendar at `sej.org/rss_calendar`)
 - [ ] IRE/NICAR Conference Schedules — `ire_schedule.py` (S3 JSON, updated per conference cycle)
+- [ ] SJN (Solutions Journalism Network) — `sjn_events.py` (Drupal HTML scraper at `solutionsjournalism.org/events`)
+- [ ] PEN America — `pen_america.py` (WordPress REST API at `pen.org/wp-json/wp/v2/event`)
+- [ ] NABJ (National Assoc. of Black Journalists) — `nabj_events.py` (Wild Apricot RSS at `nabj.org/resource/rss/events.rss`)
+- [ ] American Press Institute — `eventbrite.py` (Eventbrite organizer `59619554833`; 0 upcoming as of 2026-03)
+
+- [ ] Center for Cooperative Media — `eventbrite.py` (Eventbrite organizer `5988913981`)
+
+## Investigated — Possible with Scraper
+- **RJI (Reynolds Journalism Institute)** — ICS feed at `calendar.missouri.edu/live/ical/events/group/Reynolds%20Journalism%20Institute/` works but very low volume (2 events), Columbia MO only
 - [ ] LION Publishers — `lion_publishers.py` (HTML scraper, WordPress free-form events page)
 - [ ] Editor & Publisher — `editor_publisher.py` (HTML scraper, industry conference calendar)
 - [ ] Center for Cooperative Media — `eventbrite.py` (Eventbrite organizer scraper)
@@ -42,7 +54,7 @@ No geolocation filtering applied.
 - **RTDNA** — No public feeds; Novi AMS platform, /events/feed returns 500
 - **National Press Club** — Custom calendar grid, no feeds
 - **EWA** — No feeds; custom WordPress events with AJAX
-- **NABJ** — Site returns 403 to automated access
+- **NABJ** — ~~Site returns 403 to automated access~~ Moved to Scrapers (RSS feed at CDN bypasses Cloudflare)
 - **AAJA** — No event-specific feeds; RSS has news only
 - **Inside the Newsroom (Substack)** — Blog post listing deadlines in prose; no structured data or feeds
 - **Hearst Awards** — TLS certificate error (ERR_TLS_CERT_ALTNAME_INVALID); site inaccessible

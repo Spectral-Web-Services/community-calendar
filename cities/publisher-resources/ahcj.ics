@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Association of Health Care Journalists - ECPv6.15.11//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Association of Health Care Journalists
+X-ORIGINAL-URL:https://healthjournalism.org
+X-WR-CALDESC:Events for Association of Health Care Journalists
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260317T120000
+DTEND;TZID=America/New_York:20260317T130000
+DTSTAMP:20260313T142814
+CREATED:20260311T172847Z
+LAST-MODIFIED:20260311T230046Z
+UID:62836-1773748800-1773752400@healthjournalism.org
+SUMMARY:ACIP meeting countdown: COVID vaccine and what else is at stake
+DESCRIPTION:Don’t miss this opportunity to get up to speed before the March 18-19 CDC Advisory Committee on Immunization Practices (ACIP) meeting. This webinar\, co-hosted by the Expert Vaccine Analysis Team and the Association of Health Care Journalists\, will provide independent\, evidence-based discussion of topics expected to come up during the meeting. \n\n\n\nThese items include vaccine safety and quality monitoring\, data on COVID vaccine safety\, possible recommendation votes related to COVID vaccine injuries\, and other issues\, such as the evidence framework the CDC uses to assess vaccine data and the risk/benefit analysis of vaccines. We will also discuss other emerging topics that may arise before the meeting. \n\n\n\nWhether you’re a journalist covering immunization policy\, a public health professional navigating a rapidly shifting vaccine landscape\, or a researcher tracking the latest safety data\, this webinar will help equip you with the scientific context you need to understand what’s at stake. The panel of senior vaccine scientists — including Norman Baylor\, Ph.D.\, Miles Braun\, M.D.\, Fiona Havers\, M.D.\, and Paul Offit\, M.D. — will cut through the noise and offer clear\, unbiased analysis. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModerator\n\n\n\n\nTara Haelle\n\n\n\nAHCJ Health Beat Leader for Infectious Diseases and Medical StudiesTara Haelle is AHCJ’s health beat leader for infectious diseases and medical studies. She’s an independent science/health journalist\, author\, speaker\, and photographer. Her work has appeared in the National Geographic\, Scientific American\, Texas Monthly\, Science News\, Medscape/WebMD\, The New York Times\, Wired\, and O Magazine\, among others.  \n\n\n\nShe specializes in public health and medical research\, particularly vaccines\, infectious disease\, maternal and pediatric health\, mental health\, healthcare disparities\, and misinformation. She also covers medical research conferences and edits Long COVID Connection on Medium. Haelle earned a master’s in photojournalism from the University of Texas at Austin\, and her images have appeared in Texas Monthly\, NPR\, the\, Chicago Sun-Times and elsewhere. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorman W. Baylor\, Ph.D.\n\n\n\nPresident and CEO\, Biologics Consulting GroupDr. Norman W. Baylor is an expert in the development and licensure of new vaccines\, evaluating numerous vaccines throughout his career including vaccines for acellular pertussis\, varicella\, pneumococcal conjugate\, human papillomavirus (HPV)\, influenza and shingles. He is currently the president and CEO of Biologics Consulting Group\, Inc\, where he is responsible for the overall management and strategic direction of the company. \n\n\n\nPrior to this\, he spent 20 years at the U.S. Food and Drug Administration (FDA)\, most recently as Director of the Office of Vaccines Research and Review (OVRR) in the Center for Biologics Evaluation and Research (CBER). In this role\, he oversaw all facets of the clinical and product regulatory review activity\, including quality assurance and oversight of review functions in addition to planning\, developing and administering CBER’s broad national and international programs and operational activities for vaccines and related products. Dr. Baylor served as FDA’s liaison to CDC’s Advisory Committee on Immunization Practices\, the U.S. Department of Health and Human Services National Vaccine Advisory Committee\, and the Advisory Commission on Childhood Vaccines. He served on the board of the Infectious Disease Research Institute and continues to serve as an expert advisor to the World Health Organization on several global vaccine initiatives. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiona P. Havers\, M.D.\n\n\n\nAdjunct associate professor\, Emory University School of MedicineFiona Havers\, MD\, MHS\, FIDSA\, is an infectious diseases physician and former medical epidemiologist at the Centers for Disease Control and Prevention. Dr. Havers is a senior subject matter expert on vaccine-preventable respiratory diseases and vaccine policy. She was the CDC lead of the Respiratory Virus Hospitalization Surveillance Network (RESP-NET) Team in the Coronavirus and Other Respiratory Viruses Division within the U.S. CDC’s National Center for Immunization and Respiratory Diseases. Dr. Havers oversaw the COVID-19 and RSV platforms within RESP-NET\, a population-based surveillance platform that covers ~9% of the US population and collects data on COVID-19\, RSV\, and influenza-associated hospitalizations. Dr. Havers left CDC in June 2025.  \n\n\n\nThe author of >100 publications while at CDC\, Dr. Havers’ research interests have focused on the epidemiology\, prevention\, treatment and vaccine policy for vaccine-preventable respiratory pathogens\, including influenza\, pertussis\, RSV and SARS-CoV-2. She was previously the Advisory Committee on Immunization Practices (ACIP) Work Group lead for the Pertussis Vaccines Work Group and has worked extensively on COVID-19 and adult RSV vaccine policy\, including as senior author on the initial adult RSV vaccine ACIP policy recommendations published in 2023. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaul A. Offit\, M.D.\n\n\n\nDirector\, Children’s Hospital of Philadelphia Vaccine Education CenterPaul A. Offit\, M.D.\, is the Director of the Vaccine Education Center at the Children’s Hospital of Philadelphia as well as the Maurice R. Hilleman Professor of Vaccinology and a Professor of Pediatrics at the Perelman School of Medicine at the University of Pennsylvania. Dr. Offit is currently a voting member on the FDA’s Vaccine Advisory Committee and has previously served on the Advisory Committee for Immunization Practices to the CDC. He is also the co-inventor of the rotavirus vaccine\, RotaTeq\, recommended for universal use in infants by the CDC in 2006 and by the WHO in 2013. This vaccine was estimated recently to save about 165\,000 lives a year. He is also the author of 11 books written for the public about science\, medicine\, and vaccines. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nM. Miles Braun\, M.D.\n\n\n\nAdjunct professor\, Georgetown University School of MedicineIn April 2018\, M. Miles Braun MD MPH\, was appointed Adjunct Professor at the Georgetown University School of Medicine and the Georgetown Lombardi Comprehensive Cancer Center. Dr. Braun directs a new educational initiative to bring integrative approaches to optimize health and quality of life of adolescent and young adult cancer patients\, survivors and caregivers. Integrative approaches include mind and body practices\, natural products and lifestyle modifications.  \n\n\n\nDr. Braun is board-certified in Public Health and General Preventive Medicine. He served for 20 years as a medical officer in the US Public Health Service (USPHS)\, including at the Centers for Disease Control (CDC)\, National Institutes of Health (NIH)\, and the Food and Drug Administration (FDA) where he was for more than 8 years Director of the Division of Epidemiology in the Center for Biologics Evaluation and Research. He has received more than 20 USPHS awards and authored or co-authored well over 100 scientfic-medical publications\, including multiple studies with important clinical impact and epidemiological studies on the causes of various cancers. Dr. Braun has practiced yoga (including meditation) for 25 years\, is a registered yoga teacher with Yoga Alliance (RYT200)\, has completed multiple trainings and has extensive personal experience with integrative approaches.
+URL:https://healthjournalism.org/event/acip-meeting-countdown/
+CATEGORIES:Health Policy,Infectious Diseases,Webinar
+ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2026/03/AHCJ-E-Vat-ACIP-Meeting-Countdown-Webinar-Graphic-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260319T130000
+DTEND;TZID=America/New_York:20260319T140000
+DTSTAMP:20260313T142814
+CREATED:20260311T210416Z
+LAST-MODIFIED:20260311T210418Z
+UID:62845-1773925200-1773928800@healthjournalism.org
+SUMMARY:Lunch and Learn: How to land a pitch
+DESCRIPTION:Freelancers\, what was the secret to your successful pitches? We’ll talk about how to pitch for different types of stories—narrative\, short explanatory pieces\, wellness\, trade publications\, and more. \n\n\n\nAt AHCJ’s Lunch and Learns\, freelancer members chat about a designated topic over Zoom every third Thursday of the month at 1 p.m. ET. Registration is required for Lunch and Learns and is only available to current freelance AHCJ members.
+URL:https://healthjournalism.org/event/lunch-and-learn-how-to-land-a-pitch/
+CATEGORIES:Freelancers,Lunch and Learn
+ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2024/08/Lunch-and-Learn-Logo.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260320T160000
+DTEND;TZID=America/New_York:20260320T170000
+DTSTAMP:20260313T142814
+CREATED:20260206T211338Z
+LAST-MODIFIED:20260206T211339Z
+UID:62513-1774022400-1774026000@healthjournalism.org
+SUMMARY:Virtual freelance happy hour
+DESCRIPTION:Freelancers are invited to a casual virtual happy hour — come as you are\, bring a drink\, and enjoy conversation with peers.
+URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-2/
+CATEGORIES:Event,Freelancers
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260417T160000
+DTEND;TZID=America/New_York:20260417T170000
+DTSTAMP:20260313T142814
+CREATED:20260206T211516Z
+LAST-MODIFIED:20260206T211518Z
+UID:62515-1776441600-1776445200@healthjournalism.org
+SUMMARY:Virtual freelance happy hour
+DESCRIPTION:Freelancers are invited to a casual virtual happy hour — come as you are\, bring a drink\, and enjoy conversation with peers.
+URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-3/
+CATEGORIES:Event,Freelancers
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260515T160000
+DTEND;TZID=America/New_York:20260515T170000
+DTSTAMP:20260313T142814
+CREATED:20260206T211715Z
+LAST-MODIFIED:20260206T211718Z
+UID:62517-1778860800-1778864400@healthjournalism.org
+SUMMARY:Virtual freelance happy hour
+DESCRIPTION:Freelancers are invited to a casual virtual happy hour — come as you are\, bring a drink\, and enjoy conversation with peers.
+URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-4/
+CATEGORIES:Event,Freelancers
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260527T000000
+DTEND;TZID=America/New_York:20260530T235959
+DTSTAMP:20260313T142814
+CREATED:20260121T224600Z
+LAST-MODIFIED:20260121T224603Z
+UID:62297-1779840000-1780185599@healthjournalism.org
+SUMMARY:Health Journalism 2026
+DESCRIPTION:Pack your bags for the City of Lakes! The Association of Health Care Journalists and the Center for Excellence in Health Care Journalism are thrilled to bring Health Journalism ’26 to Minneapolis from May 27–30. Expect four energizing days of immersive field trips\, standout sessions\, hands-on workshops and abundant opportunities to connect with colleagues from across the country. \n\n\n\n“I’m excited that we’re returning to the middle of the country for our annual conference\, after holding the last two in LA and New York\,” said Gideon Gil\, AHCJ board president. “This year\, we’re starting the conference a day earlier\, on a Wednesday\, and ending on Saturday afternoon\, to make it easier for attendees to stay through the last sessions before having to head home.” \n\n\n\nAt a moment when truth and accountability matter more than ever\, we’ll bring together journalists\, health care professionals\, policymakers and industry experts for timely discussions. Be a part of the conversation (and pitch your ideas for sessions until Jan. 30\, 2026) as we explore health care’s biggest challenges and examine emerging opportunities and solutions. As always\, you’ll walk away with plenty of story ideas and new contacts. \n\n\n\nThis year’s conference will also feature the 22nd annual Awards for Excellence in Health Care Journalism\, a celebration of the best work in health care reporting. \n\n\n\n“AHCJ is committed to moving our conference around the U.S. to make it more accessible to our members\,” said Kelsey Ryan\, AHCJ executive director. “We’re excited to give a national lens to local places each year\, and Minneapolis has a lot that everyone can learn from.”  \n\n\n\nBeyond the sessions\, Minneapolis offers so much to see and do. Visit George Floyd Square at the intersection of 38th Street and Chicago Avenue\, which will soon have a memorial. Listen to live music on First Avenue or wander through the legendary Minneapolis Sculpture Garden\, home to Claes Oldenburg’s iconic “Spoonbridge and Cherry” sculpture. Dive into the city’s vibrant art scene at the Minneapolis Institute of Art\, the Mill City Museum\, the Weisman Art Museum and the Walker Art Center. And don’t forget to schedule a guided tour of Paisley Park\, Prince’s former home and recording studio. \n\n\n\nMore details coming soon — but for now\, save the dates\, submit a session pitch and start making plans to be in Minneapolis!
+URL:https://healthjournalism.org/training-events/health-journalism-2026/
+CATEGORIES:Annual Conference,Event
+ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2025/12/HJ26-landscape-logo.png
+END:VEVENT
+END:VCALENDAR

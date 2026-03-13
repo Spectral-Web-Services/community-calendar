@@ -1,0 +1,103 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SABEW - ECPv6.15.14//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SABEW
+X-ORIGINAL-URL:https://sabew.org
+X-WR-CALDESC:Events for SABEW
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260322
+DTSTAMP:20260313T143345
+CREATED:20260122T032258Z
+LAST-MODIFIED:20260224T192740Z
+UID:68744-1773878400-1774137599@sabew.org
+SUMMARY:2026 SABEW Health Care Symposium
+DESCRIPTION:The 2026 Health Care Symposium will take place March 19-21 in Washington\, D.C. The fellowship will give journalists a chance to take a deep dive with experts and veteran reporters into some of the big issues facing U.S. health care\, from the growing impact of private equity ownership to the crisis of rural health care\, and the changing landscape of medical debt and consumer protection. \nThanks to a grant from The Commonwealth Fund\, SABEW will cover the hotel costs and provide a travel stipend for out-of-town attendees. The program kicks off on Thursday evening\, March 19\, with a welcome dinner. We will have a full day of sessions on Friday\, March 20 and will conclude on Saturday\, March 21\, before noon. \nSpecial thanks to:
+URL:https://sabew.org/event/2026-sabew-health-care-symposium/
+CATEGORIES:Fellowship,In-Person Training,Networking
+ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/01/Health-Care-Symposium-Graphic-2026-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260417
+DTSTAMP:20260313T143345
+CREATED:20260121T220323Z
+LAST-MODIFIED:20260224T192512Z
+UID:68637-1775952000-1776383999@sabew.org
+SUMMARY:2026 Goldschmidt Data Fellowship – Washington\, D.C.
+DESCRIPTION:The 2026 Goldschmidt Fellowship data immersion workshop that will take place Sunday\, April 12 – Thursday\, April 16 in Washington\, D.C. Fellows will visit agencies in the District of Columbia/Maryland area\, as well as have training and other events in downtown Washington. \nThis is an all-access program for journalists to learn from experts and government professionals who gather and analyze the nation’s economic data. \nThe workshop is in its twelfth year and is funded annually by a grant from the Illinois-based Walter and Karla Goldschmidt Foundation. \nIt is coordinated by Marty Steffens\, SABEW chair at the University of Missouri School of Journalism and Kevin Hall\, former SABEW president and managing editor/Americas\, OCCRP. \nIf you have any questions about the program\, email logistics@sabew.org.
+URL:https://sabew.org/event/2026-goldschmidt-data-fellowship-washington-d-c/
+CATEGORIES:Fellowship,In-Person Training,Networking
+ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/02/Goldschmidt-Fellows-Graphic-2026-updated-date-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260510
+DTSTAMP:20260313T143345
+CREATED:20260226T160353Z
+LAST-MODIFIED:20260312T142856Z
+UID:70005-1778025600-1778371199@sabew.org
+SUMMARY:2026 American Healthcare: It’s becoming less affordable\, but will AI help improve the outcomes? fellowship program
+DESCRIPTION:Apply for a fellowship to attend the “American health care: It’s becoming less affordable\, but will AI help improve the outcomes?” training in Philadelphia\, May 6-9\, 2026. Journalists selected will attend sessions covering topics about AI at the bedside: Real or rhetoric and Follow the money: Understanding AI profit in health care. In addition\, fellows will have the opportunity to attend other health care and business sessions during the 2026 SABEW Conference\, as well as participate in networking opportunities. \nThursday morning\, May 7\, the fellows will take part in a field trip and then enjoy a welcome & networking lunch upon their return to the hotel. Health care sessions will take place throughout the 2026 SABEW conference\, which runs Thursday afternoon\, May 7\, through Saturday\, May 9\, at 12:30 p.m. Fellows\, except those local to Philadelphia\, will be provided three nights of lodging at the DoubleTree Philadelphia Center City. Small travel stipends may be available for those not local to the area. \nTo apply for this program\, please submit an application here\, by Monday\, March 30 at 5 p.m. ET. To be considered for a fellowship\, you must have an active SABEW membership through June 1\, 2026. \nThe workshop is in partnership with The National Institute for Health Care Management (NIHCM) Foundation. \nIf you have any questions\, email logistics@sabew.org.
+URL:https://sabew.org/event/2026-american-healthcare-its-becoming-less-affordable-but-will-ai-help-improve-the-outcomes-fellowship-program/
+CATEGORIES:Fellowship,In-Person Training,Networking
+ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/02/NICHM-Fellowship-2026-Graphic-2-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260510
+DTSTAMP:20260313T143345
+CREATED:20250730T220320Z
+LAST-MODIFIED:20260313T162658Z
+UID:66733-1778112000-1778371199@sabew.org
+SUMMARY:#SABEW26 Annual Conference
+DESCRIPTION:Conference FAQ’s\n*View the tentative sessions at this year’s conference*\nMark your calendars! SABEW\, the Society for Advancing Business Editing and Writing\, will hold its annual conference\, Thursday\, May 7 – Saturday\, May 9\, 2026\, at the DoubleTree by Hilton Philadelphia Center City. \nWhether you are a newsroom leader\, early/mid-career journalist\, academic\, student\, or PR pro\, SABEW’s annual conference is tailor made for you\, with diverse programming that will allow you to take home new ideas to use in your stories\, newsrooms\, or classrooms. Don’t miss the opportunity to network with other colleagues\, hear from top industry leaders\, and celebrate the winners of the Best in Business awards. \nThis year’s event will also feature a stop on RTDNA’s World Tour\, bringing its signature focus on broadcast and modern newsroom leadership. Through interactive discussions and practical takeaways\, Radio Television Digital News Association trainers offer insights into audience-centered coverage\, ethical leadership and newsroom culture. The World Tour stop is made possible through a partnership between RTDNA and the SABEW\, supported by the National Endowment for Financial Education (NEFE) — reflecting a shared commitment to elevating journalism training and expanding access to professional development across newsrooms. \nThe conference will also include career enhancing collaborations with AAJA-NY\, American City Business Journals\, Bright Data\, ESPN\, IRE\, The Commonwealth Fund\, The National Institute for Health Care Management Foundation\, RTDNA\, and The Wharton School\, The University of Pennsylvania. \nRegister today and we look forward to seeing you in Philadelphia! \nRegistration \nEarly-bird registration is $300 for SABEW members\, $375 for nonmembers\, and $75 for students. Early bird pricing ends Wednesday\, April 1. Beginning Thursday\, April 2\, the price for SABEW members will increase to $350 and $425 for nonmembers. The student price will remain the same. Purchase your ticket below. \nBest in Business Awardees can register at a discounted rate. Please email awards@sabew.org to request the discount code. \nCancellations \nCancellations must be sent via email to logistics@sabew.org. All cancellations must be in writing. There is a $50 processing fee for all cancellations until April 9. After that date\, requests for refunds will be considered on a case-by-case basis. \nHotel Information \nDoubleTree Philadelphia Center City\n237 S Broad St\nPhiladelphia\, PA 19107 \nThe room rate is $209 per night\, plus tax for single/double rooms (currently 15.5% + 0.75%) *subject to change. Rooms are available in the discounted block until Monday\, April 13\, 2026\, or until the block is full (whichever comes first.) If you need to cancel your reservation\, you must do so 72 hours prior to arrival to avoid any cancellation fees. \nTo make a reservation\, click here. \nFellowship Opportunities \nFellowship opportunities are available for female journalists\, journalists of color\, and business journalists who represent underserved areas to attend the #SABEW26 conference. For more information and to apply\, please click here. Applications are due by Tuesday\, March 31. \nSpeed mentoring \nSit down for a one-on-one conversation with a newsroom editor or hiring manager during this hands-on session at the #SABEW26 conference. Mentees will have the chance to have their resume or clips reviewed\, practice their story pitch and brush up on their interviewing skills. It’s a great opportunity to make new connections\, seek career advice or ask questions about breaking into the industry. \nTo participate as a mentor or mentee\, complete this form by 5 p.m. ET\, Monday\, April 27. All participants must be registered for the conference. The session is open to early-career journalists and students. Space is limited. \nSponsors and Exhibitors \nExhibitor and sponsor opportunities are available. Lock in your space early for the best prices and to ensure a spot. Contact Stephanie Klimstra at sklimstra@sabew.org for additional details. \nShop SABEW \nGear up with SABEW t-shirts\, sweatshirts\, and more! Visit the SABEW store today. \n  \nThank you to our sponsors and exhibitors!\n  \n \n 
+URL:https://sabew.org/event/sabew26/
+CATEGORIES:Conference,In-Person Training,Networking
+ATTACH;FMTTYPE=image/jpeg:https://sabew.org/wp-content/uploads/2026/01/26_ConferenceLogo_H_1500x500.jpg
+END:VEVENT
+END:VCALENDAR

@@ -1081,6 +1081,16 @@ jobs:
         # IRE/NICAR conference schedules (S3 JSON — fail gracefully if not yet published)
         python scrapers/ire_schedule.py --conference ire-2026 --output cities/publisher-resources/ire_2026.ics || true
         python scrapers/ire_schedule.py --conference nicar-2026 --output cities/publisher-resources/nicar_2026.ics || true
+        # SJN (Solutions Journalism Network) — Drupal HTML scraper
+        python scrapers/sjn_events.py --output cities/publisher-resources/sjn.ics || true
+        # PEN America — WordPress REST API scraper
+        python scrapers/pen_america.py --output cities/publisher-resources/pen_america.ics || true
+        # NABJ (National Assoc. of Black Journalists) — Wild Apricot RSS feed
+        python scrapers/nabj_events.py --output cities/publisher-resources/nabj.ics || true
+        # American Press Institute — Eventbrite organizer page
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/american-press-institute-59619554833" --name "American Press Institute" --output cities/publisher-resources/api_eventbrite.ics || true
+        # Center for Cooperative Media — Eventbrite organizer page
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/center-for-cooperative-media-5988913981" --name "Center for Cooperative Media" --output cities/publisher-resources/cooperative_media_eventbrite.ics || true
         # LION Publishers — HTML scraper (WordPress free-form)
         python scrapers/lion_publishers.py --output cities/publisher-resources/lion_publishers.ics || true
         # Editor & Publisher — HTML scraper (industry conference calendar)
@@ -1108,6 +1118,12 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://nahj.org/events/?ical=1" -o nahj.ics || true
         # NLGJA (Assoc. of LGBTQ+ Journalists) — WordPress Tribe Events
         curl -sL -A "Mozilla/5.0" "https://www.nlgja.org/events/?ical=1" -o nlgja.ics || true
+        # AHCJ (Assoc. of Health Care Journalists) — WordPress Tribe Events
+        curl -sL -A "Mozilla/5.0" "https://healthjournalism.org/events/?ical=1" -o ahcj.ics || true
+        # SABEW (Soc. for Advancing Business Editing & Writing) — WordPress Tribe Events (alternate URL bypasses Cloudflare)
+        curl -sL -A "Mozilla/5.0" "https://sabew.org/?post_type=tribe_events&ical=1&eventDisplay=list" -o sabew.ics || true
+        # Hacks/Hackers — Luma calendar ICS feed
+        curl -sL "https://api2.luma.com/ics/get?entity=calendar&id=cal-09kcgQfLYGyy2JP" -o hackshackers.ics || true
         # Tiny News Members Only (Google Calendar)
         curl -sL "https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics" -o tiny_news_members_only.ics || true
         # Journalism Internship & Fellowship Deadlines (Google Calendar)
