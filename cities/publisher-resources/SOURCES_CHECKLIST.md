@@ -22,6 +22,7 @@ No geolocation filtering applied.
 - [ ] LION Publishers — `lion_publishers.py` (HTML scraper, WordPress free-form events page)
 - [ ] Editor & Publisher — `editor_publisher.py` (HTML scraper, industry conference calendar)
 - [ ] Center for Cooperative Media — `eventbrite.py` (Eventbrite organizer scraper)
+- [ ] Associated Press — `eventbrite.py` (Eventbrite organizer scraper)
 
 ### Scrapable (no feeds, but server-rendered HTML)
 - [ ] ONA (Online News Association) — `https://journalists.org/events/` (Novi AMS, server-rendered list with dates/times)

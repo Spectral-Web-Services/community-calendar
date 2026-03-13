@@ -444,6 +444,7 @@ SOURCE_NAMES = {
     'lion_publishers': 'LION Publishers',
     'editor_publisher': 'Editor & Publisher',
     'eventbrite_coop_media': 'Center for Cooperative Media',
+    'eventbrite_ap': 'Associated Press',
 }
 
 # Fallback URLs for sources whose ICS events lack a URL property.

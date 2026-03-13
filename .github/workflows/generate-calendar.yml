@@ -1087,6 +1087,8 @@ jobs:
         python scrapers/editor_publisher.py --output cities/publisher-resources/editor_publisher.ics || true
         # Center for Cooperative Media — Eventbrite organizer
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/center-for-cooperative-media-5988913981" --name "Center for Cooperative Media" --output cities/publisher-resources/eventbrite_coop_media.ics || true
+        # Associated Press — Eventbrite organizer
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/72823983313" --name "Associated Press" --output cities/publisher-resources/eventbrite_ap.ics || true
       continue-on-error: true
 
     - name: Fetch Publisher Resources live feeds
