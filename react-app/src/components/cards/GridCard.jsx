@@ -7,7 +7,7 @@ export default function GridCard({ event, filterTerm, onCategoryFilter }) {
 
   return (
     <>
-      <div className="h-[320px] flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden hover:shadow-lg transition-all duration-200">
+      <div data-grid-card className="h-full flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden hover:shadow-lg transition-all duration-200">
         {/* Image area — fixed height */}
         <div className="h-[140px] flex-shrink-0 overflow-hidden bg-gray-100 dark:bg-gray-700">
           {event.image_url ? (
@@ -23,7 +23,7 @@ export default function GridCard({ event, filterTerm, onCategoryFilter }) {
         </div>
 
         {/* Content area — fills remaining space */}
-        <div className="flex-1 min-h-0 flex flex-col p-3">
+        <div className="flex-1 min-h-0 flex flex-col justify-start p-3">
           <div className="flex-1 min-h-0 overflow-hidden">
             <EventTitle event={event} className="text-sm font-bold tracking-tight text-gray-900 dark:text-gray-100 leading-snug line-clamp-2" />
             <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">

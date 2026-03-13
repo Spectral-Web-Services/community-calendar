@@ -8,8 +8,7 @@ export default function OverlayCard({ event, filterTerm, onCategoryFilter }) {
   return (
     <>
       <div className="mb-3">
-        <div className="rounded-lg overflow-hidden shadow-sm border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800
-                        hover:shadow-lg transition-all duration-200">
+        <div className="flex-1 rounded-lg overflow-hidden shadow-sm border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 hover:shadow-lg transition-all duration-200">
 
           {event.image_url ? (
             /* Image with date chip + category overlaid */

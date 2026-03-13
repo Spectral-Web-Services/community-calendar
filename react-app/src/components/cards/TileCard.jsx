@@ -10,7 +10,8 @@ export default function TileCard({ event, filterTerm, onCategoryFilter }) {
   return (
     <>
       <div
-        className="mb-3 relative rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 cursor-pointer group min-h-[200px]"
+        data-grid-card
+        className="h-full mb-3 relative rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 cursor-pointer group min-h-[200px]"
         onClick={() => setShowDetail(true)}
       >
         {/* Background */}

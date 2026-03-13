@@ -7,8 +7,8 @@ export default function GridCompactCard({ event, filterTerm, onCategoryFilter })
 
   return (
     <>
-      <div className="h-[180px] flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden hover:shadow-lg transition-all duration-200">
-        <div className="flex-1 min-h-0 flex flex-col p-3">
+      <div data-grid-card className="h-full flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden hover:shadow-lg transition-all duration-200">
+        <div className="flex-1 min-h-0 flex flex-col justify-start p-3">
           <div className="flex gap-2.5 flex-1 min-h-0 overflow-hidden">
             {/* Date badge */}
             <div className="flex-shrink-0 w-11 h-12 rounded-lg flex flex-col items-center justify-center text-center"

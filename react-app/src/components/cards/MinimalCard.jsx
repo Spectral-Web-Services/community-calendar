@@ -7,7 +7,7 @@ export default function MinimalCard({ event, filterTerm, onCategoryFilter }) {
 
   return (
     <>
-      <div className="mb-6 px-1">
+      <div className="mb-6 px-1 flex flex-col flex-1">
         {/* Image — full bleed, no card chrome */}
         {event.image_url && (
           <img src={event.image_url} alt="" className="w-full h-[180px] object-cover rounded mb-3" loading="lazy" onError={hideOnImgError} />

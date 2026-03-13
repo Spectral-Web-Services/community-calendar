@@ -8,8 +8,7 @@ export default function PolaroidCard({ event, filterTerm, onCategoryFilter }) {
   return (
     <>
       <div className="mb-4">
-        <div className="bg-white dark:bg-gray-800 rounded-sm shadow-md hover:shadow-xl hover:-rotate-0 transition-all duration-300
-                        p-3 pb-4"
+        <div className="flex-1 bg-white dark:bg-gray-800 rounded-sm shadow-md hover:shadow-xl hover:-rotate-0 transition-all duration-300 p-3 pb-4"
              style={{ transform: 'rotate(-0.5deg)' }}>
           {/* Photo area with white border (polaroid frame) */}
           <div className="border border-gray-100 dark:border-gray-700">

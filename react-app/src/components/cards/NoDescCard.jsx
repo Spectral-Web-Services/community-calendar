@@ -7,7 +7,7 @@ export default function NoDescCard({ event, filterTerm, onCategoryFilter }) {
 
   return (
     <>
-      <div className="mb-3 flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden hover:shadow-lg transition-all duration-200">
+      <div data-grid-card className="h-full mb-3 flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden hover:shadow-lg transition-all duration-200">
         {/* Image area */}
         <div className="h-[140px] flex-shrink-0 overflow-hidden bg-gray-100 dark:bg-gray-700">
           {event.image_url ? (
@@ -22,15 +22,17 @@ export default function NoDescCard({ event, filterTerm, onCategoryFilter }) {
           )}
         </div>
 
-        {/* Content area */}
-        <div className="flex flex-col p-3">
-          <EventTitle event={event} className="text-sm font-bold tracking-tight text-gray-900 dark:text-gray-100 leading-snug line-clamp-2" />
-          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-            {dateParts.weekday} {dateParts.month} {dateParts.day}{timeStr ? ` · ${timeStr}` : ''}
-          </p>
-          {event.location && (
-            <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5 truncate">{event.location}</p>
-          )}
+        {/* Content area — fills remaining space in grid */}
+        <div className="flex-1 min-h-0 flex flex-col justify-start p-3">
+          <div className="flex-1 min-h-0 overflow-hidden">
+            <EventTitle event={event} className="text-sm font-bold tracking-tight text-gray-900 dark:text-gray-100 leading-snug line-clamp-2" />
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+              {dateParts.weekday} {dateParts.month} {dateParts.day}{timeStr ? ` · ${timeStr}` : ''}
+            </p>
+            {event.location && (
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5 truncate">{event.location}</p>
+            )}
+          </div>
           <div className="flex-shrink-0 mt-2 pt-2 border-t border-gray-100 dark:border-gray-700">
             <ActionBar event={event} onCategoryFilter={onCategoryFilter} onShowDetail={() => setShowDetail(true)} colors={colors} />
           </div>

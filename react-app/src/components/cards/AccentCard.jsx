@@ -9,8 +9,7 @@ export default function AccentCard({ event, filterTerm, onCategoryFilter }) {
     <>
       <div className="mb-3">
         <div
-          className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden
-                     hover:shadow-lg transition-all duration-200"
+          className="grow bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden hover:shadow-lg transition-all duration-200"
           style={{ borderLeftWidth: '3px', borderLeftColor: colors.label }}
         >
           {event.image_url ? (
