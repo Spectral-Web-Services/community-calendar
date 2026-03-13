@@ -1099,6 +1099,8 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://www.nlgja.org/events/?ical=1" -o nlgja.ics || true
         # Tiny News Members Only (Google Calendar)
         curl -sL "https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics" -o tiny_news_members_only.ics || true
+        # Journalism Internship & Fellowship Deadlines (Google Calendar)
+        curl -sL "https://calendar.google.com/calendar/ical/er06vtjd12h86b4rej5bts6p6c%40group.calendar.google.com/public/basic.ics" -o journalism_deadlines.ics || true
         cd ../..
 
     - name: Combine Publisher Resources ICS files

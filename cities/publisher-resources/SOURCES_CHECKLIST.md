@@ -14,6 +14,7 @@ No geolocation filtering applied.
 
 ### Google Calendar
 - [ ] Tiny News Members Only — `https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics`
+- [ ] Journalism Internship & Fellowship Deadlines — `https://calendar.google.com/calendar/ical/er06vtjd12h86b4rej5bts6p6c%40group.calendar.google.com/public/basic.ics`
 
 ### Scrapers
 - [ ] SEJ (Society of Environmental Journalists) — `sej_calendar.py` (RSS calendar at `sej.org/rss_calendar`)
@@ -30,11 +31,22 @@ No geolocation filtering applied.
 - **Trusting News** — Events announced via blog posts with Zoom links, no structured data
 - **ONA** — No public feeds; Novi AMS platform, EventScribe for conferences
 - **Knight Foundation** — Events infrastructure under development, not live
-- **RTDNA** — No public feeds; /events/feed returns 500
+- **RTDNA** — No public feeds; Novi AMS platform, /events/feed returns 500
 - **National Press Club** — Custom calendar grid, no feeds
 - **EWA** — No feeds; custom WordPress events with AJAX
 - **NABJ** — Site returns 403 to automated access
 - **AAJA** — No event-specific feeds; RSS has news only
+- **Inside the Newsroom (Substack)** — Blog post listing deadlines in prose; no structured data or feeds
+- **Hearst Awards** — TLS certificate error (ERR_TLS_CERT_ALTNAME_INVALID); site inaccessible
+- **Editor & Publisher** — Custom CMS (Creative Circle Media), no ICS/RSS feeds; curated directory only
+- **SPJ Freelance Calendar** — Same feed as SPJ already implemented (`webcal://calendar.spjnetwork.org/calendar.php`)
+- **Trauma Journalism** — WordPress custom calendar, no ICS/RSS export; stale events only
+- **IRE** — WordPress (Beaver Builder) but no ICS export; `?ical=1` returns HTML; RSS is blog posts only
+- **CPJ** — WordPress, no events ICS feed; general RSS at `/about/feeds/` is not event-specific
+- **IWMF** — Returns 403 to automated access
+- **Knight Center (journalismcourses.org)** — WordPress/WooCommerce, no calendar feeds; course dates only in page templates
+- **Pulitzer Center** — Returns 403 to automated access
+- **TCIJ (Centre for Investigative Journalism)** — Returns 403 to automated access
 
 ## To Investigate
 
@@ -46,10 +58,3 @@ No geolocation filtering applied.
 - Report for America
 - Center for Cooperative Media
 - Solutions Journalism Network
-https://insidethenewsroom.substack.com/p/free-journalism-calendar-fellowships
-http://www.hearstawards.org/guidelines-deadlines/
-https://www.editorandpublisher.com/calendar/
-https://www.spj.org/freelance-calendar/
-https://traumajournalism.org/ttj-calendar/#
-https://calendar.google.com/calendar/u/0/embed?src=er06vtjd12h86b4rej5bts6p6c@group.calendar.google.com&ctz=America/New_York
-https://www.rtdna.org/events
