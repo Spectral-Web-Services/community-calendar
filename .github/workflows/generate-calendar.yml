@@ -1097,6 +1097,8 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://nahj.org/events/?ical=1" -o nahj.ics || true
         # NLGJA (Assoc. of LGBTQ+ Journalists) — WordPress Tribe Events
         curl -sL -A "Mozilla/5.0" "https://www.nlgja.org/events/?ical=1" -o nlgja.ics || true
+        # Tiny News Members Only (Google Calendar)
+        curl -sL "https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics" -o tiny_news_members_only.ics || true
         cd ../..
 
     - name: Combine Publisher Resources ICS files
