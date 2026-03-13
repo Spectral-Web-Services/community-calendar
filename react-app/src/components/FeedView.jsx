@@ -5,7 +5,9 @@ import { useAuth } from '../hooks/useAuth.jsx';
 import { useColumnCount } from '../hooks/useColumnCount.js';
 import { FeedProvider } from '../hooks/useFeedContext.jsx';
 import { getMasonryColumns } from '../lib/helpers.js';
+import { isGridLayout as checkGridLayout, getColumnCount as calcColumnCount } from '../lib/cardStyles.js';
 import MasonryGrid from './MasonryGrid.jsx';
+import UniformGrid from './UniformGrid.jsx';
 import StyleSwitcher from './StyleSwitcher.jsx';
 
 export default function FeedView({ feedId }) {
@@ -18,13 +20,8 @@ export default function FeedView({ feedId }) {
   const [removedIds, setRemovedIds] = useState(new Set());
   const cardStyle = styleOverride || collection?.card_style || 'accent';
 
-  const oneColStyles = ['list'];
-  const twoColStyles = ['compact', 'split', 'splitimage'];
-  const threeColStyles = ['ticket'];
-  const columnCount = oneColStyles.includes(cardStyle) ? 1
-    : twoColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 2)
-    : threeColStyles.includes(cardStyle) ? Math.max(1, Math.min(rawColumnCount - 1, 3))
-    : rawColumnCount;
+  const columnCount = calcColumnCount(cardStyle, rawColumnCount);
+  const isGrid = checkGridLayout(cardStyle);
 
   const events = useMemo(
     () => rawEvents.filter(ev => !removedIds.has(ev.id)),
@@ -79,6 +76,27 @@ export default function FeedView({ feedId }) {
 
       {events.length === 0 ? (
         <p className="text-center text-gray-400 py-12">This collection has no events yet.</p>
+      ) : isGrid ? (
+        <>
+          {featuredEvents.length > 0 && (
+            <div className="mb-6">
+              <UniformGrid
+                events={featuredEvents}
+                filterTerm=""
+                onCategoryFilter={() => {}}
+                variant={cardStyle}
+                columnCount={columnCount}
+              />
+            </div>
+          )}
+          <UniformGrid
+            events={regularEvents}
+            filterTerm=""
+            onCategoryFilter={() => {}}
+            variant={cardStyle}
+            columnCount={columnCount}
+          />
+        </>
       ) : (
         <>
           {featuredColumns.some(col => col.length > 0) && (

@@ -2,6 +2,7 @@ import React, { useMemo, useEffect, useRef, useCallback } from 'react';
 import { useCollection } from '../hooks/useCollection.js';
 import { useColumnCount } from '../hooks/useColumnCount.js';
 import { getMasonryColumns } from '../lib/helpers.js';
+import { isGridLayout as checkGridLayout, getColumnCount as calcColumnCount } from '../lib/cardStyles.js';
 import MasonryGrid from './MasonryGrid.jsx';
 import UniformGrid from './UniformGrid.jsx';
 
@@ -61,20 +62,10 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
   const cardStyle = style || collection?.card_style || 'compact';
   const featuredCardStyle = featuredStyle || cardStyle;
 
-  const gridStyles = ['grid', 'gridcompact', 'gridtile'];
-  const isGridLayout = gridStyles.includes(cardStyle);
-  const isFeaturedGridLayout = gridStyles.includes(featuredCardStyle);
-  const oneColStyles = ['list'];
-  const twoColStyles = ['compact', 'split', 'splitimage'];
-  const threeColStyles = ['ticket'];
-  const columnCount = oneColStyles.includes(cardStyle) ? 1
-    : twoColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 2)
-    : threeColStyles.includes(cardStyle) ? Math.max(1, Math.min(rawColumnCount - 1, 3))
-    : rawColumnCount;
-  const featuredColumnCount = oneColStyles.includes(featuredCardStyle) ? 1
-    : twoColStyles.includes(featuredCardStyle) ? Math.min(rawColumnCount, 2)
-    : threeColStyles.includes(featuredCardStyle) ? Math.max(1, Math.min(rawColumnCount - 1, 3))
-    : rawColumnCount;
+  const isGridLayout = checkGridLayout(cardStyle);
+  const isFeaturedGridLayout = checkGridLayout(featuredCardStyle);
+  const columnCount = calcColumnCount(cardStyle, rawColumnCount);
+  const featuredColumnCount = calcColumnCount(featuredCardStyle, rawColumnCount);
 
   const { featuredEvents, regularEvents } = useMemo(() => {
     // While full events are still loading, use early featured if available
