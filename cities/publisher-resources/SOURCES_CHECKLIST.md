@@ -21,6 +21,7 @@ No geolocation filtering applied.
 - [ ] IRE/NICAR Conference Schedules — `ire_schedule.py` (S3 JSON, updated per conference cycle)
 - [ ] LION Publishers — `lion_publishers.py` (HTML scraper, WordPress free-form events page)
 - [ ] Editor & Publisher — `editor_publisher.py` (HTML scraper, industry conference calendar)
+- [ ] Center for Cooperative Media — `eventbrite.py` (Eventbrite organizer scraper)
 
 ### Scrapable (no feeds, but server-rendered HTML)
 - [ ] ONA (Online News Association) — `https://journalists.org/events/` (Novi AMS, server-rendered list with dates/times)
@@ -59,7 +60,5 @@ No geolocation filtering applied.
 - Hacks/Hackers events
 - SRCCON / OpenNews
 - Lenfest Institute
-- News Revenue Hub
 - Report for America
-- Center for Cooperative Media
 - Solutions Journalism Network

@@ -443,6 +443,7 @@ SOURCE_NAMES = {
     'journalism_deadlines': 'Journalism Internship & Fellowship Deadlines',
     'lion_publishers': 'LION Publishers',
     'editor_publisher': 'Editor & Publisher',
+    'eventbrite_coop_media': 'Center for Cooperative Media',
 }
 
 # Fallback URLs for sources whose ICS events lack a URL property.
