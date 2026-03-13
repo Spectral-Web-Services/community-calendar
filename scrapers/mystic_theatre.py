@@ -145,6 +145,10 @@ class MysticTheatreScraper(BaseScraper):
         
         description = '\n'.join(desc_parts)
         
+        # Image
+        img_el = card.select_one('img[src]')
+        image_url = img_el['src'] if img_el else ''
+
         return {
             'title': title,
             'url': ticket_url,
@@ -152,6 +156,7 @@ class MysticTheatreScraper(BaseScraper):
             'dtend': dtend,
             'location': venue,
             'description': description,
+            'image_url': image_url,
         }
 
     def _parse_datetime(self, date_str: str, time_str: str | None) -> datetime | None:

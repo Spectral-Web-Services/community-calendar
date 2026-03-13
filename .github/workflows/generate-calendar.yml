@@ -313,7 +313,6 @@ jobs:
         python scrapers/maxpreps.py --school casa-grande-gauchos --output cities/petaluma/maxpreps_casa_grande.ics || true
         # Petaluma Chamber of Commerce (GrowthZone)
         python scrapers/growthzone.py --site petalumachamber --output cities/petaluma/petaluma_chamber.ics || true
-        python scrapers/srjc_petaluma.py --output cities/petaluma/srjc_petaluma.ics || true
         # HenHouse Brewing and Phoenix Theater
         python scrapers/henhouse.py > cities/petaluma/henhouse.ics || true
         # Mercury Theater and Adobe Road Winery
@@ -338,25 +337,14 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/the-rebel-craft-collective/events/ical/" -o meetup_rebel_craft.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/meetup-group-bwkyqavs/events/ical/" -o meetup_candlelight_yoga.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/petaluma-figure-drawing-meetup-group/events/ical/" -o meetup_figure_drawing.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/sonoma-marin-brat-pack/events/ical/" -o meetup_brat_pack.ics || true
         # Additional Meetup groups
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/petaluma-salon/events/ical/" -o meetup_petaluma_salon.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/petaluma-book-and-brew-club/events/ical/" -o meetup_book_brew.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/petaluma-active-20-30/events/ical/" -o meetup_active_20_30.ics || true
+        # SRJC Petaluma (LiveWhale ICS feed — filtered by combine_ics geo)
+        curl -sL "https://calendar.santarosa.edu/live/ical/events" -o srjc_petaluma.ics || true
         # Regional Meetup groups with Petaluma events
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/sonoma-county-outdoors/events/ical/" -o meetup_sonoma_outdoors.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/north-bay-contra-dance/events/ical/" -o meetup_contra_dance.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/sonoma-county-boomers/events/ical/" -o meetup_sonoma_boomers.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/sonoma-county-go-wild-hikers/events/ical/" -o meetup_go_wild_hikers.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/meditate-with-a-monk-in-sonoma-county/events/ical/" -o meetup_meditate_monk.ics || true
-        # Hiking & Outdoors Meetup groups (discovered 2026-02-14)
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/northbayhiking/events/ical/" -o meetup_north_bay_adventure.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/north-bay-tails-and-trails/events/ical/" -o meetup_tails_trails.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/meetup-group-qXYJpXNx/events/ical/" -o meetup_north_bay_50plus.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/senior-walkabouters/events/ical/" -o meetup_senior_walkabouters.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/sonoma-county-wanderers/events/ical/" -o meetup_sonoma_wanderers.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/meetup-group-ohazunav/events/ical/" -o meetup_mindfull_hikes.ics || true
-        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/Four-Corners-Hiking-Beer/events/ical/" -o meetup_four_corners.ics || true
         # The Big Easy (WordPress + The Events Calendar iCal feed)
         curl -sL "https://bigeasypetaluma.com/events/?ical=1" -o bigeasy.ics || true
         # Polly Klaas Community Theater (WordPress + The Events Calendar iCal feed)

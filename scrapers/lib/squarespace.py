@@ -115,6 +115,9 @@ class SquarespaceScraper(BaseScraper):
         if full_url and not full_url.startswith('http'):
             full_url = f"{base_url}{full_url}"
 
+        # Image
+        image_url = item.get('assetUrl', '')
+
         return {
             'title': title,
             'dtstart': dtstart,
@@ -122,4 +125,5 @@ class SquarespaceScraper(BaseScraper):
             'description': desc,
             'location': loc_str,
             'url': full_url,
+            'image_url': image_url,
         }
