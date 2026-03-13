@@ -436,6 +436,9 @@ SOURCE_NAMES = {
     'poynter': 'Poynter Institute',
     'nahj': 'National Assoc. of Hispanic Journalists',
     'nlgja': 'Assoc. of LGBTQ+ Journalists',
+    'sej': 'Society of Environmental Journalists',
+    'ire_2026': 'IRE 2026 Conference',
+    'nicar_2026': 'NICAR 2026 Conference',
 }
 
 # Fallback URLs for sources whose ICS events lack a URL property.

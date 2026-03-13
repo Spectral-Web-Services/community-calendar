@@ -12,8 +12,9 @@ No geolocation filtering applied.
 - [ ] NAHJ (National Assoc. of Hispanic Journalists) — `https://nahj.org/events/?ical=1` (WordPress Tribe Events)
 - [ ] NLGJA (Assoc. of LGBTQ+ Journalists) — `https://www.nlgja.org/events/?ical=1` (WordPress Tribe Events)
 
-### RSS Feeds (need conversion)
-- [ ] SEJ (Society of Environmental Journalists) — `https://www.sej.org/rss_calendar` (Drupal calendar RSS)
+### Scrapers
+- [ ] SEJ (Society of Environmental Journalists) — `sej_calendar.py` (RSS calendar at `sej.org/rss_calendar`)
+- [ ] IRE/NICAR Conference Schedules — `ire_schedule.py` (S3 JSON, updated per conference cycle)
 
 ## Investigated — Not Viable
 
@@ -25,7 +26,6 @@ No geolocation filtering applied.
 - **The Open Notebook** — Trainings are custom-booked/on-demand, no scheduled events
 - **Trusting News** — Events announced via blog posts with Zoom links, no structured data
 - **ONA** — No public feeds; Novi AMS platform, EventScribe for conferences
-- **IRE/NICAR** — No ICS feeds; conference schedules available as JSON on S3 (potential scraper)
 - **Knight Foundation** — Events infrastructure under development, not live
 - **RTDNA** — No public feeds; /events/feed returns 500
 - **National Press Club** — Custom calendar grid, no feeds
@@ -36,8 +36,6 @@ No geolocation filtering applied.
 ## To Investigate
 
 - LION Publishers events page scraper
-- IRE/NICAR S3 JSON schedule converter
-- SEJ RSS-to-ICS converter
 - Hacks/Hackers events
 - SRCCON / OpenNews
 - Lenfest Institute

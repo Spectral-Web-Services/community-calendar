@@ -902,6 +902,16 @@ jobs:
     # ==========================================
     # Publisher Resources (journalism workshops & training)
     # ==========================================
+    - name: Scrape Publisher Resources sources
+      if: contains(steps.locations.outputs.list, 'publisher-resources') && github.event.inputs.regenerate_only != 'true'
+      run: |
+        # SEJ (Society of Environmental Journalists) — RSS calendar feed
+        python scrapers/sej_calendar.py --output cities/publisher-resources/sej.ics || true
+        # IRE/NICAR conference schedules (S3 JSON — fail gracefully if not yet published)
+        python scrapers/ire_schedule.py --conference ire-2026 --output cities/publisher-resources/ire_2026.ics || true
+        python scrapers/ire_schedule.py --conference nicar-2026 --output cities/publisher-resources/nicar_2026.ics || true
+      continue-on-error: true
+
     - name: Fetch Publisher Resources live feeds
       if: contains(steps.locations.outputs.list, 'publisher-resources') && github.event.inputs.regenerate_only != 'true'
       run: |
