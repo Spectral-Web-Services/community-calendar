@@ -372,7 +372,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                     </button>
                   </div>
                   <p className="text-[10px] text-gray-400 mt-1">
-                    Params: <code className="bg-gray-100 px-0.5 rounded">style=compact</code>, <code className="bg-gray-100 px-0.5 rounded">title=My+Events</code>, <code className="bg-gray-100 px-0.5 rounded">featured_title=Featured</code>, <code className="bg-gray-100 px-0.5 rounded">normal_title=Upcoming</code>, <code className="bg-gray-100 px-0.5 rounded">bg=%23f9fafb</code>, <code className="bg-gray-100 px-0.5 rounded">mode=dark</code>
+                    Params: <code className="bg-gray-100 px-0.5 rounded">style=compact</code>, <code className="bg-gray-100 px-0.5 rounded">featured_style=grid</code>, <code className="bg-gray-100 px-0.5 rounded">title=My+Events</code>, <code className="bg-gray-100 px-0.5 rounded">featured_title=Featured</code>, <code className="bg-gray-100 px-0.5 rounded">normal_title=Upcoming</code>, <code className="bg-gray-100 px-0.5 rounded">bg=%23f9fafb</code>, <code className="bg-gray-100 px-0.5 rounded">mode=dark</code>
                   </p>
                   <p className="text-[10px] text-gray-400 mt-0.5">
                     Styles: classic, accent, magazine, compact, modern, overlay, alwaysimage, minimal, split, splitimage, polaroid, ticket, list, grid, gridcompact, gridtile

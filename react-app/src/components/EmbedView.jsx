@@ -10,6 +10,7 @@ import UniformGrid from './UniformGrid.jsx';
  * URL params:
  *   embed={feedId}          — collection to display
  *   style={cardStyle}       — card variant (accent, compact, grid, gridtile, etc.)
+ *   featured_style={cardStyle} — card variant for featured events (defaults to style)
  *   title={custom title}    — single heading above all events (legacy, overrides both)
  *   featured_title={text}   — heading above featured events section
  *   normal_title={text}     — heading above regular events section
@@ -19,7 +20,7 @@ import UniformGrid from './UniformGrid.jsx';
  * Posts height to parent window via postMessage so the host page
  * can auto-resize the iframe (no scroll-within-scroll).
  */
-export default function EmbedView({ feedId, style, title, featuredTitle, normalTitle, bg, mode }) {
+export default function EmbedView({ feedId, style, featuredStyle, title, featuredTitle, normalTitle, bg, mode }) {
   const isDark = mode === 'dark';
   const { collection, events, loading } = useCollection(feedId);
   const rawColumnCount = useColumnCount();
@@ -58,13 +59,18 @@ export default function EmbedView({ feedId, style, title, featuredTitle, normalT
   }, [postHeight]);
 
   const cardStyle = style || collection?.card_style || 'compact';
+  const featuredCardStyle = featuredStyle || cardStyle;
 
   const gridStyles = ['grid', 'gridcompact', 'gridtile'];
   const isGridLayout = gridStyles.includes(cardStyle);
+  const isFeaturedGridLayout = gridStyles.includes(featuredCardStyle);
   const oneColStyles = ['list'];
   const twoColStyles = ['compact', 'split', 'splitimage'];
   const columnCount = oneColStyles.includes(cardStyle) ? 1
     : twoColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 2)
+    : rawColumnCount;
+  const featuredColumnCount = oneColStyles.includes(featuredCardStyle) ? 1
+    : twoColStyles.includes(featuredCardStyle) ? Math.min(rawColumnCount, 2)
     : rawColumnCount;
 
   const { featuredEvents, regularEvents } = useMemo(() => {
@@ -74,8 +80,8 @@ export default function EmbedView({ feedId, style, title, featuredTitle, normalT
   }, [events]);
 
   const featuredColumns = useMemo(
-    () => getMasonryColumns(featuredEvents, columnCount),
-    [featuredEvents, columnCount]
+    () => getMasonryColumns(featuredEvents, featuredColumnCount),
+    [featuredEvents, featuredColumnCount]
   );
 
   const masonryColumns = useMemo(
@@ -123,20 +129,20 @@ export default function EmbedView({ feedId, style, title, featuredTitle, normalT
             {displayFeaturedTitle && (
               <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-3 px-1">{displayFeaturedTitle}</h2>
             )}
-            {isGridLayout ? (
+            {isFeaturedGridLayout ? (
               <UniformGrid
                 events={featuredEvents}
                 filterTerm=""
                 onCategoryFilter={() => {}}
-                variant={cardStyle}
-                columnCount={columnCount}
+                variant={featuredCardStyle}
+                columnCount={featuredColumnCount}
               />
             ) : (
               <MasonryGrid
                 masonryColumns={featuredColumns}
                 filterTerm=""
                 onCategoryFilter={() => {}}
-                variant={cardStyle}
+                variant={featuredCardStyle}
               />
             )}
           </div>
