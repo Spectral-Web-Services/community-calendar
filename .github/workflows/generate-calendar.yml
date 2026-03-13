@@ -1091,6 +1091,7 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/72823983313" --name "Associated Press" --output cities/publisher-resources/eventbrite_ap.ics || true
         # ONA (Online News Association) — HTML scraper (Novi AMS, no feeds)
         python scrapers/ona_events.py --output cities/publisher-resources/ona_events.ics || true
+        python scrapers/knight_center.py --output cities/publisher-resources/knight_center.ics || true
       continue-on-error: true
 
     - name: Fetch Publisher Resources live feeds
