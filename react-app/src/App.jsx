@@ -18,6 +18,7 @@ import { useAuth } from './hooks/useAuth.jsx';
 import { useCurator } from './hooks/useCurator.jsx';
 import { useFeatured } from './hooks/useFeatured.jsx';
 import { getActiveCategories } from './lib/helpers.js';
+import { isGridLayout as checkGridLayout, getColumnCount as calcColumnCount } from './lib/cardStyles.js';
 
 function App() {
   const { embed, embedStyle, embedFeaturedStyle, embedTitle, embedFeaturedTitle, embedNormalTitle, embedBg, embedMode, feed, city } = useMemo(() => {
@@ -50,16 +51,8 @@ function App() {
   const { events, loading } = useEvents(city);
   const enrichments = useEnrichments(city);
   const rawColumnCount = useColumnCount();
-  const oneColStyles = ['list'];
-  const twoColStyles = ['compact', 'split', 'splitimage'];
-  const threeColStyles = ['ticket'];
-  const columnCount = oneColStyles.includes(cardStyle) ? 1
-    : twoColStyles.includes(cardStyle) ? Math.min(rawColumnCount, 2)
-    : threeColStyles.includes(cardStyle) ? Math.max(1, Math.min(rawColumnCount - 1, 3))
-    : rawColumnCount;
-
-  const gridStyles = ['grid', 'gridcompact', 'gridtile'];
-  const isGridLayout = gridStyles.includes(cardStyle);
+  const columnCount = calcColumnCount(cardStyle, rawColumnCount);
+  const isGridLayout = checkGridLayout(cardStyle);
 
   const { processedEvents, cardEvents, hasMore, featuredColumns, masonryColumns, featuredEvents, regularEvents } = useProcessedEvents(
     events,
