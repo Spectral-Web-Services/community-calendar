@@ -3,7 +3,6 @@ import {
   applyEnrichments,
   dedupeEvents,
   expandEnrichments,
-  filterHiddenSources,
   getCumulativeEvents,
   getMasonryColumns,
 } from '../lib/helpers.js';
@@ -18,7 +17,7 @@ export function useProcessedEvents(events, enrichments, filterTerm, displayCount
     const expanded = expandEnrichments(enrichments, from, to);
     const combined = [...enriched, ...expanded];
     const deduped = dedupeEvents(combined);
-    return filterHiddenSources(deduped, []);
+    return deduped;
   }, [events, enrichments, from, to]);
 
   // Extract featured from the full processed list (before slicing) so they always appear

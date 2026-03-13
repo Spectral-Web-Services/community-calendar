@@ -32,7 +32,7 @@ export function useEvents(city) {
     setLoading(true);
     const { from, to } = getDateRange();
 
-    const url = `${SUPABASE_URL}/rest/v1/events?select=*&order=start_time.asc&limit=5000&start_time=gte.${from}&start_time=lte.${to}&city=eq.${city}`;
+    const url = `${SUPABASE_URL}/rest/v1/public_events?select=*&order=start_time.asc&limit=5000&start_time=gte.${from}&start_time=lte.${to}&city=eq.${city}`;
 
     fetch(url, {
       headers: {
