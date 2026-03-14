@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-14T21:47:59.050611",
+  "generated": "2026-03-14T22:06:02.771696",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -43198,20 +43198,36 @@
               "count": 30
             }
           ]
+        },
+        "evanston_legion": {
+          "history": [
+            {
+              "date": "2026-03-14",
+              "count": 24
+            }
+          ]
+        },
+        "visit_north_shore": {
+          "history": [
+            {
+              "date": "2026-03-14",
+              "count": 45
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 700
+          "count": 705
         },
         {
           "category": "Music / Concerts",
-          "count": 648
+          "count": 658
         },
         {
           "category": "Education / Workshops",
-          "count": 535
+          "count": 536
         },
         {
           "category": "Arts / Culture",
@@ -43219,15 +43235,15 @@
         },
         {
           "category": "Community / Social",
-          "count": 423
+          "count": 431
         },
         {
           "category": "Food / Drink",
-          "count": 290
+          "count": 303
         },
         {
           "category": "Sports / Fitness",
-          "count": 236
+          "count": 241
         },
         {
           "category": "Dance / Performance",
@@ -43247,7 +43263,7 @@
         },
         {
           "category": "Government / Civic",
-          "count": 128
+          "count": 130
         },
         {
           "category": "History / Heritage",
@@ -43255,11 +43271,11 @@
         },
         {
           "category": "Film / Cinema",
-          "count": 82
+          "count": 84
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 72
+          "count": 74
         },
         {
           "category": "Religion / Spirituality",
@@ -43267,22 +43283,22 @@
         },
         {
           "category": "(uncategorized)",
-          "count": 19
+          "count": 18
         }
       ],
       "images": {
-        "total": 4384,
-        "with_image": 2762,
+        "total": 4431,
+        "with_image": 2786,
         "by_source": [
           {
             "source": "Evanston Roundtable",
-            "total": 1303,
-            "with_image": 1252
+            "total": 1300,
+            "with_image": 1249
           },
           {
             "source": "CitySpark Evanston",
-            "total": 984,
-            "with_image": 868
+            "total": 973,
+            "with_image": 857
           },
           {
             "source": "Chicago Botanic Garden",
@@ -43306,8 +43322,8 @@
           },
           {
             "source": "CitySpark Evanston, Ticketmaster/Evanston Venues",
-            "total": 56,
-            "with_image": 56
+            "total": 54,
+            "with_image": 54
           },
           {
             "source": "Beth Emet",
@@ -43315,9 +43331,19 @@
             "with_image": 25
           },
           {
+            "source": "Visit Chicago North Shore",
+            "total": 24,
+            "with_image": 24
+          },
+          {
             "source": "Enjoy Evanston",
             "total": 20,
             "with_image": 19
+          },
+          {
+            "source": "CitySpark Evanston, Visit Chicago North Shore",
+            "total": 11,
+            "with_image": 11
           },
           {
             "source": "Meetup Evanston Writers",
@@ -43385,17 +43411,17 @@
             "with_image": 4
           },
           {
+            "source": "Evanston Made, Evanston Roundtable",
+            "total": 4,
+            "with_image": 4
+          },
+          {
             "source": "Chicago Botanic Garden, Evanston Roundtable",
             "total": 3,
             "with_image": 3
           },
           {
             "source": "CitySpark Evanston, Evanston Made",
-            "total": 3,
-            "with_image": 3
-          },
-          {
-            "source": "Evanston Made, Evanston Roundtable",
             "total": 3,
             "with_image": 3
           },
@@ -43430,6 +43456,11 @@
             "with_image": 3
           },
           {
+            "source": "Evanston Roundtable, Visit Chicago North Shore",
+            "total": 2,
+            "with_image": 2
+          },
+          {
             "source": "CitySpark Evanston, Lincolnwood Library",
             "total": 2,
             "with_image": 2
@@ -43446,6 +43477,11 @@
           },
           {
             "source": "Meetup Black Girls Read",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "CitySpark Evanston, Ticketmaster/Evanston Venues, Visit Chicago North Shore",
             "total": 2,
             "with_image": 2
           },
@@ -43545,17 +43581,17 @@
             "with_image": 1
           },
           {
-            "source": "CitySpark Evanston, The Main-Dempster Mile",
+            "source": "CitySpark Evanston, The Main-Dempster Mile, Visit Chicago North Shore",
             "total": 1,
             "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 4367,
-        "total_events": 4384,
-        "unique_urls": 3437,
-        "generic_count": 601,
+        "total_with_url": 4362,
+        "total_events": 4431,
+        "unique_urls": 3433,
+        "generic_count": 600,
         "generic_domains": [
           {
             "domain": "wilmette.libnet.info",
@@ -43594,7 +43630,7 @@
           },
           {
             "domain": "www.northwestern.edu",
-            "events": 27,
+            "events": 26,
             "url": "https://www.northwestern.edu/norris/arts/dittmar-gallery/exhibition-submissions.html"
           },
           {
@@ -43658,15 +43694,15 @@
         "source_specificity": [
           {
             "source": "Evanston Roundtable",
-            "events": 1303,
-            "unique_urls": 973,
+            "events": 1300,
+            "unique_urls": 971,
             "specificity_pct": 75
           },
           {
             "source": "CitySpark Evanston",
-            "events": 984,
-            "unique_urls": 607,
-            "specificity_pct": 62
+            "events": 973,
+            "unique_urls": 598,
+            "specificity_pct": 61
           },
           {
             "source": "Skokie Library",
@@ -43694,7 +43730,7 @@
           },
           {
             "source": "Northwestern University",
-            "events": 189,
+            "events": 188,
             "unique_urls": 72,
             "specificity_pct": 38
           },
@@ -43718,8 +43754,8 @@
           },
           {
             "source": "CitySpark Evanston, Ticketmaster/Evanston Venues",
-            "events": 56,
-            "unique_urls": 56,
+            "events": 54,
+            "unique_urls": 54,
             "specificity_pct": 100
           },
           {
@@ -47643,5 +47679,11 @@
       "feed": "now_toronto"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "date": "2026-03-14",
+      "line": "2026-03-14 22:04:25,297 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
+      "source": null
+    }
+  ]
 }
