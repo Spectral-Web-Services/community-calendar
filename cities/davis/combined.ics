@@ -7,90 +7,6 @@ X-WR-CALNAME:Davis Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ucdavis Campusgroups": "https://aggielife.ucdavis.edu/rsvp?id=906910"}
-X-SOURCE-ID:ucdavis_campusgroups
-SUMMARY:Bible Study
-DTSTART;VALUE=DATE-TIME:20260313T020000Z
-DTEND;VALUE=DATE-TIME:20260313T030000Z
-UID:4778baaa75e39834db3efd4b02d175d81252025_3:45:20_AM@campusgroups.com
-DESCRIPTION:A weekly gathering where we come together to read the Bible\, 
- explore its meaning\, and share fellowship. Each meeting includes prayer\,
-  discussion\, and practical applications to help us grow spiritually and s
- upport one another in our Christian walk. Everyone is welcome\, regardless
-  of background or experience! --- Event Details: https://aggielife.ucdavis
- .edu/rsvp?id=906910
-URL:https://aggielife.ucdavis.edu/rsvp?id=906910
-X-SOURCE:UC Davis CampusGroups
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"UC Davis CampusGroups": "https://aggielife.ucdavis.edu/rsvp?id=906945"}
-X-SOURCE-URLS:{"Ucdavis Campusgroups": "https://aggielife.ucdavis.edu/rsvp?id=907322"}
-X-SOURCE-ID:ucdavis_campusgroups
-SUMMARY:General Meeting
-DTSTART;VALUE=DATE-TIME:20260313T020000Z
-DTEND;VALUE=DATE-TIME:20260313T030000Z
-UID:c1e5c4d7d89a1f884487f9caf155c3d912122025_3:03:46_AM@campusgroups.com
-DESCRIPTION:A collection of different events every Thursday hosted by our 
- club\, ranging from marshmallow tower building to jeopardy! --- Event Deta
- ils: https://aggielife.ucdavis.edu/rsvp?id=907322
-URL:https://aggielife.ucdavis.edu/rsvp?id=907322
-X-SOURCE:UC Davis CampusGroups
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ucdavis Campusgroups": "https://aggielife.ucdavis.edu/rsvp?id=908340"}
-X-SOURCE-ID:ucdavis_campusgroups
-SUMMARY:Davis Autonomy Expo
-DTSTART;VALUE=DATE-TIME:20260313T023000Z
-DTEND;VALUE=DATE-TIME:20260313T050000Z
-UID:1dadd81d5b7d449cf4d3e5d092992b04292026_6:04:58_PM@campusgroups.com
-DESCRIPTION:The Autonomous Robotics Showcase is an open-to-all-students de
- monstration event hosted by the Davis Autonomy Club. The event will featur
- e live robotics demonstrations including an Aloha Mini robotic arm perform
- ing autonomous manipulation tasks\, a leader-follower teleoperation statio
- n where attendees can physically control a robotic arm in real-time\, and 
- an AERO robotic hand demonstrating dexterous grasping and manipulation. Th
- e event will also include screen-based presentations of AI-controlled dron
- e flight and simulation environments\, brief keynote presentations on stud
- ent-led research in autonomous systems\, open networking time for students
-  interested in robotics and AI\, and food and refreshments. Our goal is to
-  make autonomous robotics accessible and exciting to the broader UC Davis 
- student body\, regardless of major or technical background. --- Event Deta
- ils: https://aggielife.ucdavis.edu/rsvp?id=908340
-URL:https://aggielife.ucdavis.edu/rsvp?id=908340
-X-SOURCE:UC Davis CampusGroups
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ucdavis Campusgroups": "https://aggielife.ucdavis.edu/rsvp?id=908129"}
-X-SOURCE-ID:ucdavis_campusgroups
-SUMMARY:Large Group
-DTSTART;VALUE=DATE-TIME:20260313T030000Z
-DTEND;VALUE=DATE-TIME:20260313T050000Z
-UID:bff1196e5113f5057365a9125f8774931142026_9:21:49_PM@campusgroups.com
-DESCRIPTION:Our weekly worship service! --- Event Details: https://aggieli
- fe.ucdavis.edu/rsvp?id=908129
-LOCATION:Kleiber Hall\, 1 Shields Ave\, Davis\, California 95616\, United 
- States
-URL:https://aggielife.ucdavis.edu/rsvp?id=908129
-X-SOURCE:UC Davis CampusGroups
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=29054&sport_id=8"}
-X-SOURCE-ID:ucdavis_athletics
-SUMMARY:[L] University of California\, Davis  Men's Basketball vs Cal Stat
- e Fullerton - Second Round
-DTSTART;VALUE=DATE-TIME:20260313T033000Z
-DTEND;VALUE=DATE-TIME:20260313T053000Z
-UID:vcal_29054-ucdavisaggies.com
-DESCRIPTION:[L] University of California\, Davis Men's Basketball vs Cal S
- tate Fullerton - Second Round L 70-82 TV: ESPN+ Streaming Video: https://w
- ww.espn.com/watch/catalog/a539c1a7-8c16-49f2-a9e7-a6dce381c230/big-west-co
- nference Streaming Audio: https://ucdavisaggies.com/showcase?Live=2537 Tic
- kets: https://ucdavisaggies.evenue.net/item/MB2526/BWT26
-LOCATION:Henderson\, Nev.\, Lee's Family Forum
-URL:https://ucdavisaggies.com/calendar.aspx?game_id=29054&sport_id=8
-X-SOURCE:UC Davis Athletics
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Yolo Library": "https://events.yolocountylibrary.org/event/15499246"}
 X-SOURCE-ID:yolo_library
 SUMMARY:English Conversation Group (Davis)
@@ -111,7 +27,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T100000
 DTEND;TZID=America/Los_Angeles:20260313T114500
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260127T025832Z
 LAST-MODIFIED:20260127T025832Z
 UID:10073727-1773396000-1773402300@thedirt.online
@@ -129,7 +45,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T120000
 DTEND;TZID=America/Los_Angeles:20260313T130000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260219T051446Z
 LAST-MODIFIED:20260219T051726Z
 UID:10075066-1773403200-1773406800@thedirt.online
@@ -149,7 +65,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T120000
 DTEND;TZID=America/Los_Angeles:20260313T160000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20251210T225628Z
 LAST-MODIFIED:20251210T225628Z
 UID:10069370-1773403200-1773417600@thedirt.online
@@ -178,7 +94,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T150000
 DTEND;TZID=America/Los_Angeles:20260313T163000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20251126T064711Z
 LAST-MODIFIED:20251202T024205Z
 UID:10069198-1773414000-1773419400@thedirt.online
@@ -196,7 +112,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T150000
 DTEND;TZID=America/Los_Angeles:20260313T163000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260124T225735Z
 LAST-MODIFIED:20260124T225736Z
 UID:10030343-1773414000-1773419400@thedirt.online
@@ -215,7 +131,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T150000
 DTEND;TZID=America/Los_Angeles:20260313T170000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20251224T073754Z
 LAST-MODIFIED:20251224T073754Z
 UID:10070873-1773414000-1773421200@thedirt.online
@@ -264,7 +180,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T170000
 DTEND;TZID=America/Los_Angeles:20260313T190000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260222T174336Z
 LAST-MODIFIED:20260222T174336Z
 UID:10075361-1773421200-1773428400@thedirt.online
@@ -282,7 +198,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T170000
 DTEND;TZID=America/Los_Angeles:20260313T210000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260224T030908Z
 LAST-MODIFIED:20260224T030909Z
 UID:10075482-1773421200-1773435600@thedirt.online
@@ -300,7 +216,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T173000
 DTEND;TZID=America/Los_Angeles:20260313T193000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260222T173131Z
 LAST-MODIFIED:20260222T173131Z
 UID:10075444-1773423000-1773430200@thedirt.online
@@ -364,7 +280,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T180000
 DTEND;TZID=America/Los_Angeles:20260313T183000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260304T054822Z
 LAST-MODIFIED:20260304T054822Z
 UID:10075720-1773424800-1773426600@thedirt.online
@@ -384,7 +300,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T180000
 DTEND;TZID=America/Los_Angeles:20260313T200000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260224T220836Z
 LAST-MODIFIED:20260224T220836Z
 UID:10075558-1773424800-1773432000@thedirt.online
@@ -401,7 +317,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T180000
 DTEND;TZID=America/Los_Angeles:20260313T210000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260224T033646Z
 LAST-MODIFIED:20260224T033646Z
 UID:10075469-1773424800-1773435600@thedirt.online
@@ -433,7 +349,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T190000
 DTEND;TZID=America/Los_Angeles:20260313T203000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260117T195932Z
 LAST-MODIFIED:20260117T195932Z
 UID:10072141-1773428400-1773433800@thedirt.online
@@ -450,7 +366,7 @@ X-SOURCE-ID:thedirt
 X-SOURCE:The Dirt
 DTSTART;TZID=America/Los_Angeles:20260313T190000
 DTEND;TZID=America/Los_Angeles:20260313T203000
-DTSTAMP:20260313T184120
+DTSTAMP:20260313T221924
 CREATED:20260304T055649Z
 LAST-MODIFIED:20260304T055826Z
 UID:10075722-1773428400-1773433800@thedirt.online
@@ -477,6 +393,7 @@ URL:https://ucdavisaggies.com/calendar.aspx?game_id=28762&sport_id=16
 X-SOURCE:UC Davis Athletics
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"UC Davis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28922&sport_id=13"}
 X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28921&sport_id=13"}
 X-SOURCE-ID:ucdavis_athletics
 SUMMARY:[L] University of California\, Davis  Softball at UC San Diego
@@ -504,20 +421,6 @@ DESCRIPTION:[L] University of California\, Davis Women's Basketball vs UC
  s Streaming Audio: https://ucdavisaggies.com/showcase?Live=2538
 LOCATION:Henderson\, Nev.
 URL:https://ucdavisaggies.com/calendar.aspx?game_id=29060&sport_id=15
-X-SOURCE:UC Davis Athletics
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28922&sport_id=13"}
-X-SOURCE-ID:ucdavis_athletics
-SUMMARY:University of California\, Davis  Softball at UC San Diego
-DTSTART;VALUE=DATE-TIME:20260313T220000Z
-DTEND;VALUE=DATE-TIME:20260314T000000Z
-UID:vcal_28922-ucdavisaggies.com
-DESCRIPTION:University of California\, Davis Softball at UC San Diego Stre
- aming Video: https://www.espn.com/watch/player/_/id/5010dbd0-6c0e-4f23-af4
- 3-bf2c9e942016
-LOCATION:La Jolla\, Caif.
-URL:https://ucdavisaggies.com/calendar.aspx?game_id=28922&sport_id=13
 X-SOURCE:UC Davis Athletics
 END:VEVENT
 BEGIN:VEVENT
@@ -554,14 +457,14 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28669&sport_id=19"}
 X-SOURCE-ID:ucdavis_athletics
-SUMMARY:University of California\, Davis  Women's Lacrosse vs Marist - Mor
- gan's Message
+SUMMARY:[W] University of California\, Davis  Women's Lacrosse vs Marist -
+  Morgan's Message
 DTSTART;VALUE=DATE-TIME:20260314T000000Z
 DTEND;VALUE=DATE-TIME:20260314T030000Z
 UID:vcal_28669-ucdavisaggies.com
-DESCRIPTION:University of California\, Davis Women's Lacrosse vs Marist - 
- Morgan's Message TV: YouTube Streaming Video: https://www.youtube.com/watc
- h?v=sHaSnTynGck
+DESCRIPTION:[W] University of California\, Davis Women's Lacrosse vs Maris
+ t - Morgan's Message W 15-4 TV: YouTube Streaming Video: https://www.youtu
+ be.com/watch?v=sHaSnTynGck
 LOCATION:Davis\, Calif.\, UC Davis Health Stadium
 URL:https://ucdavisaggies.com/calendar.aspx?game_id=28669&sport_id=19
 X-SOURCE:UC Davis Athletics
@@ -581,28 +484,28 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28962&sport_id=1"}
 X-SOURCE-ID:ucdavis_athletics
-SUMMARY:University of California\, Davis  Baseball vs UC Santa Barbara - F
- ac/Staff Appreciation\, Student Giveaway
+SUMMARY:[L] University of California\, Davis  Baseball vs UC Santa Barbara
+  - Fac/Staff Appreciation\, Student Giveaway
 DTSTART;VALUE=DATE-TIME:20260314T010000Z
 DTEND;VALUE=DATE-TIME:20260314T040000Z
 UID:vcal_28962-ucdavisaggies.com
-DESCRIPTION:University of California\, Davis Baseball vs UC Santa Barbara 
- - Fac/Staff Appreciation\, Student Giveaway
+DESCRIPTION:[L] University of California\, Davis Baseball vs UC Santa Barb
+ ara - Fac/Staff Appreciation\, Student Giveaway L 0-4
 LOCATION:Davis\, Calif.\, Phil Swimley Field at Dobbins Stadium
 URL:https://ucdavisaggies.com/calendar.aspx?game_id=28962&sport_id=1
 X-SOURCE:UC Davis Athletics
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"UC Davis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28787&sport_id=24"}
 X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28786&sport_id=24"}
 X-SOURCE-ID:ucdavis_athletics
-SUMMARY:University of California\, Davis  Women's Water Polo vs Hawai'i
+SUMMARY:[L] University of California\, Davis  Women's Water Polo vs Hawai'
+ i
 DTSTART;VALUE=DATE-TIME:20260314T010000Z
 DTEND;VALUE=DATE-TIME:20260314T023000Z
 UID:vcal_28786-ucdavisaggies.com
-DESCRIPTION:University of California\, Davis Women's Water Polo vs Hawai'i
-  Streaming Video: https://www.espn.com/watch/player/_/id/39e6bb2d-a74a-491
- 6-9203-de3d533347e5
+DESCRIPTION:[L] University of California\, Davis Women's Water Polo vs Haw
+ ai'i L 8-9 Streaming Video: https://www.espn.com/watch/player/_/id/39e6bb2
+ d-a74a-4916-9203-de3d533347e5
 LOCATION:Davis\, Calif.\, Schaal Aquatics Center
 URL:https://ucdavisaggies.com/calendar.aspx?game_id=28786&sport_id=24
 X-SOURCE:UC Davis Athletics
@@ -667,7 +570,7 @@ URL:https://davisbikeclub.org/saturday-joy-ride/
 DTSTART;TZID=America/Los_Angeles:20260314T090000
 DTEND;TZID=America/Los_Angeles:20260314T113000
 RRULE:FREQ=WEEKLY;BYDAY=SA
-DTSTAMP:20260314T014121Z
+DTSTAMP:20260314T051926Z
 UID:tv9vn12t20recap7msiiii16sn@google.com
 CREATED:20260108T002713Z
 DESCRIPTION:<a href="https://www.google.com/url?q=https://davisbikeclub.org
@@ -688,7 +591,7 @@ X-SOURCE:Davis Bike Club
 URL:https://ridewithgps.com/routes/54187228
 DTSTART;TZID=America/Los_Angeles:20260314T090000
 DTEND;TZID=America/Los_Angeles:20260314T130000
-DTSTAMP:20260314T014121Z
+DTSTAMP:20260314T051926Z
 UID:um3f9rrqc3e43vqnc0mj7nopip@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20260314T090000
 CREATED:20251104T152227Z
@@ -764,7 +667,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_312570962@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260314T160000
 DTEND;TZID=America/Los_Angeles:20260314T170000
 SUMMARY:Mosaics Beginning Spanish on Zoom
@@ -782,7 +685,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313484073@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260314T170000
 DTEND;TZID=America/Los_Angeles:20260314T180000
 SUMMARY:Mosaics Beginning Korean on Zoom
@@ -842,7 +745,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313484768@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260314T180000
 DTEND;TZID=America/Los_Angeles:20260314T190000
 SUMMARY:Mosaics Beginning Japanese on Zoom
@@ -874,7 +777,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313485523@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260314T190000
 DTEND;TZID=America/Los_Angeles:20260314T200000
 SUMMARY:Mosaics English Learners Group on Zoom
@@ -885,6 +788,19 @@ CREATED:20260223T034254Z
 LAST-MODIFIED:20260223T034254Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/2/9/7/8/600_530350616.jpeg
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28787&sport_id=24"}
+X-SOURCE-ID:ucdavis_athletics
+SUMMARY:University of California\, Davis  Women's Water Polo at UC Merced
+DTSTART;VALUE=DATE-TIME:20260314T190000Z
+DTEND;VALUE=DATE-TIME:20260314T203000Z
+UID:vcal_28787-ucdavisaggies.com
+DESCRIPTION:University of California\, Davis Women's Water Polo at UC Merc
+ ed Streaming Video: https://team1sports.com/wwpa/?B=3531788
+LOCATION:Merced\, Calif.
+URL:https://ucdavisaggies.com/calendar.aspx?game_id=28787&sport_id=24
+X-SOURCE:UC Davis Athletics
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ucdavis Athletics": "https://ucdavisaggies.com/calendar.aspx?game_id=28731&sport_id=11"}
@@ -1033,7 +949,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_313060112@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260316T170000
 DTEND;TZID=America/Los_Angeles:20260316T200000
 SUMMARY:Intuitive Soul Stories: Oracle Card Making Workshop
@@ -1122,7 +1038,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260317T090000
 DTEND;TZID=UTC:20260317T110000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20260227T194449Z
 LAST-MODIFIED:20260227T194449Z
 UID:10000313-1773738000-1773745200@hatefreetogether.org
@@ -1372,7 +1288,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_313550725@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260318T170000
 DTEND;TZID=America/Los_Angeles:20260318T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -1390,7 +1306,7 @@ X-SOURCE-ID:meetup_winters_write
 X-SOURCE:Meetup: Winters Shut Up & Write
 UID:event_313243813@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051923Z
 DTSTART;TZID=America/Los_Angeles:20260318T170000
 DTEND;TZID=America/Los_Angeles:20260318T180000
 SUMMARY:Winters Chapter Shut Up and Write
@@ -1430,7 +1346,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260318T190000
 DTEND;TZID=UTC:20260318T200000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20250609T205453Z
 LAST-MODIFIED:20250609T205453Z
 UID:10000270-1773860400-1773864000@hatefreetogether.org
@@ -1458,7 +1374,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260319T083000
 DTEND;TZID=UTC:20260319T153000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20260227T200627Z
 LAST-MODIFIED:20260227T200859Z
 UID:10000314-1773909000-1773934200@hatefreetogether.org
@@ -1551,7 +1467,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_313060113@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260319T180000
 DTEND;TZID=America/Los_Angeles:20260319T191000
 SUMMARY:Free Yoga Practice
@@ -1655,7 +1571,7 @@ X-SOURCE-ID:meetup_pence_art
 X-SOURCE:Meetup: Pence Art Programs
 UID:event_313287945@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014118Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260321T093000
 DTEND;TZID=America/Los_Angeles:20260321T160000
 SUMMARY:Gel Printing Workshop with Sara Post
@@ -1730,7 +1646,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313594928@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260321T160000
 DTEND;TZID=America/Los_Angeles:20260321T170000
 SUMMARY:Mosaics Beginning Spanish on Zoom
@@ -1763,7 +1679,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313595579@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260321T170000
 DTEND;TZID=America/Los_Angeles:20260321T180000
 SUMMARY:Mosaics Beginning Korean on Zoom
@@ -1781,7 +1697,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313596423@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260321T180000
 DTEND;TZID=America/Los_Angeles:20260321T190000
 SUMMARY:Mosaics Beginning Japanese on Zoom
@@ -1799,7 +1715,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313581532@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260321T190000
 DTEND;TZID=America/Los_Angeles:20260321T200000
 SUMMARY:Mosaics English Learners Group on Zoom
@@ -1956,7 +1872,7 @@ X-SOURCE-ID:meetup_pence_art
 X-SOURCE:Meetup: Pence Art Programs
 UID:event_313100924@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014118Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260323T100000
 DTEND;TZID=America/Los_Angeles:20260323T114500
 SUMMARY:Healing Arts One-Time Workshop
@@ -2002,7 +1918,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_313060114@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260323T180000
 DTEND;TZID=America/Los_Angeles:20260323T200000
 SUMMARY:Conscious Conversations & Embodied Listening  
@@ -2075,7 +1991,7 @@ X-SOURCE-ID:meetup_pence_art
 X-SOURCE:Meetup: Pence Art Programs
 UID:event_313423126@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014118Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260324T100000
 DTEND;TZID=America/Los_Angeles:20260324T120000
 SUMMARY:Intermediate Watercolor Painting with Misuk Goltz (6-Sessions)
@@ -2302,7 +2218,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_313659673@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260325T170000
 DTEND;TZID=America/Los_Angeles:20260325T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -2468,7 +2384,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_313060115@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260326T180000
 DTEND;TZID=America/Los_Angeles:20260326T191000
 SUMMARY:Free Yoga Practice
@@ -2695,7 +2611,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_313545794@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260328T094500
 DTEND;TZID=America/Los_Angeles:20260328T131500
 SUMMARY:A Guided Nature Walk (Free event)
@@ -2790,7 +2706,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313703660@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260328T160000
 DTEND;TZID=America/Los_Angeles:20260328T170000
 SUMMARY:Mosaics Beginning Spanish on Zoom
@@ -2808,7 +2724,7 @@ X-SOURCE-ID:meetup_mosaics
 X-SOURCE:Meetup: Mosaics
 UID:event_313704302@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260328T170000
 DTEND;TZID=America/Los_Angeles:20260328T180000
 SUMMARY:Mosaics Beginning Korean on Zoom
@@ -2993,7 +2909,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_313060116@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260330T180000
 DTEND;TZID=America/Los_Angeles:20260330T200000
 SUMMARY:Conscious Conversations & Embodied Listening  
@@ -3294,7 +3210,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_mxnqstyjcgbcb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260401T170000
 DTEND;TZID=America/Los_Angeles:20260401T210000
 SUMMARY:Blood on the Clocktower at Blue Note
@@ -3341,7 +3257,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260401T190000
 DTEND;TZID=UTC:20260401T200000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20250609T205334Z
 LAST-MODIFIED:20250609T205334Z
 UID:10000246-1775070000-1775073600@hatefreetogether.org
@@ -3445,7 +3361,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_313060117@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260402T180000
 DTEND;TZID=America/Los_Angeles:20260402T191000
 SUMMARY:Free Yoga Practice
@@ -3956,7 +3872,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_lczxttyjcgbjb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260406T180000
 DTEND;TZID=America/Los_Angeles:20260406T200000
 SUMMARY:Conscious Conversations & Embodied Listening  
@@ -4386,7 +4302,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_vwnqstyjcgblb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260408T170000
 DTEND;TZID=America/Los_Angeles:20260408T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -4557,7 +4473,7 @@ X-SOURCE-ID:meetup_pence_art
 X-SOURCE:Meetup: Pence Art Programs
 UID:event_313610437@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014118Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260409T100000
 DTEND;TZID=America/Los_Angeles:20260409T114500
 SUMMARY:Healing Arts One-Time Workshop
@@ -4630,7 +4546,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_tzxxttyjcgbmb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260409T180000
 DTEND;TZID=America/Los_Angeles:20260409T191000
 SUMMARY:Free Yoga Practice
@@ -5097,7 +5013,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_312345824@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260411T160000
 DTEND;TZID=America/Los_Angeles:20260411T170000
 SUMMARY:Mosaics Acoustic Guitar & Singing Group
@@ -5115,7 +5031,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_312245485@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260411T180000
 DTEND;TZID=America/Los_Angeles:20260411T190000
 SUMMARY:Mosaics Intercultural Dinner Fellowship
@@ -5147,7 +5063,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_lhkgvtyjcgbpb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260411T190000
 DTEND;TZID=America/Los_Angeles:20260411T200000
 SUMMARY:Mosaics Water & Acrylic Painting
@@ -5421,7 +5337,7 @@ X-SOURCE-ID:meetup_mindful
 X-SOURCE:Meetup: Mindful Embodied Spirituality
 UID:event_lczxttyjcgbrb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014119Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260413T180000
 DTEND;TZID=America/Los_Angeles:20260413T200000
 SUMMARY:Conscious Conversations & Embodied Listening  
@@ -5468,7 +5384,7 @@ X-SOURCE:Davis Bike Club
 DTSTART;TZID=America/Los_Angeles:20260413T190000
 DTEND;TZID=America/Los_Angeles:20260413T203000
 RRULE:FREQ=MONTHLY;BYDAY=2MO
-DTSTAMP:20260314T014121Z
+DTSTAMP:20260314T051926Z
 UID:b2ivqu9ll5tod91a2in388j7sc@google.com
 CREATED:20240829T230534Z
 DESCRIPTION:<p>Come join us for a social gathering\, an interesting cycling
@@ -5615,18 +5531,6 @@ URL:https://events.library.ucdavis.edu/event/davis-r-users-group-2026
 X-SOURCE:UC Davis Library
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Uudavis": "https://uudavis.org/calendar/"}
-X-SOURCE-ID:uudavis
-SUMMARY:Cottage - DLG Spring 2026 (L Visher)
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260414T184500
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260414T204500
-UID:0tcgkvvmqtuq54ec3qadbdehah@google.com
-DESCRIPTION:None
-LOCATION:UU Church of Davis\, 27074 Patwin Rd\, Davis\, CA
-URL:https://uudavis.org/calendar/
-X-SOURCE:UU Davis
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Ucdavis Library": "https://events.library.ucdavis.edu/event/copy-of-datalab-office-hours-in-person"}
 X-SOURCE-ID:ucdavis_library
 SUMMARY:DataLab Office Hours (in person)
@@ -5733,7 +5637,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_kwnqstyjcgbtb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260415T170000
 DTEND;TZID=America/Los_Angeles:20260415T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -5751,7 +5655,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260415T190000
 DTEND;TZID=UTC:20260415T200000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20250609T205453Z
 LAST-MODIFIED:20250609T205453Z
 UID:10000271-1776279600-1776283200@hatefreetogether.org
@@ -6052,7 +5956,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_xgkgvtyjcgbxb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260418T160000
 DTEND;TZID=America/Los_Angeles:20260418T170000
 SUMMARY:Mosaics Acoustic Guitar & Singing Group
@@ -6097,7 +6001,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_ghkgvtyjcgbxb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260418T180000
 DTEND;TZID=America/Los_Angeles:20260418T190000
 SUMMARY:Mosaics Intercultural Dinner Fellowship
@@ -6154,7 +6058,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_lhkgvtyjcgbxb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260418T190000
 DTEND;TZID=America/Los_Angeles:20260418T200000
 SUMMARY:Mosaics Water & Acrylic Painting
@@ -6230,7 +6134,7 @@ X-SOURCE-ID:meetup_art_in_action
 X-SOURCE:Meetup: Art in Action
 UID:event_313772338@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014118Z
+DTSTAMP:20260314T051922Z
 DTSTART;TZID=America/Los_Angeles:20260419T130000
 DTEND;TZID=America/Los_Angeles:20260419T150000
 SUMMARY:Art in Action: Woven Fairy House Wall Hangings
@@ -6807,7 +6711,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_xgkgvtyjcgbhc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260425T160000
 DTEND;TZID=America/Los_Angeles:20260425T170000
 SUMMARY:Mosaics Acoustic Guitar & Singing Group
@@ -6837,7 +6741,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_ghkgvtyjcgbhc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260425T180000
 DTEND;TZID=America/Los_Angeles:20260425T190000
 SUMMARY:Mosaics Intercultural Dinner Fellowship
@@ -6855,7 +6759,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_lhkgvtyjcgbhc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260425T190000
 DTEND;TZID=America/Los_Angeles:20260425T200000
 SUMMARY:Mosaics Water & Acrylic Painting
@@ -7198,7 +7102,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_rwnqstyjcgbmc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260429T170000
 DTEND;TZID=America/Los_Angeles:20260429T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -7380,7 +7284,7 @@ X-SOURCE-ID:meetup_intercultural
 X-SOURCE:Meetup: Intercultural Mosaics
 UID:event_xgkgvtyjchbdb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260502T160000
 DTEND;TZID=America/Los_Angeles:20260502T170000
 SUMMARY:Mosaics Acoustic Guitar & Singing Group
@@ -7879,7 +7783,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_mxnqstyjchbjb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260506T170000
 DTEND;TZID=America/Los_Angeles:20260506T210000
 SUMMARY:Blood on the Clocktower at Blue Note
@@ -7897,7 +7801,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260506T190000
 DTEND;TZID=UTC:20260506T200000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20250609T205334Z
 LAST-MODIFIED:20250609T205334Z
 UID:10000247-1778094000-1778097600@hatefreetogether.org
@@ -8339,6 +8243,25 @@ URL:https://aggielife.ucdavis.edu/rsvp?id=905983
 X-SOURCE:UC Davis CampusGroups
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Ucdavis Campusgroups": "https://aggielife.ucdavis.edu/rsvp?id=908478"}
+X-SOURCE-ID:ucdavis_campusgroups
+SUMMARY:PRIDE Tabling Event
+DTSTART;VALUE=DATE-TIME:20260512T170000Z
+DTEND;VALUE=DATE-TIME:20260512T210000Z
+UID:132065d370b512ae7d699452c7e4d4fc3132026_1:24:26_PM@campusgroups.com
+DESCRIPTION:Join the Center for Student Involvement (CSI) for a vibrant Pr
+ ide Month tabling event at UC Davis! Registered Student Organizations (RSO
+ s) are invited to sign up for a table\, showcase their work\, fundraise fo
+ r their causes\, and connect with the UC Davis community. Come enjoy the l
+ ively atmosphere\, meet amazing student orgs\, show your Pride spirit\, an
+ d be part of a supportive\, joyful celebration of LGBTQIA+ identities on c
+ ampus. Whether you're tabling or just stopping by\, everyone is welcome to
+  join the fun! --- Event Details: https://aggielife.ucdavis.edu/rsvp?id=90
+ 8478
+URL:https://aggielife.ucdavis.edu/rsvp?id=908478
+X-SOURCE:UC Davis CampusGroups
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ucdavis Library": "https://events.library.ucdavis.edu/event/davis-r-users-group-2026"}
 X-SOURCE-ID:ucdavis_library
 SUMMARY:Davis R Users' Group
@@ -8469,7 +8392,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_vwnqstyjchbrb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260513T170000
 DTEND;TZID=America/Los_Angeles:20260513T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -8528,12 +8451,36 @@ URL:https://ucdavisaggies.com/calendar.aspx?game_id=29000&sport_id=1
 X-SOURCE:UC Davis Athletics
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Ucdavis Arts": "https://arts.ucdavis.edu/event/relative-motion"}
+X-SOURCE-ID:ucdavis_arts
+SUMMARY:"Relative Motion"
+DTSTART;VALUE=DATE-TIME:20260515T020000Z
+DTEND;VALUE=DATE-TIME:20260515T033000Z
+UID:calendar.13575.field_date.0.37
+DESCRIPTION:Spring Dance Concert 2026
+URL:https://arts.ucdavis.edu/event/relative-motion
+X-SOURCE:UC Davis Arts
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ucdavis Campusgroups": "https://aggielife.ucdavis.edu/rsvp?id=907329"}
+X-SOURCE-ID:ucdavis_campusgroups
+SUMMARY:General Meeting
+DTSTART;VALUE=DATE-TIME:20260515T020000Z
+DTEND;VALUE=DATE-TIME:20260515T030000Z
+UID:ff76f07eed97842af05fa9a530e9fd6112122025_3:03:58_AM@campusgroups.com
+DESCRIPTION:A collection of different events every Thursday hosted by our 
+ club\, ranging from marshmallow tower building to jeopardy! --- Event Deta
+ ils: https://aggielife.ucdavis.edu/rsvp?id=907329
+URL:https://aggielife.ucdavis.edu/rsvp?id=907329
+X-SOURCE:UC Davis CampusGroups
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Meetup: Yolo Board Game Gathering": "https://www.meetup.com/yolo-county-board-game-gathering/events/kwnqstyjchbbc/"}
 X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_kwnqstyjchbbc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260520T170000
 DTEND;TZID=America/Los_Angeles:20260520T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -8551,7 +8498,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260520T190000
 DTEND;TZID=UTC:20260520T200000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20250609T205453Z
 LAST-MODIFIED:20250609T205453Z
 UID:10000272-1779303600-1779307200@hatefreetogether.org
@@ -8567,7 +8514,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260523T120000
 DTEND;TZID=UTC:20260523T200000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20260130T185640Z
 LAST-MODIFIED:20260130T190843Z
 UID:10000308-1779537600-1779566400@hatefreetogether.org
@@ -8583,7 +8530,7 @@ X-SOURCE-ID:meetup_board_games
 X-SOURCE:Meetup: Yolo Board Game Gathering
 UID:event_rwnqstyjchbkc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T014117Z
+DTSTAMP:20260314T051921Z
 DTSTART;TZID=America/Los_Angeles:20260527T170000
 DTEND;TZID=America/Los_Angeles:20260527T210000
 SUMMARY:Weekly Game Night at Blue Note
@@ -8601,7 +8548,7 @@ X-SOURCE-ID:hatefreetogether
 X-SOURCE:Hate-Free Together
 DTSTART;TZID=UTC:20260603T190000
 DTEND;TZID=UTC:20260603T200000
-DTSTAMP:20260314T014121
+DTSTAMP:20260314T051926
 CREATED:20250609T205334Z
 LAST-MODIFIED:20250609T205334Z
 UID:10000248-1780513200-1780516800@hatefreetogether.org

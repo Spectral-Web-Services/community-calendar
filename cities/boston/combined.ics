@@ -7,6 +7,20 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A7bOCp"}
+X-SOURCE-ID:ticketmaster_emerson_colonial
+SUMMARY:Stereophonic
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260313T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260313T190000
+UID:d5a39389d7d85ac7a655e6f9c5c88fce@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4
+ 195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7bOCp
+X-SOURCE:Emerson Colonial Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/heart-of-a-dog/"}
 X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
@@ -1718,8 +1732,8 @@ SUMMARY:Forever K-Pop
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260408T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260408T200000
 UID:1fb7e7cdb09c5c5ab4cc0f3dfdbe1195@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/151/3a1fba6d-aafa-4
- bc5-889c-d76448eb2151_RETINA_PORTRAIT_16_9.jpg
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/38c/5b46bbec-5c2b-4
+ 772-a508-0f0b4f1de38c_RETINA_PORTRAIT_16_9.jpg
 DESCRIPTION:
 LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-F-y
