@@ -116,6 +116,7 @@
 
 | Glencoe Public Library | 404 |
 | Double Clutch Brewing | Wix, no events page |
+| Downtown Evanston (downtownevanston.org) | Vibemap React widget embed, no feeds/API; events likely covered by CitySpark + Eventbrite |
 
 ## To Investigate
 
