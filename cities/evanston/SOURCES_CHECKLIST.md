@@ -20,6 +20,8 @@
 | Northlight Theatre | `https://www.northlight.org/events/?ical=1` | WordPress + The Events Calendar; ~30 events; Skokie |
 | Evanston Made | `https://evanstonmade.org/community-calendar/?ical=1` | WordPress + The Events Calendar; ~30 events; community arts |
 | Eisenhower Public Library | `eisenhower.librarycalendar.com/events/feed/ical` | Communico ICS; ~402 events; Norwood Park |
+| Visit Chicago North Shore | `scrapers/visitchicagonorthshore.py` | Sitemap + JSON-LD; ~110 events with images; North Shore CVB |
+| Evanston American Legion | `scrapers/evanston_legion.py` | Google Calendar ICS, filtered; ~35 events; concerts, community |
 
 ### Libraries
 | Source | Feed URL | Notes |

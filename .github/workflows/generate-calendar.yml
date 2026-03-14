@@ -870,6 +870,10 @@ jobs:
         curl -sL "https://tockify.com/api/feeds/ics/enjoyevanston" -o cities/evanston/enjoy_evanston.ics || true
         # CitySpark (direct, 5-mile radius around Evanston)
         python scrapers/cityspark/evanston.py --output cities/evanston/cityspark_evanston.ics || true
+        # Visit Chicago North Shore (sitemap + JSON-LD)
+        python scrapers/visitchicagonorthshore.py --output cities/evanston/visit_north_shore.ics || true
+        # Evanston American Legion (Google Calendar, filtered)
+        python scrapers/evanston_legion.py --output cities/evanston/evanston_legion.ics || true
         # Additional direct feeds
         curl -sL "https://www.northlight.org/events/?ical=1" -o cities/evanston/northlight_theatre.ics || true
         curl -sL "https://evanstonmade.org/community-calendar/?ical=1" -o cities/evanston/evanston_made.ics || true
