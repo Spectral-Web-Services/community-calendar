@@ -12,7 +12,7 @@ used across all city feeds, identified by their PRODID header.
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, davis, jweekly, montclair, petaluma, portland, publisher-resources, raleighdurham, roanoke, santarosa, toronto | 55 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, evanston, matsu, montclair, raleighdurham, roanoke, santarosa | 53 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland, raleighdurham | 24 |
-| **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, petaluma, portland, santarosa, toronto | 10 |
+| **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland, santarosa, toronto | 11 |
 | **MaxPreps** | High school sports schedules. | montclair, petaluma, santarosa | 10 |
 | **GrowthZone** | Chamber of commerce / association management platform. | montclair, petaluma, raleighdurham, roanoke | 6 |
 | **LibCal (Springshare)** | Library event management platform. | bloomington, montclair, portland, raleighdurham | 5 |
@@ -138,11 +138,13 @@ Campus/community event platform by Concept3D (Indiana University instance).
 
 **raleighdurham** (5): nc_cultural_resources, ncsu, ncsu_aacc, ncsu_gregg_museum, unc_chapel_hill
 
-### Tockify (10 feeds)
+### Tockify (11 feeds)
 
 Embeddable calendar widget with public ICS feeds.
 
 **bloomington** (1): bloomington_arts
+
+**evanston** (1): enjoy_evanston
 
 **petaluma** (2): griffo, petaluma_downtown
 
@@ -232,6 +234,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 |--------|------|-------|
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//DaylightPirates//EB-to-iCAL//EN` | raleighdurham | quail_ridge_books |
+| `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |
 | `-//Luma//Hacks/Hackers//EN` | publisher-resources | hackshackers |
 | `-//Portland Community College//NONSGML v1.0//EN` | portland | portland_community_college |
