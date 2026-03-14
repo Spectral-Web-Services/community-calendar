@@ -868,8 +868,10 @@ jobs:
         python scrapers/chicagobotanic.py --output cities/evanston/chicago_botanic.ics || true
         # Enjoy Evanston (Tockify)
         curl -sL "https://tockify.com/api/feeds/ics/enjoyevanston" -o cities/evanston/enjoy_evanston.ics || true
-        # CitySpark (Evanston Roundtable)
-        python scrapers/cityspark/evanstonroundtable.py --output cities/evanston/cityspark_roundtable.ics || true
+        # Direct feeds replacing CitySpark aggregator
+        curl -sL "https://www.northlight.org/events/?ical=1" -o cities/evanston/northlight_theatre.ics || true
+        curl -sL "https://evanstonmade.org/community-calendar/?ical=1" -o cities/evanston/evanston_made.ics || true
+        curl -sL "https://eisenhower.librarycalendar.com/events/feed/ical?current_date=$(date +%Y-%m-%d)" -o cities/evanston/eisenhower_library.ics || true
         # Eventbrite organizers
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/bookends-beginnings-30806170182" --name "Bookends & Beginnings" -o cities/evanston/eb_bookends.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/the-wine-goddess-3108057164" --name "The Wine Goddess" -o cities/evanston/eb_wine_goddess.ics || true

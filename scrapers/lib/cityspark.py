@@ -163,17 +163,3 @@ class PressDemocratScraper(CitySparkScraper):
     lng = -122.8540282
     distance = 40
     calendar_url = "https://www.pressdemocrat.com/events/"
-
-
-class EvanstonRoundtableScraper(CitySparkScraper):
-    """Scraper for Evanston Roundtable events."""
-
-    name = "Evanston Roundtable"
-    domain = "evanstonroundtable.com"
-    api_slug = "EvanstonRoundtable"
-    ppid = 0
-    lat = 42.0451
-    lng = -87.6877
-    distance = 10
-    timezone = "America/Chicago"
-    calendar_url = "https://evanstonroundtable.com/events/"

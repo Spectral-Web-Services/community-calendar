@@ -16,7 +16,9 @@
 | City of Evanston (City Council) | `scrapers/revize.py` (City Council category) | Revize CMS JSON API; ~11 events |
 | Chicago Botanic Garden | `scrapers/chicagobotanic.py` | Drupal calendar scraper; ~157 events with images |
 | Enjoy Evanston | `tockify.com/api/feeds/ics/enjoyevanston` | Tockify ICS; ~68 events with images (X-TKF-FEATURED-IMAGE) |
-| Evanston Roundtable | `scrapers/cityspark/evanstonroundtable.py` | CitySpark API; ~2,100 events with images; 10-mile radius |
+| Northlight Theatre | `https://www.northlight.org/events/?ical=1` | WordPress + The Events Calendar; ~30 events; Skokie |
+| Evanston Made | `https://evanstonmade.org/community-calendar/?ical=1` | WordPress + The Events Calendar; ~30 events; community arts |
+| Eisenhower Public Library | `eisenhower.librarycalendar.com/events/feed/ical` | Communico ICS; ~402 events; Norwood Park |
 
 ### Libraries
 | Source | Feed URL | Notes |
@@ -99,13 +101,13 @@
 | Illinois Holocaust Museum (Skokie) | WordPress but no ICS feed at ?ical=1 |
 | Evanston Art Center | Drupal, no feeds |
 | Glenview Park District | Individual ICS download only, no feed |
-| Skokie Park District | Custom system, no feeds |
+| Skokie Park District | Custom ASP.NET/Angular system (Americaneagle.com), no feeds or API |
 
 | Temperance Beer | 401 Unauthorized |
 | Sketchbook Brewing | No events page found |
 | McGaw YMCA | No feed visible |
 
-| ~~Evanston RoundTable~~ | ~~Embedded calendar, no ICS at ?ical=1~~ → **Now implemented via CitySpark API** |
+| Evanston RoundTable | CitySpark aggregator — replaced with direct feeds from underlying sources |
 | Wilmette Village | Redirects, 404 |
 | Evanston Art Center Eventbrite | Organizer page 404 |
 | Wilmette Public Library | Communico platform with ICS/RSS disabled |
@@ -116,7 +118,10 @@
 
 | Glencoe Public Library | 404 |
 | Double Clutch Brewing | Wix, no events page |
-| Downtown Evanston (downtownevanston.org) | Vibemap React widget embed, no feeds/API; events likely covered by CitySpark + Eventbrite |
+| Downtown Evanston (downtownevanston.org) | Vibemap React widget embed, no feeds/API; events covered by Eventbrite |
+| North Shore Senior Center | WordPress + Astra/Elementor, no calendar plugin visible |
+| Zanies Comedy Club | WordPress/Elementor, no feeds; site data misconfigured (shows Nashville) |
+| Pastimes Comics & Games | Site unreachable |
 
 ## To Investigate
 
