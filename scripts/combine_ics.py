@@ -820,6 +820,8 @@ AGGREGATORS = {
     'Toronto Events (Tockify)',
     'Montclair Local News',
     'Boston Theatre Scene',
+    'CitySpark Evanston',
+    'Visit Chicago North Shore',
 }
 
 
