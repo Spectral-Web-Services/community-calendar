@@ -15,6 +15,8 @@
 | City of Evanston (Meetings) | `scrapers/revize.py` (Meetings category) | Revize CMS JSON API; ~103 events |
 | City of Evanston (City Council) | `scrapers/revize.py` (City Council category) | Revize CMS JSON API; ~11 events |
 | Chicago Botanic Garden | `scrapers/chicagobotanic.py` | Drupal calendar scraper; ~157 events with images |
+| Enjoy Evanston | `tockify.com/api/feeds/ics/enjoyevanston` | Tockify ICS; ~68 events with images (X-TKF-FEATURED-IMAGE) |
+| Evanston Roundtable | `scrapers/cityspark/evanstonroundtable.py` | CitySpark API; ~2,100 events with images; 10-mile radius |
 
 ### Libraries
 | Source | Feed URL | Notes |
@@ -71,6 +73,15 @@
 | Prairie Moon | `eventbrite.com/o/prairie-moon-51597641783` | ~1 event; jazz, music |
 | Downtown Evanston | `eventbrite.com/o/downtown-evanston-6767069203` | Art receptions, community events |
 | The Backyard Barbecue Store | `eventbrite.com/o/dan-marguerite-16757593742` | ~9 events; BBQ classes |
+| Booked | `eventbrite.com/o/booked-76549470443` | ~2 upcoming, 25 total; indie bookstore, author events |
+| Creative Coworking | `eventbrite.com/o/creative-coworking-23232786009` | ~6 upcoming, 416 total; gallery nights, concerts, dinners; 922 Davis St + Colvin House |
+| The Main-Dempster Mile | `eventbrite.com/o/the-main-dempster-mile-13695320840` | ~1 upcoming, 43 total; community crawls, wine walks |
+| Northshore Concert Band | `eventbrite.com/o/41593942663` | ~2 upcoming; concerts at Pick-Staiger Hall |
+| Stewpendous Productions | `eventbrite.com/o/120935657951` | ~7 upcoming; trivia nights, music bingo at Double Clutch + others |
+| Rhythm Revolution | `eventbrite.com/o/33380339107` | ~1 upcoming; drum circles at Double Clutch Brewing |
+| Mezcla Media Collective | `eventbrite.com/o/mezcla-media-collective-54754536433` | ~1 upcoming, 41 total; experimental video/art at Evanston Art Center |
+| Homeschool + Hue | `eventbrite.com/o/121090594971` | Family meetups for children of color; Zora's Place |
+| BLAST Northwestern | `eventbrite.com/o/121097824224` | Dance performances at Ryan Auditorium |
 
 ### Ticketmaster (via Discovery API)
 | Source | Query | Notes |
@@ -94,7 +105,7 @@
 | Sketchbook Brewing | No events page found |
 | McGaw YMCA | No feed visible |
 
-| Evanston RoundTable | Embedded calendar, no ICS at ?ical=1 |
+| ~~Evanston RoundTable~~ | ~~Embedded calendar, no ICS at ?ical=1~~ → **Now implemented via CitySpark API** |
 | Wilmette Village | Redirects, 404 |
 | Evanston Art Center Eventbrite | Organizer page 404 |
 | Wilmette Public Library | Communico platform with ICS/RSS disabled |
@@ -105,6 +116,7 @@
 
 | Glencoe Public Library | 404 |
 | Double Clutch Brewing | Wix, no events page |
+| Downtown Evanston (downtownevanston.org) | Vibemap React widget embed, no feeds/API; events likely covered by CitySpark + Eventbrite |
 
 ## To Investigate
 

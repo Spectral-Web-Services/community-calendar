@@ -34,6 +34,7 @@ class CitySparkScraper(BaseScraper):
     lng: float = 0.0
     distance: int = 30
     calendar_url: str = ""
+    timezone: str = "America/Los_Angeles"
     API_BASE = "https://portal.cityspark.com/v1/events"
 
     def fetch_events(self) -> list[dict[str, Any]]:
@@ -92,21 +93,21 @@ class CitySparkScraper(BaseScraper):
 
     def _parse_event(self, event: dict) -> dict[str, Any] | None:
         """Parse a single event from API response."""
-        pacific = ZoneInfo('America/Los_Angeles')
+        tz = ZoneInfo(self.timezone)
 
-        # Parse UTC times and convert to Pacific
+        # Parse UTC times and convert to local timezone
         start_utc = event.get('StartUTC')
         if not start_utc:
             return None
 
         event_start_utc = datetime.fromisoformat(start_utc.replace('Z', '+00:00'))
-        event_start = event_start_utc.astimezone(pacific)
+        event_start = event_start_utc.astimezone(tz)
 
         # Parse end time
         end_utc = event.get('EndUTC')
         if end_utc:
             event_end_utc = datetime.fromisoformat(end_utc.replace('Z', '+00:00'))
-            event_end = event_end_utc.astimezone(pacific)
+            event_end = event_end_utc.astimezone(tz)
         else:
             event_end = event_start
 
@@ -134,6 +135,7 @@ class CitySparkScraper(BaseScraper):
             'description': event.get('Description', ''),
             'url': url,
             'uid': event.get('Id') or event.get('PId', ''),
+            'image_url': event.get('LargeImg') or event.get('MediumImg') or '',
         }
 
 
@@ -161,3 +163,17 @@ class PressDemocratScraper(CitySparkScraper):
     lng = -122.8540282
     distance = 40
     calendar_url = "https://www.pressdemocrat.com/events/"
+
+
+class EvanstonRoundtableScraper(CitySparkScraper):
+    """Scraper for Evanston Roundtable events."""
+
+    name = "Evanston Roundtable"
+    domain = "evanstonroundtable.com"
+    api_slug = "EvanstonRoundtable"
+    ppid = 0
+    lat = 42.0451
+    lng = -87.6877
+    distance = 10
+    timezone = "America/Chicago"
+    calendar_url = "https://evanstonroundtable.com/events/"

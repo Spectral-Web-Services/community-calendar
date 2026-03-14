@@ -866,6 +866,10 @@ jobs:
         python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston City Council" --categories "City Council" --output cities/evanston/city_of_evanston_council.ics || true
         python scrapers/planitpurple.py --categories 2 --days 60 --name "Northwestern University" --output cities/evanston/northwestern.ics || true
         python scrapers/chicagobotanic.py --output cities/evanston/chicago_botanic.ics || true
+        # Enjoy Evanston (Tockify)
+        curl -sL "https://tockify.com/api/feeds/ics/enjoyevanston" -o cities/evanston/enjoy_evanston.ics || true
+        # CitySpark (Evanston Roundtable)
+        python scrapers/cityspark/evanstonroundtable.py --output cities/evanston/cityspark_roundtable.ics || true
         # Eventbrite organizers
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/bookends-beginnings-30806170182" --name "Bookends & Beginnings" -o cities/evanston/eb_bookends.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/the-wine-goddess-3108057164" --name "The Wine Goddess" -o cities/evanston/eb_wine_goddess.ics || true
@@ -877,6 +881,15 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/prairie-moon-51597641783" --name "Prairie Moon" -o cities/evanston/eb_prairie_moon.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/downtown-evanston-6767069203" --name "Downtown Evanston" -o cities/evanston/eb_downtown_evanston.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/dan-marguerite-16757593742" --name "The Backyard Barbecue Store" -o cities/evanston/eb_backyard_bbq.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/booked-76549470443" --name "Booked" -o cities/evanston/eb_booked.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/creative-coworking-23232786009" --name "Creative Coworking" -o cities/evanston/eb_creative_coworking.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/the-main-dempster-mile-13695320840" --name "The Main-Dempster Mile" -o cities/evanston/eb_main_dempster.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/41593942663" --name "Northshore Concert Band" -o cities/evanston/eb_northshore_concert_band.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/120935657951" --name "Stewpendous Productions" -o cities/evanston/eb_stewpendous.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/33380339107" --name "Rhythm Revolution" -o cities/evanston/eb_rhythm_revolution.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/mezcla-media-collective-54754536433" --name "Mezcla Media Collective" -o cities/evanston/eb_mezcla.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/121090594971" --name "Homeschool + Hue" -o cities/evanston/eb_homeschool_hue.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/121097824224" --name "BLAST Northwestern" -o cities/evanston/eb_blast_northwestern.ics || true
         # Ticketmaster (requires TICKETMASTER_API_KEY secret)
         if [ -n "$TICKETMASTER_API_KEY" ]; then
           python scrapers/ticketmaster.py --promoter-id 6085 --name "Ticketmaster/Evanston" --timezone America/Chicago -o cities/evanston/ticketmaster_evanston.ics || true
