@@ -42,10 +42,13 @@ class PlanItPurpleScraper(BaseScraper):
     timezone = "America/Chicago"
 
     def __init__(self, categories: str | None = None, days: int = 60,
-                 source_name: str | None = None):
+                 source_name: str | None = None, audience: str | None = None,
+                 location: str | None = None):
         super().__init__()
         self.categories = categories
         self.days = days
+        self.audience = audience
+        self.location_filter_id = location
         if source_name:
             self.name = source_name
 
@@ -53,6 +56,10 @@ class PlanItPurpleScraper(BaseScraper):
         params = f"cal=0&days={self.days}"
         if self.categories:
             params += f"&category={self.categories}"
+        if self.audience:
+            params += f"&audience={self.audience}"
+        if self.location_filter_id:
+            params += f"&location={self.location_filter_id}"
         url = f"{FEED_URL}?{params}"
 
         req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -141,6 +148,10 @@ class PlanItPurpleScraper(BaseScraper):
                             help="Number of days to fetch (default: 60)")
         parser.add_argument("--name", type=str, default="Northwestern University",
                             help="Source name")
+        parser.add_argument("--audience", type=str,
+                            help="Audience filter (3=Public)")
+        parser.add_argument("--location", type=str,
+                            help="Location filter (1=Evanston, 5=Online)")
         parser.add_argument("--debug", action="store_true", help="Enable debug logging")
         return parser.parse_args()
 
@@ -152,5 +163,7 @@ if __name__ == "__main__":
         categories=args.categories,
         days=args.days,
         source_name=args.name,
+        audience=args.audience,
+        location=args.location,
     )
     scraper.run(output=args.output)

@@ -865,6 +865,7 @@ jobs:
         python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston Meetings" --categories "Meetings" --output cities/evanston/city_of_evanston_meetings.ics || true
         python scrapers/revize.py --webspace evanstonil --host cityofevanston.org --name "City of Evanston City Council" --categories "City Council" --output cities/evanston/city_of_evanston_council.ics || true
         python scrapers/planitpurple.py --categories 2 --days 60 --name "Northwestern University" --output cities/evanston/northwestern.ics || true
+        python scrapers/planitpurple.py --categories 1,4,10,11,14,17,19,20,21,22,23 --days 60 --audience 3 --location 1 --name "Northwestern University (Community)" --output cities/evanston/northwestern_community.ics || true
         python scrapers/chicagobotanic.py --output cities/evanston/chicago_botanic.ics || true
         # Enjoy Evanston (Tockify)
         curl -sL "https://tockify.com/api/feeds/ics/enjoyevanston" -o cities/evanston/enjoy_evanston.ics || true
@@ -874,6 +875,24 @@ jobs:
         python scrapers/visitchicagonorthshore.py --output cities/evanston/visit_north_shore.ics || true
         # Evanston American Legion (Google Calendar, filtered)
         python scrapers/evanston_legion.py --output cities/evanston/evanston_legion.ics || true
+        # Nature & outdoors
+        curl -sL "https://fpdcc.com/events/?ical=1" -o cities/evanston/forest_preserves.ics || true
+        curl -sL "https://northbranchrestoration.org/events/?ical=1" -o cities/evanston/north_branch_restoration.ics || true
+        # Songkick (artist-sourced music events)
+        python scrapers/songkick.py --url "https://www.songkick.com/venues/34741-space" --name "SPACE" --output cities/evanston/songkick_space.ics || true
+        # Museums & cultural
+        curl -sL "https://gichigamiin-museum.org/events/?ical=1" -o cities/evanston/gichigamiin_museum.ics || true
+        curl -sL "https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=40&feed=calendar" -o cities/evanston/skokie_storefront.ics || true
+        # Parks & recreation
+        curl -sL "https://www.wilmettepark.org/events/?ical=1" -o cities/evanston/wilmette_park_district.ics || true
+        # Evanston Bicycle Club (TeamUp)
+        curl -sL "https://ics.teamup.com/feed/ks4f2ityp82zqj3zsh/0.ics" -o cities/evanston/evanston_bike_club.ics || true
+        # Skokie Village Public Meetings
+        curl -sL "https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=25&feed=calendar" -o cities/evanston/skokie_public_meetings.ics || true
+        # Houses of worship
+        curl -sL "https://faithatfirst.org/events/?ical=1" -o cities/evanston/first_united_methodist.ics || true
+        curl -sL "https://firstpresevanston.org/events/?ical=1" -o cities/evanston/first_presbyterian.ics || true
+        curl -sL "https://www.garrett.edu/events/?ical=1" -o cities/evanston/garrett_seminary.ics || true
         # Additional direct feeds
         curl -sL "https://www.northlight.org/events/?ical=1" -o cities/evanston/northlight_theatre.ics || true
         curl -sL "https://evanstonmade.org/community-calendar/?ical=1" -o cities/evanston/evanston_made.ics || true
@@ -898,6 +917,8 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/mezcla-media-collective-54754536433" --name "Mezcla Media Collective" -o cities/evanston/eb_mezcla.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/121090594971" --name "Homeschool + Hue" -o cities/evanston/eb_homeschool_hue.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/121097824224" --name "BLAST Northwestern" -o cities/evanston/eb_blast_northwestern.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/evanston-art-center-30064651634" --name "Evanston Art Center" -o cities/evanston/eb_evanston_art_center.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/16945016582" --name "Buffett Institute" -o cities/evanston/eb_buffett_institute.ics || true
         # Ticketmaster (requires TICKETMASTER_API_KEY secret)
         if [ -n "$TICKETMASTER_API_KEY" ]; then
           python scrapers/ticketmaster.py --promoter-id 6085 --name "Ticketmaster/Evanston" --timezone America/Chicago -o cities/evanston/ticketmaster_evanston.ics || true

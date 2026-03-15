@@ -10,7 +10,12 @@
 | North Shore Center for the Performing Arts | `https://www.northshorecenter.org/events/?ical=1` | WordPress + The Events Calendar; 28 events |
 | Evanston History Center | `https://evanstonhistorycenter.org/calendar-of-events/?ical=1` | WordPress + The Events Calendar |
 | Beth Emet Synagogue | `https://bethemet.org/calendar/?ical=1` | WordPress + The Events Calendar |
+| First United Methodist Church | `https://faithatfirst.org/events/?ical=1` | WordPress + The Events Calendar; ~30 events |
+| First Presbyterian Church | `https://firstpresevanston.org/events/?ical=1` | WordPress + The Events Calendar; ~30 events |
+| Garrett-Evangelical Seminary | `https://www.garrett.edu/events/?ical=1` | WordPress + The Events Calendar; ~30 events; lectures, workshops |
 | Village of Skokie Community Calendar | `https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=22&feed=calendar` | CivicPlus; 25 events |
+| Village of Skokie Public Meetings | `https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=25&feed=calendar` | CivicPlus; ~373 events; boards, commissions |
+| Evanston Bicycle Club | `https://ics.teamup.com/feed/ks4f2ityp82zqj3zsh/0.ics` | TeamUp ICS; ~282 events; rides & cycling events |
 | City of Evanston (Events) | `scrapers/revize.py` (Events category) | Revize CMS JSON API; ~51 events |
 | City of Evanston (Meetings) | `scrapers/revize.py` (Meetings category) | Revize CMS JSON API; ~103 events |
 | City of Evanston (City Council) | `scrapers/revize.py` (City Council category) | Revize CMS JSON API; ~11 events |
@@ -22,6 +27,12 @@
 | Eisenhower Public Library | `eisenhower.librarycalendar.com/events/feed/ical` | Communico ICS; ~402 events; Norwood Park |
 | Visit Chicago North Shore | `scrapers/visitchicagonorthshore.py` | Sitemap + JSON-LD; ~110 events with images; North Shore CVB |
 | Evanston American Legion | `scrapers/evanston_legion.py` | Google Calendar ICS, filtered; ~35 events; concerts, community |
+| Gichigamiin Indigenous Nations Museum | `https://gichigamiin-museum.org/events/?ical=1` | WordPress + The Events Calendar; ~19 events; fka Mitchell Museum |
+| Skokie Storefront (cultural events) | `skokie.org/...iCalendar.aspx?catID=40` | CivicPlus; ~17 events; art, sound baths, markets |
+| Wilmette Park District | `https://www.wilmettepark.org/events/?ical=1` | WordPress + The Events Calendar; ~8 events |
+| Cook County Forest Preserves | `https://fpdcc.com/events/?ical=1` | WordPress + The Events Calendar; ~30 events; nature centers near Evanston |
+| North Branch Restoration Project | `https://northbranchrestoration.org/events/?ical=1` | WordPress + The Events Calendar; ~16 events; volunteer workdays |
+| SPACE (Songkick) | `songkick.com/venues/34741-space` | Artist-sourced music events; ~5 events; supplements Ticketmaster |
 
 ### Libraries
 | Source | Feed URL | Notes |
@@ -35,7 +46,8 @@
 | Source | Feed URL | Notes |
 |--------|----------|-------|
 | Oakton Community College | `https://events.oakton.edu/calendar/1.ics` | Localist; ~200 calendar resources |
-| Northwestern University (Arts) | `scrapers/planitpurple.py` (category 2) | PlanIt Purple XML feed; ~20 arts/humanities events |
+| Northwestern University (Arts) | `scrapers/planitpurple.py` (category 2) | PlanIt Purple XML feed; ~283 arts/humanities events |
+| Northwestern University (Community) | `scrapers/planitpurple.py` (categories 1,4,10,11,14,17,19-23) | PlanIt Purple; ~94 public Evanston events; lectures, seminars, community |
 | District 65 | `scrapers/finalsite.py` | Finalsite CMS; ~18 events (K-8 school calendar) |
 | ETHS District 202 | `scrapers/finalsite.py` | Finalsite CMS; ~18 events (high school calendar) |
 
@@ -87,6 +99,8 @@
 | Mezcla Media Collective | `eventbrite.com/o/mezcla-media-collective-54754536433` | ~1 upcoming, 41 total; experimental video/art at Evanston Art Center |
 | Homeschool + Hue | `eventbrite.com/o/121090594971` | Family meetups for children of color; Zora's Place |
 | BLAST Northwestern | `eventbrite.com/o/121097824224` | Dance performances at Ryan Auditorium |
+| Evanston Art Center | `eventbrite.com/o/evanston-art-center-30064651634` | ~1 upcoming, 205 total; workshops, classes |
+| Buffett Institute for Global Affairs | `eventbrite.com/o/16945016582` | ~8 events; free public lectures, symposia |
 
 ### Ticketmaster (via Discovery API)
 | Source | Query | Notes |
@@ -102,7 +116,7 @@
 | Northwestern Bienen School of Music | No feed export visible |
 
 | Illinois Holocaust Museum (Skokie) | WordPress but no ICS feed at ?ical=1 |
-| Evanston Art Center | Drupal, no feeds |
+| ~~Evanston Art Center~~ | ~~Drupal, no feeds~~ → **Now implemented via Eventbrite** |
 | Glenview Park District | Individual ICS download only, no feed |
 | Skokie Park District | Custom ASP.NET/Angular system (Americaneagle.com), no feeds or API |
 
@@ -125,9 +139,32 @@
 | North Shore Senior Center | WordPress + Astra/Elementor, no calendar plugin visible |
 | Zanies Comedy Club | WordPress/Elementor, no feeds; site data misconfigured (shows Nashville) |
 | Pastimes Comics & Games | Site unreachable |
+| St. Luke's Episcopal Church | Wix, no feeds |
+| Lake Street Church | Wix, no feeds |
+| Unitarian Church of Evanston | WordPress but no Events Calendar plugin |
+| First Congregational Church | Squarespace, per-event ICS only, no master feed |
+| First Church of Christ, Scientist | WordPress, no events page |
+
+| Celtic Knot Public House | Squarespace, under construction |
+| Evanston Chamber of Commerce | 403 Forbidden on events page |
+| Rotary Club of Evanston | SSL expired, site down |
+| Woman's Club of Evanston | No working website found |
+| Canal Shores Golf Course | WordPress + TEC, but dormant since 2023 |
+| Illinois Holocaust Museum (Skokie) | WordPress, no calendar plugin, ?ical=1 returns HTML |
+| Halim Time & Glass Museum | Wix, no events page |
+| Glenview Park District | WordPress, individual ICS downloads only, no feed |
+| North Suburban YMCA | Drupal/OpenY, no feeds |
+| Old Town School of Folk Music | Custom JS calendar, no feeds |
+| Actors Gymnasium | Squarespace, no calendar; uses Ticket Tailor |
+| Piven Theatre Workshop | WordPress/Divi, no calendar plugin |
+| National Museum of the American Sailor | Closed for renovation |
+| Evanston Environmental Association | Wild Apricot, no public ICS feed |
+| Friends of the Chicago River | Custom site, no feeds |
+| Openlands | WordPress/Astra, JS-rendered events, no feeds |
+| Grosse Point Lighthouse | Site unresponsive/timeout |
+| Evanston Lakehouse & Gardens | Wix, no events page |
+| Evanston Garden Club | No website found |
 
 ## To Investigate
 
-- [ ] Evanston Farmers Market
-- [ ] Celtic Knot Public House events
-- [ ] Skokie Village other calendar categories (Health/Human Services, Public Meetings, Sustainability, Storefront)
+- [ ] Evanston Farmers Market (city page 404, may be seasonal)
