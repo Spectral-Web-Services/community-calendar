@@ -8,9 +8,9 @@ used across all city feeds, identified by their PRODID header.
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, davis, evanston, jweekly, montclair, petaluma, portland, raleighdurham, roanoke, santarosa, toronto | 161 |
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, davis, evanston, jweekly, matsu, montclair, petaluma, portland, publisher-resources, raleighdurham, roanoke, santarosa, toronto | 97 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, davis, evanston, jweekly, matsu, montclair, petaluma, portland, publisher-resources, raleighdurham, roanoke, santarosa, toronto | 102 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, davis, jweekly, montclair, petaluma, portland, publisher-resources, raleighdurham, roanoke, santarosa, toronto | 55 |
-| **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, evanston, matsu, montclair, raleighdurham, roanoke, santarosa | 53 |
+| **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, evanston, matsu, montclair, raleighdurham, roanoke, santarosa | 55 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland, raleighdurham | 24 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland, santarosa, toronto | 11 |
 | **MaxPreps** | High school sports schedules. | montclair, petaluma, santarosa | 10 |
@@ -50,7 +50,7 @@ ICS export from meetup.com groups.
 
 **toronto** (50): meetup_20s30s_social, meetup_ai_ml, meetup_arts_crafts, meetup_arts_culture, meetup_bike_toronto, meetup_board_games_to, meetup_book_club_abcd, meetup_bruce_trail, meetup_canoe_trippers, meetup_devops, meetup_experience_to, meetup_founders_running, meetup_gta_hiking, meetup_heavy_boardgames, meetup_high_park_yoga, meetup_hiking_boots, meetup_hiking_network, meetup_improv_friends, meetup_improv_to, meetup_jpn_eng_exchange, meetup_lang_exchange_to, meetup_little_sunbeams, meetup_medieval_sca, meetup_mindful_movement, meetup_mini_me, meetup_movies_social, meetup_ms_reactor, meetup_photography_to, meetup_postapoc_books, meetup_postgres_to, meetup_python_to, meetup_sai_dham_volunteer, meetup_salsa_gta, meetup_scifi_books, meetup_silent_books, meetup_singles_social, meetup_soul_city, meetup_sup_kayak, meetup_tech_stack, meetup_techto, meetup_tile_language, meetup_toronto_dads, meetup_toronto_history_walks, meetup_toronto_paddlers, meetup_toronto_wellness, meetup_torontobabel, meetup_torontojs, meetup_try_new_things, meetup_wilderness_union, meetup_women_biz
 
-### The Events Calendar (WordPress) (97 feeds)
+### The Events Calendar (WordPress) (102 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
@@ -60,7 +60,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **davis** (2): hatefreetogether, thedirt
 
-**evanston** (5): beth_emet, evanston_history_center, evanston_made, north_shore_center, northlight_theatre
+**evanston** (10): beth_emet, evanston_history_center, evanston_made, first_presbyterian, forest_preserves, garrett_seminary, gichigamiin_museum, north_branch_restoration, northlight_theatre, wilmette_park_district
 
 **jweekly** (8): jcc_east_bay, jccsf, jewish_fed, jvs, jweekly, magnes, marin_jcc, temple_beth_abraham
 
@@ -108,13 +108,13 @@ Public Google Calendar ICS export.
 
 **toronto** (3): cita_local_events, cita_seminars, cita_special_events
 
-### CivicPlus (ical.net) (53 feeds)
+### CivicPlus (ical.net) (55 feeds)
 
 Government CMS using ical.net library. Common for city/county websites.
 
 **bloomington** (1): iu_campuslabs
 
-**evanston** (1): skokie_community
+**evanston** (3): skokie_community, skokie_public_meetings, skokie_storefront
 
 **matsu** (6): wasilla_airport_advisory, wasilla_city_council, wasilla_library, wasilla_menard_center, wasilla_parks_rec, wasilla_planning
 
@@ -237,6 +237,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |
 | `-//Luma//Hacks/Hackers//EN` | publisher-resources | hackshackers |
+| `-//Northwestern University (Community)//northwestern.edu//` | evanston | northwestern_community |
 | `-//Portland Community College//NONSGML v1.0//EN` | portland | portland_community_college |
 | `-//SIDEARM Sports//NONSGML SIDEARM//EN` | evanston | nw_baseball, nw_field_hockey, nw_football, nw_mens_basketball, nw_mens_soccer, nw_softball, nw_volleyball, nw_womens_basketball, nw_womens_lacrosse, nw_womens_soccer, nw_womens_swimming, nw_wrestling |
 | `-//SIDEARM Sports//NONSGML SIDEARM//EN` | montclair | msu_athletics |
@@ -245,6 +246,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Sabre//Sabre VObject 4.5.8//EN` | evanston | eisenhower_library, lincolnwood_library, morton_grove_library, skokie_library, winnetka_northfield_library |
 | `-//Santa Rosa Junior College//NONSGML v1.0//EN` | petaluma | srjc_petaluma |
 | `-//Santa Rosa Junior College//NONSGML v1.0//EN` | santarosa | srjc |
+| `-//Teamup Solutions AG//Teamup Calendar//EN` | evanston | evanston_bike_club |
 | `-//Teamup Solutions AG//Teamup Calendar//EN` | montclair | shomrei_emunah |
 | `-//Ticketmaster/Evanston Venues//ticketmaster.com//` | evanston | ticketmaster_evanston_venues |
 | `-//Ticketmaster/Evanston//ticketmaster.com//` | evanston | ticketmaster_evanston |

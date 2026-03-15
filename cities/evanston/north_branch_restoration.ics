@@ -1,0 +1,293 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//North Branch Restoration Project - ECPv6.15.12.2//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:North Branch Restoration Project
+X-ORIGINAL-URL:https://northbranchrestoration.org
+X-WR-CALDESC:Events for North Branch Restoration Project
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20250309T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20251102T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20260308T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20261101T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20270314T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20271107T070000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260314T090000
+DTEND;TZID=America/Chicago:20260314T120000
+DTSTAMP:20260314T214259
+CREATED:20251112T212715Z
+LAST-MODIFIED:20251112T212715Z
+UID:10001136-1773478800-1773489600@northbranchrestoration.org
+SUMMARY:Harms Flatwoods
+DESCRIPTION:In the village of Skokie\, east of the Chicago River’s North Branch\, Harms Flatwoods is dominated by huge old bur and swamp white oaks\, with an understory of black ash\, winterberry\, hazelnut and other native trees and shrubs. \nIn January of 2017\, Harms Flatwoods was dedicated as an Illinois Nature Preserve\, in recognition of its unique ecology. Illinois Nature Preserve designation affords the strongest degree of protection for Illinois natural areas. \nDirections: Meet at the Harms Woods North lot\, Old Orchard Road and Harms Road. \nFor more information or to volunteer contact:\nJette Thomassen at 773-255-6077 or Harms Flatwoods \n  \n  \n  \n  \n 
+URL:https://northbranchrestoration.org/event/harms-flatwoods-2026-03-14/
+LOCATION:Harms Flatwoods\, IL\, United States
+CATEGORIES:Harms Flatwoods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/Big-pond-03-1-e1566748705478.jpg
+ORGANIZER;CN="Harms Flatwoods":MAILTO:harms_flatwoods@northbranchrestoration.org
+GEO:42.06757;-87.77213
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260314T090000
+DTEND;TZID=America/Chicago:20260314T120000
+DTSTAMP:20260314T214259
+CREATED:20251113T033404Z
+LAST-MODIFIED:20251113T033404Z
+UID:10001180-1773478800-1773489600@northbranchrestoration.org
+SUMMARY:Linne Woods
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””] \nLinne Woods boasts such spring wildflowers as windflower and toothwort under a canopy of oaks and hickories with an understory of ironwood and black cherry. \nDirections: For Linne Woods north\, go west from the Edens on Dempster street about 1.5 miles. The forest preserve entrance will be on the north side of the street directly across from McDonalds. Follow the winding road all the way back until it dead-ends at the turn-around circle. \nPlease RSVP (below). For more information contact:\nMarian Thill (north) at  (847) 966-0231 Linne Woods[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/linne-woods-2026-03-14/
+LOCATION:Linne Woods\, 6316 Dempster\, Morton Grove\, il\, 60053
+CATEGORIES:Linne Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/DSC_1808a.jpg
+ORGANIZER;CN="Linne Woods":MAILTO:linne_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260314T100000
+DTEND;TZID=America/Chicago:20260314T130000
+DTSTAMP:20260314T214259
+CREATED:20251112T222534Z
+LAST-MODIFIED:20251112T222534Z
+UID:10001151-1773482400-1773493200@northbranchrestoration.org
+SUMMARY:Forest Glen Woods
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””]An important corridor for migratory birds\, Forest Glen is part of the Lower North Branch Preserves. This unique woodland\, savanna\, and floodplain ecosystem needs help from our volunteer community to remove invasive plants\, collect and distribute native seeds\, and reduce erosion issues. Join the North Branch Restoration Project with the Centennial Volunteers to learn how! \nGather at the Forest Glen parking lot\, located at 5420 N. Forest Glen Ave in Chicago. \nFor more information or to volunteer contact: \nBill Tucker at 312-206-5928 or Deb Gohr at Forest Glen[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/forest-glen-woods-2026-03-14/
+LOCATION:Forest Glen Woods Forest Preserve\, 5420 N Forest Glen Ave\, Chicago
+CATEGORIES:Forest Glen Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/Buteo-jamaicensis-04-e1556849442250.jpg
+ORGANIZER;CN="Forest Glen Woods":MAILTO:forestglen_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T090000
+DTEND;TZID=America/Chicago:20260315T120000
+DTSTAMP:20260314T214259
+CREATED:20251113T031232Z
+LAST-MODIFIED:20251113T031232Z
+UID:10001175-1773565200-1773576000@northbranchrestoration.org
+SUMMARY:Somme Woods
+DESCRIPTION:Somme Woods has bur and white oak savannas and woodlands with massive old oaks\, open marshes\, and ephemeral ponds. Rich with native plants and animals\, the savannas and woodlands are being restored to their original beauty. Great horned owls and red-tailed hawks nest and hunt here alongside coyotes\, raccoons\, and opossums. \nPlease RSVP (below). For more information contact Eriko Kojima at (847) 322-7420 \nDirections: Park in the Somme Woods lot on the north side of Dundee Road\, just east of Waukegan Road. Map address is 1714 Dundee Road\, Northbrook. \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n 
+URL:https://northbranchrestoration.org/event/somme-woods-2026-03-15/
+LOCATION:Somme Woods\, 1714 Dundee Road\, Northbrook\, IL\, United States
+CATEGORIES:Somme Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/07/112a.jpg
+ORGANIZER;CN="Somme Woods":MAILTO:somme_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T090000
+DTEND;TZID=America/Chicago:20260315T120000
+DTSTAMP:20260314T214259
+CREATED:20260214T173604Z
+LAST-MODIFIED:20260310T150518Z
+UID:10001234-1773565200-1773576000@northbranchrestoration.org
+SUMMARY:Spicebush Woods
+DESCRIPTION:Restoration work is just beginning on this beautifully wooded site filled with towering oaks and hickories\, wonderful understory of muscle wood and its namesake spicebush\, with a lush sedge filled floor. We’ll be clearing buckthorn and pole trees below the ancient oaks to promote recovery of the forest floor fauna. \nDirections: Park at the maintenance drive to Billy Caldwell golf course on the south side of Caldwell Ave\, east of Central Ave. Google lists the address as 6190 N Caldwell Ave\, Chicago.\nGet Directions > \nPlease RSVP (below). For more information\, contact Jonathan Sladek  (847) 858-2242 at Spicebush Woods
+URL:https://northbranchrestoration.org/event/spicebush-woods-2026-03-15/
+LOCATION:Spicebush Woods\, 6221 N Caldwell Avenue\, Chicago\, il\, 60646
+CATEGORIES:Spicebush Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/Lindera-Spicebush.jpg
+ORGANIZER;CN="Spicebush Woods":MAILTO:spicebush_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T100000
+DTEND;TZID=America/Chicago:20260315T130000
+DTSTAMP:20260314T214259
+CREATED:20251113T020704Z
+LAST-MODIFIED:20251113T020704Z
+UID:10001157-1773568800-1773579600@northbranchrestoration.org
+SUMMARY:Miami Woods and Prairie
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””] \nThe Miami Woods Forest Preserve covers 112 acres stretching along the west side of the North Branch of the Chicago River from Oakton Street northward to Dempster Street.  It is bounded on the west side by Caldwell Avenue\, Waukegan Road and development at the intersection of Waukegan Road and Dempster Street. The land on the east side of the river forms the Saint Paul Woods Forest Preserve. \nThe main parking lot is on Caldwell about 1/4 mile north of Oakton where there is easy access to the bike path which runs from Devon Avenue to the Botanic Garden.  From the bike path you can see and enjoy nature in the river\, woodlands and the Miami Prairie.  Things you may see include birds\, butterflies\, and native grasses and flowers that blossom and change throughout the seasons. \nMiami Woods and Prairie contain important remnants of the original grasslands and woodlands that formed the natural heritage of the greater Chicago area. (See the Chicago Wilderness Atlas and Recovery Plan at www.chicagowilderness.org) The ultimate goal within Miami Woods and Prairie (except the turf grass picnic areas) is to achieve restoration to the highest ecological condition possible using a minimum amount of management intervention. Our approach is to restore natural processes so that the area will become as self sustaining as possible. \nRestoration of the woods and prairie by Volunteers of the North Branch Restoration Project has been underway for more than 30 years.  Following a five year moratorium\, work resumed late in 2001 with thousands of hours of volunteer effort contributed annually since then.  In addition to regular North Branch workdays\, workdays have been held on multiple occasions for four elementary schools\, a high school\, three colleges\, and the Goldman Sachs company.  Help is also received regularly from the Friends of Morton Grove Forest Preserves.  Restoration activities concentrate on removal of invasive brush and weeds\, and on gathering and distributing hundreds of kinds of native seed from within the North Branch watershed. \nFurther information is available in the 2005 annual report Restoring Nature in Miami Woods\, or on the website of the Cook County Forest Preserve. \nDirections: Located on the east side of Caldwell\, two blocks north of Oakton. Meet in the parking lot for Miami Woods. \nTo volunteer or for more information contact: For more information\, contact Mike Andrews (773) 405-7132\, Mike Bingaman (773) 203-3447) or email Miami Woods Prairie[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/miami-woods-and-prairie-2026-03-15/
+LOCATION:Miami Woods Forest Preserve\, 8200 N Caldwell Ave\, Niles\, IL
+CATEGORIES:Miami Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/DSC8436a-e1568765849385.jpg
+ORGANIZER;CN="Miami Woods & Prairie":MAILTO:miami_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T100000
+DTEND;TZID=America/Chicago:20260315T130000
+DTSTAMP:20260314T214259
+CREATED:20251113T034453Z
+LAST-MODIFIED:20251114T023604Z
+UID:10001184-1773568800-1773579600@northbranchrestoration.org
+SUMMARY:Labagh-Hernandez Woods
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””]Located on the North Branch of the Chicago River\, LaBagh is an important stopover point for birds during their spring and fall migration journeys. Most of LaBagh is made up of floodplain and savanna communities dominated by swamp white oak\, which thrives in wet conditions. The floodplain contains ponds and marshes that were carved out by the river hundreds of years ago. The upland areas are drier\, but often wet in the spring and fall due to poor-draining soils that allow standing water to accumulate. Join volunteers in restoring this special site along the Chicago River with a unique focus on planting native shrubs to provide bird habitat and food. \nYouth under 18 must be accompanied by a legal parent/guardian or attend with a chaperoned organized youth group (school\, scouts\, faith-based). Volunteers under age 18 must have their volunteer waiver signed by a parent or legal guardian. \nVolunteer workdays are held two or more times a month at LaBagh. Contact labaghvolunteers@gmail.com to join our email announcement list. \nDirections: Enter Forest Preserve at 5275 N. Cicero\, then follow yellow volunteer signs. \nTo volunteer or for more information\, contact the Labagh team.  [/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/labagh-hernandez-woods-2026-03-15/
+LOCATION:Labagh-Hernandez Woods\, 5275 N. Cicero\, Chicago\, il
+CATEGORIES:Labagh Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/Botaurus-Labagh.jpg
+ORGANIZER;CN="LaBagh Woods":MAILTO:labagh_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T090000
+DTEND;TZID=America/Chicago:20260321T120000
+DTSTAMP:20260314T214259
+CREATED:20251113T210825Z
+LAST-MODIFIED:20251113T210825Z
+UID:10001207-1774083600-1774094400@northbranchrestoration.org
+SUMMARY:Linne Prairie
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””]Linne Prairie is a different site from the rest of the North Branch preserves. The area was used as temporary storage for a huge pile of limestone excavated for the deep tunnel project. After most of the limestone was removed\, the contractor covered the remaining material with a layer of soil and planted purchased seeds of native plants. After the initial two years of management by outside contract\, the District and North Branch now share management\, with the eventual goal of a facsimile hill prairie. While this is not a bona fide recovering natural area\, it can still become a functioning system that is compatible with the surrounding native communities and that provides important habitat for wildlife. \nDirections: Meet at Wayside Woods Prairie Forest Preserve parking lot on the west side of Lehigh Ave\, a few blocks east of Waukegan Road and just north of Dempster. \nPlease RSVP (below). For more information contact: \nJohn Thill at   (847) 966-0231 at Linne Prairie[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/linne-prairie-2026-03-21/
+LOCATION:Linne Prairie\, 8874 Lehigh Ave\, Morton Grove\, IL
+CATEGORIES:Linne Prairie
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/07/DSC8752a-e1568859884132.jpg
+ORGANIZER;CN="Linne Prairie":MAILTO:linne_prairie@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T090000
+DTEND;TZID=America/Chicago:20260321T120000
+DTSTAMP:20260314T214259
+CREATED:20260131T205058Z
+LAST-MODIFIED:20260131T205058Z
+UID:10001227-1774083600-1774094400@northbranchrestoration.org
+SUMMARY:Harms Woods
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””]This fine oak woodland lies on the west side of the North Branch of the Chicago River in the village of Glenview. Several different species of oak are represented here; red oaks are more prevalent closer to the river while white and bur oaks are more plentiful as you move west up the moraine. In the wetter upland areas\, on top of the moraine\, swamp white oaks thrive. \nHarms is notable for its rich native flora. In late March or April\, visitors can enjoy the earliest of our spring wildflowers\, including such lovelies as toothwort\, hepatica\, bloodroot and trout lily.A little later\, they may be treated to displays of wildflowers with lyrical names like yellow pimpernel\, Jack-in-the-pulpit\, spring beauty and golden alexanders.The site is unusually rich in native woodland shrubs. Native yellow and red honeysuckles bloom in summer; maple-leaved viburnum turns a gorgeous magenta in the fall; while a bit later the delicate yellow flowers of witch hazel grace the fall woods. \nFor bird watchers\, Harms Woods is a great place to enjoy the spring and fall migratory seasons\, as a great variety of warblers pass through. Visitors should also watch for the great horned owls\, hairy woodpeckers\, red-eyed vireos and yellow-billed cuckoos that are among the nesting birds of Harms. \nDirections: Meet at the forest preserve Glenview Woods parking lot on the west side of Harms Road\, just south of Glenview Road. \nRSVP below. For more information or to volunteer contact:\nJane and John Balaban  (847)  644-8184[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/harms-woods-2026-03-21/
+LOCATION:Glenview Woods parking lot\, west side of Harms Road\, just south of Glenview Rd.\, 721 Harms Road\, Glenview\, Il
+CATEGORIES:Harms Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/DSC2232-HRMS-e1667076700486.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260322T090000
+DTEND;TZID=America/Chicago:20260322T120000
+DTSTAMP:20260314T214259
+CREATED:20251112T215458Z
+LAST-MODIFIED:20260306T025447Z
+UID:10001144-1774170000-1774180800@northbranchrestoration.org
+SUMMARY:Watersmeet Prairie Grove
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””]Named for the joining of the Middle and East Forks of the North Branch of the Chicago River\, Watersmeet Prairie Grove has a wide variety of communities\, from a limey\, wet woods with unusual species such as skunk cabbage\, marsh marigold\, dog violet and fen goldenrod to open prairie shrubland with mountain blue-eyed grass\, golden sedge\, and willow aster. \nDirections: This site is located in the village of Northfield. From the Edens Expressway exit at Lake Avenue West. Go west to Wagner Road\, turn north and take Wagner to Winnetka Road\, go east on Winnetka 3/4 mile. Park on Avon Ave\, a side street to the north of Winnetka Road. We meet near the Forest Preserve sign\, at the northwest corner of the site. \nPlease RSVP (below). For more information contact John Berg at (815) 919-4916 and Eileen Sutter (773) 706-4533 or Watersmeet[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/watersmeet-prairie-grove-2026-03-21/
+LOCATION:Watersmeet Prairie Grove\, 1899 winnetka road\, northfield\, il\, 60093
+CATEGORIES:Watersmeet Prairie Grove
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/DSC1032-WTR.jpg
+ORGANIZER;CN="Watersmeet Prairie Grove":MAILTO:watersmeet@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260322T100000
+DTEND;TZID=America/Chicago:20260322T130000
+DTSTAMP:20260314T214259
+CREATED:20251113T024005Z
+LAST-MODIFIED:20251113T024005Z
+UID:10001166-1774173600-1774184400@northbranchrestoration.org
+SUMMARY:Somme Woods South
+DESCRIPTION:  \nSomme Woods South Parking for these workdays is on a residential street. See below. \nTo volunteer or for more information contact:  Linda Masters \nFor workdays at Somme Woods South\, park only on the south side of Ferndale Avenue\, a residential street.  Pick up tools at the driveway/garage at 1625 Ferndale\, a brown house located mid-block\, then follow the flags between the houses to the worksite. \n  \n  \n  \n  \n  \n 
+URL:https://northbranchrestoration.org/event/somme-woods-south-2026-03-22/
+LOCATION:Somme Woods South\, 1625 Ferndale Ave\, Northbrook\, IL\, United States
+CATEGORIES:Somme Woods South
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/07/Bunker-Asters-02a.jpg
+ORGANIZER;CN="Somme Woods South":MAILTO:sommewoods_south@northbranchrestoration.org
+GEO:42.1369093;-87.8203944
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Somme Woods South 1625 Ferndale Ave Northbrook IL United States;X-APPLE-RADIUS=500;X-TITLE=1625 Ferndale Ave:geo:-87.8203944,42.1369093
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260322T100000
+DTEND;TZID=America/Chicago:20260322T130000
+DTSTAMP:20260314T214259
+CREATED:20251113T204850Z
+LAST-MODIFIED:20251113T204850Z
+UID:10001204-1774173600-1774184400@northbranchrestoration.org
+SUMMARY:Oxbow Prairie
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””]Oxbow Prairie\, formed by an old loop in the river’s course\, lies northwest of Bunker Hill Savanna. \nThis old oxbow in the Chicago River’s North Branch is a combination of low\, wet prairie soils and slightly higher mesic prairie soils. A small open savanna lies on what was once the east bank of the river.  The mesic prairie area had been mowed by the FPDCC for recreational use and had an abundance of Eurasion grasses\, Queen Anne’s lace and tall goldenrod.  With management\, the more conservative prairie plants such as northern dropseed\, stiff goldenrod\, golden alexanders and big bluestem grass are returning. \nThe wetter areas are richest in native plants\, including cup plant\, ironweed\, tall meadow-rue\, water parsnip\, cord grass\, Virginia rye\, and numerous kinds of sedges. \nA small oak savanna on the old east bank has swamp white and bur oaks\, in the words of landscape architect and restorationist Tom Vanderpoel\, “a wonderful micro oak savanna.” \nBetween the prairie and the river lies a large floodplain woodland of cottonwood\, basswood and box elder\, where invasive garlic mustard dominates the understory. No restoration work has been done in this area yet\, and poses a challenge for the future. \nDirections: From the south\, enter the drive off Caldwell Avenue across from Tonty; proceed ~1/4 mile\, staying to the right at the split. From the north\, enter the drive off Harts Road and proceed ~3/4 mile south. Look for yellow Volunteer signs at the meeting spot.\n \nCan’t find us? Scan the QR code and follow directions: \nMeeting place \n  \nFor more information or to volunteer: \nMike Andrews (773) 405-7132 or Cammy Fortuna at Oxbow Prairie \n[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/oxbow-prairie-2026-03-22/
+LOCATION:Oxbow Prairie\, 6800 N Caldwell Ave\, Chicago\, il\, 60646
+CATEGORIES:Bunker Oxbow Prairie
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2021/05/Spartina-pectinata-small-01.jpg
+ORGANIZER;CN="Oxbow Prairie":MAILTO:oxbow_prairie@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260328T090000
+DTEND;TZID=America/Chicago:20260328T120000
+DTSTAMP:20260314T214259
+CREATED:20251113T031640Z
+LAST-MODIFIED:20251113T031640Z
+UID:10001176-1774688400-1774699200@northbranchrestoration.org
+SUMMARY:Somme Woods
+DESCRIPTION:Somme Woods has bur and white oak savannas and woodlands with massive old oaks\, open marshes\, and ephemeral ponds. Rich with native plants and animals\, the savannas and woodlands are being restored to their original beauty. Great horned owls and red-tailed hawks nest and hunt here alongside coyotes\, raccoons\, and opossums. \nPlease RSVP (below). For more information contact Eriko Kojima at (847) 322-7420 \nDirections: Park in the Somme Woods lot on the north side of Dundee Road\, just east of Waukegan Road. Map address is 1714 Dundee Road\, Northbrook. \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n 
+URL:https://northbranchrestoration.org/event/somme-woods-2026-03-28/
+LOCATION:Somme Woods\, 1714 Dundee Road\, Northbrook\, IL\, United States
+CATEGORIES:Somme Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/07/112a.jpg
+ORGANIZER;CN="Somme Woods":MAILTO:somme_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260328T100000
+DTEND;TZID=America/Chicago:20260328T130000
+DTSTAMP:20260314T214259
+CREATED:20251112T223927Z
+LAST-MODIFIED:20251112T223927Z
+UID:10001153-1774692000-1774702800@northbranchrestoration.org
+SUMMARY:Forest Glen Woods
+DESCRIPTION:[vc_row][vc_column][vc_column_text css=””]An important corridor for migratory birds\, Forest Glen is part of the Lower North Branch Preserves. This unique woodland\, savanna\, and floodplain ecosystem needs help from our volunteer community to remove invasive plants\, collect and distribute native seeds\, and reduce erosion issues. Join the North Branch Restoration Project with the Centennial Volunteers to learn how! \nGather at the Forest Glen parking lot\, located at 5420 N. Forest Glen Ave in Chicago. \nFor more information or to volunteer contact: \nBill Tucker at 312-206-5928 or Deb Gohr at Forest Glen[/vc_column_text][/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/forest-glen-woods-2026-03-28/
+LOCATION:Forest Glen Woods Forest Preserve\, 5420 N Forest Glen Ave\, Chicago
+CATEGORIES:Forest Glen Woods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/Buteo-jamaicensis-04-e1556849442250.jpg
+ORGANIZER;CN="Forest Glen Woods":MAILTO:forestglen_woods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260328T100000
+DTEND;TZID=America/Chicago:20260328T130000
+DTSTAMP:20260314T214259
+CREATED:20251113T182707Z
+LAST-MODIFIED:20251113T182734Z
+UID:10001199-1774692000-1774702800@northbranchrestoration.org
+SUMMARY:Bunker North Flatwoods
+DESCRIPTION:Bunker North Flatwoods gets its cathedral-like character from the large old pin oaks that dominate the canopy. Join the North Branch Restoration Project and Centennial Volunteers as we restore this oak woodland to health! This 76 acre site is new to restoration and will depend on the community of volunteers to remove invasive species\, spread native seed\, and much more. The preserve is also home to some beautiful spring ephemerals. \nDirections: Enter the preserve from Harts Road\, just west of Touhy and Caldwell. The approximate address is 6600 W Harts Road in Niles\, IL. \nPlease RSVP (below). For more information\, contact Mike Andrews (773) 405-7132\, Mike Bingaman (773) 203-3447) or email Bunker North Flatwoods
+URL:https://northbranchrestoration.org/event/bunker-north-flatwoods-2026-03-28/
+LOCATION:Bunker North Flatwoods\, 6600 West Harts Road\, Niles\, IL
+CATEGORIES:Bunker North Flatwoods
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/07/OSMCLA2a.jpg
+ORGANIZER;CN="Bunker North Flatwoods":MAILTO:bunkernorth_flatwoods@northbranchrestoration.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260329T100000
+DTEND;TZID=America/Chicago:20260329T130000
+DTSTAMP:20260314T214259
+CREATED:20251113T212129Z
+LAST-MODIFIED:20251113T212129Z
+UID:10001211-1774778400-1774789200@northbranchrestoration.org
+SUMMARY:Bunker Hill Savanna
+DESCRIPTION:[vc_row][vc_column]\n	\n					\n				\n					English				\n			\n					\n				\n					Español				\n			\n			\n	\n	[vc_column_text]Winding west and north along the bluff above the Chicago River\, the bike path runs through the Forest Preserve known as Bunker Hill Savanna and Sidney Yates Flatwoods . Bounded by Caldwell\, Devon and the North Branch of the Chicago River\, the site is approximately 100 acres and lies within the Chicago city limits. It encompasses a mosaic of open savanna\, oak woodland\, and flatwoods.\nLearn more about Bunker Hill Savanna \nDirections: West side of Caldwell between Devon and Touhy; entrance located just opposite Tonty Street. For Bunker Hill Meet in first section of parking lot; for Oxbow\, follow road until it turns north\, then park along the west side. \nPlease RSVP (below). For more information contact:\nErin Faulkner  at (708) 220-5606 or Rebecca Blazer at Bunker Savanna[/vc_column_text]	\n\n\n	[vc_column_text]Serpenteando hacia el oeste y el norte a lo largo del acantilado sobre el río Chicago\, el sendero para bicicletas atraviesa la Reserva Forestal conocida como Bunker Hill Savanna y Sidney Yates Flatwoods. Limitado por Caldwell\, Devon y la rama norte del río Chicago\, el sitio tiene aproximadamente 100 acres y se encuentra dentro de los límites de la ciudad de Chicago. Abarca un mosaico de sabana abierta\, bosques de robles y bosque plano.\nAprender más sobre Bunker Savanna \nDirecciones: Lado oeste de Caldwell entre Devon y Touhy; entrada ubicada justo enfrente de Tonty Street. Reúnase en la primera sección del estacionamiento\, justo al lado de Caldwell. \nContactos: Para más información o para ser voluntario: Stewards Erin Faulkner (708) 220-5606 y Rebecca Blazer en Bunker Savanna. Erin habla español y les damos bienvenidos a los miembros de la comunidad que prefieren conversar en español![/vc_column_text]	\n\n\n\n[/vc_column][/vc_row]
+URL:https://northbranchrestoration.org/event/bunker-hill-savanna-2026-03-29/
+LOCATION:Bunker Hill Forest Preserve\, 6800 Caldwell Ave\, Chicago\, il\, 60646
+CATEGORIES:Bunker Savanna
+ATTACH;FMTTYPE=image/jpeg:https://northbranchrestoration.org/wp-content/uploads/2019/05/bat.jpg
+ORGANIZER;CN="Bunker Savanna":MAILTO:bunker_savanna@northbranchrestoration.org
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,531 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Forest Preserves of Cook County - ECPv6.15.17.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Forest Preserves of Cook County
+X-ORIGINAL-URL:https://fpdcc.com
+X-WR-CALDESC:Events for Forest Preserves of Cook County
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20250309T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20251102T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20260308T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20261101T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20270314T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20271107T070000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T090000
+DTEND;TZID=America/Chicago:20260315T120000
+DTSTAMP:20260314T214258
+CREATED:20260213T145417Z
+LAST-MODIFIED:20260213T145534Z
+UID:10012458-1773565200-1773576000@fpdcc.com
+SUMMARY:Restoration Workday
+DESCRIPTION:Help us restore habitat and control invasive species. Equipment provided. Ages 12 & up; ages 12-17 w/ adult.
+URL:https://fpdcc.com/event/restoration-workday-28/
+LOCATION:Trailside Museum of Natural History\, 738 Thatcher Ave\, River Forest\, IL\, 60305\, United States
+CATEGORIES:Central Cook County,Volunteer
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2019/01/wampum-lake-volunteer-xochitl-lopez-jan18.jpg
+GEO:41.89324535;-87.82630546
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Trailside Museum of Natural History 738 Thatcher Ave River Forest IL 60305 United States;X-APPLE-RADIUS=500;X-TITLE=738 Thatcher Ave:geo:-87.82630546,41.89324535
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T110000
+DTEND;TZID=America/Chicago:20260315T150000
+DTSTAMP:20260314T214258
+CREATED:20251114T133126Z
+LAST-MODIFIED:20251115T214908Z
+UID:10011658-1773572400-1773586800@fpdcc.com
+SUMMARY:Maple Syrup Festival
+DESCRIPTION:Celebrate the arrival of spring with a special day of activities including crafts\, games\, tree tapping and maple syrup history.
+URL:https://fpdcc.com/event/maple-syrup-festival/
+LOCATION:River Trail Nature Center\, 3120 Milwaukee Ave\, Northbrook\, IL\, 60062\, United States
+CATEGORIES:Animal Ambassador,Arts & Crafts,Education,History & Culture,Maple Syrup,Music,Nature Play,North Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/11/maple-syrup-festival-river-trail-mar25.jpg
+GEO:42.09501105;-87.88484528
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=River Trail Nature Center 3120 Milwaukee Ave Northbrook IL 60062 United States;X-APPLE-RADIUS=500;X-TITLE=3120 Milwaukee Ave:geo:-87.88484528,42.09501105
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T130000
+DTEND;TZID=America/Chicago:20260315T130000
+DTSTAMP:20260314T214258
+CREATED:20260213T170728Z
+LAST-MODIFIED:20260213T170728Z
+UID:10012520-1773579600-1773579600@fpdcc.com
+SUMMARY:Nature Walk
+DESCRIPTION:Enjoy a spring walk along the trails.
+URL:https://fpdcc.com/event/nature-walk-2/
+LOCATION:Sagawau Environmental Learning Center\, 12545 W 111th St\, Lemont\, IL\, 60439\, United States
+CATEGORIES:Hiking & Walking,Southwest Cook County,Wellness in the Woods
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2024/08/Science-Educator-workshop-Sagawau-jul24.jpg
+GEO:41.68926677;-87.92571427
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Sagawau Environmental Learning Center 12545 W 111th St Lemont IL 60439 United States;X-APPLE-RADIUS=500;X-TITLE=12545 W 111th St:geo:-87.92571427,41.68926677
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T130000
+DTEND;TZID=America/Chicago:20260315T130000
+DTSTAMP:20260314T214258
+CREATED:20260216T005642Z
+LAST-MODIFIED:20260217T182248Z
+UID:10012696-1773579600-1773579600@fpdcc.com
+SUMMARY:Wee Wonders: Turtles
+DESCRIPTION:Bring your little ones to learn about turtles through stories\, crafts and a turtle encounter. Ages 2-5 w/ adult.
+URL:https://fpdcc.com/event/wee-wonders-turtles-2/
+LOCATION:Sand Ridge Nature Center\, 15891 S Paxton Ave\, South Holland\, IL\, 60473\, United States
+CATEGORIES:Animal Ambassador,Arts & Crafts,Education,Nature Play,South Cook County,Storytelling,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2026/02/sand-ridge-nature-center-animal-turtle-aug20-1.jpg
+ORGANIZER;CN="Sand Ridge Campus":MAILTO:sandridge.naturecenter@cookcountyil.gov
+GEO:41.60593301;-87.56574946
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Sand Ridge Nature Center 15891 S Paxton Ave South Holland IL 60473 United States;X-APPLE-RADIUS=500;X-TITLE=15891 S Paxton Ave:geo:-87.56574946,41.60593301
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T150000
+DTEND;TZID=America/Chicago:20260315T150000
+DTSTAMP:20260314T214258
+CREATED:20240813T144157Z
+LAST-MODIFIED:20260223T223009Z
+UID:10012305-1773586800-1773586800@fpdcc.com
+SUMMARY:What’s On The Menu?
+DESCRIPTION:Join us at feeding time to learn about our outdoor ambassador animals and their habits.
+URL:https://fpdcc.com/event/whats-on-the-menu/2026-03-15/
+LOCATION:River Trail Nature Center\, 3120 Milwaukee Ave\, Northbrook\, IL\, 60062\, United States
+CATEGORIES:Animal Ambassador,Education,North Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2024/08/river-trail-nature-center-whats-on-the-menu-staff-children-oct22.jpg
+GEO:42.09501105;-87.88484528
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=River Trail Nature Center 3120 Milwaukee Ave Northbrook IL 60062 United States;X-APPLE-RADIUS=500;X-TITLE=3120 Milwaukee Ave:geo:-87.88484528,42.09501105
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260317T100000
+DTEND;TZID=America/Chicago:20260317T100000
+DTSTAMP:20260314T214258
+CREATED:20260213T010505Z
+LAST-MODIFIED:20260213T010505Z
+UID:10012396-1773741600-1773741600@fpdcc.com
+SUMMARY:Crabtree History Walk
+DESCRIPTION:Join us as we walk and learn about the early days of Crabtree Nature Center.
+URL:https://fpdcc.com/event/crabtree-history-walk/
+LOCATION:Crabtree Nature Center\, 3 Stover Road\, Barrington Hills\, IL\, 60010
+CATEGORIES:Education,Hiking & Walking,History & Culture,Northwest Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2018/12/crabtree-nature-center-trails-jun12.jpg
+GEO:42.11563369;-88.16357511
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Crabtree Nature Center 3 Stover Road Barrington Hills IL 60010;X-APPLE-RADIUS=500;X-TITLE=3 Stover Road:geo:-88.16357511,42.11563369
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260317T103000
+DTEND;TZID=America/Chicago:20260317T120000
+DTSTAMP:20260314T214258
+CREATED:20240813T141030Z
+LAST-MODIFIED:20260223T222940Z
+UID:10012324-1773743400-1773748800@fpdcc.com
+SUMMARY:Wildlife Connections
+DESCRIPTION:Stop by the visitor center to learn about reptiles\, mammals and birds from the residents of Misericordia – Heart of Mercy. All ages.
+URL:https://fpdcc.com/event/wildlife-connections/2026-03-17/
+LOCATION:River Trail Nature Center\, 3120 Milwaukee Ave\, Northbrook\, IL\, 60062\, United States
+CATEGORIES:Animal Ambassador,Education,North Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2023/05/river-trail-nature-center-wildlife-connections-aug24.jpg
+GEO:42.09501105;-87.88484528
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=River Trail Nature Center 3120 Milwaukee Ave Northbrook IL 60062 United States;X-APPLE-RADIUS=500;X-TITLE=3120 Milwaukee Ave:geo:-87.88484528,42.09501105
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260317T110000
+DTEND;TZID=America/Chicago:20260317T110000
+DTSTAMP:20260314T214258
+CREATED:20260215T211030Z
+LAST-MODIFIED:20260215T211030Z
+UID:10012648-1773745200-1773745200@fpdcc.com
+SUMMARY:Houseplant 911
+DESCRIPTION:Learn care tips\, beginner basics and how to choose your flora friends.
+URL:https://fpdcc.com/event/houseplant-911/
+LOCATION:Little Red Schoolhouse Nature Center\, 9800 Willow Springs Rd\, Willow Springs\, IL\, 60480\, United States
+CATEGORIES:Education,Gardening,Southwest Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2018/05/little-red-schoolhouse-feature.jpg
+GEO:41.70896743;-87.87715272
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Little Red Schoolhouse Nature Center 9800 Willow Springs Rd Willow Springs IL 60480 United States;X-APPLE-RADIUS=500;X-TITLE=9800 Willow Springs Rd:geo:-87.87715272,41.70896743
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260318T090000
+DTEND;TZID=America/Chicago:20260318T090000
+DTSTAMP:20260314T214258
+CREATED:20251114T120749Z
+LAST-MODIFIED:20260213T043327Z
+UID:10012448-1773824400-1773824400@fpdcc.com
+SUMMARY:Senior Fitness Walk
+DESCRIPTION:Join other seniors for a gentle\, moderately paced 1-mile walk. Led by Roberta Jannsen\, University of Illinois Extension volunteer.
+URL:https://fpdcc.com/event/senior-fitness/2026-03-18/
+LOCATION:Thatcher Woods
+CATEGORIES:Central Cook County,Fitness,Hiking & Walking,Senior,Wellness in the Woods
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/02/thatcher-woods-landscape-by-tommy-digiovanni-oct23.jpg
+GEO:41.89585788;-87.83089023
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260318T093000
+DTEND;TZID=America/Chicago:20260318T093000
+DTSTAMP:20260314T214258
+CREATED:20260202T220848Z
+LAST-MODIFIED:20260202T221203Z
+UID:10012274-1773826200-1773826200@fpdcc.com
+SUMMARY:Fitness Hike
+DESCRIPTION:Fitness Hikes are for those looking to get some exercise outdoors. Fitness hikes are faster paced with little to no stopping or interpretation. 7 miles.
+URL:https://fpdcc.com/event/fitness-hike-29/
+LOCATION:Brezina Woods
+CATEGORIES:Central Cook County,Fitness,Hiking & Walking,Wellness in the Woods
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2024/12/photo-meetup-crabtree-group-walking-mar13.jpg
+ORGANIZER;CN="Conservation & Experiential Programming (Central Zone)":MAILTO:centralzoneprogram@cookcountyil.gov
+GEO:41.8432179;-87.8783121
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260318T100000
+DTEND;TZID=America/Chicago:20260318T100000
+DTSTAMP:20260314T214258
+CREATED:20260209T194511Z
+LAST-MODIFIED:20260209T194511Z
+UID:10012355-1773828000-1773828000@fpdcc.com
+SUMMARY:Wee Wanderer Wednesdays
+DESCRIPTION:Join us for a special program for little naturalists. Ticket giveaway starts at 9:30 am and are available on a first-come\, first-served basis. Ages 2-6 w/ adult.
+URL:https://fpdcc.com/event/wee-wanderer-wednesdays-8/
+LOCATION:Crabtree Nature Center\, 3 Stover Road\, Barrington Hills\, IL\, 60010
+CATEGORIES:Education,Nature Play,Northwest Cook County,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2019/01/crabtree-nature-center-nature-play-may13.jpg
+GEO:42.11563369;-88.16357511
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Crabtree Nature Center 3 Stover Road Barrington Hills IL 60010;X-APPLE-RADIUS=500;X-TITLE=3 Stover Road:geo:-88.16357511,42.11563369
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260318T100000
+DTEND;TZID=America/Chicago:20260318T100000
+DTSTAMP:20260314T214258
+CREATED:20260215T044854Z
+LAST-MODIFIED:20260215T044939Z
+UID:10012635-1773828000-1773828000@fpdcc.com
+SUMMARY:Waterfowl Watch
+DESCRIPTION:Join us as we peer through a spotting scope to watch and identify waterfowl. Ages 14 & up.
+URL:https://fpdcc.com/event/waterfowl-watch-7/
+LOCATION:McGinnis Slough\, IL
+CATEGORIES:Birding,Education,Hiking & Walking,Southwest Cook County,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2019/06/mcginnis-slough-jim-phillips-jul-07.jpg
+GEO:41.64133521;-87.85639902
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260318T100000
+DTEND;TZID=America/Chicago:20260318T100000
+DTSTAMP:20260314T214258
+CREATED:20260215T212148Z
+LAST-MODIFIED:20260215T212148Z
+UID:10012649-1773828000-1773828000@fpdcc.com
+SUMMARY:Sun and Moon Share the Sky
+DESCRIPTION:Join La Grange Park Public Library for story time and crafts while learning about the spring equinox. Ages 2-6 w/ adult.
+URL:https://fpdcc.com/event/sun-and-moon-share-the-sky/
+LOCATION:Little Red Schoolhouse Nature Center\, 9800 Willow Springs Rd\, Willow Springs\, IL\, 60480\, United States
+CATEGORIES:Arts & Crafts,Education,Southwest Cook County,Storytelling,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/11/trailside-children-storytime-nov25.jpeg
+GEO:41.70896743;-87.87715272
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Little Red Schoolhouse Nature Center 9800 Willow Springs Rd Willow Springs IL 60480 United States;X-APPLE-RADIUS=500;X-TITLE=9800 Willow Springs Rd:geo:-87.87715272,41.70896743
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260319T093000
+DTEND;TZID=America/Chicago:20260319T104500
+DTSTAMP:20260314T214258
+CREATED:20260219T151403Z
+LAST-MODIFIED:20260219T151745Z
+UID:10012724-1773912600-1773917100@fpdcc.com
+SUMMARY:Yoga in the Preserves
+DESCRIPTION:Join this inspiring and creative vinyasa flow class led by Kim Eisendrath. $5/person.
+URL:https://fpdcc.com/event/yoga-in-the-preserves/2026-03-19/
+LOCATION:Caldwell Woods Wellness Center\, 6350 West Devon Avenue\, Chicago\, IL\, 60646\, United States
+CATEGORIES:Fitness,North Cook County,Wellness in the Woods
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/02/shutterstock_1028530498.jpg
+ORGANIZER;CN="Conservation & Experiential Programming (North Zone)":MAILTO:northzoneprogram@cookcountyil.gov
+GEO:41.998562036604;-87.785286183849
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Caldwell Woods Wellness Center 6350 West Devon Avenue Chicago IL 60646 United States;X-APPLE-RADIUS=500;X-TITLE=6350 West Devon Avenue:geo:-87.785286183849,41.998562036604
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260319T100000
+DTEND;TZID=America/Chicago:20260319T120000
+DTSTAMP:20260314T214258
+CREATED:20260213T013553Z
+LAST-MODIFIED:20260213T014419Z
+UID:10012402-1773914400-1773921600@fpdcc.com
+SUMMARY:Forest Bathing: Celebrate the Spring Season
+DESCRIPTION:Experience the health benefits of being in nature with Gayle Byck of InTune with Nature. Ages 18 & up.
+URL:https://fpdcc.com/event/forest-bathing-celebrate-the-spring-season/
+LOCATION:Caldwell Woods Wellness Center\, 6350 West Devon Avenue\, Chicago\, IL\, 60646\, United States
+CATEGORIES:North Cook County,Wellness in the Woods
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2019/03/wellness-woods-banner.jpg
+ORGANIZER;CN="Conservation & Experiential Programming (North Zone)":MAILTO:northzoneprogram@cookcountyil.gov
+GEO:41.998562036604;-87.785286183849
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Caldwell Woods Wellness Center 6350 West Devon Avenue Chicago IL 60646 United States;X-APPLE-RADIUS=500;X-TITLE=6350 West Devon Avenue:geo:-87.785286183849,41.998562036604
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260319T170000
+DTEND;TZID=America/Chicago:20260319T193000
+DTSTAMP:20260314T214258
+CREATED:20260213T010820Z
+LAST-MODIFIED:20260213T011633Z
+UID:10012397-1773939600-1773948600@fpdcc.com
+SUMMARY:Restore the Night
+DESCRIPTION:Remove invasive shrubs\, then join our season wrap-up celebration! Equipment provided. Ages 8 & up w/ adult. High schoolers may earn service hours.
+URL:https://fpdcc.com/event/restore-the-night/
+LOCATION:Crabtree Nature Center\, 3 Stover Road\, Barrington Hills\, IL\, 60010
+CATEGORIES:Astronomy,Northwest Cook County,Volunteer,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2018/11/little-red-schoolhouse-volunteer-aug12.jpg
+GEO:42.11563369;-88.16357511
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Crabtree Nature Center 3 Stover Road Barrington Hills IL 60010;X-APPLE-RADIUS=500;X-TITLE=3 Stover Road:geo:-88.16357511,42.11563369
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260319T173000
+DTEND;TZID=America/Chicago:20260319T193000
+DTSTAMP:20260314T214258
+CREATED:20260213T013821Z
+LAST-MODIFIED:20260213T014517Z
+UID:10012403-1773941400-1773948600@fpdcc.com
+SUMMARY:Crafting Circle
+DESCRIPTION:Join a community of crafters to work on projects together! BYO-materials. Limited supplies available. Drop in.
+URL:https://fpdcc.com/event/crafting-circle-4/
+LOCATION:Caldwell Woods Wellness Center\, 6350 West Devon Avenue\, Chicago\, IL\, 60646\, United States
+CATEGORIES:Arts & Crafts,North Cook County,Wellness in the Woods
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/11/shutterstock_2662763477.jpg
+ORGANIZER;CN="Conservation & Experiential Programming (North Zone)":MAILTO:northzoneprogram@cookcountyil.gov
+GEO:41.998562036604;-87.785286183849
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Caldwell Woods Wellness Center 6350 West Devon Avenue Chicago IL 60646 United States;X-APPLE-RADIUS=500;X-TITLE=6350 West Devon Avenue:geo:-87.785286183849,41.998562036604
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260319T180000
+DTEND;TZID=America/Chicago:20260319T180000
+DTSTAMP:20260314T214258
+CREATED:20260205T223136Z
+LAST-MODIFIED:20260217T180225Z
+UID:10012294-1773943200-1773943200@fpdcc.com
+SUMMARY:Be a Better Birder: Birding and Technology
+DESCRIPTION:Join us to learn about technology that can be used to enhance your birding experience.
+URL:https://fpdcc.com/event/be-a-better-birder-birding-and-technology-3/
+CATEGORIES:Birding,Education,Virtual
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/02/bird-walk-solo-shutterstock.jpg
+ORGANIZER;CN="Jessica Becker":MAILTO:Jessica.becker@cookcountyil.gov
+LOCATION:https://forms.gle/PvNp4bYFnAiyxAwSA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260320T090000
+DTEND;TZID=America/Chicago:20260320T110000
+DTSTAMP:20260314T214258
+CREATED:20260213T041512Z
+LAST-MODIFIED:20260213T041512Z
+UID:10012442-1773997200-1774004400@fpdcc.com
+SUMMARY:Printmaking Workshop
+DESCRIPTION:Learn how to carve your own linoblock stamp. Materials provided. Ages 12 & up.
+URL:https://fpdcc.com/event/printmaking-workshop-4/
+LOCATION:Thatcher Woods
+CATEGORIES:Arts & Crafts,Central Cook County,Education,Wellness in the Woods,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/08/linoleum-block-shutterstock_2565633199.jpg
+ORGANIZER;CN="Conservation & Experiential Programming (Central Zone)":MAILTO:centralzoneprogram@cookcountyil.gov
+GEO:41.89585788;-87.83089023
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260320T181500
+DTEND;TZID=America/Chicago:20260320T181500
+DTSTAMP:20260314T214258
+CREATED:20260212T224713Z
+LAST-MODIFIED:20260212T224807Z
+UID:10012387-1774030500-1774030500@fpdcc.com
+SUMMARY:Timberdoodle Talk & Trek
+DESCRIPTION:Learn\, then observe the American woodcock courtship display in the darkening sky. Ages 7 & up.
+URL:https://fpdcc.com/event/timberdoodle-talk-trek/
+LOCATION:Crabtree Nature Center\, 3 Stover Road\, Barrington Hills\, IL\, 60010
+CATEGORIES:Astronomy,Birding,Education,Hiking & Walking,Northwest Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2020/02/woodcock-timberdoodle-rodney-campbell-flickr-apr15.jpg
+GEO:42.11563369;-88.16357511
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Crabtree Nature Center 3 Stover Road Barrington Hills IL 60010;X-APPLE-RADIUS=500;X-TITLE=3 Stover Road:geo:-88.16357511,42.11563369
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T080000
+DTEND;TZID=America/Chicago:20260321T080000
+DTSTAMP:20260314T214258
+CREATED:20260205T152301Z
+LAST-MODIFIED:20260205T152301Z
+UID:10012291-1774080000-1774080000@fpdcc.com
+SUMMARY:Morning Bird Walk
+DESCRIPTION:Learn about spring bird migration patterns and look for local and migrant birds. Limited supply of binoculars available for loan at select events. All levels of birding skills welcome!
+URL:https://fpdcc.com/event/morning-bird-walk-2/
+LOCATION:Trailside Museum of Natural History\, 738 Thatcher Ave\, River Forest\, IL\, 60305\, United States
+CATEGORIES:Birding,Central Cook County,Education,Hiking & Walking
+ATTACH;FMTTYPE=image/gif:https://fpdcc.com/wp-content/uploads/2019/01/bird-the-preserves-logo-011419.gif
+GEO:41.89324535;-87.82630546
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Trailside Museum of Natural History 738 Thatcher Ave River Forest IL 60305 United States;X-APPLE-RADIUS=500;X-TITLE=738 Thatcher Ave:geo:-87.82630546,41.89324535
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T080000
+DTEND;TZID=America/Chicago:20260321T100000
+DTSTAMP:20260314T214258
+CREATED:20260204T160427Z
+LAST-MODIFIED:20260303T153527Z
+UID:10012286-1774080000-1774087200@fpdcc.com
+SUMMARY:Bird Walk
+DESCRIPTION:Learn about spring bird migration patterns and look for local and migrant birds. Limited supply of binoculars available for loan at select events. All levels of birding skills welcome!
+URL:https://fpdcc.com/event/bird-walk-19/
+LOCATION:McGinnis Slough\, IL
+CATEGORIES:Birding,Education,Hiking & Walking,Southwest Cook County
+ATTACH;FMTTYPE=image/gif:https://fpdcc.com/wp-content/uploads/2019/01/bird-the-preserves-logo-011419.gif
+ORGANIZER;CN="Conservation & Experiential Programming (South Zone)":MAILTO:experience.nature@cookcountyil.gov
+GEO:41.64133521;-87.85639902
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T100000
+DTEND;TZID=America/Chicago:20260321T110000
+DTSTAMP:20260314T214258
+CREATED:20260309T201236Z
+LAST-MODIFIED:20260309T201354Z
+UID:10012773-1774087200-1774090800@fpdcc.com
+SUMMARY:Conservation @ Home: Spring Ephemerals
+DESCRIPTION:Have you ever wondered how some wildflowers bloom while the ground is still cold and the air feels like winter? Join University of Illinois Extension for this free one-hour webinar to explore Illinois’ native spring ephemerals and their vital role in supporting early-season pollinators. Learn how to plant and care for these resilient woodland flowers to bring early color and habitat into your landscape.
+URL:https://fpdcc.com/event/conservation-home-spring-ephemerals/
+CATEGORIES:Conservation@Home,Education,Gardening,Virtual
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2017/09/conservation-at-home-evaluation-sep16.jpg
+LOCATION:https://extension.illinois.edu/events/2026-03-21-conservationhomes-2026-spring-ephemerals-webinar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T100000
+DTEND;TZID=America/Chicago:20260321T140000
+DTSTAMP:20260314T214258
+CREATED:20260213T225729Z
+LAST-MODIFIED:20260310T163605Z
+UID:10012544-1774087200-1774101600@fpdcc.com
+SUMMARY:Women in the Wilds
+DESCRIPTION:Overview:\nCelebrate women in conservation and the natural sciences with presentations\, hands-on activities and information promoting job and volunteer opportunities. \nSchedule:\n\n10 am: Volunteer panel discussion\n11 am: “Stillness in the Wild” mindfulness and meditation workshop (limited spots available)\n1 pm: “Meet Our Birds” program\n12 pm – 2pm: Conservation “Show & Tell” featuring volunteers from University of Illinois Extension\, Forest Preserve District of Cook County\, and more\n\nDrop in for:\n\nJob and volunteer opportunity fair\nAnimal programs\nGuided walks\nConservation education activities\nCrafts\nFace painting\n\nFeatured vendors:\n\nForest Press Co\nZemi Coffee\nThe Urban Canopy\nSkunk Cabbage BooksEat Em Up Catering
+URL:https://fpdcc.com/event/women-in-the-wilds/
+LOCATION:Sand Ridge Nature Center\, 15891 S Paxton Ave\, South Holland\, IL\, 60473\, United States
+CATEGORIES:Animal Ambassador,Education,History & Culture,South Cook County,Volunteer,Wellness in the Woods
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2026/02/sand-ridge-nature-center-women-in-the-wilds-expo-mar26.jpg
+ORGANIZER;CN="Sand Ridge Campus":MAILTO:sandridge.naturecenter@cookcountyil.gov
+GEO:41.60593301;-87.56574946
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Sand Ridge Nature Center 15891 S Paxton Ave South Holland IL 60473 United States;X-APPLE-RADIUS=500;X-TITLE=15891 S Paxton Ave:geo:-87.56574946,41.60593301
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T130000
+DTEND;TZID=America/Chicago:20260321T130000
+DTSTAMP:20260314T214258
+CREATED:20260213T011150Z
+LAST-MODIFIED:20260213T011150Z
+UID:10012398-1774098000-1774098000@fpdcc.com
+SUMMARY:Muddy Paws Walk
+DESCRIPTION:Search the muddy trails to identify which animals are using them.
+URL:https://fpdcc.com/event/muddy-paws-walk/
+LOCATION:Crabtree Nature Center\, 3 Stover Road\, Barrington Hills\, IL\, 60010
+CATEGORIES:Education,Hiking & Walking,Northwest Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/02/deer-grove-animal-coyote-by-leo-estrada-may24.jpg
+GEO:42.11563369;-88.16357511
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Crabtree Nature Center 3 Stover Road Barrington Hills IL 60010;X-APPLE-RADIUS=500;X-TITLE=3 Stover Road:geo:-88.16357511,42.11563369
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T130000
+DTEND;TZID=America/Chicago:20260321T130000
+DTSTAMP:20260314T214258
+CREATED:20260213T222348Z
+LAST-MODIFIED:20260213T222348Z
+UID:10012534-1774098000-1774098000@fpdcc.com
+SUMMARY:Baffling Brown Birds
+DESCRIPTION:Learn how to identify sparrows of the Chicago region with an indoor presentation followed by a bird walk. Ages 16 & up.
+URL:https://fpdcc.com/event/baffling-brown-birds/
+LOCATION:Sagawau Environmental Learning Center\, 12545 W 111th St\, Lemont\, IL\, 60439\, United States
+CATEGORIES:Birding,Education,Hiking & Walking,Southwest Cook County,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2022/07/birding-spring-creek-penny-road-pond-may12.jpg
+GEO:41.68926677;-87.92571427
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Sagawau Environmental Learning Center 12545 W 111th St Lemont IL 60439 United States;X-APPLE-RADIUS=500;X-TITLE=12545 W 111th St:geo:-87.92571427,41.68926677
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T150000
+DTEND;TZID=America/Chicago:20260321T150000
+DTSTAMP:20260314T214258
+CREATED:20240813T144157Z
+LAST-MODIFIED:20260223T223009Z
+UID:10012306-1774105200-1774105200@fpdcc.com
+SUMMARY:What’s On The Menu?
+DESCRIPTION:Join us at feeding time to learn about our outdoor ambassador animals and their habits.
+URL:https://fpdcc.com/event/whats-on-the-menu/2026-03-21/
+LOCATION:River Trail Nature Center\, 3120 Milwaukee Ave\, Northbrook\, IL\, 60062\, United States
+CATEGORIES:Animal Ambassador,Education,North Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2024/08/river-trail-nature-center-whats-on-the-menu-staff-children-oct22.jpg
+GEO:42.09501105;-87.88484528
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=River Trail Nature Center 3120 Milwaukee Ave Northbrook IL 60062 United States;X-APPLE-RADIUS=500;X-TITLE=3120 Milwaukee Ave:geo:-87.88484528,42.09501105
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T150000
+DTEND;TZID=America/Chicago:20260321T150000
+DTSTAMP:20260314T214258
+CREATED:20251114T122414Z
+LAST-MODIFIED:20260213T145924Z
+UID:10012461-1774105200-1774105200@fpdcc.com
+SUMMARY:“Bone” Appetit
+DESCRIPTION:Join us during feeding time to learn about our ambassador animals. Drop in.
+URL:https://fpdcc.com/event/bone-appetit-9/2026-03-21/
+LOCATION:Trailside Museum of Natural History\, 738 Thatcher Ave\, River Forest\, IL\, 60305\, United States
+CATEGORIES:Animal Ambassador,Central Cook County,Education
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2022/07/animal-exhibit-river-trail-nature-center-jun12.jpg
+GEO:41.89324535;-87.82630546
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Trailside Museum of Natural History 738 Thatcher Ave River Forest IL 60305 United States;X-APPLE-RADIUS=500;X-TITLE=738 Thatcher Ave:geo:-87.82630546,41.89324535
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T153000
+DTEND;TZID=America/Chicago:20260321T173000
+DTSTAMP:20260314T214258
+CREATED:20260213T154459Z
+LAST-MODIFIED:20260309T144244Z
+UID:10012473-1774107000-1774114200@fpdcc.com
+SUMMARY:Printmaking Workshop
+DESCRIPTION:Learn how to carve your own linoblock stamp. Materials provided. Ages 12 & up.
+URL:https://fpdcc.com/event/printmaking-workshop-5/
+LOCATION:Swallow Cliff Woods-North\, IL
+CATEGORIES:Arts & Crafts,Education,Southwest Cook County,Wellness in the Woods,Youth
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2025/08/linoleum-block-shutterstock_2565633199.jpg
+ORGANIZER;CN="Conservation & Experiential Programming (Southwest Zone)":MAILTO:experience.nature@cookcountyil.gov
+GEO:41.6807903;-87.86088567
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260322T103000
+DTEND;TZID=America/Chicago:20260322T103000
+DTSTAMP:20260314T214258
+CREATED:20260215T212352Z
+LAST-MODIFIED:20260305T211244Z
+UID:10012650-1774175400-1774175400@fpdcc.com
+SUMMARY:Spring's First Blooms
+DESCRIPTION:Create your own pressed flower field guide and learn about spring’s first blooms.
+URL:https://fpdcc.com/event/springs-first-blooms/
+LOCATION:Little Red Schoolhouse Nature Center\, 9800 Willow Springs Rd\, Willow Springs\, IL\, 60480\, United States
+CATEGORIES:Arts & Crafts,Education,Southwest Cook County
+ATTACH;FMTTYPE=image/jpeg:https://fpdcc.com/wp-content/uploads/2026/02/spring-themes-event-graphics-022026-1400x800-wildflower-event.jpg
+GEO:41.70896743;-87.87715272
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Little Red Schoolhouse Nature Center 9800 Willow Springs Rd Willow Springs IL 60480 United States;X-APPLE-RADIUS=500;X-TITLE=9800 Willow Springs Rd:geo:-87.87715272,41.70896743
+END:VEVENT
+END:VCALENDAR

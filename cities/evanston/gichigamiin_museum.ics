@@ -1,0 +1,317 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gichigamiin Indigenous Nations Museum - ECPv6.15.16//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gichigamiin Indigenous Nations Museum
+X-ORIGINAL-URL:https://gichigamiin-museum.org
+X-WR-CALDESC:Events for Gichigamiin Indigenous Nations Museum
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20250309T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20251102T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20260308T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20261101T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20270314T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20271107T070000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260323T103000
+DTEND;TZID=America/Chicago:20260323T110000
+DTSTAMP:20260314T214301
+CREATED:20251208T214307Z
+LAST-MODIFIED:20251208T214310Z
+UID:11101-1774261800-1774263600@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10466/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260323T150000
+DTEND;TZID=America/Chicago:20260323T160000
+DTSTAMP:20260314T214301
+CREATED:20260226T215528Z
+LAST-MODIFIED:20260302T175414Z
+UID:11288-1774278000-1774281600@gichigamiin-museum.org
+SUMMARY:Maple Syrup Tasting
+DESCRIPTION:March is for maple season! \nJoin us in the Gichigamiin Library for a small flight of maple syrups to compare artificial and natural ingredients together with mini dipping pancakes. Our garden manager\, Camille Billie\, will also share a presentation on the health benefits of syrups that come from tree sap alongside tree tapping practices to harvest and make your own maple syrup. We apologize\, but our program list is full. Stay tuned for future garden programs!  \n			\n				\n				\n				\n				\n				For more info about this program\, please contact Camille at camille.billie@gichigamiin.org \n\n 
+URL:https://gichigamiin-museum.org/events/maple-syrup-tasting/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2026/02/03.26-Maple-Syrup-Tasting.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260325T100000
+DTEND;TZID=America/Chicago:20260325T170000
+DTSTAMP:20260314T214301
+CREATED:20251209T161826Z
+LAST-MODIFIED:20251209T161830Z
+UID:11037-1774432800-1774458000@gichigamiin-museum.org
+SUMMARY:March Free Day
+DESCRIPTION:Join us for a day of free admission at Gichigamiin Indigenous Nations Museum on Wednesday\, March 25th\, 2026\, from 10:00 a.m. to 5:00 p.m. \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n			\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				Our monthly Museum Free Days will now include Indigenous Artists Pop-Up Markets! Each month\, visit and shop with different local Indigenous artists. \nBooth spots are limited\, please contact Josee at jstarr@gichigamiin.org to reserve your spot.
+URL:https://gichigamiin-museum.org/events/march-free-day-2026/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/11/March-2026.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260403T100000
+DTEND;TZID=America/Chicago:20260403T170000
+DTSTAMP:20260314T214301
+CREATED:20251209T162322Z
+LAST-MODIFIED:20251209T162326Z
+UID:11113-1775210400-1775235600@gichigamiin-museum.org
+SUMMARY:April Free Day
+DESCRIPTION:Join us for a day of free admission at Gichigamiin Indigenous Nations Museum on Friday\, April 3rd\, 2026\, from 10:00 a.m. to 5:00 p.m. \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n			\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				Our monthly Museum Free Days will now include Indigenous Artists Pop-Up Markets! Each month\, visit and shop with different local Indigenous artists. \nBooth spots are limited\, please contact Josee at jstarr@gichigamiin.org to reserve your spot.
+URL:https://gichigamiin-museum.org/events/april-free-day-2026/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/12/April-2026.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260406T103000
+DTEND;TZID=America/Chicago:20260406T110000
+DTSTAMP:20260314T214301
+CREATED:20260217T222642Z
+LAST-MODIFIED:20260217T222926Z
+UID:11192-1775471400-1775473200@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10467/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260408T163000
+DTEND;TZID=America/Chicago:20260408T180000
+DTSTAMP:20260314T214301
+CREATED:20260226T225426Z
+LAST-MODIFIED:20260226T230451Z
+UID:11300-1775665800-1775671200@gichigamiin-museum.org
+SUMMARY:Teacher Focus Group
+DESCRIPTION:We are developing new field trip programming for elementary school groups in preparation for the 2026-2027 school year. As part of that process\, we would love to get input from elementary school teachers. We have scheduled a focus group at the museum (3001 Central Street\, Evanston\, IL 60201) at 4:30 PM on Wednesday\, April 8th. If you teach students anywhere from pre-K to sixth grade and would like to be involved\, please RSVP. We will be closing the form for RSVPs on Monday\, April 6th. \nLight snacks and refreshments will be available.  \n\n			\n				RSVP\n			\n				\n				\n				\n				\n				For more info about this program\, please contact Michael at mlamble@gichigamiin.org | (847) 475-0911
+URL:https://gichigamiin-museum.org/events/11300/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2026/02/4.8.26-teacher-focus-group-2160-x-1080-px.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260420T103000
+DTEND;TZID=America/Chicago:20260420T110000
+DTSTAMP:20260314T214301
+CREATED:20260217T223206Z
+LAST-MODIFIED:20260217T223210Z
+UID:11201-1776681000-1776682800@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10468/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260504T103000
+DTEND;TZID=America/Chicago:20260504T110000
+DTSTAMP:20260314T214301
+CREATED:20260217T223540Z
+LAST-MODIFIED:20260217T223544Z
+UID:11209-1777890600-1777892400@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10469/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260506T100000
+DTEND;TZID=America/Chicago:20260506T170000
+DTSTAMP:20260314T214301
+CREATED:20251209T162741Z
+LAST-MODIFIED:20251209T162744Z
+UID:11122-1778061600-1778086800@gichigamiin-museum.org
+SUMMARY:May Free Day
+DESCRIPTION:Join us for a day of free admission at Gichigamiin Indigenous Nations Museum on Wednesday\, May 6th\, 2026\, from 10:00 a.m. to 5:00 p.m. \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n			\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				Our monthly Museum Free Days will now include Indigenous Artists Pop-Up Markets! Each month\, visit and shop with different local Indigenous artists. \nBooth spots are limited\, please contact Josee at jstarr@gichigamiin.org to reserve your spot.
+URL:https://gichigamiin-museum.org/events/may-free-day-2026/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/12/May-2026.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260518T103000
+DTEND;TZID=America/Chicago:20260518T110000
+DTSTAMP:20260314T214301
+CREATED:20260217T223756Z
+LAST-MODIFIED:20260217T223759Z
+UID:11214-1779100200-1779102000@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10470/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260601T103000
+DTEND;TZID=America/Chicago:20260601T110000
+DTSTAMP:20260314T214301
+CREATED:20260217T223949Z
+LAST-MODIFIED:20260217T223952Z
+UID:11219-1780309800-1780311600@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10471/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260615T103000
+DTEND;TZID=America/Chicago:20260615T110000
+DTSTAMP:20260314T214301
+CREATED:20260217T224214Z
+LAST-MODIFIED:20260217T224217Z
+UID:11227-1781519400-1781521200@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10472/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260617T100000
+DTEND;TZID=America/Chicago:20260617T170000
+DTSTAMP:20260314T214301
+CREATED:20251209T163040Z
+LAST-MODIFIED:20251209T163104Z
+UID:11128-1781690400-1781715600@gichigamiin-museum.org
+SUMMARY:June Free Day
+DESCRIPTION:Join us for a day of free admission at Gichigamiin Indigenous Nations Museum on Wednesday\, June 17th\, 2026\, from 10:00 a.m. to 5:00 p.m. \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n			\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				Our monthly Museum Free Days will now include Indigenous Artists Pop-Up Markets! Each month\, visit and shop with different local Indigenous artists. \nBooth spots are limited\, please contact Josee at jstarr@gichigamiin.org to reserve your spot.
+URL:https://gichigamiin-museum.org/events/june-free-day-2026/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/11/June-2025-4.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260629T103000
+DTEND;TZID=America/Chicago:20260629T110000
+DTSTAMP:20260314T214301
+CREATED:20260217T224407Z
+LAST-MODIFIED:20260217T224411Z
+UID:11232-1782729000-1782730800@gichigamiin-museum.org
+SUMMARY:Little Ones Story Time
+DESCRIPTION:Come join us for story time!\nWe will start each session with board books for toddlers\, followed by a little movement and music. All of our books are written by Native authors. \nThe program is FREE for participants. We are excited to see you there!
+URL:https://gichigamiin-museum.org/events/10473/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2025/08/Story-Time-2160-x-1080-px-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260912T100000
+DTEND;TZID=America/Chicago:20260912T150000
+DTSTAMP:20260314T214301
+CREATED:20260219T222355Z
+LAST-MODIFIED:20260219T230034Z
+UID:11255-1789207200-1789225200@gichigamiin-museum.org
+SUMMARY:Family Day 2026
+DESCRIPTION:Join us for an afternoon of family crafts\, storytelling\, shop at our Artists Alley\, enjoy live music\, and so much more!\n \n\n \nThroughout the event you can visit info booths to learn more about other incredible work being done by our partnering organizations. Visit our Artists Alley to shop at a handful of Native artists booths\, enjoy live music\, and visit our ongoing exhibits. This event will have something for everyone. Limited parking is available along Central Street and the parking lot behind the museum.\n \nFull event details coming soon!\n \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				For more information about this program\, please contact: info@gichigamiin.org | (847) 475-0911.
+URL:https://gichigamiin-museum.org/events/family-day-2026/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2026/02/2026-Family-Day-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+DTSTAMP:20260314T214301
+CREATED:20260219T175111Z
+LAST-MODIFIED:20260219T221358Z
+UID:11237-1791763200-1791849599@gichigamiin-museum.org
+SUMMARY:Indigenous Peoples' Day
+DESCRIPTION:Indigenous Peoples’ Day honors the culture and history of Native people past\, present\, and future. Join us at Gichigamiin Indigenous Nations Museum to celebrate the diversity and vibrancy of Indigenous cultures with FREE admission to the museum all day. Bring your friends and your family to enrich your understanding of Indigenous histories and cultures and enjoy guided craft activities. \nFull schedule of events coming soon!  \n  \n			\n				\n				\n				\n				\n				For more information about this program\, please contact: info@gichigamiin.org | (847) 475-0911
+URL:https://gichigamiin-museum.org/events/ipd2026/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2026/02/IPD-2025-Save-the-Date-1.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20261125T100000
+DTEND;TZID=America/Chicago:20261125T170000
+DTSTAMP:20260314T214301
+CREATED:20260219T223918Z
+LAST-MODIFIED:20260219T224400Z
+UID:11264-1795600800-1795626000@gichigamiin-museum.org
+SUMMARY:November Free Day
+DESCRIPTION:Join us for a day of free admission at Gichigamiin Indigenous Nations Museum on Wednesday\, November 25th\, 2026\, from 10:00 a.m. to 5:00 p.m. \nThis Free Day was generously sponsored by Josina Morita\, Cook County Commissioner\, 13th District and Jennifer Gong-Gershowitz\, State Representative\, 17th District. \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n			\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				Our monthly Museum Free Days will now include Indigenous Artists Pop-Up Markets! Each month\, visit and shop with different local Indigenous artists. \nBooth spots are limited\, please contact Josee at jstarr@gichigamiin.org to reserve your spot.
+URL:https://gichigamiin-museum.org/events/11272/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2026/02/November-2026.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20261128T100000
+DTEND;TZID=America/Chicago:20261128T150000
+DTSTAMP:20260314T214301
+CREATED:20260219T180210Z
+LAST-MODIFIED:20260219T221506Z
+UID:11244-1795860000-1795878000@gichigamiin-museum.org
+SUMMARY:Dagwaagin (Fall) Artist Market - Small Business Saturday
+DESCRIPTION: \n\n\n\nSave the Date for our Dagwaagin (Fall) Artist Market – Small Business Saturday \nThis program honors Native American entrepreneurs and brings together innovative Native artists\, business owners\, leaders\, and creators with community members\, buyers\, and potential clients. Participating Indigenous artists and entrepreneurs will have the chance to share their arts and crafts\, contributions\, accomplishments\, and professional services with the public\, allowing guests to support these Indigenous-owned companies by purchasing items or fostering future business opportunities.  \nAdmission is FREE \n\n\n\n			\n				\n				\n				\n				\n				Native Artists and Small Businesses\nStart your holiday shopping early and show your support for local Native American Small Businesses this Small Business Saturday. \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				For more information about this program\, please contact: \nJosee Starr | jstarr@gichigamiin.org | (847) 475-0911
+URL:https://gichigamiin-museum.org/events/fall-market-2026/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2026/02/fall-market-2026.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20261230T100000
+DTEND;TZID=America/Chicago:20261230T170000
+DTSTAMP:20260314T214301
+CREATED:20260219T224306Z
+LAST-MODIFIED:20260219T224331Z
+UID:11273-1798624800-1798650000@gichigamiin-museum.org
+SUMMARY:December Free Day
+DESCRIPTION:Join us for a day of free admission at Gichigamiin Indigenous Nations Museum on Wednesday\, December 30th\, 2026\, from 10:00 a.m. to 5:00 p.m. \n			\n			\n				\n				\n				\n				\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				\n			\n			\n				\n				\n				\n				\n				\n				\n				\n				\n				\n				Our monthly Museum Free Days will now include Indigenous Artists Pop-Up Markets! Each month\, visit and shop with different local Indigenous artists. \nBooth spots are limited\, please contact Josee at jstarr@gichigamiin.org to reserve your spot.
+URL:https://gichigamiin-museum.org/events/11273/
+LOCATION:Gichigamiin Indigenous Nations Museum\, 3001 Central Street\, Evanston\, IL\, 60201\, United States
+ATTACH;FMTTYPE=image/png:https://gichigamiin-museum.org/wp-content/uploads/2026/02/December-2026.png
+ORGANIZER;CN="Gichigamiin Indigenous Nations Museum":MAILTO:info@gichigamiin.org
+END:VEVENT
+END:VCALENDAR
