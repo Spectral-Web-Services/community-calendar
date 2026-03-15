@@ -25,9 +25,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:event_313774147@meetup.com
+SEQUENCE:1
+DTSTAMP:20260315T061513Z
+DTSTART;TZID=America/New_York:20260321T100000
+DTEND;TZID=America/New_York:20260321T130000
+SUMMARY:In Person: Code and Coffee on March 21st from 10am-1pm ET
+DESCRIPTION:Roanoke Valley .NET User Group (RVNUG)\nJoin us at Mill Mountain Coffee on Saturday\, March 21st\, 2026 from 10am-1pm ET for a period of collaboration and community-building! As a software developer or aspiring developer you're invited to meet fellow coders\, work on projects\, share knowledge\, and enjoy good company in a relaxed and welcoming environment. Whether you're looking to learn from others\, share your own expertise\, or simply hand out with like-minded folks\, our Code & Coffee event has got you covered.\n\nCome for the coffee\, stay for the camaraderie! Our meetup is a judgement-free zone where you can be yourself\, ask questions\, and get support from fellow developers. You bring your projects\, ideas\, and enthusiasm\, and we provide the atmosphere! See you there!
+URL;VALUE=URI:https://www.meetup.com/roanoke-valley-net-user-group/events/313774147/
+STATUS:CONFIRMED
+CREATED:20260314T081337Z
+LAST-MODIFIED:20260314T081337Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/1/c/1/a/600_487927194.jpeg
+END:VEVENT
+BEGIN:VEVENT
 UID:event_313580095@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053913Z
+DTSTAMP:20260315T061513Z
 DTSTART;TZID=America/New_York:20260402T180000
 DTEND;TZID=America/New_York:20260402T200000
 SUMMARY:In Person-Salem: presentation by Cameron Presley
@@ -42,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313580154@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053913Z
+DTSTAMP:20260315T061513Z
 DTSTART;TZID=America/New_York:20260507T180000
 DTEND;TZID=America/New_York:20260507T200000
 SUMMARY:Online: The 1-Person DevOps Stack presentation by Lionel Sapp

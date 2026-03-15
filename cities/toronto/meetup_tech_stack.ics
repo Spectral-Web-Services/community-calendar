@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313479265@meetup.com
-SEQUENCE:1
-DTSTAMP:20260314T052405Z
-DTSTART;TZID=America/Toronto:20260314T130000
-DTEND;TZID=America/Toronto:20260314T160000
-SUMMARY:Dupont Morning Code
-DESCRIPTION:Toronto Tech Stack Exchange\n[Summary]\nThis meetup is for those who are interested in code\, web development\, design\, cloud\, or AI. All levels are welcome\, so feel free to bring your laptop and discuss what you are working on or what you are learning. You can share your projects and ideas with other participants freely. There are outlets and WiFi\, drinks are about $5 for tea\, they take card only.\n\n[Price]\nAttendance is FREE. But you need to buy something from the venue.\n\n[Policies]\n\\- We do not tolerate harassment of our members\n\\- We remind users that that this meetup is intended for networking and hobby development\\\, and any attempts at using this meetup event as a dating platform will not be not be tolerated\n\nFurther information: https://torontostack.exchange/
-URL;VALUE=URI:https://www.meetup.com/toronto-tech-stack-exchange/events/313479265/
-STATUS:CONFIRMED
-CREATED:20260222T185423Z
-LAST-MODIFIED:20260222T185423Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/6/a/c/600_530798572.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313509629@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260321T130000
 DTEND;TZID=America/Toronto:20260321T160000
 SUMMARY:Dupont Morning Code
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313484173@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260328T130000
 DTEND;TZID=America/Toronto:20260328T160000
 SUMMARY:Dupont Morning Code
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_vtxlvtyjcgbgb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260404T130000
 DTEND;TZID=America/Toronto:20260404T160000
 SUMMARY:Dupont Morning Code
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_vtxlvtyjcgbpb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260411T130000
 DTEND;TZID=America/Toronto:20260411T160000
 SUMMARY:Dupont Morning Code
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_vtxlvtyjcgbxb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260418T130000
 DTEND;TZID=America/Toronto:20260418T160000
 SUMMARY:Dupont Morning Code
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_vtxlvtyjcgbhc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260425T130000
 DTEND;TZID=America/Toronto:20260425T160000
 SUMMARY:Dupont Morning Code
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_vtxlvtyjchbdb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260502T130000
 DTEND;TZID=America/Toronto:20260502T160000
 SUMMARY:Dupont Morning Code
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_vtxlvtyjchbmb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260509T130000
 DTEND;TZID=America/Toronto:20260509T160000
 SUMMARY:Dupont Morning Code
@@ -162,12 +147,27 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_vtxlvtyjchbvb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T052405Z
+DTSTAMP:20260315T060036Z
 DTSTART;TZID=America/Toronto:20260516T130000
 DTEND;TZID=America/Toronto:20260516T160000
 SUMMARY:Dupont Morning Code
 DESCRIPTION:Toronto Tech Stack Exchange\n[Summary]\nThis meetup is for those who are interested in code\, web development\, design\, cloud\, or AI. All levels are welcome\, so feel free to bring your laptop and discuss what you are working on or what you are learning. You can share your projects and ideas with other participants freely. There are outlets and WiFi\, drinks are about $5 for tea\, they take card only.\n\n[Price]\nAttendance is FREE. But you need to buy something from the venue.\n\n[Policies]\n\\- We do not tolerate harassment of our members\n\\- We remind users that that this meetup is intended for networking and hobby development\\\, and any attempts at using this meetup event as a dating platform will not be not be tolerated\n\nFurther information: https://torontostack.exchange/
 URL;VALUE=URI:https://www.meetup.com/toronto-tech-stack-exchange/events/vtxlvtyjchbvb/
+STATUS:CONFIRMED
+CREATED:20260103T191810Z
+LAST-MODIFIED:20260103T191810Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/6/a/c/600_530798572.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_vtxlvtyjchbfc@meetup.com
+SEQUENCE:1
+DTSTAMP:20260315T060036Z
+DTSTART;TZID=America/Toronto:20260523T130000
+DTEND;TZID=America/Toronto:20260523T160000
+SUMMARY:Dupont Morning Code
+DESCRIPTION:Toronto Tech Stack Exchange\n[Summary]\nThis meetup is for those who are interested in code\, web development\, design\, cloud\, or AI. All levels are welcome\, so feel free to bring your laptop and discuss what you are working on or what you are learning. You can share your projects and ideas with other participants freely. There are outlets and WiFi\, drinks are about $5 for tea\, they take card only.\n\n[Price]\nAttendance is FREE. But you need to buy something from the venue.\n\n[Policies]\n\\- We do not tolerate harassment of our members\n\\- We remind users that that this meetup is intended for networking and hobby development\\\, and any attempts at using this meetup event as a dating platform will not be not be tolerated\n\nFurther information: https://torontostack.exchange/
+URL;VALUE=URI:https://www.meetup.com/toronto-tech-stack-exchange/events/vtxlvtyjchbfc/
 STATUS:CONFIRMED
 CREATED:20260103T191810Z
 LAST-MODIFIED:20260103T191810Z

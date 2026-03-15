@@ -4,32 +4,6 @@ PRODID:-//Brewsters Beer Garden//brewstersbeergarden.com//
 X-WR-CALNAME:Brewsters Beer Garden
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Brian Baudoin
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260314T000000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260314T030000Z
-UID:e4a95d3e85ac3486dcc5ff96508b6c7e@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1773187891774-2U3B5B9JVU6P7B5ER3P0/brian_baudoin.jp
- g
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/13/brian-baudoin
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ragtag Sullivan
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260314T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260314T230000Z
-UID:1f747f8c520d61cc7c3ea3d1c9743793@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1773187938464-1NLMFFB6LWMW8G5C3TT5/ragtag_sullivan.
- jpg
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/14/ragtag-sullivan
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SunHunter
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T000000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T030000Z
@@ -606,6 +580,19 @@ ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/5/14/big-rocking-chair
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Weekend at Bernie's
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T030000Z
+UID:ad90cba82320e015a267c88196990d90@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1772564975897-OYAACH3C4GLAMJC8M8P9/weekend_at_berni
+ es.jpg
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/15/weekend-at-bernies
 X-SOURCE:Brewsters Beer Garden
 END:VEVENT
 END:VCALENDAR

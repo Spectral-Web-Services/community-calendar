@@ -416,16 +416,4 @@ SUMMARY:Toddler Storytime
 UID:885
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=840
-DTEND;TZID=America/Anchorage:20260314T160000
-DTSTAMP;TZID=America/Anchorage:20251024T095840
-DTSTART;TZID=America/Anchorage:20260314T130000
-LAST-MODIFIED;TZID=America/Anchorage:20251024T095840
-LOCATION:<p>Wasilla Public Library</p> - 500 N Crusey St  Wasilla AK 99654
-SEQUENCE:0
-SUMMARY:Wasilla Library Association Used Book Sale
-UID:840
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
 END:VCALENDAR

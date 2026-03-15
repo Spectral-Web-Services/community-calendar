@@ -23,45 +23,6 @@ TZOFFSETTO:-0800
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260314
-DTEND;VALUE=DATE:20260315
-SUMMARY:Ekphrasis: A PCC District-Wide Faculty Exhibition
-DESCRIPTION:Exhibition Dates: February 26\, 2026 – April 17\, 2026Galle
- ry hours: Monday – Friday\, 8am-4pm.Opening Reception: Saturday\, Febru
- ary 28\, 5:00 – 8:00 p.m.Additional Events announced soon.Ekphrasis com
- es from the Greek words ek (out) and phrásis (speak)\, literally speakin
- g out. The Poetry Foundation defines an ekphrastic poem as a vivid descri
- ption of a work of art. But ekphrasis is more than giving voice to the vi
- sual\, more than mere description. Ekphrasis offers one's voice in dialog
- ue with another. In Ekphrasis: A PCC Faculty Exhibition\, recent art from
-  Portland Community College art faculty and lab techs is positioned in co
- nversation\, both with each other and with writing faculty who composed e
- kphrastic poems about the work.—Event Details: https://hub.pcc.edu/rsvp
- ?id=382395 (https://hub.pcc.edu/rsvp?id=382395)
-X-ALT-DESC;FMTTYPE=text/html:Exhibition Dates: February 26\, 2026 – Apr
- il 17\, 2026<br />Gallery hours: Monday – Friday\, 8am-4pm.<br />Openin
- g Reception: Saturday\, February 28\, 5:00 – 8:00 p.m.<br />Additional 
- Events announced soon.<br />Ekphrasis comes from the Greek words ek (out)
-  and phrásis (speak)\, literally speaking out. The Poetry Foundation def
- ines an ekphrastic poem as a vivid description of a work of art. But ekph
- rasis is more than giving voice to the visual\, more than mere descriptio
- n. Ekphrasis offers one's voice in dialogue with another. In Ekphrasis: A
-  PCC Faculty Exhibition\, recent art from Portland Community College art 
- faculty and lab techs is positioned in conversation\, both with each othe
- r and with writing faculty who composed ekphrastic poems about the work.<
- br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382395"
-  target="_blank">https://hub.pcc.edu/rsvp?id=382395</a>
-UID:20260314T070000Z-10023@events.pcc.edu
-DTSTAMP:20260219T185839Z
-URL:https://events.pcc.edu/event/10023-ekphrasis-a-pcc-district-wide-facu
- lty-exhibition
-LAST-MODIFIED:20260220T025839Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10023
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-ALL-DAY:1
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 SUMMARY:Ekphrasis: A PCC District-Wide Faculty Exhibition
@@ -161,22 +122,25 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260316T090000
 DTEND;TZID=America/Los_Angeles:20260316T160000
-SUMMARY:Mindful Mondays at the SY WRC
-DESCRIPTION:Start your week with intention.Explore mindfulness practices 
- and affirmations that support grounding\, balance\, and radical self-care
- .—Event Details: https://hub.pcc.edu/rsvp?id=380399 (https://hub.pcc.ed
- u/rsvp?id=380399)
-X-ALT-DESC;FMTTYPE=text/html:Start your week with intention.<br />Explore
-  mindfulness practices and affirmations that support grounding\, balance\
- , and radical self-care.<br />—<br />Event Details: <a href="https://hu
- b.pcc.edu/rsvp?id=380399" target="_blank">https://hub.pcc.edu/rsvp?id=380
- 399</a>
-UID:20260316T160000Z-8499@events.pcc.edu
-DTSTAMP:20251016T103315Z
-URL:https://events.pcc.edu/event/8499-mindful-mondays-at-the-sy-wrc
-LAST-MODIFIED:20260110T184122Z
+SUMMARY:International Student Orientation
+DESCRIPTION:International Student Orientation Week is a required program 
+ for all new F-1 international students\, including transfer and returning
+  students. During this week\, students connect with campus resources\, co
+ mplete required placement testing\, receive academic advising and class r
+ egistration support\, and review important information about maintaining 
+ F-1 visa status.
+X-ALT-DESC;FMTTYPE=text/html:<p>  International Student Orientation Week 
+ is a required program for all new F-1 international students\, including 
+ transfer and returning students. During this week\, students connect with
+  campus resources\, complete required placement testing\, receive academi
+ c advising and class registration support\, and review important informat
+ ion about maintaining F-1 visa status.</p>
+UID:20260316T160000Z-10053@events.pcc.edu
+DTSTAMP:20260227T143648Z
+URL:https://events.pcc.edu/event/10053-international-student-orientation
+LAST-MODIFIED:20260306T125138Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:8499
+X-LIVEWHALE-ID:10053
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -205,25 +169,22 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260316T090000
 DTEND;TZID=America/Los_Angeles:20260316T160000
-SUMMARY:International Student Orientation
-DESCRIPTION:International Student Orientation Week is a required program 
- for all new F-1 international students\, including transfer and returning
-  students. During this week\, students connect with campus resources\, co
- mplete required placement testing\, receive academic advising and class r
- egistration support\, and review important information about maintaining 
- F-1 visa status.
-X-ALT-DESC;FMTTYPE=text/html:<p>  International Student Orientation Week 
- is a required program for all new F-1 international students\, including 
- transfer and returning students. During this week\, students connect with
-  campus resources\, complete required placement testing\, receive academi
- c advising and class registration support\, and review important informat
- ion about maintaining F-1 visa status.</p>
-UID:20260316T160000Z-10053@events.pcc.edu
-DTSTAMP:20260227T143648Z
-URL:https://events.pcc.edu/event/10053-international-student-orientation
-LAST-MODIFIED:20260306T125138Z
+SUMMARY:Mindful Mondays at the SY WRC
+DESCRIPTION:Start your week with intention.Explore mindfulness practices 
+ and affirmations that support grounding\, balance\, and radical self-care
+ .—Event Details: https://hub.pcc.edu/rsvp?id=380399 (https://hub.pcc.ed
+ u/rsvp?id=380399)
+X-ALT-DESC;FMTTYPE=text/html:Start your week with intention.<br />Explore
+  mindfulness practices and affirmations that support grounding\, balance\
+ , and radical self-care.<br />—<br />Event Details: <a href="https://hu
+ b.pcc.edu/rsvp?id=380399" target="_blank">https://hub.pcc.edu/rsvp?id=380
+ 399</a>
+UID:20260316T160000Z-8499@events.pcc.edu
+DTSTAMP:20251016T103315Z
+URL:https://events.pcc.edu/event/8499-mindful-mondays-at-the-sy-wrc
+LAST-MODIFIED:20260110T184122Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10053
+X-LIVEWHALE-ID:8499
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -253,6 +214,25 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260316T120000
 DTEND;TZID=America/Los_Angeles:20260316T140000
+SUMMARY:International Culture Corner
+DESCRIPTION:Practice English\, share your culture\, games\, chat\, snacks
+ \, coffee and more fun!All are welcome!—Event Details: https://hub.pcc.
+ edu/rsvp?id=381573 (https://hub.pcc.edu/rsvp?id=381573)
+X-ALT-DESC;FMTTYPE=text/html:Practice English\, share your culture\, game
+ s\, chat\, snacks\, coffee and more fun!<br />All are welcome!<br />—<b
+ r />Event Details: <a href="https://hub.pcc.edu/rsvp?id=381573" target="_
+ blank">https://hub.pcc.edu/rsvp?id=381573</a>
+UID:20260316T190000Z-9189@events.pcc.edu
+DTSTAMP:20260106T055039Z
+URL:https://events.pcc.edu/event/9189-international-culture-corner
+LAST-MODIFIED:20260110T184122Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:9189
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260316T120000
+DTEND;TZID=America/Los_Angeles:20260316T140000
 SUMMARY:Feminist Film Mondays
 DESCRIPTION:Join us every Monday (except holidays when the school is clos
  ed) to celebrate women through film and have fresh popcorn!In February- f
@@ -273,25 +253,6 @@ URL:https://events.pcc.edu/event/9931-feminist-film-mondays
 LAST-MODIFIED:20260209T220225Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9931
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260316T120000
-DTEND;TZID=America/Los_Angeles:20260316T140000
-SUMMARY:International Culture Corner
-DESCRIPTION:Practice English\, share your culture\, games\, chat\, snacks
- \, coffee and more fun!All are welcome!—Event Details: https://hub.pcc.
- edu/rsvp?id=381573 (https://hub.pcc.edu/rsvp?id=381573)
-X-ALT-DESC;FMTTYPE=text/html:Practice English\, share your culture\, game
- s\, chat\, snacks\, coffee and more fun!<br />All are welcome!<br />—<b
- r />Event Details: <a href="https://hub.pcc.edu/rsvp?id=381573" target="_
- blank">https://hub.pcc.edu/rsvp?id=381573</a>
-UID:20260316T190000Z-9189@events.pcc.edu
-DTSTAMP:20260106T055039Z
-URL:https://events.pcc.edu/event/9189-international-culture-corner
-LAST-MODIFIED:20260110T184122Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9189
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -382,26 +343,6 @@ X-LIVEWHALE-ALL-DAY:1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260317T090000
-DTEND;TZID=America/Los_Angeles:20260317T160000
-SUMMARY:Take Action Tuesdays at the SY WRC
-DESCRIPTION:Connect with your community and uplift women-led change. Lear
- n simple ways to organize\, get involved\, and build collective power.—
- Event Details: https://hub.pcc.edu/rsvp?id=380414 (https://hub.pcc.edu/rs
- vp?id=380414)
-X-ALT-DESC;FMTTYPE=text/html:Connect with your community and uplift women
- -led change. Learn simple ways to organize\, get involved\, and build col
- lective power.<br />—<br />Event Details: <a href="https://hub.pcc.edu/
- rsvp?id=380414" target="_blank">https://hub.pcc.edu/rsvp?id=380414</a>
-UID:20260317T160000Z-8498@events.pcc.edu
-DTSTAMP:20251016T103315Z
-URL:https://events.pcc.edu/event/8498-take-action-tuesdays-at-the-sy-wrc
-LAST-MODIFIED:20260110T184122Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:8498
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260317T090000
 DTEND;TZID=America/Los_Angeles:20260317T110000
 SUMMARY:Winter Term Fuel-up for Finals
 DESCRIPTION:We've got your back during finals! Start each day of Finals W
@@ -421,6 +362,26 @@ URL:https://events.pcc.edu/event/9855-winter-term-fuel-up-for-finals
 LAST-MODIFIED:20260203T181651Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9855
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260317T090000
+DTEND;TZID=America/Los_Angeles:20260317T160000
+SUMMARY:Take Action Tuesdays at the SY WRC
+DESCRIPTION:Connect with your community and uplift women-led change. Lear
+ n simple ways to organize\, get involved\, and build collective power.—
+ Event Details: https://hub.pcc.edu/rsvp?id=380414 (https://hub.pcc.edu/rs
+ vp?id=380414)
+X-ALT-DESC;FMTTYPE=text/html:Connect with your community and uplift women
+ -led change. Learn simple ways to organize\, get involved\, and build col
+ lective power.<br />—<br />Event Details: <a href="https://hub.pcc.edu/
+ rsvp?id=380414" target="_blank">https://hub.pcc.edu/rsvp?id=380414</a>
+UID:20260317T160000Z-8498@events.pcc.edu
+DTSTAMP:20251016T103315Z
+URL:https://events.pcc.edu/event/8498-take-action-tuesdays-at-the-sy-wrc
+LAST-MODIFIED:20260110T184122Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:8498
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -609,6 +570,26 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260318T090000
+DTEND;TZID=America/Los_Angeles:20260318T160000
+SUMMARY:Work of Art Wednesdays at the SY WRC
+DESCRIPTION:Use creativity as a tool for empowerment and expression. Stop
+  by to create zines\, posters\, and other various crafting opportunities.
+ —Event Details: https://hub.pcc.edu/rsvp?id=380446 (https://hub.pcc.edu
+ /rsvp?id=380446)
+X-ALT-DESC;FMTTYPE=text/html:Use creativity as a tool for empowerment and
+  expression. Stop by to create zines\, posters\, and other various crafti
+ ng opportunities.<br />—<br />Event Details: <a href="https://hub.pcc.e
+ du/rsvp?id=380446" target="_blank">https://hub.pcc.edu/rsvp?id=380446</a>
+UID:20260318T160000Z-8497@events.pcc.edu
+DTSTAMP:20251016T103315Z
+URL:https://events.pcc.edu/event/8497-work-of-art-wednesdays-at-the-sy-wrc
+LAST-MODIFIED:20260110T184122Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:8497
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260318T090000
 DTEND;TZID=America/Los_Angeles:20260318T110000
 SUMMARY:Winter Term Fuel-up for Finals
 DESCRIPTION:We've got your back during finals! Start each day of Finals W
@@ -628,26 +609,6 @@ URL:https://events.pcc.edu/event/9853-winter-term-fuel-up-for-finals
 LAST-MODIFIED:20260203T181651Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9853
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260318T090000
-DTEND;TZID=America/Los_Angeles:20260318T160000
-SUMMARY:Work of Art Wednesdays at the SY WRC
-DESCRIPTION:Use creativity as a tool for empowerment and expression. Stop
-  by to create zines\, posters\, and other various crafting opportunities.
- —Event Details: https://hub.pcc.edu/rsvp?id=380446 (https://hub.pcc.edu
- /rsvp?id=380446)
-X-ALT-DESC;FMTTYPE=text/html:Use creativity as a tool for empowerment and
-  expression. Stop by to create zines\, posters\, and other various crafti
- ng opportunities.<br />—<br />Event Details: <a href="https://hub.pcc.e
- du/rsvp?id=380446" target="_blank">https://hub.pcc.edu/rsvp?id=380446</a>
-UID:20260318T160000Z-8497@events.pcc.edu
-DTSTAMP:20251016T103315Z
-URL:https://events.pcc.edu/event/8497-work-of-art-wednesdays-at-the-sy-wrc
-LAST-MODIFIED:20260110T184122Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:8497
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -816,27 +777,6 @@ X-LIVEWHALE-ALL-DAY:1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260319T090000
-DTEND;TZID=America/Los_Angeles:20260319T160000
-SUMMARY:Together Thursdays at the WRC
-DESCRIPTION:A weekly space to connect and build community — watch somet
- hing on the TV\, sing karaoke\, play Switch games\, or just hang out and 
- chat.—Event Details: https://hub.pcc.edu/rsvp?id=380464 (https://hub.pc
- c.edu/rsvp?id=380464)
-X-ALT-DESC;FMTTYPE=text/html:A weekly space to connect and build communit
- y — watch something on the TV\, sing karaoke\, play Switch games\, or j
- ust hang out and chat.<br />—<br />Event Details: <a href="https://hub.
- pcc.edu/rsvp?id=380464" target="_blank">https://hub.pcc.edu/rsvp?id=38046
- 4</a>
-UID:20260319T160000Z-8496@events.pcc.edu
-DTSTAMP:20251016T103315Z
-URL:https://events.pcc.edu/event/8496-together-thursdays-at-the-wrc
-LAST-MODIFIED:20260110T184122Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:8496
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260319T090000
 DTEND;TZID=America/Los_Angeles:20260319T110000
 SUMMARY:Winter Term Fuel-up for Finals
 DESCRIPTION:We've got your back during finals! Start each day of Finals W
@@ -856,6 +796,27 @@ URL:https://events.pcc.edu/event/9852-winter-term-fuel-up-for-finals
 LAST-MODIFIED:20260203T181651Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9852
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260319T090000
+DTEND;TZID=America/Los_Angeles:20260319T160000
+SUMMARY:Together Thursdays at the WRC
+DESCRIPTION:A weekly space to connect and build community — watch somet
+ hing on the TV\, sing karaoke\, play Switch games\, or just hang out and 
+ chat.—Event Details: https://hub.pcc.edu/rsvp?id=380464 (https://hub.pc
+ c.edu/rsvp?id=380464)
+X-ALT-DESC;FMTTYPE=text/html:A weekly space to connect and build communit
+ y — watch something on the TV\, sing karaoke\, play Switch games\, or j
+ ust hang out and chat.<br />—<br />Event Details: <a href="https://hub.
+ pcc.edu/rsvp?id=380464" target="_blank">https://hub.pcc.edu/rsvp?id=38046
+ 4</a>
+UID:20260319T160000Z-8496@events.pcc.edu
+DTSTAMP:20251016T103315Z
+URL:https://events.pcc.edu/event/8496-together-thursdays-at-the-wrc
+LAST-MODIFIED:20260110T184122Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:8496
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -881,29 +842,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260319T120000
-DTEND;TZID=America/Los_Angeles:20260319T150000
-SUMMARY:Trinket Thursdays
-DESCRIPTION:Trinket Thursday is a joint event hosted by the WRC\, QRC\, a
- nd VRC. Stop by to make simple crafts like bracelets\, keychains\, and sm
- all trinkets\, and spend some time connecting with others! Drop in anytim
- e during this reoccurring event from 12-3!—Event Details: https://hub.p
- cc.edu/rsvp?id=381929 (https://hub.pcc.edu/rsvp?id=381929)
-X-ALT-DESC;FMTTYPE=text/html:Trinket Thursday is a joint event hosted by 
- the WRC\, QRC\, and VRC. Stop by to make simple crafts like bracelets\, k
- eychains\, and small trinkets\, and spend some time connecting with other
- s! Drop in anytime during this reoccurring event from 12-3!<br />—<br /
- >Event Details: <a href="https://hub.pcc.edu/rsvp?id=381929" target="_bla
- nk">https://hub.pcc.edu/rsvp?id=381929</a>
-UID:20260319T190000Z-9574@events.pcc.edu
-DTSTAMP:20260121T195752Z
-URL:https://events.pcc.edu/event/9574-trinket-thursdays
-LAST-MODIFIED:20260127T152926Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9574
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260319T120000
 DTEND;TZID=America/Los_Angeles:20260319T140000
 SUMMARY:Casual Chess
 DESCRIPTION:Join us for Chess Club every Tuesday and Wednesday from 12–
@@ -924,6 +862,29 @@ URL:https://events.pcc.edu/event/9509-casual-chess
 LAST-MODIFIED:20260127T153012Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9509
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260319T120000
+DTEND;TZID=America/Los_Angeles:20260319T150000
+SUMMARY:Trinket Thursdays
+DESCRIPTION:Trinket Thursday is a joint event hosted by the WRC\, QRC\, a
+ nd VRC. Stop by to make simple crafts like bracelets\, keychains\, and sm
+ all trinkets\, and spend some time connecting with others! Drop in anytim
+ e during this reoccurring event from 12-3!—Event Details: https://hub.p
+ cc.edu/rsvp?id=381929 (https://hub.pcc.edu/rsvp?id=381929)
+X-ALT-DESC;FMTTYPE=text/html:Trinket Thursday is a joint event hosted by 
+ the WRC\, QRC\, and VRC. Stop by to make simple crafts like bracelets\, k
+ eychains\, and small trinkets\, and spend some time connecting with other
+ s! Drop in anytime during this reoccurring event from 12-3!<br />—<br /
+ >Event Details: <a href="https://hub.pcc.edu/rsvp?id=381929" target="_bla
+ nk">https://hub.pcc.edu/rsvp?id=381929</a>
+UID:20260319T190000Z-9574@events.pcc.edu
+DTSTAMP:20260121T195752Z
+URL:https://events.pcc.edu/event/9574-trinket-thursdays
+LAST-MODIFIED:20260127T152926Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:9574
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -955,6 +916,27 @@ URL:https://events.pcc.edu/event/9130-drop-in-brief-counseling-for-studen
 LAST-MODIFIED:20260112T223213Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9130
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260319T130000
+DTEND;TZID=America/Los_Angeles:20260319T140000
+SUMMARY:Smash Bros at the VRC
+DESCRIPTION:Come hang out at the VRC and play some Super Smash Bros. Cont
+ rollers are provided\, so feel free to show up and jump in. Every Tuesday
+  and Thursday from 12-2!—Event Details: https://hub.pcc.edu/rsvp?id=382
+ 037 (https://hub.pcc.edu/rsvp?id=382037)
+X-ALT-DESC;FMTTYPE=text/html:Come hang out at the VRC and play some Super
+  Smash Bros. Controllers are provided\, so feel free to show up and jump 
+ in. Every Tuesday and Thursday from 12-2!<br />—<br />Event Details: <a
+  href="https://hub.pcc.edu/rsvp?id=382037" target="_blank">https://hub.pc
+ c.edu/rsvp?id=382037</a>
+UID:20260319T200000Z-9631@events.pcc.edu
+DTSTAMP:20260122T203118Z
+URL:https://events.pcc.edu/event/9631-smash-bros-at-the-vrc
+LAST-MODIFIED:20260127T152926Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:9631
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1028,27 +1010,6 @@ URL:https://events.pcc.edu/event/9851-decompression-time-at-se-vrc
 LAST-MODIFIED:20260203T181651Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9851
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260319T130000
-DTEND;TZID=America/Los_Angeles:20260319T140000
-SUMMARY:Smash Bros at the VRC
-DESCRIPTION:Come hang out at the VRC and play some Super Smash Bros. Cont
- rollers are provided\, so feel free to show up and jump in. Every Tuesday
-  and Thursday from 12-2!—Event Details: https://hub.pcc.edu/rsvp?id=382
- 037 (https://hub.pcc.edu/rsvp?id=382037)
-X-ALT-DESC;FMTTYPE=text/html:Come hang out at the VRC and play some Super
-  Smash Bros. Controllers are provided\, so feel free to show up and jump 
- in. Every Tuesday and Thursday from 12-2!<br />—<br />Event Details: <a
-  href="https://hub.pcc.edu/rsvp?id=382037" target="_blank">https://hub.pc
- c.edu/rsvp?id=382037</a>
-UID:20260319T200000Z-9631@events.pcc.edu
-DTSTAMP:20260122T203118Z
-URL:https://events.pcc.edu/event/9631-smash-bros-at-the-vrc
-LAST-MODIFIED:20260127T152926Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9631
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1783,30 +1744,6 @@ DESCRIPTION:Join us for Chess Club every Tuesday and Wednesday from 12–
  2 PM! Whether you're a beginner or a pro\, come play\, learn\, and challe
  nge others. Plus\, don't miss our tournaments every other Thursday that s
  tart on January 22nd for some friendly competition with some prizes!—Ev
- ent Details: https://hub.pcc.edu/rsvp?id=381888 (https://hub.pcc.edu/rsvp
- ?id=381888)
-X-ALT-DESC;FMTTYPE=text/html:Join us for Chess Club every Tuesday and Wed
- nesday from 12–2 PM! Whether you're a beginner or a pro\, come play\, l
- earn\, and challenge others. Plus\, don't miss our tournaments every othe
- r Thursday that start on January 22nd for some friendly competition with 
- some prizes!<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
- vp?id=381888" target="_blank">https://hub.pcc.edu/rsvp?id=381888</a>
-UID:20260325T190000Z-9503@events.pcc.edu
-DTSTAMP:20260116T162236Z
-URL:https://events.pcc.edu/event/9503-casual-chess
-LAST-MODIFIED:20260127T153012Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9503
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260325T120000
-DTEND;TZID=America/Los_Angeles:20260325T140000
-SUMMARY:Casual Chess
-DESCRIPTION:Join us for Chess Club every Tuesday and Wednesday from 12–
- 2 PM! Whether you're a beginner or a pro\, come play\, learn\, and challe
- nge others. Plus\, don't miss our tournaments every other Thursday that s
- tart on January 22nd for some friendly competition with some prizes!—Ev
  ent Details: https://hub.pcc.edu/rsvp?id=381864 (https://hub.pcc.edu/rsvp
  ?id=381864)
 X-ALT-DESC;FMTTYPE=text/html:Join us for Chess Club every Tuesday and Wed
@@ -1821,6 +1758,30 @@ URL:https://events.pcc.edu/event/9504-casual-chess
 LAST-MODIFIED:20260127T153012Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9504
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260325T120000
+DTEND;TZID=America/Los_Angeles:20260325T140000
+SUMMARY:Casual Chess
+DESCRIPTION:Join us for Chess Club every Tuesday and Wednesday from 12–
+ 2 PM! Whether you're a beginner or a pro\, come play\, learn\, and challe
+ nge others. Plus\, don't miss our tournaments every other Thursday that s
+ tart on January 22nd for some friendly competition with some prizes!—Ev
+ ent Details: https://hub.pcc.edu/rsvp?id=381888 (https://hub.pcc.edu/rsvp
+ ?id=381888)
+X-ALT-DESC;FMTTYPE=text/html:Join us for Chess Club every Tuesday and Wed
+ nesday from 12–2 PM! Whether you're a beginner or a pro\, come play\, l
+ earn\, and challenge others. Plus\, don't miss our tournaments every othe
+ r Thursday that start on January 22nd for some friendly competition with 
+ some prizes!<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
+ vp?id=381888" target="_blank">https://hub.pcc.edu/rsvp?id=381888</a>
+UID:20260325T190000Z-9503@events.pcc.edu
+DTSTAMP:20260116T162236Z
+URL:https://events.pcc.edu/event/9503-casual-chess
+LAST-MODIFIED:20260127T153012Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:9503
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1909,22 +1870,22 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260326T120000
 DTEND;TZID=America/Los_Angeles:20260326T140000
-SUMMARY:Smash Bros at The VRC
+SUMMARY:Smash Bros at the VRC
 DESCRIPTION:Come hang out at the VRC and play some Super Smash Bros. Cont
  rollers are provided\, so feel free to show up and jump in. Every Tuesday
   and Thursday from 12-2!—Event Details: https://hub.pcc.edu/rsvp?id=382
- 021 (https://hub.pcc.edu/rsvp?id=382021)
+ 039 (https://hub.pcc.edu/rsvp?id=382039)
 X-ALT-DESC;FMTTYPE=text/html:Come hang out at the VRC and play some Super
   Smash Bros. Controllers are provided\, so feel free to show up and jump 
  in. Every Tuesday and Thursday from 12-2!<br />—<br />Event Details: <a
-  href="https://hub.pcc.edu/rsvp?id=382021" target="_blank">https://hub.pc
- c.edu/rsvp?id=382021</a>
-UID:20260326T190000Z-9628@events.pcc.edu
+  href="https://hub.pcc.edu/rsvp?id=382039" target="_blank">https://hub.pc
+ c.edu/rsvp?id=382039</a>
+UID:20260326T190000Z-9627@events.pcc.edu
 DTSTAMP:20260122T203118Z
-URL:https://events.pcc.edu/event/9628-smash-bros-at-the-vrc
-LAST-MODIFIED:20260127T152926Z
+URL:https://events.pcc.edu/event/9627-smash-bros-at-the-vrc
+LAST-MODIFIED:20260222T045122Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9628
+X-LIVEWHALE-ID:9627
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1953,22 +1914,22 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260326T120000
 DTEND;TZID=America/Los_Angeles:20260326T140000
-SUMMARY:Smash Bros at the VRC
+SUMMARY:Smash Bros at The VRC
 DESCRIPTION:Come hang out at the VRC and play some Super Smash Bros. Cont
  rollers are provided\, so feel free to show up and jump in. Every Tuesday
   and Thursday from 12-2!—Event Details: https://hub.pcc.edu/rsvp?id=382
- 039 (https://hub.pcc.edu/rsvp?id=382039)
+ 021 (https://hub.pcc.edu/rsvp?id=382021)
 X-ALT-DESC;FMTTYPE=text/html:Come hang out at the VRC and play some Super
   Smash Bros. Controllers are provided\, so feel free to show up and jump 
  in. Every Tuesday and Thursday from 12-2!<br />—<br />Event Details: <a
-  href="https://hub.pcc.edu/rsvp?id=382039" target="_blank">https://hub.pc
- c.edu/rsvp?id=382039</a>
-UID:20260326T190000Z-9627@events.pcc.edu
+  href="https://hub.pcc.edu/rsvp?id=382021" target="_blank">https://hub.pc
+ c.edu/rsvp?id=382021</a>
+UID:20260326T190000Z-9628@events.pcc.edu
 DTSTAMP:20260122T203118Z
-URL:https://events.pcc.edu/event/9627-smash-bros-at-the-vrc
-LAST-MODIFIED:20260222T045122Z
+URL:https://events.pcc.edu/event/9628-smash-bros-at-the-vrc
+LAST-MODIFIED:20260127T152926Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9627
+X-LIVEWHALE-ID:9628
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2508,26 +2469,6 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260331T100000
 DTEND;TZID=America/Los_Angeles:20260331T140000
-SUMMARY:Pride in Numbers Survey Party
-DESCRIPTION:Come to the QRC to learn about the Pride in Numbers Survey. h
- ttps://prideinnumbers.org/ (https://prideinnumbers.org/)—Event Details:
-  https://hub.pcc.edu/rsvp?id=382457 (https://hub.pcc.edu/rsvp?id=382457)
-X-ALT-DESC;FMTTYPE=text/html:Come to the QRC to learn about the Pride in 
- Numbers Survey. <a href="https://prideinnumbers.org/" target="_blank">htt
- ps://prideinnumbers.org/</a><br />—<br />Event Details: <a href="https:
- //hub.pcc.edu/rsvp?id=382457" target="_blank">https://hub.pcc.edu/rsvp?id
- =382457</a>
-UID:20260331T170000Z-10091@events.pcc.edu
-DTSTAMP:20260307T084116Z
-URL:https://events.pcc.edu/event/10091-pride-in-numbers-survey-party
-LAST-MODIFIED:20260307T164116Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10091
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260331T100000
-DTEND;TZID=America/Los_Angeles:20260331T140000
 SUMMARY:Spring Week of Welcome Student Job Fair with Passports to Success
   at Sylvania
 DESCRIPTION:We're hiring! Are you a student who will be enrolled in 6 or 
@@ -2595,6 +2536,26 @@ URL:https://events.pcc.edu/event/9993-coming-soon-spring-week-of-welcome-
 LAST-MODIFIED:20260224T064120Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9993
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260331T100000
+DTEND;TZID=America/Los_Angeles:20260331T140000
+SUMMARY:Pride in Numbers Survey Party
+DESCRIPTION:Come to the QRC to learn about the Pride in Numbers Survey. h
+ ttps://prideinnumbers.org/ (https://prideinnumbers.org/)—Event Details:
+  https://hub.pcc.edu/rsvp?id=382457 (https://hub.pcc.edu/rsvp?id=382457)
+X-ALT-DESC;FMTTYPE=text/html:Come to the QRC to learn about the Pride in 
+ Numbers Survey. <a href="https://prideinnumbers.org/" target="_blank">htt
+ ps://prideinnumbers.org/</a><br />—<br />Event Details: <a href="https:
+ //hub.pcc.edu/rsvp?id=382457" target="_blank">https://hub.pcc.edu/rsvp?id
+ =382457</a>
+UID:20260331T170000Z-10091@events.pcc.edu
+DTSTAMP:20260307T084116Z
+URL:https://events.pcc.edu/event/10091-pride-in-numbers-survey-party
+LAST-MODIFIED:20260307T164116Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10091
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -3895,29 +3856,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260410T100000
-DTEND;TZID=America/Los_Angeles:20260410T120000
-SUMMARY:ASPCC Public Meeting
-DESCRIPTION:The Associated Students of Portland Community College meet ev
- ery other Friday to discuss business\, work on initiatives\, and advocate
-  for the needs of students at large. These meetings are open to the publi
- c.—Event Details: https://hub.pcc.edu/rsvp?id=379619 (https://hub.pcc.e
- du/rsvp?id=379619)
-X-ALT-DESC;FMTTYPE=text/html:The Associated Students of Portland Communit
- y College meet every other Friday to discuss business\, work on initiativ
- es\, and advocate for the needs of students at large. These meetings are 
- open to the public.<br />—<br />Event Details: <a href="https://hub.pcc
- .edu/rsvp?id=379619" target="_blank">https://hub.pcc.edu/rsvp?id=379619</
- a>
-UID:20260410T170000Z-7484@events.pcc.edu
-DTSTAMP:20250809T050131Z
-URL:https://events.pcc.edu/event/7484-aspcc-public-meeting
-LAST-MODIFIED:20260203T181651Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:7484
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260410T100000
 DTEND;TZID=America/Los_Angeles:20260410T170000
 SUMMARY:2026 Social Change Symposium | Campus-Community Collaborations fo
  r Change
@@ -3947,6 +3885,29 @@ URL:https://events.pcc.edu/event/10063-2026-social-change-symposium-campu
 LAST-MODIFIED:20260303T150531Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10063
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260410T100000
+DTEND;TZID=America/Los_Angeles:20260410T120000
+SUMMARY:ASPCC Public Meeting
+DESCRIPTION:The Associated Students of Portland Community College meet ev
+ ery other Friday to discuss business\, work on initiatives\, and advocate
+  for the needs of students at large. These meetings are open to the publi
+ c.—Event Details: https://hub.pcc.edu/rsvp?id=379619 (https://hub.pcc.e
+ du/rsvp?id=379619)
+X-ALT-DESC;FMTTYPE=text/html:The Associated Students of Portland Communit
+ y College meet every other Friday to discuss business\, work on initiativ
+ es\, and advocate for the needs of students at large. These meetings are 
+ open to the public.<br />—<br />Event Details: <a href="https://hub.pcc
+ .edu/rsvp?id=379619" target="_blank">https://hub.pcc.edu/rsvp?id=379619</
+ a>
+UID:20260410T170000Z-7484@events.pcc.edu
+DTSTAMP:20250809T050131Z
+URL:https://events.pcc.edu/event/7484-aspcc-public-meeting
+LAST-MODIFIED:20260203T181651Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:7484
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -4360,6 +4321,29 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260414T120000
 DTEND;TZID=America/Los_Angeles:20260414T130000
+SUMMARY:How in the World?! Career Development Series
+DESCRIPTION:A collaborative monthly online session with selected guests. 
+ Guests will be invited to share a part of their personal or professional 
+ journeys and participants will be invited to share similar stories and as
+ k questions.—Event Details: https://hub.pcc.edu/rsvp?id=380255 (https:/
+ /hub.pcc.edu/rsvp?id=380255)
+X-ALT-DESC;FMTTYPE=text/html:A collaborative monthly online session with 
+ selected guests. Guests will be invited to share a part of their personal
+  or professional journeys and participants will be invited to share simil
+ ar stories and ask questions.<br />—<br />Event Details: <a href="https
+ ://hub.pcc.edu/rsvp?id=380255" target="_blank">https://hub.pcc.edu/rsvp?i
+ d=380255</a>
+UID:20260414T190000Z-8439@events.pcc.edu
+DTSTAMP:20251014T092053Z
+URL:https://events.pcc.edu/event/8439-how-in-the-world
+LAST-MODIFIED:20260110T184122Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:8439
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260414T120000
+DTEND;TZID=America/Los_Angeles:20260414T130000
 SUMMARY:Every-Body Moves
 DESCRIPTION:A weekly event to create a safe space for people of any size 
  and ability to come and talk about their relationship to exercise/movemen
@@ -4392,29 +4376,6 @@ URL:https://events.pcc.edu/event/9916-every-body-moves
 LAST-MODIFIED:20260206T195827Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9916
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260414T120000
-DTEND;TZID=America/Los_Angeles:20260414T130000
-SUMMARY:How in the World?! Career Development Series
-DESCRIPTION:A collaborative monthly online session with selected guests. 
- Guests will be invited to share a part of their personal or professional 
- journeys and participants will be invited to share similar stories and as
- k questions.—Event Details: https://hub.pcc.edu/rsvp?id=380255 (https:/
- /hub.pcc.edu/rsvp?id=380255)
-X-ALT-DESC;FMTTYPE=text/html:A collaborative monthly online session with 
- selected guests. Guests will be invited to share a part of their personal
-  or professional journeys and participants will be invited to share simil
- ar stories and ask questions.<br />—<br />Event Details: <a href="https
- ://hub.pcc.edu/rsvp?id=380255" target="_blank">https://hub.pcc.edu/rsvp?i
- d=380255</a>
-UID:20260414T190000Z-8439@events.pcc.edu
-DTSTAMP:20251014T092053Z
-URL:https://events.pcc.edu/event/8439-how-in-the-world
-LAST-MODIFIED:20260110T184122Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:8439
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -4960,6 +4921,43 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260421T120000
+DTEND;TZID=America/Los_Angeles:20260421T130000
+SUMMARY:Every-Body Moves
+DESCRIPTION:A weekly event to create a safe space for people of any size 
+ and ability to come and talk about their relationship to exercise/movemen
+ t- no pressure to do any exercise if you're not interested. Maybe you jus
+ t want to do some breathing\, or talk about mobility in general\, or you 
+ want someone to listen to your concerns about trying to stay active and g
+ et around…. we're here for you.If you want to do some movement\, we als
+ o to have space to do light body movements and share ideas/exercises with
+  each other- yoga\, stretching\, calisthenics\, tai-chi\, whatever you're
+  into!The Accessibility Hub is a weight-neutral space that centers disabi
+ lity and those of disabled experience- however\, all students\, staff\, f
+ aculty and community members are welcome.—Event Details: https://hub.pc
+ c.edu/rsvp?id=382232 (https://hub.pcc.edu/rsvp?id=382232)
+X-ALT-DESC;FMTTYPE=text/html:A weekly event to create a safe space for pe
+ ople of any size and ability to come and talk about their relationship to
+  exercise/movement- no pressure to do any exercise if you're not interest
+ ed. Maybe you just want to do some breathing\, or talk about mobility in 
+ general\, or you want someone to listen to your concerns about trying to 
+ stay active and get around…. we're here for you.<br />If you want to do
+  some movement\, we also to have space to do light body movements and sha
+ re ideas/exercises with each other- yoga\, stretching\, calisthenics\, ta
+ i-chi\, whatever you're into!<br />The Accessibility Hub is a weight-neut
+ ral space that centers disability and those of disabled experience- howev
+ er\, all students\, staff\, faculty and community members are welcome.<br
+  />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382232" t
+ arget="_blank">https://hub.pcc.edu/rsvp?id=382232</a>
+UID:20260421T190000Z-9915@events.pcc.edu
+DTSTAMP:20260206T115827Z
+URL:https://events.pcc.edu/event/9915-every-body-moves
+LAST-MODIFIED:20260206T195827Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:9915
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T120000
 DTEND;TZID=America/Los_Angeles:20260421T124500
 SUMMARY:The Resilience & Resource Collective
 DESCRIPTION:"The Resilience &amp\; Resource CollectiveA Peer-to-Peer Shar
@@ -5000,43 +4998,6 @@ URL:https://events.pcc.edu/event/10060-the-resilience-resource-collective
 LAST-MODIFIED:20260303T150531Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10060
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260421T120000
-DTEND;TZID=America/Los_Angeles:20260421T130000
-SUMMARY:Every-Body Moves
-DESCRIPTION:A weekly event to create a safe space for people of any size 
- and ability to come and talk about their relationship to exercise/movemen
- t- no pressure to do any exercise if you're not interested. Maybe you jus
- t want to do some breathing\, or talk about mobility in general\, or you 
- want someone to listen to your concerns about trying to stay active and g
- et around…. we're here for you.If you want to do some movement\, we als
- o to have space to do light body movements and share ideas/exercises with
-  each other- yoga\, stretching\, calisthenics\, tai-chi\, whatever you're
-  into!The Accessibility Hub is a weight-neutral space that centers disabi
- lity and those of disabled experience- however\, all students\, staff\, f
- aculty and community members are welcome.—Event Details: https://hub.pc
- c.edu/rsvp?id=382232 (https://hub.pcc.edu/rsvp?id=382232)
-X-ALT-DESC;FMTTYPE=text/html:A weekly event to create a safe space for pe
- ople of any size and ability to come and talk about their relationship to
-  exercise/movement- no pressure to do any exercise if you're not interest
- ed. Maybe you just want to do some breathing\, or talk about mobility in 
- general\, or you want someone to listen to your concerns about trying to 
- stay active and get around…. we're here for you.<br />If you want to do
-  some movement\, we also to have space to do light body movements and sha
- re ideas/exercises with each other- yoga\, stretching\, calisthenics\, ta
- i-chi\, whatever you're into!<br />The Accessibility Hub is a weight-neut
- ral space that centers disability and those of disabled experience- howev
- er\, all students\, staff\, faculty and community members are welcome.<br
-  />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382232" t
- arget="_blank">https://hub.pcc.edu/rsvp?id=382232</a>
-UID:20260421T190000Z-9915@events.pcc.edu
-DTSTAMP:20260206T115827Z
-URL:https://events.pcc.edu/event/9915-every-body-moves
-LAST-MODIFIED:20260206T195827Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9915
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -5905,6 +5866,52 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260430T110000
 DTEND;TZID=America/Los_Angeles:20260430T140000
+SUMMARY:Coming Soon: Wellness Week at Cascade
+DESCRIPTION:Coming soon! Join Student Engagement and friends for Wellness
+  Week during Spring midterms. Activities will include FREE Self Care Kits
+  and so much more! Supplies provided. More details coming soon.Daily from
+  11am–2pm at the following locations:Monday\, April 27: SylvaniaWednesd
+ ay\, April 29: SoutheastThursday\, April 30: CascadeThursday\, April 30: 
+ Rock CreekRegistration is opening soon!This event is a Drive2Thrive point
+ -earning activity.Learn more about Drive2Thrive at pcc.edu/d2t*This event
+  is FREE and in-person only. Only PCC students currently taking classes m
+ ay participate. Supplies are limited and will be offered on a first-come\
+ , first-served basis at the time of the event. We cannot ship items to st
+ udents and/or set items aside to be picked up later.Wellness Week is brou
+ ght to you by Student Engagement. The office of Student Engagement is ple
+ ased to offer accommodations to ensure that our programs are accessible a
+ nd inclusive. Please email a request\, questions\, and thoughts to: pcc_e
+ ngage-group@pcc.edu as soon as possible.—Event Details: https://hub.pcc
+ .edu/rsvp?id=382365 (https://hub.pcc.edu/rsvp?id=382365)
+X-ALT-DESC;FMTTYPE=text/html:Coming soon! Join Student Engagement and fri
+ ends for Wellness Week during Spring midterms. Activities will include FR
+ EE Self Care Kits and so much more! Supplies provided. More details comin
+ g soon.<br />Daily from 11am–2pm at the following locations:<br />Monda
+ y\, April 27: Sylvania<br />Wednesday\, April 29: Southeast<br />Thursday
+ \, April 30: Cascade<br />Thursday\, April 30: Rock Creek<br />Registrati
+ on is opening soon!<br />This event is a Drive2Thrive point-earning activ
+ ity.<br />Learn more about Drive2Thrive at pcc.edu/d2t<br />*This event i
+ s FREE and in-person only. Only PCC students currently taking classes may
+  participate. Supplies are limited and will be offered on a first-come\, 
+ first-served basis at the time of the event. We cannot ship items to stud
+ ents and/or set items aside to be picked up later.<br />Wellness Week is 
+ brought to you by Student Engagement. The office of Student Engagement is
+  pleased to offer accommodations to ensure that our programs are accessib
+ le and inclusive. Please email a request\, questions\, and thoughts to: p
+ cc_engage-group@pcc.edu as soon as possible.<br />—<br />Event Details:
+  <a href="https://hub.pcc.edu/rsvp?id=382365" target="_blank">https://hub
+ .pcc.edu/rsvp?id=382365</a>
+UID:20260430T180000Z-9987@events.pcc.edu
+DTSTAMP:20260217T171927Z
+URL:https://events.pcc.edu/event/9987-coming-soon-wellness-week-at-cascade
+LAST-MODIFIED:20260219T015548Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:9987
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260430T110000
+DTEND;TZID=America/Los_Angeles:20260430T140000
 SUMMARY:Coming Soon: Wellness Week at Rock Creek
 DESCRIPTION:Coming soon! Join Student Engagement and friends for Wellness
   Week during Spring midterms. Activities will include FREE Self Care Kits
@@ -5947,52 +5954,6 @@ URL:https://events.pcc.edu/event/9988-coming-soon-wellness-week-at-rock-c
 LAST-MODIFIED:20260219T015548Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9988
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260430T110000
-DTEND;TZID=America/Los_Angeles:20260430T140000
-SUMMARY:Coming Soon: Wellness Week at Cascade
-DESCRIPTION:Coming soon! Join Student Engagement and friends for Wellness
-  Week during Spring midterms. Activities will include FREE Self Care Kits
-  and so much more! Supplies provided. More details coming soon.Daily from
-  11am–2pm at the following locations:Monday\, April 27: SylvaniaWednesd
- ay\, April 29: SoutheastThursday\, April 30: CascadeThursday\, April 30: 
- Rock CreekRegistration is opening soon!This event is a Drive2Thrive point
- -earning activity.Learn more about Drive2Thrive at pcc.edu/d2t*This event
-  is FREE and in-person only. Only PCC students currently taking classes m
- ay participate. Supplies are limited and will be offered on a first-come\
- , first-served basis at the time of the event. We cannot ship items to st
- udents and/or set items aside to be picked up later.Wellness Week is brou
- ght to you by Student Engagement. The office of Student Engagement is ple
- ased to offer accommodations to ensure that our programs are accessible a
- nd inclusive. Please email a request\, questions\, and thoughts to: pcc_e
- ngage-group@pcc.edu as soon as possible.—Event Details: https://hub.pcc
- .edu/rsvp?id=382365 (https://hub.pcc.edu/rsvp?id=382365)
-X-ALT-DESC;FMTTYPE=text/html:Coming soon! Join Student Engagement and fri
- ends for Wellness Week during Spring midterms. Activities will include FR
- EE Self Care Kits and so much more! Supplies provided. More details comin
- g soon.<br />Daily from 11am–2pm at the following locations:<br />Monda
- y\, April 27: Sylvania<br />Wednesday\, April 29: Southeast<br />Thursday
- \, April 30: Cascade<br />Thursday\, April 30: Rock Creek<br />Registrati
- on is opening soon!<br />This event is a Drive2Thrive point-earning activ
- ity.<br />Learn more about Drive2Thrive at pcc.edu/d2t<br />*This event i
- s FREE and in-person only. Only PCC students currently taking classes may
-  participate. Supplies are limited and will be offered on a first-come\, 
- first-served basis at the time of the event. We cannot ship items to stud
- ents and/or set items aside to be picked up later.<br />Wellness Week is 
- brought to you by Student Engagement. The office of Student Engagement is
-  pleased to offer accommodations to ensure that our programs are accessib
- le and inclusive. Please email a request\, questions\, and thoughts to: p
- cc_engage-group@pcc.edu as soon as possible.<br />—<br />Event Details:
-  <a href="https://hub.pcc.edu/rsvp?id=382365" target="_blank">https://hub
- .pcc.edu/rsvp?id=382365</a>
-UID:20260430T180000Z-9987@events.pcc.edu
-DTSTAMP:20260217T171927Z
-URL:https://events.pcc.edu/event/9987-coming-soon-wellness-week-at-cascade
-LAST-MODIFIED:20260219T015548Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:9987
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6937,6 +6898,29 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260514T110000
+DTEND;TZID=America/Los_Angeles:20260514T150000
+SUMMARY:T4Tea Party
+DESCRIPTION:Join the Cascade QRC for our annual T4Tea Party! We will have
+  tea\, light snacks\, and crafting for folks to enjoy. This space is prim
+ arily for trans\, nonbinary\, and gender expansive individuals\, but frie
+ nds and allies are also welcome.—Event Details: https://hub.pcc.edu/rsv
+ p?id=382451 (https://hub.pcc.edu/rsvp?id=382451)
+X-ALT-DESC;FMTTYPE=text/html:Join the Cascade QRC for our annual T4Tea Pa
+ rty! We will have tea\, light snacks\, and crafting for folks to enjoy. T
+ his space is primarily for trans\, nonbinary\, and gender expansive indiv
+ iduals\, but friends and allies are also welcome.<br />—<br />Event Det
+ ails: <a href="https://hub.pcc.edu/rsvp?id=382451" target="_blank">https:
+ //hub.pcc.edu/rsvp?id=382451</a>
+UID:20260514T180000Z-10086@events.pcc.edu
+DTSTAMP:20260306T083934Z
+URL:https://events.pcc.edu/event/10086-t4tea-party
+LAST-MODIFIED:20260306T163934Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10086
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260514T110000
 DTEND;TZID=America/Los_Angeles:20260514T120000
 SUMMARY:Strategic Planning Updates and Employee Input
 DESCRIPTION:Portland Community College supports student success by delive
@@ -6970,29 +6954,6 @@ URL:https://events.pcc.edu/event/7769-strategic-planning-updates-and-empl
 LAST-MODIFIED:20251209T001921Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:7769
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260514T110000
-DTEND;TZID=America/Los_Angeles:20260514T150000
-SUMMARY:T4Tea Party
-DESCRIPTION:Join the Cascade QRC for our annual T4Tea Party! We will have
-  tea\, light snacks\, and crafting for folks to enjoy. This space is prim
- arily for trans\, nonbinary\, and gender expansive individuals\, but frie
- nds and allies are also welcome.—Event Details: https://hub.pcc.edu/rsv
- p?id=382451 (https://hub.pcc.edu/rsvp?id=382451)
-X-ALT-DESC;FMTTYPE=text/html:Join the Cascade QRC for our annual T4Tea Pa
- rty! We will have tea\, light snacks\, and crafting for folks to enjoy. T
- his space is primarily for trans\, nonbinary\, and gender expansive indiv
- iduals\, but friends and allies are also welcome.<br />—<br />Event Det
- ails: <a href="https://hub.pcc.edu/rsvp?id=382451" target="_blank">https:
- //hub.pcc.edu/rsvp?id=382451</a>
-UID:20260514T180000Z-10086@events.pcc.edu
-DTSTAMP:20260306T083934Z
-URL:https://events.pcc.edu/event/10086-t4tea-party
-LAST-MODIFIED:20260306T163934Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10086
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT

@@ -25,39 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313528859@meetup.com
-SEQUENCE:1
-DTSTAMP:20260314T053912Z
-DTSTART;TZID=America/New_York:20260314T130000
-DTEND;TZID=America/New_York:20260314T160000
-SUMMARY:MEMBERS ONLY: Intro to TIG Welding
-DESCRIPTION:MAKE Roanoke\n**This event is for Full MAKE Roanoke Members ONLY.** You must have completed registration and General Orientation[ ](http://makeroanoke.org/membership)[Find out more about MAKE Roanoke Membership here.](https://www.makeroanoke.org/become-a-member)\n\n**PLEASE READ ENTIRE DESCRIPTION FOR PPE REQUIREMENTS**\n\nCome learn the basics of TIG Welding at MAKE Roanoke! Students will learn about:\n\n* Safety and Terminology\n* Basic Posture and Technique\n* TIG Technique Demonstration and Practice\n\nAnd they will practice Butt or Lap joints on practice plates\, or both time permitting.\nThis class is for ages 18 and up\, and is suitable for people with no to minimal experience.\n\n***PPE Requirements (Supplied by the student)***\n\n* Closed Toe Boots\n* Long Sleeve Jackets (FR\, Denim\, Leather\, or Cotton) **NO POLYESTER OR SYNTHETIC FIBERS**\n* Full Length Pants\n* Safety Glasses\n* Leather working gloves or gauntlets\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the wavier must be signed by a parent or court-appointed legal guardian. [Waivers can be filled out ahead of time here.](mkroa.org/waiver)\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313528859/
-STATUS:CONFIRMED
-CREATED:20260225T210626Z
-LAST-MODIFIED:20260225T210626Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/7/5/c/600_531111036.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_312806295@meetup.com
-SEQUENCE:1
-DTSTAMP:20260314T053912Z
-DTSTART;TZID=America/New_York:20260314T160000
-DTEND;TZID=America/New_York:20260314T200000
-SUMMARY:MEMBERS (& Guests) ONLY: Community Craft Day
-DESCRIPTION:MAKE Roanoke\nCome work on whatever project you want and enjoy the company of fellow MAKE Roanoke Members! Carve out some time to create for the sake of creating! From coloring to making hats to restoring machinery\, this is a social night of crafting of all kinds for makers of all kinds!\n\n**This month\, help out with our Daisy Art Parade Carnival game! We're looking for people of all ages to play test our foil boat challenge. Come put your engineering expertise to the test to see who can build the strongest boat\, what materials we should have out\, and how we should structure the challenge.**\n\nBring some dough to chip in for dinner if you want some!\n\nThis event runs from 4-8pm and is for MAKE Roanoke members and guests.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at https://mkroa.org/waiver\n* Children who are not participating in the event are not permitted in the space.\n* **Closed toed shoes are required** in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc. for safety.\n* Guests\, and members not signed off on yellow/red tools\, are only permitted to use green level tools\, but feel free to bring your own tools to create something fun!
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/312806295/
-STATUS:CONFIRMED
-CREATED:20260109T191247Z
-LAST-MODIFIED:20260109T191247Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/2/1/7/600_530232823.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313432150@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260316T200000
 DTEND;TZID=America/New_York:20260316T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -72,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313729286@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260319T180000
 DTEND;TZID=America/New_York:20260319T190000
 SUMMARY:Stained Glass Planning Meeting
@@ -87,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313432308@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260320T180000
 DTEND;TZID=America/New_York:20260320T190000
 SUMMARY:Maker Mini: Multi-Material 3D Printing with Orcaslicer
@@ -102,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313432537@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260321T130000
 DTEND;TZID=America/New_York:20260321T160000
 SUMMARY:Intro to Home Assistant and ESPHome
@@ -117,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313744165@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260322T110000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
@@ -132,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -147,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -162,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260314T053912Z
+DTSTAMP:20260315T061511Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -173,6 +143,36 @@ CREATED:20260109T210817Z
 LAST-MODIFIED:20260109T210817Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/8/3/600_530488547.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313574137@meetup.com
+SEQUENCE:1
+DTSTAMP:20260315T061511Z
+DTSTART;TZID=America/New_York:20260329T130000
+DTEND;TZID=America/New_York:20260329T160000
+SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
+DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is thrilled to announce our very first laser engraving class! Come customize your very own slate coasters using our desktop 10W Diode Laser and the LightBurn software.\n\n**This class is for MAKE Roanoke members only. [Learn more about MAKE Roanoke membership here](mkroa.org/member).** This class will count as Tool Certification for the Diode Laser.\n\nThis class is suitable for beginners and is recommended for ages 16 and up.\n\n**Students must bring a laptop with the LightBurn software already installed.** It is also recommended to bring a separate computer mouse as it makes it much easier to navigate the software. You can download the software here: https://lightburnsoftware.com/pages/download-trial\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at https://mkroa.org/waiver\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313574137/
+STATUS:CONFIRMED
+CREATED:20260228T161904Z
+LAST-MODIFIED:20260228T161904Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/3/3/e/600_532957694.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313668192@meetup.com
+SEQUENCE:1
+DTSTAMP:20260315T061511Z
+DTSTART;TZID=America/New_York:20260404T130000
+DTEND;TZID=America/New_York:20260404T150000
+SUMMARY:Knife Sharpening Class
+DESCRIPTION:MAKE Roanoke\nJoin us as we learn how to use sharpening stones\, hones and plates and leather strops to sharpen household items and shop tools such as knives\, chisels\, and planes.\n\nThe class will have an introduction to sharpening\, followed by practice with using a hone and strop.\n\nEach student can bring 1-2 *cheap* items to make sharper\, such as kitchen knife\, pocket knife\, hand chisel\, hand plane blades\, etc. We will also provide a practice kitchen knife.\n\nPrice for full MAKE Roanoke members is $15. Price for the General Public is $25. Members can bring one guest at the discounted member rate.\n\nThis class is open to the public\, you do not need to be a MAKE Roanoke Member to attend. This class is for those 18 and older only\, and is suitable for beginners.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the wavier must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at [https://mkroa.org/waiver](http://%5B%5Bhttps://mkroa.org/waiver%5D%5D(https://mkroa.org/waiver%5D)(%5Bhttps://mkroa.org/waiver%5D(https://mkroa.org/waiver)) "\\[\\[https://mkroa.org/waiver\\](https://mkroa.org/waiver)\\](https://mkroa.org/waiver)")\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313668192/
+STATUS:CONFIRMED
+CREATED:20260306T172409Z
+LAST-MODIFIED:20260306T172409Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/f/1/600_530638609.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

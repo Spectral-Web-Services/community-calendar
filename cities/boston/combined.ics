@@ -7,51 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A7bOCp"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Stereophonic
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260313T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260313T190000
-UID:d5a39389d7d85ac7a655e6f9c5c88fce@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4
- 195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7bOCp
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/heart-of-a-dog/"}
-X-SOURCE-ID:emerson_theatres
-X-SOURCE:Emerson Theatres
-DTSTART;TZID=America/New_York:20260314T000000
-DTEND;TZID=America/New_York:20260314T235959
-DTSTAMP:20260313T222334
-CREATED:20251110T173139Z
-LAST-MODIFIED:20260313T205430Z
-UID:10000044-1773446400-1773532799@emersontheatres.org
-SUMMARY:Heart of a Dog
-DESCRIPTION:A Message from Cherry Orchard: Due to ongoing international political incidents that have disrupted global shipping logistics\, the performance scheduled for Saturday\, March 14\, 2026 in Boston will unfortunately not be able to take place as planned. Ticket holders\, please contact point of purchase for your options.
-URL:https://emersontheatres.org/event/heart-of-a-dog/
-LOCATION:Emerson Cutler Majestic Theatre\, 219 Tremont St\, Boston\, MA\, 02116\, United States
-ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/11/v1_300x250_COFF.png.png
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/natya-samaagam/"}
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/natya-samaagam/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Natya Samaagam
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260314T123000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260314T143000
-UID:4fb8cf4f7c9c5d8741853c1b954c1b7f@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 26/01/Flyer-final-Dec-19-scaled.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:BCA Black Box Theatre\, 539 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/natya-samaagam/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Colonial Theatre": "https://www.ticketmaster.com/event/Z7r9jZ1A7bOC9"}
 X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A7bOCb"}
 X-SOURCE-ID:ticketmaster_emerson_colonial
@@ -65,53 +20,6 @@ DESCRIPTION:
 LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7bOCb
 X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/we-had-a-world/"}
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/we-had-a-world/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:We Had a World
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260314T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260314T160000
-UID:113ca86e1d24a54e47e5437feb9cb1b6@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/01/WHW-for-web-10802.jpg?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/we-had-a-world/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260314T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260314T160000
-UID:63d2f52d38326b8942463f94956c7aaa@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/late-a-new-musical/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:LATE: A New Musical
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260314T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260314T213000
-UID:8c42d3c044310d3ace73508538fb1e60@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 26/02/Book-and-Lyrics-KATHLEEN-CAHILL-Music-and-Additional-Lyrics-MICHAEL-
- WARTOFSKY-Director-ILANA-RANSOM-TOEPLITZ-Music-Director-DAVID-COLEMAN-Chor
- eographer-JOY-CLARK.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/late-a-new-musical
- /
-X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/natya-samaagam/"}
@@ -1755,6 +1663,18 @@ URL:https://www.bostontheatrescene.com/shows-and-events/when-playwrights-k
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Medea
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260409T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260409T213000
+UID:f7147c49bd100772f7ea82e6df3e8640@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
 X-SOURCE-ID:lyric_stage
 SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
@@ -1827,6 +1747,18 @@ URL:https://www.bostontheatrescene.com/shows-and-events/mariette-in-ecstas
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Medea
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T213000
+UID:69b0299dc1febb5ed7c4d5528c709782@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
 X-SOURCE-ID:ovationtix_central_square
 SUMMARY:Breaking the Code
@@ -1867,6 +1799,19 @@ LOCATION:Citizens Opera House\, 539 Washington Street\, Boston\, MA
 URL:https://www.ticketmaster.com/the-outsiders-touring-boston-massachusett
  s-04-10-2026/event/01006348F97AAD9B
 X-SOURCE:Citizens Opera House
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"BU School of Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Medea
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T160000
+UID:08757d155896ea14e480e2e4bd804799@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Central Square Theater": "https://ci.ovationtix.com/2462/production/1245598"}
@@ -2006,6 +1951,18 @@ URL:https://www.bostontheatrescene.com/shows-and-events/mariette-in-ecstas
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Medea
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260412T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260412T160000
+UID:35d0c8342d3c4d84dbc340de931018e4@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
 X-SOURCE-ID:ovationtix_central_square
 SUMMARY:Breaking the Code
@@ -2045,6 +2002,18 @@ LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
  rgeous/
 X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Kahn Career Entry Awards
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T133000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T153000
+UID:eed444a803638fcc8bd212ebe1b0f199@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/when-playwrights-kill/"}
@@ -2287,6 +2256,18 @@ URL:https://www.bostontheatrescene.com/shows-and-events/mariette-in-ecstas
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:The Oresteia
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T213000
+UID:288a7f0cd5bf3c83adfb305f359b5979@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
 X-SOURCE-ID:ovationtix_central_square
 SUMMARY:Breaking the Code
@@ -2442,6 +2423,18 @@ URL:https://www.bostontheatrescene.com/shows-and-events/mariette-in-ecstas
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:The Oresteia
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260418T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T213000
+UID:6e9d2a50633a0864610e872fc904da21@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Citizens Opera House": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-19-2026/event/01006350B726CC0B"}
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-19-2026/event/01006350B728CC0D"}
 X-SOURCE-ID:ticketmaster_citizens_opera
@@ -2471,6 +2464,18 @@ LOCATION:BCA Black Box Theatre\, 539 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/mariette-in-ecstas
  y/
 X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:The Oresteia
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T160000
+UID:346c9fbbb55a5e738b07246a05b72477@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Actors' Shakespeare Project": "https://ci.ovationtix.com/921/production/1265134"}
@@ -2653,6 +2658,30 @@ URL:https://ci.ovationtix.com/921/production/1265134
 X-SOURCE:Actors' Shakespeare Project
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Flight
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260423T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260423T213000
+UID:d8af66875c8864ce37c5bfe24ddbd437@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:The Oresteia
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260423T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260423T213000
+UID:ba13207ca05c8b3759417c90ee170a30@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
 X-SOURCE-ID:ovationtix_central_square
 SUMMARY:Breaking the Code
@@ -2733,6 +2762,30 @@ DESCRIPTION:
 LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
 X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Flight
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260424T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260424T213000
+UID:a1908ad90656d72f940e7852a412c949@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:The Oresteia
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260424T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260424T213000
+UID:a47c42ea1996d3eefcd5022a1205d06d@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/mozarts-idomeneo/"}
@@ -2820,6 +2873,31 @@ URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Flight
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260425T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260425T160000
+UID:804edd12d7d8fd0847ef29d5c5ad1d07@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"BU School of Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:The Oresteia
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260425T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260425T160000
+UID:dd62e62701eda78555b86f74c05198b2@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Actors' Shakespeare Project": "https://ci.ovationtix.com/921/production/1265134"}
 X-SOURCE-URLS:{"Ovationtix Asp": "https://ci.ovationtix.com/921/production/1265134"}
 X-SOURCE-ID:ovationtix_asp
@@ -2904,6 +2982,30 @@ DESCRIPTION:
 LOCATION:Emerson Paramount Center\, 559 Washington Street\, Boston\, MA
 URL:https://artsemerson.org/event/the-secret-sharer-8/
 X-SOURCE:ArtsEmerson
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:Flight
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260426T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260426T160000
+UID:fa8521a77e93050782406d3c32ed2c2c@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Bu Theatre": "https://www.bu.edu/cfa/news/calendar/"}
+X-SOURCE-ID:bu_theatre
+SUMMARY:The Oresteia
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260426T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260426T160000
+UID:483885594c74e0ec51d4680423a39837@bu.edu
+DESCRIPTION:
+LOCATION:Boston University\, Boston\, MA
+URL:https://www.bu.edu/cfa/news/calendar/
+X-SOURCE:BU School of Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Asp": "https://ci.ovationtix.com/921/production/1265134"}
@@ -3929,6 +4031,61 @@ DESCRIPTION:FORWARD\n\n\n\nDance Transformed\n\n\n\n\n\n\nChoreographer\n\n\n\nA
 URL:https://emersontheatres.org/event/lam-dance-works/
 LOCATION:Emerson Paramount Center\, 559 Washington St\, Boston\, MA 02111\, Boston\, MA\, 02111\, United States
 ATTACH;FMTTYPE=image/jpeg:https://emersontheatres.org/wp-content/uploads/sites/81/2026/02/Banners_Homepage-Feature.jpg
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Asp": "https://ci.ovationtix.com/921/production/1265134"}
+X-SOURCE-ID:ovationtix_asp
+SUMMARY:25-26 August Wilson's Gem of the Ocean
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260515T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260515T210000
+UID:268ad75ab9f35be1a3fd0631109c0bff@ovationtix.com
+DESCRIPTION:
+LOCATION:Actors' Shakespeare Project
+URL:https://ci.ovationtix.com/921/production/1265134
+X-SOURCE:Actors' Shakespeare Project
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Swept Away
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260515T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260515T213000
+UID:7035dc424731895c9b9da8a90554ca8a@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/03/FINAL-Swept-Away-900x900-BTS.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus El Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260515T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260515T213000
+UID:b16bde147b7d4106a3e0570004c5b565@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260515T200000
+DTEND;VALUE=DATE-TIME:20260515T223000
+UID:4d76e49c4d349e54ef7715fcacb8ec5f@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://artsemerson.org/events/projecting-connections-profiles-of-boston-portraits-from-the-heart-of-chinatown/"}
