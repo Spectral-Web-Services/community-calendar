@@ -874,6 +874,11 @@ jobs:
         python scrapers/visitchicagonorthshore.py --output cities/evanston/visit_north_shore.ics || true
         # Evanston American Legion (Google Calendar, filtered)
         python scrapers/evanston_legion.py --output cities/evanston/evanston_legion.ics || true
+        # Museums & cultural
+        curl -sL "https://gichigamiin-museum.org/events/?ical=1" -o cities/evanston/gichigamiin_museum.ics || true
+        curl -sL "https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=40&feed=calendar" -o cities/evanston/skokie_storefront.ics || true
+        # Parks & recreation
+        curl -sL "https://www.wilmettepark.org/events/?ical=1" -o cities/evanston/wilmette_park_district.ics || true
         # Evanston Bicycle Club (TeamUp)
         curl -sL "https://ics.teamup.com/feed/ks4f2ityp82zqj3zsh/0.ics" -o cities/evanston/evanston_bike_club.ics || true
         # Skokie Village Public Meetings
@@ -906,6 +911,7 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/mezcla-media-collective-54754536433" --name "Mezcla Media Collective" -o cities/evanston/eb_mezcla.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/121090594971" --name "Homeschool + Hue" -o cities/evanston/eb_homeschool_hue.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/121097824224" --name "BLAST Northwestern" -o cities/evanston/eb_blast_northwestern.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/evanston-art-center-30064651634" --name "Evanston Art Center" -o cities/evanston/eb_evanston_art_center.ics || true
         # Ticketmaster (requires TICKETMASTER_API_KEY secret)
         if [ -n "$TICKETMASTER_API_KEY" ]; then
           python scrapers/ticketmaster.py --promoter-id 6085 --name "Ticketmaster/Evanston" --timezone America/Chicago -o cities/evanston/ticketmaster_evanston.ics || true

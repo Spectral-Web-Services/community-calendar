@@ -27,6 +27,9 @@
 | Eisenhower Public Library | `eisenhower.librarycalendar.com/events/feed/ical` | Communico ICS; ~402 events; Norwood Park |
 | Visit Chicago North Shore | `scrapers/visitchicagonorthshore.py` | Sitemap + JSON-LD; ~110 events with images; North Shore CVB |
 | Evanston American Legion | `scrapers/evanston_legion.py` | Google Calendar ICS, filtered; ~35 events; concerts, community |
+| Gichigamiin Indigenous Nations Museum | `https://gichigamiin-museum.org/events/?ical=1` | WordPress + The Events Calendar; ~19 events; fka Mitchell Museum |
+| Skokie Storefront (cultural events) | `skokie.org/...iCalendar.aspx?catID=40` | CivicPlus; ~17 events; art, sound baths, markets |
+| Wilmette Park District | `https://www.wilmettepark.org/events/?ical=1` | WordPress + The Events Calendar; ~8 events |
 
 ### Libraries
 | Source | Feed URL | Notes |
@@ -92,6 +95,7 @@
 | Mezcla Media Collective | `eventbrite.com/o/mezcla-media-collective-54754536433` | ~1 upcoming, 41 total; experimental video/art at Evanston Art Center |
 | Homeschool + Hue | `eventbrite.com/o/121090594971` | Family meetups for children of color; Zora's Place |
 | BLAST Northwestern | `eventbrite.com/o/121097824224` | Dance performances at Ryan Auditorium |
+| Evanston Art Center | `eventbrite.com/o/evanston-art-center-30064651634` | ~1 upcoming, 205 total; workshops, classes |
 
 ### Ticketmaster (via Discovery API)
 | Source | Query | Notes |
@@ -107,7 +111,7 @@
 | Northwestern Bienen School of Music | No feed export visible |
 
 | Illinois Holocaust Museum (Skokie) | WordPress but no ICS feed at ?ical=1 |
-| Evanston Art Center | Drupal, no feeds |
+| ~~Evanston Art Center~~ | ~~Drupal, no feeds~~ → **Now implemented via Eventbrite** |
 | Glenview Park District | Individual ICS download only, no feed |
 | Skokie Park District | Custom ASP.NET/Angular system (Americaneagle.com), no feeds or API |
 
@@ -141,6 +145,14 @@
 | Rotary Club of Evanston | SSL expired, site down |
 | Woman's Club of Evanston | No working website found |
 | Canal Shores Golf Course | WordPress + TEC, but dormant since 2023 |
+| Illinois Holocaust Museum (Skokie) | WordPress, no calendar plugin, ?ical=1 returns HTML |
+| Halim Time & Glass Museum | Wix, no events page |
+| Glenview Park District | WordPress, individual ICS downloads only, no feed |
+| North Suburban YMCA | Drupal/OpenY, no feeds |
+| Old Town School of Folk Music | Custom JS calendar, no feeds |
+| Actors Gymnasium | Squarespace, no calendar; uses Ticket Tailor |
+| Piven Theatre Workshop | WordPress/Divi, no calendar plugin |
+| National Museum of the American Sailor | Closed for renovation |
 
 ## To Investigate
 
