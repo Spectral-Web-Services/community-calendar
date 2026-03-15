@@ -874,6 +874,10 @@ jobs:
         python scrapers/visitchicagonorthshore.py --output cities/evanston/visit_north_shore.ics || true
         # Evanston American Legion (Google Calendar, filtered)
         python scrapers/evanston_legion.py --output cities/evanston/evanston_legion.ics || true
+        # Houses of worship
+        curl -sL "https://faithatfirst.org/events/?ical=1" -o cities/evanston/first_united_methodist.ics || true
+        curl -sL "https://firstpresevanston.org/events/?ical=1" -o cities/evanston/first_presbyterian.ics || true
+        curl -sL "https://www.garrett.edu/events/?ical=1" -o cities/evanston/garrett_seminary.ics || true
         # Additional direct feeds
         curl -sL "https://www.northlight.org/events/?ical=1" -o cities/evanston/northlight_theatre.ics || true
         curl -sL "https://evanstonmade.org/community-calendar/?ical=1" -o cities/evanston/evanston_made.ics || true

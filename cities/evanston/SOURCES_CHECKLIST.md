@@ -10,6 +10,9 @@
 | North Shore Center for the Performing Arts | `https://www.northshorecenter.org/events/?ical=1` | WordPress + The Events Calendar; 28 events |
 | Evanston History Center | `https://evanstonhistorycenter.org/calendar-of-events/?ical=1` | WordPress + The Events Calendar |
 | Beth Emet Synagogue | `https://bethemet.org/calendar/?ical=1` | WordPress + The Events Calendar |
+| First United Methodist Church | `https://faithatfirst.org/events/?ical=1` | WordPress + The Events Calendar; ~30 events |
+| First Presbyterian Church | `https://firstpresevanston.org/events/?ical=1` | WordPress + The Events Calendar; ~30 events |
+| Garrett-Evangelical Seminary | `https://www.garrett.edu/events/?ical=1` | WordPress + The Events Calendar; ~30 events; lectures, workshops |
 | Village of Skokie Community Calendar | `https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=22&feed=calendar` | CivicPlus; 25 events |
 | City of Evanston (Events) | `scrapers/revize.py` (Events category) | Revize CMS JSON API; ~51 events |
 | City of Evanston (Meetings) | `scrapers/revize.py` (Meetings category) | Revize CMS JSON API; ~103 events |
@@ -125,6 +128,11 @@
 | North Shore Senior Center | WordPress + Astra/Elementor, no calendar plugin visible |
 | Zanies Comedy Club | WordPress/Elementor, no feeds; site data misconfigured (shows Nashville) |
 | Pastimes Comics & Games | Site unreachable |
+| St. Luke's Episcopal Church | Wix, no feeds |
+| Lake Street Church | Wix, no feeds |
+| Unitarian Church of Evanston | WordPress but no Events Calendar plugin |
+| First Congregational Church | Squarespace, per-event ICS only, no master feed |
+| First Church of Christ, Scientist | WordPress, no events page |
 
 ## To Investigate
 
