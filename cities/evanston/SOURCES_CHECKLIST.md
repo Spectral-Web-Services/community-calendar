@@ -30,6 +30,8 @@
 | Gichigamiin Indigenous Nations Museum | `https://gichigamiin-museum.org/events/?ical=1` | WordPress + The Events Calendar; ~19 events; fka Mitchell Museum |
 | Skokie Storefront (cultural events) | `skokie.org/...iCalendar.aspx?catID=40` | CivicPlus; ~17 events; art, sound baths, markets |
 | Wilmette Park District | `https://www.wilmettepark.org/events/?ical=1` | WordPress + The Events Calendar; ~8 events |
+| Cook County Forest Preserves | `https://fpdcc.com/events/?ical=1` | WordPress + The Events Calendar; ~30 events; nature centers near Evanston |
+| North Branch Restoration Project | `https://northbranchrestoration.org/events/?ical=1` | WordPress + The Events Calendar; ~16 events; volunteer workdays |
 | SPACE (Songkick) | `songkick.com/venues/34741-space` | Artist-sourced music events; ~5 events; supplements Ticketmaster |
 
 ### Libraries
@@ -154,6 +156,12 @@
 | Actors Gymnasium | Squarespace, no calendar; uses Ticket Tailor |
 | Piven Theatre Workshop | WordPress/Divi, no calendar plugin |
 | National Museum of the American Sailor | Closed for renovation |
+| Evanston Environmental Association | Wild Apricot, no public ICS feed |
+| Friends of the Chicago River | Custom site, no feeds |
+| Openlands | WordPress/Astra, JS-rendered events, no feeds |
+| Grosse Point Lighthouse | Site unresponsive/timeout |
+| Evanston Lakehouse & Gardens | Wix, no events page |
+| Evanston Garden Club | No website found |
 
 ## To Investigate
 
