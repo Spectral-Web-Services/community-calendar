@@ -878,6 +878,8 @@ jobs:
         # Nature & outdoors
         curl -sL "https://fpdcc.com/events/?ical=1" -o cities/evanston/forest_preserves.ics || true
         curl -sL "https://northbranchrestoration.org/events/?ical=1" -o cities/evanston/north_branch_restoration.ics || true
+        # Old Town School of Folk Music (HTML scraper)
+        python scrapers/oldtownschool.py --output cities/evanston/oldtownschool.ics || true
         # Songkick (artist-sourced music events)
         python scrapers/songkick.py --url "https://www.songkick.com/venues/34741-space" --name "SPACE" --output cities/evanston/songkick_space.ics || true
         # Museums & cultural
