@@ -29,6 +29,7 @@
 | Evanston American Legion | `scrapers/evanston_legion.py` | Google Calendar ICS, filtered; ~35 events; concerts, community |
 | Gichigamiin Indigenous Nations Museum | `https://gichigamiin-museum.org/events/?ical=1` | WordPress + The Events Calendar; ~19 events; fka Mitchell Museum |
 | Skokie Storefront (cultural events) | `skokie.org/...iCalendar.aspx?catID=40` | CivicPlus; ~17 events; art, sound baths, markets |
+| Skokie Park District | `scrapers/skokie_parks.py` | HTML scraper; ~179 events; nature center, theater, sports, community |
 | Wilmette Park District | `https://www.wilmettepark.org/events/?ical=1` | WordPress + The Events Calendar; ~8 events |
 | Cook County Forest Preserves | `https://fpdcc.com/events/?ical=1` | WordPress + The Events Calendar; ~30 events; nature centers near Evanston |
 | North Branch Restoration Project | `https://northbranchrestoration.org/events/?ical=1` | WordPress + The Events Calendar; ~16 events; volunteer workdays |
@@ -119,7 +120,7 @@
 | Illinois Holocaust Museum (Skokie) | WordPress but no ICS feed at ?ical=1 |
 | ~~Evanston Art Center~~ | ~~Drupal, no feeds~~ → **Now implemented via Eventbrite** |
 | Glenview Park District | Individual ICS download only, no feed |
-| Skokie Park District | Custom ASP.NET/Angular system (Americaneagle.com), no feeds or API |
+| ~~Skokie Park District~~ | ~~Custom ASP.NET/Angular system~~ → **Now implemented via HTML scraper** |
 
 | Temperance Beer | 401 Unauthorized |
 | Sketchbook Brewing | No events page found |

@@ -882,6 +882,8 @@ jobs:
         python scrapers/oldtownschool.py --output cities/evanston/oldtownschool.ics || true
         # Songkick (artist-sourced music events)
         python scrapers/songkick.py --url "https://www.songkick.com/venues/34741-space" --name "SPACE" --output cities/evanston/songkick_space.ics || true
+        # Skokie Park District (HTML scraper)
+        python scrapers/skokie_parks.py --output cities/evanston/skokie_parks.ics || true
         # Museums & cultural
         curl -sL "https://gichigamiin-museum.org/events/?ical=1" -o cities/evanston/gichigamiin_museum.ics || true
         curl -sL "https://www.skokie.org/common/modules/iCalendar/iCalendar.aspx?catID=40&feed=calendar" -o cities/evanston/skokie_storefront.ics || true
