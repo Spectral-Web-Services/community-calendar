@@ -4,24 +4,6 @@ PRODID:-//Open Studio Project//eventbrite.com//
 X-WR-CALNAME:Open Studio Project
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Main Street Mural Community Workshop #2
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260321T130000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260321T150000
-UID:bef75aa73bc74fd587268dc857d74a1a@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1177904559%2F145450400275%2F1%2Foriginal.20260219-035856?crop
- =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
- p-y=0.5&s=fa85c9a8be0b3c95dcd1511b5d1a5225
-DESCRIPTION:Open Studio Project invites you to meet the Main Street Mural 
- creative team\, help us generate mural ideas\, and make some art of your o
- wn!
-LOCATION:Open Studio Project Inc\, 901/903 Sherman Avenue\, Evanston\, IL 
- 60202\, Evanston\, IL
-URL:https://www.eventbrite.com/e/main-street-mural-community-workshop-2-ti
- ckets-1983508440139
-X-SOURCE:Open Studio Project
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Main Street Mural Community Workshop #3
 DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T130000
 DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T150000
@@ -37,6 +19,24 @@ LOCATION:Open Studio Project Inc\, 901/903 Sherman Avenue\, Evanston\, IL
  60202\, Evanston\, IL
 URL:https://www.eventbrite.com/e/main-street-mural-community-workshop-3-ti
  ckets-1983508803225
+X-SOURCE:Open Studio Project
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Main Street Mural Community Workshop #2
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260321T130000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260321T150000
+UID:bef75aa73bc74fd587268dc857d74a1a@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1177904559%2F145450400275%2F1%2Foriginal.20260219-035856?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
+ p-y=0.5&s=fa85c9a8be0b3c95dcd1511b5d1a5225
+DESCRIPTION:Open Studio Project invites you to meet the Main Street Mural 
+ creative team\, help us generate mural ideas\, and make some art of your o
+ wn!
+LOCATION:Open Studio Project Inc\, 901/903 Sherman Avenue\, Evanston\, IL 
+ 60202\, Evanston\, IL
+URL:https://www.eventbrite.com/e/main-street-mural-community-workshop-2-ti
+ ckets-1983508440139
 X-SOURCE:Open Studio Project
 END:VEVENT
 END:VCALENDAR

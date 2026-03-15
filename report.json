@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-15T02:57:27.857089",
+  "generated": "2026-03-15T03:16:00.164251",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -43578,32 +43578,40 @@
               "count": 41
             }
           ]
+        },
+        "skokie_parks": {
+          "history": [
+            {
+              "date": "2026-03-15",
+              "count": 148
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 595
+          "count": 621
         },
         {
           "category": "Education / Workshops",
-          "count": 515
+          "count": 518
         },
         {
           "category": "Government / Civic",
-          "count": 493
+          "count": 495
         },
         {
           "category": "Arts / Culture",
-          "count": 390
+          "count": 400
         },
         {
           "category": "Community / Social",
-          "count": 346
+          "count": 349
         },
         {
           "category": "Sports / Fitness",
-          "count": 307
+          "count": 310
         },
         {
           "category": "Music / Concerts",
@@ -43611,53 +43619,53 @@
         },
         {
           "category": "Food / Drink",
-          "count": 217
+          "count": 220
         },
         {
           "category": "Books / Literature / Poetry",
           "count": 133
         },
         {
-          "category": "Health / Wellness",
-          "count": 118
-        },
-        {
           "category": "Dance / Performance",
-          "count": 114
+          "count": 123
         },
         {
-          "category": "Nature / Outdoors / Recreation",
-          "count": 77
+          "category": "Health / Wellness",
+          "count": 123
+        },
+        {
+          "category": "History / Heritage",
+          "count": 74
         },
         {
           "category": "Film / Cinema",
           "count": 70
         },
         {
-          "category": "History / Heritage",
-          "count": 70
+          "category": "Nature / Outdoors / Recreation",
+          "count": 65
         },
         {
           "category": "Religion / Spirituality",
-          "count": 44
+          "count": 45
         },
         {
           "category": "Comedy / Improv",
-          "count": 36
+          "count": 38
         },
         {
           "category": "(uncategorized)",
-          "count": 4
+          "count": 2
         }
       ],
       "images": {
-        "total": 3804,
-        "with_image": 1538,
+        "total": 3861,
+        "with_image": 1485,
         "by_source": [
           {
             "source": "CitySpark Evanston",
-            "total": 1016,
-            "with_image": 901
+            "total": 927,
+            "with_image": 846
           },
           {
             "source": "Chicago Botanic Garden",
@@ -43701,8 +43709,8 @@
           },
           {
             "source": "Evanston Made",
-            "total": 12,
-            "with_image": 12
+            "total": 14,
+            "with_image": 14
           },
           {
             "source": "Gichigamiin Museum",
@@ -43927,9 +43935,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 3725,
-        "total_events": 3804,
-        "unique_urls": 3078,
+        "total_with_url": 3782,
+        "total_events": 3861,
+        "unique_urls": 3131,
         "generic_count": 303,
         "generic_domains": [
           {
@@ -43983,9 +43991,9 @@
         "source_specificity": [
           {
             "source": "CitySpark Evanston",
-            "events": 1016,
-            "unique_urls": 641,
-            "specificity_pct": 63
+            "events": 927,
+            "unique_urls": 552,
+            "specificity_pct": 60
           },
           {
             "source": "Skokie Library",
@@ -44042,6 +44050,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "CitySpark Evanston, Skokie Park District",
+            "events": 89,
+            "unique_urls": 89,
+            "specificity_pct": 100
+          },
+          {
             "source": "Northwestern University (Community)",
             "events": 82,
             "unique_urls": 57,
@@ -44054,21 +44068,15 @@
             "specificity_pct": 100
           },
           {
+            "source": "Skokie Park District",
+            "events": 55,
+            "unique_urls": 55,
+            "specificity_pct": 100
+          },
+          {
             "source": "Nw Baseball",
             "events": 37,
             "unique_urls": 37,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Eisenhower Library",
-            "events": 29,
-            "unique_urls": 29,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Beth Emet",
-            "events": 28,
-            "unique_urls": 28,
             "specificity_pct": 100
           }
         ]
@@ -47987,7 +47995,7 @@
   "errors": [
     {
       "date": "2026-03-15",
-      "line": "2026-03-15 02:55:56,979 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
+      "line": "2026-03-15 03:14:12,983 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
       "source": null
     }
   ]
