@@ -4,55 +4,6 @@ PRODID:-//Creative Coworking//eventbrite.com//
 X-WR-CALNAME:Creative Coworking
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Big Lazy (NYC) Live at Colvin House
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260322T180000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260322T203000
-UID:fd81b1bc5ce5d928ecc1be202b0e41c7@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1177318714%2F312499496442%2F1%2Foriginal.20260211-210452?crop
- =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.479
- &fp-y=0.331&s=c73373e4a1ba33037d6dfe7bcdbea356
-DESCRIPTION:An unforgettable night of cinematic soundscapes and cool\, dow
- ntown energy.
-LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
- icago\, IL
-URL:https://www.eventbrite.com/e/big-lazy-nyc-live-at-colvin-house-tickets
- -1982911503686
-X-SOURCE:Creative Coworking
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Spring Equinox
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T190000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T220000
-UID:467b6ea6b93c685088223279139740a0@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1179797331%2F312499496442%2F1%2Foriginal.20260313-174643?w=48
- 0&auto=format%2Ccompress&q=75&sharp=10&s=dfdb0677f686062cff9ebbe4a346915c
-DESCRIPTION:Join the Colvin Coven in a night of honoring the Spring Equino
- x!
-LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
- icago\, IL
-URL:https://www.eventbrite.com/e/spring-equinox-tickets-1983374262811
-X-SOURCE:Creative Coworking
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colvin Covers: Blondie and the Beast
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T190000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T223000
-UID:e4318f205716dc433a243523285f244c@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1176910852%2F312499496442%2F1%2Foriginal.20260206-205319?crop
- =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
- p-y=0.5&s=bc1b611084714d1f6d2c456354e131ba
-DESCRIPTION:Enjoy a night of dancing at Chicago's historic Colvin House by
-  the Lake with a variety of Chicagoland talent.
-LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
- icago\, IL
-URL:https://www.eventbrite.com/e/colvin-covers-blondie-and-the-beast-ticke
- ts-1982547142873
-X-SOURCE:Creative Coworking
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:St. Patrick's Day Buffet ft. Parting Glass + Whisky Tasting
 DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260317T183000
 DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260317T203000
@@ -101,6 +52,55 @@ DESCRIPTION:Experience a variety of fine art by 30+ local artists\, enjoy
 LOCATION:Creative Coworking\, 922 Davis Street\, Evanston\, IL 60201\, Eva
  nston\, IL
 URL:https://www.eventbrite.com/e/gallery-night-tickets-1984394344904
+X-SOURCE:Creative Coworking
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big Lazy (NYC) Live at Colvin House
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260322T180000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260322T203000
+UID:fd81b1bc5ce5d928ecc1be202b0e41c7@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1177318714%2F312499496442%2F1%2Foriginal.20260211-210452?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.479
+ &fp-y=0.331&s=c73373e4a1ba33037d6dfe7bcdbea356
+DESCRIPTION:An unforgettable night of cinematic soundscapes and cool\, dow
+ ntown energy.
+LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
+ icago\, IL
+URL:https://www.eventbrite.com/e/big-lazy-nyc-live-at-colvin-house-tickets
+ -1982911503686
+X-SOURCE:Creative Coworking
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colvin Covers: Blondie and the Beast
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T190000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T223000
+UID:e4318f205716dc433a243523285f244c@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1176910852%2F312499496442%2F1%2Foriginal.20260206-205319?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
+ p-y=0.5&s=bc1b611084714d1f6d2c456354e131ba
+DESCRIPTION:Enjoy a night of dancing at Chicago's historic Colvin House by
+  the Lake with a variety of Chicagoland talent.
+LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
+ icago\, IL
+URL:https://www.eventbrite.com/e/colvin-covers-blondie-and-the-beast-ticke
+ ts-1982547142873
+X-SOURCE:Creative Coworking
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Equinox
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T190000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T220000
+UID:467b6ea6b93c685088223279139740a0@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1179797331%2F312499496442%2F1%2Foriginal.20260313-174643?w=48
+ 0&auto=format%2Ccompress&q=75&sharp=10&s=dfdb0677f686062cff9ebbe4a346915c
+DESCRIPTION:Join the Colvin Coven in a night of honoring the Spring Equino
+ x!
+LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
+ icago\, IL
+URL:https://www.eventbrite.com/e/spring-equinox-tickets-1983374262811
 X-SOURCE:Creative Coworking
 END:VEVENT
 END:VCALENDAR

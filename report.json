@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-15T02:45:20.259209",
+  "generated": "2026-03-15T02:57:27.857089",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -42327,7 +42327,7 @@
             },
             {
               "date": "2026-03-15",
-              "count": 0
+              "count": 24
             }
           ]
         },
@@ -43570,12 +43570,20 @@
               "count": 7
             }
           ]
+        },
+        "oldtownschool": {
+          "history": [
+            {
+              "date": "2026-03-15",
+              "count": 41
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 594
+          "count": 595
         },
         {
           "category": "Education / Workshops",
@@ -43587,7 +43595,7 @@
         },
         {
           "category": "Arts / Culture",
-          "count": 379
+          "count": 390
         },
         {
           "category": "Community / Social",
@@ -43599,7 +43607,7 @@
         },
         {
           "category": "Music / Concerts",
-          "count": 271
+          "count": 275
         },
         {
           "category": "Food / Drink",
@@ -43615,7 +43623,7 @@
         },
         {
           "category": "Dance / Performance",
-          "count": 113
+          "count": 114
         },
         {
           "category": "Nature / Outdoors / Recreation",
@@ -43623,7 +43631,7 @@
         },
         {
           "category": "Film / Cinema",
-          "count": 71
+          "count": 70
         },
         {
           "category": "History / Heritage",
@@ -43635,7 +43643,7 @@
         },
         {
           "category": "Comedy / Improv",
-          "count": 35
+          "count": 36
         },
         {
           "category": "(uncategorized)",
@@ -43643,13 +43651,13 @@
         }
       ],
       "images": {
-        "total": 3787,
-        "with_image": 1541,
+        "total": 3804,
+        "with_image": 1538,
         "by_source": [
           {
             "source": "CitySpark Evanston",
-            "total": 1019,
-            "with_image": 904
+            "total": 1016,
+            "with_image": 901
           },
           {
             "source": "Chicago Botanic Garden",
@@ -43919,9 +43927,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 3708,
-        "total_events": 3787,
-        "unique_urls": 3061,
+        "total_with_url": 3725,
+        "total_events": 3804,
+        "unique_urls": 3078,
         "generic_count": 303,
         "generic_domains": [
           {
@@ -43975,8 +43983,8 @@
         "source_specificity": [
           {
             "source": "CitySpark Evanston",
-            "events": 1019,
-            "unique_urls": 644,
+            "events": 1016,
+            "unique_urls": 641,
             "specificity_pct": 63
           },
           {
@@ -47979,7 +47987,7 @@
   "errors": [
     {
       "date": "2026-03-15",
-      "line": "2026-03-15 02:42:51,350 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
+      "line": "2026-03-15 02:55:56,979 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
       "source": null
     }
   ]

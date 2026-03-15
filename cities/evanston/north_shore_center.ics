@@ -1,9 +1,363 @@
-
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML><HEAD>
-<TITLE> 508 Resource Limit Is Reached</TITLE>
-</HEAD><BODY>
-<H1>Resource Limit Is Reached</H1>
-The website is temporarily unable to service your request as it exceeded resource limit.
-Please try again later.
-</BODY></HTML>
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//North Shore Center For The Performing Arts - ECPv6.15.17//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:North Shore Center For The Performing Arts
+X-ORIGINAL-URL:https://northshorecenter.org
+X-WR-CALDESC:Events for North Shore Center For The Performing Arts
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20250309T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20251102T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20260308T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20261101T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20270314T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20271107T070000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260314T140000
+DTEND;TZID=America/Chicago:20260314T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001286-1773496800-1773496800@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-14/1/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260314T190000
+DTEND;TZID=America/Chicago:20260314T190000
+DTSTAMP:20260314T215433
+CREATED:20260226T171646Z
+LAST-MODIFIED:20260303T182038Z
+UID:10001365-1773514800-1773514800@northshorecenter.org
+SUMMARY:NASINNIA
+DESCRIPTION:The Hromovytsia Ukrainian Dance Ensemble welcomes the spring season with our newest production\, NASINNIA. Inspired by the imagery of wheat – a foundational symbol of life\, endurance\, and beauty of the Ukrainian spirit – this production honors the rich history of Ukraine\, the resilience of our ancestors\, and the eternal cycle of growth and strength held within every seed we plant across generations. Join us for this new chapter as we celebrate storytelling through dance and honor the birth of new beginnings.
+URL:https://northshorecenter.org/event/nasinnia/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Dance
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260314T193000
+DTEND;TZID=America/Chicago:20260314T193000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001287-1773516600-1773516600@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-14/2/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T130000
+DTEND;TZID=America/Chicago:20260315T130000
+DTSTAMP:20260314T215433
+CREATED:20251028T150055Z
+LAST-MODIFIED:20260131T221808Z
+UID:10001176-1773579600-1773579600@northshorecenter.org
+SUMMARY:NSC Presents: Peppa Pig - My First Concert
+DESCRIPTION:PEPPA PIG: MY FIRST CONCERT\nFrom Mozart to Muddy Puddles \nPeppa Pig\, along with Mummy Pig\, Daddy Pig\, George and new baby sister Evie\, are coming to SKOKIE for PEPPA PIG: MY FIRST CONCERT – a fun\, interactive introduction to a live orchestra for ages 18 months and older. Join Peppa and George to learn all about the different sounds that instruments make together! Enjoy some of your favorite music from the show played by a live orchestra and discover some other exciting orchestral pieces perfect for children. Plus\, some little piggies can join Peppa and her family to make music of their own! \nAdd a Meet and Greet Experience\nEnhance your visit with a post-performance meet and greet with a character from Peppa Pig – My First Concert. The package includes a photo opportunity with the character\, a plush toy\, and other surprises. \n  \n 
+URL:https://northshorecenter.org/event/peppa-pig/2026-03-15/1/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Family,North Shore Center Presents
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T140000
+DTEND;TZID=America/Chicago:20260315T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001288-1773583200-1773583200@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-15/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260315T160000
+DTEND;TZID=America/Chicago:20260315T160000
+DTSTAMP:20260314T215433
+CREATED:20251028T150055Z
+LAST-MODIFIED:20260131T221808Z
+UID:10001177-1773590400-1773590400@northshorecenter.org
+SUMMARY:NSC Presents: Peppa Pig - My First Concert
+DESCRIPTION:PEPPA PIG: MY FIRST CONCERT\nFrom Mozart to Muddy Puddles \nPeppa Pig\, along with Mummy Pig\, Daddy Pig\, George and new baby sister Evie\, are coming to SKOKIE for PEPPA PIG: MY FIRST CONCERT – a fun\, interactive introduction to a live orchestra for ages 18 months and older. Join Peppa and George to learn all about the different sounds that instruments make together! Enjoy some of your favorite music from the show played by a live orchestra and discover some other exciting orchestral pieces perfect for children. Plus\, some little piggies can join Peppa and her family to make music of their own! \nAdd a Meet and Greet Experience\nEnhance your visit with a post-performance meet and greet with a character from Peppa Pig – My First Concert. The package includes a photo opportunity with the character\, a plush toy\, and other surprises. \n  \n 
+URL:https://northshorecenter.org/event/peppa-pig/2026-03-15/2/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Family,North Shore Center Presents
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260317T200000
+DTEND;TZID=America/Chicago:20260317T200000
+DTSTAMP:20260314T215433
+CREATED:20251105T215406Z
+LAST-MODIFIED:20251105T215406Z
+UID:10001181-1773777600-1773777600@northshorecenter.org
+SUMMARY:Semyon Slepakov
+DESCRIPTION:Семён Слепаков в туре по Северной\nАмерике с новой программой!  Ирония\, сарказм\, честность и блестящее\nчувство юмора — всё\, за что мы любим Слепакова\, плюс свежие истории\,\nмузыкальные премьеры и\, конечно\, любимые хиты!
+URL:https://northshorecenter.org/event/semyon-slepakov/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Comedy,Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260318T140000
+DTEND;TZID=America/Chicago:20260318T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001289-1773842400-1773842400@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-18/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260318T193000
+DTEND;TZID=America/Chicago:20260318T193000
+DTSTAMP:20260314T215433
+CREATED:20250922T150005Z
+LAST-MODIFIED:20250921T040655Z
+UID:10001170-1773862200-1773862200@northshorecenter.org
+SUMMARY:North Shore Center Presents: Joanne Shaw Taylor
+DESCRIPTION:Experience the magic of Joanne Shaw Taylor and her incredible band as they deliver a powerhouse performance featuring songs from her latest album\, Black & Gold. \nRenowned for her electrifying guitar performances and soulful songwriting\, Joanne’s vocals shine as she blends blues\, rock\, soul\, and pop. The show also includes standout tracks from earlier albums and heartfelt tributes to classic blues legends. As one of today’s most dynamic performers\, Joanne Shaw Taylor promises an unforgettable night of music.
+URL:https://northshorecenter.org/event/joanne-shaw-taylor/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Music,North Shore Center Presents
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260319T193000
+DTEND;TZID=America/Chicago:20260319T193000
+DTSTAMP:20260314T215433
+CREATED:20250603T201159Z
+LAST-MODIFIED:20250717T232747Z
+UID:10001060-1773948600-1773948600@northshorecenter.org
+SUMMARY:NSC Presents: Gregorian - Pure Chants World Tour
+DESCRIPTION:VIP tickets include:  \nPremium Seat in the first 3 row.  \nTote bag  \nTour Laminate \nCD \nFor 25 years\, GREGORIAN have thrilled millions of people worldwide with their choreographed shows and their ability to switch seamlessly from classical chorales to pop and rock songs. Their concerts have set new standards. \nWith over 2\,000 shows in 36 countries and more than 11 million albums sold\, GREGORIAN are the most successful choir in the world. \nIn Spring 2026\, GREGORIAN will continue with their PURE CHANTS World Tour in the USA. \nFrank Peterson\, the creator and producer of GREGORIAN says: “Our Pure Chants concerts bring the most popular GREGORIAN classics in an atmospheric and tranquil sound environment. Pure Chants concerts are extremely peaceful\, yet spectacular and unite the audience with the most beautiful melodies in the world.” \nThe idea for GREGORIAN was born when Frank Peterson visited the royal monastery of San Lorenzo de El Escorial in Spain in 1989. Wandering through the medieval monastery and castle complex and listening to contemporary music on his Walkman\, he found the inspiration for the sound experiment of mixing ancient Gregorian music with modern music. \nPeterson first realized his idea with Michael Cretu and the worldwide sound phenomenon “Enigma”. Their first album “MCMXC a.D.” was released in 1990 and quickly became a worldwide success. \n“MCMXC a.D.” was number 1 in 41 different countries and went 57 times platinum and 45 times gold. It is considered as the most successful German album of all time worldwide. \nThis gigantic success paved the way for GREGORIAN to take the musical idea one step further and to establish it as an independent music act. In 1999\, with the start of production on the first album “Masters Of Chant”\, Frank Peterson seamlessly built on the success of “Enigma”. \nIn the following years\, GREGORIAN has sold over 11 million CDs and 7 DVDs worldwide and achieved gold and platinum status in 24 different countries. \nAt the end of 2024 and thus in time for their Anniversary World Tour in 2025\, Frank Peterson released a new GREGORIAN album. The “25/2025” album includes new songs as well as re-recordings of some well-known GREGORIAN classics. \nFrank Peterson has been involved in various musical projects and international productions for over 30 years. He has worked as a producer with Sarah Brightman\, Enigma\, Justin Timberlake\, Andrea Bocelli\, Paul Stanley (Kiss)\, Backstreet Boys\, Alannah Myles\, José Carreras\, Tom Jones\, Plácido Domingo\, Errol Brown\, Ofra Haza\, Sandra\, Josh Groban\, Marky Mark\, I Muvrini\, Florent Pagny and Ricardo Cocciante\, among others. \nIn addition to GREGORIAN\, Peterson has also been working as a show producer for Sarah Brightman and other top stars since 2005. Together with the world star\, he produced the album and cinema production “Sarah Brightman – Hymn”\, which was acclaimed by critics worldwide.
+URL:https://northshorecenter.org/event/gregorian/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Music,North Shore Center Presents
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260320T190000
+DTEND;TZID=America/Chicago:20260320T190000
+DTSTAMP:20260314T215433
+CREATED:20250715T181530Z
+LAST-MODIFIED:20250924T193335Z
+UID:10001101-1774033200-1774033200@northshorecenter.org
+SUMMARY:NiteLite Presents: Craig Ferguson - Pants On Fire
+DESCRIPTION:Craig Ferguson VIP Meet & Greet Package:\n• Package includes:\n○ Premium Seat Ticket\n○ Meet & Greet with Craig Ferguson\n○ Photo with Craig Ferguson\n○ Commemorative VIP Laminate\n○ Exclusive Autographed Merchandise Item \nCraig Ferguson VIP Merchandise Package\n• Package includes:\n○ Premium Seat Ticket\n○ Exclusive Autographed Merchandise Item\nNO artist participation
+URL:https://northshorecenter.org/event/nitelite-presents-craig-ferguson-pants-on-fire/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Comedy,North Shore Center Presents
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260320T193000
+DTEND;TZID=America/Chicago:20260320T193000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001290-1774035000-1774035000@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-20/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T140000
+DTEND;TZID=America/Chicago:20260321T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001291-1774101600-1774101600@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-21/1/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T193000
+DTEND;TZID=America/Chicago:20260321T193000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001292-1774121400-1774121400@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-21/2/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260321T200000
+DTEND;TZID=America/Chicago:20260321T200000
+DTSTAMP:20260314T215433
+CREATED:20251209T150022Z
+LAST-MODIFIED:20251209T183432Z
+UID:10001270-1774123200-1774123200@northshorecenter.org
+SUMMARY:NSC & Chicago Philharmonic Orchestra Present: Dirty Dancing in Concert
+DESCRIPTION:You fell in love with their first dance\, now it’s your turn to relive it.\nDirty Dancing in Concert is a cinematic live-to-film concert event that brings the iconic love story back to the big screen\, with a twist. \nWatch the digitally remastered film in full on a massive cinema screen\, while a live band and singers perform every unforgettable song from the original soundtrack\, syncing with each moment of the movie. \nAs the story of Baby and Johnny unfolds\, you’ll sing\, sway\, and relive the time of your life\, surrounded by fellow fans who love the film just as much as you do. \nBut the magic doesn’t stop when the credits roll. After the film\, the celebration continues with an encore party where you’ll be invited to sing and dance along to the hits that defined a generation. \nThis is more than a concert\, it’s a love letter to the music\, the moves\, and the moment that changed everything. \nWhether you’re reliving it or discovering it for the first time\, one thing’s for sure: Some dances last forever.
+URL:https://northshorecenter.org/event/dirty-dancing/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Music,North Shore Center Presents
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260322T140000
+DTEND;TZID=America/Chicago:20260322T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001293-1774188000-1774188000@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-22/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260322T190000
+DTEND;TZID=America/Chicago:20260322T190000
+DTSTAMP:20260314T215433
+CREATED:20251106T050114Z
+LAST-MODIFIED:20251106T185730Z
+UID:10001182-1774206000-1774206000@northshorecenter.org
+SUMMARY:Solstice: A Winter Circus Experience
+DESCRIPTION:Step into a dreamscape with “Solstice: a Winter Circus Experience” by Circus EVO. At the heart of the story is a girl who loses her light and stumbles into a world where time bends\, memories breathe\, and the familiar becomes impossibly strange. Shadows dance\, snow drifts fall\, and acrobats blur the line between the everyday and the extraordinary. More than a circus\, “Solstice” is a living poem — a place where nostalgia meets surreal wonder\, and where audiences are invited to rediscover the childlike awe of seeing snow for the first time! \nIn 2026\, Solstice returns with all-new elements and an original score composed by NC artist Bella Nona\, weaving music\, movement\, and imagination into a one-of-a-kind celebration of the human spirit. Don’t Miss it! \n \nAbout Circus EVO:\nCircus EVO is an International Circus Company based in North Carolina. Since 2020 we’ve transformed urban spaces into vibrant stages\, bridging the gap between art and community through Contemporary Circus\, Dance\, Music\, Theater\, and more! Our Mission to EVOke Emotions and EVOlve Circus Art empowers Artists of all backgrounds\, while bringing a new way to entertain and provide cultural value to our community. \nOver the past 5 years\, we have emerged as a dynamic force\, dedicated to delivering high-quality\, multi-disciplinary performances. Since our inception\, Circus EVO has performed over 70 times in 11 cities for thousands of people\, supporting more than 70 artists and creatives along the way.
+URL:https://northshorecenter.org/event/solstice/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260324T200000
+DTEND;TZID=America/Chicago:20260324T200000
+DTSTAMP:20260314T215433
+CREATED:20251118T191116Z
+LAST-MODIFIED:20251118T191116Z
+UID:10001185-1774382400-1774382400@northshorecenter.org
+SUMMARY:Heart of a Dog
+DESCRIPTION:CHERRY ORCHARD FESTIVAL PRESENTS\nHEART OF A DOG\nBased on the satirical novel by Mikhail Bulgakov\nDirected by Konstantin Kamensky \nStarring: Alexander Feklistov\, Artur Smolyaninov\, Semyon Shteinberg\, Grigory Sluzhitel\, Sasha Aleksis and Irina Soboleva \nTuesday\, March 24 8:00 PM\nNorth Shore Center for the Performing Arts\n9501 Skokie Blvd\, Skokie\, IL \nStep into the surreal and satirical world of Mikhail Bulgakov’s Heart of a Dog\, where a stray dog’s astonishing transformation into a man reveals the absurdities\, contradictions\, and fragile hopes of a society in flux. Sharp humor meets profound social commentary in this gripping tale\, making Bulgakov’s classic as electrifying and relevant today as it was in 1920s Moscow.\nUnder the visionary direction of Konstantin Kamensky\, the production comes alive with immersive multimedia\, striking visuals\, and bold performances.\nMore than a play\, Heart of a Dog is an unforgettable theatrical journey that entertains\, challenges\, and lingers long after the curtain falls—holding a mirror up to our world with Bulgakov’s timeless wit and piercing insight. \nDuration: 1 hour 45 minutes (no intermission)\nThis play is performed in Russian without subtitles
+URL:https://northshorecenter.org/event/heartofadog/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260325T140000
+DTEND;TZID=America/Chicago:20260325T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001294-1774447200-1774447200@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-25/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260327T193000
+DTEND;TZID=America/Chicago:20260327T193000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001295-1774639800-1774639800@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-27/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260328T140000
+DTEND;TZID=America/Chicago:20260328T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001296-1774706400-1774706400@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-28/1/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260328T193000
+DTEND;TZID=America/Chicago:20260328T193000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001297-1774726200-1774726200@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-28/2/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260328T200000
+DTEND;TZID=America/Chicago:20260328T200000
+DTSTAMP:20260314T215433
+CREATED:20251219T092254Z
+LAST-MODIFIED:20251219T092254Z
+UID:10001274-1774728000-1774728000@northshorecenter.org
+SUMMARY:North Shore Center Presents: Talib Kweli
+DESCRIPTION:The Brooklyn-based MC earned his stripes as one of the most lyrically-gifted\, socially aware and politically insightful rappers to emerge in the last 20 years. \n“I’m a touring artist. I’m an artist that’s internationally known. I’m not just a local artist at this point in my career. I’m cognizant of the fact that what I do is beyond where it started. I’m trying to reach the apex of where I am now\, but without turning my back on or dismissing what I’ve done before.” \nAfter nearly 20 years of releasing mesmerizing music\, Talib Kweli stands as one of the world’s most talented and most accomplished Hip Hop artists. Whether working with Mos Def as one-half of Black Star\, partnering with producer Hi-Tek for Reflection Eternal\, releasing landmark solo material or collaborating with Kanye West\, Pharrell Williams\, Just Blaze\, J Dilla\, or Madlib\, Kweli commands attention by delivering top-tier lyricism\, crafting captivating stories and showing the ability to rhyme over virtually any type of instrumental. \nIn 2011\, Kweli founded Javotti Media\, which is self-defined as “a platform for independent thinkers and doers.” Kweli has set out to make Javotti Media (which released his 2011 album\, Gutter Rainbows\, and is named after his paternal grandmother) into a media powerhouse that releases music\, films and books.
+URL:https://northshorecenter.org/event/talibkweli/
+LOCATION:George Van Dusen Theatre
+CATEGORIES:Music,North Shore Center Presents
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260329T140000
+DTEND;TZID=America/Chicago:20260329T140000
+DTSTAMP:20260314T215433
+CREATED:20260114T180059Z
+LAST-MODIFIED:20260202T182836Z
+UID:10001298-1774792800-1774792800@northshorecenter.org
+SUMMARY:Music Theater Works: Cats
+DESCRIPTION:Music and Lyrics by Andrew Lloyd Webber\nBased on “Old Possum’s Book of Practical Cats” by T.S. Eliot\nDirected and Choreographed by Mandy Modic\nMusic Directed by Linda Madonia \nMusic Theater Works kicks off its 46th season with CATS\, Andrew Lloyd Webber’s electrifying\, Tony Award-winning musical. In this immersive production set in a larger-than-life British flat\, audiences may join the magical and all encompassing world of the Jellicle cats as they gather for the annual Jellicle Ball\, where one will be chosen for a new life. Through a series of dazzling musical numbers\, each cat shares their story— from the mischievous Rum Tum Tugger\, to the mysterious Macavity\, and the once-glamorous Grizabella. Featuring unforgettable songs\, breathtaking choreography\, and a whimsical atmosphere\, CATS is a celebration of life\, community and the power of memory
+URL:https://northshorecenter.org/event/mtw-cats/2026-03-29/
+LOCATION:North Theatre
+CATEGORIES:in the North Theatre,Music Theater Works,North Theatre,Theatre
+END:VEVENT
+END:VCALENDAR
