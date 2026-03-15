@@ -32,6 +32,7 @@
 | Wilmette Park District | `https://www.wilmettepark.org/events/?ical=1` | WordPress + The Events Calendar; ~8 events |
 | Cook County Forest Preserves | `https://fpdcc.com/events/?ical=1` | WordPress + The Events Calendar; ~30 events; nature centers near Evanston |
 | North Branch Restoration Project | `https://northbranchrestoration.org/events/?ical=1` | WordPress + The Events Calendar; ~16 events; volunteer workdays |
+| Old Town School of Folk Music | `scrapers/oldtownschool.py` | HTML scraper; ~57 concerts with images; Lincoln Square |
 | SPACE (Songkick) | `songkick.com/venues/34741-space` | Artist-sourced music events; ~5 events; supplements Ticketmaster |
 
 ### Libraries
@@ -154,7 +155,7 @@
 | Halim Time & Glass Museum | Wix, no events page |
 | Glenview Park District | WordPress, individual ICS downloads only, no feed |
 | North Suburban YMCA | Drupal/OpenY, no feeds |
-| Old Town School of Folk Music | Custom JS calendar, no feeds |
+| ~~Old Town School of Folk Music~~ | ~~Custom JS calendar, no feeds~~ → **Now implemented via HTML scraper** |
 | Actors Gymnasium | Squarespace, no calendar; uses Ticket Tailor |
 | Piven Theatre Workshop | WordPress/Divi, no calendar plugin |
 | National Museum of the American Sailor | Closed for renovation |
