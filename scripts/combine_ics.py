@@ -8,8 +8,10 @@ import argparse
 import html
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+from dateutil.rrule import rrulestr
 
 # Map filenames to friendly source names.
 # Only needed when the filename doesn't convert cleanly via stem.replace('_', ' ').title().
@@ -101,6 +103,8 @@ SOURCE_NAMES = {
     'eventbrite_falun_dafa': 'Falun Dafa Club at IU',
     'eventbrite_reviving_hope': 'Reviving Hope for the Nations',
     # Bloomington - Community
+    'mcpl': 'Monroe County Public Library',
+    'farmers_market': "Bloomington Community Farmers' Market",
     'wonderlab': 'WonderLab Museum',
     'first_united_church': 'First United Church',
     'community_band': 'Bloomington Community Band',
@@ -123,6 +127,7 @@ SOURCE_NAMES = {
     'calendar_bloomington_in_gov_c657mi332p5sjpq2lcht9i': 'City Department Events',
     'calendar_shweekend_40gmail_com_public': 'Bloomington Old-Time Music & Dance',
     'writersguildbloomington': 'Writers Guild at Bloomington',
+    'wfhb': 'WFHB Community Calendar',
     'bloomspinweave': 'Bloomington Spinners & Weavers Guild',
     'hoosierflyfishers_list': 'Hoosier Fly Fishers',
     'calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend': 'Bloomington Velo Club',
@@ -639,9 +644,9 @@ def parse_ics_datetime(dt_str):
     """Parse an ICS datetime string to a datetime object."""
     if ';' in dt_str:
         dt_str = dt_str.split(':')[-1]
-    
+
     dt_str = dt_str.strip()
-    
+
     try:
         if dt_str.endswith('Z'):
             return datetime.strptime(dt_str, '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
@@ -651,6 +656,111 @@ def parse_ics_datetime(dt_str):
             return datetime.strptime(dt_str, '%Y%m%d')
     except ValueError:
         return None
+
+
+def expand_rrule(event_content, dt, horizon_days=180):
+    """Expand a recurring event (RRULE) into individual occurrences.
+
+    Returns a list of (dtstart, modified_event_content) tuples for each
+    occurrence between now and *horizon_days* from now.  EXDATEs are
+    honoured.  The original RRULE/EXDATE lines are stripped from the
+    returned content so that downstream consumers see simple one-off events.
+    """
+    rrule_match = re.search(r'^RRULE:([^\r\n]+)', event_content, re.MULTILINE)
+    if not rrule_match:
+        return None  # not a recurring event
+
+    rrule_line = rrule_match.group(0)
+
+    # Collect EXDATE values (dates to skip)
+    exdates = set()
+    for m in re.finditer(r'^EXDATE[^:]*:([^\r\n]+)', event_content, re.MULTILINE):
+        for val in m.group(1).split(','):
+            exdt = parse_ics_datetime(val)
+            if exdt:
+                # Normalise to date for comparison (EXDATEs may be DATE or DATE-TIME)
+                exdates.add(exdt.strftime('%Y%m%d'))
+
+    # Build the rrule text that dateutil expects
+    dtstart_match = re.search(r'^DTSTART([^:]*):([^\r\n]+)', event_content, re.MULTILINE)
+    if not dtstart_match:
+        return None
+    dtstart_line = f'DTSTART{dtstart_match.group(1)}:{dtstart_match.group(2)}'
+
+    # Compute event duration from DTSTART/DTEND so we can shift DTEND
+    duration = None
+    dtend_match = re.search(r'^DTEND[^:]*:([^\r\n]+)', event_content, re.MULTILINE)
+    if dtend_match:
+        dtend = parse_ics_datetime(dtend_match.group(1))
+        if dtend and dt:
+            duration = dtend - dt
+
+    now = datetime.now(timezone.utc) - timedelta(hours=24)
+    horizon = datetime.now(timezone.utc) + timedelta(days=horizon_days)
+
+    try:
+        rule = rrulestr(f'{dtstart_line}\n{rrule_line}', ignoretz=True)
+    except Exception:
+        return None
+
+    # Strip RRULE, EXDATE, and RDATE lines from the content for expanded copies
+    cleaned = re.sub(r'^(RRULE|EXDATE|RDATE)[^\r\n]*\r?\n', '', event_content, flags=re.MULTILINE)
+
+    occurrences = []
+    for occ in rule:
+        # Make comparable with our UTC-based window
+        occ_utc = occ.replace(tzinfo=timezone.utc) if occ.tzinfo is None else occ
+        if occ_utc > horizon:
+            break
+        if occ_utc < now:
+            continue
+        if occ.strftime('%Y%m%d') in exdates:
+            continue
+
+        # Format new DTSTART/DTEND in the same format as original
+        if dt and dt.tzinfo == timezone.utc:
+            new_dtstart_val = occ.strftime('%Y%m%dT%H%M%SZ')
+        elif 'T' in dtstart_match.group(2):
+            new_dtstart_val = occ.strftime('%Y%m%dT%H%M%S')
+        else:
+            new_dtstart_val = occ.strftime('%Y%m%d')
+
+        occ_content = re.sub(
+            r'^DTSTART[^:]*:[^\r\n]+',
+            f'DTSTART{dtstart_match.group(1)}:{new_dtstart_val}',
+            cleaned, count=1, flags=re.MULTILINE
+        )
+
+        if duration and dtend_match:
+            new_end = occ + duration
+            dtend_full_match = re.search(r'^DTEND([^:]*):([^\r\n]+)', occ_content, re.MULTILINE)
+            if dtend_full_match:
+                if dt and dt.tzinfo == timezone.utc:
+                    new_dtend_val = new_end.strftime('%Y%m%dT%H%M%SZ')
+                elif 'T' in dtend_full_match.group(2):
+                    new_dtend_val = new_end.strftime('%Y%m%dT%H%M%S')
+                else:
+                    new_dtend_val = new_end.strftime('%Y%m%d')
+                occ_content = re.sub(
+                    r'^DTEND[^:]*:[^\r\n]+',
+                    f'DTEND{dtend_full_match.group(1)}:{new_dtend_val}',
+                    occ_content, count=1, flags=re.MULTILINE
+                )
+
+        # Give each occurrence a unique UID so they don't get deduped
+        uid_match = re.search(r'^UID:([^\r\n]+)', occ_content, re.MULTILINE)
+        if uid_match:
+            occ_content = occ_content.replace(
+                f'UID:{uid_match.group(1)}',
+                f'UID:{uid_match.group(1)}_{occ.strftime("%Y%m%d")}',
+                1
+            )
+
+        occ_dt = parse_ics_datetime(new_dtstart_val)
+        if occ_dt:
+            occurrences.append((occ_dt, occ_content))
+
+    return occurrences
 
 
 def normalize_title(title):
@@ -720,7 +830,8 @@ AGGREGATORS = {
     'Boston Theatre Scene',
     'CitySpark Evanston',
     'Visit Chicago North Shore',
-    'CitySpark Bloomington'
+    'CitySpark Bloomington',
+    'WFHB Community Calendar',
 }
 
 
@@ -1042,40 +1153,48 @@ def extract_events(ics_content, source_name=None, source_id=None, fallback_url=N
     pattern = r'BEGIN:VEVENT\r?\n(.*?)\r?\nEND:VEVENT'
     matches = re.findall(pattern, ics_content, re.DOTALL)
 
+    def _annotate(ec):
+        """Add fallback URL and source attribution to event content."""
+        # Add fallback URL if no URL exists, or if the existing URL is relative
+        existing_url = extract_field(ec, 'URL')
+        if not existing_url or existing_url.startswith('/'):
+            desc = extract_field(ec, 'DESCRIPTION') or ''
+            desc_url_match = re.search(r'https?://\S+', desc)
+            replacement_url = desc_url_match.group(0) if desc_url_match else fallback_url
+            if replacement_url:
+                ec = re.sub(r'URL:[^\r\n]*\r?\n', '', ec)
+                ec = f'URL:{replacement_url}\r\n{ec}'
+
+        # Add X-SOURCE, X-SOURCE-ID, and X-SOURCE-URLS headers
+        if source_name:
+            if 'X-SOURCE' not in ec:
+                ec = f'X-SOURCE:{source_name}\r\n{ec}'
+            if source_id and 'X-SOURCE-ID' not in ec:
+                ec = f'X-SOURCE-ID:{source_id}\r\n{ec}'
+            evt_url = extract_field(ec, 'URL')
+            if evt_url and 'X-SOURCE-URLS' not in ec:
+                ec = f'X-SOURCE-URLS:{json.dumps({source_name: evt_url})}\r\n{ec}'
+        return ec
+
     for event_content in matches:
         dtstart_match = re.search(r'DTSTART[^:]*:([^\r\n]+)', event_content)
-        if dtstart_match:
-            dt = parse_ics_datetime(dtstart_match.group(1))
-            if dt:
-                # Add fallback URL if no URL exists, or if the existing URL is relative
-                existing_url = extract_field(event_content, 'URL')
-                if not existing_url or existing_url.startswith('/'):
-                    # Try to extract an absolute URL from the DESCRIPTION field first
-                    desc = extract_field(event_content, 'DESCRIPTION') or ''
-                    desc_url_match = re.search(r'https?://\S+', desc)
-                    replacement_url = desc_url_match.group(0) if desc_url_match else fallback_url
-                    if replacement_url:
-                        event_content = re.sub(r'URL:[^\r\n]*\r?\n', '', event_content)
-                        event_content = f'URL:{replacement_url}\r\n{event_content}'
+        if not dtstart_match:
+            continue
+        dt = parse_ics_datetime(dtstart_match.group(1))
+        if not dt:
+            continue
 
-                # Add X-SOURCE, X-SOURCE-ID, and X-SOURCE-URLS headers
-                # (source attribution is rendered by the app from X-SOURCE)
-                if source_name:
-                    if 'X-SOURCE' not in event_content:
-                        event_content = f'X-SOURCE:{source_name}\r\n{event_content}'
-                    if source_id and 'X-SOURCE-ID' not in event_content:
-                        event_content = f'X-SOURCE-ID:{source_id}\r\n{event_content}'
-                    # Build initial source_urls mapping so every event has one,
-                    # not just events that go through dedup merging
-                    evt_url = extract_field(event_content, 'URL')
-                    if evt_url and 'X-SOURCE-URLS' not in event_content:
-                        event_content = f'X-SOURCE-URLS:{json.dumps({source_name: evt_url})}\r\n{event_content}'
-                
-                events.append({
-                    'dtstart': dt,
-                    'content': event_content
-                })
-    
+        # Expand recurring events into individual occurrences
+        expanded = expand_rrule(event_content, dt)
+        if expanded is not None:
+            for occ_dt, occ_content in expanded:
+                occ_content = _annotate(occ_content)
+                events.append({'dtstart': occ_dt, 'content': occ_content})
+            continue
+
+        event_content = _annotate(event_content)
+        events.append({'dtstart': dt, 'content': event_content})
+
     return events
 
 
