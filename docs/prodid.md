@@ -8,8 +8,8 @@ used across all city feeds, identified by their PRODID header.
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 46 |
-| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 31 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 47 |
+| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 32 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 19 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland | 6 |
@@ -38,11 +38,11 @@ ICS export from meetup.com groups.
 
 **roanoke** (6): meetup_make_roanoke, meetup_pathfinders_greenways, meetup_roanoke_spiritual, meetup_roanoke_valley_net, meetup_shut_up_write, meetup_sw_va_toastmasters
 
-### The Events Calendar (WordPress) (46 feeds)
+### The Events Calendar (WordPress) (47 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
-**bloomington** (6): bgc_bloomington, bloomspinweave, brown_county_playhouse, first_united_church, hoosierflyfishers_list, lotusfest
+**bloomington** (7): bgc_bloomington, bloomspinweave, brown_county_playhouse, community_band, first_united_church, hoosierflyfishers_list, lotusfest
 
 **boston** (1): emerson_theatres
 
@@ -60,11 +60,11 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **roanoke** (1): hollins_university
 
-### Google Calendar (31 feeds)
+### Google Calendar (32 feeds)
 
 Public Google Calendar ICS export.
 
-**bloomington** (16): bloominglabs, bloomington_gov, bsquare_bptc, bsquare_critical_mass, bsquare_government, bsquare_misc_civic, btonline_events, btonline_food, btonline_shopping, calendar_bloomington_in_gov_c657mi332p5sjpq2lcht9i, calendar_cuc66guoam1hhcqq2rnaniinl8_40group_calend, calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend, calendar_shweekend_40gmail_com_public, city_boards_commissions, farmers_market, parks_and_rec
+**bloomington** (17): bloominglabs, bloomington_gov, bsquare_bptc, bsquare_critical_mass, bsquare_government, bsquare_misc_civic, btonline_events, btonline_food, btonline_music, btonline_shopping, calendar_bloomington_in_gov_c657mi332p5sjpq2lcht9i, calendar_cuc66guoam1hhcqq2rnaniinl8_40group_calend, calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend, calendar_shweekend_40gmail_com_public, city_boards_commissions, farmers_market, parks_and_rec
 
 **jweekly** (4): beth_sholom, ptbe_community, ptbe_education, ptbe_worship
 
@@ -162,6 +162,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |
 | `-//Luma//Hacks/Hackers//EN` | publisher-resources | hackshackers |
+| `-//Monroe County Public Library//Event Calendar//EN` | bloomington | mcpl |
 | `-//Northwestern University (Community)//northwestern.edu//` | evanston | northwestern_community |
 | `-//Portland Community College//NONSGML v1.0//EN` | portland | portland_community_college |
 | `-//SIDEARM Sports//NONSGML SIDEARM//EN` | evanston | nw_baseball, nw_field_hockey, nw_football, nw_mens_basketball, nw_mens_soccer, nw_softball, nw_volleyball, nw_womens_basketball, nw_womens_lacrosse, nw_womens_soccer, nw_womens_swimming, nw_wrestling |
