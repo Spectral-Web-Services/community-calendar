@@ -125,6 +125,7 @@ jobs:
         curl -sL "https://calendar.google.com/calendar/ical/d1087e97d4ace1c1ca2dd6336d417bea870ddac277be6d1711cbc0235aa85228%40group.calendar.google.com/public/basic.ics" -o btonline_events.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/j6botrehcce8vobqe6vpb4hnhk%40group.calendar.google.com/public/basic.ics" -o btonline_food.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/2db8c2cf65a3558e38c4caaea43cb56e722090235237a95f137b087306353e51%40group.calendar.google.com/public/basic.ics" -o btonline_shopping.ics || true
+        curl -sL "https://calendar.google.com/calendar/ical/7caed316def2d08d50353450a5376bb55f042ad0d7edaba097283a9a11758082%40group.calendar.google.com/public/basic.ics" -o btonline_music.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/bloomington.in.gov_1rosks8nont4ebaq41tfgg8v7g@group.calendar.google.com/public/basic.ics" -o parks_and_rec.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/ical/" -o meetup_knobstone_hiking_trail_association_of_indiana_meetup.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/Bloomington-Atheists-and-Rationally-Awesome-People/events/ical/" -o meetup_bloomington_atheists_and_rationally_awesome_people.ics || true
@@ -138,6 +139,8 @@ jobs:
         cd ../..
         python scrapers/campuslabs.py --base-url "https://iub.campuslabs.com/engage" --name "IU beINvolved Student Orgs" --timezone America/Indiana/Indianapolis -o cities/bloomington/iu_campuslabs.ics || true
         cd cities/bloomington
+        # Monroe County Public Library (Communico iCal feed — all locations, all ages, 90 days)
+        curl -sL "https://calendar.mcpl.info/feeds?data=eyJmZWVkVHlwZSI6ImljYWwiLCJmaWx0ZXJzIjp7ImxvY2F0aW9uIjpbImFsbCJdLCJhZ2VzIjpbImFsbCJdLCJ0eXBlcyI6WyJhbGwiXSwidGFncyI6W10sInRlcm0iOiIiLCJkYXlzIjo5MH19" -o mcpl.ics || true
         # Community ICS feeds
         curl -sL "https://wonderlab.org/events/?ical=1" -o wonderlab.ics || true
         curl -sL "https://firstuc.org/events/?ical=1" -o first_united_church.ics || true
@@ -160,6 +163,8 @@ jobs:
         if [ -n "$TICKETMASTER_API_KEY" ]; then
           python scrapers/ticketmaster.py --latlong 39.1653,-86.5264 --radius 10 --name "Ticketmaster Bloomington" --timezone America/Indiana/Indianapolis -o cities/bloomington/ticketmaster_bloomington.ics || true
         fi
+        # Monroe Convention Center (RSS feed)
+        python scrapers/bloomington_convention.py -o cities/bloomington/bloomington_convention.ics || true
         # CitySpark (community-submitted events with images)
         python scrapers/cityspark/bloomington.py -o cities/bloomington/cityspark_bloomington.ics || true
         # Visit Bloomington (Simpleview CMS — tourism board events with images)
