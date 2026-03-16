@@ -4,64 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Forest Park Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260314T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260314T090000
-UID:6eee7776aa23cb42169986bb51f8c5e2@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
-DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
-  and wildlife in Forest Park!
-URL:https://www.portland.gov/parks/nature/events/2026/3/14/forest-park-ste
- wardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marshall Park Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260314T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260314T090000
-UID:d6aa7ac32bdf4643c18845e46671447e@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/110924_ForestParkHolmanLane_PlantingYouth.jpg?ito
- k=Ou0z1zYb
-DESCRIPTION:Join Portland Parks & Recreation\, Marshall Park Neighborhood 
- Association and Tryon Creek Watershed Council for the annual Tryon Creek W
- atershed Wide Event to plant native plants in Marshall Park!
-LOCATION:Marshall Park main entrance 9700 SW 12th Dr Portland\n           
-                \, OR\n                           97219 Get directions More
-  about this location
-URL:https://www.portland.gov/parks/nature/events/2026/3/14/marshall-park-s
- tewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Baltimore Woods Volunteer Planting Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260314T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260314T090000
-UID:c48759b5f7107b5d6ac8225246561762@portland.gov
-DESCRIPTION:Please join Friends of Baltimore Woods and Portland Parks & Re
- creation for a planting day at Baltimore Woods Natural Area!
-URL:https://www.portland.gov/parks/events/2026/3/14/baltimore-woods-volunt
- eer-planting-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Saturday Tending Days at the Native Gathering Garden
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260314T100000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260314T100000
-UID:4a2c5d4330f89cc225e08a19699ea28a@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/NGG-Tending-Saturdays---2024-2025.jpg?h=c2876ff7&
- itok=X5tyy1Sz
-DESCRIPTION:Second and Fourth Saturdays of the month. We invite our commun
- ity\, family\, and friends to share space and tend our plant relatives tog
- ether.
-LOCATION:Native Gathering Garden
-URL:https://www.portland.gov/parks/volunteer/events/2026/3/14/saturday-ten
- ding-days-native-gathering-garden
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:MAC Trail Volunteer Day Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260316T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260316T090000
@@ -212,6 +154,17 @@ URL:https://www.portland.gov/parks/events/2026/3/21/oaks-bottom-wildlife-r
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Brannen Natural Area Planting Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T100000
+UID:c3c63a5068a6197afd08ad307e75c5be@portland.gov
+DESCRIPTION:Please join Portland Parks and Recreation and the Crystal Spri
+ ngs Partnership for a planting event at Brannen Natural Area!
+URL:https://www.portland.gov/parks/nature/events/2026/3/21/brannen-natural
+ -area-planting-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:MAC Trail Volunteer Day Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260323T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260323T090000
@@ -357,19 +310,6 @@ URL:https://www.portland.gov/parks/events/2026/3/31/pittock-garden-tuesday
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Forest Park Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
-UID:667fc2dde5cf7e7b56b606f5dd7567d2@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
-DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
-  and wildlife in Forest Park!
-URL:https://www.portland.gov/parks/nature/events/2026/4/1/forest-park-stew
- ardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Earth Month at Parklane Park Garden of Weedin'
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
@@ -385,6 +325,19 @@ LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
  ocation
 URL:https://www.portland.gov/parks/events/2026/4/1/earth-month-parklane-pa
  rk-garden-weedin
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Forest Park Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
+UID:667fc2dde5cf7e7b56b606f5dd7567d2@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
+DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
+  and wildlife in Forest Park!
+URL:https://www.portland.gov/parks/nature/events/2026/4/1/forest-park-stew
+ ardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -457,20 +410,6 @@ URL:https://www.portland.gov/parks/events/2026/4/3/cloud-forest-washington
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tideman Johnson Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T090000
-UID:5b353284dc607cc5e529832339b3897c@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/120625-Tideman--12-.JPG?h=e7d821c4&itok=YpZ4StqJ
-DESCRIPTION:Join Portland Parks & Recreation\, Friends of Tideman Johnson 
- and the Johnson Creek Watershed Council in enhancing this gem of a park.
-LOCATION:Tideman Johnson Natural Area
-URL:https://www.portland.gov/parks/nature/events/2026/4/4/tideman-johnson-
- stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hoyt Arboretum Volunteer Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T090000
@@ -499,6 +438,20 @@ URL:https://www.portland.gov/trees/get-involved/events/2026/4/4/spring-tre
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tideman Johnson Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T090000
+UID:5b353284dc607cc5e529832339b3897c@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/120625-Tideman--12-.JPG?h=e7d821c4&itok=YpZ4StqJ
+DESCRIPTION:Join Portland Parks & Recreation\, Friends of Tideman Johnson 
+ and the Johnson Creek Watershed Council in enhancing this gem of a park.
+LOCATION:Tideman Johnson Natural Area
+URL:https://www.portland.gov/parks/nature/events/2026/4/4/tideman-johnson-
+ stewardship-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260407T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260407T090000
@@ -508,6 +461,22 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/4/7/pittock-garden-tuesday-
  volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Earth Month Volunteer Day Laurelhurst Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T090000
+UID:84bbd8052a03923e3b62348535d4563a@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2020-04/laurelhurst-park.jpg?itok=DqqiyHU0
+DESCRIPTION:Join the Friends of Laurelhurst Park and PP&R to celebrate Ear
+ th Month with gardening and land care activities!
+LOCATION:Laurelhurst Park\, north entrance 3600 SE Ankeny St Portland\n   
+                        \, OR\n                           97214 Get directi
+ ons More about this location
+URL:https://www.portland.gov/parks/events/2026/4/8/earth-month-volunteer-d
+ ay-laurelhurst-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -538,22 +507,6 @@ DESCRIPTION:Join PP&R and the Forest Park Conservancy to help maintain the
 LOCATION:Marquam Nature Park
 URL:https://www.portland.gov/parks/nature/events/2026/4/8/marquam-nature-p
  ark-volunteer-trail-work-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Earth Month Volunteer Day Laurelhurst Park
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T090000
-UID:84bbd8052a03923e3b62348535d4563a@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2020-04/laurelhurst-park.jpg?itok=DqqiyHU0
-DESCRIPTION:Join the Friends of Laurelhurst Park and PP&R to celebrate Ear
- th Month with gardening and land care activities!
-LOCATION:Laurelhurst Park\, north entrance 3600 SE Ankeny St Portland\n   
-                        \, OR\n                           97214 Get directi
- ons More about this location
-URL:https://www.portland.gov/parks/events/2026/4/8/earth-month-volunteer-d
- ay-laurelhurst-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -1114,6 +1067,22 @@ LOCATION:Leach Botanical Garden main entrance 6704 SE 122nd Avenue Portlan
  irections More about this location
 URL:https://www.portland.gov/parks/nas/events/2026/5/13/leach-botanical-ga
  rden-stewardship-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Forest Washington Park Volunteer Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260515T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260515T100000
+UID:8e4ccd2eef45b05d4fd01b97a061c168@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
+ gton Park!
+LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
+ ght Avenue Portland\n                          \, OR\n                    
+        97204 Get directions More about this location Washington Park
+URL:https://www.portland.gov/parks/events/2026/5/15/cloud-forest-washingto
+ n-park-volunteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 END:VCALENDAR

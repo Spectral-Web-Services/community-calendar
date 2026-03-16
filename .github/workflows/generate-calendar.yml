@@ -160,6 +160,8 @@ jobs:
     # ==========================================
     - name: Scrape Bloomington sources
       if: contains(steps.locations.outputs.list, 'bloomington') && github.event.inputs.regenerate_only != 'true'
+      env:
+        TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       run: |
         echo "Scraping Bloomington..."
         python scripts/library_intercept.py --location bloomington --output cities/bloomington/library_intercept.ics || true
@@ -218,8 +220,10 @@ jobs:
         # IU LibCal feeds
         curl -sL "https://iub.libcal.com/ical_subscribe.php?src=p&cid=5914" -o iu_libcal_screening_room.ics || true
         curl -sL "https://iub.libcal.com/ical_subscribe.php?src=p&cid=1228" -o iu_libcal_scholars_commons.ics || true
-        # CampusLabs / beINvolved (student org events)
-        curl -sL "https://iub.campuslabs.com/engage/events.ics" -o iu_campuslabs.ics || true
+        # CampusLabs / beINvolved (student org events — API scraper for images)
+        cd ../..
+        python scrapers/campuslabs.py --base-url "https://iub.campuslabs.com/engage" --name "IU beINvolved Student Orgs" --timezone America/Indiana/Indianapolis -o cities/bloomington/iu_campuslabs.ics || true
+        cd cities/bloomington
         # Community ICS feeds
         curl -sL "https://wonderlab.org/events/?ical=1" -o wonderlab.ics || true
         curl -sL "https://firstuc.org/events/?ical=1" -o first_united_church.ics || true
@@ -238,6 +242,22 @@ jobs:
         curl -sL "https://www.hoosierflyfishers.com/events/list/?ical=1" -o hoosierflyfishers_list.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/r5lf3al9blontcsjnedbr2f2u0%40group.calendar.google.com/public/basic.ics" -o calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend.ics || true
         cd ../..
+        # Ticketmaster (requires TICKETMASTER_API_KEY secret)
+        if [ -n "$TICKETMASTER_API_KEY" ]; then
+          python scrapers/ticketmaster.py --latlong 39.1653,-86.5264 --radius 10 --name "Ticketmaster Bloomington" --timezone America/Indiana/Indianapolis -o cities/bloomington/ticketmaster_bloomington.ics || true
+        fi
+        # CitySpark (community-submitted events with images)
+        python scrapers/cityspark/bloomington.py -o cities/bloomington/cityspark_bloomington.ics || true
+        # Visit Bloomington (Simpleview CMS — tourism board events with images)
+        python scrapers/visitbloomington.py -o cities/bloomington/visitbloomington.ics || true
+        # Eventbrite organizers (images included via JSON-LD)
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/24897361037" --name "Blueline Bloomington" -o cities/bloomington/eventbrite_blueline.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/18076093080" --name "Big Red Liquors" -o cities/bloomington/eventbrite_big_red_liquors.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/106566049911" --name "The Afrobellas At IU" -o cities/bloomington/eventbrite_afrobellas.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/34376767621" --name "Morgenstern Books" -o cities/bloomington/eventbrite_morgenstern_books.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/95199764993" --name "Nerd Nite Bloomington" -o cities/bloomington/eventbrite_nerd_nite.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/102507618371" --name "Falun Dafa Club at IU" -o cities/bloomington/eventbrite_falun_dafa.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/106576693901" --name "Reviving Hope for the Nations" -o cities/bloomington/eventbrite_reviving_hope.ics || true
         python scripts/enrich_meetup_images.py --dir cities/bloomington || true
         python scripts/enrich_meetup_images.py --any-url \
           cities/bloomington/buskirk_chumley.ics \

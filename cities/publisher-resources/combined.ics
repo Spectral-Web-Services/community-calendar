@@ -7,24 +7,13 @@ X-WR-CALNAME:Publisher Resources Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Nabj": "https://www.nabj.org/events/eventdetails.aspx?id=2025336"}
-X-SOURCE-ID:nabj
-SUMMARY:2026 NABJ Media-Related Media Institute
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260314T010000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260314T010000
-UID:d5eb7e6ba3919761c608fe3694261e68@nabj.org
-DESCRIPTION:
-URL:https://www.nabj.org/events/eventdetails.aspx?id=2025336
-X-SOURCE:NABJ
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://docs.google.com/forms/d/e/1FAIpQLSfthOXkGo8S2IoQRk-2sQ7-3E5aa7R38KElW4TCwoX3KeOsrA/viewform"}
 X-SOURCE-ID:journalism_deadlines
 X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://docs.google.com/forms/d/e/1FAIpQLSfthOXkGo8S2IoQRk-2sQ7-3E5aa7R38KElW4TCwoX3KeOsrA/viewform
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:2kdjkt9j1gjvloejpseichas1e@google.com
 CREATED:20260226T023214Z
 DESCRIPTION:See the full program description: <a href="https://docs.google.
@@ -64,7 +53,7 @@ X-SOURCE-ID:poynter
 X-SOURCE:Hackshackers, Poynter Institute
 DTSTART;TZID=America/Chicago:20260316T093000
 DTEND;TZID=America/Chicago:20260316T173000
-DTSTAMP:20260313T150020
+DTSTAMP:20260314T224729
 CREATED:20260225T165916Z
 LAST-MODIFIED:20260310T150550Z
 UID:1190562-1773653400-1773682200@www.poynter.org
@@ -101,7 +90,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260317T120000
 DTEND;TZID=America/New_York:20260317T130000
-DTSTAMP:20260313T222414
+DTSTAMP:20260315T023351
 CREATED:20260311T172847Z
 LAST-MODIFIED:20260311T230046Z
 UID:62836-1773748800-1773752400@healthjournalism.org
@@ -117,7 +106,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260317T150000
 DTEND;TZID=America/New_York:20260317T160000
-DTSTAMP:20260313T222411
+DTSTAMP:20260315T023347
 CREATED:20251014T194807Z
 LAST-MODIFIED:20251211T214028Z
 UID:10004834-1773759600-1773763200@inn.org
@@ -184,22 +173,6 @@ URL:https://journalists.org/events/quick-hits-and-deep-dives-consumer-inve
 X-SOURCE:Online News Association
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/2026-sabew-health-care-symposium/"}
-X-SOURCE-ID:sabew
-X-SOURCE:Sabew
-DTSTART;VALUE=DATE:20260319
-DTEND;VALUE=DATE:20260322
-DTSTAMP:20260313T222415
-CREATED:20260122T032258Z
-LAST-MODIFIED:20260224T192740Z
-UID:68744-1773878400-1774137599@sabew.org
-SUMMARY:2026 SABEW Health Care Symposium
-DESCRIPTION:The 2026 Health Care Symposium will take place March 19-21 in Washington\, D.C. The fellowship will give journalists a chance to take a deep dive with experts and veteran reporters into some of the big issues facing U.S. health care\, from the growing impact of private equity ownership to the crisis of rural health care\, and the changing landscape of medical debt and consumer protection. \nThanks to a grant from The Commonwealth Fund\, SABEW will cover the hotel costs and provide a travel stipend for out-of-town attendees. The program kicks off on Thursday evening\, March 19\, with a welcome dinner. We will have a full day of sessions on Friday\, March 20 and will conclude on Saturday\, March 21\, before noon. \nSpecial thanks to:
-URL:https://sabew.org/event/2026-sabew-health-care-symposium/
-CATEGORIES:Fellowship,In-Person Training,Networking
-ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/01/Health-Care-Symposium-Graphic-2026-1.png
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/dc-environmental-film-festival"}
 X-SOURCE-ID:sej
 SUMMARY:DC Environmental Film Festival
@@ -221,7 +194,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260319T130000
 DTEND;TZID=America/New_York:20260319T140000
-DTSTAMP:20260313T222414
+DTSTAMP:20260315T023351
 CREATED:20260311T210416Z
 LAST-MODIFIED:20260311T210418Z
 UID:62845-1773925200-1773928800@healthjournalism.org
@@ -230,21 +203,6 @@ DESCRIPTION:Freelancers\, what was the secret to your successful pitches? We’l
 URL:https://healthjournalism.org/event/lunch-and-learn-how-to-land-a-pitch/
 CATEGORIES:Freelancers,Lunch and Learn
 ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2024/08/Lunch-and-Learn-Logo.png
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/digital-open-source-investigations-geolocation-webinar/"}
-X-SOURCE-ID:nahj
-X-SOURCE:National Assoc. of Hispanic Journalists
-DTSTART;TZID=America/New_York:20260319T180000
-DTEND;TZID=America/New_York:20260319T193000
-DTSTAMP:20260313T214836
-CREATED:20260305T180006Z
-LAST-MODIFIED:20260313T185647Z
-UID:25606-1773943200-1773948600@nahj.org
-SUMMARY:Digital Open-Source Investigations: Geolocation Webinar
-DESCRIPTION:An NAHJ webinar training series for 2026: Digital Open-Source Investigations and OSINT for Journalism\n\nGeolocation \nParticipants will learn how to verify images and videos by finding exactly where they were recorded using satellite and street-view imagery from platforms like Google Earth and Maps. \nWhen: Thursday\, March 19\, 2026\nTime: 6:00 PM – 7:15 PM EST\nRegister: https://nahj.memberclicks.net/OSINTgeo \nPresented by: OSINT Reporting Lab at USC Annenberg School for Communication and Journalism  \n  \n 
-URL:https://nahj.org/event/digital-open-source-investigations-geolocation-webinar/
-ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/NAHJ_OpenSource-7.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Pen America": "https://pen.org/event/issues-in-our-stories/"}
@@ -318,7 +276,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://airtable.com/appKqpCg8wtgbO8DP/shrCXgMZovAfN8aJ4
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:4g399htv2ifu4i2sfpmpc1r2hq@google.com
 CREATED:20260226T023633Z
 DESCRIPTION:See the full program description: <a href="https://airtable.com
@@ -364,7 +322,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260320T160000
 DTEND;TZID=America/New_York:20260320T170000
-DTSTAMP:20260313T222414
+DTSTAMP:20260315T023351
 CREATED:20260206T211338Z
 LAST-MODIFIED:20260206T211339Z
 UID:62513-1774022400-1774026000@healthjournalism.org
@@ -533,7 +491,7 @@ X-SOURCE-ID:poynter
 X-SOURCE:Poynter Institute
 DTSTART;TZID=America/New_York:20260324T180000
 DTEND;TZID=America/New_York:20260324T200000
-DTSTAMP:20260313T150020
+DTSTAMP:20260314T224729
 CREATED:20260213T192122Z
 LAST-MODIFIED:20260302T211830Z
 UID:1189352-1774375200-1774382400@www.poynter.org
@@ -552,7 +510,7 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/87014594707?pwd=SALNdFVZbwSG60yFN8cdkoslib79hJ.1
 DTSTART:20260324T200000Z
 DTEND:20260324T210000Z
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:25hc1pudjnb1c0u9tqkek4pa38@google.com
 CREATED:20260313T222604Z
 DESCRIPTION:<p>If you can't explain how your newsroom creates value for its
@@ -622,7 +580,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://springernature.wd3.myworkdayjobs.com/en-US/SpringerNatureCareers/details/News-Intern_JR105539?q=scientific%20american
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:7o9asn7nqpqo968idu9qo01d9d@google.com
 CREATED:20260302T025938Z
 DESCRIPTION:See the full program descriptions: <br><br>News Intern: <a href
@@ -802,7 +760,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260328T100000
 DTEND;TZID=America/New_York:20260328T140000
-DTSTAMP:20260313T222413
+DTSTAMP:20260315T023350
 CREATED:20260223T202227Z
 LAST-MODIFIED:20260223T202227Z
 UID:16847-1774692000-1774706400@www.nlgja.org
@@ -871,7 +829,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ona26.journalists.org/
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:562n3tttu4lspjeet6cc461l0n@google.com
 CREATED:20260226T021524Z
 DESCRIPTION:See the full conference description: <a href="https://ona26.jou
@@ -935,7 +893,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260331T150000
 DTEND;TZID=America/New_York:20260331T160000
-DTSTAMP:20260313T222411
+DTSTAMP:20260315T023347
 CREATED:20251014T194807Z
 LAST-MODIFIED:20251211T214028Z
 UID:10004835-1774969200-1774972800@inn.org
@@ -944,22 +902,6 @@ DESCRIPTION:Join the Institute for Nonprofit News (INN) and Tiny News Collective
 URL:https://inn.org/event/news-startup-sessions-inn-tiny-news-collective-2/2026-03-31/
 CATEGORIES:Services
 ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2025/06/300-x-250-_-CTA-with-TNC-6.png
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/press-freedom-in-the-current-administration-webinar/"}
-X-SOURCE-ID:nahj
-X-SOURCE:National Assoc. of Hispanic Journalists
-DTSTART;TZID=America/New_York:20260331T180000
-DTEND;TZID=America/New_York:20260331T193000
-DTSTAMP:20260313T214836
-CREATED:20260313T183744Z
-LAST-MODIFIED:20260313T184755Z
-UID:25711-1774980000-1774985400@nahj.org
-SUMMARY:Media Law and Press Freedom in the Current Administration (Webinar)
-DESCRIPTION:Webinar: Media Law for Journalists: Media Law and Press Freedom in the Current Administration \nDate/Time: Tuesday\, March 31 at 6pm ET \nSummary: Journalists\, news organizations\, and other media companies are facing unprecedented challenges from multiple directions under the current administration. In this session\, we’ll evaluate the angles of attack and discuss how to exercise First Amendment rights in the face of hostility and near-constant threats.  \nSpeaker(s):\n \n\nJeffrey P. Hermes\, Deputy Director\, Media Law Resource Center\nGeorge Freeman\, Executive Director\, Media Law Resource Center \n\nRegister here: https://nahj.memberclicks.net/medialawpressfreedom
-URL:https://nahj.org/event/press-freedom-in-the-current-administration-webinar/
-CATEGORIES:Training,Webinar
-ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/Media-Law-Training-7.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Pen America": "https://pen.org/event/christian-john-wikane/"}
@@ -1030,7 +972,7 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 DTSTART;TZID=America/Chicago:20260401T160000
 DTEND;TZID=America/Chicago:20260401T170000
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260304T220000@google.com
 RECURRENCE-ID;TZID=America/Chicago:20260401T160000
 CREATED:20250102T172959Z
@@ -1073,7 +1015,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260402T153000
 DTEND;TZID=America/New_York:20260402T163000
-DTSTAMP:20260313T222411
+DTSTAMP:20260315T023347
 CREATED:20260302T153409Z
 LAST-MODIFIED:20260302T153409Z
 UID:10004846-1775143800-1775147400@inn.org
@@ -1089,7 +1031,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://mentalhealthjournalism.org/become-a-fellow/
 DTSTART;VALUE=DATE:20260403
 DTEND;VALUE=DATE:20260404
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:0q0tk0huussebt15hjmvlrrqm7@google.com
 CREATED:20260226T022003Z
 DESCRIPTION:See the full program description: <a href="https://mentalhealth
@@ -1183,7 +1125,7 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 DTSTART;TZID=America/New_York:20260408T160000
 DTEND;TZID=America/New_York:20260408T170000
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com
 RECURRENCE-ID;TZID=America/New_York:20260408T160000
 CREATED:20251212T131931Z
@@ -1206,22 +1148,6 @@ SUMMARY:Founder Show and Tell
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/digital-open-source-investigations-open-search-webinar/"}
-X-SOURCE-ID:nahj
-X-SOURCE:National Assoc. of Hispanic Journalists
-DTSTART;TZID=America/New_York:20260408T180000
-DTEND;TZID=America/New_York:20260408T193000
-DTSTAMP:20260313T214836
-CREATED:20260305T180852Z
-LAST-MODIFIED:20260305T181452Z
-UID:25610-1775671200-1775676600@nahj.org
-SUMMARY:Digital Open-Source Investigations: Open Search Webinar
-DESCRIPTION:An NAHJ webinar training series for 2026: Digital Open-Source Investigations and OSINT for Journalism\n\nOpen Search \nParticipants will learn how search engines work\, the varieties of search engines\, and how to craft advanced search queries to find exactly what they are looking for on the internet\, discover new sources of information\, and uncover information hiding in plain sight. \nWhen: Wednesday\, April 8\, 2026\nTime: 6:00 PM – 7:15 PM EST\nRegister: https://nahj.memberclicks.net/OSINTopensearch \nPresented by: OSINT Reporting Lab at USC Annenberg School for Communication and Journalism  \n 
-URL:https://nahj.org/event/digital-open-source-investigations-open-search-webinar/
-CATEGORIES:Webinar
-ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/NAHJ_OpenSource-8.png
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Sjn": "https://solu.news/sjnnewsies"}
 X-SOURCE-ID:sjn
 SUMMARY:Climate Peer Network Meeting
@@ -1235,22 +1161,6 @@ DESCRIPTION:Online (Zoom)\nJoin the next meeting of our Climate Peer Netwo
 LOCATION:Online (Zoom)
 URL:https://solu.news/sjnnewsies
 X-SOURCE:Solutions Journalism Network
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/2026-goldschmidt-data-fellowship-washington-d-c/"}
-X-SOURCE-ID:sabew
-X-SOURCE:Sabew
-DTSTART;VALUE=DATE:20260412
-DTEND;VALUE=DATE:20260417
-DTSTAMP:20260313T222415
-CREATED:20260121T220323Z
-LAST-MODIFIED:20260224T192512Z
-UID:68637-1775952000-1776383999@sabew.org
-SUMMARY:2026 Goldschmidt Data Fellowship – Washington\, D.C.
-DESCRIPTION:The 2026 Goldschmidt Fellowship data immersion workshop that will take place Sunday\, April 12 – Thursday\, April 16 in Washington\, D.C. Fellows will visit agencies in the District of Columbia/Maryland area\, as well as have training and other events in downtown Washington. \nThis is an all-access program for journalists to learn from experts and government professionals who gather and analyze the nation’s economic data. \nThe workshop is in its twelfth year and is funded annually by a grant from the Illinois-based Walter and Karla Goldschmidt Foundation. \nIt is coordinated by Marty Steffens\, SABEW chair at the University of Missouri School of Journalism and Kevin Hall\, former SABEW president and managing editor/Americas\, OCCRP. \nIf you have any questions about the program\, email logistics@sabew.org.
-URL:https://sabew.org/event/2026-goldschmidt-data-fellowship-washington-d-c/
-CATEGORIES:Fellowship,In-Person Training,Networking
-ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/02/Goldschmidt-Fellows-Graphic-2026-updated-date-1.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Knight Center for Journalism": "https://journalismcourses.org/product/advanced-prompt-engineering-for-journalists/"}
@@ -1344,7 +1254,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260416T183000
 DTEND;TZID=America/New_York:20260416T213000
-DTSTAMP:20260313T222413
+DTSTAMP:20260315T023350
 CREATED:20260218T180601Z
 LAST-MODIFIED:20260218T182113Z
 UID:16824-1776364200-1776375000@www.nlgja.org
@@ -1371,7 +1281,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260417T160000
 DTEND;TZID=America/New_York:20260417T170000
-DTSTAMP:20260313T222414
+DTSTAMP:20260315T023351
 CREATED:20260206T211516Z
 LAST-MODIFIED:20260206T211518Z
 UID:62515-1776441600-1776445200@healthjournalism.org
@@ -1381,43 +1291,11 @@ URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-3/
 CATEGORIES:Event,Freelancers
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/nahj-student-summit-2026/"}
-X-SOURCE-ID:nahj
-X-SOURCE:National Assoc. of Hispanic Journalists
-DTSTART;TZID=America/New_York:20260418T083000
-DTEND;TZID=America/New_York:20260418T160000
-DTSTAMP:20260313T214836
-CREATED:20260120T173846Z
-LAST-MODIFIED:20260120T173846Z
-UID:24854-1776501000-1776528000@nahj.org
-SUMMARY:NAHJ Student Summit 2026
-DESCRIPTION:Join us this spring for the NAHJ Student Summit\, a full-day experience designed to inform\, inspire\, and connect the next generation of journalists. Hosted by the NAHJ Student Chapter of UCF\, this summit will bring together students for engaging conversations\, skill-building sessions\, and opportunities to network with peers and professionals. \n🗓 Saturday\, April 18\, 2026\n⏰ 8:30 a.m. – 4:00 p.m.\n📍 Nicholson School of Communication and Media\n12405 Aquarius Agora Dr\, Orlando\, FL 32816 \n🎟 Free for students\n✅ Pre-registration required\n🔗 Register here \nWhether you’re just starting out or preparing to enter the industry\, this summit is a great chance to learn\, connect\, and grow within the NAHJ community.
-URL:https://nahj.org/event/nahj-student-summit-2026/
-LOCATION:Orlando\, Florida\, Nicholson School of Communication and Media\, 12405 Aquarius Agora Dr.\, Orlando\, FL\, 32816\, United States
-CATEGORIES:Next Generation
-ATTACH;FMTTYPE=image/jpeg:https://nahj.org/wp-content/uploads/2026/01/Student-Summit-2026.jpg
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/the-law-of-discrimination-in-the-journalism-workplace-webinar/"}
-X-SOURCE-ID:nahj
-X-SOURCE:National Assoc. of Hispanic Journalists
-DTSTART;TZID=America/New_York:20260421T180000
-DTEND;TZID=America/New_York:20260421T193000
-DTSTAMP:20260313T214836
-CREATED:20260313T184604Z
-LAST-MODIFIED:20260313T184604Z
-UID:25714-1776794400-1776799800@nahj.org
-SUMMARY:The Law of Discrimination in the Journalism Workplace (Webinar)
-DESCRIPTION:Media Law for Journalists: The Law of Discrimination in the Journalism Workplace  \nDate/Time: Tuesday\, April 21 at 6pm ET \nSummary: This workshop will assist you in understanding the fundamentals of employment discrimination law applicable to news organizations and journalistic endeavors\, including differences between employees and contractors; discrimination in the context of hiring\, discipline\, and termination; different forms that discrimination takes; and responses to incidents of discrimination. The session also explores harassment\, a close legal cousin of discrimination.   \nSpeaker(s):   \n\nAnaeli Petisco-Rojas\, Vice President\, Employment Law\, TelevisaUnivision\nJamila Brinson\, Partner\,Labor and Employment\, Jackson Walker LLP \n\nRegister here: https://nahj.memberclicks.net/MediaLawdiscrimination
-URL:https://nahj.org/event/the-law-of-discrimination-in-the-journalism-workplace-webinar/
-ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/Media-Law-Training-8.png
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 DTSTART:20260421T200000Z
 DTEND:20260421T210000Z
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:6ubpt0oc287io5a9jsp01q02vl@google.com
 CREATED:20260220T203220Z
 DESCRIPTION:<p><strong>From Founder to Leader: What to Consider as Your Org
@@ -1477,7 +1355,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260423T130000
 DTEND;TZID=America/New_York:20260423T150000
-DTSTAMP:20260313T222411
+DTSTAMP:20260315T023347
 CREATED:20260302T153409Z
 LAST-MODIFIED:20260302T153409Z
 UID:10004847-1776949200-1776956400@inn.org
@@ -1644,38 +1522,6 @@ URL:https://pen.org/event/xochitl-gonzalez-authors-evenings/
 X-SOURCE:PEN America
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/2026-american-healthcare-its-becoming-less-affordable-but-will-ai-help-improve-the-outcomes-fellowship-program/"}
-X-SOURCE-ID:sabew
-X-SOURCE:Sabew
-DTSTART;VALUE=DATE:20260506
-DTEND;VALUE=DATE:20260510
-DTSTAMP:20260313T222415
-CREATED:20260226T160353Z
-LAST-MODIFIED:20260312T142856Z
-UID:70005-1778025600-1778371199@sabew.org
-SUMMARY:2026 American Healthcare: It’s becoming less affordable\, but will AI help improve the outcomes? fellowship program
-DESCRIPTION:Apply for a fellowship to attend the “American health care: It’s becoming less affordable\, but will AI help improve the outcomes?” training in Philadelphia\, May 6-9\, 2026. Journalists selected will attend sessions covering topics about AI at the bedside: Real or rhetoric and Follow the money: Understanding AI profit in health care. In addition\, fellows will have the opportunity to attend other health care and business sessions during the 2026 SABEW Conference\, as well as participate in networking opportunities. \nThursday morning\, May 7\, the fellows will take part in a field trip and then enjoy a welcome & networking lunch upon their return to the hotel. Health care sessions will take place throughout the 2026 SABEW conference\, which runs Thursday afternoon\, May 7\, through Saturday\, May 9\, at 12:30 p.m. Fellows\, except those local to Philadelphia\, will be provided three nights of lodging at the DoubleTree Philadelphia Center City. Small travel stipends may be available for those not local to the area. \nTo apply for this program\, please submit an application here\, by Monday\, March 30 at 5 p.m. ET. To be considered for a fellowship\, you must have an active SABEW membership through June 1\, 2026. \nThe workshop is in partnership with The National Institute for Health Care Management (NIHCM) Foundation. \nIf you have any questions\, email logistics@sabew.org.
-URL:https://sabew.org/event/2026-american-healthcare-its-becoming-less-affordable-but-will-ai-help-improve-the-outcomes-fellowship-program/
-CATEGORIES:Fellowship,In-Person Training,Networking
-ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/02/NICHM-Fellowship-2026-Graphic-2-1.png
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/sabew26/"}
-X-SOURCE-ID:sabew
-X-SOURCE:Sabew
-DTSTART;VALUE=DATE:20260507
-DTEND;VALUE=DATE:20260510
-DTSTAMP:20260313T222415
-CREATED:20250730T220320Z
-LAST-MODIFIED:20260313T162658Z
-UID:66733-1778112000-1778371199@sabew.org
-SUMMARY:#SABEW26 Annual Conference
-DESCRIPTION:Conference FAQ’s\n*View the tentative sessions at this year’s conference*\nMark your calendars! SABEW\, the Society for Advancing Business Editing and Writing\, will hold its annual conference\, Thursday\, May 7 – Saturday\, May 9\, 2026\, at the DoubleTree by Hilton Philadelphia Center City. \nWhether you are a newsroom leader\, early/mid-career journalist\, academic\, student\, or PR pro\, SABEW’s annual conference is tailor made for you\, with diverse programming that will allow you to take home new ideas to use in your stories\, newsrooms\, or classrooms. Don’t miss the opportunity to network with other colleagues\, hear from top industry leaders\, and celebrate the winners of the Best in Business awards. \nThis year’s event will also feature a stop on RTDNA’s World Tour\, bringing its signature focus on broadcast and modern newsroom leadership. Through interactive discussions and practical takeaways\, Radio Television Digital News Association trainers offer insights into audience-centered coverage\, ethical leadership and newsroom culture. The World Tour stop is made possible through a partnership between RTDNA and the SABEW\, supported by the National Endowment for Financial Education (NEFE) — reflecting a shared commitment to elevating journalism training and expanding access to professional development across newsrooms. \nThe conference will also include career enhancing collaborations with AAJA-NY\, American City Business Journals\, Bright Data\, ESPN\, IRE\, The Commonwealth Fund\, The National Institute for Health Care Management Foundation\, RTDNA\, and The Wharton School\, The University of Pennsylvania. \nRegister today and we look forward to seeing you in Philadelphia! \nRegistration \nEarly-bird registration is $300 for SABEW members\, $375 for nonmembers\, and $75 for students. Early bird pricing ends Wednesday\, April 1. Beginning Thursday\, April 2\, the price for SABEW members will increase to $350 and $425 for nonmembers. The student price will remain the same. Purchase your ticket below. \nBest in Business Awardees can register at a discounted rate. Please email awards@sabew.org to request the discount code. \nCancellations \nCancellations must be sent via email to logistics@sabew.org. All cancellations must be in writing. There is a $50 processing fee for all cancellations until April 9. After that date\, requests for refunds will be considered on a case-by-case basis. \nHotel Information \nDoubleTree Philadelphia Center City\n237 S Broad St\nPhiladelphia\, PA 19107 \nThe room rate is $209 per night\, plus tax for single/double rooms (currently 15.5% + 0.75%) *subject to change. Rooms are available in the discounted block until Monday\, April 13\, 2026\, or until the block is full (whichever comes first.) If you need to cancel your reservation\, you must do so 72 hours prior to arrival to avoid any cancellation fees. \nTo make a reservation\, click here. \nFellowship Opportunities \nFellowship opportunities are available for female journalists\, journalists of color\, and business journalists who represent underserved areas to attend the #SABEW26 conference. For more information and to apply\, please click here. Applications are due by Tuesday\, March 31. \nSpeed mentoring \nSit down for a one-on-one conversation with a newsroom editor or hiring manager during this hands-on session at the #SABEW26 conference. Mentees will have the chance to have their resume or clips reviewed\, practice their story pitch and brush up on their interviewing skills. It’s a great opportunity to make new connections\, seek career advice or ask questions about breaking into the industry. \nTo participate as a mentor or mentee\, complete this form by 5 p.m. ET\, Monday\, April 27. All participants must be registered for the conference. The session is open to early-career journalists and students. Space is limited. \nSponsors and Exhibitors \nExhibitor and sponsor opportunities are available. Lock in your space early for the best prices and to ensure a spot. Contact Stephanie Klimstra at sklimstra@sabew.org for additional details. \nShop SABEW \nGear up with SABEW t-shirts\, sweatshirts\, and more! Visit the SABEW store today. \n  \nThank you to our sponsors and exhibitors!\n  \n \n 
-URL:https://sabew.org/event/sabew26/
-CATEGORIES:Conference,In-Person Training,Networking
-ATTACH;FMTTYPE=image/jpeg:https://sabew.org/wp-content/uploads/2026/01/26_ConferenceLogo_H_1500x500.jpg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/mddc-conference-celebration-may-8,257462"}
 X-SOURCE-ID:editor_publisher
 SUMMARY:2026 MDDC Conference & Celebration
@@ -1688,28 +1534,13 @@ URL:https://www.editorandpublisher.com/stories/mddc-conference-celebration
 X-SOURCE:Editor & Publisher
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/digital-open-source-investigations-chronolocation-webinar/"}
-X-SOURCE-ID:nahj
-X-SOURCE:National Assoc. of Hispanic Journalists
-DTSTART;TZID=America/New_York:20260512T180000
-DTEND;TZID=America/New_York:20260512T193000
-DTSTAMP:20260313T214836
-CREATED:20260305T181716Z
-LAST-MODIFIED:20260305T181716Z
-UID:25615-1778608800-1778614200@nahj.org
-SUMMARY:Digital Open-Source Investigations: Chronolocation Webinar
-DESCRIPTION:An NAHJ webinar training series for 2026: Digital Open-Source Investigations and OSINT for Journalism\n\nChronolocation \nParticipants will learn how to verify images and videos by finding approximately when they were recorded using geolocation\, sunlight\, and shadows. \nWhen: Tuesday\, May 12\, 2026\nTime: 6:00 PM – 7:15 PM EST\nRegister: https://nahj.memberclicks.net/OSINTchrono \nPresented by: OSINT Reporting Lab at USC Annenberg School for Communication and Journalism  \n  \n 
-URL:https://nahj.org/event/digital-open-source-investigations-chronolocation-webinar/
-ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/NAHJ_OpenSource-9.png
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Hackshackers": "https://luma.com/hh-aijournalismsummit-2026"}
 X-SOURCE-ID:hackshackers
 X-SOURCE:Hackshackers
 URL:https://luma.com/hh-aijournalismsummit-2026
 DTSTART:20260512T220000Z
 DTEND:20260514T210000Z
-DTSTAMP:20260314T022415Z
+DTSTAMP:20260315T063556Z
 ORGANIZER;CN="Paul Cheung":MAILTO:calendar-invite@lu.ma
 UID:evt-1KgaVILYnDGG7Ig@events.lu.ma
 SUMMARY:Hacks/Hackers AI x Journalism Summit 2026
@@ -1718,7 +1549,7 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/hh-aijournalis
  ed States\n\nHosted by Paul Cheung & 3 others
 LOCATION:The Real News Network, 231 Holliday St, Baltimore, MD 21202, USA
 GEO:39.292193999999995;-76.61019569999999
-SEQUENCE:195618255
+SEQUENCE:195719756
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
@@ -1761,7 +1592,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260515T160000
 DTEND;TZID=America/New_York:20260515T170000
-DTSTAMP:20260313T222414
+DTSTAMP:20260315T023351
 CREATED:20260206T211715Z
 LAST-MODIFIED:20260206T211718Z
 UID:62517-1778860800-1778864400@healthjournalism.org
@@ -1776,7 +1607,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260527T000000
 DTEND;TZID=America/New_York:20260530T235959
-DTSTAMP:20260313T222414
+DTSTAMP:20260315T023351
 CREATED:20260121T224600Z
 LAST-MODIFIED:20260121T224603Z
 UID:62297-1779840000-1780185599@healthjournalism.org
@@ -1793,7 +1624,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260606
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:38vhr0gb8vnlj42tr2rpgdgtnu@google.com
 CREATED:20260302T030352Z
 DESCRIPTION:See the full conference description: <a href="https://ewa.org/e
@@ -1818,7 +1649,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260313T222411
+DTSTAMP:20260315T023347
 CREATED:20260123T165431Z
 LAST-MODIFIED:20260206T171526Z
 UID:10004840-1781568000-1781827199@inn.org
@@ -1834,7 +1665,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260616T170000
 DTEND;TZID=America/New_York:20260616T203000
-DTSTAMP:20260313T222411
+DTSTAMP:20260315T023347
 CREATED:20260209T143527Z
 LAST-MODIFIED:20260209T143527Z
 UID:10004844-1781629200-1781641800@inn.org
@@ -1849,7 +1680,7 @@ X-SOURCE-ID:poynter
 X-SOURCE:Poynter Institute
 DTSTART;TZID=Europe/Vilnius:20260617T080000
 DTEND;TZID=Europe/Vilnius:20260619T170000
-DTSTAMP:20260313T150020
+DTSTAMP:20260314T224729
 CREATED:20260219T160726Z
 LAST-MODIFIED:20260224T182258Z
 UID:1189666-1781683200-1781888400@www.poynter.org
@@ -1867,7 +1698,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.ire.org/training/conferences/ire-2026/
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260622
-DTSTAMP:20260314T022416Z
+DTSTAMP:20260315T063557Z
 UID:4onag31t66iv7lht4jcddi2iub@google.com
 CREATED:20260226T021319Z
 DESCRIPTION:See the full conference description: <a href="https://www.ire.o
@@ -1886,29 +1717,12 @@ SUMMARY:IRE 2026
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/nahj-conference-expo-new-orleans-2026/"}
-X-SOURCE-ID:nahj
-X-SOURCE:National Assoc. of Hispanic Journalists
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-DTSTAMP:20260313T214836
-CREATED:20251223T073000Z
-LAST-MODIFIED:20251223T194626Z
-UID:24798-1784678400-1784764799@nahj.org
-SUMMARY:NAHJ Conference & Expo — New Orleans 2026
-DESCRIPTION:The NAHJ national conference\, offers unparalleled career development opportunities with leading Hispanic journalists and media professionals. This annual gathering features workshops and panels that provide essential tools for career growth in a rapidly evolving industry. Attendees gain valuable insights on storytelling\, media trends\, and diversity in journalism\, making it a must-attend event for professionals and students alike. It’s taking place July 22-25 in New Orleans\, Louisiana. \nFor more information visit: https://nahjconference.org.
-URL:https://nahj.org/event/nahj-conference-expo-new-orleans-2026/
-LOCATION:New Orleans Marriott\, 555 Canal St.\, New Orleans\, LA\, United States
-CATEGORIES:Conference,Networking
-ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2025/12/f8456192-2f5b-4a20-a254-b7ef304e4c01.png
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Assoc. of LGBTQ+ Journalists": "https://www.nlgja.org/event/2026-national-convention/"}
 X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260313T222413
+DTSTAMP:20260315T023350
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org

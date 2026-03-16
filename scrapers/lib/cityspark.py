@@ -127,6 +127,12 @@ class CitySparkScraper(BaseScraper):
             else:
                 url = self.calendar_url
 
+        # Image: prefer MediumImg, fall back to LargeImg or SmallImg
+        image_url = (event.get('MediumImg')
+                     or event.get('LargeImg')
+                     or event.get('SmallImg')
+                     or '')
+
         return {
             'title': event.get('Name', 'Untitled Event'),
             'dtstart': event_start,
@@ -134,6 +140,7 @@ class CitySparkScraper(BaseScraper):
             'location': event.get('Venue', ''),
             'description': event.get('Description', ''),
             'url': url,
+            'image_url': image_url,
             'uid': event.get('Id') or event.get('PId', ''),
             'image_url': event.get('LargeImg') or event.get('MediumImg') or '',
         }
