@@ -933,7 +933,7 @@ def dedupe_cross_source(events, input_dir):
 
             # Update X-SOURCE to combined value
             if len(all_sources) > 1:
-                merged_source = ', '.join(sorted(all_sources))
+                merged_source = ', '.join(sorted(all_sources, key=lambda s: (1 if is_aggregator(s) else 0, s)))
                 kept['content'] = re.sub(
                     r'^X-SOURCE:[^\r\n]+',
                     f'X-SOURCE:{merged_source}',
@@ -1103,7 +1103,7 @@ JSON:"""
 
                 # Merge sources into kept event
                 if len(all_sources) > 1:
-                    merged_source = ', '.join(sorted(all_sources))
+                    merged_source = ', '.join(sorted(all_sources, key=lambda s: (1 if is_aggregator(s) else 0, s)))
                     kept_event['content'] = re.sub(
                         r'^X-SOURCE:[^\r\n]+',
                         f'X-SOURCE:{merged_source}',
