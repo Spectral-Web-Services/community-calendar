@@ -7,23 +7,6 @@ X-WR-CALNAME:Roanoke Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Boards Commissions": "https://www.roanokeva.gov/calendar.aspx?EID=8420"}
-X-SOURCE-ID:roanoke_boards_commissions
-X-SOURCE:Roanoke Boards Commissions
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8420
-DESCRIPTION: https://www.roanokeva.gov/calendar.aspx?EID=8420
-DTEND;TZID=America/New_York:20260316T133000
-DTSTAMP;TZID=America/New_York:20250714T160551
-DTSTART;TZID=America/New_York:20260316T123000
-LAST-MODIFIED;TZID=America/New_York:20250714T160551
-LOCATION:<p id="isPasted">Human Resources Learning Center</p><p>Municipal 
- North Side</p><p>Room 309</p> - 215 Church Avenue SW  Roanoke VA 24011
-SEQUENCE:0
-SUMMARY:Greater Roanoke Transit Company Board of Directors
-UID:8420
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke City Council": "https://www.roanokeva.gov/calendar.aspx?EID=8555"}
 X-SOURCE-ID:roanoke_city_council
 X-SOURCE:Roanoke City Council
@@ -64,7 +47,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313432150@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260316T200000
 DTEND;TZID=America/New_York:20260316T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -143,7 +126,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260317T183000
 DTEND;TZID=America/New_York:20260317T193000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251008T164846Z
 LAST-MODIFIED:20251008T164846Z
 UID:71853-1773772200-1773775800@www.hollins.edu
@@ -208,11 +191,11 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313559833@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260319T114500
 DTEND;TZID=America/New_York:20260319T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
-DESCRIPTION:Southwest VA Toastmasters of Roanoke/Blacksburg/Rocky Mount\nJoin us for an interactive meeting hosted by the Southwest VA Toastmasters of the NRV Lunch Bunch. This event is perfect for anyone looking to conquer their fear of public speaking\, enhance their communication skills\, and boost their confidence. You'll learn valuable techniques for impromptu speaking\, effective presentations\, and self-empowerment through engaging activities and supportive feedback from experienced Toastmasters. Whether you're a novice or seasoned speaker\, this club will provide a safe space to practice and develop your public speaking skills in a friendly and encouraging environment. Don't miss this opportunity to unleash your full potential and become a more confident communicator! You can also join us virtually on Zoom. Contact us for the link at http://bit.ly/4gq5xfe.
+DESCRIPTION:Southwest VA Toastmasters of Roanoke/Blacksburg/Rocky Mount\nJoin us for an interactive club meeting hosted by the Southwest VA Toastmasters of the NRV Lunch Bunch. This event is perfect for anyone looking to conquer their fear of public speaking\, enhance their communication skills\, and boost their confidence. You'll learn valuable techniques for impromptu speaking\, effective presentations\, and self-empowerment through engaging activities and supportive feedback from experienced Toastmasters. Whether you're a novice or seasoned speaker\, this club will provide a safe space to practice and develop your public speaking skills in a friendly and encouraging environment. Don't miss this opportunity to unleash your full potential and become a more confident communicator! You can also join us virtually on Zoom. Contact us for the link at http://bit.ly/4gq5xfe.
 URL;VALUE=URI:https://www.meetup.com/southwest-va-toastmasters-meetup-group/events/313559833/
 STATUS:CONFIRMED
 CREATED:20260227T182427Z
@@ -226,7 +209,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313559834@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260319T120000
 DTEND;TZID=America/New_York:20260319T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -262,7 +245,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313729286@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260319T180000
 DTEND;TZID=America/New_York:20260319T190000
 SUMMARY:Stained Glass Planning Meeting
@@ -291,30 +274,12 @@ UID:1331
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Meetup Sw Va Toastmasters": "https://www.meetup.com/southwest-va-toastmasters-meetup-group/events/313566939/"}
-X-SOURCE-ID:meetup_sw_va_toastmasters
-X-SOURCE:Meetup Sw Va Toastmasters
-UID:event_313566939@meetup.com
-SEQUENCE:1
-DTSTAMP:20260316T135024Z
-DTSTART;TZID=America/New_York:20260319T190000
-DTEND;TZID=America/New_York:20260319T210000
-SUMMARY:Master Presentations and Impromptu Speaking with Blacksburg Toastmasters Club
-DESCRIPTION:Southwest VA Toastmasters of Roanoke/Blacksburg/Rocky Mount\nJoin us at Southwest VA Toastmasters for an energetic club meeting focused on mastering presentations and impromptu speaking through constructive feedback! Whether you're a seasoned Toastmaster or looking to improve your communication skills\, this club is designed to help you think on your feet and deliver compelling speeches on the spot. Led by experienced Toastmasters\, you'll learn techniques to boost your confidence\, improve your impromptu speaking abilities\, and captivate any audience. Don't miss this opportunity to enhance your communication skills in a supportive and interactive environment. Let's conquer the fear of public speaking together and become confident communicators! Contact the club at [http://blacksburg.toastmastersclubs.org/](http://blacksburg.toastmastersclubs.org/) for more information.
-URL;VALUE=URI:https://www.meetup.com/southwest-va-toastmasters-meetup-group/events/313566939/
-STATUS:CONFIRMED
-CREATED:20260228T011903Z
-LAST-MODIFIED:20260228T011903Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/f/5/6/600_529956694.jpeg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Meetup Sw Va Toastmasters": "https://www.meetup.com/southwest-va-toastmasters-meetup-group/events/313765354/"}
 X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765354@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260320T083000
 DTEND;TZID=America/New_York:20260320T093000
 SUMMARY:Kickstart Your Voice with Roanoke Talk-of-the-Town Toastmasters
@@ -332,7 +297,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313432308@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260320T180000
 DTEND;TZID=America/New_York:20260320T190000
 SUMMARY:Maker Mini: Multi-Material 3D Printing with Orcaslicer
@@ -380,7 +345,7 @@ X-SOURCE-ID:meetup_roanoke_spiritual
 X-SOURCE:Meetup Roanoke Spiritual
 UID:event_313553467@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135025Z
+DTSTAMP:20260316T185128Z
 DTSTART;TZID=America/New_York:20260321T100000
 DTEND;TZID=America/New_York:20260321T170000
 SUMMARY:Explore Spiritual Freedom with Eckankar at the 2026 Festival of Light!
@@ -398,7 +363,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313774147@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135025Z
+DTSTAMP:20260316T185128Z
 DTSTART;TZID=America/New_York:20260321T100000
 DTEND;TZID=America/New_York:20260321T130000
 SUMMARY:In Person: Code and Coffee on March 21st from 10am-1pm ET
@@ -443,7 +408,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313432537@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260321T130000
 DTEND;TZID=America/New_York:20260321T160000
 SUMMARY:Intro to Home Assistant and ESPHome
@@ -477,7 +442,7 @@ X-SOURCE-ID:meetup_roanoke_spiritual
 X-SOURCE:Meetup Roanoke Spiritual
 UID:event_313553471@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135025Z
+DTSTAMP:20260316T185128Z
 DTSTART;TZID=America/New_York:20260322T100000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:Explore Spiritual Freedom with Eckankar at the 2026 Festival of Light!
@@ -495,7 +460,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313744165@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260322T110000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
@@ -588,7 +553,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313668798@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260326T114500
 DTEND;TZID=America/New_York:20260326T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -607,7 +572,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_jgpmwtyjcfbjc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260326T120000
 DTEND;TZID=America/New_York:20260326T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -625,7 +590,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -676,7 +641,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765284@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260326T190000
 DTEND;TZID=America/New_York:20260326T203000
 SUMMARY:Overcome Public Speaking Fears with the Roanoke Toastmasters
@@ -694,7 +659,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260326T193000
 DTEND;TZID=America/New_York:20260326T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260308T045959Z;BYDAY=TH
-DTSTAMP:20260316T135023Z
+DTSTAMP:20260316T185125Z
 UID:57gb4bmvjhfn0gp9ngupohs0eb@google.com
 CREATED:20250623T185456Z
 LAST-MODIFIED:20250623T185456Z
@@ -726,7 +691,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260327T130000Z
 DTEND:20260327T150000Z
-DTSTAMP:20260316T135023Z
+DTSTAMP:20260316T185125Z
 UID:0p6sa4pvd7p7ttiulghef5f8l7@google.com
 CREATED:20250623T172452Z
 LAST-MODIFIED:20250623T172452Z
@@ -740,7 +705,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260327T151500Z
 DTEND:20260327T171500Z
-DTSTAMP:20260316T135023Z
+DTSTAMP:20260316T185125Z
 UID:7cd0kkonekgmp367hpatt0tgda@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:ice.berglundcenter@gmail.com
 SUMMARY:Busy
@@ -855,7 +820,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -873,7 +838,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -890,7 +855,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260328T130000Z
 DTEND:20260328T150000Z
-DTSTAMP:20260316T135023Z
+DTSTAMP:20260316T185125Z
 UID:68io17mdi06i0mo2g38kkr6iod@google.com
 CREATED:20250623T172458Z
 LAST-MODIFIED:20250623T172459Z
@@ -905,7 +870,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313396362@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135025Z
+DTSTAMP:20260316T185128Z
 DTSTART;TZID=America/New_York:20260328T130000
 DTEND;TZID=America/New_York:20260328T143000
 SUMMARY:Shut Up & Write!® in Tanglewood
@@ -976,7 +941,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260328T151500Z
 DTEND:20260328T171500Z
-DTSTAMP:20260316T135023Z
+DTSTAMP:20260316T185125Z
 UID:4i61gpo0psml09bu511ica8vj9@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:ice.berglundcenter@gmail.com
 SUMMARY:Busy
@@ -1007,7 +972,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -1087,7 +1052,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260331T193000
 DTEND;TZID=America/New_York:20260331T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TU
-DTSTAMP:20260316T135023Z
+DTSTAMP:20260316T185125Z
 UID:5nrtt7b91cc3gpo519hgh26cft@google.com
 CREATED:20250623T185514Z
 LAST-MODIFIED:20250623T185514Z
@@ -1146,7 +1111,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280246@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260402T090000
 DTEND;TZID=America/New_York:20260402T103000
 SUMMARY:Greenway Litter Pickup
@@ -1207,7 +1172,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765185@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260402T114500
 DTEND;TZID=America/New_York:20260402T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -1220,12 +1185,13 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/f/5/6/600_529956694.jpeg
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Meetup Sw Va Toastmasters": "https://www.meetup.com/southwest-va-toastmasters-meetup-group/events/313765203/"}
 X-SOURCE-URLS:{"Meetup Sw Va Toastmasters": "https://www.meetup.com/southwest-va-toastmasters-meetup-group/events/jgpmwtyjcgbdb/"}
 X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_jgpmwtyjcgbdb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260402T120000
 DTEND;TZID=America/New_York:20260402T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -1243,7 +1209,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580095@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135025Z
+DTSTAMP:20260316T185128Z
 DTSTART;TZID=America/New_York:20260402T180000
 DTEND;TZID=America/New_York:20260402T200000
 SUMMARY:In Person-Salem: presentation by Cameron Presley
@@ -1261,7 +1227,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TH
-DTSTAMP:20260316T135023Z
+DTSTAMP:20260316T185125Z
 UID:0ev0uk8jovf35t2iardafu81a4@google.com
 CREATED:20250623T185525Z
 LAST-MODIFIED:20250623T185525Z
@@ -1276,7 +1242,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T203000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20260218T180115Z
 LAST-MODIFIED:20260313T121406Z
 UID:73667-1775158200-1775161800@www.hollins.edu
@@ -1345,7 +1311,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185126Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -1397,7 +1363,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260407T183000
 DTEND;TZID=America/New_York:20260407T193000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251008T164915Z
 LAST-MODIFIED:20251008T164915Z
 UID:71854-1775586600-1775590200@www.hollins.edu
@@ -1499,7 +1465,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260409T000000
 DTEND;TZID=America/New_York:20260411T235959
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20250911T172907Z
 LAST-MODIFIED:20260313T175434Z
 UID:71566-1775692800-1775951999@www.hollins.edu
@@ -1665,7 +1631,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260411T090000
 DTEND;TZID=America/New_York:20260411T160000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251008T165430Z
 LAST-MODIFIED:20260225T191823Z
 UID:71856-1775898000-1775923200@www.hollins.edu
@@ -1708,7 +1674,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260412T000000
 DTEND;TZID=America/New_York:20260413T235959
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20260204T135707Z
 LAST-MODIFIED:20260204T135707Z
 UID:73496-1775952000-1776124799@www.hollins.edu
@@ -2175,7 +2141,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260420T170000
 DTEND;TZID=America/New_York:20260420T183000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20250905T180619Z
 LAST-MODIFIED:20250905T201818Z
 UID:71485-1776704400-1776709800@www.hollins.edu
@@ -2262,7 +2228,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260423T193000
 DTEND;TZID=America/New_York:20260423T203000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20250922T152313Z
 LAST-MODIFIED:20251008T163956Z
 UID:71688-1776972600-1776976200@www.hollins.edu
@@ -2638,7 +2604,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280265@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260507T090000
 DTEND;TZID=America/New_York:20260507T103000
 SUMMARY:Greenway Litter Pickup
@@ -2693,7 +2659,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580154@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135025Z
+DTSTAMP:20260316T185128Z
 DTSTART;TZID=America/New_York:20260507T180000
 DTEND;TZID=America/New_York:20260507T200000
 SUMMARY:Online: The 1-Person DevOps Stack presentation by Lionel Sapp
@@ -2711,7 +2677,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260507T193000
 DTEND;TZID=America/New_York:20260507T203000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251008T171105Z
 LAST-MODIFIED:20251008T171105Z
 UID:71858-1778182200-1778185800@www.hollins.edu
@@ -2787,7 +2753,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260509T130000
 DTEND;TZID=America/New_York:20260509T153000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251215T155627Z
 LAST-MODIFIED:20251215T155627Z
 UID:72971-1778331600-1778340600@www.hollins.edu
@@ -2927,7 +2893,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260511T170000
 DTEND;TZID=America/New_York:20260511T183000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20250905T180803Z
 LAST-MODIFIED:20250910T165734Z
 UID:71486-1778518800-1778524200@www.hollins.edu
@@ -3330,7 +3296,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260517T100000
 DTEND;TZID=America/New_York:20260517T120000
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20250910T144650Z
 LAST-MODIFIED:20260302T144545Z
 UID:71515-1779012000-1779019200@www.hollins.edu
@@ -3624,7 +3590,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260529T000000
 DTEND;TZID=America/New_York:20260531T235959
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251204T174803Z
 LAST-MODIFIED:20251204T174803Z
 UID:72820-1780012800-1780271999@www.hollins.edu
@@ -3892,7 +3858,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280281@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260604T073000
 DTEND;TZID=America/New_York:20260604T090000
 SUMMARY:Greenway Litter Pickup
@@ -4268,7 +4234,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260614T000000
 DTEND;TZID=America/New_York:20260619T235959
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251114T170519Z
 LAST-MODIFIED:20251114T170519Z
 UID:72456-1781395200-1781913599@www.hollins.edu
@@ -4651,7 +4617,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280290@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260709T073000
 DTEND;TZID=America/New_York:20260709T090000
 SUMMARY:Greenway Litter Pickup
@@ -4705,15 +4671,15 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260710T000000
 DTEND;TZID=America/New_York:20260712T235959
-DTSTAMP:20260316T095023
-CREATED:20260219T213020Z
-LAST-MODIFIED:20260310T184029Z
-UID:73706-1783641600-1783900799@www.hollins.edu
-SUMMARY:3rd Biennial Children’s Literature Symposium 
-DESCRIPTION:The Pleasures and Problems of Pooh\nThe 3rd Biennial Children’s Literature Symposium\nOn Zoom\nFriday–Sunday\, July 10–12\, 2026 \n\n\n\n\nConference Details\n\n 	\nHost: Hollins University Graduate Programs in Children’s Literature \n\n 	\nChair: Chaired by Dr. Lisa Rowe Fraustino \n\n\nThis year’s hundredth anniversary of A. A. Milne’s Winnie-the-Pooh\, published in 1926\, provides a springboard for reflection on the role of classic children’s literature. \n\n“Here–we–are…all–of–us\, and then\, suddenly\, we wake up one morning and\, what do we find? We find a Strange Animal among us. An animal of whom we have never heard before! An animal who carries her family about with her in her pocket!” — Rabbit\nINVITED KEYNOTERS INCLUDE:\n\n 	Lara Saguisag\, Associate Professor and Georgiou Chair in Children’s Literature and Literacy at New York University and President of the Children’s Literature Association\n 	A Pooh Panel with Jennifer Harrison\, editor of Positioning Pooh: Edward Bear after 100 Years; volume contributor and Millersville University professor Sarah E. Jackson; and distinguished East Carolina University emeritus professor C.W. Sullivan III\n\nSYMPOSIUM ABSTRACT SUBMISSION\nThis online symposium seeks presentation proposals from authors\, illustrators\, librarians\, publishers\, educators\, and scholars in any field. View the Call for Papers. Submit proposals of 500 words to Symposium-Abstract-Submissions by May 1\, 2026. Submit Symposium Abstracts online \n\nART CHALLENGE\nIllustrators are invited to submit images of your own creations related to Pooh and Pooh adjacent or influenced subjects. The symposium will include a digital art show and panel discussion session. Please submit artwork as JPGs or PNGs\, no larger than 1000 pixels wide or no larger than 5mb. Submit online\nGIRLS LITERATURE DISCUSSION GROUP\nThe final session of the symposium will be a meeting of the Hollins Girls’ Literature Discussion Group\, for which we’ll be reading Tuck Everlasting upon its 50th anniversary of publication.
+DTSTAMP:20260316T145126
+CREATED:20260313T132036Z
+LAST-MODIFIED:20260316T162835Z
+UID:74157-1783641600-1783900799@www.hollins.edu
+SUMMARY:3rd Biennial Children’s Literature Symposium
+DESCRIPTION:The Pleasures and Problems of Pooh\n\n\n\nThe 3rd Biennial Children’s Literature Symposium\n\n\n\nOn Zoom\n\n\n\nFriday–Sunday\, July 10–12\, 2026 \n\n\n\n\n\n\n\nConference Details\n\n\n\n\nHost: Hollins University Graduate Programs in Children’s Literature\n\n\n\nChair: Chaired by Dr. Lisa Rowe Fraustino\n\n\n\n\n\n\n\n\nThis year’s hundredth anniversary of A. A. Milne’s Winnie-the-Pooh\, published in 1926\, provides a springboard for reflection on the role of classic children’s literature. \n\n\n\n\n“Here–we–are…all–of–us\, and then\, suddenly\, we wake up one morning and\, what do we find? We find a Strange Animal among us. An animal of whom we have never heard before! An animal who carries her family about with her in her pocket!” — Rabbit\n\n\n\n\nINVITED KEYNOTERS INCLUDE:\n\n\n\n\nLara Saguisag\, Associate Professor and Georgiou Chair in Children’s Literature and Literacy at New York University and President of the Children’s Literature Association\n\n\n\nA Pooh Panel with Jennifer Harrison\, editor of Positioning Pooh: Edward Bear after 100 Years; volume contributor and Millersville University professor Sarah E. Jackson; and distinguished East Carolina University emeritus professor C.W. Sullivan III\n\n\n\n\n\n\nSYMPOSIUM ABSTRACT SUBMISSION\n\n\n\nThis online symposium seeks presentation proposals from authors\, illustrators\, librarians\, publishers\, educators\, and scholars in any field. View the Call for Papers. Submit proposals of 500 words to Symposium-Abstract-Submissions by May 1\, 2026. Submit Symposium Abstracts online \n\n\n\nART CHALLENGE\n\n\n\nIllustrators are invited to submit images of your own creations related to Pooh and Pooh adjacent or influenced subjects. The symposium will include a digital art show and panel discussion session. Please submit artwork as JPGs or PNGs\, no larger than 1000 pixels wide or no larger than 5mb. Submit online \n\n\n\nGIRLS LITERATURE DISCUSSION GROUP\n\n\n\nThe final session of the symposium will be a meeting of the Hollins Girls’ Literature Discussion Group\, for which we’ll be reading Tuck Everlasting upon its 50th anniversary of publication. \n\n\n\nQuestions?\n\n\n\nQuestions: Please contact Lisa Rowe Fraustino\, FraustinoLR@hollins.edu  \n\n\n\n\n\n Original public domain image from Wikimedia Commons\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCall for Papers\n\n\n\n\n\n\n\nThis year’s hundredth anniversary of A. A. Milne’s Winnie-the-Pooh\, published in 1926\, provides a springboard for reflection on the role of classic children’s literature. This online symposium seeks presentation proposals from authors\, illustrators\, librarians\, publishers\, educators\, and scholars in any field. Possible topics for exploration include: \n\n\n\n\n\n    \n                        \n        \n            \n                Review Possible Topics for Exploration                \n                \n            \n            \n                \n\nClose readings of how the Pooh stories interpellate young readers into social structures. Who’s out\, who’s in? \n\n\nHow does imaginative play socialize children into adult behaviors? \n\n\nHow does adult nostalgia contribute to classic children’s literature? \n\n\nWhat is the role of illustrations by E. H. Shepard and/or later artists? \n\n\nWhat is the purpose of cuteness? What does it cover up? How does cuteness integrate with other aspects of storytelling and interpretation\, and toward what effect? \n\n\nComparative readings of Pooh with other classics or with contemporary pairings. \n\n\nCommercialization and/or Disnification of Pooh and other classic texts. \n\n\nExaminations of media adaptations or translations into other languages. What is kept? What is reinterpreted? How do those choices reflect ideology? \n\n\nExploration of imaginative play and/or toys in children’s literature. \n\n\nTheoretical approaches—colonialism\, whiteness\, psychoanalytical\, animal studies/anthropomorphism\, food\, boyhood\, etc. \n\n\nWhat is the purpose of literary criticism\, especially for books that are written primarily for children (not adults) to read? \n\n\nWhat do we do when books feel like they aren’t written for us (because of race\, class\, gender\, and other aspects of identity)? \n\n\nHow do our readings/experiences of a text change when we read it multiple times? \n\n\nHow does the intergenerational evolution of our engagement with classics call attention to new issues and questions over time?
 URL:https://www.hollins.edu/event/3rd-biennial-childrens-literature-symposium/
 LOCATION:Hollins University Campus\, 7916 Williamson Road\, Roanoke\, VA\, 24020\, United States
-CATEGORIES:Children's Literature,Graduate Programs
+CATEGORIES:Children's Literature
 ATTACH;FMTTYPE=image/png:https://www.hollins.edu/wp-content/uploads/2023/12/KidLitLogo.png
 ORGANIZER;CN="Children's Literature and Book Illustration":MAILTO:kidlit@hollins.edu
 END:VEVENT
@@ -4740,7 +4706,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260718T235959
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20250930T140902Z
 LAST-MODIFIED:20251029T175051Z
 UID:71745-1783814400-1784419199@www.hollins.edu
@@ -4758,7 +4724,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260725T235959
-DTSTAMP:20260316T095023
+DTSTAMP:20260316T145126
 CREATED:20251216T212637Z
 LAST-MODIFIED:20251216T212637Z
 UID:73040-1783814400-1785023999@www.hollins.edu
@@ -5149,7 +5115,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280295@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260806T073000
 DTEND;TZID=America/New_York:20260806T090000
 SUMMARY:Greenway Litter Pickup
@@ -5569,7 +5535,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280300@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20260903T073000
 DTEND;TZID=America/New_York:20260903T090000
 SUMMARY:Greenway Litter Pickup
@@ -6077,7 +6043,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280305@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20261001T090000
 DTEND;TZID=America/New_York:20261001T103000
 SUMMARY:Greenway Litter Pickup
@@ -6641,7 +6607,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280307@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20261105T090000
 DTEND;TZID=America/New_York:20261105T103000
 SUMMARY:Greenway Litter Pickup
@@ -7044,7 +7010,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280318@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T135024Z
+DTSTAMP:20260316T185127Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T103000
 SUMMARY:Greenway Litter Pickup

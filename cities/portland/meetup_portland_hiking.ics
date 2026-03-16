@@ -27,7 +27,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:event_313786380@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260315T140038
 DTEND;TZID=America/Los_Angeles:20260322T200038
 SUMMARY:Columbia Employee Store Passes for PHMG: Until March 22nd
@@ -40,24 +40,9 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/1/5/f/600_528372639.jpeg
 END:VEVENT
 BEGIN:VEVENT
-UID:event_312735326@meetup.com
-SEQUENCE:1
-DTSTAMP:20260316T141216Z
-DTSTART;TZID=America/Los_Angeles:20260316T070000
-DTEND;TZID=America/Los_Angeles:20260316T083000
-SUMMARY:Washington Park/Thru Hoyt 
-DESCRIPTION:The Portland Hiking Meetup Group\nOur group meets near the base of steps leading up into the park\, by the parking lot on the uphill side of the tennis courts. Expect a fairly fast pace on trails with plenty of elevation gain.
-URL;VALUE=URI:https://www.meetup.com/the-portland-hiking-meetup-group/events/312735326/
-STATUS:CONFIRMED
-CREATED:20260105T175302Z
-LAST-MODIFIED:20260105T175302Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313526556@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260316T160000
 DTEND;TZID=America/Los_Angeles:20260316T180000
 SUMMARY:Eastside Social Event-Sad Valley
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313783039@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260317T090000
 DTEND;TZID=America/Los_Angeles:20260317T130000
 SUMMARY:Forest Park / NW Springville Road 
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313764357@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260318T100000
 DTEND;TZID=America/Los_Angeles:20260318T120000
 SUMMARY:Tryon Creek Trail Hike—10:00 AM\nSee parking information below.
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313495323@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260318T170000
 DTEND;TZID=America/Los_Angeles:20260318T200000
 SUMMARY:Backpacking Talk-Gear\, Destinations & Permits-Beginner to Advanced
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313786528@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260319T070000
 DTEND;TZID=America/Los_Angeles:20260319T083000
 SUMMARY:Aspen to Birch Morning Forest Hike
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313783185@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260319T090000
 DTEND;TZID=America/Los_Angeles:20260319T130000
 SUMMARY:Forest Park / Germantown to Newbury & back
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313044868@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260323T070000
 DTEND;TZID=America/Los_Angeles:20260323T083000
 SUMMARY:Washington Park/Thru Hoyt 
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313044914@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T141216Z
+DTSTAMP:20260316T185725Z
 DTSTART;TZID=America/Los_Angeles:20260330T070000
 DTEND;TZID=America/Los_Angeles:20260330T083000
 SUMMARY:Washington Park/Thru Hoyt 
@@ -171,6 +156,21 @@ URL;VALUE=URI:https://www.meetup.com/the-portland-hiking-meetup-group/events/313
 STATUS:CONFIRMED
 CREATED:20260125T044409Z
 LAST-MODIFIED:20260125T044409Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313141507@meetup.com
+SEQUENCE:1
+DTSTAMP:20260316T185725Z
+DTSTART;TZID=America/Los_Angeles:20260406T070000
+DTEND;TZID=America/Los_Angeles:20260406T083000
+SUMMARY:Washington Park/Thru Hoyt 
+DESCRIPTION:The Portland Hiking Meetup Group\nOur group meets near the base of steps leading up into the park\, by the parking lot on the uphill side of the tennis courts. Expect a fairly fast pace on trails with plenty of elevation gain.
+URL;VALUE=URI:https://www.meetup.com/the-portland-hiking-meetup-group/events/313141507/
+STATUS:CONFIRMED
+CREATED:20260131T104045Z
+LAST-MODIFIED:20260131T104045Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/7/a/0/600_506902432.jpeg
 END:VEVENT

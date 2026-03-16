@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-16T15:14:44.277001",
+  "generated": "2026-03-16T19:02:06.629483",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -10152,7 +10152,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 248
+              "count": 247
             }
           ]
         },
@@ -13024,7 +13024,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 48
+              "count": 47
             }
           ]
         },
@@ -13216,7 +13216,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 7
+              "count": 6
             }
           ]
         },
@@ -13536,7 +13536,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 36
+              "count": 37
             }
           ]
         },
@@ -13856,7 +13856,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 25
+              "count": 26
             }
           ]
         },
@@ -14816,7 +14816,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 27
+              "count": 30
             }
           ]
         },
@@ -15136,7 +15136,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 0
+              "count": 2
             }
           ]
         },
@@ -15516,7 +15516,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 70
+              "count": 75
             }
           ]
         },
@@ -15604,7 +15604,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 240
+              "count": 239
             }
           ]
         },
@@ -15612,7 +15612,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 33
+              "count": 34
             }
           ]
         },
@@ -15655,18 +15655,36 @@
               "count": 10
             }
           ]
+        },
+        "wfhb": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 130
+            }
+          ]
         }
       },
       "url_quality": {
-        "total_with_url": 2970,
-        "total_events": 3543,
-        "unique_urls": 2685,
-        "generic_count": 102,
+        "total_with_url": 3934,
+        "total_events": 5001,
+        "unique_urls": 2778,
+        "generic_count": 192,
         "generic_domains": [
           {
             "domain": "www.rbbschools.net",
             "events": 46,
             "url": "https://www.rbbschools.net/calendar1"
+          },
+          {
+            "domain": "bsquarebulletin.com",
+            "events": 38,
+            "url": "https://bsquarebulletin.com/b-there-or-b-square/"
+          },
+          {
+            "domain": "www.cdc.gov",
+            "events": 26,
+            "url": "https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html"
           },
           {
             "domain": "www.bigten.org",
@@ -15679,6 +15697,11 @@
             "url": "http://www.ncaa.com/"
           },
           {
+            "domain": "catstv.net",
+            "events": 14,
+            "url": "https://catstv.net/.\u201d"
+          },
+          {
             "domain": "www.iuhoosiers.com",
             "events": 10,
             "url": "http://www.iuhoosiers.com/"
@@ -15687,6 +15710,16 @@
             "domain": "guides.idsnews.com",
             "events": 9,
             "url": "https://guides.idsnews.com/happenings/event/america-the-beautiful-bloomington-watercolor-societys-membership-and-benefit-show"
+          },
+          {
+            "domain": "www.dimensionmill.org",
+            "events": 6,
+            "url": "https://www.dimensionmill.org/remote-worker-meetup-rsvp"
+          },
+          {
+            "domain": "www.bloomingtonvolunteernetwork.org",
+            "events": 6,
+            "url": "https://www.bloomingtonvolunteernetwork.org/need/detail/?need_id=355829Discardia"
           },
           {
             "domain": "www.fightingillini.com",
@@ -15704,6 +15737,18 @@
             "specificity_pct": 100
           },
           {
+            "source": "IU Bloomington Libraries",
+            "events": 335,
+            "unique_urls": 20,
+            "specificity_pct": 6
+          },
+          {
+            "source": "Bloomington Government",
+            "events": 320,
+            "unique_urls": 39,
+            "specificity_pct": 12
+          },
+          {
             "source": "Bloomington Library",
             "events": 247,
             "unique_urls": 247,
@@ -15711,21 +15756,15 @@
           },
           {
             "source": "Btonline Music",
-            "events": 196,
-            "unique_urls": 186,
+            "events": 195,
+            "unique_urls": 185,
             "specificity_pct": 95
           },
           {
             "source": "Bloomington Arts",
-            "events": 194,
-            "unique_urls": 194,
+            "events": 186,
+            "unique_urls": 186,
             "specificity_pct": 100
-          },
-          {
-            "source": "CitySpark Bloomington",
-            "events": 166,
-            "unique_urls": 56,
-            "specificity_pct": 34
           },
           {
             "source": "IU Jacobs School of Music",
@@ -15734,10 +15773,22 @@
             "specificity_pct": 100
           },
           {
+            "source": "CitySpark Bloomington",
+            "events": 149,
+            "unique_urls": 51,
+            "specificity_pct": 34
+          },
+          {
             "source": "IU Moving Image Archive",
             "events": 123,
             "unique_urls": 123,
             "specificity_pct": 100
+          },
+          {
+            "source": "IU Arts & Humanities Institute, IU Bloomington Libraries",
+            "events": 113,
+            "unique_urls": 1,
+            "specificity_pct": 1
           },
           {
             "source": "IU Athletics",
@@ -15747,121 +15798,103 @@
           },
           {
             "source": "Visit Bloomington",
-            "events": 91,
-            "unique_urls": 91,
+            "events": 87,
+            "unique_urls": 87,
             "specificity_pct": 100
           },
           {
-            "source": "Bloomington Government",
-            "events": 82,
-            "unique_urls": 25,
-            "specificity_pct": 30
+            "source": "WFHB Community Calendar",
+            "events": 76,
+            "unique_urls": 74,
+            "specificity_pct": 97
+          },
+          {
+            "source": "IU Hamilton Lugar School",
+            "events": 68,
+            "unique_urls": 40,
+            "specificity_pct": 59
           },
           {
             "source": "Sycamore Land Trust",
             "events": 61,
             "unique_urls": 61,
             "specificity_pct": 100
-          },
-          {
-            "source": "IU Maurer School of Law",
-            "events": 43,
-            "unique_urls": 41,
-            "specificity_pct": 95
-          },
-          {
-            "source": "IU Hamilton Lugar School",
-            "events": 39,
-            "unique_urls": 37,
-            "specificity_pct": 95
-          },
-          {
-            "source": "First United Church",
-            "events": 30,
-            "unique_urls": 30,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Brown County Playhouse",
-            "events": 27,
-            "unique_urls": 27,
-            "specificity_pct": 100
           }
         ]
       },
       "categories": [
         {
-          "category": "Music / Concerts",
-          "count": 534
+          "category": "Community / Social",
+          "count": 611
         },
         {
-          "category": "Community / Social",
-          "count": 484
+          "category": "Music / Concerts",
+          "count": 561
         },
         {
           "category": "Education / Workshops",
-          "count": 455
+          "count": 551
         },
         {
           "category": "Arts / Culture",
-          "count": 255
-        },
-        {
-          "category": "Family / Kids",
-          "count": 223
-        },
-        {
-          "category": "Sports / Fitness",
-          "count": 218
-        },
-        {
-          "category": "Books / Literature / Poetry",
-          "count": 209
-        },
-        {
-          "category": "Comedy / Improv",
-          "count": 195
-        },
-        {
-          "category": "Film / Cinema",
-          "count": 190
+          "count": 502
         },
         {
           "category": "Government / Civic",
-          "count": 160
+          "count": 379
         },
         {
-          "category": "Religion / Spirituality",
-          "count": 137
+          "category": "Sports / Fitness",
+          "count": 320
         },
         {
-          "category": "Nature / Outdoors / Recreation",
-          "count": 114
-        },
-        {
-          "category": "Dance / Performance",
-          "count": 102
-        },
-        {
-          "category": "Health / Wellness",
-          "count": 94
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 80
+          "category": "Books / Literature / Poetry",
+          "count": 296
         },
         {
           "category": "Food / Drink",
-          "count": 65
+          "count": 247
+        },
+        {
+          "category": "Family / Kids",
+          "count": 228
+        },
+        {
+          "category": "Nature / Outdoors / Recreation",
+          "count": 212
+        },
+        {
+          "category": "Comedy / Improv",
+          "count": 199
+        },
+        {
+          "category": "Film / Cinema",
+          "count": 198
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 161
+        },
+        {
+          "category": "Religion / Spirituality",
+          "count": 146
         },
         {
           "category": "History / Heritage",
-          "count": 28
+          "count": 141
+        },
+        {
+          "category": "Dance / Performance",
+          "count": 127
+        },
+        {
+          "category": "Health / Wellness",
+          "count": 122
         }
       ],
       "images": {
-        "total": 3543,
-        "with_image": 1669,
+        "total": 5001,
+        "with_image": 2212,
         "by_source": [
           {
             "source": "IU beINvolved Student Orgs",
@@ -15869,29 +15902,49 @@
             "with_image": 794
           },
           {
+            "source": "IU Bloomington Libraries",
+            "total": 335,
+            "with_image": 326
+          },
+          {
             "source": "Bloomington Arts",
-            "total": 194,
-            "with_image": 194
+            "total": 186,
+            "with_image": 186
           },
           {
             "source": "CitySpark Bloomington",
-            "total": 166,
-            "with_image": 142
+            "total": 149,
+            "with_image": 138
+          },
+          {
+            "source": "IU Arts & Humanities Institute, IU Bloomington Libraries",
+            "total": 113,
+            "with_image": 113
           },
           {
             "source": "Visit Bloomington",
-            "total": 91,
-            "with_image": 59
-          },
-          {
-            "source": "Brown County Playhouse",
-            "total": 27,
-            "with_image": 27
+            "total": 87,
+            "with_image": 56
           },
           {
             "source": "IU Hamilton Lugar School",
-            "total": 39,
-            "with_image": 26
+            "total": 68,
+            "with_image": 55
+          },
+          {
+            "source": "IU La Casa Latino Cultural Center",
+            "total": 54,
+            "with_image": 52
+          },
+          {
+            "source": "Eskenazi Museum of Art, IU Arts & Humanities Institute",
+            "total": 35,
+            "with_image": 35
+          },
+          {
+            "source": "IU Kelley School of Business",
+            "total": 33,
+            "with_image": 29
           },
           {
             "source": "IU Athletics",
@@ -15899,19 +15952,14 @@
             "with_image": 26
           },
           {
+            "source": "Brown County Playhouse",
+            "total": 25,
+            "with_image": 25
+          },
+          {
             "source": "Monroe County Master Gardeners",
             "total": 21,
             "with_image": 21
-          },
-          {
-            "source": "Eskenazi Museum of Art, IU Arts & Humanities Institute",
-            "total": 19,
-            "with_image": 19
-          },
-          {
-            "source": "IU La Casa Latino Cultural Center",
-            "total": 21,
-            "with_image": 19
           },
           {
             "source": "IU Asian Culture Center, IU beINvolved Student Orgs",
@@ -15925,7 +15973,7 @@
           },
           {
             "source": "Btonline Music",
-            "total": 205,
+            "total": 204,
             "with_image": 15
           },
           {
@@ -15949,11 +15997,6 @@
             "with_image": 12
           },
           {
-            "source": "IU Bloomington Libraries",
-            "total": 19,
-            "with_image": 10
-          },
-          {
             "source": "Meetup Bloomington Atheists And Rationally Awesome People",
             "total": 10,
             "with_image": 10
@@ -15974,17 +16017,22 @@
             "with_image": 9
           },
           {
+            "source": "IU Black Film Center & Archive",
+            "total": 9,
+            "with_image": 9
+          },
+          {
             "source": "IU Theatre & Dance",
             "total": 9,
             "with_image": 9
           },
           {
-            "source": "Bloomington Arts, Buskirk-Chumley Theater, CitySpark Bloomington, Visit Bloomington",
-            "total": 10,
+            "source": "IU La Casa Latino Cultural Center, IU beINvolved Student Orgs",
+            "total": 8,
             "with_image": 8
           },
           {
-            "source": "IU La Casa Latino Cultural Center, IU beINvolved Student Orgs",
+            "source": "Bloomington Arts, WFHB Community Calendar",
             "total": 8,
             "with_image": 8
           },
@@ -15999,8 +16047,13 @@
             "with_image": 6
           },
           {
-            "source": "CitySpark Bloomington, The Comedy Attic, Visit Bloomington",
+            "source": "The Comedy Attic, Visit Bloomington, CitySpark Bloomington",
             "total": 6,
+            "with_image": 6
+          },
+          {
+            "source": "Bloomington Arts, Buskirk-Chumley Theater, Visit Bloomington, CitySpark Bloomington, WFHB Community Calendar",
+            "total": 8,
             "with_image": 6
           },
           {
@@ -16014,43 +16067,43 @@
             "with_image": 6
           },
           {
-            "source": "IU Black Film Center & Archive",
+            "source": "Eskenazi Museum of Art, IU First Nations Center, IU La Casa Latino Cultural Center",
             "total": 6,
             "with_image": 6
           },
           {
+            "source": "The Comedy Attic, CitySpark Bloomington",
+            "total": 5,
+            "with_image": 5
+          },
+          {
+            "source": "Morgenstern Books, CitySpark Bloomington",
+            "total": 5,
+            "with_image": 5
+          },
+          {
             "source": "The Bluebird",
-            "total": 5,
-            "with_image": 5
+            "total": 4,
+            "with_image": 4
           },
           {
-            "source": "The Bluebird, Visit Bloomington",
-            "total": 5,
-            "with_image": 5
+            "source": "Bloomington Spinners & Weavers Guild",
+            "total": 30,
+            "with_image": 4
           },
           {
-            "source": "CitySpark Bloomington, The Comedy Attic",
-            "total": 5,
-            "with_image": 5
+            "source": "IU Jacobs School of Music",
+            "total": 162,
+            "with_image": 4
           },
           {
-            "source": "IU Kelley School of Business",
-            "total": 9,
-            "with_image": 5
+            "source": "Eskenazi Museum of Art, IU First Nations Center",
+            "total": 4,
+            "with_image": 4
           },
           {
-            "source": "CitySpark Bloomington, Morgenstern Books",
-            "total": 5,
-            "with_image": 5
-          },
-          {
-            "source": "Buskirk-Chumley Theater, CitySpark Bloomington, Visit Bloomington",
-            "total": 5,
-            "with_image": 5
-          },
-          {
-            "source": "CitySpark Bloomington, Visit Bloomington",
-            "total": 5,
+            "source": "IU Asian Culture Center, IU Hamilton Lugar School, IU Kelley School of Business",
+            "total": 6,
             "with_image": 4
           },
           {
@@ -16059,18 +16112,28 @@
             "with_image": 4
           },
           {
-            "source": "CitySpark Bloomington, IU Auditorium, Visit Bloomington",
+            "source": "IU Auditorium, Visit Bloomington, CitySpark Bloomington",
             "total": 4,
             "with_image": 4
           },
           {
-            "source": "Bloomington Spinners & Weavers Guild",
-            "total": 27,
-            "with_image": 3
+            "source": "The Bluebird, Visit Bloomington",
+            "total": 4,
+            "with_image": 4
           },
           {
-            "source": "IU Jacobs School of Music",
-            "total": 162,
+            "source": "Buskirk-Chumley Theater, Visit Bloomington, CitySpark Bloomington, WFHB Community Calendar",
+            "total": 4,
+            "with_image": 4
+          },
+          {
+            "source": "Eskenazi Museum of Art, IU Arts & Humanities Institute, IU La Casa Latino Cultural Center",
+            "total": 4,
+            "with_image": 4
+          },
+          {
+            "source": "Visit Bloomington, WFHB Community Calendar",
+            "total": 4,
             "with_image": 3
           },
           {
@@ -16079,7 +16142,7 @@
             "with_image": 3
           },
           {
-            "source": "Bloomington Chamber of Commerce, Visit Bloomington",
+            "source": "Bloomington Chamber of Commerce, Visit Bloomington, WFHB Community Calendar",
             "total": 3,
             "with_image": 3
           },
@@ -16094,7 +16157,7 @@
             "with_image": 3
           },
           {
-            "source": "IU Asian Culture Center, IU Hamilton Lugar School, IU Kelley School of Business",
+            "source": "Visit Bloomington, CitySpark Bloomington",
             "total": 4,
             "with_image": 3
           },
@@ -16114,7 +16177,7 @@
             "with_image": 3
           },
           {
-            "source": "Eskenazi Museum of Art, IU First Nations Center",
+            "source": "Brown County Playhouse, WFHB Community Calendar",
             "total": 2,
             "with_image": 2
           },
@@ -16124,23 +16187,8 @@
             "with_image": 2
           },
           {
-            "source": "CitySpark Bloomington, The Bluebird, Visit Bloomington",
-            "total": 2,
-            "with_image": 2
-          },
-          {
-            "source": "Eskenazi Museum of Art, IU First Nations Center, IU La Casa Latino Cultural Center",
-            "total": 2,
-            "with_image": 2
-          },
-          {
             "source": "IU Arts & Humanities Institute",
             "total": 3,
-            "with_image": 2
-          },
-          {
-            "source": "Bloomington Arts, Visit Bloomington",
-            "total": 2,
             "with_image": 2
           },
           {
@@ -16159,17 +16207,42 @@
             "with_image": 2
           },
           {
-            "source": "Buskirk-Chumley Theater, Visit Bloomington",
+            "source": "Bloomington Arts, Buskirk-Chumley Theater, Visit Bloomington, CitySpark Bloomington",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "Eskenazi Museum of Art, IU La Casa Latino Cultural Center",
             "total": 2,
             "with_image": 2
           },
           {
             "source": "IU Maurer School of Law",
-            "total": 43,
+            "total": 56,
             "with_image": 1
           },
           {
-            "source": "IU Arts & Humanities Institute, IU Bloomington Libraries",
+            "source": "The Bluebird, Visit Bloomington, CitySpark Bloomington, WFHB Community Calendar",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Visit Bloomington, CitySpark Bloomington, WFHB Community Calendar",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "The Bluebird, Visit Bloomington, WFHB Community Calendar",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "CitySpark Bloomington, WFHB Community Calendar",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "The Bluebird, WFHB Community Calendar",
             "total": 1,
             "with_image": 1
           },
@@ -16180,6 +16253,11 @@
           },
           {
             "source": "IU Arts & Humanities Institute, IU Asian Culture Center",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Bloomington Arts, Btonline Music, Visit Bloomington, WFHB Community Calendar",
             "total": 1,
             "with_image": 1
           },
@@ -16229,12 +16307,17 @@
             "with_image": 1
           },
           {
+            "source": "The Bluebird, Visit Bloomington, CitySpark Bloomington",
+            "total": 1,
+            "with_image": 1
+          },
+          {
             "source": "The Afrobellas At IU",
             "total": 1,
             "with_image": 1
           },
           {
-            "source": "Bloomington Arts, CitySpark Bloomington, Visit Bloomington",
+            "source": "Bloomington Arts, Visit Bloomington, CitySpark Bloomington",
             "total": 1,
             "with_image": 1
           },
@@ -16259,7 +16342,7 @@
             "with_image": 1
           },
           {
-            "source": "Btonline Events, CitySpark Bloomington, Visit Bloomington",
+            "source": "Btonline Events, Visit Bloomington, CitySpark Bloomington, WFHB Community Calendar",
             "total": 1,
             "with_image": 1
           },
@@ -16269,17 +16352,17 @@
             "with_image": 1
           },
           {
-            "source": "Farmers Market, Parks And Rec, Visit Bloomington",
+            "source": "Bloomington Community Farmers' Market, Parks And Rec, Visit Bloomington",
             "total": 1,
             "with_image": 1
           },
           {
-            "source": "Lotus Festival, Visit Bloomington",
+            "source": "Lotus Festival, Visit Bloomington, WFHB Community Calendar",
             "total": 1,
             "with_image": 1
           },
           {
-            "source": "CitySpark Bloomington, Reviving Hope for the Nations",
+            "source": "Reviving Hope for the Nations, CitySpark Bloomington",
             "total": 1,
             "with_image": 1
           },
@@ -16289,17 +16372,7 @@
             "with_image": 1
           },
           {
-            "source": "Eskenazi Museum of Art, IU Arts & Humanities Institute, IU La Casa Latino Cultural Center",
-            "total": 1,
-            "with_image": 1
-          },
-          {
             "source": "IU Cinema, IU Kelley School of Business",
-            "total": 1,
-            "with_image": 1
-          },
-          {
-            "source": "Eskenazi Museum of Art, IU La Casa Latino Cultural Center",
             "total": 1,
             "with_image": 1
           },
@@ -16314,12 +16387,22 @@
             "with_image": 1
           },
           {
+            "source": "Buskirk-Chumley Theater, Visit Bloomington, WFHB Community Calendar",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Bloomington Arts, Visit Bloomington",
+            "total": 1,
+            "with_image": 1
+          },
+          {
             "source": "Eskenazi Museum of Art, IU Cinema",
             "total": 1,
             "with_image": 1
           },
           {
-            "source": "Bloomington Arts, Btonline Events, Buskirk-Chumley Theater, CitySpark Bloomington, Visit Bloomington",
+            "source": "Bloomington Arts, Btonline Events, Buskirk-Chumley Theater, Visit Bloomington, CitySpark Bloomington, WFHB Community Calendar",
             "total": 1,
             "with_image": 1
           },
@@ -16344,12 +16427,22 @@
             "with_image": 1
           },
           {
+            "source": "Buskirk-Chumley Theater, Visit Bloomington",
+            "total": 1,
+            "with_image": 1
+          },
+          {
             "source": "Parks And Rec, Visit Bloomington",
             "total": 1,
             "with_image": 1
           },
           {
             "source": "Eskenazi Museum of Art, IU Arts & Humanities Institute, IU Jacobs School of Music",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Buskirk-Chumley Theater, Visit Bloomington, CitySpark Bloomington",
             "total": 1,
             "with_image": 1
           },
@@ -31260,7 +31353,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 14
+              "count": 15
             }
           ]
         },
@@ -34426,30 +34519,31 @@
         }
       },
       "url_quality": {
-        "total_with_url": 833,
-        "total_events": 833,
+        "total_with_url": 1119,
+        "total_events": 1119,
         "unique_urls": 799,
-        "generic_count": 27,
+        "generic_count": 49,
         "generic_domains": [
           {
             "domain": "brooksnotewinery.com",
-            "events": 12,
+            "events": 25,
             "url": "https://brooksnotewinery.com/event-calendar/"
           },
           {
             "domain": "petalumagardenclub.org",
-            "events": 9,
+            "events": 24,
             "url": "https://petalumagardenclub.org/calendar/"
-          },
-          {
-            "domain": "elks901.org",
-            "events": 6,
-            "url": "https://elks901.org/calendar-of-events/"
           }
         ],
         "http_count": 0,
         "http_domains": 0,
         "source_specificity": [
+          {
+            "source": "Petaluma Elks Lodge",
+            "events": 265,
+            "unique_urls": 2,
+            "specificity_pct": 1
+          },
           {
             "source": "Griffo Distillery",
             "events": 258,
@@ -34482,8 +34576,8 @@
           },
           {
             "source": "Petaluma Downtown Association",
-            "events": 35,
-            "unique_urls": 35,
+            "events": 34,
+            "unique_urls": 34,
             "specificity_pct": 100
           },
           {
@@ -34491,6 +34585,18 @@
             "events": 29,
             "unique_urls": 29,
             "specificity_pct": 100
+          },
+          {
+            "source": "Petaluma Garden Club",
+            "events": 25,
+            "unique_urls": 2,
+            "specificity_pct": 8
+          },
+          {
+            "source": "Brooks Note Winery",
+            "events": 25,
+            "unique_urls": 1,
+            "specificity_pct": 4
           },
           {
             "source": "Petaluma Chamber of Commerce",
@@ -34511,31 +34617,13 @@
             "specificity_pct": 100
           },
           {
-            "source": "Brooks Note Winery",
-            "events": 12,
-            "unique_urls": 1,
-            "specificity_pct": 8
-          },
-          {
             "source": "Casa Grande High School",
             "events": 11,
             "unique_urls": 11,
             "specificity_pct": 100
           },
           {
-            "source": "Petaluma Garden Club",
-            "events": 10,
-            "unique_urls": 2,
-            "specificity_pct": 20
-          },
-          {
             "source": "Meetup Sonoma Outdoors",
-            "events": 10,
-            "unique_urls": 10,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup: Mindful Petaluma",
             "events": 10,
             "unique_urls": 10,
             "specificity_pct": 100
@@ -34544,16 +34632,20 @@
       },
       "categories": [
         {
+          "category": "(uncategorized)",
+          "count": 292
+        },
+        {
           "category": "Food / Drink",
-          "count": 231
+          "count": 228
         },
         {
           "category": "Music / Concerts",
-          "count": 150
+          "count": 149
         },
         {
           "category": "Community / Social",
-          "count": 109
+          "count": 108
         },
         {
           "category": "Sports / Fitness",
@@ -34577,7 +34669,7 @@
         },
         {
           "category": "Dance / Performance",
-          "count": 23
+          "count": 22
         },
         {
           "category": "Nature / Outdoors / Recreation",
@@ -34609,8 +34701,8 @@
         }
       ],
       "images": {
-        "total": 833,
-        "with_image": 603,
+        "total": 1119,
+        "with_image": 601,
         "by_source": [
           {
             "source": "Griffo Distillery",
@@ -34634,13 +34726,13 @@
           },
           {
             "source": "Petaluma Downtown Association",
-            "total": 35,
-            "with_image": 35
+            "total": 34,
+            "with_image": 34
           },
           {
             "source": "The Big Easy",
             "total": 29,
-            "with_image": 28
+            "with_image": 27
           },
           {
             "source": "Mystic Theatre",
@@ -43123,7 +43215,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 136
+              "count": 135
             }
           ]
         },
@@ -43439,7 +43531,7 @@
       "categories": [
         {
           "category": "Government / Civic",
-          "count": 213
+          "count": 212
         },
         {
           "category": "Community / Social",
@@ -43447,7 +43539,7 @@
         },
         {
           "category": "Education / Workshops",
-          "count": 31
+          "count": 30
         },
         {
           "category": "Music / Concerts",
@@ -43471,7 +43563,7 @@
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 8
+          "count": 7
         },
         {
           "category": "Health / Wellness",
@@ -43487,7 +43579,7 @@
         },
         {
           "category": "(uncategorized)",
-          "count": 2
+          "count": 3
         },
         {
           "category": "Comedy / Improv",
@@ -43499,8 +43591,8 @@
         }
       ],
       "images": {
-        "total": 411,
-        "with_image": 66,
+        "total": 409,
+        "with_image": 65,
         "by_source": [
           {
             "source": "Taubman Museum of Art",
@@ -43518,14 +43610,14 @@
             "with_image": 10
           },
           {
-            "source": "Meetup Sw Va Toastmasters",
+            "source": "Meetup Pathfinders Greenways",
             "total": 9,
             "with_image": 9
           },
           {
-            "source": "Meetup Pathfinders Greenways",
-            "total": 9,
-            "with_image": 9
+            "source": "Meetup Sw Va Toastmasters",
+            "total": 8,
+            "with_image": 8
           },
           {
             "source": "Meetup Roanoke Valley Net",
@@ -43545,9 +43637,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 404,
-        "total_events": 411,
-        "unique_urls": 404,
+        "total_with_url": 402,
+        "total_events": 409,
+        "unique_urls": 402,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -43555,8 +43647,8 @@
         "source_specificity": [
           {
             "source": "Roanoke Boards Commissions",
-            "events": 136,
-            "unique_urls": 136,
+            "events": 135,
+            "unique_urls": 135,
             "specificity_pct": 100
           },
           {
@@ -43608,15 +43700,15 @@
             "specificity_pct": 100
           },
           {
-            "source": "Meetup Sw Va Toastmasters",
+            "source": "Meetup Pathfinders Greenways",
             "events": 9,
             "unique_urls": 9,
             "specificity_pct": 100
           },
           {
-            "source": "Meetup Pathfinders Greenways",
-            "events": 9,
-            "unique_urls": 9,
+            "source": "Meetup Sw Va Toastmasters",
+            "events": 8,
+            "unique_urls": 8,
             "specificity_pct": 100
           },
           {
@@ -43756,7 +43848,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 558
+              "count": 560
             }
           ]
         },
@@ -43987,8 +44079,12 @@
       },
       "categories": [
         {
+          "category": "(uncategorized)",
+          "count": 225
+        },
+        {
           "category": "Education / Workshops",
-          "count": 152
+          "count": 149
         },
         {
           "category": "Sports / Fitness",
@@ -43999,16 +44095,12 @@
           "count": 99
         },
         {
-          "category": "Government / Civic",
-          "count": 86
-        },
-        {
           "category": "Community / Social",
           "count": 85
         },
         {
-          "category": "(uncategorized)",
-          "count": 40
+          "category": "Government / Civic",
+          "count": 83
         },
         {
           "category": "Music / Concerts",
@@ -44023,16 +44115,16 @@
           "count": 13
         },
         {
-          "category": "Arts / Culture",
-          "count": 11
-        },
-        {
           "category": "Health / Wellness",
           "count": 10
         },
         {
           "category": "Books / Literature / Poetry",
           "count": 10
+        },
+        {
+          "category": "Arts / Culture",
+          "count": 8
         },
         {
           "category": "History / Heritage",
@@ -44048,7 +44140,7 @@
         }
       ],
       "images": {
-        "total": 674,
+        "total": 850,
         "with_image": 20,
         "by_source": [
           {
@@ -44059,14 +44151,14 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 674,
-        "total_events": 674,
+        "total_with_url": 850,
+        "total_events": 850,
         "unique_urls": 190,
-        "generic_count": 485,
+        "generic_count": 661,
         "generic_domains": [
           {
             "domain": "www.matsuk12.us",
-            "events": 485,
+            "events": 661,
             "url": "https://www.matsuk12.us/about-us/calendars"
           }
         ],
@@ -44075,9 +44167,9 @@
         "source_specificity": [
           {
             "source": "Mat-Su School District",
-            "events": 487,
+            "events": 663,
             "unique_urls": 3,
-            "specificity_pct": 1
+            "specificity_pct": 0
           },
           {
             "source": "Wasilla Public Library",
@@ -44920,15 +45012,19 @@
             },
             {
               "date": "2026-03-16",
-              "count": 329
+              "count": 328
             }
           ]
         }
       },
       "categories": [
         {
+          "category": "(uncategorized)",
+          "count": 491
+        },
+        {
           "category": "Religion / Spirituality",
-          "count": 186
+          "count": 185
         },
         {
           "category": "Education / Workshops",
@@ -44956,10 +45052,6 @@
         },
         {
           "category": "Arts / Culture",
-          "count": 6
-        },
-        {
-          "category": "(uncategorized)",
           "count": 6
         },
         {
@@ -44992,13 +45084,13 @@
         }
       ],
       "images": {
-        "total": 481,
-        "with_image": 85,
+        "total": 965,
+        "with_image": 86,
         "by_source": [
           {
             "source": "Jcc East Bay",
-            "total": 26,
-            "with_image": 26
+            "total": 27,
+            "with_image": 27
           },
           {
             "source": "Jewish Fed",
@@ -45032,7 +45124,7 @@
           },
           {
             "source": "Temple Beth Abraham",
-            "total": 327,
+            "total": 326,
             "with_image": 3
           },
           {
@@ -45078,9 +45170,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 431,
-        "total_events": 481,
-        "unique_urls": 431,
+        "total_with_url": 612,
+        "total_events": 965,
+        "unique_urls": 432,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -45088,14 +45180,20 @@
         "source_specificity": [
           {
             "source": "Temple Beth Abraham",
-            "events": 327,
-            "unique_urls": 327,
+            "events": 326,
+            "unique_urls": 326,
             "specificity_pct": 100
           },
           {
+            "source": "Beth Sholom",
+            "events": 183,
+            "unique_urls": 3,
+            "specificity_pct": 2
+          },
+          {
             "source": "Jcc East Bay",
-            "events": 26,
-            "unique_urls": 26,
+            "events": 27,
+            "unique_urls": 27,
             "specificity_pct": 100
           },
           {
@@ -45165,12 +45263,6 @@
             "specificity_pct": 100
           },
           {
-            "source": "Beth Sholom",
-            "events": 2,
-            "unique_urls": 2,
-            "specificity_pct": 100
-          },
-          {
             "source": "Jccsf",
             "events": 2,
             "unique_urls": 2,
@@ -45233,7 +45325,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 150
+              "count": 169
             }
           ]
         },
@@ -45373,7 +45465,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 221
+              "count": 220
             }
           ]
         },
@@ -45429,7 +45521,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 397
+              "count": 396
             }
           ]
         },
@@ -45597,7 +45689,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 259
+              "count": 256
             }
           ]
         },
@@ -45625,7 +45717,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 267
+              "count": 270
             }
           ]
         },
@@ -45877,7 +45969,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 15
+              "count": 14
             }
           ]
         },
@@ -45989,7 +46081,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 129
+              "count": 130
             }
           ]
         },
@@ -46501,7 +46593,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 1157
+              "count": 1183
             }
           ]
         },
@@ -46597,7 +46689,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 398
+              "count": 403
             }
           ]
         },
@@ -46637,7 +46729,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 9
+              "count": 8
             }
           ]
         },
@@ -46693,7 +46785,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 95
+              "count": 97
             }
           ]
         },
@@ -46709,7 +46801,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 148
+              "count": 149
             }
           ]
         },
@@ -46733,7 +46825,7 @@
           "history": [
             {
               "date": "2026-03-16",
-              "count": 5
+              "count": 4
             }
           ]
         },
@@ -46757,35 +46849,39 @@
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 607
+          "count": 603
         },
         {
           "category": "Education / Workshops",
-          "count": 513
+          "count": 512
         },
         {
           "category": "Government / Civic",
-          "count": 491
+          "count": 492
         },
         {
           "category": "Arts / Culture",
-          "count": 363
+          "count": 366
         },
         {
           "category": "Community / Social",
-          "count": 343
-        },
-        {
-          "category": "Sports / Fitness",
-          "count": 301
+          "count": 333
         },
         {
           "category": "Music / Concerts",
           "count": 269
         },
         {
-          "category": "Food / Drink",
+          "category": "(uncategorized)",
           "count": 211
+        },
+        {
+          "category": "Food / Drink",
+          "count": 210
+        },
+        {
+          "category": "Sports / Fitness",
+          "count": 189
         },
         {
           "category": "Books / Literature / Poetry",
@@ -46801,11 +46897,11 @@
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 83
+          "count": 80
         },
         {
           "category": "Film / Cinema",
-          "count": 77
+          "count": 78
         },
         {
           "category": "History / Heritage",
@@ -46817,16 +46913,12 @@
         },
         {
           "category": "Comedy / Improv",
-          "count": 33
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 13
+          "count": 32
         }
       ],
       "images": {
-        "total": 3798,
-        "with_image": 1453,
+        "total": 3869,
+        "with_image": 1454,
         "by_source": [
           {
             "source": "CitySpark Evanston",
@@ -46835,21 +46927,21 @@
           },
           {
             "source": "Chicago Botanic Garden",
-            "total": 125,
-            "with_image": 125
+            "total": 126,
+            "with_image": 126
           },
           {
             "source": "Winnetka Northfield Library",
-            "total": 238,
-            "with_image": 113
+            "total": 235,
+            "with_image": 110
           },
           {
             "source": "Morton Grove Library",
-            "total": 198,
-            "with_image": 67
+            "total": 197,
+            "with_image": 66
           },
           {
-            "source": "CitySpark Evanston, Ticketmaster/Evanston Venues",
+            "source": "Ticketmaster/Evanston Venues, CitySpark Evanston",
             "total": 54,
             "with_image": 54
           },
@@ -46904,12 +46996,7 @@
             "with_image": 10
           },
           {
-            "source": "First Presbyterian",
-            "total": 8,
-            "with_image": 8
-          },
-          {
-            "source": "CitySpark Evanston, Enjoy Evanston",
+            "source": "Enjoy Evanston, CitySpark Evanston",
             "total": 8,
             "with_image": 8
           },
@@ -46919,7 +47006,12 @@
             "with_image": 7
           },
           {
-            "source": "CitySpark Evanston, Gichigamiin Museum",
+            "source": "First Presbyterian",
+            "total": 7,
+            "with_image": 7
+          },
+          {
+            "source": "Gichigamiin Museum, CitySpark Evanston",
             "total": 7,
             "with_image": 7
           },
@@ -46929,12 +47021,12 @@
             "with_image": 7
           },
           {
-            "source": "Ticketmaster/Evanston Venues",
-            "total": 6,
-            "with_image": 6
+            "source": "Block Museum of Art",
+            "total": 7,
+            "with_image": 7
           },
           {
-            "source": "Block Museum of Art",
+            "source": "Ticketmaster/Evanston Venues",
             "total": 6,
             "with_image": 6
           },
@@ -46954,7 +47046,12 @@
             "with_image": 5
           },
           {
-            "source": "CitySpark Evanston, Evanston Made",
+            "source": "Lincolnwood Library",
+            "total": 159,
+            "with_image": 3
+          },
+          {
+            "source": "Evanston Made, CitySpark Evanston",
             "total": 3,
             "with_image": 3
           },
@@ -47004,7 +47101,7 @@
             "with_image": 2
           },
           {
-            "source": "CitySpark Evanston, Ticketmaster/Evanston Venues, Visit Chicago North Shore",
+            "source": "Ticketmaster/Evanston Venues, CitySpark Evanston, Visit Chicago North Shore",
             "total": 2,
             "with_image": 2
           },
@@ -47014,8 +47111,13 @@
             "with_image": 2
           },
           {
-            "source": "Lincolnwood Library",
-            "total": 140,
+            "source": "Block Museum of Art, Northwestern University",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "Ticketmaster/Evanston",
+            "total": 1,
             "with_image": 1
           },
           {
@@ -47024,7 +47126,7 @@
             "with_image": 1
           },
           {
-            "source": "Bookends & Beginnings, CitySpark Evanston, Enjoy Evanston",
+            "source": "Bookends & Beginnings, Enjoy Evanston, CitySpark Evanston",
             "total": 1,
             "with_image": 1
           },
@@ -47044,7 +47146,7 @@
             "with_image": 1
           },
           {
-            "source": "CitySpark Evanston, Enjoy Evanston, YWCA Evanston/North Shore",
+            "source": "Enjoy Evanston, YWCA Evanston/North Shore, CitySpark Evanston",
             "total": 1,
             "with_image": 1
           },
@@ -47059,7 +47161,7 @@
             "with_image": 1
           },
           {
-            "source": "CitySpark Evanston, First Presbyterian",
+            "source": "First Presbyterian, CitySpark Evanston",
             "total": 1,
             "with_image": 1
           },
@@ -47084,26 +47186,21 @@
             "with_image": 1
           },
           {
-            "source": "Block Museum of Art, Northwestern University",
-            "total": 1,
-            "with_image": 1
-          },
-          {
             "source": "The Backyard Barbecue Store",
             "total": 1,
             "with_image": 1
           },
           {
-            "source": "CitySpark Evanston, The Main-Dempster Mile, Visit Chicago North Shore",
+            "source": "The Main-Dempster Mile, CitySpark Evanston, Visit Chicago North Shore",
             "total": 1,
             "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 3720,
-        "total_events": 3798,
-        "unique_urls": 3076,
+        "total_with_url": 3696,
+        "total_events": 3869,
+        "unique_urls": 3073,
         "generic_count": 301,
         "generic_domains": [
           {
@@ -47153,7 +47250,7 @@
           }
         ],
         "http_count": 9,
-        "http_domains": 5,
+        "http_domains": 6,
         "source_specificity": [
           {
             "source": "CitySpark Evanston",
@@ -47175,8 +47272,8 @@
           },
           {
             "source": "Winnetka Northfield Library",
-            "events": 238,
-            "unique_urls": 238,
+            "events": 235,
+            "unique_urls": 235,
             "specificity_pct": 100
           },
           {
@@ -47187,54 +47284,48 @@
           },
           {
             "source": "Morton Grove Library",
-            "events": 198,
-            "unique_urls": 198,
+            "events": 197,
+            "unique_urls": 197,
             "specificity_pct": 100
           },
           {
             "source": "Northwestern University",
-            "events": 183,
-            "unique_urls": 68,
-            "specificity_pct": 37
-          },
-          {
-            "source": "Evanston Bike Club",
-            "events": 164,
-            "unique_urls": 99,
-            "specificity_pct": 60
+            "events": 185,
+            "unique_urls": 70,
+            "specificity_pct": 38
           },
           {
             "source": "Lincolnwood Library",
-            "events": 140,
-            "unique_urls": 140,
+            "events": 159,
+            "unique_urls": 159,
             "specificity_pct": 100
           },
           {
             "source": "Chicago Botanic Garden",
-            "events": 125,
-            "unique_urls": 125,
+            "events": 126,
+            "unique_urls": 126,
             "specificity_pct": 100
           },
           {
-            "source": "CitySpark Evanston, Skokie Park District",
-            "events": 86,
-            "unique_urls": 86,
+            "source": "Evanston Bike Club",
+            "events": 119,
+            "unique_urls": 75,
+            "specificity_pct": 63
+          },
+          {
+            "source": "Skokie Park District, CitySpark Evanston",
+            "events": 112,
+            "unique_urls": 112,
             "specificity_pct": 100
           },
           {
             "source": "Northwestern University (Community)",
-            "events": 84,
-            "unique_urls": 57,
+            "events": 85,
+            "unique_urls": 58,
             "specificity_pct": 68
           },
           {
-            "source": "Skokie Park District",
-            "events": 58,
-            "unique_urls": 58,
-            "specificity_pct": 100
-          },
-          {
-            "source": "CitySpark Evanston, Ticketmaster/Evanston Venues",
+            "source": "Ticketmaster/Evanston Venues, CitySpark Evanston",
             "events": 54,
             "unique_urls": 54,
             "specificity_pct": 100
@@ -47243,6 +47334,12 @@
             "source": "Nw Baseball",
             "events": 35,
             "unique_urls": 35,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Skokie Park District",
+            "events": 33,
+            "unique_urls": 33,
             "specificity_pct": 100
           }
         ]
@@ -47342,7 +47439,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 262
+              "count": 301
             }
           ]
         },
@@ -47510,7 +47607,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 2
+              "count": 4
             }
           ]
         },
@@ -47942,7 +48039,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 20
+              "count": 23
             }
           ]
         },
@@ -47990,7 +48087,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 309
+              "count": 307
             }
           ]
         },
@@ -48062,7 +48159,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 89
+              "count": 88
             }
           ]
         },
@@ -48110,7 +48207,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 78
+              "count": 76
             }
           ]
         },
@@ -48158,7 +48255,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 228
+              "count": 225
             }
           ]
         },
@@ -48182,7 +48279,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 111
+              "count": 110
             }
           ]
         },
@@ -49414,19 +49511,19 @@
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 1115
+          "count": 1112
         },
         {
           "category": "Family / Kids",
-          "count": 1071
+          "count": 1069
         },
         {
           "category": "Community / Social",
-          "count": 450
+          "count": 448
         },
         {
           "category": "Sports / Fitness",
-          "count": 285
+          "count": 279
         },
         {
           "category": "Arts / Culture",
@@ -49434,35 +49531,39 @@
         },
         {
           "category": "Music / Concerts",
-          "count": 245
+          "count": 240
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 197
-        },
-        {
-          "category": "Books / Literature / Poetry",
-          "count": 142
+          "count": 195
         },
         {
           "category": "Health / Wellness",
           "count": 141
         },
         {
+          "category": "Books / Literature / Poetry",
+          "count": 140
+        },
+        {
           "category": "Government / Civic",
-          "count": 131
+          "count": 130
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 99
         },
         {
           "category": "Religion / Spirituality",
-          "count": 62
+          "count": 61
         },
         {
           "category": "Food / Drink",
-          "count": 42
+          "count": 41
         },
         {
           "category": "Film / Cinema",
-          "count": 37
+          "count": 36
         },
         {
           "category": "History / Heritage",
@@ -49473,17 +49574,13 @@
           "count": 29
         },
         {
-          "category": "(uncategorized)",
-          "count": 24
-        },
-        {
           "category": "Comedy / Improv",
           "count": 12
         }
       ],
       "images": {
-        "total": 4267,
-        "with_image": 2143,
+        "total": 4316,
+        "with_image": 2194,
         "by_source": [
           {
             "source": "Multnomah County Library",
@@ -49492,13 +49589,13 @@
           },
           {
             "source": "Lewis Clark",
-            "total": 246,
-            "with_image": 202
+            "total": 295,
+            "with_image": 252
           },
           {
             "source": "Japanese Garden",
-            "total": 108,
-            "with_image": 107
+            "total": 109,
+            "with_image": 108
           },
           {
             "source": "Portland Volunteer Events",
@@ -49512,8 +49609,8 @@
           },
           {
             "source": "Tockify Kptv Calendar",
-            "total": 45,
-            "with_image": 44
+            "total": 44,
+            "with_image": 43
           },
           {
             "source": "Tockify Theoldchurch",
@@ -49566,11 +49663,6 @@
             "with_image": 14
           },
           {
-            "source": "Meetup Portland Code Coffee",
-            "total": 10,
-            "with_image": 10
-          },
-          {
             "source": "Meetup Pdxgames",
             "total": 10,
             "with_image": 10
@@ -49607,6 +49699,11 @@
           },
           {
             "source": "Meetup Portland Fun Run",
+            "total": 10,
+            "with_image": 10
+          },
+          {
+            "source": "Meetup Portland Code Coffee",
             "total": 10,
             "with_image": 10
           },
@@ -49651,6 +49748,11 @@
             "with_image": 6
           },
           {
+            "source": "Meetup Nw Trail Runners",
+            "total": 4,
+            "with_image": 4
+          },
+          {
             "source": "Meetup Portland Trail Runners",
             "total": 4,
             "with_image": 4
@@ -49674,11 +49776,6 @@
             "source": "Oc Farmers Market",
             "total": 3,
             "with_image": 3
-          },
-          {
-            "source": "Meetup Nw Trail Runners",
-            "total": 2,
-            "with_image": 2
           },
           {
             "source": "Meetup Techacademy",
@@ -49734,18 +49831,13 @@
             "source": "Multnomah County Library, Portland Community Events",
             "total": 1,
             "with_image": 1
-          },
-          {
-            "source": "Japanese Garden, Tockify Kptv Calendar",
-            "total": 1,
-            "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 4188,
-        "total_events": 4267,
-        "unique_urls": 3919,
+        "total_with_url": 4237,
+        "total_events": 4316,
+        "unique_urls": 3922,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 36,
@@ -49765,26 +49857,26 @@
           },
           {
             "source": "Portland Community College",
-            "events": 306,
-            "unique_urls": 264,
+            "events": 304,
+            "unique_urls": 262,
             "specificity_pct": 86
           },
           {
             "source": "Lewis Clark",
-            "events": 246,
-            "unique_urls": 159,
-            "specificity_pct": 65
+            "events": 295,
+            "unique_urls": 161,
+            "specificity_pct": 55
           },
           {
             "source": "Reed College",
-            "events": 134,
-            "unique_urls": 73,
-            "specificity_pct": 54
+            "events": 132,
+            "unique_urls": 72,
+            "specificity_pct": 55
           },
           {
             "source": "Japanese Garden",
-            "events": 108,
-            "unique_urls": 108,
+            "events": 109,
+            "unique_urls": 109,
             "specificity_pct": 100
           },
           {
@@ -49801,8 +49893,8 @@
           },
           {
             "source": "Psu Athletics",
-            "events": 55,
-            "unique_urls": 55,
+            "events": 54,
+            "unique_urls": 54,
             "specificity_pct": 100
           },
           {
@@ -49813,8 +49905,8 @@
           },
           {
             "source": "Tockify Kptv Calendar",
-            "events": 45,
-            "unique_urls": 45,
+            "events": 44,
+            "unique_urls": 44,
             "specificity_pct": 100
           },
           {
@@ -50905,8 +50997,12 @@
           "count": 59
         },
         {
-          "category": "Community / Social",
+          "category": "(uncategorized)",
           "count": 12
+        },
+        {
+          "category": "Community / Social",
+          "count": 11
         },
         {
           "category": "Books / Literature / Poetry",
@@ -50926,7 +51022,7 @@
         }
       ],
       "images": {
-        "total": 83,
+        "total": 94,
         "with_image": 13,
         "by_source": [
           {
@@ -50962,8 +51058,8 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 82,
-        "total_events": 83,
+        "total_with_url": 87,
+        "total_events": 94,
         "unique_urls": 81,
         "generic_count": 0,
         "generic_domains": [],
@@ -50987,6 +51083,12 @@
             "events": 10,
             "unique_urls": 10,
             "specificity_pct": 100
+          },
+          {
+            "source": "Tiny News Members Only",
+            "events": 8,
+            "unique_urls": 3,
+            "specificity_pct": 38
           },
           {
             "source": "Editor & Publisher",
@@ -51022,12 +51124,6 @@
             "source": "NABJ",
             "events": 4,
             "unique_urls": 4,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Tiny News Members Only",
-            "events": 3,
-            "unique_urls": 3,
             "specificity_pct": 100
           },
           {
@@ -52261,137 +52357,477 @@
   "errors": [
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:28,381 - WARNING - Failed to fetch https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026",
+      "line": "2026-03-16 18:48:54,965 - WARNING - Failed to fetch https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:29,374 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026",
+      "line": "2026-03-16 18:48:55,746 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:30,204 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026",
+      "line": "2026-03-16 18:48:56,468 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:31,019 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026",
+      "line": "2026-03-16 18:48:57,234 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:31,851 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026",
+      "line": "2026-03-16 18:48:58,018 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:32,660 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026",
+      "line": "2026-03-16 18:48:58,759 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:33,482 - WARNING - Failed to fetch https://buskirkchumley.org/events/conclave-2024-april-2-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/conclave-2024-april-2-2026",
+      "line": "2026-03-16 18:48:59,477 - WARNING - Failed to fetch https://buskirkchumley.org/events/conclave-2024-april-2-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/conclave-2024-april-2-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:34,319 - WARNING - Failed to fetch https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026",
+      "line": "2026-03-16 18:49:00,246 - WARNING - Failed to fetch https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:35,134 - WARNING - Failed to fetch https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026",
+      "line": "2026-03-16 18:49:00,972 - WARNING - Failed to fetch https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:35,960 - WARNING - Failed to fetch https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026",
+      "line": "2026-03-16 18:49:01,683 - WARNING - Failed to fetch https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:36,948 - WARNING - Failed to fetch https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026",
+      "line": "2026-03-16 18:49:02,479 - WARNING - Failed to fetch https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:37,762 - WARNING - Failed to fetch https://buskirkchumley.org/events/asianfest-2026-april-11-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/asianfest-2026-april-11-2026",
+      "line": "2026-03-16 18:49:03,255 - WARNING - Failed to fetch https://buskirkchumley.org/events/asianfest-2026-april-11-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/asianfest-2026-april-11-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:38,588 - WARNING - Failed to fetch https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026",
+      "line": "2026-03-16 18:49:04,019 - WARNING - Failed to fetch https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:39,405 - WARNING - Failed to fetch https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026",
+      "line": "2026-03-16 18:49:04,724 - WARNING - Failed to fetch https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:40,214 - WARNING - Failed to fetch https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026",
+      "line": "2026-03-16 18:49:05,437 - WARNING - Failed to fetch https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:41,024 - WARNING - Failed to fetch https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026",
+      "line": "2026-03-16 18:49:06,208 - WARNING - Failed to fetch https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:41,836 - WARNING - Failed to fetch https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026",
+      "line": "2026-03-16 18:49:06,931 - WARNING - Failed to fetch https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:42,648 - WARNING - Failed to fetch https://buskirkchumley.org/events/beat-spring-show-april-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/beat-spring-show-april-27-2026",
+      "line": "2026-03-16 18:49:07,651 - WARNING - Failed to fetch https://buskirkchumley.org/events/beat-spring-show-april-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/beat-spring-show-april-27-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:43,470 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026",
+      "line": "2026-03-16 18:49:08,429 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:44,285 - WARNING - Failed to fetch https://buskirkchumley.org/events/saving-ava-april-29-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/saving-ava-april-29-2026",
+      "line": "2026-03-16 18:49:09,211 - WARNING - Failed to fetch https://buskirkchumley.org/events/saving-ava-april-29-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/saving-ava-april-29-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:45,108 - WARNING - Failed to fetch https://buskirkchumley.org/events/updating-april-30-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/updating-april-30-2026",
+      "line": "2026-03-16 18:49:09,962 - WARNING - Failed to fetch https://buskirkchumley.org/events/updating-april-30-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/updating-april-30-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:45,917 - WARNING - Failed to fetch https://buskirkchumley.org/events/sam-grisman-project-may-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/sam-grisman-project-may-3-2026",
+      "line": "2026-03-16 18:49:10,662 - WARNING - Failed to fetch https://buskirkchumley.org/events/sam-grisman-project-may-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/sam-grisman-project-may-3-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:46,726 - WARNING - Failed to fetch https://buskirkchumley.org/events/spaceballs-1987-may-4-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/spaceballs-1987-may-4-2026",
+      "line": "2026-03-16 18:49:11,419 - WARNING - Failed to fetch https://buskirkchumley.org/events/spaceballs-1987-may-4-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/spaceballs-1987-may-4-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:47,540 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026",
+      "line": "2026-03-16 18:49:12,123 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:48,351 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2",
+      "line": "2026-03-16 18:49:12,856 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:49,166 - WARNING - Failed to fetch https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026",
+      "line": "2026-03-16 18:49:13,565 - WARNING - Failed to fetch https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026",
       "source": null
     },
     {
       "date": "2026-03-16",
-      "line": "2026-03-16 15:10:49,978 - WARNING - Failed to fetch https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026",
+      "line": "2026-03-16 18:49:14,328 - WARNING - Failed to fetch https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:18,144 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:18,960 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:19,729 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:20,601 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:21,397 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/wings-map-and-compass/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/wings-map-and-compass/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:22,237 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:23,124 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/preserve-a-preserve-weed-wrangle-at-porter-west-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/preserve-a-preserve-weed-wrangle-at-porter-west-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:23,920 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:24,718 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:25,540 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:26,342 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:27,451 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:28,286 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:29,079 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:29,865 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:30,690 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:31,502 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:32,404 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:33,200 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/12/early-bird-hike-with-ben-fleet/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/12/early-bird-hike-with-ben-fleet/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:34,043 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/01/weed-wrangle-at-canyon-forest-nature-preserve-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/01/weed-wrangle-at-canyon-forest-nature-preserve-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:34,842 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:35,638 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:36,453 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:37,277 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:38,082 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:38,839 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:39,630 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:40,473 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:41,463 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/sky-dance-twilight-hike-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/sky-dance-twilight-hike-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:42,346 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:43,137 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:43,923 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:44,709 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:45,494 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:46,256 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:47,059 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:47,841 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:48,697 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:49,495 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:50,299 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:51,131 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:51,960 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:52,771 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/2023-regional-interpreters-workshop-common-ground-interpreting-a-shared-landscape/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/2023-regional-interpreters-workshop-common-ground-interpreting-a-shared-landscape/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:53,531 - WARNING - Failed to fetch https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:54,347 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:55,152 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:55,974 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/early-american-history-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/early-american-history-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:56,757 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:57,633 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:58,462 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:49:59,268 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/04/arbor-day-2020/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/04/arbor-day-2020/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:00,061 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:00,848 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:01,642 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/columbus-hike-brew/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/columbus-hike-brew/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:02,449 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/third-thursday-march20/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/third-thursday-march20/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:03,277 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/invasive-plant-workshop/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/invasive-plant-workshop/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:04,063 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0519-little-hikers/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0519-little-hikers/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:04,836 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:05,630 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:06,418 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/conservation-field-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/conservation-field-day/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:07,214 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-eagle-slough/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-eagle-slough/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:08,000 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:08,820 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-branches-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-branches-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:09,620 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/02/brown-county-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/02/brown-county-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:10,404 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0319-preserve-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0319-preserve-workday/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:50:11,228 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/01/sycamore-coffee-launch/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/01/sycamore-coffee-launch/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 18:54:56,077 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "WARNING: API call failed: HTTP Error 429: Too Many Requests",
       "source": null
     }
   ]
