@@ -4,31 +4,6 @@ PRODID:-//Brewsters Beer Garden//brewstersbeergarden.com//
 X-WR-CALNAME:Brewsters Beer Garden
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:SunHunter
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T000000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T030000Z
-UID:8e5256c6383ae1daa31eab0b4f15fa2b@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1773188042502-NYP9CULUDY9712DOA7YL/sunhunter.webp
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/14/sunhunter
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Matt Bolton - Winter Residency
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T230000Z
-UID:b6257dd010aebc50d64de2c54ce64937@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1767991368199-J53383U7A6KHSL1EFEUX/CGA05317.jpg
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/1/11/matt-bolton-winter
- -residency-wngdk-j6kbw-kgtha-6wssy-3bhwf-55s3b
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bingo Night
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260317T020000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260317T040000Z
@@ -593,6 +568,31 @@ ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/5/15/weekend-at-bernies
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stomp Kings
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T200000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T230000Z
+UID:5405e46ff3124682fb4b5d5f17544ab5@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1772565069978-PTS5FT09W7TLFZW5D25C/stomp_kings.jpg
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/16/stomp-kings
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:David Outlaw Band
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260517T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260517T030000Z
+UID:18bc8c9ae456630cdb72dde9e4e515e4@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1773175437547-C27D3VQC3NOI9RD4DJCC/generic_guitars.
+ jpg
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/16/david-outlaw-band
 X-SOURCE:Brewsters Beer Garden
 END:VEVENT
 END:VCALENDAR
