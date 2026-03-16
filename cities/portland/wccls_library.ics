@@ -204,6 +204,17 @@ X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Family Storytime
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T200000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T204500Z
+UID:698a704b4dacf581ff7a3b7e@wccls.bibliocommons.com
+DESCRIPTION:Families will enjoy books\, movement\, and music! Best for age
+ s 8 & under with family.
+LOCATION:Beaverton City Library\, Storytime Room
+URL:https://wccls.bibliocommons.com/v2/events/698a704b4dacf581ff7a3b7e
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Storytime
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260509T200000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260509T204500Z
 UID:698a704b4dacf581ff7a3b7d@wccls.bibliocommons.com
@@ -398,6 +409,20 @@ DESCRIPTION:Want to build your skills and confidence? Read aloud to a trai
  .
 LOCATION:Hillsboro Public Library\, Brookwood
 URL:https://wccls.bibliocommons.com/v2/events/6932400076261f28005d8d91
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Garden Home Neighborhood Cafe
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T190000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T203000Z
+UID:699de27f1e64afd01e5daff1@wccls.bibliocommons.com
+DESCRIPTION:Have you been wanting to get to know your neighbors better? Ge
+ t involved in your community? The Neighborhood Cafe is a monthly all-ages
+  program is geared toward building relationships and fostering community
+  resilience. It is lightly-structured to encourage conversation. Refreshm
+ ents are provided. Every third Saturday of the month in Room 7.
+LOCATION:Garden Home Community Library
+URL:https://wccls.bibliocommons.com/v2/events/699de27f1e64afd01e5daff1
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -640,28 +665,6 @@ DESCRIPTION:Do you have questions about how to use a mobile phone or a com
   Shute Park.
 LOCATION:Hillsboro Public Library\, Shute Park
 URL:https://wccls.bibliocommons.com/v2/events/699ce8ca8b29ea2800d206aa
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Makerspace Open Lab
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T203000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260316T003000Z
-UID:699522474dacf581ff7c0b46@wccls.bibliocommons.com
-DESCRIPTION:Makerspace Open Labs are for anyone who wants to check out the
-  space and use our equipment to make cool things. Room assistants are avai
- lable to guide you in the basic use of the tools and technology. Come in w
- ith an idea and leave with a finished project! For more information about 
- the Makerspace and its resources\,\nsee here\n.\nMakerspace Open Labs take
-  place on the following weekly schedule:\nTuesdays\n\, 5:30 - 7:30PM\nThur
- sdays\n\, 4:00 - 6:00PM\nSaturdays\n\, 10:00 AM - 1:00PM\nSundays\n\, 1:30
-  - 5:30P\nEach month we provide the materials\, tools and instructions for
-  a featured Makerspace project that everyone is invited to try.\nMarch's f
- eatured project is Recycled Shrinky Dink Jewelry (pictured).\nIMPORTANT:\n
- Adults using the Makerspace for the first time need to\nsign a waiver\n\; 
- people under the age of 18 must have a waiver signed by a parent or guardi
- an.\nYou can sign and submit waivers online here.
-LOCATION:Tualatin Public Library\, Makerspace
-URL:https://wccls.bibliocommons.com/v2/events/699522474dacf581ff7c0b46
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -1578,18 +1581,6 @@ URL:https://wccls.bibliocommons.com/v2/events/69a6073f8966a226aae0aa32
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sewing Time in DAM
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T220000Z
-UID:6983dbd3a5d80ac4927058b3@wccls.bibliocommons.com
-DESCRIPTION:Learn machine sewing basics in the makerspace! Bring your proj
- ects\, ask questions\, and build skills in a fun\, hands-on environment. Y
- ou are welcome to bring your own sewing machine.\nRegistration required.
-LOCATION:Beaverton City Library\, DAM Makerspace
-URL:https://wccls.bibliocommons.com/v2/events/6983dbd3a5d80ac4927058b3
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DAM Open Lab
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260427T210000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260428T010000Z
@@ -1685,22 +1676,6 @@ DESCRIPTION:Want to build your skills and confidence? Read aloud to a trai
  .
 LOCATION:Hillsboro Public Library\, Shute Park
 URL:https://wccls.bibliocommons.com/v2/events/693240ec76261f28005d8db8
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Read to the Dogs/Lee a los perros
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T233000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260316T000000Z
-UID:693240ec76261f28005d8db7@wccls.bibliocommons.com
-DESCRIPTION:Want to build your skills and confidence? Read aloud to a trai
- ned therapy dog (accompanied by their handler) in a private 20-minute sess
- ion. Grades K – 12.\n¿Quieres mejorar tus habilidades y tu confianza? I
- nscríbete para leer en voz alta a perros de terapia (acompañados por un 
- entrenador) en una sesión privada de 20 minutos. K – 12o grado.\nYou ma
- y sign up for one(1) Read to the Dogs session within a one(1) month period
- .
-LOCATION:Hillsboro Public Library\, Shute Park
-URL:https://wccls.bibliocommons.com/v2/events/693240ec76261f28005d8db7
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -3567,18 +3542,6 @@ URL:https://wccls.bibliocommons.com/v2/events/6983e553d34a4e759284b039
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Community Clothing Swap
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T213000Z
-UID:6983daa9a5d80ac49270587b@wccls.bibliocommons.com
-DESCRIPTION:This event is free\, and everyone is welcome to take items for
-  themselves and their families. Refresh your wardrobe with free items! No 
- donation is required to participate. All ages.
-LOCATION:Beaverton City Library\, Meeting Rooms A & B
-URL:https://wccls.bibliocommons.com/v2/events/6983daa9a5d80ac49270587b
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Plant Swap @ Murray Scholls
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260328T190000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260328T210000Z
@@ -3637,20 +3600,6 @@ DESCRIPTION:Welcome to our makerspace\, DAM (Design And Make)! During Open
  nnually:\nhttps://www.beavertonlibrary.o...
 LOCATION:Beaverton City Library\, DAM Makerspace
 URL:https://wccls.bibliocommons.com/v2/events/6983e553d34a4e759284b031
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DAM Open Lab
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T220000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260316T000000Z
-UID:6983e553d34a4e759284b02e@wccls.bibliocommons.com
-DESCRIPTION:Welcome to our makerspace\, DAM (Design And Make)! During Open
-  Lab hours\, the makerspace is open for all ages. Drop in to explore and u
- se any equipment available. A staff member is stationed in the space to an
- swer questions and assist when needed. Note: A signed waiver is required a
- nnually:\nhttps://www.beavertonlibrary.o...
-LOCATION:Beaverton City Library\, DAM Makerspace
-URL:https://wccls.bibliocommons.com/v2/events/6983e553d34a4e759284b02e
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -3788,6 +3737,18 @@ DESCRIPTION:Do you have questions about how to use a mobile phone or a com
   Shute Park.
 LOCATION:Hillsboro Public Library\, Shute Park
 URL:https://wccls.bibliocommons.com/v2/events/699ce8ca8b29ea2800d206a9
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:This is Vietnamese Portland Exhibit
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260517T070000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260518T065959Z
+UID:699f3cf85506be0745fef7d0@wccls.bibliocommons.com
+DESCRIPTION:Come visit Brookwood and explore This is Vietnamese Portland\,
+  a traveling exhibit that examines how the Vietnamese community has shaped
+  and contributed to the City of Portland.
+LOCATION:Hillsboro Public Library\, Brookwood
+URL:https://wccls.bibliocommons.com/v2/events/699f3cf85506be0745fef7d0
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -4167,6 +4128,21 @@ URL:https://wccls.bibliocommons.com/v2/events/693cb5c61e64afd01e4ecc5c
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mobile Device Basics
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T153000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T170000Z
+UID:695989396724c63d00ea1277@wccls.bibliocommons.com
+DESCRIPTION:This workshop is for those who have a new mobile device\, or a
+ re considering purchasing one\, and want to learn more about the basic fea
+ tures. It will help students connect\, identify common apps\, and build co
+ nfidence to use their device safely. Class size is limited\, please regist
+ er in advance. This class takes place before the library opens\, and the i
+ nstructors will begin letting attendees in around 8:20 a.m.
+LOCATION:Sherwood Public Library
+URL:https://wccls.bibliocommons.com/v2/events/695989396724c63d00ea1277
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bilingual Inclusive Storytime / Cuentos bilingüe Inclusivos
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260403T171500Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260403T180000Z
@@ -4293,17 +4269,6 @@ DESCRIPTION:Drop by the library to discover a grocery store that is just t
  he right size for kids to play with! Ages 1-8 with family.
 LOCATION:Beaverton City Library\, Storytime Room
 URL:https://wccls.bibliocommons.com/v2/events/6983dedda5d80ac4927058df
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OBOB Book Club: Book Review & Party
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T223000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T233000Z
-UID:6983de957d180d0d48329b8d@wccls.bibliocommons.com
-DESCRIPTION:Join us as we review the books we've read and celebrate all th
- ings OBOB! Grades 3-5. Registration required.
-LOCATION:Beaverton City Library\, Storytime Room
-URL:https://wccls.bibliocommons.com/v2/events/6983de957d180d0d48329b8d
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -6382,17 +6347,6 @@ URL:https://wccls.bibliocommons.com/v2/events/69a1d77e6724c63d00f59701
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Simple Science: Tilting Towers
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T203000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T213000Z
-UID:699201538d5e2d09335f566f@wccls.bibliocommons.com
-DESCRIPTION:Build high and break it down with some crafty engineering! All
-  ages welcome.
-LOCATION:Hillsboro Public Library\, Shute Park
-URL:https://wccls.bibliocommons.com/v2/events/699201538d5e2d09335f566f
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Digital Navigator 1:1 Tech Help with Chuck
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260423T220000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260423T230000Z
@@ -6701,6 +6655,20 @@ URL:https://wccls.bibliocommons.com/v2/events/699df25881b67dfe32a88ea9
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Teen Time: Writing Workshop with Jamie Pacton
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T200000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T220000Z
+UID:699e68f11e64afd01e5de1ef@wccls.bibliocommons.com
+DESCRIPTION:Join local bestselling\, award-winning author Jamie Pacton for
+  a lively talk on writing and publishing novels across genres and age grou
+ ps. Learn how to move from idea to outline\, draft to finished book\, and 
+ on to publication. Come learn\, create\, and connect with the writing comm
+ unity.\nRegistration preferred\; walk-ins welcome.
+LOCATION:Hillsboro Public Library\, Shute Park
+URL:https://wccls.bibliocommons.com/v2/events/699e68f11e64afd01e5de1ef
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Intro to Tabletop Roleplaying Games with the Westside Queer Resour
  ce Center
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260419T210000Z
@@ -6753,6 +6721,19 @@ DESCRIPTION:This teen-led book club is a space where readers can connect\,
  build a close community. Come read\, talk\, and enjoy.
 LOCATION:Hillsboro Public Library\, Brookwood
 URL:https://wccls.bibliocommons.com/v2/events/699e60598089f23c675dff36
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Teen Book Club
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T210000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T220000Z
+UID:699e60598089f23c675dff38@wccls.bibliocommons.com
+DESCRIPTION:This teen-led book club is a space where readers can connect\,
+  share ideas\, and explore books together. It focuses on discussions\, new
+  reads\, and different perspectives. We’ll explore different genres and 
+ build a close community. Come read\, talk\, and enjoy.
+LOCATION:Hillsboro Public Library\, Brookwood
+URL:https://wccls.bibliocommons.com/v2/events/699e60598089f23c675dff38
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -6817,6 +6798,20 @@ DESCRIPTION:Stories\, songs\, and movement activities\, presented in Roman
   Primele miercuri la ora 7 p.m.
 LOCATION:Hillsboro Public Library\, Brookwood
 URL:https://wccls.bibliocommons.com/v2/events/6984e1b4491b809c6f17d9da
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:West Slope Neighborhood Cafe
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T233000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260517T010000Z
+UID:699de2e71e64afd01e5db109@wccls.bibliocommons.com
+DESCRIPTION:Have you been wanting to get to know your neighbors better? Ge
+ t involved in your community? The Neighborhood Cafe is a monthly all-ages 
+ program is geared toward building relationships and fostering community re
+ silience. It is lightly-structured to encourage conversation. Refreshments
+  are provided. Every third Saturday of the month.
+LOCATION:West Slope Community Library
+URL:https://wccls.bibliocommons.com/v2/events/699de2e71e64afd01e5db109
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -7542,6 +7537,18 @@ URL:https://wccls.bibliocommons.com/v2/events/691f9d9264ad59251cbbf8c6
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Family Library LEGO®
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T200000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T220000Z
+UID:699f3e4a6583d22e3c0d2ad9@wccls.bibliocommons.com
+DESCRIPTION:Come build at the library! Our tables are full of LEGO® brick
+ s of all shapes\, colors\, and sizes – plus challenge cards if you want 
+ help with ideas!
+LOCATION:Hillsboro Public Library\, Brookwood
+URL:https://wccls.bibliocommons.com/v2/events/699f3e4a6583d22e3c0d2ad9
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cuentos Bilingües | Bilingual Storytime
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260317T171500Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260317T180000Z
@@ -7989,6 +7996,18 @@ DESCRIPTION:¡Hablemos Español! Join our engaging Spanish Conversation Cl
  op in and let's start talking en Español!
 LOCATION:Beaverton City Library\, Cathy Stanton Conference Room
 URL:https://wccls.bibliocommons.com/v2/events/6983d58e8ef687c592a6fdb9
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:This is Vietnamese Portland Exhibit
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T070000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260517T065959Z
+UID:699f3cf85506be0745fef7cf@wccls.bibliocommons.com
+DESCRIPTION:Come visit Brookwood and explore This is Vietnamese Portland\,
+  a traveling exhibit that examines how the Vietnamese community has shaped
+  and contributed to the City of Portland.
+LOCATION:Hillsboro Public Library\, Brookwood
+URL:https://wccls.bibliocommons.com/v2/events/699f3cf85506be0745fef7cf
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -8540,19 +8559,6 @@ URL:https://wccls.bibliocommons.com/v2/events/69251752b864f029002605e5
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Book Babies/Libros para bebés
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T171500Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T180000Z
-UID:69251752b864f029002605e4@wccls.bibliocommons.com
-DESCRIPTION:Babies and their grownups are invited to share nursery rhymes\
- , finger plays\, songs and a simple book while making new friends and deve
- loping early literacy skills. Includes unstructured playtime. For ages 0 t
- o 12 months.\nWeekly on Sundays.
-LOCATION:Hillsboro Public Library\, Shute Park
-URL:https://wccls.bibliocommons.com/v2/events/69251752b864f029002605e4
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Citizenship Class | Clase de Ciudadanía
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260423T010000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260423T030000Z
@@ -8728,22 +8734,6 @@ DESCRIPTION:Do you have questions about how to use a mobile phone or a com
  appointment availability.
 LOCATION:Hillsboro Public Library\, Brookwood
 URL:https://wccls.bibliocommons.com/v2/events/6996712fb0595799c09ddc9b
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Digital Navigator – One-on-One Tech Help
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T173000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T230000Z
-UID:6996717f6724c63d00f3ab28@wccls.bibliocommons.com
-DESCRIPTION:Do you have questions about how to use a mobile phone or a com
- puter? Do you need help setting up a social media account? Schedule a 45-m
- inute appointment to receive technology assistance with a Digital Navigato
- r at the Shute Park Library or the Brookwood Library!\nSpanish-language su
- pport available only at the Shute Park Library.\nVisit our website at\nLib
- rary Bookings - Hillsboro Public Library\nor call\n503-615-6500\nto check 
- appointment availability.
-LOCATION:Hillsboro Public Library\, Brookwood
-URL:https://wccls.bibliocommons.com/v2/events/6996717f6724c63d00f3ab28
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -10699,6 +10689,17 @@ X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Family Storytime @ Murray Scholls
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T171500Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T180000Z
+UID:698cebbc8d5e2d09335e93cc@wccls.bibliocommons.com
+DESCRIPTION:Families will enjoy books\, movement\, and music! Best for age
+ s 8 & under with family.
+LOCATION:Beaverton Murray Scholls
+URL:https://wccls.bibliocommons.com/v2/events/698cebbc8d5e2d09335e93cc
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Storytime @ Murray Scholls
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260509T171500Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260509T180000Z
 UID:698cebbc8d5e2d09335e93cb@wccls.bibliocommons.com
@@ -11963,20 +11964,6 @@ URL:https://wccls.bibliocommons.com/v2/events/699df1dcb48451fc3c04d61b
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Garb & Gab
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T220000Z
-UID:6973f9b1491b809c6f14d0c5@wccls.bibliocommons.com
-DESCRIPTION:Are you more productive when working alongside others? Do you 
- have personal garments that need repairs but are unsure how to fix them? A
- re you working on sewing projects for historical\, theatrical\, or cultura
- l events?  Join us! We are here to help and support one another in creatin
- g and repairing clothing.\nThis program is for ages 13 and up.
-LOCATION:Cornelius Public Library
-URL:https://wccls.bibliocommons.com/v2/events/6973f9b1491b809c6f14d0c5
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Toddler Storytime
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260505T171500Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260505T174500Z
@@ -12241,6 +12228,20 @@ X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Quilting Friends
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T170000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T210000Z
+UID:6998c769b0595799c09e4043@wccls.bibliocommons.com
+DESCRIPTION:Are you interested in quilting for a cause? Our quilting group
+  provides the fabric and invites you to quilt for St. Vincent's Hospital
+ ’s Hospice program. Held every third Saturday of the month. Come and tal
+ k to us!\nAre you just curious? Everyone is welcome to observe! This progr
+ am is for 18+ years old\; 14+ with parent supervision.
+LOCATION:Cornelius Public Library
+URL:https://wccls.bibliocommons.com/v2/events/6998c769b0595799c09e4043
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quilting Friends
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260418T170000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260418T210000Z
 UID:6998c74f4a9fd98b7f7f5dee@wccls.bibliocommons.com
@@ -12338,20 +12339,6 @@ DESCRIPTION:Stories\, songs\, and movement activities\, presented in Hebre
  ה 10:15 בבוקר.
 LOCATION:Hillsboro Public Library\, Shute Park
 URL:https://wccls.bibliocommons.com/v2/events/698baeb6491b809c6f18f4c6
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Baby Sign
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T180000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T190000Z
-UID:6973e27a6c126d0e4895cf80@wccls.bibliocommons.com
-DESCRIPTION:Does jump starting your baby's language skills while also incr
- easing your bond with them sound good? Then this monthly play group is for
-  you! You will learn the basics of using American Sign Language with your 
- baby through songs and play.\nFor caregivers and children 0-2 years old. R
- egistration is suggested but not required. Held in the Community Room.
-LOCATION:Tualatin Public Library\, Community Room
-URL:https://wccls.bibliocommons.com/v2/events/6973e27a6c126d0e4895cf80
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -12639,6 +12626,20 @@ DESCRIPTION:Do you have a wiggly future reader who needs more movement in
  wed by a playtime for kids and adults to socialize.
 LOCATION:Aloha Community Library
 URL:https://wccls.bibliocommons.com/v2/events/695ebf48c719ac98c3364b32
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3D Printer Orientation - ages 10+
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T230000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260517T003000Z
+UID:698e5c004dacf581ff7af005@wccls.bibliocommons.com
+DESCRIPTION:Ages 10 and up. An adult must accompany children under 12.\nTh
+ is hands-on 3D printing orientation introduces library patrons to the exci
+ ting world of making. Participants will learn the basics of operating 3D p
+ rinters and creating files for printing--empowering them to confidently cr
+ eate and print their own projects.\n#Collaboratory
+LOCATION:Hillsboro Public Library\, Brookwood
+URL:https://wccls.bibliocommons.com/v2/events/698e5c004dacf581ff7af005
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -14939,6 +14940,24 @@ X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Digital Navigator Tech Help
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T170000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T210000Z
+UID:68f2e47e0562322f002be10a@wccls.bibliocommons.com
+DESCRIPTION:Digital Navigator Tech Help is held every Saturday in the libr
+ ary except the 3rd Saturday of the month (when the library hosts computer 
+ classes) from 10:00 a.m to 2:00 p.m. through July 25. Need help with devi
+ ces? Have technology-related questions? Want help with job searches? Br
+ ing your own device or use library computers.\nThese are drop-in hours onl
+ y\, so first come\, first served.\nThis free program is provided by a visi
+ ting Digital Navigator and is in partnership with AmeriCorps & Washington 
+ County Cooperative Library Services.\nAlso see our\nTech Help Appointments
+  offered by library staff.
+LOCATION:Sherwood Public Library
+URL:https://wccls.bibliocommons.com/v2/events/68f2e47e0562322f002be10a
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digital Navigator Tech Help
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260502T170000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260502T210000Z
 UID:68f2e47e0562322f002be108@wccls.bibliocommons.com
@@ -15217,23 +15236,6 @@ DESCRIPTION:Get a one-on-one appointment with a friendly\, knowledgeable D
  tech\, and more!
 LOCATION:West Slope Community Library
 URL:https://wccls.bibliocommons.com/v2/events/68e015086df9ca153ebe55b7
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hillsboro Youth Speech & Debate
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260419T230000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260420T000000Z
-UID:68a6165828109b6cd7302ab2@wccls.bibliocommons.com
-DESCRIPTION:3\nrd\nSundays + final session: March 15\, April 19\, May 17\
- , & May 31 | 4 – 5 pm | Brookwood\nLearning public speaking skills earl
- y builds confidence\, promotes understanding and critical thinking\, and c
- an be a foundation for lifelong success – plus it’s fun! This interact
- ive program teaches public speaking and respectful debating. Led by City o
- f Hillsboro Communications Manager Patrick Preston.\nFor youth grades 5\nt
- h\n– 8\nth\n.\nThis is a series of four classes. By registering\, you ar
- e signing up for the full Spring season.
-LOCATION:Hillsboro Public Library\, Brookwood
-URL:https://wccls.bibliocommons.com/v2/events/68a6165828109b6cd7302ab2
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -15893,22 +15895,6 @@ X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Read to the Dogs/Lee a los perros
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260316T000000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260316T003000Z
-UID:6932411b4be11d3d00d687c7@wccls.bibliocommons.com
-DESCRIPTION:Want to build your skills and confidence? Read aloud to a trai
- ned therapy dog (accompanied by their handler) in a private 20-minute sess
- ion. Grades K – 12.\n¿Quieres mejorar tus habilidades y tu confianza? I
- nscríbete para leer en voz alta a perros de terapia (acompañados por un 
- entrenador) en una sesión privada de 20 minutos. K – 12o grado.\nYou ma
- y sign up for one(1) Read to the Dogs session within a one(1) month period
- .
-LOCATION:Hillsboro Public Library\, Shute Park
-URL:https://wccls.bibliocommons.com/v2/events/6932411b4be11d3d00d687c7
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Read to the Dogs/Lee a los perros
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260412T230000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260412T233000Z
 UID:693240bf4be11d3d00d687ad@wccls.bibliocommons.com
@@ -16047,22 +16033,6 @@ DESCRIPTION:Want to build your skills and confidence? Read aloud to a trai
  .
 LOCATION:Hillsboro Public Library\, Shute Park
 URL:https://wccls.bibliocommons.com/v2/events/693240bf4be11d3d00d687aa
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Read to the Dogs/Lee a los perros
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T230000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T233000Z
-UID:693240bf4be11d3d00d687a9@wccls.bibliocommons.com
-DESCRIPTION:Want to build your skills and confidence? Read aloud to a trai
- ned therapy dog (accompanied by their handler) in a private 20-minute sess
- ion. Grades K – 12.\n¿Quieres mejorar tus habilidades y tu confianza? I
- nscríbete para leer en voz alta a perros de terapia (acompañados por un 
- entrenador) en una sesión privada de 20 minutos. K – 12o grado.\nYou ma
- y sign up for one(1) Read to the Dogs session within a one(1) month period
- .
-LOCATION:Hillsboro Public Library\, Shute Park
-URL:https://wccls.bibliocommons.com/v2/events/693240bf4be11d3d00d687a9
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -16651,23 +16621,6 @@ URL:https://wccls.bibliocommons.com/v2/events/689d3c8f6ecff3faef536136
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hillsboro Youth Speech & Debate
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T230000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260316T000000Z
-UID:68a6165828109b6cd7302ab1@wccls.bibliocommons.com
-DESCRIPTION:3\nrd\nSundays + final session: March 15\, April 19\, May 17\
- , & May 31 | 4 – 5 pm | Brookwood\nLearning public speaking skills earl
- y builds confidence\, promotes understanding and critical thinking\, and c
- an be a foundation for lifelong success – plus it’s fun! This interact
- ive program teaches public speaking and respectful debating. Led by City o
- f Hillsboro Communications Manager Patrick Preston.\nFor youth grades 5\nt
- h\n– 8\nth\n.\nThis is a series of four classes. By registering\, you ar
- e signing up for the full Spring season.
-LOCATION:Hillsboro Public Library\, Brookwood
-URL:https://wccls.bibliocommons.com/v2/events/68a6165828109b6cd7302ab1
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Drop-in Tech Help
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260512T173000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260512T190000Z
@@ -17015,6 +16968,23 @@ DESCRIPTION:Digital Navigator One-On-One Tech Help each Tuesday from 10:0
  unty by the U.S. Department of the Treasury.
 LOCATION:North Plains Public Library
 URL:https://wccls.bibliocommons.com/v2/events/69b460c9b48451fc3c08b611
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hillsboro Youth Speech & Debate
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260419T230000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260420T000000Z
+UID:68a6165828109b6cd7302ab2@wccls.bibliocommons.com
+DESCRIPTION:3\nrd\nSundays + final session: March 15\, April 19\, May 17\
+ , & May 31 | 4 – 5 pm | Brookwood\nLearning public speaking skills earl
+ y builds confidence\, promotes understanding and critical thinking\, and c
+ an be a foundation for lifelong success – plus it’s fun! This interact
+ ive program teaches public speaking and respectful debating. Led by City o
+ f Hillsboro Communications Manager Patrick Preston.\nFor youth grades 5\nt
+ h\n– 8\nth\n.\nThis is a series of four classes. By registering\, you ar
+ e signing up for the full Spring season.
+LOCATION:Hillsboro Public Library\, Brookwood
+URL:https://wccls.bibliocommons.com/v2/events/68a6165828109b6cd7302ab2
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
@@ -19077,24 +19047,6 @@ X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Writers' Mill
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260315T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260315T220000Z
-UID:6922178e06078d360079503f@wccls.bibliocommons.com
-DESCRIPTION:Whether you’re writing just for fun\, hoping for publication
- \, or \nplanning to self-publish\, join us for a hands-on inspiring gather
- ing of \npeople who love to write. Newcomers welcome!\nThis event will be 
- hybrid online and in person. If you already receive e-mail from the Writer
- s' Mill\, you'll receive a link for this meeting a few days before the eve
- nt.\nIf you're new\, and need the Zoom link\, please e-mail askuscml@wccls
- .org.\nGroup website:\nportlandwritersmill.org\nSee the group’s antholog
- ies\nin the library catalog\n.\nFor more information\, contact group facil
- itator Sheila Deeth at SheilaD@portlandwritersmill.org.
-LOCATION:Cedar Mill Library\, Elm and Oak Room
-URL:https://wccls.bibliocommons.com/v2/events/6922178e06078d360079503f
-X-SOURCE:WCCLS Libraries
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Writers' Mill
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260419T200000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260419T220000Z
 UID:6922178e06078d3600795040@wccls.bibliocommons.com
@@ -19183,6 +19135,20 @@ DESCRIPTION:Join us in the Collaboratory to learn about crafting costumes
  ration required.\n#Collaboratory
 LOCATION:Hillsboro Public Library\, Brookwood
 URL:https://wccls.bibliocommons.com/v2/events/69966ed54a9fd98b7f7efad6
+X-SOURCE:WCCLS Libraries
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cosplay Meet-up
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260516T170000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260516T183000Z
+UID:69966ed54a9fd98b7f7efad7@wccls.bibliocommons.com
+DESCRIPTION:Join us in the Collaboratory to learn about crafting costumes
+  for cosplaying! All skill levels and skill sets are welcome.  We have bas
+ ic supplies and equipment.  Drop-in anytime and bring your own projects.\n
+ Ages 12+.\nThe space is dedicated to this particular activity\, no regist
+ ration required.\n#Collaboratory
+LOCATION:Hillsboro Public Library\, Brookwood
+URL:https://wccls.bibliocommons.com/v2/events/69966ed54a9fd98b7f7efad7
 X-SOURCE:WCCLS Libraries
 END:VEVENT
 BEGIN:VEVENT

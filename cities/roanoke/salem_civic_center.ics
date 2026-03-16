@@ -273,16 +273,4 @@ SUMMARY:Filter | Finger Eleven | Local H
 UID:1386
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1433
-DTEND;TZID=America/New_York;VALUE=DATE:20260315
-DTSTAMP;TZID=America/New_York:20260228T125159
-DTSTART;TZID=America/New_York;VALUE=DATE:20260311
-LAST-MODIFIED;TZID=America/New_York:20260228T125159
-LOCATION:Salem Civic Center - 1001 Roanoke Blvd.  Salem VA 24153
-SEQUENCE:0
-SUMMARY:Back on the Rack Consignment Sale
-UID:1433
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
-END:VEVENT
 END:VCALENDAR

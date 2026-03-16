@@ -4,28 +4,6 @@ PRODID:-//SPACE//songkick.com//
 X-WR-CALNAME:SPACE
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:One of the Girls
-DTSTART;VALUE=DATE-TIME:20260315T130000
-DTEND;VALUE=DATE-TIME:20260315T130000
-UID:6ad21c60d9da0812c83934febd81abb6@songkick.com
-DESCRIPTION:One of the Girls at SPACE at 2026-03-15T13:00:00-0500
-LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
-URL:http://www.songkick.com/concerts/43027955-one-of-the-girls-at-space?ut
- m_medium=organic&utm_source=microformat
-X-SOURCE:SPACE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Scenic Route
-DTSTART;VALUE=DATE-TIME:20260315T193000
-DTEND;VALUE=DATE-TIME:20260315T193000
-UID:d26d36c477f736d81c26fa87faef39ad@songkick.com
-DESCRIPTION:Scenic Route at SPACE at 2026-03-15T19:30:00-0500
-LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
-URL:http://www.songkick.com/concerts/43039880-scenic-route-at-space?utm_me
- dium=organic&utm_source=microformat
-X-SOURCE:SPACE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Clover County
 DTSTART;VALUE=DATE-TIME:20260316T190000
 DTEND;VALUE=DATE-TIME:20260316T190000
@@ -58,6 +36,29 @@ DESCRIPTION:Fust at SPACE at 2026-03-18
 LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
 URL:http://www.songkick.com/concerts/42934233-fust-at-space?utm_medium=org
  anic&utm_source=microformat
+X-SOURCE:SPACE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ashes & Arrows\, The Ashes
+DTSTART;VALUE=DATE-TIME:20260319T193000
+DTEND;VALUE=DATE-TIME:20260319T193000
+UID:b2e603263b46f3b43fa4a6554608ee50@songkick.com
+DESCRIPTION:Ashes & Arrows and The Ashes at SPACE at 2026-03-19T19:30:00-0
+ 500
+LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
+URL:http://www.songkick.com/concerts/42938231-ashes-and-arrows-at-space?ut
+ m_medium=organic&utm_source=microformat
+X-SOURCE:SPACE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Charlie Parr
+DTSTART;VALUE=DATE-TIME:20260320T200000
+DTEND;VALUE=DATE-TIME:20260320T200000
+UID:8e0cf8c1a79fcdb5477158072bf7fbf3@songkick.com
+DESCRIPTION:Charlie Parr at SPACE at 2026-03-20T20:00:00-0500
+LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
+URL:http://www.songkick.com/concerts/42939287-charlie-parr-at-space?utm_me
+ dium=organic&utm_source=microformat
 X-SOURCE:SPACE
 END:VEVENT
 END:VCALENDAR

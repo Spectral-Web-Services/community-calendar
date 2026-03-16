@@ -7,78 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Emerson Colonial Theatre": "https://www.ticketmaster.com/event/Z7r9jZ1A7bOC9"}
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A7bOCb"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Stereophonic
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260314T130000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260314T130000
-UID:57a7b487424c14d1f4bf386b53052040@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4
- 195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7bOCb
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/natya-samaagam/"}
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/natya-samaagam/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Natya Samaagam
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260315T123000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260315T143000
-UID:b48688d6c03439262490c38b6fac3b25@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 26/01/Flyer-final-Dec-19-scaled.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:BCA Black Box Theatre\, 539 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/natya-samaagam/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A7bOC_"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Stereophonic
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260315T130000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260315T130000
-UID:35da33223af30efb4bf695f870460ee3@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4
- 195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7bOC_
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/we-had-a-world/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:We Had a World
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260315T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260315T160000
-UID:b4915d15ab91e030dd819470b54296cd@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/01/WHW-for-web-10802.jpg?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/we-had-a-world/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260315T150000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260315T170000
-UID:d6c8bdfcd6710872a4505e0b37162fa3@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A743GJ"}
 X-SOURCE-ID:ticketmaster_emerson_colonial
 SUMMARY:Suffs (Touring)
@@ -1640,8 +1568,8 @@ SUMMARY:Forever K-Pop
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260408T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260408T200000
 UID:1fb7e7cdb09c5c5ab4cc0f3dfdbe1195@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/38c/5b46bbec-5c2b-4
- 772-a508-0f0b4f1de38c_RETINA_PORTRAIT_16_9.jpg
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/151/3a1fba6d-aafa-4
+ bc5-889c-d76448eb2151_RETINA_PORTRAIT_16_9.jpg
 DESCRIPTION:
 LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-F-y
@@ -2105,18 +2033,6 @@ LOCATION:Emerson Cutler Majestic Theatre\, 219 Tremont St\, Boston\, MA\, 02116\
 ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/09/CharityThumb.png
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1265839"}
-X-SOURCE-ID:ovationtix_wheelock
-SUMMARY:Winter 2026 - Teen Performance Ensemble (Seussical)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T020000
-UID:1fc97bc42e4fd0a46ba51c7122cda3de@ovationtix.com
-DESCRIPTION:
-LOCATION:Wheelock Family Theatre
-URL:https://ci.ovationtix.com/177/production/1265839
-X-SOURCE:Wheelock Family Theatre
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/when-playwrights-kill/"}
 X-SOURCE-ID:boston_theatre_scene
 SUMMARY:When Playwrights Kill
@@ -2293,19 +2209,6 @@ LOCATION:Citizens Opera House\, 539 Washington Street\, Boston\, MA
 URL:https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-bost
  on-massachusetts-04-17-2026/event/01006350B720CC00
 X-SOURCE:Citizens Opera House
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1257021"}
-X-SOURCE-ID:ovationtix_wheelock
-SUMMARY:Spring 2026: Wed. Morning Child & Caregiver Class: Springtime Surp
- rises (Ages 2-4)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260418T100000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T120000
-UID:9c5dd7e91f2e6b0aeb0e777813b608ac@ovationtix.com
-DESCRIPTION:
-LOCATION:Wheelock Family Theatre
-URL:https://ci.ovationtix.com/177/production/1257021
-X-SOURCE:Wheelock Family Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/when-playwrights-kill/"}
@@ -4101,6 +4004,79 @@ SUMMARY:Profiles of Boston: Portraits from the Heart of Chinatown
 DESCRIPTION:Four short films that illuminate Boston’s Chinatown through personal stories of family\, memory\, and resilience. \n\n\n\nTogether\, they form a living portrait of a vibrant and enduring community shaped by generations of perseverance\, care\, and connection.
 URL:https://artsemerson.org/events/projecting-connections-profiles-of-boston-portraits-from-the-heart-of-chinatown/
 ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/home-plate-AE-overlay.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Swept Away
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260516T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260516T160000
+UID:b2cac15bf2dd3c35ee674c06b8608703@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/03/FINAL-Swept-Away-900x900-BTS.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus El Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260516T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260516T160000
+UID:7e2511ef96ad30c565c0cef656dab1d2@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Actors' Shakespeare Project": "https://ci.ovationtix.com/921/production/1265134"}
+X-SOURCE-URLS:{"Ovationtix Asp": "https://ci.ovationtix.com/921/production/1265134"}
+X-SOURCE-ID:ovationtix_asp
+SUMMARY:25-26 August Wilson's Gem of the Ocean
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260516T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260516T160000
+UID:d72f7e31fccedf28de0115119904dcfb@ovationtix.com
+DESCRIPTION:
+LOCATION:Actors' Shakespeare Project
+URL:https://ci.ovationtix.com/921/production/1265134
+X-SOURCE:Actors' Shakespeare Project
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Artsemerson": "https://artsemerson.org/event/projecting-connections-profiles-of-boston-portraits-from-the-heart-of-chinatown/"}
+X-SOURCE-ID:artsemerson
+SUMMARY:Projecting Connections: Profiles of Boston: Portraits from the Hea
+ rt of Chinatown
+DTSTART;VALUE=DATE-TIME:20260516T150000
+DTEND;VALUE=DATE-TIME:20260516T150000
+UID:9afe85b63f62589239014dbdb98ed835@artsemerson.org
+DESCRIPTION:
+LOCATION:Emerson Paramount Center\, 559 Washington Street\, Boston\, MA
+URL:https://artsemerson.org/event/projecting-connections-profiles-of-bosto
+ n-portraits-from-the-heart-of-chinatown/
+X-SOURCE:ArtsEmerson
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage Company": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260516T150000
+DTEND;VALUE=DATE-TIME:20260516T173000
+UID:808e62ea0693cfa62b7ac819736fd534@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}

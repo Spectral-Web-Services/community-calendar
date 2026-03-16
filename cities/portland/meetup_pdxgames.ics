@@ -25,39 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313497724@meetup.com
-SEQUENCE:1
-DTSTAMP:20260315T062944Z
-DTSTART;TZID=America/Los_Angeles:20260315T120000
-DTEND;TZID=America/Los_Angeles:20260315T180000
-SUMMARY:Board Games @ Guardian Games
-DESCRIPTION:Portland Area Board Games and RPGs\nCome join us for Board Game Open Play at Guardian Games every Sunday from 12-6pm\, hosted by Alex from [Might I Suggest A Game](https://www.instagram.com/might.i.suggest.a.game/)! Learn the game of the week\, play from our free demo library\, or bring your own for a fun afternoon of good friends and good games :)\n\nThe game of the week is TBD!
-URL;VALUE=URI:https://www.meetup.com/pdxgames/events/313497724/
-STATUS:CONFIRMED
-CREATED:20260223T213111Z
-LAST-MODIFIED:20260223T213111Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/a/8/1/7/600_533023031.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_313728358@meetup.com
-SEQUENCE:1
-DTSTAMP:20260315T062944Z
-DTSTART;TZID=America/Los_Angeles:20260315T160000
-DTEND;TZID=America/Los_Angeles:20260315T180000
-SUMMARY:Canasta & Cards
-DESCRIPTION:Portland Area Board Games and RPGs\nHey everyone. Glad to be organizing a meetup event for the Portland Area Boardgames group!\n\nWe host a game day Sunday's from 4:00 to 6:00 PM. We play Canasta and other card games. So if you're free Sunday afternoon\, and would enjoy a card game\, come join us! You don't need to bring anything\, just your thinking cap.\n\nEvent hosts: Stormy and Mark! We play at a Starbucks\, at a large table to the right of the counter.\n\nThe intent of our group is to build meaningful friendships. Playing cards gives us an opportunity to hold conversations while we play. Come join\, and tell us how your weekend went\, or what your boss is expecting come Monday 😂. In all seriousnes\, we'd like to get to know you!
-URL;VALUE=URI:https://www.meetup.com/pdxgames/events/313728358/
-STATUS:CONFIRMED
-CREATED:20260310T162708Z
-LAST-MODIFIED:20260310T162708Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/a/2/0/600_533135360.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313516496@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260316T170000
 DTEND;TZID=America/Los_Angeles:20260316T220000
 SUMMARY:Monday Night Game Event
@@ -72,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313516196@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260316T173000
 DTEND;TZID=America/Los_Angeles:20260316T210000
 SUMMARY:Portland Veggie Board Gamers (with Portland Metro Veggies!)
@@ -87,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313517278@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260316T180000
 DTEND;TZID=America/Los_Angeles:20260316T210000
 SUMMARY:Age of Steam Game Night
@@ -102,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313302763@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260317T170000
 DTEND;TZID=America/Los_Angeles:20260317T213000
 SUMMARY:Board Games @ SE CORE Food Carts! 
@@ -117,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313534087@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260317T180000
 DTEND;TZID=America/Los_Angeles:20260317T200000
 SUMMARY:Rules-Light RPGs
@@ -132,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313201123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260318T170000
 DTEND;TZID=America/Los_Angeles:20260318T203000
 SUMMARY:TaborSpace Game Night
@@ -147,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313619086@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260318T170000
 DTEND;TZID=America/Los_Angeles:20260318T214500
 SUMMARY:East Side Game Night
@@ -162,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313568029@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062944Z
+DTSTAMP:20260316T141220Z
 DTSTART;TZID=America/Los_Angeles:20260319T173000
 DTEND;TZID=America/Los_Angeles:20260319T220000
 SUMMARY:Board Games @ Mox
@@ -173,6 +143,36 @@ CREATED:20260228T021629Z
 LAST-MODIFIED:20260228T021629Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/f/5/5/600_519903925.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313568124@meetup.com
+SEQUENCE:1
+DTSTAMP:20260316T141220Z
+DTSTART;TZID=America/Los_Angeles:20260319T173000
+DTEND;TZID=America/Los_Angeles:20260319T223000
+SUMMARY:SE PDX Game Night at Lucky Lab
+DESCRIPTION:Portland Area Board Games and RPGs\nhttp://photos3.meetupstatic.com/photos/event/6/b/0/a/event_747402.jpeg\n\nIt's time for Thursday night games at the Lucky Labrador Brew Pub. We tend to start coagulating about 5:30 but often don't get started till six when a critical mass starts to form. Although people trickle in throughout the evening looking for open space at any new games starting up. Many people stay until the pub closes.\n\nThis has been an on-going event for many\, many years and is only loosely affiliated with this site and thus \\*\\*most people do not sign up on this site\, but lots of people come every Thursday night. \\*\\*\n\nAnyone new who comes please feel free to approach people already playing or looking to begin a game. They'll be happy to tell you a little about what they're doing and how much longer their game will last.\n\nWe play many board games and card games at these events. We tend to play games on the difficult/complex side of things at this meetup though at any time you might find a light Euro has found space at a table. You just never know.\n\nThe Lucky Lab serves a wide variety of beers\, sandwiches and snacks with many vegetarian options.\n\nHope to see you there! And you can bring as many guests as you want! :)
+URL;VALUE=URI:https://www.meetup.com/pdxgames/events/313568124/
+STATUS:CONFIRMED
+CREATED:20260228T021721Z
+LAST-MODIFIED:20260228T021721Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/a/b/0/1/600_532063777.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313641127@meetup.com
+SEQUENCE:1
+DTSTAMP:20260316T141220Z
+DTSTART;TZID=America/Los_Angeles:20260319T173000
+DTEND;TZID=America/Los_Angeles:20260319T200000
+SUMMARY:Board Game Night At Hillsboro Downtown Station 
+DESCRIPTION:Portland Area Board Games and RPGs\nCome down for board game night! This will be a recurring event\, monthly during the summer and increasing to twice a month in the fall. Zayla and Angie Lloyd will host. Bring a simple game for others to play or play one that we have onsite. Hillsboro Downtown Station has Great food options from around the world\, and lots of great drinks on draft from your favorite local breweries. Come in early and enjoy happy hour from 2-5:30 and save $2 off any draft!
+URL;VALUE=URI:https://www.meetup.com/pdxgames/events/313641127/
+STATUS:CONFIRMED
+CREATED:20260305T003924Z
+LAST-MODIFIED:20260305T003924Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/6/d/d/600_528458621.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/pdxgames/events/ical/
 X-WR-CALNAME:Portland Area Board Games and RPGs

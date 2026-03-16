@@ -4,17 +4,6 @@ PRODID:-//Hawthorne Theatre//songkick.com//
 X-WR-CALNAME:Hawthorne Theatre
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:redveil
-DTSTART;VALUE=DATE-TIME:20260315T200000
-DTEND;VALUE=DATE-TIME:20260315T200000
-UID:bb8428bfa16c648dc5bbc22d5ea117e1@songkick.com
-DESCRIPTION:redveil at Hawthorne Theatre at 2026-03-15T20:00:00-0700
-LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/42879723-redveil-at-hawthorne-theatre
- ?utm_medium=organic&utm_source=microformat
-X-SOURCE:Hawthorne Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Aries\, Tiffany Day
 DTSTART;VALUE=DATE-TIME:20260321T203000
 DTEND;VALUE=DATE-TIME:20260321T203000
@@ -56,6 +45,17 @@ DESCRIPTION:Moss at Hawthorne Theatre at 2026-04-03T20:00:00-0700
 LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/42928931-moss-at-hawthorne-theatre?ut
  m_medium=organic&utm_source=microformat
+X-SOURCE:Hawthorne Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dark Tranquillity\, Soen\, Persefone
+DTSTART;VALUE=DATE-TIME:20260404T000000
+DTEND;VALUE=DATE-TIME:20260404T000000
+UID:3c961410bc07469c7656fac3460745cb@songkick.com
+DESCRIPTION:Dark Tranquillity and Soen at Hawthorne Theatre at 2026-04-04
+LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43018041-dark-tranquillity-at-hawthor
+ ne-theatre?utm_medium=organic&utm_source=microformat
 X-SOURCE:Hawthorne Theatre
 END:VEVENT
 END:VCALENDAR

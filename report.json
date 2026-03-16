@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-16T12:03:58.327545",
+  "generated": "2026-03-16T14:20:59.968619",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -10772,7 +10772,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 193
+              "count": 194
             }
           ]
         },
@@ -11756,7 +11756,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 37
+              "count": 35
             }
           ]
         },
@@ -13280,7 +13280,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 192
+              "count": 193
             }
           ]
         },
@@ -13344,7 +13344,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 3
+              "count": 0
             }
           ]
         },
@@ -14240,7 +14240,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 46
+              "count": 47
             }
           ]
         },
@@ -14816,7 +14816,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 30
+              "count": 27
             }
           ]
         },
@@ -15264,7 +15264,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 28
+              "count": 29
             }
           ]
         },
@@ -15456,7 +15456,7 @@
             },
             {
               "date": "2026-03-16",
-              "count": 64
+              "count": 66
             }
           ]
         },
@@ -15594,9 +15594,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 2839,
-        "total_events": 2925,
-        "unique_urls": 2623,
+        "total_with_url": 2821,
+        "total_events": 2912,
+        "unique_urls": 2606,
         "generic_count": 55,
         "generic_domains": [
           {
@@ -15633,14 +15633,14 @@
           },
           {
             "source": "Bloomington Arts",
-            "events": 196,
-            "unique_urls": 196,
+            "events": 194,
+            "unique_urls": 194,
             "specificity_pct": 100
           },
           {
             "source": "CitySpark Bloomington",
-            "events": 174,
-            "unique_urls": 63,
+            "events": 171,
+            "unique_urls": 61,
             "specificity_pct": 36
           },
           {
@@ -15651,8 +15651,8 @@
           },
           {
             "source": "Visit Bloomington",
-            "events": 106,
-            "unique_urls": 106,
+            "events": 105,
+            "unique_urls": 105,
             "specificity_pct": 100
           },
           {
@@ -15663,14 +15663,14 @@
           },
           {
             "source": "Sycamore Land Trust",
-            "events": 59,
-            "unique_urls": 59,
+            "events": 61,
+            "unique_urls": 61,
             "specificity_pct": 100
           },
           {
             "source": "IU Maurer School of Law",
-            "events": 42,
-            "unique_urls": 40,
+            "events": 43,
+            "unique_urls": 41,
             "specificity_pct": 95
           },
           {
@@ -15692,13 +15692,13 @@
             "specificity_pct": 100
           },
           {
-            "source": "Bloomington Spinners & Weavers Guild",
-            "events": 30,
-            "unique_urls": 30,
+            "source": "Brown County Playhouse",
+            "events": 27,
+            "unique_urls": 27,
             "specificity_pct": 100
           },
           {
-            "source": "Brown County Playhouse",
+            "source": "Bloomington Spinners & Weavers Guild",
             "events": 27,
             "unique_urls": 27,
             "specificity_pct": 100
@@ -15708,22 +15708,22 @@
       "categories": [
         {
           "category": "Music / Concerts",
-          "count": 517
+          "count": 514
         },
         {
           "category": "Community / Social",
-          "count": 415
+          "count": 414
         },
         {
           "category": "Education / Workshops",
-          "count": 367
-        },
-        {
-          "category": "Comedy / Improv",
-          "count": 190
+          "count": 368
         },
         {
           "category": "Arts / Culture",
+          "count": 203
+        },
+        {
+          "category": "Comedy / Improv",
           "count": 188
         },
         {
@@ -15740,23 +15740,23 @@
         },
         {
           "category": "Religion / Spirituality",
-          "count": 124
-        },
-        {
-          "category": "Dance / Performance",
-          "count": 115
-        },
-        {
-          "category": "Sports / Fitness",
-          "count": 113
+          "count": 123
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 111
+          "count": 112
+        },
+        {
+          "category": "Sports / Fitness",
+          "count": 112
+        },
+        {
+          "category": "Dance / Performance",
+          "count": 103
         },
         {
           "category": "Family / Kids",
-          "count": 108
+          "count": 101
         },
         {
           "category": "Health / Wellness",
@@ -15764,7 +15764,7 @@
         },
         {
           "category": "Food / Drink",
-          "count": 55
+          "count": 54
         },
         {
           "category": "History / Heritage",
@@ -15772,12 +15772,12 @@
         },
         {
           "category": "(uncategorized)",
-          "count": 10
+          "count": 8
         }
       ],
       "images": {
-        "total": 2925,
-        "with_image": 1661,
+        "total": 2912,
+        "with_image": 1639,
         "by_source": [
           {
             "source": "IU beINvolved Student Orgs",
@@ -15786,18 +15786,18 @@
           },
           {
             "source": "Bloomington Arts",
-            "total": 196,
-            "with_image": 196
+            "total": 194,
+            "with_image": 194
           },
           {
             "source": "CitySpark Bloomington",
-            "total": 174,
-            "with_image": 150
+            "total": 171,
+            "with_image": 147
           },
           {
             "source": "Visit Bloomington",
-            "total": 106,
-            "with_image": 68
+            "total": 105,
+            "with_image": 67
           },
           {
             "source": "Brown County Playhouse",
@@ -15831,8 +15831,8 @@
           },
           {
             "source": "IU Asian Culture Center, IU beINvolved Student Orgs",
-            "total": 18,
-            "with_image": 18
+            "total": 17,
+            "with_image": 17
           },
           {
             "source": "Boys & Girls Club Bloomington",
@@ -15850,14 +15850,14 @@
             "with_image": 14
           },
           {
-            "source": "The Comedy Attic",
-            "total": 16,
-            "with_image": 13
-          },
-          {
             "source": "Bloomington Arts, CitySpark Bloomington",
             "total": 13,
             "with_image": 13
+          },
+          {
+            "source": "The Comedy Attic",
+            "total": 15,
+            "with_image": 12
           },
           {
             "source": "IU Bloomington Libraries",
@@ -15900,19 +15900,19 @@
             "with_image": 8
           },
           {
-            "source": "Cardinal Spirits",
-            "total": 7,
-            "with_image": 7
-          },
-          {
             "source": "Morgenstern Books",
             "total": 7,
             "with_image": 7
           },
           {
-            "source": "Bloomington Arts, CitySpark Bloomington, Constellation Stage & Screen",
-            "total": 7,
-            "with_image": 7
+            "source": "Cardinal Spirits",
+            "total": 6,
+            "with_image": 6
+          },
+          {
+            "source": "CitySpark Bloomington, The Comedy Attic, Visit Bloomington",
+            "total": 6,
+            "with_image": 6
           },
           {
             "source": "IU Hamilton Lugar School, IU La Casa Latino Cultural Center",
@@ -15925,7 +15925,7 @@
             "with_image": 6
           },
           {
-            "source": "CitySpark Bloomington, The Comedy Attic, Visit Bloomington",
+            "source": "CitySpark Bloomington, The Comedy Attic",
             "total": 5,
             "with_image": 5
           },
@@ -15945,13 +15945,8 @@
             "with_image": 5
           },
           {
-            "source": "Bloomington Spinners & Weavers Guild",
-            "total": 30,
-            "with_image": 4
-          },
-          {
-            "source": "CitySpark Bloomington, Sycamore Land Trust",
-            "total": 4,
+            "source": "CitySpark Bloomington, Visit Bloomington",
+            "total": 5,
             "with_image": 4
           },
           {
@@ -15965,23 +15960,13 @@
             "with_image": 4
           },
           {
-            "source": "CitySpark Bloomington, The Comedy Attic",
-            "total": 4,
-            "with_image": 4
-          },
-          {
             "source": "The Bluebird",
             "total": 3,
             "with_image": 3
           },
           {
-            "source": "Bloomington Government, CitySpark Bloomington",
-            "total": 7,
-            "with_image": 3
-          },
-          {
-            "source": "CitySpark Bloomington, Visit Bloomington",
-            "total": 4,
+            "source": "Bloomington Spinners & Weavers Guild",
+            "total": 27,
             "with_image": 3
           },
           {
@@ -16071,16 +16056,11 @@
           },
           {
             "source": "IU Maurer School of Law",
-            "total": 42,
+            "total": 43,
             "with_image": 1
           },
           {
             "source": "IU Arts & Humanities Institute, IU Bloomington Libraries",
-            "total": 1,
-            "with_image": 1
-          },
-          {
-            "source": "The Comedy Attic, Visit Bloomington",
             "total": 1,
             "with_image": 1
           },
@@ -34337,9 +34317,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 835,
-        "total_events": 835,
-        "unique_urls": 801,
+        "total_with_url": 833,
+        "total_events": 833,
+        "unique_urls": 799,
         "generic_count": 27,
         "generic_domains": [
           {
@@ -34363,8 +34343,8 @@
         "source_specificity": [
           {
             "source": "Griffo Distillery",
-            "events": 259,
-            "unique_urls": 259,
+            "events": 258,
+            "unique_urls": 258,
             "specificity_pct": 100
           },
           {
@@ -34393,8 +34373,8 @@
           },
           {
             "source": "Petaluma Downtown Association",
-            "events": 36,
-            "unique_urls": 36,
+            "events": 35,
+            "unique_urls": 35,
             "specificity_pct": 100
           },
           {
@@ -34460,7 +34440,7 @@
         },
         {
           "category": "Music / Concerts",
-          "count": 152
+          "count": 150
         },
         {
           "category": "Community / Social",
@@ -34520,13 +34500,13 @@
         }
       ],
       "images": {
-        "total": 835,
-        "with_image": 605,
+        "total": 833,
+        "with_image": 603,
         "by_source": [
           {
             "source": "Griffo Distillery",
-            "total": 259,
-            "with_image": 248
+            "total": 258,
+            "with_image": 247
           },
           {
             "source": "SRJC Petaluma Campus",
@@ -34545,8 +34525,8 @@
           },
           {
             "source": "Petaluma Downtown Association",
-            "total": 36,
-            "with_image": 36
+            "total": 35,
+            "with_image": 35
           },
           {
             "source": "The Big Easy",
@@ -42807,6 +42787,10 @@
             {
               "date": "2026-03-15",
               "count": 9
+            },
+            {
+              "date": "2026-03-16",
+              "count": 9
             }
           ]
         },
@@ -42831,6 +42815,10 @@
             {
               "date": "2026-03-15",
               "count": 18
+            },
+            {
+              "date": "2026-03-16",
+              "count": 17
             }
           ]
         },
@@ -42854,6 +42842,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -42879,6 +42871,10 @@
             {
               "date": "2026-03-15",
               "count": 9
+            },
+            {
+              "date": "2026-03-16",
+              "count": 9
             }
           ]
         },
@@ -42902,6 +42898,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 2
+            },
+            {
+              "date": "2026-03-16",
               "count": 2
             }
           ]
@@ -42927,6 +42927,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 3
             }
           ]
         },
@@ -42951,6 +42955,10 @@
             {
               "date": "2026-03-15",
               "count": 2
+            },
+            {
+              "date": "2026-03-16",
+              "count": 1
             }
           ]
         },
@@ -42974,6 +42982,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -42999,6 +43011,10 @@
             {
               "date": "2026-03-15",
               "count": 136
+            },
+            {
+              "date": "2026-03-16",
+              "count": 136
             }
           ]
         },
@@ -43023,6 +43039,10 @@
             {
               "date": "2026-03-15",
               "count": 17
+            },
+            {
+              "date": "2026-03-16",
+              "count": 16
             }
           ]
         },
@@ -43046,6 +43066,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 55
+            },
+            {
+              "date": "2026-03-16",
               "count": 55
             }
           ]
@@ -43071,6 +43095,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -43094,6 +43122,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -43119,6 +43151,10 @@
             {
               "date": "2026-03-15",
               "count": 71
+            },
+            {
+              "date": "2026-03-16",
+              "count": 71
             }
           ]
         },
@@ -43142,6 +43178,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -43167,6 +43207,10 @@
             {
               "date": "2026-03-15",
               "count": 21
+            },
+            {
+              "date": "2026-03-16",
+              "count": 21
             }
           ]
         },
@@ -43190,6 +43234,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 39
+            },
+            {
+              "date": "2026-03-16",
               "count": 39
             }
           ]
@@ -43215,6 +43263,10 @@
             {
               "date": "2026-03-15",
               "count": 24
+            },
+            {
+              "date": "2026-03-16",
+              "count": 24
             }
           ]
         },
@@ -43238,6 +43290,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 3
+            },
+            {
+              "date": "2026-03-16",
               "count": 3
             }
           ]
@@ -43263,6 +43319,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 22
             }
           ]
         }
@@ -43277,48 +43337,48 @@
           "count": 45
         },
         {
-          "category": "Music / Concerts",
-          "count": 28
+          "category": "Education / Workshops",
+          "count": 31
         },
         {
-          "category": "Education / Workshops",
-          "count": 24
+          "category": "Music / Concerts",
+          "count": 27
         },
         {
           "category": "Sports / Fitness",
-          "count": 24
+          "count": 25
         },
         {
-          "category": "(uncategorized)",
-          "count": 13
+          "category": "Arts / Culture",
+          "count": 18
         },
         {
-          "category": "Books / Literature / Poetry",
-          "count": 9
+          "category": "Family / Kids",
+          "count": 16
         },
         {
           "category": "Food / Drink",
           "count": 8
         },
         {
-          "category": "Family / Kids",
+          "category": "Books / Literature / Poetry",
           "count": 8
         },
         {
-          "category": "Arts / Culture",
-          "count": 5
+          "category": "Health / Wellness",
+          "count": 6
         },
         {
           "category": "Nature / Outdoors / Recreation",
           "count": 5
         },
         {
-          "category": "Health / Wellness",
-          "count": 5
-        },
-        {
           "category": "Religion / Spirituality",
           "count": 4
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 2
         },
         {
           "category": "Comedy / Improv",
@@ -43330,12 +43390,17 @@
         }
       ],
       "images": {
-        "total": 394,
-        "with_image": 48,
+        "total": 411,
+        "with_image": 66,
         "by_source": [
           {
+            "source": "Taubman Museum of Art",
+            "total": 21,
+            "with_image": 20
+          },
+          {
             "source": "Hollins University",
-            "total": 18,
+            "total": 17,
             "with_image": 12
           },
           {
@@ -43345,8 +43410,8 @@
           },
           {
             "source": "Meetup Sw Va Toastmasters",
-            "total": 10,
-            "with_image": 10
+            "total": 9,
+            "with_image": 9
           },
           {
             "source": "Meetup Pathfinders Greenways",
@@ -43359,21 +43424,21 @@
             "with_image": 3
           },
           {
-            "source": "Meetup Shut Up Write",
+            "source": "Meetup Roanoke Spiritual",
             "total": 2,
             "with_image": 2
           },
           {
-            "source": "Meetup Roanoke Spiritual",
-            "total": 2,
-            "with_image": 2
+            "source": "Meetup Shut Up Write",
+            "total": 1,
+            "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 387,
-        "total_events": 394,
-        "unique_urls": 387,
+        "total_with_url": 404,
+        "total_events": 411,
+        "unique_urls": 404,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -43410,15 +43475,21 @@
             "specificity_pct": 100
           },
           {
+            "source": "Taubman Museum of Art",
+            "events": 21,
+            "unique_urls": 21,
+            "specificity_pct": 100
+          },
+          {
             "source": "Hollins University",
-            "events": 18,
-            "unique_urls": 18,
+            "events": 17,
+            "unique_urls": 17,
             "specificity_pct": 100
           },
           {
             "source": "Roanoke Regional Chamber",
-            "events": 17,
-            "unique_urls": 17,
+            "events": 16,
+            "unique_urls": 16,
             "specificity_pct": 100
           },
           {
@@ -43429,8 +43500,8 @@
           },
           {
             "source": "Meetup Sw Va Toastmasters",
-            "events": 10,
-            "unique_urls": 10,
+            "events": 9,
+            "unique_urls": 9,
             "specificity_pct": 100
           },
           {
@@ -43452,15 +43523,15 @@
             "specificity_pct": 100
           },
           {
-            "source": "Meetup Shut Up Write",
+            "source": "Meetup Roanoke Spiritual",
             "events": 2,
             "unique_urls": 2,
             "specificity_pct": 100
           },
           {
-            "source": "Meetup Roanoke Spiritual",
-            "events": 2,
-            "unique_urls": 2,
+            "source": "Meetup Shut Up Write",
+            "events": 1,
+            "unique_urls": 1,
             "specificity_pct": 100
           }
         ]
@@ -43489,6 +43560,10 @@
             {
               "date": "2026-03-15",
               "count": 19
+            },
+            {
+              "date": "2026-03-16",
+              "count": 19
             }
           ]
         },
@@ -43512,6 +43587,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 30
+            },
+            {
+              "date": "2026-03-16",
               "count": 30
             }
           ]
@@ -43537,6 +43616,10 @@
             {
               "date": "2026-03-15",
               "count": 2
+            },
+            {
+              "date": "2026-03-16",
+              "count": 2
             }
           ]
         },
@@ -43560,6 +43643,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 558
+            },
+            {
+              "date": "2026-03-16",
               "count": 558
             }
           ]
@@ -43585,6 +43672,10 @@
             {
               "date": "2026-03-15",
               "count": 29
+            },
+            {
+              "date": "2026-03-16",
+              "count": 30
             }
           ]
         },
@@ -43609,6 +43700,10 @@
             {
               "date": "2026-03-15",
               "count": 23
+            },
+            {
+              "date": "2026-03-16",
+              "count": 24
             }
           ]
         },
@@ -43632,6 +43727,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -43657,6 +43756,10 @@
             {
               "date": "2026-03-15",
               "count": 24
+            },
+            {
+              "date": "2026-03-16",
+              "count": 24
             }
           ]
         },
@@ -43680,6 +43783,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 31
+            },
+            {
+              "date": "2026-03-16",
               "count": 31
             }
           ]
@@ -43705,6 +43812,10 @@
             {
               "date": "2026-03-15",
               "count": 5
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -43728,6 +43839,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 4
+            },
+            {
+              "date": "2026-03-16",
               "count": 4
             }
           ]
@@ -43753,6 +43868,10 @@
             {
               "date": "2026-03-15",
               "count": 19
+            },
+            {
+              "date": "2026-03-16",
+              "count": 19
             }
           ]
         }
@@ -43764,31 +43883,31 @@
         },
         {
           "category": "Sports / Fitness",
-          "count": 112
+          "count": 114
         },
         {
           "category": "Family / Kids",
-          "count": 94
+          "count": 99
         },
         {
           "category": "Government / Civic",
-          "count": 83
+          "count": 86
         },
         {
           "category": "Community / Social",
-          "count": 83
+          "count": 85
         },
         {
           "category": "(uncategorized)",
-          "count": 51
+          "count": 40
         },
         {
           "category": "Music / Concerts",
-          "count": 22
+          "count": 23
         },
         {
           "category": "Food / Drink",
-          "count": 18
+          "count": 19
         },
         {
           "category": "Dance / Performance",
@@ -43808,7 +43927,7 @@
         },
         {
           "category": "History / Heritage",
-          "count": 6
+          "count": 5
         },
         {
           "category": "Nature / Outdoors / Recreation",
@@ -43820,25 +43939,25 @@
         }
       ],
       "images": {
-        "total": 672,
-        "with_image": 19,
+        "total": 674,
+        "with_image": 20,
         "by_source": [
           {
             "source": "Connect Mat-Su",
             "total": 26,
-            "with_image": 19
+            "with_image": 20
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 672,
-        "total_events": 672,
-        "unique_urls": 189,
-        "generic_count": 484,
+        "total_with_url": 674,
+        "total_events": 674,
+        "unique_urls": 190,
+        "generic_count": 485,
         "generic_domains": [
           {
             "domain": "www.matsuk12.us",
-            "events": 484,
+            "events": 485,
             "url": "https://www.matsuk12.us/about-us/calendars"
           }
         ],
@@ -43847,7 +43966,7 @@
         "source_specificity": [
           {
             "source": "Mat-Su School District",
-            "events": 486,
+            "events": 487,
             "unique_urls": 3,
             "specificity_pct": 1
           },
@@ -43859,8 +43978,8 @@
           },
           {
             "source": "Skeetawk / Hatcher Pass",
-            "events": 28,
-            "unique_urls": 28,
+            "events": 29,
+            "unique_urls": 29,
             "specificity_pct": 100
           },
           {
@@ -43877,8 +43996,8 @@
           },
           {
             "source": "Visit Palmer",
-            "events": 21,
-            "unique_urls": 21,
+            "events": 22,
+            "unique_urls": 22,
             "specificity_pct": 100
           },
           {
@@ -43889,8 +44008,8 @@
           },
           {
             "source": "Mat-Su Convention & Visitors Bureau",
-            "events": 11,
-            "unique_urls": 11,
+            "events": 10,
+            "unique_urls": 10,
             "specificity_pct": 100
           },
           {
@@ -43961,6 +44080,10 @@
             {
               "date": "2026-03-15",
               "count": 31
+            },
+            {
+              "date": "2026-03-16",
+              "count": 29
             }
           ]
         },
@@ -43984,6 +44107,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -44009,6 +44136,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -44032,6 +44163,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -44057,6 +44192,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -44080,6 +44219,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -44105,6 +44248,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -44128,6 +44275,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 30
+            },
+            {
+              "date": "2026-03-16",
               "count": 30
             }
           ]
@@ -44153,6 +44304,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -44177,6 +44332,10 @@
             {
               "date": "2026-03-15",
               "count": 25
+            },
+            {
+              "date": "2026-03-16",
+              "count": 24
             }
           ]
         },
@@ -44201,6 +44360,10 @@
             {
               "date": "2026-03-15",
               "count": 17
+            },
+            {
+              "date": "2026-03-16",
+              "count": 14
             }
           ]
         },
@@ -44224,6 +44387,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -44249,6 +44416,10 @@
             {
               "date": "2026-03-15",
               "count": 7
+            },
+            {
+              "date": "2026-03-16",
+              "count": 6
             }
           ]
         },
@@ -44272,6 +44443,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -44297,6 +44472,10 @@
             {
               "date": "2026-03-15",
               "count": 1
+            },
+            {
+              "date": "2026-03-16",
+              "count": 1
             }
           ]
         },
@@ -44320,6 +44499,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 3
+            },
+            {
+              "date": "2026-03-16",
               "count": 3
             }
           ]
@@ -44345,6 +44528,10 @@
             {
               "date": "2026-03-15",
               "count": 4
+            },
+            {
+              "date": "2026-03-16",
+              "count": 3
             }
           ]
         },
@@ -44368,6 +44555,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -44393,6 +44584,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -44416,6 +44611,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -44441,6 +44640,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -44464,6 +44667,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -44489,6 +44696,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 3
             }
           ]
         },
@@ -44512,6 +44723,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 24
+            },
+            {
+              "date": "2026-03-16",
               "count": 24
             }
           ]
@@ -44537,6 +44752,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -44561,6 +44780,10 @@
             {
               "date": "2026-03-15",
               "count": 55
+            },
+            {
+              "date": "2026-03-16",
+              "count": 54
             }
           ]
         },
@@ -44585,6 +44808,10 @@
             {
               "date": "2026-03-15",
               "count": 337
+            },
+            {
+              "date": "2026-03-16",
+              "count": 329
             }
           ]
         }
@@ -44592,15 +44819,15 @@
       "categories": [
         {
           "category": "Religion / Spirituality",
-          "count": 185
+          "count": 186
         },
         {
           "category": "Education / Workshops",
-          "count": 155
+          "count": 146
         },
         {
           "category": "Community / Social",
-          "count": 60
+          "count": 56
         },
         {
           "category": "Government / Civic",
@@ -44619,12 +44846,12 @@
           "count": 11
         },
         {
-          "category": "(uncategorized)",
-          "count": 8
+          "category": "Arts / Culture",
+          "count": 6
         },
         {
-          "category": "Arts / Culture",
-          "count": 7
+          "category": "(uncategorized)",
+          "count": 6
         },
         {
           "category": "History / Heritage",
@@ -44635,12 +44862,12 @@
           "count": 4
         },
         {
-          "category": "Nature / Outdoors / Recreation",
+          "category": "Dance / Performance",
           "count": 3
         },
         {
-          "category": "Dance / Performance",
-          "count": 3
+          "category": "Nature / Outdoors / Recreation",
+          "count": 2
         },
         {
           "category": "Health / Wellness",
@@ -44656,8 +44883,8 @@
         }
       ],
       "images": {
-        "total": 497,
-        "with_image": 88,
+        "total": 481,
+        "with_image": 85,
         "by_source": [
           {
             "source": "Jcc East Bay",
@@ -44666,13 +44893,8 @@
           },
           {
             "source": "Jewish Fed",
-            "total": 22,
-            "with_image": 17
-          },
-          {
-            "source": "Magnes",
-            "total": 7,
-            "with_image": 7
+            "total": 21,
+            "with_image": 16
           },
           {
             "source": "JCCSF, Jccsf",
@@ -44680,14 +44902,14 @@
             "with_image": 6
           },
           {
+            "source": "Magnes",
+            "total": 6,
+            "with_image": 6
+          },
+          {
             "source": "Marin Jcc",
             "total": 5,
             "with_image": 5
-          },
-          {
-            "source": "Meetup Mountain Jew",
-            "total": 4,
-            "with_image": 4
           },
           {
             "source": "JCC East Bay",
@@ -44701,7 +44923,12 @@
           },
           {
             "source": "Temple Beth Abraham",
-            "total": 335,
+            "total": 327,
+            "with_image": 3
+          },
+          {
+            "source": "Meetup Mountain Jew",
+            "total": 3,
             "with_image": 3
           },
           {
@@ -44742,9 +44969,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 445,
-        "total_events": 497,
-        "unique_urls": 445,
+        "total_with_url": 431,
+        "total_events": 481,
+        "unique_urls": 431,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -44752,8 +44979,8 @@
         "source_specificity": [
           {
             "source": "Temple Beth Abraham",
-            "events": 335,
-            "unique_urls": 335,
+            "events": 327,
+            "unique_urls": 327,
             "specificity_pct": 100
           },
           {
@@ -44764,20 +44991,14 @@
           },
           {
             "source": "Jewish Fed",
-            "events": 22,
-            "unique_urls": 22,
+            "events": 21,
+            "unique_urls": 21,
             "specificity_pct": 100
           },
           {
             "source": "Jweekly",
-            "events": 14,
-            "unique_urls": 14,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Magnes",
-            "events": 7,
-            "unique_urls": 7,
+            "events": 11,
+            "unique_urls": 11,
             "specificity_pct": 100
           },
           {
@@ -44787,15 +45008,15 @@
             "specificity_pct": 100
           },
           {
-            "source": "Marin Jcc",
-            "events": 5,
-            "unique_urls": 5,
+            "source": "Magnes",
+            "events": 6,
+            "unique_urls": 6,
             "specificity_pct": 100
           },
           {
-            "source": "Meetup Mountain Jew",
-            "events": 4,
-            "unique_urls": 4,
+            "source": "Marin Jcc",
+            "events": 5,
+            "unique_urls": 5,
             "specificity_pct": 100
           },
           {
@@ -44812,6 +45033,12 @@
           },
           {
             "source": "Jvs",
+            "events": 3,
+            "unique_urls": 3,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Meetup Mountain Jew",
             "events": 3,
             "unique_urls": 3,
             "specificity_pct": 100
@@ -44866,6 +45093,10 @@
             {
               "date": "2026-03-15",
               "count": 19
+            },
+            {
+              "date": "2026-03-16",
+              "count": 18
             }
           ]
         },
@@ -44890,6 +45121,10 @@
             {
               "date": "2026-03-15",
               "count": 152
+            },
+            {
+              "date": "2026-03-16",
+              "count": 150
             }
           ]
         },
@@ -44913,6 +45148,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -44938,6 +45177,10 @@
             {
               "date": "2026-03-15",
               "count": 2
+            },
+            {
+              "date": "2026-03-16",
+              "count": 2
             }
           ]
         },
@@ -44962,6 +45205,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 2
             }
           ]
         },
@@ -44985,6 +45232,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -45010,6 +45261,10 @@
             {
               "date": "2026-03-15",
               "count": 222
+            },
+            {
+              "date": "2026-03-16",
+              "count": 221
             }
           ]
         },
@@ -45034,6 +45289,10 @@
             {
               "date": "2026-03-15",
               "count": 21
+            },
+            {
+              "date": "2026-03-16",
+              "count": 18
             }
           ]
         },
@@ -45058,6 +45317,10 @@
             {
               "date": "2026-03-15",
               "count": 400
+            },
+            {
+              "date": "2026-03-16",
+              "count": 397
             }
           ]
         },
@@ -45082,6 +45345,10 @@
             {
               "date": "2026-03-15",
               "count": 432
+            },
+            {
+              "date": "2026-03-16",
+              "count": 429
             }
           ]
         },
@@ -45105,6 +45372,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 30
+            },
+            {
+              "date": "2026-03-16",
               "count": 30
             }
           ]
@@ -45130,6 +45401,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -45153,6 +45428,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -45178,6 +45457,10 @@
             {
               "date": "2026-03-15",
               "count": 24
+            },
+            {
+              "date": "2026-03-16",
+              "count": 23
             }
           ]
         },
@@ -45202,6 +45485,10 @@
             {
               "date": "2026-03-15",
               "count": 260
+            },
+            {
+              "date": "2026-03-16",
+              "count": 259
             }
           ]
         },
@@ -45226,6 +45513,10 @@
             {
               "date": "2026-03-15",
               "count": 275
+            },
+            {
+              "date": "2026-03-16",
+              "count": 267
             }
           ]
         },
@@ -45250,6 +45541,10 @@
             {
               "date": "2026-03-15",
               "count": 38
+            },
+            {
+              "date": "2026-03-16",
+              "count": 36
             }
           ]
         },
@@ -45273,6 +45568,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45298,6 +45597,10 @@
             {
               "date": "2026-03-15",
               "count": 12
+            },
+            {
+              "date": "2026-03-16",
+              "count": 12
             }
           ]
         },
@@ -45321,6 +45624,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45346,6 +45653,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45370,6 +45681,10 @@
             {
               "date": "2026-03-15",
               "count": 27
+            },
+            {
+              "date": "2026-03-16",
+              "count": 25
             }
           ]
         },
@@ -45393,6 +45708,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45418,6 +45737,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45441,6 +45764,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 15
+            },
+            {
+              "date": "2026-03-16",
               "count": 15
             }
           ]
@@ -45466,6 +45793,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45489,6 +45820,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -45514,6 +45849,10 @@
             {
               "date": "2026-03-15",
               "count": 1
+            },
+            {
+              "date": "2026-03-16",
+              "count": 1
             }
           ]
         },
@@ -45538,6 +45877,10 @@
             {
               "date": "2026-03-15",
               "count": 128
+            },
+            {
+              "date": "2026-03-16",
+              "count": 129
             }
           ]
         },
@@ -45561,6 +45904,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45586,6 +45933,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45609,6 +45960,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45634,6 +45989,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45657,6 +46016,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45682,6 +46045,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45705,6 +46072,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45730,6 +46101,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45753,6 +46128,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -45778,6 +46157,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -45801,6 +46184,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -45826,6 +46213,10 @@
             {
               "date": "2026-03-15",
               "count": 6
+            },
+            {
+              "date": "2026-03-16",
+              "count": 6
             }
           ]
         },
@@ -45849,6 +46240,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -45874,6 +46269,10 @@
             {
               "date": "2026-03-15",
               "count": 1
+            },
+            {
+              "date": "2026-03-16",
+              "count": 1
             }
           ]
         },
@@ -45898,6 +46297,10 @@
             {
               "date": "2026-03-15",
               "count": 67
+            },
+            {
+              "date": "2026-03-16",
+              "count": 65
             }
           ]
         },
@@ -45922,6 +46325,10 @@
             {
               "date": "2026-03-15",
               "count": 11
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -45945,6 +46352,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 4
+            },
+            {
+              "date": "2026-03-16",
               "count": 4
             }
           ]
@@ -45970,6 +46381,266 @@
             {
               "date": "2026-03-15",
               "count": 38
+            },
+            {
+              "date": "2026-03-16",
+              "count": 37
+            }
+          ]
+        },
+        "cityspark_evanston": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 1157
+            }
+          ]
+        },
+        "eb_blast_northwestern": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_booked": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_buffett_institute": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_creative_coworking": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_evanston_art_center": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_homeschool_hue": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_main_dempster": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_mezcla": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_northshore_concert_band": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_rhythm_revolution": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eb_stewpendous": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "eisenhower_library": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 398
+            }
+          ]
+        },
+        "enjoy_evanston": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 32
+            }
+          ]
+        },
+        "evanston_bike_club": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 210
+            }
+          ]
+        },
+        "evanston_legion": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 24
+            }
+          ]
+        },
+        "evanston_made": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 29
+            }
+          ]
+        },
+        "first_presbyterian": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 9
+            }
+          ]
+        },
+        "first_united_methodist": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 0
+            }
+          ]
+        },
+        "forest_preserves": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 30
+            }
+          ]
+        },
+        "garrett_seminary": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 27
+            }
+          ]
+        },
+        "gichigamiin_museum": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 19
+            }
+          ]
+        },
+        "north_branch_restoration": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 9
+            }
+          ]
+        },
+        "northlight_theatre": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 30
+            }
+          ]
+        },
+        "northwestern_community": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 95
+            }
+          ]
+        },
+        "oldtownschool": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 36
+            }
+          ]
+        },
+        "skokie_parks": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 148
+            }
+          ]
+        },
+        "skokie_public_meetings": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 373
+            }
+          ]
+        },
+        "skokie_storefront": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 16
+            }
+          ]
+        },
+        "songkick_space": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 5
+            }
+          ]
+        },
+        "visit_north_shore": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 45
+            }
+          ]
+        },
+        "wilmette_park_district": {
+          "history": [
+            {
+              "date": "2026-03-16",
+              "count": 7
             }
           ]
         }
@@ -45977,109 +46648,144 @@
       "categories": [
         {
           "category": "Family / Kids",
-          "count": 424
+          "count": 607
         },
         {
           "category": "Education / Workshops",
-          "count": 383
-        },
-        {
-          "category": "Arts / Culture",
-          "count": 193
-        },
-        {
-          "category": "Community / Social",
-          "count": 148
-        },
-        {
-          "category": "Music / Concerts",
-          "count": 132
+          "count": 513
         },
         {
           "category": "Government / Civic",
-          "count": 105
+          "count": 491
         },
         {
-          "category": "Books / Literature / Poetry",
-          "count": 105
+          "category": "Arts / Culture",
+          "count": 363
         },
         {
-          "category": "Health / Wellness",
-          "count": 78
+          "category": "Community / Social",
+          "count": 343
         },
         {
           "category": "Sports / Fitness",
-          "count": 67
+          "count": 301
         },
         {
-          "category": "Film / Cinema",
-          "count": 54
-        },
-        {
-          "category": "History / Heritage",
-          "count": 51
+          "category": "Music / Concerts",
+          "count": 269
         },
         {
           "category": "Food / Drink",
-          "count": 50
+          "count": 211
         },
         {
-          "category": "(uncategorized)",
-          "count": 33
-        },
-        {
-          "category": "Nature / Outdoors / Recreation",
-          "count": 29
+          "category": "Books / Literature / Poetry",
+          "count": 134
         },
         {
           "category": "Dance / Performance",
-          "count": 26
+          "count": 126
+        },
+        {
+          "category": "Health / Wellness",
+          "count": 117
+        },
+        {
+          "category": "Nature / Outdoors / Recreation",
+          "count": 83
+        },
+        {
+          "category": "Film / Cinema",
+          "count": 77
+        },
+        {
+          "category": "History / Heritage",
+          "count": 75
         },
         {
           "category": "Religion / Spirituality",
-          "count": 11
+          "count": 42
         },
         {
           "category": "Comedy / Improv",
-          "count": 7
+          "count": 33
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 13
         }
       ],
       "images": {
-        "total": 1896,
-        "with_image": 468,
+        "total": 3798,
+        "with_image": 1453,
         "by_source": [
           {
+            "source": "CitySpark Evanston",
+            "total": 907,
+            "with_image": 828
+          },
+          {
             "source": "Chicago Botanic Garden",
-            "total": 124,
-            "with_image": 124
+            "total": 125,
+            "with_image": 125
           },
           {
             "source": "Winnetka Northfield Library",
-            "total": 242,
-            "with_image": 114
+            "total": 238,
+            "with_image": 113
           },
           {
             "source": "Morton Grove Library",
-            "total": 199,
+            "total": 198,
             "with_image": 67
           },
           {
-            "source": "Ticketmaster/Evanston Venues",
-            "total": 65,
-            "with_image": 65
+            "source": "CitySpark Evanston, Ticketmaster/Evanston Venues",
+            "total": 54,
+            "with_image": 54
           },
           {
             "source": "Beth Emet",
             "total": 28,
-            "with_image": 25
+            "with_image": 24
           },
           {
-            "source": "Meetup Evanston Writers",
+            "source": "Visit Chicago North Shore",
+            "total": 23,
+            "with_image": 23
+          },
+          {
+            "source": "Garrett Seminary",
+            "total": 25,
+            "with_image": 20
+          },
+          {
+            "source": "Enjoy Evanston",
+            "total": 19,
+            "with_image": 19
+          },
+          {
+            "source": "Evanston Made",
+            "total": 16,
+            "with_image": 16
+          },
+          {
+            "source": "CitySpark Evanston, Visit Chicago North Shore",
+            "total": 12,
+            "with_image": 12
+          },
+          {
+            "source": "Gichigamiin Museum",
+            "total": 12,
+            "with_image": 12
+          },
+          {
+            "source": "Meetup Af Northshore",
             "total": 10,
             "with_image": 10
           },
           {
-            "source": "Meetup Af Northshore",
+            "source": "Meetup Evanston Writers",
             "total": 10,
             "with_image": 10
           },
@@ -46089,9 +46795,34 @@
             "with_image": 10
           },
           {
+            "source": "First Presbyterian",
+            "total": 8,
+            "with_image": 8
+          },
+          {
+            "source": "CitySpark Evanston, Enjoy Evanston",
+            "total": 8,
+            "with_image": 8
+          },
+          {
+            "source": "Wilmette Park District",
+            "total": 7,
+            "with_image": 7
+          },
+          {
+            "source": "CitySpark Evanston, Gichigamiin Museum",
+            "total": 7,
+            "with_image": 7
+          },
+          {
             "source": "Goldfish Swim School Evanston",
             "total": 7,
             "with_image": 7
+          },
+          {
+            "source": "Ticketmaster/Evanston Venues",
+            "total": 6,
+            "with_image": 6
           },
           {
             "source": "Block Museum of Art",
@@ -46099,7 +46830,12 @@
             "with_image": 6
           },
           {
-            "source": "Bookends & Beginnings",
+            "source": "Forest Preserves",
+            "total": 5,
+            "with_image": 5
+          },
+          {
+            "source": "North Branch Restoration",
             "total": 5,
             "with_image": 5
           },
@@ -46109,12 +46845,7 @@
             "with_image": 5
           },
           {
-            "source": "YWCA Evanston/North Shore",
-            "total": 4,
-            "with_image": 4
-          },
-          {
-            "source": "Meetup: Yolo Board Game Gathering",
+            "source": "CitySpark Evanston, Evanston Made",
             "total": 3,
             "with_image": 3
           },
@@ -46124,7 +46855,32 @@
             "with_image": 3
           },
           {
+            "source": "Bookends & Beginnings",
+            "total": 3,
+            "with_image": 3
+          },
+          {
+            "source": "YWCA Evanston/North Shore",
+            "total": 3,
+            "with_image": 3
+          },
+          {
+            "source": "Buffett Institute",
+            "total": 4,
+            "with_image": 3
+          },
+          {
+            "source": "Eisenhower Library, Skokie Library",
+            "total": 2,
+            "with_image": 2
+          },
+          {
             "source": "Open Studio Project",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "Meetup Board Games",
             "total": 2,
             "with_image": 2
           },
@@ -46134,22 +46890,87 @@
             "with_image": 2
           },
           {
+            "source": "Buffett Institute, Northwestern University (Community)",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "CitySpark Evanston, Ticketmaster/Evanston Venues, Visit Chicago North Shore",
+            "total": 2,
+            "with_image": 2
+          },
+          {
+            "source": "Booked",
+            "total": 2,
+            "with_image": 2
+          },
+          {
             "source": "Lincolnwood Library",
-            "total": 144,
+            "total": 140,
             "with_image": 1
           },
           {
             "source": "Evanston History Center",
-            "total": 19,
+            "total": 18,
             "with_image": 1
           },
           {
-            "source": "Ticketmaster/Evanston",
+            "source": "Bookends & Beginnings, CitySpark Evanston, Enjoy Evanston",
             "total": 1,
             "with_image": 1
           },
           {
             "source": "Meetup Trivia Nerds",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Evanston Art Center",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Rhythm Revolution",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "CitySpark Evanston, Enjoy Evanston, YWCA Evanston/North Shore",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Bookends & Beginnings, CitySpark Evanston",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "BLAST Northwestern",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "CitySpark Evanston, First Presbyterian",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Homeschool + Hue",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Mezcla Media Collective",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Creative Coworking, Visit Chicago North Shore",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Northshore Concert Band",
             "total": 1,
             "with_image": 1
           },
@@ -46162,112 +46983,157 @@
             "source": "The Backyard Barbecue Store",
             "total": 1,
             "with_image": 1
+          },
+          {
+            "source": "CitySpark Evanston, The Main-Dempster Mile, Visit Chicago North Shore",
+            "total": 1,
+            "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 1879,
-        "total_events": 1896,
-        "unique_urls": 1705,
-        "generic_count": 10,
+        "total_with_url": 3720,
+        "total_events": 3798,
+        "unique_urls": 3076,
+        "generic_count": 301,
         "generic_domains": [
+          {
+            "domain": "wilmette.libnet.info",
+            "events": 122,
+            "url": "https://wilmette.libnet.info/events"
+          },
+          {
+            "domain": "www.hhevanston.com",
+            "events": 52,
+            "url": "https://www.hhevanston.com/events"
+          },
+          {
+            "domain": "www.puttshack.com",
+            "events": 46,
+            "url": "https://www.puttshack.com/locations/skokie"
+          },
+          {
+            "domain": "www.eths.k12.il.us",
+            "events": 33,
+            "url": "https://www.eths.k12.il.us/"
+          },
+          {
+            "domain": "andersonville.org",
+            "events": 14,
+            "url": "https://andersonville.org/events/restaurant-week/"
+          },
           {
             "domain": "www.eths202.org",
             "events": 10,
             "url": "https://www.eths202.org/calendar"
+          },
+          {
+            "domain": "artscircle.northwestern.edu",
+            "events": 9,
+            "url": "https://artscircle.northwestern.edu/"
+          },
+          {
+            "domain": "physics.northwestern.edu",
+            "events": 9,
+            "url": "https://physics.northwestern.edu/about/dearborn-observatory/index.html"
+          },
+          {
+            "domain": "bookendsandbeginnings.com",
+            "events": 6,
+            "url": "https://bookendsandbeginnings.com/event/2025-05-10/saturday-storytime"
           }
         ],
-        "http_count": 0,
-        "http_domains": 0,
+        "http_count": 9,
+        "http_domains": 5,
         "source_specificity": [
           {
+            "source": "CitySpark Evanston",
+            "events": 907,
+            "unique_urls": 537,
+            "specificity_pct": 59
+          },
+          {
             "source": "Skokie Library",
-            "events": 412,
-            "unique_urls": 412,
+            "events": 406,
+            "unique_urls": 406,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Skokie Public Meetings",
+            "events": 373,
+            "unique_urls": 373,
             "specificity_pct": 100
           },
           {
             "source": "Winnetka Northfield Library",
-            "events": 242,
-            "unique_urls": 242,
+            "events": 238,
+            "unique_urls": 238,
             "specificity_pct": 100
           },
           {
             "source": "Oakton College",
-            "events": 222,
-            "unique_urls": 182,
-            "specificity_pct": 82
+            "events": 218,
+            "unique_urls": 180,
+            "specificity_pct": 83
           },
           {
             "source": "Morton Grove Library",
-            "events": 199,
-            "unique_urls": 199,
+            "events": 198,
+            "unique_urls": 198,
             "specificity_pct": 100
           },
           {
             "source": "Northwestern University",
-            "events": 196,
-            "unique_urls": 77,
-            "specificity_pct": 39
+            "events": 183,
+            "unique_urls": 68,
+            "specificity_pct": 37
+          },
+          {
+            "source": "Evanston Bike Club",
+            "events": 164,
+            "unique_urls": 99,
+            "specificity_pct": 60
           },
           {
             "source": "Lincolnwood Library",
-            "events": 144,
-            "unique_urls": 144,
+            "events": 140,
+            "unique_urls": 140,
             "specificity_pct": 100
           },
           {
             "source": "Chicago Botanic Garden",
-            "events": 124,
-            "unique_urls": 124,
+            "events": 125,
+            "unique_urls": 125,
             "specificity_pct": 100
           },
           {
-            "source": "Ticketmaster/Evanston Venues",
-            "events": 65,
-            "unique_urls": 65,
+            "source": "CitySpark Evanston, Skokie Park District",
+            "events": 86,
+            "unique_urls": 86,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Northwestern University (Community)",
+            "events": 84,
+            "unique_urls": 57,
+            "specificity_pct": 68
+          },
+          {
+            "source": "Skokie Park District",
+            "events": 58,
+            "unique_urls": 58,
+            "specificity_pct": 100
+          },
+          {
+            "source": "CitySpark Evanston, Ticketmaster/Evanston Venues",
+            "events": 54,
+            "unique_urls": 54,
             "specificity_pct": 100
           },
           {
             "source": "Nw Baseball",
-            "events": 37,
-            "unique_urls": 37,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Beth Emet",
-            "events": 28,
-            "unique_urls": 28,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Skokie Community",
-            "events": 24,
-            "unique_urls": 24,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Evanston History Center",
-            "events": 19,
-            "unique_urls": 19,
-            "specificity_pct": 100
-          },
-          {
-            "source": "North Shore Center",
-            "events": 18,
-            "unique_urls": 18,
-            "specificity_pct": 100
-          },
-          {
-            "source": "City of Evanston Meetings",
-            "events": 14,
-            "unique_urls": 8,
-            "specificity_pct": 57
-          },
-          {
-            "source": "Nw Womens Lacrosse",
-            "events": 13,
-            "unique_urls": 13,
+            "events": 35,
+            "unique_urls": 35,
             "specificity_pct": 100
           }
         ]
@@ -46292,6 +47158,10 @@
             {
               "date": "2026-03-15",
               "count": 43
+            },
+            {
+              "date": "2026-03-16",
+              "count": 41
             }
           ]
         },
@@ -46312,6 +47182,10 @@
             {
               "date": "2026-03-15",
               "count": 119
+            },
+            {
+              "date": "2026-03-16",
+              "count": 118
             }
           ]
         },
@@ -46331,6 +47205,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 3
+            },
+            {
+              "date": "2026-03-16",
               "count": 3
             }
           ]
@@ -46352,6 +47230,10 @@
             {
               "date": "2026-03-15",
               "count": 265
+            },
+            {
+              "date": "2026-03-16",
+              "count": 262
             }
           ]
         },
@@ -46371,6 +47253,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 30
+            },
+            {
+              "date": "2026-03-16",
               "count": 30
             }
           ]
@@ -46392,6 +47278,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 3
             }
           ]
         },
@@ -46411,6 +47301,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -46432,6 +47326,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -46451,6 +47349,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -46472,6 +47374,10 @@
             {
               "date": "2026-03-15",
               "count": 2
+            },
+            {
+              "date": "2026-03-16",
+              "count": 2
             }
           ]
         },
@@ -46491,6 +47397,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 2
+            },
+            {
+              "date": "2026-03-16",
               "count": 2
             }
           ]
@@ -46512,6 +47422,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -46531,6 +47445,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 6
+            },
+            {
+              "date": "2026-03-16",
               "count": 6
             }
           ]
@@ -46552,6 +47470,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -46571,6 +47493,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -46592,6 +47518,10 @@
             {
               "date": "2026-03-15",
               "count": 8
+            },
+            {
+              "date": "2026-03-16",
+              "count": 8
             }
           ]
         },
@@ -46611,6 +47541,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -46632,6 +47566,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -46651,6 +47589,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -46672,6 +47614,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 9
             }
           ]
         },
@@ -46691,6 +47637,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -46712,6 +47662,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -46731,6 +47685,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 4
+            },
+            {
+              "date": "2026-03-16",
               "count": 4
             }
           ]
@@ -46752,6 +47710,10 @@
             {
               "date": "2026-03-15",
               "count": 1
+            },
+            {
+              "date": "2026-03-16",
+              "count": 1
             }
           ]
         },
@@ -46771,6 +47733,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -46792,6 +47758,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -46811,6 +47781,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 2
+            },
+            {
+              "date": "2026-03-16",
               "count": 2
             }
           ]
@@ -46832,6 +47806,10 @@
             {
               "date": "2026-03-15",
               "count": 2
+            },
+            {
+              "date": "2026-03-16",
+              "count": 2
             }
           ]
         },
@@ -46851,6 +47829,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 20
+            },
+            {
+              "date": "2026-03-16",
               "count": 20
             }
           ]
@@ -46872,6 +47854,10 @@
             {
               "date": "2026-03-15",
               "count": 29
+            },
+            {
+              "date": "2026-03-16",
+              "count": 29
             }
           ]
         },
@@ -46891,6 +47877,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 309
+            },
+            {
+              "date": "2026-03-16",
               "count": 309
             }
           ]
@@ -46912,6 +47902,10 @@
             {
               "date": "2026-03-15",
               "count": 29
+            },
+            {
+              "date": "2026-03-16",
+              "count": 29
             }
           ]
         },
@@ -46932,6 +47926,10 @@
             {
               "date": "2026-03-15",
               "count": 31
+            },
+            {
+              "date": "2026-03-16",
+              "count": 30
             }
           ]
         },
@@ -46952,6 +47950,10 @@
             {
               "date": "2026-03-15",
               "count": 91
+            },
+            {
+              "date": "2026-03-16",
+              "count": 89
             }
           ]
         },
@@ -46972,6 +47974,10 @@
             {
               "date": "2026-03-15",
               "count": 199
+            },
+            {
+              "date": "2026-03-16",
+              "count": 196
             }
           ]
         },
@@ -46992,6 +47998,10 @@
             {
               "date": "2026-03-15",
               "count": 81
+            },
+            {
+              "date": "2026-03-16",
+              "count": 78
             }
           ]
         },
@@ -47012,6 +48022,10 @@
             {
               "date": "2026-03-15",
               "count": 35
+            },
+            {
+              "date": "2026-03-16",
+              "count": 34
             }
           ]
         },
@@ -47032,6 +48046,10 @@
             {
               "date": "2026-03-15",
               "count": 234
+            },
+            {
+              "date": "2026-03-16",
+              "count": 228
             }
           ]
         },
@@ -47052,6 +48070,10 @@
             {
               "date": "2026-03-15",
               "count": 117
+            },
+            {
+              "date": "2026-03-16",
+              "count": 111
             }
           ]
         },
@@ -47071,6 +48093,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47092,6 +48118,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -47111,6 +48141,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47132,6 +48166,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -47151,6 +48189,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 30
+            },
+            {
+              "date": "2026-03-16",
               "count": 30
             }
           ]
@@ -47172,6 +48214,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 2
             }
           ]
         },
@@ -47191,6 +48237,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -47212,6 +48262,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -47231,6 +48285,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47252,6 +48310,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -47271,6 +48333,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 30
+            },
+            {
+              "date": "2026-03-16",
               "count": 30
             }
           ]
@@ -47292,6 +48358,10 @@
             {
               "date": "2026-03-15",
               "count": 5
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -47311,6 +48381,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47332,6 +48406,10 @@
             {
               "date": "2026-03-15",
               "count": 30
+            },
+            {
+              "date": "2026-03-16",
+              "count": 30
             }
           ]
         },
@@ -47351,6 +48429,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47372,6 +48454,10 @@
             {
               "date": "2026-03-15",
               "count": 1
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -47391,6 +48477,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -47412,6 +48502,10 @@
             {
               "date": "2026-03-15",
               "count": 10
+            },
+            {
+              "date": "2026-03-16",
+              "count": 10
             }
           ]
         },
@@ -47432,6 +48526,10 @@
             {
               "date": "2026-03-15",
               "count": 23
+            },
+            {
+              "date": "2026-03-16",
+              "count": 29
             }
           ]
         },
@@ -47451,6 +48549,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47472,6 +48574,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -47492,6 +48598,10 @@
             {
               "date": "2026-03-15",
               "count": 4
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -47511,6 +48621,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 5
+            },
+            {
+              "date": "2026-03-16",
               "count": 5
             }
           ]
@@ -47532,6 +48646,10 @@
             {
               "date": "2026-03-15",
               "count": 2
+            },
+            {
+              "date": "2026-03-16",
+              "count": 2
             }
           ]
         },
@@ -47552,6 +48670,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -47572,6 +48694,10 @@
             {
               "date": "2026-03-15",
               "count": 4
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -47591,6 +48717,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 5
+            },
+            {
+              "date": "2026-03-16",
               "count": 5
             }
           ]
@@ -47612,6 +48742,10 @@
             {
               "date": "2026-03-15",
               "count": 4
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -47632,6 +48766,10 @@
             {
               "date": "2026-03-15",
               "count": 21
+            },
+            {
+              "date": "2026-03-16",
+              "count": 19
             }
           ]
         },
@@ -47652,6 +48790,10 @@
             {
               "date": "2026-03-15",
               "count": 1415
+            },
+            {
+              "date": "2026-03-16",
+              "count": 1414
             }
           ]
         },
@@ -47672,6 +48814,10 @@
             {
               "date": "2026-03-15",
               "count": 20
+            },
+            {
+              "date": "2026-03-16",
+              "count": 22
             }
           ]
         },
@@ -47691,6 +48837,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 43
+            },
+            {
+              "date": "2026-03-16",
               "count": 43
             }
           ]
@@ -47712,6 +48862,10 @@
             {
               "date": "2026-03-15",
               "count": 38
+            },
+            {
+              "date": "2026-03-16",
+              "count": 38
             }
           ]
         },
@@ -47731,6 +48885,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 40
+            },
+            {
+              "date": "2026-03-16",
               "count": 40
             }
           ]
@@ -47752,6 +48910,10 @@
             {
               "date": "2026-03-15",
               "count": 74
+            },
+            {
+              "date": "2026-03-16",
+              "count": 77
             }
           ]
         },
@@ -47772,6 +48934,10 @@
             {
               "date": "2026-03-15",
               "count": 13
+            },
+            {
+              "date": "2026-03-16",
+              "count": 11
             }
           ]
         },
@@ -47792,6 +48958,10 @@
             {
               "date": "2026-03-15",
               "count": 6
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -47812,6 +48982,10 @@
             {
               "date": "2026-03-15",
               "count": 1796
+            },
+            {
+              "date": "2026-03-16",
+              "count": 1800
             }
           ]
         },
@@ -47831,6 +49005,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -47852,6 +49030,10 @@
             {
               "date": "2026-03-15",
               "count": 45
+            },
+            {
+              "date": "2026-03-16",
+              "count": 52
             }
           ]
         },
@@ -47871,6 +49053,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47892,6 +49078,10 @@
             {
               "date": "2026-03-15",
               "count": 23
+            },
+            {
+              "date": "2026-03-16",
+              "count": 25
             }
           ]
         },
@@ -47911,6 +49101,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47932,6 +49126,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -47951,6 +49149,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -47972,6 +49174,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -47991,6 +49197,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 3
+            },
+            {
+              "date": "2026-03-16",
               "count": 3
             }
           ]
@@ -48012,6 +49222,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -48031,6 +49245,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 1
+            },
+            {
+              "date": "2026-03-16",
               "count": 1
             }
           ]
@@ -48052,6 +49270,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -48072,6 +49294,10 @@
             {
               "date": "2026-03-15",
               "count": 28
+            },
+            {
+              "date": "2026-03-16",
+              "count": 28
             }
           ]
         }
@@ -48079,51 +49305,47 @@
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 1055
+          "count": 1115
         },
         {
           "category": "Family / Kids",
-          "count": 991
+          "count": 1071
         },
         {
           "category": "Community / Social",
-          "count": 409
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 312
+          "count": 450
         },
         {
           "category": "Sports / Fitness",
-          "count": 277
+          "count": 285
         },
         {
           "category": "Arts / Culture",
-          "count": 240
+          "count": 253
         },
         {
           "category": "Music / Concerts",
-          "count": 212
+          "count": 245
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 186
-        },
-        {
-          "category": "Health / Wellness",
-          "count": 137
+          "count": 197
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 124
+          "count": 142
+        },
+        {
+          "category": "Health / Wellness",
+          "count": 141
         },
         {
           "category": "Government / Civic",
-          "count": 123
+          "count": 131
         },
         {
           "category": "Religion / Spirituality",
-          "count": 64
+          "count": 62
         },
         {
           "category": "Food / Drink",
@@ -48131,64 +49353,68 @@
         },
         {
           "category": "Film / Cinema",
-          "count": 32
+          "count": 37
         },
         {
           "category": "History / Heritage",
-          "count": 29
+          "count": 31
         },
         {
           "category": "Dance / Performance",
-          "count": 19
+          "count": 29
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 24
         },
         {
           "category": "Comedy / Improv",
-          "count": 11
+          "count": 12
         }
       ],
       "images": {
-        "total": 4263,
-        "with_image": 2124,
+        "total": 4267,
+        "with_image": 2143,
         "by_source": [
           {
             "source": "Multnomah County Library",
-            "total": 1259,
-            "with_image": 1204
+            "total": 1263,
+            "with_image": 1209
           },
           {
             "source": "Lewis Clark",
-            "total": 249,
-            "with_image": 205
+            "total": 246,
+            "with_image": 202
           },
           {
             "source": "Japanese Garden",
-            "total": 110,
-            "with_image": 109
+            "total": 108,
+            "with_image": 107
           },
           {
             "source": "Portland Volunteer Events",
-            "total": 74,
-            "with_image": 59
-          },
-          {
-            "source": "Tockify Kptv Calendar",
-            "total": 47,
-            "with_image": 46
+            "total": 77,
+            "with_image": 62
           },
           {
             "source": "Moda Center",
-            "total": 40,
-            "with_image": 40
+            "total": 46,
+            "with_image": 46
+          },
+          {
+            "source": "Tockify Kptv Calendar",
+            "total": 45,
+            "with_image": 44
           },
           {
             "source": "Tockify Theoldchurch",
-            "total": 34,
-            "with_image": 34
+            "total": 33,
+            "with_image": 33
           },
           {
             "source": "Portland Community Events",
             "total": 42,
-            "with_image": 32
+            "with_image": 31
           },
           {
             "source": "Lan Su Garden",
@@ -48196,7 +49422,7 @@
             "with_image": 30
           },
           {
-            "source": "Portland Art Museum",
+            "source": "Multnomah County Library, WCCLS Libraries",
             "total": 29,
             "with_image": 29
           },
@@ -48206,14 +49432,19 @@
             "with_image": 29
           },
           {
-            "source": "Crystal Ballroom",
-            "total": 30,
+            "source": "Portland Art Museum",
+            "total": 29,
+            "with_image": 29
+          },
+          {
+            "source": "Pdx Parent",
+            "total": 28,
             "with_image": 28
           },
           {
-            "source": "Multnomah County Library, WCCLS Libraries",
-            "total": 26,
-            "with_image": 26
+            "source": "Crystal Ballroom",
+            "total": 30,
+            "with_image": 28
           },
           {
             "source": "Pioneer Square",
@@ -48221,22 +49452,12 @@
             "with_image": 26
           },
           {
-            "source": "Pdx Parent",
-            "total": 17,
-            "with_image": 17
-          },
-          {
             "source": "Portland Classes & Activities",
-            "total": 20,
-            "with_image": 12
+            "total": 22,
+            "with_image": 14
           },
           {
-            "source": "Meetup Portland Running Co",
-            "total": 10,
-            "with_image": 10
-          },
-          {
-            "source": "Meetup Portland City Walking",
+            "source": "Meetup Portland Code Coffee",
             "total": 10,
             "with_image": 10
           },
@@ -48246,17 +49467,17 @@
             "with_image": 10
           },
           {
-            "source": "Veterans Memorial Coliseum",
-            "total": 10,
-            "with_image": 10
-          },
-          {
-            "source": "Meetup Portland Hiking",
+            "source": "Meetup Portland Running Co",
             "total": 10,
             "with_image": 10
           },
           {
             "source": "Meetup Meditation",
+            "total": 10,
+            "with_image": 10
+          },
+          {
+            "source": "Meetup Portland City Walking",
             "total": 10,
             "with_image": 10
           },
@@ -48286,13 +49507,18 @@
             "with_image": 10
           },
           {
-            "source": "Meetup Portland Free Community",
+            "source": "Meetup Coffee Sketch",
             "total": 10,
-            "with_image": 9
+            "with_image": 10
           },
           {
-            "source": "Meetup Portland Code Coffee",
+            "source": "Meetup Portland Free Community",
             "total": 10,
+            "with_image": 10
+          },
+          {
+            "source": "Meetup Portland Hiking",
+            "total": 9,
             "with_image": 9
           },
           {
@@ -48301,8 +49527,8 @@
             "with_image": 9
           },
           {
-            "source": "Meetup Coffee Sketch",
-            "total": 10,
+            "source": "Veterans Memorial Coliseum",
+            "total": 9,
             "with_image": 9
           },
           {
@@ -48321,12 +49547,12 @@
             "with_image": 4
           },
           {
-            "source": "Portland Farmers Market",
+            "source": "Trailkeepers of Oregon",
             "total": 3,
             "with_image": 3
           },
           {
-            "source": "Trailkeepers of Oregon",
+            "source": "Habitat for Humanity Portland",
             "total": 3,
             "with_image": 3
           },
@@ -48341,22 +49567,17 @@
             "with_image": 3
           },
           {
-            "source": "Portland Nursery",
-            "total": 2,
-            "with_image": 2
-          },
-          {
             "source": "Meetup Nw Trail Runners",
             "total": 2,
             "with_image": 2
           },
           {
-            "source": "Habitat for Humanity Portland",
+            "source": "Meetup Techacademy",
             "total": 2,
             "with_image": 2
           },
           {
-            "source": "Meetup Techacademy",
+            "source": "Portland Farmers Market",
             "total": 2,
             "with_image": 2
           },
@@ -48374,16 +49595,6 @@
             "source": "Meetup Womens Wanderers",
             "total": 2,
             "with_image": 2
-          },
-          {
-            "source": "Pdx Parent, Tockify Kptv Calendar",
-            "total": 1,
-            "with_image": 1
-          },
-          {
-            "source": "Meetup Contra Dance",
-            "total": 1,
-            "with_image": 1
           },
           {
             "source": "Portland Public Meetings",
@@ -48406,6 +49617,11 @@
             "with_image": 1
           },
           {
+            "source": "Tockify Kptv Calendar, University Of Portland",
+            "total": 1,
+            "with_image": 1
+          },
+          {
             "source": "Multnomah County Library, Portland Community Events",
             "total": 1,
             "with_image": 1
@@ -48418,78 +49634,78 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 4187,
-        "total_events": 4263,
-        "unique_urls": 3913,
+        "total_with_url": 4188,
+        "total_events": 4267,
+        "unique_urls": 3919,
         "generic_count": 0,
         "generic_domains": [],
-        "http_count": 29,
+        "http_count": 36,
         "http_domains": 1,
         "source_specificity": [
           {
             "source": "Multnomah County Library",
-            "events": 1259,
-            "unique_urls": 1259,
+            "events": 1263,
+            "unique_urls": 1263,
             "specificity_pct": 100
           },
           {
             "source": "WCCLS Libraries",
-            "events": 1078,
-            "unique_urls": 1078,
+            "events": 1076,
+            "unique_urls": 1076,
             "specificity_pct": 100
           },
           {
             "source": "Portland Community College",
             "events": 306,
-            "unique_urls": 263,
+            "unique_urls": 264,
             "specificity_pct": 86
           },
           {
             "source": "Lewis Clark",
-            "events": 249,
-            "unique_urls": 160,
-            "specificity_pct": 64
+            "events": 246,
+            "unique_urls": 159,
+            "specificity_pct": 65
           },
           {
             "source": "Reed College",
-            "events": 137,
-            "unique_urls": 76,
-            "specificity_pct": 55
+            "events": 134,
+            "unique_urls": 73,
+            "specificity_pct": 54
           },
           {
             "source": "Japanese Garden",
-            "events": 110,
-            "unique_urls": 110,
+            "events": 108,
+            "unique_urls": 108,
             "specificity_pct": 100
           },
           {
             "source": "University Of Portland",
-            "events": 93,
-            "unique_urls": 34,
+            "events": 90,
+            "unique_urls": 33,
             "specificity_pct": 37
           },
           {
             "source": "Portland Volunteer Events",
-            "events": 74,
-            "unique_urls": 74,
+            "events": 77,
+            "unique_urls": 77,
             "specificity_pct": 100
           },
           {
             "source": "Psu Athletics",
-            "events": 56,
-            "unique_urls": 56,
+            "events": 55,
+            "unique_urls": 55,
             "specificity_pct": 100
           },
           {
             "source": "University Of Portland, Up Athletics",
-            "events": 51,
-            "unique_urls": 51,
+            "events": 48,
+            "unique_urls": 48,
             "specificity_pct": 100
           },
           {
             "source": "Tockify Kptv Calendar",
-            "events": 47,
-            "unique_urls": 47,
+            "events": 45,
+            "unique_urls": 45,
             "specificity_pct": 100
           },
           {
@@ -48499,16 +49715,16 @@
             "specificity_pct": 100
           },
           {
-            "source": "Calagator",
-            "events": 41,
-            "unique_urls": 21,
-            "specificity_pct": 51
-          },
-          {
             "source": "Portland Public Meetings",
             "events": 40,
             "unique_urls": 40,
             "specificity_pct": 100
+          },
+          {
+            "source": "Calagator",
+            "events": 40,
+            "unique_urls": 20,
+            "specificity_pct": 50
           },
           {
             "source": "Portland Council Meetings",
@@ -48538,6 +49754,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -48558,6 +49778,10 @@
             {
               "date": "2026-03-15",
               "count": 16
+            },
+            {
+              "date": "2026-03-16",
+              "count": 17
             }
           ]
         },
@@ -48577,6 +49801,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 18
+            },
+            {
+              "date": "2026-03-16",
               "count": 18
             }
           ]
@@ -48598,6 +49826,10 @@
             {
               "date": "2026-03-15",
               "count": 20
+            },
+            {
+              "date": "2026-03-16",
+              "count": 22
             }
           ]
         },
@@ -48617,6 +49849,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 23
+            },
+            {
+              "date": "2026-03-16",
               "count": 23
             }
           ]
@@ -48638,6 +49874,10 @@
             {
               "date": "2026-03-15",
               "count": 8
+            },
+            {
+              "date": "2026-03-16",
+              "count": 6
             }
           ]
         },
@@ -48657,6 +49897,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -48678,6 +49922,10 @@
             {
               "date": "2026-03-15",
               "count": 5
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -48697,6 +49945,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -48718,6 +49970,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -48737,6 +49993,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 9
+            },
+            {
+              "date": "2026-03-16",
               "count": 9
             }
           ]
@@ -48758,6 +50018,10 @@
             {
               "date": "2026-03-15",
               "count": 91
+            },
+            {
+              "date": "2026-03-16",
+              "count": 89
             }
           ]
         },
@@ -48777,6 +50041,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 40
+            },
+            {
+              "date": "2026-03-16",
               "count": 40
             }
           ]
@@ -48798,6 +50066,10 @@
             {
               "date": "2026-03-15",
               "count": 49
+            },
+            {
+              "date": "2026-03-16",
+              "count": 46
             }
           ]
         },
@@ -48817,6 +50089,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -48838,6 +50114,10 @@
             {
               "date": "2026-03-15",
               "count": 14
+            },
+            {
+              "date": "2026-03-16",
+              "count": 14
             }
           ]
         },
@@ -48858,6 +50138,10 @@
             {
               "date": "2026-03-15",
               "count": 38
+            },
+            {
+              "date": "2026-03-16",
+              "count": 40
             }
           ]
         }
@@ -48865,19 +50149,15 @@
       "categories": [
         {
           "category": "Dance / Performance",
-          "count": 107
+          "count": 133
         },
         {
           "category": "Arts / Culture",
-          "count": 89
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 27
+          "count": 87
         },
         {
           "category": "Film / Cinema",
-          "count": 17
+          "count": 18
         },
         {
           "category": "Music / Concerts",
@@ -48885,7 +50165,11 @@
         },
         {
           "category": "Family / Kids",
-          "count": 9
+          "count": 8
+        },
+        {
+          "category": "Education / Workshops",
+          "count": 2
         },
         {
           "category": "Comedy / Improv",
@@ -48896,32 +50180,28 @@
           "count": 2
         },
         {
-          "category": "Education / Workshops",
-          "count": 1
-        },
-        {
           "category": "Books / Literature / Poetry",
           "count": 1
         }
       ],
       "images": {
-        "total": 268,
-        "with_image": 187,
+        "total": 266,
+        "with_image": 185,
         "by_source": [
           {
             "source": "Boston Theatre Scene",
-            "total": 74,
-            "with_image": 74
+            "total": 73,
+            "with_image": 73
           },
           {
             "source": "Emerson Colonial Theatre",
-            "total": 41,
-            "with_image": 37
+            "total": 39,
+            "with_image": 35
           },
           {
             "source": "Lyric Stage Company",
-            "total": 29,
-            "with_image": 29
+            "total": 30,
+            "with_image": 30
           },
           {
             "source": "Citizens Opera House",
@@ -48946,9 +50226,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 250,
-        "total_events": 268,
-        "unique_urls": 108,
+        "total_with_url": 248,
+        "total_events": 266,
+        "unique_urls": 103,
         "generic_count": 16,
         "generic_domains": [
           {
@@ -48962,19 +50242,13 @@
         "source_specificity": [
           {
             "source": "Boston Theatre Scene",
-            "events": 74,
-            "unique_urls": 13,
-            "specificity_pct": 18
-          },
-          {
-            "source": "Emerson Colonial Theatre",
-            "events": 29,
-            "unique_urls": 29,
-            "specificity_pct": 100
+            "events": 73,
+            "unique_urls": 11,
+            "specificity_pct": 15
           },
           {
             "source": "Lyric Stage Company",
-            "events": 29,
+            "events": 30,
             "unique_urls": 2,
             "specificity_pct": 7
           },
@@ -48985,10 +50259,22 @@
             "specificity_pct": 100
           },
           {
+            "source": "Emerson Colonial Theatre",
+            "events": 27,
+            "unique_urls": 27,
+            "specificity_pct": 100
+          },
+          {
             "source": "Central Square Theater",
             "events": 19,
             "unique_urls": 1,
             "specificity_pct": 5
+          },
+          {
+            "source": "Actors' Shakespeare Project",
+            "events": 17,
+            "unique_urls": 1,
+            "specificity_pct": 6
           },
           {
             "source": "BU School of Theatre",
@@ -48997,10 +50283,10 @@
             "specificity_pct": 6
           },
           {
-            "source": "Actors' Shakespeare Project",
-            "events": 16,
-            "unique_urls": 1,
-            "specificity_pct": 6
+            "source": "ArtsEmerson",
+            "events": 14,
+            "unique_urls": 14,
+            "specificity_pct": 100
           },
           {
             "source": "Emerson Theatres",
@@ -49009,16 +50295,10 @@
             "specificity_pct": 100
           },
           {
-            "source": "ArtsEmerson",
-            "events": 13,
-            "unique_urls": 13,
-            "specificity_pct": 100
-          },
-          {
             "source": "Wheelock Family Theatre",
-            "events": 8,
-            "unique_urls": 4,
-            "specificity_pct": 50
+            "events": 6,
+            "unique_urls": 2,
+            "specificity_pct": 33
           },
           {
             "source": "Tufts Tdps",
@@ -49050,6 +50330,10 @@
             {
               "date": "2026-03-15",
               "count": 6
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -49065,6 +50349,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -49082,6 +50370,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -49097,6 +50389,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 3
+            },
+            {
+              "date": "2026-03-16",
               "count": 3
             }
           ]
@@ -49114,6 +50410,10 @@
             {
               "date": "2026-03-15",
               "count": 3
+            },
+            {
+              "date": "2026-03-16",
+              "count": 3
             }
           ]
         },
@@ -49129,6 +50429,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 10
+            },
+            {
+              "date": "2026-03-16",
               "count": 10
             }
           ]
@@ -49146,6 +50450,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -49161,6 +50469,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 7
+            },
+            {
+              "date": "2026-03-16",
               "count": 7
             }
           ]
@@ -49178,6 +50490,10 @@
             {
               "date": "2026-03-15",
               "count": 6
+            },
+            {
+              "date": "2026-03-16",
+              "count": 7
             }
           ]
         },
@@ -49193,6 +50509,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -49210,6 +50530,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -49226,6 +50550,10 @@
             {
               "date": "2026-03-15",
               "count": 7
+            },
+            {
+              "date": "2026-03-16",
+              "count": 6
             }
           ]
         },
@@ -49241,6 +50569,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -49258,6 +50590,10 @@
             {
               "date": "2026-03-15",
               "count": 5
+            },
+            {
+              "date": "2026-03-16",
+              "count": 5
             }
           ]
         },
@@ -49273,6 +50609,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 3
+            },
+            {
+              "date": "2026-03-16",
               "count": 3
             }
           ]
@@ -49290,6 +50630,10 @@
             {
               "date": "2026-03-15",
               "count": 6
+            },
+            {
+              "date": "2026-03-16",
+              "count": 6
             }
           ]
         },
@@ -49305,6 +50649,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 0
+            },
+            {
+              "date": "2026-03-16",
               "count": 0
             }
           ]
@@ -49322,6 +50670,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         },
@@ -49337,6 +50689,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 2
+            },
+            {
+              "date": "2026-03-16",
               "count": 2
             }
           ]
@@ -49354,6 +50710,10 @@
             {
               "date": "2026-03-15",
               "count": 4
+            },
+            {
+              "date": "2026-03-16",
+              "count": 4
             }
           ]
         },
@@ -49369,6 +50729,10 @@
             },
             {
               "date": "2026-03-15",
+              "count": 11
+            },
+            {
+              "date": "2026-03-16",
               "count": 11
             }
           ]
@@ -49386,6 +50750,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 4
             }
           ]
         },
@@ -49402,6 +50770,10 @@
             {
               "date": "2026-03-15",
               "count": 13
+            },
+            {
+              "date": "2026-03-16",
+              "count": 13
             }
           ]
         },
@@ -49410,6 +50782,10 @@
             {
               "date": "2026-03-15",
               "count": 0
+            },
+            {
+              "date": "2026-03-16",
+              "count": 0
             }
           ]
         }
@@ -49417,15 +50793,15 @@
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 58
+          "count": 59
         },
         {
           "category": "Community / Social",
-          "count": 13
+          "count": 12
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 7
+          "count": 6
         },
         {
           "category": "Arts / Culture",
@@ -49438,20 +50814,16 @@
         {
           "category": "Health / Wellness",
           "count": 1
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 1
         }
       ],
       "images": {
-        "total": 85,
-        "with_image": 15,
+        "total": 83,
+        "with_image": 13,
         "by_source": [
           {
-            "source": "Institute for Nonprofit News",
-            "total": 6,
-            "with_image": 6
+            "source": "Sabew",
+            "total": 4,
+            "with_image": 4
           },
           {
             "source": "Ahcj",
@@ -49481,9 +50853,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 84,
-        "total_events": 85,
-        "unique_urls": 83,
+        "total_with_url": 82,
+        "total_events": 83,
+        "unique_urls": 81,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -49508,7 +50880,7 @@
             "specificity_pct": 100
           },
           {
-            "source": "Journalism Internship & Fellowship Deadlines",
+            "source": "Editor & Publisher",
             "events": 7,
             "unique_urls": 7,
             "specificity_pct": 100
@@ -49520,13 +50892,7 @@
             "specificity_pct": 100
           },
           {
-            "source": "Institute for Nonprofit News",
-            "events": 6,
-            "unique_urls": 6,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Editor & Publisher",
+            "source": "Journalism Internship & Fellowship Deadlines",
             "events": 6,
             "unique_urls": 6,
             "specificity_pct": 100
@@ -49535,6 +50901,12 @@
             "source": "Online News Association",
             "events": 5,
             "unique_urls": 5,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Sabew",
+            "events": 4,
+            "unique_urls": 4,
             "specificity_pct": 100
           },
           {
@@ -50751,7 +52123,522 @@
       "date": "2026-03-16",
       "city": "bloomington",
       "feed": "calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 3)",
+      "severity": "high",
+      "date": "2026-03-16",
+      "city": "bloomington",
+      "feed": "community_band"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 1)",
+      "severity": "high",
+      "date": "2026-03-16",
+      "city": "portland",
+      "feed": "meetup_contra_dance"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 6)",
+      "severity": "high",
+      "date": "2026-03-16",
+      "city": "publisher-resources",
+      "feed": "inn"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:41,540 - WARNING - Failed to fetch https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:42,440 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:43,215 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:43,918 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:44,633 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:45,339 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:46,034 - WARNING - Failed to fetch https://buskirkchumley.org/events/conclave-2024-april-2-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/conclave-2024-april-2-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:46,788 - WARNING - Failed to fetch https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:47,555 - WARNING - Failed to fetch https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:48,481 - WARNING - Failed to fetch https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:49,178 - WARNING - Failed to fetch https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:49,881 - WARNING - Failed to fetch https://buskirkchumley.org/events/asianfest-2026-april-11-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/asianfest-2026-april-11-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:50,597 - WARNING - Failed to fetch https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:51,301 - WARNING - Failed to fetch https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:51,997 - WARNING - Failed to fetch https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:52,694 - WARNING - Failed to fetch https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:53,392 - WARNING - Failed to fetch https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:54,083 - WARNING - Failed to fetch https://buskirkchumley.org/events/beat-spring-show-april-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/beat-spring-show-april-27-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:54,775 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:55,666 - WARNING - Failed to fetch https://buskirkchumley.org/events/saving-ava-april-29-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/saving-ava-april-29-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:56,371 - WARNING - Failed to fetch https://buskirkchumley.org/events/updating-april-30-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/updating-april-30-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:57,086 - WARNING - Failed to fetch https://buskirkchumley.org/events/sam-grisman-project-may-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/sam-grisman-project-may-3-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:57,791 - WARNING - Failed to fetch https://buskirkchumley.org/events/spaceballs-1987-may-4-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/spaceballs-1987-may-4-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:58,487 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:59,182 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:43:59,876 - WARNING - Failed to fetch https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:44:00,570 - WARNING - Failed to fetch https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:45:57,628 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:45:58,506 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:45:59,371 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:00,119 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:00,902 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/wings-map-and-compass/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/wings-map-and-compass/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:01,771 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:02,548 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/preserve-a-preserve-weed-wrangle-at-porter-west-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/preserve-a-preserve-weed-wrangle-at-porter-west-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:03,331 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:04,311 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:05,093 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:05,876 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:06,685 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:07,466 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:08,232 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:09,010 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:09,794 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:10,578 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:11,360 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:12,222 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/12/early-bird-hike-with-ben-fleet/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/12/early-bird-hike-with-ben-fleet/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:13,002 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/01/weed-wrangle-at-canyon-forest-nature-preserve-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/01/weed-wrangle-at-canyon-forest-nature-preserve-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:13,787 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:14,553 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:15,334 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:16,124 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:16,907 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:17,692 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:18,476 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:19,225 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:20,007 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/sky-dance-twilight-hike-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/sky-dance-twilight-hike-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:20,772 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:21,551 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:22,334 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:23,118 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:23,900 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:24,683 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:25,433 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:26,214 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:26,980 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:27,758 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:28,625 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:29,410 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:30,192 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:30,977 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/2023-regional-interpreters-workshop-common-ground-interpreting-a-shared-landscape/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/2023-regional-interpreters-workshop-common-ground-interpreting-a-shared-landscape/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:31,726 - WARNING - Failed to fetch https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:32,509 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:33,275 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:34,062 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/early-american-history-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/early-american-history-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:34,847 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:35,631 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:36,431 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:37,226 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/04/arbor-day-2020/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/04/arbor-day-2020/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:37,975 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:38,757 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:39,524 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/columbus-hike-brew/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/columbus-hike-brew/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:40,308 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/third-thursday-march20/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/third-thursday-march20/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:41,102 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/invasive-plant-workshop/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/invasive-plant-workshop/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:41,887 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0519-little-hikers/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0519-little-hikers/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:42,671 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:43,455 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:44,205 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/conservation-field-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/conservation-field-day/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:44,987 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-eagle-slough/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-eagle-slough/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:45,753 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:46,537 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-branches-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-branches-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:47,331 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/02/brown-county-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/02/brown-county-hike/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:48,115 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0319-preserve-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0319-preserve-workday/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:46:48,898 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/01/sycamore-coffee-launch/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/01/sycamore-coffee-launch/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://business.roanokechamber.org/api/events",
+      "source": "models"
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:49:57,172 - ERROR - Failed to fetch https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/ after 3 attempts: 404 Client Error: Not Found for url: https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:49:57,172 - WARNING - Could not fetch event page https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/: 404 Client Error: Not Found for url: https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "2026-03-16 13:54:31,800 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
+      "source": null
+    },
+    {
+      "date": "2026-03-16",
+      "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json",
+      "source": "models"
+    }
+  ]
 }

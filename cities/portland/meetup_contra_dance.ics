@@ -5,40 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Contra Dancing
 X-WR-CALNAME:Contra Dancing
-BEGIN:VTIMEZONE
-TZID:America/Los_Angeles
-TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
-X-LIC-LOCATION:America/Los_Angeles
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0800
-TZOFFSETTO:-0700
-TZNAME:PDT
-DTSTART:19700308T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0700
-TZOFFSETTO:-0800
-TZNAME:PST
-DTSTART:19701101T020000
-RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:event_313547215@meetup.com
-SEQUENCE:1
-DTSTAMP:20260315T062947Z
-DTSTART;TZID=America/Los_Angeles:20260315T120000
-DTEND;TZID=America/Los_Angeles:20260315T191500
-SUMMARY:Portland Roadhouse Contra Dance
-DESCRIPTION:Contra Dancing\nThis is our annual all-day contra dance at the Milwaukie Community Center. All are welcome\, but please note that there is no beginner lesson. Five excellent bands and five enthusiastic callers will have you dancing from noon to 7:15 pm. Downstairs we'll have jamming\, conversation and potluck snacks/lunch so bring something to share.\n\nBring water\, clothing appropriate for indoor aerobic (sweaty!) activity and smooth-soled shoes for dancing. Please do not wear scented products to the dance as many people are sensitive.\n\nCost: $15-40 sliding scale. More info at: https://portlandroadhouse.org/
-URL;VALUE=URI:https://www.meetup.com/meetup-group-ccddsysh/events/313547215/
-STATUS:CONFIRMED
-CREATED:20260226T224035Z
-LAST-MODIFIED:20260226T224035Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/4/f/9/600_532933561.jpeg
-END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/meetup-group-ccddsysh/events/ical/
 X-WR-CALNAME:Contra Dancing
 END:VCALENDAR

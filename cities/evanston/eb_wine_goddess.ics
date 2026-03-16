@@ -4,23 +4,6 @@ PRODID:-//The Wine Goddess//eventbrite.com//
 X-WR-CALNAME:The Wine Goddess
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Wine and Cheese: Uncensored!
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T190000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T203000
-UID:7e3ae017553d4d8fcfd69707c303ca23@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1172414339%2F49681583610%2F1%2Foriginal.20221218-231746?w=480
- &auto=format%2Ccompress&q=75&sharp=10&rect=0%2C29%2C258%2C129&s=3964201641
- 2ed8ea9876f2f7a7710f4a
-DESCRIPTION:Celebrate your lactose tolerance with the most decadent food a
- nd wine pairing of all time!
-LOCATION:The Wine Goddess\, 702 Main Street\, Evanston\, IL 60202\, Evanst
- on\, IL
-URL:https://www.eventbrite.com/e/wine-and-cheese-uncensored-tickets-197710
- 0278154
-X-SOURCE:The Wine Goddess
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Great Wines of Spain
 DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260326T190000
 DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260326T203000
@@ -35,6 +18,23 @@ LOCATION:The Wine Goddess\, 702 Main Street\, Evanston\, IL 60202\, Evanst
  on\, IL
 URL:https://www.eventbrite.com/e/the-great-wines-of-spain-tickets-19770957
  41585
+X-SOURCE:The Wine Goddess
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wine and Cheese: Uncensored!
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T190000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T203000
+UID:7e3ae017553d4d8fcfd69707c303ca23@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1172414339%2F49681583610%2F1%2Foriginal.20221218-231746?w=480
+ &auto=format%2Ccompress&q=75&sharp=10&rect=0%2C29%2C258%2C129&s=3964201641
+ 2ed8ea9876f2f7a7710f4a
+DESCRIPTION:Celebrate your lactose tolerance with the most decadent food a
+ nd wine pairing of all time!
+LOCATION:The Wine Goddess\, 702 Main Street\, Evanston\, IL 60202\, Evanst
+ on\, IL
+URL:https://www.eventbrite.com/e/wine-and-cheese-uncensored-tickets-197710
+ 0278154
 X-SOURCE:The Wine Goddess
 END:VEVENT
 BEGIN:VEVENT

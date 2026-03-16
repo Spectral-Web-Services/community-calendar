@@ -4,19 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:William Surly
-DTSTART;VALUE=DATE-TIME:20260315T200000
-DTEND;VALUE=DATE-TIME:20260315T200000
-UID:60c31ac039f63bb70aa83682170e4197@songkick.com
-DESCRIPTION:William Surly at Mississippi Studios at 2026-03-15T20:00:00-07
- 00
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43099980-william-surly-at-mississippi
- -studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Colby Acuff
 DTSTART;VALUE=DATE-TIME:20260318T200000
 DTEND;VALUE=DATE-TIME:20260318T200000
@@ -39,6 +26,43 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43099983-danno-simpson-at-mississippi
  -studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lucia Luna
+DTSTART;VALUE=DATE-TIME:20260319T200000
+DTEND;VALUE=DATE-TIME:20260319T200000
+UID:ba7cc739d862bfebe001814a9e7059e8@songkick.com
+DESCRIPTION:Lucia Luna at Mississippi Studios at 2026-03-19T20:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43099986-lucia-luna-at-mississippi-st
+ udios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AJ Lee and Blue Summit\, Aj Lee
+DTSTART;VALUE=DATE-TIME:20260320T200000
+DTEND;VALUE=DATE-TIME:20260320T200000
+UID:956f15f466d350c3db348d2b15aef27e@songkick.com
+DESCRIPTION:AJ Lee and Blue Summit and Aj Lee at Mississippi Studios at 20
+ 26-03-20T20:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43005120-aj-lee-and-blue-summit-at-mi
+ ssissippi-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dadweed
+DTSTART;VALUE=DATE-TIME:20260320T210000
+DTEND;VALUE=DATE-TIME:20260320T210000
+UID:b6e842ad481aaa59fe771406addaabae@songkick.com
+DESCRIPTION:dadweed at Mississippi Studios at 2026-03-20T21:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43099991-dadweed-at-mississippi-studi
+ os?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

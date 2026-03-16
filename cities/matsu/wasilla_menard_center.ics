@@ -80,16 +80,4 @@ SUMMARY:Mat-Su Employer Expo
 UID:967
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=991
-DTEND;TZID=America/Anchorage;VALUE=DATE:20260315
-DTSTAMP;TZID=America/Anchorage:20260304T101846
-DTSTART;TZID=America/Anchorage;VALUE=DATE:20260313
-LAST-MODIFIED;TZID=America/Anchorage:20260304T101846
-LOCATION:Ice Arena - 1001 S Clapp Street  Wasilla AK 99654
-SEQUENCE:0
-SUMMARY:18UB State Hockey Tournament
-UID:991
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
-END:VEVENT
 END:VCALENDAR

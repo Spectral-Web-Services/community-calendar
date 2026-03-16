@@ -27,7 +27,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:event_312213858@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260317T173000
 DTEND;TZID=America/Los_Angeles:20260317T193000
 SUMMARY:Portland Geek Dinner - Portland!
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312214082@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260324T173000
 DTEND;TZID=America/Los_Angeles:20260324T193000
 SUMMARY:Portland Geek Dinner - Hillsboro!
@@ -55,9 +55,24 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
 END:VEVENT
 BEGIN:VEVENT
+UID:event_313789831@meetup.com
+SEQUENCE:1
+DTSTAMP:20260316T141215Z
+DTSTART;TZID=America/Los_Angeles:20260331T170000
+DTEND;TZID=America/Los_Angeles:20260331T200000
+SUMMARY:Portland Geek Dinner and a Movie - Portland!
+DESCRIPTION:PADNUG\nOnce again\, we're excited to announce our next **Geek Movie Night**! This time\, we're aiming for [Project Hail Mary](https://www.imdb.com/title/tt12042730/)! This is shaping up to be a blockbuster and it's an option for us on this date.\n\n📽️ **Experience the Magic**: If you haven't yet discovered Studio One\, you're in for a treat! With plush seating and outstanding food\, it's an experience you won't want to miss.\n\n💡 **Important Info**: To make this amazing event happen\, there's a small fee involved.\n\n💸 **Cost**: **Attendees should be prepared to spend approximately $38 (or more) on movie\, food\, and drink**\, assuming we can fill the theater. YOU **DON'T NEED TO PAY IN ADVANCE**!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/313789831/
+STATUS:CONFIRMED
+CREATED:20260316T074628Z
+LAST-MODIFIED:20260316T074628Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
 UID:event_313070682@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260407T173000
 DTEND;TZID=America/Los_Angeles:20260407T193000
 SUMMARY:Portland Geek Dinner - Beaverton!
@@ -72,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313637947@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260409T170000
 DTEND;TZID=America/Los_Angeles:20260409T200000
 SUMMARY:**READ 1ST SENTENCE** GitHub Copilot Dev Days | Portland(-ish)\, Oregon
@@ -85,24 +100,24 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/a/9/a/600_533035962.jpeg
 END:VEVENT
 BEGIN:VEVENT
-UID:event_txfbwtyjcgbsb@meetup.com
+UID:event_313784452@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260414T173000
 DTEND;TZID=America/Los_Angeles:20260414T193000
 SUMMARY:Portland Geek Dinner - Tigard!
 DESCRIPTION:PADNUG\nBe There and Be Square!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!\n\nWe'll look to the RSVPs on here to guide our reservation. Please let us know you are coming!
-URL;VALUE=URI:https://www.meetup.com/padnug/events/txfbwtyjcgbsb/
+URL;VALUE=URI:https://www.meetup.com/padnug/events/313784452/
 STATUS:CONFIRMED
-CREATED:20260210T223105Z
-LAST-MODIFIED:20260210T223105Z
+CREATED:20260315T171159Z
+LAST-MODIFIED:20260315T171159Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
 END:VEVENT
 BEGIN:VEVENT
 UID:event_cfllmtyjcgbcc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260421T173000
 DTEND;TZID=America/Los_Angeles:20260421T193000
 SUMMARY:Portland Geek Dinner - Portland!
@@ -117,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312930539@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260428T173000
 DTEND;TZID=America/Los_Angeles:20260428T193000
 SUMMARY:Portland Geek Dinner - Hillsboro!
@@ -132,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_zffcltyjchbhb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260505T173000
 DTEND;TZID=America/Los_Angeles:20260505T193000
 SUMMARY:Portland Geek Dinner - Beaverton!
@@ -147,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_txfbwtyjchbqb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260315T062939Z
+DTSTAMP:20260316T141215Z
 DTSTART;TZID=America/Los_Angeles:20260512T173000
 DTEND;TZID=America/Los_Angeles:20260512T193000
 SUMMARY:Portland Geek Dinner - Tigard!
@@ -156,21 +171,6 @@ URL;VALUE=URI:https://www.meetup.com/padnug/events/txfbwtyjchbqb/
 STATUS:CONFIRMED
 CREATED:20260210T223105Z
 LAST-MODIFIED:20260210T223105Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_cfllmtyjchbzb@meetup.com
-SEQUENCE:1
-DTSTAMP:20260315T062939Z
-DTSTART;TZID=America/Los_Angeles:20260519T173000
-DTEND;TZID=America/Los_Angeles:20260519T193000
-SUMMARY:Portland Geek Dinner - Portland!
-DESCRIPTION:PADNUG\nBe There and Be Square!\n\nFolks\, we're heading back to Grand Central! Breakside just has too many other events they are accommodating and as many of you know\, last month was CRAZY loud!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!
-URL;VALUE=URI:https://www.meetup.com/padnug/events/cfllmtyjchbzb/
-STATUS:CONFIRMED
-CREATED:20240707T212549Z
-LAST-MODIFIED:20240707T212549Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
 END:VEVENT

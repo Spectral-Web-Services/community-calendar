@@ -297,16 +297,4 @@ SUMMARY:Walk-in Wednesday Vaccine Clinic
 UID:4711
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4522
-DTEND;TZID=America/Chicago:20260315T123000
-DTSTAMP;TZID=America/Chicago:20251216T091929
-DTSTART;TZID=America/Chicago:20260315T083000
-LAST-MODIFIED;TZID=America/Chicago:20251216T091929
-LOCATION:The Storefront - 4051 Main Street  Skokie IL 60076
-SEQUENCE:0
-SUMMARY:Winter Market on Main
-UID:4522
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
-END:VEVENT
 END:VCALENDAR
