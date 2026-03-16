@@ -11,13 +11,8 @@ const corsHeaders = {
 const githubRepo = Deno.env.get("GITHUB_REPO") ?? "judell/community-calendar";
 const RAW_BASE = `https://raw.githubusercontent.com/${githubRepo}/main/cities`;
 const EVENTS_URLS: Record<string, string> = {
-  santarosa: `${RAW_BASE}/santarosa/events.json`,
   petaluma: `${RAW_BASE}/petaluma/events.json`,
   bloomington: `${RAW_BASE}/bloomington/events.json`,
-  davis: `${RAW_BASE}/davis/events.json`,
-  toronto: `${RAW_BASE}/toronto/events.json`,
-  raleighdurham: `${RAW_BASE}/raleighdurham/events.json`,
-  montclair: `${RAW_BASE}/montclair/events.json`,
   roanoke: `${RAW_BASE}/roanoke/events.json`,
   matsu: `${RAW_BASE}/matsu/events.json`,
   jweekly: `${RAW_BASE}/jweekly/events.json`,

@@ -20,13 +20,8 @@ WORKFLOW_PATH = ROOT / ".github/workflows/generate-calendar.yml"
 
 # Cities and their section headers in the workflow
 CITY_SECTIONS = {
-    'santarosa': 'Santa Rosa',
     'bloomington': 'Bloomington',
-    'davis': 'Davis',
     'petaluma': 'Petaluma',
-    'toronto': 'Toronto',
-    'raleighdurham': 'Raleigh-Durham',
-    'montclair': 'Montclair',
     'roanoke': 'Roanoke',
     'matsu': 'MatSu (Matanuska-Susitna)',
     'jweekly': 'JWeekly (Jewish Northern California)',
