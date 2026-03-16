@@ -83,7 +83,7 @@ jobs:
         python scrapers/comedy_attic.py --output cities/bloomington/comedy_attic.ics || true
         python scrapers/the_bishop.py --output cities/bloomington/the_bishop.ics || true
         python scrapers/squarespace.py --url "https://www.peoplesmarketbtown.org/gatherings" --name "People's Market" -o cities/bloomington/peoples_market.ics || true
-        python scrapers/songkick.py --url "https://www.songkick.com/venues/78904-bluebird" --name "The Bluebird" --output cities/bloomington/songkick_bluebird.ics || true
+        python scrapers/the_bluebird.py -o cities/bloomington/the_bluebird.ics || true
         python scrapers/songkick.py --url "https://www.songkick.com/venues/3607354-blockhouse-bar" --name "Blockhouse Bar" --output cities/bloomington/songkick_blockhouse.ics || true
         python scrapers/squarespace.py --url "https://www.cardinalspirits.com/events" --name "Cardinal Spirits" -o cities/bloomington/cardinal_spirits.ics || true
         python scrapers/squarespace.py --url "https://www.sassafrasaudubon.org/upcomingevents" --name "Sassafras Audubon Society" -o cities/bloomington/sassafras_audubon.ics || true
@@ -165,6 +165,14 @@ jobs:
         fi
         # Monroe Convention Center (RSS feed)
         python scrapers/bloomington_convention.py -o cities/bloomington/bloomington_convention.ics || true
+        # Greater Bloomington Chamber of Commerce (mobile events page)
+        python scrapers/chamber_bloomington.py -o cities/bloomington/chamber_bloomington.ics || true
+        # Indivisible South Central Indiana (Mobilize.us)
+        python scrapers/mobilize.py --org-id 43350 --name "Indivisible SCI" --timezone America/Indiana/Indianapolis -o cities/bloomington/mobilize_indivisible_sci.ics || true
+        # McCormick's Creek State Park (Indiana DNR Localist feed)
+        curl -sL "https://events.in.gov/dnr/calendar.ics?event_types=35121259147310&days=90&search=mccormick" -o mccormicks_creek.ics || true
+        # IU Athletics (Sidearm v3 API — home games only)
+        python scrapers/sidearm.py --base-url https://iuhoosiers.com --name "IU Athletics" --timezone America/Indiana/Indianapolis --home-only -o cities/bloomington/iu_athletics.ics || true
         # CitySpark (community-submitted events with images)
         python scrapers/cityspark/bloomington.py -o cities/bloomington/cityspark_bloomington.ics || true
         # Visit Bloomington (Simpleview CMS — tourism board events with images)
@@ -175,6 +183,7 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/106566049911" --name "The Afrobellas At IU" -o cities/bloomington/eventbrite_afrobellas.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/34376767621" --name "Morgenstern Books" -o cities/bloomington/eventbrite_morgenstern_books.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/95199764993" --name "Nerd Nite Bloomington" -o cities/bloomington/eventbrite_nerd_nite.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/31640015525" --name "Gallery at the Vault" -o cities/bloomington/eventbrite_gallery_vault.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/102507618371" --name "Falun Dafa Club at IU" -o cities/bloomington/eventbrite_falun_dafa.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/106576693901" --name "Reviving Hope for the Nations" -o cities/bloomington/eventbrite_reviving_hope.ics || true
         python scripts/enrich_meetup_images.py --dir cities/bloomington || true
@@ -188,7 +197,7 @@ jobs:
           cities/bloomington/sassafras_audubon.ics \
           cities/bloomington/master_gardeners.ics \
           cities/bloomington/sycamore_land_trust.ics \
-          cities/bloomington/songkick_bluebird.ics \
+          cities/bloomington/the_bluebird.ics \
           cities/bloomington/songkick_blockhouse.ics || true
         python scripts/combine_ics.py --input-dir cities/bloomington --output cities/bloomington/combined.ics --name "Bloomington Community Calendar"
 
