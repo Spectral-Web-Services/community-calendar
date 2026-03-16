@@ -114,7 +114,11 @@ Events to classify:
 
 Respond with ONLY a JSON array. Each element must have "index" (1-based) and "category" (exact category name from the list, or null if none fit). Example: [{{"index": 1, "category": "Music / Concerts"}}, {{"index": 2, "category": null}}]"""
 
-    raw = anthropic_call(api_key, model, prompt)
+    try:
+        raw = anthropic_call(api_key, model, prompt)
+    except Exception as exc:
+        print(f"  WARNING: API call failed: {exc}", file=sys.stderr)
+        return None
 
     start = raw.find("[")
     end = raw.rfind("]") + 1
@@ -176,6 +180,10 @@ def process_file(filepath, api_key, model, few_shot, dry_run=False):
         print(f"  Batch {batch_num}/{total_batches} ({len(batch_events)} events)...", flush=True)
 
         result_map = classify_batch(batch_events, few_shot, api_key, model)
+
+        if result_map is None:
+            print(f"  Stopping classification for {city} due to API error", file=sys.stderr)
+            break
 
         for j, (orig_idx, event) in enumerate(batch_items):
             cat = result_map.get(j + 1)
