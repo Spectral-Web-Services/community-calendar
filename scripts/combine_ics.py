@@ -107,6 +107,17 @@ SOURCE_NAMES = {
     'iu_libcal_scholars_commons': 'IU Scholars\' Commons',
     # Bloomington - IU CampusLabs
     'iu_campuslabs': 'IU beINvolved Student Orgs',
+    'cityspark_bloomington': 'CitySpark Bloomington',
+    'ticketmaster_bloomington': 'Ticketmaster Bloomington',
+    'visitbloomington': 'Visit Bloomington',
+    # Bloomington - Eventbrite
+    'eventbrite_blueline': 'Blueline Bloomington',
+    'eventbrite_big_red_liquors': 'Big Red Liquors',
+    'eventbrite_afrobellas': 'The Afrobellas At IU',
+    'eventbrite_morgenstern_books': 'Morgenstern Books',
+    'eventbrite_nerd_nite': 'Nerd Nite Bloomington',
+    'eventbrite_falun_dafa': 'Falun Dafa Club at IU',
+    'eventbrite_reviving_hope': 'Reviving Hope for the Nations',
     # Bloomington - Community
     'wonderlab': 'WonderLab Museum',
     'first_united_church': 'First United Church',
