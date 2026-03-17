@@ -37,6 +37,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   const [renamingId, setRenamingId] = useState(null);
   const [renameValue, setRenameValue] = useState('');
   const [domainInput, setDomainInput] = useState('');
+  const [embedConfig, setEmbedConfig] = useState({});
   const [editSources, setEditSources] = useState([]);
   const [editCategories, setEditCategories] = useState([]);
   const [editingRules, setEditingRules] = useState(false);
@@ -124,11 +125,58 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
     setTimeout(() => setCopied(null), 2000);
   };
 
+  const STYLE_OPTIONS = [
+    { value: '', label: 'Default' },
+    { value: 'classic', label: 'Classic' },
+    { value: 'accent', label: 'Accent' },
+    { value: 'magazine', label: 'Magazine' },
+    { value: 'modern', label: 'Modern' },
+    { value: 'overlay', label: 'Overlay' },
+    { value: 'alwaysimage', label: 'Always Image' },
+    { value: 'minimal', label: 'Minimal' },
+    { value: 'split', label: 'Split' },
+    { value: 'splitimage', label: 'Split Image' },
+    { value: 'polaroid', label: 'Polaroid' },
+    { value: 'ticket', label: 'Ticket' },
+    { value: 'noimage', label: 'No Image' },
+    { value: 'nodesc', label: 'No Description' },
+    { value: 'tile', label: 'Tile' },
+    { value: 'compact', label: 'Compact' },
+    { value: 'list', label: 'List' },
+    { value: 'grid-classic', label: 'Grid: Classic' },
+    { value: 'grid-accent', label: 'Grid: Accent' },
+    { value: 'grid-magazine', label: 'Grid: Magazine' },
+    { value: 'grid-modern', label: 'Grid: Modern' },
+    { value: 'grid-overlay', label: 'Grid: Overlay' },
+    { value: 'grid-alwaysimage', label: 'Grid: Always Image' },
+    { value: 'grid-minimal', label: 'Grid: Minimal' },
+    { value: 'grid-split', label: 'Grid: Split' },
+    { value: 'grid-splitimage', label: 'Grid: Split Image' },
+    { value: 'grid-polaroid', label: 'Grid: Polaroid' },
+    { value: 'grid-ticket', label: 'Grid: Ticket' },
+    { value: 'grid-noimage', label: 'Grid: No Image' },
+    { value: 'grid-nodesc', label: 'Grid: No Desc' },
+    { value: 'grid-tile', label: 'Grid: Tile' },
+  ];
+
+  const getEmbedCfg = (colId) => embedConfig[colId] || {};
+  const setEmbedCfg = (colId, key, value) =>
+    setEmbedConfig(prev => ({ ...prev, [colId]: { ...prev[colId], [key]: value } }));
+
   const buildEmbedCode = (col) => {
+    const cfg = getEmbedCfg(col.id);
     const base = `${window.location.origin}${window.location.pathname}`;
     const params = new URLSearchParams({ embed: col.id });
-    params.set('title', col.name);
-    if (col.card_style && col.card_style !== 'accent') params.set('style', col.card_style);
+    const style = cfg.style || (col.card_style && col.card_style !== 'accent' ? col.card_style : '');
+    const featuredStyle = cfg.featured_style || '';
+    const featuredTitle = cfg.featured_title || 'Featured Events';
+    const normalTitle = cfg.normal_title || 'Upcoming Events';
+    const mode = cfg.mode || '';
+    if (style) params.set('style', style);
+    if (featuredStyle) params.set('featured_style', featuredStyle);
+    params.set('featured_title', featuredTitle);
+    params.set('normal_title', normalTitle);
+    if (mode) params.set('mode', mode);
     const src = `${base}?${params}`;
     const iframeId = `cc-embed-${col.id}`;
     return `<iframe id="${iframeId}" src="${src}" width="100%" frameborder="0" style="border:none;overflow:hidden;" scrolling="no"></iframe>
@@ -385,28 +433,67 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
 
               {/* Embed code panel */}
               {embedId === col.id && (
-                <div className="border-t border-gray-50 px-3 py-2">
-                  <p className="text-[10px] font-medium text-gray-500 mb-1">Embed code</p>
-                  <div className="flex gap-1.5">
-                    <code className="flex-1 text-[11px] text-gray-600 bg-gray-50 border border-gray-200 rounded px-2 py-1.5 block overflow-x-auto whitespace-nowrap">
-                      {buildEmbedCode(col)}
-                    </code>
-                    <button
-                      onClick={() => copyEmbedCode(col)}
-                      className="flex-shrink-0 px-2.5 py-1.5 text-xs font-medium bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors"
-                    >
-                      Copy
-                    </button>
+                <div className="border-t border-gray-50 px-3 py-2 space-y-3">
+                  {/* Embed configuration */}
+                  <div>
+                    <p className="text-[10px] font-medium text-gray-500 mb-2">Embed settings</p>
+                    <div className="grid grid-cols-2 gap-2">
+                      <div>
+                        <label className="text-[10px] text-gray-500 block mb-0.5">Card style</label>
+                        <select
+                          value={getEmbedCfg(col.id).style || ''}
+                          onChange={e => setEmbedCfg(col.id, 'style', e.target.value)}
+                          className="w-full px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400 bg-white"
+                        >
+                          {STYLE_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+                        </select>
+                      </div>
+                      <div>
+                        <label className="text-[10px] text-gray-500 block mb-0.5">Featured style</label>
+                        <select
+                          value={getEmbedCfg(col.id).featured_style || ''}
+                          onChange={e => setEmbedCfg(col.id, 'featured_style', e.target.value)}
+                          className="w-full px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400 bg-white"
+                        >
+                          {STYLE_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+                        </select>
+                      </div>
+                      <div>
+                        <label className="text-[10px] text-gray-500 block mb-0.5">Featured title</label>
+                        <input
+                          type="text"
+                          value={getEmbedCfg(col.id).featured_title || ''}
+                          onChange={e => setEmbedCfg(col.id, 'featured_title', e.target.value)}
+                          placeholder="Featured Events"
+                          className="w-full px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-[10px] text-gray-500 block mb-0.5">Normal title</label>
+                        <input
+                          type="text"
+                          value={getEmbedCfg(col.id).normal_title || ''}
+                          onChange={e => setEmbedCfg(col.id, 'normal_title', e.target.value)}
+                          placeholder="Upcoming Events"
+                          className="w-full px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-[10px] text-gray-500 block mb-0.5">Mode</label>
+                        <select
+                          value={getEmbedCfg(col.id).mode || ''}
+                          onChange={e => setEmbedCfg(col.id, 'mode', e.target.value)}
+                          className="w-full px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400 bg-white"
+                        >
+                          <option value="">Light</option>
+                          <option value="dark">Dark</option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-[10px] text-gray-400 mt-1">
-                    Params: <code className="bg-gray-100 px-0.5 rounded">style=compact</code>, <code className="bg-gray-100 px-0.5 rounded">featured_style=grid</code>, <code className="bg-gray-100 px-0.5 rounded">title=My+Events</code>, <code className="bg-gray-100 px-0.5 rounded">featured_title=Featured</code>, <code className="bg-gray-100 px-0.5 rounded">normal_title=Upcoming</code>, <code className="bg-gray-100 px-0.5 rounded">bg=%23f9fafb</code>, <code className="bg-gray-100 px-0.5 rounded">mode=dark</code>
-                  </p>
-                  <p className="text-[10px] text-gray-400 mt-0.5">
-                    Styles: classic, accent, magazine, compact, modern, overlay, alwaysimage, minimal, split, splitimage, polaroid, ticket, list, grid, gridcompact, gridtile
-                  </p>
 
                   {/* Domain allowlist */}
-                  <div className="mt-3 pt-2 border-t border-gray-100">
+                  <div>
                     <p className="text-[10px] font-medium text-gray-500 mb-1">Allowed domains</p>
                     <div className="flex gap-1.5 mb-1.5">
                       <input
@@ -455,6 +542,22 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                     ) : (
                       <p className="text-[10px] text-gray-400">No restrictions — embed works on any site.</p>
                     )}
+                  </div>
+
+                  {/* Generated embed code */}
+                  <div className="pt-2 border-t border-gray-100">
+                    <p className="text-[10px] font-medium text-gray-500 mb-1">Embed code</p>
+                    <div className="flex gap-1.5">
+                      <code className="flex-1 text-[11px] text-gray-600 bg-gray-50 border border-gray-200 rounded px-2 py-1.5 block overflow-x-auto whitespace-nowrap">
+                        {buildEmbedCode(col)}
+                      </code>
+                      <button
+                        onClick={() => copyEmbedCode(col)}
+                        className="flex-shrink-0 px-2.5 py-1.5 text-xs font-medium bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors"
+                      >
+                        Copy
+                      </button>
+                    </div>
                   </div>
                 </div>
               )}
@@ -547,29 +650,36 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                     </p>
                   ) : (
                     <div className="space-y-1">
-                      {expandedEvents.map(ce => {
-                        const ev = ce.events;
-                        if (!ev) return null;
-                        return (
-                          <div key={ce.id || ce.event_id} className="flex items-center gap-2 text-xs text-gray-600">
-                            <span className="flex-1 truncate">
-                              {ev.title}
-                              {ev.start_time && (
-                                <span className="text-gray-400 ml-1">
-                                  · {formatDayOfWeek(ev.start_time)} {formatMonthDay(ev.start_time)}
+                      <details className="group">
+                        <summary className="text-[11px] text-gray-400 cursor-pointer hover:text-gray-600 select-none">
+                          Included posts ({expandedEvents.length})
+                        </summary>
+                        <div className="mt-1 space-y-1">
+                          {expandedEvents.map(ce => {
+                            const ev = ce.events;
+                            if (!ev) return null;
+                            return (
+                              <div key={ce.id || ce.event_id} className="flex items-center gap-2 text-xs text-gray-600">
+                                <span className="flex-1 truncate">
+                                  {ev.title}
+                                  {ev.start_time && (
+                                    <span className="text-gray-400 ml-1">
+                                      · {formatDayOfWeek(ev.start_time)} {formatMonthDay(ev.start_time)}
+                                    </span>
+                                  )}
                                 </span>
-                              )}
-                            </span>
-                            <button
-                              onClick={() => handleRemoveEvent(col.id, ce.event_id, ev.source_uid)}
-                              className="text-gray-300 hover:text-red-400 flex-shrink-0"
-                              title={isAuto ? 'Exclude from auto-collection' : 'Remove from collection'}
-                            >
-                              <X size={12} />
-                            </button>
-                          </div>
-                        );
-                      })}
+                                <button
+                                  onClick={() => handleRemoveEvent(col.id, ce.event_id, ev.source_uid)}
+                                  className="text-gray-300 hover:text-red-400 flex-shrink-0"
+                                  title={isAuto ? 'Exclude from auto-collection' : 'Remove from collection'}
+                                >
+                                  <X size={12} />
+                                </button>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </details>
                       {/* Excluded events (auto-collections only) */}
                       {isAuto && excludedEvents.length > 0 && (
                         <>

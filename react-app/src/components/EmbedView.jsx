@@ -1,10 +1,11 @@
-import React, { useMemo, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { useCollection } from '../hooks/useCollection.js';
 import { useColumnCount } from '../hooks/useColumnCount.js';
-import { getMasonryColumns } from '../lib/helpers.js';
+import { getMasonryColumns, getActiveCategories } from '../lib/helpers.js';
 import { isGridLayout as checkGridLayout, getColumnCount as calcColumnCount } from '../lib/cardStyles.js';
 import MasonryGrid from './MasonryGrid.jsx';
 import UniformGrid from './UniformGrid.jsx';
+import SearchBar from './SearchBar.jsx';
 
 /**
  * Minimal embeddable feed view.
@@ -23,10 +24,36 @@ import UniformGrid from './UniformGrid.jsx';
  */
 export default function EmbedView({ feedId, style, featuredStyle, title, featuredTitle, normalTitle, bg, mode }) {
   const isDark = mode === 'dark';
-  const { collection, events, loading, featuredEvents: earlyFeatured, featuredLoading } = useCollection(feedId);
+  const { collection, events: allEvents, loading, featuredEvents: earlyFeatured, featuredLoading } = useCollection(feedId);
   const rawColumnCount = useColumnCount();
   const containerRef = useRef(null);
   const observerRef = useRef(null);
+  const [filterTerm, setFilterTerm] = useState('');
+  const [categoryFilter, setCategoryFilter] = useState('');
+
+  const activeCategories = useMemo(() => getActiveCategories(allEvents), [allEvents]);
+
+  const events = useMemo(() => {
+    let filtered = allEvents;
+    if (categoryFilter) {
+      filtered = filtered.filter(e => e.category === categoryFilter);
+    }
+    if (filterTerm) {
+      const term = filterTerm.toLowerCase();
+      filtered = filtered.filter(e =>
+        (e.title && e.title.toLowerCase().includes(term)) ||
+        (e.description && e.description.toLowerCase().includes(term)) ||
+        (e.location && e.location.toLowerCase().includes(term)) ||
+        (e.source && e.source.toLowerCase().includes(term))
+      );
+    }
+    return filtered;
+  }, [allEvents, filterTerm, categoryFilter]);
+
+  const handleClearAll = useCallback(() => {
+    setFilterTerm('');
+    setCategoryFilter('');
+  }, []);
 
   const postHeight = useCallback(() => {
     const el = containerRef.current;
@@ -127,16 +154,16 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
             {isFeaturedGridLayout ? (
               <UniformGrid
                 events={featuredEvents}
-                filterTerm=""
-                onCategoryFilter={() => {}}
+                filterTerm={filterTerm}
+                onCategoryFilter={setCategoryFilter}
                 variant={featuredCardStyle}
                 columnCount={featuredColumnCount}
               />
             ) : (
               <MasonryGrid
                 masonryColumns={featuredColumns}
-                filterTerm=""
-                onCategoryFilter={() => {}}
+                filterTerm={filterTerm}
+                onCategoryFilter={setCategoryFilter}
                 variant={featuredCardStyle}
               />
             )}
@@ -163,16 +190,16 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
             {isFeaturedGridLayout ? (
               <UniformGrid
                 events={featuredEvents}
-                filterTerm=""
-                onCategoryFilter={() => {}}
+                filterTerm={filterTerm}
+                onCategoryFilter={setCategoryFilter}
                 variant={featuredCardStyle}
                 columnCount={featuredColumnCount}
               />
             ) : (
               <MasonryGrid
                 masonryColumns={featuredColumns}
-                filterTerm=""
-                onCategoryFilter={() => {}}
+                filterTerm={filterTerm}
+                onCategoryFilter={setCategoryFilter}
                 variant={featuredCardStyle}
               />
             )}
@@ -188,16 +215,16 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
         {isGridLayout ? (
           <UniformGrid
             events={regularEvents}
-            filterTerm=""
-            onCategoryFilter={() => {}}
+            filterTerm={filterTerm}
+            onCategoryFilter={setCategoryFilter}
             variant={cardStyle}
             columnCount={columnCount}
           />
         ) : (
           <MasonryGrid
             masonryColumns={masonryColumns}
-            filterTerm=""
-            onCategoryFilter={() => {}}
+            filterTerm={filterTerm}
+            onCategoryFilter={setCategoryFilter}
             variant={cardStyle}
           />
         )}
@@ -207,6 +234,16 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
 
   return (
     <div ref={containerRef} className={`w-full px-3 py-4 ${isDark ? 'dark' : ''}`} style={{ backgroundColor: bg || 'transparent' }}>
+      {!loading && events.length > 0 && (
+        <SearchBar
+          filterTerm={filterTerm}
+          onFilterTermChange={setFilterTerm}
+          categoryFilter={categoryFilter}
+          onCategoryFilterChange={setCategoryFilter}
+          activeCategories={activeCategories}
+          onClearAll={handleClearAll}
+        />
+      )}
       {content}
     </div>
   );
