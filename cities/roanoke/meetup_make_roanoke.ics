@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313432150@meetup.com
-SEQUENCE:1
-DTSTAMP:20260316T185126Z
-DTSTART;TZID=America/New_York:20260316T200000
-DTEND;TZID=America/New_York:20260316T210000
-SUMMARY:General Orientations & Space Tours for New & Prospective Members
-DESCRIPTION:MAKE Roanoke\nCome learn about MAKE Roanoke by taking a tour of Roanoke's own non-profit makerspace and staying for the General Orientation! General Orientations are required for membership. The tours start promptly at 8pm.\n\nMemberships cost $50/mo and get you 24/7 access to the space via a keyfob for all the equipment that you're trained on. [Find out more about MAKE Roanoke Membership here](makeroanoke.org/membership)\n\nThe Orientations will consist of a tour showcasing what MAKE Roanoke has to offer\, a video explaining our rules and procedures\, a briefer tour highlighting safety equipment\, and then time for Q&A and signing up for memberships.\n\nPlease note that additional shop-level orientations and tool-level training are required to use most tools.\n\nYou do not have to sign up for a membership\, if you want to just take the tour and/or orientation to learn more\, that's very welcome!\n**Please note that MAKE Roanoke is an active workshop:**\n\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313432150/
-STATUS:CONFIRMED
-CREATED:20260219T171423Z
-LAST-MODIFIED:20260219T171423Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/1/6/600_532168438.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313729286@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260319T180000
 DTEND;TZID=America/New_York:20260319T190000
 SUMMARY:Stained Glass Planning Meeting
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313432308@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260320T180000
 DTEND;TZID=America/New_York:20260320T190000
 SUMMARY:Maker Mini: Multi-Material 3D Printing with Orcaslicer
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313432537@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260321T130000
 DTEND;TZID=America/New_York:20260321T160000
 SUMMARY:Intro to Home Assistant and ESPHome
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313744165@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260322T110000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260316T185126Z
+DTSTAMP:20260317T015601Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -173,6 +158,21 @@ CREATED:20260306T172409Z
 LAST-MODIFIED:20260306T172409Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/f/1/600_530638609.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313620583@meetup.com
+SEQUENCE:1
+DTSTAMP:20260317T015601Z
+DTSTART;TZID=America/New_York:20260406T200000
+DTEND;TZID=America/New_York:20260406T210000
+SUMMARY:General Orientations & Space Tours for New & Prospective Members
+DESCRIPTION:MAKE Roanoke\nCome learn about MAKE Roanoke by taking a tour of Roanoke's own non-profit makerspace and staying for the General Orientation! General Orientations are required for membership. The tours start promptly at 8pm.\n\nMemberships cost $50/mo and get you 24/7 access to the space via a keyfob for all the equipment that you're trained on. [Find out more about MAKE Roanoke Membership here](makeroanoke.org/membership)\n\nThe Orientations will consist of a tour showcasing what MAKE Roanoke has to offer\, a video explaining our rules and procedures\, a briefer tour highlighting safety equipment\, and then time for Q&A and signing up for memberships.\n\nPlease note that additional shop-level orientations and tool-level training are required to use most tools.\n\nYou do not have to sign up for a membership\, if you want to just take the tour and/or orientation to learn more\, that's very welcome!\n**Please note that MAKE Roanoke is an active workshop:**\n\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313620583/
+STATUS:CONFIRMED
+CREATED:20260303T184302Z
+LAST-MODIFIED:20260303T184302Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/1/6/600_532168438.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

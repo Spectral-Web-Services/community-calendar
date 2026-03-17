@@ -1,1 +1,138 @@
-unable to send to backend
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Institute for Nonprofit News - ECPv6.15.17.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Institute for Nonprofit News
+X-ORIGINAL-URL:https://inn.org
+X-WR-CALDESC:Events for Institute for Nonprofit News
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260317T150000
+DTEND;TZID=America/New_York:20260317T160000
+DTSTAMP:20260316T221847
+CREATED:20251014T194807Z
+LAST-MODIFIED:20251211T214028Z
+UID:10004834-1773759600-1773763200@inn.org
+SUMMARY:News Startup Sessions with INN and Tiny News Collective
+DESCRIPTION:Join the Institute for Nonprofit News (INN) and Tiny News Collective for News Startup Sessions. The small group sessions will take place with INN’s Courtney Lewis\, TNC’s membership director Elaine Díaz Rodríguez\, and a few other leaders looking to launch a news operation. \nIn these sessions\, you’ll: \n\nGain insight into key elements for success\nGet answers to your pressing questions\nDiscover resources to support your journey\n\nGet a head start with INN’s Startup Guide — packed with early tips and resources for planning\, launching\, and running a nonprofit news organization. See you soon.
+URL:https://inn.org/event/news-startup-sessions-inn-tiny-news-collective-2/2026-03-17/
+CATEGORIES:Services
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2025/06/300-x-250-_-CTA-with-TNC-6.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260331T150000
+DTEND;TZID=America/New_York:20260331T160000
+DTSTAMP:20260316T221847
+CREATED:20251014T194807Z
+LAST-MODIFIED:20251211T214028Z
+UID:10004835-1774969200-1774972800@inn.org
+SUMMARY:News Startup Sessions with INN and Tiny News Collective
+DESCRIPTION:Join the Institute for Nonprofit News (INN) and Tiny News Collective for News Startup Sessions. The small group sessions will take place with INN’s Courtney Lewis\, TNC’s membership director Elaine Díaz Rodríguez\, and a few other leaders looking to launch a news operation. \nIn these sessions\, you’ll: \n\nGain insight into key elements for success\nGet answers to your pressing questions\nDiscover resources to support your journey\n\nGet a head start with INN’s Startup Guide — packed with early tips and resources for planning\, launching\, and running a nonprofit news organization. See you soon.
+URL:https://inn.org/event/news-startup-sessions-inn-tiny-news-collective-2/2026-03-31/
+CATEGORIES:Services
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2025/06/300-x-250-_-CTA-with-TNC-6.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260402T153000
+DTEND;TZID=America/New_York:20260402T163000
+DTSTAMP:20260316T221847
+CREATED:20260302T153409Z
+LAST-MODIFIED:20260302T153409Z
+UID:10004846-1775143800-1775147400@inn.org
+SUMMARY:ProJourn Legal Checkup Clinic
+DESCRIPTION:When it comes to a news organization’s legal needs\, understanding how to operate safely and sustainably from a business standpoint is just as important as knowing what challenges might arise in the reporting process. This session\, led by ProJourn\, a program of the Reporters Committee for Freedom of the Press\, will help newsroom leaders assess and prioritize their organization’s legal needs. Attorneys will guide attendees through a checklist\, developed in collaboration with ProJourn partner Davis Wright Tremaine LLP\, of key areas to consider legal risk and needs\, including: \n\nBusiness models and Governance (e.g.\, 501(c)(3)\, compliance with IRS requirements\, tax-exempt status\, incorporation\, fiscal sponsorship\, and/or hybrid entity formation\, news collaboratives and joint ventures);\nIntellectual property\, data protection\, privacy (e.g.\, copyright infringement\, website terms and conditions\, and privacy policies);\nEmployment  (e.g.\, employee handbook; independent journalist contract template);\nMedia Liability (e.g.\, media liability insurance\, defamation risks\, pre-publication review\, and access to records); and\nSafety and Security (e.g.\, protest safety and reporting\, police interaction\, digital security).\n\nParticipation in this clinic does not constitute acceptance of your matter for representation nor a promise to do so and does not create an attorney-client relationship between you and in-house counsel\, the law firm\, the Reporters Committee for Freedom of the Press or any other participating law firm and company\, their employees\, directors or officers. \nPlease note\, slots are limited and will be assigned on a first come first serve basis. If you cancel less than 48 hours before your scheduled Checkup\, your organization will be moved to the bottom of the waiting list. \n\nIf you are not yet a ProJourn client\,  please fill out our eligibility form here: https://forms.office.com/r/S3qpVvg1Mt
+URL:https://inn.org/event/projourn-legal-checkup-clinic/2026-04-02/
+ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2024/06/INN-Events-Operations.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260423T130000
+DTEND;TZID=America/New_York:20260423T150000
+DTSTAMP:20260316T221847
+CREATED:20260302T153409Z
+LAST-MODIFIED:20260302T153409Z
+UID:10004847-1776949200-1776956400@inn.org
+SUMMARY:ProJourn Legal Checkup Clinic
+DESCRIPTION:When it comes to a news organization’s legal needs\, understanding how to operate safely and sustainably from a business standpoint is just as important as knowing what challenges might arise in the reporting process. This session\, led by ProJourn\, a program of the Reporters Committee for Freedom of the Press\, will help newsroom leaders assess and prioritize their organization’s legal needs. Attorneys will guide attendees through a checklist\, developed in collaboration with ProJourn partner Davis Wright Tremaine LLP\, of key areas to consider legal risk and needs\, including: \n\nBusiness models and Governance (e.g.\, 501(c)(3)\, compliance with IRS requirements\, tax-exempt status\, incorporation\, fiscal sponsorship\, and/or hybrid entity formation\, news collaboratives and joint ventures);\nIntellectual property\, data protection\, privacy (e.g.\, copyright infringement\, website terms and conditions\, and privacy policies);\nEmployment  (e.g.\, employee handbook; independent journalist contract template);\nMedia Liability (e.g.\, media liability insurance\, defamation risks\, pre-publication review\, and access to records); and\nSafety and Security (e.g.\, protest safety and reporting\, police interaction\, digital security).\n\nParticipation in this clinic does not constitute acceptance of your matter for representation nor a promise to do so and does not create an attorney-client relationship between you and in-house counsel\, the law firm\, the Reporters Committee for Freedom of the Press or any other participating law firm and company\, their employees\, directors or officers. \nPlease note\, slots are limited and will be assigned on a first come first serve basis. If you cancel less than 48 hours before your scheduled Checkup\, your organization will be moved to the bottom of the waiting list. \n\nIf you are not yet a ProJourn client\,  please fill out our eligibility form here: https://forms.office.com/r/S3qpVvg1Mt
+URL:https://inn.org/event/projourn-legal-checkup-clinic/2026-04-23/
+ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2024/06/INN-Events-Operations.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260429T130000
+DTEND;TZID=America/New_York:20260429T140000
+DTSTAMP:20260316T221847
+CREATED:20260316T134527Z
+LAST-MODIFIED:20260316T134527Z
+UID:10004848-1777467600-1777471200@inn.org
+SUMMARY:Collaborating with Smithsonian's rural initiatives
+DESCRIPTION:The Smithsonian is expanding its engagement with rural communities across the country\, and leaders from the Institute for Nonprofit News’ Rural News Network are invited to learn how rural newsrooms can be part of that effort. \nIn this introductory session\, Smithsonian staff will share how the institution is working with rural partners through its Rural Initiative and preview opportunities connected to Our Shared Future: 250\, a nationwide effort leading up to the United States’ 250th anniversary in 2026. The initiative invites communities across the country to reflect on their histories\, highlight local voices and help shape the nation’s shared future. \nThis conversation will explore how rural journalists and community-rooted newsrooms can collaborate with the Smithsonian Institution—from connecting with local museums and cultural organizations to elevating rural stories\, history and perspectives within a national moment of reflection. \nRural newsroom leaders will have the chance to learn more about the Smithsonian’s rural engagement work\, ask questions and discuss potential ways their reporting and community relationships could intersect with these efforts.
+URL:https://inn.org/event/collaborating-with-smithsonians-rural-initiatives/
+ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2026/03/894595c4-772c-4b8f-ac9c-64cf7faa36b3.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260619
+DTSTAMP:20260316T221847
+CREATED:20260123T165431Z
+LAST-MODIFIED:20260206T171526Z
+UID:10004840-1781568000-1781827199@inn.org
+SUMMARY:INN Days 2026
+DESCRIPTION:Join the Institute for Nonprofit News in Pittsburgh from June 16-18 for INN Days 2026. \nINN Days brings together news leaders\, technologists and business strategists to identify and solve the nonprofit news field’s toughest challenges. This is an opportunity for decision-makers to dive deep and learn practical strategies for strengthening news as a public good.
+URL:https://inn.org/event/inn-days-2026/
+LOCATION:Wyndham Grand Pittsburgh Downtown\, 600 Commonwealth Pl\, Pittsburgh\, 15222\, United States
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260616T170000
+DTEND;TZID=America/New_York:20260616T203000
+DTSTAMP:20260316T221847
+CREATED:20260209T143527Z
+LAST-MODIFIED:20260209T143527Z
+UID:10004844-1781629200-1781641800@inn.org
+SUMMARY:2026 Nonprofit News Awards
+DESCRIPTION:Celebrate the best in nonprofit news at the 2026 Nonprofit News Awards! \nThe evening will begin Tuesday\, June 16\, at 5 p.m. with a reception featuring light hors d’oeuvres and drinks\, followed by the awards ceremony from 6 to 8:30 p.m.\, when the winners will be announced.
+URL:https://inn.org/event/2026-nonprofit-news-awards/
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Untitled-600-x-400-px.png
+END:VEVENT
+END:VCALENDAR
