@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from './useAuth.jsx';
 import { usePicks } from './usePicks.jsx';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
+import { buildSourceFilter } from '../lib/sourceFilter.js';
 
 /** Curator's collection CRUD (auth required). */
 export function useCollections() {
@@ -155,9 +156,7 @@ export function useCollections() {
       const rules = col.rules || {};
       const now = new Date().toISOString();
       let url = `${SUPABASE_URL}/rest/v1/events?city=eq.${encodeURIComponent(col.city)}&start_time=gte.${now}&order=start_time.asc&select=*`;
-      if (rules.sources?.length) {
-        url += `&source=in.(${rules.sources.map(s => encodeURIComponent(s)).join(',')})`;
-      }
+      url += buildSourceFilter(rules.sources);
       if (rules.categories?.length) {
         url += `&category=in.(${rules.categories.map(c => encodeURIComponent(c)).join(',')})`;
       }

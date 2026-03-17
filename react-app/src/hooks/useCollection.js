@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
 import { applyEnrichments } from '../lib/helpers.js';
+import { buildSourceFilter } from '../lib/sourceFilter.js';
 
 /** Fetch a single public collection + its events (no auth required). */
 export function useCollection(feedId) {
@@ -57,9 +58,7 @@ export function useCollection(feedId) {
           const rules = col.rules || {};
           const now = new Date().toISOString();
           let url = `${SUPABASE_URL}/rest/v1/events?city=eq.${encodeURIComponent(col.city)}&start_time=gte.${now}&order=start_time.asc&select=*`;
-          if (rules.sources?.length) {
-            url += `&source=in.(${rules.sources.map(s => encodeURIComponent(s)).join(',')})`;
-          }
+          url += buildSourceFilter(rules.sources);
           if (rules.categories?.length) {
             url += `&category=in.(${rules.categories.map(c => encodeURIComponent(c)).join(',')})`;
           }

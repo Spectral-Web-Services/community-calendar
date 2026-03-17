@@ -59,7 +59,8 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
       .then(r => r.json())
       .then(data => {
         if (!Array.isArray(data)) return;
-        const unique = [...new Set(data.map(d => d.source).filter(Boolean))];
+        const all = data.map(d => d.source).filter(Boolean).flatMap(s => s.split(',').map(x => x.trim()));
+        const unique = [...new Set(all)];
         setAvailableSources(unique.sort());
       })
       .catch(() => setAvailableSources([]));
