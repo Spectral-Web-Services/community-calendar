@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-17T02:22:00.342967",
+  "generated": "2026-03-17T15:54:44.463370",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -52075,7 +52075,7 @@
             },
             {
               "date": "2026-03-17",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -52123,7 +52123,7 @@
             },
             {
               "date": "2026-03-17",
-              "count": 0
+              "count": 19
             }
           ]
         },
@@ -52171,7 +52171,7 @@
             },
             {
               "date": "2026-03-17",
-              "count": 7
+              "count": 13
             }
           ]
         },
@@ -52267,7 +52267,7 @@
             },
             {
               "date": "2026-03-17",
-              "count": 0
+              "count": 1
             }
           ]
         },
@@ -52411,7 +52411,7 @@
             },
             {
               "date": "2026-03-17",
-              "count": 2
+              "count": 1
             }
           ]
         },
@@ -52507,7 +52507,7 @@
             },
             {
               "date": "2026-03-17",
-              "count": 13
+              "count": 16
             }
           ]
         },
@@ -52526,20 +52526,60 @@
               "count": 0
             }
           ]
+        },
+        "eventbrite_sciline": {
+          "history": [
+            {
+              "date": "2026-03-17",
+              "count": 0
+            }
+          ]
+        },
+        "newsguild": {
+          "history": [
+            {
+              "date": "2026-03-17",
+              "count": 10
+            }
+          ]
+        },
+        "poynter_shop": {
+          "history": [
+            {
+              "date": "2026-03-17",
+              "count": 8
+            }
+          ]
+        },
+        "sunlight_research": {
+          "history": [
+            {
+              "date": "2026-03-17",
+              "count": 3
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 65
+          "count": 84
         },
         {
           "category": "Community / Social",
-          "count": 24
+          "count": 38
+        },
+        {
+          "category": "Government / Civic",
+          "count": 11
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 6
+          "count": 8
+        },
+        {
+          "category": "Health / Wellness",
+          "count": 3
         },
         {
           "category": "Arts / Culture",
@@ -52550,13 +52590,13 @@
           "count": 2
         },
         {
-          "category": "Health / Wellness",
+          "category": "History / Heritage",
           "count": 1
         }
       ],
       "images": {
-        "total": 101,
-        "with_image": 20,
+        "total": 150,
+        "with_image": 19,
         "by_source": [
           {
             "source": "Institute for Nonprofit News",
@@ -52584,11 +52624,6 @@
             "with_image": 2
           },
           {
-            "source": "Hackshackers, Poynter Institute",
-            "total": 1,
-            "with_image": 1
-          },
-          {
             "source": "Associated Press",
             "total": 1,
             "with_image": 1
@@ -52596,19 +52631,31 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 94,
-        "total_events": 101,
-        "unique_urls": 88,
+        "total_with_url": 138,
+        "total_events": 150,
+        "unique_urls": 131,
         "generic_count": 0,
         "generic_domains": [],
-        "http_count": 0,
-        "http_domains": 0,
+        "http_count": 19,
+        "http_domains": 8,
         "source_specificity": [
           {
+            "source": "Society of Professional Journalists",
+            "events": 19,
+            "unique_urls": 19,
+            "specificity_pct": 100
+          },
+          {
             "source": "Solutions Journalism Network",
+            "events": 16,
+            "unique_urls": 15,
+            "specificity_pct": 94
+          },
+          {
+            "source": "Editor & Publisher",
             "events": 13,
-            "unique_urls": 12,
-            "specificity_pct": 92
+            "unique_urls": 13,
+            "specificity_pct": 100
           },
           {
             "source": "PEN America",
@@ -52623,6 +52670,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "Poynter Institute Training",
+            "events": 8,
+            "unique_urls": 8,
+            "specificity_pct": 100
+          },
+          {
             "source": "Tiny News Members Only",
             "events": 8,
             "unique_urls": 3,
@@ -52630,12 +52683,6 @@
           },
           {
             "source": "Institute for Nonprofit News",
-            "events": 7,
-            "unique_urls": 7,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Editor & Publisher",
             "events": 7,
             "unique_urls": 7,
             "specificity_pct": 100
@@ -52659,6 +52706,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "NewsGuild-CWA",
+            "events": 5,
+            "unique_urls": 5,
+            "specificity_pct": 100
+          },
+          {
             "source": "Sabew",
             "events": 4,
             "unique_urls": 4,
@@ -52671,27 +52724,9 @@
             "specificity_pct": 100
           },
           {
-            "source": "Knight Center for Journalism",
+            "source": "Sunlight Research",
             "events": 3,
             "unique_urls": 3,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Assoc. of LGBTQ+ Journalists",
-            "events": 3,
-            "unique_urls": 3,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Center for Cooperative Media",
-            "events": 2,
-            "unique_urls": 2,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Poynter Institute",
-            "events": 2,
-            "unique_urls": 2,
             "specificity_pct": 100
           }
         ]
@@ -53901,161 +53936,6 @@
     }
   ],
   "errors": [
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:48:58,156 - WARNING - Failed to fetch https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:48:58,911 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:48:59,606 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:00,370 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:01,276 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:01,992 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:02,689 - WARNING - Failed to fetch https://buskirkchumley.org/events/conclave-2024-april-2-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/conclave-2024-april-2-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:03,387 - WARNING - Failed to fetch https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:04,088 - WARNING - Failed to fetch https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:04,786 - WARNING - Failed to fetch https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:05,483 - WARNING - Failed to fetch https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:06,239 - WARNING - Failed to fetch https://buskirkchumley.org/events/asianfest-2026-april-11-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/asianfest-2026-april-11-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:06,935 - WARNING - Failed to fetch https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:07,636 - WARNING - Failed to fetch https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:08,405 - WARNING - Failed to fetch https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:09,201 - WARNING - Failed to fetch https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:09,900 - WARNING - Failed to fetch https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:10,598 - WARNING - Failed to fetch https://buskirkchumley.org/events/beat-spring-show-april-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/beat-spring-show-april-27-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:11,311 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:12,010 - WARNING - Failed to fetch https://buskirkchumley.org/events/saving-ava-april-29-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/saving-ava-april-29-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:12,707 - WARNING - Failed to fetch https://buskirkchumley.org/events/updating-april-30-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/updating-april-30-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:13,414 - WARNING - Failed to fetch https://buskirkchumley.org/events/sam-grisman-project-may-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/sam-grisman-project-may-3-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:14,110 - WARNING - Failed to fetch https://buskirkchumley.org/events/spaceballs-1987-may-4-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/spaceballs-1987-may-4-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:14,809 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:15,518 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:16,244 - WARNING - Failed to fetch https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:49:16,946 - WARNING - Failed to fetch https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://business.roanokechamber.org/api/events",
-      "source": "models"
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:55:32,050 - ERROR - Failed to fetch https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/ after 3 attempts: 404 Client Error: Not Found for url: https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 01:55:32,051 - WARNING - Could not fetch event page https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/: 404 Client Error: Not Found for url: https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-17",
-      "line": "2026-03-17 02:00:23,951 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
-      "source": null
-    },
     {
       "date": "2026-03-17",
       "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json",

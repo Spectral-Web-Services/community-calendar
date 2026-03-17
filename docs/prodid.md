@@ -9,7 +9,7 @@ used across all city feeds, identified by their PRODID header.
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
 | **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 48 |
-| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 32 |
+| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 33 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 19 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland | 6 |
@@ -60,7 +60,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **roanoke** (1): hollins_university
 
-### Google Calendar (32 feeds)
+### Google Calendar (33 feeds)
 
 Public Google Calendar ICS export.
 
@@ -72,7 +72,7 @@ Public Google Calendar ICS export.
 
 **portland** (5): friends_of_trees_green_space, friends_of_trees_neighborhood, portland_public_schools, portland_thorns, portland_timbers
 
-**publisher-resources** (2): journalism_deadlines, tiny_news_members_only
+**publisher-resources** (3): journalism_deadlines, newsguild, tiny_news_members_only
 
 **roanoke** (1): berglund_center
 
@@ -175,5 +175,6 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Ticketmaster/Evanston//ticketmaster.com//` | evanston | ticketmaster_evanston |
 | `-//Trumba Corporation//Trumba Calendar Services 0.11.25515//EN` | boston | tufts_tdps |
 | `-//YWCA Evanston/North Shore//eventbrite.com//` | evanston | eb_ywca |
+| `-//calendar.spjnetwork.org` | publisher-resources | spj |
 | `X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN` | portland | calagator |
 | `icalendar-ruby` | matsu | matsuk12 |
