@@ -37,7 +37,9 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
   const [renamingId, setRenamingId] = useState(null);
   const [renameValue, setRenameValue] = useState('');
   const [domainInput, setDomainInput] = useState('');
-  const [embedConfig, setEmbedConfig] = useState({});
+  const [embedConfig, setEmbedConfig] = useState(() => {
+    try { return JSON.parse(localStorage.getItem('cc-embed-config')) || {}; } catch { return {}; }
+  });
   const [editSources, setEditSources] = useState([]);
   const [editCategories, setEditCategories] = useState([]);
   const [editingRules, setEditingRules] = useState(false);
@@ -161,7 +163,11 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
 
   const getEmbedCfg = (colId) => embedConfig[colId] || {};
   const setEmbedCfg = (colId, key, value) =>
-    setEmbedConfig(prev => ({ ...prev, [colId]: { ...prev[colId], [key]: value } }));
+    setEmbedConfig(prev => {
+      const next = { ...prev, [colId]: { ...prev[colId], [key]: value } };
+      try { localStorage.setItem('cc-embed-config', JSON.stringify(next)); } catch {}
+      return next;
+    });
 
   const buildEmbedCode = (col) => {
     const cfg = getEmbedCfg(col.id);
@@ -177,9 +183,11 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
     params.set('featured_title', featuredTitle);
     params.set('normal_title', normalTitle);
     if (mode) params.set('mode', mode);
+    const ghostWide = cfg.ghostWide || false;
     const src = `${base}?${params}`;
     const iframeId = `cc-embed-${col.id}`;
-    return `<iframe id="${iframeId}" src="${src}" width="100%" frameborder="0" style="border:none;overflow:hidden;" scrolling="no"></iframe>
+    const classAttr = ghostWide ? ` class="kg-width-wide"` : '';
+    return `<iframe id="${iframeId}"${classAttr} src="${src}" width="100%" frameborder="0" style="border:none;overflow:hidden;" scrolling="no"></iframe>
 <script>(function(){var f=document.getElementById("${iframeId}");function send(){var r=f.getBoundingClientRect();f.contentWindow.postMessage({type:"community-calendar-embed-viewport",iframeTop:r.top+window.scrollY,iframeHeight:r.height,viewportHeight:window.innerHeight,parentScrollY:window.scrollY},"*")}window.addEventListener("message",function(e){if(e.data&&e.data.type==="community-calendar-embed-resize"){f.style.height=e.data.height+"px";send()}if(e.data&&e.data.type==="community-calendar-embed-ready"){send()}});window.addEventListener("scroll",send,{passive:true});window.addEventListener("resize",send,{passive:true})})();</script>`;
   };
 
@@ -462,8 +470,9 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                         <label className="text-[10px] text-gray-500 block mb-0.5">Featured title</label>
                         <input
                           type="text"
-                          value={getEmbedCfg(col.id).featured_title || ''}
-                          onChange={e => setEmbedCfg(col.id, 'featured_title', e.target.value)}
+                          key={`ft-${col.id}`}
+                          defaultValue={getEmbedCfg(col.id).featured_title || ''}
+                          onBlur={e => setEmbedCfg(col.id, 'featured_title', e.target.value)}
                           placeholder="Featured Events"
                           className="w-full px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400"
                         />
@@ -472,8 +481,9 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                         <label className="text-[10px] text-gray-500 block mb-0.5">Normal title</label>
                         <input
                           type="text"
-                          value={getEmbedCfg(col.id).normal_title || ''}
-                          onChange={e => setEmbedCfg(col.id, 'normal_title', e.target.value)}
+                          key={`nt-${col.id}`}
+                          defaultValue={getEmbedCfg(col.id).normal_title || ''}
+                          onBlur={e => setEmbedCfg(col.id, 'normal_title', e.target.value)}
                           placeholder="Upcoming Events"
                           className="w-full px-2 py-1 text-xs border border-gray-200 rounded focus:outline-none focus:border-gray-400"
                         />
@@ -546,6 +556,15 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
 
                   {/* Generated embed code */}
                   <div className="pt-2 border-t border-gray-100">
+                    <label className="flex items-center gap-1.5 mb-2 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={getEmbedCfg(col.id).ghostWide || false}
+                        onChange={e => setEmbedCfg(col.id, 'ghostWide', e.target.checked)}
+                        className="rounded border-gray-300 text-gray-900 focus:ring-gray-500 h-3.5 w-3.5"
+                      />
+                      <span className="text-[11px] text-gray-500">Wide layout on Ghost</span>
+                    </label>
                     <p className="text-[10px] font-medium text-gray-500 mb-1">Embed code</p>
                     <div className="flex gap-1.5">
                       <code className="flex-1 text-[11px] text-gray-600 bg-gray-50 border border-gray-200 rounded px-2 py-1.5 block overflow-x-auto whitespace-nowrap">
