@@ -98,8 +98,8 @@ export default function PicksList() {
           const event = pick.events;
           if (!event) return null;
 
-          const dateStr = formatDayOfWeek(event.start_time) + ' ' + formatMonthDay(event.start_time);
-          const timeStr = formatTime(event.start_time);
+          const dateStr = formatDayOfWeek(event.start_time, event.timezone) + ' ' + formatMonthDay(event.start_time, event.timezone);
+          const timeStr = formatTime(event.start_time, event.timezone);
 
           return (
             <div
