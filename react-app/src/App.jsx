@@ -167,7 +167,12 @@ function App() {
               activeCategories={activeCategories}
               onClearAll={handleClearAll}
             />
-            <StyleSwitcher value={cardStyle} onChange={setCardStyle} />
+            <details className="mb-4">
+              <summary className="text-xs font-medium text-gray-400 cursor-pointer hover:text-gray-600 select-none">Layout options</summary>
+              <div className="mt-2">
+                <StyleSwitcher value={cardStyle} onChange={setCardStyle} />
+              </div>
+            </details>
 
             {loading && (
               <div className="flex justify-center py-12">
