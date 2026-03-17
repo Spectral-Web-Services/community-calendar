@@ -236,7 +236,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
   }), [event, title, date, time, endTime, location, description, frequency, days, ordinal, monthDay]);
 
   const eventDate = event?.start_time
-    ? formatDayOfWeek(event.start_time) + ' ' + formatMonthDay(event.start_time)
+    ? formatDayOfWeek(event.start_time, event?.timezone) + ' ' + formatMonthDay(event.start_time, event?.timezone)
     : '';
 
   return createPortal(

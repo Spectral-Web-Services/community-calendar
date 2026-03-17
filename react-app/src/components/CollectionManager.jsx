@@ -684,7 +684,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                                   {ev.title}
                                   {ev.start_time && (
                                     <span className="text-gray-400 ml-1">
-                                      · {formatDayOfWeek(ev.start_time)} {formatMonthDay(ev.start_time)}
+                                      · {formatDayOfWeek(ev.start_time, ev.timezone)} {formatMonthDay(ev.start_time, ev.timezone)}
                                     </span>
                                   )}
                                 </span>
@@ -715,7 +715,7 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                                   {ev.title}
                                   {ev.start_time && (
                                     <span className="ml-1">
-                                      · {formatDayOfWeek(ev.start_time)} {formatMonthDay(ev.start_time)}
+                                      · {formatDayOfWeek(ev.start_time, ev.timezone)} {formatMonthDay(ev.start_time, ev.timezone)}
                                     </span>
                                   )}
                                 </span>
