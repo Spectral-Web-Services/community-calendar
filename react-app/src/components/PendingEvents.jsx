@@ -3,13 +3,11 @@ import { Check, XIcon, Loader2, Image, Type, FileText } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
 
-const CAPTURE_URL = `${SUPABASE_URL}/functions/v1/capture-event`;
-
 const TYPE_ICONS = { image: Image, text: Type, manual: FileText };
 const TYPE_LABELS = { image: 'Image', text: 'Text', manual: 'Manual' };
 
 export default function PendingEvents({ city }) {
-  const { session } = useAuth();
+  const { user, session } = useAuth();
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [actionId, setActionId] = useState(null);
@@ -41,14 +39,39 @@ export default function PendingEvents({ city }) {
   async function handleApprove(pe) {
     setActionId(pe.id);
     setErrorId(null);
-    const edits = editId === pe.id ? editFields : undefined;
+    const merged = editId === pe.id ? { ...pe, ...editFields } : pe;
+    const jsonHeaders = { ...headers, 'Content-Type': 'application/json', Prefer: 'return=minimal' };
     try {
-      const res = await fetch(CAPTURE_URL, {
+      // Insert into events table
+      const sourceUid = `community_submission:${pe.id}:${Date.now()}`;
+      const insertRes = await fetch(`${SUPABASE_URL}/rest/v1/events`, {
         method: 'POST',
-        headers: { ...headers, 'Content-Type': 'application/json' },
-        body: JSON.stringify({ mode: 'approve', pending_event_id: pe.id, edits }),
+        headers: jsonHeaders,
+        body: JSON.stringify({
+          title: merged.title,
+          start_time: merged.start_time,
+          end_time: merged.end_time || null,
+          location: merged.location || null,
+          description: merged.description || null,
+          url: merged.url || null,
+          city: merged.city || null,
+          source: 'community_submission',
+          source_uid: sourceUid,
+        }),
       });
-      if (!res.ok) throw new Error('Approve failed');
+      if (!insertRes.ok) throw new Error('Failed to insert event');
+
+      // Mark pending event as approved
+      await fetch(`${SUPABASE_URL}/rest/v1/pending_events?id=eq.${pe.id}`, {
+        method: 'PATCH',
+        headers: jsonHeaders,
+        body: JSON.stringify({
+          status: 'approved',
+          reviewed_by: user?.id || null,
+          reviewed_at: new Date().toISOString(),
+        }),
+      });
+
       setEvents(prev => prev.filter(e => e.id !== pe.id));
       setEditId(null);
     } catch (err) {
@@ -64,10 +87,14 @@ export default function PendingEvents({ city }) {
     setActionId(pe.id);
     setErrorId(null);
     try {
-      const res = await fetch(CAPTURE_URL, {
-        method: 'POST',
-        headers: { ...headers, 'Content-Type': 'application/json' },
-        body: JSON.stringify({ mode: 'reject', pending_event_id: pe.id }),
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/pending_events?id=eq.${pe.id}`, {
+        method: 'PATCH',
+        headers: { ...headers, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+        body: JSON.stringify({
+          status: 'rejected',
+          reviewed_by: user?.id || null,
+          reviewed_at: new Date().toISOString(),
+        }),
       });
       if (!res.ok) throw new Error('Reject failed');
       setEvents(prev => prev.filter(e => e.id !== pe.id));
