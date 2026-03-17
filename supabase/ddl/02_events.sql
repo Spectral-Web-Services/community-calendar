@@ -29,6 +29,9 @@ CREATE INDEX IF NOT EXISTS events_city_idx ON events (city);
 -- Index for category filtering
 CREATE INDEX IF NOT EXISTS events_category_idx ON events (category);
 
+-- Index for start_time filtering (frontend queries + nightly cleanup)
+CREATE INDEX IF NOT EXISTS events_start_time_idx ON events (start_time);
+
 -- Enable Row Level Security (public read access)
 ALTER TABLE events ENABLE ROW LEVEL SECURITY;
 

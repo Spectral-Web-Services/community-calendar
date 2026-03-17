@@ -17,6 +17,13 @@ SELECT cron.schedule(
   $$
 );
 
+-- Clean up events older than 7 days, daily at 3 AM UTC (before the 6 AM ingestion)
+SELECT cron.schedule(
+  'cleanup-old-events',
+  '0 3 * * *',
+  $$SELECT public.cleanup_old_events()$$
+);
+
 -- Useful commands:
 -- List all scheduled jobs:
 --   SELECT * FROM cron.job;
