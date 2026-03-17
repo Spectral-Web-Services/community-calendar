@@ -4740,10 +4740,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Commission on Family Services Meeting https://www.skokie.org/c
  alendar.aspx?EID=4423
-DTEND;TZID=America/Chicago:20260401T203000
-DTSTAMP;TZID=America/Chicago:20251215T092210
+DTEND;TZID=America/Chicago:20260325T203000
+DTSTAMP;TZID=America/Chicago:20260317T151711
 DTSTART;TZID=America/Chicago:20260325T190000
-LAST-MODIFIED;TZID=America/Chicago:20251215T092210
+LAST-MODIFIED;TZID=America/Chicago:20260317T151711
 LOCATION: -   Skokie IL 60077
 SEQUENCE:0
 SUMMARY:Commission on Family Services
@@ -4810,18 +4810,6 @@ LOCATION:Conference Rooms D&amp\;E - 5127 Oakton Street  Skokie IL 60077
 SEQUENCE:0
 SUMMARY:Economic Development Commission
 UID:4293
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4337
-DTEND;TZID=America/Chicago:20260316T235900
-DTSTAMP;TZID=America/Chicago:20260312T150746
-DTSTART;TZID=America/Chicago:20260316T193000
-LAST-MODIFIED;TZID=America/Chicago:20260312T150746
-LOCATION:Council Chambers - 5127 Oakton Street  Skokie IL 60077
-SEQUENCE:0
-SUMMARY:Village Board Meeting
-UID:4337
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
 END:VCALENDAR

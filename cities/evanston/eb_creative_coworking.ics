@@ -4,20 +4,35 @@ PRODID:-//Creative Coworking//eventbrite.com//
 X-WR-CALNAME:Creative Coworking
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:The Parlor Pour | A Curated Wine Dinner | Spring Menu Pairing
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260402T183000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260402T213000
-UID:944c0e5b1330b69d5eec07931bcf4816@eventbrite.com
+SUMMARY:Spring Equinox
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T190000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T220000
+UID:467b6ea6b93c685088223279139740a0@eventbrite.com
 ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1179613142%2F312499496442%2F1%2Foriginal.20260311-180357?crop
- =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.422
- &fp-y=0.364&s=3c560228b68c121e58ff2d4ec4ad6e9f
-DESCRIPTION:A Curated Wine Dinner at Colvin House - featuring our spring m
- enu pairing
+ m%2Fimages%2F1179797331%2F312499496442%2F1%2Foriginal.20260313-174643?w=48
+ 0&auto=format%2Ccompress&q=75&sharp=10&s=dfdb0677f686062cff9ebbe4a346915c
+DESCRIPTION:Join the Colvin Coven in a night of honoring the Spring Equino
+ x!
 LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
  icago\, IL
-URL:https://www.eventbrite.com/e/the-parlor-pour-a-curated-wine-dinner-spr
- ing-menu-pairing-tickets-1983561318299
+URL:https://www.eventbrite.com/e/spring-equinox-tickets-1983374262811
+X-SOURCE:Creative Coworking
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colvin Covers: Blondie and the Beast
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T190000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T223000
+UID:e4318f205716dc433a243523285f244c@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1176910852%2F312499496442%2F1%2Foriginal.20260206-205319?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
+ p-y=0.5&s=bc1b611084714d1f6d2c456354e131ba
+DESCRIPTION:Enjoy a night of dancing at Chicago's historic Colvin House by
+  the Lake with a variety of Chicagoland talent.
+LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
+ icago\, IL
+URL:https://www.eventbrite.com/e/colvin-covers-blondie-and-the-beast-ticke
+ ts-1982547142873
 X-SOURCE:Creative Coworking
 END:VEVENT
 BEGIN:VEVENT
@@ -55,21 +70,6 @@ URL:https://www.eventbrite.com/e/st-patricks-day-buffet-ft-parting-glass-w
 X-SOURCE:Creative Coworking
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Spring Equinox
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T190000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260320T220000
-UID:467b6ea6b93c685088223279139740a0@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1179797331%2F312499496442%2F1%2Foriginal.20260313-174643?w=48
- 0&auto=format%2Ccompress&q=75&sharp=10&s=dfdb0677f686062cff9ebbe4a346915c
-DESCRIPTION:Join the Colvin Coven in a night of honoring the Spring Equino
- x!
-LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
- icago\, IL
-URL:https://www.eventbrite.com/e/spring-equinox-tickets-1983374262811
-X-SOURCE:Creative Coworking
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Big Lazy (NYC) Live at Colvin House
 DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260322T180000
 DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260322T203000
@@ -87,20 +87,20 @@ URL:https://www.eventbrite.com/e/big-lazy-nyc-live-at-colvin-house-tickets
 X-SOURCE:Creative Coworking
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colvin Covers: Blondie and the Beast
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T190000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260418T223000
-UID:e4318f205716dc433a243523285f244c@eventbrite.com
+SUMMARY:The Parlor Pour | A Curated Wine Dinner | Spring Menu Pairing
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260402T183000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260402T213000
+UID:944c0e5b1330b69d5eec07931bcf4816@eventbrite.com
 ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1176910852%2F312499496442%2F1%2Foriginal.20260206-205319?crop
- =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
- p-y=0.5&s=bc1b611084714d1f6d2c456354e131ba
-DESCRIPTION:Enjoy a night of dancing at Chicago's historic Colvin House by
-  the Lake with a variety of Chicagoland talent.
+ m%2Fimages%2F1179613142%2F312499496442%2F1%2Foriginal.20260311-180357?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.422
+ &fp-y=0.364&s=3c560228b68c121e58ff2d4ec4ad6e9f
+DESCRIPTION:A Curated Wine Dinner at Colvin House - featuring our spring m
+ enu pairing
 LOCATION:Colvin House\, 5940 North Sheridan Road\, Chicago\, IL 60660\, Ch
  icago\, IL
-URL:https://www.eventbrite.com/e/colvin-covers-blondie-and-the-beast-ticke
- ts-1982547142873
+URL:https://www.eventbrite.com/e/the-parlor-pour-a-curated-wine-dinner-spr
+ ing-menu-pairing-tickets-1983561318299
 X-SOURCE:Creative Coworking
 END:VEVENT
 END:VCALENDAR
