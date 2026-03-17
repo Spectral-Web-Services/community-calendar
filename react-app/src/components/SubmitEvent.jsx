@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import { X, Image, Type, FileText, Loader2, CheckCircle } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { useCurator } from '../hooks/useCurator.jsx';
-import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
+import { SUPABASE_URL, SUPABASE_ANON_KEY } from '../lib/supabase.js';
 
 const CAPTURE_URL = `${SUPABASE_URL}/functions/v1/capture-event`;
 
@@ -84,7 +84,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
       formData.append('mode', 'extract');
       formData.append('file', resized, 'image.jpg');
 
-      const res = await fetch(CAPTURE_URL, { method: 'POST', headers: { apikey: SUPABASE_KEY }, body: formData });
+      const res = await fetch(CAPTURE_URL, { method: 'POST', headers: { Authorization: 'Bearer ' + SUPABASE_ANON_KEY }, body: formData });
       if (!res.ok) throw new Error('Extraction failed');
       const data = await res.json();
       if (data.event) populateFromEvent(data.event);
@@ -105,7 +105,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     try {
       const res = await fetch(CAPTURE_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', apikey: SUPABASE_KEY },
+        headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + SUPABASE_ANON_KEY },
         body: JSON.stringify({ mode: 'extract-text', text: pasteText }),
       });
       if (!res.ok) throw new Error('Extraction failed');
@@ -146,7 +146,6 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            apikey: SUPABASE_KEY,
             Authorization: 'Bearer ' + session.access_token,
           },
           body: JSON.stringify({ mode: 'commit', event: eventPayload }),
@@ -157,10 +156,10 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
         }
       } else {
         // Public/anonymous: submit to pending queue
-        const headers = { 'Content-Type': 'application/json', apikey: SUPABASE_KEY };
-        if (session?.access_token) {
-          headers.Authorization = 'Bearer ' + session.access_token;
-        }
+        const headers = {
+          'Content-Type': 'application/json',
+          Authorization: 'Bearer ' + (session?.access_token || SUPABASE_ANON_KEY),
+        };
         const payload = {
           mode: 'pending-commit',
           event: { ...eventPayload, original_text: tab === 'text' ? pasteText : null },
