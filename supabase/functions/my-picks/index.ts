@@ -130,7 +130,8 @@ Deno.serve(async (req) => {
           description,
           url,
           source,
-          image_url
+          image_url,
+          timezone
         )
       `)
       .eq("user_id", userId);

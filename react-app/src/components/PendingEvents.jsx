@@ -55,6 +55,7 @@ export default function PendingEvents({ city }) {
           description: merged.description || null,
           url: merged.url || null,
           city: merged.city || null,
+          timezone: merged.timezone || null,
           source: 'community_submission',
           source_uid: sourceUid,
         }),

@@ -45,7 +45,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
   const detected = useMemo(() => detectRecurrence(event?.description, event?.title), [event]);
   const [frequency, setFrequency] = useState(detected?.frequency || 'none');
   const [days, setDays] = useState(detected?.days || []);
-  const defaultOrd = useMemo(() => getOrdinalWeekday(date), [date]);
+  const defaultOrd = useMemo(() => getOrdinalWeekday(date, event?.timezone), [date, event?.timezone]);
   const [ordinal, setOrdinal] = useState(detected?.ordinal || defaultOrd?.ordinal || 1);
   const [monthDay, setMonthDay] = useState(detected?.monthDay || defaultOrd?.day || 'MO');
 
@@ -236,7 +236,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
   }), [event, title, date, time, endTime, location, description, frequency, days, ordinal, monthDay]);
 
   const eventDate = event?.start_time
-    ? formatDayOfWeek(event.start_time) + ' ' + formatMonthDay(event.start_time)
+    ? formatDayOfWeek(event.start_time, event?.timezone) + ' ' + formatMonthDay(event.start_time, event?.timezone)
     : '';
 
   return createPortal(

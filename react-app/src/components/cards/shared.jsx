@@ -22,6 +22,7 @@ import {
   buildGoogleCalendarUrl,
   downloadEventICS,
 } from '../../lib/helpers.js';
+import { getDisplayTimezone, getTimezoneAbbr } from '../../lib/timezone.js';
 import { categoryColorMap } from '../../lib/categories.js';
 import CATEGORIES from '../../lib/categories.js';
 import { SUPABASE_URL, SUPABASE_KEY } from '../../lib/supabase.js';
@@ -56,10 +57,14 @@ export function CategoryIcon({ category, color, size = 40, className = 'opacity-
 
 export const DEFAULT_ACCENT = { label: '#6b7280', background: '#f3f4f6' };
 
-export function useEventCardData(event, filterTerm) {
-  const dateParts = formatDateParts(event.start_time);
-  const dateStr = formatDayOfWeek(event.start_time) + ' ' + formatMonthDay(event.start_time);
-  const timeStr = formatTime(event.start_time);
+export function useEventCardData(event, filterTerm, city) {
+  const displayTz = getDisplayTimezone(event, city);
+  const dateParts = formatDateParts(event.start_time, displayTz);
+  const dateStr = formatDayOfWeek(event.start_time, displayTz) + ' ' + formatMonthDay(event.start_time, displayTz);
+  const timeStr = formatTime(event.start_time, displayTz);
+  const tzAbbr = (city === 'publisher-resources' && event.timezone)
+    ? getTimezoneAbbr(event.start_time, displayTz)
+    : null;
   const snippet = getSnippet(event.description, event.title);
   const searchSnippet = filterTerm ? getDescriptionSnippet(event.description, filterTerm) : null;
   const colors = categoryColorMap[event.category] || DEFAULT_ACCENT;
@@ -72,7 +77,7 @@ export function useEventCardData(event, filterTerm) {
       )
     : null;
 
-  return { dateParts, dateStr, timeStr, snippet, searchSnippetHtml, colors };
+  return { dateParts, dateStr, timeStr, tzAbbr, snippet, searchSnippetHtml, colors };
 }
 
 export function ActionBar({ event, onCategoryFilter, onShowDetail, colors }) {

@@ -3,6 +3,7 @@
 
 import { RRule } from 'rrule';
 import { categoryList } from './categories.js';
+import { formatTimeInZone, formatDateInZone, formatDayOfWeekInZone, formatMonthDayInZone } from './timezone.js';
 
 // --- Active categories from events ---
 export function getActiveCategories(events) {
@@ -73,38 +74,50 @@ export function getDescriptionSnippet(description, term) {
 }
 
 // --- Date/time formatting ---
-// Times are stored as local times with +00:00 marker — use UTC values directly
-export function formatDayOfWeek(isoString) {
+// Uses event's timezone for display. Falls back to UTC for backward compatibility.
+export function formatDayOfWeek(isoString, timezone) {
   if (!isoString) return '';
-  return new Date(isoString).toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' });
+  if (!timezone) {
+    return new Date(isoString).toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' });
+  }
+  return formatDayOfWeekInZone(isoString, timezone);
 }
 
-export function formatMonthDay(isoString) {
+export function formatMonthDay(isoString, timezone) {
   if (!isoString) return '';
-  return new Date(isoString).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+  if (!timezone) {
+    return new Date(isoString).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+  }
+  return formatMonthDayInZone(isoString, timezone);
 }
 
 // Return separate month/day/weekday parts for date chip rendering
-export function formatDateParts(isoString) {
+export function formatDateParts(isoString, timezone) {
   if (!isoString) return { month: '', day: '', weekday: '' };
-  const d = new Date(isoString);
-  return {
-    month: d.toLocaleDateString('en-US', { month: 'short', timeZone: 'UTC' }).toUpperCase(),
-    day: String(d.getUTCDate()),
-    weekday: d.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' }),
-  };
+  if (!timezone) {
+    const d = new Date(isoString);
+    return {
+      month: d.toLocaleDateString('en-US', { month: 'short', timeZone: 'UTC' }).toUpperCase(),
+      day: String(d.getUTCDate()),
+      weekday: d.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' }),
+    };
+  }
+  return formatDateInZone(isoString, timezone);
 }
 
-export function formatTime(isoString) {
+export function formatTime(isoString, timezone) {
   if (!isoString) return '';
-  const d = new Date(isoString);
-  const hours = d.getUTCHours();
-  const mins = d.getUTCMinutes();
-  if (hours === 0 && mins === 0) return '';
-  const h = hours % 12 || 12;
-  const ampm = hours < 12 ? 'AM' : 'PM';
-  const m = mins.toString().padStart(2, '0');
-  return `${h}:${m} ${ampm}`;
+  if (!timezone) {
+    const d = new Date(isoString);
+    const hours = d.getUTCHours();
+    const mins = d.getUTCMinutes();
+    if (hours === 0 && mins === 0) return '';
+    const h = hours % 12 || 12;
+    const ampm = hours < 12 ? 'AM' : 'PM';
+    const m = mins.toString().padStart(2, '0');
+    return `${h}:${m} ${ampm}`;
+  }
+  return formatTimeInZone(isoString, timezone);
 }
 
 // --- Snippet extraction ---
@@ -272,9 +285,20 @@ export function collapseLongRunningEvents(events) {
   const now = new Date();
   const todayStart = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
 
-  function getWeekFromToday(dateStr) {
+  function getWeekFromToday(dateStr, tz) {
     const d = new Date(dateStr);
-    const eventDay = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+    let eventDay;
+    if (tz) {
+      const parts = new Intl.DateTimeFormat('en-US', {
+        year: 'numeric', month: '2-digit', day: '2-digit', timeZone: tz,
+      }).formatToParts(d);
+      const y = +parts.find(p => p.type === 'year').value;
+      const m = +parts.find(p => p.type === 'month').value - 1;
+      const dd = +parts.find(p => p.type === 'day').value;
+      eventDay = new Date(Date.UTC(y, m, dd));
+    } else {
+      eventDay = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+    }
     const daysDiff = Math.floor((eventDay - todayStart) / (24 * 60 * 60 * 1000));
     return Math.floor(daysDiff / 7);
   }
@@ -282,7 +306,17 @@ export function collapseLongRunningEvents(events) {
   const groups = {};
   events.forEach(e => {
     const d = new Date(e.start_time);
-    const timeOfDay = String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0');
+    let timeOfDay;
+    if (e.timezone) {
+      const parts = new Intl.DateTimeFormat('en-US', {
+        hour: '2-digit', minute: '2-digit', hour12: false, timeZone: e.timezone,
+      }).formatToParts(d);
+      const h = parts.find(p => p.type === 'hour')?.value || '00';
+      const m = parts.find(p => p.type === 'minute')?.value || '00';
+      timeOfDay = h + ':' + m;
+    } else {
+      timeOfDay = String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0');
+    }
     const key = (e.title || '').trim().toLowerCase() + '|' + (e.location || '').trim().toLowerCase() + '|' + timeOfDay;
     if (!groups[key]) groups[key] = [];
     groups[key].push(e);
@@ -300,11 +334,21 @@ export function collapseLongRunningEvents(events) {
 
   events.forEach(e => {
     const d = new Date(e.start_time);
-    const timeOfDay = String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0');
+    let timeOfDay;
+    if (e.timezone) {
+      const parts = new Intl.DateTimeFormat('en-US', {
+        hour: '2-digit', minute: '2-digit', hour12: false, timeZone: e.timezone,
+      }).formatToParts(d);
+      const h = parts.find(p => p.type === 'hour')?.value || '00';
+      const m = parts.find(p => p.type === 'minute')?.value || '00';
+      timeOfDay = h + ':' + m;
+    } else {
+      timeOfDay = String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0');
+    }
     const key = (e.title || '').trim().toLowerCase() + '|' + (e.location || '').trim().toLowerCase() + '|' + timeOfDay;
 
     if (longRunningKeys.has(key)) {
-      const weekNum = getWeekFromToday(e.start_time);
+      const weekNum = getWeekFromToday(e.start_time, e.timezone);
       if (!seenWeeks[key]) seenWeeks[key] = new Set();
       if (!seenWeeks[key].has(weekNum)) {
         seenWeeks[key].add(weekNum);
@@ -354,6 +398,7 @@ export function expandEnrichments(enrichments, fromDateStr, toDateStr) {
           url: enrichment.url || null,
           source: 'Picks: ' + (enrichment.curator_name || 'curator'),
           city: enrichment.city || null,
+          timezone: enrichment.timezone || null,
           _enrichment_id: enrichment.id,
         });
       }
@@ -386,6 +431,7 @@ export function expandEnrichments(enrichments, fromDateStr, toDateStr) {
           url: enrichment.url || null,
           source: 'Picks: ' + (enrichment.curator_name || 'curator'),
           city: enrichment.city || null,
+          timezone: enrichment.timezone || null,
           rrule: enrichment.rrule,
           _enrichment_id: enrichment.id,
         });
@@ -488,6 +534,10 @@ export function buildGoogleCalendarUrl(event) {
     location: event.location || '',
     details: event.description || '',
   });
+
+  if (event.timezone) {
+    params.set('ctz', event.timezone);
+  }
 
   if (event.rrule) {
     const rruleStr = event.rrule.startsWith('RRULE:') ? event.rrule : 'RRULE:' + event.rrule;
@@ -628,9 +678,19 @@ export function toggleDay(days, day) {
   return days.includes(day) ? days.filter(d => d !== day) : [...days, day];
 }
 
-export function getOrdinalWeekday(dateStr) {
+export function getOrdinalWeekday(dateStr, timezone) {
   if (!dateStr) return null;
-  const d = new Date(dateStr + 'T12:00:00Z');
+  const d = new Date(dateStr + (dateStr.includes('T') ? '' : 'T12:00:00Z'));
+  if (timezone) {
+    const parts = new Intl.DateTimeFormat('en-US', {
+      day: 'numeric', weekday: 'short', timeZone: timezone,
+    }).formatToParts(d);
+    const dayOfMonth = +parts.find(p => p.type === 'day').value;
+    const ordinal = Math.ceil(dayOfMonth / 7);
+    const weekdayName = parts.find(p => p.type === 'weekday').value;
+    const dayCodeMap = { Sun: 'SU', Mon: 'MO', Tue: 'TU', Wed: 'WE', Thu: 'TH', Fri: 'FR', Sat: 'SA' };
+    return { ordinal, day: dayCodeMap[weekdayName] };
+  }
   const dayOfMonth = d.getUTCDate();
   const ordinal = Math.ceil(dayOfMonth / 7);
   const dayCodes = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];

@@ -11,7 +11,8 @@ const EVENT_JSON_FORMAT = `{
   "end_time": "ISO8601 datetime or null",
   "location": "venue/address or null",
   "description": "brief description or null",
-  "url": "website if visible or null"
+  "url": "website if visible or null",
+  "timezone": "IANA timezone identifier if mentioned or inferable from location (e.g., \"America/New_York\"), otherwise omit"
 }`;
 
 function getSharedRules(): string {
@@ -22,6 +23,7 @@ function getSharedRules(): string {
 - If end_time is unknown, estimate a reasonable duration (e.g., 1 hour for meetups, 2-3 hours for concerts/festivals).
 - If the date/time is completely unreadable, set start_time to null.
 - Keep description brief (1-2 sentences max).
+- If the source material mentions a timezone or a location that implies one, include a "timezone" field with the IANA timezone identifier (e.g., "America/New_York"). If no timezone is mentioned or inferable, omit the field.
 - Return ONLY the JSON object, no markdown or explanation.`;
 }
 
@@ -213,6 +215,7 @@ async function commitEvent(
       description: event.description || null,
       url: event.url || null,
       city: event.city || null,
+      timezone: event.timezone || null,
       source: "poster_capture",
       source_uid: sourceUid,
       transcript: transcript || null,
@@ -313,6 +316,7 @@ async function pendingCommitEvent(
       description: event.description || null,
       url: event.url || null,
       city: event.city || null,
+      timezone: event.timezone || null,
       submitted_by: userId,
       submission_type: submissionType,
       original_text: originalText || null,
@@ -369,6 +373,7 @@ async function approveEvent(
       description: merged.description || null,
       url: merged.url || null,
       city: merged.city || null,
+      timezone: merged.timezone || null,
       source: "community_submission",
       source_uid: sourceUid,
     })

@@ -146,6 +146,19 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
 
     const submissionType = tab === 'image' ? 'image' : tab === 'text' ? 'text' : 'manual';
 
+    const cityTimezones = {
+      petaluma: 'America/Los_Angeles',
+      portland: 'America/Los_Angeles',
+      bloomington: 'America/Indiana/Indianapolis',
+      boston: 'America/New_York',
+      evanston: 'America/Chicago',
+      roanoke: 'America/New_York',
+      matsu: 'America/Anchorage',
+      jweekly: 'America/Los_Angeles',
+      'publisher-resources': 'America/New_York',
+    };
+    const eventTimezone = cityTimezones[city] || 'America/Los_Angeles';
+
     try {
       if (canCurate) {
         // Curator: insert directly into events table via REST API
@@ -167,6 +180,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
             description: description || null,
             url: url || null,
             city: city || null,
+            timezone: eventTimezone,
             source: 'community_submission',
             source_uid: sourceUid,
           }),
@@ -196,6 +210,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
             description: description || null,
             url: url || null,
             city: city || null,
+            timezone: eventTimezone,
             submitted_by: user?.id || null,
             submission_type: submissionType,
             original_text: tab === 'text' ? pasteText : null,
