@@ -3,9 +3,14 @@ import { createPortal } from 'react-dom';
 import { X, Image, Type, FileText, Loader2, CheckCircle } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { useCurator } from '../hooks/useCurator.jsx';
-import { SUPABASE_URL, SUPABASE_ANON_KEY } from '../lib/supabase.js';
+import { supabase, SUPABASE_URL, SUPABASE_ANON_KEY } from '../lib/supabase.js';
 
 const CAPTURE_URL = `${SUPABASE_URL}/functions/v1/capture-event`;
+
+async function getFreshToken() {
+  const { data } = await supabase.auth.getSession();
+  return data?.session?.access_token || null;
+}
 
 function resizeImage(file, maxWidth = 1500, quality = 0.8) {
   return new Promise((resolve) => {
@@ -142,13 +147,14 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     try {
       if (canCurate) {
         // Curator: commit directly to events table
-        if (!session?.access_token) { setError('Please sign in'); setSubmitting(false); return; }
+        const token = await getFreshToken();
+        if (!token) { setError('Please sign in'); setSubmitting(false); return; }
         const res = await fetch(CAPTURE_URL, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
             apikey: SUPABASE_ANON_KEY,
-            Authorization: 'Bearer ' + session.access_token,
+            Authorization: 'Bearer ' + token,
           },
           body: JSON.stringify({ mode: 'commit', event: eventPayload }),
         });
@@ -158,10 +164,11 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
         }
       } else {
         // Public/anonymous: submit to pending queue
+        const token = await getFreshToken();
         const headers = {
           'Content-Type': 'application/json',
           apikey: SUPABASE_ANON_KEY,
-          Authorization: 'Bearer ' + (session?.access_token || SUPABASE_ANON_KEY),
+          Authorization: 'Bearer ' + (token || SUPABASE_ANON_KEY),
         };
         const payload = {
           mode: 'pending-commit',
