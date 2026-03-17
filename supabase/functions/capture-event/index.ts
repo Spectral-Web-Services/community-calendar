@@ -503,14 +503,21 @@ Deno.serve(async (req) => {
         const supabaseServiceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
         const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
-        // Optionally resolve user if auth header present
+        // Optionally resolve user if auth header has a user JWT (not the anon key)
         let userId: string | null = null;
         const authHeader = req.headers.get("Authorization");
         if (authHeader?.startsWith("Bearer ")) {
           const token = authHeader.replace("Bearer ", "");
-          const supabaseAuth = createClient(supabaseUrl, Deno.env.get("SUPABASE_ANON_KEY")!);
-          const { data: userData } = await supabaseAuth.auth.getUser(token);
-          if (userData?.user) userId = userData.user.id;
+          const anonKey = Deno.env.get("SUPABASE_ANON_KEY") || "";
+          if (token !== anonKey) {
+            try {
+              const supabaseAuth = createClient(supabaseUrl, anonKey);
+              const { data: userData } = await supabaseAuth.auth.getUser(token);
+              if (userData?.user) userId = userData.user.id;
+            } catch {
+              // Not a valid user token — treat as anonymous
+            }
+          }
         }
 
         const result = await pendingCommitEvent(
