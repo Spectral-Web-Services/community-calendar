@@ -11,6 +11,8 @@ import UniformGrid from './components/UniformGrid.jsx';
 import PicksList from './components/PicksList.jsx';
 import CollectionTargetBar from './components/CollectionTargetBar.jsx';
 import EnrichmentEditor from './components/EnrichmentEditor.jsx';
+import SubmitEvent from './components/SubmitEvent.jsx';
+import PendingEvents from './components/PendingEvents.jsx';
 import { useEvents } from './hooks/useEvents.js';
 import { useEnrichments } from './hooks/useEnrichments.js';
 import { useProcessedEvents } from './hooks/useProcessedEvents.js';
@@ -50,6 +52,7 @@ function App() {
   const [cardStyle, setCardStyle] = useState('accent');
   const [viewMode, setViewMode] = useState('cards');
   const [showCreateEvent, setShowCreateEvent] = useState(false);
+  const [showSubmitEvent, setShowSubmitEvent] = useState(false);
 
   const { events, loading } = useEvents(city);
   const enrichments = useEnrichments(city);
@@ -117,42 +120,60 @@ function App() {
       <div className="max-w-[1400px] w-full px-4 py-6">
         <Header city={city} events={processedEvents} />
 
-        {/* View mode tabs — Collections tab only for curators with access to this city */}
-        {canCurateCity && (
-          <div className="flex gap-1 mb-4 items-center">
-            <button
-              onClick={() => setViewMode('cards')}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-                viewMode === 'cards' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
-              }`}
-            >
-              Cards
-            </button>
-            <button
-              onClick={() => setViewMode('picks')}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-                viewMode === 'picks' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
-              }`}
-            >
-              My Collections
-            </button>
-            <div className="ml-auto">
+        {/* View mode tabs + Submit Event button */}
+        <div className="flex gap-1 mb-4 items-center">
+          {canCurateCity && (
+            <>
               <button
-                onClick={() => setShowCreateEvent(true)}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+                onClick={() => setViewMode('cards')}
+                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  viewMode === 'cards' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
+                }`}
               >
-                <Plus size={16} />
-                Add Event
+                Cards
               </button>
-            </div>
+              <button
+                onClick={() => setViewMode('picks')}
+                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  viewMode === 'picks' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
+                }`}
+              >
+                My Collections
+              </button>
+              <button
+                onClick={() => setViewMode('pending')}
+                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  viewMode === 'pending' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
+                }`}
+              >
+                Pending
+              </button>
+            </>
+          )}
+          <div className="ml-auto">
+            <button
+              onClick={() => setShowSubmitEvent(true)}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+            >
+              <Plus size={16} />
+              Submit Event
+            </button>
           </div>
-        )}
+        </div>
 
         {showCreateEvent && (
           <EnrichmentEditor
             mode="create"
             onClose={() => setShowCreateEvent(false)}
             onSaved={() => setShowCreateEvent(false)}
+          />
+        )}
+
+        {showSubmitEvent && (
+          <SubmitEvent
+            city={city}
+            onClose={() => setShowSubmitEvent(false)}
+            onSubmitted={() => setShowSubmitEvent(false)}
           />
         )}
 
@@ -235,6 +256,7 @@ function App() {
         )}
 
         {viewMode === 'picks' && <PicksList />}
+        {viewMode === 'pending' && <PendingEvents city={city} />}
       </div>
     </div>
   );
