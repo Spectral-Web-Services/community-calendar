@@ -40,7 +40,10 @@ CREATE POLICY "Anyone can read events"
   ON events FOR SELECT
   USING (true);
 
--- Allow only the service_role to insert events (used by the ingestion pipeline).
--- The service_role bypasses RLS, so this policy exists as documentation;
--- no permissive INSERT policy is granted to anon or authenticated.
+-- Allow curators to insert events (used by manual submission from React app)
+CREATE POLICY "Curators can insert events"
+  ON events FOR INSERT
+  WITH CHECK (public.is_curator());
+
+-- The service_role also inserts events (ingestion pipeline) and bypasses RLS.
 

@@ -3,7 +3,9 @@ import { createPortal } from 'react-dom';
 import { X, Image, Type, FileText, Loader2, CheckCircle } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { useCurator } from '../hooks/useCurator.jsx';
-import { supabase } from '../lib/supabase.js';
+import { SUPABASE_URL, SUPABASE_KEY, SUPABASE_ANON_KEY } from '../lib/supabase.js';
+
+const CAPTURE_URL = `${SUPABASE_URL}/functions/v1/capture-event`;
 
 function resizeImage(file, maxWidth = 1500, quality = 0.8) {
   return new Promise((resolve) => {
@@ -22,12 +24,6 @@ function resizeImage(file, maxWidth = 1500, quality = 0.8) {
     };
     img.src = URL.createObjectURL(file);
   });
-}
-
-async function invoke(body) {
-  const { data, error } = await supabase.functions.invoke('capture-event', { body });
-  if (error) throw error;
-  return data;
 }
 
 export default function SubmitEvent({ city, onClose, onSubmitted }) {
@@ -73,6 +69,30 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     setExtracted(false); setError('');
   }
 
+  // Extract calls use raw fetch with anon JWT — no user auth needed
+  async function extractFromImage(formData) {
+    const res = await fetch(CAPTURE_URL, {
+      method: 'POST',
+      headers: { Authorization: 'Bearer ' + SUPABASE_ANON_KEY },
+      body: formData,
+    });
+    if (!res.ok) throw new Error('Extraction failed');
+    return res.json();
+  }
+
+  async function extractFromText(text) {
+    const res = await fetch(CAPTURE_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: 'Bearer ' + SUPABASE_ANON_KEY,
+      },
+      body: JSON.stringify({ mode: 'extract-text', text }),
+    });
+    if (!res.ok) throw new Error('Extraction failed');
+    return res.json();
+  }
+
   async function handleImageSelect(e) {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -88,7 +108,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
       formData.append('mode', 'extract');
       formData.append('file', resized, 'image.jpg');
 
-      const data = await invoke(formData);
+      const data = await extractFromImage(formData);
       if (data.event) populateFromEvent(data.event);
       else throw new Error('No event data returned');
     } catch (err) {
@@ -105,7 +125,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     resetForm();
 
     try {
-      const data = await invoke({ mode: 'extract-text', text: pasteText });
+      const data = await extractFromText(pasteText);
       if (data.event) populateFromEvent(data.event);
       else throw new Error('No event data returned');
     } catch (err) {
@@ -123,29 +143,68 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
 
     const startTime = date + 'T' + (time || '00:00') + ':00';
     const endTimeStr = endTime ? date + 'T' + endTime + ':00' : null;
-    const eventPayload = {
-      title: title.trim(),
-      start_time: startTime,
-      end_time: endTimeStr,
-      location: location || null,
-      description: description || null,
-      url: url || null,
-      city: city || null,
-    };
 
     const submissionType = tab === 'image' ? 'image' : tab === 'text' ? 'text' : 'manual';
 
     try {
       if (canCurate) {
-        // Curator: commit directly to events table
-        await invoke({ mode: 'commit', event: eventPayload });
-      } else {
-        // Public/anonymous: submit to pending queue
-        await invoke({
-          mode: 'pending-commit',
-          event: { ...eventPayload, original_text: tab === 'text' ? pasteText : null },
-          submission_type: submissionType,
+        // Curator: insert directly into events table via REST API
+        if (!session?.access_token) { setError('Please sign in'); setSubmitting(false); return; }
+        const sourceUid = `community_submission:${user.id}:${Date.now()}`;
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/events`, {
+          method: 'POST',
+          headers: {
+            apikey: SUPABASE_KEY,
+            Authorization: 'Bearer ' + session.access_token,
+            'Content-Type': 'application/json',
+            Prefer: 'return=minimal',
+          },
+          body: JSON.stringify({
+            title: title.trim(),
+            start_time: startTime,
+            end_time: endTimeStr,
+            location: location || null,
+            description: description || null,
+            url: url || null,
+            city: city || null,
+            source: 'community_submission',
+            source_uid: sourceUid,
+          }),
         });
+        if (!res.ok) {
+          const text = await res.text();
+          throw new Error(text || 'Failed to save event');
+        }
+      } else {
+        // Public/anonymous: insert into pending_events via REST API (no auth needed)
+        const headers = {
+          apikey: SUPABASE_KEY,
+          'Content-Type': 'application/json',
+          Prefer: 'return=minimal',
+        };
+        if (session?.access_token) {
+          headers.Authorization = 'Bearer ' + session.access_token;
+        }
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/pending_events`, {
+          method: 'POST',
+          headers,
+          body: JSON.stringify({
+            title: title.trim(),
+            start_time: startTime,
+            end_time: endTimeStr,
+            location: location || null,
+            description: description || null,
+            url: url || null,
+            city: city || null,
+            submitted_by: user?.id || null,
+            submission_type: submissionType,
+            original_text: tab === 'text' ? pasteText : null,
+          }),
+        });
+        if (!res.ok) {
+          const text = await res.text();
+          throw new Error(text || 'Failed to submit event');
+        }
       }
       setSuccess(true);
     } catch (err) {
