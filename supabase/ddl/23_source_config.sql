@@ -28,7 +28,9 @@ CREATE POLICY "source_config_delete" ON source_config
 
 -- View that automatically excludes hidden sources from the main calendar.
 -- Auto-collections query the `events` table directly, so they bypass this filter.
-CREATE OR REPLACE VIEW public_events AS
+CREATE OR REPLACE VIEW public_events
+  WITH (security_invoker = true)
+AS
 SELECT e.*
 FROM events e
 WHERE NOT EXISTS (
