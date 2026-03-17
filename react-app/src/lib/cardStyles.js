@@ -15,7 +15,7 @@ export function isGridLayout(styleId) {
 export function getColumnCount(styleId, rawColumnCount) {
   const { baseStyle } = parseCardStyle(styleId);
   if (['list', 'compactlist'].includes(styleId)) return 1;
-  if (['compact'].includes(baseStyle)) return rawColumnCount >= 3 ? 2 : 1;
+  if (['compact'].includes(baseStyle)) return rawColumnCount >= 4 ? 2 : 1;
   if (['split', 'splitimage'].includes(baseStyle)) return Math.min(rawColumnCount, 2);
   if (['ticket'].includes(baseStyle)) return Math.max(1, Math.min(rawColumnCount - 1, 3));
   return rawColumnCount;
