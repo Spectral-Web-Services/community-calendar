@@ -1,207 +1,1278 @@
-2026-03-17 15:53:47,830 - SEJCalendarScraper - INFO - Scraping Society of Environmental Journalists
-2026-03-17 15:53:47,830 - SEJCalendarScraper - INFO - Fetching RSS feed: https://www.sej.org/rss_calendar
-2026-03-17 15:53:48,160 - SEJCalendarScraper - INFO - Found 10 entries in RSS feed
-2026-03-17 15:53:48,189 - SEJCalendarScraper - INFO - Found event: Travel grants to the first International Conference for the Just Transition Away from Fossil Fuels on 2026-03-17 00:00:00-04:00
-2026-03-17 15:53:48,191 - SEJCalendarScraper - INFO - Found event: DC Environmental Film Festival on 2026-03-19 00:00:00-04:00
-2026-03-17 15:53:48,192 - SEJCalendarScraper - INFO - Found event: 2026 Islamic Scholarship Fund on 2026-03-21 00:00:00-04:00
-2026-03-17 15:53:48,194 - SEJCalendarScraper - INFO - Found event: Al Neuharth Free Spirit and Journalism Conference for High School Juniors on 2026-03-25 00:00:00-04:00
-2026-03-17 15:53:48,196 - SEJCalendarScraper - INFO - Found event: Science Talk ’26 on 2026-03-26 00:00:00-04:00
-2026-03-17 15:53:48,198 - SEJCalendarScraper - INFO - Found event: Kovler Prize for Trust in Life Science Journalism on 2026-03-27 00:00:00-04:00
-2026-03-17 15:53:48,200 - SEJCalendarScraper - INFO - Found event: EVOME Institute Science Journalism Fellowship on 2026-03-27 00:00:00-04:00
-2026-03-17 15:53:48,202 - SEJCalendarScraper - INFO - Found event: Online News Association Conference on 2026-03-30 00:00:00-04:00
-2026-03-17 15:53:48,203 - SEJCalendarScraper - INFO - Found event: Eric and Wendy Schmidt Awards for Excellence in Science Communications on 2026-04-03 00:00:00-04:00
-2026-03-17 15:53:48,205 - SEJCalendarScraper - INFO - Found event: NLGJA's CONNECT Student Journalism Training Project on 2026-04-03 00:00:00-04:00
-2026-03-17 15:53:48,205 - SEJCalendarScraper - INFO - Found 10 events
-2026-03-17 15:53:48,208 - SEJCalendarScraper - INFO - Written to cities/publisher-resources/sej.ics
-2026-03-17 15:53:48,446 - IREScheduleScraper - INFO - Scraping IRE 2026
-2026-03-17 15:53:48,446 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json
-Traceback (most recent call last):
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/ire_schedule.py", line 165, in <module>
-    IREScheduleScraper.main()
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/ire_schedule.py", line 161, in main
-    scraper.run(args.output)
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/lib/base.py", line 126, in run
-    events = self.fetch_events()
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/ire_schedule.py", line 39, in fetch_events
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.10.20/x64/lib/python3.10/site-packages/requests/models.py", line 960, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json
-2026-03-17 15:53:48,933 - IREScheduleScraper - INFO - Scraping NICAR 2026
-2026-03-17 15:53:48,933 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/nicar-2026/nicar-2026-schedule.json
-2026-03-17 15:53:49,434 - IREScheduleScraper - INFO - Found 233 sessions
-2026-03-17 15:53:49,528 - IREScheduleScraper - INFO - Found 232 events
-2026-03-17 15:53:49,574 - IREScheduleScraper - INFO - Written to cities/publisher-resources/nicar_2026.ics
-2026-03-17 15:53:49,807 - SJNEventsScraper - INFO - Scraping Solutions Journalism Network
-2026-03-17 15:53:49,807 - SJNEventsScraper - INFO - Fetching events listing: https://www.solutionsjournalism.org/events
-2026-03-17 15:53:58,544 - SJNEventsScraper - INFO - Found 16 events
-2026-03-17 15:53:58,544 - SJNEventsScraper - INFO - Found 16 events
-2026-03-17 15:53:58,548 - SJNEventsScraper - INFO - Written to cities/publisher-resources/sjn.ics
-2026-03-17 15:53:58,730 - PENAmericaScraper - INFO - Scraping PEN America
-2026-03-17 15:54:00,404 - PENAmericaScraper - INFO - Fetching events from https://pen.org/wp-json/wp/v2/event
-2026-03-17 15:54:04,105 - PENAmericaScraper - INFO - Found 11 events
-2026-03-17 15:54:04,105 - PENAmericaScraper - INFO - Found 11 events
-2026-03-17 15:54:04,110 - PENAmericaScraper - INFO - Written to cities/publisher-resources/pen_america.ics
-2026-03-17 15:54:04,316 - INFO - Scraping PEN America
-2026-03-17 15:54:06,143 - INFO - Discovered 13 event URLs from organizer page
-2026-03-17 15:54:06,144 - INFO - Fetching 13 event pages (parallel)...
-2026-03-17 15:54:06,858 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/june-2025-emerging-voices-workshop-final-reading-tickets-1368801555299
-2026-03-17 15:54:06,964 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mothers-sons-and-daughters-the-complex-ties-that-bind-tickets-1316579457599
-2026-03-17 15:54:06,994 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/slices-of-american-life-tickets-1312151393139
-2026-03-17 15:54:07,051 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/reporters-take-up-the-pen-arizona-journalists-who-became-authors-tickets-1323637307819
-2026-03-17 15:54:07,084 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/big-laughs-a-world-voices-festival-comedy-show-tickets-1329007389879
-2026-03-17 15:54:07,550 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-2025-emerging-voices-the-final-reading-tickets-1739358581339
-2026-03-17 15:54:07,619 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-book-ban-fight-from-stories-to-strategy-tickets-1702531630939
-2026-03-17 15:54:07,855 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/bold-voices-latin-american-writers-in-conversation-tickets-1316586257939
-2026-03-17 15:54:07,914 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/under-siege-the-perils-of-journalism-in-an-age-of-state-repression-tickets-1316548424779
-2026-03-17 15:54:08,027 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/closing-celebration-wvf-happy-hour-tickets-1333457751029
-2026-03-17 15:54:08,234 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-new-year-new-books-los-angeles-tickets-1981803181665
-2026-03-17 15:54:08,446 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/reading-with-pride-a-conversation-with-kristen-arnett-tickets-1363569064779
-2026-03-17 15:54:08,447 - INFO - Got 1 future events
-2026-03-17 15:54:08,447 - INFO - Found 1 events
-2026-03-17 15:54:08,447 - INFO - Written to cities/publisher-resources/pen_america_eventbrite.ics
-2026-03-17 15:54:08,599 - NABJEventsScraper - INFO - Scraping NABJ
-2026-03-17 15:54:08,599 - NABJEventsScraper - INFO - Fetching RSS feed: https://www.nabj.org/resource/rss/events.rss
-2026-03-17 15:54:10,037 - NABJEventsScraper - INFO - Found 4 entries in RSS feed
-2026-03-17 15:54:10,037 - NABJEventsScraper - INFO - Found event: 2026 NABJ Region III Conference on 2026-04-16 01:00:00-04:00
-2026-03-17 15:54:10,037 - NABJEventsScraper - INFO - Found event: 2026 NABJ Region II Conference on 2026-04-17 01:00:00-04:00
-2026-03-17 15:54:10,037 - NABJEventsScraper - INFO - Found event: 2026 NABJ Region IV Conference on 2026-04-24 01:00:00-04:00
-2026-03-17 15:54:10,037 - NABJEventsScraper - INFO - Found event: NABJ Region I + Young Black Journalists Task Force  Present EMERGE: Building the Next 50 on 2026-05-01 01:00:00-04:00
-2026-03-17 15:54:10,038 - NABJEventsScraper - INFO - Found 4 events
-2026-03-17 15:54:10,039 - NABJEventsScraper - INFO - Written to cities/publisher-resources/nabj.ics
-2026-03-17 15:54:10,188 - INFO - Scraping American Press Institute
-2026-03-17 15:54:11,453 - INFO - Discovered 12 event URLs from organizer page
-2026-03-17 15:54:11,453 - INFO - Fetching 12 event pages (parallel)...
-2026-03-17 15:54:12,120 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-series-empowering-sales-teams-in-news-organizations-tickets-1141176041259
-2026-03-17 15:54:12,122 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/revenue-ama-how-nashville-banner-embraces-local-identity-and-history-tickets-1394785524049
-2026-03-17 15:54:12,133 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/steal-this-idea-revenue-successes-with-table-stakes-alumni-tickets-1329189865669
-2026-03-17 15:54:12,282 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/beyond-stress-what-journalists-should-know-about-burnout-tickets-1329796620489
-2026-03-17 15:54:12,284 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-series-strategies-for-retaining-paid-subscribers-tickets-1117776984049
-2026-03-17 15:54:12,817 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/proven-digital-transformation-strategies-to-try-at-your-news-organization-tickets-1292762189509
-2026-03-17 15:54:12,834 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ask-me-anything-local-news-trusted-messengers-and-history-tickets-1981805092380
-2026-03-17 15:54:12,876 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-qa-demystifying-sales-for-better-collaboration-tickets-1255784217399
-2026-03-17 15:54:12,934 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-qa-build-reporting-beats-capacity-with-philanthropy-tickets-1300010740119
-2026-03-17 15:54:13,035 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/revenue-ama-how-the-forward-grows-audience-across-generations-tickets-1394837740229
-2026-03-17 15:54:13,456 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trauma-informed-leadership-workshop-tickets-1329796259409
-2026-03-17 15:54:13,643 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-influencer-collaborations-can-help-news-deepen-community-connection-tickets-1657501935909
-2026-03-17 15:54:13,644 - INFO - Got 0 future events
-2026-03-17 15:54:13,644 - INFO - Found 0 events
-2026-03-17 15:54:13,645 - INFO - Written to cities/publisher-resources/api_eventbrite.ics
-2026-03-17 15:54:13,795 - INFO - Scraping Center for Cooperative Media
-2026-03-17 15:54:15,281 - INFO - Discovered 14 event URLs from organizer page
-2026-03-17 15:54:15,281 - INFO - Fetching 14 event pages (parallel)...
-2026-03-17 15:54:15,962 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-accept-corporate-sponsorships-tickets-1980033354063
-2026-03-17 15:54:15,965 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-raise-money-from-small-dollar-donors-tickets-1981952222450
-2026-03-17 15:54:16,166 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/our-collaborative-has-all-this-data-now-what-tickets-1640829899399
-2026-03-17 15:54:16,196 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-excellence-in-community-media-awards-tickets-1982292738944
-2026-03-17 15:54:16,821 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/using-public-data-to-report-on-snap-policy-changes-tickets-1982386277721
-2026-03-17 15:54:16,827 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-snap-funding-and-federal-policy-changes-in-new-jersey-tickets-1980017997130
-2026-03-17 15:54:16,858 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-budget-transparency-tool-demonstration-and-qa-tickets-1542483492649
-2026-03-17 15:54:17,072 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-content-sharing-platforms-w-distributed-media-lab-plucky-works-tickets-1656757138199
-2026-03-17 15:54:17,397 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/statewide-news-collective-the-community-impact-of-independent-journalism-tickets-1781731931169
-2026-03-17 15:54:17,531 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/media-liability-insurance-for-nj-local-news-orgs-tickets-1708596471039
-2026-03-17 15:54:17,632 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-dave-cole-of-the-new-jersey-office-of-innovation-tickets-1829943453129
-2026-03-17 15:54:17,979 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/climate-resilience-and-environmental-justice-for-new-jersey-communities-tickets-1968808736931
-2026-03-17 15:54:17,980 - INFO - Got 2 future events
-2026-03-17 15:54:17,980 - INFO - Found 2 events
-2026-03-17 15:54:17,981 - INFO - Written to cities/publisher-resources/cooperative_media_eventbrite.ics
-2026-03-17 15:54:18,208 - LIONPublishersScraper - INFO - Scraping LION Publishers
-2026-03-17 15:54:18,430 - LIONPublishersScraper - INFO - Found: 2026 Independent News Sustainability Summit on 2026-09-09
-2026-03-17 15:54:18,430 - LIONPublishersScraper - INFO - Found 1 events
-2026-03-17 15:54:18,431 - LIONPublishersScraper - INFO - Written to cities/publisher-resources/lion_publishers.ics
-2026-03-17 15:54:18,664 - EditorPublisherScraper - INFO - Scraping Editor & Publisher
-2026-03-17 15:54:18,986 - EditorPublisherScraper - INFO - Found: 2026 Mega-Conference on 2026-03-30
-2026-03-17 15:54:18,986 - EditorPublisherScraper - INFO - Found: N.E.A.C.E. 2026 Annual Conference on 2026-04-26
-2026-03-17 15:54:18,989 - EditorPublisherScraper - INFO - Found: 2026 Niche Media Conference on 2026-04-08
-2026-03-17 15:54:18,990 - EditorPublisherScraper - INFO - Found: 2026 South Dakota NewsMedia Association Convention on 2026-04-30
-2026-03-17 15:54:18,990 - EditorPublisherScraper - INFO - Found: INMA World Congress of News Media on 2026-05-04
-2026-03-17 15:54:18,990 - EditorPublisherScraper - INFO - Found: 2026 MDDC Conference & Celebration on 2026-05-08
-2026-03-17 15:54:18,990 - EditorPublisherScraper - INFO - Found: 2026 Media Financial Management Association and Financial Executives International Annual Conference on 2026-05-17
-2026-03-17 15:54:18,990 - EditorPublisherScraper - INFO - Found: 2026 Illinois Press Annual Convention on 2026-06-04
-2026-03-17 15:54:18,990 - EditorPublisherScraper - INFO - Found: Texas Press Association Convention & Trade Show on 2026-06-18
-2026-03-17 15:54:18,991 - EditorPublisherScraper - INFO - Found: Alabama Press Association Summer Convention & Awards Banquet on 2026-06-25
-2026-03-17 15:54:18,991 - EditorPublisherScraper - INFO - Found: 2026 ADMA Conference on 2026-06-10
-2026-03-17 15:54:18,991 - EditorPublisherScraper - INFO - Found: 2026 Mississippi Press 160th Annual Meeting on 2026-06-26
-2026-03-17 15:54:18,991 - EditorPublisherScraper - INFO - Found: 2026 Senior Leadership Conference on 2026-09-14
-2026-03-17 15:54:18,991 - EditorPublisherScraper - INFO - Found 13 events
-2026-03-17 15:54:18,993 - EditorPublisherScraper - INFO - Written to cities/publisher-resources/editor_publisher.ics
-2026-03-17 15:54:19,156 - INFO - Scraping Center for Cooperative Media
-2026-03-17 15:54:20,570 - INFO - Discovered 14 event URLs from organizer page
-2026-03-17 15:54:20,570 - INFO - Fetching 14 event pages (parallel)...
-2026-03-17 15:54:20,844 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/using-public-data-to-report-on-snap-policy-changes-tickets-1982386277721
-2026-03-17 15:54:20,860 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/statewide-news-collective-the-community-impact-of-independent-journalism-tickets-1781731931169
-2026-03-17 15:54:20,868 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-raise-money-from-small-dollar-donors-tickets-1981952222450
-2026-03-17 15:54:20,884 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-accept-corporate-sponsorships-tickets-1980033354063
-2026-03-17 15:54:20,886 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-content-sharing-platforms-w-distributed-media-lab-plucky-works-tickets-1656757138199
-2026-03-17 15:54:21,100 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-dave-cole-of-the-new-jersey-office-of-innovation-tickets-1829943453129
-2026-03-17 15:54:21,138 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-excellence-in-community-media-awards-tickets-1982292738944
-2026-03-17 15:54:21,148 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-snap-funding-and-federal-policy-changes-in-new-jersey-tickets-1980017997130
-2026-03-17 15:54:21,380 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/our-collaborative-has-all-this-data-now-what-tickets-1640829899399
-2026-03-17 15:54:21,383 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/media-liability-insurance-for-nj-local-news-orgs-tickets-1708596471039
-2026-03-17 15:54:21,396 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-budget-transparency-tool-demonstration-and-qa-tickets-1542483492649
-2026-03-17 15:54:21,414 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/climate-resilience-and-environmental-justice-for-new-jersey-communities-tickets-1968808736931
-2026-03-17 15:54:21,415 - INFO - Got 2 future events
-2026-03-17 15:54:21,415 - INFO - Found 2 events
-2026-03-17 15:54:21,416 - INFO - Written to cities/publisher-resources/eventbrite_coop_media.ics
-2026-03-17 15:54:21,574 - INFO - Scraping Associated Press
-2026-03-17 15:54:23,044 - INFO - Discovered 5 event URLs from organizer page
-2026-03-17 15:54:23,044 - INFO - Fetching 5 event pages (parallel)...
-2026-03-17 15:54:23,799 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ap-photography-showcase-capturing-the-solar-eclipse-tickets-782142809197
-2026-03-17 15:54:23,975 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1038893587687
-2026-03-17 15:54:24,031 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1269725024729
-2026-03-17 15:54:24,289 - INFO - Got 1 future events
-2026-03-17 15:54:24,289 - INFO - Found 1 events
-2026-03-17 15:54:24,290 - INFO - Written to cities/publisher-resources/eventbrite_ap.ics
-2026-03-17 15:54:24,443 - INFO - Scraping SciLine
-2026-03-17 15:54:25,498 - INFO - Discovered 1 event URLs from organizer page
-2026-03-17 15:54:25,498 - INFO - Fetching 1 event pages (parallel)...
-2026-03-17 15:54:26,312 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-up-happy-hour-with-sciline-tickets-1984061358934
-2026-03-17 15:54:26,313 - INFO - Got 0 future events
-2026-03-17 15:54:26,313 - INFO - Found 0 events
-2026-03-17 15:54:26,313 - INFO - Written to cities/publisher-resources/eventbrite_sciline.ics
-2026-03-17 15:54:26,534 - ONAEventsScraper - INFO - Scraping Online News Association
-2026-03-17 15:54:27,796 - ONAEventsScraper - INFO - Found: AI Innovator Collaborative on 2026-03-17
-2026-03-17 15:54:27,796 - ONAEventsScraper - INFO - Found: Quick Hits and Deep Dives: Consumer Investigations Any Newsroom Can Do on 2026-03-18
-2026-03-17 15:54:27,796 - ONAEventsScraper - INFO - Found: ONA26 - Annual Conference of the Online News Association on 2026-03-30
-2026-03-17 15:54:27,797 - ONAEventsScraper - INFO - Found: From Fear to Focus: Navigating Your Next Move After a Layoff on 2026-04-14
-2026-03-17 15:54:27,797 - ONAEventsScraper - INFO - Found: Develop a Walking Tour Pilot for Your Newsroom in 60 Minutes on 2026-04-16
-2026-03-17 15:54:27,797 - ONAEventsScraper - INFO - Found 5 events
-2026-03-17 15:54:27,799 - ONAEventsScraper - INFO - Written to cities/publisher-resources/ona_events.ics
-2026-03-17 15:54:28,032 - KnightCenterScraper - INFO - Scraping Knight Center for Journalism
-2026-03-17 15:54:28,264 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-17 15:54:28,264 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-17 15:54:28,265 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-17 15:54:28,265 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-17 15:54:28,266 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
-2026-03-17 15:54:28,267 - KnightCenterScraper - INFO - Found: Desde la redacción: cómo la IA está transformando el periodismo on 2026-03-26
-2026-03-17 15:54:28,267 - KnightCenterScraper - INFO - Found: Direto da Redação: como a IA está transformando o jornalismo on 2026-03-25
-2026-03-17 15:54:28,268 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-17 15:54:28,436 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-17 15:54:28,437 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-17 15:54:28,438 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-17 15:54:28,438 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-17 15:54:28,439 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
-2026-03-17 15:54:28,439 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-17 15:54:28,440 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
-2026-03-17 15:54:28,784 - KnightCenterScraper - INFO - Found 5 events
-2026-03-17 15:54:28,786 - KnightCenterScraper - INFO - Written to cities/publisher-resources/knight_center.ics
-2026-03-17 15:54:29,045 - SunlightResearchScraper - INFO - Scraping Sunlight Research
-2026-03-17 15:54:29,266 - SunlightResearchScraper - INFO - Found: Book Bans with The Marshall Project and Data Liberation Project on 2026-03-18
-2026-03-17 15:54:29,267 - SunlightResearchScraper - INFO - Found: Learn about Datasette on 2026-03-26
-2026-03-17 15:54:29,267 - SunlightResearchScraper - INFO - Found: Start Small. Build Trust. Make News. Building a Small Newsroom People Trust on 2026-03-19
-2026-03-17 15:54:29,268 - SunlightResearchScraper - INFO - Found 3 events
-2026-03-17 15:54:29,268 - SunlightResearchScraper - INFO - Written to cities/publisher-resources/sunlight_research.ics
-2026-03-17 15:54:29,504 - PoynterShopScraper - INFO - Scraping Poynter Institute Training
-2026-03-17 15:54:29,792 - PoynterShopScraper - INFO - Found: Breaking Into Books: A Non-Fiction Writing Workshop for Journalists (May 2026) on 2026-05-18
-2026-03-17 15:54:29,794 - PoynterShopScraper - INFO - Found: Beat Academy: Midterm Prep on 2026-05-05
-2026-03-17 15:54:29,794 - PoynterShopScraper - INFO - Found: Edit to Elevate: Essentials for New Editors (April 2026) on 2026-04-13
-2026-03-17 15:54:29,797 - PoynterShopScraper - INFO - Found: Transforming Crime Coverage (2026) on 2026-04-29
-2026-03-17 15:54:29,800 - PoynterShopScraper - INFO - Found: Leadership Academy for Women (2026) on 2026-03-23
-2026-03-17 15:54:29,801 - PoynterShopScraper - INFO - Found: Essential Skills for New Managers (Nov. 2026) on 2026-11-16
-2026-03-17 15:54:29,802 - PoynterShopScraper - INFO - Found: Essential Skills for New Managers (May 2026) on 2026-05-11
-2026-03-17 15:54:29,803 - PoynterShopScraper - INFO - Found: Beat Academy: Midterm Prep on 2026-05-05
-2026-03-17 15:54:29,804 - PoynterShopScraper - INFO - Found: Edit to Elevate: Essentials for New Editors (April 2026) on 2026-04-13
-2026-03-17 15:54:29,804 - PoynterShopScraper - INFO - Found: Will Work For Impact: Fundamentals of Investigative Journalism (April 2026) on 2026-04-23
-2026-03-17 15:54:29,805 - PoynterShopScraper - INFO - Found: Breaking Into Books: A Non-Fiction Writing Workshop for Journalists (May 2026) on 2026-05-18
-2026-03-17 15:54:29,806 - PoynterShopScraper - INFO - Found 8 events
-2026-03-17 15:54:29,808 - PoynterShopScraper - INFO - Written to cities/publisher-resources/poynter_shop.ics
+2026-03-17 22:38:55,295 - LibraryScraper - INFO - Scraping Bloomington Library
+2026-03-17 22:38:55,295 - LibraryScraper - INFO - Scraping page 1
+2026-03-17 22:38:56,922 - LibraryScraper - INFO - Found event: BPL On-the-Go Pop-Up on 2026-03-21 10:15:00-04:00
+2026-03-17 22:38:56,922 - LibraryScraper - INFO - Found event: Bookmobile to White Eagle on 2026-03-21 12:15:00-04:00
+2026-03-17 22:38:56,923 - LibraryScraper - INFO - Found event: Watercolor Cherry Blossoms Painting on 2026-03-22 14:00:00-04:00
+2026-03-17 22:38:56,923 - LibraryScraper - INFO - Found event: Bookmobile to Tracy Drive on 2026-03-23 15:30:00-04:00
+2026-03-17 22:38:56,923 - LibraryScraper - INFO - Found event: Bookmobile to Grove on 2026-03-23 17:30:00-04:00
+2026-03-17 22:38:56,924 - LibraryScraper - INFO - Found event: Bookmobile to Eagle View on 2026-03-23 19:45:00-04:00
+2026-03-17 22:38:56,924 - LibraryScraper - INFO - Found event: Teen Spring Break Movie and Craft on 2026-03-24 14:00:00-04:00
+2026-03-17 22:38:56,924 - LibraryScraper - INFO - Found event: Bookmobile to Four Seasons on 2026-03-24 15:15:00-04:00
+2026-03-17 22:38:56,925 - LibraryScraper - INFO - Found event: Upcycled Book Bags on 2026-03-24 16:00:00-04:00
+2026-03-17 22:38:56,925 - LibraryScraper - INFO - Found event: Bookmobile to Oakwood on 2026-03-24 17:30:00-04:00
+2026-03-17 22:38:56,925 - LibraryScraper - INFO - Found event: Family Art Night on 2026-03-24 18:00:00-04:00
+2026-03-17 22:38:56,926 - LibraryScraper - INFO - Found event: Bookmobile to Laesch Acres on 2026-03-24 19:30:00-04:00
+2026-03-17 22:38:56,926 - LibraryScraper - INFO - Found event: Cardboard Arcade on 2026-03-25 11:00:00-04:00
+2026-03-17 22:38:56,926 - LibraryScraper - INFO - Found event: Teen Writing Workshop on 2026-03-25 12:00:00-04:00
+2026-03-17 22:38:56,927 - LibraryScraper - INFO - Found event: Bookmobile to Wine Way on 2026-03-25 15:15:00-04:00
+2026-03-17 22:38:56,927 - LibraryScraper - INFO - Found event: Bookmobile to North Pointe on 2026-03-25 17:30:00-04:00
+2026-03-17 22:38:56,927 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Crest on 2026-03-25 19:30:00-04:00
+2026-03-17 22:38:56,928 - LibraryScraper - INFO - Found event: Book Brunch Club on 2026-03-26 10:00:00-04:00
+2026-03-17 22:38:56,928 - LibraryScraper - INFO - Found event: Spring Printmaking on 2026-03-26 10:00:00-04:00
+2026-03-17 22:38:56,928 - LibraryScraper - INFO - Found event: Tummy Time Play on 2026-03-26 14:00:00-04:00
+2026-03-17 22:38:56,929 - LibraryScraper - INFO - Found event: Teen Spring Break Movie and a Craft on 2026-03-26 14:00:00-04:00
+2026-03-17 22:38:56,929 - LibraryScraper - INFO - Found event: Bookmobile to Meadows on 2026-03-26 14:45:00-04:00
+2026-03-17 22:38:56,929 - LibraryScraper - INFO - Found event: Bookmobile to Wingover on 2026-03-26 17:30:00-04:00
+2026-03-17 22:38:56,930 - LibraryScraper - INFO - Scraping page 2
+2026-03-17 22:38:58,105 - LibraryScraper - INFO - Found event: Super-Pooping Worm Spectacular! on 2026-03-27 10:00:00-04:00
+2026-03-17 22:38:58,105 - LibraryScraper - INFO - Found event: Bookmobile to Rowe Drive on 2026-03-27 10:30:00-04:00
+2026-03-17 22:38:58,105 - LibraryScraper - INFO - Found event: Bookmobile to Spring Ridge on 2026-03-27 12:15:00-04:00
+2026-03-17 22:38:58,106 - LibraryScraper - INFO - Found event: Bookmobile to Deer Ridge on 2026-03-28 09:00:00-04:00
+2026-03-17 22:38:58,106 - LibraryScraper - INFO - Found event: Nomad Theatre Presents: Pop-Up HERStory on 2026-03-28 09:30:00-04:00
+2026-03-17 22:38:58,107 - LibraryScraper - INFO - Found event: Bookmobile to Pepper Ridge on 2026-03-28 10:30:00-04:00
+2026-03-17 22:38:58,107 - LibraryScraper - INFO - Found event: Bookmobile to Phillip Place on 2026-03-28 12:30:00-04:00
+2026-03-17 22:38:58,107 - LibraryScraper - INFO - Found event: RC Cars for Kids on 2026-03-28 15:00:00-04:00
+2026-03-17 22:38:58,108 - LibraryScraper - INFO - Found event: Nomad Theatre Presents: Pop-Up HERStory on 2026-03-29 13:30:00-04:00
+2026-03-17 22:38:58,108 - LibraryScraper - INFO - Found event: Bookmobile to Ekstam Drive on 2026-03-30 15:15:00-04:00
+2026-03-17 22:38:58,108 - LibraryScraper - INFO - Found event: Bookmobile to Rollingbrook South on 2026-03-30 17:30:00-04:00
+2026-03-17 22:38:58,109 - LibraryScraper - INFO - Found event: Colon Cancer Awareness on 2026-03-30 18:00:00-04:00
+2026-03-17 22:38:58,109 - LibraryScraper - INFO - Found event: Bookmobile to Harvest Pointe on 2026-03-30 19:15:00-04:00
+2026-03-17 22:38:58,109 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-03-31 10:00:00-04:00
+2026-03-17 22:38:58,110 - LibraryScraper - INFO - Found event: Bookmobile to Holton Homes on 2026-03-31 15:30:00-04:00
+2026-03-17 22:38:58,110 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Creek on 2026-03-31 17:30:00-04:00
+2026-03-17 22:38:58,110 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-03-31 18:00:00-04:00
+2026-03-17 22:38:58,111 - LibraryScraper - INFO - Found event: Bookmobile to Tipton Trails on 2026-03-31 19:30:00-04:00
+2026-03-17 22:38:58,111 - LibraryScraper - INFO - Found event: Preschool Story Time on 2026-04-01 10:00:00-04:00
+2026-03-17 22:38:58,111 - LibraryScraper - INFO - Found event: Midweek Movie on 2026-04-01 13:00:00-04:00
+2026-03-17 22:38:58,112 - LibraryScraper - INFO - Found event: Bookmobile to Arcadia Drive on 2026-04-01 15:30:00-04:00
+2026-03-17 22:38:58,112 - LibraryScraper - INFO - Found event: Bookmobile to Sunnyside Park on 2026-04-01 17:30:00-04:00
+2026-03-17 22:38:58,112 - LibraryScraper - INFO - Found event: Tales for Tails on 2026-04-01 18:00:00-04:00
+2026-03-17 22:38:58,113 - LibraryScraper - INFO - Scraping page 3
+2026-03-17 22:38:59,405 - LibraryScraper - INFO - Found event: Bookmobile to Garling Heights on 2026-04-01 19:30:00-04:00
+2026-03-17 22:38:59,405 - LibraryScraper - INFO - Found event: Toddler Story Time on 2026-04-02 10:00:00-04:00
+2026-03-17 22:38:59,406 - LibraryScraper - INFO - Found event: Bookmobile to Broadmoor on 2026-04-02 15:30:00-04:00
+2026-03-17 22:38:59,406 - LibraryScraper - INFO - Found event: Bookmobile to Cardinal Ridge on 2026-04-02 17:30:00-04:00
+2026-03-17 22:38:59,406 - LibraryScraper - INFO - Found event: Books On Tap on 2026-04-02 18:00:00-04:00
+2026-03-17 22:38:59,407 - LibraryScraper - INFO - Found event: D&D for Kids on 2026-04-02 18:00:00-04:00
+2026-03-17 22:38:59,407 - LibraryScraper - INFO - Found event: Bookmobile to Hilltop Mobile Home Park on 2026-04-02 19:30:00-04:00
+2026-03-17 22:38:59,407 - LibraryScraper - INFO - Found event: Fun Friday Story Time on 2026-04-03 10:00:00-04:00
+2026-03-17 22:38:59,408 - LibraryScraper - INFO - Found event: Bookmobile to Waterford Estates on 2026-04-03 10:30:00-04:00
+2026-03-17 22:38:59,408 - LibraryScraper - INFO - Found event: Bookmobile to Brookridge Heights Apts on 2026-04-03 12:15:00-04:00
+2026-03-17 22:38:59,409 - LibraryScraper - INFO - Found event: Bookmobile to Arrowsmith on 2026-04-04 08:45:00-04:00
+2026-03-17 22:38:59,409 - LibraryScraper - INFO - Found event: Sensory Story Time on 2026-04-04 10:00:00-04:00
+2026-03-17 22:38:59,409 - LibraryScraper - INFO - Found event: Bookmobile to Ellsworth on 2026-04-04 10:15:00-04:00
+2026-03-17 22:38:59,410 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Crest East on 2026-04-04 12:00:00-04:00
+2026-03-17 22:38:59,410 - LibraryScraper - INFO - Found event: Bookmobile to Arbors Apartments on 2026-04-06 15:30:00-04:00
+2026-03-17 22:38:59,410 - LibraryScraper - INFO - Found event: D&D for Kids on 2026-04-06 16:00:00-04:00
+2026-03-17 22:38:59,411 - LibraryScraper - INFO - Found event: Bookmobile to Royal Pointe Road on 2026-04-06 17:30:00-04:00
+2026-03-17 22:38:59,411 - LibraryScraper - INFO - Found event: Teen Craftivism on 2026-04-06 18:00:00-04:00
+2026-03-17 22:38:59,411 - LibraryScraper - INFO - Found event: Bookmobile to Old Farm Lakes on 2026-04-06 19:15:00-04:00
+2026-03-17 22:38:59,412 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-07 10:00:00-04:00
+2026-03-17 22:38:59,412 - LibraryScraper - INFO - Found event: Bookmobile to Traditions on 2026-04-07 15:30:00-04:00
+2026-03-17 22:38:59,412 - LibraryScraper - INFO - Found event: Bookmobile to Golden Eagle on 2026-04-07 17:30:00-04:00
+2026-03-17 22:38:59,412 - LibraryScraper - INFO - Scraping page 4
+2026-03-17 22:39:00,693 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-07 18:00:00-04:00
+2026-03-17 22:39:00,693 - LibraryScraper - INFO - Found event: Dating Violence Simulation on 2026-04-07 18:30:00-04:00
+2026-03-17 22:39:00,694 - LibraryScraper - INFO - Found event: Bookmobile to Ponds Apts on 2026-04-07 19:15:00-04:00
+2026-03-17 22:39:00,694 - LibraryScraper - INFO - Found event: Preschool Story Time on 2026-04-08 10:00:00-04:00
+2026-03-17 22:39:00,695 - LibraryScraper - INFO - Found event: Teen Writing Workshop on 2026-04-08 12:00:00-04:00
+2026-03-17 22:39:00,695 - LibraryScraper - INFO - Found event: Bookmobile to Evergreen on 2026-04-08 15:30:00-04:00
+2026-03-17 22:39:00,695 - LibraryScraper - INFO - Found event: Bookmobile to Bohmer on 2026-04-08 17:30:00-04:00
+2026-03-17 22:39:00,696 - LibraryScraper - INFO - Found event: Tales for Tails on 2026-04-08 18:00:00-04:00
+2026-03-17 22:39:00,696 - LibraryScraper - INFO - Found event: Bloomington Reads: Mini-Book Keychain Craft on 2026-04-08 18:00:00-04:00
+2026-03-17 22:39:00,697 - LibraryScraper - INFO - Found event: Bookmobile to Rainbow Ave on 2026-04-08 19:30:00-04:00
+2026-03-17 22:39:00,697 - LibraryScraper - INFO - Found event: Toddler Story Time on 2026-04-09 10:00:00-04:00
+2026-03-17 22:39:00,697 - LibraryScraper - INFO - Found event: Bookmobile to Alexander & Grandview Estates on 2026-04-09 14:45:00-04:00
+2026-03-17 22:39:00,698 - LibraryScraper - INFO - Found event: After School @ BPL on 2026-04-09 15:30:00-04:00
+2026-03-17 22:39:00,698 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Ridge on 2026-04-09 17:30:00-04:00
+2026-03-17 22:39:00,699 - LibraryScraper - INFO - Found event: Bloomington Reads: Book Discussion on 2026-04-09 19:00:00-04:00
+2026-03-17 22:39:00,699 - LibraryScraper - INFO - Found event: Bookmobile to Ballybunion on 2026-04-09 19:30:00-04:00
+2026-03-17 22:39:00,699 - LibraryScraper - INFO - Found event: Fun Friday Story Time on 2026-04-10 10:00:00-04:00
+2026-03-17 22:39:00,700 - LibraryScraper - INFO - Found event: Bookmobile to Wingover on 2026-04-10 10:30:00-04:00
+2026-03-17 22:39:00,700 - LibraryScraper - INFO - Found event: Bookmobile to Somerset Court on 2026-04-10 12:15:00-04:00
+2026-03-17 22:39:00,701 - LibraryScraper - INFO - Found event: Bookmobile to Crestwicke on 2026-04-11 08:45:00-04:00
+2026-03-17 22:39:00,701 - LibraryScraper - INFO - Found event: Lego Construction on 2026-04-11 09:30:00-04:00
+2026-03-17 22:39:00,701 - LibraryScraper - INFO - Found event: Bookmobile to Viking Brews on 2026-04-11 10:15:00-04:00
+2026-03-17 22:39:00,702 - LibraryScraper - INFO - Found event: BPL On-the-Go Pop-Up on 2026-04-11 10:15:00-04:00
+2026-03-17 22:39:00,702 - LibraryScraper - INFO - Found event: Teen Genre Book Club on 2026-04-11 11:00:00-04:00
+2026-03-17 22:39:00,702 - LibraryScraper - INFO - Scraping page 5
+2026-03-17 22:39:02,276 - LibraryScraper - INFO - Found event: Bookmobile to White Eagle on 2026-04-11 12:15:00-04:00
+2026-03-17 22:39:02,276 - LibraryScraper - INFO - Found event: Disability Insurance Workshop on 2026-04-11 13:00:00-04:00
+2026-03-17 22:39:02,277 - LibraryScraper - INFO - Found event: Slow Looking at 410 Sculpture Park on 2026-04-12 13:00:00-04:00
+2026-03-17 22:39:02,277 - LibraryScraper - INFO - Found event: Hide-n-Seek: Bookmobile Edition on 2026-04-12 14:00:00-04:00
+2026-03-17 22:39:02,278 - LibraryScraper - INFO - Found event: Bookmobile to Tracy Drive on 2026-04-13 15:30:00-04:00
+2026-03-17 22:39:02,278 - LibraryScraper - INFO - Found event: Mini 3D-Printed Catapults on 2026-04-13 17:00:00-04:00
+2026-03-17 22:39:02,278 - LibraryScraper - INFO - Found event: Bookmobile to Grove on 2026-04-13 17:30:00-04:00
+2026-03-17 22:39:02,279 - LibraryScraper - INFO - Found event: Let's Dish! A Cookbook Club on 2026-04-13 18:30:00-04:00
+2026-03-17 22:39:02,279 - LibraryScraper - INFO - Found event: Bookmobile to Eagle View on 2026-04-13 19:45:00-04:00
+2026-03-17 22:39:02,280 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-14 10:00:00-04:00
+2026-03-17 22:39:02,280 - LibraryScraper - INFO - Found event: Estate Planning on 2026-04-14 13:30:00-04:00
+2026-03-17 22:39:02,280 - LibraryScraper - INFO - Found event: Bookmobile to Four Seasons on 2026-04-14 15:15:00-04:00
+2026-03-17 22:39:02,281 - LibraryScraper - INFO - Found event: Teen Financial Literacy: Making Financial Decisions (in English) on 2026-04-14 16:00:00-04:00
+2026-03-17 22:39:02,281 - LibraryScraper - INFO - Found event: Bookmobile to Oakwood on 2026-04-14 17:30:00-04:00
+2026-03-17 22:39:02,282 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-14 18:00:00-04:00
+2026-03-17 22:39:02,282 - LibraryScraper - INFO - Found event: Mystery Book Club on 2026-04-14 19:00:00-04:00
+2026-03-17 22:39:02,282 - LibraryScraper - INFO - Found event: Bookmobile to Laesch Acres on 2026-04-14 19:30:00-04:00
+2026-03-17 22:39:02,283 - LibraryScraper - INFO - Found event: Preschool Story Time on 2026-04-15 10:00:00-04:00
+2026-03-17 22:39:02,283 - LibraryScraper - INFO - Found event: Bloomington Reads: Book Discussion on 2026-04-15 12:00:00-04:00
+2026-03-17 22:39:02,284 - LibraryScraper - INFO - Found event: Bookmobile to Wine Way on 2026-04-15 15:15:00-04:00
+2026-03-17 22:39:02,284 - LibraryScraper - INFO - Found event: Bookmobile to North Pointe on 2026-04-15 17:30:00-04:00
+2026-03-17 22:39:02,284 - LibraryScraper - INFO - Found event: Tales for Tails on 2026-04-15 18:00:00-04:00
+2026-03-17 22:39:02,285 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Crest on 2026-04-15 19:30:00-04:00
+2026-03-17 22:39:02,285 - LibraryScraper - INFO - Found event: Toddler Story Time on 2026-04-16 10:00:00-04:00
+2026-03-17 22:39:02,285 - LibraryScraper - INFO - Scraping page 6
+2026-03-17 22:39:03,536 - LibraryScraper - INFO - Found event: Bookmobile to Meadows on 2026-04-16 14:45:00-04:00
+2026-03-17 22:39:03,536 - LibraryScraper - INFO - Found event: Bookmobile to Wingover on 2026-04-16 17:30:00-04:00
+2026-03-17 22:39:03,537 - LibraryScraper - INFO - Found event: D&D for Kids on 2026-04-16 18:00:00-04:00
+2026-03-17 22:39:03,537 - LibraryScraper - INFO - Found event: Bloomington Reads: A Classical Music Tribute on 2026-04-16 19:00:00-04:00
+2026-03-17 22:39:03,537 - LibraryScraper - INFO - Found event: ILP: Cristina Henríquez: Voice, Culture, and Human Connection on 2026-04-16 19:00:00-04:00
+2026-03-17 22:39:03,538 - LibraryScraper - INFO - Found event: Fun Friday Story Time on 2026-04-17 10:00:00-04:00
+2026-03-17 22:39:03,538 - LibraryScraper - INFO - Found event: Bookmobile to Rowe Drive on 2026-04-17 10:30:00-04:00
+2026-03-17 22:39:03,538 - LibraryScraper - INFO - Found event: Bookmobile to Spring Ridge on 2026-04-17 12:15:00-04:00
+2026-03-17 22:39:03,539 - LibraryScraper - INFO - Found event: Bookmobile to Deer Ridge on 2026-04-18 09:00:00-04:00
+2026-03-17 22:39:03,539 - LibraryScraper - INFO - Found event: Super Saturday Story Time on 2026-04-18 10:00:00-04:00
+2026-03-17 22:39:03,539 - LibraryScraper - INFO - Found event: Bookmobile to Pepper Ridge on 2026-04-18 10:30:00-04:00
+2026-03-17 22:39:03,540 - LibraryScraper - INFO - Found event: Bookmobile to Phillip Place on 2026-04-18 12:30:00-04:00
+2026-03-17 22:39:03,540 - LibraryScraper - INFO - Found event: D&D for Teens: The Forge of Spells on 2026-04-18 12:45:00-04:00
+2026-03-17 22:39:03,541 - LibraryScraper - INFO - Found event: Bloomington Reads: Mini-Book Keychain Craft on 2026-04-19 13:00:00-04:00
+2026-03-17 22:39:03,541 - LibraryScraper - INFO - Found event: Bloomington Reads: Book Discussion on 2026-04-19 14:00:00-04:00
+2026-03-17 22:39:03,541 - LibraryScraper - INFO - Found event: Fun & Games:  Family Game Day on 2026-04-19 14:00:00-04:00
+2026-03-17 22:39:03,542 - LibraryScraper - INFO - Found event: Bookmobile to Ekstam Drive on 2026-04-20 15:15:00-04:00
+2026-03-17 22:39:03,542 - LibraryScraper - INFO - Found event: Bookmobile to Rollingbrook South on 2026-04-20 17:30:00-04:00
+2026-03-17 22:39:03,542 - LibraryScraper - INFO - Found event: Language Conversation Group on 2026-04-20 17:30:00-04:00
+2026-03-17 22:39:03,543 - LibraryScraper - INFO - Found event: Custom Sublimated Tumblers on 2026-04-20 17:30:00-04:00
+2026-03-17 22:39:03,543 - LibraryScraper - INFO - Found event: Singing, Swinging Story Time on 2026-04-20 18:00:00-04:00
+2026-03-17 22:39:03,543 - LibraryScraper - INFO - Found event: Bookmobile to Harvest Pointe on 2026-04-20 19:15:00-04:00
+2026-03-17 22:39:03,544 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-21 10:00:00-04:00
+2026-03-17 22:39:03,544 - LibraryScraper - INFO - Scraping page 7
+2026-03-17 22:39:04,983 - LibraryScraper - INFO - Found event: Bookmobile to Holton Homes on 2026-04-21 15:30:00-04:00
+2026-03-17 22:39:04,983 - LibraryScraper - INFO - Found event: Educación Financiera para Adolescentes: Tomando Decisiones Financieras (en español) on 2026-04-21 16:00:00-04:00
+2026-03-17 22:39:04,983 - LibraryScraper - INFO - Found event: Marbled Paper-Covered Journals on 2026-04-21 16:00:00-04:00
+2026-03-17 22:39:04,984 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Creek on 2026-04-21 17:30:00-04:00
+2026-03-17 22:39:04,984 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-21 18:00:00-04:00
+2026-03-17 22:39:04,985 - LibraryScraper - INFO - Found event: Fiction Book Club on 2026-04-21 19:00:00-04:00
+2026-03-17 22:39:04,985 - LibraryScraper - INFO - Found event: Bookmobile to Tipton Trails on 2026-04-21 19:30:00-04:00
+2026-03-17 22:39:04,986 - LibraryScraper - INFO - Found event: Preschool Story Time on 2026-04-22 10:00:00-04:00
+2026-03-17 22:39:04,986 - LibraryScraper - INFO - Found event: Teen Writing Workshop on 2026-04-22 12:00:00-04:00
+2026-03-17 22:39:04,986 - LibraryScraper - INFO - Found event: Bookmobile to Arcadia Drive on 2026-04-22 15:30:00-04:00
+2026-03-17 22:39:04,987 - LibraryScraper - INFO - Found event: Bookmobile to Sunnyside Park on 2026-04-22 17:30:00-04:00
+2026-03-17 22:39:04,987 - LibraryScraper - INFO - Found event: Tales for Tails on 2026-04-22 18:00:00-04:00
+2026-03-17 22:39:04,987 - LibraryScraper - INFO - Found event: Bookmobile to Garling Heights on 2026-04-22 19:30:00-04:00
+2026-03-17 22:39:04,988 - LibraryScraper - INFO - Found event: Toddler Story Time on 2026-04-23 10:00:00-04:00
+2026-03-17 22:39:04,988 - LibraryScraper - INFO - Found event: Book Brunch Club on 2026-04-23 10:00:00-04:00
+2026-03-17 22:39:04,989 - LibraryScraper - INFO - Found event: Bookmobile to Broadmoor on 2026-04-23 15:30:00-04:00
+2026-03-17 22:39:04,989 - LibraryScraper - INFO - Found event: After School @ BPL on 2026-04-23 15:30:00-04:00
+2026-03-17 22:39:04,989 - LibraryScraper - INFO - Found event: Bookmobile to Cardinal Ridge on 2026-04-23 17:30:00-04:00
+2026-03-17 22:39:04,990 - LibraryScraper - INFO - Found event: Bloomington Reads: An Evening with Edward Kelsey Moore on 2026-04-23 18:00:00-04:00
+2026-03-17 22:39:04,990 - LibraryScraper - INFO - Found event: Bookmobile to Hilltop Mobile Home Park on 2026-04-23 19:30:00-04:00
+2026-03-17 22:39:04,991 - LibraryScraper - INFO - Found event: Fun Friday Story Time on 2026-04-24 10:00:00-04:00
+2026-03-17 22:39:04,991 - LibraryScraper - INFO - Found event: Bookmobile to Waterford Estates on 2026-04-24 10:30:00-04:00
+2026-03-17 22:39:04,991 - LibraryScraper - INFO - Found event: Bookmobile to Brookridge Heights Apts on 2026-04-24 12:15:00-04:00
+2026-03-17 22:39:04,992 - LibraryScraper - INFO - Found event: Bookmobile to Arrowsmith on 2026-04-25 08:45:00-04:00
+2026-03-17 22:39:04,992 - LibraryScraper - INFO - Scraping page 8
+2026-03-17 22:39:05,996 - LibraryScraper - INFO - Found event: Instrument Playground on 2026-04-25 10:00:00-04:00
+2026-03-17 22:39:05,996 - LibraryScraper - INFO - Found event: Bookmobile to Ellsworth on 2026-04-25 10:15:00-04:00
+2026-03-17 22:39:05,997 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Crest East on 2026-04-25 12:00:00-04:00
+2026-03-17 22:39:05,997 - LibraryScraper - INFO - Found event: Pins and Needles: A Fiber Arts Celebration on 2026-04-25 14:00:00-04:00
+2026-03-17 22:39:05,997 - LibraryScraper - INFO - Found event: RC Cars for Kids on 2026-04-25 15:00:00-04:00
+2026-03-17 22:39:05,998 - LibraryScraper - INFO - Found event: El día de los niños/El día de los libros on 2026-04-26 14:00:00-04:00
+2026-03-17 22:39:05,998 - LibraryScraper - INFO - Found event: Bookmobile to Arbors Apartments on 2026-04-27 15:30:00-04:00
+2026-03-17 22:39:05,998 - LibraryScraper - INFO - Found event: Sensory Art Time on 2026-04-27 16:00:00-04:00
+2026-03-17 22:39:05,998 - LibraryScraper - INFO - Found event: Bookmobile to Royal Pointe Road on 2026-04-27 17:30:00-04:00
+2026-03-17 22:39:05,999 - LibraryScraper - INFO - Found event: True Crime Book Club on 2026-04-27 19:00:00-04:00
+2026-03-17 22:39:05,999 - LibraryScraper - INFO - Found event: Bookmobile to Old Farm Lakes on 2026-04-27 19:15:00-04:00
+2026-03-17 22:39:05,999 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-28 10:00:00-04:00
+2026-03-17 22:39:06,000 - LibraryScraper - INFO - Found event: Bookmobile to Traditions on 2026-04-28 15:30:00-04:00
+2026-03-17 22:39:06,000 - LibraryScraper - INFO - Found event: Bookmobile to Golden Eagle on 2026-04-28 17:30:00-04:00
+2026-03-17 22:39:06,000 - LibraryScraper - INFO - Found event: Lapsit Story Time on 2026-04-28 18:00:00-04:00
+2026-03-17 22:39:06,001 - LibraryScraper - INFO - Found event: Adult Craftivism on 2026-04-28 18:00:00-04:00
+2026-03-17 22:39:06,001 - LibraryScraper - INFO - Found event: Bookmobile to Ponds Apts on 2026-04-28 19:15:00-04:00
+2026-03-17 22:39:06,002 - LibraryScraper - INFO - Found event: Bookmobile to Evergreen on 2026-04-29 15:30:00-04:00
+2026-03-17 22:39:06,002 - LibraryScraper - INFO - Found event: Craftivism for Kids: Earth Day on 2026-04-29 17:30:00-04:00
+2026-03-17 22:39:06,002 - LibraryScraper - INFO - Found event: Bookmobile to Bohmer on 2026-04-29 17:30:00-04:00
+2026-03-17 22:39:06,003 - LibraryScraper - INFO - Found event: BPL On-the-Go Pop-Up on 2026-04-29 17:30:00-04:00
+2026-03-17 22:39:06,003 - LibraryScraper - INFO - Found event: Bookmobile to Rainbow Ave on 2026-04-29 19:30:00-04:00
+2026-03-17 22:39:06,003 - LibraryScraper - INFO - Found event: Bookmobile to Alexander & Grandview Estates on 2026-04-30 14:45:00-04:00
+2026-03-17 22:39:06,003 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Ridge on 2026-04-30 17:30:00-04:00
+2026-03-17 22:39:06,003 - LibraryScraper - INFO - Scraping page 9
+2026-03-17 22:39:06,967 - LibraryScraper - INFO - Found event: Bookmobile to Ballybunion on 2026-04-30 19:30:00-04:00
+2026-03-17 22:39:06,968 - LibraryScraper - INFO - Found event: Bookmobile to Wingover on 2026-05-01 10:30:00-04:00
+2026-03-17 22:39:06,968 - LibraryScraper - INFO - Found event: Bookmobile to Somerset Court on 2026-05-01 12:15:00-04:00
+2026-03-17 22:39:06,968 - LibraryScraper - INFO - Found event: Bookmobile to Crestwicke on 2026-05-02 08:45:00-04:00
+2026-03-17 22:39:06,969 - LibraryScraper - INFO - Found event: Sensory Story Time on 2026-05-02 10:00:00-04:00
+2026-03-17 22:39:06,969 - LibraryScraper - INFO - Found event: Bookmobile to Viking Brews on 2026-05-02 10:15:00-04:00
+2026-03-17 22:39:06,970 - LibraryScraper - INFO - Found event: Houseplant Swap on 2026-05-02 11:00:00-04:00
+2026-03-17 22:39:06,970 - LibraryScraper - INFO - Found event: Macrame Plant Hanger on 2026-05-02 11:00:00-04:00
+2026-03-17 22:39:06,970 - LibraryScraper - INFO - Found event: Bookmobile to White Eagle on 2026-05-02 12:15:00-04:00
+2026-03-17 22:39:06,971 - LibraryScraper - INFO - Found event: Bookmobile to Tracy Drive on 2026-05-04 15:30:00-04:00
+2026-03-17 22:39:06,971 - LibraryScraper - INFO - Found event: Bookmobile to Grove on 2026-05-04 17:30:00-04:00
+2026-03-17 22:39:06,972 - LibraryScraper - INFO - Found event: Teen Craftivism on 2026-05-04 18:00:00-04:00
+2026-03-17 22:39:06,972 - LibraryScraper - INFO - Found event: Bookmobile to Eagle View on 2026-05-04 19:45:00-04:00
+2026-03-17 22:39:06,972 - LibraryScraper - INFO - Found event: Bookmobile to Four Seasons on 2026-05-05 15:15:00-04:00
+2026-03-17 22:39:06,973 - LibraryScraper - INFO - Found event: Make a Mother’s Day Gift on 2026-05-05 16:00:00-04:00
+2026-03-17 22:39:06,973 - LibraryScraper - INFO - Found event: 5th Grade TeenZone Preview Nights on 2026-05-05 17:00:00-04:00
+2026-03-17 22:39:06,974 - LibraryScraper - INFO - Found event: Bookmobile to Oakwood on 2026-05-05 17:30:00-04:00
+2026-03-17 22:39:06,974 - LibraryScraper - INFO - Found event: History Reads Book Club on 2026-05-05 19:00:00-04:00
+2026-03-17 22:39:06,974 - LibraryScraper - INFO - Found event: Bookmobile to Laesch Acres on 2026-05-05 19:30:00-04:00
+2026-03-17 22:39:06,975 - LibraryScraper - INFO - Found event: Midweek Movie on 2026-05-06 13:00:00-04:00
+2026-03-17 22:39:06,975 - LibraryScraper - INFO - Found event: Bookmobile to Wine Way on 2026-05-06 15:15:00-04:00
+2026-03-17 22:39:06,975 - LibraryScraper - INFO - Found event: 5th Grade TeenZone Preview Nights on 2026-05-06 17:00:00-04:00
+2026-03-17 22:39:06,976 - LibraryScraper - INFO - Found event: Bookmobile to North Pointe on 2026-05-06 17:30:00-04:00
+2026-03-17 22:39:06,976 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Crest on 2026-05-06 19:30:00-04:00
+2026-03-17 22:39:06,976 - LibraryScraper - INFO - Scraping page 10
+2026-03-17 22:39:07,793 - LibraryScraper - INFO - Found event: Bookmobile to Meadows on 2026-05-07 14:45:00-04:00
+2026-03-17 22:39:07,793 - LibraryScraper - INFO - Found event: Bookmobile to Wingover on 2026-05-07 17:30:00-04:00
+2026-03-17 22:39:07,793 - LibraryScraper - INFO - Found event: Books On Tap on 2026-05-07 18:00:00-04:00
+2026-03-17 22:39:07,794 - LibraryScraper - INFO - Found event: D&D for Kids on 2026-05-07 18:00:00-04:00
+2026-03-17 22:39:07,794 - LibraryScraper - INFO - Found event: Bookmobile to Rowe Drive on 2026-05-08 10:30:00-04:00
+2026-03-17 22:39:07,794 - LibraryScraper - INFO - Found event: Bookmobile to Spring Ridge on 2026-05-08 12:15:00-04:00
+2026-03-17 22:39:07,795 - LibraryScraper - INFO - Found event: Bookmobile to Deer Ridge on 2026-05-09 09:00:00-04:00
+2026-03-17 22:39:07,795 - LibraryScraper - INFO - Found event: Under the Dome Knit In on 2026-05-09 10:00:00-04:00
+2026-03-17 22:39:07,795 - LibraryScraper - INFO - Found event: Bookmobile to Pepper Ridge on 2026-05-09 10:30:00-04:00
+2026-03-17 22:39:07,796 - LibraryScraper - INFO - Found event: Teen Genre Book Club on 2026-05-09 11:00:00-04:00
+2026-03-17 22:39:07,796 - LibraryScraper - INFO - Found event: Bookmobile to Phillip Place on 2026-05-09 12:30:00-04:00
+2026-03-17 22:39:07,796 - LibraryScraper - INFO - Found event: Bookmobile to Ekstam Drive on 2026-05-11 15:15:00-04:00
+2026-03-17 22:39:07,797 - LibraryScraper - INFO - Found event: D&D for Kids on 2026-05-11 16:00:00-04:00
+2026-03-17 22:39:07,797 - LibraryScraper - INFO - Found event: Bookmobile to Rollingbrook South on 2026-05-11 17:30:00-04:00
+2026-03-17 22:39:07,798 - LibraryScraper - INFO - Found event: Introduction to 3D Printing on 2026-05-11 18:00:00-04:00
+2026-03-17 22:39:07,798 - LibraryScraper - INFO - Found event: Bookmobile to Harvest Pointe on 2026-05-11 19:15:00-04:00
+2026-03-17 22:39:07,798 - LibraryScraper - INFO - Found event: Bookmobile to Holton Homes on 2026-05-12 15:30:00-04:00
+2026-03-17 22:39:07,799 - LibraryScraper - INFO - Found event: 5th Grade TeenZone Preview Nights on 2026-05-12 17:00:00-04:00
+2026-03-17 22:39:07,799 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Creek on 2026-05-12 17:30:00-04:00
+2026-03-17 22:39:07,800 - LibraryScraper - INFO - Found event: Mystery Book Club on 2026-05-12 19:00:00-04:00
+2026-03-17 22:39:07,800 - LibraryScraper - INFO - Found event: Bookmobile to Tipton Trails on 2026-05-12 19:30:00-04:00
+2026-03-17 22:39:07,800 - LibraryScraper - INFO - Found event: Sign and Sing Story Time on 2026-05-13 10:00:00-04:00
+2026-03-17 22:39:07,801 - LibraryScraper - INFO - Found event: Teen Writing Workshop on 2026-05-13 12:00:00-04:00
+2026-03-17 22:39:07,801 - LibraryScraper - INFO - Found event: Bookmobile to Arcadia Drive on 2026-05-13 15:30:00-04:00
+2026-03-17 22:39:07,801 - LibraryScraper - INFO - Scraping page 11
+2026-03-17 22:39:09,340 - LibraryScraper - INFO - Found event: 5th Grade TeenZone Preview Nights on 2026-05-13 17:00:00-04:00
+2026-03-17 22:39:09,341 - LibraryScraper - INFO - Found event: Bookmobile to Sunnyside Park on 2026-05-13 17:30:00-04:00
+2026-03-17 22:39:09,341 - LibraryScraper - INFO - Found event: Bookmobile to Garling Heights on 2026-05-13 19:30:00-04:00
+2026-03-17 22:39:09,342 - LibraryScraper - INFO - Found event: Bookmobile to Broadmoor on 2026-05-14 15:30:00-04:00
+2026-03-17 22:39:09,342 - LibraryScraper - INFO - Found event: After School @BPL on 2026-05-14 15:30:00-04:00
+2026-03-17 22:39:09,342 - LibraryScraper - INFO - Found event: Bookmobile to Cardinal Ridge on 2026-05-14 17:30:00-04:00
+2026-03-17 22:39:09,343 - LibraryScraper - INFO - Found event: Bookmobile to Hilltop Mobile Home Park on 2026-05-14 19:30:00-04:00
+2026-03-17 22:39:09,343 - LibraryScraper - INFO - Found event: Bookmobile to Waterford Estates on 2026-05-15 10:30:00-04:00
+2026-03-17 22:39:09,343 - LibraryScraper - INFO - Found event: Bookmobile to Brookridge Heights Apts on 2026-05-15 12:15:00-04:00
+2026-03-17 22:39:09,344 - LibraryScraper - INFO - Found event: Bookmobile to Arrowsmith on 2026-05-16 08:45:00-04:00
+2026-03-17 22:39:09,344 - LibraryScraper - INFO - Found event: Prairie Fire Theatre Presents Quack-a-Doodle-Doo on 2026-05-16 10:00:00-04:00
+2026-03-17 22:39:09,345 - LibraryScraper - INFO - Found event: Bookmobile to Ellsworth on 2026-05-16 10:15:00-04:00
+2026-03-17 22:39:09,345 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Crest East on 2026-05-16 12:00:00-04:00
+2026-03-17 22:39:09,345 - LibraryScraper - INFO - Found event: Bookmobile to Arbors Apartments on 2026-05-18 15:30:00-04:00
+2026-03-17 22:39:09,346 - LibraryScraper - INFO - Found event: Bookmobile to Royal Pointe Road on 2026-05-18 17:30:00-04:00
+2026-03-17 22:39:09,346 - LibraryScraper - INFO - Found event: Language Conversation Group on 2026-05-18 17:30:00-04:00
+2026-03-17 22:39:09,346 - LibraryScraper - INFO - Found event: Singing, Swinging Story Time on 2026-05-18 18:00:00-04:00
+2026-03-17 22:39:09,347 - LibraryScraper - INFO - Found event: Bookmobile to Old Farm Lakes on 2026-05-18 19:15:00-04:00
+2026-03-17 22:39:09,347 - LibraryScraper - INFO - Found event: Bookmobile to Traditions on 2026-05-19 15:30:00-04:00
+2026-03-17 22:39:09,347 - LibraryScraper - INFO - Found event: 5th Grade TeenZone Preview Nights on 2026-05-19 17:00:00-04:00
+2026-03-17 22:39:09,348 - LibraryScraper - INFO - Found event: Bookmobile to Golden Eagle on 2026-05-19 17:30:00-04:00
+2026-03-17 22:39:09,348 - LibraryScraper - INFO - Found event: Fiction Book Club on 2026-05-19 19:00:00-04:00
+2026-03-17 22:39:09,348 - LibraryScraper - INFO - Found event: ILP: Babel-On with R.F. Kuang on 2026-05-19 19:00:00-04:00
+2026-03-17 22:39:09,348 - LibraryScraper - INFO - Scraping page 12
+2026-03-17 22:39:10,237 - LibraryScraper - INFO - Found event: Bookmobile to Ponds Apts on 2026-05-19 19:15:00-04:00
+2026-03-17 22:39:10,237 - LibraryScraper - INFO - Found event: Teen Writing Workshop on 2026-05-20 12:00:00-04:00
+2026-03-17 22:39:10,238 - LibraryScraper - INFO - Found event: Bookmobile to Evergreen on 2026-05-20 15:30:00-04:00
+2026-03-17 22:39:10,238 - LibraryScraper - INFO - Found event: 5th Grade TeenZone Preview Nights on 2026-05-20 17:00:00-04:00
+2026-03-17 22:39:10,238 - LibraryScraper - INFO - Found event: Bookmobile to Bohmer on 2026-05-20 17:30:00-04:00
+2026-03-17 22:39:10,239 - LibraryScraper - INFO - Found event: Bookmobile to Rainbow Ave on 2026-05-20 19:30:00-04:00
+2026-03-17 22:39:10,239 - LibraryScraper - INFO - Found event: Bookmobile to Alexander & Grandview Estates on 2026-05-21 14:45:00-04:00
+2026-03-17 22:39:10,240 - LibraryScraper - INFO - Found event: Bookmobile to Eagle Ridge on 2026-05-21 17:30:00-04:00
+2026-03-17 22:39:10,240 - LibraryScraper - INFO - Found event: D&D for Kids on 2026-05-21 18:00:00-04:00
+2026-03-17 22:39:10,240 - LibraryScraper - INFO - Found event: Bookmobile to Ballybunion on 2026-05-21 19:30:00-04:00
+2026-03-17 22:39:10,241 - LibraryScraper - INFO - Found event: Bookmobile to Wingover on 2026-05-22 10:30:00-04:00
+2026-03-17 22:39:10,241 - LibraryScraper - INFO - Found event: Bookmobile to Somerset Court on 2026-05-22 12:15:00-04:00
+2026-03-17 22:39:10,242 - LibraryScraper - INFO - Found event: Bookmobile to Crestwicke on 2026-05-23 08:45:00-04:00
+2026-03-17 22:39:10,242 - LibraryScraper - INFO - Found event: Super Saturday Story Time on 2026-05-23 10:00:00-04:00
+2026-03-17 22:39:10,242 - LibraryScraper - INFO - Found event: Bookmobile to Viking Brews on 2026-05-23 10:15:00-04:00
+2026-03-17 22:39:10,243 - LibraryScraper - INFO - Found event: BPL On-the-Go Pop-Up on 2026-05-23 10:15:00-04:00
+2026-03-17 22:39:10,243 - LibraryScraper - INFO - Found event: Bookmobile to White Eagle on 2026-05-23 12:15:00-04:00
+2026-03-17 22:39:10,244 - LibraryScraper - INFO - Found event: RC Cars for Kids on 2026-05-23 15:00:00-04:00
+2026-03-17 22:39:10,244 - LibraryScraper - INFO - Found event: Bookmobile to Four Seasons on 2026-05-26 15:15:00-04:00
+2026-03-17 22:39:10,244 - LibraryScraper - INFO - Found event: Bookmobile to Oakwood on 2026-05-26 17:30:00-04:00
+2026-03-17 22:39:10,245 - LibraryScraper - INFO - Found event: Bookmobile to Laesch Acres on 2026-05-26 19:30:00-04:00
+2026-03-17 22:39:10,245 - LibraryScraper - INFO - Found event: Bookmobile to Wine Way on 2026-05-27 15:15:00-04:00
+2026-03-17 22:39:10,246 - LibraryScraper - INFO - Found event: Bookmobile to North Pointe on 2026-05-27 17:30:00-04:00
+2026-03-17 22:39:10,246 - LibraryScraper - INFO - Stopping: page 12 events are beyond 2 months
+2026-03-17 22:39:10,246 - LibraryScraper - INFO - Filtered 6 events beyond 2 months out
+2026-03-17 22:39:10,246 - LibraryScraper - INFO - Found 252 events
+2026-03-17 22:39:10,285 - LibraryScraper - INFO - Written to cities/bloomington/library_intercept.ics
+2026-03-17 22:39:10,582 - BuskirkChumleyScraper - INFO - Scraping Buskirk-Chumley Theater
+2026-03-17 22:39:10,582 - BuskirkChumleyScraper - INFO - Fetching events from https://buskirkchumley.org/events/
+2026-03-17 22:39:10,981 - BuskirkChumleyScraper - INFO - Found 34 events
+2026-03-17 22:39:10,982 - BuskirkChumleyScraper - INFO - Filtered 7 events beyond 2 months out
+2026-03-17 22:39:10,982 - BuskirkChumleyScraper - INFO - Found 27 events
+2026-03-17 22:39:10,987 - BuskirkChumleyScraper - INFO - Written to cities/bloomington/buskirk_chumley.ics
+2026-03-17 22:39:11,214 - ComedyAtticScraper - INFO - Scraping The Comedy Attic
+2026-03-17 22:39:11,214 - ComedyAtticScraper - INFO - Fetching events from https://comedyattic.com/events
+2026-03-17 22:39:13,816 - ComedyAtticScraper - INFO - Found 36 events
+2026-03-17 22:39:13,816 - ComedyAtticScraper - INFO - Filtered 13 events beyond 2 months out
+2026-03-17 22:39:13,816 - ComedyAtticScraper - INFO - Found 23 events
+2026-03-17 22:39:13,821 - ComedyAtticScraper - INFO - Written to cities/bloomington/comedy_attic.ics
+2026-03-17 22:39:14,044 - TheBishopScraper - INFO - Scraping The Bishop
+2026-03-17 22:39:14,044 - TheBishopScraper - INFO - Fetching events from https://thebishopbar.com/events
+2026-03-17 22:39:15,404 - TheBishopScraper - INFO - Fetching events from https://thebishopbar.com/events/2026-04
+2026-03-17 22:39:15,755 - TheBishopScraper - INFO - Fetching events from https://thebishopbar.com/events/2026-05
+2026-03-17 22:39:16,074 - TheBishopScraper - INFO - Fetching events from https://thebishopbar.com/events/2026-06
+2026-03-17 22:39:16,384 - TheBishopScraper - INFO - Found 4 events total
+2026-03-17 22:39:16,384 - TheBishopScraper - INFO - Found 4 events
+2026-03-17 22:39:16,386 - TheBishopScraper - INFO - Written to cities/bloomington/the_bishop.ics
+2026-03-17 22:39:16,543 - INFO - Scraping People's Market
+2026-03-17 22:39:16,543 - INFO - Fetching event list from https://www.peoplesmarketbtown.org/gatherings
+2026-03-17 22:39:16,951 - INFO - Found 10 event URLs
+2026-03-17 22:39:16,951 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/event-four-kmwla?format=ical
+2026-03-17 22:39:17,655 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/event-four-kmwla-lea9p?format=ical
+2026-03-17 22:39:18,337 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/event-one-hwntx?format=ical
+2026-03-17 22:39:19,037 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/event-one-hwntx-ebddm?format=ical
+2026-03-17 22:39:19,758 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/event-one-hwntx-gjhmg?format=ical
+2026-03-17 22:39:20,459 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/juneteenth?format=ical
+2026-03-17 22:39:21,156 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/pcmkitchen?format=ical
+2026-03-17 22:39:21,832 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/peoplesabundantkitchen?format=ical
+2026-03-17 22:39:22,543 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/peoplesfarmersmarket?format=ical
+2026-03-17 22:39:23,231 - INFO - Fetching iCal: https://www.peoplesmarketbtown.org/gatherings/peoplesopenpantry?format=ical
+2026-03-17 22:39:23,910 - INFO - Found 10 events
+2026-03-17 22:39:23,912 - INFO - Written to cities/bloomington/peoples_market.ics
+2026-03-17 22:39:24,131 - BluebirdScraper - INFO - Scraping The Bluebird
+2026-03-17 22:39:24,554 - BluebirdScraper - INFO - Found 10 events
+2026-03-17 22:39:24,554 - BluebirdScraper - INFO - Found 10 events
+2026-03-17 22:39:24,556 - BluebirdScraper - INFO - Written to cities/bloomington/the_bluebird.ics
+2026-03-17 22:39:24,715 - INFO - Scraping Blockhouse Bar
+2026-03-17 22:39:25,193 - INFO - Found 1 future events from Songkick
+2026-03-17 22:39:25,193 - INFO - Found 1 events
+2026-03-17 22:39:25,194 - INFO - Written to cities/bloomington/songkick_blockhouse.ics
+2026-03-17 22:39:25,342 - INFO - Scraping Cardinal Spirits
+2026-03-17 22:39:25,343 - INFO - Fetching event list from https://www.cardinalspirits.com/events
+2026-03-17 22:39:25,606 - INFO - Found 14 event URLs
+2026-03-17 22:39:25,606 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz?format=ical
+2026-03-17 22:39:26,305 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb?format=ical
+2026-03-17 22:39:27,036 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb-3jrbd?format=ical
+2026-03-17 22:39:27,738 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb-3jrbd-5a2z6?format=ical
+2026-03-17 22:39:28,439 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb-3jrbd-5a2z6-2536l?format=ical
+2026-03-17 22:39:29,151 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk?format=ical
+2026-03-17 22:39:29,843 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk-frjnh?format=ical
+2026-03-17 22:39:30,593 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk-frjnh-bk44n?format=ical
+2026-03-17 22:39:31,290 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk-frjnh-bk44n-eepgj?format=ical
+2026-03-17 22:39:31,987 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/movie-trivia-night?format=ical
+2026-03-17 22:39:32,688 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/movies-and-martinis-a6sgh-ksxta?format=ical
+2026-03-17 22:39:33,403 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/movies-and-martinis-a6sgh-ksxta-nmsm2?format=ical
+2026-03-17 22:39:34,187 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/tiki-cocktail-class-march-2026?format=ical
+2026-03-17 22:39:34,899 - INFO - Fetching iCal: https://www.cardinalspirits.com/events/tiki-cocktail-class-march-2026-chafe?format=ical
+2026-03-17 22:39:35,604 - INFO - Found 14 events
+2026-03-17 22:39:35,606 - INFO - Written to cities/bloomington/cardinal_spirits.ics
+2026-03-17 22:39:35,759 - INFO - Scraping Sassafras Audubon Society
+2026-03-17 22:39:35,759 - INFO - Fetching event list from https://www.sassafrasaudubon.org/upcomingevents
+2026-03-17 22:39:36,208 - INFO - Found 32 event URLs
+2026-03-17 22:39:36,208 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2021/11/13/fall-ducks-and-donuts-gsfhb?format=ical
+2026-03-17 22:39:36,919 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2021/11/13/fall-ducks-and-donuts-gsfhb-t2f8m?format=ical
+2026-03-17 22:39:37,781 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2023/10/21/citizen-science-for-the-birds?format=ical
+2026-03-17 22:39:38,458 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2023/11/17/give-a-whoop-whooping-crane-ambassador-training?format=ical
+2026-03-17 22:39:39,196 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2023/12/2/young-birders-club-meeting?format=ical
+2026-03-17 22:39:39,904 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/10/12/fall-feeder-cleaning?format=ical
+2026-03-17 22:39:40,583 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/10/13/annual-big-sit-at-goose-pond?format=ical
+2026-03-17 22:39:41,269 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/10/30/windows-as-threats-to-birds-sas-speaker-series-with-sarah-wanamaker?format=ical
+2026-03-17 22:39:41,952 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/10/5/october-pop-up-hike-at-flatwoods-park?format=ical
+2026-03-17 22:39:42,665 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/11/16/ducks-and-donuts-fall-2024?format=ical
+2026-03-17 22:39:43,351 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/11/23/november-bird-trip-to-muscatatuck-nwr?format=ical
+2026-03-17 22:39:44,047 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/2/24/rca-community-park-field-trip?format=ical
+2026-03-17 22:39:44,742 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/3/16/woodcocknbspwalk-at-flatwoods-park?format=ical
+2026-03-17 22:39:45,423 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/4/20/spring-feeder-cleaning?format=ical
+2026-03-17 22:39:46,098 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/4/7/griffy-lake-field-trip?format=ical
+2026-03-17 22:39:46,776 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/6/22/bird-hike-at-pate-hollow?format=ical
+2026-03-17 22:39:47,454 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/7/27/bird-hike-at-clear-creek-trail?format=ical
+2026-03-17 22:39:48,170 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/8/17/swifts-in-the-city?format=ical
+2026-03-17 22:39:48,858 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2024/9/28/september-hike?format=ical
+2026-03-17 22:39:49,542 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/2/22/goose-pond-field-trip?format=ical
+2026-03-17 22:39:50,265 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/3/22/ducks-and-donuts-spring-2025?format=ical
+2026-03-17 22:39:50,953 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/3/22/ducks-and-donuts-spring-2025-rkfbf?format=ical
+2026-03-17 22:39:51,641 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/4/5/spring-feeder-cleaning-2025?format=ical
+2026-03-17 22:39:52,330 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/4/5/spring-feeder-cleaning-2026-36m4p?format=ical
+2026-03-17 22:39:53,014 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/4/8/mccormicks?format=ical
+2026-03-17 22:39:53,696 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/5/1/birdingtools101?format=ical
+2026-03-17 22:39:54,378 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/6/15/sas-day-at-kent-farm-bird-banding-station?format=ical
+2026-03-17 22:39:55,071 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/6/21/bird-hike-at-griffy-lake?format=ical
+2026-03-17 22:39:55,739 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2025/speaker-david-rupp-tropics?format=ical
+2026-03-17 22:39:56,429 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2026/2/25/speaker-series-cerulean-warbler-birdscape?format=ical
+2026-03-17 22:39:57,126 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/2026/2/28/goose-pond-field-trip?format=ical
+2026-03-17 22:39:57,804 - INFO - Fetching iCal: https://www.sassafrasaudubon.org/upcomingevents/woodcockwalk2025?format=ical
+2026-03-17 22:39:58,495 - INFO - Found 32 events
+2026-03-17 22:39:58,500 - INFO - Written to cities/bloomington/sassafras_audubon.ics
+2026-03-17 22:39:58,649 - INFO - Scraping Monroe County Master Gardeners
+2026-03-17 22:39:58,649 - INFO - Fetching event list from https://www.mcmga.net/events
+2026-03-17 22:39:58,955 - INFO - Found 63 event URLs
+2026-03-17 22:39:58,955 - INFO - Fetching iCal: https://www.mcmga.net/events/2h84m9hr2bndnxl358pedd9ryh9w5e-6dlkg-p8nml-ykbcy-7k74t-b7wky-lhr4l-fae9l-mkmn7-kyk4a-m6nwr-d6jar?format=ical
+2026-03-17 22:39:59,649 - INFO - Fetching iCal: https://www.mcmga.net/events/2h84m9hr2bndnxl358pedd9ryh9w5e-6dlkg-p8nml-ykbcy-7k74t-b7wky-lhr4l-fae9l-mkmn7-kyk4a-m6nwr-d6jar-lpr67?format=ical
+2026-03-17 22:40:00,339 - INFO - Fetching iCal: https://www.mcmga.net/events/2h84m9hr2bndnxl358pedd9ryh9w5e-6dlkg-p8nml-ykbcy-7k74t-b7wky-lhr4l-fae9l-mkmn7-kyk4a-m6nwr-d6jar-lpr67-lg954?format=ical
+2026-03-17 22:40:01,055 - INFO - Fetching iCal: https://www.mcmga.net/events/book-club-n4f3m?format=ical
+2026-03-17 22:40:01,729 - INFO - Fetching iCal: https://www.mcmga.net/events/book-club-n4f3m-5fdt5?format=ical
+2026-03-17 22:40:02,418 - INFO - Fetching iCal: https://www.mcmga.net/events/book-club-n4f3m-5fdt5-2ldne?format=ical
+2026-03-17 22:40:03,105 - INFO - Fetching iCal: https://www.mcmga.net/events/book-club-n4f3m-5fdt5-2ldne-h3gaw?format=ical
+2026-03-17 22:40:03,791 - INFO - Fetching iCal: https://www.mcmga.net/events/garden-fair-3?format=ical
+2026-03-17 22:40:04,476 - INFO - Fetching iCal: https://www.mcmga.net/events/harvest-dinner-2025?format=ical
+2026-03-17 22:40:05,164 - INFO - Fetching iCal: https://www.mcmga.net/events/harvest-dinner-2025-yddw8?format=ical
+2026-03-17 22:40:05,849 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna?format=ical
+2026-03-17 22:40:06,548 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b?format=ical
+2026-03-17 22:40:07,227 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6?format=ical
+2026-03-17 22:40:07,921 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24?format=ical
+2026-03-17 22:40:08,606 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg?format=ical
+2026-03-17 22:40:09,303 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg?format=ical
+2026-03-17 22:40:09,999 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng?format=ical
+2026-03-17 22:40:10,699 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh?format=ical
+2026-03-17 22:40:11,386 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd?format=ical
+2026-03-17 22:40:12,077 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft?format=ical
+2026-03-17 22:40:12,774 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4?format=ical
+2026-03-17 22:40:13,459 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9?format=ical
+2026-03-17 22:40:14,162 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3?format=ical
+2026-03-17 22:40:14,850 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3-cjy6m?format=ical
+2026-03-17 22:40:15,540 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3-cjy6m-n3gdb?format=ical
+2026-03-17 22:40:16,232 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3-cjy6m-n3gdb-2km9t?format=ical
+2026-03-17 22:40:16,921 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j?format=ical
+2026-03-17 22:40:17,609 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5?format=ical
+2026-03-17 22:40:18,314 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk?format=ical
+2026-03-17 22:40:19,006 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z?format=ical
+2026-03-17 22:40:19,692 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j?format=ical
+2026-03-17 22:40:20,392 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w?format=ical
+2026-03-17 22:40:21,088 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b?format=ical
+2026-03-17 22:40:21,776 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z?format=ical
+2026-03-17 22:40:22,706 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb?format=ical
+2026-03-17 22:40:23,396 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh?format=ical
+2026-03-17 22:40:24,091 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh-2m553?format=ical
+2026-03-17 22:40:24,924 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh-2m553-ye8lc?format=ical
+2026-03-17 22:40:25,621 - INFO - Fetching iCal: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh-36cae?format=ical
+2026-03-17 22:40:26,299 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m?format=ical
+2026-03-17 22:40:26,982 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc?format=ical
+2026-03-17 22:40:27,664 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3?format=ical
+2026-03-17 22:40:28,369 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma?format=ical
+2026-03-17 22:40:29,057 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma-xcbda?format=ical
+2026-03-17 22:40:29,772 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma-xcbda-daayb?format=ical
+2026-03-17 22:40:30,465 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma-xcbda-daayb-d3fh5?format=ical
+2026-03-17 22:40:31,156 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma-xcbda-daayb-d3fh5-84jl5?format=ical
+2026-03-17 22:40:31,837 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma-xcbda-daayb-d3fh5-84jl5-z6thy?format=ical
+2026-03-17 22:40:32,536 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma-xcbda-daayb-d3fh5-84jl5-z6thy-8cm5y?format=ical
+2026-03-17 22:40:33,225 - INFO - Fetching iCal: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma-xcbda-daayb-d3fh5-84jl5-z6thy-8cm5y-ml5bg?format=ical
+2026-03-17 22:40:33,913 - INFO - Fetching iCal: https://www.mcmga.net/events/purdue-extension-monroe-county-blood-drive?format=ical
+2026-03-17 22:40:34,600 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden?format=ical
+2026-03-17 22:40:35,268 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc?format=ical
+2026-03-17 22:40:35,950 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct?format=ical
+2026-03-17 22:40:36,631 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct-rt3nd?format=ical
+2026-03-17 22:40:37,321 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct-rt3nd-khpec?format=ical
+2026-03-17 22:40:37,990 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct-rt3nd-khpec-r2562?format=ical
+2026-03-17 22:40:38,688 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct-rt3nd-khpec-r2562-76h8n?format=ical
+2026-03-17 22:40:39,372 - INFO - Fetching iCal: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct-rt3nd-ywrat?format=ical
+2026-03-17 22:40:40,053 - INFO - Fetching iCal: https://www.mcmga.net/events/volunteering-at-hilltop-twac4?format=ical
+2026-03-17 22:40:40,738 - INFO - Fetching iCal: https://www.mcmga.net/events/volunteering-at-hilltop-twac4-wynkj?format=ical
+2026-03-17 22:40:41,429 - INFO - Fetching iCal: https://www.mcmga.net/events/volunteering-at-hilltop-x5pjx?format=ical
+2026-03-17 22:40:42,122 - INFO - Fetching iCal: https://www.mcmga.net/events/volunteering-at-wonderlab-psxxf?format=ical
+2026-03-17 22:40:42,818 - INFO - Filtered 12 events beyond 2 months out
+2026-03-17 22:40:42,818 - INFO - Found 51 events
+2026-03-17 22:40:42,825 - INFO - Written to cities/bloomington/master_gardeners.ics
+2026-03-17 22:40:42,975 - INFO - Scraping Sycamore Land Trust
+2026-03-17 22:40:42,975 - INFO - Fetching https://sycamorelandtrust.org/bulletin-board/events-calendar/
+2026-03-17 22:40:44,105 - WARNING - Could not parse date: 'Thursday, February 29' for Round up in February to support Sycamore with Bloomingfoods&#8217; Positive Change
+2026-03-17 22:40:44,105 - WARNING - Could not parse date: 'Thursday, February 29,&nbsp;2:00 pm&nbsp;-&nbsp;4:00 pm' for Winter Tree ID Hike II
+2026-03-17 22:40:44,109 - INFO - Filtered 191 events beyond 2 months out
+2026-03-17 22:40:44,109 - INFO - Found 66 events
+2026-03-17 22:40:44,120 - INFO - Written to cities/bloomington/sycamore_land_trust.ics
+2026-03-17 22:40:44,271 - INFO - Scraping Constellation Stage & Screen
+2026-03-17 22:40:44,271 - INFO - Fetching https://tickets.seeconstellation.org/constellation/api/v3/events
+2026-03-17 22:40:44,690 - INFO - Fetching https://tickets.seeconstellation.org/constellation/api/v3/instances?filter=startFrom%3Dnow
+2026-03-17 22:40:45,189 - INFO - Filtered 15 events beyond 2 months out
+2026-03-17 22:40:45,189 - INFO - Found 30 events
+2026-03-17 22:40:45,194 - INFO - Written to cities/bloomington/constellation.ics
+2026-03-17 22:40:45,345 - INFO - Scraping Cicada Cinema
+2026-03-17 22:40:45,345 - INFO - Fetching https://cicadacinema.com/products.json
+2026-03-17 22:40:45,684 - INFO - Found 9 events
+2026-03-17 22:40:45,688 - INFO - Written to cities/bloomington/cicada_cinema.ics
+2026-03-17 22:41:18,530 - INFO - Scraping IU beINvolved Student Orgs
+2026-03-17 22:41:18,530 - INFO - Fetching events (skip=0)...
+2026-03-17 22:41:18,963 - INFO - Fetching events (skip=100)...
+2026-03-17 22:41:19,273 - INFO - Fetching events (skip=200)...
+2026-03-17 22:41:19,796 - INFO - Fetching events (skip=300)...
+2026-03-17 22:41:20,193 - INFO - Fetching events (skip=400)...
+2026-03-17 22:41:20,506 - INFO - Fetching events (skip=500)...
+2026-03-17 22:41:20,823 - INFO - Fetching events (skip=600)...
+2026-03-17 22:41:21,111 - INFO - Fetching events (skip=700)...
+2026-03-17 22:41:21,429 - INFO - Fetching events (skip=800)...
+2026-03-17 22:41:21,700 - INFO - Fetched 894 events total
+2026-03-17 22:41:21,700 - INFO - Filtered 15 events beyond 2 months out
+2026-03-17 22:41:21,700 - INFO - Found 879 events
+2026-03-17 22:41:21,873 - INFO - Written to cities/bloomington/iu_campuslabs.ics
+2026-03-17 22:41:48,812 - BloomingtonConventionScraper - INFO - Scraping Monroe Convention Center
+2026-03-17 22:41:48,812 - BloomingtonConventionScraper - INFO - Fetching RSS feed: https://www.bloomingtonconvention.com/event/rss/
+2026-03-17 22:41:49,153 - BloomingtonConventionScraper - INFO - Found 4 entries in RSS feed
+2026-03-17 22:41:49,154 - BloomingtonConventionScraper - INFO - Found event: Tri Kappa Blingo on 2026-04-23 23:59:59-04:00
+2026-03-17 22:41:49,155 - BloomingtonConventionScraper - INFO - Found event: Bloomington Bridal Show on 2027-01-17 23:59:59-05:00
+2026-03-17 22:41:49,155 - BloomingtonConventionScraper - INFO - Found event: Hoosier Hills Food Bank Soup Bowl on 2027-02-28 23:59:59-05:00
+2026-03-17 22:41:49,156 - BloomingtonConventionScraper - INFO - Found event: Indiana Heritage Quilt Show on 2027-03-04 23:59:59-05:00
+2026-03-17 22:41:49,156 - BloomingtonConventionScraper - INFO - Filtered 3 events beyond 2 months out
+2026-03-17 22:41:49,156 - BloomingtonConventionScraper - INFO - Found 1 events
+2026-03-17 22:41:49,156 - BloomingtonConventionScraper - INFO - Written to cities/bloomington/bloomington_convention.ics
+2026-03-17 22:41:49,379 - ChamberBloomingtonScraper - INFO - Scraping Bloomington Chamber of Commerce
+2026-03-17 22:41:52,441 - ChamberBloomingtonScraper - INFO - Found 41 events
+2026-03-17 22:41:52,441 - ChamberBloomingtonScraper - INFO - Filtered 6 events beyond 2 months out
+2026-03-17 22:41:52,441 - ChamberBloomingtonScraper - INFO - Found 35 events
+2026-03-17 22:41:52,446 - ChamberBloomingtonScraper - INFO - Written to cities/bloomington/chamber_bloomington.ics
+2026-03-17 22:41:52,606 - INFO - Scraping Indivisible SCI
+2026-03-17 22:41:52,606 - INFO - Fetching https://api.mobilize.us/v1/events?organization_id=43350&timeslot_start=gte_now&per_page=100
+2026-03-17 22:41:52,916 - INFO - Parsed 3 event timeslots
+2026-03-17 22:41:52,916 - INFO - Found 3 events
+2026-03-17 22:41:52,918 - INFO - Written to cities/bloomington/mobilize_indivisible_sci.ics
+2026-03-17 22:41:54,439 - INFO - Scraping IU Athletics
+2026-03-17 22:41:54,439 - INFO - Fetching https://iuhoosiers.com/api/v2/Calendar/from/3-17-2026/to/9-13-2026
+2026-03-17 22:41:54,964 - INFO - Parsed 121 events
+2026-03-17 22:41:54,965 - INFO - Filtered 19 events beyond 2 months out
+2026-03-17 22:41:54,965 - INFO - Found 102 events
+2026-03-17 22:41:54,980 - INFO - Written to cities/bloomington/iu_athletics.ics
+2026-03-17 22:41:55,154 - BloomingtonCitySparkScraper - INFO - Scraping CitySpark Bloomington
+2026-03-17 22:41:55,154 - BloomingtonCitySparkScraper - INFO - Fetching page at skip=0
+2026-03-17 22:41:55,616 - BloomingtonCitySparkScraper - INFO - Fetching page at skip=100
+2026-03-17 22:41:55,939 - BloomingtonCitySparkScraper - INFO - Fetching page at skip=200
+2026-03-17 22:41:56,219 - BloomingtonCitySparkScraper - INFO - Found 285 events
+2026-03-17 22:41:56,280 - BloomingtonCitySparkScraper - INFO - Written to cities/bloomington/cityspark_bloomington.ics
+2026-03-17 22:41:56,429 - INFO - Scraping Visit Bloomington
+2026-03-17 22:41:56,430 - INFO - Fetching events (skip=0)...
+2026-03-17 22:41:56,871 - INFO - Fetching events (skip=100)...
+2026-03-17 22:41:57,223 - INFO - Fetching events (skip=200)...
+2026-03-17 22:41:57,474 - INFO - Fetched 230 events total
+2026-03-17 22:41:57,475 - INFO - Found 230 events
+2026-03-17 22:41:57,517 - INFO - Written to cities/bloomington/visitbloomington.ics
+2026-03-17 22:41:57,686 - INFO - Scraping Blueline Bloomington
+2026-03-17 22:41:58,924 - INFO - Discovered 6 event URLs from organizer page
+2026-03-17 22:41:58,924 - INFO - Fetching 6 event pages (parallel)...
+2026-03-17 22:41:59,532 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/15th-anniversary-party-for-blueline-tickets-83833328743
+2026-03-17 22:41:59,546 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nature-lovers-night-tickets-65029365583
+2026-03-17 22:41:59,611 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/bloomington-breakfast-club-ellise-a-smith-threads-of-resilience-tickets-1982637662620
+2026-03-17 22:41:59,751 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/bloomington-breakfast-club-kickoff-featuring-lonnie-bedwell-tickets-1980506705871
+2026-03-17 22:42:00,176 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nothing-off-limits-an-intimate-evening-w-blind-adventurer-lonnie-bedwell-tickets-1982306572320
+2026-03-17 22:42:00,176 - INFO - Got 1 future events
+2026-03-17 22:42:00,176 - INFO - Found 1 events
+2026-03-17 22:42:00,177 - INFO - Written to cities/bloomington/eventbrite_blueline.ics
+2026-03-17 22:42:00,330 - INFO - Scraping Big Red Liquors
+2026-03-17 22:42:01,658 - INFO - Discovered 13 event URLs from organizer page
+2026-03-17 22:42:01,658 - INFO - Fetching 13 event pages (parallel)...
+2026-03-17 22:42:02,262 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/russells-reserve-july-4th-weekend-release-sale-bloomington-tickets-1441547018939
+2026-03-17 22:42:02,269 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/naturday-celebration-with-pat-mcafee-tickets-59109577337
+2026-03-17 22:42:02,290 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/meet-ron-white-legendary-comedian-bottle-signing-tickets-57829840610
+2026-03-17 22:42:02,696 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rare-bourbon-raffle-20-off-spirits-3-btls-mix-match-tickets-670921443097
+2026-03-17 22:42:02,787 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tequila-jay-baer-tequila-maddie-special-release-extra-anejo-tutored-tasti-tickets-1226404391549
+2026-03-17 22:42:02,935 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/van-winkle-lottery-20-off-bourbon-sale-one-day-only-bloomington-tickets-61987374907
+2026-03-17 22:42:03,295 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/black-friday-bourbon-county-stout-release-bloomington-big-store-tickets-468389645037
+2026-03-17 22:42:03,308 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/bourbon-world-holiday-tour-pappy-raffle-tickets-481921519237
+2026-03-17 22:42:03,475 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/iu-legend-alan-henderson-bottle-signing-tickets-594763522707
+2026-03-17 22:42:03,524 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/taste-of-indiana-tickets-1302940623479
+2026-03-17 22:42:03,894 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/banfi-italian-wine-tasting-tickets-59761953612
+2026-03-17 22:42:04,215 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/bloomington-summer-sippin-spectacular-wine-tasting-sale-tickets-921696568247
+2026-03-17 22:42:04,216 - INFO - Got 1 future events
+2026-03-17 22:42:04,216 - INFO - Found 1 events
+2026-03-17 22:42:04,217 - INFO - Written to cities/bloomington/eventbrite_big_red_liquors.ics
+2026-03-17 22:42:04,370 - INFO - Scraping The Afrobellas At IU
+2026-03-17 22:42:05,615 - INFO - Discovered 4 event URLs from organizer page
+2026-03-17 22:42:05,616 - INFO - Fetching 4 event pages (parallel)...
+2026-03-17 22:42:06,191 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/collision-of-worlds-tickets-1225572152299
+2026-03-17 22:42:06,273 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-night-in-lagos-tickets-1774843327169
+2026-03-17 22:42:06,388 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/collision-of-worlds-after-party-tickets-1225578280629
+2026-03-17 22:42:06,388 - INFO - Got 1 future events
+2026-03-17 22:42:06,389 - INFO - Found 1 events
+2026-03-17 22:42:06,389 - INFO - Written to cities/bloomington/eventbrite_afrobellas.ics
+2026-03-17 22:42:06,541 - INFO - Scraping Morgenstern Books
+2026-03-17 22:42:07,923 - INFO - Discovered 24 event URLs from organizer page
+2026-03-17 22:42:07,923 - INFO - Fetching 24 event pages (parallel)...
+2026-03-17 22:42:08,489 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/emma-gilligan-on-the-future-and-you-tickets-1976665220886
+2026-03-17 22:42:08,499 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/keith-obrien-on-heartland-tickets-1970651379324
+2026-03-17 22:42:08,501 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dr-justin-r-garcia-on-the-intimate-animal-tickets-1978836909465
+2026-03-17 22:42:08,871 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/aaron-g-fountain-jr-on-high-school-students-unite-tickets-1980485498439
+2026-03-17 22:42:09,088 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sarah-d-phillips-on-kurt-vonnegut-in-the-ussr-tickets-1980482743198
+2026-03-17 22:42:09,301 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/brennon-lane-on-time-tripping-over-you-tickets-1982130121551
+2026-03-17 22:42:09,611 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/denise-nicholas-on-finding-home-tickets-1982716346967
+2026-03-17 22:42:09,642 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/raiford-guins-on-king-pong-tickets-1982892746583
+2026-03-17 22:42:10,132 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/david-dark-on-everyday-apocalypse-art-empire-and-the-end-of-the-world-tickets-1980488739132
+2026-03-17 22:42:10,329 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/wil-fleming-on-strong-mind-tickets-1977816594676
+2026-03-17 22:42:10,428 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mary-kubica-on-its-not-her-tickets-1976636896166
+2026-03-17 22:42:10,903 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/heartland-book-launch-with-keith-obrien-in-terre-haute-in-tickets-1978486988843
+2026-03-17 22:42:10,903 - INFO - Got 12 future events
+2026-03-17 22:42:10,904 - INFO - Found 12 events
+2026-03-17 22:42:10,906 - INFO - Written to cities/bloomington/eventbrite_morgenstern_books.ics
+2026-03-17 22:42:11,058 - INFO - Scraping Nerd Nite Bloomington
+2026-03-17 22:42:12,123 - INFO - Discovered 5 event URLs from organizer page
+2026-03-17 22:42:12,123 - INFO - Fetching 5 event pages (parallel)...
+2026-03-17 22:42:12,693 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nerd-nite-bloomington-4-tickets-1860377151139
+2026-03-17 22:42:12,709 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nerd-nite-bloomington-tickets-1033889159307
+2026-03-17 22:42:12,718 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nerd-nite-bloomington-3-tickets-1471415917619
+2026-03-17 22:42:12,730 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nerd-nite-bloomington-2-tickets-1278966064929
+2026-03-17 22:42:12,733 - INFO - Got 1 future events
+2026-03-17 22:42:12,734 - INFO - Found 1 events
+2026-03-17 22:42:12,734 - INFO - Written to cities/bloomington/eventbrite_nerd_nite.ics
+2026-03-17 22:42:12,888 - INFO - Scraping Gallery at the Vault
+2026-03-17 22:42:14,692 - INFO - Discovered 18 event URLs from organizer page
+2026-03-17 22:42:14,692 - INFO - Fetching 18 event pages (parallel)...
+2026-03-17 22:42:15,280 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-raku-pottery-with-andrew-berends-two-part-class-feb-7-14-tickets-1980790151665
+2026-03-17 22:42:15,313 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-raku-pottery-with-andrew-berends-tickets-1967754235890
+2026-03-17 22:42:15,369 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/october-raku-with-andrew-berends-tickets-1665805441919
+2026-03-17 22:42:15,902 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/beginner-pysanky-with-shannon-wallis-tickets-1978627777947
+2026-03-17 22:42:15,905 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/doodle-art-yoga-for-the-brain-workshop-with-antje-ruppert-tickets-1697156684329
+2026-03-17 22:42:15,939 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/painting-the-winter-landscape-in-watercolor-with-rob-obrien-tickets-1977785016224
+2026-03-17 22:42:15,988 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/afternoon-wreathmaking-with-joanna-bombadil-tickets-1751250460269
+2026-03-17 22:42:16,465 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/chinese-calligraphy-with-jonathan-root-tickets-1653224682529
+2026-03-17 22:42:16,493 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/raku-pottery-workshop-with-andrew-berends-tickets-1783223011029
+2026-03-17 22:42:17,054 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/painting-new-england-barns-in-watercolor-with-rob-obrien-tickets-1653007803839
+2026-03-17 22:42:17,072 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dot-mandala-workshop-with-antje-ruppert-tickets-1665779985779
+2026-03-17 22:42:17,199 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/morning-wreathmaking-workshop-with-joanna-bombadil-tickets-1751248414149
+2026-03-17 22:42:17,199 - INFO - Got 6 future events
+2026-03-17 22:42:17,199 - INFO - Found 6 events
+2026-03-17 22:42:17,201 - INFO - Written to cities/bloomington/eventbrite_gallery_vault.ics
+2026-03-17 22:42:17,353 - INFO - Scraping Falun Dafa Club at IU
+2026-03-17 22:42:18,486 - INFO - Discovered 7 event URLs from organizer page
+2026-03-17 22:42:18,487 - INFO - Fetching 7 event pages (parallel)...
+2026-03-17 22:42:19,063 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/falun-dafa-meditation-workshop-tickets-1830946663759
+2026-03-17 22:42:19,102 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/movie-screening-unsilenced-tickets-1270955585369
+2026-03-17 22:42:19,104 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/falun-dafa-meditation-workshop-tickets-1203934393179
+2026-03-17 22:42:19,107 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/falun-dafa-meditation-workshop-tickets-1071799343689
+2026-03-17 22:42:19,678 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/falun-dafa-meditation-workshop-tickets-1980413189160
+2026-03-17 22:42:19,686 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/falun-dafa-meditation-workshop-tickets-1653122195989
+2026-03-17 22:42:19,686 - INFO - Got 1 future events
+2026-03-17 22:42:19,686 - INFO - Found 1 events
+2026-03-17 22:42:19,687 - INFO - Written to cities/bloomington/eventbrite_falun_dafa.ics
+2026-03-17 22:42:19,841 - INFO - Scraping Reviving Hope for the Nations
+2026-03-17 22:42:21,195 - INFO - Discovered 2 event URLs from organizer page
+2026-03-17 22:42:21,195 - INFO - Fetching 2 event pages (parallel)...
+2026-03-17 22:42:21,768 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/reviving-hope-a-gala-for-the-nations-tickets-1225760505669
+2026-03-17 22:42:21,893 - INFO - Got 1 future events
+2026-03-17 22:42:21,893 - INFO - Found 1 events
+2026-03-17 22:42:21,894 - INFO - Written to cities/bloomington/eventbrite_reviving_hope.ics
+2026-03-17 22:42:22,013 - INFO - Processing meetup_bloomington_atheists_and_rationally_awesome_people.ics...
+2026-03-17 22:42:22,014 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/313548566/
+2026-03-17 22:42:22,884 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+2026-03-17 22:42:22,884 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/313578927/
+2026-03-17 22:42:23,651 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/1/7/4/600_513920852.jpeg
+2026-03-17 22:42:23,651 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/313658723/
+2026-03-17 22:42:24,419 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+2026-03-17 22:42:24,419 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjcgbcb/
+2026-03-17 22:42:25,211 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+2026-03-17 22:42:25,211 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/bhhqftyjcgbfb/
+2026-03-17 22:42:26,158 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/1/7/4/600_513920852.jpeg
+2026-03-17 22:42:26,158 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjcgblb/
+2026-03-17 22:42:26,928 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+2026-03-17 22:42:26,928 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/313818565/
+2026-03-17 22:42:27,644 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+2026-03-17 22:42:27,644 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/bhhqftyjcgbwb/
+2026-03-17 22:42:28,425 - INFO -     -> https://secure.meetupstatic.com/photos/event/5/1/7/4/600_513920852.jpeg
+2026-03-17 22:42:28,425 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjcgbdc/
+2026-03-17 22:42:29,168 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+2026-03-17 22:42:29,168 - INFO -   Fetching image for: https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjcgbmc/
+2026-03-17 22:42:29,918 - INFO -     -> https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+2026-03-17 22:42:29,918 - INFO - meetup_bloomington_atheists_and_rationally_awesome_people.ics: added 10 image(s)
+2026-03-17 22:42:29,918 - INFO - Processing meetup_board_games.ics...
+2026-03-17 22:42:29,918 - INFO - meetup_board_games.ics: no new images
+2026-03-17 22:42:29,918 - INFO - Processing meetup_knobstone_hiking_trail_association_of_indiana_meetup.ics...
+2026-03-17 22:42:29,919 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/312918119/
+2026-03-17 22:42:30,651 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:30,652 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/313786582/
+2026-03-17 22:42:31,423 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/1/7/7/600_526092663.jpeg
+2026-03-17 22:42:31,424 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/312918121/
+2026-03-17 22:42:32,540 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:32,541 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/312918122/
+2026-03-17 22:42:33,292 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:33,292 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/312918123/
+2026-03-17 22:42:34,040 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:34,040 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/lnznstyjclblb/
+2026-03-17 22:42:34,816 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:34,816 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/lnznstyjcmbqb/
+2026-03-17 22:42:35,646 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:35,646 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/lnznstyjcnbnb/
+2026-03-17 22:42:36,375 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:36,375 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/lnznstyjcpbsb/
+2026-03-17 22:42:37,121 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:37,121 - INFO -   Fetching image for: https://www.meetup.com/knobstone-hiking-trail-association-of-indiana-meetup/events/lnznstyjcqbqb/
+2026-03-17 22:42:37,933 - INFO -     -> https://secure.meetupstatic.com/photos/event/2/1/1/600_451380529.jpeg
+2026-03-17 22:42:37,934 - INFO - meetup_knobstone_hiking_trail_association_of_indiana_meetup.ics: added 10 image(s)
+2026-03-17 22:42:37,934 - INFO - Processing meetup_remote_workers.ics...
+2026-03-17 22:42:37,934 - INFO - meetup_remote_workers.ics: no new images
+2026-03-17 22:42:37,934 - INFO - Done. Total images added: 20
+2026-03-17 22:42:38,048 - INFO - Processing buskirk_chumley.ics...
+2026-03-17 22:42:38,049 - INFO -   Fetching image for: https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026
+2026-03-17 22:42:38,166 - WARNING - Failed to fetch https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/eagles-tribute-take-it-to-the-limit-march-20-2026
+2026-03-17 22:42:38,667 - INFO -     No image found
+2026-03-17 22:42:38,668 - INFO -   Fetching image for: https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026
+2026-03-17 22:42:38,791 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-women-s-history-month-luncheon-march-25-2026
+2026-03-17 22:42:39,292 - INFO -     No image found
+2026-03-17 22:42:39,292 - INFO -   Fetching image for: https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026
+2026-03-17 22:42:39,541 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-film-festival-world-tour-2-day-pass-march-27-2026
+2026-03-17 22:42:40,042 - INFO -     No image found
+2026-03-17 22:42:40,042 - INFO -   Fetching image for: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026
+2026-03-17 22:42:40,156 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-27-2026
+2026-03-17 22:42:40,656 - INFO -     No image found
+2026-03-17 22:42:40,657 - INFO -   Fetching image for: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026
+2026-03-17 22:42:40,769 - WARNING - Failed to fetch https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/banff-centre-mountain-film-festival-world-tour-march-28-2026
+2026-03-17 22:42:41,270 - INFO -     No image found
+2026-03-17 22:42:41,271 - INFO -   Fetching image for: https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026
+2026-03-17 22:42:41,359 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026
+2026-03-17 22:42:41,860 - INFO -     No image found
+2026-03-17 22:42:41,860 - INFO -   Fetching image for: https://buskirkchumley.org/events/conclave-2024-april-2-2026
+2026-03-17 22:42:41,997 - WARNING - Failed to fetch https://buskirkchumley.org/events/conclave-2024-april-2-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/conclave-2024-april-2-2026
+2026-03-17 22:42:42,497 - INFO -     No image found
+2026-03-17 22:42:42,498 - INFO -   Fetching image for: https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026
+2026-03-17 22:42:42,610 - WARNING - Failed to fetch https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/ladies-first-spring-show-april-3-2026
+2026-03-17 22:42:43,111 - INFO -     No image found
+2026-03-17 22:42:43,111 - INFO -   Fetching image for: https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026
+2026-03-17 22:42:43,363 - WARNING - Failed to fetch https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/one-tight-ten-after-another-scholars-on-comedy-politics-and-free-speech-april-8-2026
+2026-03-17 22:42:43,864 - INFO -     No image found
+2026-03-17 22:42:43,864 - INFO -   Fetching image for: https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026
+2026-03-17 22:42:44,105 - WARNING - Failed to fetch https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/stavros-halkias-the-dreamboat-tour-april-9-2026
+2026-03-17 22:42:44,605 - INFO -     No image found
+2026-03-17 22:42:44,606 - INFO -   Fetching image for: https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026
+2026-03-17 22:42:44,699 - WARNING - Failed to fetch https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/another-round-30th-anniversary-spring-concert-with-special-guest-straight-no-chaser-april-10-2026
+2026-03-17 22:42:45,200 - INFO -     No image found
+2026-03-17 22:42:45,200 - INFO -   Fetching image for: https://buskirkchumley.org/events/asianfest-2026-april-11-2026
+2026-03-17 22:42:45,317 - WARNING - Failed to fetch https://buskirkchumley.org/events/asianfest-2026-april-11-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/asianfest-2026-april-11-2026
+2026-03-17 22:42:45,818 - INFO -     No image found
+2026-03-17 22:42:45,819 - INFO -   Fetching image for: https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026
+2026-03-17 22:42:45,952 - WARNING - Failed to fetch https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/plato-s-closet-presents-the-trashion-refashion-runway-show-april-12-2026
+2026-03-17 22:42:46,453 - INFO -     No image found
+2026-03-17 22:42:46,453 - INFO -   Fetching image for: https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026
+2026-03-17 22:42:46,540 - WARNING - Failed to fetch https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/natalie-boeyink-jazz-ensemble-april-13-2026
+2026-03-17 22:42:47,040 - INFO -     No image found
+2026-03-17 22:42:47,041 - INFO -   Fetching image for: https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026
+2026-03-17 22:42:47,128 - WARNING - Failed to fetch https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/african-american-dance-company-spring-concert-april-18-2026
+2026-03-17 22:42:47,629 - INFO -     No image found
+2026-03-17 22:42:47,629 - INFO -   Fetching image for: https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026
+2026-03-17 22:42:47,716 - WARNING - Failed to fetch https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/abra-cadabra-celebrating-the-music-magic-of-abba-april-19-2026
+2026-03-17 22:42:48,217 - INFO -     No image found
+2026-03-17 22:42:48,217 - INFO -   Fetching image for: https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026
+2026-03-17 22:42:48,304 - WARNING - Failed to fetch https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/iu-soul-revue-spring-concert-april-25-2026
+2026-03-17 22:42:48,805 - INFO -     No image found
+2026-03-17 22:42:48,805 - INFO -   Fetching image for: https://buskirkchumley.org/events/beat-spring-show-april-27-2026
+2026-03-17 22:42:48,910 - WARNING - Failed to fetch https://buskirkchumley.org/events/beat-spring-show-april-27-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/beat-spring-show-april-27-2026
+2026-03-17 22:42:49,411 - INFO -     No image found
+2026-03-17 22:42:49,412 - INFO -   Fetching image for: https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026
+2026-03-17 22:42:49,525 - WARNING - Failed to fetch https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/2026-be-more-awards-april-28-2026
+2026-03-17 22:42:50,026 - INFO -     No image found
+2026-03-17 22:42:50,026 - INFO -   Fetching image for: https://buskirkchumley.org/events/saving-ava-april-29-2026
+2026-03-17 22:42:50,120 - WARNING - Failed to fetch https://buskirkchumley.org/events/saving-ava-april-29-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/saving-ava-april-29-2026
+2026-03-17 22:42:50,621 - INFO -     No image found
+2026-03-17 22:42:50,621 - INFO -   Fetching image for: https://buskirkchumley.org/events/updating-april-30-2026
+2026-03-17 22:42:50,714 - WARNING - Failed to fetch https://buskirkchumley.org/events/updating-april-30-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/updating-april-30-2026
+2026-03-17 22:42:51,215 - INFO -     No image found
+2026-03-17 22:42:51,215 - INFO -   Fetching image for: https://buskirkchumley.org/events/sam-grisman-project-may-3-2026
+2026-03-17 22:42:51,307 - WARNING - Failed to fetch https://buskirkchumley.org/events/sam-grisman-project-may-3-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/sam-grisman-project-may-3-2026
+2026-03-17 22:42:51,808 - INFO -     No image found
+2026-03-17 22:42:51,809 - INFO -   Fetching image for: https://buskirkchumley.org/events/spaceballs-1987-may-4-2026
+2026-03-17 22:42:51,895 - WARNING - Failed to fetch https://buskirkchumley.org/events/spaceballs-1987-may-4-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/spaceballs-1987-may-4-2026
+2026-03-17 22:42:52,395 - INFO -     No image found
+2026-03-17 22:42:52,396 - INFO -   Fetching image for: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026
+2026-03-17 22:42:52,484 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026
+2026-03-17 22:42:52,985 - INFO -     No image found
+2026-03-17 22:42:52,985 - INFO -   Fetching image for: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2
+2026-03-17 22:42:53,073 - WARNING - Failed to fetch https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/motionarts-spring-gala-2026-may-9-2026-2
+2026-03-17 22:42:53,574 - INFO -     No image found
+2026-03-17 22:42:53,574 - INFO -   Fetching image for: https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026
+2026-03-17 22:42:53,660 - WARNING - Failed to fetch https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/mamma-mia-2008-may-15-2026
+2026-03-17 22:42:54,161 - INFO -     No image found
+2026-03-17 22:42:54,161 - INFO -   Fetching image for: https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026
+2026-03-17 22:42:54,251 - WARNING - Failed to fetch https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026: 403 Client Error: Forbidden for url: https://buskirkchumley.org/events/cosmic-songwriter-festival-2026-featuring-clayton-anderson-w-liv-lafluv-cara-jean-wahlers-may-16-2026
+2026-03-17 22:42:54,752 - INFO -     No image found
+2026-03-17 22:42:54,752 - INFO - buskirk_chumley.ics: no new images
+2026-03-17 22:42:54,752 - INFO - Processing comedy_attic.ics...
+2026-03-17 22:42:54,753 - INFO -   Fetching image for: https://comedyattic.com/events/121272
+2026-03-17 22:42:56,695 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/83349/full/data
+2026-03-17 22:42:56,695 - INFO -   Fetching image for: https://comedyattic.com/events/121272
+2026-03-17 22:42:57,840 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/83349/full/data
+2026-03-17 22:42:57,841 - INFO -   Fetching image for: https://comedyattic.com/events/121272
+2026-03-17 22:42:58,919 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/83349/full/data
+2026-03-17 22:42:58,919 - INFO -   Fetching image for: https://comedyattic.com/events/121272
+2026-03-17 22:43:00,036 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/83349/full/data
+2026-03-17 22:43:00,037 - INFO -   Fetching image for: https://comedyattic.com/events/121272
+2026-03-17 22:43:01,136 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/83349/full/data
+2026-03-17 22:43:01,136 - INFO -   Fetching image for: https://comedyattic.com/events/121272
+2026-03-17 22:43:02,111 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/83349/full/data
+2026-03-17 22:43:02,111 - INFO -   Fetching image for: https://comedyattic.com/events/130614
+2026-03-17 22:43:05,159 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/72240/full/data
+2026-03-17 22:43:05,159 - INFO -   Fetching image for: https://comedyattic.com/events/130614
+2026-03-17 22:43:06,131 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/72240/full/data
+2026-03-17 22:43:06,131 - INFO -   Fetching image for: https://comedyattic.com/events/126913
+2026-03-17 22:43:07,085 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/43937/full/data
+2026-03-17 22:43:07,085 - INFO -   Fetching image for: https://comedyattic.com/events/129182
+2026-03-17 22:43:08,076 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/48006/full/data
+2026-03-17 22:43:08,076 - INFO -   Fetching image for: https://comedyattic.com/events/129182
+2026-03-17 22:43:09,076 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/48006/full/data
+2026-03-17 22:43:09,076 - INFO -   Fetching image for: https://comedyattic.com/events/129182
+2026-03-17 22:43:10,058 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/48006/full/data
+2026-03-17 22:43:10,059 - INFO -   Fetching image for: https://comedyattic.com/events/130616
+2026-03-17 22:43:11,007 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/87394/full/data
+2026-03-17 22:43:11,007 - INFO -   Fetching image for: https://comedyattic.com/events/130616
+2026-03-17 22:43:11,936 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/87394/full/data
+2026-03-17 22:43:11,936 - INFO -   Fetching image for: https://comedyattic.com/events/125654
+2026-03-17 22:43:12,958 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/84662/full/data
+2026-03-17 22:43:12,958 - INFO -   Fetching image for: https://comedyattic.com/events/132758
+2026-03-17 22:43:13,896 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/88662/full/data
+2026-03-17 22:43:13,896 - INFO -   Fetching image for: https://comedyattic.com/events/130975
+2026-03-17 22:43:15,064 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/87650/full/data
+2026-03-17 22:43:15,065 - INFO -   Fetching image for: https://comedyattic.com/events/130975
+2026-03-17 22:43:16,132 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/87650/full/data
+2026-03-17 22:43:16,132 - INFO -   Fetching image for: https://comedyattic.com/events/132342
+2026-03-17 22:43:17,361 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/88458/full/data
+2026-03-17 22:43:17,361 - INFO -   Fetching image for: https://comedyattic.com/events/132343
+2026-03-17 22:43:18,347 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/68283/full/data
+2026-03-17 22:43:18,347 - INFO -   Fetching image for: https://comedyattic.com/events/132343
+2026-03-17 22:43:19,590 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/68283/full/data
+2026-03-17 22:43:19,590 - INFO -   Fetching image for: https://comedyattic.com/events/132344
+2026-03-17 22:43:21,051 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/64305/full/data
+2026-03-17 22:43:21,051 - INFO -   Fetching image for: https://comedyattic.com/events/132344
+2026-03-17 22:43:21,985 - INFO -     -> https://files.seatengine.com/talent/headshots/photos/64305/full/data
+2026-03-17 22:43:21,986 - INFO - comedy_attic.ics: added 23 image(s)
+2026-03-17 22:43:21,986 - INFO - Processing the_bishop.ics...
+2026-03-17 22:43:21,986 - INFO -   Fetching image for: https://thebishopbar.com/events/coma-cinema-trace-mountains
+2026-03-17 22:43:22,939 - INFO -     No image found
+2026-03-17 22:43:22,940 - INFO -   Fetching image for: https://thebishopbar.com/events/evening-mike-doughty-solo
+2026-03-17 22:43:23,625 - INFO -     No image found
+2026-03-17 22:43:23,625 - INFO -   Fetching image for: https://thebishopbar.com/events/matriarch-2
+2026-03-17 22:43:24,569 - INFO -     No image found
+2026-03-17 22:43:24,569 - INFO -   Fetching image for: https://thebishopbar.com/events/doom-gong
+2026-03-17 22:43:25,270 - INFO -     No image found
+2026-03-17 22:43:25,270 - INFO - the_bishop.ics: no new images
+2026-03-17 22:43:25,270 - INFO - Processing cicada_cinema.ics...
+2026-03-17 22:43:25,271 - INFO -   Fetching image for: https://cicadacinema.com/products/five-dollar-fight-club-april-16-orbit-room-9pm
+2026-03-17 22:43:26,137 - INFO -     -> http://cicadacinema.com/cdn/shop/files/April_Fight_Club_poster.png?v=1771788395
+2026-03-17 22:43:26,138 - INFO -   Fetching image for: https://cicadacinema.com/products/five-dollar-fight-club-march-19th-orbit-room-9pm
+2026-03-17 22:43:26,899 - INFO -     -> http://cicadacinema.com/cdn/shop/files/March_5FC_poster.png?v=1771786092
+2026-03-17 22:43:26,899 - INFO -   Fetching image for: https://cicadacinema.com/products/paying-for-it-march-26-backspace-gallery-7pm
+2026-03-17 22:43:27,756 - INFO -     -> http://cicadacinema.com/cdn/shop/files/PayingforItPoster1_8.5x11.png?v=1772917528
+2026-03-17 22:43:27,756 - INFO -   Fetching image for: https://cicadacinema.com/products/pillion-april-22-back-door-8pm
+2026-03-17 22:43:28,592 - INFO -     -> http://cicadacinema.com/cdn/shop/files/Pillion.Poster1_8.5x11.png?v=1772755990
+2026-03-17 22:43:28,593 - INFO -   Fetching image for: https://cicadacinema.com/products/society-april-16-orbit-room-7pm
+2026-03-17 22:43:29,419 - INFO -     -> http://cicadacinema.com/cdn/shop/files/Societyposter3_8.5x11.png?v=1772755350
+2026-03-17 22:43:29,419 - INFO -   Fetching image for: https://cicadacinema.com/products/the-moment-april-1-back-door-8pm
+2026-03-17 22:43:30,160 - INFO -     -> http://cicadacinema.com/cdn/shop/files/TheMomentPoster1_8.5x11.png?v=1772754189
+2026-03-17 22:43:30,160 - INFO -   Fetching image for: https://cicadacinema.com/products/miami-connection-march-19-orbit-room-7pm
+2026-03-17 22:43:30,955 - INFO -     -> http://cicadacinema.com/cdn/shop/files/MiamiConnectionPoster2_8.5x11.png?v=1771951262
+2026-03-17 22:43:30,955 - INFO -   Fetching image for: https://cicadacinema.com/products/sirat-march-28-upland-wood-shop-8pm
+2026-03-17 22:43:31,730 - INFO -     -> http://cicadacinema.com/cdn/shop/files/SiratPoster2_8.5x11.png?v=1771787220
+2026-03-17 22:43:31,731 - INFO -   Fetching image for: https://cicadacinema.com/products/programme-4-make-the-scene-march-21-blockhouse-bar-7pm
+2026-03-17 22:43:32,510 - INFO -     -> http://cicadacinema.com/cdn/shop/files/Programme4_Poster_Bloomington.png?v=1772918366
+2026-03-17 22:43:32,511 - INFO - cicada_cinema.ics: added 9 image(s)
+2026-03-17 22:43:32,511 - INFO - Processing peoples_market.ics...
+2026-03-17 22:43:32,511 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/event-four-kmwla
+2026-03-17 22:43:33,413 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/t/64b8604ac2cb8d62345015f3/1689804874095/POP+at+1136+S+Morton.jpg?format=1500w
+2026-03-17 22:43:33,414 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/event-four-kmwla-lea9p
+2026-03-17 22:43:34,289 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/t/64b8614189b3a562ddd36b76/1689805121396/POP+at+1136+S+Morton.jpg?format=1500w
+2026-03-17 22:43:34,289 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/event-one-hwntx
+2026-03-17 22:43:35,147 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/64b85654a0fadf55f63de4e5/64b85654a0fadf55f63de4e6/1689804713600/332804980_6435646109779110_914704806140808635_n.jpg?format=1500w
+2026-03-17 22:43:35,147 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/event-one-hwntx-ebddm
+2026-03-17 22:43:35,970 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/t/64b861d129b0e567108ccc37/1689805266027/42CDB212-6466-4704-AE57-3753EFABF8D5.jpeg?format=1500w
+2026-03-17 22:43:35,970 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/event-one-hwntx-gjhmg
+2026-03-17 22:43:36,816 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/64b85654a0fadf55f63de4e5/64b85f4717bc15690a13f95e/1689804803900/332804980_6435646109779110_914704806140808635_n.jpg?format=1500w
+2026-03-17 22:43:36,816 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/juneteenth
+2026-03-17 22:43:37,694 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/64b85654a0fadf55f63de4e5/666b1e14931e481c81c6feaa/1718296473732/448158094_959995039467716_2923764274743285157_n.jpg?format=1500w
+2026-03-17 22:43:37,694 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/pcmkitchen
+2026-03-17 22:43:38,536 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/t/64b865bf1ed347365f56c2b4/1689806273500/download.png?format=1500w
+2026-03-17 22:43:38,536 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/peoplesabundantkitchen
+2026-03-17 22:43:39,775 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/t/64b85ef16d00a905050e2cf6/1689804531866/Untitled+design+%281%29.png?format=1500w
+2026-03-17 22:43:39,775 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/peoplesfarmersmarket
+2026-03-17 22:43:40,638 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/t/64b86323b229241574f37069/1689805605783/42CDB212-6466-4704-AE57-3753EFABF8D5.jpeg?format=1500w
+2026-03-17 22:43:40,639 - INFO -   Fetching image for: https://www.peoplesmarketbtown.org/gatherings/peoplesopenpantry
+2026-03-17 22:43:41,475 - INFO -     -> http://static1.squarespace.com/static/5e5f9d23c377f660446e022a/t/64b862ddebd2be7fc5486f52/1689805533715/POP+at+1136+S+Morton.jpg?format=1500w
+2026-03-17 22:43:41,476 - INFO - peoples_market.ics: added 10 image(s)
+2026-03-17 22:43:41,476 - INFO - Processing cardinal_spirits.ics...
+2026-03-17 22:43:41,476 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz
+2026-03-17 22:43:42,515 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/694199a7632d080d3ff45fa4/1765906863640/Untitled-12+%285%29.png?format=1500w
+2026-03-17 22:43:42,515 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb
+2026-03-17 22:43:43,746 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/694199b4be89ca4d16d4a36a/1765906882380/Untitled-12+%285%29.png?format=1500w
+2026-03-17 22:43:43,747 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb-3jrbd
+2026-03-17 22:43:44,622 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/694199c7c68f5d0c1a6010cf/1765906893933/Untitled-12+%285%29.png?format=1500w
+2026-03-17 22:43:44,622 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb-3jrbd-5a2z6
+2026-03-17 22:43:45,512 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/694199d09642c622eaf664ac/1765906903779/Untitled-12+%285%29.png?format=1500w
+2026-03-17 22:43:45,512 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/9dpm8hcxtp9ekmn-sgfmj-hghnk-yl6dl-w6rld-gyxw8-94fsb-ksjls-s8hpd-kksmd-b5xp6-n9a3s-5zy6d-2ddl9-c7bgp-d4p5w-4gchz-n4yzb-3jrbd-5a2z6-2536l
+2026-03-17 22:43:46,361 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/694199db432c4e720c1ddabd/1765906914700/Untitled-12+%285%29.png?format=1500w
+2026-03-17 22:43:46,362 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk
+2026-03-17 22:43:47,292 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/694195437256d54d7f33e11e/1765905751932/Untitled+%286%29.png?format=1500w
+2026-03-17 22:43:47,292 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk-frjnh
+2026-03-17 22:43:48,226 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/6941955c3b2b68518753e647/1765905764330/Untitled+%286%29.png?format=1500w
+2026-03-17 22:43:48,227 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk-frjnh-bk44n
+2026-03-17 22:43:49,085 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/69419567f2d07011167eb532/1765905777844/Untitled+%286%29.png?format=1500w
+2026-03-17 22:43:49,085 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/j2a9y7yks9377x6-bbkrw-9mf5l-2fgxd-y3se4-kztj3-ya8wf-3wele-pmktj-9c5h5-aldxa-24kb2-4fs6g-9xthb-jnpnd-t2afs-tlywk-frjnh-bk44n-eepgj
+2026-03-17 22:43:49,929 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/694195747c50110b352c5815/1765905789751/Untitled+%286%29.png?format=1500w
+2026-03-17 22:43:49,929 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/movie-trivia-night
+2026-03-17 22:43:51,069 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/69a0a90b3effdf7492604d83/1772136939353/Untitled-2+%288%29.png?format=1500w
+2026-03-17 22:43:51,070 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/movies-and-martinis-a6sgh-ksxta
+2026-03-17 22:43:51,942 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/698506c90d710420e63ad440/1770325755263/Untitled-1+%284%29.png?format=1500w
+2026-03-17 22:43:51,942 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/movies-and-martinis-a6sgh-ksxta-nmsm2
+2026-03-17 22:43:52,832 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/698507026010b237fbe3a3a4/1770325790517/Untitled-1+%284%29.png?format=1500w
+2026-03-17 22:43:52,832 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/tiki-cocktail-class-march-2026
+2026-03-17 22:43:53,686 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/699dd80c8acd80361656a239/1772029183339/Untitled+%2820%29.png?format=1500w
+2026-03-17 22:43:53,686 - INFO -   Fetching image for: https://www.cardinalspirits.com/events/tiki-cocktail-class-march-2026-chafe
+2026-03-17 22:43:54,522 - INFO -     -> http://static1.squarespace.com/static/5249c667e4b085b754f2b0e7/5638a395e4b08459c6002e22/699ddd69083be162c6fe08d8/1772029197434/Untitled+%2820%29.png?format=1500w
+2026-03-17 22:43:54,523 - INFO - cardinal_spirits.ics: added 14 image(s)
+2026-03-17 22:43:54,523 - INFO - Processing sassafras_audubon.ics...
+2026-03-17 22:43:54,523 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2021/11/13/fall-ducks-and-donuts-gsfhb
+2026-03-17 22:43:55,352 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/654a792f6e2a952e27e0d07a/1707915040898/FB_IMG_1583868448464.jpg?format=1500w
+2026-03-17 22:43:55,352 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2021/11/13/fall-ducks-and-donuts-gsfhb-t2f8m
+2026-03-17 22:43:56,412 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/65ccb720242d74678c9ec554/1699379503328/FB_IMG_1583868448464.jpg?format=1500w
+2026-03-17 22:43:56,412 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2023/10/21/citizen-science-for-the-birds
+2026-03-17 22:43:57,249 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/652eb36e4377eb5c1a3567bc/1697559407012/CSftB+Presentation+Schedule+copy.jpg?format=1500w
+2026-03-17 22:43:57,250 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2023/11/17/give-a-whoop-whooping-crane-ambassador-training
+2026-03-17 22:43:58,144 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/654a7b6435b51c6ee55ecc8c/1699380069095/Give+A+WHOOP+Nov.+2023+%281%29+%281%29.png?format=1500w
+2026-03-17 22:43:58,144 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2023/12/2/young-birders-club-meeting
+2026-03-17 22:43:58,957 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/6516d62b4e2d182bbd46323c/1695995435414/sasBloomington.png?format=1500w
+2026-03-17 22:43:58,957 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/10/12/fall-feeder-cleaning
+2026-03-17 22:43:59,798 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/66fdae464e95677ac0c9ce37/1727901810599/thumbnail_IMG_0975.jpg?format=1500w
+2026-03-17 22:43:59,799 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/10/13/annual-big-sit-at-goose-pond
+2026-03-17 22:44:00,656 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/66eb7b682b0350073b2b28dc/1726709901491/Jim-Romine-whooping-crane.jpg?format=1500w
+2026-03-17 22:44:00,657 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/10/30/windows-as-threats-to-birds-sas-speaker-series-with-sarah-wanamaker
+2026-03-17 22:44:01,475 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67166a59b0e9871c8d66b1eb/1729522433826/Window+strikes+-+Sarah+Wanamaker.png?format=1500w
+2026-03-17 22:44:01,475 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/10/5/october-pop-up-hike-at-flatwoods-park
+2026-03-17 22:44:06,007 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/66fe9ec8b260e407a06fe353/1727967114614/FlatwoodsPark_43f9e3e2-5056-a36a-06ad72d9ae8acd22.jpg?format=1500w
+2026-03-17 22:44:06,007 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/11/16/ducks-and-donuts-fall-2024
+2026-03-17 22:44:06,872 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/672d732aa671b25616e11406/1731031854186/Ducks+and+Donuts+banner.jpg?format=1500w
+2026-03-17 22:44:06,873 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/11/23/november-bird-trip-to-muscatatuck-nwr
+2026-03-17 22:44:07,713 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/672d76fe1886536027ad31b1/1731032830718/Muscatatuck.jpeg?format=1500w
+2026-03-17 22:44:07,713 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/2/24/rca-community-park-field-trip
+2026-03-17 22:44:08,514 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/6516d62b4e2d182bbd46323c/1695995435414/sasBloomington.png?format=1500w
+2026-03-17 22:44:08,514 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/3/16/woodcocknbspwalk-at-flatwoods-park
+2026-03-17 22:44:09,375 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/65df8df6087248325bac994e/1709149686464/woodcock.jpg?format=1500w
+2026-03-17 22:44:09,375 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/4/20/spring-feeder-cleaning
+2026-03-17 22:44:10,248 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/66128956093f6e03bdd85a6f/1712490838777/thumbnail_IMG_0975.jpg?format=1500w
+2026-03-17 22:44:10,248 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/4/7/griffy-lake-field-trip
+2026-03-17 22:44:11,111 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/t/661288b1ea5c6d01176fd9cf/1712490674059/griffy_drone_causeway.jpg?format=1500w
+2026-03-17 22:44:11,112 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/6/22/bird-hike-at-pate-hollow
+2026-03-17 22:44:11,916 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/6670cd54fc197c373447ea24/1718669977859/Pate+Hollow+David+Rupp.jpeg?format=1500w
+2026-03-17 22:44:11,916 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/7/27/bird-hike-at-clear-creek-trail
+2026-03-17 22:44:12,720 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/66906ee5685d27351f8e238a/1721222006707/Clear+Creek+Trail.jpg?format=1500w
+2026-03-17 22:44:12,720 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/8/17/swifts-in-the-city
+2026-03-17 22:44:13,439 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/66b4027ff4e57b1f475d8644/1741025775623/Chimney+Swifts+-+Graham+Plaza+-+Taylor+Ransdell.jpg?format=1500w
+2026-03-17 22:44:13,440 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2024/9/28/september-hike
+2026-03-17 22:44:14,256 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/66eb76052a43d9122739fbab/1741025709875/bay-breasted+warbler+-+Beanblossom+Bottoms+-+Taylor+Ransdell.jpeg?format=1500w
+2026-03-17 22:44:14,257 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/2/22/goose-pond-field-trip
+2026-03-17 22:44:15,093 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67b65e83ee1f544ec3b8c6ba/1740005147662/sandhill%2Bcranes%2Bgoose%2Bpond%2Bnancy%2Blightfoot.jpg?format=1500w
+2026-03-17 22:44:15,093 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/3/22/ducks-and-donuts-spring-2025
+2026-03-17 22:44:15,915 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67b64e2a39accd129dd36325/1772502991725/Ducks%2Band%2BDonuts%2Bbanner.jpg?format=1500w
+2026-03-17 22:44:15,915 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/3/22/ducks-and-donuts-spring-2025-rkfbf
+2026-03-17 22:44:16,756 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/69a63fcf47042128f9fecca2/1772503086332/Ducks%2Band%2BDonuts%2Bbanner.jpg?format=1500w
+2026-03-17 22:44:16,756 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/4/5/spring-feeder-cleaning-2025
+2026-03-17 22:44:17,573 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67b64f5f47f2583980bc4c19/1770411686484/thumbnail_IMG_0975.jpg?format=1500w
+2026-03-17 22:44:17,573 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/4/5/spring-feeder-cleaning-2026-36m4p
+2026-03-17 22:44:18,400 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/698656a6e182790cb964f657/1770411773973/thumbnail_IMG_0975.jpg?format=1500w
+2026-03-17 22:44:18,401 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/4/8/mccormicks
+2026-03-17 22:44:19,259 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67f55044b9d143351245e658/1744132623522/McCormick%27s+Creek+Trail+2.PNG?format=1500w
+2026-03-17 22:44:19,259 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/5/1/birdingtools101
+2026-03-17 22:44:20,089 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67f7035d12405d32b44cb9ba/1744241852997/Birding%2BTools%2B101.jpg?format=1500w
+2026-03-17 22:44:20,089 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/6/15/sas-day-at-kent-farm-bird-banding-station
+2026-03-17 22:44:20,902 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/68462478d97c1e76140a866a/1749429645452/Copy+of+Copy+of+IMG_3295.JPG?format=1500w
+2026-03-17 22:44:20,902 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/6/21/bird-hike-at-griffy-lake
+2026-03-17 22:44:21,718 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/68461bc97451ff21ee940f81/1749425398799/griffy_drone_causeway.jpg?format=1500w
+2026-03-17 22:44:21,719 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2025/speaker-david-rupp-tropics
+2026-03-17 22:44:22,546 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67ca4ff13dde3208814ad377/1744132663850/Orange%2Bcrowned%2BTanager.jpg?format=1500w
+2026-03-17 22:44:22,546 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2026/2/25/speaker-series-cerulean-warbler-birdscape
+2026-03-17 22:44:23,374 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/69864f283602c357f2270d8f/1770409927142/IMG_5036.jpeg?format=1500w
+2026-03-17 22:44:23,374 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/2026/2/28/goose-pond-field-trip
+2026-03-17 22:44:24,183 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/69864fed1c8d586ead59350f/1770410552869/sandhill+cranes+goose+pond+nancy+lightfoot.png?format=1500w
+2026-03-17 22:44:24,184 - INFO -   Fetching image for: https://www.sassafrasaudubon.org/upcomingevents/woodcockwalk2025
+2026-03-17 22:44:24,990 - INFO -     -> http://static1.squarespace.com/static/5c8082e57a1fbd4a3af1ae0b/5c81ddc46e9a7f210e7ee36a/67cb4abf98d84c4ad6954d4a/1772656674399/woodcock.jpg?format=1500w
+2026-03-17 22:44:24,990 - INFO - sassafras_audubon.ics: added 32 image(s)
+2026-03-17 22:44:24,990 - INFO - Processing master_gardeners.ics...
+2026-03-17 22:44:24,991 - INFO -   Fetching image for: https://www.mcmga.net/events/2h84m9hr2bndnxl358pedd9ryh9w5e-6dlkg-p8nml-ykbcy-7k74t-b7wky-lhr4l-fae9l-mkmn7-kyk4a-m6nwr-d6jar
+2026-03-17 22:44:25,855 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/67c5e8daadcddb5e0af15fde/1741023470685/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:44:25,856 - INFO -   Fetching image for: https://www.mcmga.net/events/2h84m9hr2bndnxl358pedd9ryh9w5e-6dlkg-p8nml-ykbcy-7k74t-b7wky-lhr4l-fae9l-mkmn7-kyk4a-m6nwr-d6jar-lpr67
+2026-03-17 22:44:26,740 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/67c5e8f5eff4f30a74698ca7/1741023500154/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:44:26,740 - INFO -   Fetching image for: https://www.mcmga.net/events/2h84m9hr2bndnxl358pedd9ryh9w5e-6dlkg-p8nml-ykbcy-7k74t-b7wky-lhr4l-fae9l-mkmn7-kyk4a-m6nwr-d6jar-lpr67-lg954
+2026-03-17 22:44:27,656 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/67c5e91673029819ef960949/1741023531458/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:44:27,656 - INFO -   Fetching image for: https://www.mcmga.net/events/book-club-n4f3m
+2026-03-17 22:44:28,506 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68c19f4723475e54255870aa/1757520480531/dungy.jpg?format=1500w
+2026-03-17 22:44:28,506 - INFO -   Fetching image for: https://www.mcmga.net/events/book-club-n4f3m-5fdt5
+2026-03-17 22:44:29,360 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68c1a1166fc7797737614634/1757520858900/mcPhee.jpg?format=1500w
+2026-03-17 22:44:29,361 - INFO -   Fetching image for: https://www.mcmga.net/events/book-club-n4f3m-5fdt5-2ldne
+2026-03-17 22:44:30,249 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68c1a3da56dae13971184d76/1757521269050/kimmerer.jpg?format=1500w
+2026-03-17 22:44:30,249 - INFO -   Fetching image for: https://www.mcmga.net/events/book-club-n4f3m-5fdt5-2ldne-h3gaw
+2026-03-17 22:44:31,112 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/t/68c1a6988328676059ce9d2e/1757521560047/capek.jpg?format=1500w
+2026-03-17 22:44:31,112 - INFO -   Fetching image for: https://www.mcmga.net/events/garden-fair-3
+2026-03-17 22:44:31,986 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/6960618570cacc015ffde7d6/1767924313716/cabbage.jpg?format=1500w
+2026-03-17 22:44:31,986 - INFO -   Fetching image for: https://www.mcmga.net/events/harvest-dinner-2025
+2026-03-17 22:44:32,860 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68b4ddabb5ad914100954897/1768582477599/ai-chili.jpg?format=1500w
+2026-03-17 22:44:32,860 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna
+2026-03-17 22:44:33,744 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a6e738406e71aa1a53174/1770666876212/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:33,744 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b
+2026-03-17 22:44:34,591 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8386152b8f41e30d941a/1768588283582/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:34,592 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6
+2026-03-17 22:44:35,499 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a87273e4c1d17be0bff23/1768589163316/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:35,499 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24
+2026-03-17 22:44:36,350 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a87804188d1282cd25f72/1768589224666/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:36,351 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg
+2026-03-17 22:44:37,295 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a87b09ee9233b359767d7/1768589275725/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:37,296 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg
+2026-03-17 22:44:38,170 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a87e1967aec0e79bfb439/1768589328319/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:38,171 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng
+2026-03-17 22:44:39,036 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8830ee287e7ca8a052bd/1768589424273/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:39,036 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh
+2026-03-17 22:44:39,899 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a887f0838aa3d027daf7e/1768589485170/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:39,899 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd
+2026-03-17 22:44:40,821 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a88b4c3e7a218a8231acc/1768589530617/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:40,821 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft
+2026-03-17 22:44:41,685 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a88e2e85e3029ed9215b1/1768589595599/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:41,685 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4
+2026-03-17 22:44:42,589 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8922152b8f41e30f7a5f/1768589636113/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:42,590 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9
+2026-03-17 22:44:43,458 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a894a1004a667258eeaaf/1768589677439/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:43,458 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3
+2026-03-17 22:44:44,338 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a89752a6cf975de23cfbd/1768589747869/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:44,339 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3-cjy6m
+2026-03-17 22:44:45,272 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a89bf00781145bb71160a/1768589826637/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:45,272 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3-cjy6m-n3gdb
+2026-03-17 22:44:46,130 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8a14bda3b83c5e1ab4cd/1768589897335/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:46,131 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-agp3b-tnxs6-ned24-kk5hg-7t8hg-pj9ng-emzlh-wjkyd-bdsft-jrkm4-4flc9-zr2j3-cjy6m-n3gdb-2km9t
+2026-03-17 22:44:47,042 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8a4fb86a715bd79500cf/1768589960171/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:47,042 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j
+2026-03-17 22:44:47,947 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8ad02a6cf975de243dc6/1770666904332/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:47,948 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5
+2026-03-17 22:44:48,821 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8b0ae06ad756aa19e375/1770666933592/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:48,821 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk
+2026-03-17 22:44:49,690 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8b333e4c1d17be0d42c8/1770666966067/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:49,690 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z
+2026-03-17 22:44:50,601 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8b686672981a8a422d3c/1770666998694/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:50,601 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j
+2026-03-17 22:44:51,456 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8b97e06ad756aa1a18b9/1770667066563/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:51,456 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w
+2026-03-17 22:44:52,330 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8c57720430050f7353b7/1770667096142/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:52,331 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b
+2026-03-17 22:44:53,186 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8c7f4188d1282cd417b2/1770667124421/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:53,186 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z
+2026-03-17 22:44:54,050 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8cabb4a32617e22b8392/1770667190550/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:54,051 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb
+2026-03-17 22:44:54,914 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8cf0f50642363f00580b/1770667217718/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:54,915 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh
+2026-03-17 22:44:55,829 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8d19ee287e7ca8a1e79d/1770667305241/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:55,829 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh-2m553
+2026-03-17 22:44:56,685 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a90d5b74bf71f60491e96/1770667335625/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:56,685 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh-2m553-ye8lc
+2026-03-17 22:44:57,603 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a90f8f50642363f018dcf/1770667364127/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:57,604 - INFO -   Fetching image for: https://www.mcmga.net/events/intern-training-class-y276x-ljlxz-ercbj-r3ewg-xmne2-e273j-3pkfs-ccrna-s6k9j-9fdg5-3bxfk-ad64z-g672j-gls8w-axm8b-7f58z-w3ebb-pphwh-36cae
+2026-03-17 22:44:58,515 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a8dd59d4ea61ff3005389/1770667252519/EMG+Brand+2+color.jpg?format=1500w
+2026-03-17 22:44:58,515 - INFO -   Fetching image for: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m
+2026-03-17 22:44:59,419 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a54605f3b74400c64c47a/1768576303691/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:44:59,420 - INFO -   Fetching image for: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc
+2026-03-17 22:45:00,453 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a552f238c4125bf037212/1768576414667/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:45:00,453 - INFO -   Fetching image for: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3
+2026-03-17 22:45:01,335 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a55c6238c4125bf039cc7/1768576488278/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:45:01,335 - INFO -   Fetching image for: https://www.mcmga.net/events/mayss63web9dmr9s3gh3g7zl6a857m-enhmc-a2lt3-r9nma
+2026-03-17 22:45:02,189 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a55f8d2e3183328b126bf/1768576539370/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:45:02,189 - INFO -   Fetching image for: https://www.mcmga.net/events/purdue-extension-monroe-county-blood-drive
+2026-03-17 22:45:03,066 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a52c9767777563bd16358/1768576008470/EMG+social+media+2021.jpg?format=1500w
+2026-03-17 22:45:03,067 - INFO -   Fetching image for: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden
+2026-03-17 22:45:03,915 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/695ee627fa38ce619ce1f020/1768577154673/beans1.jpg?format=1500w
+2026-03-17 22:45:03,915 - INFO -   Fetching image for: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc
+2026-03-17 22:45:04,806 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a5882cf4da278f7ea6276/1770666664062/pam-4.jpg?format=1500w
+2026-03-17 22:45:04,806 - INFO -   Fetching image for: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct
+2026-03-17 22:45:05,675 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a5c36d2e3183328b3186d/1770667510354/volunteer-hilltop-1.jpg?format=1500w
+2026-03-17 22:45:05,676 - INFO -   Fetching image for: https://www.mcmga.net/events/steps-to-a-low-maintenance-vegetable-garden-epjbc-spjct-rt3nd
+2026-03-17 22:45:06,319 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/696a5eb656e8382651003dd6/1770667633931/Hydrangea_Pic1.jpg?format=1500w
+2026-03-17 22:45:06,320 - INFO -   Fetching image for: https://www.mcmga.net/events/volunteering-at-hilltop-twac4
+2026-03-17 22:45:07,254 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68e41d93351bc372d0348643/1759780323373/herb-garden.jpg?format=1500w
+2026-03-17 22:45:07,254 - INFO -   Fetching image for: https://www.mcmga.net/events/volunteering-at-hilltop-twac4-wynkj
+2026-03-17 22:45:08,124 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68e41dbc9156622dca583525/1759780314399/herb-garden.jpg?format=1500w
+2026-03-17 22:45:08,124 - INFO -   Fetching image for: https://www.mcmga.net/events/volunteering-at-hilltop-x5pjx
+2026-03-17 22:45:08,974 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68e41d6348cf9e5271009307/1759780332452/herb-garden.jpg?format=1500w
+2026-03-17 22:45:08,974 - INFO -   Fetching image for: https://www.mcmga.net/events/volunteering-at-wonderlab-psxxf
+2026-03-17 22:45:09,850 - INFO -     -> http://static1.squarespace.com/static/5fd5057a67ebfc29b09298b4/5fd53375dca2215260252557/68e45d9f74560c386ebdcb50/1759796914221/IMG_7497.jpg?format=1500w
+2026-03-17 22:45:09,850 - INFO - master_gardeners.ics: added 51 image(s)
+2026-03-17 22:45:09,850 - INFO - Processing sycamore_land_trust.ics...
+2026-03-17 22:45:09,851 - INFO -   Fetching image for: https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/
+2026-03-17 22:45:10,013 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/
+2026-03-17 22:45:10,514 - INFO -     No image found
+2026-03-17 22:45:10,514 - INFO -   Fetching image for: https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/
+2026-03-17 22:45:10,651 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/
+2026-03-17 22:45:11,152 - INFO -     No image found
+2026-03-17 22:45:11,152 - INFO -   Fetching image for: https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/
+2026-03-17 22:45:11,660 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/
+2026-03-17 22:45:12,160 - INFO -     No image found
+2026-03-17 22:45:12,161 - INFO -   Fetching image for: https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/
+2026-03-17 22:45:12,298 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/
+2026-03-17 22:45:12,799 - INFO -     No image found
+2026-03-17 22:45:12,799 - INFO -   Fetching image for: https://sycamorelandtrust.org/2026/02/wings-map-and-compass/
+2026-03-17 22:45:12,956 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/wings-map-and-compass/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/wings-map-and-compass/
+2026-03-17 22:45:13,457 - INFO -     No image found
+2026-03-17 22:45:13,457 - INFO -   Fetching image for: https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/
+2026-03-17 22:45:13,600 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/
+2026-03-17 22:45:14,101 - INFO -     No image found
+2026-03-17 22:45:14,101 - INFO -   Fetching image for: https://sycamorelandtrust.org/2026/02/preserve-a-preserve-weed-wrangle-at-porter-west-2/
+2026-03-17 22:45:14,256 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/preserve-a-preserve-weed-wrangle-at-porter-west-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/preserve-a-preserve-weed-wrangle-at-porter-west-2/
+2026-03-17 22:45:14,757 - INFO -     No image found
+2026-03-17 22:45:14,757 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/
+2026-03-17 22:45:14,914 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/
+2026-03-17 22:45:15,415 - INFO -     No image found
+2026-03-17 22:45:15,416 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/
+2026-03-17 22:45:15,611 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/
+2026-03-17 22:45:16,112 - INFO -     No image found
+2026-03-17 22:45:16,112 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/
+2026-03-17 22:45:16,389 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/
+2026-03-17 22:45:16,890 - INFO -     No image found
+2026-03-17 22:45:16,890 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/
+2026-03-17 22:45:17,025 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/
+2026-03-17 22:45:17,526 - INFO -     No image found
+2026-03-17 22:45:17,526 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/
+2026-03-17 22:45:17,662 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/
+2026-03-17 22:45:18,163 - INFO -     No image found
+2026-03-17 22:45:18,163 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/
+2026-03-17 22:45:18,343 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/
+2026-03-17 22:45:18,844 - INFO -     No image found
+2026-03-17 22:45:18,844 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/
+2026-03-17 22:45:19,217 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/
+2026-03-17 22:45:19,717 - INFO -     No image found
+2026-03-17 22:45:19,718 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/
+2026-03-17 22:45:19,873 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/
+2026-03-17 22:45:20,374 - INFO -     No image found
+2026-03-17 22:45:20,374 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/
+2026-03-17 22:45:20,487 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/
+2026-03-17 22:45:20,988 - INFO -     No image found
+2026-03-17 22:45:20,988 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/
+2026-03-17 22:45:21,120 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/
+2026-03-17 22:45:21,621 - INFO -     No image found
+2026-03-17 22:45:21,621 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/
+2026-03-17 22:45:21,760 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/
+2026-03-17 22:45:22,261 - INFO -     No image found
+2026-03-17 22:45:22,261 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/12/early-bird-hike-with-ben-fleet/
+2026-03-17 22:45:22,398 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/12/early-bird-hike-with-ben-fleet/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/12/early-bird-hike-with-ben-fleet/
+2026-03-17 22:45:22,899 - INFO -     No image found
+2026-03-17 22:45:22,899 - INFO -   Fetching image for: https://sycamorelandtrust.org/2025/01/weed-wrangle-at-canyon-forest-nature-preserve-2/
+2026-03-17 22:45:23,037 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/01/weed-wrangle-at-canyon-forest-nature-preserve-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/01/weed-wrangle-at-canyon-forest-nature-preserve-2/
+2026-03-17 22:45:23,538 - INFO -     No image found
+2026-03-17 22:45:23,538 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/
+2026-03-17 22:45:23,694 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/
+2026-03-17 22:45:24,194 - INFO -     No image found
+2026-03-17 22:45:24,195 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/
+2026-03-17 22:45:24,328 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/
+2026-03-17 22:45:24,829 - INFO -     No image found
+2026-03-17 22:45:24,829 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/
+2026-03-17 22:45:24,965 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/
+2026-03-17 22:45:25,466 - INFO -     No image found
+2026-03-17 22:45:25,466 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/
+2026-03-17 22:45:25,584 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/
+2026-03-17 22:45:26,085 - INFO -     No image found
+2026-03-17 22:45:26,085 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/
+2026-03-17 22:45:26,285 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/
+2026-03-17 22:45:26,786 - INFO -     No image found
+2026-03-17 22:45:26,786 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/
+2026-03-17 22:45:26,900 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/
+2026-03-17 22:45:27,401 - INFO -     No image found
+2026-03-17 22:45:27,401 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/
+2026-03-17 22:45:27,567 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/
+2026-03-17 22:45:28,068 - INFO -     No image found
+2026-03-17 22:45:28,068 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/
+2026-03-17 22:45:28,201 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/
+2026-03-17 22:45:28,702 - INFO -     No image found
+2026-03-17 22:45:28,702 - INFO -   Fetching image for: https://sycamorelandtrust.org/2024/02/sky-dance-twilight-hike-2/
+2026-03-17 22:45:28,839 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/sky-dance-twilight-hike-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/sky-dance-twilight-hike-2/
+2026-03-17 22:45:29,340 - INFO -     No image found
+2026-03-17 22:45:29,340 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/
+2026-03-17 22:45:29,476 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/
+2026-03-17 22:45:29,977 - INFO -     No image found
+2026-03-17 22:45:29,977 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/
+2026-03-17 22:45:30,100 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/
+2026-03-17 22:45:30,601 - INFO -     No image found
+2026-03-17 22:45:30,602 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/
+2026-03-17 22:45:30,736 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/
+2026-03-17 22:45:31,237 - INFO -     No image found
+2026-03-17 22:45:31,237 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/
+2026-03-17 22:45:31,348 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/
+2026-03-17 22:45:31,849 - INFO -     No image found
+2026-03-17 22:45:31,850 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/
+2026-03-17 22:45:31,986 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/
+2026-03-17 22:45:32,487 - INFO -     No image found
+2026-03-17 22:45:32,487 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/
+2026-03-17 22:45:32,642 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/
+2026-03-17 22:45:33,143 - INFO -     No image found
+2026-03-17 22:45:33,143 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/
+2026-03-17 22:45:33,258 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/
+2026-03-17 22:45:33,759 - INFO -     No image found
+2026-03-17 22:45:33,759 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/
+2026-03-17 22:45:33,892 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/
+2026-03-17 22:45:34,393 - INFO -     No image found
+2026-03-17 22:45:34,393 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/
+2026-03-17 22:45:34,509 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/
+2026-03-17 22:45:35,010 - INFO -     No image found
+2026-03-17 22:45:35,010 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/
+2026-03-17 22:45:35,144 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/
+2026-03-17 22:45:35,645 - INFO -     No image found
+2026-03-17 22:45:35,645 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/
+2026-03-17 22:45:35,780 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/
+2026-03-17 22:45:36,281 - INFO -     No image found
+2026-03-17 22:45:36,282 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/
+2026-03-17 22:45:36,420 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/
+2026-03-17 22:45:36,921 - INFO -     No image found
+2026-03-17 22:45:36,921 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/
+2026-03-17 22:45:37,061 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/
+2026-03-17 22:45:37,562 - INFO -     No image found
+2026-03-17 22:45:37,562 - INFO -   Fetching image for: https://sycamorelandtrust.org/2023/03/2023-regional-interpreters-workshop-common-ground-interpreting-a-shared-landscape/
+2026-03-17 22:45:37,675 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/2023-regional-interpreters-workshop-common-ground-interpreting-a-shared-landscape/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/2023-regional-interpreters-workshop-common-ground-interpreting-a-shared-landscape/
+2026-03-17 22:45:38,176 - INFO -     No image found
+2026-03-17 22:45:38,176 - INFO -   Fetching image for: https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/
+2026-03-17 22:45:38,312 - WARNING - Failed to fetch https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/
+2026-03-17 22:45:38,812 - INFO -     No image found
+2026-03-17 22:45:38,813 - INFO -   Fetching image for: https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/
+2026-03-17 22:45:38,976 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/
+2026-03-17 22:45:39,477 - INFO -     No image found
+2026-03-17 22:45:39,477 - INFO -   Fetching image for: https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/
+2026-03-17 22:45:39,591 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/
+2026-03-17 22:45:40,092 - INFO -     No image found
+2026-03-17 22:45:40,092 - INFO -   Fetching image for: https://sycamorelandtrust.org/2020/01/early-american-history-hike/
+2026-03-17 22:45:40,228 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/early-american-history-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/early-american-history-hike/
+2026-03-17 22:45:40,729 - INFO -     No image found
+2026-03-17 22:45:40,730 - INFO -   Fetching image for: https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/
+2026-03-17 22:45:40,862 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/
+2026-03-17 22:45:41,363 - INFO -     No image found
+2026-03-17 22:45:41,363 - INFO -   Fetching image for: https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/
+2026-03-17 22:45:41,476 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/
+2026-03-17 22:45:41,977 - INFO -     No image found
+2026-03-17 22:45:41,977 - INFO -   Fetching image for: https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/
+2026-03-17 22:45:42,113 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/
+2026-03-17 22:45:42,614 - INFO -     No image found
+2026-03-17 22:45:42,614 - INFO -   Fetching image for: https://sycamorelandtrust.org/2020/04/arbor-day-2020/
+2026-03-17 22:45:42,746 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/04/arbor-day-2020/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/04/arbor-day-2020/
+2026-03-17 22:45:43,246 - INFO -     No image found
+2026-03-17 22:45:43,247 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/
+2026-03-17 22:45:43,364 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/
+2026-03-17 22:45:43,865 - INFO -     No image found
+2026-03-17 22:45:43,866 - INFO -   Fetching image for: https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/
+2026-03-17 22:45:44,001 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/
+2026-03-17 22:45:44,502 - INFO -     No image found
+2026-03-17 22:45:44,502 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/12/columbus-hike-brew/
+2026-03-17 22:45:44,639 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/columbus-hike-brew/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/columbus-hike-brew/
+2026-03-17 22:45:45,140 - INFO -     No image found
+2026-03-17 22:45:45,140 - INFO -   Fetching image for: https://sycamorelandtrust.org/2020/01/third-thursday-march20/
+2026-03-17 22:45:45,295 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/third-thursday-march20/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/third-thursday-march20/
+2026-03-17 22:45:45,796 - INFO -     No image found
+2026-03-17 22:45:45,797 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/12/invasive-plant-workshop/
+2026-03-17 22:45:45,911 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/invasive-plant-workshop/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/invasive-plant-workshop/
+2026-03-17 22:45:46,412 - INFO -     No image found
+2026-03-17 22:45:46,412 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/05/051819-bbb-grand-reopening/
+2026-03-17 22:45:46,537 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/05/051819-bbb-grand-reopening/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/05/051819-bbb-grand-reopening/
+2026-03-17 22:45:47,038 - INFO -     No image found
+2026-03-17 22:45:47,038 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/0519-little-hikers/
+2026-03-17 22:45:47,172 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0519-little-hikers/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0519-little-hikers/
+2026-03-17 22:45:47,672 - INFO -     No image found
+2026-03-17 22:45:47,673 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/
+2026-03-17 22:45:47,785 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/
+2026-03-17 22:45:48,286 - INFO -     No image found
+2026-03-17 22:45:48,286 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/
+2026-03-17 22:45:48,423 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/
+2026-03-17 22:45:48,924 - INFO -     No image found
+2026-03-17 22:45:48,924 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/conservation-field-day/
+2026-03-17 22:45:49,057 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/conservation-field-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/conservation-field-day/
+2026-03-17 22:45:49,558 - INFO -     No image found
+2026-03-17 22:45:49,559 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/0419-eagle-slough/
+2026-03-17 22:45:49,678 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-eagle-slough/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-eagle-slough/
+2026-03-17 22:45:50,179 - INFO -     No image found
+2026-03-17 22:45:50,179 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/
+2026-03-17 22:45:50,321 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/
+2026-03-17 22:45:50,822 - INFO -     No image found
+2026-03-17 22:45:50,822 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/0419-branches-hike/
+2026-03-17 22:45:50,956 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-branches-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-branches-hike/
+2026-03-17 22:45:51,457 - INFO -     No image found
+2026-03-17 22:45:51,457 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/02/brown-county-hike/
+2026-03-17 22:45:51,612 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/02/brown-county-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/02/brown-county-hike/
+2026-03-17 22:45:52,113 - INFO -     No image found
+2026-03-17 22:45:52,113 - INFO -   Fetching image for: https://sycamorelandtrust.org/2019/03/0319-preserve-workday/
+2026-03-17 22:45:52,249 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0319-preserve-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0319-preserve-workday/
+2026-03-17 22:45:52,750 - INFO -     No image found
+2026-03-17 22:45:52,750 - INFO - sycamore_land_trust.ics: no new images
+2026-03-17 22:45:52,751 - INFO - Processing the_bluebird.ics...
+2026-03-17 22:45:52,751 - INFO - the_bluebird.ics: no new images
+2026-03-17 22:45:52,751 - INFO - Processing songkick_blockhouse.ics...
+2026-03-17 22:45:52,751 - INFO -   Fetching image for: http://www.songkick.com/concerts/43060901-making-movies-at-blockhouse-bar?utm_medium=organic&utm_source=microformat
+2026-03-17 22:45:53,676 - INFO -     -> http://images.sk-static.com/images/media/img/col6/20220816-180533-904042.png
+2026-03-17 22:45:53,677 - INFO - songkick_blockhouse.ics: added 1 image(s)
+2026-03-17 22:45:53,677 - INFO - Done. Total images added: 140
