@@ -2,19 +2,15 @@ import { useState, useEffect } from 'react';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
 
 // Compute date range: 1 hour ago to 3 months out
-// NOTE: Event times are stored as local times with +00:00 marker,
-// so we format local times directly to match the database format
+// Event times are stored as real UTC in timestamptz columns,
+// so we send UTC ISO strings for correct comparison
 function getDateRange() {
-  const pad = n => n.toString().padStart(2, '0');
-  const formatLocal = d =>
-    `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
-
   const now = new Date();
   const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
   const threeMonthsLater = new Date(now.getTime() + 90 * 24 * 60 * 60 * 1000);
   return {
-    from: formatLocal(oneHourAgo),
-    to: formatLocal(threeMonthsLater),
+    from: oneHourAgo.toISOString(),
+    to: threeMonthsLater.toISOString(),
   };
 }
 
