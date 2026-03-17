@@ -32,35 +32,57 @@ def load_city_timezone(city):
 
 
 def parse_ics_datetime(dt_str, local_tz=None):
-    """Parse an ICS datetime string to ISO format string (in the city's local time)."""
+    """Parse an ICS datetime string to ISO format with timezone offset.
+
+    Returns a tuple (iso_string, tz_name) where:
+    - iso_string has the offset (e.g. '2026-03-17T19:00:00-07:00')
+    - tz_name is the IANA timezone used (e.g. 'America/Los_Angeles')
+
+    If a TZID parameter is present in dt_str, that timezone is used instead of local_tz.
+    """
     if not dt_str:
-        return None
+        return None, None
 
     if local_tz is None:
         local_tz = ZoneInfo(DEFAULT_TIMEZONE)
 
+    event_tz = local_tz  # default: use city timezone
+
     # Handle property parameters like DTSTART;TZID=America/Los_Angeles:20240101T120000
     if ';' in dt_str:
-        dt_str = dt_str.split(':')[-1]
+        params_part, _, value_part = dt_str.partition(':')
+        # Extract TZID if present
+        for param in params_part.split(';')[1:]:
+            if param.upper().startswith('TZID='):
+                tzid = param[5:]
+                try:
+                    event_tz = ZoneInfo(tzid)
+                except KeyError:
+                    pass  # fall back to city timezone
+        dt_str = value_part.strip()
+    else:
+        dt_str = dt_str.strip()
 
-    dt_str = dt_str.strip()
+    tz_name = str(event_tz)
 
     try:
         if dt_str.endswith('Z'):
-            # UTC time - convert to city's local time
+            # UTC time — convert to event timezone for display
             dt = datetime.strptime(dt_str, '%Y%m%dT%H%M%SZ')
-            dt = dt.replace(tzinfo=timezone.utc).astimezone(local_tz)
-            return dt.strftime('%Y-%m-%dT%H:%M:%S')
+            dt = dt.replace(tzinfo=timezone.utc).astimezone(event_tz)
+            return dt.isoformat(), tz_name
         elif 'T' in dt_str:
-            # Local time (already in correct timezone)
+            # Naive local time — interpret in event timezone
             dt = datetime.strptime(dt_str, '%Y%m%dT%H%M%S')
-            return dt.strftime('%Y-%m-%dT%H:%M:%S')
+            dt = dt.replace(tzinfo=event_tz, fold=0)
+            return dt.isoformat(), tz_name
         else:
-            # All-day event
+            # All-day event — interpret in event timezone
             dt = datetime.strptime(dt_str, '%Y%m%d')
-            return dt.strftime('%Y-%m-%dT%H:%M:%S')
+            dt = dt.replace(tzinfo=event_tz, fold=0)
+            return dt.isoformat(), tz_name
     except ValueError:
-        return None
+        return None, None
 
 
 def unfold_ics_lines(content):
@@ -134,6 +156,23 @@ def extract_field(event_content, field_name):
         # Unescape ICS escapes
         value = value.replace('\\n', '\n').replace('\\,', ',').replace('\\;', ';').replace('\\\\', '\\')
         return value.strip()
+    return None
+
+
+def extract_datetime_field(event_content, field_name):
+    """Extract a datetime field, preserving parameters like TZID for timezone handling.
+
+    Returns the full property line including params so that parse_ics_datetime can
+    honour the TZID parameter (e.g. 'DTSTART;TZID=America/Chicago:20260317T190000').
+    """
+    pattern = rf'^({field_name}(?:;[^:]*)?):([ \t]*[^\r\n]*)'
+    match = re.search(pattern, event_content, re.IGNORECASE | re.MULTILINE)
+    if match:
+        prop = match.group(1)    # e.g. 'DTSTART;TZID=America/Chicago' or 'DTSTART'
+        value = match.group(2).strip()
+        if ';' in prop:
+            return prop + ':' + value
+        return value
     return None
 
 
@@ -310,8 +349,8 @@ def ics_to_json(ics_file, output_file=None, future_only=True, city=None):
     for event_content in matches:
         # Extract fields
         title = extract_field(event_content, 'SUMMARY')
-        start_time = parse_ics_datetime(extract_field(event_content, 'DTSTART'), local_tz)
-        end_time = parse_ics_datetime(extract_field(event_content, 'DTEND'), local_tz)
+        start_time, start_tz = parse_ics_datetime(extract_datetime_field(event_content, 'DTSTART'), local_tz)
+        end_time, end_tz = parse_ics_datetime(extract_datetime_field(event_content, 'DTEND'), local_tz)
         location = extract_field(event_content, 'LOCATION')
         if location:
             location = strip_html(location)
@@ -367,6 +406,7 @@ def ics_to_json(ics_file, output_file=None, future_only=True, city=None):
             'source_id': source_id or '',
             'source_uid': uid or '',
             'source_urls': source_urls if source_urls else None,
+            'timezone': start_tz or str(local_tz),
             'cluster_id': None,
             'ics_categories': ics_categories if ics_categories else None,
             'image_url': image_url
