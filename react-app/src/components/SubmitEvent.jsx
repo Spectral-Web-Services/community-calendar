@@ -84,7 +84,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
       formData.append('mode', 'extract');
       formData.append('file', resized, 'image.jpg');
 
-      const res = await fetch(CAPTURE_URL, { method: 'POST', headers: { Authorization: 'Bearer ' + SUPABASE_ANON_KEY }, body: formData });
+      const res = await fetch(CAPTURE_URL, { method: 'POST', headers: { apikey: SUPABASE_ANON_KEY, Authorization: 'Bearer ' + SUPABASE_ANON_KEY }, body: formData });
       if (!res.ok) throw new Error('Extraction failed');
       const data = await res.json();
       if (data.event) populateFromEvent(data.event);
@@ -105,7 +105,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     try {
       const res = await fetch(CAPTURE_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + SUPABASE_ANON_KEY },
+        headers: { 'Content-Type': 'application/json', apikey: SUPABASE_ANON_KEY, Authorization: 'Bearer ' + SUPABASE_ANON_KEY },
         body: JSON.stringify({ mode: 'extract-text', text: pasteText }),
       });
       if (!res.ok) throw new Error('Extraction failed');
@@ -142,10 +142,12 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     try {
       if (canCurate) {
         // Curator: commit directly to events table
+        if (!session?.access_token) { setError('Please sign in'); setSubmitting(false); return; }
         const res = await fetch(CAPTURE_URL, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
+            apikey: SUPABASE_ANON_KEY,
             Authorization: 'Bearer ' + session.access_token,
           },
           body: JSON.stringify({ mode: 'commit', event: eventPayload }),
@@ -158,6 +160,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
         // Public/anonymous: submit to pending queue
         const headers = {
           'Content-Type': 'application/json',
+          apikey: SUPABASE_ANON_KEY,
           Authorization: 'Bearer ' + (session?.access_token || SUPABASE_ANON_KEY),
         };
         const payload = {
