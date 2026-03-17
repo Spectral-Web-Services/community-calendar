@@ -37,7 +37,7 @@ CREATE POLICY "Anyone can read events"
   ON events FOR SELECT
   USING (true);
 
--- Allow service functions to insert events
-CREATE POLICY "Service function can insert events"
-  ON events FOR INSERT
-  WITH CHECK (true);
+-- Allow only the service_role to insert events (used by the ingestion pipeline).
+-- The service_role bypasses RLS, so this policy exists as documentation;
+-- no permissive INSERT policy is granted to anon or authenticated.
+
