@@ -18,6 +18,7 @@ No geolocation filtering applied.
 ### Google Calendar
 - [ ] Tiny News Members Only — `https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics`
 - [ ] Journalism Internship & Fellowship Deadlines — `https://calendar.google.com/calendar/ical/er06vtjd12h86b4rej5bts6p6c%40group.calendar.google.com/public/basic.ics`
+- [ ] NewsGuild-CWA Events — `https://calendar.google.com/calendar/ical/c_ids4f68nckkrpd5fne36sgooeo%40group.calendar.google.com/public/basic.ics`
 
 ### Scrapers
 - [ ] SEJ (Society of Environmental Journalists) — `sej_calendar.py` (RSS calendar at `sej.org/rss_calendar`)
@@ -28,6 +29,9 @@ No geolocation filtering applied.
 - [ ] American Press Institute — `eventbrite.py` (Eventbrite organizer `59619554833`; 0 upcoming as of 2026-03)
 
 - [ ] Center for Cooperative Media — `eventbrite.py` (Eventbrite organizer `5988913981`)
+- [ ] SciLine (AAAS) — `eventbrite.py` (Eventbrite organizer `120815379857`; 0 upcoming as of 2026-03)
+- [ ] Sunlight Research — `sunlight_research.py` (Wix listing page scraper at `sunlightresearch.net/research-training`)
+- [ ] Poynter Institute Training — `poynter_shop.py` (WooCommerce shop page at `poynter.org/shop/`)
 
 ## Investigated — Possible with Scraper
 - **RJI (Reynolds Journalism Institute)** — ICS feed at `calendar.missouri.edu/live/ical/events/group/Reynolds%20Journalism%20Institute/` works but very low volume (2 events), Columbia MO only

@@ -734,9 +734,15 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/center-for-cooperative-media-5988913981" --name "Center for Cooperative Media" --output cities/publisher-resources/eventbrite_coop_media.ics || true
         # Associated Press — Eventbrite organizer
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/72823983313" --name "Associated Press" --output cities/publisher-resources/eventbrite_ap.ics || true
+        # SciLine (AAAS) — Eventbrite organizer
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/120815379857" --name "SciLine" --output cities/publisher-resources/eventbrite_sciline.ics || true
         # ONA (Online News Association) — HTML scraper (Novi AMS, no feeds)
         python scrapers/ona_events.py --output cities/publisher-resources/ona_events.ics || true
         python scrapers/knight_center.py --output cities/publisher-resources/knight_center.ics || true
+        # Sunlight Research — Wix listing page scraper
+        python scrapers/sunlight_research.py --output cities/publisher-resources/sunlight_research.ics || true
+        # Poynter Institute Training — WooCommerce shop page scraper
+        python scrapers/poynter_shop.py --output cities/publisher-resources/poynter_shop.ics || true
       continue-on-error: true
 
     - name: Fetch Publisher Resources live feeds
@@ -763,6 +769,8 @@ jobs:
         curl -sL "https://calendar.google.com/calendar/ical/c_3ef2026db19c41c73cb8ed72bbde7f163008de761ce942a9ad334f5b8993e652%40group.calendar.google.com/public/basic.ics" -o tiny_news_members_only.ics || true
         # Journalism Internship & Fellowship Deadlines (Google Calendar)
         curl -sL "https://calendar.google.com/calendar/ical/er06vtjd12h86b4rej5bts6p6c%40group.calendar.google.com/public/basic.ics" -o journalism_deadlines.ics || true
+        # NewsGuild-CWA Events (Google Calendar)
+        curl -sL "https://calendar.google.com/calendar/ical/c_ids4f68nckkrpd5fne36sgooeo%40group.calendar.google.com/public/basic.ics" -o newsguild.ics || true
         cd ../..
 
     - name: Combine Publisher Resources ICS files
