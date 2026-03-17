@@ -45,7 +45,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
   const detected = useMemo(() => detectRecurrence(event?.description, event?.title), [event]);
   const [frequency, setFrequency] = useState(detected?.frequency || 'none');
   const [days, setDays] = useState(detected?.days || []);
-  const defaultOrd = useMemo(() => getOrdinalWeekday(date), [date]);
+  const defaultOrd = useMemo(() => getOrdinalWeekday(date, event?.timezone), [date, event?.timezone]);
   const [ordinal, setOrdinal] = useState(detected?.ordinal || defaultOrd?.ordinal || 1);
   const [monthDay, setMonthDay] = useState(detected?.monthDay || defaultOrd?.day || 'MO');
 

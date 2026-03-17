@@ -398,6 +398,7 @@ export function expandEnrichments(enrichments, fromDateStr, toDateStr) {
           url: enrichment.url || null,
           source: 'Picks: ' + (enrichment.curator_name || 'curator'),
           city: enrichment.city || null,
+          timezone: enrichment.timezone || null,
           _enrichment_id: enrichment.id,
         });
       }
@@ -430,6 +431,7 @@ export function expandEnrichments(enrichments, fromDateStr, toDateStr) {
           url: enrichment.url || null,
           source: 'Picks: ' + (enrichment.curator_name || 'curator'),
           city: enrichment.city || null,
+          timezone: enrichment.timezone || null,
           rrule: enrichment.rrule,
           _enrichment_id: enrichment.id,
         });
