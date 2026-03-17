@@ -350,6 +350,10 @@ SOURCE_NAMES = {
     'eventbrite_ap': 'Associated Press',
     'ona_events': 'Online News Association',
     'knight_center': 'Knight Center for Journalism',
+    'newsguild': 'NewsGuild-CWA',
+    'eventbrite_sciline': 'SciLine',
+    'sunlight_research': 'Sunlight Research',
+    'poynter_shop': 'Poynter Institute Training',
 }
 
 # Fallback URLs for sources whose ICS events lack a URL property.
