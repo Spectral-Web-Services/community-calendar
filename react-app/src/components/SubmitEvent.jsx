@@ -3,14 +3,7 @@ import { createPortal } from 'react-dom';
 import { X, Image, Type, FileText, Loader2, CheckCircle } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { useCurator } from '../hooks/useCurator.jsx';
-import { supabase, SUPABASE_URL, SUPABASE_ANON_KEY } from '../lib/supabase.js';
-
-const CAPTURE_URL = `${SUPABASE_URL}/functions/v1/capture-event`;
-
-async function getFreshToken() {
-  const { data } = await supabase.auth.getSession();
-  return data?.session?.access_token || null;
-}
+import { supabase } from '../lib/supabase.js';
 
 function resizeImage(file, maxWidth = 1500, quality = 0.8) {
   return new Promise((resolve) => {
@@ -29,6 +22,12 @@ function resizeImage(file, maxWidth = 1500, quality = 0.8) {
     };
     img.src = URL.createObjectURL(file);
   });
+}
+
+async function invoke(body) {
+  const { data, error } = await supabase.functions.invoke('capture-event', { body });
+  if (error) throw error;
+  return data;
 }
 
 export default function SubmitEvent({ city, onClose, onSubmitted }) {
@@ -89,9 +88,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
       formData.append('mode', 'extract');
       formData.append('file', resized, 'image.jpg');
 
-      const res = await fetch(CAPTURE_URL, { method: 'POST', headers: { apikey: SUPABASE_ANON_KEY, Authorization: 'Bearer ' + SUPABASE_ANON_KEY }, body: formData });
-      if (!res.ok) throw new Error('Extraction failed');
-      const data = await res.json();
+      const data = await invoke(formData);
       if (data.event) populateFromEvent(data.event);
       else throw new Error('No event data returned');
     } catch (err) {
@@ -108,13 +105,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     resetForm();
 
     try {
-      const res = await fetch(CAPTURE_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', apikey: SUPABASE_ANON_KEY, Authorization: 'Bearer ' + SUPABASE_ANON_KEY },
-        body: JSON.stringify({ mode: 'extract-text', text: pasteText }),
-      });
-      if (!res.ok) throw new Error('Extraction failed');
-      const data = await res.json();
+      const data = await invoke({ mode: 'extract-text', text: pasteText });
       if (data.event) populateFromEvent(data.event);
       else throw new Error('No event data returned');
     } catch (err) {
@@ -147,43 +138,14 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     try {
       if (canCurate) {
         // Curator: commit directly to events table
-        const token = await getFreshToken();
-        if (!token) { setError('Please sign in'); setSubmitting(false); return; }
-        const res = await fetch(CAPTURE_URL, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            apikey: SUPABASE_ANON_KEY,
-            Authorization: 'Bearer ' + token,
-          },
-          body: JSON.stringify({ mode: 'commit', event: eventPayload }),
-        });
-        if (!res.ok) {
-          const data = await res.json().catch(() => ({}));
-          throw new Error(data.error || 'Failed to save event');
-        }
+        await invoke({ mode: 'commit', event: eventPayload });
       } else {
         // Public/anonymous: submit to pending queue
-        const token = await getFreshToken();
-        const headers = {
-          'Content-Type': 'application/json',
-          apikey: SUPABASE_ANON_KEY,
-          Authorization: 'Bearer ' + (token || SUPABASE_ANON_KEY),
-        };
-        const payload = {
+        await invoke({
           mode: 'pending-commit',
           event: { ...eventPayload, original_text: tab === 'text' ? pasteText : null },
           submission_type: submissionType,
-        };
-        const res = await fetch(CAPTURE_URL, {
-          method: 'POST',
-          headers,
-          body: JSON.stringify(payload),
         });
-        if (!res.ok) {
-          const data = await res.json().catch(() => ({}));
-          throw new Error(data.error || 'Failed to submit event');
-        }
       }
       setSuccess(true);
     } catch (err) {
