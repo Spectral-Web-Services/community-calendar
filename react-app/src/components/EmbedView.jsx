@@ -3,6 +3,7 @@ import { useCollection } from '../hooks/useCollection.js';
 import { useColumnCount } from '../hooks/useColumnCount.js';
 import { getMasonryColumns, getActiveCategories } from '../lib/helpers.js';
 import { isGridLayout as checkGridLayout, getColumnCount as calcColumnCount } from '../lib/cardStyles.js';
+import { FeedProvider } from '../hooks/useFeedContext.jsx';
 import MasonryGrid from './MasonryGrid.jsx';
 import UniformGrid from './UniformGrid.jsx';
 import SearchBar from './SearchBar.jsx';
@@ -233,18 +234,20 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
   }
 
   return (
-    <div ref={containerRef} className={`w-full px-3 py-4 ${isDark ? 'dark' : ''}`} style={{ backgroundColor: bg || 'transparent' }}>
-      {!loading && events.length > 0 && (
-        <SearchBar
-          filterTerm={filterTerm}
-          onFilterTermChange={setFilterTerm}
-          categoryFilter={categoryFilter}
-          onCategoryFilterChange={setCategoryFilter}
-          activeCategories={activeCategories}
-          onClearAll={handleClearAll}
-        />
-      )}
-      {content}
-    </div>
+    <FeedProvider collection={collection}>
+      <div ref={containerRef} className={`w-full px-3 py-4 ${isDark ? 'dark' : ''}`} style={{ backgroundColor: bg || 'transparent' }}>
+        {!loading && events.length > 0 && (
+          <SearchBar
+            filterTerm={filterTerm}
+            onFilterTermChange={setFilterTerm}
+            categoryFilter={categoryFilter}
+            onCategoryFilterChange={setCategoryFilter}
+            activeCategories={activeCategories}
+            onClearAll={handleClearAll}
+          />
+        )}
+        {content}
+      </div>
+    </FeedProvider>
   );
 }
