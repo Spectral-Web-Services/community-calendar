@@ -51,7 +51,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260317T183000
 DTEND;TZID=America/Los_Angeles:20260317T203000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T185102Z
 LAST-MODIFIED:20260303T185102Z
 UID:300325-1773772200-1773779400@jweekly.com
@@ -64,31 +64,33 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260318T180000
 DTEND;TZID=America/Los_Angeles:20260318T180000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T185457Z
 LAST-MODIFIED:20260303T185457Z
 UID:300331-1773856800-1773856800@jweekly.com
 SUMMARY:“Bearing Witness: Writing Memory and Change”
 DESCRIPTION:Generative poetry writing workshop focused on beliefs about Israel\, Zionism\, memory and morality. Presented by Beyt Tikkun. Online. Members $15; nonmembers $25.
 URL:https://jweekly.com/event/bearing-witness-writing-memory-and-change/
+LOCATION:CA
 CATEGORIES:Talks & Workshops
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260318T180000
 DTEND;TZID=America/Los_Angeles:20260318T193000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260310T191603Z
 LAST-MODIFIED:20260310T191603Z
 UID:300803-1773856800-1773862200@jweekly.com
 SUMMARY:“Israel and the European Union”
 DESCRIPTION:Stanford Israel studies director Amichai Magen in conversation with UC Berkeley Israel studies professor Ron Hassner on the complicated and evolving relationship between the EU and Israel. Sixth annual “Libitzky Lecture on Israel and the Great Powers” at the Helen Diller Institute. Co-sponsored with the Institute of International Studies at UC Berkeley and the Jan Koum Israel Studies Program at Stanford University. At UC Berkeley School of Law\, exact location provided with registration.
 URL:https://jweekly.com/event/israel-and-the-european-union/
+LOCATION:CA
 CATEGORIES:Talks & Workshops
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260318T193000
 DTEND;TZID=America/Los_Angeles:20260318T210000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T190250Z
 LAST-MODIFIED:20260303T190250Z
 UID:300333-1773862200-1773867600@jweekly.com
@@ -101,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260319T183000
 DTEND;TZID=America/Los_Angeles:20260319T183000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260211T182049Z
 LAST-MODIFIED:20260211T182049Z
 UID:298699-1773945000-1773945000@jweekly.com
@@ -114,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260319T183000
 DTEND;TZID=America/Los_Angeles:20260319T203000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T190521Z
 LAST-MODIFIED:20260304T200628Z
 UID:300337-1773945000-1773952200@jweekly.com
@@ -125,9 +127,22 @@ LOCATION:Oshman Family JCC\, 3921 Fabian Way\, Palo Alto\, CA\, United States
 CATEGORIES:Holidays & Spiritual
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260321T160000
+DTEND;TZID=America/Los_Angeles:20260321T173000
+DTSTAMP:20260317T190145
+CREATED:20260317T172502Z
+LAST-MODIFIED:20260317T172502Z
+UID:301203-1774108800-1774114200@jweekly.com
+SUMMARY:“Identity and its Discontents”
+DESCRIPTION:New York-based playwright Rabbi Kendell Pinkney discusses culture and community as a Black Jew.
+URL:https://jweekly.com/event/identity-and-its-discontents/
+LOCATION:Congregation Rodef Sholom\, 170 N. San Pedro Road\, San Rafael\, CA\, United States
+CATEGORIES:Talks & Workshops
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T113000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T190944Z
 LAST-MODIFIED:20260303T190944Z
 UID:300345-1774173600-1774179000@jweekly.com
@@ -140,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260322T103000
 DTEND;TZID=America/Los_Angeles:20260322T120000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T190824Z
 LAST-MODIFIED:20260303T190824Z
 UID:300343-1774175400-1774180800@jweekly.com
@@ -153,7 +168,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260322T153000
 DTEND;TZID=America/Los_Angeles:20260322T170000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T191101Z
 LAST-MODIFIED:20260303T191101Z
 UID:300347-1774193400-1774198800@jweekly.com
@@ -166,7 +181,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260322T170000
 DTEND;TZID=America/Los_Angeles:20260322T170000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T190704Z
 LAST-MODIFIED:20260304T200509Z
 UID:300339-1774198800-1774198800@jweekly.com
@@ -177,9 +192,48 @@ LOCATION:Villa Ragusa\, 35 S. Second St.\, Campbell
 CATEGORIES:Holidays & Spiritual
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260322T170000
+DTEND;TZID=America/Los_Angeles:20260322T180000
+DTSTAMP:20260317T190145
+CREATED:20260317T172807Z
+LAST-MODIFIED:20260317T172807Z
+UID:301210-1774198800-1774202400@jweekly.com
+SUMMARY:“Sefardi Herbalism”
+DESCRIPTION:Author Naomi Spector discusses her book subtitled “An Introduction to Earth\, Water and Plant-Based Folk Traditions of the Sefardim” about folk healing traditions of Sephardic Jews. Presented by Jewish Community Library. Online.
+URL:https://jweekly.com/event/sefardi-herbalism/
+LOCATION:CA
+CATEGORIES:Talks & Workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260322T190000
+DTEND;TZID=America/Los_Angeles:20260322T190000
+DTSTAMP:20260317T190145
+CREATED:20260317T172625Z
+LAST-MODIFIED:20260317T172625Z
+UID:301208-1774206000-1774206000@jweekly.com
+SUMMARY:A Dialogue of Voice and Piano
+DESCRIPTION:Singer Svetlana Portnyansky and pianist Sergey Chipenko perform a mix of pop\, jazz and world music.
+URL:https://jweekly.com/event/a-dialogue-of-voice-and-piano/
+LOCATION:Oshman Family JCC\, 3921 Fabian Way\, Palo Alto\, CA\, United States
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260324T190000
+DTEND;TZID=America/Los_Angeles:20260324T190000
+DTSTAMP:20260317T190145
+CREATED:20260317T173117Z
+LAST-MODIFIED:20260317T173117Z
+UID:301216-1774378800-1774378800@jweekly.com
+SUMMARY:“Jews in Music”
+DESCRIPTION:Sing-along with hazzan Sandy Bernstein and band as they play music written or made famous by Jews. Includes raffle ticket for “Jews in Music” painting. $36 adults\, $18 for ages 14-17\, ages 13 and under free.
+URL:https://jweekly.com/event/jews-in-music/
+LOCATION:Congregation B’nai Shalom\, 74 Eckley Lane\,\, Walnut Creek\, CA\, United States
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260326T130000
 DTEND;TZID=America/Los_Angeles:20260326T143000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T191229Z
 LAST-MODIFIED:20260303T191229Z
 UID:300349-1774530000-1774535400@jweekly.com
@@ -190,9 +244,48 @@ LOCATION:JCCSF\, 3200 California St.\, San Francisco\, CA\, United States
 CATEGORIES:Talks & Workshops,Music
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260326T190000
+DTEND;TZID=America/Los_Angeles:20260326T201500
+DTSTAMP:20260317T190145
+CREATED:20260317T173400Z
+LAST-MODIFIED:20260317T173400Z
+UID:301222-1774551600-1774556100@jweekly.com
+SUMMARY:“Unlearning Jewish Anxiety”
+DESCRIPTION:Rabbi Caryn Aviv discusses her new book subtitled “How to Live with More Joy and Suffer Less.”
+URL:https://jweekly.com/event/unlearning-jewish-anxiety-2/
+LOCATION:Congregation Ner Shalom\, 85 La Plaza\,\, Cotati\, CA\, United States
+CATEGORIES:Books
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260326T190000
+DTEND;TZID=America/Los_Angeles:20260326T210000
+DTSTAMP:20260317T190145
+CREATED:20260317T173237Z
+LAST-MODIFIED:20260317T173237Z
+UID:301220-1774551600-1774558800@jweekly.com
+SUMMARY:“Friendship in the Age of Loneliness”
+DESCRIPTION:Author Adam “Smiley” Poswolsky discusses his new book. Part of Congregation Rodef Sholom’s REAL Mental Health Initiative spring speakers series\, in partnership with Book Passage.
+URL:https://jweekly.com/event/friendship-in-the-age-of-loneliness/
+LOCATION:Congregation Rodef Sholom\, 170 N. San Pedro Road\, San Rafael\, CA\, United States
+CATEGORIES:Books
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260328T170000
+DTEND;TZID=America/Los_Angeles:20260328T190000
+DTSTAMP:20260317T190145
+CREATED:20260317T173518Z
+LAST-MODIFIED:20260317T173518Z
+UID:301224-1774717200-1774724400@jweekly.com
+SUMMARY:“Roots & Wings” Gallery Reception and Artist Talk
+DESCRIPTION:Israeli artist Ronit Shalem discusses her work.
+URL:https://jweekly.com/event/roots-wings-gallery-reception-and-artist-talk/
+LOCATION:JCC of San Francisco\, 3200 California St.\, San Francisco\, CA\, United States
+CATEGORIES:Art
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260328T193000
 DTEND;TZID=America/Los_Angeles:20260328T193000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T191429Z
 LAST-MODIFIED:20260303T191429Z
 UID:300351-1774726200-1774726200@jweekly.com
@@ -203,9 +296,35 @@ LOCATION:Z Space\, 470 Florida St.\, San Francisco\, CA\, 94110\, United States
 CATEGORIES:On Stage
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260328T193000
+DTEND;TZID=America/Los_Angeles:20260328T223000
+DTSTAMP:20260317T190145
+CREATED:20260317T173643Z
+LAST-MODIFIED:20260317T173643Z
+UID:301226-1774726200-1774737000@jweekly.com
+SUMMARY:Marin Symphony: Chamber Music 2: Winds vs. Strings
+DESCRIPTION:Performance followed by Q&A with musicians.
+URL:https://jweekly.com/event/marin-symphony-chamber-music-2-winds-vs-strings/
+LOCATION:Congregation Rodef Sholom\, 170 N. San Pedro Road\, San Rafael\, CA\, United States
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260329T100000
+DTEND;TZID=America/Los_Angeles:20260329T120000
+DTSTAMP:20260317T190145
+CREATED:20260317T173921Z
+LAST-MODIFIED:20260317T173921Z
+UID:301230-1774778400-1774785600@jweekly.com
+SUMMARY:Fun & Sports with Family
+DESCRIPTION:Games and crafts for kids with disabilities and their loved ones\, with volunteers to help guide participants through stations.
+URL:https://jweekly.com/event/fun-sports-with-family/
+LOCATION:Addison-Penzak JCC\, 14855 Oka Road\, Los Gatos\, CA\, United States
+CATEGORIES:Kids & Family
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260329T101500
 DTEND;TZID=America/Los_Angeles:20260329T101500
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T191556Z
 LAST-MODIFIED:20260303T191556Z
 UID:300354-1774779300-1774779300@jweekly.com
@@ -216,9 +335,35 @@ LOCATION:Congregation Etz Chayim\, 4161 Alma St.\, Palo Alto\, CA\, United State
 CATEGORIES:Holidays & Spiritual,Kids & Family
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260329T120000
+DTEND;TZID=America/Los_Angeles:20260329T150000
+DTSTAMP:20260317T190145
+CREATED:20260317T174040Z
+LAST-MODIFIED:20260317T174040Z
+UID:301232-1774785600-1774796400@jweekly.com
+SUMMARY:“You Know the Heart of the Stranger”
+DESCRIPTION:Hands-on art collage workshop for Passover with artist-facilitators Sheridan Gold and Sally Churgel.
+URL:https://jweekly.com/event/you-know-the-heart-of-the-stranger/
+LOCATION:Congregation Ner Shalom\, 85 La Plaza\,\, Cotati\, CA\, United States
+CATEGORIES:Art,Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260329T140000
+DTEND;TZID=America/Los_Angeles:20260329T150000
+DTSTAMP:20260317T190145
+CREATED:20260317T173802Z
+LAST-MODIFIED:20260317T173802Z
+UID:301228-1774792800-1774796400@jweekly.com
+SUMMARY:American Jewish Activists
+DESCRIPTION:Elaine Leeder\, dean emerita of social sciences at Sonoma State University\, discusses the history of Jewish activism in the 20th century. Presented by the Jewish Community Library in partnership with Workers Circle/Arbeter Ring of Northern California.
+URL:https://jweekly.com/event/american-jewish-activists/
+LOCATION:Jewish Community Library\, 1835 Ellis St.\, San Francisco\, CA\, United States
+CATEGORIES:Books
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260329T160000
 DTEND;TZID=America/Los_Angeles:20260329T160000
-DTSTAMP:20260316T185807
+DTSTAMP:20260317T190145
 CREATED:20260303T191721Z
 LAST-MODIFIED:20260303T191721Z
 UID:300356-1774800000-1774800000@jweekly.com
@@ -227,5 +372,44 @@ DESCRIPTION:Daniel Barash of Firelight Shadow Theater performs folktales with sh
 URL:https://jweekly.com/event/spin-me-a-shadow-tell-me-a-folk-tale/
 LOCATION:Oshman Family JCC\, 3921 Fabian Way\, Palo Alto\, CA\, United States
 CATEGORIES:On Stage
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260329T183000
+DTEND;TZID=America/Los_Angeles:20260329T183000
+DTSTAMP:20260317T190145
+CREATED:20260317T174203Z
+LAST-MODIFIED:20260317T174203Z
+UID:301234-1774809000-1774809000@jweekly.com
+SUMMARY:Haroset Workshop
+DESCRIPTION:Hands-on class making different types of haroset for the seder plate. Register by March 27.
+URL:https://jweekly.com/event/haroset-workshop/
+LOCATION:Chabad of Marin\, 1150 Idylberry Road\, San Rafael\, CA\, United States
+CATEGORIES:Talks & Workshops,Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260330T131500
+DTEND;TZID=America/Los_Angeles:20260330T141500
+DTSTAMP:20260317T190145
+CREATED:20260317T174332Z
+LAST-MODIFIED:20260317T174332Z
+UID:301236-1774876500-1774880100@jweekly.com
+SUMMARY:Dayenu concert with Taste of Talent
+DESCRIPTION:Passover concert with Yiddish and Sephardic music led by pianist Ronny Michael Greenberg\, Sherith Israel cantorial soloist Simon Barrad\, and soprano Caroline Corrales.
+URL:https://jweekly.com/event/dayenu-concert-with-taste-of-talent/
+LOCATION:JCC of San Francisco\, 3200 California St.\, San Francisco\, CA\, United States
+CATEGORIES:Music,Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260330T190000
+DTEND;TZID=America/Los_Angeles:20260330T203000
+DTSTAMP:20260317T190145
+CREATED:20260317T174448Z
+LAST-MODIFIED:20260317T174448Z
+UID:301238-1774897200-1774902600@jweekly.com
+SUMMARY:“The Boundaries That Free Us”
+DESCRIPTION:Rabbi Zoe McCoon of domestic-violence prevention nonprofit Shalom Bayit discusses healthy and intentional relationships in this talk subtitled “Unlock the Seder of Your Relationships.” Presented by Jewish Silicon Valley and Shalom Bayit.
+URL:https://jweekly.com/event/the-boundaries-that-free-us/
+LOCATION:Addison-Penzak JCC\, 14855 Oka Road\, Los Gatos\, CA\, United States
+CATEGORIES:Talks & Workshops
 END:VEVENT
 END:VCALENDAR
