@@ -655,10 +655,10 @@ export default function CollectionManager({ expanded, onExpandedChange }) {
                       ) : (
                         <button
                           onClick={() => startEditRules(col)}
-                          className="flex items-center gap-1 text-[11px] text-gray-400 hover:text-gray-600 transition-colors"
+                          className="flex items-center gap-1.5 text-[11px] text-gray-500 hover:text-gray-700 transition-colors border border-gray-200 hover:border-gray-300 rounded-md px-2.5 py-1.5 bg-white hover:bg-gray-50 w-full text-left"
                         >
-                          <Pencil size={10} />
-                          {summary || 'No filters — matching all events'}
+                          <Pencil size={10} className="flex-shrink-0" />
+                          <span className="truncate">{summary || 'No filters — matching all events'}</span>
                         </button>
                       )}
                     </div>
