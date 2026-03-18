@@ -25,17 +25,77 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313737378@meetup.com
+UID:event_313809085@meetup.com
 SEQUENCE:1
-DTSTAMP:20260317T021507Z
-DTSTART;TZID=America/Los_Angeles:20260316T180000
-DTEND;TZID=America/Los_Angeles:20260316T210000
-SUMMARY:Momo’s
+DTSTAMP:20260318T015501Z
+DTSTART;TZID=America/Los_Angeles:20260323T180037
+DTEND;TZID=America/Los_Angeles:20260323T210037
+SUMMARY:Dot’s Cafe
 DESCRIPTION:PDX Silent Book Club\nCome anytime\, bring any book book you're reading :).\nNo pressure to socialize\, you can just dive into your book if you want.\nThe first half hour we'll get comfortable\, get to know each other\, order some food/ drinks.\nThen get down to reading :).\nNo pressure to read\, come and hang out!\nCan't wait to meet you!
-URL;VALUE=URI:https://www.meetup.com/silent-books-club/events/313737378/
+URL;VALUE=URI:https://www.meetup.com/silent-books-club/events/313809085/
 STATUS:CONFIRMED
-CREATED:20260311T015041Z
-LAST-MODIFIED:20260311T015041Z
+CREATED:20260317T030224Z
+LAST-MODIFIED:20260317T030224Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/d/9/e/600_520916734.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313809109@meetup.com
+SEQUENCE:1
+DTSTAMP:20260318T015501Z
+DTSTART;TZID=America/Los_Angeles:20260330T180000
+DTEND;TZID=America/Los_Angeles:20260330T210000
+SUMMARY:Loyal Legion
+DESCRIPTION:PDX Silent Book Club\nCome anytime\, bring any book book you're reading :).\n\nNo pressure to socialize\, you can just dive into your book if you want.\n\nNo pressure to read\, come and hang out!\nCan't wait to meet you!
+URL;VALUE=URI:https://www.meetup.com/silent-books-club/events/313809109/
+STATUS:CONFIRMED
+CREATED:20260317T030809Z
+LAST-MODIFIED:20260317T030809Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/d/9/e/600_520916734.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313809130@meetup.com
+SEQUENCE:1
+DTSTAMP:20260318T015501Z
+DTSTART;TZID=America/Los_Angeles:20260406T180000
+DTEND;TZID=America/Los_Angeles:20260406T210000
+SUMMARY:Lucky Labrador -Hawthorn 
+DESCRIPTION:PDX Silent Book Club\nCome anytime\, bring any book book you're reading :).\n\nNo pressure to socialize\, you can just dive into your book if you want.\n\nNo pressure to read\, come and hang out!\nCan't wait to meet you!
+URL;VALUE=URI:https://www.meetup.com/silent-books-club/events/313809130/
+STATUS:CONFIRMED
+CREATED:20260317T031100Z
+LAST-MODIFIED:20260317T031100Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/d/9/e/600_520916734.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313809118@meetup.com
+SEQUENCE:1
+DTSTAMP:20260318T015501Z
+DTSTART;TZID=America/Los_Angeles:20260413T180000
+DTEND;TZID=America/Los_Angeles:20260413T210000
+SUMMARY:Boiler Room
+DESCRIPTION:PDX Silent Book Club\nCome anytime\, bring any book book you're reading :).\n\nNo pressure to socialize\, you can just dive into your book if you want.\n\nNo pressure to read\, come and hang out!\nCan't wait to meet you!
+URL;VALUE=URI:https://www.meetup.com/silent-books-club/events/313809118/
+STATUS:CONFIRMED
+CREATED:20260317T030950Z
+LAST-MODIFIED:20260317T030950Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/d/9/e/600_520916734.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313809150@meetup.com
+SEQUENCE:1
+DTSTAMP:20260318T015501Z
+DTSTART;TZID=America/Los_Angeles:20260420T180000
+DTEND;TZID=America/Los_Angeles:20260420T210000
+SUMMARY:Lucky Labrador 
+DESCRIPTION:PDX Silent Book Club\nCome anytime\, bring any book book you're reading :).\n\nNo pressure to socialize\, you can just dive into your book if you want.\n\nNo pressure to read\, come and hang out!\nCan't wait to meet you!
+URL;VALUE=URI:https://www.meetup.com/silent-books-club/events/313809150/
+STATUS:CONFIRMED
+CREATED:20260317T031257Z
+LAST-MODIFIED:20260317T031257Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/d/9/e/600_520916734.jpeg
 END:VEVENT

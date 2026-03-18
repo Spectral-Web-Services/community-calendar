@@ -4,18 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Pittock Garden Tuesday Volunteer Day
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260317T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260317T090000
-UID:cf6ed6198de977ea2d817c907d908dff@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
-  rain or shine\, to tend to the plants on the grounds at Pittock Mansion.
-LOCATION:Pittock Mansion
-URL:https://www.portland.gov/parks/events/2026/3/17/pittock-garden-tuesday
- -volunteer-day
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Irving Nature Patch Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260319T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260319T090000
@@ -99,6 +87,20 @@ URL:https://www.portland.gov/parks/nature/events/2026/3/21/terwilliger-par
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hoyt Arboretum Volunteer Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T090000
+UID:c7e48249bb43285293192caeaca5aeda@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
+DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
+ ving museum of trees.
+LOCATION:Hoyt Arboretum
+URL:https://www.portland.gov/parks/nas/events/2026/3/21/hoyt-arboretum-vol
+ unteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Errol Heights Park Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T090000
@@ -111,20 +113,6 @@ DESCRIPTION:Join Friends of Errol Heights and Johnson Creek Watershed Coun
 LOCATION:Errol Heights Park
 URL:https://www.portland.gov/parks/nature/events/2026/3/21/errol-heights-p
  ark-stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hoyt Arboretum Volunteer Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T090000
-UID:c7e48249bb43285293192caeaca5aeda@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
-DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
- ving museum of trees.
-LOCATION:Hoyt Arboretum
-URL:https://www.portland.gov/parks/nas/events/2026/3/21/hoyt-arboretum-vol
- unteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -298,6 +286,19 @@ URL:https://www.portland.gov/parks/events/2026/3/31/pittock-garden-tuesday
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Forest Park Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
+UID:667fc2dde5cf7e7b56b606f5dd7567d2@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
+DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
+  and wildlife in Forest Park!
+URL:https://www.portland.gov/parks/nature/events/2026/4/1/forest-park-stew
+ ardship-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Earth Month at Parklane Park Garden of Weedin'
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
@@ -313,19 +314,6 @@ LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
  ocation
 URL:https://www.portland.gov/parks/events/2026/4/1/earth-month-parklane-pa
  rk-garden-weedin
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Forest Park Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
-UID:667fc2dde5cf7e7b56b606f5dd7567d2@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
-DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
-  and wildlife in Forest Park!
-URL:https://www.portland.gov/parks/nature/events/2026/4/1/forest-park-stew
- ardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -440,6 +428,18 @@ URL:https://www.portland.gov/parks/nature/events/2026/4/4/tideman-johnson-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MAC Trail Volunteer Day Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260406T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260406T090000
+UID:e4527b596a69843400f55df445e535fc@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/4/6/mac-trail-volunteer-day
+ -washington-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260407T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260407T090000
@@ -541,6 +541,20 @@ URL:https://www.portland.gov/parks/nature/events/2026/4/11/forest-park-ste
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kelly Butte Natural Area Tree Care Event with Friends of Trees
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260411T094500
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260411T094500
+UID:f962213d19e81d69957428efb420c3a8@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/IMG_2946.JPG?itok=HigrZEQG
+DESCRIPTION:Please join Friends of Trees and Portland Parks & Recreation f
+ or a day of taking care of newly planted plants at
+LOCATION:Kelly Butte Natural Area
+URL:https://www.portland.gov/parks/events/2026/4/11/kelly-butte-natural-ar
+ ea-tree-care-event-friends-trees
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kelley Point Park - Mulching Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260411T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260411T100000
@@ -553,6 +567,18 @@ DESCRIPTION:Please join Portland Parks & Recreation and the Columbia Sloug
 LOCATION:Kelley Point Park
 URL:https://www.portland.gov/parks/events/2026/4/11/kelley-point-park-mulc
  hing-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MAC Trail Volunteer Day Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260413T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260413T090000
+UID:c39f733c9f9b2d71fde9eac8f2f11d4c@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/4/13/mac-trail-volunteer-da
+ y-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -694,6 +720,21 @@ URL:https://www.portland.gov/parks/nas/events/2026/4/18/hoyt-arboretum-vol
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Oaks Bottom Wildlife Refuge Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260418T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260418T090000
+UID:39c654b7bfd49ddd1e012515039d75cc@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/Ingrid-and-Kiara-with-Blackberry.JPG?itok=xyLavCQ
+ m
+DESCRIPTION:Please join Portland Parks & Recreation and the Friends of Oak
+ s Bottom for a non-native plant removal event at Oaks Bottom Wildlife Refu
+ ge.
+URL:https://www.portland.gov/parks/events/2026/4/18/oaks-bottom-wildlife-r
+ efuge-stewardship-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Monarchs at the Mansion
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260418T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260418T100000
@@ -704,6 +745,18 @@ DESCRIPTION:Join Portland Parks & Recreation and The Portland Monarchs for
   a morning in the butterfly habitat at the viewpoint at Pittock Mansion.
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/4/18/monarchs-mansion
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MAC Trail Volunteer Day Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260420T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260420T090000
+UID:1f68f59d3d3fb74ef3c33cee5a235385@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/4/20/mac-trail-volunteer-da
+ y-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -733,24 +786,6 @@ URL:https://www.portland.gov/parks/nas/events/2026/4/22/hoyt-arboretum-ear
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nurture Nature at Hazeltine Park Earth Day Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260422T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260422T090000
-UID:b81ec33f06ff4d1e43b4e5d9d3f113b2@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2020-09/hazeltine-park-nature-patch-2019.jpg?itok=Tt4m
- EjUI
-DESCRIPTION:Join us for Earth Month to help care for native plants and pol
- linator habitat at Hazeltine Park!
-LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
- el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
- 416 SE Flavel Drive Portland\n                          \, OR\n           
-                 97206 Get directions More about this location
-URL:https://www.portland.gov/parks/events/2026/4/22/nurture-nature-hazelti
- ne-park-earth-day-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Earth Day Tending Time at Errol Heights Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260422T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260422T090000
@@ -768,6 +803,24 @@ LOCATION:Errol Heights Community Garden main entrance 4841 SE Tenino Court
          97206 Get directions More about this location
 URL:https://www.portland.gov/parks/events/2026/4/22/earth-day-tending-time
  -errol-heights-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nurture Nature at Hazeltine Park Earth Day Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260422T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260422T090000
+UID:b81ec33f06ff4d1e43b4e5d9d3f113b2@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2020-09/hazeltine-park-nature-patch-2019.jpg?itok=Tt4m
+ EjUI
+DESCRIPTION:Join us for Earth Month to help care for native plants and pol
+ linator habitat at Hazeltine Park!
+LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
+ el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
+ 416 SE Flavel Drive Portland\n                          \, OR\n           
+                 97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/4/22/nurture-nature-hazelti
+ ne-park-earth-day-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -813,6 +866,18 @@ LOCATION:Wilkes Headwaters Property main entrance NE 154th Street and NE F
            97230 Get directions More about this location
 URL:https://www.portland.gov/parks/events/2026/4/25/wilkes-creek-headwater
  s-mulching-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MAC Trail Volunteer Day Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260427T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260427T090000
+UID:6d6d15698e7522510f92d7a2b9a16724@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/4/27/mac-trail-volunteer-da
+ y-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -897,6 +962,18 @@ DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
 LOCATION:Hoyt Arboretum
 URL:https://www.portland.gov/parks/nas/events/2026/5/2/hoyt-arboretum-volu
  nteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MAC Trail Volunteer Day Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260504T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260504T090000
+UID:cecab00b5a76f15a026efb344a0a5b95@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/5/4/mac-trail-volunteer-day
+ -washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -1012,6 +1089,18 @@ URL:https://www.portland.gov/parks/nature/events/2026/5/9/forest-park-stew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MAC Trail Volunteer Day Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260511T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260511T090000
+UID:9398166b7109d3857163922e8f4aa86f@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/5/11/mac-trail-volunteer-da
+ y-washington-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wilkes Park Pollinator Patch Volunteer Day
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260512T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260512T090000
@@ -1114,6 +1203,18 @@ DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
 LOCATION:Hoyt Arboretum
 URL:https://www.portland.gov/parks/nas/events/2026/5/16/hoyt-arboretum-vol
  unteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MAC Trail Volunteer Day Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260518T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260518T090000
+UID:0ad22309e9db4e7e4742d8272117bc18@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/5/18/mac-trail-volunteer-da
+ y-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 END:VCALENDAR
