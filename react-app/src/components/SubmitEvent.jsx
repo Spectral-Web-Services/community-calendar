@@ -38,7 +38,7 @@ const cityTimezones = {
   'publisher-resources': 'America/New_York',
 };
 
-export default function SubmitEvent({ city, onClose, onSubmitted }) {
+export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
   const { user, session } = useAuth();
   const { isCuratorForCity } = useCurator();
   const canCurate = isCuratorForCity(city);
@@ -238,18 +238,17 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
 
   const showForm = tab === 'manual' || extracted;
 
-  return createPortal(
-    <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="bg-white rounded-xl max-w-md w-full max-h-[85vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
-        {/* Header */}
-        <div className="flex items-center justify-between px-6 pt-5 pb-3">
-          <h2 className="text-lg font-bold text-gray-900">Submit Event</h2>
-          <button onClick={onClose} className="text-gray-400 hover:text-gray-600 transition-colors">
-            <X size={20} />
-          </button>
-        </div>
+  const modal = (
+    <div className="bg-white rounded-xl max-w-md w-full max-h-[85vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
+      {/* Header */}
+      <div className="flex items-center justify-between px-6 pt-5 pb-3">
+        <h2 className="text-lg font-bold text-gray-900">Submit Event</h2>
+        <button onClick={onClose} className="text-gray-400 hover:text-gray-600 transition-colors">
+          <X size={20} />
+        </button>
+      </div>
 
-        <div className="px-6 pb-5">
+      <div className="px-6 pb-5">
           {success ? (
             <div className="text-center py-6">
               <CheckCircle size={36} className="text-green-500 mx-auto mb-3" />
@@ -390,6 +389,13 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
           )}
         </div>
       </div>
+  );
+
+  if (inline) return modal;
+
+  return createPortal(
+    <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      {modal}
     </div>,
     document.body
   );

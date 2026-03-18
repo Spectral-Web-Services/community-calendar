@@ -261,11 +261,14 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
           </div>
         )}
         {showSubmitEvent && (
-          <SubmitEvent
-            city={collection?.city}
-            onClose={() => setShowSubmitEvent(false)}
-            onSubmitted={() => setShowSubmitEvent(false)}
-          />
+          <div className="mb-4">
+            <SubmitEvent
+              city={collection?.city}
+              onClose={() => setShowSubmitEvent(false)}
+              onSubmitted={() => setShowSubmitEvent(false)}
+              inline
+            />
+          </div>
         )}
         {content}
       </div>
