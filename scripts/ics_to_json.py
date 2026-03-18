@@ -55,6 +55,10 @@ def parse_ics_datetime(dt_str, local_tz=None):
         for param in params_part.split(';')[1:]:
             if param.upper().startswith('TZID='):
                 tzid = param[5:]
+                # TZID=UTC is just a transport encoding, not a real event timezone.
+                # Keep the city timezone for display purposes.
+                if tzid.upper() == 'UTC':
+                    continue
                 try:
                     event_tz = ZoneInfo(tzid)
                 except KeyError:
