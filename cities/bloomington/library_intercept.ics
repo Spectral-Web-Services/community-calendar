@@ -4,28 +4,6 @@ PRODID:-//Bloomington Library//bloomingtonlibrary.org//
 X-WR-CALNAME:Bloomington Library
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:BPL On-the-Go Pop-Up
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T101500
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T113000
-UID:e470b06a93cfb6f30284a3588a8f70fa@bloomingtonlibrary.org
-DESCRIPTION:Have you heard about Bloomington Library's new On-the-Go vehic
- le? BPL On-the-Go allows library staff to travel to offsite locations\, br
- inging with them library programs and services.
-LOCATION:On-the-Go-Vehicle at Bloomington Public Library
-URL:https://www.bloomingtonlibrary.org/event/bpl-go-pop-65908
-X-SOURCE:Bloomington Library
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bookmobile to White Eagle
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T121500
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T131500
-UID:7ee33d16a3f327c2d9a1f00a3d83c2dd@bloomingtonlibrary.org
-DESCRIPTION:Call or text if you have questions about the Bookmobile:
-LOCATION:Bookmobile
-URL:https://www.bloomingtonlibrary.org/event/bookmobile-white-eagle-67816
-X-SOURCE:Bloomington Library
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Watercolor Cherry Blossoms Painting
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260322T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260322T153000
@@ -2814,6 +2792,17 @@ DESCRIPTION:This story time for people of all ages will deliver an evening
 LOCATION:Children's Program Rm 1 & 2 at Bloomington Public Library
 URL:https://www.bloomingtonlibrary.org/event/singing-swinging-story-time-6
  5992
+X-SOURCE:Bloomington Library
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bookmobile to Old Farm Lakes
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260518T191500
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260518T203000
+UID:34eae5101dfb190c02cff2a9bc274732@bloomingtonlibrary.org
+DESCRIPTION:Call or text if you have questions about the Bookmobile:
+LOCATION:Bookmobile
+URL:https://www.bloomingtonlibrary.org/event/bookmobile-old-farm-lakes-677
+ 08
 X-SOURCE:Bloomington Library
 END:VEVENT
 END:VCALENDAR

@@ -158,7 +158,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 
 | PRODID | City | Feeds |
 |--------|------|-------|
-| `-//172.66.146.53//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
+| `-//104.20.35.35//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |
