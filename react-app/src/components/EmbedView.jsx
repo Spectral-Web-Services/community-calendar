@@ -7,6 +7,8 @@ import { FeedProvider } from '../hooks/useFeedContext.jsx';
 import MasonryGrid from './MasonryGrid.jsx';
 import UniformGrid from './UniformGrid.jsx';
 import SearchBar from './SearchBar.jsx';
+import SubmitEvent from './SubmitEvent.jsx';
+import { Plus } from 'lucide-react';
 
 /**
  * Minimal embeddable feed view.
@@ -31,6 +33,7 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
   const observerRef = useRef(null);
   const [filterTerm, setFilterTerm] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
+  const [showSubmitEvent, setShowSubmitEvent] = useState(false);
 
   const activeCategories = useMemo(() => getActiveCategories(allEvents), [allEvents]);
 
@@ -236,14 +239,32 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
   return (
     <FeedProvider collection={collection}>
       <div ref={containerRef} className={`w-full py-4 ${isDark ? 'dark' : ''}`} style={{ backgroundColor: bg || 'transparent' }}>
-        {!loading && events.length > 0 && (
-          <SearchBar
-            filterTerm={filterTerm}
-            onFilterTermChange={setFilterTerm}
-            categoryFilter={categoryFilter}
-            onCategoryFilterChange={setCategoryFilter}
-            activeCategories={activeCategories}
-            onClearAll={handleClearAll}
+        {!loading && allEvents.length > 0 && (
+          <div className="flex items-start gap-2">
+            <div className="flex-1 min-w-0">
+              <SearchBar
+                filterTerm={filterTerm}
+                onFilterTermChange={setFilterTerm}
+                categoryFilter={categoryFilter}
+                onCategoryFilterChange={setCategoryFilter}
+                activeCategories={activeCategories}
+                onClearAll={handleClearAll}
+              />
+            </div>
+            <button
+              onClick={() => setShowSubmitEvent(true)}
+              className="flex items-center gap-1.5 px-3 py-2 mt-0.5 rounded-lg text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors whitespace-nowrap"
+            >
+              <Plus size={16} />
+              Submit Event
+            </button>
+          </div>
+        )}
+        {showSubmitEvent && (
+          <SubmitEvent
+            city={collection?.city}
+            onClose={() => setShowSubmitEvent(false)}
+            onSubmitted={() => setShowSubmitEvent(false)}
           />
         )}
         {content}
