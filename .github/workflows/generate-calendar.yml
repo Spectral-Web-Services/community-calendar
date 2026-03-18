@@ -190,7 +190,6 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/106576693901" --name "Reviving Hope for the Nations" -o cities/bloomington/eventbrite_reviving_hope.ics || true
         python scripts/enrich_meetup_images.py --dir cities/bloomington || true
         python scripts/enrich_meetup_images.py --any-url \
-          cities/bloomington/buskirk_chumley.ics \
           cities/bloomington/comedy_attic.ics \
           cities/bloomington/the_bishop.ics \
           cities/bloomington/cicada_cinema.ics \
