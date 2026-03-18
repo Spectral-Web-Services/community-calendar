@@ -1,210 +1,149 @@
-2026-03-18 02:31:22,435 - SEJCalendarScraper - INFO - Scraping Society of Environmental Journalists
-2026-03-18 02:31:22,435 - SEJCalendarScraper - INFO - Fetching RSS feed: https://www.sej.org/rss_calendar
-2026-03-18 02:31:22,906 - SEJCalendarScraper - INFO - Found 10 entries in RSS feed
-2026-03-18 02:31:22,925 - SEJCalendarScraper - INFO - Found event: Travel grants to the first International Conference for the Just Transition Away from Fossil Fuels on 2026-03-17 00:00:00-04:00
-2026-03-18 02:31:22,927 - SEJCalendarScraper - INFO - Found event: DC Environmental Film Festival on 2026-03-19 00:00:00-04:00
-2026-03-18 02:31:22,929 - SEJCalendarScraper - INFO - Found event: 2026 Islamic Scholarship Fund on 2026-03-21 00:00:00-04:00
-2026-03-18 02:31:22,930 - SEJCalendarScraper - INFO - Found event: Al Neuharth Free Spirit and Journalism Conference for High School Juniors on 2026-03-25 00:00:00-04:00
-2026-03-18 02:31:22,932 - SEJCalendarScraper - INFO - Found event: Science Talk ’26 on 2026-03-26 00:00:00-04:00
-2026-03-18 02:31:22,934 - SEJCalendarScraper - INFO - Found event: Kovler Prize for Trust in Life Science Journalism on 2026-03-27 00:00:00-04:00
-2026-03-18 02:31:22,936 - SEJCalendarScraper - INFO - Found event: EVOME Institute Science Journalism Fellowship on 2026-03-27 00:00:00-04:00
-2026-03-18 02:31:22,937 - SEJCalendarScraper - INFO - Found event: Online News Association Conference on 2026-03-30 00:00:00-04:00
-2026-03-18 02:31:22,939 - SEJCalendarScraper - INFO - Found event: Eric and Wendy Schmidt Awards for Excellence in Science Communications on 2026-04-03 00:00:00-04:00
-2026-03-18 02:31:22,941 - SEJCalendarScraper - INFO - Found event: NLGJA's CONNECT Student Journalism Training Project on 2026-04-03 00:00:00-04:00
-2026-03-18 02:31:22,941 - SEJCalendarScraper - INFO - Found 10 events
-2026-03-18 02:31:22,944 - SEJCalendarScraper - INFO - Written to cities/publisher-resources/sej.ics
-2026-03-18 02:31:23,170 - IREScheduleScraper - INFO - Scraping IRE 2026
-2026-03-18 02:31:23,170 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json
-Traceback (most recent call last):
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/ire_schedule.py", line 165, in <module>
-    IREScheduleScraper.main()
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/ire_schedule.py", line 161, in main
-    scraper.run(args.output)
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/lib/base.py", line 126, in run
-    events = self.fetch_events()
-  File "/home/runner/work/community-calendar/community-calendar/scrapers/ire_schedule.py", line 39, in fetch_events
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.10.20/x64/lib/python3.10/site-packages/requests/models.py", line 960, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json
-2026-03-18 02:31:23,656 - IREScheduleScraper - INFO - Scraping NICAR 2026
-2026-03-18 02:31:23,656 - IREScheduleScraper - INFO - Fetching schedule: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/nicar-2026/nicar-2026-schedule.json
-2026-03-18 02:31:23,904 - IREScheduleScraper - INFO - Found 233 sessions
-2026-03-18 02:31:23,957 - IREScheduleScraper - INFO - Found 232 events
-2026-03-18 02:31:24,001 - IREScheduleScraper - INFO - Written to cities/publisher-resources/nicar_2026.ics
-2026-03-18 02:31:24,227 - SJNEventsScraper - INFO - Scraping Solutions Journalism Network
-2026-03-18 02:31:24,227 - SJNEventsScraper - INFO - Fetching events listing: https://www.solutionsjournalism.org/events
-2026-03-18 02:31:26,985 - SJNEventsScraper - INFO - Found 16 events
-2026-03-18 02:31:26,985 - SJNEventsScraper - INFO - Filtered 3 events beyond 2 months out
-2026-03-18 02:31:26,985 - SJNEventsScraper - INFO - Found 13 events
-2026-03-18 02:31:26,989 - SJNEventsScraper - INFO - Written to cities/publisher-resources/sjn.ics
-2026-03-18 02:31:27,158 - PENAmericaScraper - INFO - Scraping PEN America
-2026-03-18 02:31:27,286 - PENAmericaScraper - INFO - Fetching events from https://pen.org/wp-json/wp/v2/event
-2026-03-18 02:31:27,531 - PENAmericaScraper - INFO - Found 11 events
-2026-03-18 02:31:27,531 - PENAmericaScraper - INFO - Found 11 events
-2026-03-18 02:31:27,537 - PENAmericaScraper - INFO - Written to cities/publisher-resources/pen_america.ics
-2026-03-18 02:31:27,733 - INFO - Scraping PEN America
-2026-03-18 02:31:29,334 - INFO - Discovered 15 event URLs from organizer page
-2026-03-18 02:31:29,335 - INFO - Fetching 15 event pages (parallel)...
-2026-03-18 02:31:29,569 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/bold-voices-latin-american-writers-in-conversation-tickets-1316586257939
-2026-03-18 02:31:29,615 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/closing-celebration-wvf-happy-hour-tickets-1333457751029
-2026-03-18 02:31:29,632 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-new-year-new-books-los-angeles-tickets-1981803181665
-2026-03-18 02:31:29,650 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/reading-with-pride-a-conversation-with-kristen-arnett-tickets-1363569064779
-2026-03-18 02:31:29,879 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/mothers-sons-and-daughters-the-complex-ties-that-bind-tickets-1316579457599
-2026-03-18 02:31:29,891 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-book-ban-fight-from-stories-to-strategy-tickets-1702531630939
-2026-03-18 02:31:33,112 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/big-laughs-a-world-voices-festival-comedy-show-tickets-1329007389879
-2026-03-18 02:31:33,121 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/virtual-2025-emerging-voices-the-final-reading-tickets-1739358581339
-2026-03-18 02:31:33,153 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/reporters-take-up-the-pen-arizona-journalists-who-became-authors-tickets-1323637307819
-2026-03-18 02:31:33,200 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/under-siege-the-perils-of-journalism-in-an-age-of-state-repression-tickets-1316548424779
-2026-03-18 02:31:33,295 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/slices-of-american-life-tickets-1312151393139
-2026-03-18 02:31:33,375 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/june-2025-emerging-voices-workshop-final-reading-tickets-1368801555299
-2026-03-18 02:31:33,755 - INFO - Got 3 future events
-2026-03-18 02:31:33,755 - INFO - Found 3 events
-2026-03-18 02:31:33,757 - INFO - Written to cities/publisher-resources/pen_america_eventbrite.ics
-2026-03-18 02:31:33,905 - NABJEventsScraper - INFO - Scraping NABJ
-2026-03-18 02:31:33,905 - NABJEventsScraper - INFO - Fetching RSS feed: https://www.nabj.org/resource/rss/events.rss
-2026-03-18 02:31:34,579 - NABJEventsScraper - INFO - Found 4 entries in RSS feed
-2026-03-18 02:31:34,579 - NABJEventsScraper - INFO - Found event: 2026 NABJ Region III Conference on 2026-04-16 01:00:00-04:00
-2026-03-18 02:31:34,579 - NABJEventsScraper - INFO - Found event: 2026 NABJ Region II Conference on 2026-04-17 01:00:00-04:00
-2026-03-18 02:31:34,579 - NABJEventsScraper - INFO - Found event: 2026 NABJ Region IV Conference on 2026-04-24 01:00:00-04:00
-2026-03-18 02:31:34,579 - NABJEventsScraper - INFO - Found event: NABJ Region I + Young Black Journalists Task Force  Present EMERGE: Building the Next 50 on 2026-05-01 01:00:00-04:00
-2026-03-18 02:31:34,579 - NABJEventsScraper - INFO - Found 4 events
-2026-03-18 02:31:34,580 - NABJEventsScraper - INFO - Written to cities/publisher-resources/nabj.ics
-2026-03-18 02:31:34,729 - INFO - Scraping American Press Institute
-2026-03-18 02:31:36,013 - INFO - Discovered 12 event URLs from organizer page
-2026-03-18 02:31:36,013 - INFO - Fetching 12 event pages (parallel)...
-2026-03-18 02:31:36,211 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/beyond-stress-what-journalists-should-know-about-burnout-tickets-1329796620489
-2026-03-18 02:31:36,264 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/revenue-ama-how-nashville-banner-embraces-local-identity-and-history-tickets-1394785524049
-2026-03-18 02:31:36,285 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/revenue-ama-how-the-forward-grows-audience-across-generations-tickets-1394837740229
-2026-03-18 02:31:36,330 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-qa-demystifying-sales-for-better-collaboration-tickets-1255784217399
-2026-03-18 02:31:36,374 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/steal-this-idea-revenue-successes-with-table-stakes-alumni-tickets-1329189865669
-2026-03-18 02:31:36,478 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/trauma-informed-leadership-workshop-tickets-1329796259409
-2026-03-18 02:31:36,509 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-qa-build-reporting-beats-capacity-with-philanthropy-tickets-1300010740119
-2026-03-18 02:31:36,511 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-series-empowering-sales-teams-in-news-organizations-tickets-1141176041259
-2026-03-18 02:31:36,541 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ask-me-anything-local-news-trusted-messengers-and-history-tickets-1981805092380
-2026-03-18 02:31:36,631 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-influencer-collaborations-can-help-news-deepen-community-connection-tickets-1657501935909
-2026-03-18 02:31:36,686 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/diversifying-revenue-series-strategies-for-retaining-paid-subscribers-tickets-1117776984049
-2026-03-18 02:31:36,715 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/proven-digital-transformation-strategies-to-try-at-your-news-organization-tickets-1292762189509
-2026-03-18 02:31:36,716 - INFO - Got 0 future events
-2026-03-18 02:31:36,716 - INFO - Found 0 events
-2026-03-18 02:31:36,716 - INFO - Written to cities/publisher-resources/api_eventbrite.ics
-2026-03-18 02:31:36,869 - INFO - Scraping Center for Cooperative Media
-2026-03-18 02:31:38,132 - INFO - Discovered 14 event URLs from organizer page
-2026-03-18 02:31:38,132 - INFO - Fetching 14 event pages (parallel)...
-2026-03-18 02:31:38,393 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-raise-money-from-small-dollar-donors-tickets-1981952222450
-2026-03-18 02:31:38,429 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-content-sharing-platforms-w-distributed-media-lab-plucky-works-tickets-1656757138199
-2026-03-18 02:31:38,442 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-excellence-in-community-media-awards-tickets-1982292738944
-2026-03-18 02:31:38,450 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/statewide-news-collective-the-community-impact-of-independent-journalism-tickets-1781731931169
-2026-03-18 02:31:38,666 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/our-collaborative-has-all-this-data-now-what-tickets-1640829899399
-2026-03-18 02:31:38,676 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-snap-funding-and-federal-policy-changes-in-new-jersey-tickets-1980017997130
-2026-03-18 02:31:38,730 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-accept-corporate-sponsorships-tickets-1980033354063
-2026-03-18 02:31:38,759 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/climate-resilience-and-environmental-justice-for-new-jersey-communities-tickets-1968808736931
-2026-03-18 02:31:38,953 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-budget-transparency-tool-demonstration-and-qa-tickets-1542483492649
-2026-03-18 02:31:38,962 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/using-public-data-to-report-on-snap-policy-changes-tickets-1982386277721
-2026-03-18 02:31:39,051 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/media-liability-insurance-for-nj-local-news-orgs-tickets-1708596471039
-2026-03-18 02:31:39,053 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-dave-cole-of-the-new-jersey-office-of-innovation-tickets-1829943453129
-2026-03-18 02:31:39,322 - INFO - Got 2 future events
-2026-03-18 02:31:39,322 - INFO - Found 2 events
-2026-03-18 02:31:39,323 - INFO - Written to cities/publisher-resources/cooperative_media_eventbrite.ics
-2026-03-18 02:31:39,543 - LIONPublishersScraper - INFO - Scraping LION Publishers
-2026-03-18 02:31:41,168 - LIONPublishersScraper - INFO - Found: 2026 Independent News Sustainability Summit on 2026-09-09
-2026-03-18 02:31:41,169 - LIONPublishersScraper - INFO - Filtered 1 events beyond 2 months out
-2026-03-18 02:31:41,169 - LIONPublishersScraper - INFO - Found 0 events
-2026-03-18 02:31:41,169 - LIONPublishersScraper - INFO - Written to cities/publisher-resources/lion_publishers.ics
-2026-03-18 02:31:41,401 - EditorPublisherScraper - INFO - Scraping Editor & Publisher
-2026-03-18 02:31:41,696 - EditorPublisherScraper - INFO - Found: 2026 Mega-Conference on 2026-03-30
-2026-03-18 02:31:41,697 - EditorPublisherScraper - INFO - Found: N.E.A.C.E. 2026 Annual Conference on 2026-04-26
-2026-03-18 02:31:41,700 - EditorPublisherScraper - INFO - Found: 2026 Niche Media Conference on 2026-04-08
-2026-03-18 02:31:41,700 - EditorPublisherScraper - INFO - Found: 2026 South Dakota NewsMedia Association Convention on 2026-04-30
-2026-03-18 02:31:41,700 - EditorPublisherScraper - INFO - Found: INMA World Congress of News Media on 2026-05-04
-2026-03-18 02:31:41,700 - EditorPublisherScraper - INFO - Found: 2026 MDDC Conference & Celebration on 2026-05-08
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found: 2026 Media Financial Management Association and Financial Executives International Annual Conference on 2026-05-17
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found: 2026 Illinois Press Annual Convention on 2026-06-04
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found: Texas Press Association Convention & Trade Show on 2026-06-18
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found: Alabama Press Association Summer Convention & Awards Banquet on 2026-06-25
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found: 2026 ADMA Conference on 2026-06-10
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found: 2026 Mississippi Press 160th Annual Meeting on 2026-06-26
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found: 2026 Senior Leadership Conference on 2026-09-14
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Filtered 6 events beyond 2 months out
-2026-03-18 02:31:41,701 - EditorPublisherScraper - INFO - Found 7 events
-2026-03-18 02:31:41,703 - EditorPublisherScraper - INFO - Written to cities/publisher-resources/editor_publisher.ics
-2026-03-18 02:31:41,864 - INFO - Scraping Center for Cooperative Media
-2026-03-18 02:31:42,072 - INFO - Discovered 14 event URLs from organizer page
-2026-03-18 02:31:42,072 - INFO - Fetching 14 event pages (parallel)...
-2026-03-18 02:31:42,354 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/our-collaborative-has-all-this-data-now-what-tickets-1640829899399
-2026-03-18 02:31:42,375 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/climate-resilience-and-environmental-justice-for-new-jersey-communities-tickets-1968808736931
-2026-03-18 02:31:42,398 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/using-public-data-to-report-on-snap-policy-changes-tickets-1982386277721
-2026-03-18 02:31:42,426 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-accept-corporate-sponsorships-tickets-1980033354063
-2026-03-18 02:31:42,588 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/2026-excellence-in-community-media-awards-tickets-1982292738944
-2026-03-18 02:31:42,612 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/statewide-news-collective-the-community-impact-of-independent-journalism-tickets-1781731931169
-2026-03-18 02:31:42,649 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-snap-funding-and-federal-policy-changes-in-new-jersey-tickets-1980017997130
-2026-03-18 02:31:42,683 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/press-briefing-dave-cole-of-the-new-jersey-office-of-innovation-tickets-1829943453129
-2026-03-18 02:31:42,704 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/media-liability-insurance-for-nj-local-news-orgs-tickets-1708596471039
-2026-03-18 02:31:42,797 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-budget-transparency-tool-demonstration-and-qa-tickets-1542483492649
-2026-03-18 02:31:42,850 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/how-journalism-collaboratives-can-raise-money-from-small-dollar-donors-tickets-1981952222450
-2026-03-18 02:31:42,993 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/nj-content-sharing-platforms-w-distributed-media-lab-plucky-works-tickets-1656757138199
-2026-03-18 02:31:42,994 - INFO - Got 2 future events
-2026-03-18 02:31:42,994 - INFO - Found 2 events
-2026-03-18 02:31:42,995 - INFO - Written to cities/publisher-resources/eventbrite_coop_media.ics
-2026-03-18 02:31:43,146 - INFO - Scraping Associated Press
-2026-03-18 02:31:44,270 - INFO - Discovered 5 event URLs from organizer page
-2026-03-18 02:31:44,270 - INFO - Fetching 5 event pages (parallel)...
-2026-03-18 02:31:44,480 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ap-photography-showcase-capturing-the-solar-eclipse-tickets-782142809197
-2026-03-18 02:31:44,581 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1038893587687
-2026-03-18 02:31:44,631 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/ai-in-the-workplace-tickets-1269725024729
-2026-03-18 02:31:44,632 - INFO - Got 1 future events
-2026-03-18 02:31:44,632 - INFO - Found 1 events
-2026-03-18 02:31:44,632 - INFO - Written to cities/publisher-resources/eventbrite_ap.ics
-2026-03-18 02:31:44,784 - INFO - Scraping SciLine
-2026-03-18 02:31:45,417 - INFO - Discovered 1 event URLs from organizer page
-2026-03-18 02:31:45,418 - INFO - Fetching 1 event pages (parallel)...
-2026-03-18 02:31:45,966 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/pop-up-happy-hour-with-sciline-tickets-1984061358934
-2026-03-18 02:31:45,966 - INFO - Got 0 future events
-2026-03-18 02:31:45,966 - INFO - Found 0 events
-2026-03-18 02:31:45,966 - INFO - Written to cities/publisher-resources/eventbrite_sciline.ics
-2026-03-18 02:31:46,184 - ONAEventsScraper - INFO - Scraping Online News Association
-2026-03-18 02:31:47,008 - ONAEventsScraper - INFO - Found: Quick Hits and Deep Dives: Consumer Investigations Any Newsroom Can Do on 2026-03-18
-2026-03-18 02:31:47,009 - ONAEventsScraper - INFO - Found: ONA26 - Annual Conference of the Online News Association on 2026-03-30
-2026-03-18 02:31:47,009 - ONAEventsScraper - INFO - Found: From Fear to Focus: Navigating Your Next Move After a Layoff on 2026-04-14
-2026-03-18 02:31:47,010 - ONAEventsScraper - INFO - Found: Develop a Walking Tour Pilot for Your Newsroom in 60 Minutes on 2026-04-16
-2026-03-18 02:31:47,010 - ONAEventsScraper - INFO - Found 4 events
-2026-03-18 02:31:47,011 - ONAEventsScraper - INFO - Written to cities/publisher-resources/ona_events.ics
-2026-03-18 02:31:47,239 - KnightCenterScraper - INFO - Scraping Knight Center for Journalism
-2026-03-18 02:31:47,473 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-18 02:31:47,474 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-18 02:31:47,474 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-18 02:31:47,475 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-18 02:31:47,475 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
-2026-03-18 02:31:47,476 - KnightCenterScraper - INFO - Found: Desde la redacción: cómo la IA está transformando el periodismo on 2026-03-26
-2026-03-18 02:31:47,477 - KnightCenterScraper - INFO - Found: Direto da Redação: como a IA está transformando o jornalismo on 2026-03-25
-2026-03-18 02:31:47,478 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-18 02:31:47,613 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-18 02:31:47,613 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-18 02:31:47,614 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-18 02:31:47,614 - KnightCenterScraper - INFO - Found: News Creator Field Guide: Forging New Paths in Journalism on 2026-02-18
-2026-03-18 02:31:47,615 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
-2026-03-18 02:31:47,616 - KnightCenterScraper - INFO - Found: Advanced Prompt Engineering for Journalists on 2026-04-13
-2026-03-18 02:31:47,616 - KnightCenterScraper - INFO - Found: Data Mindset for Editors on 2026-02-09
-2026-03-18 02:31:47,959 - KnightCenterScraper - INFO - Found 5 events
-2026-03-18 02:31:47,960 - KnightCenterScraper - INFO - Written to cities/publisher-resources/knight_center.ics
-2026-03-18 02:31:48,195 - SunlightResearchScraper - INFO - Scraping Sunlight Research
-2026-03-18 02:31:48,584 - SunlightResearchScraper - INFO - Found: Book Bans with The Marshall Project and Data Liberation Project on 2026-03-18
-2026-03-18 02:31:48,585 - SunlightResearchScraper - INFO - Found: Learn about Datasette on 2026-03-26
-2026-03-18 02:31:48,585 - SunlightResearchScraper - INFO - Found: Start Small. Build Trust. Make News. Building a Small Newsroom People Trust on 2026-03-19
-2026-03-18 02:31:48,585 - SunlightResearchScraper - INFO - Found 3 events
-2026-03-18 02:31:48,586 - SunlightResearchScraper - INFO - Written to cities/publisher-resources/sunlight_research.ics
-2026-03-18 02:31:48,811 - PoynterShopScraper - INFO - Scraping Poynter Institute Training
-2026-03-18 02:31:49,076 - PoynterShopScraper - INFO - Found: Breaking Into Books: A Non-Fiction Writing Workshop for Journalists (May 2026) on 2026-05-18
-2026-03-18 02:31:49,077 - PoynterShopScraper - INFO - Found: Beat Academy: Midterm Prep on 2026-05-05
-2026-03-18 02:31:49,078 - PoynterShopScraper - INFO - Found: Edit to Elevate: Essentials for New Editors (April 2026) on 2026-04-13
-2026-03-18 02:31:49,081 - PoynterShopScraper - INFO - Found: Transforming Crime Coverage (2026) on 2026-04-29
-2026-03-18 02:31:49,084 - PoynterShopScraper - INFO - Found: Leadership Academy for Women (2026) on 2026-03-23
-2026-03-18 02:31:49,084 - PoynterShopScraper - INFO - Found: Essential Skills for New Managers (Nov. 2026) on 2026-11-16
-2026-03-18 02:31:49,085 - PoynterShopScraper - INFO - Found: Essential Skills for New Managers (May 2026) on 2026-05-11
-2026-03-18 02:31:49,086 - PoynterShopScraper - INFO - Found: Beat Academy: Midterm Prep on 2026-05-05
-2026-03-18 02:31:49,087 - PoynterShopScraper - INFO - Found: Edit to Elevate: Essentials for New Editors (April 2026) on 2026-04-13
-2026-03-18 02:31:49,088 - PoynterShopScraper - INFO - Found: Will Work For Impact: Fundamentals of Investigative Journalism (April 2026) on 2026-04-23
-2026-03-18 02:31:49,088 - PoynterShopScraper - INFO - Found: Breaking Into Books: A Non-Fiction Writing Workshop for Journalists (May 2026) on 2026-05-18
-2026-03-18 02:31:49,089 - PoynterShopScraper - INFO - Filtered 1 events beyond 2 months out
-2026-03-18 02:31:49,089 - PoynterShopScraper - INFO - Found 7 events
-2026-03-18 02:31:49,091 - PoynterShopScraper - INFO - Written to cities/publisher-resources/poynter_shop.ics
+2026-03-18 02:34:46,999 - JewishLearningWorksScraper - INFO - Scraping Jewish LearningWorks
+2026-03-18 02:34:48,376 - __main__ - INFO - Found 21 events from API
+2026-03-18 02:34:48,973 - __main__ - INFO -   2026-05-19 — 2026 Ruby Award: Inside the Adolescent Mind
+2026-03-18 02:34:49,771 - __main__ - INFO -   2026-05-05 — Voices for Good Fellowship Siyum
+2026-03-18 02:35:01,586 - JewishLearningWorksScraper - INFO - Filtered 1 events beyond 2 months out
+2026-03-18 02:35:01,586 - JewishLearningWorksScraper - INFO - Found 1 events
+2026-03-18 02:35:01,587 - JewishLearningWorksScraper - INFO - Written to cities/jweekly/jewishlearningworks.ics
+2026-03-18 02:35:01,763 - INFO - Scraping JCCSF
+2026-03-18 02:35:03,376 - INFO - Discovered 24 event URLs from organizer page
+2026-03-18 02:35:03,376 - INFO - Fetching 24 event pages (parallel)...
+2026-03-18 02:35:03,615 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/newborn-playgroup-registration-1977747580252
+2026-03-18 02:35:03,632 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1980032568714
+2026-03-18 02:35:03,844 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/maxine-sharf-maxis-kitchen-book-tour-tickets-1980493952726
+2026-03-18 02:35:03,853 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/twist-of-tradition-hands-on-challah-registration-1981046075139
+2026-03-18 02:35:03,875 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/make-play-become-purim-mask-making-workshop-registration-1980520244365
+2026-03-18 02:35:03,894 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purimpalooza-registration-1981052035968
+2026-03-18 02:35:04,095 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/the-san-francisco-symphony-presents-a-purim-community-concert-registration-1981799638066
+2026-03-18 02:35:04,100 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/roots-fruits-a-tu-bishvat-seder-printmaking-workshop-registration-1978348946956
+2026-03-18 02:35:04,117 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/zoe-aqua-and-her-transylvanian-string-band-in-a-sea-of-stars-tickets-1980011804608
+2026-03-18 02:35:04,330 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rebecca-newberger-goldstein-the-mattering-instinct-tickets-1978327130703
+2026-03-18 02:35:04,525 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/live-long-prosper-jews-star-trek-registration-1980672668269
+2026-03-18 02:35:04,532 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dance-with-us-zumbathon-2026-registration-1977999549900
+2026-03-18 02:35:04,604 - INFO - Got 11 future events
+2026-03-18 02:35:04,604 - INFO - Found 11 events
+2026-03-18 02:35:04,607 - INFO - Written to cities/jweekly/eventbrite_jccsf.ics
+2026-03-18 02:35:04,754 - INFO - Scraping Congregation Emanu-El SF
+2026-03-18 02:35:05,762 - INFO - Discovered 5 event URLs from organizer page
+2026-03-18 02:35:05,762 - INFO - Fetching 5 event pages (parallel)...
+2026-03-18 02:35:05,983 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/emmanuel-acho-at-congregation-emanu-el-san-francisco-tickets-1778174540919
+2026-03-18 02:35:05,987 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/israeli-superstar-david-broza-in-concert-tickets-1613110690499
+2026-03-18 02:35:05,999 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yossi-klein-halevi-at-emanu-el-tickets-1319523894489
+2026-03-18 02:35:06,012 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/winner-of-the-2024-national-jewish-councils-book-of-the-year-tickets-1269729116969
+2026-03-18 02:35:06,014 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/koleinu-things-are-gonna-change-tickets-1976926979814
+2026-03-18 02:35:06,014 - INFO - Got 0 future events
+2026-03-18 02:35:06,014 - INFO - Found 0 events
+2026-03-18 02:35:06,015 - INFO - Written to cities/jweekly/eventbrite_emanu_el.ics
+2026-03-18 02:35:06,161 - INFO - Scraping Chabad SF SOMA Shul
+2026-03-18 02:35:07,472 - INFO - Discovered 13 event URLs from organizer page
+2026-03-18 02:35:07,473 - INFO - Fetching 13 event pages (parallel)...
+2026-03-18 02:35:07,670 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/chanukah-lux-tickets-1968322667083
+2026-03-18 02:35:07,678 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-mingle-in-the-sukkah-tickets-1708762878769
+2026-03-18 02:35:07,681 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-courage-connection-tickets-1478621198809
+2026-03-18 02:35:07,732 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-happy-hour-40s-up-tickets-1465682117669
+2026-03-18 02:35:07,734 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-madarae-tickets-1981651817932
+2026-03-18 02:35:07,861 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1872012994259
+2026-03-18 02:35:07,893 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-feast-tickets-1983383564633
+2026-03-18 02:35:07,894 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/artisan-hamantash-bake-tickets-1982802035263
+2026-03-18 02:35:07,918 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/havdalah-pizza-tickets-1981611634743
+2026-03-18 02:35:07,946 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-winter-shabbat-tickets-1979935351936
+2026-03-18 02:35:08,028 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-fall-edition-tickets-1956879883409
+2026-03-18 02:35:08,080 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/yjp-shabbat-dinner-tickets-1583607184719
+2026-03-18 02:35:08,099 - INFO - Got 1 future events
+2026-03-18 02:35:08,100 - INFO - Found 1 events
+2026-03-18 02:35:08,100 - INFO - Written to cities/jweekly/eventbrite_chabad_soma.ics
+2026-03-18 02:35:08,248 - INFO - Scraping JCC East Bay
+2026-03-18 02:35:09,808 - INFO - Discovered 18 event URLs from organizer page
+2026-03-18 02:35:09,808 - INFO - Fetching 18 event pages (parallel)...
+2026-03-18 02:35:10,023 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/cantamos-tickets-1629074438499
+2026-03-18 02:35:10,034 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-september-29-2025-tickets-1296257423849
+2026-03-18 02:35:10,045 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/older-adult-chanukah-luncheon-tickets-1873570623169
+2026-03-18 02:35:10,058 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-october-27-2025-tickets-1296258085829
+2026-03-18 02:35:10,241 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1762088075869
+2026-03-18 02:35:10,298 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/purim-carnival-under-the-sea-tickets-1980420984476
+2026-03-18 02:35:10,351 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976923082156
+2026-03-18 02:35:10,470 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/its-time-for-cantamos-tickets-1976918523521
+2026-03-18 02:35:10,515 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-sukkot-shake-your-lulav-and-etrog-tickets-1670001402149
+2026-03-18 02:35:10,519 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tu-bshvat-family-celebration-tickets-1977454610973
+2026-03-18 02:35:10,700 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/family-chanukah-festival-spark-tickets-1962765225626
+2026-03-18 02:35:10,720 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-jewish-writing-circle-december-1-2025-tickets-1296259329549
+2026-03-18 02:35:10,720 - INFO - Got 6 future events
+2026-03-18 02:35:10,720 - INFO - Found 6 events
+2026-03-18 02:35:10,722 - INFO - Written to cities/jweekly/eventbrite_jcc_east_bay.ics
+2026-03-18 02:35:10,869 - INFO - Scraping Jewish Baby Network East Bay
+2026-03-18 02:35:11,772 - INFO - Discovered 12 event URLs from organizer page
+2026-03-18 02:35:11,772 - INFO - Fetching 12 event pages (parallel)...
+2026-03-18 02:35:11,973 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-park-registration-1404168518839
+2026-03-18 02:35:11,975 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/get-ready-for-thanksgiving-registration-1810068606929
+2026-03-18 02:35:11,977 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1404019342649
+2026-03-18 02:35:12,009 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-by-the-lake-registration-1299962204949
+2026-03-18 02:35:12,018 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shake-the-lulav-sukkot-celebration-registration-1708176545029
+2026-03-18 02:35:12,257 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/apples-and-honey-rosh-hashanah-celebration-registration-1602970079659
+2026-03-18 02:35:12,259 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shavuot-ice-cream-party-registration-1319537836189
+2026-03-18 02:35:12,260 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-pride-party-registration-1369176928049
+2026-03-18 02:35:12,284 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/summer-tot-shabbat-registration-1485385059699
+2026-03-18 02:35:12,289 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/dreidels-dancing-and-donuts-registration-1963648697113
+2026-03-18 02:35:12,464 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sunday-fun-day-registration-1319521657799
+2026-03-18 02:35:12,487 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/east-bay-newborn-playgroup-for-babies-0-9-months-registration-1451170162019
+2026-03-18 02:35:12,488 - INFO - Got 0 future events
+2026-03-18 02:35:12,488 - INFO - Found 0 events
+2026-03-18 02:35:12,488 - INFO - Written to cities/jweekly/eventbrite_jbn_east_bay.ics
+2026-03-18 02:35:12,635 - INFO - Scraping Jewish Baby Network Peninsula
+2026-03-18 02:35:13,475 - INFO - Discovered 12 event URLs from organizer page
+2026-03-18 02:35:13,475 - INFO - Fetching 12 event pages (parallel)...
+2026-03-18 02:35:13,692 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451150603519
+2026-03-18 02:35:13,693 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rosh-hashanah-a-sweet-new-year-registration-1564809470249
+2026-03-18 02:35:13,714 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sukkot-party-in-the-sukkah-registration-1670336424209
+2026-03-18 02:35:13,721 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tot-shabbat-picnic-registration-1481949554009
+2026-03-18 02:35:13,734 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1316910347299
+2026-03-18 02:35:13,871 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/festival-of-lights-hanukkah-party-registration-1963549079153
+2026-03-18 02:35:13,917 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-in-the-garden-registration-1316839254659
+2026-03-18 02:35:13,932 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1314185035819
+2026-03-18 02:35:13,936 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-dinner-registration-1451147795119
+2026-03-18 02:35:13,995 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/fall-family-fun-havdalah-registration-1775217024909
+2026-03-18 02:35:14,059 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/thanksgiving-sunday-funday-registration-1830301203169
+2026-03-18 02:35:14,119 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/peninsula-newborn-playgroup-for-babies-0-9-months-registration-1574595009059
+2026-03-18 02:35:14,119 - INFO - Got 0 future events
+2026-03-18 02:35:14,119 - INFO - Found 0 events
+2026-03-18 02:35:14,120 - INFO - Written to cities/jweekly/eventbrite_jbn_peninsula.ics
+2026-03-18 02:35:14,266 - INFO - Scraping Jewish Baby Network SF
+2026-03-18 02:35:15,172 - INFO - Discovered 12 event URLs from organizer page
+2026-03-18 02:35:15,172 - INFO - Fetching 12 event pages (parallel)...
+2026-03-18 02:35:15,361 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/rosh-hashanah-extravaganza-registration-976502072987
+2026-03-18 02:35:15,391 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sf-newborn-playgroup-for-babies-0-9-months-registration-1008855603267
+2026-03-18 02:35:15,407 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sing-shalom-registration-1250085091159
+2026-03-18 02:35:15,415 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/tots-together-in-the-sukkah-registration-1008857348487
+2026-03-18 02:35:15,418 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sing-shalom-registration-1291976710119
+2026-03-18 02:35:15,517 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/intergenerational-gratitude-playdate-registration-1044518772767
+2026-03-18 02:35:15,597 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/shabbat-picnic-registration-942603862527
+2026-03-18 02:35:15,599 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/a-musical-mitzvah-morning-registration-1115844945269
+2026-03-18 02:35:15,620 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/love-you-a-latke-hanukkah-party-registration-1077875728319
+2026-03-18 02:35:15,623 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/sf-newborn-playgroup-for-babies-0-9-months-registration-1275219067559
+2026-03-18 02:35:15,676 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/love-you-a-latke-hanukkah-party-registration-1963578256423
+2026-03-18 02:35:15,760 - WARNING - No JSON-LD Event found at https://www.eventbrite.com/e/birthday-of-the-trees-registration-1124743220249
+2026-03-18 02:35:15,760 - INFO - Got 0 future events
+2026-03-18 02:35:15,760 - INFO - Found 0 events
+2026-03-18 02:35:15,761 - INFO - Written to cities/jweekly/eventbrite_jbn_sf.ics
+2026-03-18 02:35:34,701 - INFO - Processing meetup_bayareajews.ics...
+2026-03-18 02:35:34,701 - INFO -   Fetching image for: https://www.meetup.com/bayareajews/events/313611763/
+2026-03-18 02:35:35,432 - INFO -     -> https://secure.meetupstatic.com/photos/event/7/d/c/e/600_533012206.jpeg
+2026-03-18 02:35:35,433 - INFO - meetup_bayareajews.ics: added 1 image(s)
+2026-03-18 02:35:35,433 - INFO - Processing meetup_jewish_singles.ics...
+2026-03-18 02:35:35,433 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313436582/
+2026-03-18 02:35:36,180 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-18 02:35:36,181 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313779511/
+2026-03-18 02:35:36,960 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-18 02:35:36,960 - INFO -   Fetching image for: https://www.meetup.com/bay-area-jewish-singles-havurah/events/313566009/
+2026-03-18 02:35:39,914 - INFO -     -> https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+2026-03-18 02:35:39,914 - INFO - meetup_jewish_singles.ics: added 3 image(s)
+2026-03-18 02:35:39,915 - INFO - Processing meetup_mountain_jew.ics...
+2026-03-18 02:35:39,915 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313622190/
+2026-03-18 02:35:40,686 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/c/5/b/600_533235451.jpeg
+2026-03-18 02:35:40,686 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313805120/
+2026-03-18 02:35:41,422 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/c/7/4/600_533235476.jpeg
+2026-03-18 02:35:41,422 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313533755/
+2026-03-18 02:35:42,163 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/3/4/600_532920820.jpeg
+2026-03-18 02:35:42,163 - INFO -   Fetching image for: https://www.meetup.com/mountain-jew/events/313805122/
+2026-03-18 02:35:43,091 - INFO -     -> https://secure.meetupstatic.com/photos/event/3/b/c/c/600_533235308.jpeg
+2026-03-18 02:35:43,091 - INFO - meetup_mountain_jew.ics: added 4 image(s)
+2026-03-18 02:35:43,092 - INFO - Done. Total images added: 8

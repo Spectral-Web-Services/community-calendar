@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-18T02:31:58.615509",
+  "generated": "2026-03-18T02:35:46.313146",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -45184,7 +45184,7 @@
             },
             {
               "date": "2026-03-18",
-              "count": 36
+              "count": 37
             }
           ]
         },
@@ -45976,7 +45976,7 @@
             },
             {
               "date": "2026-03-18",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -46128,11 +46128,11 @@
       "categories": [
         {
           "category": "Religion / Spirituality",
-          "count": 585
+          "count": 586
         },
         {
           "category": "Education / Workshops",
-          "count": 174
+          "count": 173
         },
         {
           "category": "Community / Social",
@@ -46259,9 +46259,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 678,
+        "total_with_url": 677,
         "total_events": 1037,
-        "unique_urls": 497,
+        "unique_urls": 496,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 0,
@@ -46334,12 +46334,6 @@
             "specificity_pct": 100
           },
           {
-            "source": "Jvs",
-            "events": 3,
-            "unique_urls": 3,
-            "specificity_pct": 100
-          },
-          {
             "source": "Jccsf",
             "events": 3,
             "unique_urls": 3,
@@ -46349,6 +46343,12 @@
             "source": "Meetup Jewish Singles",
             "events": 3,
             "unique_urls": 3,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Jvs",
+            "events": 2,
+            "unique_urls": 2,
             "specificity_pct": 100
           },
           {
@@ -55020,11 +55020,5 @@
       "feed": "lion_publishers"
     }
   ],
-  "errors": [
-    {
-      "date": "2026-03-18",
-      "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json",
-      "source": "models"
-    }
-  ]
+  "errors": []
 }
