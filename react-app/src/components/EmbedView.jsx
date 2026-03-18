@@ -235,7 +235,7 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
 
   return (
     <FeedProvider collection={collection}>
-      <div ref={containerRef} className={`w-full px-3 py-4 ${isDark ? 'dark' : ''}`} style={{ backgroundColor: bg || 'transparent' }}>
+      <div ref={containerRef} className={`w-full py-4 ${isDark ? 'dark' : ''}`} style={{ backgroundColor: bg || 'transparent' }}>
         {!loading && events.length > 0 && (
           <SearchBar
             filterTerm={filterTerm}
