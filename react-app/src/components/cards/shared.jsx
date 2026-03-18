@@ -57,7 +57,10 @@ export function CategoryIcon({ category, color, size = 40, className = 'opacity-
 
 export const DEFAULT_ACCENT = { label: '#6b7280', background: '#f3f4f6' };
 
-export function useEventCardData(event, filterTerm, city) {
+export function useEventCardData(event, filterTerm, cityOverride) {
+  const { city: picksCity } = usePicks();
+  const feedCtx = useFeedContext();
+  const city = cityOverride || picksCity || feedCtx?.collection?.city;
   const displayTz = getDisplayTimezone(event, city);
   const dateParts = formatDateParts(event.start_time, displayTz);
   const dateStr = formatDayOfWeek(event.start_time, displayTz) + ' ' + formatMonthDay(event.start_time, displayTz);
