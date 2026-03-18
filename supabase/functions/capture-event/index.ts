@@ -25,6 +25,7 @@ function getSharedRules(defaultTimezone?: string): string {
 - If you cannot determine the exact time, make a reasonable guess (e.g., evening events at 19:00).
 - If end_time is unknown, estimate a reasonable duration (e.g., 1 hour for meetups, 2-3 hours for concerts/festivals).
 - If the date/time is completely unreadable, set start_time to null.
+- Any URLs should be absolute, not relative, including the protocol.
 - Keep description brief (1-2 sentences max).
 ${tzRule}
 - Return ONLY the JSON object, no markdown or explanation.`;
