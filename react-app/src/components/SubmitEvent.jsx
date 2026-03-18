@@ -26,10 +26,23 @@ function resizeImage(file, maxWidth = 1500, quality = 0.8) {
   });
 }
 
+const cityTimezones = {
+  petaluma: 'America/Los_Angeles',
+  portland: 'America/Los_Angeles',
+  bloomington: 'America/Indiana/Indianapolis',
+  boston: 'America/New_York',
+  evanston: 'America/Chicago',
+  roanoke: 'America/New_York',
+  matsu: 'America/Anchorage',
+  jweekly: 'America/Los_Angeles',
+  'publisher-resources': 'America/New_York',
+};
+
 export default function SubmitEvent({ city, onClose, onSubmitted }) {
   const { user, session } = useAuth();
   const { isCuratorForCity } = useCurator();
   const canCurate = isCuratorForCity(city);
+  const eventTimezone = cityTimezones[city] || 'America/Los_Angeles';
 
   const [tab, setTab] = useState('image');
   const [extracting, setExtracting] = useState(false);
@@ -87,7 +100,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
         'Content-Type': 'application/json',
         Authorization: 'Bearer ' + SUPABASE_ANON_KEY,
       },
-      body: JSON.stringify({ mode: 'extract-text', text }),
+      body: JSON.stringify({ mode: 'extract-text', text, timezone: eventTimezone }),
     });
     if (!res.ok) throw new Error('Extraction failed');
     return res.json();
@@ -106,6 +119,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
       const resized = await resizeImage(file);
       const formData = new FormData();
       formData.append('mode', 'extract');
+      formData.append('timezone', eventTimezone);
       formData.append('file', resized, 'image.jpg');
 
       const data = await extractFromImage(formData);
@@ -145,19 +159,6 @@ export default function SubmitEvent({ city, onClose, onSubmitted }) {
     const endTimeStr = endTime ? date + 'T' + endTime + ':00' : null;
 
     const submissionType = tab === 'image' ? 'image' : tab === 'text' ? 'text' : 'manual';
-
-    const cityTimezones = {
-      petaluma: 'America/Los_Angeles',
-      portland: 'America/Los_Angeles',
-      bloomington: 'America/Indiana/Indianapolis',
-      boston: 'America/New_York',
-      evanston: 'America/Chicago',
-      roanoke: 'America/New_York',
-      matsu: 'America/Anchorage',
-      jweekly: 'America/Los_Angeles',
-      'publisher-resources': 'America/New_York',
-    };
-    const eventTimezone = cityTimezones[city] || 'America/Los_Angeles';
 
     try {
       if (canCurate) {
