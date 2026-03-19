@@ -394,6 +394,7 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/bayareajews/events/ical/" -o meetup_bayareajews.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/Bay-Area-Jewish-Singles-Havurah/events/ical/" -o meetup_jewish_singles.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/mountain-jew/events/ical/" -o meetup_mountain_jew.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/jewishgeeks/events/ical/" -o meetup_jewish_geeks.ics || true
         cd ../..
 
     - name: Combine JWeekly ICS
