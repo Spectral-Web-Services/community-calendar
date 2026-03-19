@@ -137,7 +137,7 @@ def test_google_drive_image_url_converted():
     to a direct image URL."""
     content = 'ATTACH;FILENAME=logo.jpg;FMTTYPE=image/jpeg:https://drive.google.com/open?id=1JXQ1mnLqZB1mD_s4pxkNXzaFg7MsyeSd'
     url = extract_image_url(content)
-    assert url == 'https://drive.google.com/uc?export=view&id=1JXQ1mnLqZB1mD_s4pxkNXzaFg7MsyeSd'
+    assert url == 'https://lh3.googleusercontent.com/d/1JXQ1mnLqZB1mD_s4pxkNXzaFg7MsyeSd'
 
 
 def test_regular_image_url_unchanged():
