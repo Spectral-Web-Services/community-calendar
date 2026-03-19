@@ -20,6 +20,12 @@ cities/jweekly/eventbrite_jbn_east_bay.ics
 cities/jweekly/eventbrite_jbn_peninsula.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-san-francisco-60081113283" --name "Jewish Baby Network SF"
 cities/jweekly/eventbrite_jbn_sf.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/113723342691" --name "Jewish Engagement Center"
+cities/jweekly/eventbrite_jewish_engagement.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/120866518338" --name "B'nai Israel Jewish Center"
+cities/jweekly/eventbrite_bnai_israel.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/32366719089" --name "Taube Center for Jewish Peoplehood"
+cities/jweekly/eventbrite_taube_center.ics
 
 # --- Live feeds ---
 # iCal feed
@@ -46,3 +52,4 @@ https://calendar.google.com/calendar/ical/38p21cqhdqhliae6im7lms4has%40group.cal
 https://www.meetup.com/bayareajews/events/ical/
 https://www.meetup.com/Bay-Area-Jewish-Singles-Havurah/events/ical/
 https://www.meetup.com/mountain-jew/events/ical/
+https://www.meetup.com/jewishgeeks/events/ical/

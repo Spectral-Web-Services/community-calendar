@@ -358,6 +358,9 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-east-bay-56946956693" --name "Jewish Baby Network East Bay" --output cities/jweekly/eventbrite_jbn_east_bay.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253" --name "Jewish Baby Network Peninsula" --output cities/jweekly/eventbrite_jbn_peninsula.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-san-francisco-60081113283" --name "Jewish Baby Network SF" --output cities/jweekly/eventbrite_jbn_sf.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/113723342691" --name "Jewish Engagement Center" --output cities/jweekly/eventbrite_jewish_engagement.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/120866518338" --name "B'nai Israel Jewish Center" --output cities/jweekly/eventbrite_bnai_israel.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/32366719089" --name "Taube Center for Jewish Peoplehood" --output cities/jweekly/eventbrite_taube_center.ics || true
       continue-on-error: true
 
     - name: Download JWeekly feeds
@@ -391,6 +394,7 @@ jobs:
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/bayareajews/events/ical/" -o meetup_bayareajews.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/Bay-Area-Jewish-Singles-Havurah/events/ical/" -o meetup_jewish_singles.ics || true
         curl -sL -A "Mozilla/5.0" "https://www.meetup.com/mountain-jew/events/ical/" -o meetup_mountain_jew.ics || true
+        curl -sL -A "Mozilla/5.0" "https://www.meetup.com/jewishgeeks/events/ical/" -o meetup_jewish_geeks.ics || true
         cd ../..
 
     - name: Combine JWeekly ICS
