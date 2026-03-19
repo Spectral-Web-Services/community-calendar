@@ -196,13 +196,26 @@ def extract_datetime_field(event_content, field_name):
     return None
 
 
+def _convert_google_drive_url(url):
+    """Convert Google Drive sharing URLs to direct image URLs.
+
+    Google Calendar attaches images as drive.google.com/open?id=FILE_ID,
+    which doesn't serve the image directly.  Convert to the /uc?export=view
+    form which redirects to the actual image content.
+    """
+    m = re.match(r'https://drive\.google\.com/open\?id=([A-Za-z0-9_-]+)', url)
+    if m:
+        return f'https://drive.google.com/uc?export=view&id={m.group(1)}'
+    return url
+
+
 def extract_image_url(event_content):
     """Extract first image URL from ATTACH or vendor image fields."""
     # Match ATTACH with image FMTTYPE
     pattern = r'^ATTACH;[^:]*FMTTYPE=image/[^:]*:(.+)'
     match = re.search(pattern, event_content, re.IGNORECASE | re.MULTILINE)
     if match:
-        return match.group(1).strip()
+        return _convert_google_drive_url(match.group(1).strip())
     # Match Tockify featured image
     pattern = r'^X-TKF-FEATURED-IMAGE:(.+)'
     match = re.search(pattern, event_content, re.IGNORECASE | re.MULTILINE)

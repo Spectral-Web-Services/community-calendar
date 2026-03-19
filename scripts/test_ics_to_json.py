@@ -2,7 +2,7 @@
 import json
 import tempfile
 from pathlib import Path
-from ics_to_json import parse_ics_datetime, ics_to_json, load_city_timezone
+from ics_to_json import parse_ics_datetime, ics_to_json, load_city_timezone, extract_image_url
 from zoneinfo import ZoneInfo
 
 
@@ -130,3 +130,18 @@ END:VCALENDAR"""
     assert len(events) == 1
     assert events[0]['title'] == 'Monet & Venice'
     assert events[0]['start_time'] == '2026-04-15T13:00:00-07:00'
+
+
+def test_google_drive_image_url_converted():
+    """Google Calendar ATTACH with drive.google.com/open?id= should be converted
+    to a direct image URL."""
+    content = 'ATTACH;FILENAME=logo.jpg;FMTTYPE=image/jpeg:https://drive.google.com/open?id=1JXQ1mnLqZB1mD_s4pxkNXzaFg7MsyeSd'
+    url = extract_image_url(content)
+    assert url == 'https://drive.google.com/uc?export=view&id=1JXQ1mnLqZB1mD_s4pxkNXzaFg7MsyeSd'
+
+
+def test_regular_image_url_unchanged():
+    """Non-Google Drive image URLs should pass through unchanged."""
+    content = 'ATTACH;FMTTYPE=image/jpeg:https://example.com/photo.jpg'
+    url = extract_image_url(content)
+    assert url == 'https://example.com/photo.jpg'
