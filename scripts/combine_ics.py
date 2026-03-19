@@ -836,6 +836,7 @@ AGGREGATORS = {
     'Visit Chicago North Shore',
     'CitySpark Bloomington',
     'WFHB Community Calendar',
+    'Travel Portland',
 }
 
 
