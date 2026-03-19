@@ -41,7 +41,7 @@ function App() {
     };
   }, []);
 
-  const { user } = useAuth();
+  const { user, session } = useAuth();
   const { isCurator, isCuratorForCity } = useCurator();
   const canCurateCity = isCuratorForCity(city);
   const { featuredStore } = useFeatured();
@@ -54,7 +54,7 @@ function App() {
   const [showCreateEvent, setShowCreateEvent] = useState(false);
   const [showSubmitEvent, setShowSubmitEvent] = useState(false);
 
-  const { events, loading } = useEvents(city);
+  const { events, loading } = useEvents(city, session);
   const enrichments = useEnrichments(city);
   const rawColumnCount = useColumnCount();
   const columnCount = calcColumnCount(cardStyle, rawColumnCount);
