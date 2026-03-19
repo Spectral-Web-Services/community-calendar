@@ -6,6 +6,7 @@
 | Source | Type | Events | Notes |
 |--------|------|--------|-------|
 | KPTV Community Calendar | Tockify ICS | 160 | FOX 12 Oregon community events calendar |
+| Travel Portland | WP REST API scraper | ~750 (16k instances) | Tourism board aggregator; recurring events expanded to instances |
 
 ### Venues & Institutions
 | Source | Type | Events | Notes |

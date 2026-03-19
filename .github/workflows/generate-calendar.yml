@@ -532,6 +532,8 @@ jobs:
       env:
         TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       run: |
+        # Travel Portland (tourism board aggregator — WP REST API)
+        python scrapers/travelportland.py --output cities/portland/travelportland.ics || true
         python scrapers/legistar.py --client oregonmetro --source "Oregon Metro" --output cities/portland/legistar_oregon_metro.ics || true
         # Portland.gov city events (per category)
         python scrapers/portland_gov.py --type 329 --name "Portland Community Events" --output cities/portland/pdxgov_community.ics || true
@@ -605,6 +607,8 @@ jobs:
         curl -sL "https://pdxparent.com/?post_type=tribe_events&ical=1&eventDisplay=list" -o pdx_parent.ics || true
         curl -sL "https://anandaportland.org/?post_type=tribe_events&ical=1&eventDisplay=list" -o ananda_portland.ics || true
         curl -sL "https://calendar.google.com/calendar/ical/c_f7874efb584df10c8a9a4a06f0ec2562d20426bc84a0f89335fe20429c498448%40group.calendar.google.com/public/basic.ics" -o portland_public_schools.ics || true
+        # Stumptown Savings (Google Calendar — free/cheap Portland events)
+        curl -sL "https://calendar.google.com/calendar/ical/c_c3f3ddaa756f97af178bda500c049cdc81083cb60114ddccbc12fb8dae957796%40group.calendar.google.com/public/basic.ics" -o stumptown_savings.ics || true
         # Community tech calendar
         curl -sL "https://calagator.org/events.ics" -o calagator.ics || true
         # Athletics (SIDEARM Sports)

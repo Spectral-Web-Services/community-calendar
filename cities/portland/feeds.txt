@@ -3,6 +3,10 @@
 # Source of truth: .github/workflows/generate-calendar.yml
 
 # --- Scrapers ---
+# Aggregator
+# cmd: python scrapers/travelportland.py
+cities/portland/travelportland.ics
+
 # Government meetings
 # cmd: python scrapers/legistar.py --client oregonmetro --source "Oregon Metro"
 cities/portland/legistar_oregon_metro.ics
@@ -110,6 +114,7 @@ https://pdxparent.com/?post_type=tribe_events&ical=1&eventDisplay=list
 https://anandaportland.org/?post_type=tribe_events&ical=1&eventDisplay=list
 
 # Google Calendar
+https://calendar.google.com/calendar/ical/c_c3f3ddaa756f97af178bda500c049cdc81083cb60114ddccbc12fb8dae957796%40group.calendar.google.com/public/basic.ics
 https://calendar.google.com/calendar/ical/c_f7874efb584df10c8a9a4a06f0ec2562d20426bc84a0f89335fe20429c498448%40group.calendar.google.com/public/basic.ics
 https://www.google.com/calendar/ical/629tvcnf17grg9v0fgvge9pb7c%40group.calendar.google.com/public/basic.ics
 https://calendar.google.com/calendar/ical/kqt4cjm6mi8r1jpl3j5fpb8h0k%40group.calendar.google.com/public/basic.ics
