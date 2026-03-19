@@ -11,7 +11,7 @@ import UniformGrid from './UniformGrid.jsx';
 import StyleSwitcher from './StyleSwitcher.jsx';
 
 export default function FeedView({ feedId }) {
-  const { collection, events: rawEvents, loading } = useCollection(feedId);
+  const { collection, events: rawEvents, loading } = useCollection(feedId, true);
   const { user } = useAuth();
   const { removeEventFromCollection } = useCollections();
   const rawColumnCount = useColumnCount();

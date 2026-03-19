@@ -3,8 +3,11 @@ import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
 import { applyEnrichments } from '../lib/helpers.js';
 import { buildSourceFilter } from '../lib/sourceFilter.js';
 
-/** Fetch a single public collection + its events (no auth required). */
-export function useCollection(feedId) {
+/** Fetch a single collection + its events.
+ *  When authenticated=true (FeedView), queries events directly so curators
+ *  see their private sources.  When false (EmbedView), queries embed_events
+ *  which excludes hidden sources. */
+export function useCollection(feedId, authenticated = false) {
   const [collection, setCollection] = useState(null);
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -41,8 +44,9 @@ export function useCollection(feedId) {
           if (featuredIds.length === 0) { setFeaturedLoading(false); return; }
 
           const idsParam = featuredIds.map(id => encodeURIComponent(id)).join(',');
+          const ftTable = authenticated ? 'events' : 'embed_events';
           return fetch(
-            `${SUPABASE_URL}/rest/v1/events?id=in.(${idsParam})&select=*`,
+            `${SUPABASE_URL}/rest/v1/${ftTable}?id=in.(${idsParam})&select=*`,
             { headers }
           ).then(r => r.json()).then(data => {
             const featured = applyEnrichments(Array.isArray(data) ? data : [], enr);
@@ -53,11 +57,13 @@ export function useCollection(feedId) {
 
         let rawEvents;
 
+        const eventsTable = authenticated ? 'events' : 'embed_events';
+
         if (col.type === 'auto') {
-          // Auto-collection: query events directly using rules
+          // Auto-collection: query events using rules
           const rules = col.rules || {};
           const now = new Date().toISOString();
-          let url = `${SUPABASE_URL}/rest/v1/events?city=eq.${encodeURIComponent(col.city)}&start_time=gte.${now}&order=start_time.asc&select=*`;
+          let url = `${SUPABASE_URL}/rest/v1/${eventsTable}?city=eq.${encodeURIComponent(col.city)}&start_time=gte.${now}&order=start_time.asc&select=*`;
           url += buildSourceFilter(rules.sources);
           if (rules.categories?.length) {
             url += `&category=in.(${rules.categories.map(c => encodeURIComponent(c)).join(',')})`;
