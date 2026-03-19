@@ -4,19 +4,6 @@ PRODID:-//The Bluebird//thebluebird.ws//
 X-WR-CALNAME:The Bluebird
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:Michael Shannon & Jason Narducy and Friends
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260317T200000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260317T200000
-UID:9631e1ed8e1fa3e22bb5240bcf4028ff@thebluebird.ws
-ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2025/0
- 9/SHANNON-NARDUCY-WEB-BIRD.jpg
-DESCRIPTION:
-LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
-URL:https://wl.seetickets.us/event/Michael-Shannon-and-Jason-Narducy-and-F
- riends/665157?afflky=BluebirdNightclub
-X-SOURCE:The Bluebird
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lucero
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T200000
@@ -130,6 +117,19 @@ DESCRIPTION:
 LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
 URL:https://wl.seetickets.us/event/90s-Country-Night-w-Jake-Dodds/683194?a
  fflky=BluebirdNightclub
+X-SOURCE:The Bluebird
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rod Tuffcurls & The Benchpress
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T210000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T210000
+UID:5aee35391d2923933be5be591c69dc31@thebluebird.ws
+ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
+ 2/ROD-TUFFCURLS-WEB-BIRD.jpg
+DESCRIPTION:
+LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
+URL:https://wl.seetickets.us/event/Rod-Tuffcurls-and-The-Benchpress/682400
+ ?afflky=BluebirdNightclub
 X-SOURCE:The Bluebird
 END:VEVENT
 END:VCALENDAR

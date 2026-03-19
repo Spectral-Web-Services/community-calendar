@@ -4,22 +4,6 @@ PRODID:-//Portland Council Meetings//portland.gov//
 X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:City Council Meeting
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260318T093000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260318T093000
-UID:60327f54022474c6d0c6b4e37d216c2d@portland.gov
-DESCRIPTION:City Council holds regular meetings at 9:30 a.m. on the first\
- , second\, fourth and fifth Wednesday and 6:00 p.m. on the third Wednesday
-  of each month. If there is sufficient business\, additional meetings are 
- held the following Thursday at 2:00 p.m.
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/3/18/city-c
- ouncil-meeting
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:City Council Work Session
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260319T140000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260319T140000
@@ -60,6 +44,19 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/1/city-co
  uncil-meeting
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Work Session
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T140000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T140000
+UID:cad4950ce0cee161cfdbd4b4b2fa77da@portland.gov
+DESCRIPTION:FY 2025-26 Spring Technical Adjustment Ordinance Session 2
+LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
+ um Portland\,\n                                OR\n                       
+                    97204 Get directions More about this location
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/1/city-co
+ uncil-work-session
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -135,6 +132,20 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/8/city-co
  uncil-meeting
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Work Session
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T140000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T140000
+UID:dbe261226cf5f85f1a6d3c9f134ecd2b@portland.gov
+DESCRIPTION:Budget Work Session: Forecast update and service area follow-u
+ p
+LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
+ um Portland\,\n                                OR\n                       
+                    97204 Get directions More about this location
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/8/city-co
+ uncil-work-session
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 BEGIN:VEVENT

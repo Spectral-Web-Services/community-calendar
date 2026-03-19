@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.25515//EN
+PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.25518//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 X-WR-CALNAME:TTS-WMS Managed|Theatre\, Dance\, and Performance Studies
@@ -269,6 +269,52 @@ IMAGE;VALUE=URI:https://www.trumba.com/i/DgCithmr-wUiVjLlBGzGjF6m.jpg
 UID:http://uid.trumba.com/event/198218561
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
  mbed=view%3devent%26eventid%3d198218561
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Guest Lecture with Michelle Liu Carriger
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260409T120000
+DTEND;TZID=America/New_York:20260409T133000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Alu
+ mnae Lounge
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+DTSTAMP:20260318T094254Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
+ mpus: Medford/Somerville campus\nLocation Details: Alumnae Lounge\nOpen 
+ to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: School of A
+ rts and Sciences\n\nRehearsal as Research: “Japanese Tea Ceremony” in Pr
+ actice and in Performance\n\nIn contemporary Japanese Tea (chanoyu\, cha
+ do\, or “Japanese tea ceremony”)\, practitioners learn to distinguish be
+ tween “practice” in the sense of rehearsal\, as carried out in weekly re
+ curring sessions with an instructor versus what is often called “real te
+ a\,” corresponding to the sense of performance\, the public culmination 
+ of rehearsal. Despite the seeming primacy of the “real” Performance\, mo
+ st practitioners end up spending the vast majority of the time they spen
+ t doing tea in rehearsal\, not in performance. Of course\, such a divide
+  is also fundamental to theater practice as well\, and paying more atten
+ tion to what is learned in each format and where scholars derive their k
+ nowledge of the whole practice may open new insights into where and how 
+ performative norms like “identity” and “culture” are maintained\, perpet
+ uated\, and evolve.
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/198926872
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d198926872
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Spring 2026 Dance Concert

@@ -4,16 +4,6 @@ PRODID:-//Bloomington Chamber of Commerce//chamberbloomington.org//
 X-WR-CALNAME:Bloomington Chamber of Commerce
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:Bloomington Community Fun Day at DSI
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T133000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T133000
-UID:85e9360dc3a193cf6621f5412a68f88b@chamberbloomington.org
-DESCRIPTION:
-URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=642
- 5
-X-SOURCE:Bloomington Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Member to Member Educational Program: Become a Speaker
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T100000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T100000
@@ -293,6 +283,16 @@ UID:5d5319c6a72f3332604d0111ab9e8ce4@chamberbloomington.org
 DESCRIPTION:
 URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=625
  6
+X-SOURCE:Bloomington Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Duck Race Festival
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260502T110000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260502T110000
+UID:7b8916974b6327e4c6b660253f280ffc@chamberbloomington.org
+DESCRIPTION:
+URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=643
+ 3
 X-SOURCE:Bloomington Chamber of Commerce
 END:VEVENT
 BEGIN:VEVENT

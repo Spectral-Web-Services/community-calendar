@@ -4776,6 +4776,19 @@ UID:4015
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4722
+DTEND;TZID=America/Chicago:20260320T100000
+DTSTAMP;TZID=America/Chicago:20260318T113915
+DTSTART;TZID=America/Chicago:20260320T090000
+LAST-MODIFIED;TZID=America/Chicago:20260318T113915
+LOCATION:Station 16 (Headquarters)  - 7424 Niles Center Road  Skokie IL 60
+ 077
+SEQUENCE:0
+SUMMARY:Foreign Fire Insurance Board
+UID:4722
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=3488
 DTEND;TZID=America/Chicago:20260319T220000
 DTSTAMP;TZID=America/Chicago:20260313T145402
@@ -4786,30 +4799,6 @@ LOCATION:Skokie Village Hall > Council Chambers - 5127 Oakton Street  Skok
 SEQUENCE:0
 SUMMARY:Plan Commission
 UID:3488
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4276
-DTEND;TZID=America/Chicago:20260318T203000
-DTSTAMP;TZID=America/Chicago:20250923T154403
-DTSTART;TZID=America/Chicago:20260318T190000
-LAST-MODIFIED;TZID=America/Chicago:20250923T154403
-LOCATION:Skokie Police Station - 7300 Niles Center Road  Skokie IL 60077
-SEQUENCE:0
-SUMMARY:Public Safety Commission
-UID:4276
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4293
-DTEND;TZID=America/Chicago:20260318T180000
-DTSTAMP;TZID=America/Chicago:20260313T131711
-DTSTART;TZID=America/Chicago:20260318T163000
-LAST-MODIFIED;TZID=America/Chicago:20260313T131711
-LOCATION:Conference Rooms D&amp\;E - 5127 Oakton Street  Skokie IL 60077
-SEQUENCE:0
-SUMMARY:Economic Development Commission
-UID:4293
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
 END:VCALENDAR

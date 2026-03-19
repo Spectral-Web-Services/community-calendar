@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_312937491@meetup.com
-SEQUENCE:1
-DTSTAMP:20260318T015455Z
-DTSTART;TZID=America/Los_Angeles:20260317T190000
-DTEND;TZID=America/Los_Angeles:20260317T210000
-SUMMARY:PDXCPP - Monthly Meetup
-DESCRIPTION:PDXCPP: The Portland C++ User Group\nWe're very excited to welcome you to the Portland C++ User's Group (PDXCPP) meetup! Join us in downtown Portland to hobnob\, learn\,\nand share with other Modern C++ enthusiasts! Bring your C++ questions\,\nstories of coding adventure\, and tales of debugger derring-do!\n\nThis month\, we will be meeting at the Lucky Labrador Brewpub on SE Hawthorne.\n\nNOTE: We're not really meant to be a "bar group"\, as kind as the folks at Lucky Lab have been. We are seeking a suitable small venue space\, preferably with whiteboards and projectors. If your company is interested in hosting our group\, please contact us!\n\n\\-\\- Your PDXCPP Organizers
-URL;VALUE=URI:https://www.meetup.com/pdxcpp/events/312937491/
-STATUS:CONFIRMED
-CREATED:20260118T035037Z
-LAST-MODIFIED:20260118T035037Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_312937493@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20260421T190000
 DTEND;TZID=America/Los_Angeles:20260421T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312937495@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20260519T190000
 DTEND;TZID=America/Los_Angeles:20260519T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312937500@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20260616T190000
 DTEND;TZID=America/Los_Angeles:20260616T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_fvprbtyjckbcc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20260721T190000
 DTEND;TZID=America/Los_Angeles:20260721T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_fvprbtyjclbxb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20260818T190000
 DTEND;TZID=America/Los_Angeles:20260818T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_fvprbtyjcmbtb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20260915T190000
 DTEND;TZID=America/Los_Angeles:20260915T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_fvprbtyjcnbbc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20261020T190000
 DTEND;TZID=America/Los_Angeles:20261020T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_fvprbtyjcpbwb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20261117T190000
 DTEND;TZID=America/Los_Angeles:20261117T210000
 SUMMARY:PDXCPP - Monthly Meetup
@@ -162,12 +147,27 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_fvprbtyjcqbtb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015455Z
+DTSTAMP:20260319T022110Z
 DTSTART;TZID=America/Los_Angeles:20261215T190000
 DTEND;TZID=America/Los_Angeles:20261215T210000
 SUMMARY:PDXCPP - Monthly Meetup
 DESCRIPTION:PDXCPP: The Portland C++ User Group\nWe're very excited to welcome you to the Portland C++ User's Group (PDXCPP) meetup! Join us in downtown Portland to hobnob\, learn\,\nand share with other Modern C++ enthusiasts! Bring your C++ questions\,\nstories of coding adventure\, and tales of debugger derring-do!\n\nThis month\, we will be meeting at the Lucky Labrador Brewpub on SE Hawthorne.\n\nNOTE: We're not really meant to be a "bar group"\, as kind as the folks at Lucky Lab have been. We are seeking a suitable small venue space\, preferably with whiteboards and projectors. If your company is interested in hosting our group\, please contact us!\n\n\\-\\- Your PDXCPP Organizers
 URL;VALUE=URI:https://www.meetup.com/pdxcpp/events/fvprbtyjcqbtb/
+STATUS:CONFIRMED
+CREATED:20230117T043858Z
+LAST-MODIFIED:20230117T043858Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/7/5/d/e/600_473430174.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_fvprbtykccbzb@meetup.com
+SEQUENCE:1
+DTSTAMP:20260319T022110Z
+DTSTART;TZID=America/Los_Angeles:20270119T190000
+DTEND;TZID=America/Los_Angeles:20270119T210000
+SUMMARY:PDXCPP - Monthly Meetup
+DESCRIPTION:PDXCPP: The Portland C++ User Group\nWe're very excited to welcome you to the Portland C++ User's Group (PDXCPP) meetup! Join us in downtown Portland to hobnob\, learn\,\nand share with other Modern C++ enthusiasts! Bring your C++ questions\,\nstories of coding adventure\, and tales of debugger derring-do!\n\nThis month\, we will be meeting at the Lucky Labrador Brewpub on SE Hawthorne.\n\nNOTE: We're not really meant to be a "bar group"\, as kind as the folks at Lucky Lab have been. We are seeking a suitable small venue space\, preferably with whiteboards and projectors. If your company is interested in hosting our group\, please contact us!\n\n\\-\\- Your PDXCPP Organizers
+URL;VALUE=URI:https://www.meetup.com/pdxcpp/events/fvprbtykccbzb/
 STATUS:CONFIRMED
 CREATED:20230117T043858Z
 LAST-MODIFIED:20230117T043858Z

@@ -178,6 +178,18 @@ UID:1439
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1449
+DTEND;TZID=America/New_York:20260424T210000
+DTSTAMP;TZID=America/New_York:20260317T150807
+DTSTART;TZID=America/New_York:20260424T170000
+LAST-MODIFIED;TZID=America/New_York:20260317T150807
+LOCATION:Farmers Market - 3 E. Main Street  Salem VA 24153
+SEQUENCE:0
+SUMMARY:Salem After Five: Blackwater
+UID:1449
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1354
 DTEND;TZID=America/New_York:20260419T160000
 DTSTAMP;TZID=America/New_York:20251119T103837
@@ -283,31 +295,6 @@ LOCATION:Salem Civic Center - 1001 Roanoke Blvd.  Salem VA 24153
 SEQUENCE:0
 SUMMARY:Be Like Blippi Tour!
 UID:1331
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1434
-DTEND;TZID=America/New_York:20260318T103000
-DTSTAMP;TZID=America/New_York:20260228T125548
-DTSTART;TZID=America/New_York:20260318T073000
-LAST-MODIFIED;TZID=America/New_York:20260228T125548
-LOCATION:Salem Civic Center Community Room - 1001 Roanoke Blvd.  Salem VA 
- 24153
-SEQUENCE:0
-SUMMARY:Salem Roanoke County Chamber Annual Awards Breakfast
-UID:1434
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1386
-DTEND;TZID=America/New_York:20260317T235900
-DTSTAMP;TZID=America/New_York:20260228T122901
-DTSTART;TZID=America/New_York:20260317T193000
-LAST-MODIFIED;TZID=America/New_York:20260228T122901
-LOCATION:Salem Civic Center - 1001 Roanoke Blvd.  Salem VA 24153
-SEQUENCE:0
-SUMMARY:Filter | Finger Eleven | Local H
-UID:1386
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR

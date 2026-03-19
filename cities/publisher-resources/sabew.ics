@@ -51,7 +51,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260322
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20260122T032258Z
 LAST-MODIFIED:20260224T192740Z
 UID:68744-1773878400-1774137599@sabew.org
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260412
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20260121T220323Z
 LAST-MODIFIED:20260224T192512Z
 UID:68637-1775952000-1776383999@sabew.org
@@ -75,9 +75,21 @@ CATEGORIES:Fellowship,In-Person Training,Networking
 ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/02/Goldschmidt-Fellows-Graphic-2026-updated-date-1.png
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260422T130000
+DTEND;TZID=America/New_York:20260422T140000
+DTSTAMP:20260318T222534
+CREATED:20260318T152735Z
+LAST-MODIFIED:20260318T153158Z
+UID:70136-1776862800-1776866400@sabew.org
+SUMMARY:Crafting a resume that increases your odds of landing in the ‘yes’ pile
+DESCRIPTION:If you’re looking to make a career move\, the first hurdle you’ll likely face is getting your resume past the applicant tracking system. This webinar will offer tips on how to format your resume to boost the likelihood it will be seen by a human and get the consideration it deserves. The panel will discuss how to select keywords to use so that once your application makes it through any filters\, it will impress the hiring manager. You will receive actionable advice\, such as which tools to use to test your resume and how to get AI to work for you in your job search. \nIf you lost your job in 2026\, SABEW wants to help. We are offering one-year complimentary memberships for those who have been affected by newsroom cuts. Join SABEW\, the association for business journalists\, to access virtual training sessions\, like this one\, and other membership benefits. Complete this form and someone from SABEW will be in contact with you. \nPanelists:\nSarah Babbage\, news team lead at Bloomberg\nHilke Schellman\, professor in New York University’s Arthur L. Carter Journalism Institute\, author of “The Algorithm: How AI Decides who Gets Hired\, Monitored\, Promoted and Fired\, and Why We Need to Fight Back Now” \nRegistration:\nThis is a free webinar\, but you must register below to receive the Zoom link.
+URL:https://sabew.org/event/crafting-a-resume-that-increases-your-odds-of-landing-in-the-yes-pile/
+CATEGORIES:Virtual Training
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260506
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20260226T160353Z
 LAST-MODIFIED:20260312T142856Z
 UID:70005-1778025600-1778371199@sabew.org
@@ -90,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20250730T220320Z
 LAST-MODIFIED:20260313T162658Z
 UID:66733-1778112000-1778371199@sabew.org

@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313734783@meetup.com
-SEQUENCE:1
-DTSTAMP:20260318T015458Z
-DTSTART;TZID=America/Los_Angeles:20260318T100000
-DTEND;TZID=America/Los_Angeles:20260318T123000
-SUMMARY:Southwest Portland Rectangular Adventure
-DESCRIPTION:Portland City Trail Walking Group\n**Think you know Southwest Portland? Think again. Beneath all those windy streets and confusing intersections\, there’s actually a sneaky network of trails zig-zagging through ravines\, parks\, and neighborhoods — and we’re going to connect the dots.**\n\n**We’ll form a rough rectangle (because circles are overrated)\, starting north on Southwest Trail #7\, cutting east on #4\, then south on #6\, and finally west on #5 until we reconnect with #7 to close the loop - er\, rectangle.**\n\n**Expect a mix of quiet city streets\, where you’ll doubt they ever lead anywhere\, plus a few “shortcuts” that prove otherwise.**\n\n**Along the way\, we’ll meander through Multnomah Village\, Marshall Park\, Maricara Nature Park\, and Woods Memorial Nature Park — basically Portland’s greatest hits of “wait\, I didn’t know this was here.” We’ll even cross I‑5 twice (safely\, via overpasses\, not parkour).**\n\n**The stats: 6.5 miles\, about 700 feet of elevation gain\, 2½ hours of adventure give or take\, depending on how easily we’re distracted by plants and viewpoints.**\n\n**Meet at SW Carson & SW 42nd — plenty of street parking and no excuses. Bring water\, sun protection (wishful thinking?) or raingear\, and your best “look\, a hidden trail!” enthusiasm. This is a rain or shine event\, so think positive thoughts for glorious weather.**\n\n**Questions? Send me a message before I wander off.**
-URL;VALUE=URI:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313734783/
-STATUS:CONFIRMED
-CREATED:20260310T231157Z
-LAST-MODIFIED:20260310T231157Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/a/b/2/600_532767314.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313527283@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260319T100000
 DTEND;TZID=America/Los_Angeles:20260319T120000
 SUMMARY:THURSDAY **10 AM** Holman Lane to Pittock Mansion 
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313727467@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260320T100000
 DTEND;TZID=America/Los_Angeles:20260320T120000
 SUMMARY:Oswego - Off We Go 
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313806764@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260320T100000
 DTEND;TZID=America/Los_Angeles:20260320T120000
 SUMMARY:*** 10 AM Hilly Walk in NW Portland Forest Heights Trails
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313403966@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T120000
 SUMMARY:**10 AM** Walk to Coffee in SW Portland **10 AM**
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313825068@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T130000
 SUMMARY:Hike Rowland Basin (5.2 miles\, +1200 feet)
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313721157@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260324T100000
 DTEND;TZID=America/Los_Angeles:20260324T120000
 SUMMARY:**10 AM** Portland Heights Stair Walk
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313734803@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260325T093000
 DTEND;TZID=America/Los_Angeles:20260325T123000
 SUMMARY:Bull Mountain Urban‑Wild Hills Challenge
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313670351@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260326T100000
 DTEND;TZID=America/Los_Angeles:20260326T120000
 SUMMARY:THURSDAY **10 AM** Holman Lane to Pittock Mansion 
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313408479@meetup.com
 SEQUENCE:1
-DTSTAMP:20260318T015458Z
+DTSTAMP:20260319T022112Z
 DTSTART;TZID=America/Los_Angeles:20260327T100000
 DTEND;TZID=America/Los_Angeles:20260327T120000
 SUMMARY:"Groovin' and 'Couvin" 2.0 Vancouver Downtown\, Waterfront & Renaissance Trail 
@@ -173,6 +158,21 @@ CREATED:20260218T041426Z
 LAST-MODIFIED:20260218T041426Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/9/b/6/600_532795734.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313403967@meetup.com
+SEQUENCE:1
+DTSTAMP:20260319T022112Z
+DTSTART;TZID=America/Los_Angeles:20260329T100000
+DTEND;TZID=America/Los_Angeles:20260329T120000
+SUMMARY:**10 AM** Walk to Coffee in SW Portland **10 AM**
+DESCRIPTION:Portland City Trail Walking Group\nHilly 5 miles roundtrip down about 450' from the Hillsdale Library to Elephant's Deli on SW Corbett Ave.\nAbout 25 minutes for coffee break\, then return to start\, passing thru the Hillsdale Farmer's Market (if it’s open). NOTE: Sections of the hike are steep & hilly\, and are not recommended for people who are new to hiking.
+URL;VALUE=URI:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313403967/
+STATUS:CONFIRMED
+CREATED:20260217T224340Z
+LAST-MODIFIED:20260217T224340Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/2/a/7/600_507713927.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/ical/
 X-WR-CALNAME:Portland City Trail Walking Group

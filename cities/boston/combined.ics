@@ -7,76 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A743GJ"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260317T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260317T190000
-UID:de4cbdb74575375d4ac704da36502cc1@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A743GJ
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260317T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260317T190000
-UID:12342aa173243f52d0cc57c993c04ff0@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/newfest-short-works-2026/"}
-X-SOURCE-ID:emerson_theatres
-X-SOURCE:Emerson Theatres
-DTSTART;TZID=America/New_York:20260318T000000
-DTEND;TZID=America/New_York:20260321T235959
-DTSTAMP:20260316T221809
-CREATED:20250905T193246Z
-LAST-MODIFIED:20260206T170333Z
-UID:10000038-1773792000-1774137599@emersontheatres.org
-SUMMARY:NEWFEST: SHORT WORKS 2026
-DESCRIPTION:NEWFEST: SHORT WORKS 2026\n\n\n\n\nA festival of short plays written\, directed\, and performed by Emerson College Performing Arts students. \n\n\n\nPLEASE NOTE: This is a free event. Guests will be seated on a first-come\, first-served basis upon arrival. Reserving your tickets does not necessarily guarantee admission\, but we rarely turn anyone away from our free events. Please plan to arrive early—ideally 20 to 30 minutes before showtime—to ensure entry. \n\n\n\n\n\n\n\nTo reserve your tickets\, please fill out this form: \n\n\n\nTickets\n\n\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Info\n\n\n\nTo reserve your tickets\, please fill out this form: \n\n\n\nTickets\n\n\n\nVenue\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n1 Hour 45 Mins \n\n\n\n\n\n\n\n\n\n\n\nAge 12+ \n\n\n\n\n\n\n\n\n\n\n\nFree with RSVP \n\n\n\n\n\nHealth & Safety Information
-URL:https://emersontheatres.org/event/newfest-short-works-2026/
-LOCATION:Semel Theatre\, 10 Boylston Pl\, Boston\, Massachusetts\, 02116\, United States
-ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/09/NewWorksThumb.png
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T210000
-UID:da4b87e48c88a3dd134142b3de0fa83e@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A74feK"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T190000
-UID:0abdd6c2e9e7a50c4ca9ecd7c1498306@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A74feK
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
 SUMMARY:Suffs
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T190000
@@ -1578,6 +1508,54 @@ URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-F-y
 X-SOURCE:Emerson Colonial Theatre
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-ID:tufts_tdps
+X-SOURCE:Tufts Tdps
+SUMMARY:Guest Lecture with Michelle Liu Carriger
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260409T120000
+DTEND;TZID=America/New_York:20260409T133000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Alu
+ mnae Lounge
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+DTSTAMP:20260318T094254Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
+ mpus: Medford/Somerville campus\nLocation Details: Alumnae Lounge\nOpen 
+ to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: School of A
+ rts and Sciences\n\nRehearsal as Research: “Japanese Tea Ceremony” in Pr
+ actice and in Performance\n\nIn contemporary Japanese Tea (chanoyu\, cha
+ do\, or “Japanese tea ceremony”)\, practitioners learn to distinguish be
+ tween “practice” in the sense of rehearsal\, as carried out in weekly re
+ curring sessions with an instructor versus what is often called “real te
+ a\,” corresponding to the sense of performance\, the public culmination 
+ of rehearsal. Despite the seeming primacy of the “real” Performance\, mo
+ st practitioners end up spending the vast majority of the time they spen
+ t doing tea in rehearsal\, not in performance. Of course\, such a divide
+  is also fundamental to theater practice as well\, and paying more atten
+ tion to what is learned in each format and where scholars derive their k
+ nowledge of the whole practice may open new insights into where and how 
+ performative norms like “identity” and “culture” are maintained\, perpet
+ uated\, and evolve.
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/198926872
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d198926872
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/when-playwrights-kill/"}
 X-SOURCE-ID:boston_theatre_scene
 SUMMARY:When Playwrights Kill
@@ -2226,6 +2204,20 @@ URL:https://ci.ovationtix.com/2462/production/1245598
 X-SOURCE:Central Square Theater
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Elegant Frictions
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T200000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T220000
+UID:1fbd90a104d13323bf62be7c38131b27@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-17-2026/event/01006350B720CC00"}
 X-SOURCE-ID:ticketmaster_citizens_opera
 SUMMARY:Disney's Beauty and the Beast (Touring)
@@ -2382,6 +2374,20 @@ URL:https://www.bu.edu/cfa/news/calendar/
 X-SOURCE:BU School of Theatre
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Elegant Frictions
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260418T200000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T220000
+UID:7e4a8c0cb1d5505d28821406d1788785@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Citizens Opera House": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-19-2026/event/01006350B726CC0B"}
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-19-2026/event/01006350B728CC0D"}
 X-SOURCE-ID:ticketmaster_citizens_opera
@@ -2448,6 +2454,20 @@ DESCRIPTION:
 LOCATION:Central Square Theater
 URL:https://ci.ovationtix.com/2462/production/1245598
 X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Elegant Frictions
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T160000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T180000
+UID:f7ee60ed862ce737c973e90f8163d921@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
+X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-21-2026/event/01006350B72ACC10"}
@@ -3209,9 +3229,9 @@ X-SOURCE-URLS:{"Citizens Opera House": "https://www.ticketmaster.com/disneys-bea
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-30-2026/event/01006350B741CC46"}
 X-SOURCE-ID:ticketmaster_citizens_opera
 SUMMARY:Disney's Beauty and the Beast (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T130000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T130000
-UID:588f1367ee49d241d2215b9831d264d7@ticketmaster.com
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T110000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T110000
+UID:5ccceb06a2a14d5a740f8f19e7d64a80@ticketmaster.com
 ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/d79/77d6e32c-631c-4
  539-bd38-1b848f90cd79_RETINA_PORTRAIT_16_9.jpg
 DESCRIPTION:
@@ -3619,10 +3639,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260507T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260507T210000
-UID:d4f1e2f1c848b18586f8cd8152695cb5@bostontheatrescene.com
+UID:6dfed6900a6bda3d6e06f7c9071b87ea@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -3674,10 +3694,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260508T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260508T213000
-UID:3396059d3acc09ec5c56941749d3b263@bostontheatrescene.com
+UID:8a5542080c0ef2818970764cb3a19679@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -3746,10 +3766,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260509T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260509T213000
-UID:620ac8f7d0ca838ef04f125b30a3055f@bostontheatrescene.com
+UID:23ca56e8f18d67b1774e4856f047cef5@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -3801,10 +3821,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260510T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260510T210000
-UID:6b4da830a721f646c3cbd456a4c72150@bostontheatrescene.com
+UID:a1ca06accd38180d41bd27fe0b83e07e@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -3840,10 +3860,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260512T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260512T210000
-UID:bc7eee337bc73f2d0e8459c7f5e8093a@bostontheatrescene.com
+UID:5626efa9df7a30316a4c7cb8a3518cc1@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -3869,10 +3889,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260513T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260513T210000
-UID:4832e543c8fe4fdc373e32387640f1fd@bostontheatrescene.com
+UID:1253041bf819d67f28b73ae8418fbc18@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -3912,10 +3932,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260514T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260514T210000
-UID:b993fe3ee7f361816b4decc53b49bca6@bostontheatrescene.com
+UID:07f3ce48ba0e30a51e7631dd4efb3180@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -4011,10 +4031,10 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260515T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260515T213000
-UID:b16bde147b7d4106a3e0570004c5b565@bostontheatrescene.com
+UID:1cbe2dcd20c5881992276bbc620b01f9@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -4072,10 +4092,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260516T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260516T160000
-UID:7e2511ef96ad30c565c0cef656dab1d2@bostontheatrescene.com
+UID:5f84e12b66d1520811e55da21aacb9c4@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -4130,10 +4150,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
 X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Oedipus El Rey
+SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260517T130000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260517T150000
-UID:85ad18a906389194ffd359524daa281a@bostontheatrescene.com
+UID:44ba335a4387efeea5ae9975de75f21b@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity
@@ -4181,6 +4201,45 @@ DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/something-rotten/
 X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1247439"}
+X-SOURCE-ID:ovationtix_wheelock
+SUMMARY:Charlotte's Web
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260518T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260518T160000
+UID:4e27667e0c4ce2bf0fad743bdb8ec6ce@ovationtix.com
+DESCRIPTION:
+LOCATION:Wheelock Family Theatre
+URL:https://ci.ovationtix.com/177/production/1247439
+X-SOURCE:Wheelock Family Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1247439"}
+X-SOURCE-ID:ovationtix_wheelock
+SUMMARY:Charlotte's Web
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260519T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260519T160000
+UID:b4292d2bd9c59d9da9ff55bc18158aed@ovationtix.com
+DESCRIPTION:
+LOCATION:Wheelock Family Theatre
+URL:https://ci.ovationtix.com/177/production/1247439
+X-SOURCE:Wheelock Family Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260519T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260519T210000
+UID:2ad9b9448402ebdefdf87eacb56cd5d8@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}

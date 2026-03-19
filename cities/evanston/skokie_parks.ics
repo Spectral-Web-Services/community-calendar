@@ -4,17 +4,6 @@ PRODID:-//Skokie Park District//skokieparks.org//
 X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Evoke Jewish Performance Collective Presents "Double Take"
-DTSTART;VALUE=DATE-TIME:20260318T193000
-DTEND;VALUE=DATE-TIME:20260318T193000
-UID:51aeeb1e55e4488fe0da6cd5c71b1638@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/evoke-jewish-performance-collective
- -presents-double-take/?F_d=03-18-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Adults Over 60: Milwaukee Public Museum
 DTSTART;VALUE=DATE-TIME:20260319T083000
 DTEND;VALUE=DATE-TIME:20260319T083000
@@ -154,16 +143,6 @@ UID:f446a9d1a2148770a1d26a07722a7eea@skokieparks.org
 DESCRIPTION:
 LOCATION:Skatium Ice Arena
 URL:https://www.skokieparks.org/events/life-in-motion-ice-show-2026Sun/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Spring Cookies
-DTSTART;VALUE=DATE-TIME:20260322T133000
-DTEND;VALUE=DATE-TIME:20260322T133000
-UID:5783febd70d2fde8c2db5d88831dc7aa@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/spring-cookies/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1170,6 +1149,17 @@ URL:https://www.skokieparks.org/events/spring-kickball-tournament/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Our Power\, Our Planet Art Exhibit Reception
+DTSTART;VALUE=DATE-TIME:20260503T140000
+DTEND;VALUE=DATE-TIME:20260503T140000
+UID:b01b2e7553b1caad552aab01c58eef28@skokieparks.org
+DESCRIPTION:
+LOCATION:Devonshire Cultural Center
+URL:https://www.skokieparks.org/events/our-power-our-planet-art-exhibit-re
+ ception/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Spring Family Play Day
 DTSTART;VALUE=DATE-TIME:20260504T130000
 DTEND;VALUE=DATE-TIME:20260504T130000
@@ -1485,6 +1475,17 @@ UID:63dbcd97684224d35b6a525986886bcd@skokieparks.org
 DESCRIPTION:
 LOCATION:Emily Oaks Nature Center
 URL:https://www.skokieparks.org/events/kankakee-river-canoe-trip26/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adults Over 60: Antique Adventures
+DTSTART;VALUE=DATE-TIME:20260519T083000
+DTEND;VALUE=DATE-TIME:20260519T083000
+UID:29b07fcc088278cb5273d27630e8badc@skokieparks.org
+DESCRIPTION:
+LOCATION:Oakton Community Center
+URL:https://www.skokieparks.org/events/adults-over-60-antique-adventures/2
+ /
 X-SOURCE:Skokie Park District
 END:VEVENT
 END:VCALENDAR

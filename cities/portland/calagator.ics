@@ -22,32 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260312T235916Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260317T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260317T180000
-DTSTAMP;VALUE=DATE-TIME:20260312T235916Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260312T235916Z
-UID:http://calagator.org/events/1250482506
-DESCRIPTION:​Better Futures Club is a weekly event (alternating Tuesdays 
- and Thursdays) focused on imagining and making better futures.&#13\;\n&#
- 13\;\nImagine an artist community\, a think tank\, and a research center
-  in the same building. People in all of those fields working alongside e
- ach other imagining and creating different futures together. Cross polli
- nation and inspiration. Liberal Arts and STEM and R&amp\;D. Photographer
- s\, physicists\, authors\, astronomers\, musicians\, makers\, mathematic
- ians\, designers\, developers\, fashionistas\, climatologists and all ma
- nner of imaginative optimists.&#13\;\n&#13\;\nAll Better Futures Club ev
- ents are covered by the Contributor Covenant Code of Conduct (https://ww
- w.contributor-covenant.org)\n\nTags: ruby\, STEM\, liberal arts\, commun
- ity\, hacking\, AI\n\nImported from: http://calagator.org/events/1250482
- 506
-URL:https://betterfutures.club
-SUMMARY:Better Futures Club
-LOCATION:Ctrl-H / PDX Hackerspace: 7608 N Interstate Ave\, Portland OR 97
- 217 us
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260314T184656Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T163000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T083000
@@ -354,6 +328,39 @@ LOCATION:Ctrl-H / PDX Hackerspace: 7608 N Interstate Ave\, Portland OR 97
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260318T214306Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260327T140000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260327T130000
+DTSTAMP;VALUE=DATE-TIME:20260318T214306Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260318T214306Z
+UID:http://calagator.org/events/1250482514
+DESCRIPTION:Have you ever wondered what it’s really like to work as a Dev
+ eloper Advocate?&#13\;\n&#13\;\nDeveloper Advocacy sits at the intersect
+ ion of technical depth\, strategic communication\, and community buildin
+ g. It blends coding\, content creation\, and relationship-building to he
+ lp bridge the gap between engineering teams and the developers they serv
+ e.&#13\;\n&#13\;\nIn this live Tech Talk\, Jeremy Rivera\, Full-stack So
+ ftware Engineer and Developer Advocate\, will explore the three pillars 
+ of modern developer relations: code\, content\, and community. He will s
+ hare real-world lessons from working between engineering and marketing\,
+  and explain how advocacy can scale impact through education\, open sour
+ ce\, and accessibility.&#13\;\n&#13\;\nWhether you are exploring Develop
+ er Advocacy or looking to expand your influence beyond writing code\, yo
+ u will walk away with practical insights on how technical skills and com
+ munication work together.&#13\;\n&#13\;\nSave your spot now and join us 
+ on Friday\, March 27 at 1 PM PT | 3 PM CT | 4 PM ET to discover life as 
+ a Developer Advocate.\n\nTags: tech talk\, Career Coaching\, Career Netw
+ orking\, job search\, Job Interview\, technology\, Tech Industry\, softw
+ are engineering\, Computer Engineering\, coding\, programmers\, programm
+ ing\n\nImported from: http://calagator.org/events/1250482514
+URL:https://meet.google.com/pqd-uyow-imk
+SUMMARY:Tech Talk | Code\, Content\, and Community: Life as a Developer A
+ dvocate
+LOCATION:The Tech Academy: 310 SW 4th Ave Suite 412\, Portland OR 97204 U
+ SA
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260312T235956Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260331T210000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260331T180000
@@ -432,6 +439,39 @@ URL:https://app.tickettailor.com/events/oregonbioscienceincubator/2097888
 SUMMARY:Accelerate Biotech Happy Hour
 LOCATION:Oregon Bioscience Incubator (OBI): 4640 SW Macadam Avenue\, Suit
  e 270\, Portland or 97239 us
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260318T213244Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T190000
+DTSTAMP;VALUE=DATE-TIME:20260318T213244Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260318T213244Z
+UID:http://calagator.org/events/1250482513
+DESCRIPTION:Summary:&#13\;\n&#13\;\nInside AI Supercomputers: From GPUs t
+ o Multi-DC Clusters&#13\;\n&#13\;\nLarge language models and other front
+ ier AI systems are trained on clusters with thousands to over a hundred 
+ thousand GPUs. But what does that infrastructure actually look like? Thi
+ s talk walks through the anatomy of an AI supercomputer from the ground 
+ up: individual GPUs\, multi-GPU nodes\, racks\, and full clusters. We'll
+  cover the three pillars of compute\, storage\, and networking\, then lo
+ ok at how training and inference workloads place very different demands 
+ on hardware. Finally\, we'll explore how Linux runs the show at every la
+ yer from the OS on each node\, to InfiniBand fabric&#13\;\nmanagement\, 
+ to job scheduling with Slurm\, Kubernetes\, and Ray.&#13\;\n&#13\;\nNo A
+ I/HPC background required - just curiosity about what it takes to build 
+ and run the machines behind the models.&#13\;\n&#13\;\nBio:&#13\;\n&#13\
+ ;\nJesse Lopez is an AI/ML and Technical Program Manager in the Azure HP
+ C/AI organization where he helps deploy large-scale AI infrastructure an
+ d works with customers to put it to use. A former scientist\, he has a b
+ ackground in high-performance computing\, AI/ML\, and has been a Linux u
+ ser since the nineteen hundreds.\n\nTags: plug\, linux\, HPC\n\nImported
+  from: http://calagator.org/events/1250482513
+URL:https://pdxlinux.org/
+SUMMARY:Portland Linux/Unix Group General Monthly Meeting: Inside AI Supe
+ rcomputers\, with Jesse Lopez
+LOCATION:Portland State University Fourth Avenue Building (FAB) Room FAB 
+ 86-01: 1900 Southwest 4th Avenue\, Portland OR 97201 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT

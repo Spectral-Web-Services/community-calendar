@@ -7,8 +7,8 @@ used across all city feeds, identified by their PRODID header.
 
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 53 |
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 48 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 33 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 19 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
@@ -21,28 +21,6 @@ used across all city feeds, identified by their PRODID header.
 | **BiblioCommons** | Library discovery platform with event listings. | portland | 1 |
 
 ## Detail
-
-### The Events Calendar (WordPress) (53 feeds)
-
-WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
-
-**bloomington** (7): bgc_bloomington, bloomspinweave, brown_county_playhouse, community_band, first_united_church, hoosierflyfishers_list, lotusfest
-
-**boston** (1): emerson_theatres
-
-**evanston** (11): beth_emet, evanston_history_center, evanston_made, first_presbyterian, forest_preserves, garrett_seminary, gichigamiin_museum, north_branch_restoration, north_shore_center, northlight_theatre, wilmette_park_district
-
-**jweekly** (11): adamah, jcc_east_bay, jccsf, jewish_fed, jvs, jweekly, kehilla, magnes, marin_jcc, temple_beth_abraham, urban_adamah
-
-**matsu** (3): connect_matsu, skeetawk, visit_palmer
-
-**petaluma** (3): bigeasy, petaluma_museum, polly_klaas
-
-**portland** (11): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, vancouver_farmers_market, washington_park
-
-**publisher-resources** (5): ahcj, inn, nlgja, poynter, sabew
-
-**roanoke** (1): hollins_university
 
 ### Meetup (52 feeds)
 
@@ -59,6 +37,28 @@ ICS export from meetup.com groups.
 **portland** (27): meetup_active_dads, meetup_art_guild, meetup_arts_craft, meetup_code_for_pdx, meetup_coffee_sketch, meetup_contra_dance, meetup_meditation, meetup_more_than_reading, meetup_nw_trail_runners, meetup_padnug, meetup_paint_and_sip, meetup_pdxcpp, meetup_pdxgames, meetup_portland_2030, meetup_portland_city_walking, meetup_portland_code_coffee, meetup_portland_free_community, meetup_portland_fun_run, meetup_portland_hiking, meetup_portland_outdoors, meetup_portland_running_co, meetup_portland_trail_runners, meetup_silent_book_club_portland, meetup_silent_books_club, meetup_slowpo_runners, meetup_techacademy, meetup_womens_wanderers
 
 **roanoke** (6): meetup_make_roanoke, meetup_pathfinders_greenways, meetup_roanoke_spiritual, meetup_roanoke_valley_net, meetup_shut_up_write, meetup_sw_va_toastmasters
+
+### The Events Calendar (WordPress) (48 feeds)
+
+WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
+
+**bloomington** (7): bgc_bloomington, bloomspinweave, brown_county_playhouse, community_band, first_united_church, hoosierflyfishers_list, lotusfest
+
+**boston** (1): emerson_theatres
+
+**evanston** (11): beth_emet, evanston_history_center, evanston_made, first_presbyterian, forest_preserves, garrett_seminary, gichigamiin_museum, north_branch_restoration, north_shore_center, northlight_theatre, wilmette_park_district
+
+**jweekly** (7): jcc_east_bay, jccsf, jvs, jweekly, magnes, marin_jcc, temple_beth_abraham
+
+**matsu** (3): connect_matsu, skeetawk, visit_palmer
+
+**petaluma** (3): bigeasy, petaluma_museum, polly_klaas
+
+**portland** (9): crystal_ballroom, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, washington_park
+
+**publisher-resources** (6): ahcj, inn, nahj, nlgja, poynter, sabew
+
+**roanoke** (1): hollins_university
 
 ### Google Calendar (33 feeds)
 
@@ -158,7 +158,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 
 | PRODID | City | Feeds |
 |--------|------|-------|
-| `-//172.66.146.53//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
+| `-//104.20.35.35//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |
@@ -173,8 +173,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Teamup Solutions AG//Teamup Calendar//EN` | evanston | evanston_bike_club |
 | `-//Ticketmaster/Evanston Venues//ticketmaster.com//` | evanston | ticketmaster_evanston_venues |
 | `-//Ticketmaster/Evanston//ticketmaster.com//` | evanston | ticketmaster_evanston |
-| `-//Trumba Corporation//Trumba Calendar Services 0.11.25515//EN` | boston | tufts_tdps |
+| `-//Trumba Corporation//Trumba Calendar Services 0.11.25518//EN` | boston | tufts_tdps |
 | `-//YWCA Evanston/North Shore//eventbrite.com//` | evanston | eb_ywca |
-| `-//calendar.spjnetwork.org` | publisher-resources | spj |
 | `X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN` | portland | calagator |
 | `icalendar-ruby` | matsu | matsuk12 |

@@ -7,83 +7,13 @@ X-WR-CALNAME:Publisher Resources Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://calendar.spjnetwork.org/displayevent.php?e=9EkwgN4zTa-8228911091"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23230Z
-UID:9EkwgN4zTa-8228911091@spjnetwork.org
-DTSTART;TZID=America/New_York:20260317T180000
-DTEND;TZID=America/New_York:20260317T191500
-SUMMARY:SPJ Freelance Community Board Meeting
-URL:http://calendar.spjnetwork.org/displayevent.php?e=9EkwgN4zTa-8228911091
-DESCRIPTION:SPJ members are welcome to attend. Email spjfreelancecommunity@gmail.com to request a login.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Sjn": "https://events.teams.microsoft.com/event/108f7661-4d66-4574-b903-abdc73078eb2@eb1afb35-3fb2-40cf-b24b-3db345013fb9"}
-X-SOURCE-ID:sjn
-SUMMARY:ProJourn Webinar on Republishing Guidelines
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-UID:5ed901843079fc7c36df070030478317@solutionsjournalism.org
-DESCRIPTION:Online\nCollaboration can be powerful – when everyone is on 
- the same page. Learn about the legal considerations involved in republishi
- ng and co-publishing with fellow news organizations. The webinar is organi
- zed by ProJourn\, a program operated by the Reporters Committee for Freedo
- m of the Press\, in partnership with Covington & Burling LLP.
-LOCATION:Online
-URL:https://events.teams.microsoft.com/event/108f7661-4d66-4574-b903-abdc7
- 3078eb2@eb1afb35-3fb2-40cf-b24b-3db345013fb9
-X-SOURCE:Solutions Journalism Network
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Sjn": "https://healthequity.atlanticfellows.org/"}
-X-SOURCE-ID:sjn
-SUMMARY:Atlantic Fellows for Health Equity
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-UID:555b2660d6c2a8d63bd948305193f5ae@solutionsjournalism.org
-DESCRIPTION:Applications are now open for the global Atlantic Fellows for 
- Health Equity program\, which has a strong solutions emphasis\; solutions-
- focused journalists are most welcome to apply. It comes with expert mentor
- ship and coaching\, along with multiple convenings and connection to a glo
- bal network. Apply by the March 18 deadline.
-URL:https://healthequity.atlanticfellows.org/
-X-SOURCE:Solutions Journalism Network
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Sunlight Research": "https://us02web.zoom.us/meeting/register/PG-81678QpyKvz6BPzTJFA"}
-X-SOURCE-ID:sunlight_research
-SUMMARY:Book Bans with The Marshall Project and Data Liberation Project
-DTSTART;VALUE=DATE-TIME:20260318T130000
-DTEND;VALUE=DATE-TIME:20260318T140000
-UID:0008bf70d60ab47b3b66545c85556a91@sunlightresearch.net
-DESCRIPTION:
-LOCATION:Online
-URL:https://us02web.zoom.us/meeting/register/PG-81678QpyKvz6BPzTJFA
-X-SOURCE:Sunlight Research
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/quick-hits-and-deep-dives-consumer-investigations-any-newsroom-can-do"}
-X-SOURCE-ID:ona_events
-SUMMARY:Quick Hits and Deep Dives: Consumer Investigations Any Newsroom Ca
- n Do
-DTSTART;VALUE=DATE-TIME:20260318T140000
-DTEND;VALUE=DATE-TIME:20260318T150000
-UID:ac71c78782401effaa5b45a0f0d2f22d@journalists.org
-DESCRIPTION:
-URL:https://journalists.org/events/quick-hits-and-deep-dives-consumer-inve
- stigations-any-newsroom-can-do
-X-SOURCE:Online News Association
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"NewsGuild-CWA": "https://zoom.us/meeting/register/H7JM0laLQeiVlUoGyItfzQ"}
 X-SOURCE-ID:newsguild
 X-SOURCE:NewsGuild-CWA
 URL:https://zoom.us/meeting/register/H7JM0laLQeiVlUoGyItfzQ
 DTSTART:20260318T230000Z
 DTEND:20260319T002000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:6mj2tgghsilc58teaenh6esfvd@google.com
 CREATED:20260227T170038Z
 DESCRIPTION:Register here for the zoom link: <a href="https://zoom.us/meeti
@@ -102,7 +32,7 @@ X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260322
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20260122T032258Z
 LAST-MODIFIED:20260224T192740Z
 UID:68744-1773878400-1774137599@sabew.org
@@ -134,7 +64,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260319T130000
 DTEND;TZID=America/New_York:20260319T140000
-DTSTAMP:20260317T223154
+DTSTAMP:20260318T222533
 CREATED:20260311T210416Z
 LAST-MODIFIED:20260311T210418Z
 UID:62845-1773925200-1773928800@healthjournalism.org
@@ -157,6 +87,21 @@ LOCATION:Online
 URL:https://www.sunlightresearch.net/event-details/start-small-build-trust
  -make-news-building-a-small-newsroom-people-trust
 X-SOURCE:Sunlight Research
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/digital-open-source-investigations-geolocation-webinar/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260319T180000
+DTEND;TZID=America/New_York:20260319T193000
+DTSTAMP:20260313T214836
+CREATED:20260305T180006Z
+LAST-MODIFIED:20260313T185647Z
+UID:25606-1773943200-1773948600@nahj.org
+SUMMARY:Digital Open-Source Investigations: Geolocation Webinar
+DESCRIPTION:An NAHJ webinar training series for 2026: Digital Open-Source Investigations and OSINT for Journalism\n\nGeolocation \nParticipants will learn how to verify images and videos by finding exactly where they were recorded using satellite and street-view imagery from platforms like Google Earth and Maps. \nWhen: Thursday\, March 19\, 2026\nTime: 6:00 PM – 7:15 PM EST\nRegister: https://nahj.memberclicks.net/OSINTgeo \nPresented by: OSINT Reporting Lab at USC Annenberg School for Communication and Journalism  \n  \n 
+URL:https://nahj.org/event/digital-open-source-investigations-geolocation-webinar/
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/NAHJ_OpenSource-7.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Pen America": "https://pen.org/event/issues-in-our-stories/"}
@@ -230,7 +175,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://airtable.com/appKqpCg8wtgbO8DP/shrCXgMZovAfN8aJ4
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:4g399htv2ifu4i2sfpmpc1r2hq@google.com
 CREATED:20260226T023633Z
 DESCRIPTION:See the full program description: <a href="https://airtable.com
@@ -271,30 +216,13 @@ URL:https://www.tfaforms.com/5213015
 X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.eventbrite.com/e/2026-career-day-at-the-national-press-club-tickets-1982993687500?aff=oddtdtcreator"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23231Z
-UID:57642qjlAH-8228743264@spjnetwork.org
-DTSTART;TZID=America/New_York:20260320
-DTEND;TZID=America/New_York:20260320
-SUMMARY:2026 Career Day at the National Press Club
-URL:http://www.eventbrite.com/e/2026-career-day-at-the-national-press-club-tickets-1982993687500?aff=oddtdtcreator
-DESCRIPTION:Tickets are on sale for Career Day at the National Press Club\, a high-impact event designed for journalists and communicators navigating one of the most challenging job markets our industry has seen in years. 
-
-This year’s programming includes specialized training on staying strategic and motivated after job loss -- plus practical\, hands-on workshops to help you compete in today’s market. Along with visiting news recruiters who are hiring\, you’ll refresh your résumé\, design or elevate your portfolio website\, sharpen your professional pitch\, and connect directly with peers and mentors who can help you get to your next step.
-
-Whether you attend for the full program or drop in for a focused session\, you’ll leave with tangible skills\, actionable next steps\, and something just as important: renewed momentum and community during a time of uncertainty.
-LOCATION:National Press Building\, Washington\, DC\, USA
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"NewsGuild-CWA": "https://us06web.zoom.us/meeting/register/xkDZsKw7SoWHW-ms_-o4mQ"}
 X-SOURCE-ID:newsguild
 X-SOURCE:NewsGuild-CWA
 URL:https://us06web.zoom.us/meeting/register/xkDZsKw7SoWHW-ms_-o4mQ
 DTSTART:20260320T003000Z
 DTEND:20260320T023000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:77e92anatv3est0ofg5udl4aa4@google.com
 CREATED:20260129T223433Z
 DESCRIPTION:Learn how stewards drive the exchange of information and uphold
@@ -314,7 +242,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260320T160000
 DTEND;TZID=America/New_York:20260320T170000
-DTSTAMP:20260317T223154
+DTSTAMP:20260318T222533
 CREATED:20260206T211338Z
 LAST-MODIFIED:20260206T211339Z
 UID:62513-1774022400-1774026000@healthjournalism.org
@@ -322,26 +250,6 @@ SUMMARY:Virtual freelance happy hour
 DESCRIPTION:Freelancers are invited to a casual virtual happy hour — come as you are\, bring a drink\, and enjoy conversation with peers.
 URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-2/
 CATEGORIES:Event,Freelancers
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://us02web.zoom.us/meeting/register/PQXGVbvqRiynOlzvPQcq1Q"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23232Z
-UID:JFh5Y46e7D-8237188295@spjnetwork.org
-DTSTART;TZID=America/New_York:20260320T160000
-DTEND;TZID=America/New_York:20260320T170000
-SUMMARY:SPJ Board of Directors Meeting
-URL:http://us02web.zoom.us/meeting/register/PQXGVbvqRiynOlzvPQcq1Q
-DESCRIPTION:You are invited to the SPJ Board of Directors Zoom meeting.
-When: Mar 20\, 2026 04:00 PM Indiana (East)
-
-Register in advance for this meeting:
-https://us02web.zoom.us/meeting/register/PQXGVbvqRiynOlzvPQcq1Q
-
-After registering\, you will receive a confirmation email containing information about joining the meeting.
-
-LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Pen America": "https://pen.org/event/two-prosecutors/"}
@@ -442,39 +350,6 @@ URL:https://pen.org/event/chain-of-ideas/
 X-SOURCE:PEN America
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-ID:newsguild
-X-SOURCE:NewsGuild-CWA
-DTSTART:20260321T170000Z
-DTEND:20260321T190000Z
-DTSTAMP:20260318T023156Z
-UID:6ovhar5fg0llen2kpaa80f72af@google.com
-CREATED:20260312T180714Z
-DESCRIPTION:<h4>Start: <span style="font-weight: normal\;">Saturday\, March
-  21\, 2026•01:00 PM</span></h4><h4>Location: <span style="font-weight: norm
- al\;">Brooklyn Public Library Williamsburg • 240 Division Ave.\, at Marcy A
- ve\, New York\, NY 11211 US<br><br></span>Zohran Mamdani’s election as mayo
- r proved that New Yorkers can work together and win against impossible odds
- . <span style="font-weight: normal\;">He successfully campaigned on a messa
- ge of an affordable city that workers in New York deserve. To realize that 
- vision\, we’ve got to keep organizing not just with our neighbors but also 
- in our workplaces.<br></span><br><a href="https://workerorganizing.org/trai
- ning/nyc/#form">We can win together. Sign up today.</a><span style="font-we
- ight: normal\;"></span></h4><h4><br><p><span style="font-weight: normal\;">
- EWOC will help you build the skills and give you the resources you and your
-  co-workers need to demand what you deserve.</span></p><p><span style="font
- -weight: normal\;">RSVP for our “Unite &amp\; Win at Work” training below. 
- Food service workers\, warehouse workers\, office workers\, public-sector w
- orkers\, and anyone with a job is welcome (except your boss).</span></p><p>
- <span style="font-weight: normal\;">An affordable New York means lower cost
- s and more money in your wallet\, and it starts with talking with your co-w
- orkers.</span><br></p></h4>
-LAST-MODIFIED:20260312T180714Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:How to Unite & Win at Work in NYC
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Poynter Institute Training": "https://www.poynter.org/shop/leadership/leadership-academy-for-women-2026/"}
 X-SOURCE-ID:poynter_shop
 SUMMARY:Leadership Academy for Women (2026)
@@ -486,19 +361,6 @@ LOCATION:St. Petersburg\, Fla.
 URL:https://www.poynter.org/shop/leadership/leadership-academy-for-women-2
  026/
 X-SOURCE:Poynter Institute Training
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/ethics-in-journalism-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23233Z
-UID:YLkKDWBOfX-8232017021@spjnetwork.org
-DTSTART;TZID=America/New_York:20260323
-DTEND;TZID=America/New_York:20260323
-SUMMARY:Nomination deadline: Ethics in Journalism Award
-URL:http://www.spj.org/ethics-in-journalism-award/
-DESCRIPTION:The Ethics in Journalism Award honors journalists or news organizations that perform in an outstanding ethical manner demonstrating the ideals of the SPJ Code of Ethics. It also honors especially notable efforts to educate the public on principles embodied in the code or hold journalists ethically accountable for their behavior. The Society may present one Ethics in Journalism Award in any given year unless there are no worthy candidates. Nominations are open. Self-nomination is permitted.
-LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Pen America": "https://pen.org/event/todd-purdum-authors-evenings/"}
@@ -562,7 +424,7 @@ X-SOURCE-ID:poynter
 X-SOURCE:Poynter Institute
 DTSTART;TZID=America/New_York:20260324T180000
 DTEND;TZID=America/New_York:20260324T200000
-DTSTAMP:20260317T221119
+DTSTAMP:20260318T222530
 CREATED:20260213T192122Z
 LAST-MODIFIED:20260302T211830Z
 UID:1189352-1774375200-1774382400@www.poynter.org
@@ -581,7 +443,7 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/87014594707?pwd=SALNdFVZbwSG60yFN8cdkoslib79hJ.1
 DTSTART:20260324T200000Z
 DTEND:20260324T210000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:25hc1pudjnb1c0u9tqkek4pa38@google.com
 CREATED:20260313T222604Z
 DESCRIPTION:<p>If you can't explain how your newsroom creates value for its
@@ -605,7 +467,7 @@ DESCRIPTION:<p>If you can't explain how your newsroom creates value for its
  Zqmg9bejL8bHBN79NA_LcyTjpkg">https://us06web.zoom.us/meetings/87014594707/i
  nvitations?signature=Hz-dsqa0Cja6j3xQZqmg9bejL8bHBN79NA_LcyTjpkg</a><br><br
  ></p>
-LAST-MODIFIED:20260317T011153Z
+LAST-MODIFIED:20260319T020257Z
 LOCATION:https://us06web.zoom.us/j/87014594707?pwd=SALNdFVZbwSG60yFN8cdkosl
  ib79hJ.1
 SEQUENCE:0
@@ -651,7 +513,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://springernature.wd3.myworkdayjobs.com/en-US/SpringerNatureCareers/details/News-Intern_JR105539?q=scientific%20american
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:7o9asn7nqpqo968idu9qo01d9d@google.com
 CREATED:20260302T025938Z
 DESCRIPTION:See the full program descriptions: <br><br>News Intern: <a href
@@ -727,19 +589,6 @@ DESCRIPTION:Online\nSkillsFest 26 is a free\, two-day virtual program open
 LOCATION:Online
 URL:https://www.spj.org/skillsfest/
 X-SOURCE:Solutions Journalism Network
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/skillsfest"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23234Z
-UID:zQtJ2ca8vV-8227427964@spjnetwork.org
-DTSTART;TZID=America/New_York:20260326
-DTEND;TZID=America/New_York:20260327
-SUMMARY:SkillsFest26
-URL:http://www.spj.org/skillsfest
-DESCRIPTION:SkillsFest26 is a free two-day virtual program featuring hours of hands-on journalism training each day in collaboration with leading journalism organizations. Registration is free and open to all! 
-LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Sunlight Research": "https://us02web.zoom.us/meeting/register/pDv8lZSnR9CywwAi3G9h5Q"}
@@ -856,7 +705,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260328T100000
 DTEND;TZID=America/New_York:20260328T140000
-DTSTAMP:20260317T223152
+DTSTAMP:20260318T222531
 CREATED:20260223T202227Z
 LAST-MODIFIED:20260223T202227Z
 UID:16847-1774692000-1774706400@www.nlgja.org
@@ -925,7 +774,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ona26.journalists.org/
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260402
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:562n3tttu4lspjeet6cc461l0n@google.com
 CREATED:20260226T021524Z
 DESCRIPTION:See the full conference description: <a href="https://ona26.jou
@@ -989,7 +838,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260331T150000
 DTEND;TZID=America/New_York:20260331T160000
-DTSTAMP:20260317T223150
+DTSTAMP:20260318T222528
 CREATED:20251014T194807Z
 LAST-MODIFIED:20251211T214028Z
 UID:10004835-1774969200-1774972800@inn.org
@@ -998,6 +847,22 @@ DESCRIPTION:Join the Institute for Nonprofit News (INN) and Tiny News Collective
 URL:https://inn.org/event/news-startup-sessions-inn-tiny-news-collective-2/2026-03-31/
 CATEGORIES:Services
 ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2025/06/300-x-250-_-CTA-with-TNC-6.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/press-freedom-in-the-current-administration-webinar/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260331T180000
+DTEND;TZID=America/New_York:20260331T193000
+DTSTAMP:20260313T214836
+CREATED:20260313T183744Z
+LAST-MODIFIED:20260313T184755Z
+UID:25711-1774980000-1774985400@nahj.org
+SUMMARY:Media Law and Press Freedom in the Current Administration (Webinar)
+DESCRIPTION:Webinar: Media Law for Journalists: Media Law and Press Freedom in the Current Administration \nDate/Time: Tuesday\, March 31 at 6pm ET \nSummary: Journalists\, news organizations\, and other media companies are facing unprecedented challenges from multiple directions under the current administration. In this session\, we’ll evaluate the angles of attack and discuss how to exercise First Amendment rights in the face of hostility and near-constant threats.  \nSpeaker(s):\n \n\nJeffrey P. Hermes\, Deputy Director\, Media Law Resource Center\nGeorge Freeman\, Executive Director\, Media Law Resource Center \n\nRegister here: https://nahj.memberclicks.net/medialawpressfreedom
+URL:https://nahj.org/event/press-freedom-in-the-current-administration-webinar/
+CATEGORIES:Training,Webinar
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/Media-Law-Training-7.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Pen America": "https://pen.org/event/christian-john-wikane/"}
@@ -1047,16 +912,29 @@ SUMMARY:2026 PEN America Literary Awards Ceremony
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260331T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260331T193000
 UID:375befdd3e4ecf40d35ae29a54e332b8@pen.org
-DESCRIPTION:Cost: 23-43\nPEN America is honored to host the 62nd annual Li
- terary Awards Ceremony at Town Hall.\nOur awards are juried by panels of e
- steemed\, award-winning authors\, editors\, translators\, and critics. The
- se authors are committed to recognizing their contemporaries\, from promis
- ing debut writers to those who have already had a continuous and lasting i
- mpact on the literary landscape.\nThe 2026 Literary Awards will confer nea
- rly $350\,000 to writers and translators. Spanning fiction\, poetry\, essa
- y\, translation\, and more\, these books are dynamic\, diverse\, and thoug
- ht-provoking examples of literary excellence.\nGET TICKETS\nSee the finali
- sts\nCheck out the titles on Bookshop
+DESCRIPTION:Cost: 23-43\nJoin us on\nMarch 31st\nat PEN America’s\n62nd 
+ annual Literary Awards Ceremony\nhosted by\nMurray Hill\n\, the comedian\,
+  author\, producer\, and actor known for HBO’s\nSomebody Somewhere\n.\nG
+ ET TICKETS\nThe evening features dynamic presenters including Booker Prize
+ -winning novelist\nMarlon James\n\; MS Now anchor and author\nAli Velshi\n
+ \; actress and singer\nEmmy Rossum\n\; Tony award-winning playwright\nDavi
+ d Henry Hwang\n\; author and journalist\nClara Bingham\n\; music journalis
+ t and author\nDan Charnas\n\; poet and Cave Canem co-founder\nCornelius Ea
+ dy\n\; and author and civil rights litigator\nQian Julie Wang\n. Performan
+ ces by Broadway singer\nAmber Iman\nand the Grammy-award winning\nUlysses 
+ Owens Jr. Band\ndrive a show that’s as irrepressibly energetic as the wr
+ iters and writing we’re honoring. The evening also pays tribute to prize
+ -winning Haitian-American author\nEdwidge Danticat\nwith a live performanc
+ e from her unreleased novel\nDèy\nby Broadway actress\nPascale Armand\n.\
+ nOur awards are juried by panels of esteemed\, award-winning authors\, edi
+ tors\, translators\, and critics. These individuals are committed to recog
+ nizing their contemporaries\, from promising debut writers to those who ha
+ ve already had a continuous and lasting impact on the literary landscape. 
+ Spanning fiction\, poetry\, essay\, translation\, and more\, these books a
+ re dynamic\, diverse\, and thought-provoking examples of literary excellen
+ ce. Celebrate alongside the writers\, translators\, editors\, and publishe
+ rs who made these remarkable stories come to life while we confer nearly $
+ 350\,000 in prizes.\nSee the finalists\nCheck out the titles on Bookshop
 LOCATION:New York
 URL:https://pen.org/event/2026-pen-america-literary-awards-ceremony/
 X-SOURCE:PEN America
@@ -1069,9 +947,8 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 DTSTART;TZID=America/Chicago:20260401T160000
 DTEND;TZID=America/Chicago:20260401T170000
-DTSTAMP:20260318T023156Z
-UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260401T210000@google.com
-RECURRENCE-ID;TZID=America/Chicago:20260401T160000
+DTSTAMP:20260319T022535Z
+UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260401T210000@google.com_20260401
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and pa
  rt town-hall-style conversation. All members\, staff and TNC board members 
@@ -1112,7 +989,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260402T153000
 DTEND;TZID=America/New_York:20260402T163000
-DTSTAMP:20260317T223150
+DTSTAMP:20260318T222528
 CREATED:20260302T153409Z
 LAST-MODIFIED:20260302T153409Z
 UID:10004846-1775143800-1775147400@inn.org
@@ -1128,7 +1005,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://mentalhealthjournalism.org/become-a-fellow/
 DTSTART;VALUE=DATE:20260403
 DTEND;VALUE=DATE:20260404
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:0q0tk0huussebt15hjmvlrrqm7@google.com
 CREATED:20260226T022003Z
 DESCRIPTION:See the full program description: <a href="https://mentalhealth
@@ -1187,7 +1064,7 @@ X-SOURCE:NewsGuild-CWA
 URL:https://us06web.zoom.us/meeting/register/_fzuQ2iFT9e48PUygs_UMQ
 DTSTART:20260403T003000Z
 DTEND:20260403T023000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:5h2m7e4ebnvbhiajn6sqq54n06@google.com
 CREATED:20260129T223554Z
 DESCRIPTION:Review how stewards turn workplace issues into organizing issue
@@ -1255,27 +1132,13 @@ URL:https://secure.everyaction.com/6RFL6mTGHUGsfhU-x5DUFQ2?nvep=&hmac=&emc
 X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-ID:tiny_news_members_only
-X-SOURCE:Tiny News Members Only
-DTSTART;TZID=America/New_York:20260408T160000
-DTEND;TZID=America/New_York:20260408T170000
-DTSTAMP:20260318T023156Z
-UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com_20260408
-CREATED:20251212T131931Z
-LAST-MODIFIED:20260313T041448Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Founder Show and Tell: Monthly meeting
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1"}
 X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 DTSTART;TZID=America/New_York:20260408T160000
 DTEND;TZID=America/New_York:20260408T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com
 RECURRENCE-ID;TZID=America/New_York:20260408T160000
 CREATED:20251212T131931Z
@@ -1298,6 +1161,36 @@ SUMMARY:Founder Show and Tell
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-ID:tiny_news_members_only
+X-SOURCE:Tiny News Members Only
+DTSTART;TZID=America/New_York:20260408T160000
+DTEND;TZID=America/New_York:20260408T170000
+DTSTAMP:20260319T022535Z
+UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com_20260408
+CREATED:20251212T131931Z
+LAST-MODIFIED:20260313T041448Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Founder Show and Tell: Monthly meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/digital-open-source-investigations-open-search-webinar/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260408T180000
+DTEND;TZID=America/New_York:20260408T193000
+DTSTAMP:20260313T214836
+CREATED:20260305T180852Z
+LAST-MODIFIED:20260305T181452Z
+UID:25610-1775671200-1775676600@nahj.org
+SUMMARY:Digital Open-Source Investigations: Open Search Webinar
+DESCRIPTION:An NAHJ webinar training series for 2026: Digital Open-Source Investigations and OSINT for Journalism\n\nOpen Search \nParticipants will learn how search engines work\, the varieties of search engines\, and how to craft advanced search queries to find exactly what they are looking for on the internet\, discover new sources of information\, and uncover information hiding in plain sight. \nWhen: Wednesday\, April 8\, 2026\nTime: 6:00 PM – 7:15 PM EST\nRegister: https://nahj.memberclicks.net/OSINTopensearch \nPresented by: OSINT Reporting Lab at USC Annenberg School for Communication and Journalism  \n 
+URL:https://nahj.org/event/digital-open-source-investigations-open-search-webinar/
+CATEGORIES:Webinar
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/NAHJ_OpenSource-8.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Sjn": "https://solu.news/sjnnewsies"}
 X-SOURCE-ID:sjn
 SUMMARY:Climate Peer Network Meeting
@@ -1313,138 +1206,12 @@ URL:https://solu.news/sjnnewsies
 X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/distinguished-teaching-in-journalism-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23235Z
-UID:ALyht3lULU-8232010194@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: Distinguished Teaching Award
-URL:http://www.spj.org/distinguished-teaching-in-journalism-award/
-DESCRIPTION:This Distinguished Teaching in Journalism Award\, made annually\, honors a collegiate journalism educator and recognizes outstanding teaching ability\, contributions to journalism\, journalism education and contributions toward maintaining the highest standards of the profession.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/howard-s-dubin-outstanding-pro-member-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23236Z
-UID:hFk9Ha5ot8-8232010137@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: Howard S. Dubin Outstanding Pro Member Award
-URL:http://www.spj.org/howard-s-dubin-outstanding-pro-member-award/
-DESCRIPTION:Annually\, the Society salutes individual members who have made significant contributions to their SPJ chapters.
-
-The Award honors Howard Dubin who has shown outstanding membership with his service to the Society. While he contributes great sums of time\, energy and money to the national Society\, Mr. Dubin continues grassroots service at the chapter level.
-
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/sunshine-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23237Z
-UID:p24pVdKE5T-8232010082@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: Sunshine Award
-URL:http://www.spj.org/sunshine-award/
-DESCRIPTION:The Sunshine Award recognizes individuals and groups for making important contributions in the area of open government.
-
-The SPJ board of directors selects honorees for the Sunshine Award based on recommendations from the national SPJ Freedom of Information Committee. There is no predetermined number of honorees for selection.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/david-l-eshelman-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23238Z
-UID:R5RP24uitc-8232010210@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: David L. Eshelman Award
-URL:http://www.spj.org/david-l-eshelman-award/
-DESCRIPTION:The Outstanding Campus Chapter Adviser Award\, initiated in 1978\, is presented annually to the person who has made an exceptional contribution to the campus chapter for which he or she serves as SPJ adviser. 
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/fellow-of-the-society-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23239Z
-UID:SGJQF3ldai-8232010177@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: Fellow of the Society Award
-URL:http://www.spj.org/fellow-of-the-society-award/
-DESCRIPTION:This recognition honors journalists who have made an extraordinary contribution to the profession. Honorees must agree to attend the SPJ Conference.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/historic-sites-in-journalism/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232310Z
-UID:20PsGg5f9j-8232010158@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: Historic Sites in Journalism Award
-URL:http://www.spj.org/historic-sites-in-journalism/
-DESCRIPTION:The Society’s Historic Sites in Journalism program honors the people and places that have played important roles in American journalistic history. The program dates back to 1942.
-
-The sites were originally marked with a bronze marker\, and some honorees include: World War II correspondent Ernie Pyle; Benjamin Franklin; William Randolph Hearst; The Associated Press offices in Washington and New York City; Freedom’s Journal\, the first Black newspaper published in the United States; and Supreme Court Justice Hugo Black.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/wells-memorial-key/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232311Z
-UID:YpJRGmhSc3-8232009924@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: Wells Memorial Key
-URL:http://www.spj.org/wells-memorial-key/
-DESCRIPTION:Each year\, a member who is judged to have served the Society in the most outstanding fashion during the preceding year or over a period of years is presented SPJ’s highest honor for a member\, the Wells Memorial Key.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/julie-galvan-outstanding-graduate-in-journalism-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232312Z
-UID:0ody6uvHl2-8232010117@spjnetwork.org
-DTSTART;TZID=America/New_York:20260409
-DTEND;TZID=America/New_York:20260409
-SUMMARY:Nomination Deadline: Julie Galvan Outstanding Graduate in Journalism Award
-URL:http://www.spj.org/julie-galvan-outstanding-graduate-in-journalism-award/
-DESCRIPTION:Each of the Society’s campus chapters are encouraged to select one graduate in journalism who is outstanding in his or her class on the basis of character\, service to the community\, scholarship\, proficiency in practical journalism and significant contributions to their SPJ chapter. From this group\, the Society’s leaders will select one graduate who is considered the most outstanding for national recognition.
-
-The Award is named in memory of Julie Galvan\, a former president of the SPJ San Jose State University Campus Chapter.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://phoenixspj.org"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232313Z
-UID:y2d7X07e4J-8232091219@spjnetwork.org
-DTSTART;TZID=America/New_York:20260410
-DTEND;TZID=America/New_York:20260410
-SUMMARY:‘It's a Dry Beat: Speaking Truth in a Truthiness Age,’ SPJ 2026 Region 11 Conference
-URL:http://phoenixspj.org
-DESCRIPTION:Learn\, network and get your questions answered about challenges facing journalists in 2026 with colleagues from Arizona\, California\, Hawaii\, Nevada and the Pacific Islands at an affordable one-day conference packed with relevance! It's Friday\, April 10\, at the fabulous Flinn Foundation building in central Phoenix. We'll also present the Region 11 Mark of Excellence Awards to student journalists. Details and registration will be available starting in January at phoenixspj.org.
-LOCATION:1802 North Central Avenue\, Phoenix\, AZ\, USA
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/2026-goldschmidt-data-fellowship-washington-d-c/"}
 X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;VALUE=DATE:20260412
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20260121T220323Z
 LAST-MODIFIED:20260224T192512Z
 UID:68637-1775952000-1776383999@sabew.org
@@ -1481,6 +1248,23 @@ URL:https://www.poynter.org/shop/reporting-editing/edit-to-elevate-essenti
 X-SOURCE:Poynter Institute Training
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-mcgraw-fellowship-business-journalism"}
+X-SOURCE-ID:sej
+SUMMARY:McGraw Fellowship for Business Journalism
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+UID:25dccf26780068e4717c5f260851d8e8@sej.org
+DESCRIPTION:The bi-yearly McGraw Fellowship provides experienced journalis
+ ts with funds\nup to $15\,000\nand editorial support needed to report in-d
+ epth stories with a strong economic\, financial or business angle. No resi
+ dency required. You don’t need to be a business reporter to apply. Next 
+ deadline: Apr 13\, 2026.\n\nCategories: National (U.S.)\, Workshops and Fe
+ llowships\, Journalism & Media
+URL:https://www.sej.org/calendar/deadline-mcgraw-fellowship-business-journ
+ alism
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Sjn": "https://www.colorado.edu/cwa/"}
 X-SOURCE-ID:sjn
 SUMMARY:Conference on World Affairs at University of Colorado Boulder
@@ -1495,25 +1279,6 @@ DESCRIPTION:Boulder\, Colorado\, United States\nThe Conference on World Af
 LOCATION:Boulder\, Colorado\, United States
 URL:https://www.colorado.edu/cwa/
 X-SOURCE:Solutions Journalism Network
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http:// publichealth.pagesconferences.org/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232314Z
-UID:DoVfyk1x60-8229088469@spjnetwork.org
-DTSTART;TZID=America/New_York:20260413
-DTEND;TZID=America/New_York:20260415
-SUMMARY:International Conference on Public Health and Health Care System
-URL:http:// publichealth.pagesconferences.org/
-DESCRIPTION:PAGES conferences are excited to invite you to the upcoming International Conference on Public Health and Health Care System\, scheduled to take place from April 13-15\, 2026 in the city of finance Paris\, France. 
-
-This event will bring together leading experts for keynote addresses\, dynamic panel discussions\, and engaging workshops that aim to poster collaboration and inspire innovative ideas. Topics will span a range of critical areas\, including disease prevention\, health promotion\, epidemiology\, environmental health\, and global health policy.
-
-Overall\, the  International Conference on Public Health and Health Care Research and Development promises to be an important forum for advancing our understanding of Public Health and Health Care and exploring innovative solutions to global health challenges. 
-
-We eagerly anticipate your participation in this exciting and inspiring event in Paris\, France.
-LOCATION:Paris\, France
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/from-fear-to-focus-navigating-your-next-move-after-a-layoff"}
@@ -1573,12 +1338,56 @@ URL:https://journalists.org/events/develop-a-walking-tour-pilot-for-your-n
 X-SOURCE:Online News Association
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Pen America": "https://pen.org/event/temple-beth-sholom-the-librarians/"}
+X-SOURCE-ID:pen_america
+SUMMARY:Temple Beth Sholom Presents: The Librarians
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T180000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T180000
+UID:508115e2c3b3acae120efeea9972d806@pen.org
+DESCRIPTION:Cost: 15\nJoin Temple Beth Sholom for a special fundraising sc
+ reening benefiting PEN America Florida and the Freedom to Read Project. Th
+ e evening features\nThe Librarians\n\, from celebrated director\nKim A. Sn
+ yder\nand executive producer\nSarah Jessica Parker.\nThe Librarians\ntells
+  the harrowing story of librarians on the front lines of the book-ban cris
+ is across the country. With stories from Florida\, Texas\, Louisiana\, and
+  New Jersey\, the documentary traces the real-world impact of book bans on
+  students\, educators\, librarians\, and families.\nFlorida is at the cent
+ er of this fight. During the\n2024–2025 school year\, PEN America docume
+ nted 2\,304 instances of book bans in the state\n. This film offers a chan
+ ce to better understand what is happening in Florida and in communities ac
+ ross the country.\nProceeds from ticket sales will go to PEN America Flori
+ da and the Freedom to Read Project\, two Florida-based nonprofits dedicate
+ d to fighting for the freedom to read.
+LOCATION:Miami
+URL:https://pen.org/event/temple-beth-sholom-the-librarians/
+X-SOURCE:PEN America
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Pen America Eventbrite": "https://www.eventbrite.com/e/temple-beth-sholom-presents-the-librarians-film-night-tickets-1985064808278"}
+X-SOURCE-ID:pen_america_eventbrite
+SUMMARY:Temple Beth Sholom Presents: The Librarians Film Night
+DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260416T180000
+DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260416T200000
+UID:aa7017f972165710cd3036f75bfd5294@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1180150336%2F1858094788773%2F1%2Foriginal.20260318-161042?cro
+ p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&
+ fp-y=0.5&s=27ac9ea97fe02238fcf42f972f1481d7
+DESCRIPTION:A special screening of The Librarians at Temple Beth Sholom be
+ nefiting PEN America Florida and the Freedom to Read Project.
+LOCATION:Temple Beth Sholom\, 4144 Chase Avenue\, Miami Beach\, FL 33140\,
+  Miami Beach\, FL
+URL:https://www.eventbrite.com/e/temple-beth-sholom-presents-the-librarian
+ s-film-night-tickets-1985064808278
+X-SOURCE:PEN America
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Assoc. of LGBTQ+ Journalists": "https://www.nlgja.org/event/headlines-headliners/"}
 X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260416T183000
 DTEND;TZID=America/New_York:20260416T213000
-DTSTAMP:20260317T223152
+DTSTAMP:20260318T222531
 CREATED:20260218T180601Z
 LAST-MODIFIED:20260218T182113Z
 UID:16824-1776364200-1776375000@www.nlgja.org
@@ -1595,7 +1404,7 @@ X-SOURCE:NewsGuild-CWA
 URL:https://us06web.zoom.us/meeting/register/Iik_0Ug3Q0mwAqaUqtmiHw
 DTSTART:20260417T003000Z
 DTEND:20260417T023000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:5stb0vl2pnac5abnfsj2ro565u@google.com
 CREATED:20260129T223649Z
 DESCRIPTION:Build confidence in asserting your rights and contract\, then r
@@ -1626,7 +1435,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260417T160000
 DTEND;TZID=America/New_York:20260417T170000
-DTSTAMP:20260317T223154
+DTSTAMP:20260318T222533
 CREATED:20260206T211516Z
 LAST-MODIFIED:20260206T211518Z
 UID:62515-1776441600-1776445200@healthjournalism.org
@@ -1636,24 +1445,43 @@ URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-3/
 CATEGORIES:Event,Freelancers
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.eventbrite.com/e/izzy-fest-2026-tickets-1982762620372?aff=oddtdtcreator&keep_tld=true"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232315Z
-UID:H2dYsh0b19-8227426454@spjnetwork.org
-DTSTART;TZID=America/New_York:20260421
-DTEND;TZID=America/New_York:20260422
-SUMMARY:Izzy Fest 2026: Press Freedom Forum
-URL:http://www.eventbrite.com/e/izzy-fest-2026-tickets-1982762620372?aff=oddtdtcreator&#38;keep_tld=true
-DESCRIPTION:Sponsored by the Park Center for Independent Media at Ithaca College with SPJ Region 1 and Project Censored. Explore the ways press freedom and independent media support democracy. 
-LOCATION:Park Center for Independent Media  at Ithaca College
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/nahj-student-summit-2026/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260418T083000
+DTEND;TZID=America/New_York:20260418T160000
+DTSTAMP:20260313T214836
+CREATED:20260120T173846Z
+LAST-MODIFIED:20260120T173846Z
+UID:24854-1776501000-1776528000@nahj.org
+SUMMARY:NAHJ Student Summit 2026
+DESCRIPTION:Join us this spring for the NAHJ Student Summit\, a full-day experience designed to inform\, inspire\, and connect the next generation of journalists. Hosted by the NAHJ Student Chapter of UCF\, this summit will bring together students for engaging conversations\, skill-building sessions\, and opportunities to network with peers and professionals. \n🗓 Saturday\, April 18\, 2026\n⏰ 8:30 a.m. – 4:00 p.m.\n📍 Nicholson School of Communication and Media\n12405 Aquarius Agora Dr\, Orlando\, FL 32816 \n🎟 Free for students\n✅ Pre-registration required\n🔗 Register here \nWhether you’re just starting out or preparing to enter the industry\, this summit is a great chance to learn\, connect\, and grow within the NAHJ community.
+URL:https://nahj.org/event/nahj-student-summit-2026/
+LOCATION:Orlando\, Florida\, Nicholson School of Communication and Media\, 12405 Aquarius Agora Dr.\, Orlando\, FL\, 32816\, United States
+CATEGORIES:Next Generation
+ATTACH;FMTTYPE=image/jpeg:https://nahj.org/wp-content/uploads/2026/01/Student-Summit-2026.jpg
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/the-law-of-discrimination-in-the-journalism-workplace-webinar/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260421T180000
+DTEND;TZID=America/New_York:20260421T193000
+DTSTAMP:20260313T214836
+CREATED:20260313T184604Z
+LAST-MODIFIED:20260313T184604Z
+UID:25714-1776794400-1776799800@nahj.org
+SUMMARY:The Law of Discrimination in the Journalism Workplace (Webinar)
+DESCRIPTION:Media Law for Journalists: The Law of Discrimination in the Journalism Workplace  \nDate/Time: Tuesday\, April 21 at 6pm ET \nSummary: This workshop will assist you in understanding the fundamentals of employment discrimination law applicable to news organizations and journalistic endeavors\, including differences between employees and contractors; discrimination in the context of hiring\, discipline\, and termination; different forms that discrimination takes; and responses to incidents of discrimination. The session also explores harassment\, a close legal cousin of discrimination.   \nSpeaker(s):   \n\nAnaeli Petisco-Rojas\, Vice President\, Employment Law\, TelevisaUnivision\nJamila Brinson\, Partner\,Labor and Employment\, Jackson Walker LLP \n\nRegister here: https://nahj.memberclicks.net/MediaLawdiscrimination
+URL:https://nahj.org/event/the-law-of-discrimination-in-the-journalism-workplace-webinar/
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/Media-Law-Training-8.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 DTSTART:20260421T200000Z
 DTEND:20260421T210000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:6ubpt0oc287io5a9jsp01q02vl@google.com
 CREATED:20260220T203220Z
 DESCRIPTION:<p><strong>From Founder to Leader: What to Consider as Your Org
@@ -1689,6 +1517,21 @@ STATUS:CONFIRMED
 SUMMARY:From Founder to Leader: What to Consider as Your Organization Evolv
  es
 TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/crafting-a-resume-that-increases-your-odds-of-landing-in-the-yes-pile/"}
+X-SOURCE-ID:sabew
+X-SOURCE:Sabew
+DTSTART;TZID=America/New_York:20260422T130000
+DTEND;TZID=America/New_York:20260422T140000
+DTSTAMP:20260318T222534
+CREATED:20260318T152735Z
+LAST-MODIFIED:20260318T153158Z
+UID:70136-1776862800-1776866400@sabew.org
+SUMMARY:Crafting a resume that increases your odds of landing in the ‘yes’ pile
+DESCRIPTION:If you’re looking to make a career move\, the first hurdle you’ll likely face is getting your resume past the applicant tracking system. This webinar will offer tips on how to format your resume to boost the likelihood it will be seen by a human and get the consideration it deserves. The panel will discuss how to select keywords to use so that once your application makes it through any filters\, it will impress the hiring manager. You will receive actionable advice\, such as which tools to use to test your resume and how to get AI to work for you in your job search. \nIf you lost your job in 2026\, SABEW wants to help. We are offering one-year complimentary memberships for those who have been affected by newsroom cuts. Join SABEW\, the association for business journalists\, to access virtual training sessions\, like this one\, and other membership benefits. Complete this form and someone from SABEW will be in contact with you. \nPanelists:\nSarah Babbage\, news team lead at Bloomberg\nHilke Schellman\, professor in New York University’s Arthur L. Carter Journalism Institute\, author of “The Algorithm: How AI Decides who Gets Hired\, Monitored\, Promoted and Fired\, and Why We Need to Fight Back Now” \nRegistration:\nThis is a free webinar\, but you must register below to receive the Zoom link.
+URL:https://sabew.org/event/crafting-a-resume-that-increases-your-odds-of-landing-in-the-yes-pile/
+CATEGORIES:Virtual Training
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Associated Press": "https://www.eventbrite.com/e/media-literacy-research-rights-and-reality-tickets-1978160791177"}
@@ -1727,7 +1570,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260423T130000
 DTEND;TZID=America/New_York:20260423T150000
-DTSTAMP:20260317T223150
+DTSTAMP:20260318T222528
 CREATED:20260302T153409Z
 LAST-MODIFIED:20260302T153409Z
 UID:10004847-1776949200-1776956400@inn.org
@@ -1752,7 +1595,7 @@ X-SOURCE-ID:newsguild
 X-SOURCE:NewsGuild-CWA
 DTSTART:20260425T170000Z
 DTEND:20260425T190000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:1e1kdrbkvenfsakrqthv496puc@google.com
 CREATED:20260312T180850Z
 DESCRIPTION:<h4>Start: <span style="font-weight: normal\;">Saturday\, April
@@ -1808,7 +1651,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260429T130000
 DTEND;TZID=America/New_York:20260429T140000
-DTSTAMP:20260317T223150
+DTSTAMP:20260318T222528
 CREATED:20260316T134527Z
 LAST-MODIFIED:20260316T134527Z
 UID:10004848-1777467600-1777471200@inn.org
@@ -1836,6 +1679,10 @@ SUMMARY:Unbannable Library (Union Square)
 DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260430T100000
 DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260430T100000
 UID:ac2cdd144aa6023c473c1f42cef39bd0@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1180163790%2F535058879521%2F1%2Foriginal.20260318-181931?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
+ p-y=0.5&s=1f6acdc20d12dd6aaa3d8f6f154699c1
 DESCRIPTION:Come see these unique larger-than-life interactive books draw 
  attention to the voices and stories most often subject to censorship.
 LOCATION:Union Square (North Plaza\, E 17th St at Broadway/UnionSquare W)\
@@ -1852,6 +1699,10 @@ SUMMARY:ArtLords Public Mural
 DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260430T100000
 DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260430T100000
 UID:c9661c0112a813aef1cd1415d856e4fc@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1180163474%2F535058879521%2F1%2Foriginal.20260318-181608?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
+ p-y=0.5&s=310c8c0563b5845e6b15fd2b444029ae
 DESCRIPTION:Join us for an electrifying live mural creation event
 LOCATION:Union Square (North Plaza\, E 17th St at Broadway/UnionSquare W)\
  , Union Square\, North Plaza\, E 17th St at Broadway/UnionSquare W\, New Y
@@ -1907,7 +1758,7 @@ X-SOURCE:NewsGuild-CWA
 URL:https://us06web.zoom.us/meeting/register/WqsabG6gScWfb2q2aIr-Pg
 DTSTART:20260501T003000Z
 DTEND:20260501T023000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:70b67r92q1vf9v5u67kb1dpdnf@google.com
 CREATED:20260129T223749Z
 DESCRIPTION:TNG is an anti-harassment organization. Join the effort to impr
@@ -2023,7 +1874,7 @@ X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;VALUE=DATE:20260506
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20260226T160353Z
 LAST-MODIFIED:20260312T142856Z
 UID:70005-1778025600-1778371199@sabew.org
@@ -2040,7 +1891,7 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 DTSTART;TZID=America/Chicago:20260506T160000
 DTEND;TZID=America/Chicago:20260506T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260401T210000@google.com_20260506
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and pa
@@ -2081,7 +1932,7 @@ X-SOURCE-ID:newsguild
 X-SOURCE:NewsGuild-CWA
 DTSTART:20260506T230000Z
 DTEND:20260507T003000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:5iboh4auknqolgkmvsm1umh6je@google.com
 CREATED:20251113T011635Z
 DESCRIPTION:<p><b>Member organizers</b> are members from the rank and file 
@@ -2103,7 +1954,7 @@ X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260317T223155
+DTSTAMP:20260318T222534
 CREATED:20250730T220320Z
 LAST-MODIFIED:20260313T162658Z
 UID:66733-1778112000-1778371199@sabew.org
@@ -2139,13 +1990,28 @@ URL:https://www.poynter.org/shop/leadership/essential-skills-for-new-manag
 X-SOURCE:Poynter Institute Training
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/digital-open-source-investigations-chronolocation-webinar/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260512T180000
+DTEND;TZID=America/New_York:20260512T193000
+DTSTAMP:20260313T214836
+CREATED:20260305T181716Z
+LAST-MODIFIED:20260305T181716Z
+UID:25615-1778608800-1778614200@nahj.org
+SUMMARY:Digital Open-Source Investigations: Chronolocation Webinar
+DESCRIPTION:An NAHJ webinar training series for 2026: Digital Open-Source Investigations and OSINT for Journalism\n\nChronolocation \nParticipants will learn how to verify images and videos by finding approximately when they were recorded using geolocation\, sunlight\, and shadows. \nWhen: Tuesday\, May 12\, 2026\nTime: 6:00 PM – 7:15 PM EST\nRegister: https://nahj.memberclicks.net/OSINTchrono \nPresented by: OSINT Reporting Lab at USC Annenberg School for Communication and Journalism  \n  \n 
+URL:https://nahj.org/event/digital-open-source-investigations-chronolocation-webinar/
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/NAHJ_OpenSource-9.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Hackshackers": "https://luma.com/hh-aijournalismsummit-2026"}
 X-SOURCE-ID:hackshackers
 X-SOURCE:Hackshackers
 URL:https://luma.com/hh-aijournalismsummit-2026
 DTSTART:20260512T220000Z
 DTEND:20260514T210000Z
-DTSTAMP:20260318T023155Z
+DTSTAMP:20260319T022535Z
 ORGANIZER;CN="Paul Cheung":MAILTO:calendar-invite@lu.ma
 UID:evt-1KgaVILYnDGG7Ig@events.lu.ma
 SUMMARY:Hacks/Hackers AI x Journalism Summit 2026
@@ -2154,7 +2020,7 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/hh-aijournalis
  ed States\n\nHosted by Paul Cheung & 3 others
 LOCATION:The Real News Network, 231 Holliday St, Baltimore, MD 21202, USA
 GEO:39.292193999999995;-76.61019569999999
-SEQUENCE:195964315
+SEQUENCE:196050335
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
@@ -2162,7 +2028,7 @@ X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 DTSTART;TZID=America/New_York:20260513T160000
 DTEND;TZID=America/New_York:20260513T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com_20260513
 CREATED:20251212T131931Z
 LAST-MODIFIED:20260313T041448Z
@@ -2211,7 +2077,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260515T160000
 DTEND;TZID=America/New_York:20260515T170000
-DTSTAMP:20260317T223154
+DTSTAMP:20260318T222533
 CREATED:20260206T211715Z
 LAST-MODIFIED:20260206T211718Z
 UID:62517-1778860800-1778864400@healthjournalism.org
@@ -2252,7 +2118,7 @@ X-SOURCE-ID:newsguild
 X-SOURCE:NewsGuild-CWA
 DTSTART:20260518T230000Z
 DTEND:20260519T003000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:02fca9p5kumqikme1c8au9ss3h@google.com
 CREATED:20260312T181022Z
 DESCRIPTION:<h4>Start: <span style="font-weight: normal\;">Saturday\, May 1
@@ -2285,7 +2151,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260527T000000
 DTEND;TZID=America/New_York:20260530T235959
-DTSTAMP:20260317T223154
+DTSTAMP:20260318T222533
 CREATED:20260121T224600Z
 LAST-MODIFIED:20260121T224603Z
 UID:62297-1779840000-1780185599@healthjournalism.org
@@ -2302,7 +2168,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260606
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:38vhr0gb8vnlj42tr2rpgdgtnu@google.com
 CREATED:20260302T030352Z
 DESCRIPTION:See the full conference description: <a href="https://ewa.org/e
@@ -2322,30 +2188,13 @@ SUMMARY:2026 EWA National Seminar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232316Z
-UID:6sHhiqfRN1-8229088514@spjnetwork.org
-DTSTART;TZID=America/New_York:20260602
-DTEND;TZID=America/New_York:20260605
-SUMMARY:79th Annual EWA National Seminar
-URL:http://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
-DESCRIPTION:The Education Writers Association (EWA) will hold its 2026 National Seminar in Baltimore\, Maryland\, June 2-5\, 2026. Scholarships are available to journalists covering education\, whether full-time on the beat or for a particular investigation\, series or story. (We are currently offering journalists impacted by layoffs and newsroom cuts priority consideration for scholarships covering registration.)
-
-The 79th annual National Seminar will follow seismic changes to education at the federal level\, including huge staffing cuts in the U.S. Department of Education\, the loss of federal funding for research at universities and an overhaul of the student loan system. Meanwhile\, schools\, educators and students face ongoing challenges ??' from inequitable resources to declining enrollment ??' while navigating emerging trends\, such as significant growth among workforce development programs and the use of artificial intelligence. 
-
-EWA will use this unprecedented moment to help members understand how stakeholders are affected amid major shifts in federal oversight and funding while also providing training and offering solutions on how to best cover persistent education issues. Sessions focusing on journalism skills ??' from best FOIA request practices to effectively using archival material in coverage ??' will also be a key part of the conference. 
-LOCATION:401 West Pratt Street\, Baltimore\, Maryland 21201\, USA
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09"}
 X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 DTSTART;TZID=America/Chicago:20260603T160000
 DTEND;TZID=America/Chicago:20260603T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260401T210000@google.com_20260603
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and pa
@@ -2386,7 +2235,7 @@ X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 DTSTART;TZID=America/New_York:20260610T160000
 DTEND;TZID=America/New_York:20260610T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com_20260610
 CREATED:20251212T131931Z
 LAST-MODIFIED:20260313T041448Z
@@ -2396,32 +2245,12 @@ SUMMARY:Founder Show and Tell: Monthly meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://us02web.zoom.us/meeting/register/Mv1mwwaDQ5O6OCsEMnRQzg"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232317Z
-UID:v5wH6IjvXx-8237188168@spjnetwork.org
-DTSTART;TZID=America/New_York:20260612T160000
-DTEND;TZID=America/New_York:20260612T170000
-SUMMARY:SPJ Board of Directors Meeting
-URL:http://us02web.zoom.us/meeting/register/Mv1mwwaDQ5O6OCsEMnRQzg
-DESCRIPTION:You are invited to the SPJ Board of Directors Zoom meeting.
-When: Jun 12\, 2026 04:00 PM Indiana (East)
-
-Register in advance for this meeting:
-https://us02web.zoom.us/meeting/register/Mv1mwwaDQ5O6OCsEMnRQzg
-
-After registering\, you will receive a confirmation email containing information about joining the meeting.
-
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/inn-days-2026/"}
 X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260317T223150
+DTSTAMP:20260318T222528
 CREATED:20260123T165431Z
 LAST-MODIFIED:20260206T171526Z
 UID:10004840-1781568000-1781827199@inn.org
@@ -2437,7 +2266,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260616T170000
 DTEND;TZID=America/New_York:20260616T203000
-DTSTAMP:20260317T223150
+DTSTAMP:20260318T222528
 CREATED:20260209T143527Z
 LAST-MODIFIED:20260209T143527Z
 UID:10004844-1781629200-1781641800@inn.org
@@ -2452,7 +2281,7 @@ X-SOURCE-ID:poynter
 X-SOURCE:Poynter Institute
 DTSTART;TZID=Europe/Vilnius:20260617T080000
 DTEND;TZID=Europe/Vilnius:20260619T170000
-DTSTAMP:20260317T221120
+DTSTAMP:20260318T222530
 CREATED:20260219T160726Z
 LAST-MODIFIED:20260224T182258Z
 UID:1189666-1781683200-1781888400@www.poynter.org
@@ -2470,7 +2299,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.ire.org/training/conferences/ire-2026/
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260622
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:4onag31t66iv7lht4jcddi2iub@google.com
 CREATED:20260226T021319Z
 DESCRIPTION:See the full conference description: <a href="https://www.ire.o
@@ -2489,26 +2318,11 @@ SUMMARY:IRE 2026
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.freedomforum.org/al-neuharth-free-spirit-and-journalism-conference/?utm_source=spjnetwork&utm_medium=Posting&utm_campaign=FSC2026&utm_content=Calendar"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232318Z
-UID:WYHZlvv6YW-8229088496@spjnetwork.org
-DTSTART;TZID=America/New_York:20260621
-DTEND;TZID=America/New_York:20260626
-SUMMARY:Al Neuharth Free Spirit and Journalism Conference
-URL:http://www.freedomforum.org/al-neuharth-free-spirit-and-journalism-conference/?utm_source=spjnetwork&#38;utm_medium=Posting&#38;utm_campaign=FSC2026&#38;utm_content=Calendar
-DESCRIPTION:The Al Neuharth Free Spirit and Journalism Conference on June 21-26\, 2026\, provides 51 students (one high school junior from each state plus the District of Columbia) with an all-expenses-paid program that includes panel conversations with journalists and multimedia storytellers\, newsroom visits\, networking events\, a chance to meet students and industry leaders who share a passion for news\, and a unique Washington\, D.C.\, experience. 
-  
-Participants also receive a $1\,000 college scholarship and ongoing support from a community of more than 1\,700 alumni. Students build their skills\, grow their network and get a head start on their future. Whether you’re interested in print and broadcast journalism\, multimedia storytelling or podcasts\, this program is for you! The deadline to apply is March 15. 
-LOCATION:610 Water St SW\, Ste 300. Washington\, DC 20024
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:newsguild
 X-SOURCE:NewsGuild-CWA
 DTSTART:20260621T170000Z
 DTEND:20260621T190000Z
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022536Z
 UID:4ml1nu0j5cq65j8jiqi7jmkmau@google.com
 CREATED:20260312T181148Z
 DESCRIPTION:<h4>Start: <span style="font-weight: normal\;">Saturday\, May 2
@@ -2542,7 +2356,7 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 DTSTART;TZID=America/Chicago:20260701T160000
 DTEND;TZID=America/Chicago:20260701T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260401T210000@google.com_20260701
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and pa
@@ -2583,7 +2397,7 @@ X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 DTSTART;TZID=America/New_York:20260708T160000
 DTEND;TZID=America/New_York:20260708T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com_20260708
 CREATED:20251212T131931Z
 LAST-MODIFIED:20260313T041448Z
@@ -2593,13 +2407,30 @@ SUMMARY:Founder Show and Tell: Monthly meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/nahj-conference-expo-new-orleans-2026/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+DTSTAMP:20260313T214836
+CREATED:20251223T073000Z
+LAST-MODIFIED:20251223T194626Z
+UID:24798-1784678400-1784764799@nahj.org
+SUMMARY:NAHJ Conference & Expo — New Orleans 2026
+DESCRIPTION:The NAHJ national conference\, offers unparalleled career development opportunities with leading Hispanic journalists and media professionals. This annual gathering features workshops and panels that provide essential tools for career growth in a rapidly evolving industry. Attendees gain valuable insights on storytelling\, media trends\, and diversity in journalism\, making it a must-attend event for professionals and students alike. It’s taking place July 22-25 in New Orleans\, Louisiana. \nFor more information visit: https://nahjconference.org.
+URL:https://nahj.org/event/nahj-conference-expo-new-orleans-2026/
+LOCATION:New Orleans Marriott\, 555 Canal St.\, New Orleans\, LA\, United States
+CATEGORIES:Conference,Networking
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2025/12/f8456192-2f5b-4a20-a254-b7ef304e4c01.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09"}
 X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 DTSTART;TZID=America/Chicago:20260805T160000
 DTEND;TZID=America/Chicago:20260805T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260401T210000@google.com_20260805
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and pa
@@ -2640,7 +2471,7 @@ X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 DTSTART;TZID=America/New_York:20260812T160000
 DTEND;TZID=America/New_York:20260812T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com_20260812
 CREATED:20251212T131931Z
 LAST-MODIFIED:20260313T041448Z
@@ -2656,7 +2487,7 @@ X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 DTSTART;TZID=America/Chicago:20260902T160000
 DTEND;TZID=America/Chicago:20260902T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260401T210000@google.com_20260902
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and pa
@@ -2697,7 +2528,7 @@ X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T170000
-DTSTAMP:20260318T023156Z
+DTSTAMP:20260319T022535Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260311T200000@google.com_20260909
 CREATED:20251212T131931Z
 LAST-MODIFIED:20260313T041448Z
@@ -2712,7 +2543,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260317T223152
+DTSTAMP:20260318T222531
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org

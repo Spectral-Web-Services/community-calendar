@@ -285,16 +285,4 @@ SUMMARY:STI Testing Pop-up Clinic
 UID:4713
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4711
-DTEND;TZID=America/Chicago:20260318T183000
-DTSTAMP;TZID=America/Chicago:20260303T144858
-DTSTART;TZID=America/Chicago:20260318T160000
-LAST-MODIFIED;TZID=America/Chicago:20260303T144858
-LOCATION:Skokie Village Hall - 5127 Oakton Street  Skokie IL 60077
-SEQUENCE:0
-SUMMARY:Walk-in Wednesday Vaccine Clinic
-UID:4711
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
-END:VEVENT
 END:VCALENDAR
