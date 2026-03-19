@@ -358,6 +358,8 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-east-bay-56946956693" --name "Jewish Baby Network East Bay" --output cities/jweekly/eventbrite_jbn_east_bay.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-peninsula-60080821253" --name "Jewish Baby Network Peninsula" --output cities/jweekly/eventbrite_jbn_peninsula.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-san-francisco-60081113283" --name "Jewish Baby Network SF" --output cities/jweekly/eventbrite_jbn_sf.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/113723342691" --name "Jewish Engagement Center" --output cities/jweekly/eventbrite_jewish_engagement.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/120866518338" --name "B'nai Israel Jewish Center" --output cities/jweekly/eventbrite_bnai_israel.ics || true
       continue-on-error: true
 
     - name: Download JWeekly feeds
