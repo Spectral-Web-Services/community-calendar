@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19T18:40:59.659614",
+  "generated": "2026-03-19T21:25:42.697898",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -54860,7 +54860,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 7
+              "count": 0
             }
           ]
         },
@@ -55404,7 +55404,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 1
+              "count": 0
             }
           ]
         },
@@ -55623,23 +55623,31 @@
               "count": 2
             }
           ]
+        },
+        "eventbrite_npa": {
+          "history": [
+            {
+              "date": "2026-03-19",
+              "count": 0
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 88
+          "count": 76
         },
         {
           "category": "Community / Social",
           "count": 38
         },
         {
-          "category": "Books / Literature / Poetry",
-          "count": 10
+          "category": "Government / Civic",
+          "count": 13
         },
         {
-          "category": "Government / Civic",
+          "category": "Books / Literature / Poetry",
           "count": 9
         },
         {
@@ -55649,6 +55657,10 @@
         {
           "category": "Film / Cinema",
           "count": 4
+        },
+        {
+          "category": "(uncategorized)",
+          "count": 1
         },
         {
           "category": "History / Heritage",
@@ -55664,18 +55676,13 @@
         }
       ],
       "images": {
-        "total": 160,
-        "with_image": 35,
+        "total": 152,
+        "with_image": 28,
         "by_source": [
           {
             "source": "PEN America",
             "total": 23,
             "with_image": 11
-          },
-          {
-            "source": "National Assoc. of Hispanic Journalists",
-            "total": 7,
-            "with_image": 7
           },
           {
             "source": "Institute for Nonprofit News",
@@ -55715,9 +55722,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 149,
-        "total_events": 160,
-        "unique_urls": 142,
+        "total_with_url": 141,
+        "total_events": 152,
+        "unique_urls": 134,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 17,
@@ -55766,12 +55773,6 @@
             "specificity_pct": 38
           },
           {
-            "source": "National Assoc. of Hispanic Journalists",
-            "events": 7,
-            "unique_urls": 7,
-            "specificity_pct": 100
-          },
-          {
             "source": "Journalism Internship & Fellowship Deadlines",
             "events": 6,
             "unique_urls": 6,
@@ -55809,6 +55810,12 @@
           },
           {
             "source": "Knight Center for Journalism",
+            "events": 3,
+            "unique_urls": 3,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Assoc. of LGBTQ+ Journalists",
             "events": 3,
             "unique_urls": 3,
             "specificity_pct": 100
@@ -57137,6 +57144,14 @@
       "date": "2026-03-19",
       "city": "publisher-resources",
       "feed": "lion_publishers"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 1)",
+      "severity": "high",
+      "date": "2026-03-19",
+      "city": "publisher-resources",
+      "feed": "hackshackers"
     }
   ],
   "errors": [
