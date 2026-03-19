@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19T17:02:38.604559",
+  "generated": "2026-03-19T18:15:24.001925",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -55084,7 +55084,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 13
+              "count": 7
             }
           ]
         },
@@ -55212,7 +55212,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 1
+              "count": 0
             }
           ]
         },
@@ -55308,7 +55308,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 5
+              "count": 4
             }
           ]
         },
@@ -55532,7 +55532,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 14
+              "count": 12
             }
           ]
         },
@@ -55628,31 +55628,27 @@
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 88
+          "count": 79
         },
         {
           "category": "Community / Social",
-          "count": 29
-        },
-        {
-          "category": "Government / Civic",
-          "count": 7
-        },
-        {
-          "category": "Arts / Culture",
-          "count": 6
+          "count": 30
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 6
+          "count": 10
+        },
+        {
+          "category": "Government / Civic",
+          "count": 9
+        },
+        {
+          "category": "Arts / Culture",
+          "count": 8
         },
         {
           "category": "Film / Cinema",
           "count": 4
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 2
         },
         {
           "category": "History / Heritage",
@@ -55664,9 +55660,14 @@
         }
       ],
       "images": {
-        "total": 144,
-        "with_image": 21,
+        "total": 142,
+        "with_image": 28,
         "by_source": [
+          {
+            "source": "PEN America",
+            "total": 23,
+            "with_image": 11
+          },
           {
             "source": "Institute for Nonprofit News",
             "total": 6,
@@ -55678,16 +55679,6 @@
             "with_image": 4
           },
           {
-            "source": "PEN America",
-            "total": 15,
-            "with_image": 3
-          },
-          {
-            "source": "Ahcj",
-            "total": 5,
-            "with_image": 2
-          },
-          {
             "source": "Center for Cooperative Media",
             "total": 2,
             "with_image": 2
@@ -55696,6 +55687,11 @@
             "source": "Poynter Institute",
             "total": 2,
             "with_image": 2
+          },
+          {
+            "source": "Ahcj",
+            "total": 4,
+            "with_image": 1
           },
           {
             "source": "Tiny News Members Only",
@@ -55710,14 +55706,20 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 133,
-        "total_events": 144,
-        "unique_urls": 126,
+        "total_with_url": 131,
+        "total_events": 142,
+        "unique_urls": 125,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 17,
         "http_domains": 7,
         "source_specificity": [
+          {
+            "source": "PEN America",
+            "events": 23,
+            "unique_urls": 23,
+            "specificity_pct": 100
+          },
           {
             "source": "Society of Professional Journalists",
             "events": 17,
@@ -55725,22 +55727,10 @@
             "specificity_pct": 100
           },
           {
-            "source": "PEN America",
-            "events": 15,
-            "unique_urls": 15,
-            "specificity_pct": 100
-          },
-          {
             "source": "Solutions Journalism Network",
-            "events": 14,
-            "unique_urls": 13,
-            "specificity_pct": 93
-          },
-          {
-            "source": "Editor & Publisher",
-            "events": 13,
-            "unique_urls": 13,
-            "specificity_pct": 100
+            "events": 12,
+            "unique_urls": 11,
+            "specificity_pct": 92
           },
           {
             "source": "Society of Environmental Journalists",
@@ -55756,6 +55746,12 @@
           },
           {
             "source": "Poynter Institute Training",
+            "events": 7,
+            "unique_urls": 7,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Editor & Publisher",
             "events": 7,
             "unique_urls": 7,
             "specificity_pct": 100
@@ -55786,8 +55782,8 @@
           },
           {
             "source": "Ahcj",
-            "events": 5,
-            "unique_urls": 5,
+            "events": 4,
+            "unique_urls": 4,
             "specificity_pct": 100
           },
           {
@@ -57124,13 +57120,21 @@
       "date": "2026-03-19",
       "city": "publisher-resources",
       "feed": "nahj"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 1)",
+      "severity": "high",
+      "date": "2026-03-19",
+      "city": "publisher-resources",
+      "feed": "lion_publishers"
     }
   ],
   "errors": [
     {
       "date": "2026-03-19",
-      "line": "WARNING: API call failed: HTTP Error 429: Too Many Requests",
-      "source": null
+      "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json",
+      "source": "models"
     }
   ]
 }
