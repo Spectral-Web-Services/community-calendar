@@ -26,16 +26,24 @@ CREATE POLICY "source_config_update" ON source_config
 CREATE POLICY "source_config_delete" ON source_config
   FOR DELETE USING (auth.uid() = curator_id);
 
--- View that automatically excludes hidden sources from the main calendar.
+-- View that automatically excludes hidden sources from the main calendar,
+-- except for the curator who owns each hidden source (they still see their own).
 -- Auto-collections query the `events` table directly, so they bypass this filter.
 CREATE OR REPLACE VIEW public_events
   WITH (security_invoker = true)
 AS
-SELECT e.*
+SELECT e.*,
+  EXISTS (
+    SELECT 1 FROM source_config sc
+    WHERE sc.city = e.city
+      AND sc.source_name = e.source
+      AND sc.hidden_from_main = true
+  ) AS is_private
 FROM events e
 WHERE NOT EXISTS (
   SELECT 1 FROM source_config sc
   WHERE sc.city = e.city
     AND sc.source_name = e.source
     AND sc.hidden_from_main = true
+    AND (sc.curator_id IS DISTINCT FROM auth.uid())
 );

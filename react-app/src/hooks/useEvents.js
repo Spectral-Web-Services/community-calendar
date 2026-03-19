@@ -15,7 +15,7 @@ function getDateRange() {
   };
 }
 
-export function useEvents(city) {
+export function useEvents(city, session) {
   const [events, setEvents] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -31,12 +31,16 @@ export function useEvents(city) {
 
     const url = `${SUPABASE_URL}/rest/v1/public_events?select=*&order=start_time.asc&limit=5000&start_time=gte.${from}&start_time=lte.${to}&city=eq.${city}`;
 
-    fetch(url, {
-      headers: {
-        apikey: SUPABASE_KEY,
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-      },
-    })
+    const headers = {
+      apikey: SUPABASE_KEY,
+      'Cache-Control': 'no-cache, no-store, must-revalidate',
+    };
+    // Pass auth token so public_events view can include curator's private sources
+    if (session?.access_token) {
+      headers['Authorization'] = 'Bearer ' + session.access_token;
+    }
+
+    fetch(url, { headers })
       .then(res => res.json())
       .then(data => {
         setEvents(data);
@@ -46,7 +50,7 @@ export function useEvents(city) {
         setEvents([]);
         setLoading(false);
       });
-  }, [city]);
+  }, [city, session]);
 
   return { events, loading };
 }

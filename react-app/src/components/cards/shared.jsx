@@ -4,7 +4,7 @@ import {
   Info, CalendarPlus, Download, Bookmark, Pencil, X, Settings2, Star,
   Palette, BookOpen, Laugh, Users, Drama, GraduationCap, Baby,
   Film, UtensilsCrossed, Landmark, Heart, Clock, Music,
-  TreePine, Church, Dumbbell, Calendar,
+  TreePine, Church, Dumbbell, Calendar, Lock,
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth.jsx';
 import { useCurator } from '../../hooks/useCurator.jsx';
@@ -398,15 +398,18 @@ export function DetailModal({ event, dateStr, timeStr, onClose }) {
 
 export function EventTitle({ event, className }) {
   const base = className || 'text-base font-bold tracking-tight text-gray-900 dark:text-gray-100 leading-snug';
+  const lockIcon = event.is_private ? (
+    <Lock size={14} className="inline-block ml-1.5 text-gray-400 align-baseline flex-shrink-0" title="Private source" />
+  ) : null;
   if (event.url) {
     return (
       <a href={event.url} target="_blank" rel="noopener noreferrer"
         className={`${base} hover:underline block`}>
-        {event.title}
+        {event.title}{lockIcon}
       </a>
     );
   }
-  return <h5 className={base}>{event.title}</h5>;
+  return <h5 className={base}>{event.title}{lockIcon}</h5>;
 }
 
 function CategoryOverrideModal({ event, onClose }) {
