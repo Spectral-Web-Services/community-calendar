@@ -50,11 +50,26 @@ def parse_ics_datetime(dt_str, local_tz=None):
 
     # Handle property parameters like DTSTART;TZID=America/Los_Angeles:20240101T120000
     if ';' in dt_str:
-        params_part, _, value_part = dt_str.partition(':')
+        # Find the colon separating params from value, skipping colons
+        # inside quoted parameter values (e.g. TZID="UTC-07:00")
+        in_quotes = False
+        split_pos = None
+        for i, ch in enumerate(dt_str):
+            if ch == '"':
+                in_quotes = not in_quotes
+            elif ch == ':' and not in_quotes:
+                split_pos = i
+                break
+        if split_pos is not None:
+            params_part = dt_str[:split_pos]
+            value_part = dt_str[split_pos + 1:]
+        else:
+            params_part = dt_str
+            value_part = ''
         # Extract TZID if present
         for param in params_part.split(';')[1:]:
             if param.upper().startswith('TZID='):
-                tzid = param[5:]
+                tzid = param[5:].strip('"')
                 # TZID=UTC is just a transport encoding, not a real event timezone.
                 # Keep the city timezone for display purposes.
                 if tzid.upper() == 'UTC':
@@ -169,7 +184,8 @@ def extract_datetime_field(event_content, field_name):
     Returns the full property line including params so that parse_ics_datetime can
     honour the TZID parameter (e.g. 'DTSTART;TZID=America/Chicago:20260317T190000').
     """
-    pattern = rf'^({field_name}(?:;[^:]*)?):([ \t]*[^\r\n]*)'
+    # Allow colons inside quoted parameter values (e.g. TZID="UTC-07:00")
+    pattern = rf'^({field_name}(?:;(?:[^:"]|"[^"]*")*)?):([ \t]*[^\r\n]*)'
     match = re.search(pattern, event_content, re.IGNORECASE | re.MULTILINE)
     if match:
         prop = match.group(1)    # e.g. 'DTSTART;TZID=America/Chicago' or 'DTSTART'
