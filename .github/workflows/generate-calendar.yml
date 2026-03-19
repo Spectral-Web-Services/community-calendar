@@ -553,6 +553,10 @@ jobs:
         python scrapers/ticketmaster.py --venue-id KovZpa6MXe --name "Moda Center" --timezone America/Los_Angeles -o cities/portland/ticketmaster_moda_center.ics || true
         python scrapers/ticketmaster.py --venue-id KovZpZAJ67kA --name "Veterans Memorial Coliseum" --timezone America/Los_Angeles -o cities/portland/ticketmaster_veterans_coliseum.ics || true
         python scrapers/ticketmaster.py --venue-id KovZpZAJ6E6A --name "Theater of the Clouds" --timezone America/Los_Angeles -o cities/portland/ticketmaster_theater_clouds.ics || true
+        # Steelport Knife Co. (Shopify Atom feed)
+        python scrapers/steelport.py --output cities/portland/steelport.ics || true
+        # Hillsboro Markets (Squarespace)
+        python scrapers/squarespace.py --url "https://hillsboromarkets.org/events" --name "Hillsboro Markets" --output cities/portland/hillsboro_markets.ics || true
         # Eventbrite organizers
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon" --output cities/portland/eventbrite_trailkeepers.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance" --output cities/portland/eventbrite_nw_trail_alliance.ics || true
@@ -743,6 +747,7 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/72823983313" --name "Associated Press" --output cities/publisher-resources/eventbrite_ap.ics || true
         # SciLine (AAAS) — Eventbrite organizer
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/120815379857" --name "SciLine" --output cities/publisher-resources/eventbrite_sciline.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/31338856063" --name "News Product Alliance" --output cities/publisher-resources/eventbrite_npa.ics || true
         # ONA (Online News Association) — HTML scraper (Novi AMS, no feeds)
         python scrapers/ona_events.py --output cities/publisher-resources/ona_events.ics || true
         python scrapers/knight_center.py --output cities/publisher-resources/knight_center.ics || true
