@@ -96,3 +96,37 @@ END:VCALENDAR"""
     assert len(events) == 1
     assert events[0]['timezone'] == 'America/New_York'
     assert '-04:00' in events[0]['start_time']
+
+
+def test_quoted_utc_offset_tzid():
+    """Eventbrite uses quoted UTC offset TZIDs like TZID="UTC-07:00" which contain
+    a colon that must not break the param/value split."""
+    tz = ZoneInfo('America/Los_Angeles')
+    iso, tz_name = parse_ics_datetime(
+        'DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260415T130000', local_tz=tz
+    )
+    assert iso == '2026-04-15T13:00:00-07:00'
+    assert tz_name == 'America/Los_Angeles'
+
+
+def test_quoted_utc_offset_tzid_full_event():
+    """Full event with Eventbrite-style quoted TZID should parse and appear in output."""
+    ics_content = """BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:Monet & Venice
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260415T130000
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260415T140000
+UID:test-eventbrite@example.com
+X-SOURCE:test
+END:VEVENT
+END:VCALENDAR"""
+
+    with tempfile.NamedTemporaryFile(suffix='.ics', mode='w', delete=False) as f:
+        f.write(ics_content)
+        f.flush()
+        events = ics_to_json(f.name, future_only=False, city='jweekly')
+
+    assert len(events) == 1
+    assert events[0]['title'] == 'Monet & Venice'
+    assert events[0]['start_time'] == '2026-04-15T13:00:00-07:00'
