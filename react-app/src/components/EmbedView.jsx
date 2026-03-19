@@ -127,9 +127,12 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
     if (!collection?.allowed_domains?.length) return false;
     try {
       const referrerHost = new URL(document.referrer).hostname;
-      return !collection.allowed_domains.some(d =>
-        referrerHost === d || referrerHost.endsWith('.' + d)
-      );
+      return !collection.allowed_domains.some(d => {
+        // Support both bare hostnames (mysite.com) and full URLs (https://mysite.com)
+        let allowed = d;
+        try { allowed = new URL(d).hostname; } catch {}
+        return referrerHost === allowed || referrerHost.endsWith('.' + allowed);
+      });
     } catch {
       // No referrer or invalid — block when allowlist is set
       return true;
