@@ -7,6 +7,12 @@
 # cmd: python scrapers/travelportland.py
 cities/portland/travelportland.ics
 
+# Scraper
+# cmd: python scrapers/steelport.py
+cities/portland/steelport.ics
+# cmd: python scrapers/squarespace.py --url "https://hillsboromarkets.org/events" --name "Hillsboro Markets"
+cities/portland/hillsboro_markets.ics
+
 # Government meetings
 # cmd: python scrapers/legistar.py --client oregonmetro --source "Oregon Metro"
 cities/portland/legistar_oregon_metro.ics
