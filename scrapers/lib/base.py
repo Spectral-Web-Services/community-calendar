@@ -1,6 +1,7 @@
 """Base scraper class with common functionality."""
 
 import argparse
+import json
 import logging
 import os
 from abc import ABC, abstractmethod
@@ -110,6 +111,9 @@ class BaseScraper(ABC):
         if data.get('image_url'):
             event.add('attach', data['image_url'],
                        parameters={'fmttype': 'image/jpeg'})
+
+        if data.get('source_urls'):
+            event.add('x-source-urls', json.dumps(data['source_urls']))
 
         return event
     

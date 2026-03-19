@@ -82,7 +82,10 @@ class TravelPortlandScraper(BaseScraper):
             location_parts.append(item['address'])
         location = ', '.join(location_parts)
 
-        url = item.get('url') or ''
+        # Prefer venue's own page; fall back to Travel Portland's page
+        aggregator_url = item.get('url') or ''
+        url = item.get('website_url') or item.get('ticket_url') or aggregator_url
+        source_urls = {'Travel Portland': aggregator_url} if aggregator_url else {}
         image_url = item.get('featured_image') or ''
 
         # Price info
@@ -109,6 +112,7 @@ class TravelPortlandScraper(BaseScraper):
                 'location': location,
                 'description': description,
                 'image_url': image_url,
+                'source_urls': source_urls,
                 'uid': f"{uid_base}@travelportland.com",
             }]
 
@@ -129,6 +133,7 @@ class TravelPortlandScraper(BaseScraper):
                 'location': location,
                 'description': description,
                 'image_url': image_url,
+                'source_urls': source_urls,
                 'uid': uid,
             })
 
