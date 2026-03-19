@@ -6,7 +6,13 @@
 CREATE OR REPLACE VIEW public_events
   WITH (security_invoker = true)
 AS
-SELECT e.*
+SELECT e.*,
+  EXISTS (
+    SELECT 1 FROM source_config sc
+    WHERE sc.city = e.city
+      AND sc.source_name = e.source
+      AND sc.hidden_from_main = true
+  ) AS is_private
 FROM events e
 WHERE NOT EXISTS (
   SELECT 1 FROM source_config sc
