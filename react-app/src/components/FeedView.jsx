@@ -8,6 +8,7 @@ import { getMasonryColumns } from '../lib/helpers.js';
 import { isGridLayout as checkGridLayout, getColumnCount as calcColumnCount } from '../lib/cardStyles.js';
 import MasonryGrid from './MasonryGrid.jsx';
 import UniformGrid from './UniformGrid.jsx';
+import DateListView from './DateListView.jsx';
 import StyleSwitcher from './StyleSwitcher.jsx';
 
 export default function FeedView({ feedId }) {
@@ -76,6 +77,8 @@ export default function FeedView({ feedId }) {
 
       {events.length === 0 ? (
         <p className="text-center text-gray-400 py-12">This collection has no events yet.</p>
+      ) : cardStyle === 'datelist' ? (
+        <DateListView events={[...featuredEvents, ...regularEvents]} city={collection?.city} />
       ) : isGrid ? (
         <>
           {featuredEvents.length > 0 && (

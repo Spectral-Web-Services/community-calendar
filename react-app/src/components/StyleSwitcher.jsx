@@ -38,6 +38,7 @@ const OTHER_STYLES = [
   { id: 'list', label: 'List' },
   { id: 'compact', label: 'Compact' },
   { id: 'compactlist', label: 'Compact List' },
+  { id: 'datelist', label: 'By Date' },
 ];
 
 function StyleSection({ heading, styles, value, onChange }) {
