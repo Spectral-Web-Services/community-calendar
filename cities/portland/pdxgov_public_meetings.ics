@@ -4,20 +4,6 @@ PRODID:-//Portland Public Meetings//portland.gov//
 X-WR-CALNAME:Portland Public Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Development Review Advisory Committee (DRAC)
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260319T080000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260319T080000
-UID:28645c7e6e814ac328b515364d891ebb@portland.gov
-DESCRIPTION:The Development Review Advisory Committee (DRAC) is an advisor
- y body representing those with interests in the outcomes of policies\, bud
- gets\, regulations\, and procedures that affect development review process
- es. Its meetings are regularly held on the third Thursday of the month fro
- m 8 to 10 a.m.
-URL:https://www.portland.gov/ppd/drac/events/2026/3/19/development-review-
- advisory-committee-drac
-X-SOURCE:Portland Public Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Portland Utility Board Meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260319T110000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260319T110000
@@ -38,19 +24,15 @@ URL:https://www.portland.gov/arts/arts-access-fund/events/2026/3/19/arts-a
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:N/NE Oversight Committee Meeting
+SUMMARY:Sustainability and Climate Commission regular meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260319T180000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260319T180000
-UID:1bf2d8e3bab78bc82c2bfef54109c7d5@portland.gov
-DESCRIPTION:Please register through the Zoom link in the event description
- .If you will be attending in-person\, we request that you register via Zoo
- m.The meeting will be held online via Zoom and in-person at the New Song C
- ommunity Center\, 220 NE Russell St\, Portland\, OR 97212.
-LOCATION:New Song Church Community Center 220 NE Russell St Portland\n    
-                       \, OR\n                           97212 Get directio
- ns More about this location
-URL:https://www.portland.gov/phb/nne-oversight/events/2026/3/19/n-ne-overs
- ight-committee-meeting
+UID:c608df027d0de9d4f11a51f9dc77d966@portland.gov
+DESCRIPTION:
+LOCATION:The Portland Building 1120 SW Fifth Avenue Room 108 (Leah Hing) P
+ ortland\, OR 97204 Get directions More information about this room
+URL:https://www.portland.gov/scc/events/2026/3/19/sustainability-and-clima
+ te-commission-regular-meeting
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -67,15 +49,19 @@ URL:https://www.portland.gov/fitcog/events/2026/3/19/fitcog-town-hall-marc
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sustainability and Climate Commission regular meeting
+SUMMARY:N/NE Oversight Committee Meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260319T180000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260319T180000
-UID:c608df027d0de9d4f11a51f9dc77d966@portland.gov
-DESCRIPTION:
-LOCATION:The Portland Building 1120 SW Fifth Avenue Room 108 (Leah Hing) P
- ortland\, OR 97204 Get directions More information about this room
-URL:https://www.portland.gov/scc/events/2026/3/19/sustainability-and-clima
- te-commission-regular-meeting
+UID:1bf2d8e3bab78bc82c2bfef54109c7d5@portland.gov
+DESCRIPTION:Please register through the Zoom link in the event description
+ .If you will be attending in-person\, we request that you register via Zoo
+ m.The meeting will be held online via Zoom and in-person at the New Song C
+ ommunity Center\, 220 NE Russell St\, Portland\, OR 97212.
+LOCATION:New Song Church Community Center 220 NE Russell St Portland\n    
+                       \, OR\n                           97212 Get directio
+ ns More about this location
+URL:https://www.portland.gov/phb/nne-oversight/events/2026/3/19/n-ne-overs
+ ight-committee-meeting
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -91,6 +77,16 @@ URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:PCCEP Policy & Reform Subcommittee Meeting 3.25.26
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260325T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260325T180000
+UID:97bbe228742c445a4ec7ad0340ded5fb@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/pccep/events/2026/3/25/pccep-policy-reform-su
+ bcommittee-meeting-32526
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Community Board for Police Accountability March 25\, 2026\, Hybrid
   Meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260325T180000
@@ -102,16 +98,6 @@ LOCATION:The Portland Building 1120 SW Fifth Avenue Room 108 (Leah Hing) P
  ortland\, OR 97204 Get directions More information about this room
 URL:https://www.portland.gov/ocpa/events/2026/3/25/community-board-police-
  accountability-march-25-2026-hybrid-meeting
-X-SOURCE:Portland Public Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PCCEP Policy & Reform Subcommittee Meeting 3.25.26
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260325T180000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260325T180000
-UID:97bbe228742c445a4ec7ad0340ded5fb@portland.gov
-DESCRIPTION:
-URL:https://www.portland.gov/pccep/events/2026/3/25/pccep-policy-reform-su
- bcommittee-meeting-32526
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -175,6 +161,16 @@ URL:https://www.portland.gov/pub/events/2026/4/7/portland-utility-board-me
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:PCCEP Full Committee Meeting 4.8.26
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T180000
+UID:87dbe855684ada5e7c43b2655004274b@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/pccep/events/2026/4/8/pccep-full-committee-me
+ eting-4826
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Community Board for Police Accountability April 8\, 2026\, Hybrid 
  Meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T180000
@@ -196,16 +192,6 @@ UID:197d5c5ad359bbc6de8351a0d1a92b43@portland.gov
 DESCRIPTION:
 URL:https://www.portland.gov/bps/cleanenergy/grant-committee/events/2026/4
  /8/pcef-committee-meeting-april-8-2026
-X-SOURCE:Portland Public Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PCCEP Full Committee Meeting 4.8.26
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T180000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T180000
-UID:87dbe855684ada5e7c43b2655004274b@portland.gov
-DESCRIPTION:
-URL:https://www.portland.gov/pccep/events/2026/4/8/pccep-full-committee-me
- eting-4826
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -450,6 +436,382 @@ UID:5788b104ff05e0e77aff240f6222ad7e@portland.gov
 DESCRIPTION:
 URL:https://www.portland.gov/police/tac/events/2026/5/13/police-training-a
  dvisory-council-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:May 2026 Northwest Parking District Stakeholder Advisory Committee
+  (SAC) Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260520T170000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260520T170000
+UID:ad2ccac65dd4cfe41dbc46901b119a11@portland.gov
+DESCRIPTION:The Northwest Parking District Stakeholder Advisory Committee 
+ advises the city on priorities for transportation projects and programs. T
+ his committee typically meets on the third Wednesday of each month.
+LOCATION:Friendly House 1737 NW 26th Ave Portland\n                       
+    \, OR\n                           97210 Get directions More about this 
+ location
+URL:https://www.portland.gov/transportation/parking/northwest-parking-dist
+ rict/sac/events/2026/5/20/may-2026-northwest-parking
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TSP Community Advisory Committee - May 2026 Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260520T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260520T180000
+UID:bbd79a6d4d1e557165d5beb844faa73a@portland.gov
+DESCRIPTION:Meeting six of the 2045 Transportation System Plan Community A
+ dvisory Committee.
+LOCATION:The Portland Building 1120 SW Fifth Avenue Portland\n            
+               \, OR\n                           97204 Get directions More 
+ about this location
+URL:https://www.portland.gov/transportation/2045tsp-committee/events/2026/
+ 5/20/tsp-community-advisory-committee-may-2026-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Development Review Advisory Committee (DRAC)
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260521T080000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260521T080000
+UID:9f9d09f65309b212ce9e2a13a27c4e69@portland.gov
+DESCRIPTION:The Development Review Advisory Committee (DRAC) is an advisor
+ y body representing those with interests in the outcomes of policies\, bud
+ gets\, regulations\, and procedures that affect development review process
+ es. Its meetings are regularly held on the third Thursday of the month fro
+ m 8 to 10 a.m.
+URL:https://www.portland.gov/ppd/drac/events/2026/5/21/development-review-
+ advisory-committee-drac
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Portland Utility Board Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260521T110000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260521T110000
+UID:99c023ebe8af9af0850462de9dea522b@portland.gov
+DESCRIPTION:Portland Utility Board Meeting
+URL:https://www.portland.gov/pub/events/2026/5/21/portland-utility-board-m
+ eeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FITCOG PUBLIC MEETING MAY 21\, 2026\, 600PM - 800PM
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260521T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260521T180000
+UID:562f640f6bcc876dbbeef19b5ae1f038@portland.gov
+DESCRIPTION:Regularly scheduled FITCOG hybrid public meeting on 5/21/26\, 
+ at 600PM - 800PM\, Portland Police Bureau East Precinct\, 737 SE 106th Ave
+ .\, Portland\, OR  97216. Off-street parking and refreshments.
+URL:https://www.portland.gov/fitcog/events/2026/5/21/fitcog-public-meeting
+ -may-21-2026-600pm-800pm
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - May 26\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260526T170000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260526T170000
+UID:1f48f215a3a9f1c8b42a027cf8d90ad7@portland.gov
+DESCRIPTION:Tentative agenda includes the Central City Code Amendments Pro
+ ject.
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 5/26/planning-commission-meeting-may-26-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts Access Fund Executive Committee Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260528T133000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260528T133000
+UID:191f0513d37e1e4d53a40cfc883df977@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/arts/arts-access-fund/events/2026/5/28/arts-a
+ ccess-fund-executive-committee-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Portland Utility Board Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260602T153000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260602T153000
+UID:6558a51ce2be10cd99af3b2bc1ce09f8@portland.gov
+DESCRIPTION:Portland Utility Board Meeting
+URL:https://www.portland.gov/pub/events/2026/6/2/portland-utility-board-me
+ eting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:June Portland Elections Commission
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260603T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260603T180000
+UID:88e153a9bd1bae1f7c21ca3cff3639c9@portland.gov
+DESCRIPTION:This is the monthly meeting of the Portland Elections Commissi
+ on.
+URL:https://www.portland.gov/smalldonorelections/events/2026/6/3/june-port
+ land-elections-commission
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - June 9\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260609T123000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260609T123000
+UID:28e7c562a4e9c83e880350e59bf83f75@portland.gov
+DESCRIPTION:Tentative agenda includes the Central City Code Amendments Pro
+ ject.
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 6/9/planning-commission-meeting-june-9-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Portland Street Response Committee Meeting #6
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260609T160000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260609T160000
+UID:402928585dec92267a0a6ed1f643898b@portland.gov
+DESCRIPTION:The committee formally advises City Council on issues related 
+ to Portland Street Response. The committee meets on the second Tuesday of 
+ each month from February to June 2026.
+LOCATION:The Portland Building 1120 SW Fifth Avenue Lizzie K. Weeks Room (
+ Room 100) Portland\, OR 97204 Get directions More information about this r
+ oom
+URL:https://www.portland.gov/streetresponse/advisory-committee/events/2026
+ /6/9/portland-street-response-committee-meeting-6
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fixing Our Streets Oversight Committee - June Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260609T170000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260609T170000
+UID:e07ade4dec6748d67f1d51081a8f97db@portland.gov
+DESCRIPTION:Meetings are open to the public. Audience members can provide 
+ public comment testimony via mail or emailing the staff coordinator or at 
+ Fixing Our Streets Oversight Committee meetings.
+URL:https://www.portland.gov/transportation/fixing-our-streets/oversight/e
+ vents/2026/6/9/fixing-our-streets-oversight-committee
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Portlanders Policy Commission Monthly Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260609T173000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260609T173000
+UID:1e55a3140cd4a3f040f953d3e48c1b4e@portland.gov
+DESCRIPTION:The New Portlanders Policy Commission met to discuss initiativ
+ es supporting Portland’s immigrant and refugee communities and identifie
+ d next steps to amplify their voices in the city of Portland.
+URL:https://www.portland.gov/civic/immigrants/nppc/events/2026/6/9/new-por
+ tlanders-policy-commission-monthly-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PCEF Committee Meeting – June 10\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260610T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260610T180000
+UID:efadc711a6b2225586ad71a4b7f63f7a@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/bps/cleanenergy/grant-committee/events/2026/6
+ /10/pcef-committee-meeting-june-10-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Development Review Advisory Committee (DRAC)
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260618T080000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260618T080000
+UID:d79c4501dc97026aebc5ed5ece5e4763@portland.gov
+DESCRIPTION:The Development Review Advisory Committee (DRAC) is an advisor
+ y body representing those with interests in the outcomes of policies\, bud
+ gets\, regulations\, and procedures that affect development review process
+ es. Its meetings are regularly held on the third Thursday of the month fro
+ m 8 to 10 a.m.
+URL:https://www.portland.gov/ppd/drac/events/2026/6/18/development-review-
+ advisory-committee-drac
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Portland Utility Board Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260618T110000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260618T110000
+UID:99aa2531a7ae5cd4f0c13f0fe820a483@portland.gov
+DESCRIPTION:Portland Utility Board Meeting
+URL:https://www.portland.gov/pub/events/2026/6/18/portland-utility-board-m
+ eeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - June 23\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260623T170000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260623T170000
+UID:ea0e663d4b39e345f0effda4ccb4a9fc@portland.gov
+DESCRIPTION:Tentative agenda includes State Land Use Compliance Project an
+ d Housing Bonus Alignment Project.
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 6/23/planning-commission-meeting-june-23-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts Access Fund Oversight Executive Committee Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260625T133000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260625T133000
+UID:129e9d0fce2775f6cf1c05371726d941@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/arts/arts-access-fund/events/2026/6/25/arts-a
+ ccess-fund-oversight-executive-committee-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Police Training Advisory Council Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260708T183000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260708T183000
+UID:68c252777f66ec4e888faff67a72f31b@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/police/tac/events/2026/7/8/police-training-ad
+ visory-council-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - July 14\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260714T123000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260714T123000
+UID:c23c269fa48911706320d6f6f66675f6@portland.gov
+DESCRIPTION:Tentative agenda includes the Central City Code Amendments Pro
+ ject.
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 7/14/planning-commission-meeting-july-14-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Portlanders Policy Commission Monthly Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260714T173000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260714T173000
+UID:9c26fdd251d4920837596750667ae086@portland.gov
+DESCRIPTION:The New Portlanders Policy Commission met to discuss initiativ
+ es supporting Portland’s immigrant and refugee communities and identifie
+ d next steps to amplify their voices in the city of Portland.
+URL:https://www.portland.gov/civic/immigrants/nppc/events/2026/7/14/new-po
+ rtlanders-policy-commission-monthly-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Development Review Advisory Committee (DRAC)
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260716T080000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260716T080000
+UID:5ad6211a715adccb533db0aea07e2517@portland.gov
+DESCRIPTION:The Development Review Advisory Committee (DRAC) is an advisor
+ y body representing those with interests in the outcomes of policies\, bud
+ gets\, regulations\, and procedures that affect development review process
+ es. Its meetings are regularly held on the third Thursday of the month fro
+ m 8 to 10 a.m.
+URL:https://www.portland.gov/ppd/drac/events/2026/7/16/development-review-
+ advisory-committee-drac
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - July 28\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260728T170000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260728T170000
+UID:0b2d9f83b92190d5f92bc199368a454c@portland.gov
+DESCRIPTION:Tentative agenda includes the State Land Use Compliance Projec
+ t and the Housing Bonus Alignment Project.
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 7/28/planning-commission-meeting-july-28-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - August 11\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260811T123000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260811T123000
+UID:985df11011cc573526064659a347f525@portland.gov
+DESCRIPTION:
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 8/11/planning-commission-meeting-august-11-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Development Review Advisory Committee (DRAC)
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260820T080000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260820T080000
+UID:be232dd3934100b4235f26882ded21ea@portland.gov
+DESCRIPTION:The Development Review Advisory Committee (DRAC) is an advisor
+ y body representing those with interests in the outcomes of policies\, bud
+ gets\, regulations\, and procedures that affect development review process
+ es. Its meetings are regularly held on the third Thursday of the month fro
+ m 8 to 10 a.m.
+URL:https://www.portland.gov/ppd/drac/events/2026/8/20/development-review-
+ advisory-committee-drac
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - August 25\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260825T170000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260825T170000
+UID:686c88fed0998a9ac238bd3374b84c94@portland.gov
+DESCRIPTION:Tentative agenda includes the State Land Use Compliance Projec
+ t and the Housing Bonus Alignment Project.
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 8/25/planning-commission-meeting-august-25-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts Access Fund Oversight Executive Committee Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260827T133000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260827T133000
+UID:f708532fdb2f25d248e46431fe45ac35@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/arts/arts-access-fund/events/2026/8/27/arts-a
+ ccess-fund-oversight-executive-committee-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning Commission Meeting - September 8\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260908T123000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260908T123000
+UID:259d0332f7f074263d4bf883b4db868c@portland.gov
+DESCRIPTION:Tentative agenda TBD.
+LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
+  Get directions More information about this room
+URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
+ 9/8/planning-commission-meeting-september-8-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Police Training Advisory Council Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260909T183000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260909T183000
+UID:56a80bb9f080c73db63cf46429473d7f@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/police/tac/events/2026/9/9/police-training-ad
+ visory-council-meeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Development Review Advisory Committee (DRAC)
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260917T080000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260917T080000
+UID:d6b96f436279199d398ab278cf8ac4b7@portland.gov
+DESCRIPTION:The Development Review Advisory Committee (DRAC) is an advisor
+ y body representing those with interests in the outcomes of policies\, bud
+ gets\, regulations\, and procedures that affect development review process
+ es. Its meetings are regularly held on the third Thursday of the month fro
+ m 8 to 10 a.m.
+URL:https://www.portland.gov/ppd/drac/events/2026/9/17/development-review-
+ advisory-committee-drac
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arts Access Fund Oversight Committee September Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260917T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260917T180000
+UID:276bcb44493cc62c1460ca5c7c350229@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/arts/arts-access-fund/events/2026/9/17/arts-a
+ ccess-fund-oversight-committee-september-meeting
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 END:VCALENDAR

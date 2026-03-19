@@ -8,8 +8,8 @@ used across all city feeds, identified by their PRODID header.
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 47 |
-| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 33 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 49 |
+| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 34 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 19 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland | 6 |
@@ -38,7 +38,7 @@ ICS export from meetup.com groups.
 
 **roanoke** (6): meetup_make_roanoke, meetup_pathfinders_greenways, meetup_roanoke_spiritual, meetup_roanoke_valley_net, meetup_shut_up_write, meetup_sw_va_toastmasters
 
-### The Events Calendar (WordPress) (47 feeds)
+### The Events Calendar (WordPress) (49 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
@@ -54,13 +54,13 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **petaluma** (3): bigeasy, petaluma_museum, polly_klaas
 
-**portland** (9): crystal_ballroom, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, washington_park
+**portland** (11): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, vancouver_farmers_market, washington_park
 
 **publisher-resources** (5): ahcj, inn, nlgja, poynter, sabew
 
 **roanoke** (1): hollins_university
 
-### Google Calendar (33 feeds)
+### Google Calendar (34 feeds)
 
 Public Google Calendar ICS export.
 
@@ -70,7 +70,7 @@ Public Google Calendar ICS export.
 
 **petaluma** (3): brooksnote, elks_lodge, garden_club
 
-**portland** (5): friends_of_trees_green_space, friends_of_trees_neighborhood, portland_public_schools, portland_thorns, portland_timbers
+**portland** (6): friends_of_trees_green_space, friends_of_trees_neighborhood, portland_public_schools, portland_thorns, portland_timbers, stumptown_savings
 
 **publisher-resources** (3): journalism_deadlines, newsguild, tiny_news_members_only
 

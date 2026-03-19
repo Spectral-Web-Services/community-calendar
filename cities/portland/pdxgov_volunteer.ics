@@ -4,20 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Irving Nature Patch Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260319T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260319T090000
-UID:ad991d2eec114568c330392f1464cd8c@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2024/irving-park-nature-patch-2024.jpg?itok=RTuyGssx
-DESCRIPTION:Every third Thursday\, join Portland Parks staff to keep the I
- rving Nature Patch looking beautiful!
-LOCATION:Irving Park
-URL:https://www.portland.gov/parks/nature/events/2026/3/19/irving-nature-p
- atch-stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Plant Trees with Learning Landscapes at Columbia Regional Services
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260320T083000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260320T083000
@@ -73,20 +59,6 @@ URL:https://www.portland.gov/trees/get-involved/events/2026/3/21/tree-plan
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Terwilliger Parkway Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T090000
-UID:d5907d45b918854529ad857e00c09d01@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/01182025_Terwilliger_Group.jpg?itok=5LC3CL4D
-DESCRIPTION:Join Portland Parks & Recreation and Friends of Terwilliger to
-  remove invasively growing ivy and blackberry along the historic Terwillig
- er Parkway!
-URL:https://www.portland.gov/parks/nature/events/2026/3/21/terwilliger-par
- kway-stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hoyt Arboretum Volunteer Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T090000
@@ -98,6 +70,20 @@ DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
 LOCATION:Hoyt Arboretum
 URL:https://www.portland.gov/parks/nas/events/2026/3/21/hoyt-arboretum-vol
  unteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Terwilliger Parkway Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T090000
+UID:d5907d45b918854529ad857e00c09d01@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/01182025_Terwilliger_Group.jpg?itok=5LC3CL4D
+DESCRIPTION:Join Portland Parks & Recreation and Friends of Terwilliger to
+  remove invasively growing ivy and blackberry along the historic Terwillig
+ er Parkway!
+URL:https://www.portland.gov/parks/nature/events/2026/3/21/terwilliger-par
+ kway-stewardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -116,6 +102,17 @@ URL:https://www.portland.gov/parks/nature/events/2026/3/21/errol-heights-p
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Brannen Natural Area Planting Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T100000
+UID:c3c63a5068a6197afd08ad307e75c5be@portland.gov
+DESCRIPTION:Please join Portland Parks and Recreation and the Crystal Spri
+ ngs Partnership for a planting event at Brannen Natural Area!
+URL:https://www.portland.gov/parks/nature/events/2026/3/21/brannen-natural
+ -area-planting-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Oaks Bottom Wildlife Refuge Stewardship Event with Birdhers
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T100000
@@ -127,17 +124,6 @@ DESCRIPTION:Please join Birdhers and Portland Parks & Recreation for a tre
  ns and non-binary people of all ages and experience levels.
 URL:https://www.portland.gov/parks/events/2026/3/21/oaks-bottom-wildlife-r
  efuge-stewardship-event-birdhers
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Brannen Natural Area Planting Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260321T100000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260321T100000
-UID:c3c63a5068a6197afd08ad307e75c5be@portland.gov
-DESCRIPTION:Please join Portland Parks and Recreation and the Crystal Spri
- ngs Partnership for a planting event at Brannen Natural Area!
-URL:https://www.portland.gov/parks/nature/events/2026/3/21/brannen-natural
- -area-planting-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -194,6 +180,30 @@ URL:https://www.portland.gov/parks/events/2026/3/27/cloud-forest-washingto
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Marquam Nature Park Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260328T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260328T090000
+UID:79b54caa911e6a11ed56dc30bd60b00e@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/Barred-Owl_Marquam_Landscape.jpg?itok=Iz8xe6BD
+DESCRIPTION:Join PP&R and Forest Park Conservancy to plant native plants i
+ n Marquam Nature Park!
+URL:https://www.portland.gov/parks/nature/events/2026/3/28/marquam-nature-
+ park-stewardship-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mt. Tabor Last Saturday Volunteer Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260328T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260328T090000
+UID:e84db202c957d0c45b66aa5f24a35162@portland.gov
+DESCRIPTION:Please join Portland Parks & Recreation and the Friends of Mt.
+  Tabor Park Weed Warriors for a volunteer event at Mt. Tabor Park.
+URL:https://www.portland.gov/parks/events/2026/3/28/mt-tabor-last-saturday
+ -volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Powell Butte Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260328T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260328T090000
@@ -208,19 +218,6 @@ URL:https://www.portland.gov/parks/nature/events/2026/3/28/powell-butte-st
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marquam Nature Park Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260328T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260328T090000
-UID:79b54caa911e6a11ed56dc30bd60b00e@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/Barred-Owl_Marquam_Landscape.jpg?itok=Iz8xe6BD
-DESCRIPTION:Join PP&R and Forest Park Conservancy to plant native plants i
- n Marquam Nature Park!
-URL:https://www.portland.gov/parks/nature/events/2026/3/28/marquam-nature-
- park-stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Woods Memorial Natural Area Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260328T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260328T090000
@@ -232,17 +229,6 @@ DESCRIPTION:Join Portland Parks & Recreation and Friends of Woods Park to
  remove English ivy in Woods Memorial Natural Area!
 URL:https://www.portland.gov/parks/nature/events/2026/3/28/woods-memorial-
  natural-area-stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mt. Tabor Last Saturday Volunteer Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260328T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260328T090000
-UID:e84db202c957d0c45b66aa5f24a35162@portland.gov
-DESCRIPTION:Please join Portland Parks & Recreation and the Friends of Mt.
-  Tabor Park Weed Warriors for a volunteer event at Mt. Tabor Park.
-URL:https://www.portland.gov/parks/events/2026/3/28/mt-tabor-last-saturday
- -volunteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -286,19 +272,6 @@ URL:https://www.portland.gov/parks/events/2026/3/31/pittock-garden-tuesday
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Forest Park Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
-UID:667fc2dde5cf7e7b56b606f5dd7567d2@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
-DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
-  and wildlife in Forest Park!
-URL:https://www.portland.gov/parks/nature/events/2026/4/1/forest-park-stew
- ardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Earth Month at Parklane Park Garden of Weedin'
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
@@ -314,6 +287,19 @@ LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
  ocation
 URL:https://www.portland.gov/parks/events/2026/4/1/earth-month-parklane-pa
  rk-garden-weedin
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Forest Park Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
+UID:667fc2dde5cf7e7b56b606f5dd7567d2@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
+DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
+  and wildlife in Forest Park!
+URL:https://www.portland.gov/parks/nature/events/2026/4/1/forest-park-stew
+ ardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -386,6 +372,20 @@ URL:https://www.portland.gov/parks/events/2026/4/3/pier-park-plant-pals-ea
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Spring Tree Planting at Harrison Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T090000
+UID:0d1cd4415c94d2375c4336d348e43bfd@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/arbor-day-2022_52509100889_o.jpg?itok=q7x1Nk4I
+DESCRIPTION:Join Urban Forestry and APANO at this springtime tree planting
+  in the Jade District.
+LOCATION:Harrison Park
+URL:https://www.portland.gov/trees/get-involved/events/2026/4/4/spring-tre
+ e-planting-harrison-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Hoyt Arboretum Volunteer Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T090000
@@ -411,20 +411,6 @@ DESCRIPTION:Join Portland Parks & Recreation\, Friends of Tideman Johnson
 LOCATION:Tideman Johnson Natural Area
 URL:https://www.portland.gov/parks/nature/events/2026/4/4/tideman-johnson-
  stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Spring Tree Planting at Harrison Park
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T090000
-UID:0d1cd4415c94d2375c4336d348e43bfd@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2024/arbor-day-2022_52509100889_o.jpg?itok=q7x1Nk4I
-DESCRIPTION:Join Urban Forestry and APANO at this springtime tree planting
-  in the Jade District.
-LOCATION:Harrison Park
-URL:https://www.portland.gov/trees/get-involved/events/2026/4/4/spring-tre
- e-planting-harrison-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -468,6 +454,20 @@ URL:https://www.portland.gov/parks/events/2026/4/8/earth-month-volunteer-d
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Marquam Nature Park Volunteer Trail Work Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T090000
+UID:f571c93985308f0f20bee0f466352bf4@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2020-04/marquam-nature-park-bridge.jpg?itok=5viqd-0t
+DESCRIPTION:Join PP&R and the Forest Park Conservancy to help maintain the
+  trails in Marquam Nature Park.
+LOCATION:Marquam Nature Park
+URL:https://www.portland.gov/parks/nature/events/2026/4/8/marquam-nature-p
+ ark-volunteer-trail-work-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Leach Botanical Garden Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T090000
@@ -481,20 +481,6 @@ LOCATION:Leach Botanical Garden main entrance 6704 SE 122nd Avenue Portlan
  irections More about this location
 URL:https://www.portland.gov/parks/nas/events/2026/4/8/leach-botanical-gar
  den-stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Marquam Nature Park Volunteer Trail Work Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260408T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260408T090000
-UID:f571c93985308f0f20bee0f466352bf4@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2020-04/marquam-nature-park-bridge.jpg?itok=5viqd-0t
-DESCRIPTION:Join PP&R and the Forest Park Conservancy to help maintain the
-  trails in Marquam Nature Park.
-LOCATION:Marquam Nature Park
-URL:https://www.portland.gov/parks/nature/events/2026/4/8/marquam-nature-p
- ark-volunteer-trail-work-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -677,32 +663,18 @@ URL:https://www.portland.gov/parks/events/2026/4/17/cloud-forest-washingto
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Errol Heights Park Stewardship Event
+SUMMARY:Oaks Bottom Wildlife Refuge Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260418T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260418T090000
-UID:8e4e63542fefaa80879854f61f6b9f43@portland.gov
+UID:39c654b7bfd49ddd1e012515039d75cc@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/111624_ErrolHeights_Planting.jpg?h=5ccf0013&itok=
- 6_uvDbDG
-DESCRIPTION:Join Friends of Errol Heights and Johnson Creek Watershed Coun
- cil community members to improve this newly-constructed park.
-LOCATION:Errol Heights Park
-URL:https://www.portland.gov/parks/nature/events/2026/4/18/errol-heights-p
- ark-stewardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Terwilliger Parkway Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260418T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260418T090000
-UID:ec25e8e8f497320d5cf953428addc7b3@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/01182025_Terwilliger_Group.jpg?itok=5LC3CL4D
-DESCRIPTION:Join Portland Parks & Recreation and Friends of Terwilliger to
-  remove invasively growing ivy and blackberry along the historic Terwillig
- er Parkway!
-URL:https://www.portland.gov/parks/nature/events/2026/4/18/terwilliger-par
- kway-stewardship-event
+ les/facebook/public/2026/Ingrid-and-Kiara-with-Blackberry.JPG?itok=xyLavCQ
+ m
+DESCRIPTION:Please join Portland Parks & Recreation and the Friends of Oak
+ s Bottom for a non-native plant removal event at Oaks Bottom Wildlife Refu
+ ge.
+URL:https://www.portland.gov/parks/events/2026/4/18/oaks-bottom-wildlife-r
+ efuge-stewardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -720,18 +692,32 @@ URL:https://www.portland.gov/parks/nas/events/2026/4/18/hoyt-arboretum-vol
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Oaks Bottom Wildlife Refuge Stewardship Event
+SUMMARY:Terwilliger Parkway Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260418T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260418T090000
-UID:39c654b7bfd49ddd1e012515039d75cc@portland.gov
+UID:ec25e8e8f497320d5cf953428addc7b3@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/Ingrid-and-Kiara-with-Blackberry.JPG?itok=xyLavCQ
- m
-DESCRIPTION:Please join Portland Parks & Recreation and the Friends of Oak
- s Bottom for a non-native plant removal event at Oaks Bottom Wildlife Refu
- ge.
-URL:https://www.portland.gov/parks/events/2026/4/18/oaks-bottom-wildlife-r
- efuge-stewardship-event
+ les/facebook/public/2025/01182025_Terwilliger_Group.jpg?itok=5LC3CL4D
+DESCRIPTION:Join Portland Parks & Recreation and Friends of Terwilliger to
+  remove invasively growing ivy and blackberry along the historic Terwillig
+ er Parkway!
+URL:https://www.portland.gov/parks/nature/events/2026/4/18/terwilliger-par
+ kway-stewardship-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Errol Heights Park Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260418T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260418T090000
+UID:8e4e63542fefaa80879854f61f6b9f43@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/111624_ErrolHeights_Planting.jpg?h=5ccf0013&itok=
+ 6_uvDbDG
+DESCRIPTION:Join Friends of Errol Heights and Johnson Creek Watershed Coun
+ cil community members to improve this newly-constructed park.
+LOCATION:Errol Heights Park
+URL:https://www.portland.gov/parks/nature/events/2026/4/18/errol-heights-p
+ ark-stewardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -772,17 +758,21 @@ URL:https://www.portland.gov/parks/events/2026/4/21/pittock-garden-tuesday
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hoyt Arboretum Earth Day Event
+SUMMARY:Nurture Nature at Hazeltine Park Earth Day Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260422T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260422T090000
-UID:cf75f340ca918b298572664df7e54ca0@portland.gov
+UID:b81ec33f06ff4d1e43b4e5d9d3f113b2@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
-DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
- ving museum of trees.
-LOCATION:Hoyt Arboretum
-URL:https://www.portland.gov/parks/nas/events/2026/4/22/hoyt-arboretum-ear
- th-day-event
+ les/facebook/public/2020-09/hazeltine-park-nature-patch-2019.jpg?itok=Tt4m
+ EjUI
+DESCRIPTION:Join us for Earth Month to help care for native plants and pol
+ linator habitat at Hazeltine Park!
+LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
+ el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
+ 416 SE Flavel Drive Portland\n                          \, OR\n           
+                 97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/4/22/nurture-nature-hazelti
+ ne-park-earth-day-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -806,21 +796,17 @@ URL:https://www.portland.gov/parks/events/2026/4/22/earth-day-tending-time
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nurture Nature at Hazeltine Park Earth Day Event
+SUMMARY:Hoyt Arboretum Earth Day Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260422T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260422T090000
-UID:b81ec33f06ff4d1e43b4e5d9d3f113b2@portland.gov
+UID:cf75f340ca918b298572664df7e54ca0@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2020-09/hazeltine-park-nature-patch-2019.jpg?itok=Tt4m
- EjUI
-DESCRIPTION:Join us for Earth Month to help care for native plants and pol
- linator habitat at Hazeltine Park!
-LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
- el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
- 416 SE Flavel Drive Portland\n                          \, OR\n           
-                 97206 Get directions More about this location
-URL:https://www.portland.gov/parks/events/2026/4/22/nurture-nature-hazelti
- ne-park-earth-day-event
+ les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
+DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
+ ving museum of trees.
+LOCATION:Hoyt Arboretum
+URL:https://www.portland.gov/parks/nas/events/2026/4/22/hoyt-arboretum-ear
+ th-day-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -906,21 +892,6 @@ URL:https://www.portland.gov/parks/nature/events/2026/4/29/forest-park-ste
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pier Park Stewardship Day
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260501T100000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260501T100000
-UID:c433887bca6880a74852a1ac9f03d7b0@portland.gov
-DESCRIPTION:Join us to keep Pier Park vibrant!
-LOCATION:Pier Park Label: Park Park location or entrance N Lombard Street 
- and Bruce Avenue Portland\, OR 97203 Get directions Pier Park main entranc
- e N Lombard Street and Bruce Avenue Portland\n                          \,
-  OR\n                           97203 Get directions More about this locat
- ion
-URL:https://www.portland.gov/parks/events/2026/5/1/pier-park-stewardship-d
- ay
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cloud Forest Washington Park Volunteer Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260501T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260501T100000
@@ -937,17 +908,18 @@ URL:https://www.portland.gov/parks/events/2026/5/1/cloud-forest-washington
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tideman Johnson Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260502T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260502T090000
-UID:8ee56ff451026e309b0e6c1512146a7c@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/120625-Tideman--12-.JPG?h=e7d821c4&itok=YpZ4StqJ
-DESCRIPTION:Join Portland Parks & Recreation\, Friends of Tideman Johnson 
- and the Johnson Creek Watershed Council in enhancing this gem of a park.
-LOCATION:Tideman Johnson Natural Area
-URL:https://www.portland.gov/parks/nature/events/2026/5/2/tideman-johnson-
- stewardship-event
+SUMMARY:Pier Park Stewardship Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260501T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260501T100000
+UID:c433887bca6880a74852a1ac9f03d7b0@portland.gov
+DESCRIPTION:Join us to keep Pier Park vibrant!
+LOCATION:Pier Park Label: Park Park location or entrance N Lombard Street 
+ and Bruce Avenue Portland\, OR 97203 Get directions Pier Park main entranc
+ e N Lombard Street and Bruce Avenue Portland\n                          \,
+  OR\n                           97203 Get directions More about this locat
+ ion
+URL:https://www.portland.gov/parks/events/2026/5/1/pier-park-stewardship-d
+ ay
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -962,6 +934,20 @@ DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
 LOCATION:Hoyt Arboretum
 URL:https://www.portland.gov/parks/nas/events/2026/5/2/hoyt-arboretum-volu
  nteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tideman Johnson Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260502T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260502T090000
+UID:8ee56ff451026e309b0e6c1512146a7c@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/120625-Tideman--12-.JPG?h=e7d821c4&itok=YpZ4StqJ
+DESCRIPTION:Join Portland Parks & Recreation\, Friends of Tideman Johnson 
+ and the Johnson Creek Watershed Council in enhancing this gem of a park.
+LOCATION:Tideman Johnson Natural Area
+URL:https://www.portland.gov/parks/nature/events/2026/5/2/tideman-johnson-
+ stewardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -997,19 +983,6 @@ URL:https://www.portland.gov/parks/events/2026/5/6/errol-heights-park-tend
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Forest Park Stewardship Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260506T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260506T090000
-UID:099265a32d5c2c9fd57fd1cdd1c412bd@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
-DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
-  and wildlife in Forest Park!
-URL:https://www.portland.gov/parks/nature/events/2026/5/6/forest-park-stew
- ardship-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Parklane Park Garden of Weedin'
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260506T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260506T090000
@@ -1023,6 +996,19 @@ LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
  ocation
 URL:https://www.portland.gov/parks/events/2026/5/6/parklane-park-garden-we
  edin
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Forest Park Stewardship Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260506T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260506T090000
+UID:099265a32d5c2c9fd57fd1cdd1c412bd@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/101224_ForestPark_IvyRemoval.JPEG?itok=V3vXg36z
+DESCRIPTION:Join Portland Parks & Recreation to enhance habitat for plants
+  and wildlife in Forest Park!
+URL:https://www.portland.gov/parks/nature/events/2026/5/6/forest-park-stew
+ ardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -1163,18 +1149,17 @@ URL:https://www.portland.gov/parks/events/2026/5/15/cloud-forest-washingto
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Errol Heights Park Stewardship Event
+SUMMARY:Hoyt Arboretum Volunteer Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260516T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260516T090000
-UID:0c0fd1dec7b79700a9550a7bc1d18333@portland.gov
+UID:d5bab687f765447b6037b980c7c538ab@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/111624_ErrolHeights_Planting.jpg?h=5ccf0013&itok=
- 6_uvDbDG
-DESCRIPTION:Join Friends of Errol Heights and Johnson Creek Watershed Coun
- cil community members to improve this newly-constructed park.
-LOCATION:Errol Heights Park
-URL:https://www.portland.gov/parks/nature/events/2026/5/16/errol-heights-p
- ark-stewardship-event
+ les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
+DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
+ ving museum of trees.
+LOCATION:Hoyt Arboretum
+URL:https://www.portland.gov/parks/nas/events/2026/5/16/hoyt-arboretum-vol
+ unteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -1192,17 +1177,18 @@ URL:https://www.portland.gov/parks/nature/events/2026/5/16/terwilliger-par
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hoyt Arboretum Volunteer Event
+SUMMARY:Errol Heights Park Stewardship Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260516T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260516T090000
-UID:d5bab687f765447b6037b980c7c538ab@portland.gov
+UID:0c0fd1dec7b79700a9550a7bc1d18333@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
-DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
- ving museum of trees.
-LOCATION:Hoyt Arboretum
-URL:https://www.portland.gov/parks/nas/events/2026/5/16/hoyt-arboretum-vol
- unteer-event
+ les/facebook/public/2026/111624_ErrolHeights_Planting.jpg?h=5ccf0013&itok=
+ 6_uvDbDG
+DESCRIPTION:Join Friends of Errol Heights and Johnson Creek Watershed Coun
+ cil community members to improve this newly-constructed park.
+LOCATION:Errol Heights Park
+URL:https://www.portland.gov/parks/nature/events/2026/5/16/errol-heights-p
+ ark-stewardship-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -1215,6 +1201,672 @@ DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the
 LOCATION:Washington Park
 URL:https://www.portland.gov/parks/events/2026/5/18/mac-trail-volunteer-da
  y-washington-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Luuwit View Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260521T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260521T090000
+UID:a2977a3d2eba5d1d815485adc29309e6@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/luuwitview_planningforparks.jpg?itok=b48iOXsx
+DESCRIPTION:Join us to help with gardening tasks at Luuwit View Park!
+LOCATION:Luuwit View Park Label: Park Park location or entrance NE 127th A
+ venue and NE Fremont Street Portland\, OR 97230 Get directions Luuwit View
+  Park main entrance NE 127th Avenue and NE Fremont Street Portland\n      
+                     \, OR\n                           97230 Get directions
+  More about this location
+URL:https://www.portland.gov/parks/events/2026/5/21/luuwit-view-park-volun
+ teer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Forest Washington Park Volunteer Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260522T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260522T100000
+UID:b76348e88cd84b7cdc02819a84618114@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
+ gton Park!
+LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
+ ght Avenue Portland\n                          \, OR\n                    
+        97204 Get directions More about this location Washington Park
+URL:https://www.portland.gov/parks/events/2026/5/22/cloud-forest-washingto
+ n-park-volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hazeltine Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260527T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260527T090000
+UID:8d66277b39b57ab01e15ccdaa35933a2@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2022/hazeltine-np-2022.jpg?itok=nkF0Xk0q
+DESCRIPTION:Join us to help care for native plants and pollinator habitat 
+ at Hazeltine Park!
+LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
+ el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
+ 416 SE Flavel Drive Portland\n                          \, OR\n           
+                 97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/5/27/hazeltine-park-tending
+ -time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mt. Tabor Last Saturday Volunteer Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260530T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260530T090000
+UID:904210695c27c4fa4c51b7f55575ddc2@portland.gov
+DESCRIPTION:Please join Portland Parks & Recreation and the Friends of Mt.
+  Tabor Park Weed Warriors for a volunteer event at Mt. Tabor Park.
+URL:https://www.portland.gov/parks/events/2026/5/30/mt-tabor-last-saturday
+ -volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Errol Heights Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260603T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260603T090000
+UID:73f4a774dc5e178fb6b6f284488d8327@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2021/ehp_watercolor_mr-2021_sm.jpg?itok=ObXzhm_s
+DESCRIPTION:Join us for gardening activities and projects to help keep Err
+ ol Heights Park vibrant and in bloom!
+LOCATION:Errol Heights Community Garden main entrance 4841 SE Tenino Court
+  Portland\n                          \, OR\n                           972
+ 06 Get directions More about this location Errol Heights Park Label: Park 
+ Park location or entrance SE 52nd Avenue and Tenino Street Portland\, OR 9
+ 7206 Get directions Errol Heights Park main entrance SE 52nd Avenue and Te
+ nino Street Portland\n                          \, OR\n                   
+         97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/6/3/errol-heights-park-tend
+ ing-time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parklane Park Garden of Weedin'
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260603T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260603T090000
+UID:871ad1209c87609e1c5454f3f92147dc@portland.gov
+DESCRIPTION:Join the Garden of Weedin' and help us keep Parklane Park in b
+ loom!
+LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
+ ue and Main Street Portland\, OR 97233 Get directions Parklane Park main e
+ ntrance SE 155th Avenue and Main Street Portland\n                        
+   \, OR\n                           97233 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/6/3/parklane-park-garden-we
+ edin
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mill Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260604T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260604T090000
+UID:1f2ec922af24e8951cfae427389ab978@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Mill-Park-summer-2025--34-.JPG?itok=Dt9AT1j3
+DESCRIPTION:Join us for gardening activities and to help keep Mill Park in
+  bloom!
+LOCATION:Mill Park Label: Park Park location or entrance 1949 SE 122nd Ave
+  Portland\, OR 97216 Get directions Mill Park main entrance 1949 SE 122nd 
+ Ave Portland\n                          \, OR\n                           
+ 97216 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/6/4/mill-park-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Argay Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260604T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260604T100000
+UID:522ec34a5ce1422db05bcbc901a9c8c6@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/Kinnikinnick.jpg?itok=5TYGBCGw
+DESCRIPTION:Join us to help maintain the park sign garden bed and keep pol
+ linator-friendly plants blooming!
+LOCATION:Argay Park Label: Park Park location or entrance NE 141st Avenue 
+ and Failing Street Portland\, OR 97230 Get directions Argay Park main entr
+ ance NE 141st Avenue and Failing Street Portland\n                        
+   \, OR\n                           97230 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/6/4/argay-park-volunteer-da
+ y
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pier Park Stewardship Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260605T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260605T100000
+UID:101e1955e6ec82c11ce0ba54305e9fec@portland.gov
+DESCRIPTION:Join us to keep Pier Park vibrant!
+LOCATION:Pier Park Label: Park Park location or entrance N Lombard Street 
+ and Bruce Avenue Portland\, OR 97203 Get directions Pier Park main entranc
+ e N Lombard Street and Bruce Avenue Portland\n                          \,
+  OR\n                           97203 Get directions More about this locat
+ ion
+URL:https://www.portland.gov/parks/events/2026/6/5/pier-park-stewardship-d
+ ay
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oaks Bottom Wildlife Refuge Litter Pick Up Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260606T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260606T090000
+UID:a4a3938b556c9aef983790f07239e85a@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/IMG_1409.JPG?itok=ow-96V2x
+DESCRIPTION:Please join Portland Parks & Recreation and the Friends of Oak
+ s Bottom for a litter pick up event at Oaks Bottom Wildlife Refuge.
+URL:https://www.portland.gov/parks/events/2026/6/6/oaks-bottom-wildlife-re
+ fuge-litter-pick-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hoyt Arboretum Volunteer Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260606T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260606T090000
+UID:c46607e84c29ee88bab6c03fdd4bd7b6@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
+DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
+ ving museum of trees.
+LOCATION:Hoyt Arboretum
+URL:https://www.portland.gov/parks/nas/events/2026/6/6/hoyt-arboretum-volu
+ nteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wilkes Park Pollinator Patch Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260609T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260609T090000
+UID:b41f1be21d36f5fd74028f1fa6e8d442@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Wilkes-Pollinator-Patch.jpg?itok=kgvrcqz7
+DESCRIPTION:Join us to help revive the pollinator patch and increase biodi
+ versity at Wilkes Park!
+LOCATION:Wilkes Park Label: Park Park location or entrance 3655 NE 154th A
+ venue Portland\, OR 97230 Get directions Wilkes Park main entrance 3655 NE
+  154th Avenue Portland\n                          \, OR\n                 
+           97230 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/6/9/wilkes-park-pollinator-
+ patch-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monarchs at the Mansion
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260609T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260609T100000
+UID:3c046c947e52a51152188966ae14013a@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/IMG_0505.jpeg?itok=kZi0E6S2
+DESCRIPTION:Join Portland Parks & Recreation and The Portland Monarchs for
+  a morning in the butterfly habitat at the viewpoint at Pittock Mansion.
+LOCATION:Pittock Mansion
+URL:https://www.portland.gov/parks/events/2026/6/9/monarchs-mansion
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Luuwit View Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260618T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260618T090000
+UID:b5664ce3295e6234e73a105ebb2ad35e@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/luuwitview_planningforparks.jpg?itok=b48iOXsx
+DESCRIPTION:Join us to help with gardening tasks at Luuwit View Park!
+LOCATION:Luuwit View Park Label: Park Park location or entrance NE 127th A
+ venue and NE Fremont Street Portland\, OR 97230 Get directions Luuwit View
+  Park main entrance NE 127th Avenue and NE Fremont Street Portland\n      
+                     \, OR\n                           97230 Get directions
+  More about this location
+URL:https://www.portland.gov/parks/events/2026/6/18/luuwit-view-park-volun
+ teer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hoyt Arboretum Volunteer Event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260620T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260620T090000
+UID:dadfe5dd32407600882bae342e9495c8@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/IMG_8672-edited.jpg?itok=jV5G5Jn5
+DESCRIPTION:Join PP&R and Hoyt Arboretum Friends to care for Portland's li
+ ving museum of trees.
+LOCATION:Hoyt Arboretum
+URL:https://www.portland.gov/parks/nas/events/2026/6/20/hoyt-arboretum-vol
+ unteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hazeltine Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260624T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260624T090000
+UID:85b8878f4f04771a07b9c38adc5c971e@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2022/hazeltine-np-2022.jpg?itok=nkF0Xk0q
+DESCRIPTION:Join us to help care for native plants and pollinator habitat 
+ at Hazeltine Park!
+LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
+ el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
+ 416 SE Flavel Drive Portland\n                          \, OR\n           
+                 97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/6/24/hazeltine-park-tending
+ -time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Errol Heights Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260701T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260701T090000
+UID:cff1e96b7ac73b02961a50c2609c7c7d@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2021/ehp_watercolor_mr-2021_sm.jpg?itok=ObXzhm_s
+DESCRIPTION:Join us for gardening activities and projects to help keep Err
+ ol Heights Park vibrant and in bloom!
+LOCATION:Errol Heights Community Garden main entrance 4841 SE Tenino Court
+  Portland\n                          \, OR\n                           972
+ 06 Get directions More about this location Errol Heights Park Label: Park 
+ Park location or entrance SE 52nd Avenue and Tenino Street Portland\, OR 9
+ 7206 Get directions Errol Heights Park main entrance SE 52nd Avenue and Te
+ nino Street Portland\n                          \, OR\n                   
+         97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/7/1/errol-heights-park-tend
+ ing-time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parklane Park Garden of Weedin'
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260701T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260701T090000
+UID:ad69d5084a26a9dd66139aa5ccd6d218@portland.gov
+DESCRIPTION:Join the Garden of Weedin' and help us keep Parklane Park in b
+ loom!
+LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
+ ue and Main Street Portland\, OR 97233 Get directions Parklane Park main e
+ ntrance SE 155th Avenue and Main Street Portland\n                        
+   \, OR\n                           97233 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/7/1/parklane-park-garden-we
+ edin
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mill Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260702T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260702T090000
+UID:bf626c6858e17b4ed0acfd8aa264ed00@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Mill-Park-summer-2025--34-.JPG?itok=Dt9AT1j3
+DESCRIPTION:Join us for gardening activities and to help keep Mill Park in
+  bloom!
+LOCATION:Mill Park Label: Park Park location or entrance 1949 SE 122nd Ave
+  Portland\, OR 97216 Get directions Mill Park main entrance 1949 SE 122nd 
+ Ave Portland\n                          \, OR\n                           
+ 97216 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/7/2/mill-park-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Argay Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260702T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260702T100000
+UID:de77ad8bc1f9819c1809d37499d5897b@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/Kinnikinnick.jpg?itok=5TYGBCGw
+DESCRIPTION:Join us to help maintain the park sign garden bed and keep pol
+ linator-friendly plants blooming!
+LOCATION:Argay Park Label: Park Park location or entrance NE 141st Avenue 
+ and Failing Street Portland\, OR 97230 Get directions Argay Park main entr
+ ance NE 141st Avenue and Failing Street Portland\n                        
+   \, OR\n                           97230 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/7/2/argay-park-volunteer-da
+ y
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wilkes Park Pollinator Patch Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260714T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260714T090000
+UID:0370fd20ff01e2cd5df40997d395c489@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Wilkes-Pollinator-Patch.jpg?itok=kgvrcqz7
+DESCRIPTION:Join us to help revive the pollinator patch and increase biodi
+ versity at Wilkes Park!
+LOCATION:Wilkes Park Label: Park Park location or entrance 3655 NE 154th A
+ venue Portland\, OR 97230 Get directions Wilkes Park main entrance 3655 NE
+  154th Avenue Portland\n                          \, OR\n                 
+           97230 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/7/14/wilkes-park-pollinator
+ -patch-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monarchs at the Mansion
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260714T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260714T100000
+UID:733104f7b31d51e8657ef74a5e4a1112@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/IMG_0505.jpeg?itok=kZi0E6S2
+DESCRIPTION:Join Portland Parks & Recreation and The Portland Monarchs for
+  a morning in the butterfly habitat at the viewpoint at Pittock Mansion.
+LOCATION:Pittock Mansion
+URL:https://www.portland.gov/parks/events/2026/7/14/monarchs-mansion
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Luuwit View Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260716T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260716T090000
+UID:c61b958a1ece7b1cbdb86b023ab9f24c@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/luuwitview_planningforparks.jpg?itok=b48iOXsx
+DESCRIPTION:Join us to help with gardening tasks at Luuwit View Park!
+LOCATION:Luuwit View Park Label: Park Park location or entrance NE 127th A
+ venue and NE Fremont Street Portland\, OR 97230 Get directions Luuwit View
+  Park main entrance NE 127th Avenue and NE Fremont Street Portland\n      
+                     \, OR\n                           97230 Get directions
+  More about this location
+URL:https://www.portland.gov/parks/events/2026/7/16/luuwit-view-park-volun
+ teer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hazeltine Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260722T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260722T090000
+UID:dc8d65a4034d0b1fe8a68fcbd76a6bd4@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2022/hazeltine-np-2022.jpg?itok=nkF0Xk0q
+DESCRIPTION:Join us to help care for native plants and pollinator habitat 
+ at Hazeltine Park!
+LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
+ el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
+ 416 SE Flavel Drive Portland\n                          \, OR\n           
+                 97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/7/22/hazeltine-park-tending
+ -time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Errol Heights Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260805T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260805T090000
+UID:108ab0473a2d4a3195984805ed96eabe@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2021/ehp_watercolor_mr-2021_sm.jpg?itok=ObXzhm_s
+DESCRIPTION:Join us for gardening activities and projects to help keep Err
+ ol Heights Park vibrant and in bloom!
+LOCATION:Errol Heights Community Garden main entrance 4841 SE Tenino Court
+  Portland\n                          \, OR\n                           972
+ 06 Get directions More about this location Errol Heights Park Label: Park 
+ Park location or entrance SE 52nd Avenue and Tenino Street Portland\, OR 9
+ 7206 Get directions Errol Heights Park main entrance SE 52nd Avenue and Te
+ nino Street Portland\n                          \, OR\n                   
+         97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/8/5/errol-heights-park-tend
+ ing-time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parklane Park Garden of Weedin'
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260805T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260805T090000
+UID:ac6270f227863d893d5736c33c45b749@portland.gov
+DESCRIPTION:Join the Garden of Weedin' and help us keep Parklane Park in b
+ loom!
+LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
+ ue and Main Street Portland\, OR 97233 Get directions Parklane Park main e
+ ntrance SE 155th Avenue and Main Street Portland\n                        
+   \, OR\n                           97233 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/8/5/parklane-park-garden-we
+ edin
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mill Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260806T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260806T090000
+UID:9d4a053df29fc7ab38d81b0d97d7252b@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Mill-Park-summer-2025--34-.JPG?itok=Dt9AT1j3
+DESCRIPTION:Join us for gardening activities and to help keep Mill Park in
+  bloom!
+LOCATION:Mill Park Label: Park Park location or entrance 1949 SE 122nd Ave
+  Portland\, OR 97216 Get directions Mill Park main entrance 1949 SE 122nd 
+ Ave Portland\n                          \, OR\n                           
+ 97216 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/8/6/mill-park-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Argay Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260806T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260806T100000
+UID:78f18d1474a9f4a598891d818b2594a0@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/Kinnikinnick.jpg?itok=5TYGBCGw
+DESCRIPTION:Join us to help maintain the park sign garden bed and keep pol
+ linator-friendly plants blooming!
+LOCATION:Argay Park Label: Park Park location or entrance NE 141st Avenue 
+ and Failing Street Portland\, OR 97230 Get directions Argay Park main entr
+ ance NE 141st Avenue and Failing Street Portland\n                        
+   \, OR\n                           97230 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/8/6/argay-park-volunteer-da
+ y
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pier Park Stewardship Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260807T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260807T100000
+UID:b4e05bda433f398f43a18da0edb065e0@portland.gov
+DESCRIPTION:Join us to keep Pier Park vibrant!
+LOCATION:Pier Park Label: Park Park location or entrance N Lombard Street 
+ and Bruce Avenue Portland\, OR 97203 Get directions Pier Park main entranc
+ e N Lombard Street and Bruce Avenue Portland\n                          \,
+  OR\n                           97203 Get directions More about this locat
+ ion
+URL:https://www.portland.gov/parks/events/2026/8/7/pier-park-stewardship-d
+ ay
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wilkes Park Pollinator Patch Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260811T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260811T090000
+UID:200bc7d74ced3de855f8b2f2cfcda72e@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Wilkes-Pollinator-Patch.jpg?itok=kgvrcqz7
+DESCRIPTION:Join us to help revive the pollinator patch and increase biodi
+ versity at Wilkes Park!
+LOCATION:Wilkes Park Label: Park Park location or entrance 3655 NE 154th A
+ venue Portland\, OR 97230 Get directions Wilkes Park main entrance 3655 NE
+  154th Avenue Portland\n                          \, OR\n                 
+           97230 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/8/11/wilkes-park-pollinator
+ -patch-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monarchs at the Mansion
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260815T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260815T100000
+UID:96f2775110aca93cae80533a61051500@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/IMG_0505.jpeg?itok=kZi0E6S2
+DESCRIPTION:Join Portland Parks & Recreation and The Portland Monarchs for
+  a morning in the butterfly habitat at the viewpoint at Pittock Mansion.
+LOCATION:Pittock Mansion
+URL:https://www.portland.gov/parks/events/2026/8/15/monarchs-mansion
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Luuwit View Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260820T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260820T090000
+UID:3c692abad431975c7705aa05caa11a5a@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/luuwitview_planningforparks.jpg?itok=b48iOXsx
+DESCRIPTION:Join us to help with gardening tasks at Luuwit View Park!
+LOCATION:Luuwit View Park Label: Park Park location or entrance NE 127th A
+ venue and NE Fremont Street Portland\, OR 97230 Get directions Luuwit View
+  Park main entrance NE 127th Avenue and NE Fremont Street Portland\n      
+                     \, OR\n                           97230 Get directions
+  More about this location
+URL:https://www.portland.gov/parks/events/2026/8/20/luuwit-view-park-volun
+ teer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hazeltine Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260826T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260826T090000
+UID:13c49c7bc0560acc12632b62d7930846@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2022/hazeltine-np-2022.jpg?itok=nkF0Xk0q
+DESCRIPTION:Join us to help care for native plants and pollinator habitat 
+ at Hazeltine Park!
+LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
+ el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
+ 416 SE Flavel Drive Portland\n                          \, OR\n           
+                 97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/8/26/hazeltine-park-tending
+ -time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Errol Heights Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260902T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260902T090000
+UID:1cef1a5be006e4b68ae026eeba47dbe7@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2021/ehp_watercolor_mr-2021_sm.jpg?itok=ObXzhm_s
+DESCRIPTION:Join us for gardening activities and projects to help keep Err
+ ol Heights Park vibrant and in bloom!
+LOCATION:Errol Heights Community Garden main entrance 4841 SE Tenino Court
+  Portland\n                          \, OR\n                           972
+ 06 Get directions More about this location Errol Heights Park Label: Park 
+ Park location or entrance SE 52nd Avenue and Tenino Street Portland\, OR 9
+ 7206 Get directions Errol Heights Park main entrance SE 52nd Avenue and Te
+ nino Street Portland\n                          \, OR\n                   
+         97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/9/2/errol-heights-park-tend
+ ing-time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parklane Park Garden of Weedin'
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260902T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260902T090000
+UID:8f946eb75c01645614f3136012e9b072@portland.gov
+DESCRIPTION:Join the Garden of Weedin' and help us keep Parklane Park in b
+ loom!
+LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
+ ue and Main Street Portland\, OR 97233 Get directions Parklane Park main e
+ ntrance SE 155th Avenue and Main Street Portland\n                        
+   \, OR\n                           97233 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/9/2/parklane-park-garden-we
+ edin
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mill Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260903T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260903T090000
+UID:4fcedea509bc64a74166e1f13dfb7c4b@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Mill-Park-summer-2025--34-.JPG?itok=Dt9AT1j3
+DESCRIPTION:Join us for gardening activities and to help keep Mill Park in
+  bloom!
+LOCATION:Mill Park Label: Park Park location or entrance 1949 SE 122nd Ave
+  Portland\, OR 97216 Get directions Mill Park main entrance 1949 SE 122nd 
+ Ave Portland\n                          \, OR\n                           
+ 97216 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/9/3/mill-park-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Argay Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260903T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260903T100000
+UID:d7ee7ebd48db6c7a50ae41875d1bca60@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/Kinnikinnick.jpg?itok=5TYGBCGw
+DESCRIPTION:Join us to help maintain the park sign garden bed and keep pol
+ linator-friendly plants blooming!
+LOCATION:Argay Park Label: Park Park location or entrance NE 141st Avenue 
+ and Failing Street Portland\, OR 97230 Get directions Argay Park main entr
+ ance NE 141st Avenue and Failing Street Portland\n                        
+   \, OR\n                           97230 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/9/3/argay-park-volunteer-da
+ y
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pier Park Stewardship Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260904T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260904T100000
+UID:5a60ef8d4bdef92973d6dfdc3d983d8b@portland.gov
+DESCRIPTION:Join us to keep Pier Park vibrant!
+LOCATION:Pier Park Label: Park Park location or entrance N Lombard Street 
+ and Bruce Avenue Portland\, OR 97203 Get directions Pier Park main entranc
+ e N Lombard Street and Bruce Avenue Portland\n                          \,
+  OR\n                           97203 Get directions More about this locat
+ ion
+URL:https://www.portland.gov/parks/events/2026/9/4/pier-park-stewardship-d
+ ay
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wilkes Park Pollinator Patch Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260908T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260908T090000
+UID:ccf2ed4b3e0c2334af96b988199c1d91@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Wilkes-Pollinator-Patch.jpg?itok=kgvrcqz7
+DESCRIPTION:Join us to help revive the pollinator patch and increase biodi
+ versity at Wilkes Park!
+LOCATION:Wilkes Park Label: Park Park location or entrance 3655 NE 154th A
+ venue Portland\, OR 97230 Get directions Wilkes Park main entrance 3655 NE
+  154th Avenue Portland\n                          \, OR\n                 
+           97230 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/9/8/wilkes-park-pollinator-
+ patch-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monarchs at the Mansion
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260915T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260915T100000
+UID:f2d38d456694bb1084cc08a12e535a4e@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/IMG_0505.jpeg?itok=kZi0E6S2
+DESCRIPTION:Join Portland Parks & Recreation and The Portland Monarchs for
+  a morning in the butterfly habitat at the viewpoint at Pittock Mansion.
+LOCATION:Pittock Mansion
+URL:https://www.portland.gov/parks/events/2026/9/15/monarchs-mansion
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Luuwit View Park Volunteer Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260917T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260917T090000
+UID:5f59275f4dc4cb2812e0a2d29c1c8e68@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/luuwitview_planningforparks.jpg?itok=b48iOXsx
+DESCRIPTION:Join us to help with gardening tasks at Luuwit View Park!
+LOCATION:Luuwit View Park Label: Park Park location or entrance NE 127th A
+ venue and NE Fremont Street Portland\, OR 97230 Get directions Luuwit View
+  Park main entrance NE 127th Avenue and NE Fremont Street Portland\n      
+                     \, OR\n                           97230 Get directions
+  More about this location
+URL:https://www.portland.gov/parks/events/2026/9/17/luuwit-view-park-volun
+ teer-day
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 END:VCALENDAR
