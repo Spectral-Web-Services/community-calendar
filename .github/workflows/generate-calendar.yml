@@ -360,6 +360,7 @@ jobs:
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/jewish-baby-network-jbn-san-francisco-60081113283" --name "Jewish Baby Network SF" --output cities/jweekly/eventbrite_jbn_sf.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/113723342691" --name "Jewish Engagement Center" --output cities/jweekly/eventbrite_jewish_engagement.ics || true
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/120866518338" --name "B'nai Israel Jewish Center" --output cities/jweekly/eventbrite_bnai_israel.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/32366719089" --name "Taube Center for Jewish Peoplehood" --output cities/jweekly/eventbrite_taube_center.ics || true
       continue-on-error: true
 
     - name: Download JWeekly feeds
