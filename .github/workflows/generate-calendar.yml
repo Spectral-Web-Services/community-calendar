@@ -532,6 +532,8 @@ jobs:
       env:
         TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       run: |
+        # Travel Portland (tourism board aggregator — WP REST API)
+        python scrapers/travelportland.py --output cities/portland/travelportland.ics || true
         python scrapers/legistar.py --client oregonmetro --source "Oregon Metro" --output cities/portland/legistar_oregon_metro.ics || true
         # Portland.gov city events (per category)
         python scrapers/portland_gov.py --type 329 --name "Portland Community Events" --output cities/portland/pdxgov_community.ics || true

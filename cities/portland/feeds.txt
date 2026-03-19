@@ -3,6 +3,10 @@
 # Source of truth: .github/workflows/generate-calendar.yml
 
 # --- Scrapers ---
+# Aggregator
+# cmd: python scrapers/travelportland.py
+cities/portland/travelportland.ics
+
 # Government meetings
 # cmd: python scrapers/legistar.py --client oregonmetro --source "Oregon Metro"
 cities/portland/legistar_oregon_metro.ics
