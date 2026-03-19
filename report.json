@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19T18:15:24.001925",
+  "generated": "2026-03-19T18:40:59.659614",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -54860,7 +54860,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 0
+              "count": 7
             }
           ]
         },
@@ -55084,7 +55084,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 7
+              "count": 13
             }
           ]
         },
@@ -55212,7 +55212,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 0
+              "count": 1
             }
           ]
         },
@@ -55532,7 +55532,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 12
+              "count": 15
             }
           ]
         },
@@ -55604,7 +55604,7 @@
             },
             {
               "date": "2026-03-19",
-              "count": 7
+              "count": 8
             }
           ]
         },
@@ -55628,11 +55628,11 @@
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 79
+          "count": 88
         },
         {
           "category": "Community / Social",
-          "count": 30
+          "count": 38
         },
         {
           "category": "Books / Literature / Poetry",
@@ -55657,16 +55657,25 @@
         {
           "category": "Health / Wellness",
           "count": 1
+        },
+        {
+          "category": "Religion / Spirituality",
+          "count": 1
         }
       ],
       "images": {
-        "total": 142,
-        "with_image": 28,
+        "total": 160,
+        "with_image": 35,
         "by_source": [
           {
             "source": "PEN America",
             "total": 23,
             "with_image": 11
+          },
+          {
+            "source": "National Assoc. of Hispanic Journalists",
+            "total": 7,
+            "with_image": 7
           },
           {
             "source": "Institute for Nonprofit News",
@@ -55706,9 +55715,9 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 131,
-        "total_events": 142,
-        "unique_urls": 125,
+        "total_with_url": 149,
+        "total_events": 160,
+        "unique_urls": 142,
         "generic_count": 0,
         "generic_domains": [],
         "http_count": 17,
@@ -55728,14 +55737,26 @@
           },
           {
             "source": "Solutions Journalism Network",
-            "events": 12,
-            "unique_urls": 11,
-            "specificity_pct": 92
+            "events": 15,
+            "unique_urls": 14,
+            "specificity_pct": 93
+          },
+          {
+            "source": "Editor & Publisher",
+            "events": 13,
+            "unique_urls": 13,
+            "specificity_pct": 100
           },
           {
             "source": "Society of Environmental Journalists",
             "events": 10,
             "unique_urls": 10,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Poynter Institute Training",
+            "events": 8,
+            "unique_urls": 8,
             "specificity_pct": 100
           },
           {
@@ -55745,13 +55766,7 @@
             "specificity_pct": 38
           },
           {
-            "source": "Poynter Institute Training",
-            "events": 7,
-            "unique_urls": 7,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Editor & Publisher",
+            "source": "National Assoc. of Hispanic Journalists",
             "events": 7,
             "unique_urls": 7,
             "specificity_pct": 100
@@ -55794,12 +55809,6 @@
           },
           {
             "source": "Knight Center for Journalism",
-            "events": 3,
-            "unique_urls": 3,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Assoc. of LGBTQ+ Journalists",
             "events": 3,
             "unique_urls": 3,
             "specificity_pct": 100
