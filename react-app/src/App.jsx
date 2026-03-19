@@ -8,6 +8,7 @@ import SearchBar from './components/SearchBar.jsx';
 import StyleSwitcher from './components/StyleSwitcher.jsx';
 import MasonryGrid from './components/MasonryGrid.jsx';
 import UniformGrid from './components/UniformGrid.jsx';
+import DateListView from './components/DateListView.jsx';
 import PicksList from './components/PicksList.jsx';
 import CollectionTargetBar from './components/CollectionTargetBar.jsx';
 import EnrichmentEditor from './components/EnrichmentEditor.jsx';
@@ -203,7 +204,9 @@ function App() {
 
             {!loading && events && (
               <>
-                {isGridLayout ? (
+                {cardStyle === 'datelist' ? (
+                  <DateListView events={[...featuredEvents, ...regularEvents]} city={city} />
+                ) : isGridLayout ? (
                   <>
                     {featuredEvents.length > 0 && (
                       <div className="mb-6">
