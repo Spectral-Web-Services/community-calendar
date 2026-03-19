@@ -197,15 +197,17 @@ def extract_datetime_field(event_content, field_name):
 
 
 def _convert_google_drive_url(url):
-    """Convert Google Drive sharing URLs to direct image URLs.
+    """Convert Google Drive sharing URLs to embeddable image URLs.
 
     Google Calendar attaches images as drive.google.com/open?id=FILE_ID,
-    which doesn't serve the image directly.  Convert to the /uc?export=view
-    form which redirects to the actual image content.
+    which doesn't serve the image directly.  The /uc?export=view form
+    sets Cross-Origin-Resource-Policy: same-site, blocking cross-origin
+    <img> loads.  Use lh3.googleusercontent.com/d/FILE_ID instead, which
+    serves images without CORP restrictions.
     """
     m = re.match(r'https://drive\.google\.com/open\?id=([A-Za-z0-9_-]+)', url)
     if m:
-        return f'https://drive.google.com/uc?export=view&id={m.group(1)}'
+        return f'https://lh3.googleusercontent.com/d/{m.group(1)}'
     return url
 
 
