@@ -243,7 +243,7 @@ export default function EmbedView({ feedId, style, featuredStyle, title, feature
     <FeedProvider collection={collection}>
       <div ref={containerRef} className={`w-full py-4 ${isDark ? 'dark' : ''}`} style={{ backgroundColor: bg || 'transparent' }}>
         {!loading && allEvents.length > 0 && (
-          <div className="flex items-start gap-2">
+          <div className="flex items-start md:gap-2 flex-col md:flex-row">
             <div className="flex-1 min-w-0">
               <SearchBar
                 filterTerm={filterTerm}
