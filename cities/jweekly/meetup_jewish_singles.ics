@@ -25,9 +25,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:event_313859545@meetup.com
+SEQUENCE:1
+DTSTAMP:20260320T015633Z
+DTSTART;TZID=America/Los_Angeles:20260329T173000
+DTEND;TZID=America/Los_Angeles:20260329T190000
+SUMMARY:Hiking at Shoreline Lake Park and Dinner 
+DESCRIPTION:Bay Area Jewish Singles Havurah\nPlease join us for an early evening hike at **Shoreline Lake Park.**\n**Shoreline** is a vibrant oasis of preservation\, recreation and entertainment\, the 750-acre park is home to over 30 protected species and provides a wide range of recreation opportunities including: a robust trail system\, a 50-acre sailing lake\, an 18-hole championship golf course\, a dog park\, a kite flying area\, as well as athletic fields\, historic Rengstorff House and two restaurants.\n\n**Itinerary & Trail info:** We will walk around the lake and then take another trail along the Bay. Total time there and back is 1.5 hours.\n\n**Where to park and meet: Parking is free but please arrive early to find parking.** Park in the parking lot by the boathouse. If there is no parking in that lot\, please turn around and park at the parking lot at Michael’s Restaurant and then just walk to the boathouse.\n\n**Details:**\n· The event will be rescheduled for another day in case of moderate to heavy rain.\n\n* Please bring water\, sunscreen\, and layered clothing.\n* The bathroom is located in front of the boat rental\n* If you are running late\, please walk along the lake and you will find us.\n\n**Optional Dinner: After the hike in Downtown Mountain View on Castro Street**\n\nFeel free to invite your friends!\n\nSee you there!
+URL;VALUE=URI:https://www.meetup.com/bay-area-jewish-singles-havurah/events/313859545/
+STATUS:CONFIRMED
+CREATED:20260319T233709Z
+LAST-MODIFIED:20260319T233709Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/1/e/3/600_505833251.jpeg
+END:VEVENT
+BEGIN:VEVENT
 UID:event_313436582@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020338Z
+DTSTAMP:20260320T015633Z
 DTSTART;TZID=America/Los_Angeles:20260403T183000
 DTEND;TZID=America/Los_Angeles:20260403T213000
 SUMMARY:Shabbat Dinner
@@ -42,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313779511@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020338Z
+DTSTAMP:20260320T015633Z
 DTSTART;TZID=America/Los_Angeles:20260404T173000
 DTEND;TZID=America/Los_Angeles:20260404T213000
 SUMMARY:Dinner and movie
@@ -57,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313566009@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020338Z
+DTSTAMP:20260320T015633Z
 DTSTART;TZID=America/Los_Angeles:20260426T170000
 DTEND;TZID=America/Los_Angeles:20260426T190000
 SUMMARY:Israel in Focus with Jerusalem Post’s\, Herb Keinon

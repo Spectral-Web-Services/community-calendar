@@ -9,46 +9,6 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
 SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T190000
-UID:20f48f4d9d3f3e195da0eb7df2935e54@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260319T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260319T210000
-UID:f8f45f51da092aea5f5c4a62aad0e200@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A743Gg"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260319T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260319T193000
-UID:6b6f72c6be133f7e1c07cfdc230349d2@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A743Gg
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260319T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260319T193000
 UID:258f437261c5f71949b0743b2da95791@ticketmaster.com
@@ -156,7 +116,6 @@ LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
 X-SOURCE:Emerson Colonial Theatre
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage Company": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
 X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
 X-SOURCE-ID:lyric_stage
 SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
@@ -289,7 +248,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260325T000000
 DTEND;TZID=America/New_York:20260328T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20250905T193845Z
 LAST-MODIFIED:20260309T162853Z
 UID:10000039-1774396800-1774742399@emersontheatres.org
@@ -324,7 +283,9 @@ X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
  ter/Dance
 X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
  ol of Arts and Sciences
-DTSTAMP:20260219T084037Z
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgCBNFwge1ckmaNXTmI8tqrI.jpg
+DTSTAMP:20260319T104335Z
 DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
  mpus: Medford/Somerville campus\nLocation Details: Balch Arena Theater L
  obby\nOpen to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: 
@@ -333,6 +294,7 @@ DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
   opportunity to pick up a schedule of our Fall 2026 courses and begin pl
  anning what your next semester will look like over catered lunch!
 CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgCBNFwge1ckmaNXTmI8tqrI.jpg
 UID:http://uid.trumba.com/event/197624890
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
  mbed=view%3devent%26eventid%3d197624890
@@ -986,7 +948,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260403T000000
 DTEND;TZID=America/New_York:20260403T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20260311T143554Z
 LAST-MODIFIED:20260316T171244Z
 UID:10000078-1775174400-1775260799@emersontheatres.org
@@ -1144,7 +1106,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260404T000000
 DTEND;TZID=America/New_York:20260404T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20260311T163835Z
 LAST-MODIFIED:20260316T171338Z
 UID:10000079-1775260800-1775347199@emersontheatres.org
@@ -1510,7 +1472,8 @@ END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-ID:tufts_tdps
 X-SOURCE:Tufts Tdps
-SUMMARY:Guest Lecture with Michelle Liu Carriger
+SUMMARY:Rehearsal as Research: “Japanese Tea Ceremony” in Practice and i
+ n Performance
 LOCATION:Medford/Somerville campus
 DTSTART;TZID=America/New_York:20260409T120000
 DTEND;TZID=America/New_York:20260409T133000
@@ -1532,25 +1495,35 @@ X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
  ter/Dance
 X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
  ol of Arts and Sciences
-DTSTAMP:20260318T094254Z
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgA4NF21ndZy%2AN8zbmsoFuH3.jpg
+DTSTAMP:20260319T113255Z
 DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
  mpus: Medford/Somerville campus\nLocation Details: Alumnae Lounge\nOpen 
  to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: School of A
  rts and Sciences\n\nRehearsal as Research: “Japanese Tea Ceremony” in Pr
- actice and in Performance\n\nIn contemporary Japanese Tea (chanoyu\, cha
- do\, or “Japanese tea ceremony”)\, practitioners learn to distinguish be
- tween “practice” in the sense of rehearsal\, as carried out in weekly re
- curring sessions with an instructor versus what is often called “real te
- a\,” corresponding to the sense of performance\, the public culmination 
- of rehearsal. Despite the seeming primacy of the “real” Performance\, mo
- st practitioners end up spending the vast majority of the time they spen
- t doing tea in rehearsal\, not in performance. Of course\, such a divide
-  is also fundamental to theater practice as well\, and paying more atten
- tion to what is learned in each format and where scholars derive their k
- nowledge of the whole practice may open new insights into where and how 
- performative norms like “identity” and “culture” are maintained\, perpet
- uated\, and evolve.
+ actice and in Performance\nIn contemporary Japanese Tea (chanoyu\, chado
+ \, or “Japanese tea ceremony”)\, practitioners learn to distinguish betw
+ een “practice” in the sense of rehearsal\, as carried out in weekly recu
+ rring sessions with an instructor versus what is often called “real tea
+ \,” corresponding to the sense of performance\, the public culmination of
+  rehearsal. Despite the seeming primacy of the “real” Performance\, most
+  practitioners end up spending the vast majority of the time they spent 
+ doing tea in rehearsal\, not in performance. Of course\, such a divide i
+ s also fundamental to theater practice as well\, and paying more attenti
+ on to what is learned in each format and where scholars derive their kno
+ wledge of the whole practice may open new insights into where and how pe
+ rformative norms like “identity” and “culture” are maintained\, perpetua
+ ted\, and evolve.\n\nMichelle Liu Carriger\, PhD has been studying the U
+ rasenke tradition of chado (“tea ceremony”) since 1999\, in various loca
+ tions including Los Angeles\, Colorado\, Kansas\, Boston\, London\, and 
+ in Kyoto during a yearlong Midorikai fellowship at the Urasenke Gakuen P
+ rofessional College of Chado. She holds a second degree Urasenke teachin
+ g license and chamei (tea name) “Somi.” Additionally\, she researches an
+ d writes academically on tea practice and theory and spent two years in 
+ rural Ehime prefecture\, Japan\, studying in the Omotesenke lineage.
 CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgA4NF21ndZy%2AN8zbmsoFuH3.jpg
 UID:http://uid.trumba.com/event/198926872
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
  mbed=view%3devent%26eventid%3d198926872
@@ -2002,7 +1975,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260416T000000
 DTEND;TZID=America/New_York:20260418T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20250905T193939Z
 LAST-MODIFIED:20251031T143736Z
 UID:10000040-1776297600-1776556799@emersontheatres.org
@@ -2517,7 +2490,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260423T000000
 DTEND;TZID=America/New_York:20260423T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20260311T164610Z
 LAST-MODIFIED:20260316T171657Z
 UID:10000080-1776902400-1776988799@emersontheatres.org
@@ -2667,7 +2640,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T000000
 DTEND;TZID=America/New_York:20260424T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20260311T164834Z
 LAST-MODIFIED:20260316T171452Z
 UID:10000081-1776988800-1777075199@emersontheatres.org
@@ -2684,7 +2657,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:ArtsEmerson, Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T000000
 DTEND;TZID=America/New_York:20260503T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20250625T172022Z
 LAST-MODIFIED:20260311T174959Z
 UID:10000017-1776988800-1777852799@emersontheatres.org
@@ -2762,7 +2735,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T193000
 DTEND;TZID=America/New_York:20260424T223000
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20260309T140000Z
 LAST-MODIFIED:20260316T173255Z
 UID:10000077-1777059000-1777069800@emersontheatres.org
@@ -3976,7 +3949,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260515T000000
 DTEND;TZID=America/New_York:20260515T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20260311T171109Z
 LAST-MODIFIED:20260316T172043Z
 UID:10000082-1778803200-1778889599@emersontheatres.org
@@ -3992,7 +3965,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260515T190000
 DTEND;TZID=America/New_York:20260516T130000
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221545
 CREATED:20260220T155215Z
 LAST-MODIFIED:20260225T184533Z
 UID:10000066-1778871600-1778936400@emersontheatres.org
@@ -4063,7 +4036,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260516T000000
 DTEND;TZID=America/New_York:20260516T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221546
 CREATED:20260311T171558Z
 LAST-MODIFIED:20260316T172548Z
 UID:10000083-1778889600-1778975999@emersontheatres.org
@@ -4242,12 +4215,57 @@ URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260520T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260520T160000
+UID:ee7da5654a9f74cc45f460d06806f80b@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage Company": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260520T140000
+DTEND;VALUE=DATE-TIME:20260520T163000
+UID:2d851a340366bc0e1f8e51fac25737ad@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Swept Away
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260520T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260520T210000
+UID:b851935804ae01b37b18cbda1ac079e4@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/03/FINAL-Swept-Away-900x900-BTS.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}
 X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260606T160000
 DTEND;TZID=America/New_York:20260606T173000
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221546
 CREATED:20260211T155716Z
 LAST-MODIFIED:20260316T173124Z
 UID:10000061-1780761600-1780767000@emersontheatres.org
@@ -4263,7 +4281,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260613T000000
 DTEND;TZID=America/New_York:20260628T235959
-DTSTAMP:20260316T221809
+DTSTAMP:20260319T221546
 CREATED:20250625T172022Z
 LAST-MODIFIED:20260105T191706Z
 UID:10000016-1781308800-1782691199@emersontheatres.org

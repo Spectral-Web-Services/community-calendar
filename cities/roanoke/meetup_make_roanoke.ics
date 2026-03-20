@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313729286@meetup.com
-SEQUENCE:1
-DTSTAMP:20260319T020100Z
-DTSTART;TZID=America/New_York:20260319T180000
-DTEND;TZID=America/New_York:20260319T190000
-SUMMARY:Stained Glass Planning Meeting
-DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is looking to add a Stained Glass area to our makerspace! We are having a special stained glass planning meeting on Thursday\, March 19 at 6 pm for current and prospective members.\n\nThis is your opportunity to shape what our stained glass area will look like\, what tools we'll have\, and more! We want to build this to suit the needs of our members\, so we really need your input!\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at [https://mkroa.org/waiver](https://mkroa.org/waiver "https://mkroa.org/waiver")\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313729286/
-STATUS:CONFIRMED
-CREATED:20260310T172655Z
-LAST-MODIFIED:20260310T172655Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/e/3/6/600_533136406.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313432308@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260320T180000
 DTEND;TZID=America/New_York:20260320T190000
 SUMMARY:Maker Mini: Multi-Material 3D Printing with Orcaslicer
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313432537@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260321T130000
 DTEND;TZID=America/New_York:20260321T160000
 SUMMARY:Intro to Home Assistant and ESPHome
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313744165@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260322T110000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260319T020100Z
+DTSTAMP:20260320T015352Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -173,6 +158,21 @@ CREATED:20260306T172409Z
 LAST-MODIFIED:20260306T172409Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/f/1/600_530638609.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313620583@meetup.com
+SEQUENCE:1
+DTSTAMP:20260320T015352Z
+DTSTART;TZID=America/New_York:20260406T200000
+DTEND;TZID=America/New_York:20260406T210000
+SUMMARY:General Orientations & Space Tours for New & Prospective Members
+DESCRIPTION:MAKE Roanoke\nCome learn about MAKE Roanoke by taking a tour of Roanoke's own non-profit makerspace and staying for the General Orientation! General Orientations are required for membership. The tours start promptly at 8pm.\n\nMemberships cost $50/mo and get you 24/7 access to the space via a keyfob for all the equipment that you're trained on. [Find out more about MAKE Roanoke Membership here](makeroanoke.org/membership)\n\nThe Orientations will consist of a tour showcasing what MAKE Roanoke has to offer\, a video explaining our rules and procedures\, a briefer tour highlighting safety equipment\, and then time for Q&A and signing up for memberships.\n\nPlease note that additional shop-level orientations and tool-level training are required to use most tools.\n\nYou do not have to sign up for a membership\, if you want to just take the tour and/or orientation to learn more\, that's very welcome!\n**Please note that MAKE Roanoke is an active workshop:**\n\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313620583/
+STATUS:CONFIRMED
+CREATED:20260303T184302Z
+LAST-MODIFIED:20260303T184302Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/1/6/600_532168438.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

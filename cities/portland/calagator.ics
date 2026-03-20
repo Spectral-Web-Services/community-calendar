@@ -442,39 +442,6 @@ LOCATION:Oregon Bioscience Incubator (OBI): 4640 SW Macadam Avenue\, Suit
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260318T213244Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T190000
-DTSTAMP;VALUE=DATE-TIME:20260318T213244Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260318T213244Z
-UID:http://calagator.org/events/1250482513
-DESCRIPTION:Summary:&#13\;\n&#13\;\nInside AI Supercomputers: From GPUs t
- o Multi-DC Clusters&#13\;\n&#13\;\nLarge language models and other front
- ier AI systems are trained on clusters with thousands to over a hundred 
- thousand GPUs. But what does that infrastructure actually look like? Thi
- s talk walks through the anatomy of an AI supercomputer from the ground 
- up: individual GPUs\, multi-GPU nodes\, racks\, and full clusters. We'll
-  cover the three pillars of compute\, storage\, and networking\, then lo
- ok at how training and inference workloads place very different demands 
- on hardware. Finally\, we'll explore how Linux runs the show at every la
- yer from the OS on each node\, to InfiniBand fabric&#13\;\nmanagement\, 
- to job scheduling with Slurm\, Kubernetes\, and Ray.&#13\;\n&#13\;\nNo A
- I/HPC background required - just curiosity about what it takes to build 
- and run the machines behind the models.&#13\;\n&#13\;\nBio:&#13\;\n&#13\
- ;\nJesse Lopez is an AI/ML and Technical Program Manager in the Azure HP
- C/AI organization where he helps deploy large-scale AI infrastructure an
- d works with customers to put it to use. A former scientist\, he has a b
- ackground in high-performance computing\, AI/ML\, and has been a Linux u
- ser since the nineteen hundreds.\n\nTags: plug\, linux\, HPC\n\nImported
-  from: http://calagator.org/events/1250482513
-URL:https://pdxlinux.org/
-SUMMARY:Portland Linux/Unix Group General Monthly Meeting: Inside AI Supe
- rcomputers\, with Jesse Lopez
-LOCATION:Portland State University Fourth Avenue Building (FAB) Room FAB 
- 86-01: 1900 Southwest 4th Avenue\, Portland OR 97201 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T171250Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260404T130000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260404T100000
@@ -558,33 +525,6 @@ DESCRIPTION:Let’s get together for an informal BEAM PDX hangout: coffee\,
  ed from: http://calagator.org/events/1250482510
 URL:https://beam-pdx.groupflow.app/events/12293
 SUMMARY:Portland Monthly BEAM Meet & Chat
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260315T185106Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260409T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260409T170000
-DTSTAMP;VALUE=DATE-TIME:20260315T185106Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260315T185106Z
-UID:http://calagator.org/events/1250482512
-DESCRIPTION:Join us for a community-led developer event focused on AI-ass
- isted coding with GitHub Copilot. This event brings together developers 
- to explore practical workflows\, real-world use cases\, and hands-on exp
- eriences using GitHub Copilot.&#13\;\n&#13\;\n​Whether you are new to Gi
- tHub Copilot or already using it\, this event will help you better under
- stand how to apply AI-assisted coding techniques in everyday development
- .&#13\;\n&#13\;\n​📅 Agenda&#13\;\n&#13\;\n​5:00 PM – Check-in &amp\; Piz
- za 🍕&#13\;\n&#13\;\n​5:30 PM – Welcome &amp\; Opening with James Montema
- gno and Scott Hanselman&#13\;\n&#13\;\n​5:30 PM – Session 1: GitHub Copi
- lot: Your AI Companion for Every Workflow&#13\;\n&#13\;\n​6:00 PM – Sess
- ion 2: Deep Dive into the GitHub Copilot CLI&#13\;\n&#13\;\n​6:30 PM – W
- orkshop: Hands-on with GitHub Copilot&#13\;\n&#13\;\n​8:00 PM – Closing 
- &amp\; Next Steps&#13\;\n\n\nTags: microsoft\, github\, AI\, copilot\n\n
- Imported from: http://calagator.org/events/1250482512
-URL:https://luma.com/x5fwhl5u?tk=CVnGJ6
-SUMMARY:GitHub Copilot Dev Days Portland\, Oregon
-LOCATION:Microsoft Office Hillsboro: 9820 NW Gibbs Drive\, Hillsboro OR 9
- 7006 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT

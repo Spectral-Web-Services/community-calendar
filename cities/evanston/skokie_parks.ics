@@ -4,28 +4,6 @@ PRODID:-//Skokie Park District//skokieparks.org//
 X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Adults Over 60: Milwaukee Public Museum
-DTSTART;VALUE=DATE-TIME:20260319T083000
-DTEND;VALUE=DATE-TIME:20260319T083000
-UID:43098dd13ed462c6921498fd875da31f@skokieparks.org
-DESCRIPTION:
-LOCATION:Oakton Community Center
-URL:https://www.skokieparks.org/events/adults-over-60-milwaukee-public-mus
- eum/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Evoke Jewish Performance Collective Presents "Double Take"
-DTSTART;VALUE=DATE-TIME:20260319T193000
-DTEND;VALUE=DATE-TIME:20260319T193000
-UID:5a8058307cd4ec951b20821fccd6b4c9@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/evoke-jewish-performance-collective
- -presents-double-take/?F_d=03-19-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Adventure Quest (March)
 DTSTART;VALUE=DATE-TIME:20260320T090000
 DTEND;VALUE=DATE-TIME:20260320T090000
@@ -414,6 +392,17 @@ URL:https://www.skokieparks.org/events/spring-break-camps-at-emily-oaks/?F
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Exploritorium Spring Break Hours
+DTSTART;VALUE=DATE-TIME:20260330T090000
+DTEND;VALUE=DATE-TIME:20260330T090000
+UID:abea9081f2a83b6408456d4167561ad7@skokieparks.org
+DESCRIPTION:
+LOCATION:Exploritorium
+URL:https://www.skokieparks.org/events/exploritorium-spring-break-hours/26
+ /?F_d=03-30-2026
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260331T080000
 DTEND;VALUE=DATE-TIME:20260331T080000
@@ -432,6 +421,17 @@ DESCRIPTION:
 LOCATION:Emily Oaks Nature Center
 URL:https://www.skokieparks.org/events/spring-break-camps-at-emily-oaks/?F
  _d=03-31-2026
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exploritorium Spring Break Hours
+DTSTART;VALUE=DATE-TIME:20260331T090000
+DTEND;VALUE=DATE-TIME:20260331T090000
+UID:06880fc8d2460ff6b0f50e18cb9e08d4@skokieparks.org
+DESCRIPTION:
+LOCATION:Exploritorium
+URL:https://www.skokieparks.org/events/exploritorium-spring-break-hours/26
+ /?F_d=03-31-2026
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -456,6 +456,17 @@ URL:https://www.skokieparks.org/events/spring-break-camps-at-emily-oaks/?F
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Exploritorium Spring Break Hours
+DTSTART;VALUE=DATE-TIME:20260401T090000
+DTEND;VALUE=DATE-TIME:20260401T090000
+UID:2033578ddc0af6d2031658eaf0c3a711@skokieparks.org
+DESCRIPTION:
+LOCATION:Exploritorium
+URL:https://www.skokieparks.org/events/exploritorium-spring-break-hours/26
+ /?F_d=04-01-2026
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260402T080000
 DTEND;VALUE=DATE-TIME:20260402T080000
@@ -477,6 +488,17 @@ URL:https://www.skokieparks.org/events/spring-break-camps-at-emily-oaks/?F
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Exploritorium Spring Break Hours
+DTSTART;VALUE=DATE-TIME:20260402T090000
+DTEND;VALUE=DATE-TIME:20260402T090000
+UID:d0006d47d71e782cc396da035c55bc0e@skokieparks.org
+DESCRIPTION:
+LOCATION:Exploritorium
+URL:https://www.skokieparks.org/events/exploritorium-spring-break-hours/26
+ /?F_d=04-02-2026
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260403T080000
 DTEND;VALUE=DATE-TIME:20260403T080000
@@ -495,6 +517,17 @@ DESCRIPTION:
 LOCATION:Emily Oaks Nature Center
 URL:https://www.skokieparks.org/events/spring-break-camps-at-emily-oaks/?F
  _d=04-03-2026
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exploritorium Spring Break Hours
+DTSTART;VALUE=DATE-TIME:20260403T090000
+DTEND;VALUE=DATE-TIME:20260403T090000
+UID:f7af2ac51c4b193fdb050a32263baa8b@skokieparks.org
+DESCRIPTION:
+LOCATION:Exploritorium
+URL:https://www.skokieparks.org/events/exploritorium-spring-break-hours/26
+ /?F_d=04-03-2026
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -580,16 +613,6 @@ URL:https://www.skokieparks.org/events/storybook-corner/25/?F_d=04-07-2026
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Storybook Corner
-DTSTART;VALUE=DATE-TIME:20260407T103000
-DTEND;VALUE=DATE-TIME:20260407T103000
-UID:e24a2e654dbd1d28b56b26c61c83d99b@skokieparks.org
-DESCRIPTION:
-LOCATION:Exploritorium/Oakton Community Center
-URL:https://www.skokieparks.org/events/storybook-corner/8/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nature Neighbors Begins
 DTSTART;VALUE=DATE-TIME:20260407T131500
 DTEND;VALUE=DATE-TIME:20260407T131500
@@ -597,17 +620,6 @@ UID:5ef66c5e8b655c066c6e98c83d44f02d@skokieparks.org
 DESCRIPTION:
 LOCATION:Emily Oaks Nature Center
 URL:https://www.skokieparks.org/events/nature-neighbors-begins426/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Playdough Playtime at the Exploritorium
-DTSTART;VALUE=DATE-TIME:20260408T100000
-DTEND;VALUE=DATE-TIME:20260408T100000
-UID:6dfdc6b517ba2acb95a469135a4f9dc6@skokieparks.org
-DESCRIPTION:
-LOCATION:Exploritorium
-URL:https://www.skokieparks.org/events/playdough-playtime-at-the-explorito
- rium/26/?F_d=04-08-2026
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1037,13 +1049,13 @@ URL:https://www.skokieparks.org/events/weaving-with-nature/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Beetlejuice Jr #4
+SUMMARY:Beetlejuice Jr.
 DTSTART;VALUE=DATE-TIME:20260426T150000
 DTEND;VALUE=DATE-TIME:20260426T150000
-UID:15b03e0f4a35b7755c9390484cdd1dc4@skokieparks.org
+UID:fe80a94a3945ac82e66e2e47b39774cc@skokieparks.org
 DESCRIPTION:
 LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/beetlejuice-jr-4/
+URL:https://www.skokieparks.org/events/beetlejuice-jr/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1065,6 +1077,16 @@ DESCRIPTION:
 LOCATION:Oakton Community Center
 URL:https://www.skokieparks.org/events/adults-over-60-the-making-of-i-love
  -lucy-chocolate--lucy-tour/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Speakeasy Theatre Performance-May
+DTSTART;VALUE=DATE-TIME:20260501T190000
+DTEND;VALUE=DATE-TIME:20260501T190000
+UID:451dd51753df3d356ae170575b325b60@skokieparks.org
+DESCRIPTION:
+LOCATION:Devonshire Cultural Center
+URL:https://www.skokieparks.org/events/speakeasy-theatre-performance-may/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1109,23 +1131,23 @@ URL:https://www.skokieparks.org/events/speakeasy-theatre-performance-may/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Flea  Market Frenzy
+SUMMARY:Flea Market Frenzy
 DTSTART;VALUE=DATE-TIME:20260502T090000
 DTEND;VALUE=DATE-TIME:20260502T090000
-UID:cc45f967e7072d6dbae92d22ab421923@skokieparks.org
+UID:0a5a4bef11c055b30f1065c6086f847d@skokieparks.org
 DESCRIPTION:
 LOCATION:Oakton Community Center
-URL:https://www.skokieparks.org/events/flea-market-frenzy/4/
+URL:https://www.skokieparks.org/events/flea-market-frenzy-spring-26/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Spring Fling Craft Fair
+SUMMARY:Spring Fling Gift Market
 DTSTART;VALUE=DATE-TIME:20260502T090000
 DTEND;VALUE=DATE-TIME:20260502T090000
-UID:df87b0e6ef821ea7b3901505ab5d5faf@skokieparks.org
+UID:abefecfa3fb18d74af60b12d5a9521fa@skokieparks.org
 DESCRIPTION:
 LOCATION:Oakton Community Center
-URL:https://www.skokieparks.org/events/spring-fling-craft-fair/
+URL:https://www.skokieparks.org/events/spring-fling-gift-market26/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1335,14 +1357,14 @@ URL:https://www.skokieparks.org/events/ramble-to-warren-woods--dunes26/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Thin Ice Ensemble Theatre Presents: Anastasia Youth Edition (4)
+SUMMARY:Thin Ice Ensemble Theatre Presents: Anastasia Youth Edition
 DTSTART;VALUE=DATE-TIME:20260510T150000
 DTEND;VALUE=DATE-TIME:20260510T150000
-UID:ce2c5088738acbd8a2afd68ee94cc0a8@skokieparks.org
+UID:cf87dc352f23d5f3f23290ed9616b64b@skokieparks.org
 DESCRIPTION:
 LOCATION:Devonshire Cultural Center
 URL:https://www.skokieparks.org/events/thin-ice-ensemble-theatre-presents-
- anastasia-youth-edition-4/
+ anastasia-youth-edition/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1478,6 +1500,15 @@ URL:https://www.skokieparks.org/events/kankakee-river-canoe-trip26/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Festival of Cultures
+DTSTART;VALUE=DATE-TIME:20260517T110000
+DTEND;VALUE=DATE-TIME:20260517T110000
+UID:823156edec49d957e7668c496fcf9c79@skokieparks.org
+DESCRIPTION:
+URL:https://www.skokieparks.org/events/festival-of-cultures-1/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Adults Over 60: Antique Adventures
 DTSTART;VALUE=DATE-TIME:20260519T083000
 DTEND;VALUE=DATE-TIME:20260519T083000
@@ -1486,6 +1517,37 @@ DESCRIPTION:
 LOCATION:Oakton Community Center
 URL:https://www.skokieparks.org/events/adults-over-60-antique-adventures/2
  /
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parent-Tot Yoga
+DTSTART;VALUE=DATE-TIME:20260520T103000
+DTEND;VALUE=DATE-TIME:20260520T103000
+UID:813ae92e3bb66de381e39e172a46daad@skokieparks.org
+DESCRIPTION:
+LOCATION:Exploritorium/Oakton Community Center
+URL:https://www.skokieparks.org/events/parent-tot-yoga/3/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:History of Old Orchard Walking Tour
+DTSTART;VALUE=DATE-TIME:20260520T170000
+DTEND;VALUE=DATE-TIME:20260520T170000
+UID:ba4dd33d5fad865c95ecabc30532fe80@skokieparks.org
+DESCRIPTION:
+LOCATION:Skokie Heritage Museum
+URL:https://www.skokieparks.org/events/history-of-old-orchard-walking-tour
+ 3/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Emily Oaks Book Club (May)
+DTSTART;VALUE=DATE-TIME:20260520T190000
+DTEND;VALUE=DATE-TIME:20260520T190000
+UID:15c8d9f6b24402a137e96b8370f736d0@skokieparks.org
+DESCRIPTION:
+LOCATION:Emily Oaks Nature Center
+URL:https://www.skokieparks.org/events/emily-oaks-book-club-may26/
 X-SOURCE:Skokie Park District
 END:VEVENT
 END:VCALENDAR

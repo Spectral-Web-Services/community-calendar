@@ -5,40 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Evanston Trivia Nerds Meetup!
 X-WR-CALNAME:Evanston Trivia Nerds Meetup!
-BEGIN:VTIMEZONE
-TZID:America/Chicago
-TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
-X-LIC-LOCATION:America/Chicago
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0600
-TZOFFSETTO:-0500
-TZNAME:CDT
-DTSTART:19700308T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0600
-TZNAME:CST
-DTSTART:19701101T020000
-RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:event_313769416@meetup.com
-SEQUENCE:1
-DTSTAMP:20260319T020415Z
-DTSTART;TZID=America/Chicago:20260319T184500
-DTEND;TZID=America/Chicago:20260319T204500
-SUMMARY:Thursday Trivia Night at Stacked and Folded in Evanston!
-DESCRIPTION:Evanston Trivia Nerds Meetup!\nWE WON 1ST LAST 2 TIMES!!!! This is our new fav place for trivia. Had plenty of space\, great food\, chill lighting\, good trivia host and all questions show on your phone and leaderboard and on the tv.\n\nTrivia starts at 7PM and I think some of us should try to get there at 6:45. There are 2 sessions and each are 1 hour long. As usual\, trivia is free so please either order dinner or at least grab a drink or two to support the business! Both the food and drinks are delish!\n\nThis event is hosted by a trivia company called Sporcle. Info on how Sporcle live trivia works: https://www.sporcle.com/blog/2015/02/bar-trivia-what-is-sporcle-live/\n\nIt's right off the Noyes Purple Line El stop and there should be some street parking.\n\nLooking forward to meeting folks and assembling the dream team! :D\n\nPLEASE NOTE: IF YOU RSVP AND CAN'T ATTEND\, PLEASE BE COURTEOUS AND CHANGE TO "NOT GOING" SO A SLOT IS AVAILABLE FOR OTHERS. IF YOU DON'T UN-RSVP OR MESSAGE ME\, I WILL HAVE TO REMOVE YOU FROM THE GROUP.\n\n\\~Suzie
-URL;VALUE=URI:https://www.meetup.com/evanston-trivia-nerds-meetup/events/313769416/
-STATUS:CONFIRMED
-CREATED:20260313T164728Z
-LAST-MODIFIED:20260313T164728Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/4/e/c/600_532645836.jpeg
-END:VEVENT
-X-ORIGINAL-URL:https://www.meetup.com/evanston-trivia-nerds-meetup/events/ical/
+X-ORIGINAL-URL:https://www.meetup.com/evanston-trivia-nerds-meetup/events/
+ ical/
 X-WR-CALNAME:Evanston Trivia Nerds Meetup!
 END:VCALENDAR
