@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo, useSyncExternalStore } from 'react';
+import React, { useState, useCallback, useEffect, useMemo, useSyncExternalStore } from 'react';
 import { Plus } from 'lucide-react';
 import CityPicker from './components/CityPicker.jsx';
 import EmbedView from './components/EmbedView.jsx';
@@ -14,6 +14,7 @@ import CollectionTargetBar from './components/CollectionTargetBar.jsx';
 import EnrichmentEditor from './components/EnrichmentEditor.jsx';
 import SubmitEvent from './components/SubmitEvent.jsx';
 import PendingEvents from './components/PendingEvents.jsx';
+import SourceSuggestions from './components/SourceSuggestions.jsx';
 import { useEvents } from './hooks/useEvents.js';
 import { useEnrichments } from './hooks/useEnrichments.js';
 import { useProcessedEvents } from './hooks/useProcessedEvents.js';
@@ -22,6 +23,7 @@ import { useColumnCount } from './hooks/useColumnCount.js';
 import { useAuth } from './hooks/useAuth.jsx';
 import { useCurator } from './hooks/useCurator.jsx';
 import { useFeatured } from './hooks/useFeatured.jsx';
+import { SUPABASE_URL, SUPABASE_KEY } from './lib/supabase.js';
 import { getActiveCategories } from './lib/helpers.js';
 import { isGridLayout as checkGridLayout, getColumnCount as calcColumnCount } from './lib/cardStyles.js';
 
@@ -54,6 +56,28 @@ function App() {
   const [viewMode, setViewMode] = useState('cards');
   const [showCreateEvent, setShowCreateEvent] = useState(false);
   const [showSubmitEvent, setShowSubmitEvent] = useState(false);
+  const [pendingCount, setPendingCount] = useState(0);
+  const [suggestionsCount, setSuggestionsCount] = useState(0);
+
+  // Fetch curator badge counts
+  useEffect(() => {
+    if (!canCurateCity || !session) return;
+    const headers = { apikey: SUPABASE_KEY, Authorization: 'Bearer ' + session.access_token, Prefer: 'count=exact' };
+
+    const pendingParams = new URLSearchParams({ status: 'eq.pending', select: 'id' });
+    if (city) pendingParams.set('city', `eq.${city}`);
+
+    const suggestParams = new URLSearchParams({ status: 'eq.submitted', select: 'id' });
+    if (city) suggestParams.set('city', `eq.${city}`);
+
+    fetch(`${SUPABASE_URL}/rest/v1/pending_events?${pendingParams}`, { headers, method: 'HEAD' })
+      .then(r => setPendingCount(parseInt(r.headers.get('content-range')?.split('/')[1]) || 0))
+      .catch(() => {});
+
+    fetch(`${SUPABASE_URL}/rest/v1/source_suggestions?${suggestParams}`, { headers, method: 'HEAD' })
+      .then(r => setSuggestionsCount(parseInt(r.headers.get('content-range')?.split('/')[1]) || 0))
+      .catch(() => {});
+  }, [canCurateCity, session, city]);
 
   const { events, loading } = useEvents(city, session);
   const enrichments = useEnrichments(city);
@@ -143,11 +167,29 @@ function App() {
               </button>
               <button
                 onClick={() => setViewMode('pending')}
-                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
                   viewMode === 'pending' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
                 }`}
               >
                 Pending
+                {pendingCount > 0 && (
+                  <span className={`inline-flex items-center justify-center min-w-[1.25rem] h-5 px-1 rounded-full text-xs font-semibold ${
+                    viewMode === 'pending' ? 'bg-white/20 text-white' : 'bg-red-100 text-red-700'
+                  }`}>{pendingCount}</span>
+                )}
+              </button>
+              <button
+                onClick={() => setViewMode('suggestions')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  viewMode === 'suggestions' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
+                }`}
+              >
+                Sources
+                {suggestionsCount > 0 && (
+                  <span className={`inline-flex items-center justify-center min-w-[1.25rem] h-5 px-1 rounded-full text-xs font-semibold ${
+                    viewMode === 'suggestions' ? 'bg-white/20 text-white' : 'bg-blue-100 text-blue-700'
+                  }`}>{suggestionsCount}</span>
+                )}
               </button>
             </>
           )}
@@ -260,6 +302,7 @@ function App() {
 
         {viewMode === 'picks' && <PicksList />}
         {viewMode === 'pending' && <PendingEvents city={city} />}
+        {viewMode === 'suggestions' && <SourceSuggestions city={city} />}
       </div>
     </div>
   );
