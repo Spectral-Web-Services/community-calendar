@@ -51,7 +51,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260322
-DTSTAMP:20260319T221633
+DTSTAMP:20260320T220609
 CREATED:20260122T032258Z
 LAST-MODIFIED:20260224T192740Z
 UID:68744-1773878400-1774137599@sabew.org
@@ -64,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260412
 DTEND;VALUE=DATE:20260417
-DTSTAMP:20260319T221633
+DTSTAMP:20260320T220609
 CREATED:20260121T220323Z
 LAST-MODIFIED:20260224T192512Z
 UID:68637-1775952000-1776383999@sabew.org
@@ -75,9 +75,23 @@ CATEGORIES:Fellowship,In-Person Training,Networking
 ATTACH;FMTTYPE=image/png:https://sabew.org/wp-content/uploads/2026/02/Goldschmidt-Fellows-Graphic-2026-updated-date-1.png
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260414T180000
+DTEND;TZID=America/New_York:20260414T220000
+DTSTAMP:20260320T220609
+CREATED:20260320T145927Z
+LAST-MODIFIED:20260320T175805Z
+UID:70156-1776189600-1776204000@sabew.org
+SUMMARY:How to get your start in business journalism
+DESCRIPTION:SABEW Canada and Shared Bylines are teaming up at last! Join us for a panel on how to get your start in business journalism\, sponsored by Fidelity Investments Canada. \nWe’re celebrating the upcoming sixth year of the Shared Bylines scholarship and mentorship program for BIPOC student journalists\, as well as the new Fidelity-Shared Bylines Business Scholarship\, with a panel and social event on April 14th at the Pilot. \nHosted by SABEW CA co-chair Laura Hensley\, the panel will hear from Ana Pereira\, Curtis Heinzl and Meera Raman who will chat about what it’s like being an early-career business journalist\, give advice on getting started (whether that’s choosing the right internship\, pitching the right story or picking up the right set of skills) and hopefully inspire you – whether you’re a student\, an early-career reporter or a more experienced journalist looking to broaden your horizons. \nRegister for the event
+URL:https://sabew.org/event/how-to-get-your-start-in-business-journalism/
+LOCATION:The Pilot\, 22 Cumberland Street\, Toronto\, Ontario\, M4W 1J5\, Canada
+CATEGORIES:SABEW Canada
+ATTACH;FMTTYPE=image/jpeg:https://sabew.org/wp-content/uploads/2026/03/654159749_18093067496515714_4764368129513197403_n.jpg
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260422T130000
 DTEND;TZID=America/New_York:20260422T140000
-DTSTAMP:20260319T221633
+DTSTAMP:20260320T220609
 CREATED:20260318T152735Z
 LAST-MODIFIED:20260318T153158Z
 UID:70136-1776862800-1776866400@sabew.org
@@ -89,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260506
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260319T221633
+DTSTAMP:20260320T220609
 CREATED:20260226T160353Z
 LAST-MODIFIED:20260312T142856Z
 UID:70005-1778025600-1778371199@sabew.org
@@ -102,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260319T221633
+DTSTAMP:20260320T220609
 CREATED:20250730T220320Z
 LAST-MODIFIED:20260313T162658Z
 UID:66733-1778112000-1778371199@sabew.org

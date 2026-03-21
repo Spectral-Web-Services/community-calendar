@@ -5,18 +5,6 @@ X-WR-CALNAME:Boston Theatre Scene
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T213000
-UID:1bebe7d26ec15d198b26b0ba02c38a69@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Antiquities
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T160000
 UID:89416a5a70bc855867747dcb3508e4d0@bostontheatrescene.com
@@ -595,7 +583,7 @@ DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T220000
 UID:1fbd90a104d13323bf62be7c38131b27@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+ 26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:
 LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
@@ -658,7 +646,7 @@ DTSTART;TZID=EDT;VALUE=DATE-TIME:20260418T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T220000
 UID:7e4a8c0cb1d5505d28821406d1788785@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+ 26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:
 LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
@@ -683,7 +671,7 @@ DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T160000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T180000
 UID:f7ee60ed862ce737c973e90f8163d921@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+ 26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:
 LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
@@ -1250,6 +1238,43 @@ SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260520T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260520T210000
 UID:3ee3283b26f53258907d3cfc19244b91@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swept Away
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260521T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260521T160000
+UID:c9d7e71b19fbab7a11cd583bc80d3383@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/03/FINAL-Swept-Away-900x900-BTS.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swept Away
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260521T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260521T210000
+UID:2079fb36e343e29f50555d187f49f50a@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/03/FINAL-Swept-Away-900x900-BTS.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260521T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260521T210000
+UID:ff71af5a52bee9338b18852600721c8c@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity

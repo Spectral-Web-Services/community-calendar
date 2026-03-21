@@ -22,159 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260314T184656Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T163000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T083000
-DTSTAMP;VALUE=DATE-TIME:20260314T184656Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260314T184656Z
-UID:http://calagator.org/events/1250482511
-DESCRIPTION:IT Infrastructure is constantly changing\, bringing more new 
- challenges with it every day. From ransomware and the latest security th
- reats to emerging developments in AI and the need for increased bandwidt
- h and storage\, it’s nearly impossible to keep up to date. Our conferenc
- e is designed to help. We’ve assembled a combination of Best-in-Breed ha
- rdware and software solutions\, along with local experts and organizatio
- ns to help educate\, advise and connect you to resources that can help y
- ou meet your goals.&#13\;\n&#13\;\nCovering Information Security\, Infra
- structure\, Cloud\, Disaster Recovery\, Communications\, and more\, you’
- ll find presentations\, panel discussions\, and exhibitors covering a va
- riety of topics\, as well as the latest innovations and best practices.\
- n\nTags: information security\, infrastructure\, cloud\, disaster recove
- ry\, communications\n\nImported from: http://calagator.org/events/125048
- 2511
-URL:https://f2fevents.com/event/pdx26/
-SUMMARY:Interface Portland
-LOCATION:Oregon Convention Center: 777 NE Martin Luther King Jr. Blvd.\, 
- Portland OR 97232 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260304T033951Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T150000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T110000
-DTSTAMP;VALUE=DATE-TIME:20260304T033951Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260304T033951Z
-UID:http://calagator.org/events/1250482490
-DESCRIPTION:Oregon's Flagship Startup Hiring Event&#13\;\n&#13\;\n​The Or
- egon Hiring Festival brought to you by MeeBoss\, Oregon Entrepreneur Net
- work [OEN]\, and WeWork\, is HERE! We'll be bringing together 10+ hiring
-  companies and ~100+ job seekers for an afternoon of matchmaking\, conve
- rsation\, and in-person connections.&#13\;\n&#13\;\n​Here’s how it works
- : once you register\, MeeBoss will get your open roles live within 48 ho
- urs. Our match-first\, chat-first platform connects you directly with qu
- alified candidates ahead of time so you can begin conversations online b
- efore the event. Then\, at the festival\, you’ll meet those candidates f
- ace-to-face at your booth\, alongside new walk-ups who discover your tea
- m on the spot.&#13\;\n&#13\;\n​​To keep things flowing smoothly\, the hi
- ring block runs for three hours straight. While some job seekers step ou
- t for lunch or attend the panel discussion\, others stay engaged at the 
- booths. Creating a natural rotation and steady candidate flow without ov
- erwhelming lines. Please bring more then one person to support your boot
- h.&#13\;\n&#13\;\n​​This streamlined format guarantees high-quality inte
- ractions while giving you the buzz\, PR spotlight\, and networking energ
- y of a full-day festival\, but without requiring your team to commit an 
- entire day.\n\nTags: hiring\, meeboss\, oen\, hr\n\nImported from: http:
- //calagator.org/events/1250482490
-URL:https://luma.com/sdvngfhr
-SUMMARY:MeeBoss Hiring Festival – Startup Registration
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260216T235536Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T193000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T173000
-DTSTAMP;VALUE=DATE-TIME:20260216T235536Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260216T235536Z
-UID:http://calagator.org/events/1250482477
-DESCRIPTION:March is all about infrastructure!  We'll learn to manage edg
- e container deployments\, and then how to account for our AWS infrastruc
- ture drift.&#13\;\n&#13\;\nDate: Thursday\, March 19&#13\;\nTime: 5:30–7
- :30 PM&#13\;\nLocation: Reperio Health\, 4784 SE 17th Ave Suite 120\, Po
- rtland\, OR&#13\;\nRecording: Talks are typically recorded (opt-in by sp
- eakers)&#13\;\n&#13\;\nA big thank you to Reperio Health\, our venue hos
- t\, and Red Hat\, our food and beverage sponsor this month.  If your com
- pany can sponsor our meetup\, please contact the organizers.&#13\;\n&#13
- \;\nRunning MicroShift on Fedora Bootc for Scalable\, Secure\, and Resil
- ient Edge Deployments - Ram Gopinathan\, Red Hat&#13\;\n&#13\;\nAs edge 
- computing accelerates across industries—from utilities and manufacturing
-  to retail and smart cities—organizations are looking for lightweight\, 
- reliable\, and secure platforms to deploy containerized applications at 
- scale at the edge. Enter MicroShift\, a small-footprint Kubernetes distr
- ibution\, paired with Fedora Bootc\, an image-based\, immutable operatin
- g system built for consistency and resilience.&#13\;\n&#13\;\nIn this se
- ssion\, we’ll demonstrate how running MicroShift on Fedora Bootc creates
-  a powerful foundation for edge workloads\, combining the familiarity of
-  Kubernetes with the reliability of image-based OS updates and atomic ro
- llbacks. Learn how this approach reduces operational complexity\, improv
- es boot-time performance\, and enhances system integrity—especially for 
- unattended or resource-constrained edge environments.&#13\;\n&#13\;\nMin
- d the Gap: Tracking AWS Infrastructure Drift Over Time - Christopher Buc
- kley\, Buckshot Technologies&#13\;\n&#13\;\nModern DevOps pipelines focu
- s heavily on deploying infrastructure-as-code\, but what happens after t
- he deploy? In many organizations\, the infrastructure evolves outside of
-  Git — through the console\, ad hoc scripts\, or third-party tools — lea
- ving behind blind spots and compliance risk.&#13\;\n&#13\;\nIn this talk
- \, we’ll explore practical ways to track infrastructure drift and deltas
-  across AWS environments. You’ll learn how to snapshot configurations\, 
- compare changes between points in time\, and surface deltas across accou
- nts in a format that’s accessible to engineers\, auditors\, and security
-  teams alike.&#13\;\n&#13\;\nWe'll demo an open-source tool built to sho
- w Git-style diffs for AWS infrastructure — not as a pitch\, but as a cas
- e study in how visibility empowers better decisions\, faster troubleshoo
- ting\, and cleaner audit trails. Whether you're running one VPC or a hun
- dred\, knowing what changed is the first step to staying in control.\n\n
- Tags: kubernetes\, containers\, cloud\, intrastructure\, aws\, devops\n\
- nImported from: http://calagator.org/events/1250482477
-URL:https://www.meetup.com/cloud-native-pdx/events/313348836
-SUMMARY:Cloud Native March Meetup: Microshift\, Bootc\, and AWS Infrastru
- cture
-LOCATION:Reperio Health: 4784 SE 17th Ave Suite 120\, Portland OR 97202 U
- SA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260311T041527Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T180000
-DTSTAMP;VALUE=DATE-TIME:20260311T041527Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260311T041527Z
-UID:http://calagator.org/events/1250482500
-DESCRIPTION:The Portland Linux Kernel Meetup for March 2026 will be at...
- &#13\;\n&#13\;\n  * Date: Thursday\, March 19\, 2026&#13\;\n  * Time: 06
- :00 PM to 09:00 PM US/Pacific&#13\;\n  * Location: Lucky Labrador Beer H
- all\, 1945 NW Quimby St\, Portland\, Oregon 97209 US&#13\;\n&#13\;\nCome
-  enjoy a beverage and chat with other people who are interested in the&#
- 13\;\nLinux kernel. All experience levels are welcome. This is a friendl
- y and casual&#13\;\nmeetup.&#13\;\n&#13\;\nLook for a table with the plu
- sh Tux penguin.&#13\;\n&#13\;\nTo get timely reminders of Portland Linux
-  Kernel Meetups\, see&#13\;\nhttps://ikluft.github.io/pdx-lkmu/subscribi
- ng-to-pdx-lkmu-events.html.\n\nTags: PDXLKMU\, kernel\, linux\n\nImporte
- d from: http://calagator.org/events/1250482500
-URL:https://ikluft.github.io/pdx-lkmu/
-SUMMARY:March 2026 Portland Linux Kernel Meetup
-LOCATION:Lucky Labrador Beer Hall\, 1945 NW Quimby St\, Portland\, Oregon
-  97209 US: false
-SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260306T183120Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T190000
-DTSTAMP;VALUE=DATE-TIME:20260306T183120Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260306T183120Z
-UID:http://calagator.org/events/1250482494
-DESCRIPTION:A meeting of folks interested in BSD operating systems and re
- lated technologies to get together\, eat pizza\, drink beer\, and talk a
- bout what interesting things have been going on.\n\nTags: DragonFlyBSD\,
-  FreeBSD\, NetBSD\, OpenBSD\, bsd\n\nImported from: http://calagator.org
- /events/1250482494
-URL:https://bsd.pizza
-SUMMARY:BSD Pizza Night
-LOCATION:RukDiew Cafe: 2534 Southeast Belmont Street\, Portland Oregon 97
- 214 USA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T171836Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260321T123000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260321T100000
@@ -204,6 +51,22 @@ URL:https://www.meetup.com/portland-code-coffee/
 SUMMARY:Code & Coffee @ Roseline Café
 LOCATION:Roseline Cafe: false
 SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260320T171216Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260321T150000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260321T100000
+DTSTAMP;VALUE=DATE-TIME:20260320T171216Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260320T171216Z
+UID:http://calagator.org/events/1250482516
+DESCRIPTION:RSVP https://luma.com/hu8ooquo?tk=MzDiPB&#13\;\n&#13\;\nLovab
+ le Hackathon — brought to you by PDX Hacks &amp\; AI Collective\, sponso
+ red by Lovable.&#13\;\n\n\nTags: pdx\, hackathon\n\nImported from: http:
+ //calagator.org/events/1250482516
+URL:https://luma.com/hu8ooquo?tk=MzDiPB
+SUMMARY:Lovable Portland Hackathon
+LOCATION:Metro Region Innovation Hub: 2130 SW 5th\, Portland OR 97201 
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260312T185711Z
@@ -287,19 +150,28 @@ CREATED;VALUE=DATE-TIME:20250918T041829Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T210000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T183000
 DTSTAMP;VALUE=DATE-TIME:20250918T041829Z
-LAST-MODIFIED;VALUE=DATE-TIME:20250918T041829Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260320T043951Z
 UID:http://calagator.org/events/1250482213
 DESCRIPTION:PDXOSGeo connects again this week\, Wednesday March 25\, 6:30
  p Hot Lips Pizza @ the Natural Capital Center 721 NW 9th Ave\, Portland 
  OR. Join us for some show and tell and good open geo discussion!&#13\;\n
- &#13\;\nWe're striving to post our speaker a couple weeks in advance of 
- the meeting\, so watch this space!\n\nTags: opensource gis geospatial\n\
- nImported from: http://calagator.org/events/1250482213
+ &#13\;\nOur featured speaker this month is long-time contributor Ryan Ho
+ dges\, who will be sharing how sometimes\, to deal with the big things\,
+  you have to start with the little things.&#13\;\n&#13\;\n“Should I open
+  a window?” &#13\;\n&#13\;\nThis talk will cover how this question led o
+ ne person to confront and process issues like digital isolation\, intern
+ ational tariffs\, and climate change. Ryan will share about how he has c
+ hosen to collect and publish environmental data to open data sets using 
+ open source hardware and software\, why these metrics are so important f
+ or measuring community health\, and why citizen science may be our best 
+ hope to support data-driven decisions and rebuild trust in polarized tim
+ es.\n\nTags: opensource gis geospatial open hardware\n\nImported from: h
+ ttp://calagator.org/events/1250482213
 URL:https://pdxosgeo.org/
 SUMMARY:PDXOSGeo March Meetup
 LOCATION:Ecotrust Building: 721 Northwest 9th Avenue\, Portland OR 97209 
  US
-SEQUENCE:2
+SEQUENCE:4
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260312T235931Z
@@ -439,6 +311,33 @@ URL:https://app.tickettailor.com/events/oregonbioscienceincubator/2097888
 SUMMARY:Accelerate Biotech Happy Hour
 LOCATION:Oregon Bioscience Incubator (OBI): 4640 SW Macadam Avenue\, Suit
  e 270\, Portland or 97239 us
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260320T170531Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T193000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T180000
+DTSTAMP;VALUE=DATE-TIME:20260320T170531Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260320T170531Z
+UID:http://calagator.org/events/1250482515
+DESCRIPTION:Our third AI Safety Portland Meetup is here!&#13\;\n&#13\;\nA
+ I is moving fast and conversations around safety and and real-world impa
+ ct are becoming more urgent by the day.&#13\;\n&#13\;\nThis meetup is a 
+ space to slow down and think together.&#13\;\n&#13\;\nWhether you’re wor
+ king in AI\, exploring the field\, or simply curious about how these sys
+ tems are shaping our lives\, this gathering is about bringing people int
+ o the conversation.&#13\;\n&#13\;\nOur focus is simple:&#13\;\n&#13\;\n–
+  Building connections&#13\;\n&#13\;\n– Sharing perspectives&#13\;\n&#13\
+ ;\n– Expanding opportunities to collaborate on AI safety&#13\;\n&#13\;\n
+ – Growing a thoughtful\, local community&#13\;\n&#13\;\nCome to meet oth
+ ers\, exchange ideas\, and be part of building the AI safety community h
+ ere in Portland.&#13\;\n&#13\;\nWhether it is your first time or you are
+  coming back\, we’d love to have you!&#13\;\n&#13\;\nCristina &amp\; Spy
+ der \n\nTags: AI\, Artificial Intelligence\, AI Safety\, networking\n\nI
+ mported from: http://calagator.org/events/1250482515
+SUMMARY:AI Safety Awareness Portland Meetup 
+LOCATION:Steeplejack Brewing Company: 2400 NE Broadway\, Portland\, OR 97
+ 232\, Portland OR 97232 United States
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT

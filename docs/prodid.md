@@ -7,12 +7,12 @@ used across all city feeds, identified by their PRODID header.
 
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 55 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 54 |
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 34 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 19 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
-| **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland | 6 |
+| **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, petaluma, portland | 5 |
 | **LibCal (Springshare)** | Library event management platform. | bloomington, portland | 3 |
 | **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, portland | 3 |
 | **MaxPreps** | High school sports schedules. | petaluma | 2 |
@@ -22,7 +22,7 @@ used across all city feeds, identified by their PRODID header.
 
 ## Detail
 
-### The Events Calendar (WordPress) (55 feeds)
+### The Events Calendar (WordPress) (54 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
@@ -40,7 +40,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **portland** (11): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, vancouver_farmers_market, washington_park
 
-**publisher-resources** (6): ahcj, inn, nahj, nlgja, poynter, sabew
+**publisher-resources** (5): ahcj, inn, nlgja, poynter, sabew
 
 **roanoke** (2): hollins_university, roanoke_symphony
 
@@ -96,13 +96,11 @@ Government CMS using ical.net library. Common for city/county websites.
 
 **roanoke** (9): roanoke_boards_commissions, roanoke_city_council, roanoke_neighborhood_events, roanoke_public_events, roanoke_special_events, salem_civic_center, salem_government_meetings, salem_main_calendar, salem_parks_rec
 
-### Tockify (6 feeds)
+### Tockify (5 feeds)
 
 Embeddable calendar widget with public ICS feeds.
 
 **bloomington** (1): bloomington_arts
-
-**evanston** (1): enjoy_evanston
 
 **petaluma** (2): griffo, petaluma_downtown
 
@@ -158,7 +156,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 
 | PRODID | City | Feeds |
 |--------|------|-------|
-| `-//172.66.146.53//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
+| `-//104.20.35.35//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |

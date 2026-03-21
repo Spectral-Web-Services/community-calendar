@@ -4,46 +4,6 @@ PRODID:-//Skokie Park District//skokieparks.org//
 X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Adventure Quest (March)
-DTSTART;VALUE=DATE-TIME:20260320T090000
-DTEND;VALUE=DATE-TIME:20260320T090000
-UID:90d390c1a5a85812bb1bd5b93ba08dda@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/adventure-quest-march26/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Yoga Sampler: Laughter Yoga
-DTSTART;VALUE=DATE-TIME:20260320T173000
-DTEND;VALUE=DATE-TIME:20260320T173000
-UID:c86db7f80151e24776e79bff4f550ab0@skokieparks.org
-DESCRIPTION:
-LOCATION:Skokie Heritage Museum
-URL:https://www.skokieparks.org/events/yoga-sampler-laughter-yoga2/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Script Reading Happy Hour - March
-DTSTART;VALUE=DATE-TIME:20260320T180000
-DTEND;VALUE=DATE-TIME:20260320T180000
-UID:c0dc539d9039fb3c03c5f2a82afd3a7d@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/script-reading-happy-hour---march/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Life in Motion Ice Show 2026
-DTSTART;VALUE=DATE-TIME:20260320T190000
-DTEND;VALUE=DATE-TIME:20260320T190000
-UID:58671bb9c482c647b1f8929193d6d6fe@skokieparks.org
-DESCRIPTION:
-LOCATION:Skatium Ice Arena
-URL:https://www.skokieparks.org/events/life-in-motion-ice-show-2026/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260321T080000
 DTEND;VALUE=DATE-TIME:20260321T080000
@@ -1080,16 +1040,6 @@ URL:https://www.skokieparks.org/events/adults-over-60-the-making-of-i-love
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Speakeasy Theatre Performance-May
-DTSTART;VALUE=DATE-TIME:20260501T190000
-DTEND;VALUE=DATE-TIME:20260501T190000
-UID:451dd51753df3d356ae170575b325b60@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/speakeasy-theatre-performance-may/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tiny Tot Open Gym
 DTSTART;VALUE=DATE-TIME:20260501T093000
 DTEND;VALUE=DATE-TIME:20260501T093000
@@ -1128,6 +1078,16 @@ UID:451dd51753df3d356ae170575b325b60@skokieparks.org
 DESCRIPTION:
 LOCATION:Devonshire Cultural Center
 URL:https://www.skokieparks.org/events/speakeasy-theatre-performance-may/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Campout for Kids at Emily Oaks
+DTSTART;VALUE=DATE-TIME:20260501T183000
+DTEND;VALUE=DATE-TIME:20260501T183000
+UID:3cf04e218e6ae664832a5e35dcaa7aea@skokieparks.org
+DESCRIPTION:
+LOCATION:Emily Oaks Nature Center
+URL:https://www.skokieparks.org/events/campout-for-kids-at-emily-oaks26/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1548,6 +1508,37 @@ UID:15c8d9f6b24402a137e96b8370f736d0@skokieparks.org
 DESCRIPTION:
 LOCATION:Emily Oaks Nature Center
 URL:https://www.skokieparks.org/events/emily-oaks-book-club-may26/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adults Over 60: Lake Geneva/Fitzgerald's Fish Boil
+DTSTART;VALUE=DATE-TIME:20260521T110000
+DTEND;VALUE=DATE-TIME:20260521T110000
+UID:c452195819d5e72b57f8fdbc0906886c@skokieparks.org
+DESCRIPTION:
+LOCATION:Oakton Community Center
+URL:https://www.skokieparks.org/events/adults-over-60-lake-genevafitzgeral
+ ds-fish-boil/2/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Growing Sprouts Play Day
+DTSTART;VALUE=DATE-TIME:20260521T173000
+DTEND;VALUE=DATE-TIME:20260521T173000
+UID:4ae3f4e4a623dd161c3ee0c3265a2b8c@skokieparks.org
+DESCRIPTION:
+LOCATION:Emily Oaks Nature Center
+URL:https://www.skokieparks.org/events/growing-sprouts-play-day/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer non-resident registration begins
+DTSTART;VALUE=DATE-TIME:20260522T000000
+DTEND;VALUE=DATE-TIME:20260522T000000
+UID:e6ea55645be46386ca1f6e3e2c575d81@skokieparks.org
+DESCRIPTION:
+URL:https://www.skokieparks.org/events/summer-non-resident-registration-be
+ gins/?F_d=05-22-2026
 X-SOURCE:Skokie Park District
 END:VEVENT
 END:VCALENDAR

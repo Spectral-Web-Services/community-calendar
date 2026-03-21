@@ -3,34 +3,6 @@ VERSION:2.0
 PRODID:-//Community Calendar//Legistar Scraper//EN
 X-WR-CALNAME:Oregon Metro
 BEGIN:VEVENT
-UID:79039217ce4137d142b79e51e820b236@legistar.com
-DTSTART:20260319T103000
-DTEND:20260319T123000
-SUMMARY:Council meeting
-LOCATION:Metro Regional Center\, Council chamber\; https://zoom.us/j/615079
- 992 (Webinar ID: 615079992) or 253-205-0468 (toll free)\, https://www.yout
- ube.com/watch?v=SMyiYuMB_wI
-DESCRIPTION:Board/Commission: Council meeting\\nAgenda: https://oregonmetro
- .legistar1.com/oregonmetro/meetings/2026/3/3585_A_Council_meeting_26-03-19
- _Agenda.pdf\\n\nSource: Oregon Metro
-URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3585&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260319T164408Z
-END:VEVENT
-BEGIN:VEVENT
-UID:88fce897cc92333262c12797dd44240a@legistar.com
-DTSTART:20260319T073000
-DTEND:20260319T093000
-SUMMARY:Joint Policy Advisory Committee on Transportation (JPACT)
-LOCATION:https://zoom.us/j/91720995437 Webinar ID: 917 2099 5437 or +1 669 
- 444 9171 (toll free)
-DESCRIPTION:Board/Commission: Joint Policy Advisory Committee on Transporta
- tion (JPACT)\\nAgenda: https://oregonmetro.legistar1.com/oregonmetro/meeti
- ngs/2026/3/3597_A_Joint_Policy_Advisory_Committee_on_Transportation_%28JPA
- CT%29_26-03-19_Agenda.pdf\\n\nSource: Oregon Metro
-URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3597&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260319T164408Z
-END:VEVENT
-BEGIN:VEVENT
 UID:d05df90787a7e43492e18f54a48a7f35@legistar.com
 DTSTART:20260324T103000
 DTEND:20260324T123000
@@ -39,7 +11,7 @@ LOCATION:CANCELED
 DESCRIPTION:Board/Commission: Council work session\\nNote: CANCELED\\n\nSou
  rce: Oregon Metro
 URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3593&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260319T164408Z
+DTSTAMP:20260321T014826Z
 END:VEVENT
 BEGIN:VEVENT
 UID:f948e43edc05d002c478df9ad4cd9dc1@legistar.com
@@ -52,6 +24,17 @@ DESCRIPTION:Board/Commission: Metro Policy Advisory Committee (MPAC)\\nAgen
  etro_Policy_Advisory_Committee_%28MPAC%29_26-03-25_Agenda.pdf\\nNote: CANC
  ELED\\n\nSource: Oregon Metro
 URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3606&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260319T164408Z
+DTSTAMP:20260321T014826Z
+END:VEVENT
+BEGIN:VEVENT
+UID:4a5144c4e8b5b0f66d41a21263518724@legistar.com
+DTSTART:20260326T103000
+DTEND:20260326T123000
+SUMMARY:Council meeting
+LOCATION:CANCELED
+DESCRIPTION:Board/Commission: Council meeting\\nNote: CANCELED\\n\nSource: 
+ Oregon Metro
+URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3598&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
+DTSTAMP:20260321T014826Z
 END:VEVENT
 END:VCALENDAR

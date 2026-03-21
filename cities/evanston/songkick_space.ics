@@ -4,17 +4,6 @@ PRODID:-//SPACE//songkick.com//
 X-WR-CALNAME:SPACE
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Charlie Parr
-DTSTART;VALUE=DATE-TIME:20260320T200000
-DTEND;VALUE=DATE-TIME:20260320T200000
-UID:8e0cf8c1a79fcdb5477158072bf7fbf3@songkick.com
-DESCRIPTION:Charlie Parr at SPACE at 2026-03-20T20:00:00-0500
-LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
-URL:http://www.songkick.com/concerts/42939287-charlie-parr-at-space?utm_me
- dium=organic&utm_source=microformat
-X-SOURCE:SPACE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:John Craigie
 DTSTART;VALUE=DATE-TIME:20260324T200000
 DTEND;VALUE=DATE-TIME:20260324T200000
@@ -45,6 +34,17 @@ DESCRIPTION:Patterson Hood at SPACE at 2026-03-26
 LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
 URL:http://www.songkick.com/concerts/42945499-patterson-hood-at-space?utm_
  medium=organic&utm_source=microformat
+X-SOURCE:SPACE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:John Moreland
+DTSTART;VALUE=DATE-TIME:20260327T200000
+DTEND;VALUE=DATE-TIME:20260327T200000
+UID:5c2929ce452fc521b4d81c82f2c411cf@songkick.com
+DESCRIPTION:John Moreland at SPACE at 2026-03-27T20:00:00-0500
+LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
+URL:http://www.songkick.com/concerts/42941362-john-moreland-at-space?utm_m
+ edium=organic&utm_source=microformat
 X-SOURCE:SPACE
 END:VEVENT
 END:VCALENDAR

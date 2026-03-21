@@ -4,26 +4,6 @@ PRODID:-//Bloomington Chamber of Commerce//chamberbloomington.org//
 X-WR-CALNAME:Bloomington Chamber of Commerce
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:Member to Member Educational Program: Become a Speaker
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T100000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T100000
-UID:accb1c6ebbaa3788dad808e84cade3da@chamberbloomington.org
-DESCRIPTION:
-URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=639
- 6
-X-SOURCE:Bloomington Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tom Stoppard's Rosencrantz and Guildenstern Are Dead
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T000000
-UID:75cac23286097adf63f27fdea3f0ece7@chamberbloomington.org
-DESCRIPTION:
-URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=638
- 4
-X-SOURCE:Bloomington Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Spring Mill Inn - Frog Leg Plated Dinner
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T170000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T170000
@@ -344,6 +324,16 @@ UID:d5ff29f10e81d108db4cf53d3b784db6@chamberbloomington.org
 DESCRIPTION:
 URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=636
  3
+X-SOURCE:Bloomington Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Business After Hours
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260521T173000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260521T173000
+UID:1d4894b56b4cf66be940ac4ef1ab4778@chamberbloomington.org
+DESCRIPTION:
+URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=632
+ 2
 X-SOURCE:Bloomington Chamber of Commerce
 END:VEVENT
 END:VCALENDAR

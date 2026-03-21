@@ -25,50 +25,6 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
-LOCATION:Watzek Library
-SUMMARY:2026 Gender Studies Symposium Art Show
-DESCRIPTION:For more information about this year's participating artists 
- and additional details about the physical and virtual art exhibit\, pleas
- e visit the website (https://college.lclark.edu/departments/gender_studie
- s/symposium/45th-annual-gender-studies-symposium/).
-X-ALT-DESC;FMTTYPE=text/html:<p>  For more information about this year's 
- participating artists and additional details about the physical and virtu
- al art exhibit\, please visit the <a href="https://college.lclark.edu/dep
- artments/gender_studies/symposium/45th-annual-gender-studies-symposium/" 
- target="_blank" rel="noopener">website</a>.</p>
-UID:20260320T070000Z-382263@www.lclark.edu
-DTSTAMP:20260202T112322Z
-URL:https://www.lclark.edu/live/events/381705-2026-gender-studies-symposi
- um-art-show
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260311T211732Z
-ATTACH:https://www.lclark.edu/live/image/gid/500/width/80/height/80/crop/
- 1/src_region/0,0,1080,1080/111638_GSS2026_Square.rev.1769622143.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:382263
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/500/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1080\,1080/111638_GSS2026_Square.rev.176962
- 2143.png
-X-LIVEWHALE-ALL-DAY:1
-X-LIVEWHALE-COST:Free
-X-LIVEWHALE-CONTACT-INFO:<p>\n  &#160\;<a href="mailto:gssart@lclark.edu"
- >gssart@lclark.edu</a>\n</p>
-X-LIVEWHALE-SUMMARY:<p>\n  One important part of the symposium is an art 
- exhibit of work from community members from Lewis &amp\; Clark and beyond
- . The <a href="https://college.lclark.edu/departments/gender_studies/symp
- osium/45th-annual-gender-studies-symposium/" target="_blank" rel="noopene
- r">45th Annual Gender Studies Symposium</a>\, "RESIST NOW\," explores dim
- ensions of resistance\, activism\, and solidarity in relation to gender a
- nd sexuality<br />\n  <br />\n  This year's exhibit includes a gallery in
-  the Watzek Library atrium and an online gallery.\n</p>\n<p>\n  Curated b
- y L&amp\;C students <strong>Jamison Bane</strong> '27\, <strong>Finn Dwye
- r</strong> '28\, and <strong>Maria Martinez Decuir</strong> '27.\n</p>
-X-LIVEWHALE-TAGS:gender studies symposium|symposia
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260320
-DTEND;VALUE=DATE:20260321
 SUMMARY:Spring Break 2026 Dining Hours
 DESCRIPTION:Fields Dining Hall    Open Friday\, March 20for Breakfast\, L
  unch\, and Dinner. Service ends at 8pm.Closed Saturday\, March 21 through
@@ -127,59 +83,6 @@ X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/241/width/80/heig
  urs_6.rev.1773687140.png
 X-LIVEWHALE-IMAGE-CAPTION:Spring Break 2026 Dining Hours
 X-LIVEWHALE-ALL-DAY:1
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260320
-DTEND;VALUE=DATE:20260321
-SUMMARY:Summer 2026 Housing Applications Open March 16- April 13
-UID:20260320T070000Z-387169@www.lclark.edu
-DTSTAMP:20260316T115559Z
-URL:https://www.lclark.edu/calendars/events/event/387169-summer-2026-hous
- ing-applications-open-march-16-
-LAST-MODIFIED:20260316T185559Z
-ATTACH:https://www.lclark.edu/live/image/gid/241/width/80/height/80/crop/
- 1/src_region/0,0,1294,2000/112411_Adam_Edit_-_2026-2027_Housing_Timelines
- _Materials_-_Tabloid_2.rev.1773687000.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:387169
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/241/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1294\,2000/112411_Adam_Edit_-_2026-2027_Hou
- sing_Timelines_Materials_-_Tabloid_2.rev.1773687000.png
-X-LIVEWHALE-IMAGE-CAPTION:Summer 2026 timeline
-X-LIVEWHALE-ALL-DAY:1
-X-LIVEWHALE-SUMMARY:<p>Apply for Summer 2026 Housing between March 16 - A
- pril 13!</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260320T134500
-DTEND;TZID=America/Los_Angeles:20260320T144500
-SUMMARY:French Office Hours with Titouan
-UID:20260320T204500Z-384933@www.lclark.edu
-DTSTAMP:20260224T164809Z
-URL:https://www.lclark.edu/calendars/events/event/384933-french-office-ho
- urs-with-titouan
-LAST-MODIFIED:20260225T004809Z
-RRULE:FREQ=WEEKLY;UNTIL=20260509T204500Z;INTERVAL=1;BYDAY=MO,WE,FR
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:384933
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-REPEATS-UNTIL:2026-05-09 20:45:00
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260320T134500
-DTEND;TZID=America/Los_Angeles:20260320T144500
-SUMMARY:Spanish Office Hours with Cami!
-UID:20260320T204500Z-384962@www.lclark.edu
-DTSTAMP:20260224T164809Z
-URL:https://www.lclark.edu/calendars/events/event/384962-spanish-office-h
- ours-with-cami
-LAST-MODIFIED:20260225T004809Z
-RRULE:FREQ=WEEKLY;UNTIL=20260509T204500Z;INTERVAL=1;BYDAY=MO,FR
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:384962
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-REPEATS-UNTIL:2026-05-09 20:45:00
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260320T170000
@@ -1003,6 +906,36 @@ X-LIVEWHALE-COST:415.00
 X-LIVEWHALE-SUMMARY:<p><strong>Trip Registration Opens:</strong> Wednesda
  y\, January 28\, 2026<br />\n<strong>Trip Fee:</strong> $415 / $207*</p>
 X-LIVEWHALE-TAGS:low rigor|Spring Break|Spring Trips|SpringBreakCoast
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260323T134500
+DTEND;TZID=America/Los_Angeles:20260323T144500
+SUMMARY:French Office Hours with Titouan
+UID:20260323T204500Z-384934@www.lclark.edu
+DTSTAMP:20260224T164809Z
+URL:https://www.lclark.edu/calendars/events/event/384934-french-office-ho
+ urs-with-titouan
+LAST-MODIFIED:20260225T004809Z
+RRULE:FREQ=WEEKLY;UNTIL=20260509T204500Z;INTERVAL=1;BYDAY=MO,WE,FR
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:384934
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-REPEATS-UNTIL:2026-05-09 20:45:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260323T134500
+DTEND;TZID=America/Los_Angeles:20260323T144500
+SUMMARY:Spanish Office Hours with Cami!
+UID:20260323T204500Z-384963@www.lclark.edu
+DTSTAMP:20260224T164809Z
+URL:https://www.lclark.edu/calendars/events/event/384963-spanish-office-h
+ ours-with-cami
+LAST-MODIFIED:20260225T004809Z
+RRULE:FREQ=WEEKLY;UNTIL=20260509T204500Z;INTERVAL=1;BYDAY=MO,FR
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:384963
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-REPEATS-UNTIL:2026-05-09 20:45:00
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260324
@@ -3038,6 +2971,59 @@ X-LIVEWHALE-ONLINE-TYPE:Online only
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260330T120000
+DTEND;TZID=America/Los_Angeles:20260330T130000
+LOCATION:Albany Quadrangle #218
+GEO:45.451415;-122.668211
+SUMMARY:Finalists for L&C's Director of the Environmental Innovation Cent
+ er: Candidate #1
+DESCRIPTION:Each candidate will give a short talk on their background and
+  vision for the Environmental Innovation Center to be followed by a Q&amp
+ \;A. Your input is valuable to us as we chart this exciting new step for 
+ Lewis &amp\; Clark.Please RSVP below if you plan to attend.Directions and
+  Parking: Enter the undergraduate campus at Gate #2\, follow the road to 
+ the farthest parking lot\, and navigate from there to Albany Quadrangle (
+ https://map.lclark.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3M
+ jk.%2A_ga_6MKT6LMD5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbD
+ AkaDA.&amp\;id=2086#!ct/70889\,73849?m/1007111?s/albany%20quadrangle). Pa
+ rking on campus is limited and permits (https://lclark.t2hosted.com/Accou
+ nt/Portal) are required Monday through Friday 7 a.m. to 7 p.m.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Each candidate will give a short talk o
+ n their background and vision for the Environmental Innovation Center to 
+ be followed by a Q&amp\;A. Your input is valuable to us as we chart this 
+ exciting new step for Lewis &amp\; Clark.</p><p><strong>Please RSVP below
+  if you plan to attend.</strong></p><p><strong>Directions and Parking:</s
+ trong> Enter the undergraduate campus at Gate #2\, follow the road to the
+  farthest parking lot\, and navigate from there to <a href="https://map.l
+ clark.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3Mjk.%2A_ga_6MK
+ T6LMD5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbDAkaDA.&amp\;i
+ d=2086#!ct/70889\,73849?m/1007111?s/albany%20quadrangle" target="_blank" 
+ rel="noopener">Albany Quadrangle</a>. Parking on campus is limited and <a
+  href="https://lclark.t2hosted.com/Account/Portal" target="_blank" rel="n
+ oopener">permits</a> are required Monday through Friday 7 a.m. to 7 p.m.<
+ /p>
+UID:20260330T190000Z-387653@www.lclark.edu
+DTSTAMP:20260320T143847Z
+URL:https://www.lclark.edu/calendars/events/event/387653-finalists-for-lc
+ s-director-of-the-environmental-innov
+LAST-MODIFIED:20260320T222212Z
+ATTACH:https://www.lclark.edu/live/image/gid/255/width/80/height/80/crop/
+ 1/src_region/0,0,3200,2400/94945_20220711_144724.rev.1657822273.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:387653
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/255/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,3200\,2400/94945_20220711_144724.rev.165782
+ 2273.jpg
+X-LIVEWHALE-IMAGE-CAPTION:Albany Quadrangle Courtyard
+X-LIVEWHALE-CONTACT-INFO:<p>\n  Janice Weis at jweis@lclark.edu\n</p>
+X-LIVEWHALE-SUMMARY:<p>\n  Students\, faculty\, and staff at all three ca
+ mpuses are invited to meet our four candidates for director of the new En
+ vironmental Innovation Center—a three-campus center to be developed as 
+ part of the college's strategic planning.\n</p>
+X-LIVEWHALE-RSVP:1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260330T120000
 DTEND;TZID=America/Los_Angeles:20260330T140000
 SUMMARY:CAC Drop-In's
 UID:20260330T190000Z-386479@www.lclark.edu
@@ -3423,6 +3409,58 @@ X-LIVEWHALE-IMAGE-CAPTION:Summer 2026 timeline
 X-LIVEWHALE-ALL-DAY:1
 X-LIVEWHALE-SUMMARY:<p>Apply for Summer 2026 Housing between March 16 - A
  pril 13!</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260401T120000
+DTEND;TZID=America/Los_Angeles:20260401T130000
+LOCATION:Albany Quadrangle #218
+GEO:45.451415;-122.668211
+SUMMARY:Finalists for L&C's Director of the Environmental Innovation Cent
+ er: Candidate #2
+DESCRIPTION:Each candidate will give a short talk on their background and
+  vision for the Environmental Innovation Center\, followed by a Q&amp\;A.
+  Your input is valuable to us as we chart this exciting new step for Lewi
+ s &amp\; Clark.Please RSVP below if you plan to attend.Directions and Par
+ king: Enter the undergraduate campus at Gate #2\, follow the road to the 
+ farthest parking lot\, and navigate from there to Albany Quadrangle (http
+ s://map.lclark.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3Mjk.%
+ 2A_ga_6MKT6LMD5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbDAkaD
+ A.&amp\;id=2086#!ct/70889\,73849?m/1007111?s/albany%20quadrangle). Parkin
+ g on campus is limited and permits (https://lclark.t2hosted.com/Account/P
+ ortal) are required Monday through Friday 7 a.m. to 7 p.m.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Each candidate will give a short talk o
+ n their background and vision for the Environmental Innovation Center\, f
+ ollowed by a Q&amp\;A. Your input is valuable to us as we chart this exci
+ ting new step for Lewis &amp\; Clark.</p><p><strong>Please RSVP below if 
+ you plan to attend.</strong></p><p><strong>Directions and Parking:</stron
+ g> Enter the undergraduate campus at Gate #2\, follow the road to the far
+ thest parking lot\, and navigate from there to <a href="https://map.lclar
+ k.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3Mjk.%2A_ga_6MKT6LM
+ D5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbDAkaDA.&amp\;id=20
+ 86#!ct/70889\,73849?m/1007111?s/albany%20quadrangle">Albany Quadrangle</a
+ >. Parking on campus is limited and <a href="https://lclark.t2hosted.com/
+ Account/Portal">permits</a> are required Monday through Friday 7 a.m. to 
+ 7 p.m.</p>
+UID:20260401T190000Z-387654@www.lclark.edu
+DTSTAMP:20260320T145845Z
+URL:https://www.lclark.edu/calendars/events/event/387654-finalists-for-la
+ mpcs-director-of-the-environmental
+LAST-MODIFIED:20260320T222233Z
+ATTACH:https://www.lclark.edu/live/image/gid/255/width/80/height/80/crop/
+ 1/src_region/0,0,3200,2400/94945_20220711_144724.rev.1657822273.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:387654
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/255/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,3200\,2400/94945_20220711_144724.rev.165782
+ 2273.jpg
+X-LIVEWHALE-IMAGE-CAPTION:Albany Quadrangle Courtyard
+X-LIVEWHALE-CONTACT-INFO:<p>\n  Janice Weis at jweis@lclark.edu.\n</p>
+X-LIVEWHALE-SUMMARY:<p>\n  Students\, faculty\, and staff at all three ca
+ mpuses are invited to meet our four candidates for director of the new En
+ vironmental Innovation Center—a three-campus center to be developed as 
+ part of the college's strategic planning.\n</p>
+X-LIVEWHALE-RSVP:1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260401T121000
@@ -4111,6 +4149,45 @@ X-LIVEWHALE-SUMMARY:<p>\n  Open to Student Life staff.\n</p>
 X-LIVEWHALE-TAGS:events
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260403T120000
+DTEND;TZID=America/Los_Angeles:20260403T130000
+SUMMARY:Lab Dogs Reading Group
+UID:20260403T190000Z-387599@www.lclark.edu
+DTSTAMP:20260320T061611Z
+URL:https://www.lclark.edu/calendars/events/event/387599-lab-dogs-reading
+ -group
+LAST-MODIFIED:20260320T131714Z
+ATTACH:https://www.lclark.edu/live/image/gid/41/width/80/height/80/crop/1
+ /src_region/0,0,1200,798/108351_WAM10191_1.rev.1745518010.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:387599
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/41/width/80/heigh
+ t/80/crop/1/src_region/0\,0\,1200\,798/108351_WAM10191_1.rev.1745518010.j
+ pg
+X-LIVEWHALE-IMAGE-CAPTION:We Animals\, Jo-Anne McArthur
+X-LIVEWHALE-SUMMARY:<p>\n  <i>Friday\, April 3/12&#8211\;1 PM PT/Animal L
+ aw Review Suite</i>\n</p>\n<p>\n  <span id="m_1357976992284500520m_827976
+ 7999260451135m_-5580729017025975920gmail-docs-internal-guid-d18d21bb-7fff
+ -4150-e48c-7284c03c250f">In-person students\, join the Center for Animal 
+ Law Studies and LC ALDF for a <span class="il">reading</span> <span class
+ ="il">group</span> led by CALS Teaching Fellow Kaiti Bestor. We'll discus
+ s two excerpts from Melanie Kaplan's Lab Dogs ahead of her <a href="https
+ ://law.lclark.edu/calendars/events/event/385061-lab-dog-virtual-book-talk
+ -with-author-melanie-kaplan" target="_blank" rel="noopener" data-saferedi
+ recturl="https://www.google.com/url?q=https://law.lclark.edu/calendars/ev
+ ents/event/385061-lab-dog-virtual-book-talk-with-author-melanie-kaplan&am
+ p\;source=gmail&amp\;ust=1774098854816000&amp\;usg=AOvVaw1NoLwEQ78BTOvSj6
+ gwoF7t">April 7 virtual <span class="il">book</span> talk</a>. Snacks pro
+ vided. You can find the excerpts and RSVP link <a href="https://docs.goog
+ le.com/forms/d/e/1FAIpQLSerq4kZdTVj-zexODtUohpcT55pBwOb6OUD0lsb1TQUdS6wDg
+ /viewform" target="_blank" rel="noopener" data-saferedirecturl="https://w
+ ww.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSerq4kZdTVj-
+ zexODtUohpcT55pBwOb6OUD0lsb1TQUdS6wDg/viewform&amp\;source=gmail&amp\;ust
+ =1774098854816000&amp\;usg=AOvVaw2iKs0kPgC3XBO3_SmL9kCu">here.</a></span>
+ \n</p>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260403T140000
 DTEND;TZID=America/Los_Angeles:20260403T150000
 LOCATION:Huston Sports Complex
@@ -4370,12 +4447,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260404T090000
 DTEND;TZID=America/Los_Angeles:20260404T160000
-SUMMARY:Hold for Munich orientation-no other events
+SUMMARY:Hold -no other events
 UID:20260404T160000Z-384312@www.lclark.edu
 DTSTAMP:20260219T101750Z
 URL:https://www.lclark.edu/calendars/events/event/384312-hold-for-munich-
  orientation-no-other-events
-LAST-MODIFIED:20260219T181750Z
+LAST-MODIFIED:20260320T211652Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:384312
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
@@ -4800,6 +4877,58 @@ X-LIVEWHALE-IMAGE-CAPTION:Summer 2026 timeline
 X-LIVEWHALE-ALL-DAY:1
 X-LIVEWHALE-SUMMARY:<p>Apply for Summer 2026 Housing between March 16 - A
  pril 13!</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260406T120000
+DTEND;TZID=America/Los_Angeles:20260406T130000
+LOCATION:Albany Quadrangle #220
+GEO:45.451415;-122.668211
+SUMMARY:Finalists for L&C's Director of the Environmental Innovation Cent
+ er: Candidate #3
+DESCRIPTION:Each candidate will give a short talk on their background and
+  vision for the Environmental Innovation Center\, followed by a Q&amp\;A.
+  Your input is valuable to us as we chart this exciting new step for Lewi
+ s &amp\; Clark.Please RSVP below if you plan to attend.Directions and Par
+ king: Enter the undergraduate campus at Gate #2\, follow the road to the 
+ farthest parking lot\, and navigate from there to Albany Quadrangle (http
+ s://map.lclark.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3Mjk.%
+ 2A_ga_6MKT6LMD5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbDAkaD
+ A.&amp\;id=2086#!ct/70889\,73849?m/1007111?s/albany%20quadrangle). Parkin
+ g on campus is limited and permits (https://lclark.t2hosted.com/Account/P
+ ortal) are required Monday through Friday 7 a.m. to 7 p.m.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Each candidate will give a short talk o
+ n their background and vision for the Environmental Innovation Center\, f
+ ollowed by a Q&amp\;A. Your input is valuable to us as we chart this exci
+ ting new step for Lewis &amp\; Clark.</p><p><strong>Please RSVP below if 
+ you plan to attend.</strong></p><p><strong>Directions and Parking:</stron
+ g> Enter the undergraduate campus at Gate #2\, follow the road to the far
+ thest parking lot\, and navigate from there to <a href="https://map.lclar
+ k.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3Mjk.%2A_ga_6MKT6LM
+ D5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbDAkaDA.&amp\;id=20
+ 86#!ct/70889\,73849?m/1007111?s/albany%20quadrangle">Albany Quadrangle</a
+ >. Parking on campus is limited and <a href="https://lclark.t2hosted.com/
+ Account/Portal">permits</a> are required Monday through Friday 7 a.m. to 
+ 7 p.m.</p>
+UID:20260406T190000Z-387655@www.lclark.edu
+DTSTAMP:20260320T150107Z
+URL:https://www.lclark.edu/calendars/events/event/387655-finalists-for-la
+ mpcs-director-of-the-environmental
+LAST-MODIFIED:20260320T222248Z
+ATTACH:https://www.lclark.edu/live/image/gid/255/width/80/height/80/crop/
+ 1/src_region/0,0,3200,2400/94945_20220711_144724.rev.1657822273.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:387655
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/255/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,3200\,2400/94945_20220711_144724.rev.165782
+ 2273.jpg
+X-LIVEWHALE-IMAGE-CAPTION:Albany Quadrangle Courtyard
+X-LIVEWHALE-CONTACT-INFO:<p>\n  Janice Weis at jweis@lclark.edu.\n</p>
+X-LIVEWHALE-SUMMARY:<p>\n  Students\, faculty\, and staff at all three ca
+ mpuses are invited to meet our four candidates for director of the new En
+ vironmental Innovation Center—a three-campus center to be developed as 
+ part of the college's strategic planning.&#160\;\n</p>
+X-LIVEWHALE-RSVP:1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260406T160000
@@ -5573,6 +5702,58 @@ X-LIVEWHALE-SUMMARY:<p>Apply for Summer 2026 Housing between March 16 - A
  pril 13!</p>
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260409T120000
+DTEND;TZID=America/Los_Angeles:20260409T130000
+LOCATION:Albany Quadrangle #218
+GEO:45.451415;-122.668211
+SUMMARY:Finalists for L&C's Director of the Environmental Innovation Cent
+ er: Candidate #4
+DESCRIPTION:Each candidate will give a short talk on their background and
+  vision for the Environmental Innovation Center\, followed by a Q&amp\;A.
+  Your input is valuable to us as we chart this exciting new step for Lewi
+ s &amp\; Clark.Please RSVP below if you plan to attend.Directions and Par
+ king: Enter the undergraduate campus at Gate #2\, follow the road to the 
+ farthest parking lot\, and navigate from there to Albany Quadrangle (http
+ s://map.lclark.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3Mjk.%
+ 2A_ga_6MKT6LMD5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbDAkaD
+ A.&amp\;id=2086#!ct/70889\,73849?m/1007111?s/albany%20quadrangle). Parkin
+ g on campus is limited and permits (https://lclark.t2hosted.com/Account/P
+ ortal) are required Monday through Friday 7 a.m. to 7 p.m.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Each candidate will give a short talk o
+ n their background and vision for the Environmental Innovation Center\, f
+ ollowed by a Q&amp\;A. Your input is valuable to us as we chart this exci
+ ting new step for Lewis &amp\; Clark.</p><p><strong>Please RSVP below if 
+ you plan to attend.</strong></p><p><strong>Directions and Parking:</stron
+ g> Enter the undergraduate campus at Gate #2\, follow the road to the far
+ thest parking lot\, and navigate from there to <a href="https://map.lclar
+ k.edu/?_gl=1%2A16qn2zo%2A_ga%2ANTk1NDg0MjgwLjE3NjA5OTU3Mjk.%2A_ga_6MKT6LM
+ D5S%2AczE3NzQwNDA5NDgkbzMwNiRnMSR0MTc3NDA0MTI2OCRqNDYkbDAkaDA.&amp\;id=20
+ 86#!ct/70889\,73849?m/1007111?s/albany%20quadrangle">Albany Quadrangle</a
+ >. Parking on campus is limited and <a href="https://lclark.t2hosted.com/
+ Account/Portal">permits</a> are required Monday through Friday 7 a.m. to 
+ 7 p.m.</p>
+UID:20260409T190000Z-387657@www.lclark.edu
+DTSTAMP:20260320T150946Z
+URL:https://www.lclark.edu/calendars/events/event/387657-finalists-for-la
+ mpcs-director-of-the-environmental
+LAST-MODIFIED:20260320T222307Z
+ATTACH:https://www.lclark.edu/live/image/gid/255/width/80/height/80/crop/
+ 1/src_region/0,0,3200,2400/94945_20220711_144724.rev.1657822273.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:387657
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/255/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,3200\,2400/94945_20220711_144724.rev.165782
+ 2273.jpg
+X-LIVEWHALE-IMAGE-CAPTION:Albany Quadrangle Courtyard
+X-LIVEWHALE-CONTACT-INFO:<p>\n  Janice Weis at jweis@lclark.edu.\n</p>
+X-LIVEWHALE-SUMMARY:<p>\n  Students\, faculty\, and staff at all three ca
+ mpuses are invited to meet our four candidates for director of the new En
+ vironmental Innovation Center—a three-campus center to be developed as 
+ part of the college's strategic planning.&#160\;\n</p>
+X-LIVEWHALE-RSVP:1
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260409T154500
 DTEND;TZID=America/Los_Angeles:20260409T164500
 LOCATION:JRHH 124
@@ -6044,6 +6225,19 @@ X-LIVEWHALE-COST:95
 X-LIVEWHALE-SUMMARY:<p><strong>Trip Registration Opens:</strong> Wednesda
  y\, March 11\, 2026<br />\n<strong>Trip Fee:</strong> $95 / $47*</p>
 X-LIVEWHALE-TAGS:High Rigor|Raft|Spring Trips
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260411T080000
+DTEND;TZID=America/Los_Angeles:20260411T150000
+SUMMARY:Hold-no other events in ILC
+UID:20260411T150000Z-387643@www.lclark.edu
+DTSTAMP:20260320T141652Z
+URL:https://www.lclark.edu/calendars/events/event/387643-hold-no-other-ev
+ ents-in-ilc
+LAST-MODIFIED:20260320T211652Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:387643
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260411T090000
@@ -10239,7 +10433,7 @@ UID:20260501T160000Z-381618@www.lclark.edu
 DTSTAMP:20260127T151911Z
 URL:https://www.lclark.edu/calendars/events/event/381618-trauma-informed-
  clinical-supervision-online
-LAST-MODIFIED:20260309T190240Z
+LAST-MODIFIED:20260320T172649Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/370,76,2717,2425/86005_Julianna_Vermeys.rev.1603837759.jpg
 X-LIVEWHALE-TYPE:events
@@ -11634,7 +11828,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260530T090000
 DTEND;TZID=America/Los_Angeles:20260530T100000
-LOCATION:Online
+LOCATION:Lewis &amp\; Clark Graduate School
 SUMMARY:Trans Form: Grounding into Trans History\, Liberation\, and Hope 
  (In-Person)
 DESCRIPTION:At TransActive (https://graduate.lclark.edu/programs/continui
@@ -11816,7 +12010,7 @@ UID:20260530T160000Z-384894@www.lclark.edu
 DTSTAMP:20260224T155624Z
 URL:https://www.lclark.edu/calendars/events/event/384894-trans-form-groun
  ding-into-trans-history-liberation-an
-LAST-MODIFIED:20260311T200741Z
+LAST-MODIFIED:20260320T195232Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,852,853/112366_pezibear-anemone-4237425_1280.rev.17732540
  51.jpg
@@ -12769,33 +12963,33 @@ DESCRIPTION:The Applied Suicide Intervention Skills Training (ASIST) is a
  : Lewis &amp\; Clark Graduate School\, South Chapel and York 107Instructo
  rs: Leslie Rodgers\, and Kathy Wilson-FeyCost and Credits: $325\, include
  s 15 NASP-Approved CEUs or PDUs (12.75 NASW Credits). Alumni\, Adjuncts\,
-  and GSEC Clinical Mental Health Supervisors save 20%.&#160\;Online Regis
- tration Coming SoonAccessibility: We are committed to making our events a
- ccessible to all needs and abilities. When registering\, please let us kn
- ow your access needs. Contact us at 503-768-6040 or cce@lclark.edu (mailt
- o:cce@lclark.edu)&#160\;with questions.Please note: Discounted &#x2018\;S
- tudent Rate&#x2019\; registrations are for current students only and do n
- ot include continuing education credit (CEU/PDUs)About the InstructorsLes
- lie Rodgers is a licensed clinical social worker and registered ASIST (Ap
- plied Suicide Intervention Skills) trainer with over 20 years experience 
- working with children and adults in various therapeutic settings\, includ
- ing group homes\, psychiatric hospitals\, and schools. Her current work h
- as involved implementing best practice procedures and providing staff dev
- elopment in student threat assessment\, suicide prevention\, and crisis r
- esponse for school districts. She holds a BA from the University of Texas
-  and a Masters in Social Work from Portland State University.Kathy Wilson
- -Fey is a registered ASIST Trainer and has clinical therapy and teaching 
- experience in a variety of settings\, including community college\, commu
- nity mental health\, and an international university. She has 15 years of
-  experience as a mental health specialist in public schools\, where she w
- orked with students and families\, trained school staff on suicide interv
- ention\, and coordinated school support during crises. Kathy is fluent in
-  Spanish and is committed to equity work and cultural competence. She hol
- ds a BA from Whitman College and a Masters in Counseling Psychology from 
- the University of Oregon.New workshops and trainings are added to our cal
- endar regularly. For the latest on professional development related to yo
- ur specific interests\, sign up for our mailing list! (https://lclark.tfa
- forms.net/4735441)
+  and GSEC Clinical Mental Health Supervisors save 20%.&#160\;Register Onl
+ ine (https://lclark.tfaforms.net/wf1W4MQ?epid=a1aUY000002Unrl)Accessibili
+ ty: We are committed to making our events accessible to all needs and abi
+ lities. When registering\, please let us know your access needs. Contact 
+ us at 503-768-6040 or cce@lclark.edu (mailto:cce@lclark.edu)&#160\;with q
+ uestions.Please note: Discounted &#x2018\;Student Rate&#x2019\; registrat
+ ions are for current students only and do not include continuing educatio
+ n credit (CEU/PDUs)About the InstructorsLeslie Rodgers is a licensed clin
+ ical social worker and registered ASIST (Applied Suicide Intervention Ski
+ lls) trainer with over 20 years experience working with children and adul
+ ts in various therapeutic settings\, including group homes\, psychiatric 
+ hospitals\, and schools. Her current work has involved implementing best 
+ practice procedures and providing staff development in student threat ass
+ essment\, suicide prevention\, and crisis response for school districts. 
+ She holds a BA from the University of Texas and a Masters in Social Work 
+ from Portland State University.Kathy Wilson-Fey is a registered ASIST Tra
+ iner and has clinical therapy and teaching experience in a variety of set
+ tings\, including community college\, community mental health\, and an in
+ ternational university. She has 15 years of experience as a mental health
+  specialist in public schools\, where she worked with students and famili
+ es\, trained school staff on suicide intervention\, and coordinated schoo
+ l support during crises. Kathy is fluent in Spanish and is committed to e
+ quity work and cultural competence. She holds a BA from Whitman College a
+ nd a Masters in Counseling Psychology from the University of Oregon.New w
+ orkshops and trainings are added to our calendar regularly. For the lates
+ t on professional development related to your specific interests\, sign u
+ p for our mailing list! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  The Applied 
  Suicide Intervention Skills Training (ASIST) is an intensive\, interactiv
  e and practice-dominated course for those who want to feel more comfortab
@@ -12838,51 +13032,52 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  The Applied
  p style="line-height: 1.5\;"><strong>Cost and Credits:</strong> $325\, in
  cludes 15 NASP-Approved CEUs or PDUs (12.75 NASW Credits). Alumni\, Adjun
  cts\, and GSEC Clinical Mental Health Supervisors save 20%.&#160\;</p><p 
- style="line-height: 1.5\;"><em><strong>Online Registration Coming Soon</s
- trong></em></p><div id="lw_widget_30f0017c" class="lw_widget lw_widget_ty
- pe_blurbs lw_widget_blurbs lw_widget_id_7119 lw_widget_accessibility_stat
- ement lw_widget_pagination"><ul class="lw_widget_results lw_widget_result
- s_blurbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p class="p1"
-  style="font-size: 15px\; line-height: 1.5\;"><em><strong>Accessibility:<
- /strong> We are committed to making our events accessible to all needs an
- d abilities. When registering\, please let us know your access needs. Con
- tact us at 503-768-6040 or <a href="mailto:cce@lclark.edu">cce@lclark.edu
- </a>&#160\;with questions.<br/></em></p><p class="p1" style="font-size: 1
- 5px\; line-height: 1.5\;"><em><strong>Please note:</strong> Discounted &#
- x2018\;Student Rate&#x2019\; registrations are for current students only 
- and <strong>do not</strong> include continuing education credit (CEU/PDUs
- )</em></p></div></li></ul></div><hr /><h2><strong>About the Instructors</
- strong></h2><p style="line-height: 1.5\;"><strong>Leslie Rodgers</strong>
-  is a licensed clinical social worker and registered ASIST (Applied Suici
- de Intervention Skills) trainer with over 20 years experience working wit
- h children and adults in various therapeutic settings\, including group h
- omes\, psychiatric hospitals\, and schools. Her current work has involved
-  implementing best practice procedures and providing staff development in
-  student threat assessment\, suicide prevention\, and crisis response for
-  school districts. She holds a BA from the University of Texas and a Mast
- ers in Social Work from Portland State University.</p><p style="line-heig
- ht: 1.5\;"><strong>Kathy Wilson-Fey</strong> is a registered ASIST Traine
- r and has clinical therapy and teaching experience in a variety of settin
- gs\, including community college\, community mental health\, and an inter
- national university. She has 15 years of experience as a mental health sp
- ecialist in public schools\, where she worked with students and families\
- , trained school staff on suicide intervention\, and coordinated school s
- upport during crises. Kathy is fluent in Spanish and is committed to equi
- ty work and cultural competence. She holds a BA from Whitman College and 
- a Masters in Counseling Psychology from the University of Oregon.</p><div
-  id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs lw_widget
- _blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"><ul clas
- s="lw_widget_results lw_widget_results_blurbs"><li class="lw_item_1"><div
-  class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><strong>New wor
- kshops and trainings are added to our calendar regularly.</strong> For th
- e latest on professional development related to your specific interests\,
-  <a href="https://lclark.tfaforms.net/4735441">sign up for our mailing li
- st!</a></em></p></div></li></ul></div>
+ style="line-height: 1.5\;"><strong><a class="btn-small-style-1" href="htt
+ ps://lclark.tfaforms.net/wf1W4MQ?epid=a1aUY000002Unrl">Register Online</a
+ ></strong></p><div id="lw_widget_30f0017c" class="lw_widget lw_widget_typ
+ e_blurbs lw_widget_blurbs lw_widget_id_7119 lw_widget_accessibility_state
+ ment lw_widget_pagination"><ul class="lw_widget_results lw_widget_results
+ _blurbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p class="p1" 
+ style="font-size: 15px\; line-height: 1.5\;"><em><strong>Accessibility:</
+ strong> We are committed to making our events accessible to all needs and
+  abilities. When registering\, please let us know your access needs. Cont
+ act us at 503-768-6040 or <a href="mailto:cce@lclark.edu">cce@lclark.edu<
+ /a>&#160\;with questions.<br/></em></p><p class="p1" style="font-size: 15
+ px\; line-height: 1.5\;"><em><strong>Please note:</strong> Discounted &#x
+ 2018\;Student Rate&#x2019\; registrations are for current students only a
+ nd <strong>do not</strong> include continuing education credit (CEU/PDUs)
+ </em></p></div></li></ul></div><hr /><h2><strong>About the Instructors</s
+ trong></h2><p style="line-height: 1.5\;"><strong>Leslie Rodgers</strong> 
+ is a licensed clinical social worker and registered ASIST (Applied Suicid
+ e Intervention Skills) trainer with over 20 years experience working with
+  children and adults in various therapeutic settings\, including group ho
+ mes\, psychiatric hospitals\, and schools. Her current work has involved 
+ implementing best practice procedures and providing staff development in 
+ student threat assessment\, suicide prevention\, and crisis response for 
+ school districts. She holds a BA from the University of Texas and a Maste
+ rs in Social Work from Portland State University.</p><p style="line-heigh
+ t: 1.5\;"><strong>Kathy Wilson-Fey</strong> is a registered ASIST Trainer
+  and has clinical therapy and teaching experience in a variety of setting
+ s\, including community college\, community mental health\, and an intern
+ ational university. She has 15 years of experience as a mental health spe
+ cialist in public schools\, where she worked with students and families\,
+  trained school staff on suicide intervention\, and coordinated school su
+ pport during crises. Kathy is fluent in Spanish and is committed to equit
+ y work and cultural competence. She holds a BA from Whitman College and a
+  Masters in Counseling Psychology from the University of Oregon.</p><div 
+ id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs lw_widget_
+ blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"><ul class
+ ="lw_widget_results lw_widget_results_blurbs"><li class="lw_item_1"><div 
+ class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><strong>New work
+ shops and trainings are added to our calendar regularly.</strong> For the
+  latest on professional development related to your specific interests\, 
+ <a href="https://lclark.tfaforms.net/4735441">sign up for our mailing lis
+ t!</a></em></p></div></li></ul></div>
 UID:20260626T153000Z-387513@www.lclark.edu
 DTSTAMP:20260319T094028Z
 URL:https://www.lclark.edu/calendars/events/event/387513-applied-suicide-
  intervention-skills-training-asist-in
-LAST-MODIFIED:20260319T164932Z
+LAST-MODIFIED:20260320T182122Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/241,0,1524,1282/112486_huyngan-sunset-9949027_1920.rev.177393
  8853.jpg

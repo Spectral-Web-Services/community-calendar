@@ -4,40 +4,6 @@ PRODID:-//Northwestern University (Community)//northwestern.edu//
 X-WR-CALNAME:Northwestern University (Community)
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-SUMMARY:Data Science Nights - March 2026 - Speaker: Dawei Xie\, Department
-  of Computer Science
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260319T223000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260320T003000Z
-UID:fb26d40d482d63364734ca4f60403d6d@northwestern.edu
-DESCRIPTION:MARCH MEETING: Thursday\, March 19\, 2026 at 5:30pm (US Centra
- l)\nLOCATION: \nESAM Conference Room\, Tech M416 \n2145 Sheridan Road\, E
- vanston\, IL 60208\nAGENDA:\n5:30pm - Meet and greet with refreshments\n6:
- 00pm - Talk with Dawei Xie\, PhD student\, Department of Computer Science\
- , Northwestern University\, working with Prof. Marcelo Worsley in the tiil
- t Lab.\n\nTALK TITLE:\nAI-Augmented Learning Analytics for Understanding C
- ollaborative Discussions\n\nABSTRACT: \nCollaborative learning has been re
- cognized as an important skill for the 21st century\, yet understanding wh
- at constitutes high-quality collaborative discussion remains a challenge. 
- This talk explores how AI systems might move beyond traditional behavioral
-  metrics to support nuanced semantic interpretations of collaborative lear
- ning. I present our recent work on an AI-augmented analytics system that t
- ransforms real-time group discussions into structured representations\, an
- d enables educators to explore collaboration quality through interaction w
- ith a conversational agent. I discuss both the technical architecture and 
- the design considerations around how users and AI can jointly shape analyt
- ical outputs. Finally\, I share findings on how this interplay can afford 
- richer\, more grounded sensemaking through analytical dialogue.\n\n\nDATA 
- SCIENCE NIGHTS are monthly meetings featuring presentations and discussion
- s about data-driven science and complex systems\, organized by Northwester
- n University graduate students and scholars. Students and researchers of a
- ll levels are welcome! For more information: http://bit.ly/nico-dsn\nFUTUR
- E DATES:\nData Science Nights will be held on Thursday evenings in the win
- ter and spring terms\, with future dates on April 30\, and May 28\, 2026.
-LOCATION:Technological Institute\, 2145 Sheridan Road\, Evanston\, IL
-URL:https://www.nico.northwestern.edu/news-events/data-science-nights.html
-X-SOURCE:Northwestern University (Community)
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Friday Nights at the Dearborn Observatory
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260321T010000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260321T030000Z
@@ -937,15 +903,15 @@ URL:https://planitpurple.northwestern.edu/event/640529
 X-SOURCE:Northwestern University (Community)
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:IPR Panel: Interacting with Lawmakers
+SUMMARY:IPR Panel: Research in Action: Lessons from Policy Advocacy
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260413T170000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260413T181500Z
-UID:776ab75cdcfa6b0d789f608caeccda5d@northwestern.edu
-DESCRIPTION:Title: Interacting with Lawmakers\nMore information coming soo
- n.\n \nThis panel is part of the Fay Lomax Cook Spring 2026 Colloquium Se
- ries\, where our researchers from around the University share their latest
-  policy-relevant research and insights.\nPlease note all colloquia and pan
- els this quarter will be held in-person only.
+UID:c97f327a15865b58218935a905891c1d@northwestern.edu
+DESCRIPTION:Title: Research in Action: Lessons from Policy Advocacy\nMore 
+ information coming soon.\n \nThis panel is part of the Fay Lomax Cook Spr
+ ing 2026 Colloquium Series\, where our researchers from around the Univers
+ ity share their latest policy-relevant research and insights.\nPlease note
+  all colloquia and panels this quarter will be held in-person only.
 LOCATION:Scott Hall\, 601 University Place\, Evanston\, IL
 URL:https://planitpurple.northwestern.edu/event/640688
 X-SOURCE:Northwestern University (Community)
@@ -981,16 +947,16 @@ DTSTART;TZID=UTC;VALUE=DATE-TIME:20260414T220000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260414T233000Z
 UID:ffc4bfe34cfa3bc27bb6f82e09d45a7c@northwestern.edu
 DESCRIPTION:Translator Paul Reitter and editor Paul North will discuss the
-  first new English translation in 50 years of Karl Marx's Capital\, Vol. 1
- \, and what it means to have a Marx for the 21st century.\nLight refreshme
- nts will be served. Please RSVP to complit@northwestern.edu.\nPresented by
-  the Translation in Theory and Practice series of the Program in Comparati
- ve Literary Studies and the Kaplan Humanities Institute.\nPaul Reitter is 
- the Ohio Eminent Scholar of German and Professor of Germanic Languages and
-  Literatures at Ohio State University. His translations include The Autobi
- ography of Solomon Maimon (Princeton). Paul North is the Maurice Natanson 
- Professor of German at Yale University. His books include The Yield: Kafka
- ’s Atheological Reformation.
+  publication of the new English translation of Karl Marx's Capital\, Vol. 
+ 1 — the first in 50 years — and what it means to have Marx's text for 
+ the 21st century.\nLight refreshments will be served. Please RSVP to compl
+ it@northwestern.edu.\nPresented by the Translation in Theory and Practice 
+ series of the Program in Comparative Literary Studies and the Kaplan Human
+ ities Institute.\nPaul Reitter is the Ohio Eminent Scholar of German and P
+ rofessor of Germanic Languages and Literatures at Ohio State University. H
+ is translations include The Autobiography of Solomon Maimon (Princeton). P
+ aul North is the Maurice Natanson Professor of German at Yale University. 
+ His books include The Yield: Kafka’s Atheological Reformation.
 LOCATION:Harris Hall\, 1881 Sheridan Road\, Evanston\, IL
 URL:https://planitpurple.northwestern.edu/event/640717
 X-SOURCE:Northwestern University (Community)
@@ -1106,6 +1072,33 @@ DESCRIPTION:Aven Peters\, Northwestern University\, presents:\n"(Dis)order
  stions at sociol@northwestern.edu.
 LOCATION:Parkes Hall\, 1870 Sheridan Road\, Evanston\, IL
 URL:https://sociology.northwestern.edu/about/events/colloquia.html
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Join us to discuss Daisy Hernandez’s new book: Citizenship: Note
+ s on an American Myth
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260416T190000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260416T203000Z
+UID:4a36ee361cf59619032d88efcefbd41c@northwestern.edu
+DESCRIPTION:Daisy Hernández fiercely interrogates one of the most complic
+ ated subjects of contemporary life and politics: citizenship. Braiding mem
+ oir\, history\, and cultural criticism\, she exposes the truths and lies o
+ f how we define ourselves as a country and a people. Turning to her own fa
+ mily’s stories—her mother arrived from Colombia\, while her father was
+  a political refugee from Castro’s Cuba—Hernández shows how the very 
+ idea of citizenship is a myth\, one of the stories we tell ourselves about
+  the American soul and psyche.\nReframing our understanding of what it mea
+ ns to be an American\, Citizenship is an urgent and necessary account of t
+ he laws\, customs\, and language we use to include and exclude\, especiall
+ y those who come from Latin America. With her scholar’s mind and memoiri
+ st’s gift for narrative\, Hernández weaves a story both personal and na
+ tional\, while reckoning with our country’s ongoing debate about who bel
+ ongs and providing fresh ways of thinking about citizenship. At once braci
+ ng\, fearless\, and tender\, Citizenship is a powerful portrait of one fam
+ ily’s experiences in the borderlands of citizenship and an honest illumi
+ nation of the country in which we live.\nFood and Drinks will be provided!
+LOCATION:Crowe Hall\, 1860 Campus Drive\, Evanston\, IL
+URL:https://latinostudies.northwestern.edu/
 X-SOURCE:Northwestern University (Community)
 END:VEVENT
 BEGIN:VEVENT
@@ -1579,6 +1572,45 @@ URL:https://planitpurple.northwestern.edu/event/631493
 X-SOURCE:Northwestern University (Community)
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:AI & Innovation Speaker Series - Zoë Hitzig
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260421T183000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260421T194500Z
+UID:afba7d053ef8ff9ec5ea02108f407d0b@northwestern.edu
+DESCRIPTION:Title: How People Use ChatGPT\nAbstract: Three years after its
+  launch\, ChatGPT was used at least weekly by ten percent of the global ad
+ ult population. This paper documents several important facts about how peo
+ ple use ChatGPT using a large random sample of ChatGPT messages linked to 
+ demographic data via an automated privacy-preserving process. ChatGPT usag
+ e was initially higher among men and users from high-income countries\, bu
+ t those gaps had closed substantially as of September 2025. Although non-w
+ ork usage has grown relatively faster\, users on consumer plans still send
+  hundreds of millions of work-related messages each day. Work-related Chat
+ GPT usage is highly concentrated in knowledge-seeking activities like deci
+ sion support and analyzing and interpreting information\, regardless of us
+ er occupation. We develop a principal-agent model of AI chatbot usage that
+  is motivated by evidence from people using ChatGPT both to ask for advice
+  and to delegate tasks directly. The model highlights the central role of 
+ users’ demand for customization due to idiosyncratic preferences\, which
+  we call context. Using a novel classifier that measures conversational co
+ ntext\, we find that users are more likely to ask AI chatbots for advice r
+ ather than work output when their queries have higher context requirements
+ . Since context must be transmitted by the user\, it may be a key bottlene
+ ck to unlocking economic value from AI.\nBio: Zoë is currently with Anthr
+ opic\, and a Junior Fellow at the Harvard Society of Fellows. She earned h
+ er PhD in economics from Harvard University in 2023\, where she specialize
+ d in research on privacy\, transparency\, and algorithms in markets and co
+ mmunication. Zoë’s poetry\, known for its sharp intellect and imaginati
+ ve breadth\, has appeared in prestigious publications such as The New York
+ er\, London Review of Books\, and Boston Review. She is the author of two 
+ acclaimed poetry collections\, including Mezzanine and Not Us Now\, which 
+ explore themes at the intersection of philosophy\, economics\, and technol
+ ogy.
+LOCATION:Kellogg Global Hub\, 2211 Campus Drive\, Evanston\, IL
+URL:https://ryaninstitute.kellogg.northwestern.edu/events/seminar-series-o
+ n-ai-science-and-innovation-zo%C3%AB-hitzig
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tuesday Karaoke in Luna's Pub!
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260422T010000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260422T030000Z
@@ -1949,6 +1981,36 @@ URL:https://planitpurple.northwestern.edu/event/639929
 X-SOURCE:Northwestern University (Community)
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Heilborn Lecture: Sean Carroll: The Many Worlds of Quantum Mechani
+ cs
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260424T210000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260424T223000Z
+UID:5e20cb6e2ebf9cc5677cf3ab7ee2c331@northwestern.edu
+DESCRIPTION:Abstract: One of the great intellectual achievements of the tw
+ entieth century was the theory of quantum mechanics\, according to which o
+ bservational results can only be predicted probabilistically rather than w
+ ith certainty. Yet\, after decades in which the theory has been successful
+ ly used on an everyday basis\, most physicists would agree that we still d
+ on't truly understand what it means. I will talk about the source of this 
+ puzzlement\, and explain why an increasing number of physicists are led to
+  an apparently astonishing conclusion: that the world we experience is con
+ stantly branching into different versions\, representing the different pos
+ sible outcomes of quantum measurements. This could have important conseque
+ nces for quantum gravity and the emergence of spacetime.\nSpeaker:\nSean C
+ arroll\nSean Carroll's official title is Homewood Professor of Natural Phi
+ losophy at Johns Hopkins\, and he is also Fractal Faculty at the Santa Fe 
+ Institute.  He is interested in how the world works at the deepest levels
+ \, which leads him to do research in physics and philosophy. His current i
+ nterests include foundational questions in quantum mechanics\, spacetime\,
+  statistical mechanics\, complexity\, and cosmology\, with occasional dabb
+ lings elsewhere.\n \nThis is lecture 3 of 3 in the 2026 Heilborn Lecture 
+ Series. Please visit our website for more information.\n \nKeywords: Phys
+ ics\, Heilborn
+LOCATION:Technological Institute\, 2145 Sheridan Road\, Evanston\, IL
+URL:https://planitpurple.northwestern.edu/event/640818
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Variety Night - Open Mic Night!
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260424T230000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260425T010000Z
@@ -2302,6 +2364,16 @@ URL:https://planitpurple.northwestern.edu/event/640670
 X-SOURCE:Northwestern University (Community)
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Analysis Seminar |  Ilya Shkredov (Purdue)
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260504T210000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260504T220000Z
+UID:80cc4ba59133507753de8e70fa3f0694@northwestern.edu
+DESCRIPTION:TBA
+LOCATION:Lunt Hall\, 2033 Sheridan Road\, Evanston\, IL
+URL:https://planitpurple.northwestern.edu/event/640768
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:"From Entitlement to Deservingness: Queer Migration through Turkey
   to the EU and North America" with Mert Koçak
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260504T210000Z
@@ -2508,6 +2580,94 @@ DESCRIPTION:As part of our Elliott Scholars Program\, the Roberta Buffett
  s time.
 LOCATION:720 University Place\, 720 University Place\, Evanston\, IL
 URL:https://planitpurple.northwestern.edu/event/635982
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opening Celebration: We can make any two stories touch
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260507T220000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260508T010000Z
+UID:5a1a3f8e8a631b99f2b3a43c579c2b7b@northwestern.edu
+DESCRIPTION:Each spring the Block Museum is pleased to present the work of
+  the Masters of Fine Arts candidates in the Department of Art Theory & Pra
+ ctice. This year's exhibition\, We can make any two stories touch\, showca
+ ses the diverse accomplishments of five international artists: Lamia Abukh
+ adra\, Pegah Bahador\, Gabby Banks\, naakita f.k. and Przemek Pyszczek. Re
+ flecting the intensive research undertaken during their two-year residency
+  at Northwestern\, the thesis projects brought together in We can make any
+  two stories touch encompass a range of material and methodological approa
+ ches\, posing fresh lines of inquiry into the conditions giving shape to t
+ he present moment. The exhibition marks an early milestone in these artist
+ s' careers\, and also offers a glimpse into the future of contemporary art
+ .\nThis exhibition and associated events are co-organized by the Departmen
+ t of Art Theory & Practice and the Block Museum of Art at Northwestern Uni
+ versity. Support is provided by the Norton S. Walbridge Fund\; the Myers F
+ oundations\; the Jerrold Loebl Fund for the Arts\; and the Alsdorf Gallery
+  Endowment.\nReception in the lobby of the Block Museum. \nOpen to all: w
+ e appreciate an RSVP!\n \nAbout the speakers:\nLamia Abukhadra is a Pales
+ tinian American artist whose practice explores how disasters can resurrect
+  and generate new forms of perception\, collectivity and resistance\, ofte
+ n using the Palestinian context as an urgent microcosm. Within her works\,
+  she embeds speculative frameworks which bring to light intimate and histo
+ rical connections\, poetic occurrences and generative possibilities of sur
+ vival\, mutation and self-determination.\nAbukhadra graduated from the Uni
+ versity of Minnesota with a BFA in studio art in 2018. She is a 2019-2020 
+ Home Workspace Program Fellow at Ashkal Alwan in Beirut\, a 2021–2022 Ja
+ n van Eyck Academie Resident in Maastricht and a 2025 Flaherty Fellow. Her
+  work has been exhibited in Minneapolis\, Chicago\, Beirut and Berlin. Abu
+ khadra is also a cultural worker and currently holds the position of Art a
+ nd Communications Director at Mizna (St. Paul\, MN).\nlamiaabukhadra.com\n
+ instagram.com/lamiaabukhadra \n \nPegah Bahador (b. 1998\, Tehran) pract
+ ices doori o doosti\, a Farsi term that translates to “distance and frie
+ ndship\,” and emphasizes how the two coexist and (even sonically) intert
+ wine. This epistolary practice suggests writing as an act in translation\,
+  or with an accent\; and is itself a type of correspondence between them a
+ nd their subjects. They work between sculpture\, drawing and language to e
+ mphasize ground and language displacement. They earned their BFA at Tehran
+  University of Art and their MFA in Art Theory & Practice at Northwestern 
+ University.\nhttps://pegahbahador.com/\n \nBorn in Nassau\, Bahamas\, Gab
+ by Banks received her BFA in Painting from the Rhode Island School of Desi
+ gn in 2019. Her practice investigates standards of “mastery” in contem
+ porary painting while challenging racialized narratives in figurative work
+ \, particularly the expectation that marginalized artists produce work cen
+ tered on trauma or violence. Banks has exhibited internationally\, showcas
+ ing in The Bahamas and the United Kingdom\, and has completed fellowships 
+ at the Vermont Studio Center in Johnson\, Vermont\, and the Wassaic Projec
+ t in Wassaic\, NY.\nShe is particularly committed to amplifying emerging c
+ reative voices and fostering community through the arts. As a practicing a
+ rtist and creative professional\, she hopes to contribute to and learn fro
+ m diverse creative spaces that value experimentation and social engagement
+ . Currently focused on subverting an anti-critical culture surrounding Bla
+ ck contemporary art\, Banks is eager to be challenged by her ambition to c
+ reate alternative interrogations of figurative painting.\n \nnaakita f.k.
+  is an interdisciplinary artist whose practice considers place in relation
+  to resource extraction and the extractive ideologies that show up in the 
+ wake of violence to land and communities. Working across audio\, video\, p
+ hotography\, scent\, text and textile\, their work centers corporeal exper
+ ience as a reminder that it is only with our bodies that knowledge and pra
+ ctice can come together to make meaning.\nThey have shown their work inter
+ nationally at institutions such as MoMA PS1\, New York\, NY (2012)\; Trini
+ ty Square Video\, Toronto\, ON (2016)\; Mémoire de l'Avenir\, Paris\, FR 
+ (2019)\; Fonderie Darling\, Montreal\, QC (2022)\; Images Festival\, Toron
+ to\, ON (2023)\; CAFKA Biennale\, Kitchener\, ON (2025)\; and the Quebec B
+ iennale\, Baie Saint-Paul\, QC (2026). They have received awards from Saw 
+ Video (2017)\, Museum of Jewish Montreal (2020)\, Canada Council for the A
+ rts (2020\, 2021\, 2022\, 2023\, 2024\, 2025)\, CALQ (2022) and LOJIQ (202
+ 4).\nhttps://naakitafk.com/ \nhttps://instagram.com/naakitafk \n \nPrze
+ mek Pyszczek is a Polish-Canadian artist whose practice spans performance\
+ , video\, sculpture and photography. His work interrogates the intersectio
+ ns of personal and social histories\, psychology and technology.\nHe recei
+ ved a Bachelor of Environmental Design from the University of Manitoba. Py
+ szczek has presented solo exhibitions at Ribot Gallery (Milan)\, Campeche 
+ (Mexico City)\, Belenius (Stockholm)\, Galerie Derouillon (Paris)\, Galeri
+ a Leto (Warsaw) and Plug In ICA (Winnipeg).\nHe has also presented large-s
+ cale installations as part of the Narracje Festival in Gdańsk\, Poland\, 
+ and Anozero ’19 – Bienal de Coimbra in Portugal. Recently\, he complet
+ ed a public sculpture commission in Tychy\, Poland. His work was also incl
+ uded in 100 Sculptors of Tomorrow\, published by Thames & Hudson.\nprzemek
+ pyszczek.com\n \nImage credit: Haitham Haddad\, @studio.mnjnk.
+LOCATION:Block Museum of Art\, Mary and Leigh\, 40 Arts Circle Drive\, Eva
+ nston\, IL
+URL:https://planitpurple.northwestern.edu/event/640764
 X-SOURCE:Northwestern University (Community)
 END:VEVENT
 BEGIN:VEVENT
@@ -2863,6 +3023,48 @@ DESCRIPTION:Join the Roberta Buffett Institute and its Equality Developmen
  nDetails are forthcoming.
 LOCATION:720 University Place\, 720 University Place\, Evanston\, IL
 URL:https://planitpurple.northwestern.edu/event/634142
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Artist Talk - Quan Zhou\, Artist in Residence
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260519T213000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260519T230000Z
+UID:f32d31095f7fe103dc46127e140c701c@northwestern.edu
+DESCRIPTION:As the culminating event of her artist residency at Northweste
+ rn\, Quan Zhou will present Linaje (Lineage)\, a transmedia installation t
+ hat reconstructs the artist’s lost ancestry through AI-generated histori
+ es and artifacts—photographs\, documents\, drawings\, and heirloom objec
+ ts. In this public talk\, she will discuss fundamental questions faced by 
+ first-generation descendants of migrants whose genealogies are erased\, fr
+ agmented\, or illegible.\nThis event is still in the planning stages\; ple
+ ase check back closer to May 19 for full details!\nQuan Zhou is the Spring
+  2026 Artist in Residence of the Department of Spanish and Portuguese and 
+ the Kaplan Humanities Institute.
+LOCATION:Kresge Hall\, 1880 Campus Drive\, Evanston\, IL
+URL:https://planitpurple.northwestern.edu/event/640750
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cathy Linh Che & Jess X. Snow Screening and Q&A
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260519T220000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260520T000000Z
+UID:c7280ff2758d867be273ba9d9dbdd0c2@northwestern.edu
+DESCRIPTION:TBD
+LOCATION:Harris Hall\, 1881 Sheridan Road\, Evanston\, IL
+URL:https://planitpurple.northwestern.edu/event/637905
+X-SOURCE:Northwestern University (Community)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tuesday Karaoke in Luna's Pub!
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260520T010000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260520T030000Z
+UID:5d15a35cee34de823b368ff9d7cb9688@northwestern.edu
+DESCRIPTION:Join us at Norris for weekly programming on Next Up! Stage! in
+  Luna's Pub & Grill! Gather your friends for Tuesday Night Karaoke from 8:
+ 00 to 10:00pm each week.
+LOCATION:Norris University Center\, 1999 Campus Drive\, Evanston\, IL
+URL:https://www.northwestern.edu/norris/programs-and-recreation/norris-sig
+ nature-programs/lunas-pub-programs.html
 X-SOURCE:Northwestern University (Community)
 END:VEVENT
 END:VCALENDAR

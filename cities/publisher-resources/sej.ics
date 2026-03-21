@@ -4,20 +4,6 @@ PRODID:-//Society of Environmental Journalists//sej.org//
 X-WR-CALNAME:Society of Environmental Journalists
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:DC Environmental Film Festival
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260319T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T000000
-UID:a90d39a002392c2104aa0cadda72df8a@sej.org
-DESCRIPTION:The Environmental Film Festival in the Nation’s Capital (DCE
- FF) annually showcases environmentally themed films. DCEFF is happy to ha
- ve locally-based reporters attend screenings\, but remote journalists can 
- reach out with interview requests for attending guests and filmmakers. Sub
- mit a film by Dec 1\; cash prizes.\n\nCategories: Mid-Atlantic (DC DE MD P
- A VA WV)\, Other Events\, Journalism & Media
-URL:https://www.sej.org/calendar/dc-environmental-film-festival
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:2026 Islamic Scholarship Fund
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T000000
@@ -156,6 +142,19 @@ DESCRIPTION:The bi-yearly McGraw Fellowship provides experienced journalis
  llowships\, Journalism & Media
 URL:https://www.sej.org/calendar/deadline-mcgraw-fellowship-business-journ
  alism
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Journalism Festival
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T000000
+UID:4453e8388c730b3d5e7c4b9ee4e37adc@sej.org
+DESCRIPTION:This annual media event takes place every April in Perugia\, I
+ taly. All sessions are free entry for all attendees\, without tickets and 
+ without registration. In addition\, all festival sessions are live streame
+ d.\n\nCategories: International\, Europe\, Professional Meetings\, Journal
+ ism & Media
+URL:https://www.sej.org/calendar/international-journalism-festival
 X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 END:VCALENDAR

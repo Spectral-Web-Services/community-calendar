@@ -9,61 +9,6 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
 SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260319T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260319T193000
-UID:258f437261c5f71949b0743b2da95791@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T213000
-UID:1bebe7d26ec15d198b26b0ba02c38a69@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-ID:lyric_stage
-SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
-DTSTART;VALUE=DATE-TIME:20260320T200000
-DTEND;VALUE=DATE-TIME:20260320T223000
-UID:9300c56350400eeb2f57b30d8e0f65b4@lyricstage.com
-ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
-DESCRIPTION:
-LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
-URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
- rgeous/
-X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A743Gs"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T200000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T200000
-UID:77464e9cfac70d945a38098745269530@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A743Gs
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T200000
 UID:88a87e863792b99ed4eedf31048f6598@ticketmaster.com
@@ -2184,7 +2129,7 @@ DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T220000
 UID:1fbd90a104d13323bf62be7c38131b27@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+ 26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:
 LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
@@ -2354,7 +2299,7 @@ DTSTART;TZID=EDT;VALUE=DATE-TIME:20260418T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T220000
 UID:7e4a8c0cb1d5505d28821406d1788785@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+ 26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:
 LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
@@ -2436,7 +2381,7 @@ DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T160000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T180000
 UID:f7ee60ed862ce737c973e90f8163d921@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/04/BTS-thumbnail.png?resize=300%2C300&gravity
+ 26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:
 LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/
@@ -3076,6 +3021,18 @@ CATEGORIES:Theatre, Dance, and Performance Studies
 UID:http://uid.trumba.com/event/198219776
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
  mbed=view%3devent%26eventid%3d198219776
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Asp": "https://ci.ovationtix.com/921/production/1270129"}
+X-SOURCE-ID:ovationtix_asp
+SUMMARY:Playing August Wilson Class [at Hibernian Hall]
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260428T183000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260428T203000
+UID:330ade11eb12b10023caff49904b1172@ovationtix.com
+DESCRIPTION:
+LOCATION:Actors' Shakespeare Project
+URL:https://ci.ovationtix.com/921/production/1270129
+X-SOURCE:Actors' Shakespeare Project
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-28-2026/event/01006350B73BCC36"}
@@ -4258,6 +4215,62 @@ DESCRIPTION:
 LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
 X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1247439"}
+X-SOURCE-ID:ovationtix_wheelock
+SUMMARY:Charlotte's Web
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260521T130000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260521T150000
+UID:a88e90dc7ca43873bbb602708f5a9d85@ovationtix.com
+DESCRIPTION:
+LOCATION:Wheelock Family Theatre
+URL:https://ci.ovationtix.com/177/production/1247439
+X-SOURCE:Wheelock Family Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Swept Away
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260521T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260521T160000
+UID:c9d7e71b19fbab7a11cd583bc80d3383@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/03/FINAL-Swept-Away-900x900-BTS.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260521T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260521T210000
+UID:ff71af5a52bee9338b18852600721c8c@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260521T193000
+DTEND;VALUE=DATE-TIME:20260521T220000
+UID:d27d7923005c033bc9c165be97861802@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}

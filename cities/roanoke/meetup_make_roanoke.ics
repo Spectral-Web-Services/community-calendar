@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313432308@meetup.com
-SEQUENCE:1
-DTSTAMP:20260320T015352Z
-DTSTART;TZID=America/New_York:20260320T180000
-DTEND;TZID=America/New_York:20260320T190000
-SUMMARY:Maker Mini: Multi-Material 3D Printing with Orcaslicer
-DESCRIPTION:MAKE Roanoke\nJoin us at MAKE Roanoke with another FREE Maker Mini as we show you techniques to achieve a multi-material or multi-color 3D Print!\n\nThis Maker Mini introduces the fundamentals of using OrcaSlicer for multi-material and multicolor 3D printing. Students will learn how to assign different materials or colors to specific parts of a model\, optimize print time\, and set up dissimilar material supports for clean overhangs. We’ll cover preparing multi-body models\, using painting tools\, and managing filament changes.\n\n**Students are encouraged to bring a laptop with Orcaslicer to follow along if desired.**\n\nThis Maker Mini is FREE and open to the public\, you do NOT need to be a MAKE Roanoke member to attend. It is recommended for ages 14 and up.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at https://mkroa.org/waiver\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313432308/
-STATUS:CONFIRMED
-CREATED:20260219T173818Z
-LAST-MODIFIED:20260219T173818Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/f/f/3/600_532816371.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313432537@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260321T130000
 DTEND;TZID=America/New_York:20260321T160000
 SUMMARY:Intro to Home Assistant and ESPHome
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313744165@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260322T110000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313620583@meetup.com
 SEQUENCE:1
-DTSTAMP:20260320T015352Z
+DTSTAMP:20260321T013716Z
 DTSTART;TZID=America/New_York:20260406T200000
 DTEND;TZID=America/New_York:20260406T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -173,6 +158,21 @@ CREATED:20260303T184302Z
 LAST-MODIFIED:20260303T184302Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/f/1/6/600_532168438.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313714322@meetup.com
+SEQUENCE:1
+DTSTAMP:20260321T013716Z
+DTSTART;TZID=America/New_York:20260409T180000
+DTEND;TZID=America/New_York:20260409T190000
+SUMMARY:Maker Minis: Intro to Metrology
+DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is pleased to announce another class in our series of FREE short classes we're calling Maker Minis! This one is an Intro to Metrology class.\n\nThis class\, taught by Chris Santacroce\, will teach you the fundamentals of precise measurements. This class is recommended for people ages 12 and up. Attendees under 18 must be accompanied by an adult.\n\nIn this hands-on mini class you will learn:\n\n* Terminology of Accurate and Precise Measurement\n* Usage of Scales\, Tapes\, and Calipers\n* Conversion between different Units of Measurement\n\n**Knowing these skills will be required for the more advanced Metrology 2 Maker Mini coming in June**\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. [Waivers can be filled out ahead of time here](mkroa.org/waiver)[.](https://us.services.docusign.net/webforms-ux/v1.0/forms/72d9a28645d0d44d07d3badb8b83103f)\n* Children who are not participating in the event are not permitted in the space.\n* **Closed toed shoes are required** in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313714322/
+STATUS:CONFIRMED
+CREATED:20260309T165550Z
+LAST-MODIFIED:20260309T165550Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/c/4/e/600_529976398.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

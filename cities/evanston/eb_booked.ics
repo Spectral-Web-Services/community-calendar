@@ -4,22 +4,6 @@ PRODID:-//Booked//eventbrite.com//
 X-WR-CALNAME:Booked
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Romantasy Book Party with Kelly Andrew for THE GRAVEWOOD
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T190000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T203000
-UID:d405290d3d8eeb7f0a86930dbdc041a1@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1177887108%2F1186812043763%2F1%2Foriginal.20260218-230045?cro
- p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&
- fp-y=0.5&s=d683d2c63c1ee667917eae99870ad529
-DESCRIPTION:Come to Booked and meet author Kelly Andrew\, talk about fores
- t vampires\, and make-your-own book page roses!
-LOCATION:Booked\, 506 Main Street\, Evanston\, IL 60202\, Evanston\, IL
-URL:https://www.eventbrite.com/e/romantasy-book-party-with-kelly-andrew-fo
- r-the-gravewood-tickets-1983486931807
-X-SOURCE:Booked
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cloud Puppy Party at Booked with Kelly Leigh Miller
 DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260412T133000
 DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260412T143000
@@ -33,6 +17,22 @@ DESCRIPTION:Cloud Puppy is part-cloud\, part-puppy\, and absolutely adorab
 LOCATION:Booked\, 506 Main Street\, Evanston\, IL 60202\, Evanston\, IL
 URL:https://www.eventbrite.com/e/cloud-puppy-party-at-booked-with-kelly-le
  igh-miller-tickets-1983833803309
+X-SOURCE:Booked
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Romantasy Book Party with Kelly Andrew for THE GRAVEWOOD
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T190000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260409T203000
+UID:d405290d3d8eeb7f0a86930dbdc041a1@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1177887108%2F1186812043763%2F1%2Foriginal.20260218-230045?cro
+ p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&
+ fp-y=0.5&s=d683d2c63c1ee667917eae99870ad529
+DESCRIPTION:Come to Booked and meet author Kelly Andrew\, talk about fores
+ t vampires\, and make-your-own book page roses!
+LOCATION:Booked\, 506 Main Street\, Evanston\, IL 60202\, Evanston\, IL
+URL:https://www.eventbrite.com/e/romantasy-book-party-with-kelly-andrew-fo
+ r-the-gravewood-tickets-1983486931807
 X-SOURCE:Booked
 END:VEVENT
 END:VCALENDAR
