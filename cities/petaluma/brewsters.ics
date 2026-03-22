@@ -4,31 +4,6 @@ PRODID:-//Brewsters Beer Garden//brewstersbeergarden.com//
 X-WR-CALNAME:Brewsters Beer Garden
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Dan Durkin
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260321T000000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260321T030000Z
-UID:c8a66870bf31928695e965161beaae28@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1773797063410-H03ECXKW1BU6CJUPJUL7/dan_durkin.jpeg
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/20/dan-durkin
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Michael Brown
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260321T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260321T230000Z
-UID:c6c4cb009b0a8ba6d6b028045e1ff0a0@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1773797113450-YAQZYLVKBNK0KYDK9C4N/michael_brown.jp
- g
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/21/michael-brown
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tim O'Neil
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260322T000000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260322T030000Z
@@ -116,8 +91,7 @@ DTSTART;TZID=UTC;VALUE=DATE-TIME:20260329T200000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260329T230000Z
 UID:2a9ccbf2455e37d812d662424c76f9ec@brewstersbeergarden.com
 ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1774032067740-2W8HUBDF4ZH6FS10IHEN/generic_micropho
- ne.webp
+ fd49e6d1758ebf902df81c/1774116191288-LLBTD9B9JJAIOXPKM7TN/virgil_shaw.JPEG
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/3/20/virgil-shaw
@@ -663,6 +637,18 @@ ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/5/21/matt-bolton
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Third Rail Band
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260523T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260523T030000Z
+UID:440ee75555248ee1c2880618c058c06c@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1772566313605-QEI2SDK0Q1ZJ1VSH2KC8/third_rail.jpg
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/22/third-rail-band
 X-SOURCE:Brewsters Beer Garden
 END:VEVENT
 END:VCALENDAR

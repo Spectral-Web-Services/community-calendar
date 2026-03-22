@@ -4,19 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:The Lowest Pair
-DTSTART;VALUE=DATE-TIME:20260321T210000
-DTEND;VALUE=DATE-TIME:20260321T210000
-UID:90231e082b7c1f01523e88b3b9f6c8b8@songkick.com
-DESCRIPTION:The Lowest Pair at Mississippi Studios at 2026-03-21T21:00:00-
- 0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43090190-lowest-pair-at-mississippi-s
- tudios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Son Little
 DTSTART;VALUE=DATE-TIME:20260322T200000
 DTEND;VALUE=DATE-TIME:20260322T200000
@@ -38,6 +25,32 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43099993-tonina-at-mississippi-studio
  s?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gretta Seabird
+DTSTART;VALUE=DATE-TIME:20260323T190000
+DTEND;VALUE=DATE-TIME:20260323T190000
+UID:5736d4e01d597ba6b624e7a52ad2b0e0@songkick.com
+DESCRIPTION:Gretta Seabird at Mississippi Studios at 2026-03-23T19:00:00-0
+ 700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43082812-gretta-seabird-at-mississipp
+ i-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Barr Brothers
+DTSTART;VALUE=DATE-TIME:20260324T200000
+DTEND;VALUE=DATE-TIME:20260324T200000
+UID:d03f44a8e940bcffd24b4a5e90b716d5@songkick.com
+DESCRIPTION:The Barr Brothers at Mississippi Studios at 2026-03-24T20:00:0
+ 0-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/42892534-barr-brothers-at-mississippi
+ -studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

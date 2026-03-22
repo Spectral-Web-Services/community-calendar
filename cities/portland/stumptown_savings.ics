@@ -26,96 +26,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260503T093000
-DTEND;TZID=America/Los_Angeles:20260503T140000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261026T065959Z;BYDAY=SU
-DTSTAMP:20260321T020112Z
-UID:2kddbd4mdhjsvt0bgi1qjtp267@google.com
-CREATED:20260319T205052Z
-DESCRIPTION:Starting in May and every Sunday through October\, you can find
-  produce\, a wide variety of prepared foods\, cut flowers\, plants\, and co
- untless gift items at the Market the Oregonian called the Best of 2012. By 
- foot\, by bike\, by bus\, by car — however you come\, you can find our busy
-  Market at the intersection of Main and Harrison in Downtown Milwaukie\, fr
- om 9:30am to 2pm every Sunday.<br><br><a href="https://milwaukiefarmersmark
- et.com/">https://milwaukiefarmersmarket.com/</a>
-LAST-MODIFIED:20260319T205052Z
-LOCATION:Milwaukie Farmers Market\, 10723 SE Main St\, Milwaukie\, OR 97222
- \, USA
+DTSTART:20260321T160000Z
+DTEND:20260321T200000Z
+DTSTAMP:20260322T022048Z
+UID:5u36dvu2trde6klg3bcqtmh0ja@google.com
+CREATED:20260319T193509Z
+DESCRIPTION:<br>About Sunnyside Farmers Market<br><br>- Well-Organized Mark
+ et<br><br>- Family Friendly<br><br>- Over 15 Years Experience<br><br>- Pet 
+ Friendly\, Outside<br><br><a href="https://www.sunnysidefarmersmarkets.com/
+ ">https://www.sunnysidefarmersmarkets.com/</a>
+LAST-MODIFIED:20260319T193510Z
+LOCATION:Happy Valley Farmers Market\, 13231 SE Sunnyside Rd\, Clackamas\, 
+ OR 97015\, USA
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Milwaukie Farmers Market
+SUMMARY:Happy Valley Farmers Market
 TRANSP:OPAQUE
-ATTACH;FILENAME=Milwaukie Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
- ve.google.com/open?id=1qydBdPyshT0XCfSxBeaTS6atYWyT8Czh
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T090000
-DTEND;TZID=America/Los_Angeles:20260329T130000
-RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=SU
-EXDATE;TZID=America/Los_Angeles:20260329T090000
-EXDATE;TZID=America/Los_Angeles:20260405T090000
-DTSTAMP:20260321T020112Z
-UID:0bmopb76iuuno1jmkct278p6oo@google.com
-CREATED:20260319T164101Z
-DESCRIPTION:<em>The Hillsdale Farmers&#39\; Market is a year-round market h
- osting 50+ local farmers and food artisans from Oregon and Southwest Washin
- gton. Product selection includes a wide range of seasonal vegetables\, frui
- ts\, meats\, cheeses\, honey\, baked goods\, specialty and ready-to-eat foo
- ds\, native plants and herbs\, and fresh and dried cut flowers.</em>
-LAST-MODIFIED:20260319T164126Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Hillsdale Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Hillsdale Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
- ve.google.com/open?id=1YocrX9iydgZVYkXeZJWhHbV_ciKXvOJP
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260503T100000
-DTEND;TZID=America/Los_Angeles:20260503T140000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261222T075959Z;BYDAY=SU
-DTSTAMP:20260321T020112Z
-UID:7903blurtsjq6jbortnpg5cejh@google.com
-CREATED:20260319T164758Z
-DESCRIPTION:May–December 20: Every Sunday<br>January–April: Every Other Sun
- day<br>SE Stark &amp\; 76th [7700 SE Stark St.]<br>10am–2pm<br><a href="htt
- ps://www.google.com/url?q=https://www.montavillamarket.org/&amp\;sa=D&amp\;
- source=calendar&amp\;ust=1774370801611429&amp\;usg=AOvVaw3O2osdBnWmwYv56VDH
- oN_M" target="_blank">https://www.montavillamarket.org/</a>
-LAST-MODIFIED:20260319T164758Z
-LOCATION:Montavilla Farmers Market\, 7700 SE Stark St\, Portland\, OR 97215
- \, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Montavilla Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Montavilla Farmers Market.gif;FMTTYPE=image/gif:https://dri
- ve.google.com/open?id=18TAaT2KxY7uEWpy6on1hGAxbLSwYrRab
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260604T150000
-DTEND;TZID=America/Los_Angeles:20260604T190000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261030T065959Z;BYDAY=TH
-DTSTAMP:20260321T020112Z
-UID:0kv553hlm69oo46qo6i020l7el@google.com
-CREATED:20260319T170732Z
-DESCRIPTION:Come Thru Market: A Market Centering Black and Indigenous Farme
- rs and Makers <br><br>Open 1st and 3rd Mondays\, June - October\, 3-7pm.<br
- ><br><a href="https://www.comethrupdx.org/">https://www.comethrupdx.org/</a
- >
-LAST-MODIFIED:20260319T170732Z
-LOCATION:Come Thru Market\, 831 SE Salmon St\, Portland\, OR 97214\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Come Thru Black & Indigenous Market
-TRANSP:OPAQUE
+ATTACH;FILENAME=Happy Valley Farmers Market.webp;FMTTYPE=image/webp:https:/
+ /drive.google.com/open?id=1yuXYTlm0Gn5I0OwNKYK1LmNRzxdZYYzj
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260329T100000
 DTEND;TZID=America/Los_Angeles:20260329T140000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260427T065959Z;INTERVAL=2;BYDAY=SU
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:0ohtka1frluh93ghlva2q03jpg@google.com
 CREATED:20260319T164551Z
 DESCRIPTION:May–December 20: Every Sunday<br>January–April: Every Other Sun
@@ -132,10 +66,86 @@ ATTACH;FILENAME=Montavilla Farmers Market.gif;FMTTYPE=image/gif:https://dri
  ve.google.com/open?id=18TAaT2KxY7uEWpy6on1hGAxbLSwYrRab
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260502T083000
+DTEND;TZID=America/Los_Angeles:20260502T140000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261101T065959Z;BYDAY=SA
+DTSTAMP:20260322T022048Z
+UID:1k5k692ofgrlgkklojhgt19bdd@google.com
+CREATED:20260319T161601Z
+DESCRIPTION:Historic downtown Gresham\nCenter for the Arts Plaza\nNE 3rd st
+ . and NE Hood ave.\nEvery Saturday\nMay through October\n8:30am - 2:00pm
+LAST-MODIFIED:20260319T161601Z
+LOCATION:Gresham Farmers' Market\, 401 NE 2nd St\, Gresham\, OR 97030\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gresham Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Gresham Farmers Market.png;FMTTYPE=image/png:https://drive.
+ google.com/open?id=1qoRNCpw5wQSBpd0aW2HbUrhU79oCmiZr
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260604T150000
+DTEND;TZID=America/Los_Angeles:20260604T190000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261030T065959Z;BYDAY=TH
+DTSTAMP:20260322T022048Z
+UID:0kv553hlm69oo46qo6i020l7el@google.com
+CREATED:20260319T170732Z
+DESCRIPTION:Come Thru Market: A Market Centering Black and Indigenous Farme
+ rs and Makers <br><br>Open 1st and 3rd Mondays\, June - October\, 3-7pm.<br
+ ><br><a href="https://www.comethrupdx.org/">https://www.comethrupdx.org/</a
+ >
+LAST-MODIFIED:20260319T170732Z
+LOCATION:Come Thru Market\, 831 SE Salmon St\, Portland\, OR 97214\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Come Thru Black & Indigenous Market
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260404T083000
+DTEND;TZID=America/Los_Angeles:20260404T133000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261122T075959Z;BYDAY=SA
+DTSTAMP:20260322T022048Z
+UID:3oskfl4oda0kvtubnmq2on8oue@google.com
+CREATED:20260319T173139Z
+DESCRIPTION:2026 SEASON<br><br>February - March\, 10:00AM - 1:30PM<br><br>A
+ pril - November 21\, 8:30AM - 1:30PM<br><br>12375 SW 5th St.\, Beaverton\, 
+ OR 97005<br><br><a href="https://www.beavertonfarmersmarket.com/">https://w
+ ww.beavertonfarmersmarket.com/</a>
+LAST-MODIFIED:20260319T173139Z
+LOCATION:Beaverton Farmers Market\, 12375 SW 5th St\, Beaverton\, OR 97005\
+ , USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Beaverton Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Beaverton Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
+ ve.google.com/open?id=1c3fAdSK7ppQ8UDKRJz6H1Fygt421eeWZ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T150000
+DTEND;TZID=America/Los_Angeles:20260507T190000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260925T065959Z;BYDAY=TH
+DTSTAMP:20260322T022048Z
+UID:2212de81g174lqa3ptdmiv63hl@google.com
+CREATED:20260319T172319Z
+DESCRIPTION:Thursdays from 3-7 pm <br>at Farmington Market Place in Aloha<b
+ r>17675 SW Farmington Rd\, Aloha\, OR 97007 <br>Market open from  <br><br>M
+ ay through September<br><a href="https://alohacommunityfarmersmarket.org/">
+ https://alohacommunityfarmersmarket.org/</a>
+LAST-MODIFIED:20260319T172319Z
+LOCATION:Aloha Community Farmers' Market\, 17675 SW Farmington Rd\, Aloha\,
+  OR 97007\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Aloha Community Farmers' Market
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260325T140000
 DTEND;TZID=America/Los_Angeles:20260325T180000
 RRULE:FREQ=WEEKLY;BYDAY=WE
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:1eeola3ipmeetsr44s6tec0j68@google.com
 CREATED:20260319T171304Z
 DESCRIPTION:People’s Farmers’ Market is the longest running year-round mark
@@ -153,87 +163,9 @@ SUMMARY:People's Farmer's Market
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T150000
-DTEND;TZID=America/Los_Angeles:20260507T190000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260925T065959Z;BYDAY=TH
-DTSTAMP:20260321T020112Z
-UID:2212de81g174lqa3ptdmiv63hl@google.com
-CREATED:20260319T172319Z
-DESCRIPTION:Thursdays from 3-7 pm <br>at Farmington Market Place in Aloha<b
- r>17675 SW Farmington Rd\, Aloha\, OR 97007 <br>Market open from  <br><br>M
- ay through September<br><a href="https://alohacommunityfarmersmarket.org/">
- https://alohacommunityfarmersmarket.org/</a>
-LAST-MODIFIED:20260319T172319Z
-LOCATION:Aloha Community Farmers' Market\, 17675 SW Farmington Rd\, Aloha\,
-  OR 97007\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Aloha Community Farmers' Market
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260321T100000
-DTEND;TZID=America/Los_Angeles:20260321T133000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260329T065959Z;BYDAY=SA
-DTSTAMP:20260321T020112Z
-UID:2q6m1v1p3kc18n6obmaq222c34@google.com
-CREATED:20260319T173021Z
-DESCRIPTION:2026 SEASON\n\nFebruary - March\, 10:00AM - 1:30PM\n\nApril - N
- ovember 21\, 8:30AM - 1:30PM\n\n12375 SW 5th St.\, Beaverton\, OR 97005
-LAST-MODIFIED:20260319T173021Z
-LOCATION:Beaverton Farmers Market\, 12375 SW 5th St\, Beaverton\, OR 97005\
- , USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Beaverton Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Beaverton Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
- ve.google.com/open?id=1c3fAdSK7ppQ8UDKRJz6H1Fygt421eeWZ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260502T090000
-DTEND;TZID=America/Los_Angeles:20260502T140000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261025T065959Z;BYDAY=SA
-DTSTAMP:20260321T020112Z
-UID:2oc1lpt4hjblce2gfiterpj35t@google.com
-CREATED:20260319T192710Z
-DESCRIPTION:We are located on the corner of NW Cornell &amp\; Murray Roads\
- , Portland 97229<br><br><a href="https://www.cedarmillfarmersmarket.org/">h
- ttps://www.cedarmillfarmersmarket.org/</a>
-LAST-MODIFIED:20260319T192710Z
-LOCATION:Cedar Mill Farmer's Market\, 1027 NW Murray Rd\, Portland\, OR 972
- 29\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Cedar Mills Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Cedar Mills Farmers Market.webp;FMTTYPE=image/webp:https://
- drive.google.com/open?id=1SnxbwCGXUSTpfoA7bteu_ueExtxKNfpk
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260602T100000
-DTEND;TZID=America/Los_Angeles:20260602T140000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260930T065959Z;BYDAY=TU
-DTSTAMP:20260321T020112Z
-UID:713he7dlp9io7q0clbqbkisa23@google.com
-CREATED:20260319T170409Z
-DESCRIPTION:<p>We are back on the hill! Our location is in the courtyard of
-  the OHSU Auditorium.</p><p>Hours 10 a.m. to 2 p.m. every Tuesday June thro
- ugh September. The last day of the market we celebrate with an annual Harve
- st Festival!<br><a href="https://www.ohsu.edu/farmers-market">https://www.o
- hsu.edu/farmers-market</a></p>
-LAST-MODIFIED:20260319T170409Z
-LOCATION:OHSU Farmers Market\, 3286 SW Research Dr\, Portland\, OR 97239\, 
- USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:OHSU Farmers Marlet
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20260404T170000Z
 DTEND:20260404T210000Z
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:3i5kb49cf10nipjhegi6gfsqvc@google.com
 CREATED:20260319T205351Z
 DESCRIPTION:Oregon City Farmers Market opened in May 2005 in collaboration 
@@ -255,9 +187,48 @@ ATTACH;FILENAME=Oregon City Farmers Market.png;FMTTYPE=image/png:https://dr
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260502T090000
+DTEND;TZID=America/Los_Angeles:20260502T140000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261025T065959Z;BYDAY=SA
+DTSTAMP:20260322T022048Z
+UID:2oc1lpt4hjblce2gfiterpj35t@google.com
+CREATED:20260319T192710Z
+DESCRIPTION:We are located on the corner of NW Cornell &amp\; Murray Roads\
+ , Portland 97229<br><br><a href="https://www.cedarmillfarmersmarket.org/">h
+ ttps://www.cedarmillfarmersmarket.org/</a>
+LAST-MODIFIED:20260319T192710Z
+LOCATION:Cedar Mill Farmer's Market\, 1027 NW Murray Rd\, Portland\, OR 972
+ 29\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Cedar Mills Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Cedar Mills Farmers Market.webp;FMTTYPE=image/webp:https://
+ drive.google.com/open?id=1SnxbwCGXUSTpfoA7bteu_ueExtxKNfpk
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260321T100000
+DTEND;TZID=America/Los_Angeles:20260321T133000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260329T065959Z;BYDAY=SA
+DTSTAMP:20260322T022048Z
+UID:2q6m1v1p3kc18n6obmaq222c34@google.com
+CREATED:20260319T173021Z
+DESCRIPTION:2026 SEASON\n\nFebruary - March\, 10:00AM - 1:30PM\n\nApril - N
+ ovember 21\, 8:30AM - 1:30PM\n\n12375 SW 5th St.\, Beaverton\, OR 97005
+LAST-MODIFIED:20260319T173021Z
+LOCATION:Beaverton Farmers Market\, 12375 SW 5th St\, Beaverton\, OR 97005\
+ , USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Beaverton Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Beaverton Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
+ ve.google.com/open?id=1c3fAdSK7ppQ8UDKRJz6H1Fygt421eeWZ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260502T090000
 DTEND;TZID=America/Los_Angeles:20260502T130500
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261101T065959Z;BYDAY=SA
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:6omveckt5nsjcntb9ldupnrf84@google.com
 CREATED:20260319T171802Z
 DESCRIPTION:Shop local and support community! <br>May - October • Every Sat
@@ -275,93 +246,10 @@ ATTACH;FILENAME=Rocky Butte Farmers Market.webp;FMTTYPE=image/webp:https://
  drive.google.com/open?id=1i5-K6uk8z0e-jTKAKVz-n8AUr9BIGCKT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260321T160000Z
-DTEND:20260321T200000Z
-DTSTAMP:20260321T020112Z
-UID:5u36dvu2trde6klg3bcqtmh0ja@google.com
-CREATED:20260319T193509Z
-DESCRIPTION:<br>About Sunnyside Farmers Market<br><br>- Well-Organized Mark
- et<br><br>- Family Friendly<br><br>- Over 15 Years Experience<br><br>- Pet 
- Friendly\, Outside<br><br><a href="https://www.sunnysidefarmersmarkets.com/
- ">https://www.sunnysidefarmersmarkets.com/</a>
-LAST-MODIFIED:20260319T193510Z
-LOCATION:Happy Valley Farmers Market\, 13231 SE Sunnyside Rd\, Clackamas\, 
- OR 97015\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Happy Valley Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Happy Valley Farmers Market.webp;FMTTYPE=image/webp:https:/
- /drive.google.com/open?id=1yuXYTlm0Gn5I0OwNKYK1LmNRzxdZYYzj
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T160000
-DTEND;TZID=America/Los_Angeles:20260507T200000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261030T065959Z;BYDAY=TH
-DTSTAMP:20260321T020112Z
-UID:6hlh8iv88bhq0ll97qulpurqdu@google.com
-CREATED:20260319T170043Z
-DESCRIPTION:Cully Farmers Market is a project funded and led by The Native 
- American Youth &amp\; Family Center<br><br>Find us at 42nd Ave &amp\; NE Al
- berta Street<br><br>Thursdays 4pm - 8pm<br><br>May - October 2026<br><a hre
- f="https://cullyfarmersmarket.com/">https://cullyfarmersmarket.com/</a>
-LAST-MODIFIED:20260319T170043Z
-LOCATION:Cully Farmers Market\, 5011 NE 42nd Ave\, Portland\, OR 97218\, US
- A
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Cully Farmers Market
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260404T170000Z
-DTEND:20260404T210000Z
-DTSTAMP:20260321T020112Z
-UID:1t9vc5s714692vel0cujo4g8au@google.com
-CREATED:20260319T205302Z
-DESCRIPTION:Oregon City Farmers Market opened in May 2005 in collaboration 
- with Clackamas County\, Oregon State University Extension\, the City of Ore
- gon City\, Clackamas Soil and Water Conservation District and volunteers. I
- n 2011 OCFM became a 501c3 allowing tax deductible donations.<br><br><a hre
- f="https://orcityfarmersmarket.com/">https://orcityfarmersmarket.com/</a>
-LAST-MODIFIED:20260319T205302Z
-LOCATION:Oregon City Farmers Market\, Green Lot #1\, Clairmont Drive\, Betw
- een S Beavercreek Road and\, N Douglas Loop\, Oregon City\, OR 97045\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Oregon City Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Oregon City Farmers Market.png;FMTTYPE=image/png:https://dr
- ive.google.com/open?id=1gGdxb_bMZTxVZHW6QtKIdt2-x5E6jCNV
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260502T090000
-DTEND;TZID=America/Los_Angeles:20260502T140000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261101T065959Z;BYDAY=SA,SU
-DTSTAMP:20260321T020112Z
-UID:5vugbajep00f8dbrnne5f6a8fk@google.com
-CREATED:20260319T192158Z
-DESCRIPTION:Situated in Tigard\, Oregon\, at the Canterbury Square Center (
- 14389 SW Pacific Hwy)\, the market operates both Saturdays and Sundays from
-  9:00 am until 2:00 pm. This seasonal market provides a convenient location
-  for the community to gather and access local goods right at the foot of Bu
- ll Mountain.<br><br><a href="https://bullmountainfarmersmarket.com/">https:
- //bullmountainfarmersmarket.com/</a>
-LAST-MODIFIED:20260319T192158Z
-LOCATION:The Bull Mountain Farmers Market\, 14389 SW Pacific Hwy\, Tigard\,
-  OR 97224\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Bull Mountain Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Bull Mountain Farmers Market.jpg;FMTTYPE=image/jpeg:https:/
- /drive.google.com/open?id=1tZ0pQiKPvyxQR-QyBLWn75w22xk8wDUH
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260502T083000
 DTEND;TZID=America/Los_Angeles:20260502T133000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261101T065959Z;BYDAY=SA
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:3tsl8bu25cs0ccrr5opfqlr6en@google.com
 CREATED:20260319T195123Z
 DESCRIPTION:<p>Opening Day 2026:<br>Saturday\, May 9\, 2026<br>8:30am–1:30p
@@ -383,9 +271,71 @@ SUMMARY:Lake Oswego Farmers' Market
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260503T100000
+DTEND;TZID=America/Los_Angeles:20260503T140000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261222T075959Z;BYDAY=SU
+DTSTAMP:20260322T022048Z
+UID:7903blurtsjq6jbortnpg5cejh@google.com
+CREATED:20260319T164758Z
+DESCRIPTION:May–December 20: Every Sunday<br>January–April: Every Other Sun
+ day<br>SE Stark &amp\; 76th [7700 SE Stark St.]<br>10am–2pm<br><a href="htt
+ ps://www.google.com/url?q=https://www.montavillamarket.org/&amp\;sa=D&amp\;
+ source=calendar&amp\;ust=1774370801611429&amp\;usg=AOvVaw3O2osdBnWmwYv56VDH
+ oN_M" target="_blank">https://www.montavillamarket.org/</a>
+LAST-MODIFIED:20260319T164758Z
+LOCATION:Montavilla Farmers Market\, 7700 SE Stark St\, Portland\, OR 97215
+ \, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Montavilla Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Montavilla Farmers Market.gif;FMTTYPE=image/gif:https://dri
+ ve.google.com/open?id=18TAaT2KxY7uEWpy6on1hGAxbLSwYrRab
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260404T170000Z
+DTEND:20260404T210000Z
+DTSTAMP:20260322T022048Z
+UID:1t9vc5s714692vel0cujo4g8au@google.com
+CREATED:20260319T205302Z
+DESCRIPTION:Oregon City Farmers Market opened in May 2005 in collaboration 
+ with Clackamas County\, Oregon State University Extension\, the City of Ore
+ gon City\, Clackamas Soil and Water Conservation District and volunteers. I
+ n 2011 OCFM became a 501c3 allowing tax deductible donations.<br><br><a hre
+ f="https://orcityfarmersmarket.com/">https://orcityfarmersmarket.com/</a>
+LAST-MODIFIED:20260319T205302Z
+LOCATION:Oregon City Farmers Market\, Green Lot #1\, Clairmont Drive\, Betw
+ een S Beavercreek Road and\, N Douglas Loop\, Oregon City\, OR 97045\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Oregon City Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Oregon City Farmers Market.png;FMTTYPE=image/png:https://dr
+ ive.google.com/open?id=1gGdxb_bMZTxVZHW6QtKIdt2-x5E6jCNV
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T160000
+DTEND;TZID=America/Los_Angeles:20260507T200000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261030T065959Z;BYDAY=TH
+DTSTAMP:20260322T022048Z
+UID:6hlh8iv88bhq0ll97qulpurqdu@google.com
+CREATED:20260319T170043Z
+DESCRIPTION:Cully Farmers Market is a project funded and led by The Native 
+ American Youth &amp\; Family Center<br><br>Find us at 42nd Ave &amp\; NE Al
+ berta Street<br><br>Thursdays 4pm - 8pm<br><br>May - October 2026<br><a hre
+ f="https://cullyfarmersmarket.com/">https://cullyfarmersmarket.com/</a>
+LAST-MODIFIED:20260319T170043Z
+LOCATION:Cully Farmers Market\, 5011 NE 42nd Ave\, Portland\, OR 97218\, US
+ A
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Cully Farmers Market
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20260418T170000Z
 DTEND:20260418T210000Z
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:0m4qhgdf2g0cunpgi6h2cjr4hb@google.com
 CREATED:20260319T205314Z
 DESCRIPTION:Oregon City Farmers Market opened in May 2005 in collaboration 
@@ -406,10 +356,77 @@ ATTACH;FILENAME=Oregon City Farmers Market.png;FMTTYPE=image/png:https://dr
  ive.google.com/open?id=1gGdxb_bMZTxVZHW6QtKIdt2-x5E6jCNV
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260503T093000
+DTEND;TZID=America/Los_Angeles:20260503T140000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261026T065959Z;BYDAY=SU
+DTSTAMP:20260322T022048Z
+UID:2kddbd4mdhjsvt0bgi1qjtp267@google.com
+CREATED:20260319T205052Z
+DESCRIPTION:Starting in May and every Sunday through October\, you can find
+  produce\, a wide variety of prepared foods\, cut flowers\, plants\, and co
+ untless gift items at the Market the Oregonian called the Best of 2012. By 
+ foot\, by bike\, by bus\, by car — however you come\, you can find our busy
+  Market at the intersection of Main and Harrison in Downtown Milwaukie\, fr
+ om 9:30am to 2pm every Sunday.<br><br><a href="https://milwaukiefarmersmark
+ et.com/">https://milwaukiefarmersmarket.com/</a>
+LAST-MODIFIED:20260319T205052Z
+LOCATION:Milwaukie Farmers Market\, 10723 SE Main St\, Milwaukie\, OR 97222
+ \, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Milwaukie Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Milwaukie Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
+ ve.google.com/open?id=1qydBdPyshT0XCfSxBeaTS6atYWyT8Czh
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260502T090000
+DTEND;TZID=America/Los_Angeles:20260502T140000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261101T065959Z;BYDAY=SA,SU
+DTSTAMP:20260322T022048Z
+UID:5vugbajep00f8dbrnne5f6a8fk@google.com
+CREATED:20260319T192158Z
+DESCRIPTION:Situated in Tigard\, Oregon\, at the Canterbury Square Center (
+ 14389 SW Pacific Hwy)\, the market operates both Saturdays and Sundays from
+  9:00 am until 2:00 pm. This seasonal market provides a convenient location
+  for the community to gather and access local goods right at the foot of Bu
+ ll Mountain.<br><br><a href="https://bullmountainfarmersmarket.com/">https:
+ //bullmountainfarmersmarket.com/</a>
+LAST-MODIFIED:20260319T192158Z
+LOCATION:The Bull Mountain Farmers Market\, 14389 SW Pacific Hwy\, Tigard\,
+  OR 97224\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bull Mountain Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Bull Mountain Farmers Market.jpg;FMTTYPE=image/jpeg:https:/
+ /drive.google.com/open?id=1tZ0pQiKPvyxQR-QyBLWn75w22xk8wDUH
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260602T100000
+DTEND;TZID=America/Los_Angeles:20260602T140000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260930T065959Z;BYDAY=TU
+DTSTAMP:20260322T022048Z
+UID:713he7dlp9io7q0clbqbkisa23@google.com
+CREATED:20260319T170409Z
+DESCRIPTION:<p>We are back on the hill! Our location is in the courtyard of
+  the OHSU Auditorium.</p><p>Hours 10 a.m. to 2 p.m. every Tuesday June thro
+ ugh September. The last day of the market we celebrate with an annual Harve
+ st Festival!<br><a href="https://www.ohsu.edu/farmers-market">https://www.o
+ hsu.edu/farmers-market</a></p>
+LAST-MODIFIED:20260319T170409Z
+LOCATION:OHSU Farmers Market\, 3286 SW Research Dr\, Portland\, OR 97239\, 
+ USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OHSU Farmers Marlet
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260502T090000
 DTEND;TZID=America/Los_Angeles:20260502T140000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261101T065959Z;BYDAY=SA
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:0p2th87h9sv19i1qs1oikh75kf@google.com
 CREATED:20260319T193550Z
 DESCRIPTION:<br>About Sunnyside Farmers Market<br><br>- Well-Organized Mark
@@ -429,11 +446,33 @@ ATTACH;FILENAME=Happy Valley Farmers Market.webp;FMTTYPE=image/webp:https:/
  /drive.google.com/open?id=1yuXYTlm0Gn5I0OwNKYK1LmNRzxdZYYzj
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260329T090000
+DTEND;TZID=America/Los_Angeles:20260329T130000
+RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=SU
+EXDATE;TZID=America/Los_Angeles:20260329T090000
+EXDATE;TZID=America/Los_Angeles:20260405T090000
+DTSTAMP:20260322T022048Z
+UID:0bmopb76iuuno1jmkct278p6oo@google.com
+CREATED:20260319T164101Z
+DESCRIPTION:<em>The Hillsdale Farmers&#39\; Market is a year-round market h
+ osting 50+ local farmers and food artisans from Oregon and Southwest Washin
+ gton. Product selection includes a wide range of seasonal vegetables\, frui
+ ts\, meats\, cheeses\, honey\, baked goods\, specialty and ready-to-eat foo
+ ds\, native plants and herbs\, and fresh and dried cut flowers.</em>
+LAST-MODIFIED:20260319T164126Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hillsdale Farmers Market
+TRANSP:OPAQUE
+ATTACH;FILENAME=Hillsdale Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
+ ve.google.com/open?id=1YocrX9iydgZVYkXeZJWhHbV_ciKXvOJP
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260322T090000
 DTEND;TZID=America/Los_Angeles:20260322T130000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260412T065959Z;BYDAY=SU
 EXDATE;TZID=America/Los_Angeles:20260405T090000
-DTSTAMP:20260321T020112Z
+DTSTAMP:20260322T022048Z
 UID:6s49m6m2lne8s8j7ceesac8tv4@google.com
 CREATED:20260319T164046Z
 DESCRIPTION:<em>The Hillsdale Farmers' Market is a year-round market hostin
@@ -452,44 +491,5 @@ SUMMARY:Hillsdale Farmers Market
 TRANSP:OPAQUE
 ATTACH;FILENAME=Hillsdale Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
  ve.google.com/open?id=1YocrX9iydgZVYkXeZJWhHbV_ciKXvOJP
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260404T083000
-DTEND;TZID=America/Los_Angeles:20260404T133000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261122T075959Z;BYDAY=SA
-DTSTAMP:20260321T020112Z
-UID:3oskfl4oda0kvtubnmq2on8oue@google.com
-CREATED:20260319T173139Z
-DESCRIPTION:2026 SEASON<br><br>February - March\, 10:00AM - 1:30PM<br><br>A
- pril - November 21\, 8:30AM - 1:30PM<br><br>12375 SW 5th St.\, Beaverton\, 
- OR 97005<br><br><a href="https://www.beavertonfarmersmarket.com/">https://w
- ww.beavertonfarmersmarket.com/</a>
-LAST-MODIFIED:20260319T173139Z
-LOCATION:Beaverton Farmers Market\, 12375 SW 5th St\, Beaverton\, OR 97005\
- , USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Beaverton Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Beaverton Farmers Market.jpg;FMTTYPE=image/jpeg:https://dri
- ve.google.com/open?id=1c3fAdSK7ppQ8UDKRJz6H1Fygt421eeWZ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260502T083000
-DTEND;TZID=America/Los_Angeles:20260502T140000
-RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261101T065959Z;BYDAY=SA
-DTSTAMP:20260321T020112Z
-UID:1k5k692ofgrlgkklojhgt19bdd@google.com
-CREATED:20260319T161601Z
-DESCRIPTION:Historic downtown Gresham\nCenter for the Arts Plaza\nNE 3rd st
- . and NE Hood ave.\nEvery Saturday\nMay through October\n8:30am - 2:00pm
-LAST-MODIFIED:20260319T161601Z
-LOCATION:Gresham Farmers' Market\, 401 NE 2nd St\, Gresham\, OR 97030\, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Gresham Farmers Market
-TRANSP:OPAQUE
-ATTACH;FILENAME=Gresham Farmers Market.png;FMTTYPE=image/png:https://drive.
- google.com/open?id=1qoRNCpw5wQSBpd0aW2HbUrhU79oCmiZr
 END:VEVENT
 END:VCALENDAR

@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313432537@meetup.com
-SEQUENCE:1
-DTSTAMP:20260321T013716Z
-DTSTART;TZID=America/New_York:20260321T130000
-DTEND;TZID=America/New_York:20260321T160000
-SUMMARY:Intro to Home Assistant and ESPHome
-DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is hosting our first class on Home Automation using Home Assistant!\n\nIn this class you'll learn the basics of the Home Assistant smart home platform:\n\n* What it is\n* What it's used for\n* Basic Configurations\n\nAdditionally\, students will get hands-on experience creating a custom smart home device with ESPHome by making a Home Assistant compatible temperature and humidity sensor.\n\nStudents are required to bring a laptop with the Google Chrome Browser installed\, and a USB-A port. You can [download Google Chrome here.](https://www.google.com/chrome/)\n\nThis class is open to the public\, you do NOT need to be a MAKE Roanoke member to attend. It is suitable for beginners\, and is recommended for ages 16 and up.\n\nThe cost to attend is $45\, and the cost for MAKE Roanoke members is $35. MAKE Roanoke members can also bring one guest at the discounted member rate!\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at [https://mkroa.org/waiver](https://mkroa.org/waiver "https://mkroa.org/waiver")\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313432537/
-STATUS:CONFIRMED
-CREATED:20260219T180837Z
-LAST-MODIFIED:20260219T180837Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/0/9/6/600_532816534.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313744165@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260322T110000
 DTEND;TZID=America/New_York:20260322T170000
 SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313620583@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260406T200000
 DTEND;TZID=America/New_York:20260406T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313714322@meetup.com
 SEQUENCE:1
-DTSTAMP:20260321T013716Z
+DTSTAMP:20260322T015938Z
 DTSTART;TZID=America/New_York:20260409T180000
 DTEND;TZID=America/New_York:20260409T190000
 SUMMARY:Maker Minis: Intro to Metrology
@@ -173,6 +158,21 @@ CREATED:20260309T165550Z
 LAST-MODIFIED:20260309T165550Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/c/4/e/600_529976398.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313817917@meetup.com
+SEQUENCE:1
+DTSTAMP:20260322T015938Z
+DTSTART;TZID=America/New_York:20260411T100000
+DTEND;TZID=America/New_York:20260411T130000
+SUMMARY:MAKE Roanoke @ Go Green for Grandin
+DESCRIPTION:MAKE Roanoke\nMAKE Roanoke will be participating in the Roanoke Public Library's Go Green for Grandin Event at the Raleigh Court Branch Library on April 11 from 10 AM-1PM.\n\nThe event promises to have live music\, several vendors\, snacks\, and fun! Go Green for Grandin encourages our community to go outside\, take care of our planet\, and invest in sustainable practices. For more information\, please call the library at 540-853-2240.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313817917/
+STATUS:CONFIRMED
+CREATED:20260317T150746Z
+LAST-MODIFIED:20260317T150746Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/c/5/f/600_533247743.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

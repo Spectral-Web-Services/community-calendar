@@ -9,48 +9,6 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
 SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T200000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T200000
-UID:88a87e863792b99ed4eedf31048f6598@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T160000
-UID:89416a5a70bc855867747dcb3508e4d0@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Emerson Colonial Theatre": "https://www.ticketmaster.com/event/Z7r9jZ1A74fef"}
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A743GE"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T140000
-UID:92f0284f129e2ab809f772c7830f5046@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A743GE
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T140000
 UID:0b9697b31cecc3b282797398b82e0915@ticketmaster.com
@@ -59,36 +17,6 @@ ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
 DESCRIPTION:
 LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
 X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-ID:lyric_stage
-SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
-DTSTART;VALUE=DATE-TIME:20260321T150000
-DTEND;VALUE=DATE-TIME:20260321T173000
-UID:fd6968f08242b3c9d3197b0ae7f08a72@lyricstage.com
-ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
-DESCRIPTION:
-LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
-URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
- rgeous/
-X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/in-the-balance/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:IN THE BALANCE
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T213000
-UID:a9b90124fa44e70b53a97120bfef4cdb@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 26/01/bdc-in-the-balance-boston-mailchimp-800x800-2-scaled.jpg?resize=300%
- 2C300&gravity
-DESCRIPTION:
-LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/in-the-balance/
-X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Colonial Theatre": "https://www.ticketmaster.com/event/Z7r9jZ1A74fep"}
@@ -145,21 +73,6 @@ DESCRIPTION:
 LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
 X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-ID:lyric_stage
-SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
-DTSTART;VALUE=DATE-TIME:20260322T150000
-DTEND;VALUE=DATE-TIME:20260322T173000
-UID:e543c2af23d745435365cc10db74d408@lyricstage.com
-ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
-DESCRIPTION:
-LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
-URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
- rgeous/
-X-SOURCE:Lyric Stage Company
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A74fe9"}
@@ -4265,6 +4178,61 @@ SUMMARY:Something Rotten
 DTSTART;VALUE=DATE-TIME:20260521T193000
 DTEND;VALUE=DATE-TIME:20260521T220000
 UID:d27d7923005c033bc9c165be97861802@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1247439"}
+X-SOURCE-ID:ovationtix_wheelock
+SUMMARY:Charlotte's Web
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260522T130000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260522T150000
+UID:ebc9f4842adc3266159dfd2c954e3050@ovationtix.com
+DESCRIPTION:
+LOCATION:Wheelock Family Theatre
+URL:https://ci.ovationtix.com/177/production/1247439
+X-SOURCE:Wheelock Family Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Swept Away
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260522T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260522T213000
+UID:d70b40492dc7b15c94eb18dee3e221c2@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/03/FINAL-Swept-Away-900x900-BTS.png?resize=300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/swept-away/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260522T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260522T213000
+UID:298708691b29336fb05ea934325ce897@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260522T200000
+DTEND;VALUE=DATE-TIME:20260522T223000
+UID:2d9e9f1807d70498e21b4b0308346b8d@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
  25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
 DESCRIPTION:

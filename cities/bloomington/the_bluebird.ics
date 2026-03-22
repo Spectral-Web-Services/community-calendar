@@ -4,18 +4,6 @@ PRODID:-//The Bluebird//thebluebird.ws//
 X-WR-CALNAME:The Bluebird
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:Lucero
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T200000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T200000
-UID:950d423f992e793dfc9f3574397187cc@thebluebird.ws
-ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2025/1
- 0/LUCERO-BIRD.jpg
-DESCRIPTION:Lucero
-LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
-URL:https://wl.seetickets.us/event/Lucero/668522?afflky=BluebirdNightclub
-X-SOURCE:The Bluebird
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hippies & Cowboys
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T200000
@@ -130,6 +118,19 @@ DESCRIPTION:
 LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
 URL:https://wl.seetickets.us/event/Rod-Tuffcurls-and-The-Benchpress/682400
  ?afflky=BluebirdNightclub
+X-SOURCE:The Bluebird
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Johnny Socko
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T200000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T200000
+UID:2646dd741d01fe9841b5eaa81c441995@thebluebird.ws
+ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
+ 2/JOHNNY-SOCKO-WEB-BIRD-2026.jpg
+DESCRIPTION:
+LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
+URL:https://wl.seetickets.us/event/Johnny-Socko/680961?afflky=BluebirdNigh
+ tclub
 X-SOURCE:The Bluebird
 END:VEVENT
 END:VCALENDAR

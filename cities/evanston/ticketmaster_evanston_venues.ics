@@ -4,19 +4,6 @@ PRODID:-//Ticketmaster/Evanston Venues//ticketmaster.com//
 X-WR-CALNAME:Ticketmaster/Evanston Venues
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-SUMMARY:Charlie Parr w. Samuel Locke Ward
-DTSTART;TZID=CDT;VALUE=DATE-TIME:20260320T200000
-DTEND;TZID=CDT;VALUE=DATE-TIME:20260320T200000
-UID:d49a6a97bc2c5a62abeb731ef194645a@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/e9d/0ee3dd3b-e838-4
- fae-81b9-fe01bc85fe9d_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
-URL:https://www.ticketweb.com/event/charlie-parr-w-samuel-locke-space-tick
- ets/13973954
-X-SOURCE:Ticketmaster/Evanston Venues
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wendy and DB
 DTSTART;TZID=CDT;VALUE=DATE-TIME:20260321T110000
 DTEND;TZID=CDT;VALUE=DATE-TIME:20260321T110000
@@ -808,6 +795,20 @@ ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-4
 DESCRIPTION:
 LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
 URL:https://www.ticketweb.com/event/toronzo-cannon-space-tickets/14141994
+X-SOURCE:Ticketmaster/Evanston Venues
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hot Flash Dance feat. DJ Mary Nisi. A Punctual Party for Rowdy Wom
+ en
+DTSTART;TZID=CDT;VALUE=DATE-TIME:20260522T190000
+DTEND;TZID=CDT;VALUE=DATE-TIME:20260522T190000
+UID:f66c7eaf33388df7146767e461708433@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-4
+ 56c-a060-2758be94e060_105881_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
+URL:https://www.ticketweb.com/event/hot-flash-dance-feat-dj-space-tickets/
+ 14093144
 X-SOURCE:Ticketmaster/Evanston Venues
 END:VEVENT
 END:VCALENDAR
