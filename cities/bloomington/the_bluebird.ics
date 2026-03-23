@@ -4,19 +4,6 @@ PRODID:-//The Bluebird//thebluebird.ws//
 X-WR-CALNAME:The Bluebird
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:Hippies & Cowboys
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260321T200000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260321T200000
-UID:8689dcee1958aff2051610e0d1bd5026@thebluebird.ws
-ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
- 1/HIPPIES-COWBOYS-WEB-BIRD-2.jpg
-DESCRIPTION:Hippies & Cowboys w/ Zion Crossroads
-LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
-URL:https://wl.seetickets.us/event/Hippies-and-Cowboys/676988?afflky=Blueb
- irdNightclub
-X-SOURCE:The Bluebird
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Eric Paslay
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260322T200000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260322T200000
@@ -60,8 +47,8 @@ SUMMARY:Jukebox Luke
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T210000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T210000
 UID:9bdce591ded2db920300d2d4530a665c@thebluebird.ws
-ATTACH;FMTTYPE=image/jpeg:https://cdn.vor.us/event/683938/a3323c20a2ba4e71
- b5953d67a7cbf91d.image!jpeg.1874681.jpg.Jboxluke.jpg
+ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
+ 3/JUKEBOX-LUKE-BIRD.jpg
 DESCRIPTION:
 LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
 URL:https://wl.seetickets.us/event/Jukebox-Luke/683938?afflky=BluebirdNigh
@@ -130,6 +117,19 @@ ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
 DESCRIPTION:
 LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
 URL:https://wl.seetickets.us/event/Johnny-Socko/680961?afflky=BluebirdNigh
+ tclub
+X-SOURCE:The Bluebird
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Molly Tuttle
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260418T200000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T200000
+UID:7fbf64f8b4b81dff45a8ff49d923a441@thebluebird.ws
+ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
+ 1/MOLLY-TUTTLE-WEB-BIRD.jpg
+DESCRIPTION:
+LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
+URL:https://wl.seetickets.us/event/Molly-Tuttle/679226?afflky=BluebirdNigh
  tclub
 X-SOURCE:The Bluebird
 END:VEVENT

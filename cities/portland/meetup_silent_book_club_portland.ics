@@ -5,40 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Silent Book Club Portland
 X-WR-CALNAME:Silent Book Club Portland
-BEGIN:VTIMEZONE
-TZID:America/Los_Angeles
-TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
-X-LIC-LOCATION:America/Los_Angeles
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0800
-TZOFFSETTO:-0700
-TZNAME:PDT
-DTSTART:19700308T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0700
-TZOFFSETTO:-0800
-TZNAME:PST
-DTSTART:19701101T020000
-RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:event_313752057@meetup.com
-SEQUENCE:1
-DTSTAMP:20260322T022058Z
-DTSTART;TZID=America/Los_Angeles:20260322T140000
-DTEND;TZID=America/Los_Angeles:20260322T160000
-SUMMARY:SBC Portland x Bold Coffee & Books
-DESCRIPTION:Silent Book Club Portland\n📚✨ Silent Book Club Portland – March Meetup! ✨📚\n\nOur next Silent Book Club Portland gathering is happening next weekend!\n\nAs always\, the format is simple:\n✨ Bring any book you’d like\n✨ Read silently for about an hour\n✨ Stay after to chat\, share recommendations\, or simply enjoy the cozy reading vibe\n\nSince International Women’s Day just passed (March 8th)\, let’s celebrate by bringing a book written by a woman if you can (‼️🥺)\, whether it’s a favorite author\, a new discovery\, or someone whose work you’ve been meaning to read. 💜\n\n🗓 Date: March 22nd\n⏰ Time: 2 pm\n📍 Location: Bold Coffee & Books\, 1755 SW Jefferson St\, Portland\, OR 97205\n\nBring a friend\, bring a book\, and let’s spend a cozy Sunday afternoon reading together. 📖✨ As always\, please remember to support our host by grabbing a drink or snack while you’re there! ☕️🥐 Can’t wait to see you all soon!
-URL;VALUE=URI:https://www.meetup.com/silent-book-club-portland/events/313752057/
-STATUS:CONFIRMED
-CREATED:20260312T005621Z
-LAST-MODIFIED:20260312T005621Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/0/5/e/600_533157438.jpeg
-END:VEVENT
-X-ORIGINAL-URL:https://www.meetup.com/silent-book-club-portland/events/ical/
+X-ORIGINAL-URL:https://www.meetup.com/silent-book-club-portland/events/ica
+ l/
 X-WR-CALNAME:Silent Book Club Portland
 END:VCALENDAR

@@ -7,58 +7,6 @@ X-WR-CALNAME:Roanoke Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1435"}
-X-SOURCE-ID:salem_civic_center
-X-SOURCE:Salem Civic Center
-URL:https://www.salemva.gov/calendar.aspx?EID=1435
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1435
-DTEND;TZID=America/New_York;VALUE=DATE:20260323
-DTSTAMP;TZID=America/New_York:20260228T130420
-DTSTART;TZID=America/New_York;VALUE=DATE:20260322
-LAST-MODIFIED;TZID=America/New_York:20260228T130420
-LOCATION:Salem Civic Center - 1001 Roanoke Blvd.  Salem VA 24153
-SEQUENCE:0
-SUMMARY:Blue Ridge Sports Car Club
-UID:1435
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Meetup Roanoke Spiritual": "https://www.meetup.com/roanoke-spiritual-experiences-group/events/313553471/"}
-X-SOURCE-ID:meetup_roanoke_spiritual
-X-SOURCE:Meetup Roanoke Spiritual
-UID:event_313553471@meetup.com
-SEQUENCE:1
-DTSTAMP:20260322T015939Z
-DTSTART;TZID=America/New_York:20260322T100000
-DTEND;TZID=America/New_York:20260322T170000
-SUMMARY:Explore Spiritual Freedom with Eckankar at the 2026 Festival of Light!
-DESCRIPTION:Roanoke Spiritual Experiences Group\nLocation:\nBoonsboro Ruritan Club\n1499 Coffee Road\nLynchburg VA 24503\nDescription:\nAre you ready to enhance your spiritual journey or curious about reincarnation? Learn how to find divine love in everyday life and explore the special connection you have with your pet\, because animals are Soul too! Visit us at the ECKANKAR Booth to share stories of love and coincidences\, learn about the spiritual benefits of the ancient teachings of ECKANKAR\, the Path of Spiritual Freedom\, and discuss your favorite animals and their spiritual significance. Take a spin on the ECK Wisdom Wheel to see what divine message comes through for you.\nA flyer for this event is available at:\n[https://eck-va.org/wp-content/uploads/2026/02/L-Burg-Poster-Spring-Festival-of-Light-021526.pdf](https://eck-va.org/wp-content/uploads/2026/02/L-Burg-Poster-Spring-Festival-of-Light-021526.pdf)
-URL;VALUE=URI:https://www.meetup.com/roanoke-spiritual-experiences-group/events/313553471/
-STATUS:CONFIRMED
-CREATED:20260227T053406Z
-LAST-MODIFIED:20260227T053406Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/7/3/d/600_532938237.jpeg
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313744165/"}
-X-SOURCE-ID:meetup_make_roanoke
-X-SOURCE:Meetup Make Roanoke
-UID:event_313744165@meetup.com
-SEQUENCE:1
-DTSTAMP:20260322T015938Z
-DTSTART;TZID=America/New_York:20260322T110000
-DTEND;TZID=America/New_York:20260322T170000
-SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
-DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is thrilled to be attending the Lynchburg Maker Fair again this year!\n\nMaker Faire is a gathering of fascinating\, curious people who enjoy learning and who love sharing what they can do. From engineers to artists to scientists to crafters\, Maker Faire is a venue for these "makers" to show hobbies\, experiments\, projects.\nWe call it the Greatest Show (& Tell) on Earth - a family-friendly showcase of invention\, creativity\, and resourcefulness.\nGlimpse the future and get inspired!\n\nMAKE Roanoke will have our Pantograph Engraver where people can engrave their very own MAKE Roanoke keychain\, a fun game of Hextraction people use physics and strategy to play against each other and get their ball to the bottom the fastest\, and will be showcasing some items made by our members!\n\nIf you're interested in helping to staff our table\, please contact Michelle at mdonohoe@makeroanoke.org\n\nTo find out more about the event go to [lynchburg.makerfaire.com](https://lynchburg.makerfaire.com)
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313744165/
-STATUS:CONFIRMED
-CREATED:20260311T154643Z
-LAST-MODIFIED:20260311T154643Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/3/4/4/600_533149988.jpeg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke City Council": "https://www.roanokeva.gov/calendar.aspx?EID=8557"}
 X-SOURCE-ID:roanoke_city_council
 X-SOURCE:Roanoke City Council
@@ -139,7 +87,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313668798@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260326T114500
 DTEND;TZID=America/New_York:20260326T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -158,7 +106,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313668799@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260326T120000
 DTEND;TZID=America/New_York:20260326T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -176,7 +124,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -227,7 +175,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765284@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260326T190000
 DTEND;TZID=America/New_York:20260326T203000
 SUMMARY:Overcome Public Speaking Fears with the Roanoke Toastmasters
@@ -245,7 +193,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260326T193000
 DTEND;TZID=America/New_York:20260326T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260308T045959Z;BYDAY=TH
-DTSTAMP:20260322T015937Z
+DTSTAMP:20260323T015943Z
 UID:57gb4bmvjhfn0gp9ngupohs0eb@google.com
 CREATED:20250623T185456Z
 LAST-MODIFIED:20250623T185456Z
@@ -277,7 +225,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260327T130000Z
 DTEND:20260327T150000Z
-DTSTAMP:20260322T015937Z
+DTSTAMP:20260323T015943Z
 UID:0p6sa4pvd7p7ttiulghef5f8l7@google.com
 CREATED:20250623T172452Z
 LAST-MODIFIED:20250623T172452Z
@@ -291,7 +239,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260327T151500Z
 DTEND:20260327T171500Z
-DTSTAMP:20260322T015937Z
+DTSTAMP:20260323T015943Z
 UID:7cd0kkonekgmp367hpatt0tgda@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:ice.berglundcenter@gmail.com
 SUMMARY:Busy
@@ -406,7 +354,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -424,7 +372,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -441,7 +389,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260328T130000Z
 DTEND:20260328T150000Z
-DTSTAMP:20260322T015937Z
+DTSTAMP:20260323T015943Z
 UID:68io17mdi06i0mo2g38kkr6iod@google.com
 CREATED:20250623T172458Z
 LAST-MODIFIED:20250623T172459Z
@@ -456,7 +404,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313396362@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015945Z
 DTSTART;TZID=America/New_York:20260328T130000
 DTEND;TZID=America/New_York:20260328T143000
 SUMMARY:Shut Up & Write!® in Tanglewood
@@ -527,7 +475,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260328T151500Z
 DTEND:20260328T171500Z
-DTSTAMP:20260322T015937Z
+DTSTAMP:20260323T015943Z
 UID:4i61gpo0psml09bu511ica8vj9@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:ice.berglundcenter@gmail.com
 SUMMARY:Busy
@@ -558,7 +506,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -638,7 +586,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260331T193000
 DTEND;TZID=America/New_York:20260331T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TU
-DTSTAMP:20260322T015937Z
+DTSTAMP:20260323T015943Z
 UID:5nrtt7b91cc3gpo519hgh26cft@google.com
 CREATED:20250623T185514Z
 LAST-MODIFIED:20250623T185514Z
@@ -697,7 +645,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280246@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260402T090000
 DTEND;TZID=America/New_York:20260402T103000
 SUMMARY:Greenway Litter Pickup
@@ -758,7 +706,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765185@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260402T114500
 DTEND;TZID=America/New_York:20260402T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -777,7 +725,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_jgpmwtyjcgbdb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260402T120000
 DTEND;TZID=America/New_York:20260402T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -795,7 +743,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580095@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015945Z
 DTSTART;TZID=America/New_York:20260402T180000
 DTEND;TZID=America/New_York:20260402T200000
 SUMMARY:In Person-Salem: presentation by Cameron Presley
@@ -813,7 +761,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313581994@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260402T190000
 DTEND;TZID=America/New_York:20260402T210000
 SUMMARY:Mastering Impromptu Speaking at the Blacksburg Toastmasters Club
@@ -831,7 +779,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TH
-DTSTAMP:20260322T015937Z
+DTSTAMP:20260323T015943Z
 UID:0ev0uk8jovf35t2iardafu81a4@google.com
 CREATED:20250623T185525Z
 LAST-MODIFIED:20250623T185525Z
@@ -846,7 +794,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T203000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20260218T180115Z
 LAST-MODIFIED:20260313T121406Z
 UID:73667-1775158200-1775161800@www.hollins.edu
@@ -862,7 +810,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765358@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260403T083000
 DTEND;TZID=America/New_York:20260403T093000
 SUMMARY:Kickstart Your Voice with Roanoke Talk-of-the-Town Toastmasters
@@ -917,7 +865,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -988,7 +936,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -1040,7 +988,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313620583@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260406T200000
 DTEND;TZID=America/New_York:20260406T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -1058,7 +1006,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260407T183000
 DTEND;TZID=America/New_York:20260407T193000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20251008T164915Z
 LAST-MODIFIED:20251008T164915Z
 UID:71854-1775586600-1775590200@www.hollins.edu
@@ -1160,7 +1108,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260409T000000
 DTEND;TZID=America/New_York:20260411T235959
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20250911T172907Z
 LAST-MODIFIED:20260313T175434Z
 UID:71566-1775692800-1775951999@www.hollins.edu
@@ -1203,7 +1151,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765187@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260409T114500
 DTEND;TZID=America/New_York:20260409T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -1312,7 +1260,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313714322@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260409T180000
 DTEND;TZID=America/New_York:20260409T190000
 SUMMARY:Maker Minis: Intro to Metrology
@@ -1392,7 +1340,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260411T090000
 DTEND;TZID=America/New_York:20260411T160000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20251008T165430Z
 LAST-MODIFIED:20260225T191823Z
 UID:71856-1775898000-1775923200@www.hollins.edu
@@ -1409,7 +1357,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313817917@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260411T100000
 DTEND;TZID=America/New_York:20260411T130000
 SUMMARY:MAKE Roanoke @ Go Green for Grandin
@@ -1448,12 +1396,30 @@ URL:https://www.taubmanmuseum.org/happy-hearts-community-session-ages-10-a
 X-SOURCE:Taubman Museum of Art
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313743231/"}
+X-SOURCE-ID:meetup_make_roanoke
+X-SOURCE:Meetup Make Roanoke
+UID:event_313743231@meetup.com
+SEQUENCE:1
+DTSTAMP:20260323T015944Z
+DTSTART;TZID=America/New_York:20260411T130000
+DTEND;TZID=America/New_York:20260411T160000
+SUMMARY:Make a Cutting Board: A 2-Day Class
+DESCRIPTION:MAKE Roanoke\nJoin us at MAKE Roanoke to craft your own cutting board while learning how to use several tools in our wood shop! **This class spans two days\, and students must attend both days.**\nRESCHEDULED DAYS:\n\n* Day 1: Saturday April 11 from 1-4 PM\n* Day 2: Sunday April 12 from 1-4 PM\n\nThis class\, taught by Matt Brown and Michelle Donohoe\, will teach students how to utilize the jointer\, planer\, table saw\, miter saw\, router\, and drum sander to make their own one of a kind cutting board.\n\nThis class is recommended for ages 16 and up. Attendees under the age of 18 must be accompanied by an adult. Space is limited\, so sign up now! This class is open to the public\, you do not need to be a MAKE Roanoke Member to attend.\n\nAll taxes and fees are included in the class price. Cost to attend is $65\, and cost for MAKE Roanoke Members is $55. MAKE Roanoke Members can also bring one guest at the discounted member rate (all attendees must be registered here on the Meetup event).\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the wavier must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at [https://mkroa.org/waiver](mkroa.org/waiver)\n* Children who are not participating in the event are not permitted in the space\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313743231/
+STATUS:CONFIRMED
+CREATED:20260311T141855Z
+LAST-MODIFIED:20260311T141855Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/5/e/8/600_531981992.jpeg
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Hollins University": "https://admissions.hollins.edu/portal/asd#new_tab"}
 X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260412T000000
 DTEND;TZID=America/New_York:20260413T235959
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20260204T135707Z
 LAST-MODIFIED:20260204T135707Z
 UID:73496-1775952000-1776124799@www.hollins.edu
@@ -1950,7 +1916,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260420T170000
 DTEND;TZID=America/New_York:20260420T183000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20250905T180619Z
 LAST-MODIFIED:20250905T201818Z
 UID:71485-1776704400-1776709800@www.hollins.edu
@@ -2062,7 +2028,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260423T193000
 DTEND;TZID=America/New_York:20260423T203000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20250922T152313Z
 LAST-MODIFIED:20251008T163956Z
 UID:71688-1776972600-1776976200@www.hollins.edu
@@ -2454,7 +2420,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280265@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260507T090000
 DTEND;TZID=America/New_York:20260507T103000
 SUMMARY:Greenway Litter Pickup
@@ -2509,7 +2475,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580154@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015939Z
+DTSTAMP:20260323T015945Z
 DTSTART;TZID=America/New_York:20260507T180000
 DTEND;TZID=America/New_York:20260507T200000
 SUMMARY:Online: The 1-Person DevOps Stack presentation by Lionel Sapp
@@ -2527,7 +2493,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260507T193000
 DTEND;TZID=America/New_York:20260507T203000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20251008T171105Z
 LAST-MODIFIED:20251008T171105Z
 UID:71858-1778182200-1778185800@www.hollins.edu
@@ -2603,7 +2569,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260509T130000
 DTEND;TZID=America/New_York:20260509T153000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20251215T155627Z
 LAST-MODIFIED:20251215T155627Z
 UID:72971-1778331600-1778340600@www.hollins.edu
@@ -2743,7 +2709,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260511T170000
 DTEND;TZID=America/New_York:20260511T183000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20250905T180803Z
 LAST-MODIFIED:20250910T165734Z
 UID:71486-1778518800-1778524200@www.hollins.edu
@@ -3146,7 +3112,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260517T100000
 DTEND;TZID=America/New_York:20260517T120000
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20250910T144650Z
 LAST-MODIFIED:20260302T144545Z
 UID:71515-1779012000-1779019200@www.hollins.edu
@@ -3440,7 +3406,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260529T000000
 DTEND;TZID=America/New_York:20260531T235959
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20251204T174803Z
 LAST-MODIFIED:20251204T174803Z
 UID:72820-1780012800-1780271999@www.hollins.edu
@@ -3708,7 +3674,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280281@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260604T073000
 DTEND;TZID=America/New_York:20260604T090000
 SUMMARY:Greenway Litter Pickup
@@ -4084,7 +4050,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260614T000000
 DTEND;TZID=America/New_York:20260619T235959
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20251114T170519Z
 LAST-MODIFIED:20251114T170519Z
 UID:72456-1781395200-1781913599@www.hollins.edu
@@ -4487,7 +4453,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280290@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260709T073000
 DTEND;TZID=America/New_York:20260709T090000
 SUMMARY:Greenway Litter Pickup
@@ -4541,7 +4507,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260710T000000
 DTEND;TZID=America/New_York:20260712T235959
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20260313T132036Z
 LAST-MODIFIED:20260319T184525Z
 UID:74157-1783641600-1783900799@www.hollins.edu
@@ -4576,7 +4542,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260718T235959
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20250930T140902Z
 LAST-MODIFIED:20251029T175051Z
 UID:71745-1783814400-1784419199@www.hollins.edu
@@ -4594,7 +4560,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260725T235959
-DTSTAMP:20260321T215937
+DTSTAMP:20260322T215943
 CREATED:20251216T212637Z
 LAST-MODIFIED:20251216T212637Z
 UID:73040-1783814400-1785023999@www.hollins.edu
@@ -5004,7 +4970,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280295@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260806T073000
 DTEND;TZID=America/New_York:20260806T090000
 SUMMARY:Greenway Litter Pickup
@@ -5424,7 +5390,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280300@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260903T073000
 DTEND;TZID=America/New_York:20260903T090000
 SUMMARY:Greenway Litter Pickup
@@ -5950,7 +5916,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280305@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20261001T090000
 DTEND;TZID=America/New_York:20261001T103000
 SUMMARY:Greenway Litter Pickup
@@ -6514,7 +6480,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280307@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20261105T090000
 DTEND;TZID=America/New_York:20261105T103000
 SUMMARY:Greenway Litter Pickup
@@ -6950,7 +6916,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280318@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T103000
 SUMMARY:Greenway Litter Pickup

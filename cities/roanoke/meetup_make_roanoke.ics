@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313744165@meetup.com
-SEQUENCE:1
-DTSTAMP:20260322T015938Z
-DTSTART;TZID=America/New_York:20260322T110000
-DTEND;TZID=America/New_York:20260322T170000
-SUMMARY:MAKE Roanoke @ Lynchburg Maker Faire
-DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is thrilled to be attending the Lynchburg Maker Fair again this year!\n\nMaker Faire is a gathering of fascinating\, curious people who enjoy learning and who love sharing what they can do. From engineers to artists to scientists to crafters\, Maker Faire is a venue for these "makers" to show hobbies\, experiments\, projects.\nWe call it the Greatest Show (& Tell) on Earth - a family-friendly showcase of invention\, creativity\, and resourcefulness.\nGlimpse the future and get inspired!\n\nMAKE Roanoke will have our Pantograph Engraver where people can engrave their very own MAKE Roanoke keychain\, a fun game of Hextraction people use physics and strategy to play against each other and get their ball to the bottom the fastest\, and will be showcasing some items made by our members!\n\nIf you're interested in helping to staff our table\, please contact Michelle at mdonohoe@makeroanoke.org\n\nTo find out more about the event go to [lynchburg.makerfaire.com](https://lynchburg.makerfaire.com)
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313744165/
-STATUS:CONFIRMED
-CREATED:20260311T154643Z
-LAST-MODIFIED:20260311T154643Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/3/4/4/600_533149988.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_312502181@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260326T180000
 DTEND;TZID=America/New_York:20260326T200000
 SUMMARY:MAKE Roanoke Community Meeting
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313620583@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260406T200000
 DTEND;TZID=America/New_York:20260406T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313714322@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260409T180000
 DTEND;TZID=America/New_York:20260409T190000
 SUMMARY:Maker Minis: Intro to Metrology
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313817917@meetup.com
 SEQUENCE:1
-DTSTAMP:20260322T015938Z
+DTSTAMP:20260323T015944Z
 DTSTART;TZID=America/New_York:20260411T100000
 DTEND;TZID=America/New_York:20260411T130000
 SUMMARY:MAKE Roanoke @ Go Green for Grandin
@@ -173,6 +158,21 @@ CREATED:20260317T150746Z
 LAST-MODIFIED:20260317T150746Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/c/5/f/600_533247743.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313743231@meetup.com
+SEQUENCE:1
+DTSTAMP:20260323T015944Z
+DTSTART;TZID=America/New_York:20260411T130000
+DTEND;TZID=America/New_York:20260411T160000
+SUMMARY:Make a Cutting Board: A 2-Day Class
+DESCRIPTION:MAKE Roanoke\nJoin us at MAKE Roanoke to craft your own cutting board while learning how to use several tools in our wood shop! **This class spans two days\, and students must attend both days.**\nRESCHEDULED DAYS:\n\n* Day 1: Saturday April 11 from 1-4 PM\n* Day 2: Sunday April 12 from 1-4 PM\n\nThis class\, taught by Matt Brown and Michelle Donohoe\, will teach students how to utilize the jointer\, planer\, table saw\, miter saw\, router\, and drum sander to make their own one of a kind cutting board.\n\nThis class is recommended for ages 16 and up. Attendees under the age of 18 must be accompanied by an adult. Space is limited\, so sign up now! This class is open to the public\, you do not need to be a MAKE Roanoke Member to attend.\n\nAll taxes and fees are included in the class price. Cost to attend is $65\, and cost for MAKE Roanoke Members is $55. MAKE Roanoke Members can also bring one guest at the discounted member rate (all attendees must be registered here on the Meetup event).\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the wavier must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at [https://mkroa.org/waiver](mkroa.org/waiver)\n* Children who are not participating in the event are not permitted in the space\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313743231/
+STATUS:CONFIRMED
+CREATED:20260311T141855Z
+LAST-MODIFIED:20260311T141855Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/5/e/8/600_531981992.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

@@ -4,31 +4,6 @@ PRODID:-//Ticketmaster/Evanston Venues//ticketmaster.com//
 X-WR-CALNAME:Ticketmaster/Evanston Venues
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-SUMMARY:Wendy and DB
-DTSTART;TZID=CDT;VALUE=DATE-TIME:20260321T110000
-DTEND;TZID=CDT;VALUE=DATE-TIME:20260321T110000
-UID:15200f68b5f35c715f5bbdbc09363fa1@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4
- 195-98f4-69f67e09df51_106201_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
-URL:https://www.ticketweb.com/event/wendy-and-db-space-tickets/14126934
-X-SOURCE:Ticketmaster/Evanston Venues
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kash'd Out w. Beach Fly
-DTSTART;TZID=CDT;VALUE=DATE-TIME:20260321T200000
-DTEND;TZID=CDT;VALUE=DATE-TIME:20260321T200000
-UID:951e0e5f73eb46d0cdb2ec246883d95c@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/27e/458d1b62-6e4f-4
- ffd-8941-9ed303d8e27e_106041_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
-URL:https://www.ticketweb.com/event/kashd-out-w-beach-fly-space-tickets/14
- 600353
-X-SOURCE:Ticketmaster/Evanston Venues
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cécile McLorin Salvant (Early) presented by WDCB
 DTSTART;TZID=CDT;VALUE=DATE-TIME:20260323T190000
 DTEND;TZID=CDT;VALUE=DATE-TIME:20260323T190000
@@ -809,6 +784,18 @@ DESCRIPTION:
 LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
 URL:https://www.ticketweb.com/event/hot-flash-dance-feat-dj-space-tickets/
  14093144
+X-SOURCE:Ticketmaster/Evanston Venues
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SOLD OUT - Graham Parker
+DTSTART;TZID=CDT;VALUE=DATE-TIME:20260523T200000
+DTEND;TZID=CDT;VALUE=DATE-TIME:20260523T200000
+UID:6f1fc6bb74c939597805b257108e6d80@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4
+ 215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
+URL:https://www.ticketweb.com/event/sold-out-graham-space-tickets/14139544
 X-SOURCE:Ticketmaster/Evanston Venues
 END:VEVENT
 END:VCALENDAR

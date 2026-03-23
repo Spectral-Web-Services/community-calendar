@@ -4,32 +4,6 @@ PRODID:-//Brewsters Beer Garden//brewstersbeergarden.com//
 X-WR-CALNAME:Brewsters Beer Garden
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Tim O'Neil
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260322T000000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260322T030000Z
-UID:5ed62cd1396ef6856d5d19ac3cc2a0a2@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1773797254150-FB99G60XWJ0AF99NB3HF/tim_oneil_solo.w
- ebp
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/21/tim-oneil
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Matt Bolton - Winter Residency
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260322T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260322T230000Z
-UID:f06fb9e9f68f32fcdffc6f9c198049ee@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1767991368199-J53383U7A6KHSL1EFEUX/CGA05317.jpg
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/1/11/matt-bolton-winter
- -residency-wngdk-j6kbw-kgtha-6wssy-3bhwf-55s3b-s3499
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bingo Night
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260324T020000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260324T040000Z
@@ -649,6 +623,33 @@ ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/5/22/third-rail-band
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Z and The Benders
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260523T200000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260523T230000Z
+UID:c238138b52580c216acd2ee93c34066f@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1772566418228-UTBOZRMS5H8WQHD3WJ2Y/z_and_the_bender
+ s.jpg
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/23/z-and-the-benders
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jethro Jeremiah Band
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260524T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260524T030000Z
+UID:012c7f93f2861d22db08a305dd642acd@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1772566486371-YUIGGPBOGNGIFDCI7T4F/jethro_jeremiah.
+ jpg
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/23/jethro-jeremiah-ba
+ nd
 X-SOURCE:Brewsters Beer Garden
 END:VEVENT
 END:VCALENDAR

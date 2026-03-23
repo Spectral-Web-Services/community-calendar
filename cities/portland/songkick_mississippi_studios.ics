@@ -4,30 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Son Little
-DTSTART;VALUE=DATE-TIME:20260322T200000
-DTEND;VALUE=DATE-TIME:20260322T200000
-UID:fd2c1b4c4cdde512fdb43d2664d43a32@songkick.com
-DESCRIPTION:Son Little at Mississippi Studios at 2026-03-22T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/42928694-son-little-at-mississippi-st
- udios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tonina
-DTSTART;VALUE=DATE-TIME:20260322T200000
-DTEND;VALUE=DATE-TIME:20260322T200000
-UID:60a9443d420ca94ba396bb2e2d1aa343@songkick.com
-DESCRIPTION:Tonina at Mississippi Studios at 2026-03-22T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43099993-tonina-at-mississippi-studio
- s?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Gretta Seabird
 DTSTART;VALUE=DATE-TIME:20260323T190000
 DTEND;VALUE=DATE-TIME:20260323T190000
@@ -51,6 +27,19 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/42892534-barr-brothers-at-mississippi
  -studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Georgia Harmer
+DTSTART;VALUE=DATE-TIME:20260324T200000
+DTEND;VALUE=DATE-TIME:20260324T200000
+UID:2aca562337a5f6f5bd7f2f87fee7ddd5@songkick.com
+DESCRIPTION:Georgia Harmer at Mississippi Studios at 2026-03-24T20:00:00-0
+ 700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43099998-georgia-harmer-at-mississipp
+ i-studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR
