@@ -755,6 +755,8 @@ jobs:
         python scrapers/sunlight_research.py --output cities/publisher-resources/sunlight_research.ics || true
         # Poynter Institute Training — WooCommerce shop page scraper
         python scrapers/poynter_shop.py --output cities/publisher-resources/poynter_shop.ics || true
+        # Lenfest Institute — WordPress events page scraper
+        python scrapers/lenfest_events.py --output cities/publisher-resources/lenfest.ics || true
       continue-on-error: true
 
     - name: Fetch Publisher Resources live feeds
@@ -783,6 +785,8 @@ jobs:
         curl -sL "https://calendar.google.com/calendar/ical/er06vtjd12h86b4rej5bts6p6c%40group.calendar.google.com/public/basic.ics" -o journalism_deadlines.ics || true
         # NewsGuild-CWA Events (Google Calendar)
         curl -sL "https://calendar.google.com/calendar/ical/c_ids4f68nckkrpd5fne36sgooeo%40group.calendar.google.com/public/basic.ics" -o newsguild.ics || true
+        # RJI (Reynolds Journalism Institute) — University of Missouri LiveWhale calendar
+        curl -sL "https://calendar.missouri.edu/live/ical/events/group/Reynolds%20Journalism%20Institute/" -o rji.ics || true
         cd ../..
 
     - name: Combine Publisher Resources ICS files
