@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-24T15:00:54.230886",
+  "generated": "2026-03-24T18:28:48.978661",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -62352,7 +62352,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 0
+              "count": 6
             }
           ]
         },
@@ -63340,7 +63340,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 9
+              "count": 8
             }
           ]
         },
@@ -63679,16 +63679,24 @@
               "count": 1
             }
           ]
+        },
+        "journalism_conferences": {
+          "history": [
+            {
+              "date": "2026-03-24",
+              "count": 60
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 84
+          "count": 143
         },
         {
           "category": "Community / Social",
-          "count": 32
+          "count": 33
         },
         {
           "category": "Government / Civic",
@@ -63696,11 +63704,11 @@
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 10
+          "count": 9
         },
         {
           "category": "Arts / Culture",
-          "count": 7
+          "count": 8
         },
         {
           "category": "Film / Cinema",
@@ -63720,28 +63728,33 @@
         }
       ],
       "images": {
-        "total": 154,
-        "with_image": 32,
+        "total": 214,
+        "with_image": 37,
         "by_source": [
           {
             "source": "PEN America",
-            "total": 21,
+            "total": 20,
             "with_image": 12
           },
           {
-            "source": "Institute for Nonprofit News",
+            "source": "National Assoc. of Hispanic Journalists",
             "total": 6,
             "with_image": 6
           },
           {
-            "source": "Center for Cooperative Media",
-            "total": 4,
-            "with_image": 4
+            "source": "Institute for Nonprofit News",
+            "total": 5,
+            "with_image": 5
           },
           {
             "source": "Sabew",
             "total": 5,
             "with_image": 4
+          },
+          {
+            "source": "Center for Cooperative Media",
+            "total": 3,
+            "with_image": 3
           },
           {
             "source": "Poynter Institute",
@@ -63759,30 +63772,47 @@
             "with_image": 1
           },
           {
-            "source": "Ahcj",
-            "total": 3,
+            "source": "Associated Press",
+            "total": 1,
             "with_image": 1
           },
           {
-            "source": "Associated Press",
+            "source": "Ahcj, Journalism Conferences",
+            "total": 1,
+            "with_image": 1
+          },
+          {
+            "source": "Institute for Nonprofit News, Journalism Conferences",
             "total": 1,
             "with_image": 1
           }
         ]
       },
       "url_quality": {
-        "total_with_url": 149,
-        "total_events": 154,
-        "unique_urls": 136,
-        "generic_count": 0,
-        "generic_domains": [],
+        "total_with_url": 209,
+        "total_events": 214,
+        "unique_urls": 186,
+        "generic_count": 6,
+        "generic_domains": [
+          {
+            "domain": "www.rtdna.org",
+            "events": 6,
+            "url": "https://www.rtdna.org/worldtour"
+          }
+        ],
         "http_count": 18,
         "http_domains": 8,
         "source_specificity": [
           {
+            "source": "Journalism Conferences",
+            "events": 56,
+            "unique_urls": 51,
+            "specificity_pct": 91
+          },
+          {
             "source": "PEN America",
-            "events": 21,
-            "unique_urls": 21,
+            "events": 20,
+            "unique_urls": 20,
             "specificity_pct": 100
           },
           {
@@ -63792,16 +63822,16 @@
             "specificity_pct": 100
           },
           {
-            "source": "Solutions Journalism Network",
-            "events": 15,
-            "unique_urls": 14,
-            "specificity_pct": 93
-          },
-          {
             "source": "Tiny News Members Only",
             "events": 14,
             "unique_urls": 3,
             "specificity_pct": 21
+          },
+          {
+            "source": "Solutions Journalism Network",
+            "events": 14,
+            "unique_urls": 13,
+            "specificity_pct": 93
           },
           {
             "source": "Editor & Publisher",
@@ -63811,8 +63841,8 @@
           },
           {
             "source": "Society of Environmental Journalists",
-            "events": 10,
-            "unique_urls": 10,
+            "events": 9,
+            "unique_urls": 9,
             "specificity_pct": 100
           },
           {
@@ -63822,13 +63852,19 @@
             "specificity_pct": 100
           },
           {
-            "source": "Institute for Nonprofit News",
+            "source": "National Assoc. of Hispanic Journalists",
             "events": 6,
             "unique_urls": 6,
             "specificity_pct": 100
           },
           {
             "source": "Journalism Internship & Fellowship Deadlines",
+            "events": 5,
+            "unique_urls": 5,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Institute for Nonprofit News",
             "events": 5,
             "unique_urls": 5,
             "specificity_pct": 100
@@ -63846,12 +63882,6 @@
             "specificity_pct": 100
           },
           {
-            "source": "Center for Cooperative Media",
-            "events": 4,
-            "unique_urls": 4,
-            "specificity_pct": 100
-          },
-          {
             "source": "Online News Association",
             "events": 4,
             "unique_urls": 4,
@@ -63861,12 +63891,6 @@
             "source": "NABJ",
             "events": 4,
             "unique_urls": 4,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Knight Center for Journalism",
-            "events": 3,
-            "unique_urls": 3,
             "specificity_pct": 100
           }
         ]
