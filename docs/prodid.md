@@ -8,7 +8,7 @@ used across all city feeds, identified by their PRODID header.
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 48 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 47 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 34 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 19 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
@@ -38,7 +38,7 @@ ICS export from meetup.com groups.
 
 **roanoke** (6): meetup_make_roanoke, meetup_pathfinders_greenways, meetup_roanoke_spiritual, meetup_roanoke_valley_net, meetup_shut_up_write, meetup_sw_va_toastmasters
 
-### The Events Calendar (WordPress) (48 feeds)
+### The Events Calendar (WordPress) (47 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
@@ -56,7 +56,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **portland** (9): crystal_ballroom, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, washington_park
 
-**publisher-resources** (6): ahcj, inn, nahj, nlgja, poynter, sabew
+**publisher-resources** (5): ahcj, inn, nlgja, poynter, sabew
 
 **roanoke** (1): hollins_university
 
@@ -172,6 +172,8 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Ticketmaster/Evanston Venues//ticketmaster.com//` | evanston | ticketmaster_evanston_venues |
 | `-//Ticketmaster/Evanston//ticketmaster.com//` | evanston | ticketmaster_evanston |
 | `-//Trumba Corporation//Trumba Calendar Services 0.11.25519//EN` | boston | tufts_tdps |
+| `-//University of Missouri//NONSGML v1.0//EN` | publisher-resources | rji |
 | `-//YWCA Evanston/North Shore//eventbrite.com//` | evanston | eb_ywca |
+| `-//calendar.spjnetwork.org` | publisher-resources | spj |
 | `X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN` | portland | calagator |
 | `icalendar-ruby` | matsu | matsuk12 |

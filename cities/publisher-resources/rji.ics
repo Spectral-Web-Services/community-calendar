@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//University of Missouri//NONSGML v1.0//EN
+X-WR-CALNAME:University of Missouri Events
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+DTSTART:20260308T080000
+RDATE:20260308T080000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:STANDARD
+TZNAME:CST
+DTSTART:20261101T070000
+RDATE:20261101T070000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260407T160000
+DTEND;TZID=America/Chicago:20260407T170000
+LOCATION:Reynolds Journalism Institute
+GEO:38.94763;-92.3276
+SUMMARY:Rising Innovators: Alexa Stone\, Vertical Video Journalist
+DESCRIPTION:Join us to meet Alexa "Lex" Stone\, vertical video journalist
+  at the KC Star! She was previously a content creator for ESPN where she 
+ broke social engagement records before becoming a full-time social produc
+ er. During our event\, she will be judging our Vertical Video contest to 
+ pick the first place $50 winner!  Our vertical video contest is for any s
+ tudent who wants to enter. Create and publish a news vertical on Instagra
+ m Reels and tag @innovationrji. We'll share your video and put it on the 
+ list for the judging and prizes!
+X-ALT-DESC;FMTTYPE=text/html:<p>  Join us to meet Alexa "Lex" Stone\, ver
+ tical video journalist at the KC Star! She was previously a content creat
+ or for ESPN where she broke social engagement records before becoming a f
+ ull-time social producer. During our event\, she will be judging our Vert
+ ical Video contest to pick the first place $50 winner!</p><p>  Our vertic
+ al video contest is for any student who wants to enter. Create and publis
+ h a news vertical on Instagram Reels and tag @innovationrji. We'll share 
+ your video and put it on the list for the judging and prizes!</p>
+UID:20260407T210000Z-15870@calendar.missouri.edu
+DTSTAMP:20260311T125408Z
+URL:https://calendar.missouri.edu/rji/event/15870-rising-innovators-alexa
+ -stone-vertical-video
+CATEGORIES:Jobs or Career,Lectures,Open to Public,Seminars,Speakers,Speci
+ al Events,Students,Workshops
+LAST-MODIFIED:20260312T142347Z
+ATTACH:https://calendar.missouri.edu/live/image/gid/56/width/80/height/80
+ /crop/1/src_region/0,0,2898,3750/483_RisingInnovatorsApril.rev.1773251649
+ .png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:15870
+X-LIVEWHALE-TIMEZONE:America/Chicago
+X-LIVEWHALE-IMAGE:https://calendar.missouri.edu/live/image/gid/56/width/8
+ 0/height/80/crop/1/src_region/0\,0\,2898\,3750/483_RisingInnovatorsApril.
+ rev.1773251649.png
+X-LIVEWHALE-IMAGE-CAPTION:Alexa Stone\, Vertical Video journalist is the 
+ next guest speaker for the RJI Rising Innovators series.
+END:VEVENT
+END:VCALENDAR

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-24T02:19:20.837336",
+  "generated": "2026-03-24T15:00:54.230886",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -62352,7 +62352,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 6
+              "count": 0
             }
           ]
         },
@@ -62612,7 +62612,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 0
+              "count": 18
             }
           ]
         },
@@ -62716,7 +62716,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 7
+              "count": 13
             }
           ]
         },
@@ -62924,7 +62924,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 0
+              "count": 1
             }
           ]
         },
@@ -63444,7 +63444,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 11
+              "count": 15
             }
           ]
         },
@@ -63596,7 +63596,7 @@
             },
             {
               "date": "2026-03-24",
-              "count": 7
+              "count": 8
             }
           ]
         },
@@ -63663,36 +63663,56 @@
               "count": 0
             }
           ]
+        },
+        "lenfest": {
+          "history": [
+            {
+              "date": "2026-03-24",
+              "count": 1
+            }
+          ]
+        },
+        "rji": {
+          "history": [
+            {
+              "date": "2026-03-24",
+              "count": 1
+            }
+          ]
         }
       },
       "categories": [
         {
           "category": "Education / Workshops",
-          "count": 64
+          "count": 84
         },
         {
           "category": "Community / Social",
-          "count": 30
+          "count": 32
+        },
+        {
+          "category": "Government / Civic",
+          "count": 16
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 9
-        },
-        {
-          "category": "(uncategorized)",
-          "count": 9
+          "count": 10
         },
         {
           "category": "Arts / Culture",
           "count": 7
         },
         {
-          "category": "Government / Civic",
-          "count": 6
-        },
-        {
           "category": "Film / Cinema",
           "count": 2
+        },
+        {
+          "category": "History / Heritage",
+          "count": 1
+        },
+        {
+          "category": "Health / Wellness",
+          "count": 1
         },
         {
           "category": "Religion / Spirituality",
@@ -63700,8 +63720,8 @@
         }
       ],
       "images": {
-        "total": 128,
-        "with_image": 37,
+        "total": 154,
+        "with_image": 32,
         "by_source": [
           {
             "source": "PEN America",
@@ -63710,11 +63730,6 @@
           },
           {
             "source": "Institute for Nonprofit News",
-            "total": 6,
-            "with_image": 6
-          },
-          {
-            "source": "National Assoc. of Hispanic Journalists",
             "total": 6,
             "with_image": 6
           },
@@ -63739,6 +63754,11 @@
             "with_image": 1
           },
           {
+            "source": "Rji",
+            "total": 1,
+            "with_image": 1
+          },
+          {
             "source": "Ahcj",
             "total": 3,
             "with_image": 1
@@ -63751,13 +63771,13 @@
         ]
       },
       "url_quality": {
-        "total_with_url": 123,
-        "total_events": 128,
-        "unique_urls": 111,
+        "total_with_url": 149,
+        "total_events": 154,
+        "unique_urls": 136,
         "generic_count": 0,
         "generic_domains": [],
-        "http_count": 0,
-        "http_domains": 0,
+        "http_count": 18,
+        "http_domains": 8,
         "source_specificity": [
           {
             "source": "PEN America",
@@ -63766,16 +63786,28 @@
             "specificity_pct": 100
           },
           {
+            "source": "Society of Professional Journalists",
+            "events": 18,
+            "unique_urls": 18,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Solutions Journalism Network",
+            "events": 15,
+            "unique_urls": 14,
+            "specificity_pct": 93
+          },
+          {
             "source": "Tiny News Members Only",
             "events": 14,
             "unique_urls": 3,
             "specificity_pct": 21
           },
           {
-            "source": "Solutions Journalism Network",
-            "events": 11,
-            "unique_urls": 10,
-            "specificity_pct": 91
+            "source": "Editor & Publisher",
+            "events": 13,
+            "unique_urls": 13,
+            "specificity_pct": 100
           },
           {
             "source": "Society of Environmental Journalists",
@@ -63784,25 +63816,13 @@
             "specificity_pct": 100
           },
           {
-            "source": "Editor & Publisher",
-            "events": 7,
-            "unique_urls": 7,
-            "specificity_pct": 100
-          },
-          {
             "source": "Poynter Institute Training",
-            "events": 7,
-            "unique_urls": 7,
+            "events": 8,
+            "unique_urls": 8,
             "specificity_pct": 100
           },
           {
             "source": "Institute for Nonprofit News",
-            "events": 6,
-            "unique_urls": 6,
-            "specificity_pct": 100
-          },
-          {
-            "source": "National Assoc. of Hispanic Journalists",
             "events": 6,
             "unique_urls": 6,
             "specificity_pct": 100
@@ -65357,378 +65377,21 @@
       "date": "2026-03-24",
       "city": "petaluma",
       "feed": "adobe_road"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 6)",
+      "severity": "high",
+      "date": "2026-03-24",
+      "city": "publisher-resources",
+      "feed": "nahj"
     }
   ],
   "errors": [
     {
       "date": "2026-03-24",
-      "line": "2026-03-24 01:46:02,293 - WARNING - Failed to fetch API: HTTP Error 403: Forbidden",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:37,476 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/spring-plant-sale-to-benefit-our-native-plant-nursery/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:38,210 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/arbor-day-tree-giveaway-5/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:38,913 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/preserve-a-preserve-weed-wrangle-at-beanblossom-bottoms-nature-preserve-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:39,625 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/hoosier-riverwatch-survey-at-powell-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/hoosier-riverwatch-survey-at-powell-preserve/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:40,363 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/hoosier-riverwatch-survey-at-trevlac-bluffs-nature-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/hoosier-riverwatch-survey-at-trevlac-bluffs-nature-preserve/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:41,117 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/hike-the-trust-trevlac-bluffs-nature-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/hike-the-trust-trevlac-bluffs-nature-preserve/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:41,815 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/early-migrants-and-melodies-with-sarah-endris/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/early-migrants-and-melodies-with-sarah-endris/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:42,726 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/little-hikers-birding-with-binos/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/little-hikers-birding-with-binos/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:43,471 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/03/fire-on-the-landscape-with-sam-shoaf/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:44,220 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/wings-map-and-compass/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/wings-map-and-compass/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:45,086 - WARNING - Failed to fetch https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2026/02/the-hidden-world-of-lichens-with-gillian-harris/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:45,733 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/herbicide-101-with-saige-sentell/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:46,418 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/spring-native-plant-sale-to-benefit-sycamores-native-plant-nursery/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:47,129 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/04/spring-birding-with-david-rupp/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:47,777 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/welcome-to-warblers-with-randy-jones/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:48,480 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/arbor-day-tree-giveaway-4/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:49,167 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-the-laura-hare-nature-preserve-at-downey-hill/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:49,818 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/weed-wrangle-at-amy-weingartner-branigin-peninsula-preserve/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:50,467 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:51,114 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/03/woodland-awakening-with-saige-sentell/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:51,798 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/little-hikers-crafting-adventures-with-saige-sentell/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:52,507 - WARNING - Failed to fetch https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2025/02/sky-dance-at-twilight-hike-with-cathy-meyer/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:53,225 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/little-hikers-whos-here-in-spring/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/little-hikers-whos-here-in-spring/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:53,968 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/wetland-spring-bird-walk/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:54,615 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/spring-plant-sale-to-benefit-sycamores-native-plant-nursery/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:55,379 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-porter-west-preserve/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:56,062 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/04/preserve-a-preserve-weed-wrangle-spring-series-amy-weingartner-branigin-peninsula-preserve/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:56,723 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/03/arbor-day-tree-giveaway-3/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:57,370 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-day-preserve-a-preserve-weed-wrangle/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:58,031 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/earth-week-preserve-a-preserve-weed-wrangle/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:58,694 - WARNING - Failed to fetch https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2024/02/2024-eclipse-information-closures/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:48:59,418 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/sycamore-land-trusts-spring-native-plant-sale/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/sycamore-land-trusts-spring-native-plant-sale/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:00,108 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/wetland-bird-walk-with-wild-birds-unlimited/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:00,756 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/05/a-conversation-with-sergio-henriques-wild-lights-of-beanblossom-bottoms-and-beyond/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:01,408 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/women-in-sustainability-weed-wrangle-workday/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:02,090 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-bloomington-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:02,777 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/02/arbor-day-tree-giveaway-evansville-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:03,442 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/earth-day-preserve-a-preserve-volunteer-workday/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:04,134 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/04/online-auction-of-rare-decoys-and-audubon-books-and-prints-to-benefit-sycamore-land-trust/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:04,854 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/queer-indiana-spring-pride-hike/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:05,517 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/geology-of-canyon-forest-nature-preserve-amy-weingartner-branigin-peninsula-preserve-with-russell-boulding/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:06,201 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/spring-wildflower-fungi-guided-hike-at-porter-west-preserve/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:06,898 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/sky-dance-twilight-hike-at-beanblossom-bottoms-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:07,548 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/april-fools-day-weed-wrangle/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:08,232 - WARNING - Failed to fetch https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-walk-with-monroe-county-public-library/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:08,909 - WARNING - Failed to fetch https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2022/04/conservation-conversation-with-nate-engbrecht/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:09,679 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/native-tree-seedling-giveaway/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:10,344 - WARNING - Failed to fetch https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2021/04/arbor-day-2021-virtual-nature-identification-hike-with-john-lawrence/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:11,009 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/volunteer-may20/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/volunteer-may20/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:11,867 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/early-american-history-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/early-american-history-hike/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:12,553 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/little-hikers-whats-in-a-watershed/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:13,216 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/sky-dance-twilight-hike/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:13,910 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/arbor-day-tree-giveaway-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:14,587 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/04/arbor-day-2020/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/04/arbor-day-2020/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:15,270 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/woodland-wildflowers-hike/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:15,954 - WARNING - Failed to fetch https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2020/01/third-thursday-volunteer-stewardship-day/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:16,684 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/12/columbus-hike-brew/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/12/columbus-hike-brew/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:17,349 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/05/051819-bbb-grand-reopening/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/05/051819-bbb-grand-reopening/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:18,069 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0519-little-hikers/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0519-little-hikers/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:18,758 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-purdue-pollinator/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:19,441 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/arbor-day-tree-giveaway/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:20,089 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/conservation-field-day/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/conservation-field-day/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:20,765 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-eagle-slough/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-eagle-slough/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:21,453 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-patoka-birding-hike/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:49:22,124 - WARNING - Failed to fetch https://sycamorelandtrust.org/2019/03/0419-branches-hike/: 403 Client Error: Forbidden for url: https://sycamorelandtrust.org/2019/03/0419-branches-hike/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://business.roanokechamber.org/api/events",
-      "source": "models"
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:52:11,805 - ERROR - Failed to fetch https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/ after 3 attempts: 404 Client Error: Not Found for url: https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:52:11,805 - WARNING - Could not fetch event page https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/: 404 Client Error: Not Found for url: https://www.taubmanmuseum.org/event/68th-annual-sidewalk-art-show-saturday-2/",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:57:36,350 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/ensemble-espa%C3%B1ol-spanish-dance-theater-2026-06-13: HTTP Error 404: Not Found",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:57:44,558 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/dvo%C5%99%C3%A1ks-new-world-symphony-2026-07-31: HTTP Error 404: Not Found",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
-      "line": "2026-03-24 01:57:51,592 - VisitChicagoNorthShoreScraper - ERROR - Failed to fetch https://www.visitchicagonorthshore.com/events/no%C3%ABl-cowards-brief-encounter-2027-02-11: HTTP Error 404: Not Found",
-      "source": null
-    },
-    {
-      "date": "2026-03-24",
       "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json",
       "source": "models"
-    },
-    {
-      "date": "2026-03-24",
-      "line": "WARNING: API call failed: HTTP Error 429: Too Many Requests",
-      "source": null
     }
   ]
 }
