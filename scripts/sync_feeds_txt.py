@@ -28,6 +28,7 @@ CITY_SECTIONS = {
     'evanston': 'Evanston, IL',
     'portland': 'Portland',
     'boston': 'Boston',
+    'publisher-resources': 'Publisher Resources',
 }
 
 
@@ -42,7 +43,7 @@ def extract_city_blocks(workflow_text: str) -> dict[str, str]:
         block = parts[i + 1]
         # Map header back to city slug
         for slug, name in CITY_SECTIONS.items():
-            if name == header:
+            if header == name or header.startswith(name + ' '):
                 blocks[slug] = block
                 break
     return blocks
