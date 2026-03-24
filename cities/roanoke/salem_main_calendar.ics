@@ -273,16 +273,4 @@ SUMMARY:Easter Egg Hunt
 UID:1429
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.salemva.gov/calendar.aspx?EID=1435
-DTEND;TZID=America/New_York;VALUE=DATE:20260323
-DTSTAMP;TZID=America/New_York:20260228T130420
-DTSTART;TZID=America/New_York;VALUE=DATE:20260322
-LAST-MODIFIED;TZID=America/New_York:20260228T130420
-LOCATION:Salem Civic Center - 1001 Roanoke Blvd.  Salem VA 24153
-SEQUENCE:0
-SUMMARY:Blue Ridge Sports Car Club
-UID:1435
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
 END:VCALENDAR

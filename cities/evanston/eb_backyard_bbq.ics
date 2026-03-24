@@ -4,21 +4,6 @@ PRODID:-//The Backyard Barbecue Store//eventbrite.com//
 X-WR-CALNAME:The Backyard Barbecue Store
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Big Green Egg Class
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260425T150000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260425T150000
-UID:9eaf7b15d230f9b3f5294faba1b452a4@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1180049351%2F244027352245%2F1%2Foriginal.20260317-152022?w=48
- 0&auto=format%2Ccompress&q=75&sharp=10&s=4969075d33abcd84d79048c0583b4cfe
-DESCRIPTION:Join us for a Big Green Egg Class and learn what makes the Egg
-  the World’s Greatest Grill/Smoker.
-LOCATION:The Backyard Barbecue Store\, 535 Green Bay Road\, Wilmette\, IL 
- 60091\, Wilmette\, IL
-URL:https://www.eventbrite.com/e/big-green-egg-class-tickets-1985378656005
-X-SOURCE:The Backyard Barbecue Store
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Girls who Grill - Grilling Class
 DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260506T180000
 DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260506T200000
@@ -49,6 +34,21 @@ LOCATION:The Backyard Barbecue Store\, 535 Green Bay Road\, Wilmette\, IL
  60091\, Wilmette\, IL
 URL:https://www.eventbrite.com/e/food-and-wine-pairing-featuring-red-and-g
  reen-vineyard-tickets-1985334458810
+X-SOURCE:The Backyard Barbecue Store
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big Green Egg Class
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260425T150000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260425T150000
+UID:9eaf7b15d230f9b3f5294faba1b452a4@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1180049351%2F244027352245%2F1%2Foriginal.20260317-152022?w=48
+ 0&auto=format%2Ccompress&q=75&sharp=10&s=4969075d33abcd84d79048c0583b4cfe
+DESCRIPTION:Join us for a Big Green Egg Class and learn what makes the Egg
+  the World’s Greatest Grill/Smoker.
+LOCATION:The Backyard Barbecue Store\, 535 Green Bay Road\, Wilmette\, IL 
+ 60091\, Wilmette\, IL
+URL:https://www.eventbrite.com/e/big-green-egg-class-tickets-1985378656005
 X-SOURCE:The Backyard Barbecue Store
 END:VEVENT
 END:VCALENDAR

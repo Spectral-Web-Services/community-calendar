@@ -256,14 +256,14 @@ DESCRIPTION:<p class="has-medium-font-size"><!-- wp:heading {"fontSize":"m
  strong>Meeting Format:</strong> <em>(choose one) </em>In-person\; Virtual 
  - Meeting will be held online.\; Hybrid - Meeting will be held in person <
  strong>and</strong> available to join online via Zoom.<br /><br /><strong>
- Public Comment: </strong>Community members may <a rel="noreferrer noopener
- " href="https://www.cityofevanston.org/government/city-clerk/public-commen
- t-sign-up" target="_blank">sign up to provide public comment</a> at this m
- eeting.</p>\n<p class="has-medium-font-size"><!-- /wp:paragraph --> <!-- w
- p:paragraph --></p>\n<p><strong>Join Zoom Meeting</strong> <em>(include if
-  applicable\; embed hyperlink)</em><br /><strong>Meeting ID:</strong> 123 
- 4567 8901<br /><strong>Passcode: </strong>123456<br /><strong>Dial in by p
- hone: </strong>312-123-4567<!-- /wp:paragraph --></p>
+ Public Comment: </strong>Community members may <a href="../government/city
+ _clerks_office/public_comment_guide.php" target="_blank">sign up to provid
+ e public comment</a> at this meeting.</p>\n<p class="has-medium-font-size"
+ ><!-- /wp:paragraph --> <!-- wp:paragraph --></p>\n<p><strong>Join Zoom Me
+ eting</strong> <em>(include if applicable\; embed hyperlink)</em><br /><st
+ rong>Meeting ID:</strong> 123 4567 8901<br /><strong>Passcode: </strong>12
+ 3456<br /><strong>Dial in by phone: </strong>312-123-4567<!-- /wp:paragrap
+ h --></p>
 LOCATION:Location Goes Here
 X-SOURCE:City of Evanston Meetings
 END:VEVENT
@@ -1622,6 +1622,29 @@ LOCATION:Lorraine H. Morton City Hall - Council Chambers 909 Davis Street
  Evanston\, Illinois 60201
 URL:https://cityofevanston.civicweb.net/Portal/MeetingInformation.aspx?Id=
  24076
+X-SOURCE:City of Evanston Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First Ward Office Hours
+DTSTART;VALUE=DATE-TIME:20260321T100000
+DTEND;VALUE=DATE-TIME:20260321T120000
+UID:26d00b2561538f3580e50c5744df4824@cityofevanston.org
+DESCRIPTION:Join Councilmember <a href="../government/city_council/1st_war
+ d.php" target="_blank">Clare Kelly</a> for First Ward Office Hours on Satu
+ rday\, March 21\, at 10 a.m.&nbsp\;<br /><br /><strong>Location:</strong> 
+ Evanston Corner Bistro\, 703 Church Street
+LOCATION:703 Church Street
+X-SOURCE:City of Evanston Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:8th Ward Meeting
+DTSTART;VALUE=DATE-TIME:20260326T183000
+DTEND;VALUE=DATE-TIME:20260326T200000
+UID:c93da2e3eaec480cc563ce601de7f391@cityofevanston.org
+DESCRIPTION:<div>Join 8th Ward Councilmember Matt Rodgers for the next 8th
+  Ward Meeting on Thursday\, March 26\, at 6:30 p.m. at Peckish Pig.&nbsp\;
+ </div>\n<div>&nbsp\;</div>
+LOCATION:Peckish Pig\, 623 Howard Street
 X-SOURCE:City of Evanston Meetings
 END:VEVENT
 END:VCALENDAR

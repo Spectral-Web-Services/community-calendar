@@ -5,6 +5,40 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Contra Dancing
 X-WR-CALNAME:Contra Dancing
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:event_313905693@meetup.com
+SEQUENCE:1
+DTSTAMP:20260324T021154Z
+DTSTART;TZID=America/Los_Angeles:20260328T190000
+DTEND;TZID=America/Los_Angeles:20260328T223000
+SUMMARY:PCDC Contra Dance
+DESCRIPTION:Contra Dancing\nThis is a no-official-host dance to live music at the Fulton Community Center\, 68 SW Miles Street in Portland. All are welcome!\n\nMusic from **The Nettles**\, known for their high energy playing and improvisational style. Sometimes folky\, sometimes jazzy\, always spicy. Calling by **Rich Goss**. Contra dance lesson for newcomers at 7 pm\, dancing from 7:30 to 10:30 with a short break halfway through.\n\nBring water\, clothing appropriate for indoor aerobic activity and smooth-soled shoes for dancing. Please do not wear scented products to the dance.\n\nCost: $15 entry fee allows us to break even\; sliding scale is available\; cash\, check or credit card.\n\nMasking and up-to-date vaccination is recommended but not required. For more information about PCDC: www.portlandcountrydance.org. *[Note: there are always plenty of folks on the dance floor regardless of how many sign up on Meetup!]*
+URL;VALUE=URI:https://www.meetup.com/meetup-group-ccddsysh/events/313905693/
+STATUS:CONFIRMED
+CREATED:20260323T035841Z
+LAST-MODIFIED:20260323T035841Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/b/3/2/c/600_531165868.jpeg
+END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/meetup-group-ccddsysh/events/ical/
 X-WR-CALNAME:Contra Dancing
 END:VCALENDAR

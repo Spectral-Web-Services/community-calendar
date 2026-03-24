@@ -316,16 +316,16 @@ LOCATION:GA\, 300 Winning Way
 X-SOURCE:Veterans Memorial Coliseum
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Portland Winterhawks vs Everett Silvertips
+SUMMARY:Portland Winterhawks vs Everett Silvertips * if necessary
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260404T180000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260404T180000
-UID:10c1b77ee92eaae25f51a5a1f511c6c0@ticketmaster.com
+UID:a2c4f42cc602cfb7d5162e3f32a14b5c@ticketmaster.com
 ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/81b/474adaa2-4ca6-4
  66a-9b89-ea1680cc881b_RETINA_PORTRAIT_16_9.jpg
 DESCRIPTION:
 LOCATION:Veterans Memorial Coliseum\, 300 Winning Way\, Portland\, OR
 URL:https://www.ticketmaster.com/portland-winterhawks-vs-everett-silvertip
- s-portland-oregon-04-04-2026/event/0F006473E673C9A7
+ s-if-portland-oregon-04-04-2026/event/0F006473E673C9A7
 X-SOURCE:Veterans Memorial Coliseum
 END:VEVENT
 BEGIN:VEVENT
@@ -412,6 +412,43 @@ DESCRIPTION:
 LOCATION:Veterans Memorial Coliseum\, 300 Winning Way\, Portland\, OR
 URL:https://www.ticketmaster.com/charlie-puth-whatevers-clever-world-tour-
  portland-oregon-05-07-2026/event/0F006427908B4902
+X-SOURCE:Veterans Memorial Coliseum
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stars On Ice ROFR
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260524T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260524T100000
+UID:8bd428cd24724f420a8dffc623f9b099@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
+ f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Veterans Memorial Coliseum\, 1 Center Court\, Portland\, OR
+X-SOURCE:Veterans Memorial Coliseum
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stifel Stars on Ice - U.S.
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260524T160000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260524T160000
+UID:4f86df0537e2e3e70f6a5c53eae00298@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/513/25444dfc-b0b3-4
+ 7ae-b8de-f8a36ca60513_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Veterans Memorial Coliseum\, 300 Winning Way\, Portland\, OR
+URL:https://www.ticketmaster.com/stifel-stars-on-ice-us-portland-oregon-05
+ -24-2026/event/0F00636292195368
+X-SOURCE:Veterans Memorial Coliseum
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stifel Stars on Ice Pre-Show Stargazer Pass: 4:00PM-5:00PM
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260524T160000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260524T160000
+UID:040daba923e99c58e95f3ee7c2305eb9@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/ced/2d8f9bc1-640b-4
+ 0cd-9997-7f24a802bced_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Veterans Memorial Coliseum\, 300 Winning Way\, Portland\, OR
+URL:https://www.ticketmaster.com/stifel-stars-on-ice-preshow-stargazer-por
+ tland-oregon-05-24-2026/event/0F00636424D29463
 X-SOURCE:Veterans Memorial Coliseum
 END:VEVENT
 END:VCALENDAR
