@@ -38,6 +38,16 @@ const cityTimezones = {
   'publisher-resources': 'America/New_York',
 };
 
+const TIMEZONES = [
+  { value: 'America/New_York', label: 'Eastern (ET)' },
+  { value: 'America/Indiana/Indianapolis', label: 'Indiana (ET)' },
+  { value: 'America/Chicago', label: 'Central (CT)' },
+  { value: 'America/Denver', label: 'Mountain (MT)' },
+  { value: 'America/Los_Angeles', label: 'Pacific (PT)' },
+  { value: 'America/Anchorage', label: 'Alaska (AKT)' },
+  { value: 'Pacific/Honolulu', label: 'Hawaii (HT)' },
+];
+
 export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
   const { user, session } = useAuth();
   const { isCuratorForCity } = useCurator();
@@ -52,9 +62,10 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
 
   // Extracted/form fields
   const [title, setTitle] = useState('');
-  const [date, setDate] = useState('');
-  const [time, setTime] = useState('');
-  const [endTime, setEndTime] = useState('');
+  const [startDateTime, setStartDateTime] = useState('');
+  const [endDateTime, setEndDateTime] = useState('');
+  const [allDay, setAllDay] = useState(false);
+  const [timezone, setTimezone] = useState(eventTimezone);
   const [location, setLocation] = useState('');
   const [description, setDescription] = useState('');
   const [url, setUrl] = useState('');
@@ -67,9 +78,13 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
 
   function populateFromEvent(ev) {
     setTitle(ev.title || '');
-    setDate((ev.start_time || '').substring(0, 10));
-    setTime((ev.start_time || '').substring(11, 16));
-    if (ev.end_time) setEndTime(ev.end_time.substring(11, 16));
+    const st = ev.start_time || '';
+    const isAllDay = st.substring(11, 16) === '00:00';
+    setAllDay(isAllDay);
+    setStartDateTime(isAllDay ? st.substring(0, 10) : st.substring(0, 16));
+    if (ev.end_time) {
+      setEndDateTime(isAllDay ? ev.end_time.substring(0, 10) : ev.end_time.substring(0, 16));
+    }
     setLocation(ev.location || '');
     setDescription(ev.description || '');
     setUrl(ev.url || '');
@@ -77,7 +92,8 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
   }
 
   function resetForm() {
-    setTitle(''); setDate(''); setTime(''); setEndTime('');
+    setTitle(''); setStartDateTime(''); setEndDateTime('');
+    setAllDay(false); setTimezone(eventTimezone);
     setLocation(''); setDescription(''); setUrl('');
     setExtracted(false); setError('');
   }
@@ -100,7 +116,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
         'Content-Type': 'application/json',
         Authorization: 'Bearer ' + SUPABASE_ANON_KEY,
       },
-      body: JSON.stringify({ mode: 'extract-text', text, timezone: eventTimezone }),
+      body: JSON.stringify({ mode: 'extract-text', text, timezone }),
     });
     if (!res.ok) throw new Error('Extraction failed');
     return res.json();
@@ -119,7 +135,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
       const resized = await resizeImage(file);
       const formData = new FormData();
       formData.append('mode', 'extract');
-      formData.append('timezone', eventTimezone);
+      formData.append('timezone', timezone);
       formData.append('file', resized, 'image.jpg');
 
       const data = await extractFromImage(formData);
@@ -151,12 +167,14 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
 
   async function handleSubmit() {
     if (!title.trim()) { setError('Title is required'); return; }
-    if (!date) { setError('Date is required'); return; }
+    if (!startDateTime) { setError('Start date/time is required'); return; }
     setError('');
     setSubmitting(true);
 
-    const startTime = date + 'T' + (time || '00:00') + ':00';
-    const endTimeStr = endTime ? date + 'T' + endTime + ':00' : null;
+    const startTime = allDay ? startDateTime + 'T00:00:00' : startDateTime + ':00';
+    const endTimeStr = endDateTime
+      ? (allDay ? endDateTime + 'T00:00:00' : endDateTime + ':00')
+      : null;
 
     const submissionType = tab === 'image' ? 'image' : tab === 'text' ? 'text' : 'manual';
 
@@ -181,7 +199,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
             description: description || null,
             url: url || null,
             city: city || null,
-            timezone: eventTimezone,
+            timezone,
             source: 'community_submission',
             source_uid: sourceUid,
           }),
@@ -211,7 +229,7 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
             description: description || null,
             url: url || null,
             city: city || null,
-            timezone: eventTimezone,
+            timezone,
             submitted_by: user?.id || null,
             submission_type: submissionType,
             original_text: tab === 'text' ? pasteText : null,
@@ -336,10 +354,51 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
               {showForm && (
                 <div className="space-y-3 mb-4">
                   <Field label="Title" value={title} onChange={setTitle} />
-                  <Field label="Date" value={date} onChange={setDate} placeholder="YYYY-MM-DD" />
-                  <div className="flex gap-3">
-                    <Field label="Start" value={time} onChange={setTime} placeholder="HH:MM" className="flex-1" />
-                    <Field label="End" value={endTime} onChange={setEndTime} placeholder="HH:MM" className="flex-1" />
+                  <label className="flex items-center gap-2 text-sm text-gray-600">
+                    <input
+                      type="checkbox"
+                      checked={allDay}
+                      onChange={e => {
+                        setAllDay(e.target.checked);
+                        // Trim or clear time portion when toggling
+                        if (e.target.checked) {
+                          setStartDateTime(startDateTime.substring(0, 10));
+                          setEndDateTime(endDateTime.substring(0, 10));
+                        }
+                      }}
+                      className="rounded border-gray-300"
+                    />
+                    All day
+                  </label>
+                  <div>
+                    <label className="block text-xs font-medium text-gray-500 mb-1">Start</label>
+                    <input
+                      type={allDay ? 'date' : 'datetime-local'}
+                      value={startDateTime}
+                      onChange={e => setStartDateTime(e.target.value)}
+                      className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-xs font-medium text-gray-500 mb-1">End</label>
+                    <input
+                      type={allDay ? 'date' : 'datetime-local'}
+                      value={endDateTime}
+                      onChange={e => setEndDateTime(e.target.value)}
+                      className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-xs font-medium text-gray-500 mb-1">Timezone</label>
+                    <select
+                      value={timezone}
+                      onChange={e => setTimezone(e.target.value)}
+                      className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none text-gray-600"
+                    >
+                      {TIMEZONES.map(tz => (
+                        <option key={tz.value} value={tz.value}>{tz.label}</option>
+                      ))}
+                    </select>
                   </div>
                   <Field label="Location" value={location} onChange={setLocation} />
                   <div>

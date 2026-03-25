@@ -10,6 +10,16 @@ import {
 } from '../lib/helpers.js';
 import CATEGORIES from '../lib/categories.js';
 
+const TIMEZONES = [
+  { value: 'America/New_York', label: 'Eastern (ET)' },
+  { value: 'America/Indiana/Indianapolis', label: 'Indiana (ET)' },
+  { value: 'America/Chicago', label: 'Central (CT)' },
+  { value: 'America/Denver', label: 'Mountain (MT)' },
+  { value: 'America/Los_Angeles', label: 'Pacific (PT)' },
+  { value: 'America/Anchorage', label: 'Alaska (AKT)' },
+  { value: 'Pacific/Honolulu', label: 'Hawaii (HT)' },
+];
+
 const DAYS = [
   { code: 'SU', label: 'Su' }, { code: 'MO', label: 'Mo' }, { code: 'TU', label: 'Tu' },
   { code: 'WE', label: 'We' }, { code: 'TH', label: 'Th' }, { code: 'FR', label: 'Fr' },
@@ -33,10 +43,15 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
   const { user, session } = useAuth();
 
   // Form fields
+  const initStart = event?.start_time || '';
+  const initAllDay = initStart.substring(11, 16) === '00:00';
   const [title, setTitle] = useState(event?.title || '');
-  const [date, setDate] = useState((event?.start_time || '').substring(0, 10));
-  const [time, setTime] = useState((event?.start_time || '').substring(11, 16));
-  const [endTime, setEndTime] = useState(event?.end_time ? event.end_time.substring(11, 16) : '');
+  const [startDateTime, setStartDateTime] = useState(initAllDay ? initStart.substring(0, 10) : initStart.substring(0, 16));
+  const [endDateTime, setEndDateTime] = useState(
+    event?.end_time ? (initAllDay ? event.end_time.substring(0, 10) : event.end_time.substring(0, 16)) : ''
+  );
+  const [allDay, setAllDay] = useState(initAllDay);
+  const [timezone, setTimezone] = useState(event?.timezone || 'America/Los_Angeles');
   const [location, setLocation] = useState(event?.location || '');
   const [description, setDescription] = useState(event?.description || '');
   const [category, setCategory] = useState(event?.category || '');
@@ -45,7 +60,8 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
   const detected = useMemo(() => detectRecurrence(event?.description, event?.title), [event]);
   const [frequency, setFrequency] = useState(detected?.frequency || 'none');
   const [days, setDays] = useState(detected?.days || []);
-  const defaultOrd = useMemo(() => getOrdinalWeekday(date, event?.timezone), [date, event?.timezone]);
+  const date = startDateTime.substring(0, 10);
+  const defaultOrd = useMemo(() => getOrdinalWeekday(date, timezone), [date, timezone]);
   const [ordinal, setOrdinal] = useState(detected?.ordinal || defaultOrd?.ordinal || 1);
   const [monthDay, setMonthDay] = useState(detected?.monthDay || defaultOrd?.day || 'MO');
 
@@ -89,15 +105,23 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
           if (e.location) setLocation(e.location);
           if (e.description) setDescription(e.description);
           if (e.start_time) {
-            setDate(e.start_time.substring(0, 10));
-            setTime(e.start_time.substring(11, 16));
+            const eAllDay = e.start_time.substring(11, 16) === '00:00';
+            setAllDay(eAllDay);
+            setStartDateTime(eAllDay ? e.start_time.substring(0, 10) : e.start_time.substring(0, 16));
           }
-          if (e.end_time) setEndTime(e.end_time.substring(11, 16));
+          if (e.end_time) {
+            setEndDateTime(allDay ? e.end_time.substring(0, 10) : e.end_time.substring(0, 16));
+          }
           if (p.frequency !== 'none') setShowRecurrence(true);
         }
       })
       .catch(() => {});
   }, [mode, pick, user, session]);
+
+  function buildTimeStr(dt) {
+    if (!dt) return null;
+    return allDay ? dt.substring(0, 10) + 'T00:00:00' : dt + ':00';
+  }
 
   async function handleSave() {
     if (!user) { setError('Please sign in'); return; }
@@ -111,10 +135,10 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
       if (mode === 'create') {
         // Manual event — create standalone enrichment with no event_id
         if (!title.trim()) { setError('Title is required'); setSaving(false); return; }
-        if (!date) { setError('Date is required'); setSaving(false); return; }
+        if (!startDateTime) { setError('Start date/time is required'); setSaving(false); return; }
 
-        const startTime = (date || '') + 'T' + (time || '00:00') + ':00';
-        const endTimeStr = endTime ? (date || '') + 'T' + endTime + ':00' : null;
+        const startTime = buildTimeStr(startDateTime);
+        const endTimeStr = buildTimeStr(endDateTime);
         const res = await fetch(`${SUPABASE_URL}/rest/v1/event_enrichments`, {
           method: 'POST',
           headers: { ...headers, Prefer: 'return=representation' },
@@ -162,8 +186,8 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
 
         // Create enrichment if recurrence set
         if (rruleStr) {
-          const startTime = (date || '') + 'T' + (time || '00:00') + ':00';
-          const endTimeStr = endTime ? (date || '') + 'T' + endTime + ':00' : null;
+          const startTime = buildTimeStr(startDateTime);
+          const endTimeStr = buildTimeStr(endDateTime);
           await fetch(`${SUPABASE_URL}/rest/v1/event_enrichments?on_conflict=event_id,curator_id`, {
             method: 'POST',
             headers: { ...headers, Prefer: 'return=minimal,resolution=merge-duplicates' },
@@ -183,8 +207,8 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
       } else {
         // Enrich mode — upsert enrichment with all fields
         const eventId = pick?.event_id || pick?.events?.id || event?.id;
-        const startTime = (date || '') + 'T' + (time || '00:00') + ':00';
-        const endTimeStr = endTime ? (date || '') + 'T' + endTime + ':00' : null;
+        const startTime = buildTimeStr(startDateTime);
+        const endTimeStr = buildTimeStr(endDateTime);
         await fetch(`${SUPABASE_URL}/rest/v1/event_enrichments?on_conflict=event_id,curator_id`, {
           method: 'POST',
           headers: { ...headers, Prefer: 'return=minimal,resolution=merge-duplicates' },
@@ -228,12 +252,12 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
   const calEvent = useMemo(() => ({
     id: event?.id,
     title,
-    start_time: (date || '') + 'T' + (time || '00:00') + ':00',
-    end_time: endTime ? (date || '') + 'T' + endTime + ':00' : null,
+    start_time: buildTimeStr(startDateTime),
+    end_time: buildTimeStr(endDateTime),
     location, description,
     url: event?.url || null,
     rrule: buildRRule(frequency, days, ordinal, monthDay),
-  }), [event, title, date, time, endTime, location, description, frequency, days, ordinal, monthDay]);
+  }), [event, title, startDateTime, endDateTime, location, description, frequency, days, ordinal, monthDay]);
 
   const eventDate = event?.start_time
     ? formatDayOfWeek(event.start_time, event?.timezone) + ' ' + formatMonthDay(event.start_time, event?.timezone)
@@ -265,10 +289,50 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
 
               <div className="space-y-3 mb-4">
                 <Field label="Title" value={title} onChange={setTitle} />
-                <Field label="Date" value={date} onChange={setDate} placeholder="YYYY-MM-DD" />
-                <div className="flex gap-3">
-                  <Field label="Start" value={time} onChange={setTime} placeholder="HH:MM" className="flex-1" />
-                  <Field label="End" value={endTime} onChange={setEndTime} placeholder="HH:MM" className="flex-1" />
+                <label className="flex items-center gap-2 text-sm text-gray-600">
+                  <input
+                    type="checkbox"
+                    checked={allDay}
+                    onChange={e => {
+                      setAllDay(e.target.checked);
+                      if (e.target.checked) {
+                        setStartDateTime(startDateTime.substring(0, 10));
+                        setEndDateTime(endDateTime.substring(0, 10));
+                      }
+                    }}
+                    className="rounded border-gray-300"
+                  />
+                  All day
+                </label>
+                <div>
+                  <label className="block text-xs font-medium text-gray-500 mb-1">Start</label>
+                  <input
+                    type={allDay ? 'date' : 'datetime-local'}
+                    value={startDateTime}
+                    onChange={e => setStartDateTime(e.target.value)}
+                    className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-medium text-gray-500 mb-1">End</label>
+                  <input
+                    type={allDay ? 'date' : 'datetime-local'}
+                    value={endDateTime}
+                    onChange={e => setEndDateTime(e.target.value)}
+                    className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-medium text-gray-500 mb-1">Timezone</label>
+                  <select
+                    value={timezone}
+                    onChange={e => setTimezone(e.target.value)}
+                    className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none text-gray-600"
+                  >
+                    {TIMEZONES.map(tz => (
+                      <option key={tz.value} value={tz.value}>{tz.label}</option>
+                    ))}
+                  </select>
                 </div>
                 <Field label="Location" value={location} onChange={setLocation} />
                 <div>

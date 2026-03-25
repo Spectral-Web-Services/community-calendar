@@ -6,6 +6,16 @@ import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
 const TYPE_ICONS = { image: Image, text: Type, manual: FileText };
 const TYPE_LABELS = { image: 'Image', text: 'Text', manual: 'Manual' };
 
+const TIMEZONES = [
+  { value: 'America/New_York', label: 'Eastern (ET)' },
+  { value: 'America/Indiana/Indianapolis', label: 'Indiana (ET)' },
+  { value: 'America/Chicago', label: 'Central (CT)' },
+  { value: 'America/Denver', label: 'Mountain (MT)' },
+  { value: 'America/Los_Angeles', label: 'Pacific (PT)' },
+  { value: 'America/Anchorage', label: 'Alaska (AKT)' },
+  { value: 'Pacific/Honolulu', label: 'Hawaii (HT)' },
+];
+
 export default function PendingEvents({ city }) {
   const { user, session } = useAuth();
   const [events, setEvents] = useState([]);
@@ -44,18 +54,27 @@ export default function PendingEvents({ city }) {
     try {
       // Insert into events table
       const sourceUid = `community_submission:${pe.id}:${Date.now()}`;
+      const isEdited = editId === pe.id;
+      const isAllDay = isEdited && editFields.allDay;
+      const startTime = isEdited && editFields.start_time
+        ? (isAllDay ? editFields.start_time.substring(0, 10) + 'T00:00:00' : editFields.start_time + ':00')
+        : merged.start_time;
+      const endTime = isEdited && editFields.end_time
+        ? (isAllDay ? editFields.end_time.substring(0, 10) + 'T00:00:00' : editFields.end_time + ':00')
+        : (merged.end_time || null);
+      const tz = editId === pe.id ? editFields.timezone : (merged.timezone || null);
       const insertRes = await fetch(`${SUPABASE_URL}/rest/v1/events`, {
         method: 'POST',
         headers: jsonHeaders,
         body: JSON.stringify({
           title: merged.title,
-          start_time: merged.start_time,
-          end_time: merged.end_time || null,
+          start_time: startTime,
+          end_time: endTime,
           location: merged.location || null,
           description: merged.description || null,
           url: merged.url || null,
           city: merged.city || null,
-          timezone: merged.timezone || null,
+          timezone: tz,
           source: 'community_submission',
           source_uid: sourceUid,
         }),
@@ -108,11 +127,15 @@ export default function PendingEvents({ city }) {
   }
 
   function startEdit(pe) {
+    const st = pe.start_time || '';
+    const isAllDay = st.substring(11, 16) === '00:00';
     setEditId(pe.id);
     setEditFields({
       title: pe.title,
-      start_time: pe.start_time,
-      end_time: pe.end_time || '',
+      start_time: isAllDay ? st.substring(0, 10) : st.substring(0, 16),
+      end_time: pe.end_time ? (isAllDay ? pe.end_time.substring(0, 10) : pe.end_time.substring(0, 16)) : '',
+      allDay: isAllDay,
+      timezone: pe.timezone || 'America/Los_Angeles',
       location: pe.location || '',
       description: pe.description || '',
       url: pe.url || '',
@@ -161,7 +184,50 @@ export default function PendingEvents({ city }) {
                 {isEditing ? (
                   <div className="space-y-2 mt-2">
                     <EditField label="Title" value={editFields.title} onChange={v => setEditFields(f => ({ ...f, title: v }))} />
-                    <EditField label="Start" value={editFields.start_time?.substring(0, 16)} onChange={v => setEditFields(f => ({ ...f, start_time: v + ':00' }))} placeholder="YYYY-MM-DDTHH:MM" />
+                    <label className="flex items-center gap-2 text-sm text-gray-600">
+                      <input
+                        type="checkbox"
+                        checked={editFields.allDay || false}
+                        onChange={e => setEditFields(f => ({
+                          ...f,
+                          allDay: e.target.checked,
+                          start_time: e.target.checked ? (f.start_time || '').substring(0, 10) : f.start_time,
+                          end_time: e.target.checked ? (f.end_time || '').substring(0, 10) : f.end_time,
+                        }))}
+                        className="rounded border-gray-300"
+                      />
+                      All day
+                    </label>
+                    <div>
+                      <label className="block text-xs font-medium text-gray-500 mb-1">Start</label>
+                      <input
+                        type={editFields.allDay ? 'date' : 'datetime-local'}
+                        value={editFields.start_time || ''}
+                        onChange={e => setEditFields(f => ({ ...f, start_time: e.target.value }))}
+                        className="w-full rounded border border-gray-200 px-2 py-1 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-medium text-gray-500 mb-1">End</label>
+                      <input
+                        type={editFields.allDay ? 'date' : 'datetime-local'}
+                        value={editFields.end_time || ''}
+                        onChange={e => setEditFields(f => ({ ...f, end_time: e.target.value }))}
+                        className="w-full rounded border border-gray-200 px-2 py-1 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-medium text-gray-500 mb-1">Timezone</label>
+                      <select
+                        value={editFields.timezone || ''}
+                        onChange={e => setEditFields(f => ({ ...f, timezone: e.target.value }))}
+                        className="w-full rounded border border-gray-200 px-2 py-1 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                      >
+                        {TIMEZONES.map(tz => (
+                          <option key={tz.value} value={tz.value}>{tz.label}</option>
+                        ))}
+                      </select>
+                    </div>
                     <EditField label="Location" value={editFields.location} onChange={v => setEditFields(f => ({ ...f, location: v }))} />
                     <div>
                       <label className="block text-xs font-medium text-gray-500 mb-1">Description</label>
