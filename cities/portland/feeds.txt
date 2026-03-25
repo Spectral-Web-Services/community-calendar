@@ -3,21 +3,9 @@
 # Source of truth: .github/workflows/generate-calendar.yml
 
 # --- Scrapers ---
-# Aggregator
+# Scraper
 # cmd: python scrapers/travelportland.py
 cities/portland/travelportland.ics
-
-# Scraper
-# cmd: python scrapers/steelport.py
-cities/portland/steelport.ics
-# cmd: python scrapers/squarespace.py --url "https://hillsboromarkets.org/events" --name "Hillsboro Markets"
-cities/portland/hillsboro_markets.ics
-
-# Government meetings
-# cmd: python scrapers/legistar.py --client oregonmetro --source "Oregon Metro"
-cities/portland/legistar_oregon_metro.ics
-
-# Scraper
 # cmd: python scrapers/portland_gov.py --type 329 --name "Portland Community Events"
 cities/portland/pdxgov_community.ics
 # cmd: python scrapers/portland_gov.py --type 364 --name "Portland Volunteer Events"
@@ -32,6 +20,8 @@ cities/portland/pdxgov_council.ics
 cities/portland/multcolib.ics
 # cmd: python scrapers/oregon_zoo.py
 cities/portland/oregon_zoo.ics
+# cmd: python scrapers/steelport.py
+cities/portland/steelport.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/trailkeepers-of-oregon-14932207863" --name "Trailkeepers of Oregon"
 cities/portland/eventbrite_trailkeepers.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/northwest-trail-alliance-17416465786" --name "Northwest Trail Alliance"
@@ -40,6 +30,8 @@ cities/portland/eventbrite_nw_trail_alliance.ics
 cities/portland/eventbrite_portland_nursery.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/habitat-for-humanity-portland-region-education-55187284613" --name "Habitat for Humanity Portland"
 cities/portland/eventbrite_habitat_pdx.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/104252578181" --name "WonderLove PDX"
+cities/portland/eventbrite_wonderlove_pdx.ics
 # cmd: python scrapers/wccls_library.py
 cities/portland/wccls_library.ics
 # cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/2845468-revolution-hall" --name "Revolution Hall"
@@ -65,7 +57,13 @@ cities/portland/ticketmaster_veterans_coliseum.ics
 # cmd: python scrapers/ticketmaster.py --venue-id KovZpZAJ6E6A --name "Theater of the Clouds" --timezone America/Los_Angeles
 cities/portland/ticketmaster_theater_clouds.ics
 
+# Government meetings
+# cmd: python scrapers/legistar.py --client oregonmetro --source "Oregon Metro"
+cities/portland/legistar_oregon_metro.ics
+
 # Squarespace
+# cmd: python scrapers/squarespace.py --url "https://hillsboromarkets.org/events" --name "Hillsboro Markets"
+cities/portland/hillsboro_markets.ics
 # cmd: python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/events" --name "Portland Saturday Market"
 cities/portland/saturday_market.ics
 # cmd: python scrapers/squarespace.py --url "https://www.portlandsaturdaymarket.com/stage-performances" --name "Portland Saturday Market Stage"
@@ -84,6 +82,16 @@ cities/portland/hollywood_fm.ics
 cities/portland/pdx_jazz.ics
 # cmd: python scrapers/squarespace.py --url "https://www.portlandfruit.org/event-calendar" --name "Portland Fruit Tree Project"
 cities/portland/portland_fruit_tree.ics
+# cmd: python scrapers/squarespace.py --url "https://www.portlandpf.org/upcoming-events" --name "Portland Parks Foundation"
+cities/portland/portland_parks_foundation.ics
+# cmd: python scrapers/squarespace.py --url "https://www.rockwoodmarkethall.com/events" --name "Rockwood Market Hall"
+cities/portland/rockwood_market_hall.ics
+# cmd: python scrapers/squarespace.py --url "https://www.kickstandcomedy.org/shows" --name "Kickstand Comedy"
+cities/portland/kickstand_comedy.ics
+# cmd: python scrapers/simpleview.py --url "https://www.visitvancouverwa.com/events/" --name "Visit Vancouver WA"
+cities/portland/visit_vancouver_wa.ics
+# cmd: python scrapers/osu_extension.py --group metro --name "OSU Extension Master Gardeners"
+cities/portland/osu_extension_mg.ics
 
 # --- Live feeds ---
 # Tockify
@@ -118,10 +126,11 @@ https://www.hoytarboretum.org/visit/events/?ical=1
 https://www.crystalballroompdx.com/events/?ical=1
 https://pdxparent.com/?post_type=tribe_events&ical=1&eventDisplay=list
 https://anandaportland.org/?post_type=tribe_events&ical=1&eventDisplay=list
+https://emswcd.org/events/?ical=1
 
 # Google Calendar
-https://calendar.google.com/calendar/ical/c_c3f3ddaa756f97af178bda500c049cdc81083cb60114ddccbc12fb8dae957796%40group.calendar.google.com/public/basic.ics
 https://calendar.google.com/calendar/ical/c_f7874efb584df10c8a9a4a06f0ec2562d20426bc84a0f89335fe20429c498448%40group.calendar.google.com/public/basic.ics
+https://calendar.google.com/calendar/ical/c_c3f3ddaa756f97af178bda500c049cdc81083cb60114ddccbc12fb8dae957796%40group.calendar.google.com/public/basic.ics
 https://www.google.com/calendar/ical/629tvcnf17grg9v0fgvge9pb7c%40group.calendar.google.com/public/basic.ics
 https://calendar.google.com/calendar/ical/kqt4cjm6mi8r1jpl3j5fpb8h0k%40group.calendar.google.com/public/basic.ics
 https://calendar.google.com/calendar/ical/friendsoftrees.org_t2a9f98m9qpie05r3r9koc79do%40group.calendar.google.com/public/basic.ics

@@ -1,6 +1,6 @@
 # Portland Sources Checklist
 
-## Currently Implemented (88 sources)
+## Currently Implemented (95 sources)
 
 ### Aggregators / Community Calendars
 | Source | Type | Events | Notes |
@@ -33,6 +33,12 @@
 | Ananda Portland | WordPress Events Manager | 50 | Meditation, yoga, kirtan |
 | PDX Parent | WordPress Tribe ICS | 30 | Family events calendar |
 | Portland Public Schools | Google Calendar | 12 | School district calendar |
+| EMSWCD | WordPress Tribe ICS | 4 | Workshops, meetings (soil & water conservation) |
+| Portland Parks Foundation | Squarespace scraper | 3 | Park celebrations, volunteer events |
+| Rockwood Market Hall | Squarespace scraper | varies | Community markets, live music, Gresham area |
+| Kickstand Comedy | Squarespace scraper | varies | Improv, standup, sketch comedy (SE Hawthorne) |
+| Visit Vancouver WA | Simpleview scraper | 30 | Tourism events, festivals, music (Vancouver WA) |
+| OSU Extension Master Gardeners | osu_extension.py scraper | 11 | Gardening workshops, Metro area MG program |
 
 ### Nature & Outdoors
 | Source | Type | Events | Notes |
@@ -57,6 +63,7 @@
 | Northwest Trail Alliance | Eventbrite scraper | 11 | Free mountain bike trail building; images |
 | Portland Nursery | Eventbrite scraper | 4 | Free gardening classes; images |
 | Habitat for Humanity Portland | Eventbrite scraper | 3 | Free homeownership education; images |
+| WonderLove PDX | Eventbrite scraper | 2 | Culture/food/entertainment hub; markets, festivals |
 
 ### Ticketmaster Venues (3)
 | Source | Type | Events | Notes |
@@ -166,6 +173,10 @@
 | Helium Comedy Club | portland.heliumcomedy.com | SeatEngine ticketing, JSON-LD available |
 | Hollywood Theatre | hollywoodtheatre.org | Cloudflare-blocked |
 | Q Center | pdxqcenter.org/calendar | Wix, no feeds |
+| The People's Courts | thepeoplescourts.com/tpc-calendar | WordPress + Elfsight widget, no ICS |
+
+| Beaverton Gov Events | beavertonoregon.gov/482/Events | CivicPlus, no iCalendar module |
+| Rockwood Common | tools.rockwoodcommon.org/events | Lend Engine, JSON endpoint only |
 
 ## Non-Starters
 | Source | Reason |
@@ -176,6 +187,8 @@
 | Concordia University Portland | Closed permanently in 2020 |
 | Portland Children's Museum | Closed permanently in 2021 |
 | Doug Fir Lounge | Relocating, no events currently |
+| Williams-Sonoma Brewery Blocks | 403 blocked, proprietary platform, no feeds |
+| Portland Plazas Events | Manual info page updated monthly, not a real event calendar |
 
 ## To Investigate
 
@@ -184,8 +197,8 @@
 - [x] Explore Washington Park (explorewashingtonpark.org) — WordPress Tribe ICS added (~31 events, some overlap with Hoyt/Japanese Garden)
 - [x] Portland Fruit Tree Project (portlandfruit.org) — Squarespace events collection added
 - [x] JAMO (jamo.org) — WordPress Tribe ICS added
-- [ ] OSU Extension (extension.oregonstate.edu) — Drupal, no feeds; filter by county only, no Portland metro filter
-- [ ] WonderLove PDX (wonderlovepdx.com) — WordPress/Divi, no event plugin or feeds; food venue
+- [x] OSU Extension (extension.oregonstate.edu) — Custom scraper added, filtered to MG-Metro (11 events)
+- [x] WonderLove PDX (wonderlovepdx.com) — Added via Eventbrite organizer scraper
 - [ ] People's Food Co-op (peoples.coop) — Squarespace, community room closed, no events listed
 - [ ] Rockwood Common (tools.rockwoodcommon.org) — Lend Engine tool library, no calendar feeds
 - [ ] PDX Night Market (pdxnm.com) — Wix, no feeds
@@ -210,3 +223,22 @@
 - [ ] DoPDX
 - [ ] Portland Shambhala Center (Cloudflare-blocked, likely has ICS)
 - [ ] Hands On Greater Portland (volunteer platform)
+
+### New Requests (March 2026) — Resolved
+| Source | URL | Resolution |
+|--------|-----|------------|
+| EMSWCD | emswcd.org/events | **Added** — WordPress Tribe ICS feed (4 events, workshops & meetings) |
+| Portland Parks Foundation | portlandpf.org/upcoming-events | **Added** — Squarespace scraper (3 events, park celebrations) |
+| Rockwood Market Hall | rockwoodmarkethall.com/events | **Added** — Squarespace scraper (markets, live music, community events) |
+| Kickstand Comedy | kickstandcomedy.org/shows | **Added** — Squarespace scraper (improv, standup, sketch) |
+| Explore Washington Park | explorewashingtonpark.org/events/list/?ical=1 | **Duplicate** — already in feed (line 108) |
+| PDX Jazz | pdxjazz.org/events | **Duplicate** — already in feed (Squarespace scraper, line 79) |
+| ResourcefulPDX | portland.gov/bps/sustainability/resourcefulpdx/events | **Already covered** — captured by portland_gov.py type 329 |
+| Portland Center Stage | pcs.org/events | Custom CMS, no feeds; partially covered via Travel Portland (~27 events) |
+| OSU Extension Metro | extension.oregonstate.edu/program/all/mg/events | **Added** — custom scraper, filtered to Metro group (11 events) |
+| The People's Courts | thepeoplescourts.com/tpc-calendar | WordPress + Elfsight widget, no ICS; needs custom scraper |
+| Beaverton Gov Events | beavertonoregon.gov/482/Events | CivicPlus, no iCalendar module exposed; needs custom scraper |
+| Visit Vancouver WA | visitvancouverwa.com/events | **Added** — Simpleview scraper (30 events, JSON-LD from detail pages) |
+| Portland Plazas | portland.gov/transportation/planning/plazas/events | **Non-starter** — manual info page, updated monthly, not a calendar |
+| Williams-Sonoma Brewery Blocks | williams-sonoma.com/stores/us-or-portland-brewery-blocks/ | **Non-starter** — 403 blocked, proprietary platform, no feeds |
+| Rockwood Common | tools.rockwoodcommon.org/events | Lend Engine platform, JSON endpoint only, no ICS; needs custom scraper |
