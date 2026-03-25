@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { Check, XIcon, Loader2, Image, Type, FileText } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { SUPABASE_URL, SUPABASE_KEY } from '../lib/supabase.js';
+import { toTimestampTz } from '../lib/timezone.js';
 
 const TYPE_ICONS = { image: Image, text: Type, manual: FileText };
 const TYPE_LABELS = { image: 'Image', text: 'Text', manual: 'Manual' };
@@ -56,13 +57,13 @@ export default function PendingEvents({ city }) {
       const sourceUid = `community_submission:${pe.id}:${Date.now()}`;
       const isEdited = editId === pe.id;
       const isAllDay = isEdited && editFields.allDay;
+      const tz = isEdited ? editFields.timezone : (merged.timezone || 'America/Los_Angeles');
       const startTime = isEdited && editFields.start_time
-        ? (isAllDay ? editFields.start_time.substring(0, 10) + 'T00:00:00' : editFields.start_time + ':00')
+        ? toTimestampTz(isAllDay ? editFields.start_time.substring(0, 10) : editFields.start_time, tz)
         : merged.start_time;
       const endTime = isEdited && editFields.end_time
-        ? (isAllDay ? editFields.end_time.substring(0, 10) + 'T00:00:00' : editFields.end_time + ':00')
+        ? toTimestampTz(isAllDay ? editFields.end_time.substring(0, 10) : editFields.end_time, tz)
         : (merged.end_time || null);
-      const tz = editId === pe.id ? editFields.timezone : (merged.timezone || null);
       const insertRes = await fetch(`${SUPABASE_URL}/rest/v1/events`, {
         method: 'POST',
         headers: jsonHeaders,

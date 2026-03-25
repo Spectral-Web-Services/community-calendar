@@ -4,6 +4,7 @@ import { X, Image, Type, FileText, Loader2, CheckCircle } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { useCurator } from '../hooks/useCurator.jsx';
 import { SUPABASE_URL, SUPABASE_KEY, SUPABASE_ANON_KEY } from '../lib/supabase.js';
+import { toTimestampTz } from '../lib/timezone.js';
 
 const CAPTURE_URL = `${SUPABASE_URL}/functions/v1/capture-event`;
 
@@ -171,9 +172,9 @@ export default function SubmitEvent({ city, onClose, onSubmitted, inline }) {
     setError('');
     setSubmitting(true);
 
-    const startTime = allDay ? startDateTime + 'T00:00:00' : startDateTime + ':00';
+    const startTime = toTimestampTz(allDay ? startDateTime.substring(0, 10) : startDateTime, timezone);
     const endTimeStr = endDateTime
-      ? (allDay ? endDateTime + 'T00:00:00' : endDateTime + ':00')
+      ? toTimestampTz(allDay ? endDateTime.substring(0, 10) : endDateTime, timezone)
       : null;
 
     const submissionType = tab === 'image' ? 'image' : tab === 'text' ? 'text' : 'manual';

@@ -69,6 +69,39 @@ export function getDisplayTimezone(event, citySlug) {
 }
 
 /**
+ * Convert a naive datetime string (from datetime-local or date input) to an
+ * ISO 8601 string with the correct UTC offset for the given IANA timezone.
+ *
+ * E.g. toTimestampTz("2026-03-25T13:00", "America/Los_Angeles") → "2026-03-25T13:00:00-07:00"
+ *      toTimestampTz("2026-03-25", "America/Los_Angeles")        → "2026-03-25T00:00:00-07:00"
+ *
+ * This ensures PostgreSQL timestamptz columns store the correct instant.
+ */
+export function toTimestampTz(dateTimeLocal, tz) {
+  if (!dateTimeLocal) return null;
+  // Normalize: date-only → add midnight, datetime-local → add seconds
+  const normalized = dateTimeLocal.length === 10
+    ? dateTimeLocal + 'T00:00:00'
+    : dateTimeLocal + ':00';
+
+  // Create a Date near the target time (treating input as UTC to get close)
+  const approx = new Date(normalized + 'Z');
+
+  // Determine the UTC offset of the target timezone at this approximate instant
+  const utcStr = approx.toLocaleString('en-US', { timeZone: 'UTC' });
+  const tzStr = approx.toLocaleString('en-US', { timeZone: tz });
+  const offsetMs = new Date(tzStr).getTime() - new Date(utcStr).getTime();
+  const totalMin = offsetMs / 60000;
+
+  const sign = totalMin >= 0 ? '+' : '-';
+  const absMin = Math.abs(totalMin);
+  const h = String(Math.floor(absMin / 60)).padStart(2, '0');
+  const m = String(absMin % 60).padStart(2, '0');
+
+  return normalized + sign + h + ':' + m;
+}
+
+/**
  * Get a short timezone abbreviation for display (e.g., "PDT", "EST").
  */
 export function getTimezoneAbbr(isoString, timezone) {
