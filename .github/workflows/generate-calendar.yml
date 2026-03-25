@@ -757,6 +757,8 @@ jobs:
         python scrapers/poynter_shop.py --output cities/publisher-resources/poynter_shop.ics || true
         # Lenfest Institute — WordPress events page scraper
         python scrapers/lenfest_events.py --output cities/publisher-resources/lenfest.ics || true
+        # Journalism Conferences — Airtable shared view (journalism.wtf 2026 conference calendar)
+        python scrapers/journalism_conferences.py --output cities/publisher-resources/journalism_conferences.ics || true
       continue-on-error: true
 
     - name: Fetch Publisher Resources live feeds

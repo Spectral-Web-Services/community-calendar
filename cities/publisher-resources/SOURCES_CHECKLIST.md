@@ -39,6 +39,7 @@ No geolocation filtering applied.
 - [x] News Product Alliance — `eventbrite.py` (Eventbrite organizer `31338856063`)
 - [x] ONA (Online News Association) — `ona_events.py` (HTML scraper, Novi AMS events page)
 - [x] Knight Center for Journalism — `knight_center.py` (WordPress/Elementor course library at `journalismcourses.org/course-library/`)
+- [x] Journalism Conferences (journalism.wtf) — `journalism_conferences.py` (Airtable shared view API at `airtable.com/embed/appdQ4Dw4XiTJosQ3/shrf3WOwq5zRMEuIZ`; crowd-sourced 2026 conference calendar with 112 events from 82 orgs)
 
 ## Investigated — Not Viable
 
