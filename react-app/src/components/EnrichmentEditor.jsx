@@ -9,6 +9,7 @@ import {
   buildGoogleCalendarUrl, downloadEventICS,
 } from '../lib/helpers.js';
 import CATEGORIES from '../lib/categories.js';
+import { toTimestampTz } from '../lib/timezone.js';
 
 const TIMEZONES = [
   { value: 'America/New_York', label: 'Eastern (ET)' },
@@ -120,7 +121,7 @@ export default function EnrichmentEditor({ event, pick, mode = 'pick', onClose, 
 
   function buildTimeStr(dt) {
     if (!dt) return null;
-    return allDay ? dt.substring(0, 10) + 'T00:00:00' : dt + ':00';
+    return toTimestampTz(allDay ? dt.substring(0, 10) : dt, timezone);
   }
 
   async function handleSave() {
