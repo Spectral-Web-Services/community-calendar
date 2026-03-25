@@ -7,20 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A74fe9"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260324T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260324T190000
-UID:8646d92d9cd6cfc03f0ae93799f83ba8@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A74fe9
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
 SUMMARY:Suffs
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260324T190000
@@ -38,7 +24,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260325T000000
 DTEND;TZID=America/New_York:20260328T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222034
 CREATED:20250905T193845Z
 LAST-MODIFIED:20260323T192432Z
 UID:10000039-1774396800-1774742399@emersontheatres.org
@@ -740,7 +726,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260403T000000
 DTEND;TZID=America/New_York:20260403T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222034
 CREATED:20260311T143554Z
 LAST-MODIFIED:20260316T171244Z
 UID:10000078-1775174400-1775260799@emersontheatres.org
@@ -898,7 +884,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260404T000000
 DTEND;TZID=America/New_York:20260404T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222034
 CREATED:20260311T163835Z
 LAST-MODIFIED:20260316T171338Z
 UID:10000079-1775260800-1775347199@emersontheatres.org
@@ -1390,6 +1376,19 @@ URL:https://www.ticketmaster.com/the-outsiders-touring-boston-massachusett
 X-SOURCE:Citizens Opera House
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Central Square Theater": "https://ci.ovationtix.com/2462/production/1245598"}
+X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
+X-SOURCE-ID:ovationtix_central_square
+SUMMARY:Breaking the Code
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T100000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T120000
+UID:cd093b692a66f3f62fcb0a648d6c2ec9@ovationtix.com
+DESCRIPTION:
+LOCATION:Central Square Theater
+URL:https://ci.ovationtix.com/2462/production/1245598
+X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/when-playwrights-kill/"}
 X-SOURCE-ID:boston_theatre_scene
 SUMMARY:When Playwrights Kill
@@ -1430,18 +1429,6 @@ DESCRIPTION:
 LOCATION:Boston University\, Boston\, MA
 URL:https://www.bu.edu/cfa/news/calendar/
 X-SOURCE:BU School of Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
-X-SOURCE-ID:ovationtix_central_square
-SUMMARY:Breaking the Code
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T213000
-UID:09a1f494be5b7bfa2a593d314053663c@ovationtix.com
-DESCRIPTION:
-LOCATION:Central Square Theater
-URL:https://ci.ovationtix.com/2462/production/1245598
-X-SOURCE:Central Square Theater
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
@@ -1767,7 +1754,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260416T000000
 DTEND;TZID=America/New_York:20260418T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222034
 CREATED:20250905T193939Z
 LAST-MODIFIED:20251031T143736Z
 UID:10000040-1776297600-1776556799@emersontheatres.org
@@ -1776,6 +1763,19 @@ DESCRIPTION:SWEET CHARITY\n\n\n\nBook by Neil SimonMusic by Cy ColemanLyrics by 
 URL:https://emersontheatres.org/event/sweet-charity/
 LOCATION:Emerson Cutler Majestic Theatre\, 219 Tremont St\, Boston\, MA\, 02116\, United States
 ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2025/09/CharityThumb.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Central Square Theater": "https://ci.ovationtix.com/2462/production/1245598"}
+X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
+X-SOURCE-ID:ovationtix_central_square
+SUMMARY:Breaking the Code
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T100000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T120000
+UID:2e22fbf84f40e420fa297f096ac30cd3@ovationtix.com
+DESCRIPTION:
+LOCATION:Central Square Theater
+URL:https://ci.ovationtix.com/2462/production/1245598
+X-SOURCE:Central Square Theater
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/when-playwrights-kill/"}
@@ -1817,18 +1817,6 @@ DESCRIPTION:
 LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/time-to-act/
 X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
-X-SOURCE-ID:ovationtix_central_square
-SUMMARY:Breaking the Code
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T213000
-UID:13d9c3f5ba20bcfab4334353643c6c24@ovationtix.com
-DESCRIPTION:
-LOCATION:Central Square Theater
-URL:https://ci.ovationtix.com/2462/production/1245598
-X-SOURCE:Central Square Theater
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-16-2026/event/01006350B71ECBFD"}
@@ -2282,7 +2270,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260423T000000
 DTEND;TZID=America/New_York:20260423T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20260311T164610Z
 LAST-MODIFIED:20260316T171657Z
 UID:10000080-1776902400-1776988799@emersontheatres.org
@@ -2432,7 +2420,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T000000
 DTEND;TZID=America/New_York:20260424T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20260311T164834Z
 LAST-MODIFIED:20260316T171452Z
 UID:10000081-1776988800-1777075199@emersontheatres.org
@@ -2449,7 +2437,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:ArtsEmerson, Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T000000
 DTEND;TZID=America/New_York:20260503T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20250625T172022Z
 LAST-MODIFIED:20260311T174959Z
 UID:10000017-1776988800-1777852799@emersontheatres.org
@@ -2527,7 +2515,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T193000
 DTEND;TZID=America/New_York:20260424T223000
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20260309T140000Z
 LAST-MODIFIED:20260316T173255Z
 UID:10000077-1777059000-1777069800@emersontheatres.org
@@ -3002,22 +2990,6 @@ URL:https://artsemerson.org/event/the-secret-sharer-6/
 X-SOURCE:ArtsEmerson
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Citizens Opera House": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-30-2026/event/01006350B73FCC42"}
-X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-30-2026/event/01006350B741CC46"}
-X-SOURCE-ID:ticketmaster_citizens_opera
-SUMMARY:Disney's Beauty and the Beast (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T110000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T110000
-UID:5ccceb06a2a14d5a740f8f19e7d64a80@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/d79/77d6e32c-631c-4
- 539-bd38-1b848f90cd79_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Citizens Opera House\, 539 Washington Street\, Boston\, MA
-URL:https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-bost
- on-massachusetts-04-30-2026/event/01006350B741CC46
-X-SOURCE:Citizens Opera House
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/swept-away/"}
 X-SOURCE-ID:boston_theatre_scene
 SUMMARY:Swept Away
@@ -3056,6 +3028,21 @@ DESCRIPTION:
 LOCATION:Emerson Paramount Center\, 559 Washington Street\, Boston\, MA
 URL:https://artsemerson.org/event/the-secret-sharer-5/
 X-SOURCE:ArtsEmerson
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-30-2026/event/01006350B73FCC42"}
+X-SOURCE-ID:ticketmaster_citizens_opera
+SUMMARY:Disney's Beauty and the Beast (Touring)
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T193000
+UID:5b8c18f597a46f776666b3167805e64a@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/d79/77d6e32c-631c-4
+ 539-bd38-1b848f90cd79_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Citizens Opera House\, 539 Washington Street\, Boston\, MA
+URL:https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-bost
+ on-massachusetts-04-30-2026/event/01006350B73FCC42
+X-SOURCE:Citizens Opera House
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/medea/"}
@@ -3443,6 +3430,19 @@ URL:https://www.lyricstage.com/production/something-rotten/
 X-SOURCE:Lyric Stage Company
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Central Square Theater": "https://ci.ovationtix.com/2462/production/1270571"}
+X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1270571"}
+X-SOURCE-ID:ovationtix_central_square
+SUMMARY:Youth Underground 2026: Youth Mental Health
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260508T100000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260508T120000
+UID:a2b8e065124e7ed43040e9d45f8ea2e7@ovationtix.com
+DESCRIPTION:
+LOCATION:Central Square Theater
+URL:https://ci.ovationtix.com/2462/production/1270571
+X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Asp": "https://ci.ovationtix.com/921/production/1265134"}
 X-SOURCE-ID:ovationtix_asp
 SUMMARY:25-26 August Wilson's Gem of the Ocean
@@ -3539,6 +3539,19 @@ DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/something-rotten/
 X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Central Square Theater": "https://ci.ovationtix.com/2462/production/1270571"}
+X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1270571"}
+X-SOURCE-ID:ovationtix_central_square
+SUMMARY:Youth Underground 2026: Youth Mental Health
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260509T150000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260509T170000
+UID:91ba3906dba688ed9d66dbd76df44d4d@ovationtix.com
+DESCRIPTION:
+LOCATION:Central Square Theater
+URL:https://ci.ovationtix.com/2462/production/1270571
+X-SOURCE:Central Square Theater
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Songkick Huntington": "http://www.songkick.com/concerts/43116447-ampers-and-one-at-huntington-theatre?utm_medium=organic&utm_source=microformat"}
@@ -3767,7 +3780,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260515T000000
 DTEND;TZID=America/New_York:20260515T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20260311T171109Z
 LAST-MODIFIED:20260316T172043Z
 UID:10000082-1778803200-1778889599@emersontheatres.org
@@ -3783,7 +3796,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260515T190000
 DTEND;TZID=America/New_York:20260516T130000
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20260220T155215Z
 LAST-MODIFIED:20260225T184533Z
 UID:10000066-1778871600-1778936400@emersontheatres.org
@@ -3854,7 +3867,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260516T000000
 DTEND;TZID=America/New_York:20260516T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20260311T171558Z
 LAST-MODIFIED:20260316T172548Z
 UID:10000083-1778889600-1778975999@emersontheatres.org
@@ -4276,12 +4289,24 @@ URL:https://www.lyricstage.com/production/something-rotten/
 X-SOURCE:Lyric Stage Company
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1247439"}
+X-SOURCE-ID:ovationtix_wheelock
+SUMMARY:Charlotte's Web
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260525T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260525T160000
+UID:927d146a74610f9dc95f43e5ddc81f00@ovationtix.com
+DESCRIPTION:
+LOCATION:Wheelock Family Theatre
+URL:https://ci.ovationtix.com/177/production/1247439
+X-SOURCE:Wheelock Family Theatre
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}
 X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260606T160000
 DTEND;TZID=America/New_York:20260606T173000
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20260211T155716Z
 LAST-MODIFIED:20260316T173124Z
 UID:10000061-1780761600-1780767000@emersontheatres.org
@@ -4297,7 +4322,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260613T000000
 DTEND;TZID=America/New_York:20260628T235959
-DTSTAMP:20260323T221453
+DTSTAMP:20260324T222035
 CREATED:20250625T172022Z
 LAST-MODIFIED:20260105T191706Z
 UID:10000016-1781308800-1782691199@emersontheatres.org

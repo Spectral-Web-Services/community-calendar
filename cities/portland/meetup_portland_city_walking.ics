@@ -25,39 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313890906@meetup.com
-SEQUENCE:1
-DTSTAMP:20260324T021146Z
-DTSTART;TZID=America/Los_Angeles:20260323T190000
-DTEND;TZID=America/Los_Angeles:20260323T210000
-SUMMARY:Nothing to do on a Monday? How 'bout Some Great Blues
-DESCRIPTION:Portland City Trail Walking Group\nJoin me as we listen to a long time Portland favorite\, Lloyd Jones on the guitar\, a Portland landmark Blues musician accompanied by a variety of top tier musicians making for a great evening. The venue\, the Muddy Rudder Public House on the east side of the Selwood Bridge. It's an intimate venue with great beer and excellent food where you can both hold a conversation and take in some of the best Blues around. It's the Portland thing to do on a Monday evening.\nhttps://muddyrudderpdx.com/music-schedule/
-URL;VALUE=URI:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313890906/
-STATUS:CONFIRMED
-CREATED:20260322T035212Z
-LAST-MODIFIED:20260322T035212Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/7/4/0/600_533318720.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_313721157@meetup.com
-SEQUENCE:1
-DTSTAMP:20260324T021146Z
-DTSTART;TZID=America/Los_Angeles:20260324T100000
-DTEND;TZID=America/Los_Angeles:20260324T120000
-SUMMARY:**10 AM** Portland Heights Stair Walk
-DESCRIPTION:Portland City Trail Walking Group\nHidden stairways\, paths between fabulous homes\, and a pedestrian bridge\, all thru one of the most expensive neighborhoods in Portland. 4+ miles\, lots of climbing!\nFrom the book\, Portland Stair Walks\,” by Laura O.Foster.\nMeet by the vacant grocery store (former Strohecher's) at 2855 SW Patton St.\n**Parking: Across the street on Old Orchard Road or at the lot several hundred feet up Patton from the start.**
-URL;VALUE=URI:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313721157/
-STATUS:CONFIRMED
-CREATED:20260310T011757Z
-LAST-MODIFIED:20260310T011757Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/7/2/f/600_531914127.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313734803@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260325T093000
 DTEND;TZID=America/Los_Angeles:20260325T123000
 SUMMARY:Bull Mountain Urban‑Wild Hills Challenge
@@ -72,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313670351@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260326T100000
 DTEND;TZID=America/Los_Angeles:20260326T120000
 SUMMARY:THURSDAY **10 AM** Holman Lane to Pittock Mansion 
@@ -87,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313408479@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260327T100000
 DTEND;TZID=America/Los_Angeles:20260327T120000
 SUMMARY:"Groovin' and 'Couvin" 2.0 Vancouver Downtown\, Waterfront & Renaissance Trail 
@@ -102,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313903435@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260327T100000
 DTEND;TZID=America/Los_Angeles:20260327T120000
 SUMMARY:**10 AM** Friday Walk to and from Council Crest from Hillsdale Library 
@@ -117,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313403967@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260329T100000
 DTEND;TZID=America/Los_Angeles:20260329T120000
 SUMMARY:**10 AM** Walk to Coffee in SW Portland **10 AM**
@@ -132,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313916190@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260329T110000
 DTEND;TZID=America/Los_Angeles:20260329T133000
 SUMMARY:Get outside & hike: Powell Butte (4.1 miles\, 531')
@@ -147,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313897138@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260331T100000
 DTEND;TZID=America/Los_Angeles:20260331T120000
 SUMMARY:10:00 AM Mt. Tabor Stair Walk
@@ -162,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313864684@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T021146Z
+DTSTAMP:20260325T021727Z
 DTSTART;TZID=America/Los_Angeles:20260402T100000
 DTEND;TZID=America/Los_Angeles:20260402T120000
 SUMMARY:THURSDAY **10 AM** Holman Lane to Pittock Mansion 
@@ -173,6 +143,36 @@ CREATED:20260320T082336Z
 LAST-MODIFIED:20260320T082336Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/7/d/7/e/600_529352126.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313809432@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021727Z
+DTSTART;TZID=America/Los_Angeles:20260403T180000
+DTEND;TZID=America/Los_Angeles:20260403T200000
+SUMMARY:Bloom Hard 2: The Waitlist Strikes Back
+DESCRIPTION:Portland City Trail Walking Group\nWe warned you. We told you this Magnolia Trail walk would be a full-scale sensory assault - an overwhelming\, relentless wall of color and bloom that could unhinge even the strongest among us. Thirty of you signed up anyway.\n\nNow dozens MORE of you have joined the waitlist\, apparently eager to get in line for the same floral devastation. At this point we have to ask: do you people not read warnings? Have you no sense of self-preservation?\n\nSo. We have decided to stop standing between you and your floral destruction and simply open a second session:\n\nThis is the evening edition. The golden hour edition. The you-waited-and-you-earned-it edition.\n\nWhat's coming for you: magnolias with an attitude. Waves of them. All blooming at once with zero regard for your emotional stability. And while you stand there trying to remember how to function\, we'll unpack how flowers actually reproduce - which is wilder than you think - and exactly how these magnolias were tracked down and convinced to move to Portland. Let’s just say these trees have some serious skeletons in their greenhouse.\n\nBring your device. This is a fully interactive presentation. We have gone deep on this. You will too.\n\nIt's a walk. It's a lecture. Honestly\, what else were you going to do on a Friday night?\n\nYou waited. You persisted. Journey on\, brave adventurer.\n\nThe Stats:\nMostly dirt trails with numerous benches\, vistas\, info placards.\nMeeting Point Location: Hoyt Arboretum Visitor Center\nMeeting Point Address: 4000 SW Fairview Blvd. Portland\, OR 97205\n[Google Maps](https://maps.app.goo.gl/Dro4F76PDhTSeJot6) Meeting Point\nMeeting Point GPS: 45.515833085577455\, -122.71565229736083\nMain Parking Area: [Hoyt Arboretum Paid Parking Lot 1](https://maps.app.goo.gl/aVrGfgmaBpviG5d98) & [Lot 2](https://maps.app.goo.gl/6ovXMX9qNUbutUu47)\nOverflow Parking Locations: [SW Fairview Blvd](https://maps.app.goo.gl/xKai57QowATiCUYRA)\, [Veteran’s Parking Lot](https://maps.app.goo.gl/6teqkktMY5TwJusA6) (8 min. walk)\, [Parking Lot B](https://maps.app.goo.gl/fwjKRPYfj5we8SM39) (12 min. walk).\n[Map of our hike](https://www.alltrails.com/explore/custom-routes/copy-pittock-to-hoyt-hoyt-start-9ee61b2?u=i&sh=xrhf7d). Press “preview route” to see animated trail.\nDistance: Approximately 1.2 miles\nElevation gain: 223 feet.\nEstimated time on trail: 1 hour hiking & 1 hour learning\nDifficulty level: Easy\nParking: Paid Parking Kitty Lots\nBathrooms at the trailhead at Hoyt Arboretum Visitor Center
+URL;VALUE=URI:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313809432/
+STATUS:CONFIRMED
+CREATED:20260317T041757Z
+LAST-MODIFIED:20260317T041757Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/5/2/a/600_533241802.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313789752@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021727Z
+DTSTART;TZID=America/Los_Angeles:20260405T100000
+DTEND;TZID=America/Los_Angeles:20260405T120000
+SUMMARY:**10 AM** Walk to Coffee in SW Portland **10 AM**
+DESCRIPTION:Portland City Trail Walking Group\n
+URL;VALUE=URI:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/313789752/
+STATUS:CONFIRMED
+CREATED:20260316T072441Z
+LAST-MODIFIED:20260316T072441Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/2/a/7/600_507713927.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/portland-city-walking-and-trail-walking-meetup-group/events/ical/
 X-WR-CALNAME:Portland City Trail Walking Group

@@ -4,22 +4,6 @@ PRODID:-//Hive Center for the Book Arts//eventbrite.com//
 X-WR-CALNAME:Hive Center for the Book Arts
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Eat Their Words: Our Town by Thornton Wilder
-DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260413T190000
-DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260413T210000
-UID:934cd93ba6f4b271ee5ccf7fbcf09c18@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1178347020%2F1748221622973%2F1%2Foriginal.20260224-205106?cro
- p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.48
- 2&fp-y=0.014&s=b1f87f3129e6eed21cb9a74d354875c8
-DESCRIPTION:A Culinary & Literary Adventure Book Club
-LOCATION:Hive Center for the Book Arts\, 840 Custer\, Evanston\, IL 60202\
- , Evanston\, IL
-URL:https://www.eventbrite.com/e/eat-their-words-our-town-by-thornton-wild
- er-tickets-1983903478710
-X-SOURCE:Hive Center for the Book Arts
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Writing About Home: A Writing Workshop
 DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260419T130000
 DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260419T143000
@@ -33,6 +17,22 @@ LOCATION:Hive Center for the Book Arts\, 840 Custer\, Evanston\, IL 60202\
  , Evanston\, IL
 URL:https://www.eventbrite.com/e/writing-about-home-a-writing-workshop-tic
  kets-1983988074739
+X-SOURCE:Hive Center for the Book Arts
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eat Their Words: Our Town by Thornton Wilder
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260413T190000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20260413T210000
+UID:934cd93ba6f4b271ee5ccf7fbcf09c18@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1178347020%2F1748221622973%2F1%2Foriginal.20260224-205106?cro
+ p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.48
+ 2&fp-y=0.014&s=b1f87f3129e6eed21cb9a74d354875c8
+DESCRIPTION:A Culinary & Literary Adventure Book Club
+LOCATION:Hive Center for the Book Arts\, 840 Custer\, Evanston\, IL 60202\
+ , Evanston\, IL
+URL:https://www.eventbrite.com/e/eat-their-words-our-town-by-thornton-wild
+ er-tickets-1983903478710
 X-SOURCE:Hive Center for the Book Arts
 END:VEVENT
 END:VCALENDAR

@@ -5,27 +5,6 @@ X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Fairy Hunt
-DTSTART;VALUE=DATE-TIME:20260324T080000
-DTEND;VALUE=DATE-TIME:20260324T080000
-UID:1fa33d604d65f2bb02a1f08abf71cc5a@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/fairy-hunt26/?F_d=03-24-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Public Hearing for Emerson Park Improvements
-DTSTART;VALUE=DATE-TIME:20260324T183000
-DTEND;VALUE=DATE-TIME:20260324T183000
-UID:f28a70e0cb5b57f3ab622e72fcf63b8f@skokieparks.org
-DESCRIPTION:
-LOCATION:Weber Leisure Center
-URL:https://www.skokieparks.org/events/public-hearing-for-emerson-park-imp
- rovements/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260325T080000
 DTEND;VALUE=DATE-TIME:20260325T080000
 UID:1d0f0c42e1dfc7daefb56889c69bc920@skokieparks.org
@@ -1019,16 +998,6 @@ URL:https://www.skokieparks.org/events/storybook-corner/9/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Storybook Corner
-DTSTART;VALUE=DATE-TIME:20260505T103000
-DTEND;VALUE=DATE-TIME:20260505T103000
-UID:819952708fcf22b9750413d43a2c1819@skokieparks.org
-DESCRIPTION:
-LOCATION:Exploritorium/Oakton Community Center
-URL:https://www.skokieparks.org/events/storybook-corner/9/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Adults Over 60: Cinco de Mayo Bingo Party
 DTSTART;VALUE=DATE-TIME:20260505T120000
 DTEND;VALUE=DATE-TIME:20260505T120000
@@ -1467,6 +1436,16 @@ UID:7df5122b5e2cbb2d4caf2bc2ca5befc4@skokieparks.org
 DESCRIPTION:
 LOCATION:Emily Oaks Nature Center
 URL:https://www.skokieparks.org/events/spring-sing--smores-campfire26/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paint & Play at the Exploritorium
+DTSTART;VALUE=DATE-TIME:20260525T103000
+DTEND;VALUE=DATE-TIME:20260525T103000
+UID:1deea79234df9ee8f19efec0ef533446@skokieparks.org
+DESCRIPTION:
+LOCATION:Exploritorium/Oakton Community Center
+URL:https://www.skokieparks.org/events/paint--play-at-the-exploritorium/9/
 X-SOURCE:Skokie Park District
 END:VEVENT
 END:VCALENDAR

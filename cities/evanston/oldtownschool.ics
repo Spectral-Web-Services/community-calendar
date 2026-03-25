@@ -4,19 +4,6 @@ PRODID:-//Old Town School of Folk Music//oldtownschool.org//
 X-WR-CALNAME:Old Town School of Folk Music
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Cowboy Junkies
-DTSTART;VALUE=DATE-TIME:20260324T193000
-DTEND;VALUE=DATE-TIME:20260324T193000
-UID:2d9ff28932c4e301e2aab95acd47cb64@oldtownschool.org
-ATTACH;FMTTYPE=image/jpeg:https://www.oldtownschool.org/images/concerts/20
- 26/CowboyJunkies25_thumb.jpg
-DESCRIPTION:
-LOCATION:Maurer Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\
- , Chicago\, IL
-URL:https://www.oldtownschool.org/concerts/2026/03-22-2026-cowboy-junkies
-X-SOURCE:Old Town School of Folk Music
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kunal Gunjal & Amit Kavthekar
 DTSTART;VALUE=DATE-TIME:20260325T193000
 DTEND;VALUE=DATE-TIME:20260325T193000
@@ -65,8 +52,8 @@ UID:9548fd1daeafcf0c3e5a93b03ab72f0c@oldtownschool.org
 ATTACH;FMTTYPE=image/jpeg:https://www.oldtownschool.org/images/concerts/20
  26/LeVentduNord_thumb.jpg
 DESCRIPTION:
-LOCATION:Szold Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\,
-  Chicago\, IL
+LOCATION:Maurer Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\
+ , Chicago\, IL
 URL:https://www.oldtownschool.org/concerts/2026/03-28-2026-le-vent-du-nord
 X-SOURCE:Old Town School of Folk Music
 END:VEVENT
@@ -288,20 +275,6 @@ URL:https://www.oldtownschool.org/concerts/2026/04-17-2026-black-history-f
 X-SOURCE:Old Town School of Folk Music
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Black History Future Folk Symposium
-DTSTART;VALUE=DATE-TIME:20260418T120000
-DTEND;VALUE=DATE-TIME:20260418T120000
-UID:d6f155a477bc67ad62e4d7dc0175da0f@oldtownschool.org
-ATTACH;FMTTYPE=image/jpeg:https://www.oldtownschool.org/images/concerts/20
- 26/BHFF26.jpeg
-DESCRIPTION:
-LOCATION:Szold Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\,
-  Chicago\, IL
-URL:https://www.oldtownschool.org/concerts/2026/04-17-2026-black-history-f
- uture-folk-symposium
-X-SOURCE:Old Town School of Folk Music
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Las Damas del Bolero
 DTSTART;VALUE=DATE-TIME:20260422T193000
 DTEND;VALUE=DATE-TIME:20260422T193000
@@ -474,6 +447,19 @@ LOCATION:Maurer Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\
  , Chicago\, IL
 URL:https://www.oldtownschool.org/concerts/2026/05-13-2026-wmw-mehrnam-res
  tegari
+X-SOURCE:Old Town School of Folk Music
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Joe Pernice
+DTSTART;VALUE=DATE-TIME:20260513T200000
+DTEND;VALUE=DATE-TIME:20260513T200000
+UID:42a6a24da9300b86f49846cf8a4c8db1@oldtownschool.org
+ATTACH;FMTTYPE=image/jpeg:https://www.oldtownschool.org/images/concerts/20
+ 26/JoePernice_thumb.jpg
+DESCRIPTION:
+LOCATION:Szold Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\,
+  Chicago\, IL
+URL:https://www.oldtownschool.org/concerts/2026/05-13-2026-joe-pernice
 X-SOURCE:Old Town School of Folk Music
 END:VEVENT
 BEGIN:VEVENT

@@ -4,6 +4,23 @@ PRODID:-//JCC East Bay//eventbrite.com//
 X-WR-CALNAME:JCC East Bay
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:Yom HaShoah: Tales from a Survivor's Descendant
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260414T183000
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260414T200000
+UID:afd64a8cd76676a41330dbc6ead7640d@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1179046741%2F2986097176586%2F1%2Foriginal.20260304-202441?cro
+ p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&
+ fp-y=0.5&s=f925ef11ad4ecd211cfd677360aa9795
+DESCRIPTION:Hear powerful stories passed down from a Holocaust survivor’
+ s family.
+LOCATION:JCC East Bay\, 1414 Walnut Street\, Berkeley\, CA 94709\, Berkele
+ y\, CA
+URL:https://www.eventbrite.com/e/yom-hashoah-tales-from-a-survivors-descen
+ dant-tickets-1984500775240
+X-SOURCE:JCC East Bay
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Older Adult Passover Luncheon
 DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260407T113000
 DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260407T133000
@@ -35,38 +52,6 @@ LOCATION:JCC East Bay\, 1414 Walnut Street\, Berkeley\, CA 94709\, Berkele
  y\, CA
 URL:https://www.eventbrite.com/e/its-time-for-cantamos-tickets-19769257641
  78
-X-SOURCE:JCC East Bay
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Empower Yourself Against Antisemitism on Social Media
-DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260324T190000
-DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260324T200000
-UID:dc469fa5a7f559847cc6c457e5ea030e@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1179163167%2F2986097176586%2F1%2Foriginal.20260305-234531?cro
- p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&
- fp-y=0.5&s=35e448f545650b9abd8a2c3ee45c0933
-DESCRIPTION:Join us to learn how to spot and shut down antisemitism online
- .
-URL:https://www.eventbrite.com/e/empower-yourself-against-antisemitism-on-
- social-media-tickets-1984335716545
-X-SOURCE:JCC East Bay
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Yom HaShoah: Tales from a Survivor's Descendant
-DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260414T183000
-DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260414T200000
-UID:afd64a8cd76676a41330dbc6ead7640d@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1179046741%2F2986097176586%2F1%2Foriginal.20260304-202441?cro
- p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&
- fp-y=0.5&s=f925ef11ad4ecd211cfd677360aa9795
-DESCRIPTION:Hear powerful stories passed down from a Holocaust survivor’
- s family.
-LOCATION:JCC East Bay\, 1414 Walnut Street\, Berkeley\, CA 94709\, Berkele
- y\, CA
-URL:https://www.eventbrite.com/e/yom-hashoah-tales-from-a-survivors-descen
- dant-tickets-1984500775240
 X-SOURCE:JCC East Bay
 END:VEVENT
 END:VCALENDAR

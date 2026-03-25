@@ -4,23 +4,6 @@ PRODID:-//The Afrobellas At IU//eventbrite.com//
 X-WR-CALNAME:The Afrobellas At IU
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:MWX: Midwest Experience
-DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260328T160000
-DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260328T200000
-UID:8b8669868f1f8227c396dfc28f02ad92@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1177494216%2F557580325765%2F1%2Foriginal.20260213-194007?crop
- =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503
- &fp-y=0.039&s=e41de666d2e5d805e790ba24bf5857d5
-DESCRIPTION:MWX brings Midwest college dance teams together for one epic n
- ight\, every genre crowned\, every style celebrated.
-LOCATION:Wilkie Auditorium\, 150 North Rose Avenue\, Bloomington\, IN 4740
- 6\, Bloomington\, IN
-URL:https://www.eventbrite.com/e/mwx-midwest-experience-tickets-1983119520
- 871
-X-SOURCE:The Afrobellas At IU
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:MWX: After Party
 DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260328T220000
 DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260329T020000
@@ -35,6 +18,23 @@ DESCRIPTION:The night doesn’t end when the stage lights go down. Join us
 LOCATION:Serendipity Martini Bar\, 201 South College Avenue\, Bloomington\
  , IN 47404\, Bloomington\, IN
 URL:https://www.eventbrite.com/e/mwx-after-party-tickets-1985455145788
+X-SOURCE:The Afrobellas At IU
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MWX: Midwest Experience
+DTSTART;TZID="UTC-04:00";VALUE=DATE-TIME:20260328T160000
+DTEND;TZID="UTC-04:00";VALUE=DATE-TIME:20260328T200000
+UID:8b8669868f1f8227c396dfc28f02ad92@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1177494216%2F557580325765%2F1%2Foriginal.20260213-194007?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503
+ &fp-y=0.039&s=e41de666d2e5d805e790ba24bf5857d5
+DESCRIPTION:MWX brings Midwest college dance teams together for one epic n
+ ight\, every genre crowned\, every style celebrated.
+LOCATION:Wilkie Auditorium\, 150 North Rose Avenue\, Bloomington\, IN 4740
+ 6\, Bloomington\, IN
+URL:https://www.eventbrite.com/e/mwx-midwest-experience-tickets-1983119520
+ 871
 X-SOURCE:The Afrobellas At IU
 END:VEVENT
 END:VCALENDAR

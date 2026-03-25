@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-Robots-Tag:noindex
 X-PUBLISHED-TTL:PT1H
 BEGIN:VTIMEZONE
-TZID:America/New_York
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20250309T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20251102T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20260308T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20261101T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20270314T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20271107T060000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:Europe/Vilnius
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0200
@@ -88,24 +49,9 @@ DTSTART:20271031T010000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260324T180000
-DTEND;TZID=America/New_York:20260324T200000
-DTSTAMP:20260324T110041
-CREATED:20260213T192122Z
-LAST-MODIFIED:20260302T211830Z
-UID:1189352-1774375200-1774382400@www.poynter.org
-SUMMARY:Truth on the Line: Journalism’s Role in Protecting Democracy
-DESCRIPTION:The pressure on journalism has never been greater. Sustained attacks\, intimidation\, lawsuits\, business pressures and defunding efforts threaten the ability of news organizations to do their essential work\, from our local communities to the national scene. Yet access to accurate\, verified information is fundamental to a healthy democracy\, no matter your beliefs.  Join Poynter in Sarasota for an evening of insight\, discussion and accountability. The event will begin with a 30-minute reception to connect with peers\, followed by a 60-minute panel featuring leading voices in news\, fact-checking\, AI and media innovation.  This is a must-see event for anyone committed to the future of a free press\, ethical reporting and the public’s access to truth.  6:00 – 6:30 p.m. | Reception  6:30 – 7:30 p.m. | Panel Discussion (Scroll down for panelist bios)  7:30 – 8:00 p.m. | Closing & Networking  GET TICKETS   Questions? Please email marketing@poynter.org.  The Poynter Foundation is a nonpartisan 501(c)(3) nonprofit organization working to improve journalism in service to democracy. Proceeds from this fundraising event will power Poynter’s efforts to stoke civil connection and thoughtful expression between journalists and the communities they serve.  The EIN for the organization is 99-0731998.
-URL:https://www.poynter.org/event/truth-on-the-line-journalisms-role-in-protecting-democracy/
-LOCATION:Selby Public Library\, 1331 First Street\, Sarasota\, FL\, 34236\, United States
-CATEGORIES:In-person Event
-ATTACH;FMTTYPE=image/png:https://www.poynter.org/wp-content/uploads/2026/02/3.Collage.png
-ORGANIZER;CN="The Poynter Institute":MAILTO:marketing@poynter.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=Europe/Vilnius:20260617T080000
 DTEND;TZID=Europe/Vilnius:20260619T170000
-DTSTAMP:20260324T110041
+DTSTAMP:20260324T222128
 CREATED:20260219T160726Z
 LAST-MODIFIED:20260224T182258Z
 UID:1189666-1781683200-1781888400@www.poynter.org

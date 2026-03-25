@@ -25,39 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_312039916@meetup.com
-SEQUENCE:1
-DTSTAMP:20260324T015637Z
-DTSTART;TZID=America/Chicago:20260323T180000
-DTEND;TZID=America/Chicago:20260323T210000
-SUMMARY:Sketchbook Evanston Open Mic Night
-DESCRIPTION:Evanston Writers Workshop\nSketchbook Brewing Co. in Evanston is hosting an open mic night the last Monday of every month\, open to all. Come grab a drink and enjoy the talents of other local musicians\, writers\, and creatives\, and maybe even sign up to read some of your own work.\n\nSign-up starts at 6pm\, and the open-mic starts at 6:30pm.\n\nPlease note this open mic is run and hosted by Sketchbook\, and open to the general public. This invite is for Evanston Writers Workshop members interested in attending the event together.
-URL;VALUE=URI:https://www.meetup.com/evanstonwriters/events/312039916/
-STATUS:CONFIRMED
-CREATED:20251116T220521Z
-LAST-MODIFIED:20251116T220521Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_311601176@meetup.com
-SEQUENCE:1
-DTSTAMP:20260324T015637Z
-DTSTART;TZID=America/Chicago:20260324T190000
-DTEND;TZID=America/Chicago:20260324T210000
-SUMMARY:Online Fiction Critique Group
-DESCRIPTION:Evanston Writers Workshop\nWelcome to the Evanston Writers Workshop Online Critique Group. We're a group of professional and aspiring writers who help each other polish our writing through workshop style critique. Writers have the opportunity to receive and give direct\, constructive\, and actionable feedback from attentive readers and writers who understand the craft of writing.\n\nWe will critique 2-3 submissions (maximum 3\,000 words each) per meeting.\nYou do not need to be a member to attend or critique\, however you need to be a member in order to submit and have your own work critiqued.\nIf you have a submission\, please submit it via this link:\nhttps://form.jotform.com/251125391424147\nby midnight the Friday before critique meeting.\n\nWe will meet monthly on the fourth Tuesday of the month. Although we've been critiquing in-person since 2007\, these are our first online meetings. Please visit the EWW website (https://evanstonwritersworkshop.org/#calendar-and-submission-links) to view current submissions.\n\nFiction writers of all levels of all genres are welcome\, ages 18+.\n\nFor more information\, submission guidelines and requirements\, please visit the Evanston Writers Workshop message board here evanstonwritersworkshop.org. Or you can direct questions to raven.reynolds.author@gmail.com.\n\nFriendly reminder: please send your submissions by the Friday (midnight) before the meeting.\n\nEWW is a not-for-profit 501 (C) 3 organization founded in 2007.
-URL;VALUE=URI:https://www.meetup.com/evanstonwriters/events/311601176/
-STATUS:CONFIRMED
-CREATED:20251018T204438Z
-LAST-MODIFIED:20251018T204438Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313405151@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260326T190000
 DTEND;TZID=America/Chicago:20260326T210000
 SUMMARY:Evanston Writers’ Workshop Long Development Group--meeting
@@ -72,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_308721321@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260401T190000
 DTEND;TZID=America/Chicago:20260401T210000
 SUMMARY:The Critique Group
@@ -87,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312760683@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260409T190000
 DTEND;TZID=America/Chicago:20260409T210000
 SUMMARY:Poetry Group of Evanston Writers Workshop
@@ -102,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313462483@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260414T190000
 DTEND;TZID=America/Chicago:20260414T210000
 SUMMARY:Screenplay Critique Group
@@ -117,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_308721322@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260415T190000
 DTEND;TZID=America/Chicago:20260415T210000
 SUMMARY:The Critique Group
@@ -132,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_311601177@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260427T180000
 DTEND;TZID=America/Chicago:20260427T210000
 SUMMARY:Sketchbook Evanston Open Mic Night
@@ -147,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_311601178@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260428T190000
 DTEND;TZID=America/Chicago:20260428T210000
 SUMMARY:Online Fiction Critique Group
@@ -162,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_308721323@meetup.com
 SEQUENCE:1
-DTSTAMP:20260324T015637Z
+DTSTAMP:20260325T020142Z
 DTSTART;TZID=America/Chicago:20260506T190000
 DTEND;TZID=America/Chicago:20260506T210000
 SUMMARY:The Critique Group
@@ -173,6 +143,36 @@ CREATED:20250629T030816Z
 LAST-MODIFIED:20250629T030816Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313462485@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T020142Z
+DTSTART;TZID=America/Chicago:20260512T190000
+DTEND;TZID=America/Chicago:20260512T210000
+SUMMARY:Screenplay Critique Group
+DESCRIPTION:Evanston Writers Workshop\nWelcome to the Evanston Writers Workshop’s **Screenplay Critique Group**. We're a group of professional and aspiring writers who help each other polish their writing through workshop style critique. Writers have the opportunity to receive and give direct\, constructive\, and actionable feedback from attentive readers and writers who understand the craft of screenwriting.\n\n## Details\n\n**\\- This group is for Screenwriters writers\\\, aged 18\\+ at** **INTERMEDIATE to ADVANCED levels only**.\n\n* We will meet monthly on **the second Tuesday of the month\, from 7:00-9:00pm central time on ZOOM**.\n\\- We will critique up to 3 submissions \\(up to 10 pages in Standard Screenplay Format\\) per meeting\\.\n\\- You do not need to be a member to attend or critique\\\, however **you need to be a member in order to submit and have your own work critiqued**.\n\\- This is a GIVE & TAKE group\\. In exchange for giving thoughtful critique on others’ work\\\, you get thoughtful critique for your own\\.\n\\- You must RSVP to each Screenplay Critique Group session in order to receive the submissions we will be critiquing\\.\n\\- If you have a submission to be critiqued:\n\n1. To submit\, please [CLICK HERE](https://form.jotform.com/251125391424147) to upload your submissions or type\nhttps://form.jotform.com/251125391424147 into your browser **by midnight the Friday before critique meeting**.\n2. Put "**Screenplay Critique Group Submission” in the subject header.** (We have many different critique groups and want to make sure it’s directed to the correct folder.)\n3. Include **your email address** and **short** bio (this group is for intermediate and advanced screenplay writers) inside your document so participants know where to send their notes.\n\nEWW is a not-for-profit 501 (C) 3 organization founded in 2007. For more information about Evanston Writers Workshop\, and membership\, visit [evanstonwritersworkshop.org.](http://evanstonwritersworkshop.org./) We have critique groups for all writing levels and genres including for fiction\, memoir/non-fiction\, and poetry that meet in person in Evanston\, IL and also online.\n*Friendly reminder: please send your submissions by the Friday (midnight) before the meeting.*
+URL;VALUE=URI:https://www.meetup.com/evanstonwriters/events/313462485/
+STATUS:CONFIRMED
+CREATED:20260221T154321Z
+LAST-MODIFIED:20260221T154321Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/7/b/4/600_530418356.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_npkmvtyjchbsb@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T020142Z
+DTSTART;TZID=America/Chicago:20260514T190000
+DTEND;TZID=America/Chicago:20260514T210000
+SUMMARY:Poetry Group of Evanston Writers Workshop
+DESCRIPTION:Evanston Writers Workshop\nThe Evanston Writers Workshop Poetry Group will be meeting on the second Thursday of the month\, from 7-9 P.M\, at Sketchbook Brewery in Evanston.\n\nPeople may submit 1-2 poems per person for critique via our submission form at the following url:\nhttps://form.jotform.com/251125391424147\n\nTo find the poems we'll be reviewing for this month's meeting\, visit our group website\, https://evanstonwritersworkshop.org/ and look for the link to our submissions file drive under "Calendar and Submissions". The submitted poems will be accessible the week of the event.
+URL;VALUE=URI:https://www.meetup.com/evanstonwriters/events/npkmvtyjchbsb/
+STATUS:CONFIRMED
+CREATED:20260105T023802Z
+LAST-MODIFIED:20260105T023802Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/7/0/c/600_466670956.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/evanstonwriters/events/ical/
 X-WR-CALNAME:Evanston Writers Workshop

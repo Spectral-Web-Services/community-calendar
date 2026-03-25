@@ -5,32 +5,6 @@ X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:The Barr Brothers
-DTSTART;VALUE=DATE-TIME:20260324T200000
-DTEND;VALUE=DATE-TIME:20260324T200000
-UID:d03f44a8e940bcffd24b4a5e90b716d5@songkick.com
-DESCRIPTION:The Barr Brothers at Mississippi Studios at 2026-03-24T20:00:0
- 0-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/42892534-barr-brothers-at-mississippi
- -studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Georgia Harmer
-DTSTART;VALUE=DATE-TIME:20260324T200000
-DTEND;VALUE=DATE-TIME:20260324T200000
-UID:2aca562337a5f6f5bd7f2f87fee7ddd5@songkick.com
-DESCRIPTION:Georgia Harmer at Mississippi Studios at 2026-03-24T20:00:00-0
- 700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43099998-georgia-harmer-at-mississipp
- i-studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Barr Brothers
 DTSTART;VALUE=DATE-TIME:20260325T200000
 DTEND;VALUE=DATE-TIME:20260325T200000
 UID:1a1c23c9c8902a148039b4f76366a133@songkick.com
@@ -53,6 +27,18 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43100000-georgia-harmer-at-mississipp
  i-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wes Parker
+DTSTART;VALUE=DATE-TIME:20260326T200000
+DTEND;VALUE=DATE-TIME:20260326T200000
+UID:0912c4be40dc2fc35624c6125c4af1c0@songkick.com
+DESCRIPTION:Wes Parker at Mississippi Studios at 2026-03-26T20:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100001-wes-parker-at-mississippi-st
+ udios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

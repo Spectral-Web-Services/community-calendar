@@ -49,9 +49,22 @@ DTSTART:20271107T060000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260416T130000
+DTEND;TZID=America/New_York:20260416T140000
+DTSTAMP:20260324T222132
+CREATED:20260324T211012Z
+LAST-MODIFIED:20260324T211015Z
+UID:63002-1776344400-1776348000@healthjournalism.org
+SUMMARY:Lunch and Learn: How to stay accountable
+DESCRIPTION:Think about your goals for your freelance work: Are you hoping to get assignments from a wider number of publications? Or maybe from a “dream” publication? Do you want to be more organized and productive? Or just to feel more encouraged and motivated?  \n\n\n\nWe’ll talk about how to stay focused on your goals\, either with an “accountability partner” or by finding your own way to stay accountable. \n\n\n\nAt AHCJ’s Lunch and Learns\, freelancer members chat about a designated topic over Zoom every third Thursday of the month at 1 p.m. ET. Registration is required for Lunch and Learns and is only available to current freelance AHCJ members.
+URL:https://healthjournalism.org/event/lunch-and-learn-how-to-stay-accountable/
+CATEGORIES:Freelancers,Lunch and Learn
+ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2024/08/Lunch-and-Learn-Logo.png
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260417T160000
 DTEND;TZID=America/New_York:20260417T170000
-DTSTAMP:20260324T142839
+DTSTAMP:20260324T222132
 CREATED:20260206T211516Z
 LAST-MODIFIED:20260206T211518Z
 UID:62515-1776441600-1776445200@healthjournalism.org
@@ -63,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260515T160000
 DTEND;TZID=America/New_York:20260515T170000
-DTSTAMP:20260324T142839
+DTSTAMP:20260324T222132
 CREATED:20260206T211715Z
 LAST-MODIFIED:20260206T211718Z
 UID:62517-1778860800-1778864400@healthjournalism.org
@@ -75,7 +88,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260527T000000
 DTEND;TZID=America/New_York:20260530T235959
-DTSTAMP:20260324T142839
+DTSTAMP:20260324T222132
 CREATED:20260121T224600Z
 LAST-MODIFIED:20260121T224603Z
 UID:62297-1779840000-1780185599@healthjournalism.org
