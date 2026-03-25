@@ -30,6 +30,8 @@ cities/portland/eventbrite_nw_trail_alliance.ics
 cities/portland/eventbrite_portland_nursery.ics
 # cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/habitat-for-humanity-portland-region-education-55187284613" --name "Habitat for Humanity Portland"
 cities/portland/eventbrite_habitat_pdx.ics
+# cmd: python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/104252578181" --name "WonderLove PDX"
+cities/portland/eventbrite_wonderlove_pdx.ics
 # cmd: python scrapers/wccls_library.py
 cities/portland/wccls_library.ics
 # cmd: python scrapers/songkick.py --url "https://www.songkick.com/venues/2845468-revolution-hall" --name "Revolution Hall"

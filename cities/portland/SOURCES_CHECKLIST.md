@@ -1,6 +1,6 @@
 # Portland Sources Checklist
 
-## Currently Implemented (94 sources)
+## Currently Implemented (95 sources)
 
 ### Aggregators / Community Calendars
 | Source | Type | Events | Notes |
@@ -63,6 +63,7 @@
 | Northwest Trail Alliance | Eventbrite scraper | 11 | Free mountain bike trail building; images |
 | Portland Nursery | Eventbrite scraper | 4 | Free gardening classes; images |
 | Habitat for Humanity Portland | Eventbrite scraper | 3 | Free homeownership education; images |
+| WonderLove PDX | Eventbrite scraper | 2 | Culture/food/entertainment hub; markets, festivals |
 
 ### Ticketmaster Venues (3)
 | Source | Type | Events | Notes |
@@ -197,7 +198,7 @@
 - [x] Portland Fruit Tree Project (portlandfruit.org) — Squarespace events collection added
 - [x] JAMO (jamo.org) — WordPress Tribe ICS added
 - [x] OSU Extension (extension.oregonstate.edu) — Custom scraper added, filtered to MG-Metro (11 events)
-- [ ] WonderLove PDX (wonderlovepdx.com) — WordPress/Divi, no event plugin or feeds; food venue
+- [x] WonderLove PDX (wonderlovepdx.com) — Added via Eventbrite organizer scraper
 - [ ] People's Food Co-op (peoples.coop) — Squarespace, community room closed, no events listed
 - [ ] Rockwood Common (tools.rockwoodcommon.org) — Lend Engine tool library, no calendar feeds
 - [ ] PDX Night Market (pdxnm.com) — Wix, no feeds
