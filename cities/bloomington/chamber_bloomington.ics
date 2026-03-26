@@ -4,16 +4,6 @@ PRODID:-//Bloomington Chamber of Commerce//chamberbloomington.org//
 X-WR-CALNAME:Bloomington Chamber of Commerce
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:Business After Hours
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T173000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T173000
-UID:50d5d4e7f9774d41ac771cacd7782042@chamberbloomington.org
-DESCRIPTION:
-URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=632
- 0
-X-SOURCE:Bloomington Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Author Event with Mark Hertling at Morgenstern Books
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T180000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T180000
@@ -113,6 +103,16 @@ UID:b5ed537bd1e6d51e6b5faa81638fecde@chamberbloomington.org
 DESCRIPTION:
 URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=641
  3
+X-SOURCE:Bloomington Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Traveling Town Hall with Mayor Kerry Thomson
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260406T180000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260406T180000
+UID:e64599a6afe1364e5f60ca06e34ddac4@chamberbloomington.org
+DESCRIPTION:
+URL:https://web.chamberbloomington.org/mobile/eventDetail.aspx?EventID=643
+ 7
 X-SOURCE:Bloomington Chamber of Commerce
 END:VEVENT
 BEGIN:VEVENT

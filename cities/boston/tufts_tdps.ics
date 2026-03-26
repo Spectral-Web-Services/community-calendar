@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.25519//EN
+PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.25525//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 X-WR-CALNAME:TTS-WMS Managed|Theatre\, Dance\, and Performance Studies
@@ -359,14 +359,29 @@ X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
  ol of Arts and Sciences
 X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:TDPS
  @tufts.edu
-DTSTAMP:20251217T090055Z
+DTSTAMP:20260325T101603Z
 DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
  nce Lab\nCampus: Medford/Somerville campus\nWheelchair Accessible: Yes\n
  Open to Public: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dan
  ce\nEvent Sponsor: School of Arts and Sciences\nEvent Contact Email: TDP
  S@tufts.edu\nLink: https://www.tuftstdpstickets.com/section/tdps-2025-20
- 26-season-ywz8\n\nFeaturing Choreography from Senior TDPS Majors and Dan
- ce Minors
+ 26-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps://www.tuftstdpstickets.co
+ m/\n\nWe are proud to present the 2026 Spring Dance Concert\, featuring 
+ choreography by:\n\nSaška Barančíková\nBijin Basu\nOren Cohen\nMia Giatr
+ elis\nMurilo Marinho Martins Mascarenhas\nJena Thorne\n\nDance at Tufts 
+ is a well-established and vibrant part of academic\, cultural\, and comm
+ unity life on campus.\n\nThe Tufts Dance Program of the Department of Th
+ eatre\, Dance\, and Performance Studies exposes students to the rich her
+ itage and current practices in the field of dance through experiential a
+ nd theoretical study. Dance courses range from kathak dance theatre to a
+ dvanced choreography and performance\; from improvisation and creative p
+ rocess to the dance forms of Afro-Haitian\, ballet\, hip hop\, and moder
+ n\, in addition to a host of other special topics courses. Students acce
+ ss the program as new dancers\, dancers returning to dance\, or advanced
+  dancers with many years' experience. At all levels of study\, dance off
+ ers Tufts students an essential source of physical\, creative\, and aest
+ hetic engagement within a fully integrated academic vision for the arts
+ \, education\, and enhanced cultural understanding.
 CATEGORIES:Theatre, Dance, and Performance Studies
 UID:http://uid.trumba.com/event/194681716
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
@@ -399,14 +414,29 @@ X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
  ol of Arts and Sciences
 X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:TDPS
  @tufts.edu
-DTSTAMP:20251217T090046Z
+DTSTAMP:20260325T101613Z
 DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
  nce Lab\nCampus: Medford/Somerville campus\nWheelchair Accessible: Yes\n
  Open to Public: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dan
  ce\nEvent Sponsor: School of Arts and Sciences\nEvent Contact Email: TDP
  S@tufts.edu\nLink: https://www.tuftstdpstickets.com/section/tdps-2025-20
- 26-season-ywz8\n\nFeaturing Choreography from Senior TDPS Majors and Dan
- ce Minors
+ 26-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps://www.tuftstdpstickets.co
+ m/\n\nWe are proud to present the 2026 Spring Dance Concert\, featuring 
+ choreography by:\n\nSaška Barančíková\nBijin Basu\nOren Cohen\nMia Giatr
+ elis\nMurilo Marinho Martins Mascarenhas\nJena Thorne\n\nDance at Tufts 
+ is a well-established and vibrant part of academic\, cultural\, and comm
+ unity life on campus.\n\nThe Tufts Dance Program of the Department of Th
+ eatre\, Dance\, and Performance Studies exposes students to the rich her
+ itage and current practices in the field of dance through experiential a
+ nd theoretical study. Dance courses range from kathak dance theatre to a
+ dvanced choreography and performance\; from improvisation and creative p
+ rocess to the dance forms of Afro-Haitian\, ballet\, hip hop\, and moder
+ n\, in addition to a host of other special topics courses. Students acce
+ ss the program as new dancers\, dancers returning to dance\, or advanced
+  dancers with many years' experience. At all levels of study\, dance off
+ ers Tufts students an essential source of physical\, creative\, and aest
+ hetic engagement within a fully integrated academic vision for the arts
+ \, education\, and enhanced cultural understanding.
 CATEGORIES:Theatre, Dance, and Performance Studies
 UID:http://uid.trumba.com/event/194681718
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
@@ -415,9 +445,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A Journal of the Plague Year
 LOCATION:Medford/Somerville campus
-DTSTART;VALUE=DATE:20260423
-DTEND;VALUE=DATE:20260427
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTART;TZID=America/New_York:20260423T200000
+DTEND;TZID=America/New_York:20260423T220000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
 URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
 X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
  plate
@@ -444,28 +474,151 @@ X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
  .Stark@tufts.edu
 X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
  mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
-DTSTAMP:20251217T090439Z
+DTSTAMP:20260325T101407Z
 DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
  om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
  ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
  onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
  t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
- s.com/section/tdps-2025-2026-season-ywz8\n\nTerayama Shuji’s 1975 play\,
-  A Journal of the Plague Year\, pushes us to think about the violence of
-  a nation’s imperial past (or present!) and epidemic disease both as a l
- iteral threat and as a metaphor for the way war crimes infect victims an
- d perpetrators alike.\n\nIt can also be seen as a play about protest\, r
- esistance\, and activism. Its emphasis on memory\, for instance\, as an 
- act of resistance against colonial amnesia\, and community in the face o
- f all that tears us apart\, is profoundly relevant for a 21st-century US
- -based audience. \n\nThe message of hopeful urgency at the end of the pl
- ay—“The time is now! The time is now!”—captures the spirit of student pr
- otest today.
+ s.com/section/tdps-2025-2026-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps
+ ://www.tuftstdpstickets.com/\n\nWritten by Terayama Shūji\, in collabora
+ tion with Kishida Rio\nTranslated by Tsuneda Keiko and Colleen Lanki\nDi
+ rected by August Kittleson as part of a senior thesis project in Theatre
+ \, Dance\, and Performance studies\n\nPlease join us after this performa
+ nce for a celebratory opening night reception.\n\nTerayama Shuji’s 1975 
+ play\, A Journal of the Plague Year\, pushes us to think about the viole
+ nce of a nation’s imperial past (or present!) and epidemic disease both 
+ as a literal threat and as a metaphor for the way war crimes infect vict
+ ims and perpetrators alike.\n\nIt can also be seen as a play about prote
+ st\, resistance\, and activism. Its emphasis on memory\, for instance\, 
+ as an act of resistance against colonial amnesia\, and community in the 
+ face of all that tears us apart\, is profoundly relevant for a 21st-cent
+ ury US-based audience. \n\nThe message of hopeful urgency at the end of 
+ the play—“The time is now! The time is now!”—captures the spirit of stud
+ ent protest today.
 CATEGORIES:Theatre, Dance, and Performance Studies
 IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
 UID:http://uid.trumba.com/event/194681740
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
  mbed=view%3devent%26eventid%3d194681740
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Journal of the Plague Year
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260424T200000
+DTEND;TZID=America/New_York:20260424T220000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Balch Arena T
+ heater
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ John Stark
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
+ .Stark@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+DTSTAMP:20260325T101432Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
+ om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
+ ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
+ onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
+ t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
+ s.com/section/tdps-2025-2026-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps
+ ://www.tuftstdpstickets.com/\n\nWritten by Terayama Shūji\, in collabora
+ tion with Kishida Rio\nTranslated by Tsuneda Keiko and Colleen Lanki\nDi
+ rected by August Kittleson as part of a senior thesis project in Theatre
+ \, Dance\, and Performance studies\n\nTerayama Shuji’s 1975 play\, A Jou
+ rnal of the Plague Year\, pushes us to think about the violence of a nat
+ ion’s imperial past (or present!) and epidemic disease both as a literal
+  threat and as a metaphor for the way war crimes infect victims and perp
+ etrators alike.\n\nIt can also be seen as a play about protest\, resista
+ nce\, and activism. Its emphasis on memory\, for instance\, as an act of
+  resistance against colonial amnesia\, and community in the face of all 
+ that tears us apart\, is profoundly relevant for a 21st-century US-based
+  audience. \n\nThe message of hopeful urgency at the end of the play—“Th
+ e time is now! The time is now!”—captures the spirit of student protest 
+ today.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+UID:http://uid.trumba.com/event/199480313
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d199480313
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Journal of the Plague Year
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260426T150000
+DTEND;TZID=America/New_York:20260426T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Balch Arena T
+ heater
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ John Stark
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
+ .Stark@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+DTSTAMP:20260325T101456Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
+ om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
+ ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
+ onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
+ t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
+ s.com/section/tdps-2025-2026-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps
+ ://www.tuftstdpstickets.com/\n\nWritten by Terayama Shūji\, in collabora
+ tion with Kishida Rio\nTranslated by Tsuneda Keiko and Colleen Lanki\nDi
+ rected by August Kittleson as part of a senior thesis project in Theatre
+ \, Dance\, and Performance studies\n\nTerayama Shuji’s 1975 play\, A Jou
+ rnal of the Plague Year\, pushes us to think about the violence of a nat
+ ion’s imperial past (or present!) and epidemic disease both as a literal
+  threat and as a metaphor for the way war crimes infect victims and perp
+ etrators alike.\n\nIt can also be seen as a play about protest\, resista
+ nce\, and activism. Its emphasis on memory\, for instance\, as an act of
+  resistance against colonial amnesia\, and community in the face of all 
+ that tears us apart\, is profoundly relevant for a 21st-century US-based
+  audience. \n\nThe message of hopeful urgency at the end of the play—“Th
+ e time is now! The time is now!”—captures the spirit of student protest 
+ today.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+UID:http://uid.trumba.com/event/199480314
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d199480314
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tufts Dance Program MashUP

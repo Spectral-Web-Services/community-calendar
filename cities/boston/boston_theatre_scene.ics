@@ -5,18 +5,6 @@ X-WR-CALNAME:Boston Theatre Scene
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T210000
-UID:9a420d91cfef25d1a9e268b1acc15ccc@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Antiquities
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T160000
 UID:c9d31ca24c78ab66221fb31b27fef932@bostontheatrescene.com
@@ -180,6 +168,18 @@ URL:https://www.bostontheatrescene.com/shows-and-events/tradition-reimagin
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Accidental Death of an Anarchist
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260404T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260404T160000
+UID:0652d70f8461046f95aedc0cb45b2f9c@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 26/03/DashengPoster.png?resize=300%2C300&gravity
+DESCRIPTION:
+URL:https://www.bostontheatrescene.com/shows-and-events/accidental-death-o
+ f-an-anarchist/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Night of the Living Dead The Musical - Teen Edition
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260404T150000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260404T170000
@@ -216,6 +216,18 @@ DESCRIPTION:
 LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/tradition-reimagin
  ed/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Accidental Death of an Anarchist
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260404T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260404T210000
+UID:59a10066745779709ba81295540d0005@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 26/03/DashengPoster.png?resize=300%2C300&gravity
+DESCRIPTION:
+URL:https://www.bostontheatrescene.com/shows-and-events/accidental-death-o
+ f-an-anarchist/
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
@@ -258,6 +270,18 @@ URL:https://www.bostontheatrescene.com/shows-and-events/mariette-in-ecstas
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Accidental Death of an Anarchist
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260405T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260405T160000
+UID:a78ae5bee93ec27cd745adeeb9769513@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 26/03/DashengPoster.png?resize=300%2C300&gravity
+DESCRIPTION:
+URL:https://www.bostontheatrescene.com/shows-and-events/accidental-death-o
+ f-an-anarchist/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:When Playwrights Kill
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260405T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260405T210000
@@ -268,6 +292,18 @@ DESCRIPTION:
 LOCATION:The Huntington Theatre\, 264 Huntington Ave.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/when-playwrights-k
  ill/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Accidental Death of an Anarchist
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260405T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260405T210000
+UID:70aba0a052b0e7840ed2bcdd262ad730@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 26/03/DashengPoster.png?resize=300%2C300&gravity
+DESCRIPTION:
+URL:https://www.bostontheatrescene.com/shows-and-events/accidental-death-o
+ f-an-anarchist/
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
@@ -605,9 +641,9 @@ X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Elegant Frictions
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T160000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T180000
-UID:f7ee60ed862ce737c973e90f8163d921@bostontheatrescene.com
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T153000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T173000
+UID:4085cf78dfa60f97c81313226c454df3@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:

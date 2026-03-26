@@ -7,34 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260324T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260324T190000
-UID:5c29642dc254171f125ee08cff37b87f@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/newfest-rod-parker-production/"}
-X-SOURCE-ID:emerson_theatres
-X-SOURCE:Emerson Theatres
-DTSTART;TZID=America/New_York:20260325T000000
-DTEND;TZID=America/New_York:20260328T235959
-DTSTAMP:20260324T222034
-CREATED:20250905T193845Z
-LAST-MODIFIED:20260323T192432Z
-UID:10000039-1774396800-1774742399@emersontheatres.org
-SUMMARY:NewFest: ROD PARKER PRODUCTION
-DESCRIPTION:When Death Crashes a Dinner Party \n\n\n\nNewFest: Rod Parker Production\n\n\n\nDirected by Joe Antoun\n\n\n\n\nAt a refined cocktail hour meant to honor the mysteriously absent Edmund Ford\, five guests exchange martinis\, pleasantries\, and—very quickly—accusations. What begins as polite chatter devolves into a chaotic unraveling of secrets\, grudges\, and unexpected reckonings with one another and themselves. \n\n\n\n \n\n\n\n\n\n\n\nDates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Info\n\n\n\nVenue\n\n\n\n\n\nDetails\n\n\n\n\n\n\n\n\n\n\n1 Hour 15 Mins \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAge 13+ \n\n\n\n\n\n\n\n\n\nHealth & Safety Information
-URL:https://emersontheatres.org/event/newfest-rod-parker-production/
-LOCATION:Greene Theatre\, 10 Boylston Place 6th floor\, Boston\, Massachusetts\, 02116\, United States
-ATTACH;FMTTYPE=image/jpeg:https://emersontheatres.org/wp-content/uploads/sites/81/2025/09/Rod-Parker-Death-Crashes-Homepage-Feature-350-x-255.jpg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:tufts_tdps
 X-SOURCE:Tufts Tdps
 SUMMARY:TDPS Course Preview Mixer
@@ -84,40 +56,12 @@ DTSTART;VALUE=DATE-TIME:20260325T140000
 DTEND;VALUE=DATE-TIME:20260325T163000
 UID:097c1f25a02fd9af51560d8bed3530d6@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
  rgeous/
 X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T210000
-UID:9a420d91cfef25d1a9e268b1acc15ccc@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A74feb"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T190000
-UID:5f709159bc2c32aafe45b5ddd3411a4d@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A74feb
-X-SOURCE:Emerson Colonial Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
@@ -239,7 +183,7 @@ DTSTART;VALUE=DATE-TIME:20260326T193000
 DTEND;VALUE=DATE-TIME:20260326T220000
 UID:a5f1831a86d0f559fa36ae44eab8880d@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -368,7 +312,7 @@ DTSTART;VALUE=DATE-TIME:20260327T200000
 DTEND;VALUE=DATE-TIME:20260327T223000
 UID:9ca0c84a58437f8c89bfb516ed0cf43c@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -467,7 +411,7 @@ DTSTART;VALUE=DATE-TIME:20260328T150000
 DTEND;VALUE=DATE-TIME:20260328T173000
 UID:76dc9cc143111646a5e6d29ddb1f1553@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -597,7 +541,7 @@ DTSTART;VALUE=DATE-TIME:20260329T150000
 DTEND;VALUE=DATE-TIME:20260329T173000
 UID:7f569569a3d93089758a2107533ad141@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -656,7 +600,7 @@ DTSTART;VALUE=DATE-TIME:20260401T193000
 DTEND;VALUE=DATE-TIME:20260401T220000
 UID:2a34043af0bdf7cfa6701547a730c7b9@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -686,7 +630,7 @@ DTSTART;VALUE=DATE-TIME:20260402T193000
 DTEND;VALUE=DATE-TIME:20260402T220000
 UID:f2686a332d2953b5eb9ece63fe25e8fd@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -856,7 +800,7 @@ DTSTART;VALUE=DATE-TIME:20260403T200000
 DTEND;VALUE=DATE-TIME:20260403T223000
 UID:194847e053d9f0c256b97c9fe3f43d86@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -908,6 +852,21 @@ DESCRIPTION:
 LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/tradition-reimagin
  ed/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/accidental-death-of-an-anarchist/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/accidental-death-of-an-anarchist/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Accidental Death of an Anarchist
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260404T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260404T160000
+UID:0652d70f8461046f95aedc0cb45b2f9c@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 26/03/DashengPoster.png?resize=300%2C300&gravity
+DESCRIPTION:
+URL:https://www.bostontheatrescene.com/shows-and-events/accidental-death-o
+ f-an-anarchist/
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
@@ -994,7 +953,7 @@ DTSTART;VALUE=DATE-TIME:20260404T150000
 DTEND;VALUE=DATE-TIME:20260404T173000
 UID:65bd0b6655402f2478f03521f8cbfda9@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -1075,6 +1034,21 @@ URL:https://www.bostontheatrescene.com/shows-and-events/mariette-in-ecstas
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/accidental-death-of-an-anarchist/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/accidental-death-of-an-anarchist/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Accidental Death of an Anarchist
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260405T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260405T160000
+UID:a78ae5bee93ec27cd745adeeb9769513@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 26/03/DashengPoster.png?resize=300%2C300&gravity
+DESCRIPTION:
+URL:https://www.bostontheatrescene.com/shows-and-events/accidental-death-o
+ f-an-anarchist/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245598"}
 X-SOURCE-ID:ovationtix_central_square
 SUMMARY:Breaking the Code
@@ -1122,7 +1096,7 @@ DTSTART;VALUE=DATE-TIME:20260405T150000
 DTEND;VALUE=DATE-TIME:20260405T173000
 UID:5fd01322792e731567a27aee06708c95@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -1199,7 +1173,7 @@ DTSTART;VALUE=DATE-TIME:20260408T140000
 DTEND;VALUE=DATE-TIME:20260408T163000
 UID:284a326cb68e969d6873e59f84c0cba7@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -1341,7 +1315,7 @@ DTSTART;VALUE=DATE-TIME:20260409T193000
 DTEND;VALUE=DATE-TIME:20260409T220000
 UID:789875d70e9592392311ef344f0ede98@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -1438,7 +1412,7 @@ DTSTART;VALUE=DATE-TIME:20260410T200000
 DTEND;VALUE=DATE-TIME:20260410T223000
 UID:d0b5b1cc9dd9353edfc984622ba23072@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -1526,7 +1500,7 @@ DTSTART;VALUE=DATE-TIME:20260411T150000
 DTEND;VALUE=DATE-TIME:20260411T173000
 UID:6a5efaad61a4f1e50fa6a763c723c2bc@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -1656,7 +1630,7 @@ DTSTART;VALUE=DATE-TIME:20260412T150000
 DTEND;VALUE=DATE-TIME:20260412T173000
 UID:315d10e1c695e0704ff60bac9f21e454@lyricstage.com
 ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/LSB_ARSG_SLIDER1920X1080_NEW2.jpg
+ 25/11/Untitled-design-21.png
 DESCRIPTION:
 LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
@@ -1875,14 +1849,29 @@ X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
  ol of Arts and Sciences
 X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:TDPS
  @tufts.edu
-DTSTAMP:20251217T090055Z
+DTSTAMP:20260325T101603Z
 DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
  nce Lab\nCampus: Medford/Somerville campus\nWheelchair Accessible: Yes\n
  Open to Public: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dan
  ce\nEvent Sponsor: School of Arts and Sciences\nEvent Contact Email: TDP
  S@tufts.edu\nLink: https://www.tuftstdpstickets.com/section/tdps-2025-20
- 26-season-ywz8\n\nFeaturing Choreography from Senior TDPS Majors and Dan
- ce Minors
+ 26-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps://www.tuftstdpstickets.co
+ m/\n\nWe are proud to present the 2026 Spring Dance Concert\, featuring 
+ choreography by:\n\nSaška Barančíková\nBijin Basu\nOren Cohen\nMia Giatr
+ elis\nMurilo Marinho Martins Mascarenhas\nJena Thorne\n\nDance at Tufts 
+ is a well-established and vibrant part of academic\, cultural\, and comm
+ unity life on campus.\n\nThe Tufts Dance Program of the Department of Th
+ eatre\, Dance\, and Performance Studies exposes students to the rich her
+ itage and current practices in the field of dance through experiential a
+ nd theoretical study. Dance courses range from kathak dance theatre to a
+ dvanced choreography and performance\; from improvisation and creative p
+ rocess to the dance forms of Afro-Haitian\, ballet\, hip hop\, and moder
+ n\, in addition to a host of other special topics courses. Students acce
+ ss the program as new dancers\, dancers returning to dance\, or advanced
+  dancers with many years' experience. At all levels of study\, dance off
+ ers Tufts students an essential source of physical\, creative\, and aest
+ hetic engagement within a fully integrated academic vision for the arts
+ \, education\, and enhanced cultural understanding.
 CATEGORIES:Theatre, Dance, and Performance Studies
 UID:http://uid.trumba.com/event/194681716
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
@@ -2072,14 +2061,29 @@ X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
  ol of Arts and Sciences
 X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:TDPS
  @tufts.edu
-DTSTAMP:20251217T090046Z
+DTSTAMP:20260325T101613Z
 DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
  nce Lab\nCampus: Medford/Somerville campus\nWheelchair Accessible: Yes\n
  Open to Public: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dan
  ce\nEvent Sponsor: School of Arts and Sciences\nEvent Contact Email: TDP
  S@tufts.edu\nLink: https://www.tuftstdpstickets.com/section/tdps-2025-20
- 26-season-ywz8\n\nFeaturing Choreography from Senior TDPS Majors and Dan
- ce Minors
+ 26-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps://www.tuftstdpstickets.co
+ m/\n\nWe are proud to present the 2026 Spring Dance Concert\, featuring 
+ choreography by:\n\nSaška Barančíková\nBijin Basu\nOren Cohen\nMia Giatr
+ elis\nMurilo Marinho Martins Mascarenhas\nJena Thorne\n\nDance at Tufts 
+ is a well-established and vibrant part of academic\, cultural\, and comm
+ unity life on campus.\n\nThe Tufts Dance Program of the Department of Th
+ eatre\, Dance\, and Performance Studies exposes students to the rich her
+ itage and current practices in the field of dance through experiential a
+ nd theoretical study. Dance courses range from kathak dance theatre to a
+ dvanced choreography and performance\; from improvisation and creative p
+ rocess to the dance forms of Afro-Haitian\, ballet\, hip hop\, and moder
+ n\, in addition to a host of other special topics courses. Students acce
+ ss the program as new dancers\, dancers returning to dance\, or advanced
+  dancers with many years' experience. At all levels of study\, dance off
+ ers Tufts students an essential source of physical\, creative\, and aest
+ hetic engagement within a fully integrated academic vision for the arts
+ \, education\, and enhanced cultural understanding.
 CATEGORIES:Theatre, Dance, and Performance Studies
 UID:http://uid.trumba.com/event/194681718
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
@@ -2212,9 +2216,9 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/elegant-frictions/"}
 X-SOURCE-ID:boston_theatre_scene
 SUMMARY:Elegant Frictions
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T160000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T180000
-UID:f7ee60ed862ce737c973e90f8163d921@bostontheatrescene.com
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T153000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T173000
+UID:4085cf78dfa60f97c81313226c454df3@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  26/03/Elegant_Frictions_900_900.jpg?resize=300%2C300&gravity
 DESCRIPTION:
@@ -2279,64 +2283,6 @@ DESCRIPTION:A queer romantic comedy set in vibrant\, multicultural New York City
 URL:https://artsemerson.org/events/saving-face/
 LOCATION:Bright Family Screening Room\, 559 Washington St\, Boston\, Massachusetts\, 02111\, United States
 ATTACH;FMTTYPE=image/png:https://emersontheatres.org/wp-content/uploads/sites/81/2026/03/saving-face.png
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Tufts Tdps": "https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8"}
-X-SOURCE-ID:tufts_tdps
-X-SOURCE:Tufts Tdps
-SUMMARY:A Journal of the Plague Year
-LOCATION:Medford/Somerville campus
-DTSTART;VALUE=DATE:20260423
-DTEND;VALUE=DATE:20260427
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
- plate
-X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
- Arts Center
-X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
- 02155
-X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
- umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
-X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Balch Arena T
- heater
-X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
- erville campus
-X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
- ance
-X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
- ter/Dance
-X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
- ol of Arts and Sciences
-X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
- John Stark
-X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
- .Stark@tufts.edu
-X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
- mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
-DTSTAMP:20251217T090439Z
-DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
- om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
- ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
- onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
- t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
- s.com/section/tdps-2025-2026-season-ywz8\n\nTerayama Shuji’s 1975 play\,
-  A Journal of the Plague Year\, pushes us to think about the violence of
-  a nation’s imperial past (or present!) and epidemic disease both as a l
- iteral threat and as a metaphor for the way war crimes infect victims an
- d perpetrators alike.\n\nIt can also be seen as a play about protest\, r
- esistance\, and activism. Its emphasis on memory\, for instance\, as an 
- act of resistance against colonial amnesia\, and community in the face o
- f all that tears us apart\, is profoundly relevant for a 21st-century US
- -based audience. \n\nThe message of hopeful urgency at the end of the pl
- ay—“The time is now! The time is now!”—captures the spirit of student pr
- otest today.
-CATEGORIES:Theatre, Dance, and Performance Studies
-IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
-UID:http://uid.trumba.com/event/194681740
-X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
- mbed=view%3devent%26eventid%3d194681740
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Citizens Opera House": "https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-boston-massachusetts-04-23-2026/event/01006350B72ECC18"}
@@ -2413,6 +2359,69 @@ DESCRIPTION:
 LOCATION:Central Square Theater
 URL:https://ci.ovationtix.com/2462/production/1245598
 X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Tufts Tdps": "https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8"}
+X-SOURCE-ID:tufts_tdps
+X-SOURCE:Tufts Tdps
+SUMMARY:A Journal of the Plague Year
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260423T200000
+DTEND;TZID=America/New_York:20260423T220000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Balch Arena T
+ heater
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ John Stark
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
+ .Stark@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+DTSTAMP:20260325T101407Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
+ om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
+ ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
+ onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
+ t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
+ s.com/section/tdps-2025-2026-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps
+ ://www.tuftstdpstickets.com/\n\nWritten by Terayama Shūji\, in collabora
+ tion with Kishida Rio\nTranslated by Tsuneda Keiko and Colleen Lanki\nDi
+ rected by August Kittleson as part of a senior thesis project in Theatre
+ \, Dance\, and Performance studies\n\nPlease join us after this performa
+ nce for a celebratory opening night reception.\n\nTerayama Shuji’s 1975 
+ play\, A Journal of the Plague Year\, pushes us to think about the viole
+ nce of a nation’s imperial past (or present!) and epidemic disease both 
+ as a literal threat and as a metaphor for the way war crimes infect vict
+ ims and perpetrators alike.\n\nIt can also be seen as a play about prote
+ st\, resistance\, and activism. Its emphasis on memory\, for instance\, 
+ as an act of resistance against colonial amnesia\, and community in the 
+ face of all that tears us apart\, is profoundly relevant for a 21st-cent
+ ury US-based audience. \n\nThe message of hopeful urgency at the end of 
+ the play—“The time is now! The time is now!”—captures the spirit of stud
+ ent protest today.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+UID:http://uid.trumba.com/event/194681740
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d194681740
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://artsemerson.org/events/the-half-of-it/"}
@@ -2565,6 +2574,68 @@ LOCATION:Citizens Opera House\, 539 Washington Street\, Boston\, MA
 URL:https://www.ticketmaster.com/disneys-beauty-and-the-beast-touring-bost
  on-massachusetts-04-24-2026/event/01006350B732CC23
 X-SOURCE:Citizens Opera House
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Tufts Tdps": "https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8"}
+X-SOURCE-ID:tufts_tdps
+X-SOURCE:Tufts Tdps
+SUMMARY:A Journal of the Plague Year
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260424T200000
+DTEND;TZID=America/New_York:20260424T220000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Balch Arena T
+ heater
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ John Stark
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
+ .Stark@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+DTSTAMP:20260325T101432Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
+ om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
+ ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
+ onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
+ t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
+ s.com/section/tdps-2025-2026-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps
+ ://www.tuftstdpstickets.com/\n\nWritten by Terayama Shūji\, in collabora
+ tion with Kishida Rio\nTranslated by Tsuneda Keiko and Colleen Lanki\nDi
+ rected by August Kittleson as part of a senior thesis project in Theatre
+ \, Dance\, and Performance studies\n\nTerayama Shuji’s 1975 play\, A Jou
+ rnal of the Plague Year\, pushes us to think about the violence of a nat
+ ion’s imperial past (or present!) and epidemic disease both as a literal
+  threat and as a metaphor for the way war crimes infect victims and perp
+ etrators alike.\n\nIt can also be seen as a play about protest\, resista
+ nce\, and activism. Its emphasis on memory\, for instance\, as an act of
+  resistance against colonial amnesia\, and community in the face of all 
+ that tears us apart\, is profoundly relevant for a 21st-century US-based
+  audience. \n\nThe message of hopeful urgency at the end of the play—“Th
+ e time is now! The time is now!”—captures the spirit of student protest 
+ today.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+UID:http://uid.trumba.com/event/199480313
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d199480313
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"ArtsEmerson": "https://artsemerson.org/event/the-secret-sharer-9/"}
@@ -2780,6 +2851,68 @@ DESCRIPTION:
 LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7O4uN
 X-SOURCE:Emerson Colonial Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Tufts Tdps": "https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8"}
+X-SOURCE-ID:tufts_tdps
+X-SOURCE:Tufts Tdps
+SUMMARY:A Journal of the Plague Year
+LOCATION:Medford/Somerville campus
+DTSTART;TZID=America/New_York:20260426T150000
+DTEND;TZID=America/New_York:20260426T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+URL:https://www.tuftstdpstickets.com/section/tdps-2025-2026-season-ywz8
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Balch Arena T
+ heater
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
+ ance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
+ John Stark
+X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:John
+ .Stark@tufts.edu
+X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
+ mba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+DTSTAMP:20260325T101456Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nRo
+ om: Balch Arena Theater\nCampus: Medford/Somerville campus\nOpen to Publ
+ ic: Yes\nEvent Type: Performance\nEvent Subject: Theater/Dance\nEvent Sp
+ onsor: School of Arts and Sciences\nEvent Contact Name: John Stark\nEven
+ t Contact Email: John.Stark@tufts.edu\nLink: https://www.tuftstdpsticket
+ s.com/section/tdps-2025-2026-season-ywz8\n\nTICKETS ON SALE NOW: \nhttps
+ ://www.tuftstdpstickets.com/\n\nWritten by Terayama Shūji\, in collabora
+ tion with Kishida Rio\nTranslated by Tsuneda Keiko and Colleen Lanki\nDi
+ rected by August Kittleson as part of a senior thesis project in Theatre
+ \, Dance\, and Performance studies\n\nTerayama Shuji’s 1975 play\, A Jou
+ rnal of the Plague Year\, pushes us to think about the violence of a nat
+ ion’s imperial past (or present!) and epidemic disease both as a literal
+  threat and as a metaphor for the way war crimes infect victims and perp
+ etrators alike.\n\nIt can also be seen as a play about protest\, resista
+ nce\, and activism. Its emphasis on memory\, for instance\, as an act of
+  resistance against colonial amnesia\, and community in the face of all 
+ that tears us apart\, is profoundly relevant for a 21st-century US-based
+  audience. \n\nThe message of hopeful urgency at the end of the play—“Th
+ e time is now! The time is now!”—captures the spirit of student protest 
+ today.
+CATEGORIES:Theatre, Dance, and Performance Studies
+IMAGE;VALUE=URI:https://www.trumba.com/i/DgAAtVCzflIuhu-3MwusFKeF.jpg
+UID:http://uid.trumba.com/event/199480314
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d199480314
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1267353"}
@@ -4299,6 +4432,30 @@ DESCRIPTION:
 LOCATION:Wheelock Family Theatre
 URL:https://ci.ovationtix.com/177/production/1247439
 X-SOURCE:Wheelock Family Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1247439"}
+X-SOURCE-ID:ovationtix_wheelock
+SUMMARY:Charlotte's Web
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260526T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260526T160000
+UID:adc87f071625cdc5a4f7454ac00dcac4@ovationtix.com
+DESCRIPTION:
+LOCATION:Wheelock Family Theatre
+URL:https://ci.ovationtix.com/177/production/1247439
+X-SOURCE:Wheelock Family Theatre
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Art": "https://ticket.americanrepertorytheater.org/7226/7357"}
+X-SOURCE-ID:art
+SUMMARY:Black Swan
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260526T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260526T220000
+UID:b69e48301d750aa3bf7d9b3d2bc18dd7@americanrepertorytheater.org
+DESCRIPTION:
+LOCATION:American Repertory Theater\, Cambridge\, MA
+URL:https://ticket.americanrepertorytheater.org/7226/7357
+X-SOURCE:American Repertory Theater
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}

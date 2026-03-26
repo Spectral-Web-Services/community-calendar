@@ -5,7 +5,55 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Roanoke Spiritual Experiences Group
 X-WR-CALNAME:Roanoke Spiritual Experiences Group
-X-ORIGINAL-URL:https://www.meetup.com/Roanoke-Spiritual-Experiences-Group/
- events/ical/
+BEGIN:VTIMEZONE
+TZID:America/New_York
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:event_313939564@meetup.com
+SEQUENCE:1
+DTSTAMP:20260326T020339Z
+DTSTART;TZID=America/New_York:20260408T190000
+DTEND;TZID=America/New_York:20260408T200000
+SUMMARY:"Under the Spread of the Holy Spirit's Wings" Spiritual Video Night
+DESCRIPTION:Roanoke Spiritual Experiences Group\n**Description:**\nCome join us for a 30-minute video of timeless wisdom from Harold Klemp’s talk\, **“Under the Spread of the Holy Spirit's Wings.**” Uplifting and insightful\, his talks can help you unravel some of the perplexing mysteries of life. Each showing will be followed by group discussion\; a time to share your own experiences and nagging questions about life’s many challenges.\nSponsored by ECKANKAR\, the Path of Spiritual Freedom.\nPlease register in advance for this meeting at:\n[https://us06web.zoom.us/meeting/register/soVYdGj5RXWpzx_R8ddDHg](https://us06web.zoom.us/meeting/register/soVYdGj5RXWpzx_R8ddDHg)\nAfter registering\, you will receive a confirmation email containing login information for joining the meeting.\nINTERNATIONAL GUESTS\, PLEASE NOTE: This event is not intended for anyone who is barred by the laws of their country from attending. Please follow the laws of your home country.
+URL;VALUE=URI:https://www.meetup.com/roanoke-spiritual-experiences-group/events/313939564/
+STATUS:CONFIRMED
+CREATED:20260325T092825Z
+LAST-MODIFIED:20260325T092825Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/6/e/b/9/600_530368345.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313939594@meetup.com
+SEQUENCE:1
+DTSTAMP:20260326T020339Z
+DTSTART;TZID=America/New_York:20260412T110000
+DTEND;TZID=America/New_York:20260412T120000
+SUMMARY:The Sound of Soul – “Attune to the Wonders of God’s Unconditional Love"
+DESCRIPTION:Roanoke Spiritual Experiences Group\nLocation: Roanoke ECK Center\n1420 3rd St SW\nRoanoke\, VA 24016\n\nDescription:\nExplore a daily spiritual practice for more joy\, wisdom\, peace. It can lift you to a higher state and allow you to experience more love in your life. Join us to sing HU for 15-20 minutes followed by a short contemplation and discussion.\n\nSponsored by ECKANKAR\, the Path of Spiritual Freedom.\n\nINTERNATIONAL GUESTS\, PLEASE NOTE: This event is not intended for anyone who is barred by the laws of their country from attending. Please follow the laws of your home country.
+URL;VALUE=URI:https://www.meetup.com/roanoke-spiritual-experiences-group/events/313939594/
+STATUS:CONFIRMED
+CREATED:20260325T093257Z
+LAST-MODIFIED:20260325T093257Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/6/0/7/600_533374311.jpeg
+END:VEVENT
+X-ORIGINAL-URL:https://www.meetup.com/Roanoke-Spiritual-Experiences-Group/events/ical/
 X-WR-CALNAME:Roanoke Spiritual Experiences Group
 END:VCALENDAR

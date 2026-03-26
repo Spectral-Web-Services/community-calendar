@@ -3,4 +3,14 @@ VERSION:2.0
 PRODID:-//American Repertory Theater//americanrepertorytheater.org//
 X-WR-CALNAME:American Repertory Theater
 X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:Black Swan
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260526T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260526T220000
+UID:b69e48301d750aa3bf7d9b3d2bc18dd7@americanrepertorytheater.org
+DESCRIPTION:
+LOCATION:American Repertory Theater\, Cambridge\, MA
+URL:https://ticket.americanrepertorytheater.org/7226/7357
+X-SOURCE:American Repertory Theater
+END:VEVENT
 END:VCALENDAR

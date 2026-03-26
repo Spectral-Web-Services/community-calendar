@@ -4,32 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:The Barr Brothers
-DTSTART;VALUE=DATE-TIME:20260325T200000
-DTEND;VALUE=DATE-TIME:20260325T200000
-UID:1a1c23c9c8902a148039b4f76366a133@songkick.com
-DESCRIPTION:The Barr Brothers at Mississippi Studios at 2026-03-25T20:00:0
- 0-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/42892535-barr-brothers-at-mississippi
- -studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Georgia Harmer
-DTSTART;VALUE=DATE-TIME:20260325T200000
-DTEND;VALUE=DATE-TIME:20260325T200000
-UID:c77f7aab7e4ff51967972bdac43626c3@songkick.com
-DESCRIPTION:Georgia Harmer at Mississippi Studios at 2026-03-25T20:00:00-0
- 700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43100000-georgia-harmer-at-mississipp
- i-studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wes Parker
 DTSTART;VALUE=DATE-TIME:20260326T200000
 DTEND;VALUE=DATE-TIME:20260326T200000
@@ -39,6 +13,32 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43100001-wes-parker-at-mississippi-st
  udios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Delicate Steve
+DTSTART;VALUE=DATE-TIME:20260327T210000
+DTEND;VALUE=DATE-TIME:20260327T210000
+UID:fb1b7a5ac969e749c8cb2fda0865a837@songkick.com
+DESCRIPTION:Delicate Steve at Mississippi Studios at 2026-03-27T21:00:00-0
+ 700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/42994517-delicate-steve-at-mississipp
+ i-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aggie Miller
+DTSTART;VALUE=DATE-TIME:20260327T210000
+DTEND;VALUE=DATE-TIME:20260327T210000
+UID:e3e55edb5e8aa00f517244e14f7dae9c@songkick.com
+DESCRIPTION:Aggie Miller at Mississippi Studios at 2026-03-27T21:00:00-070
+ 0
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100005-aggie-miller-at-mississippi-
+ studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

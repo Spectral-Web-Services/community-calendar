@@ -3,19 +3,6 @@ VERSION:2.0
 PRODID:-//Community Calendar//Legistar Scraper//EN
 X-WR-CALNAME:Oregon Metro
 BEGIN:VEVENT
-UID:f948e43edc05d002c478df9ad4cd9dc1@legistar.com
-DTSTART:20260325T170000
-DTEND:20260325T190000
-SUMMARY:Metro Policy Advisory Committee (MPAC)
-LOCATION:CANCELED
-DESCRIPTION:Board/Commission: Metro Policy Advisory Committee (MPAC)\\nAgen
- da: https://oregonmetro.legistar1.com/oregonmetro/meetings/2026/3/3606_A_M
- etro_Policy_Advisory_Committee_%28MPAC%29_26-03-25_Agenda.pdf\\nNote: CANC
- ELED\\n\nSource: Oregon Metro
-URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3606&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260325T024807Z
-END:VEVENT
-BEGIN:VEVENT
 UID:4a5144c4e8b5b0f66d41a21263518724@legistar.com
 DTSTART:20260326T103000
 DTEND:20260326T123000
@@ -24,6 +11,20 @@ LOCATION:CANCELED
 DESCRIPTION:Board/Commission: Council meeting\\nNote: CANCELED\\n\nSource: 
  Oregon Metro
 URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3598&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260325T024807Z
+DTSTAMP:20260326T021022Z
+END:VEVENT
+BEGIN:VEVENT
+UID:505943f00deb174e710c844b397b1a9c@legistar.com
+DTSTART:20260331T103000
+DTEND:20260331T123000
+SUMMARY:Council work session
+LOCATION:Metro Regional Center\, Council Chamber\; https://zoom.us/j/615079
+ 992 (Webinar ID: 615079992) or 253-205-0468 (toll free)\, https://www.yout
+ ube.com/watch?v=gyNYvJE8k-oIt
+DESCRIPTION:Board/Commission: Council work session\\nAgenda: https://oregon
+ metro.legistar1.com/oregonmetro/meetings/2026/3/3601_A_Council_work_sessio
+ n_26-03-31_Agenda.pdf\\n\nSource: Oregon Metro
+URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3601&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
+DTSTAMP:20260326T021022Z
 END:VEVENT
 END:VCALENDAR
