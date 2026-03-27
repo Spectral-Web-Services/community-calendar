@@ -7,6 +7,10 @@ CREATE TABLE IF NOT EXISTS source_suggestions (
   url text,
   feed_type text,
   notes text,
+  submitter_email text,
+  status text NOT NULL DEFAULT 'submitted',
+  reviewed_by uuid,
+  reviewed_at timestamptz,
   created_at timestamptz DEFAULT now()
 );
 
@@ -22,3 +26,9 @@ CREATE POLICY "Anyone can insert suggestions"
 CREATE POLICY "Anyone can read suggestions"
   ON source_suggestions FOR SELECT
   USING (true);
+
+-- Curators can update suggestions for their city
+CREATE POLICY "Curators can update suggestions"
+  ON source_suggestions FOR UPDATE
+  USING (public.is_curator_for_city(city))
+  WITH CHECK (public.is_curator_for_city(city));

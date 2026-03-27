@@ -9,6 +9,7 @@ export default function SourcesDialog({ events, onClose }) {
   const [suggestUrl, setSuggestUrl] = useState('');
   const [suggestFeedType, setSuggestFeedType] = useState('');
   const [suggestNotes, setSuggestNotes] = useState('');
+  const [suggestEmail, setSuggestEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [suggestSuccess, setSuggestSuccess] = useState(false);
   const [suggestError, setSuggestError] = useState('');
@@ -37,6 +38,7 @@ export default function SourcesDialog({ events, onClose }) {
           url: suggestUrl,
           feed_type: suggestFeedType || null,
           notes: suggestNotes || null,
+          submitter_email: suggestEmail || null,
         }),
       });
       if (!res.ok) throw new Error('Failed');
@@ -54,6 +56,7 @@ export default function SourcesDialog({ events, onClose }) {
     setSuggestUrl('');
     setSuggestFeedType('');
     setSuggestNotes('');
+    setSuggestEmail('');
     setSuggestError('');
   }
 
@@ -142,6 +145,16 @@ export default function SourcesDialog({ events, onClose }) {
                     <option value="webpage">Events page / other</option>
                     <option value="unknown">Not sure</option>
                   </select>
+                </div>
+                <div>
+                  <label className="block text-xs font-medium text-gray-500 mb-1">Your email</label>
+                  <input
+                    type="email"
+                    value={suggestEmail}
+                    onChange={e => setSuggestEmail(e.target.value)}
+                    placeholder="Optional — if you'd like us to follow up"
+                    className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                  />
                 </div>
                 <div>
                   <label className="block text-xs font-medium text-gray-500 mb-1">Notes</label>
