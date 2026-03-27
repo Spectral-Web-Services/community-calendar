@@ -4,22 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260327T100000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260327T100000
-UID:105dad395a1d5aa12fd085be5b8d807a@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
-DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
- gton Park!
-LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
- ght Avenue Portland\n                          \, OR\n                    
-        97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/3/27/cloud-forest-washingto
- n-park-volunteer-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lynchwood Park Community Stewardship Day - Pollinator Patch Paradi
  se
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260327T100000
@@ -37,6 +21,22 @@ LOCATION:Lynchwood Park Label: Park Park location or entrance SE 170th Ave
   location
 URL:https://www.portland.gov/parks/events/2026/3/27/lynchwood-park-communi
  ty-stewardship-day-pollinator-patch-paradise
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Forest volunteer day in Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260327T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260327T100000
+UID:f70dfb9a52f748db8ecf0304a415f03d@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
+ gton Park!
+LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
+ ght Avenue Portland\n                          \, OR\n                    
+        97204 Get directions More about this location Washington Park
+URL:https://www.portland.gov/parks/events/2026/3/27/cloud-forest-volunteer
+ -day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -105,18 +105,6 @@ DESCRIPTION:Second and Fourth Saturdays of the month. We invite our commun
 LOCATION:Native Gathering Garden
 URL:https://www.portland.gov/parks/volunteer/events/2026/3/28/saturday-ten
  ding-days-native-gathering-garden
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260330T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260330T090000
-UID:0855ad7322f067dacd0dc9f726568c88@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
- MAC Trail in Washington Park!
-LOCATION:Washington Park
-URL:https://www.portland.gov/parks/events/2026/3/30/mac-trail-volunteer-da
- y-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -274,10 +262,10 @@ URL:https://www.portland.gov/parks/nature/events/2026/4/4/tideman-johnson-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
+SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260406T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260406T090000
-UID:e4527b596a69843400f55df445e535fc@portland.gov
+UID:d13da17a0e813e21ae3a60c31cc724e5@portland.gov
 DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
  MAC Trail in Washington Park!
 LOCATION:Washington Park
@@ -416,10 +404,10 @@ URL:https://www.portland.gov/parks/events/2026/4/11/kelley-point-park-mulc
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
+SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260413T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260413T090000
-UID:c39f733c9f9b2d71fde9eac8f2f11d4c@portland.gov
+UID:6c3cb95f60a656afba0ac57996cdbab3@portland.gov
 DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
  MAC Trail in Washington Park!
 LOCATION:Washington Park
@@ -594,10 +582,10 @@ URL:https://www.portland.gov/parks/events/2026/4/18/monarchs-mansion
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
+SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260420T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260420T090000
-UID:1f68f59d3d3fb74ef3c33cee5a235385@portland.gov
+UID:b8a11f72521893c7ae3147803e7df027@portland.gov
 DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
  MAC Trail in Washington Park!
 LOCATION:Washington Park
@@ -715,10 +703,10 @@ URL:https://www.portland.gov/parks/events/2026/4/25/wilkes-creek-headwater
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
+SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260427T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260427T090000
-UID:6d6d15698e7522510f92d7a2b9a16724@portland.gov
+UID:5545dedb29cffe52e9436862cb9ee179@portland.gov
 DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
  MAC Trail in Washington Park!
 LOCATION:Washington Park
@@ -811,10 +799,10 @@ URL:https://www.portland.gov/parks/nature/events/2026/5/2/tideman-johnson-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
+SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260504T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260504T090000
-UID:cecab00b5a76f15a026efb344a0a5b95@portland.gov
+UID:3ba550a80ca1b960052998b7e19d3076@portland.gov
 DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
  MAC Trail in Washington Park!
 LOCATION:Washington Park
@@ -935,10 +923,10 @@ URL:https://www.portland.gov/parks/nature/events/2026/5/9/forest-park-stew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
+SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260511T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260511T090000
-UID:9398166b7109d3857163922e8f4aa86f@portland.gov
+UID:252d9c5eebdf43918284eb41f63f34fa@portland.gov
 DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
  MAC Trail in Washington Park!
 LOCATION:Washington Park
@@ -1052,10 +1040,10 @@ URL:https://www.portland.gov/parks/nature/events/2026/5/16/errol-heights-p
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MAC Trail Volunteer Day Washington Park
+SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260518T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260518T090000
-UID:0ad22309e9db4e7e4742d8272117bc18@portland.gov
+UID:f22a58cf74e8fb392bcdd504c3b95dd1@portland.gov
 DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
  MAC Trail in Washington Park!
 LOCATION:Washington Park
@@ -1094,6 +1082,23 @@ LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
         97204 Get directions More about this location Washington Park
 URL:https://www.portland.gov/parks/events/2026/5/22/cloud-forest-washingto
  n-park-volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hazeltine Park Tending Time
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260527T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260527T090000
+UID:8d66277b39b57ab01e15ccdaa35933a2@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2022/hazeltine-np-2022.jpg?itok=nkF0Xk0q
+DESCRIPTION:Join us to help care for native plants and pollinator habitat 
+ at Hazeltine Park!
+LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
+ el Drive Portland\, OR 97206 Get directions Hazeltine Park main entrance 5
+ 416 SE Flavel Drive Portland\n                          \, OR\n           
+                 97206 Get directions More about this location
+URL:https://www.portland.gov/parks/events/2026/5/27/hazeltine-park-tending
+ -time
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 END:VCALENDAR

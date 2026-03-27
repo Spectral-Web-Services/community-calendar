@@ -3,4 +3,21 @@ VERSION:2.0
 PRODID:-//Stewpendous Productions//eventbrite.com//
 X-WR-CALNAME:Stewpendous Productions
 X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:Beard & Belly Trivia Night 1st & Last Monday's 8pm
+DTSTART;TZID="UTC-05:00";VALUE=DATE-TIME:20260330T200000
+DTEND;TZID="UTC-05:00";VALUE=DATE-TIME:20270531T213000
+UID:de57413c6e51ff41a28803599752a875@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1180070679%2F2990531441673%2F1%2Foriginal.20260317-183611?cro
+ p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&
+ fp-y=0.5&s=b5e5296179d6b0242d2c5c7855c7e961
+DESCRIPTION:Steps from Loyola\, in the heart of Edgewater is this amazing 
+ restaurant & bakery serving Trivia Nights at 8pm
+LOCATION:6157 N Broadway\, 6157 North Broadway\, Chicago\, IL 60660\, Chic
+ ago\, IL
+URL:https://www.eventbrite.com/e/beard-belly-trivia-night-1st-last-mondays
+ -8pm-tickets-1985396706996
+X-SOURCE:Stewpendous Productions
+END:VEVENT
 END:VCALENDAR

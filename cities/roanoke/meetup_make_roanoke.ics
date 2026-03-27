@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_312502181@meetup.com
-SEQUENCE:1
-DTSTAMP:20260326T020338Z
-DTSTART;TZID=America/New_York:20260326T180000
-DTEND;TZID=America/New_York:20260326T200000
-SUMMARY:MAKE Roanoke Community Meeting
-DESCRIPTION:MAKE Roanoke\nJoin us at MAKE Roanoke for our monthly Community Meeting on the fourth Thursday of each month at our location: 128 Albemarle Ave SE\, Unit B in Roanoke!\n\nThe evening starts with a slideshow sharing the latest updates about Roanoke's own non-profit community makerspace\, including upcoming events\, new tools\, and member announcements. After the updates\, we open the floor for "Maker Show and Tell" where anyone can showcase their creative projects--whether it's a 3D Print\, a woodworking piece\, electronics project\, embroidery\, or any other creative endeavor.\n\nIt's a welcoming space to connect with your fellow Roanoke makers\, get inspired\, collaborate\, and share your passion for making!\n\nThese meetings are free and open to the public\, you do not need to be a MAKE Roanoke Member to attend!\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/312502181/
-STATUS:CONFIRMED
-CREATED:20251219T164734Z
-LAST-MODIFIED:20251219T164734Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/1/9/f/c/600_527586652.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313607123@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260328T110000
 DTEND;TZID=America/New_York:20260328T120000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312807964@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260328T120000
 DTEND;TZID=America/New_York:20260328T160000
 SUMMARY:Space Improvement Day
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313574137@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260329T130000
 DTEND;TZID=America/New_York:20260329T160000
 SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313620583@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260406T200000
 DTEND;TZID=America/New_York:20260406T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313714322@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260409T180000
 DTEND;TZID=America/New_York:20260409T190000
 SUMMARY:Maker Minis: Intro to Metrology
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313817917@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260411T100000
 DTEND;TZID=America/New_York:20260411T130000
 SUMMARY:MAKE Roanoke @ Go Green for Grandin
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313743231@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T020338Z
+DTSTAMP:20260327T020401Z
 DTSTART;TZID=America/New_York:20260411T130000
 DTEND;TZID=America/New_York:20260411T160000
 SUMMARY:Make a Cutting Board: A 2-Day Class
@@ -173,6 +158,21 @@ CREATED:20260311T141855Z
 LAST-MODIFIED:20260311T141855Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/5/e/8/600_531981992.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_312806304@meetup.com
+SEQUENCE:1
+DTSTAMP:20260327T020401Z
+DTSTART;TZID=America/New_York:20260411T160000
+DTEND;TZID=America/New_York:20260411T200000
+SUMMARY:MEMBERS (& Guests) ONLY: Community Craft Day
+DESCRIPTION:MAKE Roanoke\nCome work on whatever project you want and enjoy the company of fellow MAKE Roanoke Members! Carve out some time to create for the sake of creating! From coloring to making hats to restoring machinery\, this is a social night of crafting of all kinds for makers of all kinds!\n\nBring some dough to chip in for dinner if you want some!\n\nThis event runs from 4-8pm and is for MAKE Roanoke members and guests.\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at https://mkroa.org/waiver\n* Children who are not participating in the event are not permitted in the space.\n* **Closed toed shoes are required** in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc. for safety.\n* Guests\, and members not signed off on yellow/red tools\, are only permitted to use green level tools\, but feel free to bring your own tools to create something fun!
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/312806304/
+STATUS:CONFIRMED
+CREATED:20260109T191307Z
+LAST-MODIFIED:20260109T191307Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/2/1/7/600_530232823.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

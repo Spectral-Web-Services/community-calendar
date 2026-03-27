@@ -4,19 +4,6 @@ PRODID:-//Old Town School of Folk Music//oldtownschool.org//
 X-WR-CALNAME:Old Town School of Folk Music
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Lilly Hiatt
-DTSTART;VALUE=DATE-TIME:20260326T200000
-DTEND;VALUE=DATE-TIME:20260326T200000
-UID:8d94f777bc3c7765512c94e738086007@oldtownschool.org
-ATTACH;FMTTYPE=image/jpeg:https://www.oldtownschool.org/images/concerts/20
- 26/LillyHiatt_thumb.jpg
-DESCRIPTION:
-LOCATION:Szold Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\,
-  Chicago\, IL
-URL:https://www.oldtownschool.org/concerts/2026/03-26-2026-lilly-hiatt
-X-SOURCE:Old Town School of Folk Music
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sonny Landreth Band & The Iguanas
 DTSTART;VALUE=DATE-TIME:20260327T200000
 DTEND;VALUE=DATE-TIME:20260327T200000
@@ -459,6 +446,20 @@ DESCRIPTION:
 LOCATION:Maurer Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\
  , Chicago\, IL
 URL:https://www.oldtownschool.org/concerts/2026/05-20-2026-wmw-onda-sur
+X-SOURCE:Old Town School of Folk Music
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tuvergen Band
+DTSTART;VALUE=DATE-TIME:20260527T193000
+DTEND;VALUE=DATE-TIME:20260527T193000
+UID:15ec23850231310e03a78027593f9c26@oldtownschool.org
+ATTACH;FMTTYPE=image/jpeg:https://www.oldtownschool.org/images/concerts/20
+ 26/Tuvergen26_thumb.jpg
+DESCRIPTION:
+LOCATION:Maurer Hall\, Old Town School of Folk Music\, 4544 N Lincoln Ave\
+ , Chicago\, IL
+URL:https://www.oldtownschool.org/concerts/2026/05-27-2026-wmw-tuvergen-ba
+ nd
 X-SOURCE:Old Town School of Folk Music
 END:VEVENT
 END:VCALENDAR

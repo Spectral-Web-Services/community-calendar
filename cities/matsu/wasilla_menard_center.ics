@@ -21,6 +21,18 @@ TZOFFSETTO:-0800
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
+DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=997
+DTEND;TZID=America/Anchorage:20260531T170000
+DTSTAMP;TZID=America/Anchorage:20260326T122102
+DTSTART;TZID=America/Anchorage:20260531T100000
+LAST-MODIFIED;TZID=America/Anchorage:20260326T122102
+LOCATION:Ice Arena - 1001 S Clapp Street  Wasilla AK 99654
+SEQUENCE:0
+SUMMARY:REV Alaska Auto Show
+UID:997
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=994
 DTEND;TZID=America/Anchorage;VALUE=DATE:20260426
 DTSTAMP;TZID=America/Anchorage:20260304T103548

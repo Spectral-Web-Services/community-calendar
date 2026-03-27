@@ -23,45 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:TDPS Course Preview Mixer
-LOCATION:Medford/Somerville campus
-DTSTART;TZID=America/New_York:20260325T120000
-DTEND;TZID=America/New_York:20260325T131500
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
- plate
-X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
- Arts Center
-X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
- 02155
-X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
- umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
-X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
- erville campus
-X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Bal
- ch Arena Theater Lobby
-X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
-X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
- ter/Dance
-X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
- ol of Arts and Sciences
-X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
- mba.com/i/DgCBNFwge1ckmaNXTmI8tqrI.jpg
-DTSTAMP:20260319T104335Z
-DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
- mpus: Medford/Somerville campus\nLocation Details: Balch Arena Theater L
- obby\nOpen to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: 
- School of Arts and Sciences\n\nCome to our TDPS course preview mixer and
-  learn about what new courses we’ll be offering next semester! Take this
-  opportunity to pick up a schedule of our Fall 2026 courses and begin pl
- anning what your next semester will look like over catered lunch!
-CATEGORIES:Theatre, Dance, and Performance Studies
-IMAGE;VALUE=URI:https://www.trumba.com/i/DgCBNFwge1ckmaNXTmI8tqrI.jpg
-UID:http://uid.trumba.com/event/197624890
-X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
- mbed=view%3devent%26eventid%3d197624890
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Women Take the Reel Film Festival: A collection of shorts from t
  he works of Ng'endo Mukii
 LOCATION:Medford/Somerville campus

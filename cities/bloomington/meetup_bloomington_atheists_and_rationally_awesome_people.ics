@@ -27,7 +27,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:event_313935769@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
+DTSTAMP:20260327T015651Z
 DTSTART;TZID=America/New_York:20260401T183000
 DTEND;TZID=America/New_York:20260401T203000
 SUMMARY:Trivia at Heartworks
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_bhhqftyjcgbfb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
+DTSTAMP:20260327T015651Z
 DTSTART;TZID=America/New_York:20260403T173000
 DTEND;TZID=America/New_York:20260403T193000
 SUMMARY:Happy Hour
@@ -57,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313859499@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
+DTSTAMP:20260327T015651Z
 DTSTART;TZID=America/New_York:20260408T183000
 DTEND;TZID=America/New_York:20260408T203000
 SUMMARY:Trivia at Heartworks
@@ -72,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313818565@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
+DTSTAMP:20260327T015651Z
 DTSTART;TZID=America/New_York:20260415T183000
 DTEND;TZID=America/New_York:20260415T203000
 SUMMARY:Trivia at Heartworks
@@ -85,9 +85,24 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
 END:VEVENT
 BEGIN:VEVENT
+UID:event_313969640@meetup.com
+SEQUENCE:1
+DTSTAMP:20260327T015651Z
+DTSTART;TZID=America/New_York:20260415T183000
+DTEND;TZID=America/New_York:20260415T203000
+SUMMARY:Trivia at Heartworks
+DESCRIPTION:Bloomington Atheists\, Skeptics and Rationally Awesome People\nWe need your help asserting our dominace at this venue. Meet new peeps and enjoy the menu items.\n\nNOTE: Seating is limited. So RSVP early. Thanks!
+URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/313969640/
+STATUS:CONFIRMED
+CREATED:20260326T234300Z
+LAST-MODIFIED:20260326T234300Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+END:VEVENT
+BEGIN:VEVENT
 UID:event_bhhqftyjcgbwb@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
+DTSTAMP:20260327T015651Z
 DTSTART;TZID=America/New_York:20260417T173000
 DTEND;TZID=America/New_York:20260417T193000
 SUMMARY:Happy Hour
@@ -100,77 +115,62 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/1/7/4/600_513920852.jpeg
 END:VEVENT
 BEGIN:VEVENT
-UID:event_gjbkstyjcgbdc@meetup.com
+UID:event_rkvqwtyjcgbdc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
+DTSTAMP:20260327T015651Z
 DTSTART;TZID=America/New_York:20260422T183000
 DTEND;TZID=America/New_York:20260422T203000
 SUMMARY:Trivia at Heartworks
 DESCRIPTION:Bloomington Atheists\, Skeptics and Rationally Awesome People\nWe need your help asserting our dominace at this venue. Meet new peeps and enjoy the menu items.\n\nNOTE: Seating is limited. So RSVP early. Thanks!
-URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjcgbdc/
+URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/rkvqwtyjcgbdc/
 STATUS:CONFIRMED
-CREATED:20250725T170731Z
-LAST-MODIFIED:20250725T170731Z
+CREATED:20260326T024243Z
+LAST-MODIFIED:20260326T024243Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
 END:VEVENT
 BEGIN:VEVENT
-UID:event_gjbkstyjcgbmc@meetup.com
+UID:event_tkvqwtyjcgbdc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
+DTSTAMP:20260327T015651Z
+DTSTART;TZID=America/New_York:20260422T183000
+DTEND;TZID=America/New_York:20260422T203000
+SUMMARY:Trivia at Heartworks
+DESCRIPTION:Bloomington Atheists\, Skeptics and Rationally Awesome People\nWe need your help asserting our dominace at this venue. Meet new peeps and enjoy the menu items.\n\nNOTE: Seating is limited. So RSVP early. Thanks!
+URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/tkvqwtyjcgbdc/
+STATUS:CONFIRMED
+CREATED:20260326T024410Z
+LAST-MODIFIED:20260326T024410Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_rkvqwtyjcgbmc@meetup.com
+SEQUENCE:1
+DTSTAMP:20260327T015651Z
 DTSTART;TZID=America/New_York:20260429T183000
 DTEND;TZID=America/New_York:20260429T203000
 SUMMARY:Trivia at Heartworks
 DESCRIPTION:Bloomington Atheists\, Skeptics and Rationally Awesome People\nWe need your help asserting our dominace at this venue. Meet new peeps and enjoy the menu items.\n\nNOTE: Seating is limited. So RSVP early. Thanks!
-URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjcgbmc/
+URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/rkvqwtyjcgbmc/
 STATUS:CONFIRMED
-CREATED:20250725T170731Z
-LAST-MODIFIED:20250725T170731Z
+CREATED:20260326T024243Z
+LAST-MODIFIED:20260326T024243Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
 END:VEVENT
 BEGIN:VEVENT
-UID:event_bhhqftyjchbcb@meetup.com
+UID:event_tkvqwtyjcgbmc@meetup.com
 SEQUENCE:1
-DTSTAMP:20260326T015623Z
-DTSTART;TZID=America/New_York:20260501T173000
-DTEND;TZID=America/New_York:20260501T193000
-SUMMARY:Happy Hour
-DESCRIPTION:Bloomington Atheists\, Skeptics and Rationally Awesome People\nHappy hour? Support a local minority business? Great food great drinks and darts.
-URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/bhhqftyjchbcb/
-STATUS:CONFIRMED
-CREATED:20230624T234402Z
-LAST-MODIFIED:20230624T234402Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/5/1/7/4/600_513920852.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_gjbkstyjchbjb@meetup.com
-SEQUENCE:1
-DTSTAMP:20260326T015623Z
-DTSTART;TZID=America/New_York:20260506T183000
-DTEND;TZID=America/New_York:20260506T203000
+DTSTAMP:20260327T015651Z
+DTSTART;TZID=America/New_York:20260429T183000
+DTEND;TZID=America/New_York:20260429T203000
 SUMMARY:Trivia at Heartworks
 DESCRIPTION:Bloomington Atheists\, Skeptics and Rationally Awesome People\nWe need your help asserting our dominace at this venue. Meet new peeps and enjoy the menu items.\n\nNOTE: Seating is limited. So RSVP early. Thanks!
-URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjchbjb/
+URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/tkvqwtyjcgbmc/
 STATUS:CONFIRMED
-CREATED:20250725T170731Z
-LAST-MODIFIED:20250725T170731Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_gjbkstyjchbrb@meetup.com
-SEQUENCE:1
-DTSTAMP:20260326T015623Z
-DTSTART;TZID=America/New_York:20260513T183000
-DTEND;TZID=America/New_York:20260513T203000
-SUMMARY:Trivia at Heartworks
-DESCRIPTION:Bloomington Atheists\, Skeptics and Rationally Awesome People\nWe need your help asserting our dominace at this venue. Meet new peeps and enjoy the menu items.\n\nNOTE: Seating is limited. So RSVP early. Thanks!
-URL;VALUE=URI:https://www.meetup.com/bloomington-atheists-and-rationally-awesome-people/events/gjbkstyjchbrb/
-STATUS:CONFIRMED
-CREATED:20250725T170731Z
-LAST-MODIFIED:20250725T170731Z
+CREATED:20260326T024410Z
+LAST-MODIFIED:20260326T024410Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/e/4/e/5/600_513778597.jpeg
 END:VEVENT

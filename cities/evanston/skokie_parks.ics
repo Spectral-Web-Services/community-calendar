@@ -5,16 +5,6 @@ X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Fairy Hunt
-DTSTART;VALUE=DATE-TIME:20260326T080000
-DTEND;VALUE=DATE-TIME:20260326T080000
-UID:6ea84b5e1d4e79f10314739a2577e4cf@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/fairy-hunt26/?F_d=03-26-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260327T080000
 DTEND;VALUE=DATE-TIME:20260327T080000
 UID:3eaec3f0194a9d503feb09e9579c03dd@skokieparks.org
@@ -997,16 +987,6 @@ URL:https://www.skokieparks.org/events/afternoon-odyssey-may26/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Night Golf Scramble
-DTSTART;VALUE=DATE-TIME:20260507T200000
-DTEND;VALUE=DATE-TIME:20260507T200000
-UID:4baa8fa6e320825d7f96ff1201c745c4@skokieparks.org
-DESCRIPTION:
-LOCATION:Weber Park Golf Course
-URL:https://www.skokieparks.org/events/night-golf-scramble/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Restorative Yoga: Full Session
 DTSTART;VALUE=DATE-TIME:20260507T173000
 DTEND;VALUE=DATE-TIME:20260507T173000
@@ -1034,6 +1014,17 @@ UID:846dacea71924bfffcd7de8e856640fd@skokieparks.org
 DESCRIPTION:
 LOCATION:Exploritorium/Oakton Community Center
 URL:https://www.skokieparks.org/events/kids-night-out---may/9/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thin Ice Ensemble Theatre Presents: Anastasia Youth Edition (1)
+DTSTART;VALUE=DATE-TIME:20260508T190000
+DTEND;VALUE=DATE-TIME:20260508T190000
+UID:58274d02e9b1d99abe28f731ee7f0789@skokieparks.org
+DESCRIPTION:
+LOCATION:Devonshire Cultural Center
+URL:https://www.skokieparks.org/events/thin-ice-ensemble-theatre-presents-
+ anastasia-youth-edition-1/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
@@ -1414,6 +1405,17 @@ UID:1deea79234df9ee8f19efec0ef533446@skokieparks.org
 DESCRIPTION:
 LOCATION:Exploritorium/Oakton Community Center
 URL:https://www.skokieparks.org/events/paint--play-at-the-exploritorium/9/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adults Over 60: Zsa Zsa & me: Meeting & Working with Celebrities
+DTSTART;VALUE=DATE-TIME:20260527T110000
+DTEND;VALUE=DATE-TIME:20260527T110000
+UID:de2b09e5d98f8ba66bdfe98496d4f3a1@skokieparks.org
+DESCRIPTION:
+LOCATION:Oakton Community Center
+URL:https://www.skokieparks.org/events/adults-over-60-zsa-zsa--me-meeting-
+ -working-with-celebrities/
 X-SOURCE:Skokie Park District
 END:VEVENT
 END:VCALENDAR

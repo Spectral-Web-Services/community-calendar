@@ -22,34 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20250918T041829Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T183000
-DTSTAMP;VALUE=DATE-TIME:20250918T041829Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260320T043951Z
-UID:http://calagator.org/events/1250482213
-DESCRIPTION:PDXOSGeo connects again this week\, Wednesday March 25\, 6:30
- p Hot Lips Pizza @ the Natural Capital Center 721 NW 9th Ave\, Portland 
- OR. Join us for some show and tell and good open geo discussion!&#13\;\n
- &#13\;\nOur featured speaker this month is long-time contributor Ryan Ho
- dges\, who will be sharing how sometimes\, to deal with the big things\,
-  you have to start with the little things.&#13\;\n&#13\;\n“Should I open
-  a window?” &#13\;\n&#13\;\nThis talk will cover how this question led o
- ne person to confront and process issues like digital isolation\, intern
- ational tariffs\, and climate change. Ryan will share about how he has c
- hosen to collect and publish environmental data to open data sets using 
- open source hardware and software\, why these metrics are so important f
- or measuring community health\, and why citizen science may be our best 
- hope to support data-driven decisions and rebuild trust in polarized tim
- es.\n\nTags: opensource gis geospatial open hardware\n\nImported from: h
- ttp://calagator.org/events/1250482213
-URL:https://pdxosgeo.org/
-SUMMARY:PDXOSGeo March Meetup
-LOCATION:Ecotrust Building: 721 Northwest 9th Avenue\, Portland OR 97209 
- US
-SEQUENCE:4
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260312T235931Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260326T210000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260326T180000
@@ -381,6 +353,22 @@ SUMMARY:Community Broadband PDX Meetup
 LOCATION:Multnomah County Library Northwest Branch: 2030 NW Pettygrove St
  reet\, Portland Oregon 97209 USA
 SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260327T015625Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260415T194500
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260415T183000
+DTSTAMP;VALUE=DATE-TIME:20260327T015625Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260327T015625Z
+UID:http://calagator.org/events/1250482523
+DESCRIPTION:Free public library workshop on how to minimize your digital 
+ trail using the Activist Checklist\n\nImported from: http://calagator.or
+ g/events/1250482523
+URL:https://techworkerscoalition.org/pdx/
+SUMMARY:Learn Basic Privacy & Digital Security Practices
+LOCATION:Albina Library\, Community Room 1A: 205 NE Russell St\, Portland
+  OR 97212 US
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T171845Z

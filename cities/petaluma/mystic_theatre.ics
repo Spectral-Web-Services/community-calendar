@@ -4,24 +4,6 @@ PRODID:-//Mystic Theatre//mystictheatre.com//
 X-WR-CALNAME:Mystic Theatre
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Chancey Williams
-DTSTART;VALUE=DATE-TIME:20260325T203000
-DTEND;VALUE=DATE-TIME:20260325T233000
-UID:5e72339871add15332030fca67f444ec@mystictheatre.com
-ATTACH;FMTTYPE=image/jpeg:https://prod-images.seetickets.us/eyJidWNrZXQiOi
- Jwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiMzQyYWNhMDEtOTc3YS00YTNlLWFi
- MTQtOGI3OTRlOTc0MmRiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIj
- p7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYw
- fSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==
-DESCRIPTION:Genre: Country\nAges: 21+\nPrice: $30.00\nDoors: 7:30PM\, Show
- : 8:30PM\nTickets: https://wl.seetickets.us/event/chancey-williams/678216?
- afflky=MysticTheatre
-LOCATION:Mystic Theatre\, Petaluma\, CA
-URL:https://wl.seetickets.us/event/chancey-williams/678216?afflky=MysticTh
- eatre
-X-SOURCE:Mystic Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tainted Love
 DTSTART;VALUE=DATE-TIME:20260327T210000
 DTEND;VALUE=DATE-TIME:20260328T000000
@@ -217,6 +199,24 @@ DESCRIPTION:"The Sky's the Limit" Album Release Tour\nGenre: Americana\nAg
 LOCATION:Mystic Theatre\, Petaluma\, CA
 URL:https://wl.seetickets.us/event/roy-rogers-and-the-delta-rhythm-kings/6
  77229?afflky=MysticTheatre
+X-SOURCE:Mystic Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Highwayman Show
+DTSTART;VALUE=DATE-TIME:20260419T203000
+DTEND;VALUE=DATE-TIME:20260419T233000
+UID:42363f6488f78e95ceecc93285490019@mystictheatre.com
+ATTACH;FMTTYPE=image/jpeg:https://prod-images.seetickets.us/eyJidWNrZXQiOi
+ Jwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiZmQ4MWYyMDAtODk1MC00ZDIzLThl
+ N2MtNTk4ZGM1ZDY4NGM5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIj
+ p7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYw
+ fSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==
+DESCRIPTION:with Tony Suraci & Makayla Phillips\nGenre: Country\nAges: 21+
+ \nPrice: $25.00\nDoors: 7:30PM\, Show: 8:30PM\nTickets: https://wl.seetick
+ ets.us/event/the-highwayman-show/675024?afflky=MysticTheatre
+LOCATION:Mystic Theatre\, Petaluma\, CA
+URL:https://wl.seetickets.us/event/the-highwayman-show/675024?afflky=Mysti
+ cTheatre
 X-SOURCE:Mystic Theatre
 END:VEVENT
 END:VCALENDAR

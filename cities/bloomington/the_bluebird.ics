@@ -4,19 +4,6 @@ PRODID:-//The Bluebird//thebluebird.ws//
 X-WR-CALNAME:The Bluebird
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:6 Foot Blonde
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T220000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T220000
-UID:93d4b04c8af8e9587715c48259ab2e27@thebluebird.ws
-ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
- 3/SFB-BIRD-WEB-2025.jpg
-DESCRIPTION:
-LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
-URL:https://wl.seetickets.us/event/6-Foot-Blonde/683933?afflky=BluebirdNig
- htclub
-X-SOURCE:The Bluebird
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Boys and the Brit
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T220000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T220000
@@ -130,6 +117,19 @@ ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
 DESCRIPTION:
 LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
 URL:https://wl.seetickets.us/event/MARIS/682404?afflky=BluebirdNightclub
+X-SOURCE:The Bluebird
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Benjamin Tod
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260507T200000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260507T200000
+UID:c95e17437e161b63f98c654c81a7409a@thebluebird.ws
+ATTACH;FMTTYPE=image/jpeg:https://cdn.vor.us/event/670733/2073e5cc877545c6
+ 8fd2634c614784c6.image!jpeg.118161.jpg.BENJAMINTODWEBBIRD.jpg
+DESCRIPTION:Benjamin Tod
+LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
+URL:https://wl.seetickets.us/event/Benjamin-Tod/670733?afflky=BluebirdNigh
+ tclub
 X-SOURCE:The Bluebird
 END:VEVENT
 END:VCALENDAR

@@ -4,18 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Wes Parker
-DTSTART;VALUE=DATE-TIME:20260326T200000
-DTEND;VALUE=DATE-TIME:20260326T200000
-UID:0912c4be40dc2fc35624c6125c4af1c0@songkick.com
-DESCRIPTION:Wes Parker at Mississippi Studios at 2026-03-26T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43100001-wes-parker-at-mississippi-st
- udios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Delicate Steve
 DTSTART;VALUE=DATE-TIME:20260327T210000
 DTEND;VALUE=DATE-TIME:20260327T210000
@@ -39,6 +27,30 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43100005-aggie-miller-at-mississippi-
  studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wallice
+DTSTART;VALUE=DATE-TIME:20260328T203000
+DTEND;VALUE=DATE-TIME:20260328T203000
+UID:b6879fa3c13030ba178bd12e2f83d963@songkick.com
+DESCRIPTION:Wallice at Mississippi Studios at 2026-03-28T20:30:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/42994473-wallice-at-mississippi-studi
+ os?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lulu Simon
+DTSTART;VALUE=DATE-TIME:20260328T203000
+DTEND;VALUE=DATE-TIME:20260328T203000
+UID:f52185f542b2a62cd358306fb0141c7a@songkick.com
+DESCRIPTION:Lulu Simon at Mississippi Studios at 2026-03-28T20:30:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100007-lulu-simon-at-mississippi-st
+ udios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

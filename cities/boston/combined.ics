@@ -9,90 +9,6 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 X-SOURCE-ID:tufts_tdps
 X-SOURCE:Tufts Tdps
-SUMMARY:TDPS Course Preview Mixer
-LOCATION:Medford/Somerville campus
-DTSTART;TZID=America/New_York:20260325T120000
-DTEND;TZID=America/New_York:20260325T131500
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
- plate
-X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
- Arts Center
-X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
- 02155
-X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
- umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
-X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
- erville campus
-X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Bal
- ch Arena Theater Lobby
-X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
-X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
- ter/Dance
-X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
- ol of Arts and Sciences
-X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
- mba.com/i/DgCBNFwge1ckmaNXTmI8tqrI.jpg
-DTSTAMP:20260319T104335Z
-DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
- mpus: Medford/Somerville campus\nLocation Details: Balch Arena Theater L
- obby\nOpen to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: 
- School of Arts and Sciences\n\nCome to our TDPS course preview mixer and
-  learn about what new courses we’ll be offering next semester! Take this
-  opportunity to pick up a schedule of our Fall 2026 courses and begin pl
- anning what your next semester will look like over catered lunch!
-CATEGORIES:Theatre, Dance, and Performance Studies
-IMAGE;VALUE=URI:https://www.trumba.com/i/DgCBNFwge1ckmaNXTmI8tqrI.jpg
-UID:http://uid.trumba.com/event/197624890
-X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
- mbed=view%3devent%26eventid%3d197624890
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage Company": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-ID:lyric_stage
-SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
-DTSTART;VALUE=DATE-TIME:20260325T140000
-DTEND;VALUE=DATE-TIME:20260325T163000
-UID:097c1f25a02fd9af51560d8bed3530d6@lyricstage.com
-ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/Untitled-design-21.png
-DESCRIPTION:
-LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
-URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
- rgeous/
-X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T190000
-UID:e6dbaa4c71812c2daed917aebdcd0482@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T160000
-UID:c9d31ca24c78ab66221fb31b27fef932@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:tufts_tdps
-X-SOURCE:Tufts Tdps
 SUMMARY:Women Take the Reel Film Festival: A collection of shorts from t
  he works of Ng'endo Mukii
 LOCATION:Medford/Somerville campus
@@ -189,20 +105,6 @@ LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
 URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
  rgeous/
 X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A743Gt"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T193000
-UID:0d157884c84366f520b2bf0ea8e0e7b4@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A743Gt
-X-SOURCE:Emerson Colonial Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
@@ -2915,18 +2817,6 @@ X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
  mbed=view%3devent%26eventid%3d199480314
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1267353"}
-X-SOURCE-ID:ovationtix_wheelock
-SUMMARY:Winter 2026 - Tech Apprenticeship (Seussical)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260427T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260427T020000
-UID:0c36c180c4b637a19216c51814a53ad6@ovationtix.com
-DESCRIPTION:
-LOCATION:Wheelock Family Theatre
-URL:https://ci.ovationtix.com/177/production/1267353
-X-SOURCE:Wheelock Family Theatre
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:tufts_tdps
 X-SOURCE:Tufts Tdps
 SUMMARY:Tufts Dance Program MashUP
@@ -4456,6 +4346,48 @@ DESCRIPTION:
 LOCATION:American Repertory Theater\, Cambridge\, MA
 URL:https://ticket.americanrepertorytheater.org/7226/7357
 X-SOURCE:American Repertory Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260527T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260527T160000
+UID:658e2b2d82d0775a0def1ab2053882a8@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Art": "https://ticket.americanrepertorytheater.org/7226/7361"}
+X-SOURCE-ID:art
+SUMMARY:Black Swan
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260527T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260527T220000
+UID:8ee165a46b499a5ec5150e13ee0cb509@americanrepertorytheater.org
+DESCRIPTION:
+LOCATION:American Repertory Theater\, Cambridge\, MA
+URL:https://ticket.americanrepertorytheater.org/7226/7361
+X-SOURCE:American Repertory Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260527T193000
+DTEND;VALUE=DATE-TIME:20260527T220000
+UID:619a058819dda64a2998e6e87ae5a045@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}

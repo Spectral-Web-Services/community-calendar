@@ -384,22 +384,6 @@ URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/30/city-c
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:City Council Meeting (tentative)
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260430T093000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260430T093000
-UID:5088a347d82615eeeed06111829da67a@portland.gov
-DESCRIPTION:City Council holds regular meetings at 9:30 a.m. on the first\
- , second\, fourth and fifth Wednesday and 6:00 p.m. on the third Wednesday
-  of each month. If there is sufficient business\, additional meetings are 
- held the following Thursday at 2:00 p.m.
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/30/city-c
- ouncil-meeting-tentative
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:City Council Work Session
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260505T093000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260505T093000
@@ -613,6 +597,22 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/26/city-l
  ife-committee-meeting
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260527T093000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260527T093000
+UID:604a8af2caaf64b4b3b2ef1e4bbfdef7@portland.gov
+DESCRIPTION:City Council holds regular meetings at 9:30 a.m. on the first\
+ , second\, fourth and fifth Wednesday and 6:00 p.m. on the third Wednesday
+  of each month. If there is sufficient business\, additional meetings are 
+ held the following Thursday at 2:00 p.m.
+LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
+ um Portland\,\n                                OR\n                       
+                    97204 Get directions More about this location
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/27/city-c
+ ouncil-meeting
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 END:VCALENDAR

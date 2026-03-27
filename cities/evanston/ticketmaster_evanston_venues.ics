@@ -4,19 +4,6 @@ PRODID:-//Ticketmaster/Evanston Venues//ticketmaster.com//
 X-WR-CALNAME:Ticketmaster/Evanston Venues
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-SUMMARY:Stefan Hillesheim: Album Release Party w. Special Guest
-DTSTART;TZID=CDT;VALUE=DATE-TIME:20260325T200000
-DTEND;TZID=CDT;VALUE=DATE-TIME:20260325T200000
-UID:409719a39e584a784cf6697b2af7b69e@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-4
- 01f-aa45-f1577614b7be_105421_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
-URL:https://www.ticketweb.com/event/stefan-hillesheim-album-release-party-
- space-tickets/14084584
-X-SOURCE:Ticketmaster/Evanston Venues
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:John Moreland and Patterson Hood
 DTSTART;TZID=CDT;VALUE=DATE-TIME:20260326T200000
 DTEND;TZID=CDT;VALUE=DATE-TIME:20260326T200000
@@ -782,6 +769,19 @@ DESCRIPTION:
 LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
 URL:https://www.ticketweb.com/event/jimmy-burns-and-the-soul-space-tickets
  /14761123
+X-SOURCE:Ticketmaster/Evanston Venues
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Programme 4: Make the Scene
+DTSTART;TZID=CDT;VALUE=DATE-TIME:20260527T193000
+DTEND;TZID=CDT;VALUE=DATE-TIME:20260527T193000
+UID:0f87204f3ae82e613f44397688b72c80@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-4
+ 56c-a060-2758be94e060_105881_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
+URL:https://www.ticketweb.com/event/programme-4-make-the-scene-space-ticke
+ ts/14185384
 X-SOURCE:Ticketmaster/Evanston Venues
 END:VEVENT
 END:VCALENDAR

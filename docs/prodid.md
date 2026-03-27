@@ -52,11 +52,11 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **matsu** (3): connect_matsu, skeetawk, visit_palmer
 
-**petaluma** (2): petaluma_museum, polly_klaas
+**petaluma** (3): bigeasy, petaluma_museum, polly_klaas
 
 **portland** (9): crystal_ballroom, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, washington_park
 
-**publisher-resources** (6): ahcj, inn, nahj, nlgja, poynter, sabew
+**publisher-resources** (5): ahcj, inn, nlgja, poynter, sabew
 
 **roanoke** (1): hollins_university
 
@@ -156,7 +156,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 
 | PRODID | City | Feeds |
 |--------|------|-------|
-| `-//172.66.146.53//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
+| `-//104.20.35.35//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |

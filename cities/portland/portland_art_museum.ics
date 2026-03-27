@@ -47,23 +47,11 @@ TZOFFSETTO:-0800
 TZNAME:PST
 DTSTART:20271107T090000
 END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0800
-TZOFFSETTO:-0700
-TZNAME:PDT
-DTSTART:20280312T100000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0700
-TZOFFSETTO:-0800
-TZNAME:PST
-DTSTART:20281105T090000
-END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260306T110000
 DTEND;TZID=America/Vancouver:20260404T170000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192553
 CREATED:20260302T165827Z
 LAST-MODIFIED:20260302T165855Z
 UID:10001393-1772794800-1775322000@portlandartmuseum.org
@@ -75,23 +63,9 @@ CATEGORIES:Free & discounted
 ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/RSG-FF-The-Lurking-Loss-of-Innocence-Michelle-Yamamoto.jpg
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Vancouver:20260325T190000
-DTEND;TZID=America/Vancouver:20260325T210000
-DTSTAMP:20260325T192117
-CREATED:20260303T181423Z
-LAST-MODIFIED:20260303T181424Z
-UID:10001400-1774465200-1774472400@portlandartmuseum.org
-SUMMARY:Idiotka
-DESCRIPTION:See full details at tomorrowtheater.org.
-URL:https://portlandartmuseum.org/event/idiotka/
-LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
-CATEGORIES:Screenings & experiences,Tomorrow Theater
-ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Idiotka.jpg
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260326T190000
 DTEND;TZID=America/Vancouver:20260326T210000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192553
 CREATED:20260212T181149Z
 LAST-MODIFIED:20260212T181150Z
 UID:10001376-1774551600-1774558800@portlandartmuseum.org
@@ -105,7 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260327T190000
 DTEND;TZID=America/Vancouver:20260327T210000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192553
 CREATED:20260212T181437Z
 LAST-MODIFIED:20260212T181439Z
 UID:10001377-1774638000-1774645200@portlandartmuseum.org
@@ -119,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260328T033000
 DTEND;TZID=America/Vancouver:20260328T173000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192553
 CREATED:20260212T181619Z
 LAST-MODIFIED:20260212T181621Z
 UID:10001378-1774668600-1774719000@portlandartmuseum.org
@@ -133,12 +107,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260328T100000
 DTEND;TZID=America/Vancouver:20260328T170000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192554
 CREATED:20260319T235557Z
-LAST-MODIFIED:20260325T195734Z
+LAST-MODIFIED:20260327T000604Z
 UID:10001457-1774692000-1774717200@portlandartmuseum.org
 SUMMARY:Miles Greenberg: Landscape with Figures 
-DESCRIPTION:Join us for the final artist performance in Conductions: Black Imaginings II\, a seven-hour endurance work by Miles Greenberg titled Landscape with Figures. Centralizing the body as sculptural material\, this piece invites visitors to reflect on decay\, change and living movement present in both land and body through duration and stillness. This iteration of Landscape with Figures is performed by Mykel Illa and Olaoye Onipede.Please note that this performance includes partial nudity.  \n\n\n\nMiles Greenberg (b. 1997 in Montreal\, Canada) is a performance artist and sculptor. His work consists of  large-scale\, sensorially immersive and site-specific environments revolving around the physical body in space. These installations are activated with often extreme durational performances that invoke the body as sculptural material\, with the goal of making visible the poetics of the human form; particularly through the lens of the African diaspora. At age seventeen\, Greenberg left formal education\, launching himself into four years of independent  research on movement and architecture. He has worked under the mentorship of Édouard Lock\, Robert  Wilson\, and Marina Abramović and has been an artist in residence at Fountainhead Arts\, Miami (2023);  La Manutention at Palais de Tokyo (2019)\, and The Watermill Center Residency\, NY (2017 & 2018)  among others. In 2023\, Greenberg was featured on the Forbes 30 Under 30 in the Art & Style Category. He has exhibited and performed internationally at museums and galleries\, including The Louvre (Paris)\,  Neue Nationalgalerie (Berlin)\, The New Museum (New York)\, the Art Gallery of Ontario (Toronto)\, Salon  94 (New York)\, Galleria Continua (Les Moulins) and more. Greenberg’s work has also been included in  numerous international art surveys\, including the Venice Biennale\, Athens Biennial\, BoCA Lisbon\, and  the Bangkok Art Biennale. \n\n\n\nBorn in Pasadena\, California\, Mykel Illa is a multi-instrumentalist and singer in Portland. With a large background in the performing arts (emphasis on music and acting)\, it is surprisingly Mykel’s first time being a part of an art production in this category. You can often find him singing or playing bass around the Portland/Seattle area. You can connect with Mykel and/or find his music on all streaming platforms under the alias Thatillaguy. Follow his Instragram @Thatillaguy to follow his music\, art and acting endeavors!
+DESCRIPTION:Join us for the final artist performance in Conductions: Black Imaginings II\, a seven-hour endurance work by Miles Greenberg titled Landscape with Figures. Centralizing the body as sculptural material\, this piece invites visitors to reflect on decay\, change and living movement present in both land and body through duration and stillness. This iteration of Landscape with Figures is performed by Mykel Illa and AfreakanO.Please note that this performance includes partial nudity.  \n\n\n\nMiles Greenberg (b. 1997 in Montreal\, Canada) is a performance artist and sculptor. His work consists of  large-scale\, sensorially immersive and site-specific environments revolving around the physical body in space. These installations are activated with often extreme durational performances that invoke the body as sculptural material\, with the goal of making visible the poetics of the human form; particularly through the lens of the African diaspora. At age seventeen\, Greenberg left formal education\, launching himself into four years of independent  research on movement and architecture. He has worked under the mentorship of Édouard Lock\, Robert  Wilson\, and Marina Abramović and has been an artist in residence at Fountainhead Arts\, Miami (2023);  La Manutention at Palais de Tokyo (2019)\, and The Watermill Center Residency\, NY (2017 & 2018)  among others. In 2023\, Greenberg was featured on the Forbes 30 Under 30 in the Art & Style Category. He has exhibited and performed internationally at museums and galleries\, including The Louvre (Paris)\,  Neue Nationalgalerie (Berlin)\, The New Museum (New York)\, the Art Gallery of Ontario (Toronto)\, Salon  94 (New York)\, Galleria Continua (Les Moulins) and more. Greenberg’s work has also been included in  numerous international art surveys\, including the Venice Biennale\, Athens Biennial\, BoCA Lisbon\, and  the Bangkok Art Biennale. \n\n\n\nBorn in Pasadena\, California\, Mykel Illa is a multi-instrumentalist and singer in Portland. With a large background in the performing arts (emphasis on music and acting)\, it is surprisingly Mykel’s first time being a part of an art production in this category. You can often find him singing or playing bass around the Portland/Seattle area. You can connect with Mykel and/or find his music on all streaming platforms under the alias Thatillaguy. Follow his Instragram @Thatillaguy to follow his music\, art and acting endeavors!
 URL:https://portlandartmuseum.org/event/miles-greenberg-landscape-with-figures/
 LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
 ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/09/Miles-Greenberg-Landscape-with-Figures-scaled.jpg
@@ -146,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260328T140000
 DTEND;TZID=America/Vancouver:20260328T153000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192554
 CREATED:20260128T203614Z
 LAST-MODIFIED:20260303T173732Z
 UID:10001352-1774706400-1774711800@portlandartmuseum.org
@@ -160,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260328T190000
 DTEND;TZID=America/Vancouver:20260328T210000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192554
 CREATED:20260212T181914Z
 LAST-MODIFIED:20260212T181916Z
 UID:10001379-1774724400-1774731600@portlandartmuseum.org
@@ -174,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260329T113000
 DTEND;TZID=America/Vancouver:20260329T124500
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192554
 CREATED:20260320T000037Z
 LAST-MODIFIED:20260320T000039Z
 UID:10001458-1774783800-1774788300@portlandartmuseum.org
@@ -187,7 +161,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260329T120000
 DTEND;TZID=America/Vancouver:20260329T150000
-DTSTAMP:20260325T192117
+DTSTAMP:20260326T192554
 CREATED:20251206T052148Z
 LAST-MODIFIED:20251206T052148Z
 UID:10001271-1774785600-1774796400@portlandartmuseum.org
@@ -201,7 +175,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260329T140000
 DTEND;TZID=America/Vancouver:20260329T160000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260128T205822Z
 LAST-MODIFIED:20260303T173818Z
 UID:10001353-1774792800-1774800000@portlandartmuseum.org
@@ -215,7 +189,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260329T160000
 DTEND;TZID=America/Vancouver:20260329T180000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260212T182223Z
 LAST-MODIFIED:20260212T182224Z
 UID:10001380-1774800000-1774807200@portlandartmuseum.org
@@ -229,7 +203,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260329T190000
 DTEND;TZID=America/Vancouver:20260329T210000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260212T182355Z
 LAST-MODIFIED:20260212T182356Z
 UID:10001381-1774810800-1774818000@portlandartmuseum.org
@@ -243,7 +217,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260402T100000
 DTEND;TZID=America/Vancouver:20260402T190000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260311T210430Z
 LAST-MODIFIED:20260311T210430Z
 UID:10001405-1775124000-1775156400@portlandartmuseum.org
@@ -257,7 +231,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260402T103000
 DTEND;TZID=America/Vancouver:20260402T123000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260305T213633Z
 LAST-MODIFIED:20260306T015744Z
 UID:10001404-1775125800-1775133000@portlandartmuseum.org
@@ -271,7 +245,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260402T190000
 DTEND;TZID=America/Vancouver:20260402T210000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260311T210325Z
 LAST-MODIFIED:20260311T210327Z
 UID:10001406-1775156400-1775163600@portlandartmuseum.org
@@ -285,7 +259,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260403T190000
 DTEND;TZID=America/Vancouver:20260403T210000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260311T211326Z
 LAST-MODIFIED:20260323T182308Z
 UID:10001407-1775242800-1775250000@portlandartmuseum.org
@@ -297,23 +271,9 @@ CATEGORIES:Screenings & experiences,Tomorrow Theater
 ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Demolition-Man.jpg
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Vancouver:20260404T000000
-DTEND;TZID=America/Vancouver:20270131T235959
-DTSTAMP:20260325T192118
-CREATED:20260324T173310Z
-LAST-MODIFIED:20260324T173311Z
-UID:10001459-1775260800-1801439999@portlandartmuseum.org
-SUMMARY:Todd McGrain: Debut of York
-DESCRIPTION:Overview\n\n\n\nTodd McGrain’s original bust of York\, the enslaved man who was the only African American member of the Lewis and Clark expedition\, was secretly installed on Mount Tabor in 2021. It was placed on the pedestal where a statue of Oregonian editor Harvey Scott (1830-1910)\, a known racist\, once stood. The surprising appearance of York\, with no artist name attached to the work\, brought forth a Banksy-esque spirit and added to the city’s intense dialogues around the Black Lives Matter movement and the meaning of public monuments.  \n\n\n\nThe Portland Art Museum debuts this bronze bust of York by artist Todd McGrain. It will permanently replace the original Mt. Tabor bust\, which was temporary and sustained damage. In collaboration with Oregon Contemporary\, Portland State University\, and the City of Portland\, will offer a community survey to give Portlanders the opportunity to share their thoughts on where the bust should be placed for the long term.  \n\n\n\nYork is an important historical figure whose story has often been overlooked in history. The Oregon Black Pioneers has contributed a plaque that will be installed with the bust in its new public location: \n\n\n\nThe first person of African descent to cross North America.  \n\n\n\nYork (born ca. 1772) came west as part of the Lewis and Clark Expedition of 1803-1806. He was enslaved by expedition co-captain William Clark and was not considered an official member of the Corps of Discovery. Nonetheless\, York performed the same duties as the party’s enlisted men. He hunted\, helped build shelters and canoes\, negotiated trade with Native Americans\, and tended to the party’s sick.  \n\n\n\nYork set foot in what is today Portland in April 1806 on the journey back to the United States. After the expedition concluded\, York requested his freedom. Clark refused. York received no commendation or compensation for his labors and died in obscurity sometime before 1832.  \n\n\n\nYork is one of the central works in the 2026 Oregon Artists’ Biennial\, curated by TK Smith at Oregon Contemporary. While the bronze statue is on view at the Portland Art Museum\, the original bust\, which was made of Styrofoam painted bronze\, will be on display at Oregon Contemporary. Its appearance in the Biennial is intended to spark further conversations on American history and the history of monuments. 
-URL:https://portlandartmuseum.org/event/todd-mcgrain-debut-of-york/
-LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
-CATEGORIES:Exhibitions
-ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/York-Memorial.jpg
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260404T140000
 DTEND;TZID=America/Vancouver:20260404T150000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260302T191236Z
 LAST-MODIFIED:20260323T182355Z
 UID:10001399-1775311200-1775314800@portlandartmuseum.org
@@ -327,7 +287,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260404T160000
 DTEND;TZID=America/Vancouver:20260404T180000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260311T212136Z
 LAST-MODIFIED:20260311T212137Z
 UID:10001408-1775318400-1775325600@portlandartmuseum.org
@@ -341,7 +301,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260404T190000
 DTEND;TZID=America/Vancouver:20260404T210000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260311T212332Z
 LAST-MODIFIED:20260311T212334Z
 UID:10001409-1775329200-1775336400@portlandartmuseum.org
@@ -355,7 +315,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260405T140000
 DTEND;TZID=America/Vancouver:20260405T153000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260213T222012Z
 LAST-MODIFIED:20260213T222514Z
 UID:10001384-1775397600-1775403000@portlandartmuseum.org
@@ -369,7 +329,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260405T140000
 DTEND;TZID=America/Vancouver:20260405T203000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260311T212813Z
 LAST-MODIFIED:20260311T212814Z
 UID:10001410-1775397600-1775421000@portlandartmuseum.org
@@ -383,7 +343,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260408T190000
 DTEND;TZID=America/Vancouver:20260408T210000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260312T154637Z
 LAST-MODIFIED:20260312T154638Z
 UID:10001411-1775674800-1775682000@portlandartmuseum.org
@@ -397,7 +357,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260409T190000
 DTEND;TZID=America/Vancouver:20260409T210000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260312T154853Z
 LAST-MODIFIED:20260312T154854Z
 UID:10001412-1775761200-1775768400@portlandartmuseum.org
@@ -411,7 +371,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260410T190000
 DTEND;TZID=America/Vancouver:20260410T210000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20251211T221813Z
 LAST-MODIFIED:20251211T221815Z
 UID:10001315-1775847600-1775854800@portlandartmuseum.org
@@ -425,7 +385,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260411T070000
 DTEND;TZID=America/Vancouver:20260411T070000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260312T155520Z
 LAST-MODIFIED:20260312T155523Z
 UID:10001414-1775890800-1775890800@portlandartmuseum.org
@@ -439,7 +399,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260411T140000
 DTEND;TZID=America/Vancouver:20260411T160000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260213T223225Z
 LAST-MODIFIED:20260213T224530Z
 UID:10001385-1775916000-1775923200@portlandartmuseum.org
@@ -453,7 +413,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260411T153000
 DTEND;TZID=America/Vancouver:20260411T173000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260312T155110Z
 LAST-MODIFIED:20260312T155134Z
 UID:10001413-1775921400-1775928600@portlandartmuseum.org
@@ -467,7 +427,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260412T120000
 DTEND;TZID=America/Vancouver:20260412T150000
-DTSTAMP:20260325T192118
+DTSTAMP:20260326T192554
 CREATED:20260325T224745Z
 LAST-MODIFIED:20260325T224746Z
 UID:10001463-1775995200-1776006000@portlandartmuseum.org
@@ -477,5 +437,33 @@ URL:https://portlandartmuseum.org/event/look-with-me-april1226/
 LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
 CATEGORIES:Lectures & talks
 ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/12/feature-Look-with-Me-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260412T130000
+DTEND;TZID=America/Vancouver:20260412T160000
+DTSTAMP:20260326T192554
+CREATED:20260206T223206Z
+LAST-MODIFIED:20260306T185048Z
+UID:10001359-1775998800-1776009600@portlandartmuseum.org
+SUMMARY:Drawing Club: David Hockney Edition - SOLD OUT 
+DESCRIPTION:Sundays\, March 8\, April 12\, May 10\, June 14\, 1 – 4 p.m.\n\n\n\nSign up for all four sessions ($150) or just one individually ($50/each)! \n\n\n\nAges 16+\, limited to 20 participants\n\n\n\n\nPAM // PAM CUT Drawing Club is an in-gallery drawing workshop series led by teaching artists Fry and Julz Clementine\, who are skilled in both digital and traditional approaches. Designed as a full series or as individual sessions\, the workshops invite participants to draw together in the special exhibition David Hockney: Works from the Collection of Jordan D. Schnitzer and His Family Foundation\, using traditional drawing tools or digital tools like tablets and styluses. \n\n\n\nThrough close looking\, conversation\, and guided exercises\, participants slow down\, sharpen observation\, and study artistic decision-making up close. Through repeated practice and shared conversation\, participants experiment\, build confidence and visual perception\, and foster a sustainable drawing habit shaped by curiosity\, creative play\, and community. \n\n\n\nThe price of one adult PAM admission is included with workshop registration. No supplies needed: drawing materials for both traditional drawing methods and a digital approach will be available. \n\n\n\nParticipants are invited to bring their own materials. To help us keep artworks safe\, we ask that you limit those supplies to drawing pencils\,colored pencils\, sketchbooks\, erasers\, tablets and styluses. \n\n\n\nAccess information\n\n\n\nIf you have any access requests please let us know when you register by emailing access@pam.org or leaving a voicemail at 503-276-4284. \n\n\n\n\nAll spaces will be mobility device/stroller accessible\n\n\n\nComplimentary Gallery stools or folding chairs and manual wheelchairs are available\n\n\n\nCommunication Access can be provided with advance notice including captioning and American Sign Language/English interpreting.\n\n\n\niPads\, magnifiers\, flashlights\, and EnChroma glasses available for blind and low vision access. Please request in advance.\n\n\n\n\nSession topics\n\n\n\nSession 1\, March 8: Mark Making & Quality of Line\, led by Julz Clementine Discover how dynamic  lines\, varied marks\, and deliberate gestures can capture energy and movement\, inspired by David Hockney’s bold\, confident approach to graphic expression. \n\n\n\n\nsign up for march 8 only – SOLD OUT\n\n\n\n\nSession 2\, April 12: Shape\, Space\, & Perspective\, led by Fry Investigate how shapes interact in space and how perspective can be bent or layered\, drawing from Hockney’s playful rethinking of how we see and construct visual worlds. \n\n\n\n\nsign up for april 12 – SOLD OUT\, waitlist only\n\n\n\n\nSession 3\, May 10: Mirrors\, Windows\, & Reflection\, led by Fry Explore drawing strategies for depicting reflection\, framing\, and multiple viewpoints\, inspired by David Hockney’s playful investigations of how we see and represent space. \n\n\n\n\nsign up for may 10 – SOLD OUT\, waitlist only\n\n\n\n\nSession 4\, June 14: Color & Shifting Light\, led by Julz Clementine Experiment with color\, tone\, and atmosphere to observe how light changes across time and place\, inspired by Hockney’s vibrant studies of landscape and interior scenes. \n\n\n\n\nsign up for june 14 – SOLD OUT\, waitlist only\n\n\n\n\nWhy join? Draw in community with fellow art-loving adults while working directly from original works of art. Guided by a practicing artist\, you will sharpen observation\, deepen understanding\, and build confidence through shared looking and hands-on practice. \n\n\n\nAbout the teaching artists:\n\n\n\n\n\nJulz Clementine is a Portland\, Oregon based muralist\, educator\, and surface pattern designer creating bold\, tactile work across murals\, placemaking\, swimwear\, and stationery.  She is passionate about empowering others to connect to their creativity through her art and hands-on workshops. \n\n\n\nFry (she/they) is a graphic recorder\, illustrator\, and educator who believes images are a powerful tool for creating positive change. Her interest in visual work is founded in an appreciation for deeper levels of listening\, cultivating new mindsets\, and allowing space for people to be creative.
+URL:https://portlandartmuseum.org/event/drawing-club-david-hockney-edition-april12/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Classes & camps
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/02/August-2021-Landscape-with-Shadows.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260412T140000
+DTEND;TZID=America/Vancouver:20260412T163000
+DTSTAMP:20260326T192554
+CREATED:20260213T224844Z
+LAST-MODIFIED:20260213T224845Z
+UID:10001386-1776002400-1776011400@portlandartmuseum.org
+SUMMARY:Nashville
+DESCRIPTION:Nashville (1975) Directed by Robert Altman. 2hr 39min. Rated R. \n\n\n\nIn 1975\, Paul Reubens was a struggling actor living in Los Angeles before joining the seminal improvisation troupe The Groundlings. That year\, Robert Altman released Nashville\, one of his most revered films and a masterwork of the American New Wave. A huge\, eclectic cast (“With 24—count ‘em\, 24!—of your very favorite stars!”) ad-libbed the lion’s share of their dialogue\, while writing and singing their own songs. With cinematographer Paul Lohmann’s camera continuously zooming in\, out\, and across numerous Music City locations\, Nashville is a complexly textured portrayal and critique of American obsessions with celebrity and power. \n\n\n\nWe do not generally provide advisories about subject matter or potentially triggering content in films\, and films exhibited don’t necessarily reflect the views of PAM CUT or the Portland Art Museum. In addition to the synopses\, trailers\, and other links on our website\, further information about content and age-appropriateness for specific films can be found on sites like Common Sense Media\, IMDb\, and DoesTheDogDie.com.
+URL:https://portlandartmuseum.org/event/nashville/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:PAM CUT @ The Whitsell,Screenings & experiences
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/02/Nashville-scaled.jpg
 END:VEVENT
 END:VCALENDAR
