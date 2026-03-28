@@ -4,32 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Delicate Steve
-DTSTART;VALUE=DATE-TIME:20260327T210000
-DTEND;VALUE=DATE-TIME:20260327T210000
-UID:fb1b7a5ac969e749c8cb2fda0865a837@songkick.com
-DESCRIPTION:Delicate Steve at Mississippi Studios at 2026-03-27T21:00:00-0
- 700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/42994517-delicate-steve-at-mississipp
- i-studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Aggie Miller
-DTSTART;VALUE=DATE-TIME:20260327T210000
-DTEND;VALUE=DATE-TIME:20260327T210000
-UID:e3e55edb5e8aa00f517244e14f7dae9c@songkick.com
-DESCRIPTION:Aggie Miller at Mississippi Studios at 2026-03-27T21:00:00-070
- 0
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43100005-aggie-miller-at-mississippi-
- studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wallice
 DTSTART;VALUE=DATE-TIME:20260328T203000
 DTEND;VALUE=DATE-TIME:20260328T203000
@@ -51,6 +25,19 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43100007-lulu-simon-at-mississippi-st
  udios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Skullcrusher
+DTSTART;VALUE=DATE-TIME:20260329T200000
+DTEND;VALUE=DATE-TIME:20260329T200000
+UID:56223e20ef578924c2775039ceb0621c@songkick.com
+DESCRIPTION:Skullcrusher at Mississippi Studios at 2026-03-29T20:00:00-070
+ 0
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/42834927-skullcrusher-at-mississippi-
+ studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

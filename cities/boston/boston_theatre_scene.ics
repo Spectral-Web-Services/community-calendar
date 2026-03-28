@@ -5,18 +5,6 @@ X-WR-CALNAME:Boston Theatre Scene
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T213000
-UID:dd2304ee595c2f2fa51b20cb9fc50d33@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Antiquities
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T160000
 UID:6aa4a150c7317aaa6edba0f902dfa97a@bostontheatrescene.com
@@ -1339,6 +1327,19 @@ SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260527T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260527T210000
 UID:89315e9e984efe64edf00571428061e0@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260528T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260528T210000
+UID:10296a00d9e3648f833022d4d7ff1cc3@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity

@@ -343,6 +343,22 @@ UID:8745
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:The event is a car show where participants park their cars in 
+ designated areas and the public comes to view the cars without any admiss
+ ion charge. https://www.roanokeva.gov/calendar.aspx?EID=8939
+DTEND;TZID=America/New_York:20260627T160000
+DTSTAMP;TZID=America/New_York:20260327T132020
+DTSTART;TZID=America/New_York:20260627T100000
+LAST-MODIFIED;TZID=America/New_York:20260327T132020
+LOCATION:<p data-pasted="true">Jefferson Street between Campbell and Elm. 
+ Franklin between Jefferson and Williamson. Luck\, church (if available) a
+ nd Kirk between first and Jefferson</p> -   Roanoke VA 24011
+SEQUENCE:0
+SUMMARY:Star City Motor Madness
+UID:8939
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Neighborhood concert https://www.roanokeva.gov/calendar.aspx?E
  ID=8727
 DTEND;TZID=America/New_York:20260626T213000
@@ -354,6 +370,22 @@ LOCATION:<p>Grandin Rd\, between Memorial and Westover</p> -   Roanoke VA
 SEQUENCE:0
 SUMMARY:Grandin Chillage
 UID:8727
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:A no-charge car show in front of and beside the Virginia Museu
+ m of Transportation. Inside the museum building and grounds beginning at 
+ 5 PM there will be live music and food trucks. There will be a charge for
+  admission inside. https://www.roanokeva.gov/calendar.aspx?EID=8938
+DTEND;TZID=America/New_York:20260626T210000
+DTSTAMP;TZID=America/New_York:20260327T100651
+DTSTART;TZID=America/New_York:20260626T170000
+LAST-MODIFIED;TZID=America/New_York:20260327T100651
+LOCATION:<p>303 Norfolk Avenue SW in front of the Virginia Museum of Trans
+ portation</p> -   Roanoke VA 24011
+SEQUENCE:0
+SUMMARY:Star City Motor Madness Kick-off Party
+UID:8938
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
 END:VEVENT
 BEGIN:VEVENT
@@ -1284,20 +1316,6 @@ LOCATION:Elmwood Park Artwalk - 706 South Jefferson Street  Roanoke VA 240
 SEQUENCE:0
 SUMMARY:Nowruz (Persian New Year) Celebration
 UID:8692
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Neighborhood concert https://www.roanokeva.gov/calendar.aspx?E
- ID=8509
-DTEND;TZID=America/New_York:20260327T213000
-DTSTAMP;TZID=America/New_York:20250916T104448
-DTSTART;TZID=America/New_York:20260327T173000
-LAST-MODIFIED;TZID=America/New_York:20250916T104448
-LOCATION:<p>Grandin Rd\, between Memorial and Westover</p> -   Roanoke VA 
- 24011
-SEQUENCE:0
-SUMMARY:Grandin Chillage
-UID:8509
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
 END:VEVENT
 BEGIN:VEVENT

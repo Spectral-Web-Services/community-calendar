@@ -4,17 +4,6 @@ PRODID:-//Portland Council Meetings//portland.gov//
 X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Council Recess
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260323T000000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260327T000000
-UID:7fce2eb35b165c45fc971d9f3e882d71@portland.gov
-DESCRIPTION:City Council will not meet in Committee or as a full Council t
- he week of March 23-27\, 2026
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/3/23/counci
- l-recess
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:City Council Meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T093000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T093000
@@ -613,6 +602,33 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/27/city-c
  ouncil-meeting
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Finance and Governance Committee of the Whole Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260528T093000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260528T093000
+UID:a878ad0c34643225bcb694e0d10625b4@portland.gov
+DESCRIPTION:The Finance and Governance Committee of the Whole meets the fi
+ rst\, second\, and fourth Thursday of each month at 9:30 a.m. and the thir
+ d Wednesday of each month at 2:00 p.m.
+LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
+ um Portland\,\n                                OR\n                       
+                    97204 Get directions More about this location
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/28/financ
+ e-and-governance-committee-whole-meeting
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Executive Session
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260528T143000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260528T143000
+UID:6e7ace061f72fad1273dd1b2841b474b@portland.gov
+DESCRIPTION:Rescheduled from May 14\, 2026
+LOCATION:City Hall 1221 SW Fourth Avenue Rose Room Portland\, OR 97204 Get
+  directions More information about this room
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/28/city-c
+ ouncil-executive-session
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 END:VCALENDAR

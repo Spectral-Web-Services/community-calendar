@@ -4,23 +4,6 @@ PRODID:-//JCC East Bay//eventbrite.com//
 X-WR-CALNAME:JCC East Bay
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:It’s time for CANTAMOS!
-DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260426T103000
-DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260426T120000
-UID:041e0a3212a34ef38fec689b1775641c@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1150267363%2F2831313557931%2F1%2Foriginal.20251010-185633?cro
- p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.06
- 3&fp-y=0.368&s=a28996035efc8fda05059824cc198ee2
-DESCRIPTION:Experimente la fusión rítmica de las tradiciones judías y l
- atinas con Verónica Freidkes!
-LOCATION:JCC East Bay\, 1414 Walnut Street\, Berkeley\, CA 94709\, Berkele
- y\, CA
-URL:https://www.eventbrite.com/e/its-time-for-cantamos-tickets-19769257641
- 78
-X-SOURCE:JCC East Bay
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Older Adult Passover Luncheon
 DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260407T113000
 DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260407T133000
@@ -52,6 +35,23 @@ LOCATION:JCC East Bay\, 1414 Walnut Street\, Berkeley\, CA 94709\, Berkele
  y\, CA
 URL:https://www.eventbrite.com/e/yom-hashoah-tales-from-a-survivors-descen
  dant-tickets-1984500775240
+X-SOURCE:JCC East Bay
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:It’s time for CANTAMOS!
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260426T103000
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260426T120000
+UID:041e0a3212a34ef38fec689b1775641c@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1150267363%2F2831313557931%2F1%2Foriginal.20251010-185633?cro
+ p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.06
+ 3&fp-y=0.368&s=a28996035efc8fda05059824cc198ee2
+DESCRIPTION:Experimente la fusión rítmica de las tradiciones judías y l
+ atinas con Verónica Freidkes!
+LOCATION:JCC East Bay\, 1414 Walnut Street\, Berkeley\, CA 94709\, Berkele
+ y\, CA
+URL:https://www.eventbrite.com/e/its-time-for-cantamos-tickets-19769257641
+ 78
 X-SOURCE:JCC East Bay
 END:VEVENT
 END:VCALENDAR

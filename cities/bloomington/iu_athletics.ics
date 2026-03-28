@@ -5,29 +5,6 @@ X-WR-CALNAME:IU Athletics
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
 SUMMARY:IU Men's Swimming and Diving vs NCAA Swimming and Diving Champions
- hips - Prelims
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T100000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T100000
-UID:0953812afaa8c138651615897c8a6f3c@iuhoosiers.com
-DESCRIPTION:
-LOCATION:Atlanta\, Ga.
-URL:http://www.ncaa.com/
-X-SOURCE:IU Athletics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IU Women's Tennis vs Iowa
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T160000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T160000
-UID:9bd58a822f90baade362235a5ddb3e6a@iuhoosiers.com
-ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2017/5/10/Iowa_150
- x150.jpg
-DESCRIPTION:
-LOCATION:Bloomington\, Ind.
-URL:https://hawkeyesports.com/sports/wten
-X-SOURCE:IU Athletics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IU Men's Swimming and Diving vs NCAA Swimming and Diving Champions
  hips - Finals
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T180000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T180000
@@ -38,20 +15,12 @@ URL:http://www.ncaa.com/
 X-SOURCE:IU Athletics
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:IU Softball vs Detroit Mercy
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T180000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T180000
-UID:e9a62034749296b2602323dd97cc7684@iuhoosiers.com
-DESCRIPTION:
-LOCATION:Bloomington\, Ind.
-URL:http://www.detroittitans.com
-X-SOURCE:IU Athletics
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:IU Women's Golf vs Liz Murphey Collegiate
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T000000
 UID:eeb5f1eeedc54155b00b74dd53031f3f@iuhoosiers.com
+ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/26/9_Liz_Mu
+ rphey.png
 DESCRIPTION:
 LOCATION:Athens\, Ga.
 URL:http://www.georgiadogs.com/
@@ -73,6 +42,8 @@ SUMMARY:IU Women's Water Polo vs Stanford
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T120000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T120000
 UID:0bf0418f9623fcb03d56cd0142f6217e@iuhoosiers.com
+ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/26/WP_Team.
+ png
 DESCRIPTION:
 LOCATION:Bloomington\, Ind.
 URL:http://gostanford.com
@@ -83,6 +54,8 @@ SUMMARY:IU Softball vs Detroit Mercy
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T140000
 UID:e50cf1118242107d79b349cc626b1d86@iuhoosiers.com
+ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/14/20260314
+ _SB_Rutgers_SAM_1134.jpg
 DESCRIPTION:
 LOCATION:Bloomington\, Ind.
 URL:http://www.detroittitans.com
@@ -114,6 +87,8 @@ SUMMARY:IU Women's Golf vs Liz Murphey Collegiate
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260329T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260329T000000
 UID:61c17e82c9ffc70e980ff371ad447c9e@iuhoosiers.com
+ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/26/9_Liz_Mu
+ rphey.png
 DESCRIPTION:
 LOCATION:Athens\, Ga.
 URL:http://www.georgiadogs.com/
@@ -136,6 +111,8 @@ SUMMARY:IU Women's Golf vs Liz Murphey Collegiate
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260330T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260330T000000
 UID:3dee2183db7bb8d33260413c916fca77@iuhoosiers.com
+ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/26/9_Liz_Mu
+ rphey.png
 DESCRIPTION:
 LOCATION:Athens\, Ga.
 URL:http://www.georgiadogs.com/

@@ -27,7 +27,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260122T080000
 DTEND;TZID=America/Chicago:20260505T170000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260121T223230Z
 LAST-MODIFIED:20260121T223230Z
 UID:33053-1769068800-1778000400@www.garrett.edu
@@ -41,7 +41,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260122T080000
 DTEND;TZID=America/Chicago:20260506T170000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260121T222059Z
 LAST-MODIFIED:20260121T224007Z
 UID:33049-1769068800-1778086800@www.garrett.edu
@@ -55,7 +55,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260212T080000
 DTEND;TZID=America/Chicago:20260404T170000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260121T230125Z
 LAST-MODIFIED:20260121T230125Z
 UID:33068-1770883200-1775322000@www.garrett.edu
@@ -67,24 +67,9 @@ CATEGORIES:Garrett Collective Event
 ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/01/Lenten-Liturgies.png
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260327T090000
-DTEND;TZID=America/Chicago:20260327T170000
-DTSTAMP:20260325T210820
-CREATED:20260227T194058Z
-LAST-MODIFIED:20260227T194201Z
-UID:33939-1774602000-1774630800@www.garrett.edu
-SUMMARY:Animating Antiracist Ways of Being with Crossroads Antiracism
-DESCRIPTION:The Garrett community is invited to participate in a workshop on Animating Antiracist Ways of Being facilitated by leaders from Crossroads Antiracism and co-sponsored by CAAM\, CBE\, CRL\, the Stead Center\, and the office of Student Affairs. \nDate: March 27\, 2026\nTime: 9AM-5PM CT\nLocation: Main 205 and Online \nRegistration closes on March 23. Lunch will be provided to in person participants. Participation is free for the Garrett community. Talking about race and racial discrimination can be hard\, but it’s important to understand how to fix these ongoing social issues. When we talk about belonging and diversity as strengths for communities and organizations\, we must also recognize the challenges preventing these goals. Understanding antiracism and what it requires from leaders is key to creating diverse\, fair\, and welcoming places. This workshop aims to give participants a foundation of these concepts and practices to facilitate deeper\, future learning.
-URL:https://www.garrett.edu/event/animating-antiracist-ways-of-being-with-crossroads-antiracism/
-LOCATION:Main 205 and Online\, 2121 Sheridan Road\, Evanston\, IL\, 60201\, United States
-CATEGORIES:Centers and Institutes Event,Community Event
-ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/02/Animating-Antiracist-Ways.png
-ORGANIZER;CN="Center%20for%20Asian%2FAsian%20American%20Ministry":MAILTO:dong.jeong@garrett.edu
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260407
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20250723T204235Z
 LAST-MODIFIED:20250723T204235Z
 UID:29801-1774828800-1775519999@www.garrett.edu
@@ -97,7 +82,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260330T190000
 DTEND;TZID=America/Chicago:20260330T200000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20251030T041628Z
 LAST-MODIFIED:20260121T143748Z
 UID:32830-1774897200-1774900800@www.garrett.edu
@@ -111,7 +96,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260331T120000
 DTEND;TZID=America/Chicago:20260331T130000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260227T212615Z
 LAST-MODIFIED:20260227T212616Z
 UID:33951-1774958400-1774962000@www.garrett.edu
@@ -125,21 +110,21 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260401T080000
 DTEND;TZID=America/Chicago:20260401T170000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260121T223854Z
 LAST-MODIFIED:20260121T223855Z
 UID:33057-1775030400-1775062800@www.garrett.edu
 SUMMARY:Mini-Course: Antiracism for Church Leaders
 DESCRIPTION:
 URL:https://www.garrett.edu/event/mini-course-antiracism-for-church-leaders/
-LOCATION:MN
+LOCATION:IL
 CATEGORIES:Featured Event,Garrett Collective Event
 ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/01/Antiracism-for-Church-Leaders.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260401T100000
 DTEND;TZID=America/Chicago:20260401T170000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20250723T204011Z
 LAST-MODIFIED:20250723T204011Z
 UID:29799-1775037600-1775062800@www.garrett.edu
@@ -152,7 +137,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260402
 DTEND;VALUE=DATE:20260403
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20250723T204415Z
 LAST-MODIFIED:20250723T204415Z
 UID:29803-1775088000-1775174399@www.garrett.edu
@@ -165,7 +150,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260403T080000
 DTEND;TZID=America/Chicago:20260403T140000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260121T224829Z
 LAST-MODIFIED:20260121T224829Z
 UID:33060-1775203200-1775224800@www.garrett.edu
@@ -179,7 +164,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260403T083000
 DTEND;TZID=America/Chicago:20260403T150000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20251029T234836Z
 LAST-MODIFIED:20251029T234836Z
 UID:31623-1775205000-1775228400@www.garrett.edu
@@ -190,9 +175,37 @@ LOCATION:Garrett-Evangelical Theological Seminary\, 2121 Sheridan Road\, Evansto
 CATEGORIES:Featured Event,Garrett Collective Event
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260407T113000
+DTEND;TZID=America/Chicago:20260407T130000
+DTSTAMP:20260327T210233
+CREATED:20260327T210218Z
+LAST-MODIFIED:20260327T210219Z
+UID:34424-1775561400-1775566800@www.garrett.edu
+SUMMARY:Let's Talk Globally: Invisible Mask - Clergy Sexual Misconduct\, Trauma\, and Intercultural Pastoral Care
+DESCRIPTION:Join us for a conversation with Dr. Ahyun Lee on her new book\, Protestant Clergy Sexual Misconduct and Intercultural Pastoral Care: Invisible Mask. In this book talk\, Dr. Lee explores how clergy sexual misconduct is shaped not only by individual actions\, but also by abusive theology\, cultural silence\, and institutional power. Grounded in pastoral theology\, intercultural care\, and trauma-informed psychotherapy\, this conversation will reflect on how churches and theological communities can better honor victim-survivors’ dignity\, resist harmful theological narratives\, and cultivate practices of justice\, healing\, and accountable care. \nDate: April 7\, 2026\nTime: 11:45 AM – 1:00 PM CT\nLocation: Main 205 and Online
+URL:https://www.garrett.edu/event/invisible-mask/
+LOCATION:Main 205 and Online\, 2121 Sheridan Road\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Academic Events,Community Event,Featured Event
+ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/03/Lets-Talk-Globally-Invisible-Mask.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260408T113000
+DTEND;TZID=America/Chicago:20260408T130000
+DTSTAMP:20260327T210233
+CREATED:20260327T201213Z
+LAST-MODIFIED:20260327T201213Z
+UID:34412-1775647800-1775653200@www.garrett.edu
+SUMMARY:A Student Salon: The Rise of Religious Nationalism
+DESCRIPTION:Unlike a lecture where a professor speaks to students\, a salon is a peer-to-peer exchange of ideas. Even if you fundamentally disagree with someone you must do so with wit and grace\, not anger. This salon will focus on the rise of religious nationalism as a global phenomenon. What is it? Where is it? Who is it? Why is it? \nThe facilitators of this salon will be: \n\nBarry E. Bryant is the Associate Professor of United Methodist Wesleyan Studies. He has taught “Race: America’s True Religion” and has led student groups to the Occupied Palestinian Territory of the West Bank.\nPaula Roderick\, is an attorney focusing on Employment Discrimination and Civil Rights Attorney; a member of Chicago Alliance Against Racist and Political Repression\, Black 4 Palestine\, the Steering Committee for UM Kairos Response. \n\nThe Rev. Neal Christie is a consultant to the United Methodist\, Wespath Benefits around issues of divestment; the cofounder of The Religious Nationalisms Project\, a ministry of the New York State Council of Churches; and\, a 2025-26 Civil Society Fellow with the Institute for Islamic\, Christian\, and Jewish Studies
+URL:https://www.garrett.edu/event/a-student-salon-the-rise-of-religious-nationalism/
+LOCATION:Main 205 and Online\, 2121 Sheridan Road\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Academic Events,Student Events
+ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/03/Student-Salon.png
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260408T120000
 DTEND;TZID=America/Chicago:20260408T130000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260209T153907Z
 LAST-MODIFIED:20260209T153909Z
 UID:33627-1775649600-1775653200@www.garrett.edu
@@ -205,9 +218,23 @@ ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/02/Ngwa
 ORGANIZER;CN="Admissions":MAILTO:getadmitted@garrett.edu
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260408T170000
+DTEND;TZID=America/Chicago:20260408T170000
+DTSTAMP:20260327T210233
+CREATED:20260327T202903Z
+LAST-MODIFIED:20260327T202903Z
+UID:34417-1775667600-1775667600@www.garrett.edu
+SUMMARY:Easter Egg Hunt
+DESCRIPTION:Join us for an all-day Easter Egg hunt on Wednesday\, April 8 across Garrett’s campus! Find as many eggs as you can and bring them to Community Meal in Loder at 5:00pm – the person who finds the most eggs will win a prize!
+URL:https://www.garrett.edu/event/easter-egg-hunt/
+LOCATION:Loder Hall
+CATEGORIES:Community Event
+ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/03/Easter-Egg-Hunt.png
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260413T190000
 DTEND;TZID=America/Chicago:20260413T200000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20251030T041628Z
 LAST-MODIFIED:20260121T143749Z
 UID:32831-1776106800-1776110400@www.garrett.edu
@@ -219,9 +246,37 @@ CATEGORIES:Featured Event,Garrett Collective Event
 ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2025/10/Financial-Leadership-for-Congregations-Spring-2026.png
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260416T120000
+DTEND;TZID=America/Chicago:20260416T133000
+DTSTAMP:20260327T210233
+CREATED:20260327T211216Z
+LAST-MODIFIED:20260327T211217Z
+UID:34428-1776340800-1776346200@www.garrett.edu
+SUMMARY:Vital Conversations on Immigration with Dr. Anna Johnson
+DESCRIPTION:The Garrett community is invited to participate in a lunch and learn series called Vital Conversations on Immigration made available to us through GCORR. “The Vital Conversations on Immigration series was developed to… explore a sacred calling: a Church that embodies justice\, mercy\, and hospitality… each session invites you into deeper reflection on the realities of immigration today\, guided by the voices of faith leaders\, theologians\, advocates\, and immigrants themselves.” Dr. Anna Johnson will facilitate our second session on the topic\, “Why do people migrate?” Join us in-person or online for lunch and conversation on this vitally important topic.
+URL:https://www.garrett.edu/event/vital-conversations-on-immigration-with-dr-anna-johnson/
+LOCATION:Main 205 and Online\, 2121 Sheridan Road\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Community Event
+ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/03/Vital-Conversations-Johnson.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260417T120000
+DTEND;TZID=America/Chicago:20260417T140000
+DTSTAMP:20260327T210233
+CREATED:20260327T204241Z
+LAST-MODIFIED:20260327T204242Z
+UID:34420-1776427200-1776434400@www.garrett.edu
+SUMMARY:Let's Talk Careers: Speed Networking
+DESCRIPTION:Please join us for an online only Let’s Talk Careers: Speed Networking event on Friday\, April 17 (12-2 pm). Representatives from Northern IL annual conference\, Northwestern University\, and Free Recovery Community Chicago will be present to provide guidance on how to pursue traditional and non-traditional pathways in ministry in the Church\, campus ministries\, and not-for-profit organizations. Please note this event is online only.
+URL:https://www.garrett.edu/event/lets-talk-careers-speed-networking/
+LOCATION:Online
+CATEGORIES:Community Event,Featured Event,Student Events
+ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/03/Lets-Talk-Careers.png
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260418T090000
 DTEND;TZID=America/Chicago:20260418T150000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260120T214500Z
 LAST-MODIFIED:20260324T164934Z
 UID:32871-1776502800-1776524400@www.garrett.edu
@@ -236,7 +291,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260419T090000
 DTEND;TZID=America/Chicago:20260419T103000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260320T170844Z
 LAST-MODIFIED:20260320T171146Z
 UID:34330-1776589200-1776594600@www.garrett.edu
@@ -250,7 +305,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260421T110000
 DTEND;TZID=America/Chicago:20260421T120000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260306T180242Z
 LAST-MODIFIED:20260306T180408Z
 UID:34178-1776769200-1776772800@www.garrett.edu
@@ -264,7 +319,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260423T190000
 DTEND;TZID=America/Chicago:20260424T153000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260313T165418Z
 LAST-MODIFIED:20260313T183704Z
 UID:34232-1776970800-1777044600@www.garrett.edu
@@ -278,7 +333,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260427T190000
 DTEND;TZID=America/Chicago:20260427T200000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20251030T041628Z
 LAST-MODIFIED:20260121T143750Z
 UID:32832-1777316400-1777320000@www.garrett.edu
@@ -292,7 +347,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260429T080000
 DTEND;TZID=America/Chicago:20260502T170000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260130T191819Z
 LAST-MODIFIED:20260130T191920Z
 UID:33430-1777449600-1777741200@www.garrett.edu
@@ -306,14 +361,14 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260429T120000
 DTEND;TZID=America/Chicago:20260429T130000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260212T180215Z
 LAST-MODIFIED:20260212T180216Z
 UID:33666-1777464000-1777467600@www.garrett.edu
 SUMMARY:Mock Class with Dr. Brooke Lester
 DESCRIPTION:What does it look like to be in a graduate level class? What does it feel like to take a seminary course? \nIf you have ever wondered\, we invite you join us to experience a mock class from one of Garrett’s acclaimed faculty members. Register to experience a taste of theological education at Garrett with Dr. Brooke Lester\, Associate Professor of Hebrew Scriptures and Director of Digital Learning.
 URL:https://www.garrett.edu/event/mock-class-with-dr-brooke-lester/
-LOCATION:MN
+LOCATION:IL
 CATEGORIES:Admissions Event
 ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/02/Brooke-Lester-Mock-Class.png
 ORGANIZER;CN="Admissions":MAILTO:getadmitted@garrett.edu
@@ -321,21 +376,21 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260501T080000
 DTEND;TZID=America/Chicago:20260501T170000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260121T225148Z
 LAST-MODIFIED:20260121T225148Z
 UID:33063-1777622400-1777654800@www.garrett.edu
 SUMMARY:Mini-Course: Resources for Ethical Ministry in a Digital World
 DESCRIPTION:
 URL:https://www.garrett.edu/event/resources-for-ethical-ministry-in-a-digital-world/
-LOCATION:MN
+LOCATION:IL
 CATEGORIES:Garrett Collective Event
 ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2026/01/Ministry-in-a-Digital-World.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260501T110000
 DTEND;TZID=America/Chicago:20260501T120000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20260306T181444Z
 LAST-MODIFIED:20260307T050155Z
 UID:34181-1777633200-1777636800@www.garrett.edu
@@ -349,7 +404,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20250723T204710Z
 LAST-MODIFIED:20250723T204710Z
 UID:29805-1777939200-1778025599@www.garrett.edu
@@ -362,20 +417,20 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260519
 DTEND;VALUE=DATE:20260520
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20250723T205005Z
 LAST-MODIFIED:20250723T205005Z
 UID:29807-1779148800-1779235199@www.garrett.edu
 SUMMARY:Last day for Summer Term Registration
 DESCRIPTION:4 weeks before course start (per course).
 URL:https://www.garrett.edu/event/last-day-for-summer-term-registration-3/
-LOCATION:MN
+LOCATION:IL
 CATEGORIES:Academic Events
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260528T170000
 DTEND;TZID=America/Chicago:20260531T150000
-DTSTAMP:20260325T210820
+DTSTAMP:20260327T210233
 CREATED:20251030T030754Z
 LAST-MODIFIED:20260204T165012Z
 UID:31639-1779987600-1780239600@www.garrett.edu
@@ -385,31 +440,5 @@ URL:https://www.garrett.edu/event/notes-of-rest-retreat-may-28-30-2026/
 LOCATION:Garrett Collective
 CATEGORIES:Garrett Collective Event
 ATTACH;FMTTYPE=image/png:https://www.garrett.edu/wp-content/uploads/2025/10/Notes-of-Rest-Retreat.png
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20260620
-DTSTAMP:20260325T210820
-CREATED:20250723T205055Z
-LAST-MODIFIED:20250723T205055Z
-UID:29809-1781827200-1781913599@www.garrett.edu
-SUMMARY:Juneteenth holiday
-DESCRIPTION:No classes; offices closed
-URL:https://www.garrett.edu/event/juneteenth-holiday-3/
-LOCATION:Garrett-Evangelical Theological Seminary\, 2121 Sheridan Road\, Evanston\, IL\, 60201\, United States
-CATEGORIES:Institutional Event
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
-DTSTAMP:20260325T210820
-CREATED:20250723T205213Z
-LAST-MODIFIED:20250723T205213Z
-UID:29811-1783036800-1783123199@www.garrett.edu
-SUMMARY:July 4th holiday
-DESCRIPTION:No classes; Offices closed.
-URL:https://www.garrett.edu/event/july-4th-holiday-3/
-LOCATION:Garrett-Evangelical Theological Seminary\, 2121 Sheridan Road\, Evanston\, IL\, 60201\, United States
-CATEGORIES:Institutional Event
 END:VEVENT
 END:VCALENDAR
