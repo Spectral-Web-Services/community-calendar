@@ -4,19 +4,6 @@ PRODID:-//Moda Center//ticketmaster.com//
 X-WR-CALNAME:Moda Center
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Portland Trail Blazers vs. Dallas Mavericks
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260327T190000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260327T190000
-UID:6f24eeded948378c2613d0be5e00f327@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/a87/5d142351-ec6a-4
- bab-a269-514d8ef4da87_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
-URL:https://www.ticketmaster.com/portland-trail-blazers-vs-dallas-maverick
- s-portland-oregon-03-27-2026/event/0F006305C9253FB6
-X-SOURCE:Moda Center
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Portland Trail Blazers vs. Washington Wizards
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260329T150000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260329T150000
@@ -515,6 +502,19 @@ DESCRIPTION:
 LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
 URL:https://www.ticketmaster.com/portland-fire-vs-connecticut-sun-portland
  -oregon-05-27-2026/event/0F006474E210CB1A
+X-SOURCE:Moda Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Portland Fire vs. Atlanta Dream
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260529T190000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260529T190000
+UID:d4d1fdea505ef81433777ec7009ecbdb@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/cd2/d1df13b2-f278-4
+ 244-add4-52a168fcacd2_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
+URL:https://www.ticketmaster.com/portland-fire-vs-atlanta-dream-portland-o
+ regon-05-29-2026/event/0F006474E216CB21
 X-SOURCE:Moda Center
 END:VEVENT
 END:VCALENDAR

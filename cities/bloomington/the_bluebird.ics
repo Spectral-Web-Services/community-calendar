@@ -4,19 +4,6 @@ PRODID:-//The Bluebird//thebluebird.ws//
 X-WR-CALNAME:The Bluebird
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:Jukebox Luke
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T210000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T210000
-UID:9bdce591ded2db920300d2d4530a665c@thebluebird.ws
-ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
- 3/JUKEBOX-LUKE-BIRD.jpg
-DESCRIPTION:
-LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
-URL:https://wl.seetickets.us/event/Jukebox-Luke/683938?afflky=BluebirdNigh
- tclub
-X-SOURCE:The Bluebird
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hank Ruff
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T210000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T210000
@@ -27,6 +14,31 @@ DESCRIPTION:
 LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
 URL:https://wl.seetickets.us/event/Hank-Ruff/683197?afflky=BluebirdNightcl
  ub
+X-SOURCE:The Bluebird
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcome to the Neighborhood
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260401T220000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260401T220000
+UID:a8c323384a35d017eeab5d9aa0638216@thebluebird.ws
+ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
+ 3/WELCOME-TO-THE-NEIGHBORHOOD-WEB-BIRD-2026.jpg
+DESCRIPTION:
+LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
+URL:https://wl.seetickets.us/event/Welcome-to-the-Neighborhood/686324?affl
+ ky=BluebirdNightclub
+X-SOURCE:The Bluebird
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opal
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260402T220000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260402T220000
+UID:0540fc9fdb3a1904384d8415ec6cc97c@thebluebird.ws
+ATTACH;FMTTYPE=image/jpeg:https://thebluebird.ws/wp-content/uploads/2026/0
+ 3/OPAL-BIRD-WEB.jpg
+DESCRIPTION:
+LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
+URL:https://wl.seetickets.us/event/Opal/686325?afflky=BluebirdNightclub
 X-SOURCE:The Bluebird
 END:VEVENT
 BEGIN:VEVENT
@@ -117,19 +129,6 @@ DESCRIPTION:Benjamin Tod
 LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
 URL:https://wl.seetickets.us/event/Benjamin-Tod/670733?afflky=BluebirdNigh
  tclub
-X-SOURCE:The Bluebird
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hairbangers Ball
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260516T210000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260516T210000
-UID:65293291b06e83e72373cf5d63b1d121@thebluebird.ws
-ATTACH;FMTTYPE=image/jpeg:https://cdn.vor.us/event/683460/def274a45ef944d5
- 82daf1dc143f100c.image!jpeg.683030.jpg.HBB1.jpg
-DESCRIPTION:
-LOCATION:The Bluebird\, 216 N Walnut St\, Bloomington\, IN
-URL:https://wl.seetickets.us/event/Hairbangers-Ball/683460?afflky=Bluebird
- Nightclub
 X-SOURCE:The Bluebird
 END:VEVENT
 END:VCALENDAR

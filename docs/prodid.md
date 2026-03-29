@@ -56,9 +56,9 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **portland** (9): crystal_ballroom, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, washington_park
 
-**publisher-resources** (5): ahcj, inn, nlgja, poynter, sabew
+**publisher-resources** (6): ahcj, inn, nahj, nlgja, poynter, sabew
 
-**roanoke** (2): hollins_university, roanoke_symphony
+**roanoke** (1): hollins_university
 
 ### Google Calendar (34 feeds)
 

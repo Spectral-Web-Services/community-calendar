@@ -4,34 +4,6 @@ PRODID:-//Chicago Botanic Garden//chicagobotanic.org//
 X-WR-CALNAME:Chicago Botanic Garden
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-SUMMARY:Behind-the-Scenes: Greenhouse
-DTSTART;VALUE=DATE-TIME:20260327T123000
-DTEND;VALUE=DATE-TIME:20260327T143000
-UID:3779160b846a01d35dedf6f8a32f45c8@chicagobotanic.org
-ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
- es/styles/card/public/2022/08/09/behind_scenes_tour_kris_j_campus.jpg?itok
- =u_yi0_gp
-DESCRIPTION:$10 per personAdult & child (ages 3+)
-LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
-URL:https://www.chicagobotanic.org/member/events/behind-scenes-greenhouse-
- tour?range_start=2026-03-27
-X-SOURCE:Chicago Botanic Garden
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tea Tasting and Blending
-DTSTART;VALUE=DATE-TIME:20260327T140000
-DTEND;VALUE=DATE-TIME:20260327T160000
-UID:4e18e58e3e9ea09c77151f718363a0d3@chicagobotanic.org
-ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
- es/styles/card/public/2024/11/07/adult_ed_cooking_tea_tasting.jpg?itok=EnY
- XHSPi
-DESCRIPTION:$74/$93
-LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
-URL:https://www.chicagobotanic.org/learning/adult-classes/cooking/tea-tast
- ing-and-blending-2?range_start=2026-03-27
-X-SOURCE:Chicago Botanic Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Spring Bird Walk
 DTSTART;VALUE=DATE-TIME:20260328T080000
 DTEND;VALUE=DATE-TIME:20260328T093000
@@ -41,7 +13,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$24/$30
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/nature-birding/s
- pring-bird-walk-1?range_start=2026-03-27
+ pring-bird-walk-1?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -59,6 +31,20 @@ URL:https://www.chicagobotanic.org/learning/adult-classes/photography/docu
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Behind-the-Scenes: Greenhouse
+DTSTART;VALUE=DATE-TIME:20260327T123000
+DTEND;VALUE=DATE-TIME:20260327T143000
+UID:3779160b846a01d35dedf6f8a32f45c8@chicagobotanic.org
+ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
+ es/styles/card/public/2022/08/09/behind_scenes_tour_kris_j_campus.jpg?itok
+ =u_yi0_gp
+DESCRIPTION:$10 per personAdult & child (ages 3+)
+LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
+URL:https://www.chicagobotanic.org/member/events/behind-scenes-greenhouse-
+ tour?range_start=2026-03-28
+X-SOURCE:Chicago Botanic Garden
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tasty Tomatoes
 DTSTART;VALUE=DATE-TIME:20260328T103000
 DTEND;VALUE=DATE-TIME:20260328T120000
@@ -69,7 +55,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$25/$32
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/horticulture/tas
- ty-tomatoes?range_start=2026-03-27
+ ty-tomatoes?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -96,7 +82,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:Sunday\, March 291 – 4 p.m.
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/flowershows/midwest_fruit_explorers_gra
- fting_workshop?range_start=2026-03-27
+ fting_workshop?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -163,7 +149,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$159/$199
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/wellness-fitness
- /experienced-yang-24-tai-chi-1?range_start=2026-03-27
+ /experienced-yang-24-tai-chi-1?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -176,7 +162,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$159/$199
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/wellness-fitness
- /fundamental-yang-24-tai-chi-0?range_start=2026-03-27
+ /fundamental-yang-24-tai-chi-0?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -413,7 +399,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$24/$30
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/nature-birding/s
- pring-bird-walk-2?range_start=2026-03-27
+ pring-bird-walk-2?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -454,7 +440,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$94/$118
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/cooking/hands-co
- oking-indian-grill?range_start=2026-03-27
+ oking-indian-grill?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -468,7 +454,7 @@ DESCRIPTION:Saturday & SundayApril 11: noon – 4:30 p.m.April 12: 10 a.m.
   – 4:30 p.m.
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/flowershows/sogetsu_school_illinois_ike
- bana_exhibition?range_start=2026-03-27
+ bana_exhibition?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -537,7 +523,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$399/$499
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/horticulture/bot
- any-1?range_start=2026-03-27
+ any-1?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -604,7 +590,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/member/events/horticulturist-tour-engli
- sh-walled-garden?range_start=2026-03-27
+ sh-walled-garden?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -659,7 +645,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$59/$74
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/wellness-fitness
- /pressure-points-pathways-wellness-0?range_start=2026-03-27
+ /pressure-points-pathways-wellness-0?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -905,7 +891,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$149/$187
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/horticulture/bon
- sai-forest-planting-workshop-0?range_start=2026-03-27
+ sai-forest-planting-workshop-0?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -1001,7 +987,7 @@ DESCRIPTION:Friday-SaturdayApril 24: 1:30 – 4:30 p.m.April 25: 10 a.m.
  – 4:30 p.m.
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/flowershows/midwest_daffodil_society_sh
- ow_0?range_start=2026-03-27
+ ow_0?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -1029,7 +1015,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$24/$30
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/nature-birding/s
- pring-bird-walk-3?range_start=2026-03-27
+ pring-bird-walk-3?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -1149,7 +1135,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:Members-Onlyat theGarden ShopFriday – SundayMay 1 – 3
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/member/events/double-discount-day?range
- _start=2026-03-27
+ _start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -1229,7 +1215,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:Saturday & SundayMay 2 – 310 a.m. – 4 p.m.
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/flowershows/central_states_dahlia_socie
- ty_sale?range_start=2026-03-27
+ ty_sale?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -1257,7 +1243,7 @@ DESCRIPTION:Saturday\, May 211 a.m. – 2 p.m.Drop-by and Self-guided Walk
  sGuided Walk 1 p.m.
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/calendar/event/spring-woods-1?range_sta
- rt=2026-03-27
+ rt=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -1406,7 +1392,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:$24/$30
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/learning/adult-classes/nature-birding/s
- pring-bird-walk-5?range_start=2026-03-27
+ pring-bird-walk-5?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT
@@ -1419,7 +1405,7 @@ ATTACH;FMTTYPE=image/jpeg:https://www.chicagobotanic.org/sites/default/fil
 DESCRIPTION:Saturday & SundayMay 16 – 179 a.m. – 5 p.m.
 LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
 URL:https://www.chicagobotanic.org/flowershows/midwest_bonsai_society_spri
- ng_show_sale_0?range_start=2026-03-27
+ ng_show_sale_0?range_start=2026-03-28
 X-SOURCE:Chicago Botanic Garden
 END:VEVENT
 BEGIN:VEVENT

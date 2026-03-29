@@ -4,24 +4,6 @@ PRODID:-//Mystic Theatre//mystictheatre.com//
 X-WR-CALNAME:Mystic Theatre
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Tainted Love
-DTSTART;VALUE=DATE-TIME:20260327T210000
-DTEND;VALUE=DATE-TIME:20260328T000000
-UID:dfaaed85de802d6c94c210598f591958@mystictheatre.com
-ATTACH;FMTTYPE=image/jpeg:https://prod-images.seetickets.us/eyJidWNrZXQiOi
- Jwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiMTU4M2NkNzUtOWM2MC00Y2FjLTkx
- MDUtMDdhOWMyYjkwMjRhIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIj
- p7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYw
- fSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==
-DESCRIPTION:The Best of the 80s Live!\nGenre: Tribute Act\nDoors: 8:00PM\,
-  Show: 9:00PM\nTickets: https://wl.seetickets.us/event/tainted-love/664509
- ?afflky=MysticTheatre
-LOCATION:Mystic Theatre\, Petaluma\, CA
-URL:https://wl.seetickets.us/event/tainted-love/664509?afflky=MysticTheatr
- e
-X-SOURCE:Mystic Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Donavon Frankenreiter | Fully Seated
 DTSTART;VALUE=DATE-TIME:20260331T200000
 DTEND;VALUE=DATE-TIME:20260331T230000
@@ -217,6 +199,25 @@ DESCRIPTION:with Tony Suraci & Makayla Phillips\nGenre: Country\nAges: 21+
 LOCATION:Mystic Theatre\, Petaluma\, CA
 URL:https://wl.seetickets.us/event/the-highwayman-show/675024?afflky=Mysti
  cTheatre
+X-SOURCE:Mystic Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Whiskey Tasting Night
+DTSTART;VALUE=DATE-TIME:20260421T173000
+DTEND;VALUE=DATE-TIME:20260421T203000
+UID:e1fb1b744212a573edb4a955cdf27ae8@mystictheatre.com
+ATTACH;FMTTYPE=image/jpeg:https://prod-images.seetickets.us/eyJidWNrZXQiOi
+ Jwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNmQ5NGE1NzYtMDZiZC00ZDU1LTlj
+ MmYtNWY0MWMyNTI5OTU0IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIj
+ p7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYw
+ fSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==
+DESCRIPTION:McNear's Red Bull Room\nRedwood Empire Whiskey\nGenre: Food/Be
+ er/Wine\nAges: 21+\nPrice: $75.00\nDoors: 5:00PM\, Show: 5:30PM\nTickets: 
+ https://wl.seetickets.us/event/whiskey-tasting-night/685478?afflky=MysticT
+ heatre
+LOCATION:McNear's - Red Bull Room\, Petaluma\, CA
+URL:https://wl.seetickets.us/event/whiskey-tasting-night/685478?afflky=Mys
+ ticTheatre
 X-SOURCE:Mystic Theatre
 END:VEVENT
 END:VCALENDAR

@@ -5,36 +5,6 @@ X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Fairy Hunt
-DTSTART;VALUE=DATE-TIME:20260328T080000
-DTEND;VALUE=DATE-TIME:20260328T080000
-UID:8836bc8fd4a7c04f111aba9bcf98ebad@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/fairy-hunt26/?F_d=03-28-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Professional Headshots March
-DTSTART;VALUE=DATE-TIME:20260328T110000
-DTEND;VALUE=DATE-TIME:20260328T110000
-UID:4e8945b592d19b4814bff0965bd90460@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/professional-headshots-march/2026/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Eid Celebration
-DTSTART;VALUE=DATE-TIME:20260328T140000
-DTEND;VALUE=DATE-TIME:20260328T140000
-UID:c903be2c01a68daa8578f2c5bb46540b@skokieparks.org
-DESCRIPTION:
-LOCATION:Weber Leisure Center
-URL:https://www.skokieparks.org/events/eid-celebration26/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260329T080000
 DTEND;VALUE=DATE-TIME:20260329T080000
 UID:e5907f827ae7b397b361fb0d98fa7853@skokieparks.org
@@ -1039,28 +1009,6 @@ URL:https://www.skokieparks.org/events/thin-ice-ensemble-theatre-presents-
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Thin Ice Ensemble Theatre Presents: Anastasia Youth Edition (2)
-DTSTART;VALUE=DATE-TIME:20260509T150000
-DTEND;VALUE=DATE-TIME:20260509T150000
-UID:b65b20d964d9a22ef7df2dc391dfde62@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/thin-ice-ensemble-theatre-presents-
- anastasia-youth-edition-2/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Thin Ice Ensemble Theatre Presents: Anastasia Youth Edition (3)
-DTSTART;VALUE=DATE-TIME:20260509T190000
-DTEND;VALUE=DATE-TIME:20260509T190000
-UID:680cd70491948c5718de2e31c9c472a9@skokieparks.org
-DESCRIPTION:
-LOCATION:Devonshire Cultural Center
-URL:https://www.skokieparks.org/events/thin-ice-ensemble-theatre-presents-
- anastasia-youth-edition-3/
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hiking Club: River Trails
 DTSTART;VALUE=DATE-TIME:20260509T093000
 DTEND;VALUE=DATE-TIME:20260509T093000
@@ -1100,6 +1048,17 @@ DESCRIPTION:
 LOCATION:Devonshire Cultural Center
 URL:https://www.skokieparks.org/events/thin-ice-ensemble-theatre-presents-
  anastasia-youth-edition-3/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thin Ice Ensemble Theatre Presents: Anastasia Youth Edition
+DTSTART;VALUE=DATE-TIME:20260510T150000
+DTEND;VALUE=DATE-TIME:20260510T150000
+UID:cf87dc352f23d5f3f23290ed9616b64b@skokieparks.org
+DESCRIPTION:
+LOCATION:Devonshire Cultural Center
+URL:https://www.skokieparks.org/events/thin-ice-ensemble-theatre-presents-
+ anastasia-youth-edition/
 X-SOURCE:Skokie Park District
 END:VEVENT
 BEGIN:VEVENT

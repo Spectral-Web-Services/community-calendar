@@ -4,23 +4,6 @@ PRODID:-//Jewish Engagement Center//eventbrite.com//
 X-WR-CALNAME:Jewish Engagement Center
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Pesach Seder Night #2
-DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260402T201500
-DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260402T233000
-UID:c074bd0d5756414d93f6a5acbee2e530@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1180187368%2F50491330436%2F1%2Foriginal.20260318-223750?crop=
- focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp
- -y=0.5&s=cdfd0e11f55aa84be1c11ae1627ccaa4
-DESCRIPTION:A Warm\, Heimish Experience Second night Pesach Seder with shm
- ura matzah\, great food\, singing\, and a warm heimish vibe.
-LOCATION:Jewish EngagementCenter\, Chabad of the Neighborhood\, 85 West Po
- rtal Avenue\, San Francisco\, CA 94127\, San Francisco\, CA
-URL:https://www.eventbrite.com/e/pesach-seder-night-2-tickets-198547934015
- 4
-X-SOURCE:Jewish Engagement Center
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Seder Passover Night
 DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260401T191500
 DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260401T230000
@@ -34,6 +17,23 @@ DESCRIPTION:Join us for a cozy night filled with stories\, songs\, and tas
 LOCATION:Jewish EngagementCenter\, Chabad of the Neighborhood\, 85 West Po
  rtal Avenue\, San Francisco\, CA 94127\, San Francisco\, CA
 URL:https://www.eventbrite.com/e/seder-passover-night-tickets-198540747520
+ 4
+X-SOURCE:Jewish Engagement Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pesach Seder Night #2
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260402T201500
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260402T233000
+UID:c074bd0d5756414d93f6a5acbee2e530@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1180187368%2F50491330436%2F1%2Foriginal.20260318-223750?crop=
+ focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp
+ -y=0.5&s=cdfd0e11f55aa84be1c11ae1627ccaa4
+DESCRIPTION:A Warm\, Heimish Experience Second night Pesach Seder with shm
+ ura matzah\, great food\, singing\, and a warm heimish vibe.
+LOCATION:Jewish EngagementCenter\, Chabad of the Neighborhood\, 85 West Po
+ rtal Avenue\, San Francisco\, CA 94127\, San Francisco\, CA
+URL:https://www.eventbrite.com/e/pesach-seder-night-2-tickets-198547934015
  4
 X-SOURCE:Jewish Engagement Center
 END:VEVENT

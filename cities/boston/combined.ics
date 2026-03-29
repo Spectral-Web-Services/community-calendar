@@ -7,152 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-ID:tufts_tdps
-X-SOURCE:Tufts Tdps
-SUMMARY:Dances at Noon
-LOCATION:Medford/Somerville campus
-DTSTART;TZID=America/New_York:20260327T120000
-DTEND;TZID=America/New_York:20260327T130000
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
- plate
-X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Jackson G
- ym
-X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Somerville\, 
- MA 02144
-X-TRUMBA-CUSTOMFIELD;NAME="Room";ID=68180;TYPE=CustomAsset:Dance Lab
-X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
- erville campus
-X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Jac
- kson Dance Lab\, 50 Talbot Avenue\, Medford\, MA 02155
-X-TRUMBA-CUSTOMFIELD;NAME="Wheelchair Accessible";ID=67490;TYPE=CustomAs
- set:Yes
-X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
-X-TRUMBA-CUSTOMFIELD;NAME="Primary Audience";ID=66852;TYPE=CustomAsset:A
- lumni and Friends\,Faculty\,Interns and Residents\,Parents\,Postdoctoral
-  Fellows\,Staff\,Students (Graduate)\,Students (Postdoctoral)\,Students 
- (Undergraduate)
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=23312;TYPE=CustomAsset:Perform
- ance
-X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
- ter/Dance
-X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
- ol of Arts and Sciences
-X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Department / Area";ID=68507;TYP
- E=CustomAsset:Theatre\, Dance\, and Performance Studies department
-X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor Details";ID=23317;TYPE=SingleLi
- ne:Tufts Dance Program
-X-TRUMBA-CUSTOMFIELD;NAME="Admission/Cost";ID=23316;TYPE=SingleLine:Free
-  and Open to the Public
-X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Name";ID=23336;TYPE=SingleLine:
- Jenny Oliver
-X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Email";ID=23314;TYPE=Email:Jenn
- y.Oliver@tufts.edu
-X-TRUMBA-CUSTOMFIELD;NAME="Event Contact Phone";ID=23315;TYPE=SingleLine
- :617-627-2556
-X-TRUMBA-CUSTOMFIELD;NAME="Event image";ID=40;TYPE=Image:https://www.tru
- mba.com/i/DgBS59CYVJaMOnD23uTLkUYL.jpg
-DTSTAMP:20260323T144032Z
-DESCRIPTION:Building: Jackson Gym\nCity: Somerville\, MA 02144\nRoom: Da
- nce Lab\nCampus: Medford/Somerville campus\nLocation Details: Jackson Da
- nce Lab\, 50 Talbot Avenue\, Medford\, MA 02155\nWheelchair Accessible: 
- Yes\nOpen to Public: Yes\nPrimary Audience: Alumni and Friends\,Faculty
- \,Interns and Residents\,Parents\,Postdoctoral Fellows\,Staff\,Students (
- Graduate)\,Students (Postdoctoral)\,Students (Undergraduate)\nEvent Type
- : Performance\nEvent Subject: Theater/Dance\nEvent Sponsor: School of Ar
- ts and Sciences\nEvent Sponsor Department / Area: Theatre\, Dance\, and 
- Performance Studies department\nEvent Sponsor Details: Tufts Dance Progr
- am\nAdmission/Cost: Free and Open to the Public\nEvent Contact Name: Jen
- ny Oliver\nEvent Contact Email: Jenny.Oliver@tufts.edu\nEvent Contact Ph
- one: 617-627-2556\n\nConscious Movement: Swift Charakterz\, BreakSesh\, 
- and the Question of Commodification\n\nAn interactive demonstration of B
- reakin’ as community dance practice. Over the course of 45 minutes to an
-  hour\, Swift Charakterz invites you to get involved. The demonstration 
- blends workshop elements with an ongoing cypher\, allowing participants 
- to get involved to whatever degree they are interested in (e.g. observin
- g the cypher\, learning on the side one-on-one with members of the crew
- \, dancing the circle). There will be a DJ cutting the music live.\n\nFre
- e and open to the public. No registration required. Free parking availab
- le.
-CATEGORIES:Theatre, Dance, and Performance Studies
-IMAGE;VALUE=URI:https://www.trumba.com/i/DgBS59CYVJaMOnD23uTLkUYL.jpg
-UID:http://uid.trumba.com/event/198218465
-X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
- mbed=view%3devent%26eventid%3d198218465
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-ID:lyric_stage
-SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
-DTSTART;VALUE=DATE-TIME:20260327T200000
-DTEND;VALUE=DATE-TIME:20260327T223000
-UID:9ca0c84a58437f8c89bfb516ed0cf43c@lyricstage.com
-ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/Untitled-design-21.png
-DESCRIPTION:
-LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
-URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
- rgeous/
-X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260327T200000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260327T200000
-UID:3e0d43b43614aabcc29cfe69476171e1@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/the-antiquities/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:The Antiquities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T160000
-UID:6aa4a150c7317aaa6edba0f902dfa97a@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/03/FINAL-Antiq-900x900-BTS.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/the-antiquities/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/my-first-ex-husband/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:My First Ex-Husband By Joy Behar
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T160000
-UID:74b466eece853b31e23d071cea581d31@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 25/12/NI-JB-x-My-First-Ex-Hubby-Round-II.jpg?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:The Wimberly Theatre\, 527 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/my-first-ex-husban
- d/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Emerson Colonial Theatre": "https://www.ticketmaster.com/event/Z7r9jZ1A74fe_"}
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A743GV"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T140000
-UID:cba9268d5f9703d86d7a915dce9bad24@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/feb/61d81bcf-99c5-4
- 0ce-a678-c3bdd9b28feb_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A743GV
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:ticketmaster_emerson_colonial
 SUMMARY:Suffs
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T140000
@@ -3957,19 +3811,6 @@ URL:https://ci.ovationtix.com/177/production/1256975
 X-SOURCE:Wheelock Family Theatre
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1256971"}
-X-SOURCE-ID:ovationtix_wheelock
-SUMMARY:April 2026 - Page to Stage: Elephant & Piggie and Other Tales of F
- riendship (Grades 2-3)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260520T090000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260520T110000
-UID:770925d60a9afc5d0b242ca43cc986ad@ovationtix.com
-DESCRIPTION:
-LOCATION:Wheelock Family Theatre
-URL:https://ci.ovationtix.com/177/production/1256971
-X-SOURCE:Wheelock Family Theatre
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Ovationtix Wheelock": "https://ci.ovationtix.com/177/production/1256972"}
 X-SOURCE-ID:ovationtix_wheelock
 SUMMARY:April 2026 - Page to Stage: T.E.R.R.I.F.I.C. Tales: Classics Reima
@@ -4451,6 +4292,88 @@ DESCRIPTION:
 LOCATION:Central Square Theater
 URL:https://ci.ovationtix.com/2462/production/1245599
 X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Art": "https://ticket.americanrepertorytheater.org/7226/7363"}
+X-SOURCE-ID:art
+SUMMARY:Black Swan
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260529T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260529T220000
+UID:173af2cc9a87c2a7bb2da852ccd71657@americanrepertorytheater.org
+DESCRIPTION:
+LOCATION:American Repertory Theater\, Cambridge\, MA
+URL:https://ticket.americanrepertorytheater.org/7226/7363
+X-SOURCE:American Repertory Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/eureka-day/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Eureka Day
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260529T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260529T213000
+UID:59ae03616ed1e5579d643ea26f783109@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Eureka.jpg?resize=3
+ 00%2C300&gravity
+DESCRIPTION:
+LOCATION:The Huntington Theatre\, 264 Huntington Ave.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/eureka-day/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260529T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260529T213000
+UID:d27ff5b974b0527543cf8a2682fcad91@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245599"}
+X-SOURCE-ID:ovationtix_central_square
+SUMMARY:The Mystery of Irma Vep
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260529T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260529T213000
+UID:f262aee2b0e1d0a7250380ea6929dc1f@ovationtix.com
+DESCRIPTION:
+LOCATION:Central Square Theater
+URL:https://ci.ovationtix.com/2462/production/1245599
+X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260529T200000
+DTEND;VALUE=DATE-TIME:20260529T223000
+UID:c7ab138e0306a23038761a3f9162540e@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSx3"}
+X-SOURCE-ID:ticketmaster_emerson_colonial
+SUMMARY:An Evening with Darren Criss
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260529T200000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260529T200000
+UID:a3b359698d1a95026678817975e57e7e@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/3d3/c710ca29-a766-4
+ 592-8a38-bfbf9f37d3d3_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7OSx3
+X-SOURCE:Emerson Colonial Theatre
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}
