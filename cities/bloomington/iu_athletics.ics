@@ -5,29 +5,6 @@ X-WR-CALNAME:IU Athletics
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
 SUMMARY:IU Women's Golf vs Liz Murphey Collegiate
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T000000
-UID:eeb5f1eeedc54155b00b74dd53031f3f@iuhoosiers.com
-ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/26/9_Liz_Mu
- rphey.png
-DESCRIPTION:
-LOCATION:Athens\, Ga.
-URL:http://www.georgiadogs.com/
-X-SOURCE:IU Athletics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IU Men's Swimming and Diving vs NCAA Swimming and Diving Champions
- hips - Finals
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T180000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T180000
-UID:d76ca74875acca3e3bcab9d63553088a@iuhoosiers.com
-DESCRIPTION:
-LOCATION:Atlanta\, Ga.
-URL:http://www.ncaa.com/
-X-SOURCE:IU Athletics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IU Women's Golf vs Liz Murphey Collegiate
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260329T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260329T000000
 UID:61c17e82c9ffc70e980ff371ad447c9e@iuhoosiers.com
@@ -36,18 +13,6 @@ ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/26/9_Liz_Mu
 DESCRIPTION:
 LOCATION:Athens\, Ga.
 URL:http://www.georgiadogs.com/
-X-SOURCE:IU Athletics
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IU Women's Tennis vs Nebraska
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260329T120000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260329T120000
-UID:355030b685ed8346b648c678ed6e024b@iuhoosiers.com
-ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/logos/Nebraska_200
- x200.png
-DESCRIPTION:
-LOCATION:Bloomington\, Ind.
-URL:https://huskers.com/sports/womens-tennis
 X-SOURCE:IU Athletics
 END:VEVENT
 BEGIN:VEVENT
@@ -67,6 +32,8 @@ SUMMARY:IU Men's Golf vs Butler Spring Invitational
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260330T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260330T000000
 UID:d6c1d80e086146fb47c7b09a8aa9a3ff@iuhoosiers.com
+ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/29/Up_Next_
+ Wide.png
 DESCRIPTION:
 LOCATION:Indianapolis\, Ind.
 URL:http://butlersports.com
@@ -77,6 +44,8 @@ SUMMARY:IU Men's Golf vs Butler Spring Invitational
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260331T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260331T000000
 UID:68c5ef8e2990ea9a5d8e7f23760bb331@iuhoosiers.com
+ATTACH;FMTTYPE=image/jpeg:https://iuhoosiers.com/images/2026/3/29/Up_Next_
+ Wide.png
 DESCRIPTION:
 LOCATION:Indianapolis\, Ind.
 URL:http://butlersports.com
@@ -887,6 +856,26 @@ SUMMARY:IU Men's Golf vs NCAA Finals
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260529T000000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260529T000000
 UID:b9a3d98a91bdf3841155f05255b58d1f@iuhoosiers.com
+DESCRIPTION:
+LOCATION:Carlsbad\, Calif.
+URL:http://www.ncaa.com/
+X-SOURCE:IU Athletics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IU Women's Rowing vs NCAA Rowing Championships
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260530T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260530T000000
+UID:c6dfa2983539fef992a326ec946e3389@iuhoosiers.com
+DESCRIPTION:
+LOCATION:Gainesville\, Ga.
+URL:http://www.ncaa.com/
+X-SOURCE:IU Athletics
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IU Men's Golf vs NCAA Finals
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260530T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260530T000000
+UID:f7da4f38e12f6bf3eefc6c6adc1c32d7@iuhoosiers.com
 DESCRIPTION:
 LOCATION:Carlsbad\, Calif.
 URL:http://www.ncaa.com/

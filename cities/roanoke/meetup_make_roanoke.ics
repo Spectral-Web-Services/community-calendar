@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313574137@meetup.com
-SEQUENCE:1
-DTSTAMP:20260329T020649Z
-DTSTART;TZID=America/New_York:20260329T130000
-DTEND;TZID=America/New_York:20260329T160000
-SUMMARY:MEMBERS ONLY: Intro to Laser Engraving
-DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is thrilled to announce our very first laser engraving class! Come customize your very own slate coasters using our desktop 10W Diode Laser and the LightBurn software.\n\n**This class is for MAKE Roanoke members only. [Learn more about MAKE Roanoke membership here](mkroa.org/member).** This class will count as Tool Certification for the Diode Laser.\n\nThis class is suitable for beginners and is recommended for ages 16 and up.\n\n**Students must bring a laptop with the LightBurn software already installed.** It is also recommended to bring a separate computer mouse as it makes it much easier to navigate the software. You can download the software here: https://lightburnsoftware.com/pages/download-trial\n\n**Please note that MAKE Roanoke is an active workshop:**\n\n* All participants must have a signed waiver on file. If the participant is a minor\, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at https://mkroa.org/waiver\n* Children who are not participating in the event are not permitted in the space.\n* Closed toed shoes are required in the space at all times by everyone\, regardless of age or participation in an event. No sandals\, crocs\, or bare feet.\n* You may be asked to remove or tuck in dangling jewelry\, lanyards\, etc for safety.\n* Depending on the activity\, other dress code rules may apply.
-URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313574137/
-STATUS:CONFIRMED
-CREATED:20260228T161904Z
-LAST-MODIFIED:20260228T161904Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/3/3/e/600_532957694.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -72,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313620583@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260406T200000
 DTEND;TZID=America/New_York:20260406T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -87,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313714322@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260409T180000
 DTEND;TZID=America/New_York:20260409T190000
 SUMMARY:Maker Minis: Intro to Metrology
@@ -102,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313817917@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260411T100000
 DTEND;TZID=America/New_York:20260411T130000
 SUMMARY:MAKE Roanoke @ Go Green for Grandin
@@ -117,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313743231@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260411T130000
 DTEND;TZID=America/New_York:20260411T160000
 SUMMARY:Make a Cutting Board: A 2-Day Class
@@ -132,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312806304@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260411T160000
 DTEND;TZID=America/New_York:20260411T200000
 SUMMARY:MEMBERS (& Guests) ONLY: Community Craft Day
@@ -147,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312792001@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260413T180000
 DTEND;TZID=America/New_York:20260413T190000
 SUMMARY:MAKE Roanoke Virtual Community Meeting
@@ -162,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313768246@meetup.com
 SEQUENCE:1
-DTSTAMP:20260329T020649Z
+DTSTAMP:20260330T020848Z
 DTSTART;TZID=America/New_York:20260414T180000
 DTEND;TZID=America/New_York:20260414T200000
 SUMMARY:Joinery Techniques in Woodworking Maker Mini
@@ -173,6 +158,21 @@ CREATED:20260313T145147Z
 LAST-MODIFIED:20260313T145147Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/c/7/0/600_533175472.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313770844@meetup.com
+SEQUENCE:1
+DTSTAMP:20260330T020848Z
+DTSTART;TZID=America/New_York:20260415T170000
+DTEND;TZID=America/New_York:20260415T210000
+SUMMARY:Bite-Size Charity for MAKE Roanoke at Chipotle!
+DESCRIPTION:MAKE Roanoke\nMAKE Roanoke is hosting a fundraiser at the Bonsack Chipotle on Wednesday\, April 15 from 5-9 PM!\n\nSimply show [this flyer](https://drive.google.com/file/d/1QqveAdoivnnE97w7X42B67AuWoaSnj8C/view?usp=drive_link) at checkout or use code **FW87CPX** at checkout for pickup orders in the official Chipotle app or website.\n\nChipotle will donate 25% of the proceeds to MAKE Roanoke!\n\nMAKE Roanoke has raised nearly $800 thanks to these restaurant charities so far! We appreciate all of the support!
+URL;VALUE=URI:https://www.meetup.com/make-roanoke/events/313770844/
+STATUS:CONFIRMED
+CREATED:20260313T195740Z
+LAST-MODIFIED:20260313T195740Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/9/d/7/600_529375767.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/make-roanoke/events/ical/
 X-WR-CALNAME:MAKE Roanoke

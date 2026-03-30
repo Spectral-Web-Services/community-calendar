@@ -5,40 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Evanston Board Games Meetup
 X-WR-CALNAME:Evanston Board Games Meetup
-BEGIN:VTIMEZONE
-TZID:America/Chicago
-TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
-X-LIC-LOCATION:America/Chicago
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0600
-TZOFFSETTO:-0500
-TZNAME:CDT
-DTSTART:19700308T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0600
-TZNAME:CST
-DTSTART:19701101T020000
-RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:event_313484480@meetup.com
-SEQUENCE:1
-DTSTAMP:20260329T021010Z
-DTSTART;TZID=America/Chicago:20260329T130000
-DTEND;TZID=America/Chicago:20260329T160000
-SUMMARY:3/29 @ 1PM - Sunday Games at Sketchbook Evanston
-DESCRIPTION:Evanston Board Games Meetup\nJoin us at Sketchbook Brewing Company in Evanston for our Sunday Board Game Meetup!\n\nWe meet most Sundays at Sketchbook. Just look for the group in the back that has stacks of board games to pick from! We welcome people of all skill levels to come and play\, as we always teach new games to people that have not played them before.\n\nFeel free to bring your own games that you want to teach and are familiar with. A typical event starts with talking about what we brought that week\, and then we break out into smaller groups to play games based on player count and what everyone is interested in. It's common to have 2 or 3 games going at once\, and fitting in a second or third game before the event ends at 4pm. Please RSVP and be on time so that we can include you at the start of the first game\, and buy a drink to support the venue!
-URL;VALUE=URI:https://www.meetup.com/evanston-beer-and-board-games-meetup/events/313484480/
-STATUS:CONFIRMED
-CREATED:20260223T021101Z
-LAST-MODIFIED:20260223T021101Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/4/5/8/d/600_522617805.jpeg
-END:VEVENT
-X-ORIGINAL-URL:https://www.meetup.com/evanston-beer-and-board-games-meetup/events/ical/
+X-ORIGINAL-URL:https://www.meetup.com/evanston-beer-and-board-games-meetup
+ /events/ical/
 X-WR-CALNAME:Evanston Board Games Meetup
 END:VCALENDAR

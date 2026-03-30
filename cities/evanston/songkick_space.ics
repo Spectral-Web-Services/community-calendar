@@ -4,17 +4,6 @@ PRODID:-//SPACE//songkick.com//
 X-WR-CALNAME:SPACE
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Sean
-DTSTART;VALUE=DATE-TIME:20260329T150000
-DTEND;VALUE=DATE-TIME:20260329T150000
-UID:97bffe81b54743b449aff2536da2714d@songkick.com
-DESCRIPTION:Sean at SPACE at 2026-03-29T15:00:00-0500
-LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
-URL:http://www.songkick.com/concerts/43047578-sean-at-space?utm_medium=org
- anic&utm_source=microformat
-X-SOURCE:SPACE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Young Rell
 DTSTART;VALUE=DATE-TIME:20260330T200000
 DTEND;VALUE=DATE-TIME:20260330T200000
@@ -44,6 +33,17 @@ UID:65cb4db803c45097ad54587887241ba8@songkick.com
 DESCRIPTION:Mei Semones at SPACE at 2026-03-31T20:00:00-0500
 LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
 URL:http://www.songkick.com/concerts/42898418-mei-semones-at-space?utm_med
+ ium=organic&utm_source=microformat
+X-SOURCE:SPACE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mei Semones\, John Roseboro
+DTSTART;VALUE=DATE-TIME:20260401T200000
+DTEND;VALUE=DATE-TIME:20260401T200000
+UID:874085da8d6d5eb636e5bc1e46cac7b6@songkick.com
+DESCRIPTION:Mei Semones at SPACE at 2026-04-01T20:00:00-0500
+LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
+URL:http://www.songkick.com/concerts/42898416-mei-semones-at-space?utm_med
  ium=organic&utm_source=microformat
 X-SOURCE:SPACE
 END:VEVENT

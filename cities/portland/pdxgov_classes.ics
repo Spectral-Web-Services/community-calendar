@@ -4,23 +4,6 @@ PRODID:-//Portland Classes & Activities//portland.gov//
 X-WR-CALNAME:Portland Classes & Activities
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:School Break Play Swim
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260323T000000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260329T000000
-UID:82526782f2aa312698b8f77c21b431b1@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/DSC_0015.JPG?itok=l4FB12k8
-DESCRIPTION:During school breaks\, Portland Parks & Recreation community c
- enters adjust their Play Swim schedules to give families more opportunitie
- s to enjoy the pool during the day. Check this page for updated swim times
-  at each location during school holidays and breaks.
-LOCATION:East Portland Community Center 740 SE 106th Ave Portland\n       
-                    \, OR\n                           97216 Get directions 
- More about this location Matt Dishman Community Center
-URL:https://www.portland.gov/parks/events/2026/3/23/school-break-play-swim
-X-SOURCE:Portland Classes & Activities
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Supplier Registration - April 6\, 2026\, 10:00 AM-Noon
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260406T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260406T100000
@@ -375,6 +358,34 @@ DESCRIPTION:CMC students of this instructor perform their most recently le
 LOCATION:Community Music Center
 URL:https://www.portland.gov/parks/arts-culture/events/2026/5/29/piano-stu
  dents-zita-jefferson-recital-2-2
+X-SOURCE:Portland Classes & Activities
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Violin Students of Isabel Dammann in Recital
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260530T130000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260530T130000
+UID:e191a4bb63a63aeca3024226147522d6@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2023/cmc-event-image.2_0.jpg?itok=p-mqy3TG
+DESCRIPTION:CMC students of this instructor perform their most recently le
+ arned musical compositions for public enjoyment.
+LOCATION:Community Music Center
+URL:https://www.portland.gov/parks/arts-culture/events/2026/5/30/violin-st
+ udents-isabel-dammann-recital
+X-SOURCE:Portland Classes & Activities
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Piano Students of Melinda Messore in Recital
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260530T160000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260530T160000
+UID:0ce26b29e89a0ec257b0776d9a788209@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2023/cmc-event-image.2_0.jpg?itok=p-mqy3TG
+DESCRIPTION:CMC students of this instructor perform their most recently le
+ arned musical compositions for public enjoyment.
+LOCATION:Community Music Center
+URL:https://www.portland.gov/parks/arts-culture/events/2026/5/30/piano-stu
+ dents-melinda-messore-recital
 X-SOURCE:Portland Classes & Activities
 END:VEVENT
 END:VCALENDAR

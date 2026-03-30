@@ -4,30 +4,6 @@ PRODID:-//Brewsters Beer Garden//brewstersbeergarden.com//
 X-WR-CALNAME:Brewsters Beer Garden
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Tom Finch
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260329T000000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260329T030000Z
-UID:1788fa3e677ab6d3b9eb4deedbf8fd33@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1774413559530-QDRPF9MKQ0IKST2XDH5A/tom_finch.jpg
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/28/tom-finch
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Virgil Shaw
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260329T200000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260329T230000Z
-UID:2a9ccbf2455e37d812d662424c76f9ec@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1774116191288-LLBTD9B9JJAIOXPKM7TN/virgil_shaw.JPEG
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/3/20/virgil-shaw
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Matt Bolton
 DTSTART;TZID=UTC;VALUE=DATE-TIME:20260403T000000Z
 DTEND;TZID=UTC;VALUE=DATE-TIME:20260403T030000Z
@@ -645,6 +621,31 @@ ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/5/29/the-beer-scouts
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pacific Vibration
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260530T200000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260530T230000Z
+UID:0767ce6e430c70f64057523645b80c44@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1772566794686-6U5NKBX6ENRJ2JAOO7G6/pacific_vibratio
+ n.webp
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/30/pacific-vibration
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nate Lopez Band
+DTSTART;TZID=UTC;VALUE=DATE-TIME:20260531T000000Z
+DTEND;TZID=UTC;VALUE=DATE-TIME:20260531T030000Z
+UID:d1ea30ca276fcace1f6a7e0ee2d71714@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1772566947255-7ZAX56KU6XIR92RMPVNS/nate_lopez.png
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/5/30/nate-lopez-band
 X-SOURCE:Brewsters Beer Garden
 END:VEVENT
 END:VCALENDAR
