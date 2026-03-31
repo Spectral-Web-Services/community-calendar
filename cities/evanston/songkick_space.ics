@@ -4,17 +4,6 @@ PRODID:-//SPACE//songkick.com//
 X-WR-CALNAME:SPACE
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Young Rell
-DTSTART;VALUE=DATE-TIME:20260330T200000
-DTEND;VALUE=DATE-TIME:20260330T200000
-UID:c9e0ee972549566c5be18e37cbfc2f95@songkick.com
-DESCRIPTION:Young Rell at SPACE at 2026-03-30T20:00:00-0500
-LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
-URL:http://www.songkick.com/concerts/42952057-young-rell-at-space?utm_medi
- um=organic&utm_source=microformat
-X-SOURCE:SPACE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Glen Hansard
 DTSTART;VALUE=DATE-TIME:20260331T200000
 DTEND;VALUE=DATE-TIME:20260331T200000
@@ -45,6 +34,17 @@ DESCRIPTION:Mei Semones at SPACE at 2026-04-01T20:00:00-0500
 LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
 URL:http://www.songkick.com/concerts/42898416-mei-semones-at-space?utm_med
  ium=organic&utm_source=microformat
+X-SOURCE:SPACE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mali Obomsawin
+DTSTART;VALUE=DATE-TIME:20260402T193000
+DTEND;VALUE=DATE-TIME:20260402T193000
+UID:e22c8abb08d0849424298bc2a4ec9a6b@songkick.com
+DESCRIPTION:Mali Obomsawin at SPACE at 2026-04-02T19:30:00-0500
+LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
+URL:http://www.songkick.com/concerts/43027720-mali-obomsawin-at-space?utm_
+ medium=organic&utm_source=microformat
 X-SOURCE:SPACE
 END:VEVENT
 END:VCALENDAR

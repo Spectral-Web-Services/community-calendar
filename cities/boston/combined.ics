@@ -7,47 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Suffs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260329T130000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260329T130000
-UID:d2be06d82d98db725a8f5f93c13df535@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4
- f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston Street\, Boston\, MA
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-ID:lyric_stage
-SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
-DTSTART;VALUE=DATE-TIME:20260329T150000
-DTEND;VALUE=DATE-TIME:20260329T173000
-UID:7f569569a3d93089758a2107533ad141@lyricstage.com
-ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/Untitled-design-21.png
-DESCRIPTION:
-LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
-URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
- rgeous/
-X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Emerson Colonial": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSxo"}
-X-SOURCE-ID:ticketmaster_emerson_colonial
-SUMMARY:Good Writing: An Evening with Anne Lamott & Neal Allen
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260330T193000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260330T193000
-UID:ee746346e45a470a0c55dfdc4aee85f9@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/d54/538d3056-cb9b-4
- 6fd-a390-6d12da262d54_735791_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Emerson Colonial Theatre\, 106 Boylston St.\, Boston\, MA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7OSxo
-X-SOURCE:Emerson Colonial Theatre
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/the-outsiders-touring-boston-massachusetts-03-31-2026/event/01006348F963AD50"}
 X-SOURCE-ID:ticketmaster_citizens_opera
 SUMMARY:The Outsiders (Touring)
@@ -4328,6 +4287,75 @@ DESCRIPTION:
 LOCATION:The Huntington Theatre\, 264 Huntington Ave.\, Boston\, MA
 URL:https://www.bostontheatrescene.com/shows-and-events/eureka-day/
 X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260531T130000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260531T150000
+UID:5252a08407f507c2f7fe0d6bf2a92b76@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245599"}
+X-SOURCE-ID:ovationtix_central_square
+SUMMARY:The Mystery of Irma Vep
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260531T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260531T160000
+UID:1d363040055dda8926d71a3c355872ed@ovationtix.com
+DESCRIPTION:
+LOCATION:Central Square Theater
+URL:https://ci.ovationtix.com/2462/production/1245599
+X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260531T150000
+DTEND;VALUE=DATE-TIME:20260531T173000
+UID:5225a40a784107546fd7c8428bf63456@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/eureka-day/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Eureka Day
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260531T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260531T210000
+UID:ddd168a24336af57ce606ba8e828f707@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Eureka.jpg?resize=3
+ 00%2C300&gravity
+DESCRIPTION:
+LOCATION:The Huntington Theatre\, 264 Huntington Ave.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/eureka-day/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Art": "https://ticket.americanrepertorytheater.org/7226/7365"}
+X-SOURCE-ID:art
+SUMMARY:Black Swan
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260531T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260531T220000
+UID:09bcbb42bac0ab4fa2c361142f1bd276@americanrepertorytheater.org
+DESCRIPTION:
+LOCATION:American Repertory Theater\, Cambridge\, MA
+URL:https://ticket.americanrepertorytheater.org/7226/7365
+X-SOURCE:American Repertory Theater
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}

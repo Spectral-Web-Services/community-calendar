@@ -56,16 +56,4 @@ SUMMARY:Matsu Outdoorsman Show
 UID:993
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.cityofwasilla.gov/calendar.aspx?EID=992
-DTEND;TZID=America/Anchorage;VALUE=DATE:20260329
-DTSTAMP;TZID=America/Anchorage:20260304T101927
-DTSTART;TZID=America/Anchorage;VALUE=DATE:20260327
-LAST-MODIFIED;TZID=America/Anchorage:20260304T101927
-LOCATION:Ice Arena - 1001 S Clapp Street  Wasilla AK 99654
-SEQUENCE:0
-SUMMARY:10UA State Hockey Tournament
-UID:992
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
-END:VEVENT
 END:VCALENDAR

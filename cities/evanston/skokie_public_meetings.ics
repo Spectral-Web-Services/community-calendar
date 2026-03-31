@@ -4571,6 +4571,19 @@ UID:4602
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4729
+DTEND;TZID=America/Chicago:20260420T190000
+DTSTAMP;TZID=America/Chicago:20260330T165535
+DTSTART;TZID=America/Chicago:20260420T173000
+LAST-MODIFIED;TZID=America/Chicago:20260330T165535
+LOCATION:Skokie Village Hall > Conference Rooms D&E - 5127 Oakton Street  
+ Skokie IL 60077
+SEQUENCE:0
+SUMMARY:Committee of the Whole
+UID:4729
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=3489
 DTEND;TZID=America/Chicago:20260416T220000
 DTSTAMP;TZID=America/Chicago:20240716T122308
@@ -4687,6 +4700,19 @@ UID:4311
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4637
+DTEND;TZID=America/Chicago:20260407T200000
+DTSTAMP;TZID=America/Chicago:20260330T165524
+DTSTART;TZID=America/Chicago:20260407T190000
+LAST-MODIFIED;TZID=America/Chicago:20260330T165524
+LOCATION:Skokie Village Hall > Conference Room A - 5127 Oakton Street  Sko
+ kie IL 60077
+SEQUENCE:0
+SUMMARY:Technology Advancement and Transformation Commission
+UID:4637
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4325
 DTEND;TZID=America/Chicago:20260406T235900
 DTSTAMP;TZID=America/Chicago:20251105T140738
@@ -4697,19 +4723,6 @@ LOCATION:Skokie Village Hall > Council Chambers - 5127 Oakton Street  Skok
 SEQUENCE:0
 SUMMARY:Village Board Meeting
 UID:4325
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.skokie.org/calendar.aspx?EID=4637
-DTEND;TZID=America/Chicago:20260331T200000
-DTSTAMP;TZID=America/Chicago:20260123T114633
-DTSTART;TZID=America/Chicago:20260331T190000
-LAST-MODIFIED;TZID=America/Chicago:20260123T114633
-LOCATION:Skokie Village Hall > Conference Room A - 5127 Oakton Street  Sko
- kie IL 60077
-SEQUENCE:0
-SUMMARY:Technology Advancement and Transformation Commission
-UID:4637
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=25
 END:VEVENT
 END:VCALENDAR

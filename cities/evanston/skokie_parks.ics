@@ -5,38 +5,6 @@ X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Fairy Hunt
-DTSTART;VALUE=DATE-TIME:20260330T080000
-DTEND;VALUE=DATE-TIME:20260330T080000
-UID:f85f05bcd83afc2a9e3a0eb016ad3448@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/fairy-hunt26/?F_d=03-30-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Spring Break Camps at Emily Oaks
-DTSTART;VALUE=DATE-TIME:20260330T090000
-DTEND;VALUE=DATE-TIME:20260330T090000
-UID:4249a16441a7949361a277a9d6109b20@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/spring-break-camps-at-emily-oaks/?F
- _d=03-30-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Exploritorium Spring Break Hours
-DTSTART;VALUE=DATE-TIME:20260330T090000
-DTEND;VALUE=DATE-TIME:20260330T090000
-UID:abea9081f2a83b6408456d4167561ad7@skokieparks.org
-DESCRIPTION:
-LOCATION:Exploritorium
-URL:https://www.skokieparks.org/events/exploritorium-spring-break-hours/26
- /?F_d=03-30-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260331T080000
 DTEND;VALUE=DATE-TIME:20260331T080000
 UID:ffa3a3490e227f8ee36400be2461b574@skokieparks.org
@@ -1284,6 +1252,36 @@ DESCRIPTION:
 LOCATION:Oakton Community Center
 URL:https://www.skokieparks.org/events/adults-over-60-zsa-zsa--me-meeting-
  -working-with-celebrities/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Can You Canoe? (Family)
+DTSTART;VALUE=DATE-TIME:20260531T100000
+DTEND;VALUE=DATE-TIME:20260531T100000
+UID:a5db5c9430bc21bdfd1ab137447fc42a@skokieparks.org
+DESCRIPTION:
+LOCATION:Emily Oaks Nature Center
+URL:https://www.skokieparks.org/events/can-you-canoe-family26/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Victorian Garden Party
+DTSTART;VALUE=DATE-TIME:20260531T100000
+DTEND;VALUE=DATE-TIME:20260531T100000
+UID:0ce28c2d6bf3065903a48a98c1900b29@skokieparks.org
+DESCRIPTION:
+LOCATION:Skokie Heritage Museum
+URL:https://www.skokieparks.org/events/victorian-garden-party3/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boats and Beats
+DTSTART;VALUE=DATE-TIME:20260531T133000
+DTEND;VALUE=DATE-TIME:20260531T133000
+UID:5b504f53473035ecd6cf43af54c2b97c@skokieparks.org
+DESCRIPTION:
+LOCATION:Emily Oaks Nature Center
+URL:https://www.skokieparks.org/events/boats-and-beats-/
 X-SOURCE:Skokie Park District
 END:VEVENT
 END:VCALENDAR

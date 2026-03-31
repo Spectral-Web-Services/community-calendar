@@ -27,7 +27,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:event_313805122@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260401T191500
 DTEND;TZID=America/Los_Angeles:20260401T211500
 SUMMARY:Chabad S. Clara - Passover Seder! (100+ attending)
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313917102@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260405T084500
 DTEND;TZID=America/Los_Angeles:20260405T114500
 SUMMARY:MJ - Hike (10+ attending)
@@ -57,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313871326@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260411T094500
 DTEND;TZID=America/Los_Angeles:20260411T114500
 SUMMARY:JYA - Sequoia Aerial Adventure
@@ -72,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313917105@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260412T084500
 DTEND;TZID=America/Los_Angeles:20260412T114500
 SUMMARY:MJ - Hike (10+ attending)
@@ -87,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313871328@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260415T190000
 DTEND;TZID=America/Los_Angeles:20260415T210000
 SUMMARY:ENGAJ - April Happy Hour
@@ -102,7 +102,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313917106@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260419T084500
 DTEND;TZID=America/Los_Angeles:20260419T114500
 SUMMARY:MJ - Hike (10+ attending)
@@ -117,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313917107@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260426T084500
 DTEND;TZID=America/Los_Angeles:20260426T114500
 SUMMARY:MJ - Hike (10+ attending)
@@ -130,9 +130,24 @@ CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/6/8/b/600_533353963.jpeg
 END:VEVENT
 BEGIN:VEVENT
+UID:event_314041658@meetup.com
+SEQUENCE:1
+DTSTAMP:20260331T020804Z
+DTSTART;TZID=America/Los_Angeles:20260430T193000
+DTEND;TZID=America/Los_Angeles:20260430T213000
+SUMMARY:Z3 Project - OFJCC - War\, Destiny and Responsibility: Israel and the Future of J
+DESCRIPTION:Mountain Jew\n🔒 Want to attend? This Meetup won't show location or tickets — full access is in the "About Mountain Jew" section below.\nJoin Yossi Klein Halevi\, Shalom Hartman Institute Senior Fellow\, and Zack Bodner\, OFJCC President and CEO\, as they discuss how this historic moment is redefining the meaning of Jewish peoplehood.\nIsrael and the Jewish people are living through one of the most consequential and uncertain periods in recent history. What began in the aftermath of October 7 has evolved into a broader and more volatile regional conflict\, including direct confrontation with Iran\, reshaping the security landscape and reverberating across Jewish communities worldwide.\nJoin Zack Bodner\, President and CEO of the Oshman Family JCC\, as he interviews acclaimed author and Shalom Hartman Institute Senior Fellow Yossi Klein Halevi in a wide-ranging public conversation about how this historic moment is transforming Israeli society and redefining the meaning of Jewish peoplehood. Together they will explore questions of resilience\, moral responsibility\, solidarity and the evolving relationship between Israel and Jews around the world.\nThis timely program offers an opportunity to step back from daily headlines and engage thoughtfully with the deeper challenges and possibilities shaping Jewish life in the months and years ahead.\n——————————————————\n✡️ About Mountain Jew\nMountain Jew is a community exclusively for Jewish young professionals in the Bay Area. Jewish people make up less than 0.2% of the world's population\, so having spaces like this to connect with one another is incredibly meaningful — we kindly ask that this be respected.\nThis is where people don't just show up to events — they actually meet\, connect\, and build real friendships. From hikes to dinners to social gatherings\, it's a community that's active\, welcoming\, and easy to plug into.For the comfort and safety of our members\, full event details (including exact locations) are shared only with verified MJ members.\n➡️ Join us: https://mountainjew.org\nGet verified to access the full calendar\, RSVP to events\, and join the WhatsApp community.
+URL;VALUE=URI:https://www.meetup.com/mountain-jew/events/314041658/
+STATUS:CONFIRMED
+CREATED:20260330T181236Z
+LAST-MODIFIED:20260330T181236Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/1/c/a/1/600_533467329.jpeg
+END:VEVENT
+BEGIN:VEVENT
 UID:event_313917108@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260503T084500
 DTEND;TZID=America/Los_Angeles:20260503T114500
 SUMMARY:MJ - Hike (10+ attending)
@@ -147,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313917109@meetup.com
 SEQUENCE:1
-DTSTAMP:20260330T021137Z
+DTSTAMP:20260331T020804Z
 DTSTART;TZID=America/Los_Angeles:20260510T084500
 DTEND;TZID=America/Los_Angeles:20260510T114500
 SUMMARY:MJ - Hike (10+ attending)
@@ -158,21 +173,6 @@ CREATED:20260323T210421Z
 LAST-MODIFIED:20260323T210421Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/6/8/5/600_533353957.jpeg
-END:VEVENT
-BEGIN:VEVENT
-UID:event_313917110@meetup.com
-SEQUENCE:1
-DTSTAMP:20260330T021137Z
-DTSTART;TZID=America/Los_Angeles:20260517T084500
-DTEND;TZID=America/Los_Angeles:20260517T114500
-SUMMARY:MJ - Hike (10+ attending)
-DESCRIPTION:Mountain Jew\n🔒 Want to attend? This Meetup won't show location or tickets — full access is in the "About Mountain Jew" section below.\n🌄 MJ Hikes — Good views\, great people\, and a rotating crew of young Jewish professionals hitting scenic trails every Sunday (\\~45 min from Mountain View). Hikes typically run 2–4 hours.\n📍 Location\nShared with verified MJ members only for security.\n🥾 What to expect\n• Social\, welcoming group\n• All levels welcome (check the specific hike details)\n• A great way to meet people and get outside\n——————————————————\n✡️ About Mountain Jew\nMountain Jew is a community exclusively for Jewish young professionals in the Bay Area. Jewish people make up less than 0.2% of the world's population\, so having spaces like this to connect with one another is incredibly meaningful — we kindly ask that this be respected.\nThis is where people don't just show up to events — they actually meet\, connect\, and build real friendships. From hikes to dinners to social gatherings\, it's a community that's active\, welcoming\, and easy to plug into.For the comfort and safety of our members\, full event details (including exact locations) are shared only with verified MJ members.\n➡️ Join us: https://mountainjew.org\nGet verified to access the full calendar\, RSVP to events\, and join the WhatsApp community.
-URL;VALUE=URI:https://www.meetup.com/mountain-jew/events/313917110/
-STATUS:CONFIRMED
-CREATED:20260323T210423Z
-LAST-MODIFIED:20260323T210423Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/3/6/7/f/600_533353951.jpeg
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/mountain-jew/events/ical/
 X-WR-CALNAME:Mountain Jew

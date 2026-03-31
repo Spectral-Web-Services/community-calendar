@@ -4,22 +4,6 @@ PRODID:-//CitySpark Bloomington//cityspark.com//
 X-WR-CALNAME:CitySpark Bloomington
 X-WR-TIMEZONE:America/Indiana/Indianapolis
 BEGIN:VEVENT
-SUMMARY:‘Frog and Toad' Chorus Wetland Walk with Monroe County Public Li
- brary
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260330T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260330T000000
-UID:251004fJ7BlggVfEuuKhhoZPpJdg
-ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
- ortalimages/portalimages/QDnvKxREHkyMO8p4NakdOg.large.png
-DESCRIPTION:Join Sycamore Land Trust for a guided evening hike through the
-  wetlands of Beanblossom Bottoms Nature Preserve \\(N. Woodall Road\, Elle
- ttsville\\). Ages 7-12 with their caregivers. Please register  h
-LOCATION:Beanblossom Bottoms Nature Preserve
-URL:https://sycamorelandtrust.org/2023/03/frog-and-toad-chorus-wetland-wal
- k-with-monroe-county-public-library/
-X-SOURCE:CitySpark Bloomington
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Daniel Tosh: My First Farewell Tour
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260331T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260331T190000
@@ -57,6 +41,18 @@ DESCRIPTION:Mayor Kerry Thomson will take the stage for Bloomington’s 2
 LOCATION:Buskirk Chumley Theater
 URL:https://buskirkchumley.org/events/2026-state-of-the-city-march-31-2026
  /
+X-SOURCE:CitySpark Bloomington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beginner Instrument Choosing Appointment Night
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260331T170000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260331T190000
+UID:2603304KK6KPNjEU665mtHD23b5g
+ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
+ ortalimages/portalimages/4fb59b77-31f8-45fa-a703-81aaa1516118.large.png
+DESCRIPTION:For 5th graders and any current 6th graders not in band.
+LOCATION:Edgewood Junior High School
+URL:https://www.rbbschools.net/calendar1
 X-SOURCE:CitySpark Bloomington
 END:VEVENT
 BEGIN:VEVENT
@@ -210,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260402T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260402T193000
-UID:260329RYfZd0DstUuloFUQ597tuA
+UID:260331u699d34COEe06sZmPpMlIA
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -364,7 +360,7 @@ BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260403T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260403T193000
-UID:260329iRaPy-bd10ucVHjzsLrhyA
+UID:260331R1Av5V0rm0WDTI-58Lo-tA
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -599,10 +595,24 @@ URL:https://cityspark.com/calendar/#/details/indiana-hoosiers-vs-rutgers-s
 X-SOURCE:CitySpark Bloomington
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Meet the Artist: Constance Scopelitis
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260403T170000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260403T200000
+UID:260330SRi9nMyRv0-bkMl0QuZJpQ
+ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
+ ortalimages/portalimages/3hL_zdNt1UydXCR8ulmNsw.large.png
+DESCRIPTION:Join International Art Project for Gallery Walk and an opportu
+ nity to meet Indianapolis-based artist\, Constance Scopelitis.
+LOCATION:Foundation at 212
+URL:https://cityspark.com/calendar/#/details/meet-the-artist-constance-sco
+ pelitis/18471368/2026-04-03T17
+X-SOURCE:CitySpark Bloomington
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260404T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260404T140000
-UID:260329wk_ukjyRAka_tai-myvS0g
+UID:260331CyGh9_nSuE6j1045PHupxA
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -809,6 +819,19 @@ URL:https://cityspark.com/calendar/#/details/indiana-hoosiers-vs-rutgers-s
 X-SOURCE:CitySpark Bloomington
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:April Pictura Kids | Rania Matar
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260404T110000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260404T120000
+UID:260330JOZcjL9IlkqfdTctYpAgRw
+ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
+ ortalimages/portalimages/jmq5APlGJ0G6CwNPY55Gdg.large.png
+DESCRIPTION:Watercolor Placescapes
+LOCATION:FAR Center for Contemporary Arts
+URL:https://cityspark.com/calendar/#/details/april-pictura-kids-rania-mata
+ r/18471372/2026-04-04T11
+X-SOURCE:CitySpark Bloomington
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BA SCIN Alliance Meeting - Presentation on Human Trafficking in Mo
  nroe Cnty
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260404T110000
@@ -827,7 +850,7 @@ BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260405T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260405T140000
-UID:260329NLNCzCY1ykauY2UXzmL-TA
+UID:260331eG-ES_gT2UmC7YUTfGbtBQ
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -1062,7 +1085,7 @@ BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260408T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260408T193000
-UID:260329_690nFpg8kCSuA3l60f42Q
+UID:260331P46PlC5Fk0-96vBfgzHm5w
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code\,”
@@ -1253,7 +1276,7 @@ BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260409T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260409T193000
-UID:260329whm0ZXSbyUGSgwXtUheB2g
+UID:260331qjjm1JRH0UuxcW_1ajZtyw
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -1484,7 +1507,7 @@ BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T193000
-UID:260329bPhdxEfGZU6CU74MPSU8CA
+UID:260331nxAYvCZsQkSRpMy3QD4PdQ
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -1692,9 +1715,34 @@ X-SOURCE:CitySpark Bloomington
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T140000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T140000
+UID:260331b65z5DgUSUWrhDg66pLBWw
+ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
+ ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
+DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
+ e on Stage\,” on stage March 26 - April 12 at the Waldron Auditorium. \
+ n\nDan Brown’s international best-seller comes to life on stage in this 
+ thrilling\, high-stakes adventure! When the curator of the Louvre is found
+  murdered under mysterious circumstances\, symbologist Robert Langdon and 
+ cryptologist Sophie Neveu are thrust into an investigation that quickly un
+ ravels into a deadly conspiracy. As they follow a trail of cryptic puzzles
+  and ancient codes\, they discover a secret that could change the course o
+ f history. Packed with pulse-pounding suspense and stunning visuals\, The 
+ Da Vinci Code is an exhilarating journey into the unknown. Recommended for
+  ages 13\\+.\n\nSee Constellation’s website for more information\, inclu
+ ding a detailed performance schedule. Learn more and find tickets at https
+ ://seeconstellation.org/mainstage/da-vinci-code/
+LOCATION:Waldron Auditorium
+URL:https://cityspark.com/calendar/#/details/the-davinci-code-live-on-stag
+ e/16852172/2026-04-11T14
+X-SOURCE:CitySpark Bloomington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T193000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T193000
-UID:260329d1fZE0jY_kGZMHAmFqk1BQ
+UID:260331BYoSAB9pXEie8nwxRlZEgg
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -1719,7 +1767,7 @@ BEGIN:VEVENT
 SUMMARY:Indiana Brewers Guild Springfest
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T180000
-UID:260329Oq3ZcdDfE0yExatol8A4sg
+UID:260330AKXwLDSQ9US8Y2l9ZAwCVQ
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/zG7c129HlUqI7pn4Pnesmw.large.png
 DESCRIPTION:Join the Indiana Brewers Guild for our annual spring fundraise
@@ -1743,31 +1791,6 @@ DESCRIPTION:Join the Indiana Brewers Guild for our annual spring fundraise
  refunds or exchanges.
 LOCATION:The Woolery Mill
 URL:https://tickets.drinkin.beer/e/springfest?aff=cityspark
-X-SOURCE:CitySpark Bloomington
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The DaVinci Code- Live on Stage
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T140000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T140000
-UID:260329EppalRfnD0uZYCstup2ndw
-ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
- ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
-DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
- e on Stage\,” on stage March 26 - April 12 at the Waldron Auditorium. \
- n\nDan Brown’s international best-seller comes to life on stage in this 
- thrilling\, high-stakes adventure! When the curator of the Louvre is found
-  murdered under mysterious circumstances\, symbologist Robert Langdon and 
- cryptologist Sophie Neveu are thrust into an investigation that quickly un
- ravels into a deadly conspiracy. As they follow a trail of cryptic puzzles
-  and ancient codes\, they discover a secret that could change the course o
- f history. Packed with pulse-pounding suspense and stunning visuals\, The 
- Da Vinci Code is an exhilarating journey into the unknown. Recommended for
-  ages 13\\+.\n\nSee Constellation’s website for more information\, inclu
- ding a detailed performance schedule. Learn more and find tickets at https
- ://seeconstellation.org/mainstage/da-vinci-code/
-LOCATION:Waldron Auditorium
-URL:https://cityspark.com/calendar/#/details/the-davinci-code-live-on-stag
- e/16852172/2026-04-11T14
 X-SOURCE:CitySpark Bloomington
 END:VEVENT
 BEGIN:VEVENT
@@ -1982,7 +2005,7 @@ BEGIN:VEVENT
 SUMMARY:The DaVinci Code- Live on Stage
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260412T140000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260412T140000
-UID:260329qPC7-HlRXEipaB-wol02xg
+UID:2603313nqnjM65g0y2umBJWoC4xQ
 ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
  ortalimages/portalimages/sx5CwY4p8kyF3yc62mr98Q.large.jpg
 DESCRIPTION:Constellation Stage & Screen presents “The DaVinci Code- Liv
@@ -3417,6 +3440,26 @@ URL:https://www.playpensports.com/
 X-SOURCE:CitySpark Bloomington
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Run With The Squirrels
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260426T120000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260426T120000
+UID:260329g0CTUM0AJ0W70Ky-Ao0GYA
+ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
+ ortalimages/portalimages/6b0740b7-96f4-4f6c-9470-9888d45d4930.large.png
+DESCRIPTION:Run With The Squirrels \\(RWTS\\) ….Sunday April 26\, 2026\n
+ \nDistances of 5k\, 10k\, 10 mile and half marathon.\n\nLow cost and low f
+ rills. No finisher medals\, just the satisfaction that you did something a
+ mazing out in mother nature…WooHoo!\n\nThere will be basic aid stations 
+ for the 10k\, 10 miler\, and 13.1 mile events.\n\nRace fee does not includ
+ e a T shirt. This has been a request by numerous runners to decrease on wa
+ ste.\n\nIf you would like to purchase one you have the option to make it a
+ n add-on for $15. You must add the shirt before APRIL 10th. There might be
+  limited quantities on hand on race day.\n\nCome join us and lets have som
+ e trail fun…WooHoo!
+URL:https://indyrunners.org/view-race-details/run-with-the-squirrels/
+X-SOURCE:CitySpark Bloomington
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:"Art as Inquiry\," A Gallery Show
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260426T120000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260426T180000
@@ -3475,26 +3518,6 @@ DESCRIPTION:
 LOCATION:Bart Kaufman Field
 URL:https://cityspark.com/calendar/#/details/indiana-hoosiers-vs-iowa-hawk
  eyes/16743031/2026-04-26T00
-X-SOURCE:CitySpark Bloomington
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Run With The Squirrels
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260426T120000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260426T120000
-UID:260329g0CTUM0AJ0W70Ky-Ao0GYA
-ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
- ortalimages/portalimages/6b0740b7-96f4-4f6c-9470-9888d45d4930.large.png
-DESCRIPTION:Run With The Squirrels \\(RWTS\\) ….Sunday April 26\, 2026\n
- \nDistances of 5k\, 10k\, 10 mile and half marathon.\n\nLow cost and low f
- rills. No finisher medals\, just the satisfaction that you did something a
- mazing out in mother nature…WooHoo!\n\nThere will be basic aid stations 
- for the 10k\, 10 miler\, and 13.1 mile events.\n\nRace fee does not includ
- e a T shirt. This has been a request by numerous runners to decrease on wa
- ste.\n\nIf you would like to purchase one you have the option to make it a
- n add-on for $15. You must add the shirt before APRIL 10th. There might be
-  limited quantities on hand on race day.\n\nCome join us and lets have som
- e trail fun…WooHoo!
-URL:https://indyrunners.org/view-race-details/run-with-the-squirrels/
 X-SOURCE:CitySpark Bloomington
 END:VEVENT
 BEGIN:VEVENT
@@ -5515,6 +5538,43 @@ DESCRIPTION:Stone Belt is proud to announce The Sixth Annual Belt Out Loud
 LOCATION:Buskirk Chumley Theater
 URL:https://cityspark.com/calendar/#/details/belt-out-loud-featuring-cody-
  ikerd-and-the-sidewinders/17994759/2026-05-30T19
+X-SOURCE:CitySpark Bloomington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fifth Sunday Instruction / Primary
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260531T124000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260531T133000
+UID:2512230UyBVG9nNUyI8LVotyGLQg
+ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
+ ortalimages/portalimages/dZ38QnB6fU60Wy6-XazUIQ.large.png
+DESCRIPTION:Special fifth Sunday instruction and Primary classes.
+LOCATION:The Church of Jesus Christ of Latter-day Saints
+URL:https://cityspark.com/calendar/#/details/fifth-sunday-instruction-prim
+ ary/17703187/2026-05-31T12
+X-SOURCE:CitySpark Bloomington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Turtle Feeding
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260531T103000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260531T110000
+UID:250911xL7zNXifyUmFI5JQlyLUmQ
+ATTACH;FMTTYPE=image/jpeg:https://citysparkstorage.blob.core.windows.net/p
+ ortalimages/portalimages/O330VgnfgkWT3M9XENdZeA.large.png
+DESCRIPTION:Come see our local Red-eared Slider hunt for fish. This progra
+ m is held at the Canyon Inn.  \n\nNature Center is open every day from 10 
+ am-5 pm EDT in April-Novemember \n\nUpcoming programs can be seen by visit
+ ing on.in.gov/mccormickscreek\n\nOur interpretive programs are designed to
+  entertain and enrich folks of all ages. Children under 12 must have an ad
+ ult with them at the programs.\n\nRegistration is not required for program
+ s \\(unless stated\\). All our programs are free \\(unless otherwise noted
+ \\). They are open to the public after paying the park entrance fee \\($7 
+ in-state & $12 out-of-state\\).\n\nAll our Interpretive programs are liste
+ d in Eastern Daylight Savings Time.\n\n\\*Note that during peak visitation
+  times\, entry into our park might be delayed. The drive to the Nature Cen
+ ter can take 8 minutes. Please plan accordingly. \\*\n\nIf you need more i
+ nformation\, call 812-829-2235 ext. 2
+LOCATION:McCormick's Creek State Park
+URL:https://events.in.gov/event/turtle-feeding-mccormicks-creek-state-park
 X-SOURCE:CitySpark Bloomington
 END:VEVENT
 END:VCALENDAR

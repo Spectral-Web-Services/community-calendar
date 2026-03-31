@@ -16,4 +16,31 @@ LOCATION:Oregon Zoo\, 4001 SW Canyon Road\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/hop
 X-SOURCE:Oregon Zoo
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Earth Week
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260420T000000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260420T000000
+UID:3b12a44bd70bb734836da8070f1484cd@oregonzoo.org
+ATTACH;FMTTYPE=image/jpeg:https://www.oregonzoo.org/sites/default/files/20
+ 24-06/h-milky-eagle-owl.jpg
+DESCRIPTION:This is your week to roam\, learn\, play—and see Washington 
+ Park in a whole new way.
+LOCATION:Oregon Zoo\, 4001 SW Canyon Road\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/events/earth-week
+X-SOURCE:Oregon Zoo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Early Member Mornings
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260517T080000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260517T084500
+UID:af2f52f87cb66abec3c6058075a3e8e9@oregonzoo.org
+ATTACH;FMTTYPE=image/jpeg:https://www.oregonzoo.org/sites/default/files/20
+ 23-08/h-mountain-goat-rock.jpg
+DESCRIPTION:Enjoy the sights and sounds of the animal kingdom before the z
+ oo opens to the public! This members-only experience is available on selec
+ t Sundays.
+LOCATION:Oregon Zoo\, 4001 SW Canyon Road\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/events/early-member-mornings-0
+X-SOURCE:Oregon Zoo
+END:VEVENT
 END:VCALENDAR

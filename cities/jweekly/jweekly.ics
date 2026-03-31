@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//J. - ECPv6.15.17//NONSGML v1.0//EN
+PRODID:-//J. - ECPv6.15.18//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:J.
@@ -49,100 +49,9 @@ DTSTART:20271107T090000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T100000
-DTEND;TZID=America/Los_Angeles:20260329T120000
-DTSTAMP:20260329T191113
-CREATED:20260317T173921Z
-LAST-MODIFIED:20260317T173921Z
-UID:301230-1774778400-1774785600@jweekly.com
-SUMMARY:Fun & Sports with Family
-DESCRIPTION:Games and crafts for kids with disabilities and their loved ones\, with volunteers to help guide participants through stations.
-URL:https://jweekly.com/event/fun-sports-with-family/
-LOCATION:Addison-Penzak JCC\, 14855 Oka Road\, Los Gatos\, CA\, United States
-CATEGORIES:Kids & Family
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T101500
-DTEND;TZID=America/Los_Angeles:20260329T101500
-DTSTAMP:20260329T191113
-CREATED:20260303T191556Z
-LAST-MODIFIED:20260303T191556Z
-UID:300354-1774779300-1774779300@jweekly.com
-SUMMARY:“Silly Singing Seder”
-DESCRIPTION:Jewish Baby Network and Congregation Etz Chayim invite families with children 5 and under to celebrate Passover with songs\, crafts and inspiration for kid-friendly seders.
-URL:https://jweekly.com/event/silly-singing-seder-4/
-LOCATION:Congregation Etz Chayim\, 4161 Alma St.\, Palo Alto\, CA\, United States
-CATEGORIES:Holidays & Spiritual,Kids & Family
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T120000
-DTEND;TZID=America/Los_Angeles:20260329T150000
-DTSTAMP:20260329T191113
-CREATED:20260317T174040Z
-LAST-MODIFIED:20260317T174040Z
-UID:301232-1774785600-1774796400@jweekly.com
-SUMMARY:“You Know the Heart of the Stranger”
-DESCRIPTION:Hands-on art collage workshop for Passover with artist-facilitators Sheridan Gold and Sally Churgel.
-URL:https://jweekly.com/event/you-know-the-heart-of-the-stranger/
-LOCATION:Congregation Ner Shalom\, 85 La Plaza\,\, Cotati\, CA\, United States
-CATEGORIES:Art,Holidays & Spiritual
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T140000
-DTEND;TZID=America/Los_Angeles:20260329T150000
-DTSTAMP:20260329T191113
-CREATED:20260317T173802Z
-LAST-MODIFIED:20260317T173802Z
-UID:301228-1774792800-1774796400@jweekly.com
-SUMMARY:American Jewish Activists
-DESCRIPTION:Elaine Leeder\, dean emerita of social sciences at Sonoma State University\, discusses the history of Jewish activism in the 20th century. Presented by the Jewish Community Library in partnership with Workers Circle/Arbeter Ring of Northern California.
-URL:https://jweekly.com/event/american-jewish-activists/
-LOCATION:Jewish Community Library\, 1835 Ellis St.\, San Francisco\, CA\, United States
-CATEGORIES:Books
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T160000
-DTEND;TZID=America/Los_Angeles:20260329T160000
-DTSTAMP:20260329T191113
-CREATED:20260303T191721Z
-LAST-MODIFIED:20260303T191721Z
-UID:300356-1774800000-1774800000@jweekly.com
-SUMMARY:"Spin Me a Shadow\, Tell Me a Folk Tale"
-DESCRIPTION:Daniel Barash of Firelight Shadow Theater performs folktales with shadow puppets.
-URL:https://jweekly.com/event/spin-me-a-shadow-tell-me-a-folk-tale/
-LOCATION:Oshman Family JCC\, 3921 Fabian Way\, Palo Alto\, CA\, United States
-CATEGORIES:On Stage
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T160000
-DTEND;TZID=America/Los_Angeles:20260329T173000
-DTSTAMP:20260329T191113
-CREATED:20260324T173110Z
-LAST-MODIFIED:20260324T173110Z
-UID:301686-1774800000-1774805400@jweekly.com
-SUMMARY:Passover Family Festival
-DESCRIPTION:Urban Adamah and PJ Library present an outdoor\, hands-on celebration with activities\, crafts and treats. $9-$36\, sliding scale.
-URL:https://jweekly.com/event/passover-family-festival/
-LOCATION:Urban Adamah\, 1151 Sixth St.\, Berkeley\, CA\, United States
-CATEGORIES:Holidays & Spiritual,Kids & Family
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260329T183000
-DTEND;TZID=America/Los_Angeles:20260329T183000
-DTSTAMP:20260329T191113
-CREATED:20260317T174203Z
-LAST-MODIFIED:20260317T174203Z
-UID:301234-1774809000-1774809000@jweekly.com
-SUMMARY:Haroset Workshop
-DESCRIPTION:Hands-on class making different types of haroset for the seder plate. Register by March 27.
-URL:https://jweekly.com/event/haroset-workshop/
-LOCATION:Chabad of Marin\, 1150 Idylberry Road\, San Rafael\, CA\, United States
-CATEGORIES:Talks & Workshops,Holidays & Spiritual
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260330T131500
 DTEND;TZID=America/Los_Angeles:20260330T141500
-DTSTAMP:20260329T191113
+DTSTAMP:20260330T190739
 CREATED:20260317T174332Z
 LAST-MODIFIED:20260317T174332Z
 UID:301236-1774876500-1774880100@jweekly.com
@@ -155,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260330T190000
 DTEND;TZID=America/Los_Angeles:20260330T203000
-DTSTAMP:20260329T191113
+DTSTAMP:20260330T190739
 CREATED:20260317T174448Z
 LAST-MODIFIED:20260317T174448Z
 UID:301238-1774897200-1774902600@jweekly.com
