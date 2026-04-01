@@ -7,24 +7,6 @@ X-WR-CALNAME:Roanoke Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Special Events": "https://www.roanokeva.gov/calendar.aspx?EID=8858"}
-X-SOURCE-ID:roanoke_special_events
-X-SOURCE:Roanoke Special Events
-URL:https://www.roanokeva.gov/calendar.aspx?EID=8858
-DESCRIPTION:Event that will be hosted by the police department to provide 
- games and activities for the community. https://www.roanokeva.gov/calenda
- r.aspx?EID=8858
-DTEND;TZID=America/New_York:20260331T140000
-DTSTAMP;TZID=America/New_York:20260224T123602
-DTSTART;TZID=America/New_York:20260331T110000
-LAST-MODIFIED;TZID=America/New_York:20260224T123602
-LOCATION:<p>Huff Lane Park</p> -   Roanoke VA
-SEQUENCE:0
-SUMMARY:Roanoke Police Spring Break Out
-UID:8858
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Chamber": "https://business.roanokechamber.org/events/details/ribbon-cutting-chaos-corner"}
 X-SOURCE-ID:roanoke_chamber
 SUMMARY:Ribbon Cutting - Chaos Corner
@@ -55,7 +37,7 @@ X-SOURCE-ID:berglund_center
 X-SOURCE:Berglund Center
 DTSTART:20260331T190000Z
 DTEND:20260331T210000Z
-DTSTAMP:20260331T020451Z
+DTSTAMP:20260401T021810Z
 UID:7v3nds1almnncjac7acq8n4u5d@google.com
 CREATED:20260327T152909Z
 LAST-MODIFIED:20260327T152909Z
@@ -70,7 +52,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260331T193000
 DTEND;TZID=America/New_York:20260331T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TU
-DTSTAMP:20260331T020451Z
+DTSTAMP:20260401T021810Z
 UID:5nrtt7b91cc3gpo519hgh26cft@google.com
 CREATED:20250623T185514Z
 LAST-MODIFIED:20250623T185514Z
@@ -129,7 +111,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280246@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260402T090000
 DTEND;TZID=America/New_York:20260402T103000
 SUMMARY:Greenway Litter Pickup
@@ -190,7 +172,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765185@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260402T114500
 DTEND;TZID=America/New_York:20260402T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -209,7 +191,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765203@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260402T120000
 DTEND;TZID=America/New_York:20260402T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -227,7 +209,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580095@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021813Z
 DTSTART;TZID=America/New_York:20260402T180000
 DTEND;TZID=America/New_York:20260402T200000
 SUMMARY:In Person-Salem: presentation by Cameron Presley
@@ -245,7 +227,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313581994@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260402T190000
 DTEND;TZID=America/New_York:20260402T210000
 SUMMARY:Mastering Impromptu Speaking at the Blacksburg Toastmasters Club
@@ -263,7 +245,7 @@ X-SOURCE:Berglund Center
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T210000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20260309T035959Z;BYDAY=TH
-DTSTAMP:20260331T020451Z
+DTSTAMP:20260401T021810Z
 UID:0ev0uk8jovf35t2iardafu81a4@google.com
 CREATED:20250623T185525Z
 LAST-MODIFIED:20250623T185525Z
@@ -278,7 +260,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260402T193000
 DTEND;TZID=America/New_York:20260402T203000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20260218T180115Z
 LAST-MODIFIED:20260313T121406Z
 UID:73667-1775158200-1775161800@www.hollins.edu
@@ -294,7 +276,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765358@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260403T083000
 DTEND;TZID=America/New_York:20260403T093000
 SUMMARY:Kickstart Your Voice with Roanoke Talk-of-the-Town Toastmasters
@@ -382,7 +364,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313818562@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260403T180000
 DTEND;TZID=America/New_York:20260403T220000
 SUMMARY:Board Game Night: For Members & Guests Only!
@@ -454,7 +436,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313668192@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260404T130000
 DTEND;TZID=America/New_York:20260404T150000
 SUMMARY:Knife Sharpening Class
@@ -472,7 +454,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313943671@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020455Z
+DTSTAMP:20260401T021813Z
 DTSTART;TZID=America/New_York:20260405T130000
 DTEND;TZID=America/New_York:20260405T143000
 SUMMARY:Shut Up & Write!® at Bibliopub
@@ -524,7 +506,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313620583@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260406T200000
 DTEND;TZID=America/New_York:20260406T210000
 SUMMARY:General Orientations & Space Tours for New & Prospective Members
@@ -542,7 +524,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260407T183000
 DTEND;TZID=America/New_York:20260407T193000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20251008T164915Z
 LAST-MODIFIED:20251008T164915Z
 UID:71854-1775586600-1775590200@www.hollins.edu
@@ -662,7 +644,7 @@ X-SOURCE-ID:meetup_roanoke_spiritual
 X-SOURCE:Meetup Roanoke Spiritual
 UID:event_313939564@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260408T190000
 DTEND;TZID=America/New_York:20260408T200000
 SUMMARY:"Under the Spread of the Holy Spirit's Wings" Spiritual Video Night
@@ -680,7 +662,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260409T000000
 DTEND;TZID=America/New_York:20260411T235959
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20250911T172907Z
 LAST-MODIFIED:20260313T175434Z
 UID:71566-1775692800-1775951999@www.hollins.edu
@@ -723,7 +705,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765187@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260409T114500
 DTEND;TZID=America/New_York:20260409T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -742,7 +724,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765208@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260409T120000
 DTEND;TZID=America/New_York:20260409T130000
 SUMMARY:Mastering Public Speaking with the Franklin County Toastmasters(Rocky Mount\, VA)
@@ -851,7 +833,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313714322@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260409T180000
 DTEND;TZID=America/New_York:20260409T190000
 SUMMARY:Maker Minis: Intro to Metrology
@@ -869,7 +851,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313876221@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260409T190000
 DTEND;TZID=America/New_York:20260409T203000
 SUMMARY:Overcome Public Speaking Fears with the Roanoke Toastmasters
@@ -927,23 +909,6 @@ URL:https://www.taubmanmuseum.org/event/start-line/
 X-SOURCE:Taubman Museum of Art
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/classical-mystery-tour/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260410T193000
-DTEND;TZID=America/New_York:20260410T210000
-DTSTAMP:20260330T220453
-CREATED:20250627T135642Z
-LAST-MODIFIED:20260327T220520Z
-UID:10000071-1775849400-1775854800@rso.com
-SUMMARY:Beatle Mania: Classical Mystery Tour
-DESCRIPTION:Salem Civic Center | Salem\nRelive the Beatles Like Never Before!\nGet ready for an electrifying night as the Roanoke Symphony Orchestra teams up with Classical Mystery Tour to bring you Beatle Mania — a symphonic celebration of the Fab Four’s greatest hits. From the haunting beauty of Yesterday to the psychedelic brilliance of I Am the Walrus\, and the timeless joy of Penny Lane and A Hard Day’s Night — this is more than a concert. It’s a magical journey through the music that changed the world. One stage. One night. Unlimited nostalgia. Don’t miss it! \nThanks to our Sponsors!\n    \nClick here for the Salem Civic Center bag policy.
-URL:https://rso.com/event/classical-mystery-tour/
-LOCATION:Salem Civic Center\, 1001 Roanoke Blvd\, Salem\, VA\, 24153\, United States
-CATEGORIES:Pops
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements8.jpg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1281"}
 X-SOURCE-ID:salem_civic_center
 X-SOURCE:Salem Civic Center
@@ -958,6 +923,23 @@ SEQUENCE:0
 SUMMARY:RSO Presents: Classical Mystery Tour "The Music of the Beatles"
 UID:1281
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=26
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Hollins University": "https://www.hollins.edu/event/64th-annual-lex-allen-literary-festival-2026/"}
+X-SOURCE-ID:hollins_university
+X-SOURCE:Hollins University
+DTSTART;TZID=America/New_York:20260411T080000
+DTEND;TZID=America/New_York:20260411T170000
+DTSTAMP:20260331T221811
+CREATED:20251008T165430Z
+LAST-MODIFIED:20260331T175931Z
+UID:71856-1775894400-1775926800@www.hollins.edu
+SUMMARY:64th Annual Lex Allen Literary Festival 2026
+DESCRIPTION:The festival\, held on Saturday\, April 11\, 2026\, is our annual celebration of the literary community and is free and open to the public. Featured writers this year include Nina MacLaughlin\, Rajia Hassib\, Kate McKean\, and our Writer-in-Residence\, Julian T. Brolaski. This event curates an intimate space for students and community members to gather and discuss these authors’ works through Q&A and live interviews. \nGo to Schedule\nReaders: Julian Talamantez Brolaski\, Rajia Hassib\, Kate McKean\, and Nina MacLaughlin \nJulian Talamantez Brolaski (it / xe / them) is a poet and country singer\, the author of Of Mongrelitude (Wave Books\, 2017)\, Advice for Lovers (City Lights\, 2012)\, and gowanus atropolis (Ugly Duckling Presse\, 2011). Julian is a 2023 Bagley Wright lecturer\, a 2021 Pew Foundation Fellow\, and the recipient of the 2020 Cy Twombly Award for Poetry. Its poems were recently included in When the Light of the World was Subdued\, Our Songs Came Through: A Norton Anthology of Native Nations Poetry (2020) and We Want It All: An Anthology of Radical Trans Poetics (Nightboat\, 2020). With its band Juan & the Pines\, it released an EP Glittering Forest in 2019; Julian’s first full-length album It’s Okay Honey came out in August 2023. \nRajia Hassib was born and raised in Egypt and moved to the United States when she was twenty-three. Her first novel\, In the Language of Miracles\, was a New York Times Editors’ Choice and received an honorable mention from the Arab American Book Awards. She holds an MA in Creative Writing from Marshall University\, and she has written for The New York Times Book Review and The New Yorker online. She lives in West Virginia with her husband and two children. \nNina MacLaughlin is the author of Wake\, Siren: Ovid Resung (FSG/FSG Originals)\, a finalist for the Lambda Literary Award and the Massachusetts Book Award\, as well as Summer Solstice and Winter Solstice (Black Sparrow)\, winner of the Massachusetts Book Award. Her first book was the acclaimed memoir Hammer Head: The Making of a Carpenter (W.W. Norton)\, a finalist for the New England Book Award. Formerly an editor at the Boston Phoenix\, she worked for nine years as a carpenter\, and is now a books columnist for the Boston Globe. Her work has appeared on or in The Paris Review Daily\, The Virginia Quarterly Review\, n+1\, The Believer\, The New York Times Book Review\, Agni\, American Short Fiction\, the Los Angeles Review of Books\, Meatpaper\, and elsewhere. She lives in Cambridge\, Massachusetts. \nKate McKean is both an author and literary agent. Her work has appeared in Poets & Writers\, Electric Literature\, Catapult\, Lit Hub\, Writer’s Digest\, Bustle and many more. Her first book\, Write Through It: An Insider’s Guide to Publishing and the Creative Life is out now from Simon Element. In 2026\, Sourcebooks will publish her debut picture book Pay Attention to Me. As an agent she has been with the Howard Morhaim Literary Agency since 2006\, where she’s built a diverse client list including beloved humorist and novelist Daniel M. Lavery\, New York Times best-selling YA horror writer Madeleine Roux\, and New York Times best-selling fantasy writer Alix E. Harrow. \nSponsored by the Lex Allen Literary Endowment\, Department of English and Creative Writing\, and the Dee Hull Everist Visiting Speaker Fund \n\nSchedule\n\n\n\n\n\nTime\nEvent / Session\nLocation\n\n\n\n\n8:00 am\nCheck-in / Breakfast\nVAC 2nd Floor Lobby\n\n\nSalon Sessions I\n\n\n8:45 am\nMaking the Case for Pop Culture Reclamation with the Co-Hosts of\nGirlhood Movie Database\nMarin Harrington (Hollins) & Maggie Dillow (Hollins) \nVAC 111\n\n\nFrankenstein’s Workshop: Horror As Cultural Commentary\nJenna Kleiber (Hollins) & Miette Bell (Hollins) \nSwan 002\n\n\nHow to be a worse writer (and why that will make you a better writer!)\nZach Shea (Hollins)\, Lena Kinder (Hollins)\, James Lex (Hollins)\, & Stella Stocker (Hollins)\nSwan 209\n\n\nBiosemiotic Aesthetics & Ecopoetics: Writing Place & Possibility\nKas Armstrong (Virginia Tech) & Joshua Ward (Virginia Tech)\nVAC 112\n\n\n10:00 am\nRajia Hassib Reading\nfollowed by a conversation with MFA student student James Lex\nVAC 120 (Auditorium)\n\n\n11:00 am\nKate McKean Presentation\nfollowed by a conversation with MFA student student Zach Shea\nVAC 120 (Auditorium)\n\n\n12:00 pm\nLunch\nMoody Student Center\n\n\nSalon Sessions II\n\n\n1:15 pm\nBetween Forms\, Between Worlds: Writing in the Barzakh\nQurrat ul ain Raza Abbas (Hollins)\, Chanlee Luu (Hollins)\, & Keshni Washington (The Writer’s Center DC) \nVAC 112\n\n\nLoving the Process in the Age of AI\nMichelle Acker (Hollins)\, Maggie Dillow (Hollins)\, & Rachel Anne Morris (Hollins)\nVAC 111\n\n\nWriting the Unpossible: Research\, Invention\, and Estrangement in Myth and Fairy Tale\nRachel Edwards (Hollins)\, Katie Wilson (Hollins)\, & Anna Tipton (Hollins)\nSwan 209\n\n\n2:30 pm\nNina McLaughlin Reading\nfollowed by a conversation with MFA student Alice Dai\nVAC 120 (Auditorium)\n\n\n3:30 pm\nJulian Brolaski Reading\nfollowed by a conversation with MFA student Sophia Tone\nVAC 120 (Auditorium)\n\n\n4:15 pm\nReception and Book Signing\nVAC 2nd Floor Lobby
+URL:https://www.hollins.edu/event/64th-annual-lex-allen-literary-festival-2026/
+LOCATION:VAC Auditorium
+CATEGORIES:English and Creative Writing
+ATTACH;FMTTYPE=image/jpeg:https://www.hollins.edu/wp-content/uploads/2023/05/option6_1200x628.jpg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Special Events": "https://www.roanokeva.gov/calendar.aspx?EID=8537"}
@@ -989,29 +971,12 @@ UID:8537
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Hollins University": "https://www.hollins.edu/event/64th-annual-lex-allen-literary-festival-2026/"}
-X-SOURCE-ID:hollins_university
-X-SOURCE:Hollins University
-DTSTART;TZID=America/New_York:20260411T090000
-DTEND;TZID=America/New_York:20260411T160000
-DTSTAMP:20260330T220452
-CREATED:20251008T165430Z
-LAST-MODIFIED:20260326T140038Z
-UID:71856-1775898000-1775923200@www.hollins.edu
-SUMMARY:64th Annual Lex Allen Literary Festival 2026
-DESCRIPTION:The festival\, held on Saturday\, April 11\, 2026\, is our annual celebration of the literary community and is free and open to the public. Featured writers this year include Nina MacLaughlin\, Rajia Hassib\, Kate McKean\, and our Writer-in-Residence\, Julian T. Brolaski. This event curates an intimate space for students and community members to gather and discuss these authors’ works through Q&A and live interviews. \nGo to Schedule\nReaders: Julian Talamantez Brolaski\, Rajia Hassib\, Kate McKean\, and Nina MacLaughlin \nJulian Talamantez Brolaski (it / xe / them) is a poet and country singer\, the author of Of Mongrelitude (Wave Books\, 2017)\, Advice for Lovers (City Lights\, 2012)\, and gowanus atropolis (Ugly Duckling Presse\, 2011). Julian is a 2023 Bagley Wright lecturer\, a 2021 Pew Foundation Fellow\, and the recipient of the 2020 Cy Twombly Award for Poetry. Its poems were recently included in When the Light of the World was Subdued\, Our Songs Came Through: A Norton Anthology of Native Nations Poetry (2020) and We Want It All: An Anthology of Radical Trans Poetics (Nightboat\, 2020). With its band Juan & the Pines\, it released an EP Glittering Forest in 2019; Julian’s first full-length album It’s Okay Honey came out in August 2023. \nRajia Hassib was born and raised in Egypt and moved to the United States when she was twenty-three. Her first novel\, In the Language of Miracles\, was a New York Times Editors’ Choice and received an honorable mention from the Arab American Book Awards. She holds an MA in Creative Writing from Marshall University\, and she has written for The New York Times Book Review and The New Yorker online. She lives in West Virginia with her husband and two children. \nNina MacLaughlin is the author of Wake\, Siren: Ovid Resung (FSG/FSG Originals)\, a finalist for the Lambda Literary Award and the Massachusetts Book Award\, as well as Summer Solstice and Winter Solstice (Black Sparrow)\, winner of the Massachusetts Book Award. Her first book was the acclaimed memoir Hammer Head: The Making of a Carpenter (W.W. Norton)\, a finalist for the New England Book Award. Formerly an editor at the Boston Phoenix\, she worked for nine years as a carpenter\, and is now a books columnist for the Boston Globe. Her work has appeared on or in The Paris Review Daily\, The Virginia Quarterly Review\, n+1\, The Believer\, The New York Times Book Review\, Agni\, American Short Fiction\, the Los Angeles Review of Books\, Meatpaper\, and elsewhere. She lives in Cambridge\, Massachusetts. \nKate McKean is both an author and literary agent. Her work has appeared in Poets & Writers\, Electric Literature\, Catapult\, Lit Hub\, Writer’s Digest\, Bustle and many more. Her first book\, Write Through It: An Insider’s Guide to Publishing and the Creative Life is out now from Simon Element. In 2026\, Sourcebooks will publish her debut picture book Pay Attention to Me. As an agent she has been with the Howard Morhaim Literary Agency since 2006\, where she’s built a diverse client list including beloved humorist and novelist Daniel M. Lavery\, New York Times best-selling YA horror writer Madeleine Roux\, and New York Times best-selling fantasy writer Alix E. Harrow. \nSponsored by the Lex Allen Literary Endowment\, Department of English and Creative Writing\, and the Dee Hull Everist Visiting Speaker Fund \n\nSchedule\n\n\n\n\nTime\nEvent / Session\nLocation\n\n\n\n\n8:00 am\nCheck-in / Breakfast\nVAC 2nd Floor Lobby\n\n    \n      Salon Sessions I\n    \n\n8:45 am\nMaking the Case for Pop Culture Reclamation with the Co-Hosts of\nGirlhood Movie Database\nMarin Harrington (Hollins) & Maggie Dillow (Hollins) \nVAC 111\n\n\nFrankenstein’s Workshop: Horror As Cultural Commentary\nJenna Kleiber (Hollins) & Miette Bell (Hollins) \nSwan 002\n\n\nHow to be a worse writer (and why that will make you a better writer!)\nZach Shea (Hollins)\, Lena Kinder (Hollins)\, James Lex (Hollins)\, & Stella Stocker (Hollins)\nSwan 209\n\n\nBiosemiotic Aesthetics & Ecopoetics: Writing Place & Possibility\nKas Armstrong (Virginia Tech) & Joshua Ward (Virginia Tech)\nVAC 112\n\n\n10:00 am\nRajia Hassib\nIn conversation with Creative Writing M.F.A. student James Lex\nVAC 120 (Auditorium)\n\n\n11:00 am\nKate McKean\nIn conversation with Creative Writing M.F.A. student Zach Shea\nVAC 120 (Auditorium)\n\n\n12:00 pm\nLunch\nMoody Student Center\n\n    \n      Salon Sessions II\n    \n\n1:15 pm\nBetween Forms\, Between Worlds: Writing in the Barzakh\nQurrat ul ain Raza Abbas (Hollins)\, Chanlee Luu (Hollins)\, & Keshni Washington (The Writer’s Center DC) \nVAC 112\n\n\nLoving the Process in the Age of AI\nMichelle Acker (Hollins)\, Maggie Dillow (Hollins)\, & Rachel Anne Morris (Hollins)\nVAC 111\n\n\nWriting the Unpossible: Research\, Invention\, and Estrangement in Myth and Fairy Tale\nRachel Edwards (Hollins)\, Katie Wilson (Hollins)\, & Anna Tipton (Hollins)\nSwan 209\n\n\n2:30 pm\nNina McLaughlin\nIn conversation with Creative Writing M.F.A. student Alice Dai\nVAC 120 (Auditorium)\n\n\n3:30 pm\nJulian Brolaski\nIn conversation with Creative Writing M.F.A. student Sophia Tone\nVAC 120 (Auditorium)\n\n\n4:15 pm\nReception and Book Signing\nVAC 2nd Floor Lobby
-URL:https://www.hollins.edu/event/64th-annual-lex-allen-literary-festival-2026/
-LOCATION:VAC Auditorium
-CATEGORIES:English and Creative Writing
-ATTACH;FMTTYPE=image/jpeg:https://www.hollins.edu/wp-content/uploads/2023/05/option6_1200x628.jpg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Meetup Make Roanoke": "https://www.meetup.com/make-roanoke/events/313817917/"}
 X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313817917@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260411T100000
 DTEND;TZID=America/New_York:20260411T130000
 SUMMARY:MAKE Roanoke @ Go Green for Grandin
@@ -1055,7 +1020,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313743231@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260411T130000
 DTEND;TZID=America/New_York:20260411T160000
 SUMMARY:Make a Cutting Board: A 2-Day Class
@@ -1073,7 +1038,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313943682@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020455Z
+DTSTAMP:20260401T021813Z
 DTSTART;TZID=America/New_York:20260411T130000
 DTEND;TZID=America/New_York:20260411T143000
 SUMMARY:Shut Up & Write!® in Tanglewood
@@ -1091,7 +1056,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312806304@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260411T160000
 DTEND;TZID=America/New_York:20260411T200000
 SUMMARY:MEMBERS (& Guests) ONLY: Community Craft Day
@@ -1109,7 +1074,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260412T000000
 DTEND;TZID=America/New_York:20260413T235959
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20260204T135707Z
 LAST-MODIFIED:20260204T135707Z
 UID:73496-1775952000-1776124799@www.hollins.edu
@@ -1126,7 +1091,7 @@ X-SOURCE-ID:meetup_roanoke_spiritual
 X-SOURCE:Meetup Roanoke Spiritual
 UID:event_313939594@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260412T110000
 DTEND;TZID=America/New_York:20260412T120000
 SUMMARY:The Sound of Soul – “Attune to the Wonders of God’s Unconditional Love"
@@ -1137,23 +1102,6 @@ CREATED:20260325T093257Z
 LAST-MODIFIED:20260325T093257Z
 CLASS:PUBLIC
 ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/6/0/7/600_533374311.jpeg
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/magnificat/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260412T150000
-DTEND;TZID=America/New_York:20260412T163000
-DTSTAMP:20260330T220453
-CREATED:20250627T134133Z
-LAST-MODIFIED:20260327T220633Z
-UID:10000068-1776006000-1776011400@rso.com
-SUMMARY:Magnificat
-DESCRIPTION:Berglund Performing Arts Theatre | Roanoke\nThe versatile performers of the RSO and Chorus present the splendor and devotional richness of the Baroque era. Handel’s Music for the Royal Fireworks dazzles with its bold brass and was written to accompany a grand celebration in London’s Green Park. Vivaldi’s Gloria\, is a joyful and spirited work filled with vibrant contrasts and lyrical beauty sure to uplift. J.S. Bach’s brilliant Magnificat is a masterful setting of the Virgin Mary’s song of praise\, blending intricate counterpoint with exuberant choruses\, virtuoso trumpet solos\, and joyful choral writing. \nDavid Stewart Wiley\, conductor\nRoanoke Symphony Chorus\nJohn Hugo\, chorus master \nGeorge Frideric Handel: Selections from Music for The Royal Fireworks\nAntonio Vivaldi: Gloria\, RV589\nJ.S. Bach: Magnificat\, BWV 243 in D Major \nPlease join us for our pre-concert discussion\, Illuminations\, at 2pm.\nThanks to our Sponsors!\n \nClick here for the Berglund Performing Arts Theatre bag policy.
-URL:https://rso.com/event/magnificat/
-LOCATION:Berglund Performing Arts Theatre\, 710 Williamson Rd NE\, Roanoke\, VA\, 24016\, United States
-CATEGORIES:Masterworks
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements5.jpg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Roanoke Special Events": "https://www.roanokeva.gov/calendar.aspx?EID=8612"}
@@ -1204,7 +1152,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_312792001@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260413T180000
 DTEND;TZID=America/New_York:20260413T190000
 SUMMARY:MAKE Roanoke Virtual Community Meeting
@@ -1238,7 +1186,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260413T190000
 DTEND;TZID=America/New_York:20260413T200000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20260330T164325Z
 LAST-MODIFIED:20260330T170245Z
 UID:74735-1776106800-1776110400@www.hollins.edu
@@ -1271,7 +1219,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313768246@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260414T180000
 DTEND;TZID=America/New_York:20260414T200000
 SUMMARY:Joinery Techniques in Woodworking Maker Mini
@@ -1323,7 +1271,7 @@ X-SOURCE-ID:meetup_make_roanoke
 X-SOURCE:Meetup Make Roanoke
 UID:event_313770844@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021811Z
 DTSTART;TZID=America/New_York:20260415T170000
 DTEND;TZID=America/New_York:20260415T210000
 SUMMARY:Bite-Size Charity for MAKE Roanoke at Chipotle!
@@ -1378,7 +1326,7 @@ X-SOURCE-ID:meetup_sw_va_toastmasters
 X-SOURCE:Meetup Sw Va Toastmasters
 UID:event_313765190@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260416T114500
 DTEND;TZID=America/New_York:20260416T124500
 SUMMARY:Experience Public Speaking with the NRV Lunch Bunch - Hybrid Meeting
@@ -1741,7 +1689,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313943695@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020455Z
+DTSTAMP:20260401T021813Z
 DTSTART;TZID=America/New_York:20260419T130000
 DTEND;TZID=America/New_York:20260419T143000
 SUMMARY:Shut Up & Write!® at Bibliopub
@@ -1776,7 +1724,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260420T170000
 DTEND;TZID=America/New_York:20260420T183000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20250905T180619Z
 LAST-MODIFIED:20250905T201818Z
 UID:71485-1776704400-1776709800@www.hollins.edu
@@ -1937,7 +1885,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260423T193000
 DTEND;TZID=America/New_York:20260423T203000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20250922T152313Z
 LAST-MODIFIED:20251008T163956Z
 UID:71688-1776972600-1776976200@www.hollins.edu
@@ -2062,7 +2010,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_314032115@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021813Z
 DTSTART;TZID=America/New_York:20260425T100000
 DTEND;TZID=America/New_York:20260425T130000
 SUMMARY:In Person: Code and Coffee on April 25th from 10am-1pm ET
@@ -2146,7 +2094,7 @@ X-SOURCE-ID:meetup_shut_up_write
 X-SOURCE:Meetup Shut Up Write
 UID:event_313943723@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020455Z
+DTSTAMP:20260401T021813Z
 DTSTART;TZID=America/New_York:20260425T130000
 DTEND;TZID=America/New_York:20260425T143000
 SUMMARY:Shut Up & Write!® in Tanglewood
@@ -2235,12 +2183,13 @@ DESCRIPTION:Explore the expressive possibilities of ink and collage in thi
  y introduced to Roanoke through the Roanoke Saint-Lo Sister City Group\, M
  arin returns frequently to her home away from home\, sharing her artistic 
  abilities and enthusiasm for fostering a love of the arts between cultures
- .\n\nRegistration required.\n\nMembers: $35 | General Public: $40\n\nNot a
-  Member? Join today and enjoy benefits such as discount on classes and cam
- ps\, exclusive Member-only invites\, free reciprocal membership to the Vir
- ginia Museum of Fine Arts in Richmond\, and more! Click here to learn more
-  and join.\n\nSource: https://www.taubmanmuseum.org/event/ink-collage-clas
- s-with-artist-cornelia-marin/
+ .\n\nRegistration required.\n\nMembers: $35 | General Public: $40\n\nThis 
+ class is generously supported by Roanoke Valley Sister Cities.\n\nNot a Me
+ mber? Join today and enjoy benefits such as discount on classes and camps\
+ , exclusive Member-only invites\, free reciprocal membership to the Virgin
+ ia Museum of Fine Arts in Richmond\, and more! Click here to learn more an
+ d join.\n\nSource: https://www.taubmanmuseum.org/event/ink-collage-class-w
+ ith-artist-cornelia-marin/
 LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
   United States
 URL:https://www.taubmanmuseum.org/event/ink-collage-class-with-artist-corn
@@ -2253,7 +2202,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260426T150000
 DTEND;TZID=America/New_York:20260426T160000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20260330T165609Z
 LAST-MODIFIED:20260330T170311Z
 UID:74745-1777215600-1777219200@www.hollins.edu
@@ -2304,7 +2253,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260429T190000
 DTEND;TZID=America/New_York:20260429T200000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20260330T170109Z
 LAST-MODIFIED:20260330T170329Z
 UID:74750-1777489200-1777492800@www.hollins.edu
@@ -2496,11 +2445,12 @@ DESCRIPTION:This imaginative\, hands-on class merges the tactile art of em
  nt-Lo Sister City Group\, Marin returns frequently to her home away from h
  ome\, spreading her artistic abilities and enthusiasm for fostering a shar
  ed love of the arts between cultures.\n\nRegistration required.\n\nMembers
- : $35 | General Public: $40\n\nNot a Member? Join today and get discounts 
- on classes and camps\, exclusive invites to special events\, reciprocal me
- mbership to Virginia Museum of Fine Arts in Richmond\, and more! Click her
- e to learn more and join!\n\nSource: https://www.taubmanmuseum.org/event/e
- mbroidered-collage-class-with-guest-artist-cornelia-marin/
+ : $35 | General Public: $40\n\nThis class is generously supported by Roano
+ ke Valley Sister Cities.\n\nNot a Member? Join today and get discounts on 
+ classes and camps\, exclusive invites to special events\, reciprocal membe
+ rship to Virginia Museum of Fine Arts in Richmond\, and more! Click here t
+ o learn more and join!\n\nSource: https://www.taubmanmuseum.org/event/embr
+ oidered-collage-class-with-guest-artist-cornelia-marin/
 LOCATION:Taubman Museum of Art\, 110 Salem Ave SE\, Roanoke\, VA\, 24011\,
   United States
 URL:https://www.taubmanmuseum.org/event/embroidered-collage-class-with-gue
@@ -2547,7 +2497,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280265@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260507T090000
 DTEND;TZID=America/New_York:20260507T103000
 SUMMARY:Greenway Litter Pickup
@@ -2602,7 +2552,7 @@ X-SOURCE-ID:meetup_roanoke_valley_net
 X-SOURCE:Meetup Roanoke Valley Net
 UID:event_313580154@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020454Z
+DTSTAMP:20260401T021813Z
 DTSTART;TZID=America/New_York:20260507T180000
 DTEND;TZID=America/New_York:20260507T200000
 SUMMARY:Online: The 1-Person DevOps Stack presentation by Lionel Sapp
@@ -2620,7 +2570,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260507T193000
 DTEND;TZID=America/New_York:20260507T203000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20251008T171105Z
 LAST-MODIFIED:20251008T171105Z
 UID:71858-1778182200-1778185800@www.hollins.edu
@@ -2696,7 +2646,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260509T130000
 DTEND;TZID=America/New_York:20260509T153000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20251215T155627Z
 LAST-MODIFIED:20251215T155627Z
 UID:72971-1778331600-1778340600@www.hollins.edu
@@ -2772,23 +2722,6 @@ SEQUENCE:0
 SUMMARY:Mother's Day R&B Festival
 UID:8881
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=39
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/elgar-dvorak/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260509T193000
-DTEND;TZID=America/New_York:20260509T210000
-DTSTAMP:20260330T220453
-CREATED:20250627T134411Z
-LAST-MODIFIED:20260327T220324Z
-UID:10000069-1778355000-1778360400@rso.com
-SUMMARY:Elgar & Dvořak
-DESCRIPTION:Berglund Performing Arts Theatre | Roanoke\nTwo works of incredible emotion and orchestral power will close our must-see Masterworks season in May. Elgar’s Enigma Variations is a great showpiece for orchestra with each variation portraying one of his own friends through vivid musical character sketches. The mysterious “Enigma” theme\, never fully revealed\, adds a layer of suspense and intrigue to the work’s emotional range and rich orchestration. Dvořák’s Cello Concerto is a powerful and lyrical masterpiece\, performed by acclaimed American cellist Julie Albers\, principal with the world-class St. Paul Chamber Orchestra. This masterpiece blends Bohemian folk influences with sweeping Romantic expression\, and showcases the cello’s full emotional and technical range which is regarded as one of the greatest concertos ever written for the instrument. \nDavid Stewart Wiley\, conductor\nJulie Albers\, cello \nEdward Elgar: “Enigma” Variations\, Op. 36\nAntonio Dvořak: Cello Concerto Op. 104 in B minor \nPlease join us for our pre-concert discussion\, Illuminations\, at 6:30pm.\nThanks to our Sponsors!\n \nClick here for the Berglund Performing Arts Theatre bag policy.
-URL:https://rso.com/event/elgar-dvorak/
-LOCATION:Berglund Performing Arts Theatre\, 710 Williamson Rd NE\, Roanoke\, VA\, 24016\, United States
-CATEGORIES:Masterworks
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements6.jpg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1323"}
@@ -2883,7 +2816,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260511T170000
 DTEND;TZID=America/New_York:20260511T183000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20250905T180803Z
 LAST-MODIFIED:20250910T165734Z
 UID:71486-1778518800-1778524200@www.hollins.edu
@@ -3286,7 +3219,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260517T100000
 DTEND;TZID=America/New_York:20260517T120000
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20250910T144650Z
 LAST-MODIFIED:20260302T144545Z
 UID:71515-1779012000-1779019200@www.hollins.edu
@@ -3642,7 +3575,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260529T000000
 DTEND;TZID=America/New_York:20260531T235959
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20251204T174803Z
 LAST-MODIFIED:20251204T174803Z
 UID:72820-1780012800-1780271999@www.hollins.edu
@@ -3880,7 +3813,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280281@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260604T073000
 DTEND;TZID=America/New_York:20260604T090000
 SUMMARY:Greenway Litter Pickup
@@ -4171,23 +4104,6 @@ UID:8846
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=38
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Roanoke Symphony": "https://rso.com/event/nashville-meets-the-symphony/"}
-X-SOURCE-ID:roanoke_symphony
-X-SOURCE:Roanoke Symphony
-DTSTART;TZID=America/New_York:20260612T193000
-DTEND;TZID=America/New_York:20260612T210000
-DTSTAMP:20260330T220453
-CREATED:20250627T135800Z
-LAST-MODIFIED:20260327T220730Z
-UID:10000072-1781292600-1781298000@rso.com
-SUMMARY:Nashville Meets the Symphony
-DESCRIPTION:Salem Civic Center | Salem\nA Heartland Hit Parade!\nGet ready for a night where the soul of country collides with the power of the orchestra in a show-stopping celebration of America’s music. From twang to triumph\, heartbreak to high notes\, this Heartland concert brings the raw emotion of classic and modern country to life like never before. \nFeel the thrill as the Roanoke Symphony Orchestra takes on unforgettable hits from Miranda Lambert\, Carrie Underwood\,\nZac Brown Band\, Vince Gill\, Tim McGraw\, Dolly Parton\, The Chicks\, Johnny Cash\, and more! \nOne stage. One night. All heart.\nDon’t miss this electrifying tribute to country’s greatest legends! \nThank you to our Sponsors!\n   \nClick here for the Salem Civic Center bag policy.
-URL:https://rso.com/event/nashville-meets-the-symphony/
-LOCATION:Salem Civic Center\, 1001 Roanoke Blvd\, Salem\, VA\, 24153\, United States
-CATEGORIES:Pops
-ATTACH;FMTTYPE=image/jpeg:https://rso.com/wp-content/uploads/2025/06/seasons-art-elements9.jpg
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Salem Civic Center": "https://www.salemva.gov/calendar.aspx?EID=1282"}
 X-SOURCE-ID:salem_civic_center
 X-SOURCE:Salem Civic Center
@@ -4209,7 +4125,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260614T000000
 DTEND;TZID=America/New_York:20260619T235959
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20251114T170519Z
 LAST-MODIFIED:20251114T170519Z
 UID:72456-1781395200-1781913599@www.hollins.edu
@@ -4658,7 +4574,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280290@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260709T073000
 DTEND;TZID=America/New_York:20260709T090000
 SUMMARY:Greenway Litter Pickup
@@ -4712,7 +4628,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260710T000000
 DTEND;TZID=America/New_York:20260712T235959
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20260313T132036Z
 LAST-MODIFIED:20260319T184525Z
 UID:74157-1783641600-1783900799@www.hollins.edu
@@ -4747,7 +4663,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260718T235959
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20250930T140902Z
 LAST-MODIFIED:20251029T175051Z
 UID:71745-1783814400-1784419199@www.hollins.edu
@@ -4765,7 +4681,7 @@ X-SOURCE-ID:hollins_university
 X-SOURCE:Hollins University
 DTSTART;TZID=America/New_York:20260712T000000
 DTEND;TZID=America/New_York:20260725T235959
-DTSTAMP:20260330T220452
+DTSTAMP:20260331T221811
 CREATED:20251216T212637Z
 LAST-MODIFIED:20251216T212637Z
 UID:73040-1783814400-1785023999@www.hollins.edu
@@ -5172,7 +5088,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280295@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260806T073000
 DTEND;TZID=America/New_York:20260806T090000
 SUMMARY:Greenway Litter Pickup
@@ -5625,7 +5541,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280300@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20260903T073000
 DTEND;TZID=America/New_York:20260903T090000
 SUMMARY:Greenway Litter Pickup
@@ -6167,7 +6083,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280305@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20261001T090000
 DTEND;TZID=America/New_York:20261001T103000
 SUMMARY:Greenway Litter Pickup
@@ -6666,7 +6582,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280307@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20261105T090000
 DTEND;TZID=America/New_York:20261105T103000
 SUMMARY:Greenway Litter Pickup
@@ -7118,7 +7034,7 @@ X-SOURCE-ID:meetup_pathfinders_greenways
 X-SOURCE:Meetup Pathfinders Greenways
 UID:event_312280318@meetup.com
 SEQUENCE:1
-DTSTAMP:20260331T020453Z
+DTSTAMP:20260401T021812Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T103000
 SUMMARY:Greenway Litter Pickup

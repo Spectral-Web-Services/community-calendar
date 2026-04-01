@@ -4,18 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Georgia Maq
-DTSTART;VALUE=DATE-TIME:20260331T200000
-DTEND;VALUE=DATE-TIME:20260331T200000
-UID:c3aee1e0eac2c9d899e484059c174c90@songkick.com
-DESCRIPTION:Georgia Maq at Mississippi Studios at 2026-03-31T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43100014-georgia-maq-at-mississippi-s
- tudios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tokyo Tea Room
 DTSTART;VALUE=DATE-TIME:20260401T200000
 DTEND;VALUE=DATE-TIME:20260401T200000
@@ -26,6 +14,30 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/42813435-tokyo-tea-room-at-mississipp
  i-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Myriads
+DTSTART;VALUE=DATE-TIME:20260401T200000
+DTEND;VALUE=DATE-TIME:20260401T200000
+UID:c7e37f21286a205517974ff32bbfb80e@songkick.com
+DESCRIPTION:Myriads at Mississippi Studios at 2026-04-01T20:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100017-myriads-at-mississippi-studi
+ os?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:YUUF
+DTSTART;VALUE=DATE-TIME:20260402T000000
+DTEND;VALUE=DATE-TIME:20260402T000000
+UID:978757e2d4d1d8993d5f264e00e9489d@songkick.com
+DESCRIPTION:YUUF at Mississippi Studios at 2026-04-02
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/42984407-yuuf-at-mississippi-studios?
+ utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

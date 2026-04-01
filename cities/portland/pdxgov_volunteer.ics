@@ -4,18 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Pittock Garden Tuesday Volunteer Day
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260331T090000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260331T090000
-UID:5f200471aa673e1706985e9a49be73c1@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
-  rain or shine\, to tend to the plants on the grounds at Pittock Mansion.
-LOCATION:Pittock Mansion
-URL:https://www.portland.gov/parks/events/2026/3/31/pittock-garden-tuesday
- -volunteer-day
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Earth Month at Parklane Park Garden of Weedin'
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260401T090000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260401T090000
@@ -82,22 +70,6 @@ URL:https://www.portland.gov/parks/events/2026/4/2/earth-month-volunteer-d
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260403T100000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260403T100000
-UID:1d47b8230a107eca89a4a7fa5e7276a2@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
-DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
- gton Park!
-LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
- ght Avenue Portland\n                          \, OR\n                    
-        97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/4/3/cloud-forest-washington
- -park-volunteer-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pier Park Plant Pals Earth Month Event
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260403T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260403T100000
@@ -113,6 +85,22 @@ LOCATION:Pier Park Label: Park Park location or entrance N Lombard Street
  ion
 URL:https://www.portland.gov/parks/events/2026/4/3/pier-park-plant-pals-ea
  rth-month-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Forest volunteer day in Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260403T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260403T100000
+UID:12756221ab57d53a2fb3bfad3a3ae50d@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
+ gton Park!
+LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
+ ght Avenue Portland\n                          \, OR\n                    
+        97204 Get directions More about this location Washington Park
+URL:https://www.portland.gov/parks/events/2026/4/3/cloud-forest-volunteer-
+ day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -242,10 +230,10 @@ URL:https://www.portland.gov/parks/nature/events/2026/4/10/alberta-nature-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
+SUMMARY:Cloud Forest volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260410T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260410T100000
-UID:73f5b8031e4bfb2cee2d2ed2fa536a05@portland.gov
+UID:3bdf91bfc37c3dd99b933ee90752a598@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
  les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
 DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
@@ -253,8 +241,8 @@ DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
 LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
  ght Avenue Portland\n                          \, OR\n                    
         97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/4/10/cloud-forest-washingto
- n-park-volunteer-event
+URL:https://www.portland.gov/parks/events/2026/4/10/cloud-forest-volunteer
+ -day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -297,6 +285,21 @@ DESCRIPTION:Please join Portland Parks & Recreation and the Columbia Sloug
 LOCATION:Kelley Point Park
 URL:https://www.portland.gov/parks/events/2026/4/11/kelley-point-park-mulc
  hing-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wallace Park volunteer event
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260411T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260411T100000
+UID:23a3119276d97436f56d036b2892d669@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/wallace-park-new-light-april-2024.jpg?itok=RstJOg
+ MS
+DESCRIPTION:Join the Friends of Wallace Park for a work party and social e
+ vent!
+LOCATION:Wallace Park
+URL:https://www.portland.gov/parks/events/2026/4/11/wallace-park-volunteer
+ -event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -391,10 +394,10 @@ URL:https://www.portland.gov/parks/events/2026/4/16/earth-month-volunteer-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
+SUMMARY:Cloud Forest volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260417T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260417T100000
-UID:3ca9bb2d61e1353e1866281326196741@portland.gov
+UID:390cac29237d50736d390f2d06dbb1bd@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
  les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
 DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
@@ -402,8 +405,8 @@ DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
 LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
  ght Avenue Portland\n                          \, OR\n                    
         97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/4/17/cloud-forest-washingto
- n-park-volunteer-event
+URL:https://www.portland.gov/parks/events/2026/4/17/cloud-forest-volunteer
+ -day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -554,10 +557,10 @@ URL:https://www.portland.gov/parks/nas/events/2026/4/22/hoyt-arboretum-ear
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
+SUMMARY:Cloud Forest volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260424T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260424T100000
-UID:ba17f49ce6f9a7a5796f6a6b894bfc1e@portland.gov
+UID:01854f646935ce4fdecf56b12cc9ae02@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
  les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
 DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
@@ -565,8 +568,8 @@ DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
 LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
  ght Avenue Portland\n                          \, OR\n                    
         97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/4/24/cloud-forest-washingto
- n-park-volunteer-event
+URL:https://www.portland.gov/parks/events/2026/4/24/cloud-forest-volunteer
+ -day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -636,22 +639,6 @@ URL:https://www.portland.gov/parks/nature/events/2026/4/29/forest-park-ste
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260501T100000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260501T100000
-UID:124a38ac8a324c0ec22d50fda88887bc@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
-DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
- gton Park!
-LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
- ght Avenue Portland\n                          \, OR\n                    
-        97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/5/1/cloud-forest-washington
- -park-volunteer-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pier Park Stewardship Day
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260501T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260501T100000
@@ -664,6 +651,22 @@ LOCATION:Pier Park Label: Park Park location or entrance N Lombard Street
  ion
 URL:https://www.portland.gov/parks/events/2026/5/1/pier-park-stewardship-d
  ay
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Forest volunteer day in Washington Park
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260501T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260501T100000
+UID:bd92a35c4979d371aed9026b48eefafa@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
+ gton Park!
+LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
+ ght Avenue Portland\n                          \, OR\n                    
+        97204 Get directions More about this location Washington Park
+URL:https://www.portland.gov/parks/events/2026/5/1/cloud-forest-volunteer-
+ day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -790,10 +793,10 @@ URL:https://www.portland.gov/parks/events/2026/5/7/argay-park-volunteer-da
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
+SUMMARY:Cloud Forest volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260508T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260508T100000
-UID:0b4a5eadfb963c5f34bb3c7dabd2e6cd@portland.gov
+UID:700db359fcf4663725a950103ed6fc37@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
  les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
 DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
@@ -801,8 +804,8 @@ DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
 LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
  ght Avenue Portland\n                          \, OR\n                    
         97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/5/8/cloud-forest-washington
- -park-volunteer-event
+URL:https://www.portland.gov/parks/events/2026/5/8/cloud-forest-volunteer-
+ day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -894,10 +897,10 @@ URL:https://www.portland.gov/parks/events/2026/5/13/laurelhurst-park-commu
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
+SUMMARY:Cloud Forest volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260515T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260515T100000
-UID:8e4ccd2eef45b05d4fd01b97a061c168@portland.gov
+UID:e4e369e1bd1da8d4c586a19dddfba8cc@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
  les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
 DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
@@ -905,8 +908,8 @@ DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
 LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
  ght Avenue Portland\n                          \, OR\n                    
         97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/5/15/cloud-forest-washingto
- n-park-volunteer-event
+URL:https://www.portland.gov/parks/events/2026/5/15/cloud-forest-volunteer
+ -day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -982,10 +985,10 @@ URL:https://www.portland.gov/parks/events/2026/5/21/luuwit-view-park-volun
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cloud Forest Washington Park Volunteer Event
+SUMMARY:Cloud Forest volunteer day in Washington Park
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260522T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260522T100000
-UID:b76348e88cd84b7cdc02819a84618114@portland.gov
+UID:27dd6045447bae02e91bf8c7b74e3c5b@portland.gov
 ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
  les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
 DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
@@ -993,8 +996,8 @@ DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
 LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
  ght Avenue Portland\n                          \, OR\n                    
         97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/5/22/cloud-forest-washingto
- n-park-volunteer-event
+URL:https://www.portland.gov/parks/events/2026/5/22/cloud-forest-volunteer
+ -day-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT

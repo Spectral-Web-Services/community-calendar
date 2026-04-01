@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.25525//EN
+PRODID:-//Trumba Corporation//Trumba Calendar Services 0.11.25531//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 X-WR-CALNAME:TTS-WMS Managed|Theatre\, Dance\, and Performance Studies
@@ -464,5 +464,40 @@ CATEGORIES:Theatre, Dance, and Performance Studies
 UID:http://uid.trumba.com/event/197624891
 X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
  mbed=view%3devent%26eventid%3d197624891
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Design and Production Show
+LOCATION:Medford/Somerville campus
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260518
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=21;TYPE=number:Tufts Event Tem
+ plate
+X-TRUMBA-CUSTOMFIELD;NAME="Building";ID=23241;TYPE=CustomAsset:Aidekman 
+ Arts Center
+X-TRUMBA-CUSTOMFIELD;NAME="City";ID=23311;TYPE=CustomAsset:Medford\, MA 
+ 02155
+X-TRUMBA-CUSTOMFIELD;NAME="Thumbnail";ID=23257;TYPE=Image:https://www.tr
+ umba.com/i/DgDjW03zmzxYIJCCjADFYRkg.jpg
+X-TRUMBA-CUSTOMFIELD;NAME="Campus";ID=40542;TYPE=CustomAsset:Medford/Som
+ erville campus
+X-TRUMBA-CUSTOMFIELD;NAME="Location Details";ID=23341;TYPE=MultiLine:Bal
+ ch Arena Theater Lobby
+X-TRUMBA-CUSTOMFIELD;NAME="Open to Public";ID=50013;TYPE=Boolean:Yes
+X-TRUMBA-CUSTOMFIELD;NAME="Event Subject";ID=67059;TYPE=CustomAsset:Thea
+ ter/Dance
+X-TRUMBA-CUSTOMFIELD;NAME="Event Sponsor";ID=23731;TYPE=CustomAsset:Scho
+ ol of Arts and Sciences
+DTSTAMP:20260331T100549Z
+DESCRIPTION:Building: Aidekman Arts Center\nCity: Medford\, MA 02155\nCa
+ mpus: Medford/Somerville campus\nLocation Details: Balch Arena Theater L
+ obby\nOpen to Public: Yes\nEvent Subject: Theater/Dance\nEvent Sponsor: 
+ School of Arts and Sciences\n\nA showcase of student design and producti
+ on work\, we are proud to celebrate the accomplishments and dedication o
+ f our talented students!!
+CATEGORIES:Theatre, Dance, and Performance Studies
+UID:http://uid.trumba.com/event/199958758
+X-TRUMBA-LINK:https://tdps.tufts.edu/news-events/events/calendar?trumbaE
+ mbed=view%3devent%26eventid%3d199958758
 END:VEVENT
 END:VCALENDAR
