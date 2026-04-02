@@ -4,17 +4,6 @@ PRODID:-//SPACE//songkick.com//
 X-WR-CALNAME:SPACE
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Mei Semones\, John Roseboro
-DTSTART;VALUE=DATE-TIME:20260401T200000
-DTEND;VALUE=DATE-TIME:20260401T200000
-UID:874085da8d6d5eb636e5bc1e46cac7b6@songkick.com
-DESCRIPTION:Mei Semones at SPACE at 2026-04-01T20:00:00-0500
-LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
-URL:http://www.songkick.com/concerts/42898416-mei-semones-at-space?utm_med
- ium=organic&utm_source=microformat
-X-SOURCE:SPACE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mali Obomsawin
 DTSTART;VALUE=DATE-TIME:20260402T193000
 DTEND;VALUE=DATE-TIME:20260402T193000
@@ -34,6 +23,28 @@ DESCRIPTION:Mud Morganfield at SPACE at 2026-04-04T20:00:00-0500
 LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
 URL:http://www.songkick.com/concerts/43030133-mud-morganfield-at-space?utm
  _medium=organic&utm_source=microformat
+X-SOURCE:SPACE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Corey Dennison
+DTSTART;VALUE=DATE-TIME:20260406T200000
+DTEND;VALUE=DATE-TIME:20260406T200000
+UID:efbe7e7d8556f62cfc85f3930384acc4@songkick.com
+DESCRIPTION:Corey Dennison at SPACE at 2026-04-06T20:00:00-0500
+LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
+URL:http://www.songkick.com/concerts/43039728-corey-dennison-at-space?utm_
+ medium=organic&utm_source=microformat
+X-SOURCE:SPACE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Judith Owen
+DTSTART;VALUE=DATE-TIME:20260407T200000
+DTEND;VALUE=DATE-TIME:20260407T200000
+UID:ec294b97dd7d8e46459c252ce463c770@songkick.com
+DESCRIPTION:Judith Owen at SPACE at 2026-04-07T20:00:00-0500
+LOCATION:SPACE\, 1245 Chicago Avenue\,\, Evanston\, IL\, 60202
+URL:http://www.songkick.com/concerts/43015253-judith-owen-at-space?utm_med
+ ium=organic&utm_source=microformat
 X-SOURCE:SPACE
 END:VEVENT
 END:VCALENDAR

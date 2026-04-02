@@ -4,17 +4,6 @@ PRODID:-//Wonder Ballroom//songkick.com//
 X-WR-CALNAME:Wonder Ballroom
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:COBRAH
-DTSTART;VALUE=DATE-TIME:20260401T200000
-DTEND;VALUE=DATE-TIME:20260401T200000
-UID:6996edd990ebe3db4238db510a920ac3@songkick.com
-DESCRIPTION:COBRAH at Wonder Ballroom at 2026-04-01T20:00:00-0700
-LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
-URL:http://www.songkick.com/concerts/43103793-cobrah-at-wonder-ballroom?ut
- m_medium=organic&utm_source=microformat
-X-SOURCE:Wonder Ballroom
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mind Enterprises
 DTSTART;VALUE=DATE-TIME:20260402T200000
 DTEND;VALUE=DATE-TIME:20260402T200000
@@ -46,6 +35,17 @@ DESCRIPTION:Vandelux at Wonder Ballroom at 2026-04-04T20:00:00-0700
 LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
 URL:http://www.songkick.com/concerts/42875428-vandelux-at-wonder-ballroom?
  utm_medium=organic&utm_source=microformat
+X-SOURCE:Wonder Ballroom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lexa Gates
+DTSTART;VALUE=DATE-TIME:20260407T200000
+DTEND;VALUE=DATE-TIME:20260407T200000
+UID:ef3e852440f130a8045aadecf36a7c97@songkick.com
+DESCRIPTION:Lexa Gates at Wonder Ballroom at 2026-04-07T20:00:00-0700
+LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
+URL:http://www.songkick.com/concerts/43021103-lexa-gates-at-wonder-ballroo
+ m?utm_medium=organic&utm_source=microformat
 X-SOURCE:Wonder Ballroom
 END:VEVENT
 END:VCALENDAR

@@ -4,28 +4,6 @@ PRODID:-//Revolution Hall//songkick.com//
 X-WR-CALNAME:Revolution Hall
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Jeff Tweedy
-DTSTART;VALUE=DATE-TIME:20260401T193000
-DTEND;VALUE=DATE-TIME:20260401T193000
-UID:ad199935a00d53683ca4b86189cb2fbc@songkick.com
-DESCRIPTION:Jeff Tweedy at Revolution Hall at 2026-04-01T19:30:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/42905236-jeff-tweedy-at-revolution-ha
- ll?utm_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sima Cunningham
-DTSTART;VALUE=DATE-TIME:20260401T193000
-DTEND;VALUE=DATE-TIME:20260401T193000
-UID:a8b8c4f50c1c0af0e66a7059ab69f561@songkick.com
-DESCRIPTION:Sima Cunningham at Revolution Hall at 2026-04-01T19:30:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43100015-sima-cunningham-at-revolutio
- n-hall?utm_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Donna the Buffalo
 DTSTART;VALUE=DATE-TIME:20260403T033000
 DTEND;VALUE=DATE-TIME:20260403T033000
@@ -46,6 +24,17 @@ DESCRIPTION:Nick Lowe at Revolution Hall at 2026-04-04T20:00:00-0700
 LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/42884057-nick-lowe-at-revolution-hall
  ?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GoldFord
+DTSTART;VALUE=DATE-TIME:20260405T200000
+DTEND;VALUE=DATE-TIME:20260405T200000
+UID:8c9bdd15419e5481ad66e7583eb0148a@songkick.com
+DESCRIPTION:GoldFord at Revolution Hall at 2026-04-05T20:00:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/42806625-goldford-at-revolution-hall?
+ utm_medium=organic&utm_source=microformat
 X-SOURCE:Revolution Hall
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,441 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//J. - ECPv6.15.18//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:J.
+X-ORIGINAL-URL:https://jweekly.com
+X-WR-CALDESC:Events for J.
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260403T171500
+DTEND;TZID=America/Los_Angeles:20260403T181500
+DTSTAMP:20260401T190320
+CREATED:20260324T173657Z
+LAST-MODIFIED:20260324T173657Z
+UID:301694-1775236500-1775240100@jweekly.com
+SUMMARY:Tot Shabbat: Passover
+DESCRIPTION:Music\, crafts\, snacks for families with children up to age 5. Free\, registration required.
+URL:https://jweekly.com/event/tot-shabbat-passover/
+LOCATION:Congregation Beth Am\, 26790 Arastradero Road\, Los Altos Hills\, CA\, United States
+CATEGORIES:Holidays & Spiritual,Kids & Family
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260403T193000
+DTEND;TZID=America/Los_Angeles:20260403T193000
+DTSTAMP:20260401T190320
+CREATED:20260330T214420Z
+LAST-MODIFIED:20260330T214420Z
+UID:302229-1775244600-1775244600@jweekly.com
+SUMMARY:“Our Class”
+DESCRIPTION:Immigrant theater company Arlekin presents an award-winning Polish play about Jewish residents of a small Polish village who are killed during WWII by their non-Jewish neighbors. Based on the real victims and perpetrators.  Post-performance discussion with director Igor Golyak and S.F. director Carey Perloff. Through April 5.
+URL:https://jweekly.com/event/our-class-2/
+LOCATION:Z Space\, 470 Florida St.\, San Francisco\, CA\, 94110\, United States
+CATEGORIES:On Stage
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260404T093000
+DTEND;TZID=America/Los_Angeles:20260404T180000
+DTSTAMP:20260401T190320
+CREATED:20260330T214543Z
+LAST-MODIFIED:20260330T214543Z
+UID:302231-1775295000-1775325600@jweekly.com
+SUMMARY:Shabbat & Passover Meditation Retreat
+DESCRIPTION:Day of meditation in mostly silence led by Adam Berman\, founder of Urban Adamah. Bring a lunch; light snacks and tea provided.
+URL:https://jweekly.com/event/shabbat-passover-meditation-retreat/
+LOCATION:Urban Adamah\, 1151 Sixth St.\, Berkeley\, CA\, United States
+CATEGORIES:Talks & Workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260404T110000
+DTEND;TZID=America/Los_Angeles:20260404T140000
+DTSTAMP:20260401T190320
+CREATED:20260324T174438Z
+LAST-MODIFIED:20260324T174438Z
+UID:301704-1775300400-1775311200@jweekly.com
+SUMMARY:“Belonging in Bloom”
+DESCRIPTION:Asian-Jewish Passover brunch with fusion foods\, origami crafts and blessings. Presented by the Lunar Collective. Oakland address provided with RSVP.
+URL:https://jweekly.com/event/belonging-in-bloom/
+LOCATION:CA
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260404T151500
+DTEND;TZID=America/Los_Angeles:20260404T173000
+DTSTAMP:20260401T190320
+CREATED:20260324T173809Z
+LAST-MODIFIED:20260324T173809Z
+UID:301696-1775315700-1775323800@jweekly.com
+SUMMARY:Tawonga Family Passover
+DESCRIPTION:Outdoor celebration for families with kids ages 4-10 (siblings welcome) with activities. Location in Berkeley provided with registration.
+URL:https://jweekly.com/event/tawonga-family-passover/
+LOCATION:CA
+CATEGORIES:Holidays & Spiritual,Kids & Family
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+DTSTAMP:20260401T190320
+CREATED:20260330T214705Z
+LAST-MODIFIED:20260330T214705Z
+UID:302233-1775347200-1775433599@jweekly.com
+SUMMARY:“Lost in Yonkers”
+DESCRIPTION:Award-winning play about a family struggling to make ends meet in 1940s Yonkers\, New York. Through April 19. Post-performance discussion with cast on April 8\, and pre-performance Pride mixer April 15 at 6:30 p.m.
+URL:https://jweekly.com/event/lost-in-yonkers/
+LOCATION:Lesher Center for the Arts\, 1601 Civic Drive\,\, Walnut Creek\, CA\, United States
+CATEGORIES:On Stage
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260405T140000
+DTEND;TZID=America/Los_Angeles:20260405T170000
+DTSTAMP:20260401T190320
+CREATED:20260324T173922Z
+LAST-MODIFIED:20260324T173922Z
+UID:301698-1775397600-1775408400@jweekly.com
+SUMMARY:Family Passover Seder
+DESCRIPTION:Chochmat HaLev invites families to celebrate with separate experiences for ages 12 and under and for 12 and up followed by catered dinner.
+URL:https://jweekly.com/event/family-passover-seder/
+LOCATION:Chochmat HaLev\, 2215 Prince St.\, Berkeley\, CA\, United States
+CATEGORIES:Holidays & Spiritual,Kids & Family
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260406T190000
+DTEND;TZID=America/Los_Angeles:20260406T203000
+DTSTAMP:20260401T190320
+CREATED:20260330T214142Z
+LAST-MODIFIED:20260330T214142Z
+UID:302227-1775502000-1775507400@jweekly.com
+SUMMARY:“Jews in Baseball: Or Why Hank and Sandy Wouldn’t Play”
+DESCRIPTION:How did the baseball diamond become a stage for the Jewish-American dream? University of Illinois\, Chicago professor Harry Radousky traces the history of Jewish baseball icons from Moe Berg and Sandy Koufax to today’s record-breaking 16 Jewish MLB players. Presented by New Lehrhaus. Online.
+URL:https://jweekly.com/event/jews-in-baseball-or-why-hank-and-sandy-wouldnt-play/
+LOCATION:CA
+CATEGORIES:Talks & Workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260409T190000
+DTEND;TZID=America/Los_Angeles:20260409T203000
+DTSTAMP:20260401T190320
+CREATED:20260330T214925Z
+LAST-MODIFIED:20260401T015556Z
+UID:302237-1775761200-1775766600@jweekly.com
+SUMMARY:Roya Hakakian: The Battle for Iran
+DESCRIPTION:Iranian American writer and commentator speaks about life under authoritarian rule in a talk subtitled “Inside a Nation’s Struggle for Freedom.”
+URL:https://jweekly.com/event/roya-hakakian-the-battle-for-iran/
+LOCATION:Congregation Emanu-El\, 2 Lake St.\, San Francisco\, CA\, United States
+CATEGORIES:Talks & Workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260411T150000
+DTEND;TZID=America/Los_Angeles:20260411T160000
+DTSTAMP:20260401T190320
+CREATED:20260324T174826Z
+LAST-MODIFIED:20260324T174826Z
+UID:301710-1775919600-1775923200@jweekly.com
+SUMMARY:Spring Sound Bath
+DESCRIPTION:Meditation and relaxing sounds to welcome the new season.
+URL:https://jweekly.com/event/spring-sound-bath/
+LOCATION:Congregation Rodef Sholom\, 170 N. San Pedro Road\, San Rafael\, CA\, United States
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260411T160000
+DTEND;TZID=America/Los_Angeles:20260411T180000
+DTSTAMP:20260401T190320
+CREATED:20260330T213545Z
+LAST-MODIFIED:20260330T213545Z
+UID:302221-1775923200-1775930400@jweekly.com
+SUMMARY:“Enchanted Songs of the Slavic Soul”
+DESCRIPTION:Singing workshop with Siberian vocalist\, composer and conductor Polina Shepherd. Hosted by the Kitka Institute and Glenview Classical Series. Donation-based.
+URL:https://jweekly.com/event/enchanted-songs-of-the-slavic-soul/
+LOCATION:St. Paul Lutheran Church\, 1658 Excelsior Ave.\, Oakland\, CA
+CATEGORIES:Talks & Workshops,Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260411T190000
+DTEND;TZID=America/Los_Angeles:20260411T220000
+DTSTAMP:20260401T190320
+CREATED:20260324T174711Z
+LAST-MODIFIED:20260324T174711Z
+UID:301708-1775934000-1775944800@jweekly.com
+SUMMARY:Mimouna: A Moroccan Jewish Celebration
+DESCRIPTION:Celebrate the end of Passover with Moroccan treats\, live DJ and dance performance. Presented by JCC of San Francisco and JIMENA.
+URL:https://jweekly.com/event/mimouna-a-moroccan-jewish-celebration/
+LOCATION:JCC of San Francisco\, 3200 California St.\, San Francisco\, CA\, United States
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260411T193000
+DTEND;TZID=America/Los_Angeles:20260411T193000
+DTSTAMP:20260401T190320
+CREATED:20260324T174554Z
+LAST-MODIFIED:20260324T174554Z
+UID:301706-1775935800-1775935800@jweekly.com
+SUMMARY:“On Being Jewish Now”
+DESCRIPTION:The Braid Theatre company presents American Jewish stories of life in a post-Oct. 7 world. Stage adaptation of Zibby Owens’ book “On Being Jewish Now.” At Congregation Etz Chayim\, 4161 Alma St.\, Palo Alto. 7:30 p.m. Also April 12 at 2 p.m. at Congregation Shir Hadash\, 20 Cherry Blossom Lane\, Los Gatos.
+URL:https://jweekly.com/event/on-being-jewish-now/
+LOCATION:Congregation Etz Chayim\, 4161 Alma St.\, Palo Alto\, CA\, United States
+CATEGORIES:On Stage
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260411T193000
+DTEND;TZID=America/Los_Angeles:20260411T193000
+DTSTAMP:20260401T190320
+CREATED:20260330T215039Z
+LAST-MODIFIED:20260330T215039Z
+UID:302241-1775935800-1775935800@jweekly.com
+SUMMARY:Nefesh Mountain in Concert
+DESCRIPTION:New York–based bluegrass band blending American folk music with Jewish and Celtic influences.
+URL:https://jweekly.com/event/nefesh-mountain-in-concert/
+LOCATION:Congregation Emanu-El\, 2 Lake St.\, San Francisco\, CA\, United States
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T100000
+DTEND;TZID=America/Los_Angeles:20260412T160000
+DTSTAMP:20260401T190320
+CREATED:20260324T175225Z
+LAST-MODIFIED:20260324T175225Z
+UID:301718-1775988000-1776009600@jweekly.com
+SUMMARY:Community Wellness Fair
+DESCRIPTION:Addison-Penzak JCC presents a keynote address\, breakout sessions\, health screenings and scans\, Pilates demos and local health and wellness vendors.
+URL:https://jweekly.com/event/community-wellness-fair/
+LOCATION:Addison-Penzak JCC\, 14855 Oka Road\, Los Gatos\, CA\, United States
+CATEGORIES:Talks & Workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T110000
+DTEND;TZID=America/Los_Angeles:20260412T120000
+DTSTAMP:20260401T190320
+CREATED:20260330T220809Z
+LAST-MODIFIED:20260330T220809Z
+UID:302255-1775991600-1775995200@jweekly.com
+SUMMARY:Berkeley Holocaust Remembrance Day
+DESCRIPTION:Secular commemoration hosted by the city of Berkeley features personal testimony by child survivor Anna Rabkin and music composed for the event by Russian-born composer Polina Shepherd. Online.
+URL:https://jweekly.com/event/berkeley-holocaust-remembrance-day/
+LOCATION:CA
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T133000
+DTEND;TZID=America/Los_Angeles:20260412T150000
+DTSTAMP:20260401T190320
+CREATED:20260324T174950Z
+LAST-MODIFIED:20260324T174950Z
+UID:301714-1776000600-1776006000@jweekly.com
+SUMMARY:“Blooming Into Freedom”
+DESCRIPTION:Passover yoga class\, all levels welcome. Free\, registration required.
+URL:https://jweekly.com/event/blooming-into-freedom/
+LOCATION:Osher Marin JCC\, 200 N. San Pedro Road\, San Rafael\, CA\, United States
+CATEGORIES:Sports
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T133000
+DTEND;TZID=America/Los_Angeles:20260412T170000
+DTSTAMP:20260401T190320
+CREATED:20260330T215831Z
+LAST-MODIFIED:20260330T215831Z
+UID:302246-1776000600-1776013200@jweekly.com
+SUMMARY:North Peninsula Yom HaShoah: Remembrance\, Resilience\, and Responsibility
+DESCRIPTION:Reading of names\, commemoration service\, testimony and discussion. Presented by JFCS Holocaust Center and North Peninsula Jewish Collaboration. Burlingame location provided with registration.
+URL:https://jweekly.com/event/north-peninsula-yom-hashoah-remembrance-resilience-and-responsibility/
+LOCATION:CA
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T140000
+DTEND;TZID=America/Los_Angeles:20260412T160000
+DTSTAMP:20260401T190320
+CREATED:20260330T215456Z
+LAST-MODIFIED:20260330T215456Z
+UID:302243-1776002400-1776009600@jweekly.com
+SUMMARY:“The Road Between Us”
+DESCRIPTION:Documentary about retired Israeli general Noam Tibon’s actions to save his family and others on Oct. 7\, 2023.
+URL:https://jweekly.com/event/the-road-between-us/
+LOCATION:Congregation Beth David\, 19700 Prospect Road\, Saratoga\, CA\, United States
+CATEGORIES:Film
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T140000
+DTEND;TZID=America/Los_Angeles:20260412T170000
+DTSTAMP:20260401T190320
+CREATED:20260330T213720Z
+LAST-MODIFIED:20260330T213720Z
+UID:302223-1776002400-1776013200@jweekly.com
+SUMMARY:The Joy of Jewish Music and Dance
+DESCRIPTION:Music and movement workshop with musician Polina Shepherd and teacher Bruce Bierman\, followed by communal dancing and music. Basic instrumental proficiency recommended for musicians. Online ticket sales end April 10 at noon\, additional tickets may be available at the door. Hosted by KlezCalifornia. $25-$54\, sliding scale. 18 and under free.
+URL:https://jweekly.com/event/the-joy-of-jewish-music-and-dance-10/
+LOCATION:Congregation Netivot Shalom\, 1316 University Ave.\, Berkeley\, CA\, United States
+CATEGORIES:Talks & Workshops,Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T183000
+DTEND;TZID=America/Los_Angeles:20260412T193000
+DTSTAMP:20260401T190320
+CREATED:20260330T220322Z
+LAST-MODIFIED:20260330T220322Z
+UID:302251-1776018600-1776022200@jweekly.com
+SUMMARY:“On Theatre Dybbuk’s Dracula”
+DESCRIPTION:Aaron Henne\, artistic director of Jewish theater company Theatre Dybbuk\, examines the Dracula novel in historical and modern contexts. Presented by the Jewish Community Library. Online.
+URL:https://jweekly.com/event/on-theatre-dybbuks-dracula/
+LOCATION:CA
+CATEGORIES:Talks & Workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T190000
+DTEND;TZID=America/Los_Angeles:20260412T203000
+DTSTAMP:20260401T190320
+CREATED:20260324T175113Z
+LAST-MODIFIED:20260401T014838Z
+UID:301716-1776020400-1776025800@jweekly.com
+SUMMARY:“Isaac Mizrahi: Hooray!”
+DESCRIPTION:The designer and entertainer performs a “cultural whiplash” of songs from classics to modern pop. $90\, $75 students/seniors.
+URL:https://jweekly.com/event/isaac-mizrahi-hooray/
+LOCATION:Oshman Family JCC\, 3921 Fabian Way\, Palo Alto\, CA\, United States
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260412T193000
+DTEND;TZID=America/Los_Angeles:20260412T213000
+DTSTAMP:20260401T190320
+CREATED:20260330T213837Z
+LAST-MODIFIED:20260330T213837Z
+UID:302225-1776022200-1776029400@jweekly.com
+SUMMARY:“Interwoven”
+DESCRIPTION:Phoebe Vlassis\, Polina Shepherd and members of Kitka Women’s Vocal Ensemble blend East European Jewish\, Slavic and Tatar folk heritage into songs inspired by textile arts. Donation-based.
+URL:https://jweekly.com/event/interwoven/
+LOCATION:St. Paul Lutheran Church\, 1658 Excelsior Ave.\, Oakland\, CA
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260413T170000
+DTEND;TZID=America/Los_Angeles:20260413T200000
+DTSTAMP:20260401T190320
+CREATED:20260330T220912Z
+LAST-MODIFIED:20260330T220912Z
+UID:302257-1776099600-1776110400@jweekly.com
+SUMMARY:S.F. Yom HaShoah: The Courage to Act
+DESCRIPTION:Reading of names by dignitaries and elected officials\, Yizkor service and commemoration with clergy and civic leaders\, followed by community reception. Presented by JCC of San Francisco and JFCS Holocaust Center\, with 30 community partners.
+URL:https://jweekly.com/event/s-f-yom-hashoah-the-courage-to-act/
+LOCATION:JCC of San Francisco\, 3200 California St.\, San Francisco\, CA\, United States
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260413T183000
+DTEND;TZID=America/Los_Angeles:20260413T203000
+DTSTAMP:20260401T190320
+CREATED:20260330T221021Z
+LAST-MODIFIED:20260330T221021Z
+UID:302259-1776105000-1776112200@jweekly.com
+SUMMARY:Marin Yom HaShoah Commemoration
+DESCRIPTION:Music\, prayers\, survivor testimony and reflections. Hosted by Congregation Kol Shofar in partnership with Brandeis Marin\, Congregation Rodef Sholom\, Jewish Family and Children’s Services\, Osher Marin JCC and Sinai Memorial Chapel.
+URL:https://jweekly.com/event/marin-yom-hashoah-commemoration/
+LOCATION:Congregation Kol Shofar\, 215 Blackfield Drive\, Tiburon\, CA\, United States
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260413T190000
+DTEND;TZID=America/Los_Angeles:20260413T190000
+DTSTAMP:20260401T190320
+CREATED:20260330T221144Z
+LAST-MODIFIED:20260330T221144Z
+UID:302261-1776106800-1776106800@jweekly.com
+SUMMARY:Contra Costa Yom HaShoah Commemoration
+DESCRIPTION:Congregation B’nai Shalom hosts a community gathering to honor the victims and survivors of the Holocaust. Presented in partnership with Contra Costa JCC and Congregations B’nai Tikvah\, B’nai Shalom\, Beth Chaim and Temple Isaiah. Free; registration required.
+URL:https://jweekly.com/event/contra-costa-yom-hashoah-commemoration/
+LOCATION:Comgregation B’nai Shalom\, 74 Eckley Lane\, Walnut Creek\, CA\, United States
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260413T190000
+DTEND;TZID=America/Los_Angeles:20260413T200000
+DTSTAMP:20260401T190320
+CREATED:20260330T221248Z
+LAST-MODIFIED:20260330T221248Z
+UID:302263-1776106800-1776110400@jweekly.com
+SUMMARY:Holocaust Remembrance Ceremony: The Stories Behind the Names
+DESCRIPTION:Community event commemorating the Holocaust.
+URL:https://jweekly.com/event/holocaust-remembrance-ceremony-the-stories-behind-the-names/
+LOCATION:Congregation Etz Chayim\, 4161 Alma St.\, Palo Alto\, CA\, United States
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260413T190000
+DTEND;TZID=America/Los_Angeles:20260413T203000
+DTSTAMP:20260401T190320
+CREATED:20260330T221403Z
+LAST-MODIFIED:20260330T221403Z
+UID:302265-1776106800-1776112200@jweekly.com
+SUMMARY:Hitkansut: A South Bay Ritual Gathering for Yom HaShoah V’hagevurah
+DESCRIPTION:All-ages ceremony based on a program of the Hartman Institute with texts\, testimonies\, prayer\, music and moments of silence. Presented by Jewish Silicon Valley and partners.
+URL:https://jweekly.com/event/hitkansut-a-south-bay-ritual-gathering-for-yom-hashoah-vhagevurah/
+LOCATION:Addison-Penzak JCC\, 14855 Oka Road\, Los Gatos\, CA\, United States
+CATEGORIES:Holidays & Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+DTSTAMP:20260401T190320
+CREATED:20260330T221517Z
+LAST-MODIFIED:20260330T221517Z
+UID:302267-1776124800-1776211199@jweekly.com
+SUMMARY:“Among Neighbors”
+DESCRIPTION:Documentary examining post-Holocaust anti-Jewish violence in the small town of Gniewoszów\, Poland. Screening in honor of Yom HaShoah. Hosted by JFCS Holocaust Center and JCC of San Francisco with Contemporary Jewish Museum. 10 a.m. and 6:30 p.m. showings.
+URL:https://jweekly.com/event/among-neighbors-5/
+LOCATION:JCC of San Francisco\, 3200 California St.\, San Francisco\, CA\, United States
+CATEGORIES:Film
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260414T110000
+DTEND;TZID=America/Los_Angeles:20260414T110000
+DTSTAMP:20260401T190320
+CREATED:20260330T222041Z
+LAST-MODIFIED:20260330T222041Z
+UID:302274-1776164400-1776164400@jweekly.com
+SUMMARY:A Conversation with David Horovitz
+DESCRIPTION:Times of Israel editor-in-chief in conversation with Ron Hassner\, co-faculty director of the Helen Diller Institute\, discussing Israeli politics and society in context of the changing Middle East political landscape. Online.
+URL:https://jweekly.com/event/a-conversation-with-david-horovitz/
+LOCATION:CA
+CATEGORIES:Talks & Workshops
+END:VEVENT
+END:VCALENDAR

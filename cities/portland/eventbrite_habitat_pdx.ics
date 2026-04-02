@@ -4,6 +4,23 @@ PRODID:-//Habitat for Humanity Portland//eventbrite.com//
 X-WR-CALNAME:Habitat for Humanity Portland
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:Container Gardening with Growing Gardens
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260516T100000
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260516T120000
+UID:0b907aa9d58b4aa17a702080898d4e05@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1179725239%2F1191263940413%2F1%2Foriginal.20260312-201722?cro
+ p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.45
+ 9&fp-y=0.468&s=ecde8781fd201a8da7961bc9d49547b2
+DESCRIPTION:Grow a gorgeous garden of any size with help from the experts 
+ at Growing Gardens
+LOCATION:Habitat for Humanity Portland Region Office\, 1478 Northeast Kill
+ ingsworth Street\, Portland\, OR 97211\, Portland\, OR
+URL:https://www.eventbrite.com/e/container-gardening-with-growing-gardens-
+ tickets-1985094518141
+X-SOURCE:Habitat for Humanity Portland
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(Virtual) SAFE Financial Beginnings #4: Protecting Yourself
 DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260408T173000
 DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260408T190000
@@ -33,23 +50,6 @@ LOCATION:1478 NE Killingsworth St\, 1478 Northeast Killingsworth Street\,
  Portland\, OR 97211\, Portland\, OR
 URL:https://www.eventbrite.com/e/safe-financial-beginnings-5-retirement-sa
  vings-tickets-1976761000365
-X-SOURCE:Habitat for Humanity Portland
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Container Gardening with Growing Gardens
-DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260516T100000
-DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260516T120000
-UID:0b907aa9d58b4aa17a702080898d4e05@eventbrite.com
-ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
- m%2Fimages%2F1179725239%2F1191263940413%2F1%2Foriginal.20260312-201722?cro
- p=focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.45
- 9&fp-y=0.468&s=ecde8781fd201a8da7961bc9d49547b2
-DESCRIPTION:Grow a gorgeous garden of any size with help from the experts 
- at Growing Gardens
-LOCATION:Habitat for Humanity Portland Region Office\, 1478 Northeast Kill
- ingsworth Street\, Portland\, OR 97211\, Portland\, OR
-URL:https://www.eventbrite.com/e/container-gardening-with-growing-gardens-
- tickets-1985094518141
 X-SOURCE:Habitat for Humanity Portland
 END:VEVENT
 END:VCALENDAR

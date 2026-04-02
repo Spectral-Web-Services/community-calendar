@@ -5,40 +5,6 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Bay Area Peninsula Jewish Young Adults: 20's and 30's
 X-WR-CALNAME:Bay Area Peninsula Jewish Young Adults: 20's and 30's
-BEGIN:VTIMEZONE
-TZID:America/Los_Angeles
-TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
-X-LIC-LOCATION:America/Los_Angeles
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0800
-TZOFFSETTO:-0700
-TZNAME:PDT
-DTSTART:19700308T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0700
-TZOFFSETTO:-0800
-TZNAME:PST
-DTSTART:19701101T020000
-RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:event_313611763@meetup.com
-SEQUENCE:1
-DTSTAMP:20260401T022042Z
-DTSTART;TZID=America/Los_Angeles:20260331T190000
-DTEND;TZID=America/Los_Angeles:20260331T210000
-SUMMARY:Prince of Egypt movie screening for Passover 
-DESCRIPTION:Bay Area Peninsula Jewish Young Adults: 20's and 30's\nIt’s every Jewish 90s (or early 2000s) kid’s favorite Passover tradition! Yes\, it’s true. ENGAJ is screening the 1998 classic\, The Prince of Egypt\, the night before Passover begins. We’ll have popcorn\, Dr Brown’s soda\, and plenty of movie snacks. (And matzah if you’re feeling it). Join us as we carry this tradition forward a 4th year! Much like the Israelites when they crossed the Red Sea\, this event is free.
-URL;VALUE=URI:https://www.meetup.com/bayareajews/events/313611763/
-STATUS:CONFIRMED
-CREATED:20260303T012443Z
-LAST-MODIFIED:20260303T012443Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/7/d/c/e/600_533012206.jpeg
-END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/BayAreaJews/events/ical/
 X-WR-CALNAME:Bay Area Peninsula Jewish Young Adults: 20's and 30's
 END:VCALENDAR
