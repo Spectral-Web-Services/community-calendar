@@ -7,6 +7,7 @@ import os
 from abc import ABC, abstractmethod
 from datetime import datetime, timedelta
 from typing import Any, Optional
+from zoneinfo import ZoneInfo
 
 from icalendar import Calendar, Event
 
@@ -34,6 +35,7 @@ class BaseScraper(ABC):
     name: str = "Unknown Source"
     domain: str = "example.com"
     timezone: str = "America/Los_Angeles"
+    default_url: Optional[str] = None
 
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
@@ -54,6 +56,7 @@ class BaseScraper(ABC):
             description=description or f'Scrape events from {cls.name}'
         )
         parser.add_argument('--output', '-o', type=str, help='Output filename')
+        parser.add_argument('--default-url', type=str, help='Fallback URL when events have no per-event URL')
         parser.add_argument('--debug', action='store_true', help='Enable debug logging')
         return parser.parse_args()
 
@@ -93,11 +96,23 @@ class BaseScraper(ABC):
         
         event = Event()
         event.add('summary', title)
-        event.add('dtstart', dtstart)
-        event.add('dtend', data.get('dtend') or dtstart)
+        # Convert to target timezone then strip tzinfo, setting TZID explicitly
+        # as a string to avoid icalendar serializing ZoneInfo objects
+        if hasattr(dtstart, 'tzinfo') and dtstart.tzinfo is not None:
+            target_tz = ZoneInfo(self.timezone)
+            dtstart = dtstart.astimezone(target_tz)
+            dtend = data.get('dtend') or dtstart
+            dtend = dtend.astimezone(target_tz)
+            tz_params = {'TZID': self.timezone}
+            event.add('dtstart', dtstart.replace(tzinfo=None), parameters=tz_params)
+            event.add('dtend', dtend.replace(tzinfo=None), parameters=tz_params)
+        else:
+            event.add('dtstart', dtstart)
+            event.add('dtend', data.get('dtend') or dtstart)
         
-        if data.get('url'):
-            event.add('url', data['url'])
+        url = data.get('url') or self.default_url
+        if url:
+            event.add('url', url)
         
         if data.get('location'):
             event.add('location', data['location'])
@@ -164,4 +179,6 @@ class BaseScraper(ABC):
             logging.getLogger().setLevel(logging.DEBUG)
 
         scraper = cls()
+        if getattr(args, 'default_url', None):
+            scraper.default_url = args.default_url
         scraper.run(args.output)

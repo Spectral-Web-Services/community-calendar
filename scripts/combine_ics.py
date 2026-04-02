@@ -8,10 +8,12 @@ import argparse
 import html
 import json
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from dateutil.rrule import rrulestr
+import icalendar
+import recurring_ical_events
 
 # Map filenames to friendly source names.
 # Only needed when the filename doesn't convert cleanly via stem.replace('_', ' ').title().
@@ -86,6 +88,7 @@ SOURCE_NAMES = {
     'iu_black_film': 'IU Black Film Center & Archive',
     'iu_neal_marshall': 'IU Neal-Marshall Black Culture Center',
     'iu_hamilton_lugar': 'IU Hamilton Lugar School',
+    'events_livewhale_11': 'IU Eskenazi School of Art',
     # Bloomington - IU LibCal
     'iu_libcal_screening_room': 'IU Moving Image Archive',
     'iu_libcal_scholars_commons': 'IU Scholars\' Commons',
@@ -105,6 +108,7 @@ SOURCE_NAMES = {
     # Bloomington - Community
     'mcpl': 'Monroe County Public Library',
     'farmers_market': "Bloomington Community Farmers' Market",
+    'gcal_c_25e52423b2d0772255c59d0e398b655d5c121833814b7b9fc11f4ddd9cff195c_group_calendar_google_com': 'Redbud Books',
     'wonderlab': 'WonderLab Museum',
     'first_united_church': 'First United Church',
     'community_band': 'Bloomington Community Band',
@@ -123,6 +127,12 @@ SOURCE_NAMES = {
     # Bloomington - Scrapers (various platforms)
     'constellation': 'Constellation Stage & Screen',
     'cicada_cinema': 'Cicada Cinema',
+    'eventbrite_morgenstern_books': 'Morgenstern Books',
+    # Bloomington - Aggregators
+    'gcal_e1egkmmhjj98nf0rgd2oa4u3ng': 'Let\'s Go! Bloomington',
+    'btonline_events': 'BloomingtonOnline Events',
+    'btonline_food': 'BloomingtonOnline Food & Drink',
+    'btonline_shopping': 'BloomingtonOnline Shopping',
     # Bloomington - Long tail community
     'calendar_bloomington_in_gov_c657mi332p5sjpq2lcht9i': 'City Department Events',
     'calendar_shweekend_40gmail_com_public': 'Bloomington Old-Time Music & Dance',
@@ -277,6 +287,33 @@ SOURCE_NAMES = {
     'cinnabar': 'Cinnabar Theater',
     'green_music_center': 'Green Music Center',
     'jack_london_park': 'Jack London State Historic Park',
+    'songkick_elephant': 'Elephant in the Room',
+    'eventbrite_elephant': 'Elephant in the Room',
+    'ranchonicasio': 'Rancho Nicasio',
+    'bigeasypetaluma': 'The Big Easy',
+    'sweetwater': 'Sweetwater Music Hall',
+    'songkick_sweetwater': 'Sweetwater Music Hall',
+    'songkick_mystic': 'Mystic Theatre',
+    'songkick_hopmonk': 'HopMonk Tavern Sebastopol',
+    'songkick_phoenix': 'Phoenix Theater',
+    'songkick_will_call': 'The Will Call',
+    'songkick_blue_note': 'Blue Note Napa',
+    'songkick_rancho_nicasio': 'Rancho Nicasio',
+    'songkick_big_easy': 'The Big Easy',
+    'songkick_twin_oaks': 'Twin Oaks Roadhouse',
+    'songkick_lost_church': 'The Lost Church',
+    'songkick_fern_bar': 'The Fern Bar',
+    'songkick_shady_oak': 'Shady Oak Barrel House',
+    'songkick_222': 'THE 222',
+    'songkick_rio_nido': 'Rio Nido Roadhouse',
+    'songkick_redwood_cafe': 'Redwood Cafe',
+    'songkick_henhouse': 'HenHouse Brewing',
+    'eventbrite_phoenix': 'Phoenix Theater',
+    'mobilize_indivisible_sonoma': 'Indivisible Sonoma County (Mobilize)',
+    # Bloomington
+    'mobilize_indivisible_central_indiana': 'Indivisible Central Indiana (Mobilize)',
+    # Davis
+    'mobilize_indivisible_yolo': 'Indivisible Yolo (Mobilize)',
     # Montclair
     'montclairlocal': 'Montclair Local News',
     'montclairfoundation_calendar_of_events': 'Montclair Foundation',
@@ -311,14 +348,15 @@ SOURCE_NAMES = {
     'msu_athletics': 'MSU Red Hawks Athletics',
     'maxpreps_mka': 'Montclair Kimberley Academy Athletics',
     'meetup_nj_bvt_sports': 'Meetup: NJ Bowling, Volleyball, Tennis & More',
-    'fcc_montclair': 'First Congregational Church Montclair',
-    'uu_montclair': 'UU Congregation of Montclair',
+    'gcal_id8bbkkkfmscdavi2jilkb2muo': 'First Congregational Church Montclair',
+    'gcal_uumontclair_org_9kptanknnvqcom49ks44nnaaak': 'UU Congregation of Montclair',
     'shomrei_emunah': 'Congregation Shomrei Emunah',
     'unioncong': 'Union Congregational Church',
     'nertamid': 'Temple Ner Tamid',
     'njaudubon': 'NJ Audubon',
     'turtle_back_zoo': 'Turtle Back Zoo',
     'raptor_trust': 'The Raptor Trust',
+    'mobilize_indivisible_nj': 'Indivisible One NJ (Mobilize)',
     'sycamore_land_trust': 'Sycamore Land Trust',
     # MatSu (Matanuska-Susitna)
     'wasilla_library': 'Wasilla Public Library',
@@ -354,6 +392,133 @@ SOURCE_NAMES = {
     'eventbrite_sciline': 'SciLine',
     'sunlight_research': 'Sunlight Research',
     'poynter_shop': 'Poynter Institute Training',
+    'eventbrite_trivia_ad': 'Trivia AD',
+    'montclair_history_center': 'Montclair History Center',
+    'meetup_board_gamers_of_greater_nutley': 'Meetup: Board Gamers of Greater Nutley',
+    'meetup_board_game_night_at_verona_inn': 'Meetup: Board Game Night at Verona Inn',
+    'meetup_wordpress_montclair_meetup': 'Meetup: WordPress Montclair',
+    'meetup_cloud_data_driven': 'Meetup: Cloud Data Driven',
+    # Petaluma - live feed slugs (slugify-generated)
+    'tockify_pdaevents': 'Petaluma Downtown Association',
+    'tockify_tom.l': 'Tockify: tom.l',
+    'api_v2': 'Aqus Community',
+    'meetup_mindfulnesspetaluma': 'Meetup: Mindful Petaluma',
+    'meetup_the_rebel_craft_collective': 'Meetup: Rebel Craft Collective',
+    'meetup_meetup_group_bwkyqavs': 'Meetup: Candlelight Yoga Petaluma',
+    'meetup_petaluma_figure_drawing_meetup_group': 'Meetup: Petaluma Figure Drawing',
+    'meetup_sonoma_marin_brat_pack': 'Meetup: Sonoma-Marin Brat Pack',
+    'meetup_petaluma_book_and_brew_club': 'Meetup: Petaluma Book & Brew Club',
+    'meetup_petaluma_active_20_30': 'Meetup: Petaluma Active 20-30',
+    'meetup_sonoma_county_outdoors': 'Meetup: Sonoma County Outdoors',
+    'meetup_north_bay_contra_dance': 'Meetup: North Bay Contra Dance',
+    'meetup_sonoma_county_go_wild_hikers': 'Meetup: Go Wild Hikers',
+    'meetup_meditate_with_a_monk_in_sonoma_county': 'Meetup: Meditate with a Monk',
+    'meetup_northbayhiking': 'Meetup: North Bay Hiking',
+    'meetup_north_bay_tails_and_trails': 'Meetup: North Bay Tails & Trails',
+    'meetup_meetup_group_qxyjpxnx': 'Meetup: Petaluma Parents',
+    'meetup_senior_walkabouters': 'Meetup: Senior Walkabouters',
+    'meetup_sonoma_county_wanderers': 'Meetup: Sonoma County Wanderers',
+    'meetup_meetup_group_ohazunav': 'Meetup: Petaluma Social',
+    'meetup_four_corners_hiking_beer': 'Meetup: Four Corners Hiking & Beer',
+    'pollyklaastheater': 'Polly Klaas Community Theater',
+    'mcnears_event': "McNear's Saloon",
+    'petalumabounty_events_calendar': 'Petaluma Bounty',
+    'petalumamuseum': 'Petaluma Museum',
+    'calendar_livewhale': 'Santa Rosa Junior College',
+    'gcal_c_69dcaa6c13b06c1111a1706565ebb272c3d24290c650a9378bdbd37bff886879': 'Petaluma Community Center',
+    'gcal_elks0901': 'Petaluma Elks Lodge',
+    'gcal_petalumagardenclub': 'Petaluma Garden Club',
+    # Davis - live feed slugs (slugify-generated)
+    'meetup_intercultural_mosaics': 'Meetup: Intercultural Mosaics',
+    'meetup_yolo_county_board_game_gathering': 'Meetup: Yolo Board Game Gathering',
+    'meetup_pence_adult_art_programs': 'Meetup: Pence Art Programs',
+    'meetup_mindful_embodied_spirituality': 'Meetup: Mindful Embodied Spirituality',
+    'meetup_winters_shut_up_and_write_meetup_group': 'Meetup: Winters Shut Up & Write',
+    'visityolo_event': 'Visit Yolo',
+    'putahcreekcouncil': 'Putah Creek Council',
+    'gcal_davisbikeclubwww': 'Davis Bike Club',
+    # Lancaster - live feed slugs (slugify-generated)
+    'visitlancastercity': 'Visit Lancaster City',
+    'figlancaster': 'Fig Lancaster',
+    'lancasterpa': 'Discover Lancaster',
+    'mickeysblackbox': "Mickey's Black Box",
+    'candyissweet': 'Candy Is Sweet',
+    'bird_in_hand': 'Bird-in-Hand',
+    'lancastertrust': 'Lancaster Trust',
+    'cityoflancasterpa': 'City of Lancaster',
+    'saintjameslancaster': 'Saint James Lancaster',
+    'apostlesucc': 'Church of the Apostles UCC',
+    'calvarychurch': 'Calvary Church',
+    'stevensandsmithcenter': 'Stevens & Smith Center',
+    'northmuseum': 'North Museum',
+    'amtshows': 'American Music Theatre',
+    'lancastersciencefactory': 'Lancaster Science Factory',
+    'lancasterbirdclub': 'Lancaster Bird Club',
+    'lancasterwatersheds': 'Lancaster Watersheds',
+    'grandviewwines': 'Grandview Vineyard',
+    'zestchef': 'Zest Chef',
+    'sdlancaster': 'School District of Lancaster',
+    'mtwp_ics_mt_ics': 'Manheim Township School District',
+    'mtwp_ics_hs_ics': 'Manheim Township High School',
+    'co_common_modules': 'Lancaster County Government',
+    'manheimtownship_common_modules': 'Manheim Township Government',
+    'eastlampetertownship': 'East Lampeter Township',
+    'westlampeter_common_modules': 'West Lampeter Township',
+    'meetup_tech_lancaster_meetups': 'Meetup: Tech Lancaster',
+    'meetup_data_lancaster': 'Meetup: Data Lancaster',
+    'meetup_wordpress_lancaster': 'Meetup: WordPress Lancaster',
+    'meetup_lanclug': 'Meetup: Lancaster Linux Users Group',
+    'meetup_lancaster_elastic_user_group': 'Meetup: Lancaster Elastic User Group',
+    'meetup_cposc': 'Meetup: Central PA Open Source Conference',
+    'meetup_levelupmeetup': 'Meetup: Level Up Lancaster',
+    'meetup_meetup_group_phcrfejq': 'Meetup: Lancaster Social',
+    'meetup_meet_people_lancaster': 'Meetup: Meet People Lancaster',
+    'meetup_lancaster_young_adults_meetup': 'Meetup: Lancaster Young Adults',
+    'meetup_womensfriendship60': "Meetup: Women's Friendship 60+",
+    'meetup_lancaster_freethought_society': 'Meetup: Lancaster Freethought Society',
+    'meetup_the_creative_house_of_lancaster': 'Meetup: The Creative House of Lancaster',
+    'meetup_lncphoto': 'Meetup: Lancaster Nature & Culture Photography',
+    'meetup_lancaster_photography_meetup_group': 'Meetup: Lancaster Photography',
+    'meetup_scrapandcraft': 'Meetup: Scrap & Craft',
+    'meetup_lancaster_craft_club': 'Meetup: Lancaster Craft Club',
+    'meetup_lancaster_bicycle_club': 'Meetup: Lancaster Bicycle Club',
+    'meetup_lancaster_sierra_club': 'Meetup: Lancaster Sierra Club',
+    'meetup_gamelancaster': 'Meetup: GAME Lancaster',
+    'meetup_centralpagameclub': 'Meetup: Central PA Game Club',
+    'meetup_lancaster_guided_meditation_meetup_group_with_buddhist_nun': 'Meetup: Lancaster Guided Meditation',
+    'meetup_beingonecenterlancaster': 'Meetup: Being One Center Lancaster',
+    'meetup_walking_tails': 'Meetup: Walking Tails',
+    'meetup_mental_health_america_of_lancaster_county': 'Meetup: Mental Health America of Lancaster County',
+    'meetup_authors_in_the_making': 'Meetup: Authors in the Making',
+    'guildhost_civic_tech': 'Civic Tech Toronto',
+    'wfhb_calendar': 'WFHB Community Calendar',
+    'eventbrite_nerd_nite': 'Nerd Nite Bloomington',
+    'writers_guild': 'Writers Guild at Bloomington',
+    'far_center': 'FAR Center for Contemporary Arts',
+    'habitat': 'Habitat for Humanity Monroe County',
+    'nami_bloomington': 'NAMI Greater Bloomington',
+    'monroe_county_history_center': 'Monroe County History Center',
+    'browncounty': 'Brown County Events',
+    'gcal_artsanctuaryindiana': 'Art Sanctuary of Indiana',
+    'gcal_90204180d86dfba4a7c6fcd85e2082b5f9414f751c9a42d840016d3333a115f2': 'Rebel Purl Yarn Shop',
+    'events_livewhale_353': 'IU Mathers Museum',
+    'hardtruth': 'Hard Truth Distilling Co.',
+    'eventbrite_the_tap': 'The Tap',
+    'eventbrite_martinsville_arts': 'Martinsville Arts Council',
+    'eventbrite_story_inn': 'Story Inn',
+    'localist_brown_county_sp': 'Brown County State Park',
+    'localist_mccormicks_creek': "McCormick's Creek State Park",
+    'bloomington_arts_today': 'BloomingtonArts.Today',
+    'pottery_house_studio': 'Pottery House Studio',
+    'tm_musical_arts_center': 'IU Musical Arts Center',
+    'tm_iu_cinema': 'IU Cinema (TM)',
+    'tm_brown_county_music': 'Brown County Music Center',
+    'tm_memorial_stadium': 'IU Memorial Stadium',
+    'tm_ruth_halls': 'Ruth N Halls Theatre',
+    'tm_bill_armstrong': 'Bill Armstrong Stadium',
+    'tm_wells_metz': 'Wells Metz Theatre',
+    'tm_assembly_hall': 'Simon Skjodt Assembly Hall',
+    'limestone_post': 'Limestone Post',
 }
 
 # Fallback URLs for sources whose ICS events lack a URL property.
@@ -496,6 +661,37 @@ SOURCE_URLS = {
     'wake_audubon': 'https://www.wakeaudubon.org/events',
     'sw_durham_rotary': 'https://portal.clubrunner.ca/3674',
     'jack_london_park': 'https://jacklondonpark.com/events/',
+    'songkick_elephant': 'https://www.songkick.com/venues/3757589-elephant-in-the-room',
+    'eventbrite_elephant': 'https://www.eventbrite.com/o/elephant-in-the-room-45984150493',
+    'ranchonicasio': 'https://ranchonicasio.com/events/',
+    'bigeasypetaluma': 'https://bigeasypetaluma.com/events/',
+    'sweetwater': 'https://sweetwatermusichall.org/events/',
+    'songkick_sweetwater': 'https://www.songkick.com/venues/1633868-sweetwater-music-hall',
+    'songkick_mystic': 'https://www.songkick.com/venues/9969-mystic-theatre',
+    'songkick_hopmonk': 'https://www.songkick.com/venues/108265-hopmonk-tavern-sebastopol',
+    'songkick_phoenix': 'https://www.songkick.com/venues/4320-phoenix-theater',
+    'songkick_will_call': 'https://www.songkick.com/venues/4472014-will-call',
+    'songkick_blue_note': 'https://www.songkick.com/venues/3375329-blue-note-napa',
+    'songkick_rancho_nicasio': 'https://www.songkick.com/venues/86109-rancho-nicasio',
+    'songkick_big_easy': 'https://www.songkick.com/venues/2928808-big-easy',
+    'songkick_twin_oaks': 'https://www.songkick.com/venues/3239334-twin-oaks-roadhouse',
+    'songkick_lost_church': 'https://www.songkick.com/venues/4370054-lost-church',
+    'songkick_fern_bar': 'https://www.songkick.com/venues/4186454-fern-bar',
+    'songkick_shady_oak': 'https://www.songkick.com/venues/4364786-shady-oak-barrel-house',
+    'songkick_222': 'https://www.songkick.com/venues/4426320-222',
+    'songkick_rio_nido': 'https://www.songkick.com/venues/877176-rio-nido-roadhouse',
+    'songkick_redwood_cafe': 'https://www.songkick.com/venues/1900888-redwood-cafe',
+    'songkick_henhouse': 'https://www.songkick.com/venues/4617123-henhouse-brewing',
+    'eventbrite_phoenix': 'https://www.eventbrite.com/o/phoenix-theater-26319831111',
+    'mobilize_indivisible_sonoma': 'https://www.mobilize.us/indivisiblesonomacounty/',
+    # Bloomington
+    'mobilize_indivisible_central_indiana': 'https://www.mobilize.us/indivisiblecentralindiana/',
+    'gcal_e1egkmmhjj98nf0rgd2oa4u3ng': 'https://letsgo.terrorware.com/',
+    'btonline_events': 'https://bloomingtononline.com/events/',
+    'btonline_food': 'https://bloomingtononline.com/events/',
+    'btonline_shopping': 'https://bloomingtononline.com/events/',
+    # Davis
+    'mobilize_indivisible_yolo': 'https://www.mobilize.us/indivisibleyolo/',
     # Montclair
     'montclairlocal': 'https://montclairlocal.news/events/',
     'montclairfoundation_calendar_of_events': 'https://montclairfoundation.org/calendar-of-events/',
@@ -516,14 +712,15 @@ SOURCE_URLS = {
     'eventbrite_loopwell': 'https://www.eventbrite.com/o/loopwell-wellness-in-montclair-nj-71213568773',
     'msu_athletics': 'https://montclairathletics.com/calendar',
     'maxpreps_mka': 'https://www.maxpreps.com/nj/montclair/montclair-kimberley-academy-cougars/events/',
-    'fcc_montclair': 'https://fccmontclair.org/upcoming-events-at-fcc/',
-    'uu_montclair': 'https://www.uumontclair.org/events',
+    'gcal_id8bbkkkfmscdavi2jilkb2muo': 'https://fccmontclair.org/upcoming-events-at-fcc/',
+    'gcal_uumontclair_org_9kptanknnvqcom49ks44nnaaak': 'https://www.uumontclair.org/events',
     'shomrei_emunah': 'https://shomrei.org/calendar/',
     'unioncong': 'https://www.unioncong.org/events/',
     'nertamid': 'https://www.nertamid.org/events/',
     'njaudubon': 'https://njaudubon.org/calendar/',
     'turtle_back_zoo': 'https://www.turtlebackzoo.com/events/',
     'raptor_trust': 'https://www.theraptortrust.org/events',
+    'mobilize_indivisible_nj': 'https://www.mobilize.us/ionj/',
     'maxpreps_montclair_high': 'https://www.maxpreps.com/nj/montclair/montclair-mounties/events/',
     # MatSu (Matanuska-Susitna)
     'wasilla_library': 'https://www.cityofwasilla.gov/calendar?catID=23',
@@ -538,6 +735,12 @@ SOURCE_URLS = {
     'matsu_borough_assembly': 'https://matanuska.legistar.com/Calendar.aspx',
     'matsuk12': 'https://www.matsuk12.us/about-us/calendars',
     'alaskavisit': 'https://www.alaskavisit.com/events/',
+    'eventbrite_trivia_ad': 'https://www.eventbrite.com/o/trivia-ad-4701927701',
+    'montclair_history_center': 'https://www.montclairhistory.org/all-events',
+    'meetup_board_gamers_of_greater_nutley': 'https://www.meetup.com/board-gamers-of-greater-nutley/',
+    'meetup_board_game_night_at_verona_inn': 'https://www.meetup.com/board-game-night-at-verona-inn/',
+    'meetup_wordpress_montclair_meetup': 'https://www.meetup.com/wordpress-montclair-meetup/',
+    'meetup_cloud_data_driven': 'https://www.meetup.com/cloud-data-driven/',
 }
 
 
@@ -580,15 +783,23 @@ VIRTUAL_LOCATION_PATTERNS = [
 
 # Patterns that indicate location is a real address (worth geo-filtering)
 # If none of these match, we skip geo-filtering for that event
-ADDRESS_INDICATORS = re.compile(
-    r'(?:'
-    r', [A-Z]{2}\b|'              # State abbreviation: ", CA"
-    r'\b\d{5}\b|'                 # ZIP code
-    r', [A-Z][a-z]+ [A-Z]{2}|'     # City, State: ", Santa Rosa CA"
-    r'\d+\s+\w+\s+(?:street|st|avenue|ave|road|rd|drive|dr|boulevard|blvd|lane|ln|way|court|ct)\b'  # Street address: "123 Main St"
-    r')',
+US_STATES = (
+    'AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|'
+    'MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|'
+    'SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC'
+)
+_STATE_RE = re.compile(rf', (?:{US_STATES})\b')                   # ", CA" (case-sensitive)
+_CITY_STATE_RE = re.compile(rf', [A-Z][a-z]+ (?:{US_STATES})\b')  # ", Santa Rosa CA"
+_ZIP_RE = re.compile(r'\b\d{5}\b')
+_STREET_RE = re.compile(
+    r'\d+\s+\w+\s+(?:street|st|avenue|ave|road|rd|drive|dr|boulevard|blvd|lane|ln|way|court|ct)\b',
     re.IGNORECASE
 )
+
+def _has_address_indicator(location):
+    """Check if a location string looks like a real address."""
+    return bool(_STATE_RE.search(location) or _ZIP_RE.search(location) or
+                _CITY_STATE_RE.search(location) or _STREET_RE.search(location))
 
 
 def location_matches_allowed_cities(location, allowed_cities, excluded_cities=None):
@@ -618,7 +829,7 @@ def location_matches_allowed_cities(location, allowed_cities, excluded_cities=No
     
     # Check if location looks like an address
     # If not, allow it through (venue name only, no geo info to filter on)
-    if not ADDRESS_INDICATORS.search(location):
+    if not _has_address_indicator(location):
         return True
     
     # Location has address info - check against allowed cities
@@ -767,6 +978,92 @@ def expand_rrule(event_content, dt, horizon_days=180):
     return occurrences
 
 
+def _serialize_vevent(event, original_had_rrule):
+    """Serialize an icalendar VEVENT component back to ICS text content.
+
+    Returns the inner content (without BEGIN:VEVENT / END:VEVENT wrappers).
+    For expanded recurring instances, strips RRULE/EXDATE/RDATE and mutates UID.
+    """
+    raw = event.to_ical().decode('utf-8', errors='replace')
+    # Extract inner content between BEGIN:VEVENT and END:VEVENT
+    m = re.search(r'BEGIN:VEVENT\r?\n(.*?)\r?\nEND:VEVENT', raw, re.DOTALL)
+    if not m:
+        return None
+    content = m.group(1)
+
+    if original_had_rrule:
+        # Strip recurrence properties -- each instance is standalone
+        content = re.sub(r'^(RRULE|EXDATE|RDATE|RECURRENCE-ID)[;:][^\r\n]*\r?\n?', '', content, flags=re.MULTILINE)
+
+        # Mutate UID to include instance date
+        dtstart = event.get('DTSTART')
+        if dtstart:
+            dt = dtstart.dt
+            if isinstance(dt, datetime):
+                date_suffix = dt.strftime('%Y%m%d')
+            else:
+                date_suffix = dt.strftime('%Y%m%d')
+            uid_match = re.search(r'^UID:([^\r\n]+)', content, re.MULTILINE)
+            if uid_match:
+                original_uid = uid_match.group(1).strip()
+                # Only add suffix if not already present (avoid double-suffixing)
+                if not original_uid.endswith(f'__{date_suffix}'):
+                    new_uid = f'{original_uid}__{date_suffix}'
+                    content = re.sub(r'^UID:[^\r\n]+', f'UID:{new_uid}', content, flags=re.MULTILINE)
+
+    return content
+
+
+def expand_rrules(ics_content, window_days=90):
+    """Expand recurring events in ICS content into individual instances.
+
+    Returns a list of ICS VEVENT content strings (one per occurrence).
+    Non-recurring events are included as-is (single entry).
+    Only expands RRULEs inside VEVENTs, not VTIMEZONEs.
+
+    Args:
+        ics_content: Raw ICS file content string
+        window_days: How many days forward to expand (default 90)
+
+    Returns:
+        List of VEVENT content strings, or None if parsing fails
+    """
+    try:
+        cal = icalendar.Calendar.from_ical(ics_content)
+    except Exception:
+        return None
+
+    # Identify which UIDs have RRULEs (to know whether to mutate UID)
+    uids_with_rrule = set()
+    for component in cal.walk('VEVENT'):
+        if component.get('RRULE'):
+            uid = str(component.get('UID', ''))
+            if uid:
+                uids_with_rrule.add(uid)
+
+    # If no recurring events, return None to use the faster regex path
+    if not uids_with_rrule:
+        return None
+
+    today = date.today()
+    window_end = today + timedelta(days=window_days)
+
+    try:
+        expanded = recurring_ical_events.of(cal).between(today, window_end)
+    except Exception:
+        return None
+
+    results = []
+    for event in expanded:
+        uid = str(event.get('UID', ''))
+        had_rrule = uid in uids_with_rrule or uid.split('__')[0] in uids_with_rrule
+        content = _serialize_vevent(event, had_rrule)
+        if content:
+            results.append(content)
+
+    return results
+
+
 def normalize_title(title):
     """Normalize title for dedup matching: strip leading article, lowercase, alphanumeric only, first 40 chars."""
     if not title:
@@ -837,12 +1134,47 @@ AGGREGATORS = {
     'CitySpark Bloomington',
     'WFHB Community Calendar',
     'Travel Portland',
+    'LancasterPA.com',
+    'Let\'s Go! Bloomington',
+    'BloomingtonOnline Events',
+    'BloomingtonOnline Food & Drink',
+    'BloomingtonOnline Shopping',
+    'BloomingtonArts.Today',
+    'Bloomington Arts',
+    'Limestone Post',
+    'B-Square: Government',
+    'B-Square: Misc Civic Events',
+    'B-Square: Critical Mass',
+    'B-Square: BPTC Public Meetings',
+    'Brown County Events',
 }
 
 
 def is_aggregator(source_name):
     """Check if a source is a known aggregator (low priority for dedup)."""
     return source_name in AGGREGATORS
+
+
+_URL_DATE_RE = re.compile(r'/(\d{4})/(\d{2})/')
+
+
+def _url_predates_window(event_content, now):
+    """Return True if the event URL contains a /YYYY/MM/ path before the current month.
+
+    Scrapers that infer year from month+day can project old WordPress posts
+    into the future. The URL's embedded date catches these false futures.
+    """
+    url_match = re.search(r'^URL:([^\r\n]+)', event_content, re.MULTILINE)
+    if not url_match:
+        return False
+    url = url_match.group(1)
+    m = _URL_DATE_RE.search(url)
+    if not m:
+        return False
+    url_year = int(m.group(1))
+    url_month = int(m.group(2))
+    # Stale if the URL's year-month is before the start of the current month
+    return (url_year, url_month) < (now.year, now.month)
 
 
 def dedupe_cross_source(events, input_dir):
@@ -936,9 +1268,11 @@ def dedupe_cross_source(events, input_dir):
                         if s and evt_url:
                             source_urls[s] = evt_url
 
-            # Update X-SOURCE to combined value
+            # Update X-SOURCE to combined value (primary sources first, then aggregators)
             if len(all_sources) > 1:
-                merged_source = ', '.join(sorted(all_sources, key=lambda s: (1 if is_aggregator(s) else 0, s)))
+                primary = sorted(s for s in all_sources if not is_aggregator(s))
+                agg = sorted(s for s in all_sources if is_aggregator(s))
+                merged_source = ', '.join(primary + agg)
                 kept['content'] = re.sub(
                     r'^X-SOURCE:[^\r\n]+',
                     f'X-SOURCE:{merged_source}',
@@ -1106,9 +1440,11 @@ JSON:"""
                     events_to_remove.add(orig_idx)
                     fuzzy_deduped += 1
 
-                # Merge sources into kept event
+                # Merge sources into kept event (primary sources first, then aggregators)
                 if len(all_sources) > 1:
-                    merged_source = ', '.join(sorted(all_sources, key=lambda s: (1 if is_aggregator(s) else 0, s)))
+                    primary = sorted(s for s in all_sources if not is_aggregator(s))
+                    agg = sorted(s for s in all_sources if is_aggregator(s))
+                    merged_source = ', '.join(primary + agg)
                     kept_event['content'] = re.sub(
                         r'^X-SOURCE:[^\r\n]+',
                         f'X-SOURCE:{merged_source}',
@@ -1152,11 +1488,22 @@ JSON:"""
 
 
 def extract_events(ics_content, source_name=None, source_id=None, fallback_url=None):
-    """Extract VEVENT blocks from ICS content."""
+    """Extract VEVENT blocks from ICS content, expanding recurring events."""
     events = []
 
-    pattern = r'BEGIN:VEVENT\r?\n(.*?)\r?\nEND:VEVENT'
-    matches = re.findall(pattern, ics_content, re.DOTALL)
+    # Try RRULE expansion first; returns None if no RRULEs or parsing fails
+    expanded_blocks = None
+    try:
+        expanded_blocks = expand_rrules(ics_content)
+    except Exception as e:
+        print(f"  RRULE expansion error ({e}), falling back to regex")
+
+    if expanded_blocks is not None:
+        matches = expanded_blocks
+    else:
+        # Standard regex extraction (no recurring events, or expansion failed)
+        pattern = r'BEGIN:VEVENT\r?\n(.*?)\r?\nEND:VEVENT'
+        matches = re.findall(pattern, ics_content, re.DOTALL)
 
     def _annotate(ec):
         """Add fallback URL and source attribution to event content."""
@@ -1211,6 +1558,7 @@ def combine_ics_files(input_dir, output_file, calendar_name="Combined Calendar",
     """
     all_events = []
     geo_filtered_count = 0
+    geo_filtered_details = []  # Track what got filtered for curator visibility
     exclude_sources = exclude_sources or set()
     # Use 24 hours ago to avoid filtering out same-day events due to timezone differences
     from datetime import timedelta
@@ -1243,7 +1591,16 @@ def combine_ics_files(input_dir, output_file, calendar_name="Combined Calendar",
             
             # Filter to future events only
             future_events = [e for e in events if e['dtstart'].replace(tzinfo=timezone.utc) >= now]
-            
+
+            # Filter out events whose URL contains a /YYYY/MM/ path predating the build window.
+            # Scrapers that infer year from month/day can project old posts into the future;
+            # the URL's embedded date is a reliable signal that the event is stale.
+            before_filter = len(future_events)
+            future_events = [e for e in future_events if not _url_predates_window(e['content'], now)]
+            url_date_filtered = before_filter - len(future_events)
+            if url_date_filtered:
+                print(f"    Filtered {url_date_filtered} events with stale URL dates from {ics_file.name}")
+
             # Apply geo filter if configured
             if allowed_cities:
                 filtered_events = []
@@ -1260,6 +1617,14 @@ def combine_ics_files(input_dir, output_file, calendar_name="Combined Calendar",
                         filtered_events.append(e)
                     else:
                         geo_filtered_count += 1
+                        title_match = re.search(r'SUMMARY:([^\r\n]+)', e['content'])
+                        title = title_match.group(1) if title_match else '(no title)'
+                        geo_filtered_details.append({
+                            'source': source_name,
+                            'source_id': source_id,
+                            'title': title,
+                            'location': location.replace('\\,', ','),
+                        })
                 future_events = filtered_events
             
             all_events.extend(future_events)
@@ -1321,6 +1686,21 @@ def combine_ics_files(input_dir, output_file, calendar_name="Combined Calendar",
     
     if geo_filtered_count > 0:
         print(f"  (Geo-filtered {geo_filtered_count} events outside allowed cities)")
+        # Write sidecar for report visibility
+        geo_report_path = Path(output_file).parent / 'geo_filtered.json'
+        # Summarize by source + city extracted from location
+        by_source_city = {}
+        for d in geo_filtered_details:
+            key = (d['source'], d['source_id'], d['location'])
+            if key not in by_source_city:
+                by_source_city[key] = {'source': d['source'], 'source_id': d['source_id'],
+                                        'location': d['location'], 'count': 0, 'titles': []}
+            by_source_city[key]['count'] += 1
+            if len(by_source_city[key]['titles']) < 3:
+                by_source_city[key]['titles'].append(d['title'])
+        geo_summary = sorted(by_source_city.values(), key=lambda x: -x['count'])
+        import json as json_mod
+        geo_report_path.write_text(json_mod.dumps(geo_summary, indent=2))
     print(f"\nCombined {len(unique_events)} unique future events into {output_file}")
     return len(unique_events)
 

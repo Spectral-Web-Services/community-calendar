@@ -1,12 +1,14 @@
 *.sh
 !cities/*/test.sh
+!scripts/local_regression_test.sh
 .jsonsupabase/.temp/
 supabase/.temp/
 xmlui/supabase.min.js
 __pycache__/
+CLAUDE.md
+PENDING.md
+sb.sh
 local-overrides.js
-users.sql
-users.sql~
 
 # trace-tools is cloned at test/CI time, not checked in
 trace-tools/
@@ -19,3 +21,11 @@ cities/*/traces/specs/generated_*
 # React app build artifacts
 react-app/node_modules/
 react-app/dist/
+
+# Generated build artifacts (uploaded directly to Supabase, archived on 'archive' branch)
+cities/*/*.ics
+cities/*/combined.ics
+cities/*/events.json
+
+# Auto-generated report (regenerate with scripts/snippet_report.py)
+docs/snippet-report.md

@@ -147,6 +147,12 @@ curl -sL "https://example.com/events/" -A "Mozilla/5.0" | grep -o "wp-content/pl
 curl -sL "https://example.com/events/?ical=1" | head -20              # Tribe Events Calendar
 curl -sL "https://example.com/events/?mec-ical-feed=1" | head -20     # Modern Events Calendar (MEC)
 curl -sL "https://example.com/events/feed/" | head -20
+
+# If ICS is blocked by WAF (403/503), try the Tribe Events REST API
+# The JSON API is often unblocked even when ICS export is firewalled
+curl -sL "https://example.com/wp-json/tribe/events/v1/events/?per_page=5" \
+  -H "Accept: application/json" | python3 -m json.tool | head -30
+# If this returns events, use lib/tribe_events.py (TribeEventsScraper)
 ```
 
 **Check descriptions before accepting the feed:**
@@ -212,7 +218,7 @@ python scripts/add_feed.py URL city "Source Name" --dry-run  # preview without c
 python scripts/add_feed.py URL city "Source Name" --test     # test only, don't add
 ```
 
-The workflow YAML is the source of truth. `feeds.txt` is auto-generated documentation — run `python scripts/sync_feeds_txt.py` to regenerate it.
+`feeds.txt` is both documentation and a runtime input (`download_feeds.py` reads it). It is maintained by `add_scraper.py` and `add_feed.py` — do not edit it by hand or regenerate it.
 
 ---
 

@@ -11,7 +11,7 @@ on:
         required: false
         default: 'all'
       regenerate_only:
-        description: 'Skip scraping, only regenerate from existing local ICS files'
+        description: 'Skip scrapers, still download ICS feeds, then regenerate'
         required: false
         type: boolean
         default: false
@@ -30,6 +30,7 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       SUPABASE_URL: ${{ vars.SUPABASE_URL }}
       SUPABASE_KEY: ${{ vars.SUPABASE_KEY }}
+      TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       #ENABLE_FUZZY_DEDUP: ${{ secrets.ANTHROPIC_API_KEY && 'true' || '' }}
 
     steps:
@@ -83,14 +84,48 @@ jobs:
         python scrapers/comedy_attic.py --output cities/bloomington/comedy_attic.ics || true
         python scrapers/the_bishop.py --output cities/bloomington/the_bishop.ics || true
         python scrapers/squarespace.py --url "https://www.peoplesmarketbtown.org/gatherings" --name "People's Market" -o cities/bloomington/peoples_market.ics || true
-        python scrapers/the_bluebird.py -o cities/bloomington/the_bluebird.ics || true
+        python scrapers/bluebird.py --output cities/bloomington/bluebird.ics || true
         python scrapers/songkick.py --url "https://www.songkick.com/venues/3607354-blockhouse-bar" --name "Blockhouse Bar" --output cities/bloomington/songkick_blockhouse.ics || true
         python scrapers/squarespace.py --url "https://www.cardinalspirits.com/events" --name "Cardinal Spirits" -o cities/bloomington/cardinal_spirits.ics || true
         python scrapers/squarespace.py --url "https://www.sassafrasaudubon.org/upcomingevents" --name "Sassafras Audubon Society" -o cities/bloomington/sassafras_audubon.ics || true
         python scrapers/squarespace.py --url "https://www.mcmga.net/events" --name "Monroe County Master Gardeners" -o cities/bloomington/master_gardeners.ics || true
         python scrapers/sycamore_land_trust.py --output cities/bloomington/sycamore_land_trust.ics || true
-        python scrapers/spektrix.py --base-url "https://tickets.seeconstellation.org/constellation" --name "Constellation Stage & Screen" --output cities/bloomington/constellation.ics || true
+        python scrapers/spektrix.py --base-url "https://tickets.seeconstellation.org/constellation" --name "Constellation Stage & Screen" --default-url "https://seeconstellation.org/" --output cities/bloomington/constellation.ics || true
         python scrapers/shopify_events.py --url "https://cicadacinema.com" --name "Cicada Cinema" --output cities/bloomington/cicada_cinema.ics || true
+        python scrapers/mobilize.py --url "https://www.mobilize.us/indivisiblecentralindiana/" --name "Indivisible Central Indiana (Mobilize)" --output cities/bloomington/mobilize_indivisible_central_indiana.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/morgenstern-books-34376767621" --name "Morgenstern Books" --output cities/bloomington/eventbrite_morgenstern_books.ics || true
+        python scrapers/wfhb_calendar.py --output cities/bloomington/wfhb_calendar.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/nerd-nite-bloomington-95199764993" --name "Nerd Nite Bloomington" --output cities/bloomington/eventbrite_nerd_nite.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/the-tap-bloomington-69461600243" --name "The Tap" --output cities/bloomington/eventbrite_the_tap.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/martinsville-arts-council-59689470843" --name "Martinsville Arts Council" --output cities/bloomington/eventbrite_martinsville_arts.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/story-inn-825970603" --name "Story Inn" --output cities/bloomington/eventbrite_story_inn.ics || true
+        python scrapers/writers_guild.py --output cities/bloomington/writers_guild.ics || true
+        python scrapers/far_center.py --output cities/bloomington/far_center.ics || true
+        python scrapers/habitat.py --output cities/bloomington/habitat.ics || true
+        python scrapers/nami_bloomington.py --output cities/bloomington/nami_bloomington.ics || true
+        python scrapers/monroe_county_history_center.py --output cities/bloomington/monroe_county_history_center.ics || true
+        python scrapers/localist.py --base-url "https://events.in.gov" --venue-id 35217665860404 --name "McCormick's Creek State Park" --output cities/bloomington/localist_mccormicks_creek.ics || true
+        python scrapers/localist.py --base-url "https://events.in.gov" --venue-id 35217662417669 --name "Brown County State Park" --output cities/bloomington/localist_brown_county_sp.ics || true
+        python scrapers/bloomington_arts_today.py --output cities/bloomington/bloomington_arts_today.ics || true
+        # College athletics (Sidearm v3 Calendar API)
+        python scrapers/sidearm.py --base-url "https://iuhoosiers.com" --name "IU Athletics" --timezone America/Indiana/Indianapolis --home-only -o cities/bloomington/iu_athletics.ics || true
+        # Eventbrite organizers (from Spectral)
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/24897361037" --name "Blueline Bloomington" -o cities/bloomington/eventbrite_blueline.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/18076093080" --name "Big Red Liquors" -o cities/bloomington/eventbrite_big_red_liquors.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/106566049911" --name "The Afrobellas At IU" -o cities/bloomington/eventbrite_afrobellas.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/31640015525" --name "Gallery at the Vault" -o cities/bloomington/eventbrite_gallery_vault.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/102507618371" --name "Falun Dafa Club at IU" -o cities/bloomington/eventbrite_falun_dafa.ics || true
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/106576693901" --name "Reviving Hope for the Nations" -o cities/bloomington/eventbrite_reviving_hope.ics || true
+        python scrapers/squarespace.py --url "https://www.potteryhousestudio.com/workshops" --name "Pottery House Studio" --output cities/bloomington/pottery_house_studio.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpaoDke --name "IU Musical Arts Center" --default-url "https://events.iu.edu/musiciub/" --output cities/bloomington/tm_musical_arts_center.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpZAI11nA --name "IU Cinema" --default-url "https://cinema.indiana.edu/upcoming-films/" --output cities/bloomington/tm_iu_cinema.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZ917AOr1 --name "Brown County Music Center" --output cities/bloomington/tm_brown_county_music.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpZAFdInA --name "IU Memorial Stadium" --default-url "https://iuhoosiers.com/" --output cities/bloomington/tm_memorial_stadium.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpZAdE6aA --name "Ruth N Halls Theatre" --default-url "https://events.iu.edu/theatre/" --output cities/bloomington/tm_ruth_halls.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpaoDQe --name "Bill Armstrong Stadium" --default-url "https://iuhoosiers.com/" --output cities/bloomington/tm_bill_armstrong.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpZAF7JFA --name "Wells Metz Theatre" --default-url "https://events.iu.edu/theatre/" --output cities/bloomington/tm_wells_metz.ics || true
+        python scrapers/ticketmaster.py --venue-id KovZpZAFdItA --name "Simon Skjodt Assembly Hall" --default-url "https://iuhoosiers.com/" --output cities/bloomington/tm_assembly_hall.ics || true
+        python scrapers/limestone_post.py --output cities/bloomington/limestone_post.ics || true
       continue-on-error: true
 
     - name: Download Bloomington live feeds and combine ICS
@@ -793,18 +828,23 @@ jobs:
     # ==========================================
     # Post-processing (all cities)
     # ==========================================
+    - name: Generate cities.json
+      run: python scripts/generate_cities_json.py
+
     - name: Convert ICS to JSON for Supabase
       run: |
         IFS=',' read -ra CITIES <<< "${{ steps.locations.outputs.list }}"
         echo "Processing cities: ${CITIES[*]}"
+        # Fetch archive branch for previous categories
+        git fetch origin archive --depth=1 2>/dev/null || true
         for city in "${CITIES[@]}"; do
           city=$(echo "$city" | xargs)
           echo "Checking city: '$city'"
-          # Save previous events.json (with categories) before overwriting
-          if [ -f "cities/$city/events.json" ]; then
-            cp "cities/$city/events.json" "cities/$city/events.prev.json"
-          fi
+          # Get previous events.json (with categories) from archive branch
+          git show origin/archive:cities/$city/events.json > "cities/$city/events.prev.json" 2>/dev/null || rm -f "cities/$city/events.prev.json"
+          [ -s "cities/$city/events.prev.json" ] || rm -f "cities/$city/events.prev.json"
           if [ -f "cities/$city/combined.ics" ]; then
+            START=$(date +%s)
             echo "Running ics_to_json for $city..."
             python scripts/ics_to_json.py "cities/$city/combined.ics" -o "cities/$city/events.json" --city "$city"
             echo "$city: Converted $(cat cities/$city/events.json | python -c 'import json,sys; print(len(json.load(sys.stdin)))') events to JSON"
@@ -813,6 +853,7 @@ jobs:
               python scripts/merge_categories.py "cities/$city/events.prev.json" "cities/$city/events.json"
               rm "cities/$city/events.prev.json"
             fi
+            echo "⏱ $city convert: $(( $(date +%s) - START ))s"
           else
             echo "WARNING: cities/$city/combined.ics not found!"
             # Clean up prev file if no combined.ics
@@ -846,21 +887,53 @@ jobs:
       run: |
         python scripts/validate_pipeline.py --cities ${{ steps.locations.outputs.list }}
 
-    - name: Commit and push if changes
+    - name: Upload events to Supabase
+      env:
+        SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+        SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      run: |
+        TOTAL_INSERTED=0
+        IFS=',' read -ra UPLOAD_CITIES <<< "${{ steps.locations.outputs.list }}"
+        for city in "${UPLOAD_CITIES[@]}"; do
+          city=$(echo "$city" | xargs)
+          if [ -f "cities/$city/events.json" ]; then
+            START=$(date +%s)
+            echo "Uploading $city events..."
+            jq -c --arg city "$city" '{city: $city, events: .}' "cities/$city/events.json" > /tmp/payload_${city}.json
+            RESPONSE=$(curl -sL -X POST "${SUPABASE_URL}/functions/v1/load-events" \
+              -H "Authorization: Bearer ${SUPABASE_ANON_KEY}" \
+              -H 'Content-Type: application/json' \
+              --data-binary @/tmp/payload_${city}.json)
+            echo "$city: $(echo "$RESPONSE" | jq -c '{success, inserted, deleted}')"
+            SUCCESS=$(echo "$RESPONSE" | jq -r '.success // false')
+            if [ "$SUCCESS" != "true" ]; then
+              echo "Failed to upload $city"
+              echo "$RESPONSE" | jq .
+              exit 1
+            fi
+            INSERTED=$(echo "$RESPONSE" | jq -r '.inserted')
+            TOTAL_INSERTED=$((TOTAL_INSERTED + INSERTED))
+            echo "⏱ $city upload: $(( $(date +%s) - START ))s"
+            rm -f /tmp/payload_${city}.json
+          fi
+        done
+        echo "Successfully loaded $TOTAL_INSERTED total events into Supabase"
+
+    - name: Commit metadata changes
       env:
         GITHUB_TOKEN: ${{ secrets.COMMUNITY_CALENDAR }}
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-        
+
         # Save generated files before any git operations
         for city in bloomington petaluma roanoke matsu jweekly evanston portland boston publisher-resources; do
           if [ -f "cities/$city/events.json" ]; then
             cp "cities/$city/events.json" "/tmp/${city}_events.json"
           fi
         done
-        
+
         # Write version tag for cache busting
         git describe --tags --always > version.txt
 
@@ -885,24 +958,53 @@ jobs:
           done
         )
 
-    - name: Trigger Supabase events reload
+    - name: Push build artifacts to archive branch
       env:
-        SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        GITHUB_TOKEN: ${{ secrets.COMMUNITY_CALENDAR }}
       run: |
-        echo "Triggering Supabase Edge Function to reload events..."
-        RESPONSE=$(curl -sL -X POST "${{ vars.SUPABASE_URL }}/functions/v1/load-events" \
-          -H "Authorization: Bearer ${SUPABASE_ANON_KEY}" \
-          -H 'Content-Type: application/json')
-        echo "$RESPONSE" | jq .
+        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
-        # Check for success
-        SUCCESS=$(echo "$RESPONSE" | jq -r '.success // false')
-        if [ "$SUCCESS" = "true" ]; then
-          INSERTED=$(echo "$RESPONSE" | jq -r '.inserted')
-          echo "Successfully loaded $INSERTED events into Supabase"
+        # Stash generated files before switching branches
+        ARCHIVE_DIR=$(mktemp -d)
+        IFS=',' read -ra CITIES <<< "${{ steps.locations.outputs.list }}"
+        for city in "${CITIES[@]}"; do
+          city=$(echo "$city" | xargs)
+          mkdir -p "$ARCHIVE_DIR/cities/$city"
+          cp cities/$city/events.json "$ARCHIVE_DIR/cities/$city/" 2>/dev/null || true
+          cp cities/$city/combined.ics "$ARCHIVE_DIR/cities/$city/" 2>/dev/null || true
+          for f in cities/$city/*.ics; do
+            [ -f "$f" ] && cp "$f" "$ARCHIVE_DIR/cities/$city/" 2>/dev/null || true
+          done
+        done
+        cp report.json "$ARCHIVE_DIR/" 2>/dev/null || true
+
+        # Clean working tree so we can switch branches
+        git checkout -- . 2>/dev/null || true
+        git clean -fd 2>/dev/null || true
+
+        # Fetch or create orphan archive branch
+        if git fetch origin archive:archive 2>/dev/null; then
+          git checkout archive
         else
-          echo "Failed to load events"
-          echo "$RESPONSE"
-          exit 1
+          git checkout --orphan archive
+          git rm -rf . 2>/dev/null || true
+          git clean -fd 2>/dev/null || true
         fi
+
+        # Replace only the cities that were built (preserve others)
+        for city in "${CITIES[@]}"; do
+          city=$(echo "$city" | xargs)
+          git rm -rf "cities/$city" 2>/dev/null || true
+        done
+        git rm -f report.json 2>/dev/null || true
+        cp -r "$ARCHIVE_DIR"/* .
+        rm -rf "$ARCHIVE_DIR"
+
+        git add cities/ report.json
+        TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+        git commit -m "Build artifacts $TIMESTAMP" || echo "No changes to archive"
+        git push origin archive
+
+        # Return to main
+        git checkout main
 
