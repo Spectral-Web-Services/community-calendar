@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar Feed Health Report</title>
+    <title>Feed Dashboard</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -128,10 +128,12 @@
         .pct-bar.good { background: #4caf50; }
         .pct-bar.mid { background: #f57c00; }
         .pct-bar.bad { background: #d32f2f; }
+        #build-footer a { color: #999; text-decoration: none; }
+        #build-footer a:hover { color: #666; text-decoration: underline; }
     </style>
 </head>
 <body>
-    <h1>Calendar Feed Health Report</h1>
+    <h1>Feed Dashboard</h1>
     <div class="generated" id="generated">Loading...</div>
 
     <div class="feed-section">
@@ -158,6 +160,18 @@
     </div>
 
     <div class="url-section">
+        <h2>Timezone Anomalies <span class="help-btn" onclick="showHelp('tzanomaly')">?</span></h2>
+        <div class="section-desc">Events at suspicious hours that may have local time mislabeled as UTC</div>
+        <div id="tz-anomalies-report"></div>
+    </div>
+
+    <div class="url-section">
+        <h2>Geo-Filtered Events <span class="help-btn" onclick="showHelp('geofilter')">?</span></h2>
+        <div class="section-desc">Events dropped because their location isn't in the city's allowed list</div>
+        <div id="geo-filtered-report"></div>
+    </div>
+
+    <div class="url-section">
         <h2>URL Quality</h2>
         <div class="section-desc">Deduplicated events from the combined calendar</div>
         <div id="url-report">Loading...</div>
@@ -167,6 +181,12 @@
         <summary><strong>Anomalies</strong> (<span id="anomaly-count">0</span>)</summary>
         <div id="anomaly-list">Loading...</div>
     </details>
+
+    <div class="url-section" id="suggestions-section" style="display:none">
+        <h2>Source Suggestions</h2>
+        <div class="section-desc">Feed suggestions submitted by users via the Sources dialog</div>
+        <div id="suggestions-report"></div>
+    </div>
 
     <div class="url-section" id="overrides-section" style="display:none">
         <h2>Category Overrides</h2>
@@ -258,6 +278,8 @@
             }
 
             renderBuildErrors(data);
+            renderTzAnomalies(data);
+            renderGeoFiltered(data);
             renderCategories(data);
             renderImages(data);
             renderUrlReport(data);
@@ -276,6 +298,86 @@
                     <div class="meta">${e.date}</div>
                 </div>
             `).join('');
+        }
+
+        function renderTzAnomalies(data) {
+            const container = document.getElementById('tz-anomalies-report');
+            let html = '';
+            let anyData = false;
+            for (const [cityName, cityData] of Object.entries(data.cities || {})) {
+                const anomalies = cityData.tz_anomalies;
+                if (!anomalies || !anomalies.length) continue;
+                anyData = true;
+                const totalFlagged = anomalies.reduce((s, a) => s + a.count, 0);
+                html += `
+                    <details>
+                        <summary><span class="city-name">${capitalize(cityName)}</span>
+                            <span class="city-stats">${totalFlagged} events from ${anomalies.length} sources</span>
+                        </summary>
+                        <div class="city-content">
+                            ${anomalies.map(a => `
+                                <div style="margin-bottom:12px">
+                                    <strong>${a.source}</strong>
+                                    <span class="city-stats">${a.count} of ${a.total} events likely shifted by ${Math.abs(a.offset)}h</span>
+                                    <table class="url-table" style="margin-top:4px">
+                                        <tr><th>Time</th><th>Shows</th><th>Likely</th><th>Event</th></tr>
+                                        ${a.samples.map(s => `
+                                            <tr>
+                                                <td>${s.start_time}</td>
+                                                <td style="color:#d32f2f">${s.shows}</td>
+                                                <td style="color:#4caf50">${s.likely}</td>
+                                                <td>${s.title}</td>
+                                            </tr>
+                                        `).join('')}
+                                    </table>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </details>
+                `;
+            }
+            if (!anyData) {
+                container.innerHTML = '<div style="color:#4caf50">No timezone anomalies detected</div>';
+            } else {
+                container.innerHTML = html;
+            }
+        }
+
+        function renderGeoFiltered(data) {
+            const container = document.getElementById('geo-filtered-report');
+            let html = '';
+            let anyData = false;
+            for (const [cityName, cityData] of Object.entries(data.cities || {})) {
+                const gf = cityData.geo_filtered;
+                if (!gf || !gf.length) continue;
+                anyData = true;
+                const totalDropped = gf.reduce((s, g) => s + g.count, 0);
+                html += `
+                    <details>
+                        <summary><span class="city-name">${capitalize(cityName)}</span>
+                            <span class="city-stats">${totalDropped} events dropped from ${gf.length} source/location combinations</span>
+                        </summary>
+                        <div class="city-content">
+                            <table class="url-table">
+                                <tr><th>Source</th><th>Location</th><th>Dropped</th><th>Example Events</th></tr>
+                                ${gf.map(g => `
+                                    <tr>
+                                        <td>${g.source}</td>
+                                        <td>${g.location}</td>
+                                        <td class="num">${g.count}</td>
+                                        <td style="font-size:0.85em;color:#666">${(g.titles || []).join('; ')}</td>
+                                    </tr>
+                                `).join('')}
+                            </table>
+                        </div>
+                    </details>
+                `;
+            }
+            if (!anyData) {
+                container.innerHTML = '<div style="color:#4caf50">No geo-filtered events</div>';
+            } else {
+                container.innerHTML = html;
+            }
         }
 
         function renderFeed(name, feed) {
@@ -447,6 +549,14 @@
         }
 
         const helpDefs = {
+            tzanomaly: {
+                title: 'Timezone Anomalies',
+                body: 'Detects events scheduled between midnight and 5 AM where shifting by the city\'s UTC offset produces a normal daytime hour (8 AM\u20136 PM). This pattern usually means the source feed published local time with a UTC <code>Z</code> suffix.<br><br><b>Example:</b> A 9 AM Eastern event published as <code>DTSTART:20260314T090000Z</code> (which means 9 AM UTC = 5 AM Eastern). The pipeline correctly converts to 5 AM, but the event is really at 9 AM.<br><br>These are upstream data bugs \u2014 the fix is to contact the source and ask them to either use <code>TZID=America/New_York</code> or convert to true UTC before adding the <code>Z</code> suffix.'
+            },
+            geofilter: {
+                title: 'Geo-Filtered Events',
+                body: 'Events whose location doesn\'t match any city in the <code>city.conf</code> allowed list. This often means:<br><br><b>Missing city:</b> A venue is in a town not yet added to city.conf (e.g., Nicasio, Mill Valley). Fix: add the city to city.conf.<br><br><b>Intentionally excluded:</b> The source covers a wide area and some events are too far away. These are expected.<br><br>Review this list after adding new sources to make sure intentional events aren\'t being silently dropped.'
+            },
             generic: {
                 title: 'Generic URL Events',
                 body: 'Events whose URL points to a generic page (homepage, calendar listing) rather than a page about that specific event. Every event from the domain shares the same URL. Clicking takes the user to a page with no direct connection to the event they were looking at.<br><br>Common causes: the source calendar doesn\'t provide per-event links, or the scraper can only extract the venue\'s top-level URL.'
@@ -535,8 +645,62 @@
             } catch (e) { /* silently skip if unavailable */ }
         }
 
+        async function loadSuggestions() {
+            var SUPABASE_URL = 'https://dzpdualvwspgqghrysyz.supabase.co';
+            var SUPABASE_KEY = 'sb_publishable_NnzobdoFNU39fjs84UNq8Q_X45oiMG5';
+            try {
+                var resp = await fetch(
+                    SUPABASE_URL + '/rest/v1/source_suggestions?select=*&order=created_at.desc',
+                    { headers: { apikey: SUPABASE_KEY, Authorization: 'Bearer ' + SUPABASE_KEY } }
+                );
+                if (!resp.ok) return;
+                var suggestions = await resp.json();
+                if (!suggestions.length) return;
+                var section = document.getElementById('suggestions-section');
+                section.style.display = '';
+                document.getElementById('suggestions-report').innerHTML =
+                    '<table class="url-table">' +
+                        '<tr><th>City</th><th>Name</th><th>URL</th><th>Type</th><th>Notes</th><th>Date</th></tr>' +
+                        suggestions.map(function(s) {
+                            return '<tr>' +
+                                '<td>' + capitalize(s.city || '?') + '</td>' +
+                                '<td>' + (s.name || '') + '</td>' +
+                                '<td>' + (s.url ? '<a href="' + s.url + '" target="_blank">' + (s.url.length > 50 ? s.url.substring(0, 50) + '...' : s.url) + '</a>' : '') + '</td>' +
+                                '<td>' + (s.feed_type || '<span style="color:#999">—</span>') + '</td>' +
+                                '<td>' + (s.notes || '<span style="color:#999">—</span>') + '</td>' +
+                                '<td>' + new Date(s.created_at).toLocaleDateString() + '</td>' +
+                            '</tr>';
+                        }).join('') +
+                    '</table>' +
+                    '<div style="margin-top:8px;font-size:0.85em;color:#666">' + suggestions.length + ' suggestion' + (suggestions.length === 1 ? '' : 's') + ' total</div>';
+            } catch (e) { /* silently skip if unavailable */ }
+        }
+
         loadReport();
         loadOverrides();
+        loadSuggestions();
+
+        async function loadFooter() {
+            try {
+                var versionResp = await fetch('xmlui/version.txt');
+                var appCommit = (await versionResp.text()).trim();
+                var xmluiVersion = window.XMLUI_VERSION || '0.12.6';
+                try {
+                    var script = await fetch('xmlui/xmlui/xmlui-standalone.umd.js');
+                    var text = await script.text();
+                    var match = text.match(/"(0\.\d+\.\d+[^"]*)"/);
+                    if (match) xmluiVersion = match[1];
+                } catch(e) {}
+                var footer = document.getElementById('build-footer');
+                footer.innerHTML =
+                    '<a href="https://github.com/judell/community-calendar/commit/' + appCommit + '">community-calendar ' + appCommit.substring(0, 7) + '</a>' +
+                    ' &bull; <a href="https://github.com/xmlui-org/xmlui">XMLUI engine ' + xmluiVersion + '</a>';
+            } catch(e) {}
+        }
+        loadFooter();
     </script>
+
+    <div id="build-footer" style="margin-top:40px;padding:16px 0;border-top:1px solid #eee;font-size:0.8em;color:#999;text-align:center">
+    </div>
 </body>
 </html>

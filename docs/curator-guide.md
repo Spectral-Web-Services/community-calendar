@@ -16,6 +16,7 @@
   - [Throughout all phases](#throughout-all-phases)
 - [Duplicates and Event Ordering](#duplicates-and-event-ordering)
 - [Long-Running Events](#long-running-events)
+- [Recurring Events](#recurring-events)
 - [Event Categories](#event-categories)
 - [Event Images](#event-images)
 - [My Picks as an Event Submission System](#my-picks-as-an-event-submission-system)
@@ -66,11 +67,29 @@ The [health report](https://judell.github.io/community-calendar/report.html) is 
 
 **Fallback 3 — Event posters**: For events promoted only via images (posters, flyers), an LLM can extract event details from a photo. Point your phone at a poster, and the system can parse it into calendar data.
 
-https://github.com/judell/community-calendar/raw/main/video/event-poster-capture.mp4
+https://judell.github.io/community-calendar/videos.html
 
-**Skip**: Facebook events (API restrictions), Cloudflare-protected sites.
+**Skip**: Facebook events (API restrictions), Cloudflare-protected sites, and platforms listed in **Blocked Platforms** below.
 
 When you find a source that needs a scraper, document it in the city's `SOURCES_CHECKLIST.md` with the URL and any notes about the page structure. A developer (or you, with LLM assistance) can then build the scraper.
+
+### Blocked Platforms
+
+Some platforms host event data for community organizations but don't expose public feeds or APIs. When you encounter one of these, don't spend time trying to scrape — document it and move on.
+
+| Platform | Used by | Why it's blocked | API? |
+|----------|---------|-----------------|------|
+| **ReClique Core (now Daxko)** | YMCAs nationwide (Montclair NJ, Bloomington IN, Lancaster PA, Monroe County IN, and many others) | No ICS/RSS feeds at any level. Calendar pages are JS-rendered. Some sites return 403 on automated requests. | Partner API exists ([docs.partners.daxko.com](https://docs.partners.daxko.com/)) with program/session endpoints (JSON only, no ICS), but requires OAuth credentials granted by Daxko sales — not public access. ReClique sites are WordPress-based so `/wp-json/` may be accessible on some instances. |
+| **Facebook Events** | Many small producers | Graph API severely restricted since 2018. No public access to event data. | Effectively none for third-party use. |
+
+**What to do when you hit a blocked platform:**
+1. Note it in the city's `SOURCES_CHECKLIST.md` as blocked
+2. Check if the organization cross-posts events to a platform we *can* reach (Google Calendar, Eventbrite, their own website)
+3. If the organization is high-value, consider reaching out to ask them to publish an ICS feed or share API credentials
+4. **If the site is Cloudflare-protected WordPress**, ask the organization's web admin to add a Cloudflare WAF exception rule for our calendar bot. Our feed downloader identifies itself with User-Agent `CommunityCalendar/1.0`. The Cloudflare rule they need: **Security → WAF → Custom Rules → Add Rule** — match on `(http.user_agent contains "CommunityCalendar")` and `(http.request.uri.path contains "/events/")`, action **Skip** (skip all remaining custom rules). This lets our daily build fetch their ICS feed (`/events/?ical=1`) or REST API (`/wp-json/tribe/events/v1/events/`) without triggering the bot challenge.
+5. As a last resort, the organization could use the [My Picks capture feature](#my-picks-as-an-event-submission-system) to self-publish events
+
+If you discover other widely-used platforms that block public access, add them to this table.
 
 ## About Aggregators
 
@@ -95,6 +114,8 @@ The principle: **we could disintermediate aggregators and only link directly to 
 ### Phase 1: Platform searches (grab the easy wins)
 Search for feeds by platform — Tockify, Meetup ICS, WordPress `?ical=1` (a URL suffix you can append to WordPress event pages to get an ICS feed), Localist, Google Calendar embeds. These reliably turn up dozens of ready-to-use ICS feeds in a single pass.
 
+For **tech-heavy cities**, also search `site:guild.host "{city}"`. Guild.host is a community platform used mainly by tech groups (JavaScript meetups, civic tech, DevTools, etc.). No ICS feeds, but we have a scraper (`scrapers/guildhost.py`) that extracts JSON-LD from event pages.
+
 ### Phase 2: Topical searches (find venues by category)
 Search by topic to find venues and organizations, then probe their websites for feeds (try `?ical=1`, check for Squarespace `?format=json`, look for Google Calendar embeds). This is where you find the Jazz Bistros and Grossman's Taverns that don't show up in platform searches.
 
@@ -104,17 +125,40 @@ This is a conversation with your agent. The topics below are a starting point �
 
 | Category | Topics |
 |----------|--------|
-| Arts & Culture | music, theater, comedy, dance, film, art, crafts, literature |
-| Ideas & Learning | poetry, book clubs, writing, history, genealogy, philosophy, talks |
-| Outdoors & Nature | hiking, walking, running, cycling, gardening, birding, conservation |
-| Health & Well-Being | yoga, fitness, mindfulness, mental health, wellness |
-| Food & Drink | beer, wine, food, cooking, farmers markets |
-| Play & Games | trivia, board games, puzzles, casual gaming |
-| Animals & Environment | pets, wildlife, animal care, sustainability |
-| Community & Life Stages | kids, families, seniors, caregivers, newcomers |
-| Identity & Belonging | faith, LGBTQ+, cultural heritage |
-| Civic & Social Good | volunteering, mutual aid, civic engagement |
-| Technology & Work | tech, digital skills, careers |
+| Arts / Culture | theater, art, crafts, galleries, museums |
+| Books / Literature / Poetry | book clubs, author readings, writing, poetry slams |
+| Comedy / Improv | comedy clubs, open mic, improv, stand-up |
+| Community / Social | neighborhood meetings, potlucks, networking, seniors, newcomers |
+| Dance / Performance | dance classes, ballet, recitals, performances |
+| Education / Workshops | lectures, classes, talks, history, genealogy, philosophy |
+| Family / Kids | story time, kids' camps, family festivals |
+| Film / Cinema | film screenings, movie nights, film festivals |
+| Food / Drink | beer, wine, food, cooking, farmers markets |
+| Games / Trivia | trivia nights, board games, puzzles, casual gaming |
+| Government / Civic | city council, volunteering, mutual aid, civic engagement |
+| Health / Wellness | yoga, mindfulness, mental health, wellness, meditation |
+| History / Heritage | historical societies, heritage tours, cultural heritage |
+| LGBTQ+ / Gender | pride events, drag shows, queer community, gender studies |
+| Music / Concerts | live bands, open mic, jazz, concerts |
+| Nature / Outdoors / Recreation | hiking, cycling, gardening, birding, conservation, wildlife, sustainability |
+| Religion / Spirituality | services, interfaith events, meditation circles |
+| Sports / Fitness | 5K runs, yoga classes, fitness, soccer, running, cycling |
+| Technology / Careers | tech meetups, hackathons, digital skills, career fairs |
+
+**Search for directories, not just venues.** For each category, also search for *curated lists and directories* — these are force multipliers. A single directory can surface dozens of venues that individual topical searches miss. Search patterns:
+
+- `"live music venues" + {city/county}` — finds local music blogs, tourism board lists, magazine roundups
+- `"things to do" + {city/county}` — finds tourism and lifestyle aggregators
+- `"best {topic}" + {city/county}` — finds magazine/blog roundups
+
+Every region has equivalents of these. For Sonoma County, the key directories were:
+- **northbaylivemusic.com/venues** — 350+ North Bay music venues
+- **sonomamag.com** "live music" roundups — curated top picks
+- **sonomacounty.com/activities** — tourism board listings
+
+Cross-referencing directories against your existing sources reveals gaps. A second topical pass using directories found 26 music venues with regular programming that the initial pass missed — including roadhouses, brewpubs, and neighborhood bars that don't show up in platform searches because they don't use Eventbrite, Meetup, or WordPress calendars.
+
+**Repeat topical passes.** The first pass catches the obvious venues. Come back later and cross-reference against directories to find what you missed. Discovery is iterative, not one-shot.
 
 ### Phase 3: Custom scrapers (last resort for high-value sources)
 Only after exhausting phases 1 and 2, build scrapers for important sources that have no feeds. Prioritize by event volume and community relevance.
@@ -124,6 +168,7 @@ Only after exhausting phases 1 and 2, build scrapers for important sources that 
 - **Ticketing platforms:** Check Eventbrite, SeeTickets, Dice.fm for the venue name. The ticketing site often has cleaner structured data than the venue's own site.
 - **Artist-sourced aggregators:** For music venues, check [Songkick](https://www.songkick.com) and [Bandsintown](https://www.bandsintown.com). Artists and their management push tour dates to these platforms, which aggregate them onto venue pages with clean JSON-LD. One page fetch, no bot games. **Example:** The Wellmont Theater in Montclair uses ShowDog bot protection and routes through Ticketmaster/AXS — but Songkick serves every upcoming show as structured `MusicEvent` data from a single URL.
 - **Listing page + JSON-LD:** Some sites have a simple listing page that links to individual event pages, each with JSON-LD structured data. Scrape the listing for URLs, then extract JSON-LD from each page. **Example:** Montclair Film's `/all-event/` page links to ~15 current films; each film page has a `subEvent` array with individual screening times. 16 fetches yield 128 showtimes.
+- **Civic organizing platforms:** [Mobilize.us](https://www.mobilize.us) hosts event pages for political and civic organizations. The project has a reusable scraper (`scrapers/mobilize.py`) that extracts events from any organization's page. Search `site:mobilize.us "{your city}"` to find local groups. **Example:** Indivisible Sonoma County's Mobilize page yielded 142 events — phone banks, protests, voter outreach — from multiple partner organizations.
 
 ### Phase 4: Upstream authority (find direct feeds for aggregated venues)
 Once your calendar has aggregator sources (newspapers, regional platforms), analyze which venues appear *only* via aggregators. These are candidates for direct sourcing — getting events straight from the venue rather than through an intermediary.
@@ -173,6 +218,7 @@ Current cities and their known aggregators:
 
 - **Santa Rosa:** North Bay Bohemian, Press Democrat, Creative Sonoma, GoLocal Cooperative
 - **Toronto:** NOW Toronto, Toronto Events (Tockify)
+- **Bloomington:** Let's Go! Bloomington, BloomingtonOnline Events, BloomingtonOnline Food & Drink, BloomingtonOnline Shopping
 
 To add your city or flag an aggregator, [open an issue](https://github.com/judell/community-calendar/issues/new?template=add-city-or-aggregator.md). Just name your city and any aggregators you know about — we'll help you figure out the rest.
 
@@ -195,23 +241,52 @@ This reduces event count significantly (typically 10-15% fewer displayed events)
 
 ---
 
+## Recurring Events
+
+Many event sources publish recurring events using RRULE (recurrence rules) in the ICS standard — "every Tuesday at 7 PM," "first Saturday of the month," "weekly until June." The pipeline automatically expands these rules into individual event instances over a 90-day window.
+
+**Why this matters:** Before RRULE expansion, recurring events were silently dropped. A feed might advertise 133 events but yield 0 in the calendar because every event was defined as a recurrence pattern rather than individual occurrences. This particularly affected Google Calendar feeds (community groups, faith organizations) and feeds from platforms like BloomingtonOnline that rely heavily on recurrence. When RRULE expansion was added to the Bloomington build, event count jumped from 3,040 to 3,977 (+31%).
+
+**How it works:**
+- The pipeline detects RRULE properties in ICS feeds and expands them into standalone events
+- Each instance gets a unique ID (original UID + date suffix) so duplicates are handled correctly
+- The expansion window is 90 days forward — far enough to be useful, bounded enough to prevent runaway expansion
+- Non-recurring events pass through unchanged
+- If expansion fails for any reason, the pipeline falls back to the standard regex parser
+
+**What curators should know:**
+- **No action needed.** RRULE expansion is automatic. When you add a feed that uses recurrence rules, the recurring events appear automatically.
+- **Event counts will be higher.** A feed with 10 weekly events produces 130+ instances over 90 days. This is correct — each instance is a real, upcoming event.
+- **Classification is efficient.** The classifier deduplicates by title before calling the API. "Tuesday Open Mic" appearing 13 times is classified once, and the category is applied to all instances. This keeps API costs flat regardless of how many recurring instances exist.
+- **All-day recurring events** (like "Monday Food Deals") are anchored to midnight in the city's local timezone, so they display on the correct day.
+
+---
+
 ## Event Categories
 
 Events are automatically classified into categories by an AI model that runs after each daily build. Categories are defined in [`categories.json`](../categories.json) — the single source of truth for both the UI and the classifier. Categories are currently system-wide (shared across all cities); per-city categories are TBD.
 
 | Category | Examples |
 |----------|----------|
-| Arts & Culture | gallery openings, theater, film screenings |
-| Community & Social | neighborhood meetings, potlucks, networking |
-| Education & Workshops | lectures, craft classes, tech talks |
-| Family & Kids | story time, kids' camps, family festivals |
-| Food & Drink | farmers markets, wine tastings, cooking classes |
-| Government & Civic | city council, planning commission, public hearings |
-| Health & Wellness | meditation, health screenings, support groups |
-| Music & Concerts | live bands, open mic, jazz night |
-| Nature & Outdoors | hikes, birding walks, garden tours |
-| Religion & Spirituality | services, interfaith events, meditation circles |
-| Sports & Fitness | 5K runs, yoga classes, soccer league |
+| Arts / Culture | gallery openings, theater, visual art |
+| Books / Literature / Poetry | author readings, book clubs, poetry slams |
+| Comedy / Improv | stand-up, open mic comedy, improv shows |
+| Community / Social | neighborhood meetings, potlucks, networking |
+| Dance / Performance | dance classes, ballet, recitals |
+| Education / Workshops | lectures, craft classes, workshops |
+| Family / Kids | story time, kids' camps, family festivals |
+| Film / Cinema | film screenings, movie nights, film festivals |
+| Food / Drink | farmers markets, wine tastings, cooking classes |
+| Games / Trivia | trivia nights, board game meetups, puzzles |
+| Government / Civic | city council, volunteering, public hearings |
+| Health / Wellness | meditation, health screenings, support groups |
+| History / Heritage | historical tours, heritage events, genealogy |
+| LGBTQ+ / Gender | pride events, drag shows, queer community |
+| Music / Concerts | live bands, open mic, jazz night |
+| Nature / Outdoors / Recreation | hikes, birding walks, garden tours |
+| Religion / Spirituality | services, interfaith events, meditation circles |
+| Sports / Fitness | 5K runs, yoga classes, soccer league |
+| Technology / Careers | tech meetups, hackathons, career fairs |
 
 To add a new category, edit `categories.json` — the name, label color, and background color are all defined there. The change automatically propagates to the UI and the classifier.
 
@@ -366,7 +441,7 @@ The database and edge function host. The [free tier](https://supabase.com/pricin
 
 Used for two things: **event classification** (frequent, cheap) and **event capture from images/audio** (occasional, moderate).
 
-**Classification** runs automatically after each daily build. Claude Haiku classifies newly added events into categories (Music & Concerts, Family & Kids, etc.) in batches of 50. This is the most frequent API usage but also the cheapest — Haiku costs $0.25/M input tokens and $1.25/M output tokens. A typical batch of 50 events uses ~2K input tokens and ~500 output tokens, so classifying 50 events costs roughly $0.001. Toronto currently has ~4,500 future events and adds ~20 new events per daily build — that's one Haiku call per day, well under $0.01/day.
+**Classification** runs automatically after each daily build. Claude Haiku classifies newly added events into categories (Music & Concerts, Family & Kids, etc.) in batches of 50. There are two classifier scripts: `classify_events_json.py` (used by CI, operates on JSON files) and `classify_events_anthropic.py` (for manual use, operates on Supabase directly). Both do title-dedup — recurring events like "Tuesday Food Deals" are classified once per unique title, not once per instance, which reduces API calls significantly after RRULE expansion. This is the most frequent API usage but also the cheapest — Haiku costs $0.25/M input tokens and $1.25/M output tokens. A typical batch of 50 events uses ~2K input tokens and ~500 output tokens, so classifying 50 events costs roughly $0.001. Toronto currently has ~4,500 future events and adds ~20 new events per daily build — that's one Haiku call per day, well under $0.01/day.
 
 **Event capture** (poster images, audio memos) uses Claude Sonnet for vision/text extraction. This is on-demand — only when a user photographs a poster or records an audio memo. Sonnet costs $3/M input tokens and $15/M output tokens. A single image capture uses ~1,500 input tokens (prompt + image) and ~200 output tokens, costing roughly $0.008 per capture. Audio capture adds a Whisper transcription step (see OpenAI below) before the Sonnet call.
 

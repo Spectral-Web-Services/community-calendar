@@ -111,23 +111,24 @@ def test_scraper(scraper_path: Path) -> bool:
             output_file.unlink()
 
 
-def add_to_workflow(scraper_name: str, city: str, scraper_path: Path) -> bool:
+def add_to_workflow(scraper_name: str, city: str, scraper_path: Path,
+                    extra_args: str = '', output_name: str = '') -> bool:
     """Add the scraper to the GitHub Actions workflow."""
     print(f"\n📝 Adding to workflow for city: {city}")
-    
+
     workflow_content = WORKFLOW_PATH.read_text()
-    
+
     # Determine the scraper command path relative to repo root
     rel_path = scraper_path.relative_to(ROOT)
-    output_path = f"cities/{city}/{scraper_name}.ics"
-    scraper_line = f"        python {rel_path} --output {output_path} || true"
+    ics_name = output_name or Path(scraper_name).name
+    output_path = f"cities/{city}/{ics_name}.ics"
+    extra = f" {extra_args}" if extra_args else ""
+    scraper_line = f"        python {rel_path}{extra} --output {output_path} || true"
     
     # Check if already in workflow
-    if scraper_name in workflow_content and city in workflow_content:
-        # More specific check
-        if f"{city}/{scraper_name}.ics" in workflow_content:
-            print(f"✅ Already in workflow: {output_path}")
-            return True
+    if f"{city}/{ics_name}.ics" in workflow_content:
+        print(f"✅ Already in workflow: {output_path}")
+        return True
     
     # Find the scrape step for this city
     # Pattern: "Scrape {City} sources" followed by "run: |" and commands
@@ -270,6 +271,35 @@ def add_to_combine_ics(scraper_name: str, display_name: str) -> bool:
     return True
 
 
+def add_to_feeds_txt(city: str, scraper_path: Path, extra_args: str,
+                     output_name: str, display_name: str) -> bool:
+    """Append the scraper entry to cities/{city}/feeds.txt."""
+    feeds_path = ROOT / f"cities/{city}/feeds.txt"
+
+    print(f"\n📝 Adding to {feeds_path.relative_to(ROOT)}")
+
+    if not feeds_path.exists():
+        print(f"❌ feeds.txt not found: {feeds_path}")
+        return False
+
+    content = feeds_path.read_text()
+    output_file = f"cities/{city}/{output_name}.ics"
+
+    if output_file in content:
+        print(f"✅ Already in feeds.txt")
+        return True
+
+    extra = f" {extra_args}" if extra_args else ""
+    cmd = f"python {scraper_path.relative_to(ROOT)}{extra}"
+    entry = f"\n# {display_name}\n# cmd: {cmd}\n{output_file}\n"
+
+    with open(feeds_path, 'a') as f:
+        f.write(entry)
+
+    print(f"✅ Added to feeds.txt: {display_name}")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Add a scraper to the calendar pipeline',
@@ -279,6 +309,7 @@ Examples:
   python scripts/add_scraper.py sportsbasement santarosa "Sports Basement"
   python scripts/add_scraper.py myscraper davis "My Source" --test
   python scripts/add_scraper.py newscraper bloomington "News Source" --dry-run
+  python scripts/add_scraper.py eventbrite petaluma "Blue Zones Project Petaluma" --extra-args '--url "https://www.eventbrite.com/o/78957912343" --name "Blue Zones Project Petaluma"' --output-name bluezones_petaluma
 """
     )
     parser.add_argument('scraper', help='Scraper name (without .py extension)')
@@ -286,6 +317,8 @@ Examples:
     parser.add_argument('display_name', help='Human-readable source name for display')
     parser.add_argument('--test', action='store_true', help='Test the scraper before adding')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be done without making changes')
+    parser.add_argument('--extra-args', default='', help='Extra arguments inserted before --output (e.g. \'--url "https://..." --name "My Source"\')')
+    parser.add_argument('--output-name', default='', help='Override the output .ics filename (without .ics extension, default: scraper name)')
     parser.add_argument('--skip-workflow', action='store_true', help='Skip adding to workflow')
     parser.add_argument('--skip-combine', action='store_true', help='Skip adding to combine_ics.py')
     
@@ -304,10 +337,14 @@ Examples:
     
     print(f"\n✅ Found scraper: {scraper_path}")
     
+    ics_name = args.output_name or Path(args.scraper).name
+    extra = f" {args.extra_args}" if args.extra_args else ""
+
     if args.dry_run:
         print("\n[DRY RUN] Would perform the following:")
-        print(f"  1. Add to workflow: python {scraper_path.relative_to(ROOT)} --output cities/{args.city}/{args.scraper}.ics")
-        print(f"  2. Add to SOURCE_NAMES: '{args.scraper}': '{args.display_name}'")
+        print(f"  1. Add to workflow: python {scraper_path.relative_to(ROOT)}{extra} --output cities/{args.city}/{ics_name}.ics")
+        print(f"  2. Add to SOURCE_NAMES: '{ics_name}': '{args.display_name}'")
+        print(f"  3. Add to feeds.txt: cities/{args.city}/{ics_name}.ics")
         return
     
     # Step 2: Test if requested
@@ -320,14 +357,18 @@ Examples:
     
     # Step 3: Add to workflow
     if not args.skip_workflow:
-        if not add_to_workflow(args.scraper, args.city, scraper_path):
+        if not add_to_workflow(args.scraper, args.city, scraper_path,
+                               extra_args=args.extra_args, output_name=args.output_name):
             print("\n⚠️  Failed to add to workflow automatically")
     
     # Step 4: Add to combine_ics.py
     if not args.skip_combine:
-        if not add_to_combine_ics(args.scraper, args.display_name):
+        if not add_to_combine_ics(ics_name, args.display_name):
             print("\n⚠️  Failed to add to combine_ics.py automatically")
-    
+
+    # Step 5: Add to feeds.txt
+    add_to_feeds_txt(args.city, scraper_path, args.extra_args, ics_name, args.display_name)
+
     print("\n" + "="*60)
     print("✅ Done! Next steps:")
     print("  1. Review changes: git diff")

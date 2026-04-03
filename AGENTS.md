@@ -20,6 +20,7 @@
   - [Legistar](#legistar-scraperslegistarpy---city-government-meetings)
   - [Bibliocommons](#bibliocommons-scraperslibbibliocommunspy---library-event-platforms)
   - [GoDaddy Calendar](#godaddy-calendar-scraperslibgodaddypy---godaddy-website-builder)
+  - [Mobilize.us](#mobilizeus-scrapersmobilizepy---civic-and-political-organizing)
 - [Platform-Specific Techniques](#platform-specific-techniques)
   - [SeeTickets Widgets](#seetickets-widgets)
   - [Wix Events](#wix-events)
@@ -55,7 +56,7 @@
    - Add city to the locations list (line with `echo "list=..."`)
    - Add a city section with curl commands for all feeds + `combine_ics.py` call
    - Add city to the backup/restore lists in the commit step (`for city in ...`)
-4. **Update `combine_ics.py`** — add `SOURCE_NAMES` entries (filename → display name) and `SOURCE_URLS` entries (filename → fallback URL) for all new sources
+4. **Source metadata** — for feeds, `add_feed.py` writes structured comments to `feeds.txt` (friendly name + fallback URL); for scrapers, `add_scraper.py` adds `SOURCE_NAMES` entries to `combine_ics.py`. No manual dict editing needed.
 5. **Add city to UI** — TWO places must be updated:
    - `index.html`: add entry to `cityNames` map (e.g., `toronto: 'Toronto'`)
    - `Main.xmlui`: add a Button in the city picker VStack (search for "Choose your city")
@@ -90,12 +91,18 @@ Scraper/Feed ICS  →  combine_ics.py  →  ics_to_json.py  →  Supabase DB  �
    DESCRIPTION         (untouched)        description col     description col  (search snippets only)
 ```
 
-- **`X-SOURCE`** ICS header carries the source name. `combine_ics.py` adds it if missing.
+- **`X-SOURCE`** ICS header carries the source name. `combine_ics.py` adds it only if missing.
 - **`source`** DB column is populated from `X-SOURCE` by `ics_to_json.py`.
 - **`EventCard.xmlui`** line 26 renders `$props.event.source` as an italic line.
 - **DESCRIPTION** is for actual event content only. Do NOT put "Source:" text in descriptions — it causes duplicate display since the app renders both.
-- **`BaseScraper.create_event()`** adds `x-source` automatically. Scrapers should not call `append_source()`.
-- **`SOURCE_NAMES`** dict in `combine_ics.py` maps ICS filenames to friendly display names (e.g., `'catscradle': "Cat's Cradle"`).
+
+**How X-SOURCE gets set — two paths:**
+
+1. **Feeds** (ICS URLs in `feeds.txt`): `download_feeds.py` reads the structured comment above each URL (e.g., `# Friendly Name | https://fallback-url/`) and injects `X-SOURCE` and `X-SOURCE-URL` headers into every VEVENT at download time. No dict entry needed.
+
+2. **Scrapers** (Python scripts in the workflow): `BaseScraper.create_event()` sets `X-SOURCE` from the `--name` argument. `add_scraper.py` also adds a `SOURCE_NAMES` entry in `combine_ics.py` as a fallback.
+
+**`SOURCE_NAMES`/`SOURCE_URLS`** dicts in `combine_ics.py` are a **legacy fallback** for ICS files that lack `X-SOURCE`. New feeds should never need entries there — the structured comment in `feeds.txt` is the source of truth. Do NOT add new feed entries to these dicts.
 
 ### SOURCES_CHECKLIST.md
 
@@ -134,11 +141,10 @@ When creating a new scraper for an existing city, **all steps are required**:
 1. **Create the scraper** in `scrapers/` directory
 2. **Run the scraper** to generate initial ICS file in `cities/{city}/`
 3. **Add scraper to workflow** (`.github/workflows/generate-calendar.yml`)
-4. **Update `combine_ics.py`** — add `SOURCE_NAMES` entry (filename → display name) and `SOURCE_URLS` entry (filename → fallback URL)
-5. **Update SOURCES_CHECKLIST.md** - document what was added
-6. **Commit and push** - include the ICS file
+4. **Update SOURCES_CHECKLIST.md** - document what was added
+5. **Commit and push** - include the ICS file
 
-**You do NOT need to edit `feeds.txt`.** It is auto-generated from the workflow by `scripts/sync_feeds_txt.py` (see below).
+`add_scraper.py` handles steps 3 and also adds a `SOURCE_NAMES` entry in `combine_ics.py` as fallback. You do NOT need to edit `feeds.txt` for scrapers.
 
 ### Verification Checklist
 
@@ -173,26 +179,36 @@ After creating the scraper in `scrapers/`, use `add_scraper.py` to wire it into 
 With `--test`, it also runs the scraper first and checks that it produces a valid .ics file with events.
 
 ```bash
+# Simple scraper (dedicated .py file)
 python scripts/add_scraper.py myscraper santarosa "My Source Name"
 python scripts/add_scraper.py myscraper santarosa "My Source Name" --test      # test first
 python scripts/add_scraper.py myscraper santarosa "My Source Name" --dry-run   # preview
+
+# Reusable/parameterized scraper (e.g. eventbrite, squarespace, songkick)
+python scripts/add_scraper.py eventbrite petaluma "Blue Zones Project Petaluma" \
+  --extra-args '--url "https://www.eventbrite.com/o/78957912343" --name "Blue Zones Project Petaluma"' \
+  --output-name bluezones_petaluma
 ```
+
+`--extra-args` inserts flags before `--output` in the workflow command. `--output-name` overrides the .ics filename (default: scraper name). The script is idempotent — safe to run again on an already-added scraper.
 
 You still need to manually update `SOURCES_CHECKLIST.md` and commit/push.
 
 **If you skip any step, events won't appear in the calendar!**
 
-### feeds.txt is auto-generated
+### feeds.txt is the source of truth for live feeds
 
-`feeds.txt` files are **not manually edited**. They are a human-readable inventory generated from the workflow YAML:
+`feeds.txt` is where live feed URLs and their metadata live. Each URL should have a structured comment above it:
 
-```bash
-python scripts/sync_feeds_txt.py                  # regenerate all cities
-python scripts/sync_feeds_txt.py --city santarosa  # one city
-python scripts/sync_feeds_txt.py --dry-run         # preview without writing
+```
+# Friendly Source Name | https://fallback-url/
+https://actual-feed-url/events/?ical=1
+
+# Friendly Source Name
+https://another-feed-url/events/ical/
 ```
 
-The workflow YAML is the source of truth. `feeds.txt` is documentation only — `combine_ics.py` globs `*.ics` and ignores `feeds.txt`.
+The `|`-separated fallback URL is optional — only needed when the ICS feed's events lack per-event URLs. `download_feeds.py` reads these comments and injects `X-SOURCE` (and `X-SOURCE-URL`) headers into every VEVENT at download time. This is how friendly source names get into the pipeline for feeds — no `SOURCE_NAMES` dict entry needed.
 
 ---
 
@@ -208,9 +224,11 @@ python scripts/add_feed.py URL city "Source Name" --dry-run   # preview
 
 This will:
 1. Test the feed URL returns valid ICS
-2. Add curl command to `.github/workflows/generate-calendar.yml`
+2. Add a structured comment + URL to `cities/{city}/feeds.txt`
 
-You still need to manually update `SOURCES_CHECKLIST.md`. You do **not** need to edit `feeds.txt` — it is auto-generated (see above).
+At build time, `download_feeds.py` reads the comment, downloads the ICS, and injects `X-SOURCE` headers. You do **not** need to edit `combine_ics.py` — the friendly name flows from the `feeds.txt` comment.
+
+You still need to manually update `SOURCES_CHECKLIST.md`.
 
 ---
 
@@ -247,6 +265,14 @@ For cities using Legistar for agenda management. Client name is from the Legista
 
 **Gotcha:** Some cities have a `{city}.legistar.com` web UI but a broken API (e.g., Raleigh returns "LegistarConnectionString not set up"). These cities use Granicus for video but not Legistar for legislative data. Always test the API before adding to the workflow.
 
+### Guild.host (`scrapers/guildhost.py`) - Tech Community Events
+```bash
+python scrapers/guildhost.py --group civic-tech-toronto --name "Civic Tech Toronto" -o cities/toronto/guildhost_civic_tech.ics
+```
+Guild.host is a community platform used mainly by **tech-focused groups** (JavaScript meetups, civic tech, DevTools, etc.). No ICS feeds — it's a JS-rendered SPA, but individual event pages have clean JSON-LD `Event` schema. The scraper fetches the listing page, extracts event slugs, then parses JSON-LD from each event page. Handles mixed physical + virtual locations.
+
+**Discovery:** `site:guild.host "{city}"` — the platform has no location-based search. Most useful for cities with active tech scenes (Toronto, Montreal, London, Amsterdam). For a typical non-tech city, expect zero results.
+
 ### Songkick (`scrapers/songkick.py`) - Music Venue Showtimes
 ```bash
 python scrapers/songkick.py --url "https://www.songkick.com/venues/32209-wellmont-theater" --name "Wellmont Theater" -o events.ics
@@ -258,6 +284,14 @@ Extracts `MusicEvent` JSON-LD from any Songkick venue page. Artists push their o
 python scrapers/montclair_film.py -o cities/montclair/montclair_film.ics
 ```
 Montclair Film uses WordPress with a groundplan-pro plugin. The listing page at `/all-event/` links to ~15 current films; each film page has JSON-LD with a `subEvent` array of individual screenings. This is a site-specific scraper but illustrates the **listing page + JSON-LD** pattern: discover URLs from a listing page, then extract structured data from each. 16 fetches yield 128 screenings.
+
+### Sweetwater Music Hall (`scrapers/sweetwater.py`) - RSS Feed + JSON-LD
+```bash
+python scrapers/sweetwater.py -o cities/santarosa/sweetwater.ics
+```
+Sweetwater's WordPress site has an RSS feed at `/events/feed/` with ~90 items. Each item links to an event page with clean JSON-LD (`startDate`, location, etc.). The RSS `pubDate` is the **publish date**, not the event date, so we must fetch individual pages for accurate dates.
+
+**Limiting strategy for listing-page + per-page scrapers:** When a listing page (RSS, sitemap, index page) has many items but most are past events, filter before fetching individual pages. Sweetwater's scraper skips RSS items with `pubDate` older than 60 days — this cut 90 fetches to ~49 while still capturing all future events. The same principle applies to any scraper that discovers URLs from a listing and then fetches each one: find a cheap signal (publish date, URL pattern, list position) to skip items that are almost certainly past, and only pay the per-page fetch cost for likely-future events.
 
 ### Bibliocommons (`scrapers/lib/bibliocommons.py`) - Library Event Platforms
 Reusable base for public-library systems on Bibliocommons gateway APIs.
@@ -298,6 +332,19 @@ if __name__ == '__main__':
     MyVenueScraper.main()
 ```
 
+### Mobilize.us (`scrapers/mobilize.py`) - Civic and Political Organizing
+Mobilize.us hosts event pages for political and civic organizations. Each organization has a public page (e.g., `mobilize.us/indivisiblesonomacounty/`) that embeds event data as JSON in `window.__MLZ_EMBEDDED_DATA__`. The scraper extracts this data — no API key needed.
+
+```bash
+python scrapers/mobilize.py --url "https://www.mobilize.us/indivisiblesonomacounty/" --name "Indivisible Sonoma County (Mobilize)" --output cities/santarosa/mobilize_indivisible_sonoma.ics
+```
+
+Events often have multiple timeslots (recurring phone banks, weekly protests, etc.) — each timeslot becomes a separate calendar event. The scraper handles virtual events, location data, and event images.
+
+**Discovery:** Search `site:mobilize.us "{city name}"` or `site:mobilize.us "{county name}"` to find organizations in a given area.
+
+**Note:** Mobilize.us appears to have a public API at `api.mobilize.us/v1/` but we could not find the correct organization endpoint for specific groups. The embedded-data approach works reliably. If you find a working API pattern, prefer it over HTML parsing.
+
 ---
 
 ## Platform-Specific Techniques
@@ -314,13 +361,14 @@ if __name__ == '__main__':
 | **Legistar** | `https://webapi.legistar.com/v1/{client}/events` (WebAPI, use scraper) |
 | **CivicPlus** | `https://www.{city}.org/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID={N}` |
 | **Songkick** | `https://www.songkick.com/venues/{ID}-{slug}` (JSON-LD MusicEvent, use `scrapers/songkick.py`) |
+| **Guild.host** | No ICS feeds. JSON-LD Event on individual pages. Tech-focused platform. Use `scrapers/guildhost.py` |
 
 ### SeeTickets Widgets
 HTML classes: `.title a`, `.date`, `.see-showtime`, `.see-doortime`, `.genre`, `.ages`, `.price`
 Example: `scrapers/mystic_theatre.py`
 
 ### Wix Events
-Complex - cross-origin iframes from `geteventviewer.com`. Often easier to check if venue is on Eventbrite.
+Wix event pages vary. Some use cross-origin iframes from `geteventviewer.com` (not scrapeable). But others server-render events in a **Wix Repeater component** with structured HTML — these are scrapeable (see `scrapers/cafefrida.py` for an example). Check the page source before writing off a Wix site. If the events are in the HTML (look for `data-hook` attributes and repeater items), a scraper can extract them. If it's an iframe to `geteventviewer.com`, check if the venue is on Eventbrite instead.
 
 ---
 
@@ -364,6 +412,30 @@ City names like "Petaluma" or "Bloomington" are discriminatory enough to filter 
 - Community organizations
 - Recurring events (trivia nights, farmers markets)
 
+**Search for directories, not just venues.** Also search for curated venue lists and directories — these are force multipliers. A single directory can surface dozens of venues that individual topical searches miss.
+
+Search patterns:
+- `"live music venues" + {city/county}` — local music blogs, tourism boards
+- `"things to do" + {city/county}` — lifestyle aggregators
+- `"best {topic}" + {city/county}` — magazine/blog roundups
+
+Example directories that proved valuable for Sonoma County:
+- `northbaylivemusic.com/venues` — 350+ venues, comprehensive
+- `sonomamag.com` roundups — curated picks by category
+- `sonomacounty.com/activities` — tourism board
+
+Cross-reference directories against existing sources to find gaps. A second topical pass using directories found 26 music venues with regular programming that the initial pass missed — roadhouses, brewpubs, and neighborhood bars that don't use Eventbrite/Meetup/WordPress.
+
+**Use Yelp as a discovery tool.** Search Yelp for businesses in your area that might host events — not just entertainment venues, but craft shops, history museums, galleries, pottery studios. Then check each website for calendar plugins. Also search Yelp for **surrounding towns** within your geo-filter radius; tourism boards for neighboring communities often have rich MEC or Tribe Events calendars.
+
+**Check downtown association member lists.** Downtown business associations (e.g., `downtownbloomington.com/our-members/`) list 100+ businesses. Most won't have calendars, but scanning the list surfaces non-obvious venues like history centers, galleries, and craft shops that host events.
+
+**Check community radio stations.** Community radio stations often maintain volunteer-curated calendars that aggregate events across dozens of venues — including small venues with no web presence. These are high-value aggregator sources. The WFHB Community Calendar in Bloomington covers 349 events across venues that have no scrapeable calendar of their own.
+
+**When ICS is blocked, try the REST API.** WordPress sites using The Events Calendar (Tribe) expose a JSON API at `/wp-json/tribe/events/v1/events/` that often works even when the ICS export at `?ical=1` is blocked by WAFs. The API returns structured data (dates, venues, descriptions) — no HTML parsing needed. See `lib/tribe_events.py`.
+
+**Discovery is iterative.** The first pass catches the obvious venues. Come back later and cross-reference against directories. Each pass finds things the previous one missed.
+
 ### Strategy 3: Meetup ICS Pattern
 
 Every Meetup group has a public ICS feed at:
@@ -376,9 +448,9 @@ No scraping needed - just discover groups and add their feeds. Test with:
 curl -s "https://www.meetup.com/{group-slug}/events/ical/" | head -30
 ```
 
-### Strategy 4: Artist-Sourced Data (Songkick, Bandsintown)
+### Strategy 4: Artist-Sourced Data (Songkick only — not Bandsintown)
 
-When a music venue's own site is hard to scrape (bot protection, heavy JS, ticketing widgets), **look for the venue on platforms where artists push their own tour dates**. Artists and their management maintain tour data on Songkick and Bandsintown, which aggregate it onto clean venue pages with structured JSON-LD.
+When a music venue's own site is hard to scrape (bot protection, heavy JS, ticketing widgets), **look for the venue on Songkick**, where artists push their own tour dates. Songkick aggregates these onto clean venue pages with structured JSON-LD.
 
 **Why this works:** The data flows artist → aggregator → venue page. You're getting artist-sourced tour data, not scraping the venue. A single page fetch returns `MusicEvent` JSON-LD for all upcoming shows.
 
@@ -394,6 +466,8 @@ curl -sL "https://www.songkick.com/venues/32209-wellmont-theater" | grep -c 'Mus
 ```
 
 **Reusable scraper:** `scrapers/songkick.py` handles any Songkick venue page (see [Reusable Scrapers](#reusable-scrapers) below).
+
+**Why NOT Bandsintown:** Bandsintown looks similar but is a walled garden. The website is behind Cloudflare (403 on curl). The REST API (`rest.bandsintown.com`) requires an app ID that needs written approval from Bandsintown — it's not self-serve like Ticketmaster. And even with API access, there is **no venue endpoint** — only `/artists/{name}/events`, so you can't query "all events at venue X." Songkick is the only viable platform in this category.
 
 **When to use this strategy:**
 - Venue site has bot protection (ShowDog, Cloudflare, etc.)
@@ -413,6 +487,60 @@ Many event platforms have predictable feed URLs:
 | **LiveWhale** | University sites: `{domain}/live/ical/events` |
 | **WordPress Tribe** | `{domain}/events/?ical=1` |
 | **Legistar** | `curl -s "https://webapi.legistar.com/v1/{client}/events"` — try city/county slugs |
+
+---
+
+## Event Classification
+
+Events are classified into categories (Music & Concerts, Community Events, etc.) by Claude Haiku. There are **two classifiers** — one for CI, one for manual use. Both do title-dedup to avoid re-classifying recurring event instances (e.g., "Tuesday Food Deals" × 13 weeks is classified once).
+
+### `classify_events_json.py` — CI pipeline classifier
+
+Used by the GitHub Actions workflow during the build. Operates on `events.json` files on disk. This is the one that runs automatically.
+
+```bash
+python scripts/classify_events_json.py cities/bloomington/events.json
+python scripts/classify_events_json.py cities/*/events.json
+python scripts/classify_events_json.py cities/bloomington/events.json --dry-run
+```
+
+- Reads events from JSON files, classifies events missing a `category` field
+- Writes classifications back to the same JSON file
+- Categories carried forward from previous builds via `merge_categories.py` (runs first in CI)
+- Curator overrides from the `category_overrides` Supabase table are used as few-shot examples
+
+### `classify_events_anthropic.py` — Manual/Supabase classifier
+
+For ad-hoc classification of events already in Supabase. Operates directly on the database.
+
+```bash
+python scripts/classify_events_anthropic.py --limit 500
+python scripts/classify_events_anthropic.py --limit 50 --city bloomington --dry-run
+```
+
+- Fetches events where `category IS NULL` from Supabase
+- Updates categories directly in the database via psql (requires `SUPABASE_DB_URL`)
+- Useful for backfilling categories after schema changes or manual data loads
+
+### Curator overrides
+
+Both classifiers respect the `category_overrides` table in Supabase. When a curator manually sets a category via the pencil icon in the UI, it's stored as an override that:
+1. Is never overwritten by the classifier
+2. Is used as a few-shot example to improve future classifications
+
+---
+
+## Minimizing Per-Event Fetches
+
+When a scraper must visit individual event pages (listing + detail pattern), minimize HTTP requests by filtering at the listing stage. Every fetch we can skip makes the build faster and reduces load on source sites.
+
+**Strategies, in order of preference:**
+1. **Use an API that returns dates in the listing** — no detail fetch needed at all (e.g., Squarespace `?format=json`, CitySpark API, Tribe Events REST API, Localist JSON API)
+2. **Filter by date signal in the listing** — if the listing includes publish dates, event dates, or date-bearing URLs, skip items that are certainly past before fetching detail pages (e.g., Sweetwater skips RSS items with `pubDate` > 60 days old)
+3. **Filter by URL pattern** — some sites encode dates in event URLs (e.g., `/events/2026-04-01/concert`), allowing date filtering without any fetch
+4. **Cap pagination** — limit to N pages of results to bound the worst case (e.g., Monroe County History Center caps at 5 pages / 250 items)
+
+The goal is to get sources to publish ICS feeds so scrapers become unnecessary. Until then, be a good citizen — fetch only what you need.
 
 ---
 
@@ -443,4 +571,6 @@ python scripts/validate_pipeline.py --cities santarosa --strict
 | **Cloudflare-protected sites** | Challenge pages block scrapers |
 | **Facebook Events** | No public API since 2018 |
 | **Granicus video** | RSS feeds at `{instance}.granicus.com/ViewPublisherRSS.php?view_id={N}` are **backward-looking only** (archived meeting videos). Not useful for upcoming events. Don't confuse with Legistar (also Granicus-owned), which has a forward-looking WebAPI. |
+| **Bandsintown** | Website behind Cloudflare (403 on curl). REST API requires written approval from Bandsintown. Even with API access, no venue endpoint — only `/artists/{name}/events`. Not viable. |
+| **SeeTickets / Eventim US** | SeeTickets US rebranded as Eventim in March 2025 (same platform). No public API — affiliate account required. Cannot filter by single venue. US platform runs legacy ASP.NET (`wafform.aspx`), unlike Eventim Europe which has an unauthenticated search API at `public-api.eventim.com`. Venues like Mystic Theatre and HopMonk use this platform for ticketing. |
 | **BoardDocs** | Used by some cities for agenda publishing (e.g., `go.boarddocs.com/nc/raleigh/`). No public calendar API; LlamaIndex has a reader but it's for document extraction, not event feeds. |

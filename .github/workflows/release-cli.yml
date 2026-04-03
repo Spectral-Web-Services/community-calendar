@@ -1,0 +1,116 @@
+name: Release CLI
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag (e.g. cli-v0.1.0)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            goos: linux
+            goarch: amd64
+          - os: ubuntu-latest
+            goos: linux
+            goarch: arm64
+          - os: macos-latest
+            goos: darwin
+            goarch: amd64
+          - os: macos-latest
+            goos: darwin
+            goarch: arm64
+          - os: windows-latest
+            goos: windows
+            goarch: amd64
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-go@v5
+      with:
+        go-version: '1.22'
+
+    - name: Build
+      working-directory: cli
+      shell: bash
+      env:
+        GOOS: ${{ matrix.goos }}
+        GOARCH: ${{ matrix.goarch }}
+      run: |
+        EXT=""
+        if [ "${{ matrix.goos }}" = "windows" ]; then EXT=".exe"; fi
+        go build -o cc-cli-${{ matrix.goos }}-${{ matrix.goarch }}${EXT} .
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: cc-cli-${{ matrix.goos }}-${{ matrix.goarch }}
+        path: cli/cc-cli-*
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download all artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: artifacts
+
+    - name: Create release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ github.event.inputs.tag }}
+        files: artifacts/cc-cli-*/*
+        generate_release_notes: false
+        body: |
+          ## cc-cli ${{ github.event.inputs.tag }}
+
+          CLI tool to set up a Community Calendar fork with its own Supabase backend.
+
+          ### Install
+
+          Requires [GitHub CLI (`gh`)](https://cli.github.com/). Pick the command for your platform:
+
+          ```
+          # macOS Apple Silicon (M1/M2/M3/M4)
+          gh release download -R judell/community-calendar -p 'cc-cli-darwin-arm64'
+          sudo mv cc-cli-darwin-arm64 /usr/local/bin/cc-cli
+          chmod +x /usr/local/bin/cc-cli
+
+          # macOS Intel
+          gh release download -R judell/community-calendar -p 'cc-cli-darwin-amd64'
+          sudo mv cc-cli-darwin-amd64 /usr/local/bin/cc-cli
+          chmod +x /usr/local/bin/cc-cli
+
+          # Linux x86_64
+          gh release download -R judell/community-calendar -p 'cc-cli-linux-amd64'
+          sudo mv cc-cli-linux-amd64 /usr/local/bin/cc-cli
+          chmod +x /usr/local/bin/cc-cli
+
+          # Linux ARM64
+          gh release download -R judell/community-calendar -p 'cc-cli-linux-arm64'
+          sudo mv cc-cli-linux-arm64 /usr/local/bin/cc-cli
+          chmod +x /usr/local/bin/cc-cli
+
+          # Windows (run in PowerShell)
+          gh release download -R judell/community-calendar -p 'cc-cli-windows-amd64.exe'
+          Rename-Item cc-cli-windows-amd64.exe cc-cli.exe
+          ```
+
+          ### Usage
+
+          ```
+          cc-cli init     # guided setup
+          cc-cli build    # trigger calendar build
+          cc-cli status   # check workflow runs
+          ```

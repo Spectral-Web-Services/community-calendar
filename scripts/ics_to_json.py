@@ -10,6 +10,7 @@ import json
 import re
 import sys
 from datetime import datetime, timezone
+from html import unescape as html_unescape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -38,7 +39,9 @@ def parse_ics_datetime(dt_str, local_tz=None):
     - iso_string has the offset (e.g. '2026-03-17T19:00:00-07:00')
     - tz_name is the IANA timezone used (e.g. 'America/Los_Angeles')
 
-    If a TZID parameter is present in dt_str, that timezone is used instead of local_tz.
+    If the input contains a TZID parameter (e.g. ";TZID=America/New_York:20250115T190000"),
+    that timezone is used instead of local_tz. This ensures events from other timezones
+    are correctly interpreted even when they appear in a different city's calendar.
     """
     if not dt_str:
         return None, None
@@ -102,6 +105,18 @@ def parse_ics_datetime(dt_str, local_tz=None):
             return dt.isoformat(), tz_name
     except ValueError:
         return None, None
+
+
+def is_all_day_event(raw_dt_str):
+    """Check if a DTSTART string represents an all-day event (VALUE=DATE, no time component)."""
+    if not raw_dt_str:
+        return False
+    # VALUE=DATE parameter means all-day
+    if 'VALUE=DATE' in raw_dt_str.upper() and 'VALUE=DATE-TIME' not in raw_dt_str.upper():
+        return True
+    # No T in the value portion means date-only
+    value = raw_dt_str.split(':')[-1].strip()
+    return 'T' not in value and len(value) == 8 and value.isdigit()
 
 
 def unfold_ics_lines(content):
@@ -183,6 +198,7 @@ def extract_datetime_field(event_content, field_name):
 
     Returns the full property line including params so that parse_ics_datetime can
     honour the TZID parameter (e.g. 'DTSTART;TZID=America/Chicago:20260317T190000').
+    For bare properties (no params), returns just the value (e.g. '20250115T190000').
     """
     # Allow colons inside quoted parameter values (e.g. TZID="UTC-07:00")
     pattern = rf'^({field_name}(?:;(?:[^:"]|"[^"]*")*)?):([ \t]*[^\r\n]*)'
@@ -209,6 +225,7 @@ def _convert_google_drive_url(url):
     if m:
         return f'https://lh3.googleusercontent.com/d/{m.group(1)}'
     return url
+
 
 
 def extract_image_url(event_content):
@@ -383,9 +400,11 @@ def ics_to_json(ics_file, output_file=None, future_only=True, city=None):
 
     for event_content in matches:
         # Extract fields
-        title = extract_field(event_content, 'SUMMARY')
-        start_time, start_tz = parse_ics_datetime(extract_datetime_field(event_content, 'DTSTART'), local_tz)
+        title = html_unescape(extract_field(event_content, 'SUMMARY') or '')
+        raw_dtstart = extract_datetime_field(event_content, 'DTSTART')
+        start_time, start_tz = parse_ics_datetime(raw_dtstart, local_tz)
         end_time, end_tz = parse_ics_datetime(extract_datetime_field(event_content, 'DTEND'), local_tz)
+        all_day = is_all_day_event(raw_dtstart)
         location = extract_field(event_content, 'LOCATION')
         if location:
             location = strip_html(location)
@@ -394,6 +413,8 @@ def ics_to_json(ics_file, output_file=None, future_only=True, city=None):
             description = strip_html(description)
             description = clean_description(description)
         url = extract_field(event_content, 'URL')
+        if not url:
+            url = extract_field(event_content, 'X-SOURCE-URL')
         source = extract_field(event_content, 'X-SOURCE')
         source_id = extract_field(event_content, 'X-SOURCE-ID')
         source_urls_raw = extract_field(event_content, 'X-SOURCE-URLS')
@@ -444,7 +465,8 @@ def ics_to_json(ics_file, output_file=None, future_only=True, city=None):
             'timezone': start_tz or str(local_tz),
             'cluster_id': None,
             'ics_categories': ics_categories if ics_categories else None,
-            'image_url': image_url
+            'image_url': image_url,
+            'all_day': all_day
         }
         events.append(event)
 

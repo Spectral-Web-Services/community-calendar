@@ -52,7 +52,10 @@ Real-world lessons from source discovery across cities. These complement the str
 - [Communico Libraries: Skip the API, Scrape the Drupal Site](#communico-libraries-skip-the-api-scrape-the-drupal-site)
 - [WordPress Plugin Installed but Empty: Check for Embedded Calendars](#wordpress-plugin-installed-but-empty-check-for-embedded-calendars)
 - [Drupal City Government Sites with Category Filters](#drupal-city-government-sites-with-category-filters)
-
+- [Mobilize.us for Civic and Political Organizing](#mobilizeus-for-civic-and-political-organizing)
+- [Yelp and Business Directories as Discovery Tools](#yelp-and-business-directories-as-discovery-tools)
+- [Community Radio Stations as Aggregators](#community-radio-stations-as-aggregators)
+- [The Events Calendar (Tribe): ICS Blocked, Tribe API Works](#the-events-calendar-tribe-ics-blocked-tribe-api-works)
 ## "Curl-and-Done" Sources: No Scraper Needed
 
 Many sources provide ICS feeds that can be added with just a curl command in the workflow — no scraper required. Always check for these before writing a scraper:
@@ -89,7 +92,7 @@ The calendar ID is URL-encoded in the iframe src (look for `src=` parameter). De
 2. Add SOURCE_NAMES entry in `scripts/combine_ics.py`
 3. Add SOURCE_URLS fallback entry in `scripts/combine_ics.py`
 4. Update `cities/{city}/SOURCES_CHECKLIST.md`
-5. Run `python scripts/sync_feeds_txt.py` to regenerate `feeds.txt`
+5. `add_scraper.py` and `add_feed.py` update `feeds.txt` automatically
 
 ## Squarespace = `?format=json`
 
@@ -379,6 +382,28 @@ If you get JSON back, you can build a scraper around the REST API.
 **Challenge:** The REST API returns post content as rendered HTML, not structured event data. You'll need to parse dates, times, and locations from the HTML content using regex patterns.
 
 **Example:** Studio Montclair's site blocks all ICS requests with mod_security, but `/wp-json/wp/v2/posts` returns exhibition posts with dates like "Exhibition Dates: January 30 to February 27, 2026" embedded in the HTML content. See `scrapers/studio_montclair.py`.
+## The Events Calendar (Tribe): ICS Blocked, Tribe API Works
+
+Sites using The Events Calendar (Tribe) plugin often have ICS export blocked by Cloudflare or mod_security (returning 403), but the plugin's own REST API at `/wp-json/tribe/events/v1/events/` is typically unblocked. Unlike the generic WP REST API, the Tribe API returns **structured event data** — `start_date`, `end_date`, `venue`, `description` — no HTML parsing needed.
+
+**How to detect:** Check the HTTP headers on any events page:
+```bash
+curl -sI "https://example.com/events/" | grep -i x-tec-api
+# x-tec-api-root: https://example.com/wp-json/tribe/events/v1/
+```
+
+If you see `x-tec-api-root`, the Tribe API is available. Test it:
+```bash
+curl -sL "https://example.com/wp-json/tribe/events/v1/events/?per_page=5" \
+  -H "Accept: application/json" | python3 -m json.tool | head -30
+```
+
+**Reusable base:** `scrapers/lib/tribe_events.py` (TribeEventsScraper). Subclass with `api_url` and you're done — structured dates, venues with addresses, descriptions, pagination all handled.
+
+**Example:** NAMI Greater Bloomington's ICS export returns 403 (Cloudflare), but the Tribe API returns 78 events with structured data. See `scrapers/nami_bloomington.py` (10-line subclass, 31 future events).
+
+**Prevalence:** The Events Calendar is one of the most popular WordPress calendar plugins (~800K+ active installs). Many community organizations use it. Always try the Tribe API before giving up on a WordPress site with blocked ICS.
+
 
 ## Modern Events Calendar (MEC): ICS Broken, REST Works
 
@@ -604,3 +629,47 @@ Type IDs can be discovered by inspecting the filter dropdown HTML or clicking fi
 **Why separate feeds matter:** Government calendars mix very different event types (community festivals, council meetings, volunteer opportunities, public hearings). Separate feeds allow the pipeline to classify and present them differently, and curators can selectively include/exclude categories.
 
 **Example:** Portland.gov — 5 category feeds from one scraper: Community Events (type 329, 59 events), Volunteer Events (type 364, 92 events), Classes & Activities (type 583, 33 events), Public Meetings (type 333, 85 events), Council Meetings (type 651, 49 events). Detail pages provide location (`field--name-field-location`) and images (`og:image`). See `scrapers/portland_gov.py`.
+
+## Mobilize.us for Civic and Political Organizing
+
+[Mobilize.us](https://www.mobilize.us) is a platform used by political and civic organizations to coordinate events — phone banks, canvassing, protests, town halls, voter registration drives. Each organization has a public page like `mobilize.us/{org-slug}/` that server-renders event data into a `window.__MLZ_EMBEDDED_DATA__` JSON blob.
+
+The scraper (`scrapers/mobilize.py`) extracts this embedded JSON and converts events to ICS. It's reusable for any organization:
+```bash
+python scrapers/mobilize.py --url "https://www.mobilize.us/indivisiblesonomacounty/" --name "Indivisible Sonoma County (Mobilize)" -o events.ics
+```
+
+**Discovery:** Search `site:mobilize.us "{city or county name}"` to find local organizations.
+
+**Key characteristics:**
+- Organization pages often show events from partner organizations too (e.g., Indivisible Sonoma County's page includes events from Swing Left, No Kings, etc.)
+- Many events are recurring with multiple timeslots — the scraper expands each timeslot into a separate calendar event
+- Events include both virtual (Zoom calls, phone banks) and in-person (rallies, canvassing)
+- Event volume can be high: Indivisible Sonoma County yielded 142 future events
+
+**API situation:** Mobilize.us has a public API at `api.mobilize.us/v1/` that lists organizations and events. However, we were unable to find the correct endpoint to query events for a specific organization by slug. The API returned all 289K+ events globally rather than filtering to a specific org. The embedded-data approach is reliable and avoids this issue. If someone discovers the correct API pattern for org-specific queries, it would be preferable — it would support pagination (the embedded data is limited to the first page of ~25 events) and avoid HTML parsing.
+
+## Yelp and Business Directories as Discovery Tools
+
+Don't just search for "events calendar" — search Yelp for **venues and businesses** that might host events. A knitting shop might have classes, a history museum might have lectures, a tourism board might have a full MEC calendar. The strategy:
+
+1. Search Yelp for the area: `yelp.com/search?find_desc=Things+To+Do&find_loc={City},+{ST}`
+2. Also search by category: museums, galleries, art classes, workshops, craft stores, historic sites
+3. For surrounding towns within your radius, search those too
+4. For each interesting venue, check their website for calendar plugins
+
+**Example:** Searching Yelp for T.C. Steele State Historic Site in Nashville, IN led to checking `browncounty.com/events/` — a tourism board using Modern Events Calendar with a working ICS feed. One `?mec-ical-feed=1` URL yielded 94 events (art workshops, open mic nights, festivals, boat cruises) covering an entire neighboring arts community.
+
+**Also check:** Downtown business association member directories. DBI (Downtown Bloomington Inc.) listed 100+ businesses at `/our-members/`. Most didn't have calendars, but this led to discovering Monroe County History Center (EventON, 122 events) which wasn't covered by any aggregator.
+
+**Key insight:** The best discoveries come from treating every business within your radius as a potential event host, not just venues that obviously hold events.
+
+## Community Radio Stations as Aggregators
+
+Community radio stations often maintain volunteer-curated community calendars that aggregate events from dozens of venues. These are high-value sources because they cover small venues, one-off events, and community happenings that don't have their own websites or calendars.
+
+**Example:** WFHB (Bloomington Community Radio) uses the All-in-One Event Calendar WordPress plugin. Their `wfhb.org/calendar/` page had been marked as a dead end (mod_security blocked ICS export), but the HTML agenda view is accessible with a browser User-Agent. The ai1ec scraper (`lib/ai1ec.py`) extracts 349 events — covering Bishop Bar's Orbit Room (trivia, pinball league), library-hosted festivals, and dozens of venues that have no scrapeable calendar of their own.
+
+**How to find:** Search `"{city name}" community radio calendar` or check local radio station websites for event listing pages.
+
+**Watch for:** Community radio calendars are **aggregators**, not first-party sources. Classify them as such. Events may overlap with other sources you already have — deduplication handles this.

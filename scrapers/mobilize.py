@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
 """
-Scraper for Mobilize.us organization events via their public API.
+Scraper for Mobilize.us organization event pages.
+
+Extracts events from the embedded window.__MLZ_EMBEDDED_DATA__ JSON
+that Mobilize.us renders server-side into each organization's event feed page.
 
 Usage:
-    # By organization slug (looks up ID automatically):
     python scrapers/mobilize.py \
-        --org indivisiblesouthcentralindiana \
-        --name "Indivisible SCI" \
-        --output events.ics
-
-    # By organization ID:
-    python scrapers/mobilize.py \
-        --org-id 43350 \
-        --name "Indivisible SCI" \
-        --output events.ics
+        --url "https://www.mobilize.us/indivisiblesonomacounty/" \
+        --name "Indivisible Sonoma County" \
+        --output cities/santarosa/mobilize_indivisible_sonoma.ics
 """
 
 import sys
@@ -23,139 +19,182 @@ import argparse
 import json
 import logging
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Optional
 from urllib.request import urlopen, Request
-from zoneinfo import ZoneInfo
+from urllib.error import HTTPError, URLError
 
 from lib.base import BaseScraper
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-API_BASE = "https://api.mobilize.us/v1"
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+}
 
 
 class MobilizeScraper(BaseScraper):
-    """Scraper for Mobilize.us organization events."""
+    """Scraper for Mobilize.us organization pages via embedded JSON data."""
 
     domain = "mobilize.us"
 
-    def __init__(self, org_id: int, source_name: str, tz: str = "America/New_York"):
-        self.org_id = org_id
+    def __init__(self, page_url: str, source_name: str):
+        self.page_url = page_url.rstrip('/')  + '/'
         self.name = source_name
-        self.timezone = tz
         super().__init__()
 
-    def fetch_events(self) -> list[dict[str, Any]]:
-        """Fetch events from the Mobilize API."""
-        url = f"{API_BASE}/events?organization_id={self.org_id}&timeslot_start=gte_now&per_page=100"
-        self.logger.info(f"Fetching {url}")
+    def _fetch_page(self, url: str) -> Optional[str]:
+        """Fetch a URL and return HTML."""
+        req = Request(url, headers=HEADERS)
+        try:
+            with urlopen(req, timeout=30) as resp:
+                return resp.read().decode('utf-8')
+        except (HTTPError, URLError) as e:
+            self.logger.warning(f"Failed to fetch {url}: {e}")
+            return None
 
-        req = Request(url, headers={
-            'Accept': 'application/json',
-            'User-Agent': 'Mozilla/5.0 (compatible; community-calendar/1.0)',
-        })
-        with urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
+    def _extract_embedded_data(self, html: str) -> Optional[dict]:
+        """Extract window.__MLZ_EMBEDDED_DATA__ JSON from HTML."""
+        match = re.search(r'__MLZ_EMBEDDED_DATA__\s*=\s*', html)
+        if not match:
+            self.logger.error("Could not find __MLZ_EMBEDDED_DATA__ in page")
+            return None
+        # Brace-count to find the complete JSON object
+        start = match.end()
+        depth = 0
+        i = start
+        while i < len(html):
+            if html[i] == '{':
+                depth += 1
+            elif html[i] == '}':
+                depth -= 1
+                if depth == 0:
+                    break
+            i += 1
+        try:
+            return json.loads(html[start:i + 1])
+        except json.JSONDecodeError as e:
+            self.logger.error(f"Failed to parse embedded JSON: {e}")
+            return None
 
-        events = []
-        for e in data.get('data', []):
-            for parsed in self._parse_event(e):
-                events.append(parsed)
+    def _parse_event(self, item: dict) -> list[dict[str, Any]]:
+        """Parse a Mobilize event item into one or more event dicts (one per timeslot)."""
+        title = (item.get('name') or '').strip()
+        if not title:
+            return []
 
-        self.logger.info(f"Parsed {len(events)} event timeslots")
-        return events
-
-    def _parse_event(self, e: dict) -> list[dict[str, Any]]:
-        """Parse a Mobilize event into one event per timeslot."""
-        title = e.get('title', 'Untitled')
-        url = e.get('browser_url', '')
-        description = e.get('description', '')
-        image_url = e.get('featured_image_url', '')
-        tz_name = e.get('timezone', self.timezone)
-        tz = ZoneInfo(tz_name)
+        # Build description
+        description = item.get('description', '') or ''
+        # Clean HTML from description
+        description = re.sub(r'<[^>]+>', ' ', description).strip()
+        description = re.sub(r'\s+', ' ', description)
+        if description:
+            description = description[:500]
 
         # Location
-        loc = e.get('location') or {}
-        parts = []
-        if loc.get('venue'):
-            parts.append(loc['venue'])
-        for line in loc.get('address_lines', []):
-            if line:
-                parts.append(line)
-        if loc.get('locality'):
-            region = loc.get('region', '')
-            parts.append(f"{loc['locality']}, {region}" if region else loc['locality'])
-        location = ', '.join(parts)
+        location = item.get('location_one_line', '') or ''
+        if not location:
+            parts = [p for p in [
+                item.get('location_name', ''),
+                item.get('address_line1', ''),
+                item.get('city', ''),
+                item.get('state', ''),
+            ] if p]
+            location = ', '.join(parts)
+        if item.get('is_virtual'):
+            location = location or 'Virtual'
 
-        if e.get('is_virtual') and not location:
-            location = 'Virtual'
+        # Event URL: build from org slug + event id
+        event_id = item.get('id')
+        org = item.get('organization') or {}
+        org_slug = org.get('slug', '') if isinstance(org, dict) else ''
+        event_url = f"https://www.mobilize.us/{org_slug}/event/{event_id}/" if org_slug and event_id else ''
 
+        # Image
+        image_url = item.get('image_url', '')
+
+        # Each timeslot becomes a separate event
+        times = item.get('times') or []
+        now = datetime.now(timezone.utc)
         events = []
-        for ts in e.get('timeslots', []):
-            start_ts = ts.get('start_date')
-            end_ts = ts.get('end_date')
-            if not start_ts:
+
+        for slot in times:
+            start_str = slot.get('start', '')
+            end_str = slot.get('end', '')
+            if not start_str:
                 continue
 
-            dtstart = datetime.fromtimestamp(start_ts, tz=tz)
-            dtend = datetime.fromtimestamp(end_ts, tz=tz) if end_ts else None
+            try:
+                dtstart = datetime.fromisoformat(start_str.replace('Z', '+00:00'))
+            except ValueError:
+                continue
 
-            event = {
+            # Skip past events
+            if dtstart < now:
+                continue
+
+            dtend = None
+            if end_str:
+                try:
+                    dtend = datetime.fromisoformat(end_str.replace('Z', '+00:00'))
+                except ValueError:
+                    pass
+
+            events.append({
                 'title': title,
                 'dtstart': dtstart,
                 'dtend': dtend,
-                'url': url,
                 'location': location,
                 'description': description,
-                'uid': f"mobilize-{e['id']}-{ts['id']}@mobilize.us",
-            }
-            if image_url:
-                event['image_url'] = image_url
-            events.append(event)
+                'url': event_url,
+                'image_url': image_url if image_url else None,
+            })
 
         return events
 
+    def fetch_events(self) -> list[dict[str, Any]]:
+        """Fetch the organization page and extract all events."""
+        html = self._fetch_page(self.page_url)
+        if not html:
+            return []
 
-def resolve_org_id(slug: str) -> int:
-    """Look up a Mobilize organization's numeric ID from its slug."""
-    url = f"https://www.mobilize.us/{slug}/"
-    req = Request(url, headers={
-        'User-Agent': 'Mozilla/5.0 (compatible; community-calendar/1.0)',
-    })
-    with urlopen(req, timeout=30) as resp:
-        html = resp.read().decode('utf-8')
-    match = re.search(r'"organization":\s*\{"id":\s*(\d+)', html)
-    if not match:
-        raise ValueError(f"Could not find organization ID for slug '{slug}'")
-    return int(match.group(1))
+        data = self._extract_embedded_data(html)
+        if not data:
+            return []
+
+        # Navigate: top-level has data.events
+        events_list = []
+        raw_events = []
+        try:
+            raw_events = data['data']['events']
+        except (KeyError, TypeError):
+            self.logger.error(f"Unexpected data structure, top keys: {list(data.keys()) if isinstance(data, dict) else type(data)}")
+            return []
+
+        self.logger.info(f"Found {len(raw_events)} raw events in embedded data")
+
+        for item in raw_events:
+            if isinstance(item, dict):
+                events_list.extend(self._parse_event(item))
+
+        self.logger.info(f"Parsed {len(events_list)} future event timeslots")
+        return events_list
 
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape Mobilize.us organization events")
-    parser.add_argument('--org', help='Organization slug (e.g., indivisiblesouthcentralindiana)')
-    parser.add_argument('--org-id', type=int, help='Organization numeric ID')
-    parser.add_argument('--name', default='Mobilize', help='Source name')
+    parser.add_argument('--url', required=True, help='Mobilize.us organization page URL')
+    parser.add_argument('--name', required=True, help='Source name')
     parser.add_argument('--output', '-o', help='Output ICS file')
-    parser.add_argument('--timezone', default='America/New_York', help='Timezone')
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
 
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    if not args.org and not args.org_id:
-        print("Error: provide --org or --org-id", file=sys.stderr)
-        sys.exit(1)
-
-    org_id = args.org_id
-    if not org_id:
-        logger.info(f"Looking up org ID for slug '{args.org}'")
-        org_id = resolve_org_id(args.org)
-        logger.info(f"Found org ID: {org_id}")
-
-    scraper = MobilizeScraper(org_id=org_id, source_name=args.name, tz=args.timezone)
+    scraper = MobilizeScraper(page_url=args.url, source_name=args.name)
     scraper.run(args.output)
 
 

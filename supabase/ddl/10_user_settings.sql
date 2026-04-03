@@ -5,6 +5,10 @@ CREATE TABLE IF NOT EXISTS user_settings (
   user_id uuid REFERENCES auth.users(id) ON DELETE CASCADE NOT NULL,
   city text NOT NULL,
   hidden_sources text[] DEFAULT '{}',
+  one_click_pick boolean NOT NULL DEFAULT false,
+  layout_mode text DEFAULT 'list',
+  image_mode text DEFAULT 'everywhere',
+  dashboard jsonb DEFAULT NULL,
   created_at timestamptz DEFAULT now(),
   updated_at timestamptz DEFAULT now(),
   UNIQUE(user_id, city)
