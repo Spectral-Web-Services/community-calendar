@@ -46,7 +46,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **boston** (1): emerson_theatres
 
-**evanston** (10): beth_emet, evanston_history_center, first_presbyterian, first_united_methodist, forest_preserves, garrett_seminary, gichigamiin_museum, north_branch_restoration, northlight_theatre, wilmette_park_district
+**evanston** (10): beth_emet, evanston_history_center, first_presbyterian, forest_preserves, garrett_seminary, gichigamiin_museum, north_branch_restoration, north_shore_center, northlight_theatre, wilmette_park_district
 
 **jweekly** (7): jcc_east_bay, jccsf, jewish_fed, jweekly, magnes, marin_jcc, temple_beth_abraham
 
@@ -158,7 +158,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 
 | PRODID | City | Feeds |
 |--------|------|-------|
-| `-//104.20.35.35//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
+| `-//172.66.146.53//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |
@@ -173,7 +173,7 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//Teamup Solutions AG//Teamup Calendar//EN` | evanston | evanston_bike_club |
 | `-//Ticketmaster/Evanston Venues//ticketmaster.com//` | evanston | ticketmaster_evanston_venues |
 | `-//Ticketmaster/Evanston//ticketmaster.com//` | evanston | ticketmaster_evanston |
-| `-//Trumba Corporation//Trumba Calendar Services 0.11.25531//EN` | boston | tufts_tdps |
+| `-//Trumba Corporation//Trumba Calendar Services 0.11.25602//EN` | boston | tufts_tdps |
 | `-//University of Missouri//NONSGML v1.0//EN` | publisher-resources | rji |
 | `-//YWCA Evanston/North Shore//eventbrite.com//` | evanston | eb_ywca |
 | `X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN` | portland | calagator |

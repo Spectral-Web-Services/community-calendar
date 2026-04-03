@@ -4,18 +4,6 @@ PRODID:-//Ticketmaster/Evanston Venues//ticketmaster.com//
 X-WR-CALNAME:Ticketmaster/Evanston Venues
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-SUMMARY:SOLD OUT - Mei Semones w. John Roseboro welcomed by CHIRP Radio
-DTSTART;TZID=CDT;VALUE=DATE-TIME:20260401T200000
-DTEND;TZID=CDT;VALUE=DATE-TIME:20260401T200000
-UID:cdc2b469b799a7fd1253940854c8c3a9@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/3ec/5bdb7e18-919b-4
- 14a-9cfb-ca64940943ec_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
-URL:https://www.ticketweb.com/event/sold-out-mei-space-tickets/14674293
-X-SOURCE:Ticketmaster/Evanston Venues
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mali Obomsawin
 DTSTART;TZID=CDT;VALUE=DATE-TIME:20260402T193000
 DTEND;TZID=CDT;VALUE=DATE-TIME:20260402T193000
@@ -860,6 +848,20 @@ DESCRIPTION:
 LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
 URL:https://www.ticketweb.com/event/johnny-burgins-blues-summit-featuring-
  space-tickets/14178264
+X-SOURCE:Ticketmaster/Evanston Venues
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dave Specter's Adventures in Guitar with Mike Wheeler  ft. Rodrigo
+  Mantovani and Marty Binder
+DTSTART;TZID=CDT;VALUE=DATE-TIME:20260603T200000
+DTEND;TZID=CDT;VALUE=DATE-TIME:20260603T200000
+UID:c2a69632352a4a39c4107b856d0d6f31@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/c/7be/4e1e9428-29ec-4
+ 01f-aa45-f1577614b7be_105421_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:SPACE\, 1245 Chicago Avenue\, Evanston\, IL
+URL:https://www.ticketweb.com/event/dave-specters-adventures-in-guitar-spa
+ ce-tickets/14744053
 X-SOURCE:Ticketmaster/Evanston Venues
 END:VEVENT
 END:VCALENDAR

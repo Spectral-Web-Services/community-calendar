@@ -7,51 +7,6 @@ X-WR-CALNAME:Boston Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Ticketmaster Citizens Opera": "https://www.ticketmaster.com/the-outsiders-touring-boston-massachusetts-04-01-2026/event/01006348F966AD55"}
-X-SOURCE-ID:ticketmaster_citizens_opera
-SUMMARY:The Outsiders (Touring)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260401T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260401T190000
-UID:73dcdb16631cdb327b65ca9780113cca@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/ee9/68bffb18-e2ba-4
- 9c2-bb45-954639b05ee9_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Citizens Opera House\, 539 Washington Street\, Boston\, MA
-URL:https://www.ticketmaster.com/the-outsiders-touring-boston-massachusett
- s-04-01-2026/event/01006348F966AD55
-X-SOURCE:Citizens Opera House
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
-X-SOURCE-ID:lyric_stage
-SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
-DTSTART;VALUE=DATE-TIME:20260401T193000
-DTEND;VALUE=DATE-TIME:20260401T220000
-UID:2a34043af0bdf7cfa6701547a730c7b9@lyricstage.com
-ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
- 25/11/Untitled-design-21.png
-DESCRIPTION:
-LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
-URL:https://www.lyricstage.com/production/angry-raucous-and-shamelessly-go
- rgeous/
-X-SOURCE:Lyric Stage Company
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/night-of-the-living-dead/"}
-X-SOURCE-ID:boston_theatre_scene
-SUMMARY:Night of the Living Dead The Musical - Teen Edition
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260402T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260402T210000
-UID:f60bfd0e2d37d3e8586f630ddd6cf367@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 26/02/NOTLD-Plaza-Outside-Poster-2-scaled.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/night-of-the-livin
- g-dead/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/angry-raucous-and-shamelessly-gorgeous/"}
 X-SOURCE-ID:lyric_stage
 SUMMARY:Angry\, Raucous\, and Shamelessly Gorgeous
@@ -99,7 +54,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260403T000000
 DTEND;TZID=America/New_York:20260403T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221709
 CREATED:20260311T143554Z
 LAST-MODIFIED:20260316T171244Z
 UID:10000078-1775174400-1775260799@emersontheatres.org
@@ -257,7 +212,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260404T000000
 DTEND;TZID=America/New_York:20260404T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221709
 CREATED:20260311T163835Z
 LAST-MODIFIED:20260316T171338Z
 UID:10000079-1775260800-1775347199@emersontheatres.org
@@ -1157,7 +1112,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260416T000000
 DTEND;TZID=America/New_York:20260418T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221709
 CREATED:20250905T193939Z
 LAST-MODIFIED:20251031T143736Z
 UID:10000040-1776297600-1776556799@emersontheatres.org
@@ -1703,7 +1658,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260423T000000
 DTEND;TZID=America/New_York:20260423T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260311T164610Z
 LAST-MODIFIED:20260316T171657Z
 UID:10000080-1776902400-1776988799@emersontheatres.org
@@ -1858,7 +1813,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T000000
 DTEND;TZID=America/New_York:20260424T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260311T164834Z
 LAST-MODIFIED:20260316T171452Z
 UID:10000081-1776988800-1777075199@emersontheatres.org
@@ -1875,7 +1830,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:ArtsEmerson, Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T000000
 DTEND;TZID=America/New_York:20260503T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20250625T172022Z
 LAST-MODIFIED:20260311T174959Z
 UID:10000017-1776988800-1777852799@emersontheatres.org
@@ -1953,7 +1908,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260424T193000
 DTEND;TZID=America/New_York:20260424T223000
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260309T140000Z
 LAST-MODIFIED:20260316T173255Z
 UID:10000077-1777059000-1777069800@emersontheatres.org
@@ -3047,7 +3002,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260508T134500
 DTEND;TZID=America/New_York:20260508T174500
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260327T140000Z
 LAST-MODIFIED:20260326T144046Z
 UID:10000084-1778247900-1778262300@emersontheatres.org
@@ -3395,7 +3350,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260515T000000
 DTEND;TZID=America/New_York:20260515T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260311T171109Z
 LAST-MODIFIED:20260316T172043Z
 UID:10000082-1778803200-1778889599@emersontheatres.org
@@ -3411,7 +3366,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260515T190000
 DTEND;TZID=America/New_York:20260516T130000
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260220T155215Z
 LAST-MODIFIED:20260225T184533Z
 UID:10000066-1778871600-1778936400@emersontheatres.org
@@ -3482,7 +3437,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260516T000000
 DTEND;TZID=America/New_York:20260516T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260311T171558Z
 LAST-MODIFIED:20260316T172548Z
 UID:10000083-1778889600-1778975999@emersontheatres.org
@@ -3957,7 +3912,6 @@ URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
 X-SOURCE:Boston Theatre Scene
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Lyric Stage Company": "https://www.lyricstage.com/production/something-rotten/"}
 X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
 X-SOURCE-ID:lyric_stage
 SUMMARY:Something Rotten
@@ -4434,12 +4388,80 @@ URL:https://ticket.americanrepertorytheater.org/7226/7360
 X-SOURCE:American Repertory Theater
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/eureka-day/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Eureka Day
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260603T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260603T210000
+UID:e55e9fe8b92085d33da920bddc63615f@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Eureka.jpg?resize=3
+ 00%2C300&gravity
+DESCRIPTION:
+LOCATION:The Huntington Theatre\, 264 Huntington Ave.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/eureka-day/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Boston Theatre Scene": "https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/"}
+X-SOURCE-ID:boston_theatre_scene
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260603T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260603T210000
+UID:77f6b2869284fb6ca045cecdb000c74f@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Art": "https://americanrepertorytheater.org/shows-events/black-swan/"}
+X-SOURCE-ID:art
+SUMMARY:Black Swan
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260603T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260603T220000
+UID:4ceeeb7f951d7bfa952bece70ac44100@americanrepertorytheater.org
+DESCRIPTION:
+LOCATION:American Repertory Theater\, Cambridge\, MA
+URL:https://americanrepertorytheater.org/shows-events/black-swan/
+X-SOURCE:American Repertory Theater
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Lyric Stage": "https://www.lyricstage.com/production/something-rotten/"}
+X-SOURCE-ID:lyric_stage
+SUMMARY:Something Rotten
+DTSTART;VALUE=DATE-TIME:20260603T193000
+DTEND;VALUE=DATE-TIME:20260603T220000
+UID:c27374ccd8efe0635cccc26dbb978ddd@lyricstage.com
+ATTACH;FMTTYPE=image/jpeg:https://www.lyricstage.com/wp-content/uploads/20
+ 25/11/LSB_SC_SLIDERS1920X1080NEW.jpg
+DESCRIPTION:
+LOCATION:Lyric Stage Company\, 140 Clarendon St\, Boston\, MA
+URL:https://www.lyricstage.com/production/something-rotten/
+X-SOURCE:Lyric Stage Company
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Ovationtix Central Square": "https://ci.ovationtix.com/2462/production/1245599"}
+X-SOURCE-ID:ovationtix_central_square
+SUMMARY:The Mystery of Irma Vep
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260603T193000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260603T213000
+UID:935fffed4d910b216bb6a2298c586115@ovationtix.com
+DESCRIPTION:
+LOCATION:Central Square Theater
+URL:https://ci.ovationtix.com/2462/production/1245599
+X-SOURCE:Central Square Theater
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Emerson Theatres": "https://emersontheatres.org/event/the-screwtape-letters/"}
 X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260606T160000
 DTEND;TZID=America/New_York:20260606T173000
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20260211T155716Z
 LAST-MODIFIED:20260316T173124Z
 UID:10000061-1780761600-1780767000@emersontheatres.org
@@ -4455,7 +4477,7 @@ X-SOURCE-ID:emerson_theatres
 X-SOURCE:Emerson Theatres
 DTSTART;TZID=America/New_York:20260613T000000
 DTEND;TZID=America/New_York:20260628T235959
-DTSTAMP:20260401T222246
+DTSTAMP:20260327T221710
 CREATED:20250625T172022Z
 LAST-MODIFIED:20260105T191706Z
 UID:10000016-1781308800-1782691199@emersontheatres.org

@@ -4,20 +4,6 @@ PRODID:-//Portland Public Meetings//portland.gov//
 X-WR-CALNAME:Portland Public Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Portland Freight Advisory Committee (PFC) - April Meeting
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260402T083000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260402T083000
-UID:44bbce935475ce13bcf2a970888a6b44@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2022/pfc-logo-red-wide3.jpg?itok=j79phlMp
-DESCRIPTION:The Portland Freight Advisory Committee (PFC) serves as an adv
- isory group to the Bureau of Transportation and City Council on issues rel
- ated to freight mobility.
-URL:https://www.portland.gov/transportation/freight-committee/events/2026/
- 4/2/portland-freight-advisory-committee-pfc-april
-X-SOURCE:Portland Public Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sustainability and Climate Commission - Policy and Implementation 
  Committee meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260407T130000
@@ -123,9 +109,8 @@ SUMMARY:Planning Commission Meeting - April 14\, 2026
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260414T123000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260414T123000
 UID:d0d66bb25fd93d0348e74cbcc8ca46c8@portland.gov
-DESCRIPTION:Tentative agenda includes the Economic Opportunities Analysis 
- and the Columbia Corridor and Industrial Lands Environmental Overlay Zone 
- Project.
+DESCRIPTION:Agenda includes the Columbia Corridor and Industrial Lands Env
+ ironmental Overlay Zone Project and the Economic Opportunities Analysis.
 LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
   Get directions More information about this room
 URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
@@ -229,6 +214,18 @@ DESCRIPTION:The Development Review Advisory Committee (DRAC) is an advisor
  m 8 to 10 a.m.
 URL:https://www.portland.gov/ppd/drac/events/2026/4/16/development-review-
  advisory-committee-drac
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RFS Technical Advisory Committee Meeting - April 16\, 2026
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260416T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260416T100000
+UID:32a75e270b5882a9cc9daa78b4ded9a5@portland.gov
+DESCRIPTION:This advisory board advises on technical and economic issues r
+ elated to the renewable fuel supply as well as meeting fuel requirements. 
+ It meets quarterly\, or as needed\, through 2030.
+URL:https://www.portland.gov/bps/climate-action/renewable-fuel-standard/rf
+ s-tac/events/2026/4/16/rfs-technical-advisory
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -528,6 +525,17 @@ UID:6558a51ce2be10cd99af3b2bc1ce09f8@portland.gov
 DESCRIPTION:Portland Utility Board Meeting
 URL:https://www.portland.gov/pub/events/2026/6/2/portland-utility-board-me
  eting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:June Portland Elections Commission
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260603T180000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260603T180000
+UID:88e153a9bd1bae1f7c21ca3cff3639c9@portland.gov
+DESCRIPTION:This is the monthly meeting of the Portland Elections Commissi
+ on.
+URL:https://www.portland.gov/smalldonorelections/events/2026/6/3/june-port
+ land-elections-commission
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 END:VCALENDAR

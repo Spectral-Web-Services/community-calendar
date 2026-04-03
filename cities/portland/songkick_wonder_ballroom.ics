@@ -4,18 +4,6 @@ PRODID:-//Wonder Ballroom//songkick.com//
 X-WR-CALNAME:Wonder Ballroom
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Mind Enterprises
-DTSTART;VALUE=DATE-TIME:20260402T200000
-DTEND;VALUE=DATE-TIME:20260402T200000
-UID:f9d7633620d2a0519615112b7175cabd@songkick.com
-DESCRIPTION:Mind Enterprises at Wonder Ballroom at 2026-04-02T20:00:00-070
- 0
-LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
-URL:http://www.songkick.com/concerts/42793074-mind-enterprises-at-wonder-b
- allroom?utm_medium=organic&utm_source=microformat
-X-SOURCE:Wonder Ballroom
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Holywatr\, Greyhaven
 DTSTART;VALUE=DATE-TIME:20260403T200000
 DTEND;VALUE=DATE-TIME:20260403T200000
@@ -46,6 +34,17 @@ DESCRIPTION:Lexa Gates at Wonder Ballroom at 2026-04-07T20:00:00-0700
 LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
 URL:http://www.songkick.com/concerts/43021103-lexa-gates-at-wonder-ballroo
  m?utm_medium=organic&utm_source=microformat
+X-SOURCE:Wonder Ballroom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fcukers\, SEX WEEK
+DTSTART;VALUE=DATE-TIME:20260410T200000
+DTEND;VALUE=DATE-TIME:20260410T200000
+UID:07d406f8b797b3666b59a2d58af08329@songkick.com
+DESCRIPTION:Fcukers at Wonder Ballroom at 2026-04-10T20:00:00-0700
+LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
+URL:http://www.songkick.com/concerts/42984860-fcukers-at-wonder-ballroom?u
+ tm_medium=organic&utm_source=microformat
 X-SOURCE:Wonder Ballroom
 END:VEVENT
 END:VCALENDAR

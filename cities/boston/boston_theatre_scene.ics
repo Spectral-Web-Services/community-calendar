@@ -5,19 +5,6 @@ X-WR-CALNAME:Boston Theatre Scene
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:Night of the Living Dead The Musical - Teen Edition
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260402T190000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260402T210000
-UID:f60bfd0e2d37d3e8586f630ddd6cf367@bostontheatrescene.com
-ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
- 26/02/NOTLD-Plaza-Outside-Poster-2-scaled.png?resize=300%2C300&gravity
-DESCRIPTION:
-LOCATION:BCA Plaza Theatre\, 539 Tremont St.\, Boston\, MA
-URL:https://www.bostontheatrescene.com/shows-and-events/night-of-the-livin
- g-dead/
-X-SOURCE:Boston Theatre Scene
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Night of the Living Dead The Musical - Teen Edition
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260403T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260403T210000
 UID:be367285e10d7ca3563579b40a0df011@bostontheatrescene.com
@@ -1420,6 +1407,32 @@ SUMMARY:Oedipus el Rey
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260602T190000
 DTEND;TZID=EDT;VALUE=DATE-TIME:20260602T210000
 UID:6d074700aa0420fa99aa10c14dbe8cb8@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
+ 300%2C300&gravity
+DESCRIPTION:
+LOCATION:The Roberts Studio Theatre\, 527 Tremont St.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/oedipus-el-rey/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eureka Day
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260603T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260603T210000
+UID:e55e9fe8b92085d33da920bddc63615f@bostontheatrescene.com
+ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
+ 25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Eureka.jpg?resize=3
+ 00%2C300&gravity
+DESCRIPTION:
+LOCATION:The Huntington Theatre\, 264 Huntington Ave.\, Boston\, MA
+URL:https://www.bostontheatrescene.com/shows-and-events/eureka-day/
+X-SOURCE:Boston Theatre Scene
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oedipus el Rey
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260603T190000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260603T210000
+UID:77f6b2869284fb6ca045cecdb000c74f@bostontheatrescene.com
 ATTACH;FMTTYPE=image/jpeg:https://images.bostontheatrescene.com/uploads/20
  25/07/25-26-Season-Announce-GFX-Showart-with-accolades_Oedipus.jpg?resize=
  300%2C300&gravity

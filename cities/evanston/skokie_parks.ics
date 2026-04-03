@@ -5,38 +5,6 @@ X-WR-CALNAME:Skokie Park District
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Fairy Hunt
-DTSTART;VALUE=DATE-TIME:20260402T080000
-DTEND;VALUE=DATE-TIME:20260402T080000
-UID:5f9921bf98468422f53abaf01bea7cc5@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/fairy-hunt26/?F_d=04-02-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Spring Break Camps at Emily Oaks
-DTSTART;VALUE=DATE-TIME:20260402T090000
-DTEND;VALUE=DATE-TIME:20260402T090000
-UID:02ae881a3e926d7f5ed1fc9d448c28e1@skokieparks.org
-DESCRIPTION:
-LOCATION:Emily Oaks Nature Center
-URL:https://www.skokieparks.org/events/spring-break-camps-at-emily-oaks/?F
- _d=04-02-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Exploritorium Spring Break Hours
-DTSTART;VALUE=DATE-TIME:20260402T090000
-DTEND;VALUE=DATE-TIME:20260402T090000
-UID:d0006d47d71e782cc396da035c55bc0e@skokieparks.org
-DESCRIPTION:
-LOCATION:Exploritorium
-URL:https://www.skokieparks.org/events/exploritorium-spring-break-hours/26
- /?F_d=04-02-2026
-X-SOURCE:Skokie Park District
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fairy Hunt
 DTSTART;VALUE=DATE-TIME:20260403T080000
 DTEND;VALUE=DATE-TIME:20260403T080000
 UID:e66bb602e1f6dd40f7988c3a834fcf38@skokieparks.org
@@ -1239,6 +1207,17 @@ UID:5b504f53473035ecd6cf43af54c2b97c@skokieparks.org
 DESCRIPTION:
 LOCATION:Emily Oaks Nature Center
 URL:https://www.skokieparks.org/events/boats-and-beats-/
+X-SOURCE:Skokie Park District
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:History of Old Orchard Walking Tour
+DTSTART;VALUE=DATE-TIME:20260603T100000
+DTEND;VALUE=DATE-TIME:20260603T100000
+UID:880afa0f3a8c9e37a04bf1a7e01f15d3@skokieparks.org
+DESCRIPTION:
+LOCATION:Skokie Heritage Museum
+URL:https://www.skokieparks.org/events/history-of-old-orchard-walking-tour
+ 4/
 X-SOURCE:Skokie Park District
 END:VEVENT
 END:VCALENDAR

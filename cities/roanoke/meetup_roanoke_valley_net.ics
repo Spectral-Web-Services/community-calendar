@@ -25,24 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313580095@meetup.com
-SEQUENCE:1
-DTSTAMP:20260402T020105Z
-DTSTART;TZID=America/New_York:20260402T180000
-DTEND;TZID=America/New_York:20260402T200000
-SUMMARY:In Person-Salem: presentation by Cameron Presley
-DESCRIPTION:Roanoke Valley .NET User Group (RVNUG)\nPreventing Bugs with Better Types - An Intro to Type Driven Design by Cameron Presley\n\nHave you ever shipped a logic error to production? What about writing code that allowed you to do something that violated business rules? Wouldn't it have been nice if the code itself prevented you from doing the wrong thing?\nBy leveraging key concepts from Functional Programming\, I'll show you how you can design your business domain such that your code can't get into a bad state (or at the very least\, without jumping through some hoops).\n\nIntended for those with C# or TypeScript\, I'll demonstrate concepts like sum types/product types for better data modeling and design patterns like Option/Result to handle when things can go wrong while we build out the game of Blackjack.\n\nPizza and soft drinks will be provided.
-URL;VALUE=URI:https://www.meetup.com/roanoke-valley-net-user-group/events/313580095/
-STATUS:CONFIRMED
-CREATED:20260301T003244Z
-LAST-MODIFIED:20260301T003244Z
-CLASS:PUBLIC
-ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/1/c/1/a/600_487927194.jpeg
-END:VEVENT
-BEGIN:VEVENT
 UID:event_314032115@meetup.com
 SEQUENCE:1
-DTSTAMP:20260402T020105Z
+DTSTAMP:20260403T020259Z
 DTSTART;TZID=America/New_York:20260425T100000
 DTEND;TZID=America/New_York:20260425T130000
 SUMMARY:In Person: Code and Coffee on April 25th from 10am-1pm ET
@@ -57,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313580154@meetup.com
 SEQUENCE:1
-DTSTAMP:20260402T020105Z
+DTSTAMP:20260403T020259Z
 DTSTART;TZID=America/New_York:20260507T180000
 DTEND;TZID=America/New_York:20260507T200000
 SUMMARY:Online: The 1-Person DevOps Stack presentation by Lionel Sapp
