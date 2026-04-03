@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Evanston History Center - ECPv6.15.17.1//NONSGML v1.0//EN
+PRODID:-//Evanston History Center - ECPv6.15.18//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Evanston History Center
@@ -49,12 +49,12 @@ DTSTART:20271107T070000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260318T130000
-DTEND;TZID=America/Chicago:20260318T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260402T130000
+DTEND;TZID=America/Chicago:20260402T160000
+DTSTAMP:20260402T210604
 CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10013770-1773838800-1773849600@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T200345Z
+UID:10012831-1775134800-1775145600@evanstonhistorycenter.org
 SUMMARY:Research Room Open
 DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
 <p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
@@ -84,59 +84,18 @@ Saturday: 1- 4 p.m.</p>
 </div>
 </div>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-18/
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-02/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Research Room
 ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260319T130000
-DTEND;TZID=America/Chicago:20260319T160000
-DTSTAMP:20260318T210354
-CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10012823-1773925200-1773936000@evanstonhistorycenter.org
-SUMMARY:Research Room Open
-DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
-<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
-<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
-<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
-<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
-Saturday: 1- 4 p.m.</p>
-<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
-<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
-<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
-<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
-<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data">
-<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
-
-</div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-19/
-LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
-CATEGORIES:Research Room
-ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260319T130000
-DTEND;TZID=America/Chicago:20260319T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260402T130000
+DTEND;TZID=America/Chicago:20260402T160000
+DTSTAMP:20260402T210604
 CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10011984-1773925200-1773936000@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T143438Z
+UID:10011990-1775134800-1775145600@evanstonhistorycenter.org
 SUMMARY:House Tours
 DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
 <p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
@@ -176,65 +135,28 @@ DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vic
 </div>
 <p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-19/
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-02/
 CATEGORIES:House Tours
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260320T130000
-DTEND;TZID=America/Chicago:20260320T160000
-DTSTAMP:20260318T210354
-CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10014887-1774011600-1774022400@evanstonhistorycenter.org
-SUMMARY:House Tours
-DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
-<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
-<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
-<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
-<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data"></div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
-<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
-<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
-<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
-<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data">
-<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
-
-</div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
-<p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-20/
-CATEGORIES:House Tours
+DTSTART;TZID=America/Chicago:20260403T080000
+DTEND;TZID=America/Chicago:20260403T170000
+DTSTAMP:20260402T210604
+CREATED:20250624T180440Z
+LAST-MODIFIED:20260331T164318Z
+UID:10015765-1775203200-1775235600@evanstonhistorycenter.org
+SUMMARY:CLOSED for House Tours Today
+DESCRIPTION:The Charles Gates Dawes House is closed for tours today. We apologize for any inconvenience.
+URL:https://evanstonhistorycenter.org/event/closed-for-house-tours-today/2026-04-03/
+CATEGORIES:Private Events and Closures
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260321T130000
-DTEND;TZID=America/Chicago:20260321T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260404T130000
+DTEND;TZID=America/Chicago:20260404T160000
+DTSTAMP:20260402T210604
 CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10012825-1774098000-1774108800@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T200345Z
+UID:10012833-1775307600-1775318400@evanstonhistorycenter.org
 SUMMARY:Research Room Open
 DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
 <p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
@@ -264,18 +186,18 @@ Saturday: 1- 4 p.m.</p>
 </div>
 </div>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-21/
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-04/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Research Room
 ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260321T130000
-DTEND;TZID=America/Chicago:20260321T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260404T130000
+DTEND;TZID=America/Chicago:20260404T160000
+DTSTAMP:20260402T210604
 CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10014888-1774098000-1774108800@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T143438Z
+UID:10014892-1775307600-1775318400@evanstonhistorycenter.org
 SUMMARY:House Tours
 DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
 <p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
@@ -315,65 +237,28 @@ DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vic
 </div>
 <p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-21/
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-04/
 CATEGORIES:House Tours
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260322T130000
-DTEND;TZID=America/Chicago:20260322T160000
-DTSTAMP:20260318T210354
-CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10011986-1774184400-1774195200@evanstonhistorycenter.org
-SUMMARY:House Tours
-DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
-<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
-<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
-<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
-<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data"></div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
-<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
-<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
-<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
-<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data">
-<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
-
-</div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
-<p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-22/
-CATEGORIES:House Tours
+DTSTART;TZID=America/Chicago:20260405T080000
+DTEND;TZID=America/Chicago:20260405T170000
+DTSTAMP:20260402T210604
+CREATED:20250624T180440Z
+LAST-MODIFIED:20260331T164318Z
+UID:10015766-1775376000-1775408400@evanstonhistorycenter.org
+SUMMARY:CLOSED for House Tours Today
+DESCRIPTION:The Charles Gates Dawes House is closed for tours today. We apologize for any inconvenience.
+URL:https://evanstonhistorycenter.org/event/closed-for-house-tours-today/2026-04-05/
+CATEGORIES:Private Events and Closures
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260324T130000
-DTEND;TZID=America/Chicago:20260324T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260407T130000
+DTEND;TZID=America/Chicago:20260407T160000
+DTSTAMP:20260402T210604
 CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10013771-1774357200-1774368000@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T200345Z
+UID:10013775-1775566800-1775577600@evanstonhistorycenter.org
 SUMMARY:Research Room Open
 DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
 <p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
@@ -403,22 +288,384 @@ Saturday: 1- 4 p.m.</p>
 </div>
 </div>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-24/
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-07/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Research Room
 ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260324T183000
-DTEND;TZID=America/Chicago:20260324T193000
-DTSTAMP:20260318T210354
-CREATED:20260127T212200Z
-LAST-MODIFIED:20260225T185435Z
-UID:10015656-1774377000-1774380600@evanstonhistorycenter.org
-SUMMARY:Talks@EHC: Blanche Gildin: The Bauhaus in Chicago and the Foundations of an Artistic Practice
-DESCRIPTION:<strong><b>Blanche Gildin: The Bauhaus in Chicago and the Foundations of an Artistic Practice</b></strong>
+DTSTART;TZID=America/Chicago:20260408T120000
+DTEND;TZID=America/Chicago:20260408T130000
+DTSTAMP:20260402T210604
+CREATED:20260226T173543Z
+LAST-MODIFIED:20260325T203354Z
+UID:10015732-1775649600-1775653200@evanstonhistorycenter.org
+SUMMARY:Monthy Lunchtime Curiosity Cafe
+DESCRIPTION:<strong>Curiosity Cafe</strong>
 
-<strong>Tuesday, March 24, 6:30 PM</strong>
+<strong>Second Wednesday of the month from 12-1pm</strong>
+
+<strong>at the Evanston History Center, 225 Greenwood St.</strong>
+
+<strong>FREE, no RSVP needed.</strong>
+
+Come to the Dawes House for coffee, lunch, and informal conversation around a variety of unique Evanston History topics. Feel free to bring a brown bag lunch; coffee and tea will be provided.
+
+<strong>Upcoming topics:</strong>
+
+<strong>March 11: Evanston Women and the Fragile Nature of Legal Victories</strong> with Lori Osborne, former director of the Evanston Women's History Project
+
+<strong>April 8: Draining Evanston Part II</strong>:<strong> 21st Century</strong> with Dick Lanyon, former Executive Director of the Metropolitan Water Reclamation District of Greater Chicago
+
+<strong>May 13: YMCA Camp Echo Through the Decades</strong> with Katie Trippi
+
+<strong>June 10: TBD!</strong>
+
+<strong>July 8: Disability Advocacy in Evanston</strong> with Shore Services
+
+<strong>August 12: The History of Recreational Sailing on the Great Lakes</strong> with Madeline Crispell, Curator at the Chicago Maritime Museum
+
+&nbsp;
+
+<strong>PLEASE NOTE: There is street cleaning on the north side of Greenwood St on these Wednesdays until 1pm. Please park on the south side of Greenwood to avoid getting a ticket, if you drive here.</strong>
+
+&nbsp;
+URL:https://evanstonhistorycenter.org/event/monthy-lunchtime-curiosity-cafe/2026-04-08/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Upcoming Events
+ATTACH;FMTTYPE=image/png:https://evanstonhistorycenter.org/wp-content/uploads/2026/02/Cafes2026-4.png
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260408T130000
+DTEND;TZID=America/Chicago:20260408T160000
+DTSTAMP:20260402T210604
+CREATED:20250409T031834Z
+LAST-MODIFIED:20260331T200345Z
+UID:10013776-1775653200-1775664000@evanstonhistorycenter.org
+SUMMARY:Research Room Open
+DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
+<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
+<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
+<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
+Saturday: 1- 4 p.m.</p>
+<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-08/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Research Room
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260409T130000
+DTEND;TZID=America/Chicago:20260409T160000
+DTSTAMP:20260402T210604
+CREATED:20250409T031834Z
+LAST-MODIFIED:20260331T200345Z
+UID:10012835-1775739600-1775750400@evanstonhistorycenter.org
+SUMMARY:Research Room Open
+DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
+<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
+<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
+<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
+Saturday: 1- 4 p.m.</p>
+<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-09/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Research Room
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260409T130000
+DTEND;TZID=America/Chicago:20260409T160000
+DTSTAMP:20260402T210604
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10011993-1775739600-1775750400@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-09/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260410T130000
+DTEND;TZID=America/Chicago:20260410T160000
+DTSTAMP:20260402T210604
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10014893-1775826000-1775836800@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-10/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260411T130000
+DTEND;TZID=America/Chicago:20260411T160000
+DTSTAMP:20260402T210605
+CREATED:20250409T031834Z
+LAST-MODIFIED:20260331T200345Z
+UID:10012837-1775912400-1775923200@evanstonhistorycenter.org
+SUMMARY:Research Room Open
+DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
+<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
+<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
+<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
+Saturday: 1- 4 p.m.</p>
+<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-11/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Research Room
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260411T130000
+DTEND;TZID=America/Chicago:20260411T160000
+DTSTAMP:20260402T210605
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10014894-1775912400-1775923200@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-11/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260412T130000
+DTEND;TZID=America/Chicago:20260412T160000
+DTSTAMP:20260402T210605
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10011995-1775998800-1776009600@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-12/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260412T163000
+DTEND;TZID=America/Chicago:20260412T180000
+DTSTAMP:20260402T210605
+CREATED:20260225T193452Z
+LAST-MODIFIED:20260225T215619Z
+UID:10015721-1776011400-1776016800@evanstonhistorycenter.org
+SUMMARY:Talks@EHC Writing & Re-writing Home: Evanston in Memoir
+DESCRIPTION:<strong>Writing &amp; Re-writing Home: Evanston in Memoir</strong>
+
+<strong>Sunday, April 12, 4:30 PM</strong>
 
 <strong><span class="OYPEnA text-decoration-none text-strikethrough-none">Free &amp; Open to all. Sc</span></strong><strong style="background-color: var(--wpex-surface-1); font-family: var(--wpex-body-font-family, var(--wpex-font-sans));"><span class="OYPEnA text-decoration-none text-strikethrough-none">roll down to RSVP</span></strong>
 
@@ -426,11 +673,27 @@ DESCRIPTION:<strong><b>Blanche Gildin: The Bauhaus in Chicago and the Foundation
 At the Evanston History Center
 225 Greenwood Evanston, IL</span>
 
-Evanston-based artist Blanche Gildin (1928–2024) studied at Chicago’s Institute of Design for just two years, from 1947 to 1949. What she carried from that experience, however, shaped her artistic practice across more than seven decades. Gildin’s career unfolded largely outside the spotlight of museums and markets. Like many women artists of her generation, she worked in private- often in or near her home in southeast Evanston- and alternative spaces, guided less by recognition than by curiosity and discipline. Her art offers a powerful reminder that the influence of an educational institution is not measured only by its famous names or iconic moments, but by the quiet, persistent practices it sets in motion. The talk by Dr. Lara Allison will be followed by a discussion with Bonny Gildin, the artist's daughter, and Jack Weiss of Design Evanston, who also studied at the Institute of Design.
+How do we remember our own past? How do we use language to explore our own relationship to places that are important to us? Join Evanston writers Joanne Jacobson and Ann Hudson for a discussion of how Jacobson’s trilogy of memoirs recall Evanston landmarks like the B&amp;G diner, the Evanshire Pharmacy, and Lee Street Beach: their cheeseburgers and cherry Cokes, perfume samplers and roasted nuts, their textures of sand and sun. And we’ll explore how remembering and writing about Evanston—or any home—evolves and changes over one writer’s lifetime: how “memory” itself is written and re-written.
 
-<b style="font-size: 22px;">About Dr. Lara Allison</b>
+<em>Part of Home: Evanston, an exploration of what it means to make a home, and feel at home, in Evanston.</em>
 
-<b><img class="wp-image-15680 alignleft" src="https://evanstonhistorycenter.org/wp-content/uploads/2026/01/Lara-Allison-Head-Shot-Cropped-300x225.jpeg" alt="" width="188" height="141" /></b>Dr. Lara Allison teaches design history at the School of the Art Institute of Chicago. Her research examines Chicago design <b><span style="font-weight: 200;">culture, mid-twentieth-century corporate design, and the influence of </span><span style="font-weight: 200;">the Bauhaus on academic, cultural, and corporate institutions in the United States during the </span><span style="font-weight: 200;">interwar and post–World War II periods. She serves as Education Chair on the Board of the </span><span style="font-weight: 200;">Chicago Design Archive and is editor of Chicago Art Deco Magazine. She was a contributing </span><span style="font-weight: 200;">author and a member of the editorial advisory team for Art Deco Chicago: Designing Modern </span><span style="font-weight: 200;">America (Yale University Press/CADS, 2018). Lara recently wrote a book on the artist, <i>Blanche Gildin: Back to the Bauhaus, the Foundations of a Practice </i>(published by Design Evanston with support from the City of Evanston). The book was designed by Jack Weiss.</span></b>
+<b style="font-size: 22px;">About Joanne Jacobson</b>
+
+<b><span style="font-weight: 200;"><img class=" wp-image-15893 alignleft" src="https://evanstonhistorycenter.org/wp-content/uploads/2026/02/Joanne-JACOBSON-author-headshot-8.24.25jpeg-copy-300x274.jpeg" alt="" width="178" height="163" /></span></b>
+
+After nearly fifty years in Iowa, France, Vermont and New York City, and deep into the global pandemic, Joanne Jacobson returned to southeast Evanston—the neighborhood where she grew up. Jacobson has published three memoirs set in Evanston: <em>Hunger Artist: A Suburban Childhood</em> (2007); <em>Every Last Breath: A Memoir of Two Illnesses</em> (2020); and <em>In the Photic Zone</em> (2026). She has taught courses in American literature and culture and in nonfiction writing at the University of Iowa, the University of Angers, Middlebury College, and Yeshiva University. Since retiring and returning home in 2021, she has taught courses on writing about the body in the medical humanities programs at Northwestern and University of Illinois-Chicago.
+
+<strong>About Ann Hudson</strong>
+
+<img class="wp-image-15892 alignleft" src="https://evanstonhistorycenter.org/wp-content/uploads/2026/02/Ann-Hudson-2-300x278.jpg" alt="" width="169" height="156" />
+
+Ann Hudson is the author of three poetry collections, most recently <em>Subtraction Isn’t Always Less</em> (Next Page Press, 2024). She has received residencies from Virginia Center for the Creative Arts and the Midwest Writing Center, and was the finalist for a Dorothy Sargent Rosenberg poetry prize. Ann is a senior editor for the poetry journal Rhino and a teaching artist and Director of Education for <a href="https://www.hivebookarts.org/">Hive Center for the Book Arts</a> in Evanston, Illinois.
+
+<strong>Partner Event: </strong><strong>Writing About Home: A Writing Workshop</strong>
+<p style="font-weight: 400;"><strong>Sunday April 19 1-2pm </strong><strong>At Hive Center for the Book Arts, 840 Custer Ave., Evanston</strong></p>
+How can we use language to find our way back to places we consider “home”? Join Evanston writer Joanne Jacobson to learn about how we can start putting our own stories to paper. All experience levels welcome and encouraged. $5 off the $25 workshop cost for anyone who attends the April 12 event. Use promo code: EHC when registering. <a href="https://www.eventbrite.com/e/writing-about-home-a-writing-workshop-tickets-1983988074739?aff=oddtdtcreator&amp;keep_tld=true">Info and register here.</a>
+
+<img class="alignnone size-medium wp-image-15901" src="https://evanstonhistorycenter.org/wp-content/uploads/2026/02/HIVE_Launch_Big-300x73.jpg" alt="" width="300" height="73" />
 
 *This in-person event will also be available on Facebook Live for those who cannot attend in person.
 
@@ -441,20 +704,18 @@ Evanston-based artist Blanche Gildin (1928–2024) studied at Chicago’s Instit
 Please click the blue "Going" button below to RSVP. A confirmation email will be sent to the email you registered with.
 
 If you don't receive a confirmation email, please email Erin Hughes at <a href="mailto:ehughes@evanstonhistorycenter.org">ehughes@evanstonhistorycenter.org</a>.
-
-&nbsp;
-URL:https://evanstonhistorycenter.org/event/talksehc-blanche-gildin-the-bauhaus-in-chicago-and-the-foundations-of-an-artistic-practice/
+URL:https://evanstonhistorycenter.org/event/talksehc-writing-re-writing-home-evanston-in-memoir/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Talks@EHC,Upcoming Events
-ATTACH;FMTTYPE=image/png:https://evanstonhistorycenter.org/wp-content/uploads/2026/01/Gilden3.24Simple.png
+ATTACH;FMTTYPE=image/png:https://evanstonhistorycenter.org/wp-content/uploads/2026/02/WritingSimple.png
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260325T130000
-DTEND;TZID=America/Chicago:20260325T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260414T130000
+DTEND;TZID=America/Chicago:20260414T160000
+DTSTAMP:20260402T210605
 CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10013772-1774443600-1774454400@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T200345Z
+UID:10013777-1776171600-1776182400@evanstonhistorycenter.org
 SUMMARY:Research Room Open
 DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
 <p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
@@ -484,18 +745,18 @@ Saturday: 1- 4 p.m.</p>
 </div>
 </div>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-25/
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-14/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Research Room
 ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260326T130000
-DTEND;TZID=America/Chicago:20260326T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260415T130000
+DTEND;TZID=America/Chicago:20260415T160000
+DTSTAMP:20260402T210605
 CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10012827-1774530000-1774540800@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T200345Z
+UID:10013778-1776258000-1776268800@evanstonhistorycenter.org
 SUMMARY:Research Room Open
 DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
 <p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
@@ -525,116 +786,18 @@ Saturday: 1- 4 p.m.</p>
 </div>
 </div>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-26/
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-15/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Research Room
 ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260326T130000
-DTEND;TZID=America/Chicago:20260326T160000
-DTSTAMP:20260318T210354
-CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10011987-1774530000-1774540800@evanstonhistorycenter.org
-SUMMARY:House Tours
-DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
-<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
-<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
-<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
-<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data"></div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
-<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
-<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
-<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
-<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data">
-<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
-
-</div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
-<p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-26/
-CATEGORIES:House Tours
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260327T130000
-DTEND;TZID=America/Chicago:20260327T160000
-DTSTAMP:20260318T210354
-CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10014889-1774616400-1774627200@evanstonhistorycenter.org
-SUMMARY:House Tours
-DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
-<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
-<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
-<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
-<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data"></div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
-<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
-<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
-<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
-<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
-
-<div class="top-hours-area">
-<div class="column">
-<div class="col-body">
-<div class="col-hour-data">
-<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
-<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
-<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
-
-</div>
-</div>
-</div>
-</div>
-<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
-<p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-27/
-CATEGORIES:House Tours
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260328T130000
-DTEND;TZID=America/Chicago:20260328T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260416T130000
+DTEND;TZID=America/Chicago:20260416T160000
+DTSTAMP:20260402T210605
 CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10012829-1774702800-1774713600@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T200345Z
+UID:10012839-1776344400-1776355200@evanstonhistorycenter.org
 SUMMARY:Research Room Open
 DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
 <p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
@@ -664,18 +827,18 @@ Saturday: 1- 4 p.m.</p>
 </div>
 </div>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-28/
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-16/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Research Room
 ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260328T130000
-DTEND;TZID=America/Chicago:20260328T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260416T130000
+DTEND;TZID=America/Chicago:20260416T160000
+DTSTAMP:20260402T210605
 CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10014890-1774702800-1774713600@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T143438Z
+UID:10011996-1776344400-1776355200@evanstonhistorycenter.org
 SUMMARY:House Tours
 DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
 <p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
@@ -715,16 +878,16 @@ DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vic
 </div>
 <p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-28/
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-16/
 CATEGORIES:House Tours
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260329T130000
-DTEND;TZID=America/Chicago:20260329T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260417T130000
+DTEND;TZID=America/Chicago:20260417T160000
+DTSTAMP:20260402T210605
 CREATED:20250624T175237Z
-LAST-MODIFIED:20260219T202930Z
-UID:10011989-1774789200-1774800000@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T143438Z
+UID:10014895-1776430800-1776441600@evanstonhistorycenter.org
 SUMMARY:House Tours
 DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
 <p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
@@ -764,16 +927,16 @@ DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vic
 </div>
 <p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-03-29/
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-17/
 CATEGORIES:House Tours
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260331T130000
-DTEND;TZID=America/Chicago:20260331T160000
-DTSTAMP:20260318T210354
+DTSTART;TZID=America/Chicago:20260418T130000
+DTEND;TZID=America/Chicago:20260418T160000
+DTSTAMP:20260402T210605
 CREATED:20250409T031834Z
-LAST-MODIFIED:20260225T155940Z
-UID:10013773-1774962000-1774972800@evanstonhistorycenter.org
+LAST-MODIFIED:20260331T200345Z
+UID:10012841-1776517200-1776528000@evanstonhistorycenter.org
 SUMMARY:Research Room Open
 DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
 <p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
@@ -803,7 +966,367 @@ Saturday: 1- 4 p.m.</p>
 </div>
 </div>
 <p style="text-align: center;"></p>
-URL:https://evanstonhistorycenter.org/event/research-room-open/2026-03-31/
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-18/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Research Room
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260418T130000
+DTEND;TZID=America/Chicago:20260418T160000
+DTSTAMP:20260402T210605
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10014896-1776517200-1776528000@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-18/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260419T130000
+DTEND;TZID=America/Chicago:20260419T160000
+DTSTAMP:20260402T210605
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10011998-1776603600-1776614400@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-19/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260421T130000
+DTEND;TZID=America/Chicago:20260421T160000
+DTSTAMP:20260402T210605
+CREATED:20250409T031834Z
+LAST-MODIFIED:20260331T200345Z
+UID:10013779-1776776400-1776787200@evanstonhistorycenter.org
+SUMMARY:Research Room Open
+DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
+<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
+<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
+<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
+Saturday: 1- 4 p.m.</p>
+<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-21/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Research Room
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260422T130000
+DTEND;TZID=America/Chicago:20260422T160000
+DTSTAMP:20260402T210605
+CREATED:20250409T031834Z
+LAST-MODIFIED:20260331T200345Z
+UID:10013780-1776862800-1776873600@evanstonhistorycenter.org
+SUMMARY:Research Room Open
+DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
+<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
+<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
+<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
+Saturday: 1- 4 p.m.</p>
+<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-22/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Research Room
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260423T130000
+DTEND;TZID=America/Chicago:20260423T160000
+DTSTAMP:20260402T210605
+CREATED:20250409T031834Z
+LAST-MODIFIED:20260331T200345Z
+UID:10012843-1776949200-1776960000@evanstonhistorycenter.org
+SUMMARY:Research Room Open
+DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
+<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
+<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
+<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
+Saturday: 1- 4 p.m.</p>
+<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-23/
+LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
+CATEGORIES:Research Room
+ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260423T130000
+DTEND;TZID=America/Chicago:20260423T160000
+DTSTAMP:20260402T210605
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10011999-1776949200-1776960000@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-23/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260424T130000
+DTEND;TZID=America/Chicago:20260424T160000
+DTSTAMP:20260402T210605
+CREATED:20250624T175237Z
+LAST-MODIFIED:20260331T143438Z
+UID:10014897-1777035600-1777046400@evanstonhistorycenter.org
+SUMMARY:House Tours
+DESCRIPTION:<p style="text-align: center;">Step into the home of Former U.S. Vice President, ambassador to Great Britain, and Nobel Peace Prize winner, Charles Gates Dawes.</p>
+<p style="text-align: center;">Charles Gates Dawes’ magnificent home, now a National Historic Landmark, was built by Dr. Robert Sheppard in 1894 on two acres overlooking Lake Michigan. It served as the Dawes family home from 1909 until 1957.</p>
+<p style="text-align: center;">Faithfully restored and carefully conserved, this chateauesque residence, designed by architect Henry Edwards-Ficken, of New York, has twenty-five rooms, including a cherry paneled library, a vaulted dining room with a musicians’ gallery, six bedrooms, and twelve fireplaces.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class="alignnone wp-image-11547" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/03/Evanston-History-Center-2-300x97.jpg" alt="" width="1129" height="365" /></a>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">House Tour and Exhibition Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">Thursday – Sunday: Exhibitions &amp; self-guided house tours 1-4 p.m.</span>
+<span style="color: #333333;">One-hour docent-led house tour available at 1:00, 2:00, 3:00 p.m.</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</span></p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data"></div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission (includes house tour &amp; exhibitions)</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members and Students</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free* for members</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><span style="color: #333333;">*House tours are also free for children under 12, and D65 teachers with ID.</span></p>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/house-tours-2-2/2026-04-24/
+CATEGORIES:House Tours
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260425T130000
+DTEND;TZID=America/Chicago:20260425T160000
+DTSTAMP:20260402T210605
+CREATED:20250409T031834Z
+LAST-MODIFIED:20260331T200345Z
+UID:10012845-1777122000-1777132800@evanstonhistorycenter.org
+SUMMARY:Research Room Open
+DESCRIPTION:<p class="p1" style="text-align: center;">The Evanston History Center’s Archival Collection is extensive and offers a comprehensive view of Evanston over time.</p>
+<p class="p1" style="text-align: center;">The archives hold a significant amount of material related to people and houses in Evanston. In addition, our staff has years of experience interpreting the primary sources and assisting people with figuring out the stories of their families and their homes.</p>
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=evansthc&amp;id=71"><img class=" wp-image-11970 aligncenter" src="https://evanstonhistorycenter.org/wp-content/uploads/2025/04/Evanston-History-Center_RRAdmission-300x97.jpg" alt="" width="1045" height="338" /></a>
+<p style="text-align: center;"><strong><span style="text-decoration: underline;">Research Room Hours</span></strong></p>
+<p style="text-align: center;">Tuesday - Thursday: 1 - 4 p.m.
+Saturday: 1- 4 p.m.</p>
+<p style="text-align: center;">Reservations are not required. Check for any <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+<p style="text-align: center;"><span style="color: #333333;"><strong><span style="text-decoration: underline;">Holiday Hours</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">The Evanston History Center is closed in observance of the following holidays:</span>
+<span style="color: #333333;">– New Year’s Day   – MLK Day    – Memorial Day</span>
+<span style="color: #333333;">– Juneteenth    – Independence Day    – Labor Day</span>
+<span style="color: #333333;">– Indigenous Peoples Day    – Veterans Day    – Thanksgiving</span>
+<span style="color: #333333;">– Christmas 12/23-12/25    – New Years 12/30-1/1</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Please check our calendar for other</span> <a href="https://evanstonhistorycenter.org/events/category/private-events-and-closures/">upcoming closures</a>.</p>
+
+<div class="top-hours-area">
+<div class="column">
+<div class="col-body">
+<div class="col-hour-data">
+<p style="text-align: center;"><span style="text-decoration: underline; color: #333333;"><strong>Admission</strong></span></p>
+<p style="text-align: center;"><span style="color: #333333;">$10 for Non-Members</span></p>
+<p style="text-align: center;"><span style="color: #333333;">Free for members and students</span></p>
+
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"></p>
+URL:https://evanstonhistorycenter.org/event/research-room-open/2026-04-25/
 LOCATION:Evanston History Center\, 225 Greenwood Street\, Evanston\, IL\, 60201\, United States
 CATEGORIES:Research Room
 ORGANIZER;CN="Evanston History Center":MAILTO:kfabian@evanstonhistorycenter.org

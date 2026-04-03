@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Huntington Theatre//songkick.com//
 X-WR-CALNAME:Huntington Theatre
 X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:AMPERS&ONE
+DTSTART;VALUE=DATE-TIME:20260509T190000
+DTEND;VALUE=DATE-TIME:20260509T190000
+UID:d1f707fcaa8d15f4f85b67c2a64430a2@songkick.com
+DESCRIPTION:AMPERS&ONE at The Huntington Theatre at 2026-05-09T19:00:00-04
+ 00
+LOCATION:The Huntington Theatre\, 264 Huntington Ave\, Boston\, MA\, 02115
+URL:http://www.songkick.com/concerts/43116447-ampers-and-one-at-huntington
+ -theatre?utm_medium=organic&utm_source=microformat
+X-SOURCE:Huntington Theatre
+END:VEVENT
 END:VCALENDAR

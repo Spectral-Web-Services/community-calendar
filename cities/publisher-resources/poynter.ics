@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-Robots-Tag:noindex
 X-PUBLISHED-TTL:PT1H
 BEGIN:VTIMEZONE
-TZID:America/New_York
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20250309T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20251102T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20260308T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20261101T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20270314T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20271107T060000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:Europe/Vilnius
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0200
@@ -88,29 +49,14 @@ DTSTART:20271031T010000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260324T180000
-DTEND;TZID=America/New_York:20260324T200000
-DTSTAMP:20260319T172522
-CREATED:20260213T192122Z
-LAST-MODIFIED:20260302T211830Z
-UID:1189352-1774375200-1774382400@www.poynter.org
-SUMMARY:Truth on the Line: Journalism’s Role in Protecting Democracy
-DESCRIPTION:The pressure on journalism has never been greater. Sustained attacks\, intimidation\, lawsuits\, business pressures and defunding efforts threaten the ability of news organizations to do their essential work\, from our local communities to the national scene. Yet access to accurate\, verified information is fundamental to a healthy democracy\, no matter your beliefs.  Join Poynter in Sarasota for an evening of insight\, discussion and accountability. The event will begin with a 30-minute reception to connect with peers\, followed by a 60-minute panel featuring leading voices in news\, fact-checking\, AI and media innovation.  This is a must-see event for anyone committed to the future of a free press\, ethical reporting and the public’s access to truth.  6:00 – 6:30 p.m. | Reception  6:30 – 7:30 p.m. | Panel Discussion (Scroll down for panelist bios)  7:30 – 8:00 p.m. | Closing & Networking  GET TICKETS   Questions? Please email marketing@poynter.org.  The Poynter Foundation is a nonpartisan 501(c)(3) nonprofit organization working to improve journalism in service to democracy. Proceeds from this fundraising event will power Poynter’s efforts to stoke civil connection and thoughtful expression between journalists and the communities they serve.  The EIN for the organization is 99-0731998.
-URL:https://www.poynter.org/event/truth-on-the-line-journalisms-role-in-protecting-democracy/
-LOCATION:Selby Public Library\, 1331 First Street\, Sarasota\, FL\, 34236\, United States
-CATEGORIES:In-person Event
-ATTACH;FMTTYPE=image/png:https://www.poynter.org/wp-content/uploads/2026/02/3.Collage.png
-ORGANIZER;CN="The Poynter Institute":MAILTO:marketing@poynter.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=Europe/Vilnius:20260617T080000
 DTEND;TZID=Europe/Vilnius:20260619T170000
-DTSTAMP:20260319T172522
+DTSTAMP:20260402T222603
 CREATED:20260219T160726Z
-LAST-MODIFIED:20260224T182258Z
+LAST-MODIFIED:20260326T191621Z
 UID:1189666-1781683200-1781888400@www.poynter.org
 SUMMARY:GlobalFact 2026
-DESCRIPTION:You’re invited to join the world’s largest fact-checking summit\, to be held June 17-19\, 2026\, in Vilnius\, Lithuania.  Presented by the International Fact-Checking Network (IFCN) at the Poynter Institute in partnership with Delfi\, Lithuanian National Radio and Television (LRT) and the European Fact-Checking Standards Network (EFCSN)\, GlobalFact 2026 will empower fact-checkers to uphold the industry’s highest standards of excellence through discussions\, training and networking events with globally renowned fact-checking experts.  Laura Zommer\, center\, sitting on a panel with Patrícia Campos Mello and Jaime Abello\, addresses the crowd at GlobalFact 12 in Rio de Janeiro.  About GlobalFact Since 2014\, more than 4\,000 people have attended GlobalFact in cities around the world including London\, Buenos Aires\, Madrid\, Rome\, Cape Town\, Oslo\, Seoul\, Sarajevo and\, most recently\, Rio de Janeiro. Numerous industry-leading projects and fact-checking advancements have originated through past GlobalFacts\, including International Fact-Checking Day\, the IFCN Code of Principles and partnerships with major tech companies.  GET TICKETS     What to Expect Networking Events Besides summit-wide social activities and events\, GlobalFact allows space to facilitate meaningful connections for attendees looking for professional development\, idea generation\, mentorship and more. This year’s summit will include dedicated time for both regional networking and topical networking.  Interest-driven Tracks Attendees interested in examining a specific area from various industry perspectives can choose to attend sessions categorized by “topics.” Topics this year include artificial intelligence\, information warfare\, sustainability\, methods innovation and public resilience.  Signatory-only Sessions Verified signatories to the IFCN Code of Principles will have exclusive access to members-only sessions to discuss topics such as working with platforms\, protecting independence and database control.  Region-specific Sessions Leaders from Central and Eastern Europe and the surrounding area will discuss the past\, present and future of fact-checking in the region and touch on themes such as war propaganda and state-sponsored disinformation.  Expert-led Discussions Attendees will discuss universal challenges facing fact-checkers today with leaders in journalism\, academia\, misinformation\, technology and more.  The agenda for GlobalFact 2026 will be published on register.globalfactconference.org in May.   Sponsor GlobalFact 2026 If you are interested in sponsoring GlobalFact 2026\, please contact Angie Drobnic Holan\, IFCN director\, for more information.   If you’d like to make an immediate impact\, please click here. Any donation amount supports Poynter’s mission to strengthen journalism in service to democracy.  Questions? We want to hear from you. Please send your inquiries to globalfact@ifcn.org.  Learn More
+DESCRIPTION:You’re invited to join the world’s largest fact-checking summit\, to be held June 17-19\, 2026\, in Vilnius\, Lithuania.  Presented by the International Fact-Checking Network (IFCN) at the Poynter Institute in partnership with Delfi\, Lithuanian National Radio and Television (LRT) and the European Fact-Checking Standards Network (EFCSN)\, GlobalFact 2026 will empower fact-checkers to uphold the industry’s highest standards of excellence through discussions\, training and networking events with globally renowned fact-checking experts.  Laura Zommer\, center\, sitting on a panel with Patrícia Campos Mello and Jaime Abello\, addresses the crowd at GlobalFact 12 in Rio de Janeiro.  About GlobalFact Since 2014\, more than 4\,000 people have attended GlobalFact in cities around the world including London\, Buenos Aires\, Madrid\, Rome\, Cape Town\, Oslo\, Seoul\, Sarajevo and\, most recently\, Rio de Janeiro. Numerous industry-leading projects and fact-checking advancements have originated through past GlobalFacts\, including International Fact-Checking Day\, the IFCN Code of Principles and partnerships with major tech companies.   GET TICKETS     What to Expect Networking Events Besides summit-wide social activities and events\, GlobalFact allows space to facilitate meaningful connections for attendees looking for professional development\, idea generation\, mentorship and more. This year’s summit will include dedicated time for both regional networking and topical networking.  Interest-driven Tracks Attendees interested in examining a specific area from various industry perspectives can choose to attend sessions categorized by “topics.” Topics this year include artificial intelligence\, information warfare\, sustainability\, methods innovation and public resilience.  Signatory-only Sessions Verified signatories to the IFCN Code of Principles will have exclusive access to members-only sessions to discuss topics such as working with platforms\, protecting independence and database control.  Region-specific Sessions Leaders from Central and Eastern Europe and the surrounding area will discuss the past\, present and future of fact-checking in the region and touch on themes such as war propaganda and state-sponsored disinformation.  Expert-led Discussions Attendees will discuss universal challenges facing fact-checkers today with leaders in journalism\, academia\, misinformation\, technology and more.  The agenda for GlobalFact 2026 will be published on register.globalfactconference.org in May.   Sponsor GlobalFact 2026 If you are interested in sponsoring GlobalFact 2026\, please contact Angie Drobnic Holan\, IFCN director\, for more information.   If you’d like to make an immediate impact\, please click here. Any donation amount supports Poynter’s mission to strengthen journalism in service to democracy.  Questions? We want to hear from you. Please send your inquiries to globalfact@ifcn.org.  Learn More
 URL:https://www.poynter.org/event/global-fact-2026/
 LOCATION:Taškius\, Vilnius\, Lithuania
 CATEGORIES:In-person Event

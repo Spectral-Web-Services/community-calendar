@@ -4,6 +4,19 @@ PRODID:-//Petaluma Chamber of Commerce//growthzone.com//
 X-WR-CALNAME:Petaluma Chamber of Commerce
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
+SUMMARY:Closed for Memorial Day
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260525T000000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260525T235900
+UID:49e7f88ae687a78bdcda186845f385d0@growthzone.com
+DESCRIPTION:The Petaluma Area Chamber of Commerce office will be closed in
+  observance of Memorial Day. We will resume normal business hours tomorrow
+  starting at 9:30am.
+LOCATION:Petaluma\, CA
+URL:https://business.petalumachamber.us/events/details/closed-for-memorial
+ -day
+X-SOURCE:Petaluma Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Government Affairs Committee
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260403T073000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260403T093000
@@ -111,42 +124,6 @@ URL:https://business.petalumachamber.us/events/details/the-petaluma-spring
 X-SOURCE:Petaluma Chamber of Commerce
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Free Estate Planning Webinar
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260326T170000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260326T183000
-UID:07fe64f562dbe45b1c72b01a780e5b61@growthzone.com
-DESCRIPTION:Details Strategies to Manage Incapacity\, Family Dynamics\, an
- d Financial Risks Creating your estate plan\, whether it’s a living trus
- t or a will\, can be a daunting task. Estate planning addresses issues tha
- t are difficult to think about\, such as death\, incapacity\, finances\, a
- nd family dynamics. It can be easy to procrastinate\, even though these is
- sues may weigh heavily on your mind. We invite you to attend one of our up
- coming free webinars so you can take the first step toward having peace of
-  mind by creating (or updating) your estate plan. This is an educational w
- ebinar\, where we highlight some of the concerns that many families face a
- nd how an estate plan can help. The attorneys also break down how wills an
- d trusts differ\, and some of the common estate planning pitfalls and how 
- to avoid them. Our goal is to provide you with the education you need to p
- rotect yourself and your family\, and leave a legacy of peace. If you woul
- d like to set up a meeting to discuss your estate planning needs
-LOCATION:Petaluma\, CA
-URL:https://business.petalumachamber.us/events/details/free-estate-plannin
- g-webinar-03-26-2026
-X-SOURCE:Petaluma Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Abstract Acrylic & Mixed Media Paintings with Tonia Sassi
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260326T170000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260326T190000
-UID:ddf2ed842004062a8299a5891f676b42@growthzone.com
-DESCRIPTION:Join us for us for the opening reception of local artist Tonia
-  Sassi's exhibit "Abstract Acrylic & Mixed Media Paintings".
-LOCATION:Petaluma\, CA
-URL:https://business.petalumachamber.us/events/details/abstract-acrylic-mi
- xed-media-paintings-with-tonia-sassi
-X-SOURCE:Petaluma Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sonoma County Wildfire & Earthquake Expo 2026
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260426T100000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260426T150000
@@ -161,17 +138,6 @@ DESCRIPTION:The Sonoma County Wildfire & Earthquake Expo is a free\, famil
 LOCATION:Petaluma\, CA
 URL:https://business.petalumachamber.us/events/details/sonoma-county-wildf
  ire-earthquake-expo-2026
-X-SOURCE:Petaluma Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Government Affairs Committee Meeting
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260320T073000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260320T093000
-UID:24e8a5057ed15b142d6a7b0084b0f434@growthzone.com
-DESCRIPTION:Committee Meeting
-LOCATION:Petaluma\, CA
-URL:https://business.petalumachamber.us/events/details/government-affairs-
- committee-meeting-03-20-2026
 X-SOURCE:Petaluma Chamber of Commerce
 END:VEVENT
 BEGIN:VEVENT
@@ -219,6 +185,17 @@ URL:https://business.petalumachamber.us/events/details/ambassador-committe
 X-SOURCE:Petaluma Chamber of Commerce
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Ambassador Committee Meeting
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260602T160000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260602T171500
+UID:e81e48de14e49191dc4b7395c47f84c3@growthzone.com
+DESCRIPTION:
+LOCATION:Petaluma\, CA
+URL:https://business.petalumachamber.us/events/details/ambassador-committe
+ e-meeting-06-02-2026
+X-SOURCE:Petaluma Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Business Alliance Networking Meeting
 DTSTART;TZID=PDT;VALUE=DATE-TIME:20260413T170000
 DTEND;TZID=PDT;VALUE=DATE-TIME:20260413T180000
@@ -260,19 +237,6 @@ DESCRIPTION:
 LOCATION:Petaluma\, CA
 URL:https://business.petalumachamber.us/events/details/business-builders-n
  etworking-meeting-05-12-2026
-X-SOURCE:Petaluma Chamber of Commerce
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Petaluma Chamber Directory Debut
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260326T163000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260326T183000
-UID:3bffde415347eff1eb4024e67dc93a9d@growthzone.com
-DESCRIPTION:Petaluma Area Chamber of Commerce 2026 Business Directory Debu
- t! Come pick up a copy of our new 2026 Business Directory! Complimentary b
- ites & beverages! Fun raffle prizes!
-LOCATION:Petaluma\, CA
-URL:https://business.petalumachamber.us/events/details/petaluma-chamber-di
- rectory-debut
 X-SOURCE:Petaluma Chamber of Commerce
 END:VEVENT
 BEGIN:VEVENT
@@ -386,6 +350,64 @@ DESCRIPTION:Strategies to Manage Incapacity\, Family Dynamics\, and Financ
 LOCATION:Petaluma\, CA
 URL:https://business.petalumachamber.us/events/details/vital-information-a
  bout-wills-trusts-and-estate-plans
+X-SOURCE:Petaluma Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food For Thought’s Plant Sale & Garden Tour
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260425T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260425T120000
+UID:1da74e79b359a19c0dfbb54f9768cca3@growthzone.com
+DESCRIPTION:Guided tours of the garden and food bank available by request.
+  Support a great cause while celebrating the joy of gardening! This annual
+  plant sale fundraiser is hosted by Food For Thought food bank\, helping p
+ rovide healthy food and compassionate support to those in need. Explore th
+ e thriving Food For Thought garden\, get inspired by what’s growing for 
+ the food bank\, and shop a variety of veggie\, herb\, and flower starts to
+  bring home—lovingly grown by Food For Thought volunteers and community 
+ partners. Every purchase helps feed our neighbors in need. Since 1988\, Fo
+ od for Thought has provided life-sustaining groceries\, meals\, and loving
+  support to people living with serious medical conditions in Sonoma County
+ —all free of charge. For more information\, visit fftfoodbank.org/plant-
+ sale
+LOCATION:Petaluma\, CA
+URL:https://business.petalumachamber.us/events/details/food-for-thought-s-
+ plant-sale-garden-tour
+X-SOURCE:Petaluma Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Food For Thought’s Plant Sale & Garden Tour
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260502T090000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260502T120000
+UID:100fb7166db3c7fa4752d183d0b6b316@growthzone.com
+DESCRIPTION:
+LOCATION:Petaluma\, CA
+URL:https://business.petalumachamber.us/events/details/food-for-thought-s-
+ plant-sale-garden-tour-05-02-2026
+X-SOURCE:Petaluma Chamber of Commerce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Opening & Clinical Skincare Event at Petaluma Premier Skinca
+ re
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260412T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260412T140000
+UID:0825ccabfdc4f58733570770d4c3282a@growthzone.com
+DESCRIPTION:Join us for a day of transformation and exclusive savings! Are
+  you ready to achieve your best skin yet? Join Petaluma Premier Skincare f
+ or our official Grand Opening on April 12th from 10:00 AM – 2:00 PM. As 
+ a dedicated Acne and Skin Specialist\, I am thrilled to bring advanced cli
+ nical solutions to our community. This event is your exclusive opportunity
+  to consult with an expert and lock in our lowest prices of the year. Even
+ t Highlights & One-Day-Only Specials: Acne & Melasma Solutions: Expert con
+ sultations for those struggling with persistent breakouts and pigmentation
+ . Collagen Induction Therapy (Microchanneling): The ultimate treatment for
+  acne scars\, fine lines\, and wrinkles. Watch your skin rebuild from the 
+ inside out! Medical-Grade Peels: Deep exfoliation tailored to your specifi
+ c skin type and concerns. VIP Membership Deals: Become a founding member a
+ nd enjoy long-term savings on your skin health journey. Chamber members ge
+ t exclusive VIP pricing. 20% OFF Professional Retail: S
+LOCATION:Petaluma\, CA
+URL:https://business.petalumachamber.us/events/details/grand-opening-clini
+ cal-skincare-event-at-petaluma-premier-skincare
 X-SOURCE:Petaluma Chamber of Commerce
 END:VEVENT
 END:VCALENDAR

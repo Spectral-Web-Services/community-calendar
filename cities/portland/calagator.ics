@@ -22,371 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260314T184656Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T163000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T083000
-DTSTAMP;VALUE=DATE-TIME:20260314T184656Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260314T184656Z
-UID:http://calagator.org/events/1250482511
-DESCRIPTION:IT Infrastructure is constantly changing\, bringing more new 
- challenges with it every day. From ransomware and the latest security th
- reats to emerging developments in AI and the need for increased bandwidt
- h and storage\, it’s nearly impossible to keep up to date. Our conferenc
- e is designed to help. We’ve assembled a combination of Best-in-Breed ha
- rdware and software solutions\, along with local experts and organizatio
- ns to help educate\, advise and connect you to resources that can help y
- ou meet your goals.&#13\;\n&#13\;\nCovering Information Security\, Infra
- structure\, Cloud\, Disaster Recovery\, Communications\, and more\, you’
- ll find presentations\, panel discussions\, and exhibitors covering a va
- riety of topics\, as well as the latest innovations and best practices.\
- n\nTags: information security\, infrastructure\, cloud\, disaster recove
- ry\, communications\n\nImported from: http://calagator.org/events/125048
- 2511
-URL:https://f2fevents.com/event/pdx26/
-SUMMARY:Interface Portland
-LOCATION:Oregon Convention Center: 777 NE Martin Luther King Jr. Blvd.\, 
- Portland OR 97232 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260304T033951Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T150000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T110000
-DTSTAMP;VALUE=DATE-TIME:20260304T033951Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260304T033951Z
-UID:http://calagator.org/events/1250482490
-DESCRIPTION:Oregon's Flagship Startup Hiring Event&#13\;\n&#13\;\n​The Or
- egon Hiring Festival brought to you by MeeBoss\, Oregon Entrepreneur Net
- work [OEN]\, and WeWork\, is HERE! We'll be bringing together 10+ hiring
-  companies and ~100+ job seekers for an afternoon of matchmaking\, conve
- rsation\, and in-person connections.&#13\;\n&#13\;\n​Here’s how it works
- : once you register\, MeeBoss will get your open roles live within 48 ho
- urs. Our match-first\, chat-first platform connects you directly with qu
- alified candidates ahead of time so you can begin conversations online b
- efore the event. Then\, at the festival\, you’ll meet those candidates f
- ace-to-face at your booth\, alongside new walk-ups who discover your tea
- m on the spot.&#13\;\n&#13\;\n​​To keep things flowing smoothly\, the hi
- ring block runs for three hours straight. While some job seekers step ou
- t for lunch or attend the panel discussion\, others stay engaged at the 
- booths. Creating a natural rotation and steady candidate flow without ov
- erwhelming lines. Please bring more then one person to support your boot
- h.&#13\;\n&#13\;\n​​This streamlined format guarantees high-quality inte
- ractions while giving you the buzz\, PR spotlight\, and networking energ
- y of a full-day festival\, but without requiring your team to commit an 
- entire day.\n\nTags: hiring\, meeboss\, oen\, hr\n\nImported from: http:
- //calagator.org/events/1250482490
-URL:https://luma.com/sdvngfhr
-SUMMARY:MeeBoss Hiring Festival – Startup Registration
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260216T235536Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T193000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T173000
-DTSTAMP;VALUE=DATE-TIME:20260216T235536Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260216T235536Z
-UID:http://calagator.org/events/1250482477
-DESCRIPTION:March is all about infrastructure!  We'll learn to manage edg
- e container deployments\, and then how to account for our AWS infrastruc
- ture drift.&#13\;\n&#13\;\nDate: Thursday\, March 19&#13\;\nTime: 5:30–7
- :30 PM&#13\;\nLocation: Reperio Health\, 4784 SE 17th Ave Suite 120\, Po
- rtland\, OR&#13\;\nRecording: Talks are typically recorded (opt-in by sp
- eakers)&#13\;\n&#13\;\nA big thank you to Reperio Health\, our venue hos
- t\, and Red Hat\, our food and beverage sponsor this month.  If your com
- pany can sponsor our meetup\, please contact the organizers.&#13\;\n&#13
- \;\nRunning MicroShift on Fedora Bootc for Scalable\, Secure\, and Resil
- ient Edge Deployments - Ram Gopinathan\, Red Hat&#13\;\n&#13\;\nAs edge 
- computing accelerates across industries—from utilities and manufacturing
-  to retail and smart cities—organizations are looking for lightweight\, 
- reliable\, and secure platforms to deploy containerized applications at 
- scale at the edge. Enter MicroShift\, a small-footprint Kubernetes distr
- ibution\, paired with Fedora Bootc\, an image-based\, immutable operatin
- g system built for consistency and resilience.&#13\;\n&#13\;\nIn this se
- ssion\, we’ll demonstrate how running MicroShift on Fedora Bootc creates
-  a powerful foundation for edge workloads\, combining the familiarity of
-  Kubernetes with the reliability of image-based OS updates and atomic ro
- llbacks. Learn how this approach reduces operational complexity\, improv
- es boot-time performance\, and enhances system integrity—especially for 
- unattended or resource-constrained edge environments.&#13\;\n&#13\;\nMin
- d the Gap: Tracking AWS Infrastructure Drift Over Time - Christopher Buc
- kley\, Buckshot Technologies&#13\;\n&#13\;\nModern DevOps pipelines focu
- s heavily on deploying infrastructure-as-code\, but what happens after t
- he deploy? In many organizations\, the infrastructure evolves outside of
-  Git — through the console\, ad hoc scripts\, or third-party tools — lea
- ving behind blind spots and compliance risk.&#13\;\n&#13\;\nIn this talk
- \, we’ll explore practical ways to track infrastructure drift and deltas
-  across AWS environments. You’ll learn how to snapshot configurations\, 
- compare changes between points in time\, and surface deltas across accou
- nts in a format that’s accessible to engineers\, auditors\, and security
-  teams alike.&#13\;\n&#13\;\nWe'll demo an open-source tool built to sho
- w Git-style diffs for AWS infrastructure — not as a pitch\, but as a cas
- e study in how visibility empowers better decisions\, faster troubleshoo
- ting\, and cleaner audit trails. Whether you're running one VPC or a hun
- dred\, knowing what changed is the first step to staying in control.\n\n
- Tags: kubernetes\, containers\, cloud\, intrastructure\, aws\, devops\n\
- nImported from: http://calagator.org/events/1250482477
-URL:https://www.meetup.com/cloud-native-pdx/events/313348836
-SUMMARY:Cloud Native March Meetup: Microshift\, Bootc\, and AWS Infrastru
- cture
-LOCATION:Reperio Health: 4784 SE 17th Ave Suite 120\, Portland OR 97202 U
- SA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260311T041527Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T180000
-DTSTAMP;VALUE=DATE-TIME:20260311T041527Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260311T041527Z
-UID:http://calagator.org/events/1250482500
-DESCRIPTION:The Portland Linux Kernel Meetup for March 2026 will be at...
- &#13\;\n&#13\;\n  * Date: Thursday\, March 19\, 2026&#13\;\n  * Time: 06
- :00 PM to 09:00 PM US/Pacific&#13\;\n  * Location: Lucky Labrador Beer H
- all\, 1945 NW Quimby St\, Portland\, Oregon 97209 US&#13\;\n&#13\;\nCome
-  enjoy a beverage and chat with other people who are interested in the&#
- 13\;\nLinux kernel. All experience levels are welcome. This is a friendl
- y and casual&#13\;\nmeetup.&#13\;\n&#13\;\nLook for a table with the plu
- sh Tux penguin.&#13\;\n&#13\;\nTo get timely reminders of Portland Linux
-  Kernel Meetups\, see&#13\;\nhttps://ikluft.github.io/pdx-lkmu/subscribi
- ng-to-pdx-lkmu-events.html.\n\nTags: PDXLKMU\, kernel\, linux\n\nImporte
- d from: http://calagator.org/events/1250482500
-URL:https://ikluft.github.io/pdx-lkmu/
-SUMMARY:March 2026 Portland Linux Kernel Meetup
-LOCATION:Lucky Labrador Beer Hall\, 1945 NW Quimby St\, Portland\, Oregon
-  97209 US: false
-SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260306T183120Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260319T190000
-DTSTAMP;VALUE=DATE-TIME:20260306T183120Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260306T183120Z
-UID:http://calagator.org/events/1250482494
-DESCRIPTION:A meeting of folks interested in BSD operating systems and re
- lated technologies to get together\, eat pizza\, drink beer\, and talk a
- bout what interesting things have been going on.\n\nTags: DragonFlyBSD\,
-  FreeBSD\, NetBSD\, OpenBSD\, bsd\n\nImported from: http://calagator.org
- /events/1250482494
-URL:https://bsd.pizza
-SUMMARY:BSD Pizza Night
-LOCATION:RukDiew Cafe: 2534 Southeast Belmont Street\, Portland Oregon 97
- 214 USA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20251109T171836Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260321T123000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260321T100000
-DTSTAMP;VALUE=DATE-TIME:20251109T171836Z
-LAST-MODIFIED;VALUE=DATE-TIME:20251109T171836Z
-UID:http://calagator.org/events/1250482296
-DESCRIPTION:Details&#13\;\n## What to Expect:&#13\;\nCode and Coffee is a
- n inclusive\, informal co-working session. Drink some coffee\, bring you
- r laptop\, and have engaging conversations. This is a great opportunity 
- to learn from others\, share your knowledge\, and possibly collaborate o
- n side projects\, online courses\, or even your day-to-day work tasks.&#
- 13\;\nStill uncertain? Let's chat on Discord!&#13\;\n## Venue:&#13\;\nTh
- e Venue is at Roseline Café\, who is graciously allowing us to host a sp
- ace. WIFI\, power outlets&#13\;\nRecommended Parking: Smart Park\, $7 al
- l day https://www.portland.gov/transportation/parking/smartpark&#13\;\n&
- #13\;\n## Coffee:&#13\;\nRoseline Café has drip coffee and fixings avail
- able for it&#13\;\n&#13\;\n## Agenda:&#13\;\n10 AM - Arrival&#13\;\n10:1
- 5 AM - Introductions:&#13\;\nShare your name&#13\;\nDiscuss your current
-  projects or interests. If you don’t have a specific project\, share wha
- t intrigues you!&#13\;\nMention your expertise and how you can assist ot
- hers.&#13\;\nAre you job hunting or hiring? Let us know!&#13\;\nCommunit
- y events you wanna plug. If none\, that's cool too.&#13\;\n12:30 AM - Wr
- apping Up: You can stay longer\, but we'll officially be done! We usuall
- y grab lunch as a group at near by food carts\n\nImported from: http://c
- alagator.org/events/1250482296
-URL:https://www.meetup.com/portland-code-coffee/
-SUMMARY:Code & Coffee @ Roseline Café
-LOCATION:Roseline Cafe: false
-SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260312T185711Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260322T140000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260322T130000
-DTSTAMP;VALUE=DATE-TIME:20260312T185711Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260312T185711Z
-UID:http://calagator.org/events/1250482503
-DESCRIPTION:This one-hour tour of the [Portland Art Museum](https://portl
- andartmuseum.org/) will include a tour of accessibility features\, follo
- wed by an exploration of the museum's tactile graphics.&#13\;\n&#13\;\nT
- he studio has been reserved - so we will have a quiet place to talk and 
- explore the tactiles. Personal belongings can be left in this area durin
- g the tour\, as the studio will be securely locked.&#13\;\n&#13\;\n**Thi
- s tour is being offered free of charge\, but an RSVP is required.** Once
-  the tour is completed\, food and beverages can be purchased at Coquelic
- o within the Portland Art Museum. Attendees can continue to tour the mus
- eum if they wish.&#13\;\n&#13\;\n**Museum Staff Request:** Please avoid 
- wearing scented body and laundry products\, as well as essential oils.&#
- 13\;\n&#13\;\n**Accessibility Request:** The Portland Art Museum (PAM) n
- ow has elevators and an accessible entrance. Here are further details on
-  the [PAM's accessibility offerings](https://portlandartmuseum.org/acces
- sibility/). Please let us know if you have any accommodation requests\, 
- such as stools\, etc.&#13\;\n&#13\;\n**Where to Meet:** The lobby\, more
-  details to come. Please look for our logo.\n\nTags: User Research\, a11
- y\, accessibility\, accessibility lawsuits\, accessible technology\, acc
- essible web design\, disability\, human rights\, inclusive design\, meet
- up:event=313739561\, meetup:group=Portland-Accessibility-and-User-Experi
- ence-Meetup\, mobile user experience\, screen reader\, structured negoti
- ation\, technology\, universal design\, usability\, user experience\, wc
- ag\, web accessibility\, web design\, art\, museum\n\nImported from: htt
- p://calagator.org/events/1250482503
-URL:https://pdxa11yux.org/events/2026/03/22/portland-art-museum-accessibi
- lity-tour.html
-SUMMARY:Portland Accessibility and User Experience Meetup (PDX A11Y UX) -
-  Portland Art Museum Accessibility Tour
-LOCATION:Portland Art Museum: 1219 SW Park Avenue\, Portland Oregon 97205
-  US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260310T230407Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260324T220000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260324T190000
-DTSTAMP;VALUE=DATE-TIME:20260310T230407Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260310T230407Z
-UID:http://calagator.org/events/1250482499
-DESCRIPTION:Hardware Happy Hour is an informal way to socialize\, show of
- f your projects\, and talk about the world of hardware.&#13\;\n&#13\;\nW
- e welcome anyone interested in any kind of hardware from beginner to exp
- ert: Arduino DIYers\, engineers\, hardware start up founders\, e-textile
-  experimenters\, LED-curious folks\, 3D printing enthusiasts or robotics
-  geeks.&#13\;\n&#13\;\nIf you're working on something even vaguely relat
- ed please do bring it along. No presentations\, no pitch decks\, just pr
- ojects and conversation.&#13\;\n&#13\;\nJoin us and nerd out about elect
- ronics!\n\nTags: hardware\, open source\n\nImported from: http://calagat
- or.org/events/1250482499
-URL:https://luma.com/HHHpdx
-SUMMARY:Hardware Happy Hour 
-LOCATION:Bye and Bye: 1011 NE Alberta St\, Portland OR 97211 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260312T172753Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T140000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T120000
-DTSTAMP;VALUE=DATE-TIME:20260312T172753Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260312T172753Z
-UID:http://calagator.org/events/1250482502
-DESCRIPTION: Come hang out with other tech people for lunch last Wednesda
- y of the month at Papaccino’s from 12 ~ 2pm. \n\nImported from: http://c
- alagator.org/events/1250482502
-URL:https://flyersky.org/community/woodstock-portland-oregon/groups/woods
- tock-tech-lunch-fhrtqa/meetups/cde6cd94-51e5-40b0-ac64-bd605ce78ab0
-SUMMARY:March 25th Tech Lunch At Papaccino's
-LOCATION:Papaccino's: false
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20250918T041829Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260325T183000
-DTSTAMP;VALUE=DATE-TIME:20250918T041829Z
-LAST-MODIFIED;VALUE=DATE-TIME:20250918T041829Z
-UID:http://calagator.org/events/1250482213
-DESCRIPTION:PDXOSGeo connects again this week\, Wednesday March 25\, 6:30
- p Hot Lips Pizza @ the Natural Capital Center 721 NW 9th Ave\, Portland 
- OR. Join us for some show and tell and good open geo discussion!&#13\;\n
- &#13\;\nWe're striving to post our speaker a couple weeks in advance of 
- the meeting\, so watch this space!\n\nTags: opensource gis geospatial\n\
- nImported from: http://calagator.org/events/1250482213
-URL:https://pdxosgeo.org/
-SUMMARY:PDXOSGeo March Meetup
-LOCATION:Ecotrust Building: 721 Northwest 9th Avenue\, Portland OR 97209 
- US
-SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260312T235931Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260326T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260326T180000
-DTSTAMP;VALUE=DATE-TIME:20260312T235931Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260312T235931Z
-UID:http://calagator.org/events/1250482507
-DESCRIPTION:​Better Futures Club is a weekly event (alternating Tuesdays 
- and Thursdays) focused on imagining and making better futures.&#13\;\n&#
- 13\;\nImagine an artist community\, a think tank\, and a research center
-  in the same building. People in all of those fields working alongside e
- ach other imagining and creating different futures together. Cross polli
- nation and inspiration. Liberal Arts and STEM and R&amp\;D. Photographer
- s\, physicists\, authors\, astronomers\, musicians\, makers\, mathematic
- ians\, designers\, developers\, fashionistas\, climatologists and all ma
- nner of imaginative optimists.&#13\;\n&#13\;\nAll Better Futures Club ev
- ents are covered by the Contributor Covenant Code of Conduct (https://ww
- w.contributor-covenant.org)\n\nTags: ruby\, STEM\, liberal arts\, commun
- ity\, hacking\, AI\n\nImported from: http://calagator.org/events/1250482
- 507
-URL:https://betterfutures.club
-SUMMARY:Better Futures Club
-LOCATION:Ctrl-H / PDX Hackerspace: 7608 N Interstate Ave\, Portland OR 97
- 217 us
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260318T214306Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260327T140000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260327T130000
-DTSTAMP;VALUE=DATE-TIME:20260318T214306Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260318T214306Z
-UID:http://calagator.org/events/1250482514
-DESCRIPTION:Have you ever wondered what it’s really like to work as a Dev
- eloper Advocate?&#13\;\n&#13\;\nDeveloper Advocacy sits at the intersect
- ion of technical depth\, strategic communication\, and community buildin
- g. It blends coding\, content creation\, and relationship-building to he
- lp bridge the gap between engineering teams and the developers they serv
- e.&#13\;\n&#13\;\nIn this live Tech Talk\, Jeremy Rivera\, Full-stack So
- ftware Engineer and Developer Advocate\, will explore the three pillars 
- of modern developer relations: code\, content\, and community. He will s
- hare real-world lessons from working between engineering and marketing\,
-  and explain how advocacy can scale impact through education\, open sour
- ce\, and accessibility.&#13\;\n&#13\;\nWhether you are exploring Develop
- er Advocacy or looking to expand your influence beyond writing code\, yo
- u will walk away with practical insights on how technical skills and com
- munication work together.&#13\;\n&#13\;\nSave your spot now and join us 
- on Friday\, March 27 at 1 PM PT | 3 PM CT | 4 PM ET to discover life as 
- a Developer Advocate.\n\nTags: tech talk\, Career Coaching\, Career Netw
- orking\, job search\, Job Interview\, technology\, Tech Industry\, softw
- are engineering\, Computer Engineering\, coding\, programmers\, programm
- ing\n\nImported from: http://calagator.org/events/1250482514
-URL:https://meet.google.com/pqd-uyow-imk
-SUMMARY:Tech Talk | Code\, Content\, and Community: Life as a Developer A
- dvocate
-LOCATION:The Tech Academy: 310 SW 4th Ave Suite 412\, Portland OR 97204 U
- SA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260312T235956Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260331T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260331T180000
-DTSTAMP;VALUE=DATE-TIME:20260312T235956Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260312T235956Z
-UID:http://calagator.org/events/1250482508
-DESCRIPTION:​Better Futures Club is a weekly event (alternating Tuesdays 
- and Thursdays) focused on imagining and making better futures.&#13\;\n&#
- 13\;\nImagine an artist community\, a think tank\, and a research center
-  in the same building. People in all of those fields working alongside e
- ach other imagining and creating different futures together. Cross polli
- nation and inspiration. Liberal Arts and STEM and R&amp\;D. Photographer
- s\, physicists\, authors\, astronomers\, musicians\, makers\, mathematic
- ians\, designers\, developers\, fashionistas\, climatologists and all ma
- nner of imaginative optimists.&#13\;\n&#13\;\nAll Better Futures Club ev
- ents are covered by the Contributor Covenant Code of Conduct (https://ww
- w.contributor-covenant.org)\n\nTags: ruby\, STEM\, liberal arts\, commun
- ity\, hacking\, AI\n\nImported from: http://calagator.org/events/1250482
- 508
-URL:https://betterfutures.club
-SUMMARY:Better Futures Club
-LOCATION:Ctrl-H / PDX Hackerspace: 7608 N Interstate Ave\, Portland OR 97
- 217 us
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260309T173723Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T190000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T173000
@@ -442,36 +77,36 @@ LOCATION:Oregon Bioscience Incubator (OBI): 4640 SW Macadam Avenue\, Suit
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260318T213244Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260402T190000
-DTSTAMP;VALUE=DATE-TIME:20260318T213244Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260318T213244Z
-UID:http://calagator.org/events/1250482513
-DESCRIPTION:Summary:&#13\;\n&#13\;\nInside AI Supercomputers: From GPUs t
- o Multi-DC Clusters&#13\;\n&#13\;\nLarge language models and other front
- ier AI systems are trained on clusters with thousands to over a hundred 
- thousand GPUs. But what does that infrastructure actually look like? Thi
- s talk walks through the anatomy of an AI supercomputer from the ground 
- up: individual GPUs\, multi-GPU nodes\, racks\, and full clusters. We'll
-  cover the three pillars of compute\, storage\, and networking\, then lo
- ok at how training and inference workloads place very different demands 
- on hardware. Finally\, we'll explore how Linux runs the show at every la
- yer from the OS on each node\, to InfiniBand fabric&#13\;\nmanagement\, 
- to job scheduling with Slurm\, Kubernetes\, and Ray.&#13\;\n&#13\;\nNo A
- I/HPC background required - just curiosity about what it takes to build 
- and run the machines behind the models.&#13\;\n&#13\;\nBio:&#13\;\n&#13\
- ;\nJesse Lopez is an AI/ML and Technical Program Manager in the Azure HP
- C/AI organization where he helps deploy large-scale AI infrastructure an
- d works with customers to put it to use. A former scientist\, he has a b
- ackground in high-performance computing\, AI/ML\, and has been a Linux u
- ser since the nineteen hundreds.\n\nTags: plug\, linux\, HPC\n\nImported
-  from: http://calagator.org/events/1250482513
-URL:https://pdxlinux.org/
-SUMMARY:Portland Linux/Unix Group General Monthly Meeting: Inside AI Supe
- rcomputers\, with Jesse Lopez
-LOCATION:Portland State University Fourth Avenue Building (FAB) Room FAB 
- 86-01: 1900 Southwest 4th Avenue\, Portland OR 97201 US
+CREATED;VALUE=DATE-TIME:20260327T184345Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260403T140000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260403T130000
+DTSTAMP;VALUE=DATE-TIME:20260327T184345Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260327T184345Z
+UID:http://calagator.org/events/1250482525
+DESCRIPTION:Are you wondering how to stand out and land your first role i
+ n tech?&#13\;\n&#13\;\nBreaking into tech can feel overwhelming\, especi
+ ally with so many candidates competing for the same opportunities. Knowi
+ ng how to position yourself through your resume\, portfolio\, and interv
+ iew skills can make all the difference.&#13\;\n&#13\;\nIn this live Tech
+  Talk\, Mahindra Guman\, learning and development professional with exte
+ nsive experience in recruitment and career coaching\, will share how new
+  developers can effectively position themselves for success. He will cov
+ er building a strong resume and portfolio\, preparing for interviews\, a
+ nd practical job search strategies to help you stay motivated and consis
+ tent.&#13\;\n&#13\;\nGet the actionable steps you need to stand out as a
+  candidate\, whether you’re writing your first line of code or landing y
+ our next interview.&#13\;\n&#13\;\nJoin us on Friday\, April 3 at 1 PM P
+ T | 3 PM CT | 4 PM ET.&#13\;\nSave your spot now and take the next step 
+ toward your first tech role.&#13\;\n&#13\;\nRSVP Here: https://www.meetu
+ p.com/techacademy/events/\n\nTags: tech talk\, Career Coaching\, Career 
+ Networking\, job search\, Job Interview\, technology\, Tech Industry\, s
+ oftware engineering\, Computer Engineering\, coding\, programmers\, prog
+ ramming\n\nImported from: http://calagator.org/events/1250482525
+URL:https://meet.google.com/kdk-gbga-gnv
+SUMMARY:Tech Talk | Breaking Into Tech: How New Developers Can Stand Out 
+ with Mahindra Guman
+LOCATION:The Tech Academy: 310 SW 4th Ave Suite 412\, Portland OR 97204 U
+ SA
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
@@ -532,6 +167,37 @@ LOCATION:U.S. Bancorp Tower (Big Pink): 111 Southwest 5th Avenue\, Portla
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260322T210114Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260408T200000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260408T180000
+DTSTAMP;VALUE=DATE-TIME:20260322T210114Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260322T210114Z
+UID:http://calagator.org/events/1250482517
+DESCRIPTION:April dMob will be held at Wonderlove in SE Portland on Wedne
+ sday\, April 8 from 6-8pm.&#13\;\n&#13\;\n🍲 Food\, drink\, fun? What's n
+ ot to love at Wonderlove! 🍻&#13\;\n🗣️ Join us at Wonderlove Food Cart Po
+ d in the Central Eastside on Wednesday\, April 8th\, 6-8 PM for a chance
+  to chat\, connect\, and talk all things design.&#13\;\n&#13\;\nWhether 
+ you're in it for the food\, drinks\, or networking\, dMob is guaranteed 
+ to be a good time. The event is free\, but there are a plethora of food 
+ carts to choose from and a full bar\, so grab a drink and some dinner an
+ d try something new. We look forward to seeing you there! 🕶️&#13\;\n&#13
+ \;\nWhat is dMob?&#13\;\ndMob is a FREE social event launched by AIGA Po
+ rtland in 2003. Hosted on the 2nd Wednesday of every month\, it’s a grea
+ t way to get out and connect with members of Portland’s energetic design
+  community while exploring the city’s various neighborhoods. AIGA Portla
+ nd wants to encourage discussion\, business development\, and foster a m
+ ore dynamic design community in Portland. You’re bound to find inspirati
+ on\, and opportunity with this friendly\, laid-back group of design prof
+ essionals!\n\nTags: portland\, dmob\n\nImported from: http://calagator.o
+ rg/events/1250482517
+URL:https://www.eventbrite.com/e/april-dmob-wonderlove-tickets-1985247379
+ 353?aff=ebdssbdestsearch
+SUMMARY:dmob April 2026
+LOCATION:Wonderlove: 262 SE Main St\, Portland OR 97214 
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260313T214707Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260409T130000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260409T110000
@@ -561,30 +227,147 @@ SUMMARY:Portland Monthly BEAM Meet & Chat
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260315T185106Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260409T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260409T170000
-DTSTAMP;VALUE=DATE-TIME:20260315T185106Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260315T185106Z
-UID:http://calagator.org/events/1250482512
-DESCRIPTION:Join us for a community-led developer event focused on AI-ass
- isted coding with GitHub Copilot. This event brings together developers 
- to explore practical workflows\, real-world use cases\, and hands-on exp
- eriences using GitHub Copilot.&#13\;\n&#13\;\n​Whether you are new to Gi
- tHub Copilot or already using it\, this event will help you better under
- stand how to apply AI-assisted coding techniques in everyday development
- .&#13\;\n&#13\;\n​📅 Agenda&#13\;\n&#13\;\n​5:00 PM – Check-in &amp\; Piz
- za 🍕&#13\;\n&#13\;\n​5:30 PM – Welcome &amp\; Opening with James Montema
- gno and Scott Hanselman&#13\;\n&#13\;\n​5:30 PM – Session 1: GitHub Copi
- lot: Your AI Companion for Every Workflow&#13\;\n&#13\;\n​6:00 PM – Sess
- ion 2: Deep Dive into the GitHub Copilot CLI&#13\;\n&#13\;\n​6:30 PM – W
- orkshop: Hands-on with GitHub Copilot&#13\;\n&#13\;\n​8:00 PM – Closing 
- &amp\; Next Steps&#13\;\n\n\nTags: microsoft\, github\, AI\, copilot\n\n
- Imported from: http://calagator.org/events/1250482512
-URL:https://luma.com/x5fwhl5u?tk=CVnGJ6
-SUMMARY:GitHub Copilot Dev Days Portland\, Oregon
-LOCATION:Microsoft Office Hillsboro: 9820 NW Gibbs Drive\, Hillsboro OR 9
- 7006 US
+CREATED;VALUE=DATE-TIME:20260327T184725Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260410T140000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260410T130000
+DTSTAMP;VALUE=DATE-TIME:20260327T184725Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260327T184725Z
+UID:http://calagator.org/events/1250482526
+DESCRIPTION:Ever wondered how someone can go from working in fast food to
+  building a career in tech and cybersecurity?&#13\;\n&#13\;\nStarting a 
+ career in tech without a clear path can feel overwhelming\, especially w
+ hen coming from a non-technical background. With the right approach and 
+ consistency\, it becomes much more achievable.&#13\;\n&#13\;\nIn this li
+ ve Tech Talk\, Kevin Apolinario\, Security Analyst and career mentor\, w
+ ill share how he began his journey in tech and what helped him transitio
+ n successfully. He will cover developing your personal brand\, learning 
+ the fundamentals\, and mastering technical interviews.&#13\;\n&#13\;\nIf
+  you are new to tech or exploring a path into IT or cybersecurity\, you 
+ will walk away with practical steps to help you get started.&#13\;\n&#13
+ \;\nSave your spot now and join us on Friday\, April 10 at 1 PM PT | 3 P
+ M CT | 4 PM ET to start building your path into tech.&#13\;\n&#13\;\nRSV
+ P Here: https://www.meetup.com/techacademy/events/\n\nTags: tech talk\, 
+ Career Coaching\, Career Networking\, job search\, Job Interview\, techn
+ ology\, Tech Industry\, software engineering\, Computer Engineering\, co
+ ding\, programmers\, programming\, career transition\n\nImported from: h
+ ttp://calagator.org/events/1250482526
+URL:https://meet.google.com/zti-qpjp-yny
+SUMMARY:Tech Talk | From Fast Food Into Tech & Cybersecurity with Kevin A
+ polinario
+LOCATION:The Tech Academy: 310 SW 4th Ave Suite 412\, Portland OR 97204 U
+ SA
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260327T165401Z
+DTEND;VALUE=DATE:20260413
+DTSTART;VALUE=DATE:20260411
+DTSTAMP;VALUE=DATE-TIME:20260327T165401Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260327T165401Z
+UID:http://calagator.org/events/1250482524
+DESCRIPTION:This event runs from Saturday\, April 11\, 2026 at midnight t
+ hrough Sunday\, April 12\, 2026 at midnight.\n\nDescription:\nHackUP is 
+ Portland's first intercollegiate hackathon: a 24-hour tech innovation ma
+ rathon where students and industry leaders converge to network\, compete
+  for major prizes\, and build something meaningful.\n\nTags: hackathon\,
+  free\, students\n\nImported from: http://calagator.org/events/125048252
+ 4
+URL:https://www.hack-up.dev/
+SUMMARY:HackUP
+LOCATION:University of Portland: 5000 N Willamette Blvd\, Portland OR 972
+ 03 US
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260323T210526Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260414T130000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260414T120000
+DTSTAMP;VALUE=DATE-TIME:20260323T210526Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260323T210526Z
+UID:http://calagator.org/events/1250482519
+DESCRIPTION:Launching a life sciences company requires more than a breakt
+ hrough idea—it demands building the right corporate foundation from day 
+ one. In this Virtual Lunch &amp\; Learn session\, aspiring founders will
+  gain practical\, actionable insight into two core pillars of early‑stag
+ e biotech company formation. First\, we will cover why corporate formati
+ on matters and what founders need to get right early on: choosing the ap
+ propriate corporate structure\, properly issuing founder equity\, creati
+ ng and maintaining a clean cap table\, establishing a functional board o
+ f directors\, and preparing for future financing. These elements are ess
+ ential for attracting investors\, protecting founder ownership\, and avo
+ iding preventable legal and operational pitfalls.&#13\;\n&#13\;\nSecond\
+ , attendees will learn what to expect when in‑licensing foundational int
+ ellectual property from a university\, academic medical center\, or rese
+ arch institution—the critical step that often enables company formation 
+ in life sciences. We will demystify the tech transfer process\, discuss 
+ typical economic and diligence terms\, and highlight common negotiation 
+ and operational considerations so founders understand both the opportuni
+ ties and obligations that come with licensing core IP. Whether you are p
+ reparing to launch your first venture or exploring commercial pathways f
+ or your science\, this session will provide clarity\, context\, and conf
+ idence as you take the next steps on your entrepreneurial journey.\n\nTa
+ gs: biotech\, entrepreneur\, funding\, networking\, science\, startup\n\
+ nImported from: http://calagator.org/events/1250482519
+URL:https://www.tickettailor.com/events/oregonbioscienceincubator/2124627
+SUMMARY:Virtual Lunch & Learn: Formation and Licensing: What Founders Nee
+ d to Know
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260325T223419Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260414T193000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260414T173000
+DTSTAMP;VALUE=DATE-TIME:20260325T223419Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260325T223419Z
+UID:http://calagator.org/events/1250482522
+DESCRIPTION:Portland Java User Group&#13\;\n&#13\;\nApril's topic:  AI As
+ sisted Software Development&#13\;\n&#13\;\n&#13\;\nAI tools are accelera
+ ting the pace of software development. These tools are transforming the 
+ way that software engineers deliver systems.&#13\;\n&#13\;\nIn this talk
+ \, we will examine how software teams can take advantage of new AI tools
+ . We’ll discuss the pro’s and con’s of artificial intelligence in softwa
+ re engineering. Attend this talk if you are curious about new software t
+ ools and emerging engineering practices.&#13\;\n\n\nTags: java\, jvm\, p
+ jug\, AI\, agentic\n\nImported from: http://calagator.org/events/1250482
+ 522
+URL:https://www.meetup.com/pdxjug/events/313931715
+SUMMARY:PJUG: AI Assisted Software Development
+LOCATION:ProFocus: 10200 Southwest Eastridge Street\, Portland OR 97225 U
+ S
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260325T095305Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260415T193000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260415T173000
+DTSTAMP;VALUE=DATE-TIME:20260325T095305Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260325T095305Z
+UID:http://calagator.org/events/1250482521
+DESCRIPTION:Come join Community Broadband PDX to talk about building a pu
+ blicly owned broadband network here in Portland. &#13\;\n&#13\;\nRSVP to
+  be added to our mailing list!&#13\;\n&#13\;\nSee you there!\n\nTags: br
+ oadband\, internet\, utility\n\nImported from: http://calagator.org/even
+ ts/1250482521
+URL:https://communitybroadbandpdx.org
+SUMMARY:Community Broadband PDX Meetup
+LOCATION:Multnomah County Library Northwest Branch: 2030 NW Pettygrove St
+ reet\, Portland Oregon 97209 USA
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260327T015625Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260415T194500
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260415T183000
+DTSTAMP;VALUE=DATE-TIME:20260327T015625Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260327T015625Z
+UID:http://calagator.org/events/1250482523
+DESCRIPTION:Free public library workshop on how to minimize your digital 
+ trail using the Activist Checklist\n\nImported from: http://calagator.or
+ g/events/1250482523
+URL:https://techworkerscoalition.org/pdx/
+SUMMARY:Learn Basic Privacy & Digital Security Practices
+LOCATION:Albina Library\, Community Room 1A: 205 NE Russell St\, Portland
+  OR 97212 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
@@ -617,6 +400,26 @@ URL:https://www.meetup.com/portland-code-coffee/
 SUMMARY:Code & Coffee @ Roseline Café
 LOCATION:Roseline Cafe: false
 SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260325T005352Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260418T173000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260418T120000
+DTSTAMP;VALUE=DATE-TIME:20260325T005352Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260325T005352Z
+UID:http://calagator.org/events/1250482520
+DESCRIPTION:All about RSS! Wish you could have a dedicated place for all 
+ those newsletters in your email inbox? Got an RSS reader yet? Want your 
+ very own RSS feed for your blog? We'll help you get set up!&#13\;\n&#13\
+ ;\nRSS LIBERATES YOU.&#13\;\n&#13\;\nBut what do #pdx and RSS have in co
+ mmon? A LOT! Try this. Download an RSS app on your phone. Go to @portlan
+ dmercury@pdx.social's website. &quot\;Share&quot\; the link to your RSS 
+ app\, and click Add Feed. Never miss a local story or event!\n\nTags: we
+ b\n\nImported from: http://calagator.org/events/1250482520
+URL:https://reeds.website/2026/webday
+SUMMARY:Web Day: RSS Edition
+LOCATION:Albina Library: false
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260201T012554Z
