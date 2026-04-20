@@ -32,13 +32,25 @@ class MysticTheatreScraper(BaseScraper):
     VENUE_ADDRESS = "Mystic Theatre, 23 Petaluma Blvd N, Petaluma, CA 94952"
 
     def fetch_events(self) -> list[dict[str, Any]]:
-        """Fetch events from Mystic Theatre calendar page."""
-        self.logger.info(f"Fetching {self.CALENDAR_URL}")
-        response = requests.get(self.CALENDAR_URL, headers=DEFAULT_HEADERS, timeout=30)
-        response.raise_for_status()
+        """Fetch events from Mystic Theatre calendar page, walking all list-view pages."""
+        events: list[dict[str, Any]] = []
+        max_page = 1
+        page = 1
+        while page <= max_page and page <= 20:  # safety bound
+            url = self.CALENDAR_URL if page == 1 else f"{self.CALENDAR_URL}?list1page={page}"
+            self.logger.info(f"Fetching {url}")
+            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=30)
+            response.raise_for_status()
 
-        events = self._parse_seetickets_calendar(response.text)
-        
+            events.extend(self._parse_seetickets_calendar(response.text))
+
+            if page == 1:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                page_links = soup.select('.seetickets-list-view-pagination li[data-see-ajax-page]')
+                if page_links:
+                    max_page = max(int(li.get('data-see-ajax-page', 1)) for li in page_links)
+            page += 1
+
         if not events:
             self.logger.warning("No events found - page structure may have changed")
 
