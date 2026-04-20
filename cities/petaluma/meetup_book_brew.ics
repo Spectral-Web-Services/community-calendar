@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//Meetup Calendar 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:Petaluma Book (And Brew) Club
+X-WR-CALNAME:Petaluma Book (And Brew) Club
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:event_314309105@meetup.com
+SEQUENCE:1
+DTSTAMP:20260420T215406Z
+DTSTART;TZID=America/Los_Angeles:20260512T183000
+DTEND;TZID=America/Los_Angeles:20260512T203000
+SUMMARY:What We Can Know by Ian McEwan
+DESCRIPTION:Petaluma Book (And Brew) Club\n2014: At a dinner for close friends and colleagues\, renowned poet Francis Blundy honors his wife's birthday by reading aloud a new poem dedicated to her\, 'A Corona for Vivien'. Much wine is drunk as the guests listen\, and a delicious meal consumed. Little does anyone gathered around the candlelit table know that for generations to come people will speculate about the message of this poem\, a copy of which has never been found\, and which remains an enduring mystery. 2119: Just over one hundred years in the future\, much of the western world has been submerged by rising seas following a catastrophic nuclear accident. Those who survive are haunted by the richness of the world that has been lost. In the water-logged south of what used to be England\, Thomas Metcalfe\, a lonely scholar and researcher\, longs for the early twenty-first century as he chases the ghost of one poem\, 'A Corona for Vivian'. How wild and full of risk their lives were\, thinks Thomas\, as he pores over the archives of that distant era\, captivated by the freedoms and possibilities of human life at its zenith. When he stumbles across a clue that may lead to the elusive poem's discovery\, a story is revealed of entangled loves and a brutal crime that destroy his assumptions about people he thought he knew intimately well.
+URL;VALUE=URI:https://www.meetup.com/petaluma-book-and-brew-club/events/314309105/
+STATUS:CONFIRMED
+CREATED:20260416T041243Z
+LAST-MODIFIED:20260416T041243Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/7/3/e/b/600_533729675.jpeg
+END:VEVENT
+X-ORIGINAL-URL:https://www.meetup.com/petaluma-book-and-brew-club/events/ical/
+X-WR-CALNAME:Petaluma Book (And Brew) Club
+END:VCALENDAR
