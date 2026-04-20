@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-20T22:55:54.630219",
+  "generated": "2026-04-20T23:34:55.326437",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -36724,7 +36724,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 10
+              "count": 12
             }
           ]
         },
@@ -37324,7 +37324,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 56
+              "count": 63
             }
           ]
         },
@@ -38724,7 +38724,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 70
+              "count": 161
             }
           ]
         },
@@ -39124,7 +39124,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 11
+              "count": 10
             }
           ]
         },
@@ -41324,7 +41324,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 19
+              "count": 21
             }
           ]
         },
@@ -41524,7 +41524,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 6
+              "count": 8
             }
           ]
         },
@@ -41924,7 +41924,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 32
+              "count": 48
             }
           ]
         },
@@ -42124,7 +42124,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 47
+              "count": 45
             }
           ]
         },
@@ -42524,7 +42524,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 278
+              "count": 277
             }
           ]
         },
@@ -42818,9 +42818,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 1026,
-        "total_events": 1026,
-        "unique_urls": 759,
+        "total_with_url": 1141,
+        "total_events": 1141,
+        "unique_urls": 875,
         "generic_count": 159,
         "generic_domains": [
           {
@@ -42850,9 +42850,15 @@
           },
           {
             "source": "SRJC Petaluma Campus",
-            "events": 196,
-            "unique_urls": 90,
+            "events": 194,
+            "unique_urls": 89,
             "specificity_pct": 46
+          },
+          {
+            "source": "Petaluma Regional Library",
+            "events": 161,
+            "unique_urls": 161,
+            "specificity_pct": 100
           },
           {
             "source": "Petaluma Elks Lodge",
@@ -42861,15 +42867,9 @@
             "specificity_pct": 1
           },
           {
-            "source": "Petaluma Regional Library",
-            "events": 70,
-            "unique_urls": 70,
-            "specificity_pct": 100
-          },
-          {
             "source": "Brewsters Beer Garden",
-            "events": 56,
-            "unique_urls": 56,
+            "events": 63,
+            "unique_urls": 63,
             "specificity_pct": 100
           },
           {
@@ -42879,15 +42879,15 @@
             "specificity_pct": 100
           },
           {
-            "source": "Petaluma Downtown Association",
-            "events": 45,
-            "unique_urls": 45,
+            "source": "Petaluma Chamber of Commerce",
+            "events": 47,
+            "unique_urls": 47,
             "specificity_pct": 100
           },
           {
-            "source": "Petaluma Chamber of Commerce",
-            "events": 31,
-            "unique_urls": 31,
+            "source": "Petaluma Downtown Association",
+            "events": 43,
+            "unique_urls": 43,
             "specificity_pct": 100
           },
           {
@@ -42904,8 +42904,8 @@
           },
           {
             "source": "Mystic Theatre",
-            "events": 19,
-            "unique_urls": 19,
+            "events": 21,
+            "unique_urls": 21,
             "specificity_pct": 100
           },
           {
@@ -42921,13 +42921,13 @@
             "specificity_pct": 100
           },
           {
-            "source": "Meetup: Mindful Petaluma",
-            "events": 10,
-            "unique_urls": 10,
-            "specificity_pct": 100
+            "source": "Adobe Road Winery",
+            "events": 12,
+            "unique_urls": 7,
+            "specificity_pct": 58
           },
           {
-            "source": "Meetup Sonoma Outdoors",
+            "source": "Meetup: Mindful Petaluma",
             "events": 10,
             "unique_urls": 10,
             "specificity_pct": 100
@@ -42937,12 +42937,12 @@
       "categories": [
         {
           "category": "(uncategorized)",
-          "count": 1026
+          "count": 1141
         }
       ],
       "images": {
-        "total": 1026,
-        "with_image": 682,
+        "total": 1141,
+        "with_image": 689,
         "by_source": [
           {
             "source": "Griffo Distillery",
@@ -42951,13 +42951,13 @@
           },
           {
             "source": "SRJC Petaluma Campus",
-            "total": 196,
-            "with_image": 184
+            "total": 194,
+            "with_image": 182
           },
           {
             "source": "Brewsters Beer Garden",
-            "total": 56,
-            "with_image": 56
+            "total": 63,
+            "with_image": 63
           },
           {
             "source": "Aqus Community",
@@ -42966,13 +42966,13 @@
           },
           {
             "source": "Petaluma Downtown Association",
-            "total": 45,
-            "with_image": 45
+            "total": 43,
+            "with_image": 43
           },
           {
             "source": "Mystic Theatre",
-            "total": 19,
-            "with_image": 19
+            "total": 21,
+            "with_image": 21
           },
           {
             "source": "Meetup: Mindful Petaluma",
@@ -43005,12 +43005,12 @@
             "with_image": 8
           },
           {
-            "source": "Cool Petaluma",
-            "total": 6,
-            "with_image": 6
+            "source": "Petaluma Arts Center",
+            "total": 8,
+            "with_image": 8
           },
           {
-            "source": "Petaluma Arts Center",
+            "source": "Cool Petaluma",
             "total": 6,
             "with_image": 6
           },
@@ -43069,19 +43069,19 @@
         {
           "source": "Petaluma Garden Club",
           "source_id": "garden_club",
-          "location": "San Diego, CA, USA\r",
+          "location": "1939 Castle Drive\r",
           "count": 1,
           "titles": [
-            "CGCI Convention "
+            "Fabulous Plant Sale"
           ]
         },
         {
           "source": "Petaluma Garden Club",
           "source_id": "garden_club",
-          "location": "1939 Castle Drive\r",
+          "location": "San Diego, CA, USA\r",
           "count": 1,
           "titles": [
-            "Fabulous Plant Sale"
+            "CGCI Convention "
           ]
         },
         {
@@ -43100,7 +43100,7 @@
         "tzids": [
           {
             "tzid": "America/Los_Angeles",
-            "count": 1102,
+            "count": 1216,
             "files": 23,
             "matches_city": true,
             "sample_files": [
@@ -43126,7 +43126,7 @@
           },
           {
             "tzid": "(bare \u2014 assumes city tz)",
-            "count": 95,
+            "count": 99,
             "files": 17,
             "matches_city": false,
             "sample_files": [
