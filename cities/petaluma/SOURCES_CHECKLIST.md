@@ -46,6 +46,10 @@
 
 ### Needs custom scraper
 - Montagne Russe Winery (russewines.com/Events) - Vin65 platform, no structured data, ~6 events
+- Copperfield's Books Petaluma (copperfieldsbooks.com/upcoming-events?tags=2073) - Drupal/IndieCommerce, tags=2073 filters to Petaluma-only (~15 events, author events + storytimes). `antibot_key` URL param appears to be a per-session token, likely droppable. Clean per-event URLs (e.g. /event/2026-04-23/robert-moor) suggest per-page structured data. 2026-04-20
+
+### Google Calendar embed (easy ICS win)
+- UU Petaluma (uupetaluma.org/congregation-news/calendar-events/) - WordPress page embedding Google Calendar. No visible ICS link on page, but once the calendar ID is extracted from the iframe, it plugs into the same Google Calendar ICS pattern already used for Elks Lodge, Garden Club, Brooks Note. Weekly services + committee meetings + Sanctuary Concert Series. 2026-04-20
 
 ### Not yet investigated
 - Village Network of Petaluma (HelpfulVillage platform - events page wouldn't load, needs retry)
@@ -54,6 +58,9 @@
 - Empire Runners Club (Wild Apricot - no native ICS)
 - Sonoma-Marin Fairgrounds (sonoma-marinfair.org/calendar) - WordPress Events Calendar, ICS empty, check closer to fair season
 - Petaluma Wetlands Alliance (petalumawetlands.org/calendar/) - WordPress/Divi, JS-rendered calendar, couldn't see events
+
+### Known issues with existing sources
+- Mystic Theatre scraper underreporting (2026-04-20): checklist shows 12 events but mystictheatre.com/calendar/ currently lists 24 upcoming through Nov 2026. Investigate pagination / date window in scrapers/mystic_theatre.py.
 
 ---
 
@@ -67,6 +74,7 @@
 | Petaluma Wildlife Museum | School tours/private events, not public |
 | Youth sports leagues | Member-only platforms, no public calendar exports (see below) |
 | WonderStump! | Squarespace but no events collection; Ticket Tailor behind Cloudflare |
+| Phoenix Theater (rechecked 2026-04-20) | thephoenixtheater.com "Upcoming Events" section has no server-rendered event data — JS-rendered, platform unclear. Retired 2026-02-15 as Eventbrite-dependent; still not viable unless they've moved platforms. |
 | 350 Petaluma | Squarespace events but dead since Oct 2023 |
 | Petaluma People Services | Squarespace but hand-curated page, not events collection |
 | Rotary Club of Petaluma | ClubRunner site deactivated |
