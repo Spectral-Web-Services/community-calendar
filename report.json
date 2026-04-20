@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-20T21:54:57.500076",
+  "generated": "2026-04-20T22:55:54.630219",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -36724,7 +36724,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 6
+              "count": 10
             }
           ]
         },
@@ -41324,7 +41324,7 @@
             },
             {
               "date": "2026-04-20",
-              "count": 12
+              "count": 19
             }
           ]
         },
@@ -42818,9 +42818,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 1015,
-        "total_events": 1015,
-        "unique_urls": 752,
+        "total_with_url": 1026,
+        "total_events": 1026,
+        "unique_urls": 759,
         "generic_count": 159,
         "generic_domains": [
           {
@@ -42903,6 +42903,12 @@
             "specificity_pct": 9
           },
           {
+            "source": "Mystic Theatre",
+            "events": 19,
+            "unique_urls": 19,
+            "specificity_pct": 100
+          },
+          {
             "source": "Petaluma Garden Club",
             "events": 18,
             "unique_urls": 1,
@@ -42912,12 +42918,6 @@
             "source": "Casa Grande High School",
             "events": 17,
             "unique_urls": 17,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Mystic Theatre",
-            "events": 12,
-            "unique_urls": 12,
             "specificity_pct": 100
           },
           {
@@ -42937,12 +42937,12 @@
       "categories": [
         {
           "category": "(uncategorized)",
-          "count": 1015
+          "count": 1026
         }
       ],
       "images": {
-        "total": 1015,
-        "with_image": 675,
+        "total": 1026,
+        "with_image": 682,
         "by_source": [
           {
             "source": "Griffo Distillery",
@@ -42971,8 +42971,8 @@
           },
           {
             "source": "Mystic Theatre",
-            "total": 12,
-            "with_image": 12
+            "total": 19,
+            "with_image": 19
           },
           {
             "source": "Meetup: Mindful Petaluma",
@@ -43060,6 +43060,15 @@
         {
           "source": "Petaluma Garden Club",
           "source_id": "garden_club",
+          "location": "Lucchesi Community Center, 320 McDowell Blvd\r",
+          "count": 1,
+          "titles": [
+            "Twig Vase Workshop"
+          ]
+        },
+        {
+          "source": "Petaluma Garden Club",
+          "source_id": "garden_club",
           "location": "San Diego, CA, USA\r",
           "count": 1,
           "titles": [
@@ -43073,15 +43082,6 @@
           "count": 1,
           "titles": [
             "Fabulous Plant Sale"
-          ]
-        },
-        {
-          "source": "Petaluma Garden Club",
-          "source_id": "garden_club",
-          "location": "Lucchesi Community Center, 320 McDowell Blvd\r",
-          "count": 1,
-          "titles": [
-            "Twig Vase Workshop"
           ]
         },
         {
@@ -43126,7 +43126,7 @@
           },
           {
             "tzid": "(bare \u2014 assumes city tz)",
-            "count": 84,
+            "count": 95,
             "files": 17,
             "matches_city": false,
             "sample_files": [
