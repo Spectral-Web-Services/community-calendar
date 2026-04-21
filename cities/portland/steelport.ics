@@ -5,9 +5,9 @@ X-WR-CALNAME:Steelport Knife Co.
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Chef Demo: Peter Cho - Han Oak
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260425T110000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260425T110000
-UID:f7a54aee@steelportknife.com
+DTSTART;TZID=America/Los_Angeles:20260425T110000
+DTEND;TZID=America/Los_Angeles:20260425T110000
+UID:cb4baf98@steelportknife.com
 DESCRIPTION:
 LOCATION:STEELPORT Knife Co. 3602 Northeast Sandy Boulevard #Suite B Portl
  and\, OR 97232 Born in Korea and raised in Oregon\, Peter Cho has become a
@@ -29,9 +29,9 @@ X-SOURCE:Steelport Knife Co.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Chef Demo: Althea Grey Potter - Bar Nouveau
-DTSTART;TZID=PDT;VALUE=DATE-TIME:20260530T110000
-DTEND;TZID=PDT;VALUE=DATE-TIME:20260530T110000
-UID:e362d27c@steelportknife.com
+DTSTART;TZID=America/Los_Angeles:20260530T110000
+DTEND;TZID=America/Los_Angeles:20260530T110000
+UID:5f7adffa@steelportknife.com
 DESCRIPTION:
 LOCATION:STEELPORT Knife Co. 3602 Northeast Sandy Boulevard #Suite B Portl
  and\, OR 97232 Chef Althea Grey Potter has been cooking in Portland for th
@@ -46,6 +46,25 @@ LOCATION:STEELPORT Knife Co. 3602 Northeast Sandy Boulevard #Suite B Portl
  she'll do a "Perfect Herbs" demo. RSVP below to save your spot
 URL:https://www.steelportknife.com/blogs/events/may-30-chef-demo-althea-gr
  ey-potter-bar-nouveau
+X-SOURCE:Steelport Knife Co.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Pre-Father's Day Artisan Market
+DTSTART;TZID=America/Los_Angeles:20260613T160000
+DTEND;TZID=America/Los_Angeles:20260613T160000
+UID:39f189e9@steelportknife.com
+DESCRIPTION:STEELPORT Knife Co.\, located at 3602 NE Sandy Blvd.\, is host
+ ing the 6th Annual Pre-Father’s Day Artisan Market on Saturday\, June 13
+ th\, from 1-4 pm . It's an ideal opportunity to find the perfect gift for 
+ Dad. Offering a handpicked blend of shopping\, food and drink sampling\, a
+ nd factory tours\, this free\, all-ages event promises to showcase the bes
+ t of the Northwest. STEELPORT Knife Co. is the leader in American-forged k
+ itchen knives\, with each knife handcrafted at their factory right here in
+  t...
+LOCATION:STEELPORT Knife Co.\, 3602 NE Sandy Blvd Suite B\, Portland\, OR 
+ 97232
+URL:https://www.steelportknife.com/blogs/events/jun-13th-annual-pre-father
+ s-day-artisan-market
 X-SOURCE:Steelport Knife Co.
 END:VEVENT
 END:VCALENDAR

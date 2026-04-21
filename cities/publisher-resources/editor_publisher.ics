@@ -5,27 +5,17 @@ X-WR-CALNAME:Editor & Publisher
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:N.E.A.C.E. 2026 Annual Conference
-DTSTART;VALUE=DATE-TIME:20260426T000000
-DTEND;VALUE=DATE-TIME:20260427T000000
+DTSTART:20260426T000000
+DTEND:20260427T000000
 UID:3f192829c40538c1b69a0b45b62a8dd8@editorandpublisher.com
 DESCRIPTION:
 URL:https://www.editorandpublisher.com/stories/neace,260559
 X-SOURCE:Editor & Publisher
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2026 Niche Media Conference
-DTSTART;VALUE=DATE-TIME:20260408T000000
-DTEND;VALUE=DATE-TIME:20260410T000000
-UID:721d68ddfd9673a64c4f66e97bf63968@editorandpublisher.com
-DESCRIPTION:
-URL:https://www.editorandpublisher.com/stories/niche-media-conference-apri
- l-8-10,258025
-X-SOURCE:Editor & Publisher
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:2026 South Dakota NewsMedia Association Convention
-DTSTART;VALUE=DATE-TIME:20260430T000000
-DTEND;VALUE=DATE-TIME:20260502T000000
+DTSTART:20260430T000000
+DTEND:20260502T000000
 UID:e42ce0759f1f599e2e3185836097534d@editorandpublisher.com
 DESCRIPTION:
 URL:https://www.editorandpublisher.com/stories/2026-south-dakota-newsmedia
@@ -34,8 +24,8 @@ X-SOURCE:Editor & Publisher
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:INMA World Congress of News Media
-DTSTART;VALUE=DATE-TIME:20260504T000000
-DTEND;VALUE=DATE-TIME:20260508T000000
+DTSTART:20260504T000000
+DTEND:20260508T000000
 UID:d3f251252da300d6e00c22c9e925a039@editorandpublisher.com
 DESCRIPTION:
 URL:https://www.editorandpublisher.com/stories/inma-world-congress-of-news
@@ -44,8 +34,8 @@ X-SOURCE:Editor & Publisher
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 MDDC Conference & Celebration
-DTSTART;VALUE=DATE-TIME:20260508T000000
-DTEND;VALUE=DATE-TIME:20260508T000000
+DTSTART:20260508T000000
+DTEND:20260508T000000
 UID:ca02eebc521632098d3bb7093562d47f@editorandpublisher.com
 DESCRIPTION:
 URL:https://www.editorandpublisher.com/stories/mddc-conference-celebration
@@ -55,8 +45,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 Media Financial Management Association and Financial Executiv
  es International Annual Conference
-DTSTART;VALUE=DATE-TIME:20260517T000000
-DTEND;VALUE=DATE-TIME:20260520T000000
+DTSTART:20260517T000000
+DTEND:20260520T000000
 UID:87111fe8bd38bfea936fceed043c5cd1@editorandpublisher.com
 DESCRIPTION:
 URL:https://www.editorandpublisher.com/stories/2026-media-financial-manage
@@ -65,12 +55,32 @@ X-SOURCE:Editor & Publisher
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2026 Illinois Press Annual Convention
-DTSTART;VALUE=DATE-TIME:20260604T000000
-DTEND;VALUE=DATE-TIME:20260604T000000
+DTSTART:20260604T000000
+DTEND:20260604T000000
 UID:9aaef4e2088cfd65fd9c81e2310a998e@editorandpublisher.com
 DESCRIPTION:
 URL:https://www.editorandpublisher.com/stories/2026-illinois-press-annual-
  convention-june-4,258022
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Audience Development Media Alliance Summit
+DTSTART:20260610T000000
+DTEND:20260612T000000
+UID:ee7f2f557513968a73dee5ad6b45e1c8@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/audience-development-media-
+ alliance-summit-june-10-12,261220
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Texas Press Association Convention & Trade Show
+DTSTART:20260618T000000
+DTEND:20260620T000000
+UID:e2094502b30da0e051a7383e5c8ea022@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/texas-press-association-con
+ vention-trade-show-june-18-20,258034
 X-SOURCE:Editor & Publisher
 END:VEVENT
 END:VCALENDAR

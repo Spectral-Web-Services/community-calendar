@@ -5,8 +5,8 @@ X-WR-CALNAME:Knight Center for Journalism
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
 SUMMARY:Advanced Prompt Engineering for Journalists
-DTSTART;VALUE=DATE-TIME:20260413T000000
-DTEND;VALUE=DATE-TIME:20260510T000000
+DTSTART:20260413T000000
+DTEND:20260510T000000
 UID:a4d253e27b4082b4398700c3f5829b98@journalismcourses.org
 DESCRIPTION:Move beyond chat interfaces and start building real AI-powered
   workflows for journalism.
@@ -16,12 +16,25 @@ X-SOURCE:Knight Center for Journalism
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Data Mindset for Editors
-DTSTART;VALUE=DATE-TIME:20260209T000000
-DTEND;VALUE=DATE-TIME:20260308T000000
+DTSTART:20260209T000000
+DTEND:20260308T000000
 UID:406aaf5fe7baf5e9e661d027253612ac@journalismcourses.org
 DESCRIPTION:How can editors confidently oversee data-informed journalism\,
   even if they are not the ones doing the data analysis?
 URL:https://journalismcourses.org/product/data-mindset-for-editors/
+X-SOURCE:Knight Center for Journalism
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New and updated digital investigative tools
+DTSTART:20251210T000000
+DTEND:20251210T000000
+UID:a2d67b0285cd37044ca41bd84b4b08e0@journalismcourses.org
+DESCRIPTION:Digital tools can make your investigations faster and more pow
+ erful—but it’s hard to know which ones are worth your time\, and new o
+ ptions keep popping up. What if you could get a curated\, up-to-date toolk
+ it without the guesswork?
+URL:https://journalismcourses.org/product/new-and-updated-digital-investig
+ ative-tools/
 X-SOURCE:Knight Center for Journalism
 END:VEVENT
 END:VCALENDAR

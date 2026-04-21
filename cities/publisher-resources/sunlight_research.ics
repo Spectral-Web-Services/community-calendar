@@ -4,33 +4,44 @@ PRODID:-//Sunlight Research//sunlightresearch.net//
 X-WR-CALNAME:Sunlight Research
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Learn about Datasette
-DTSTART;VALUE=DATE-TIME:20260417T130000
-DTEND;VALUE=DATE-TIME:20260417T140000
-UID:b03f67f325dd63347d5f5ba3a7bf521e@sunlightresearch.net
-DESCRIPTION:
-LOCATION:Online
-URL:https://us02web.zoom.us/meeting/register/pDv8lZSnR9CywwAi3G9h5Q
-X-SOURCE:Sunlight Research
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dive into NotebookLM with Jeremy Caplan
-DTSTART;VALUE=DATE-TIME:20260429T130000
-DTEND;VALUE=DATE-TIME:20260429T140000
-UID:db74e192dc78ed942f83009ffad4ef49@sunlightresearch.net
+SUMMARY:Inside NotebookLM with Jeremy Caplan
+DTSTART:20260429T130000
+DTEND:20260429T140000
+UID:0b2470f171559c4b5ec126c4bda53f86@sunlightresearch.net
 DESCRIPTION:
 LOCATION:Online
 URL:https://us02web.zoom.us/meeting/register/ZOI9sx2wTjOPCzrXX_ZJ-A
 X-SOURCE:Sunlight Research
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FOIAFriday
-DTSTART;VALUE=DATE-TIME:20260424T130000
-DTEND;VALUE=DATE-TIME:20260424T140000
-UID:1d08de9571be47c6c9fbefd7bfd04ae1@sunlightresearch.net
+SUMMARY:Enhancing public records work with LLMs
+DTSTART:20260515T130000
+DTEND:20260515T140000
+UID:4fe91fb19581e88c842881dd6f96f593@sunlightresearch.net
 DESCRIPTION:
 LOCATION:Online
-URL:https://www.sunlightresearch.net/event-details/foia-friday
+URL:https://us02web.zoom.us/meeting/register/pDv8lZSnR9CywwAi3G9h5Q
+X-SOURCE:Sunlight Research
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI: Threats and Opportunities
+DTSTART:20260501T130000
+DTEND:20260501T140000
+UID:21c0776c19e718c3f275872a4b35fdb6@sunlightresearch.net
+DESCRIPTION:
+LOCATION:Online
+URL:https://us02web.zoom.us/webinar/register/WN_IO118V-qRzO40LQMKqTFxA#/re
+ gistration
+X-SOURCE:Sunlight Research
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keeping ChatGPT from eating your lunch Using AI with Intention
+DTSTART:20260520T130000
+DTEND:20260520T140000
+UID:fbec9ed9bb29b595b946b189592e0c56@sunlightresearch.net
+DESCRIPTION:
+LOCATION:Online
+URL:https://us02web.zoom.us/meeting/register/pXrQU2xCQpOTnpsyPQ0hvQ
 X-SOURCE:Sunlight Research
 END:VEVENT
 END:VCALENDAR

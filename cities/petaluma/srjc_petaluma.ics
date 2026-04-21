@@ -23,82 +23,6 @@ TZOFFSETTO:-0800
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260420
-DTEND;VALUE=DATE:20260421
-LOCATION:Doyle Library
-SUMMARY:Jerrold Ballaine: Land and Sea
-UID:20260420T070000Z-17161@calendar.santarosa.edu
-DTSTAMP:20260327T091445Z
-URL:https://calendar.santarosa.edu/event/17161-jerrold-ballaine-land-and-
- sea
-CATEGORIES:Arts
-LAST-MODIFIED:20260327T161445Z
-ATTACH:https://calendar.santarosa.edu/live/image/gid/3/width/80/height/80
- /crop/1/src_region/0,0,589,589/562_calendar_square_-_Sonoma_Coast_1998_by
- _Jerrold_Ballaine_for_LAND_AND_SEA.rev.1772579606.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:17161
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://calendar.santarosa.edu/live/image/gid/3/width/8
- 0/height/80/crop/1/src_region/0\,0\,589\,589/562_calendar_square_-_Sonoma
- _Coast_1998_by_Jerrold_Ballaine_for_LAND_AND_SEA.rev.1772579606.jpg
-X-LIVEWHALE-ALL-DAY:1
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260420T140000
-DTEND;TZID=America/Los_Angeles:20260420T170000
-SUMMARY:(Baseball) Santa Rosa at Modesto
-DESCRIPTION:Baseball: (Baseball) Santa Rosa at Modesto\, Cashless Entry *
- All tickets purchased through Hometown Ticketing\, Bottom of 5th
-UID:20260420T210000Z-15852@calendar.santarosa.edu
-DTSTAMP:20260304T123102Z
-URL:https://calendar.santarosa.edu/event/15852-baseball-santa-rosa-at-mod
- esto
-CATEGORIES:Athletics
-LAST-MODIFIED:20260420T225142Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:15852
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260420T180000
-DTEND;TZID=America/Los_Angeles:20260420T190000
-LOCATION:Sawubona BLOC (360 Pioneer Hall) - Santa Rosa Campus
-SUMMARY:Access Basic Needs & Learn about Financial Intelligence
-DESCRIPTION:Join us in the Sawubona BLOC for Black Student Success Week\,
-  April 20 - April 23\, 2026 schedule. We will be hosting a series of dail
- y events and every evening hosting a watch party with the Cancellors who 
- will be giving away prizes.&#160\;  Monday\, April 20th:  12 - 2 pm - "Bl
- ack Visioning"- join us as we make digital vision boards. Lunch Provided 
-  6 - 7 pm- Access Basic Needs/ Learn About Financial Intelligence- Webina
- r Watch Party- Dinner ProvidedWebinar links here! (https://linktr.ee/blac
- kstudentsuccessweek)
-X-ALT-DESC;FMTTYPE=text/html:<p>  Join us in the Sawubona BLOC for Black 
- Student Success Week\, April 20 - April 23\, 2026 schedule. We will be ho
- sting a series of daily events and every evening hosting a watch party wi
- th the Cancellors who will be giving away prizes.&#160\;</p><p>  Monday\,
-  April 20th:</p><p>  12 - 2 pm - "Black Visioning"- join us as we make di
- gital vision boards. Lunch Provided</p><p>  6 - 7 pm- Access Basic Needs/
-  Learn About Financial Intelligence- Webinar Watch Party- Dinner Provided
- </p><p><a href="https://linktr.ee/blackstudentsuccessweek" target="_blank
- " rel="noopener">Webinar links here!</a></p>
-UID:20260421T010000Z-17758@calendar.santarosa.edu
-DTSTAMP:20260410T142839Z
-URL:https://calendar.santarosa.edu/event/17758-access-basic-needs-learn-a
- bout-financial-intelligence
-CATEGORIES:Department Events
-LAST-MODIFIED:20260410T214101Z
-ATTACH:https://calendar.santarosa.edu/live/image/gid/3/width/80/height/80
- /crop/1/src_region/0,0,2000,2000/590_cs_-_sawubona_bloc_logo.rev.17758555
- 04.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:17758
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://calendar.santarosa.edu/live/image/gid/3/width/8
- 0/height/80/crop/1/src_region/0\,0\,2000\,2000/590_cs_-_sawubona_bloc_log
- o.rev.1775855504.png
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260421
 DTEND;VALUE=DATE:20260422
 LOCATION:Doyle Library
@@ -837,7 +761,7 @@ X-ALT-DESC;FMTTYPE=text/html:If you have questions about transferring\, w
 UID:20260423T200000Z-13730@calendar.santarosa.edu
 DTSTAMP:20260120T094144Z
 URL:https://calendar.santarosa.edu/event/13730-transfer-talks
-LAST-MODIFIED:20260420T225210Z
+LAST-MODIFIED:20260421T012147Z
 RRULE:FREQ=WEEKLY;UNTIL=20260514T200000Z;INTERVAL=1;BYDAY=TU,TH
 EXDATE:20260212T210000Z,20260317T200000Z,20260319T200000Z,20260331T200000
  Z,20260402T200000Z,20260407T200000Z,20260409T200000Z,20260416T200000Z,202

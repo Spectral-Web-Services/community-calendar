@@ -5,8 +5,8 @@ X-WR-CALNAME:Hillsboro Markets
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Hillsboro Farmers Markets - Saturday Downtown
-DTSTART;VALUE=DATE-TIME:20260425T160000Z
-DTEND;VALUE=DATE-TIME:20260425T200000Z
+DTSTART;TZID=America/Los_Angeles:20260425T090000
+DTEND;TZID=America/Los_Angeles:20260425T130000
 UID:69cde30eef9ad822714dfb9d@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
@@ -16,8 +16,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hillsboro Farmers Markets - Saturday Downtown
-DTSTART;VALUE=DATE-TIME:20260502T160000Z
-DTEND;VALUE=DATE-TIME:20260502T200000Z
+DTSTART;TZID=America/Los_Angeles:20260502T090000
+DTEND;TZID=America/Los_Angeles:20260502T130000
 UID:69cde48bdfb03a07f49c6f0e@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
@@ -27,9 +27,21 @@ URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-2n6
 X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hillsboro Farmers Markets - Saturday Downtown
+DTSTART;TZID=America/Los_Angeles:20260613T090000
+DTEND;TZID=America/Los_Angeles:20260613T130000
+UID:69cde4a827d6cc6a35fa237b@squarespace.com
+DESCRIPTION:
+LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
+ reet\, Hillsboro\, OR\, 97123\, United States
+URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-7sx
+ z7
+X-SOURCE:Hillsboro Markets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Hillsboro Farmers Markets - Saturday Downtown 
-DTSTART;VALUE=DATE-TIME:20260523T160000Z
-DTEND;VALUE=DATE-TIME:20260523T200000Z
+DTSTART;TZID=America/Los_Angeles:20260523T090000
+DTEND;TZID=America/Los_Angeles:20260523T130000
 UID:69cde4a4e1eec5209981fca8@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
@@ -39,9 +51,69 @@ URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-88w
 X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hillsboro Farmers Markets - Saturday Downtown - Proud to be HSD
+DTSTART;TZID=America/Los_Angeles:20260509T090000
+DTEND;TZID=America/Los_Angeles:20260509T130000
+UID:69cde4a1b3781879278a66e1@squarespace.com
+DESCRIPTION:
+LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
+ reet\, Hillsboro\, OR\, 97123\, United States
+URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-9yp
+ d2
+X-SOURCE:Hillsboro Markets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hillsboro Farmers Markets - Saturday Downtown
+DTSTART;TZID=America/Los_Angeles:20260606T090000
+DTEND;TZID=America/Los_Angeles:20260606T130000
+UID:69cde4a760e66e3c3e9c3789@squarespace.com
+DESCRIPTION:
+LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
+ reet\, Hillsboro\, OR\, 97123\, United States
+URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-a8f
+ bt
+X-SOURCE:Hillsboro Markets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hillsboro Farmers Markets - Saturday Downtown
+DTSTART;TZID=America/Los_Angeles:20260530T090000
+DTEND;TZID=America/Los_Angeles:20260530T130000
+UID:69cde4a5e259ea539d46e3be@squarespace.com
+DESCRIPTION:
+LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
+ reet\, Hillsboro\, OR\, 97123\, United States
+URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-fr4
+ cl
+X-SOURCE:Hillsboro Markets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hillsboro Farmers Markets - Saturday Downtown
+DTSTART;TZID=America/Los_Angeles:20260620T090000
+DTEND;TZID=America/Los_Angeles:20260620T130000
+UID:69cde4a90ae8fe55abc3fbac@squarespace.com
+DESCRIPTION:
+LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
+ reet\, Hillsboro\, OR\, 97123\, United States
+URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-hj2
+ p2
+X-SOURCE:Hillsboro Markets
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hillsboro Farmers Markets - Saturday Downtown - Public Works Day
+DTSTART;TZID=America/Los_Angeles:20260516T090000
+DTEND;TZID=America/Los_Angeles:20260516T130000
+UID:69cde4a3c5cceb395bdebca7@squarespace.com
+DESCRIPTION:
+LOCATION:Hillsboro Farmers' Markets - Downtown Saturday\, 150 East Main St
+ reet\, Hillsboro\, OR\, 97123\, United States
+URL:https://hillsboromarkets.org/events/cjhxxmdhvuea4ky3x1rjuqvqy0nslu-l9k
+ wj
+X-SOURCE:Hillsboro Markets
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250823T160000Z
-DTEND;VALUE=DATE-TIME:20250823T200000Z
+DTSTART;TZID=America/Los_Angeles:20250823T090000
+DTEND;TZID=America/Los_Angeles:20250823T130000
 UID:675b3af093dacd47aa95bb71@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -53,8 +125,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250830T160000Z
-DTEND;VALUE=DATE-TIME:20250830T200000Z
+DTSTART;TZID=America/Los_Angeles:20250830T090000
+DTEND;TZID=America/Los_Angeles:20250830T130000
 UID:675b3b0678ef23439280bb56@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -66,8 +138,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250906T160000Z
-DTEND;VALUE=DATE-TIME:20250906T200000Z
+DTSTART;TZID=America/Los_Angeles:20250906T090000
+DTEND;TZID=America/Los_Angeles:20250906T130000
 UID:675b3b1477014419ebf992be@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -79,8 +151,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250913T160000Z
-DTEND;VALUE=DATE-TIME:20250913T200000Z
+DTSTART;TZID=America/Los_Angeles:20250913T090000
+DTEND;TZID=America/Los_Angeles:20250913T130000
 UID:675b3b29290d994e3b88a494@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -92,8 +164,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250920T160000Z
-DTEND;VALUE=DATE-TIME:20250920T200000Z
+DTSTART;TZID=America/Los_Angeles:20250920T090000
+DTEND;TZID=America/Los_Angeles:20250920T130000
 UID:675b3b3d54048525e0fa321c@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -105,8 +177,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250927T160000Z
-DTEND;VALUE=DATE-TIME:20250927T200000Z
+DTSTART;TZID=America/Los_Angeles:20250927T090000
+DTEND;TZID=America/Los_Angeles:20250927T130000
 UID:675b3b4d93dacd47aa95cd1c@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -118,8 +190,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251004T160000Z
-DTEND;VALUE=DATE-TIME:20251004T200000Z
+DTSTART;TZID=America/Los_Angeles:20251004T090000
+DTEND;TZID=America/Los_Angeles:20251004T130000
 UID:675b3b63db7eb83004d6f9f7@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -131,8 +203,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251011T160000Z
-DTEND;VALUE=DATE-TIME:20251011T200000Z
+DTSTART;TZID=America/Los_Angeles:20251011T090000
+DTEND;TZID=America/Los_Angeles:20251011T130000
 UID:675b3b73a55db264574b6f33@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -144,8 +216,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251018T160000Z
-DTEND;VALUE=DATE-TIME:20251018T200000Z
+DTSTART;TZID=America/Los_Angeles:20251018T090000
+DTEND;TZID=America/Los_Angeles:20251018T130000
 UID:675b3b85db7eb83004d6fb1b@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -158,8 +230,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Downtown Hillsboro Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251025T160000Z
-DTEND;VALUE=DATE-TIME:20251025T200000Z
+DTSTART;TZID=America/Los_Angeles:20251025T090000
+DTEND;TZID=America/Los_Angeles:20251025T130000
 UID:675b3b9ba61ab663a8d417fa@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -172,8 +244,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hillsboro WINTER Market
-DTSTART;VALUE=DATE-TIME:20260221T170000Z
-DTEND;VALUE=DATE-TIME:20260221T210000Z
+DTSTART;TZID=America/Los_Angeles:20260221T090000
+DTEND;TZID=America/Los_Angeles:20260221T130000
 UID:69976f4008135b60f4ce8e21@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -183,8 +255,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hillsboro WINTER Market (Copy)
-DTSTART;VALUE=DATE-TIME:20260228T170000Z
-DTEND;VALUE=DATE-TIME:20260228T180000Z
+DTSTART;TZID=America/Los_Angeles:20260228T090000
+DTEND;TZID=America/Los_Angeles:20260228T100000
 UID:699770ccad2b2d2f0c16b24d@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -194,8 +266,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hillsboro WINTER Market (Copy) (Copy)
-DTSTART;VALUE=DATE-TIME:20260307T170000Z
-DTEND;VALUE=DATE-TIME:20260307T180000Z
+DTSTART;TZID=America/Los_Angeles:20260307T090000
+DTEND;TZID=America/Los_Angeles:20260307T100000
 UID:6997711f36cd6a5c5b9646ed@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -206,8 +278,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hillsboro WINTER Market (Copy) (Copy) (Copy)
-DTSTART;VALUE=DATE-TIME:20260314T160000Z
-DTEND;VALUE=DATE-TIME:20260314T170000Z
+DTSTART;TZID=America/Los_Angeles:20260314T090000
+DTEND;TZID=America/Los_Angeles:20260314T100000
 UID:699771355e61a8687041f10f@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 232 NE Lincoln St\, Suite K\, Hillsb
@@ -218,8 +290,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hillsboro WINTER Market (Copy) (Copy) (Copy) (Copy)
-DTSTART;VALUE=DATE-TIME:20260328T160000Z
-DTEND;VALUE=DATE-TIME:20260328T170000Z
+DTSTART;TZID=America/Los_Angeles:20260328T090000
+DTEND;TZID=America/Los_Angeles:20260328T100000
 UID:699771372e9ce97bd0020243@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -230,8 +302,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hillsboro WINTER Market (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)
-DTSTART;VALUE=DATE-TIME:20260321T160000Z
-DTEND;VALUE=DATE-TIME:20260321T170000Z
+DTSTART;TZID=America/Los_Angeles:20260321T090000
+DTEND;TZID=America/Los_Angeles:20260321T100000
 UID:69977426fb1b41019a79c6af@squarespace.com
 DESCRIPTION:
 LOCATION:Hillsboro Farmers' Markets\, 150 East Main Street\, Hillsboro\, O
@@ -242,8 +314,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250817T170000Z
-DTEND;VALUE=DATE-TIME:20250817T210000Z
+DTSTART;TZID=America/Los_Angeles:20250817T100000
+DTEND;TZID=America/Los_Angeles:20250817T140000
 UID:675b411bd7d8403dc11c01de@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -255,8 +327,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250824T170000Z
-DTEND;VALUE=DATE-TIME:20250824T210000Z
+DTSTART;TZID=America/Los_Angeles:20250824T100000
+DTEND;TZID=America/Los_Angeles:20250824T140000
 UID:675b41297d7131003a7cd4ad@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -268,8 +340,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250831T170000Z
-DTEND;VALUE=DATE-TIME:20250831T210000Z
+DTSTART;TZID=America/Los_Angeles:20250831T100000
+DTEND;TZID=America/Los_Angeles:20250831T140000
 UID:675b4160718c37772d177ded@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -281,8 +353,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250907T170000Z
-DTEND;VALUE=DATE-TIME:20250907T210000Z
+DTSTART;TZID=America/Los_Angeles:20250907T100000
+DTEND;TZID=America/Los_Angeles:20250907T140000
 UID:675b417203694e7f92295d7b@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -294,8 +366,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250914T170000Z
-DTEND;VALUE=DATE-TIME:20250914T210000Z
+DTSTART;TZID=America/Los_Angeles:20250914T100000
+DTEND;TZID=America/Los_Angeles:20250914T140000
 UID:675b418482729667454b1e8c@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -307,8 +379,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250921T170000Z
-DTEND;VALUE=DATE-TIME:20250921T210000Z
+DTSTART;TZID=America/Los_Angeles:20250921T100000
+DTEND;TZID=America/Los_Angeles:20250921T140000
 UID:675b4194fbb5f309377eac7c@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -320,8 +392,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20250928T170000Z
-DTEND;VALUE=DATE-TIME:20250928T210000Z
+DTSTART;TZID=America/Los_Angeles:20250928T100000
+DTEND;TZID=America/Los_Angeles:20250928T140000
 UID:675b41a70a8e542d742ee748@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -333,8 +405,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251005T170000Z
-DTEND;VALUE=DATE-TIME:20251005T210000Z
+DTSTART;TZID=America/Los_Angeles:20251005T100000
+DTEND;TZID=America/Los_Angeles:20251005T140000
 UID:675b41ba2f42eb3bf4379d3a@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -346,8 +418,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251012T170000Z
-DTEND;VALUE=DATE-TIME:20251012T210000Z
+DTSTART;TZID=America/Los_Angeles:20251012T100000
+DTEND;TZID=America/Los_Angeles:20251012T140000
 UID:675b41e12452811c53e981b7@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -359,8 +431,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251019T170000Z
-DTEND;VALUE=DATE-TIME:20251019T210000Z
+DTSTART;TZID=America/Los_Angeles:20251019T100000
+DTEND;TZID=America/Los_Angeles:20251019T140000
 UID:675b421e0855484393b653d3@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -372,8 +444,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Orenco Station Farmers' Market
-DTSTART;VALUE=DATE-TIME:20251026T170000Z
-DTEND;VALUE=DATE-TIME:20251026T210000Z
+DTSTART;TZID=America/Los_Angeles:20251026T100000
+DTEND;TZID=America/Los_Angeles:20251026T140000
 UID:675b4230458a514f35e96aec@squarespace.com
 DESCRIPTION:
 LOCATION:6125 Northeast Cornell Road\, Hillsboro\, OR\, 97124\, United Sta
@@ -386,8 +458,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:South Hillsboro Farmers' Market at Reed's Crossing
-DTSTART;VALUE=DATE-TIME:20250820T233000Z
-DTEND;VALUE=DATE-TIME:20250821T030000Z
+DTSTART;TZID=America/Los_Angeles:20250820T163000
+DTEND;TZID=America/Los_Angeles:20250820T200000
 UID:6760634deed552580b73294c@squarespace.com
 DESCRIPTION:
 LOCATION:Reed's Crossing Park\, 4065 Southeast 83rd Avenue\, Hillsboro\, O
@@ -398,8 +470,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:South Hillsboro Farmers' Market at Reed's Crossing
-DTSTART;VALUE=DATE-TIME:20250903T233000Z
-DTEND;VALUE=DATE-TIME:20250904T030000Z
+DTSTART;TZID=America/Los_Angeles:20250903T163000
+DTEND;TZID=America/Los_Angeles:20250903T200000
 UID:676063b70684b72de3ca35cf@squarespace.com
 DESCRIPTION:
 LOCATION:Reed's Crossing Park\, 4065 Southeast 83rd Avenue\, Hillsboro\, O
@@ -410,8 +482,8 @@ X-SOURCE:Hillsboro Markets
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:South Hillsboro Farmers' Market at Reed's Crossing
-DTSTART;VALUE=DATE-TIME:20251001T233000Z
-DTEND;VALUE=DATE-TIME:20251002T030000Z
+DTSTART;TZID=America/Los_Angeles:20251001T163000
+DTEND;TZID=America/Los_Angeles:20251001T200000
 UID:67606421f1a4133010480f8d@squarespace.com
 DESCRIPTION:
 LOCATION:Reed's Crossing Park\, 4065 Southeast 83rd Avenue\, Hillsboro\, O

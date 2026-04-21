@@ -48,23 +48,49 @@ TZNAME:EST
 DTSTART:20271107T060000
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260416T183000
-DTEND;TZID=America/New_York:20260416T213000
-DTSTAMP:20260402T222604
-CREATED:20260218T180601Z
-LAST-MODIFIED:20260218T182113Z
-UID:16824-1776364200-1776375000@www.nlgja.org
-SUMMARY:Headlines & Headliners
-DESCRIPTION:Each year\, this star-studded event raises tens of thousands of dollars for the organization’s programs\, including those that provide scholarships to aspiring LGBTQ+ journalists. Headlines & Headliners draws hundreds of influential journalists\, news executives\, dignitaries and allies to what has become one of New York City’s must-attend media events. \nOnline registration is now open here. \nOnsite registration will be available at the ABC News building\, 7 Hudson Square\, beginning at 6:30 p.m. \n\n\nTICKETS\n$175 for non-members\n$125 for members (Ally\, Associate\, Basic\, International\, LGBTQ\, Retired)\n$50 for Student and Early Career Members\n\n\n\n\n\n\nADDRESS\n7 Hudson Square\n145 Varick Street\nNew York\, NY 10013
-URL:https://www.nlgja.org/event/headlines-headliners/
-LOCATION:ABC News Building\, 145 Varick Street\, New York\, NY\, United States
-CATEGORIES:National
-END:VEVENT
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20250309T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20251102T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20260308T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20261101T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20270314T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20271107T070000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260421T180000
 DTEND;TZID=America/New_York:20260421T200000
-DTSTAMP:20260402T222604
+DTSTAMP:20260420T222558
 CREATED:20260331T154542Z
 LAST-MODIFIED:20260331T154542Z
 UID:16928-1776794400-1776801600@www.nlgja.org
@@ -75,9 +101,22 @@ LOCATION:Her Diner
 CATEGORIES:Chapters
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260423T180000
+DTEND;TZID=America/Chicago:20260423T203000
+DTSTAMP:20260420T222558
+CREATED:20260413T150959Z
+LAST-MODIFIED:20260413T150959Z
+UID:16996-1776967200-1776976200@www.nlgja.org
+SUMMARY:Chicago LGBTQ+ Journalists Mixer
+DESCRIPTION:Meet\, mingle and build community with LGBTQ+ journalists\, allies and other media pros — tacos are on us! This event marks the start of NLGJA Chicago’s 2026 programming. Open to journalists\, student journalists\, PR and communications professionals\, media-adjacent professionals\, allies and more. Tacos and appetizers will be provided on a first come\, first served basis. A cash bar will be available. Bring a friend or colleague.
+URL:https://www.nlgja.org/event/chicago-lgbtq-journalists-mixer-2/
+LOCATION:Barcocina Lakeview\, 2901 N. Sheffield Ave.\, Chicago\, IL\, United States
+CATEGORIES:Chapters
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260402T222604
+DTSTAMP:20260420T222558
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
