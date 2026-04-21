@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Association of Health Care Journalists - ECPv6.15.11//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Association of Health Care Journalists
+X-ORIGINAL-URL:https://healthjournalism.org
+X-WR-CALDESC:Events for Association of Health Care Journalists
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260424T160000
+DTEND;TZID=America/New_York:20260424T170000
+DTSTAMP:20260420T222559
+CREATED:20260206T211516Z
+LAST-MODIFIED:20260415T162725Z
+UID:62515-1777046400-1777050000@healthjournalism.org
+SUMMARY:Virtual freelance happy hour
+DESCRIPTION:Freelancers are invited to a casual virtual happy hour — come as you are\, bring a drink\, and enjoy conversation with peers.
+URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-3/
+CATEGORIES:Event,Freelancers
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260428T160000
+DTEND;TZID=America/New_York:20260428T170000
+DTSTAMP:20260420T222559
+CREATED:20260407T213414Z
+LAST-MODIFIED:20260407T213415Z
+UID:63191-1777392000-1777395600@healthjournalism.org
+SUMMARY:HJ26 PitchFest Prep
+DESCRIPTION:Whether it’s your first or tenth time at PitchFest\, please join this virtual session to review the dos and don’ts of your one-on-one with editors. The PitchFest committee will share feedback it has gotten from previous years’ editors and advice on how to make the most of your 10-minute time slots. \n\n\n\nThis year’s PitchFest will take place at Health Journalism 2026 in Minneapolis.
+URL:https://healthjournalism.org/event/hj26-pitchfest-prep/
+CATEGORIES:Webinar
+ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2024/03/Pitchfest-logo-cropped.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260515T160000
+DTEND;TZID=America/New_York:20260515T170000
+DTSTAMP:20260420T222559
+CREATED:20260206T211715Z
+LAST-MODIFIED:20260206T211718Z
+UID:62517-1778860800-1778864400@healthjournalism.org
+SUMMARY:Virtual freelance happy hour
+DESCRIPTION:Freelancers are invited to a casual virtual happy hour — come as you are\, bring a drink\, and enjoy conversation with peers.
+URL:https://healthjournalism.org/event/virtual-freelance-happy-hour-4/
+CATEGORIES:Event,Freelancers
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260527T000000
+DTEND;TZID=America/New_York:20260530T235959
+DTSTAMP:20260420T222559
+CREATED:20260121T224600Z
+LAST-MODIFIED:20260121T224603Z
+UID:62297-1779840000-1780185599@healthjournalism.org
+SUMMARY:Health Journalism 2026
+DESCRIPTION:Pack your bags for the City of Lakes! The Association of Health Care Journalists and the Center for Excellence in Health Care Journalism are thrilled to bring Health Journalism ’26 to Minneapolis from May 27–30. Expect four energizing days of immersive field trips\, standout sessions\, hands-on workshops and abundant opportunities to connect with colleagues from across the country. \n\n\n\n“I’m excited that we’re returning to the middle of the country for our annual conference\, after holding the last two in LA and New York\,” said Gideon Gil\, AHCJ board president. “This year\, we’re starting the conference a day earlier\, on a Wednesday\, and ending on Saturday afternoon\, to make it easier for attendees to stay through the last sessions before having to head home.” \n\n\n\nAt a moment when truth and accountability matter more than ever\, we’ll bring together journalists\, health care professionals\, policymakers and industry experts for timely discussions. Be a part of the conversation (and pitch your ideas for sessions until Jan. 30\, 2026) as we explore health care’s biggest challenges and examine emerging opportunities and solutions. As always\, you’ll walk away with plenty of story ideas and new contacts. \n\n\n\nThis year’s conference will also feature the 22nd annual Awards for Excellence in Health Care Journalism\, a celebration of the best work in health care reporting. \n\n\n\n“AHCJ is committed to moving our conference around the U.S. to make it more accessible to our members\,” said Kelsey Ryan\, AHCJ executive director. “We’re excited to give a national lens to local places each year\, and Minneapolis has a lot that everyone can learn from.”  \n\n\n\nBeyond the sessions\, Minneapolis offers so much to see and do. Visit George Floyd Square at the intersection of 38th Street and Chicago Avenue\, which will soon have a memorial. Listen to live music on First Avenue or wander through the legendary Minneapolis Sculpture Garden\, home to Claes Oldenburg’s iconic “Spoonbridge and Cherry” sculpture. Dive into the city’s vibrant art scene at the Minneapolis Institute of Art\, the Mill City Museum\, the Weisman Art Museum and the Walker Art Center. And don’t forget to schedule a guided tour of Paisley Park\, Prince’s former home and recording studio. \n\n\n\nMore details coming soon — but for now\, save the dates\, submit a session pitch and start making plans to be in Minneapolis!
+URL:https://healthjournalism.org/training-events/health-journalism-2026/
+CATEGORIES:Annual Conference,Event
+ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2025/12/HJ26-landscape-logo.png
+END:VEVENT
+END:VCALENDAR

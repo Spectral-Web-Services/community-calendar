@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//Meetup Calendar 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:Women's Wednesday👟👟 Wanderers
+X-WR-CALNAME:Women's Wednesday👟👟 Wanderers
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:event_313222187@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021727Z
+DTSTART;TZID=America/Los_Angeles:20260401T093000
+DTEND;TZID=America/Los_Angeles:20260401T113000
+SUMMARY:Women's Wednesday👟👟 Wanderers  Tryon Creek 4 mile Loop
+DESCRIPTION:Women's Wednesday👟👟 Wanderers\n"Ladies only"\, sorry guys.\n**Let’s get out once a month and go for a hike…or maybe just a simple walk! Nothing crazy.**\nCome explore with me\, on our casual hike around NW trails. Our “adventures” will last an hour to 90 minutes covering 2 to 5 miles followed by coffee and munchies. We’re just after some fresh air\, some fun and fitness with a group of likeminded women. If you’re looking for an inclusive\, welcoming and fun fitness experience with like minded women perhaps this is a great fit. Yes\, this is an exclusively all women’s group.\nWe’ll meet new people\, have fun socializing in the outdoors and share some trail camaraderie.\nThis month\, we’ll explore the beautiful trails of Tryon Creek trails. All you need is a pair of running shoes\, trail running shoes or hiking shoes\, a water bottle\, some comfortable clothes and you’re set!\nStart Time: 9:30 rain or shine...\n**Meeting location:** Tryon Creek Nature Center\, 11321 SW Terwilliger Blvd. There is a new parking fee of $10 unless you buy a annual permit. To avoid this charge park on the street and walk in.\n\n* Start point: Vistor's Center\n* End point: Vistor'[s Center\n* Hike Type: Loop\, not paved\n* Distance: 4 miles\n* Elevation gain: Not much\n* High Point: ?\n* Difficulty: Easy\n* Seasons: All year\n* Please remember that I am simply a volunteer hiker willing to lead a hike. I am not a professional hiking guide nor do I receive compensation for leading these hikes. You are responsible for your own safety and comfort.\n* **No dogs\, kids or music please!**\n* **Have more questions? Ask Debra 503-312-5728**\n* Mark your calendar for May 6th our next adventure! Details to follow.
+URL;VALUE=URI:https://www.meetup.com/womens-wednesday-wanderers/events/313222187/
+STATUS:CONFIRMED
+CREATED:20260205T160454Z
+LAST-MODIFIED:20260205T160454Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/8/5/2/f/600_525034095.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313222220@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021727Z
+DTSTART;TZID=America/Los_Angeles:20260506T093000
+DTEND;TZID=America/Los_Angeles:20260506T123000
+SUMMARY:Women's Wednesday👟👟 Wanderers   
+DESCRIPTION:Women's Wednesday👟👟 Wanderers\n"Ladies only"\, Sorry guys.\n\n**Let’s get out once a month and go for a hike…or maybe just a simple walk! Nothing crazy.**\n\nCome explore with me\, on our casual hike around NW trails. Our “adventures” will last an hour to 90 minutes covering 2 to 5 miles followed by coffee and munchies. We’re just after some fresh air\, some fun and fitness with a group of likeminded women. If you’re looking for an inclusive\, welcoming and fun fitness experience with like minded women perhaps this is a great fit. Yes\, this is an exclusively all women’s group.\n\nWe’ll meet new people\, have fun socializing in the outdoors and share some trail camaraderie.\n\nThis month\, we’ll explore the beautiful trails of Powell Butte. This is a 4.2 mile hike. All you need is a pair of running shoes\, trail running shoes or hiking shoes\, a water bottle\, some comfortable clothes and you’re set!\n\n* Please remember that I am simply a volunteer hiker willing to lead a hike. I am not a professional hiking guide nor do I receive compensation for leading these hikes. You are responsible for your own safety and comfort.\n*\n\nStart Time: 9:30 rain or shine...\n\nMeeting location: Powell Butte Trailhead. 3982 Southeast 162nd Avenue\, Portland\, OR 97236\nParking: Park at the top of the parking lot near the bathrooms.\nFeel free to organize carpools on your own.\nStart point: Trailhead\n\n* End point: . Same as above\n* Hike Type: Loop\n* Distance: 4.2 miles\n* Elevation gain: 600 ft\n* High Point: ?\n* Difficulty: Easy\n* Seasons: All year\n* **No dogs\, kids or music please!**\n* **Have more questions? Ask Debra 503-312-5728**\n* Mark your calendar for June 6th our next adventure! Details to follow.
+URL;VALUE=URI:https://www.meetup.com/womens-wednesday-wanderers/events/313222220/
+STATUS:CONFIRMED
+CREATED:20260205T161027Z
+LAST-MODIFIED:20260205T161027Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/c/a/f/6/600_516351958.jpeg
+END:VEVENT
+X-ORIGINAL-URL:https://www.meetup.com/womens-wednesday-wanderers/events/ical/
+X-WR-CALNAME:Women's Wednesday👟👟 Wanderers
+END:VCALENDAR

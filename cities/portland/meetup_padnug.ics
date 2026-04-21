@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//Meetup Calendar 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:PADNUG
+X-WR-CALNAME:PADNUG
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:event_312214082@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260324T173000
+DTEND;TZID=America/Los_Angeles:20260324T193000
+SUMMARY:Portland Geek Dinner - Hillsboro!
+DESCRIPTION:PADNUG\nBe There and Be Square!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!\n\nWe'll look to the RSVPs on here to guide our reservation. Please let us know you are coming!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/312214082/
+STATUS:CONFIRMED
+CREATED:20251128T214835Z
+LAST-MODIFIED:20251128T214835Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313789831@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260331T170000
+DTEND;TZID=America/Los_Angeles:20260331T200000
+SUMMARY:Portland Geek Dinner and a Movie - Portland!
+DESCRIPTION:PADNUG\nOnce again\, we're excited to announce our next **Geek Movie Night**! This time\, we're aiming for [Project Hail Mary](https://www.imdb.com/title/tt12042730/)! This is shaping up to be a blockbuster and it's an option for us on this date.\n\n📽️ **Experience the Magic**: If you haven't yet discovered Studio One\, you're in for a treat! With plush seating and outstanding food\, it's an experience you won't want to miss.\n\n💡 **Important Info**: To make this amazing event happen\, there's a small fee involved.\n\n💸 **Cost**: **Attendees should be prepared to spend approximately $38 (or more) on movie\, food\, and drink**\, assuming we can fill the theater. YOU **DON'T NEED TO PAY IN ADVANCE**!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/313789831/
+STATUS:CONFIRMED
+CREATED:20260316T074628Z
+LAST-MODIFIED:20260316T074628Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313070682@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260407T173000
+DTEND;TZID=America/Los_Angeles:20260407T193000
+SUMMARY:Portland Geek Dinner - Beaverton!
+DESCRIPTION:PADNUG\nBreakside has grown a bit too popular and we will be moving to have dinner at Ickabods for the foreseeable future. It worked great last month!\n\nBe There and Be Square!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!\n\nWe'll look to the RSVPs on here to guide our reservation. Please let us know you are coming!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/313070682/
+STATUS:CONFIRMED
+CREATED:20260126T211415Z
+LAST-MODIFIED:20260126T211415Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313637947@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260409T170000
+DTEND;TZID=America/Los_Angeles:20260409T200000
+SUMMARY:**READ 1ST SENTENCE** GitHub Copilot Dev Days | Portland(-ish)\, Oregon
+DESCRIPTION:PADNUG\n**\\*\\*Very Important!!!\\*\\*: This information is on here to quickly inform everyone. To actual register for the event\, however\, you must visit this site: [GitHub Copilot Dev Days | Portland\, OR · Luma](https://luma.com/x5fwhl5u?tk=6O6AC0)**\n\n(*This is why the attendee count is zero!*)\n\nJoin us for a community-led developer event focused on **AI-assisted coding with GitHub Copilot**. This event brings together developers to explore practical workflows\, real-world use cases\, and hands-on experiences using GitHub Copilot.\n\n​Whether you are new to GitHub Copilot or already using it\, this event will help you better understand how to apply AI-assisted coding techniques in everyday development.\n\n## ​**📅 Agenda**\n\n​*5:00 PM* – **Check-in & Pizza 🍕**\n​*5:30 PM* – **Welcome & Opening with James Montemagno and Scott Hanselman**\n​*5:30 PM* – **Session 1: GitHub Copilot: Your AI Companion for Every Workflow**\n​*6:00 PM* – **Session 2: Deep Dive into the GitHub Copilot CLI**\n​*6:30 PM* – **Workshop: Hands-on with GitHub Copilot**\n​*8:00 PM* – **Closing & Next Steps**
+URL;VALUE=URI:https://www.meetup.com/padnug/events/313637947/
+STATUS:CONFIRMED
+CREATED:20260304T203719Z
+LAST-MODIFIED:20260304T203719Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/d/a/9/a/600_533035962.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313784452@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260414T173000
+DTEND;TZID=America/Los_Angeles:20260414T193000
+SUMMARY:Portland Geek Dinner - Tigard!
+DESCRIPTION:PADNUG\nBe There and Be Square!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!\n\nWe'll look to the RSVPs on here to guide our reservation. Please let us know you are coming!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/313784452/
+STATUS:CONFIRMED
+CREATED:20260315T171159Z
+LAST-MODIFIED:20260315T171159Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_cfllmtyjcgbcc@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260421T173000
+DTEND;TZID=America/Los_Angeles:20260421T193000
+SUMMARY:Portland Geek Dinner - Portland!
+DESCRIPTION:PADNUG\nBe There and Be Square!\n\nFolks\, we're heading back to Grand Central! Breakside just has too many other events they are accommodating and as many of you know\, last month was CRAZY loud!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/cfllmtyjcgbcc/
+STATUS:CONFIRMED
+CREATED:20240707T212549Z
+LAST-MODIFIED:20240707T212549Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_312930539@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260428T173000
+DTEND;TZID=America/Los_Angeles:20260428T193000
+SUMMARY:Portland Geek Dinner - Hillsboro!
+DESCRIPTION:PADNUG\nBe There and Be Square!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!\n\nWe'll look to the RSVPs on here to guide our reservation. Please let us know you are coming!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/312930539/
+STATUS:CONFIRMED
+CREATED:20260117T170051Z
+LAST-MODIFIED:20260117T170051Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_zffcltyjchbhb@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260505T173000
+DTEND;TZID=America/Los_Angeles:20260505T193000
+SUMMARY:Portland Geek Dinner - Beaverton!
+DESCRIPTION:PADNUG\nBreakside has grown a bit too popular and we will be moving to have dinner at Ickabods for the foreseeable future. It worked great last month!\n\nBe There and Be Square!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!\n\nWe'll look to the RSVPs on here to guide our reservation. Please let us know you are coming!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/zffcltyjchbhb/
+STATUS:CONFIRMED
+CREATED:20240403T181159Z
+LAST-MODIFIED:20240403T181159Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_txfbwtyjchbqb@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260512T173000
+DTEND;TZID=America/Los_Angeles:20260512T193000
+SUMMARY:Portland Geek Dinner - Tigard!
+DESCRIPTION:PADNUG\nBe There and Be Square!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!\n\nWe'll look to the RSVPs on here to guide our reservation. Please let us know you are coming!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/txfbwtyjchbqb/
+STATUS:CONFIRMED
+CREATED:20260210T223105Z
+LAST-MODIFIED:20260210T223105Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+BEGIN:VEVENT
+UID:event_cfllmtyjchbzb@meetup.com
+SEQUENCE:1
+DTSTAMP:20260325T021725Z
+DTSTART;TZID=America/Los_Angeles:20260519T173000
+DTEND;TZID=America/Los_Angeles:20260519T193000
+SUMMARY:Portland Geek Dinner - Portland!
+DESCRIPTION:PADNUG\nBe There and Be Square!\n\nFolks\, we're heading back to Grand Central! Breakside just has too many other events they are accommodating and as many of you know\, last month was CRAZY loud!\n\nGeek and Nerd dinners are a great way to get to know your peers in the industry in an informal setting. We always have great food\, beverages\, and conversation!
+URL;VALUE=URI:https://www.meetup.com/padnug/events/cfllmtyjchbzb/
+STATUS:CONFIRMED
+CREATED:20240707T212549Z
+LAST-MODIFIED:20240707T212549Z
+CLASS:PUBLIC
+ATTACH;FMTTYPE=image/jpeg:https://secure.meetupstatic.com/photos/event/9/b/3/7/600_451119735.jpeg
+END:VEVENT
+X-ORIGINAL-URL:https://www.meetup.com/padnug/events/ical/
+X-WR-CALNAME:PADNUG
+END:VCALENDAR

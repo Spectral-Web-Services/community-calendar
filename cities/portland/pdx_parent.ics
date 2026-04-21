@@ -1,0 +1,490 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PDX Parent - ECPv6.15.17//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PDX Parent
+X-ORIGINAL-URL:https://pdxparent.com
+X-WR-CALDESC:Events for PDX Parent
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20251218T213129Z
+LAST-MODIFIED:20251218T213433Z
+UID:10049303-1776643200-1776729599@pdxparent.com
+SUMMARY:Storytime at Washington County Libraries
+DESCRIPTION:There’s a storytime pretty much every day of the week at Washington County Libraries! These range from: Preschool Storytimes\, Family Storytimes\, Toddler Times\, Book Babies\, storytimes in various languages\, and more! Use the Washington County Library events calendar to find one you love. Libraries may be closed on holidays.
+URL:https://pdxparent.com/event-single/storytime-at-washington-county-libraries/2026-04-20/
+LOCATION:Libraries across Washington County
+CATEGORIES:Books/Library,Educational,Inclusive,Indoor,Kids Calendar,Storytime
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Washington-County-Storytimes.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20251218T214206Z
+LAST-MODIFIED:20251218T214206Z
+UID:10049651-1776643200-1776729599@pdxparent.com
+SUMMARY:Storytime at Multnomah County Libraries
+DESCRIPTION:There’s a storytime pretty much every day of the week at Multnomah County Libraries! These include: Tiny Tots\, Family Storytime\, Book Babies\, Black Family Storytime\, Pajama Storytime\, Native Family Storytime\, Toddler Storytime\, storytimes in various languages\, and more! Use the Multnomah County Library events calendar to find one you love. Libraries may be closed on holidays.
+URL:https://pdxparent.com/event-single/storytime-at-multnomah-county-libraries/2026-04-20/
+LOCATION:Libraries across Mulnomah County
+CATEGORIES:Books/Library,Educational,Inclusive,Indoor,Kids Calendar,Storytime
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Multnomah-County-Library-Storytimes.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20260218T215530Z
+LAST-MODIFIED:20260218T215530Z
+UID:10054556-1776643200-1776729599@pdxparent.com
+SUMMARY:2026 Wooden Shoe Tulip Festival
+DESCRIPTION:Mark your calendars! The 2026 Wooden Shoe Tulip Festival is tentatively scheduled for March 20 – April 26. Date specific tickets available in early March. Enjoy 40 acres of 100 varieties of tulips and on 4 acres at Wooden Shoe Gardens. \nThe Tulip Festival is packed with activities for the whole family. From hot air balloons\, a children’s play area\, and endless photo opportunities\, wine tastings\, and their specialty gift shop to our food & craft market\, there’s so much to do in their beautiful setting! \nAll tickets must be purchased online in advance—secure your spot and enjoy a seamless entry to the Wooden Shoe Tulip Festival! \nTickets are available online only to minimize crowds and allow for the best guest experience. \nThe festival is open: \n\nMonday – Thursday: 9 am – 6 pm\nFriday: 9 am – 7 pm\nSaturday: 8 am – 7 pm\nSunday: 8 am – 6 pm\n\nChildren 12 and under may enter the festival free when accompanied by a ticketed adult. 
+URL:https://pdxparent.com/event-single/2026-wooden-shoe-tulip-festival/2026-04-20/
+LOCATION:Wooden Shoe Tulip Festival
+CATEGORIES:Active,Family Fun,Farm,Kids Calendar,Outdoor,Plants & Nature
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/wooden-shoe-tulip-farm.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20260312T195728Z
+LAST-MODIFIED:20260312T203320Z
+UID:10056619-1776643200-1776729599@pdxparent.com
+SUMMARY:Clackamas ESD Regional Art Show
+DESCRIPTION:Join us in celebrating the extraordinary artistic talent of students in our region! Each year\, Clackamas ESD presents diverse artwork from middle and high school students representing all 10 Clackamas County school districts in a juried art show and awards thousands of dollars in prizes at the art show awards ceremony. \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/clackamas-esd-regional-art-show-gallery/2026-04-20/
+LOCATION:Clackamas ESD administrative building\, 13455 SE 97th Avenue\, Clackamas
+CATEGORIES:Arts/Crafts,Indoor,Kids Calendar
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/Art-gallery.jpg
+ORGANIZER;CN="Clackamas Education Service District":MAILTO:kwyatt@clackesd.k12.or.us
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20260319T002109Z
+LAST-MODIFIED:20260319T002433Z
+UID:10056799-1776643200-1776729599@pdxparent.com
+SUMMARY:TITANIC: The Artifact Exhibition at OMSI
+DESCRIPTION:TITANIC: The Artifact Exhibition | March 21\, 2026 to October 18\, 2026 \nHistory comes to life in TITANIC: The Artifact Exhibition. This immersive exhibition offers a rare opportunity for audiences of all ages to explore the innovation\, ambition\, and tragedy of Titanic while connecting personally with the people whose lives were forever changed by her voyage. Step back to April 1912 and assume the role of a passenger on the Ship’s first and final journey. With more than 100 authentic artifacts recovered from the wrecksite\, guests are immersed in life aboard Titanic and the deeply human stories behind one of history’s most enduring legends. \nBe sure to confirm hours on OMSI’s website! \nPlease note: Timed entrance allows guests to join the exhibit queue at their selected time. Please allow time for both queuing and the exhibit experience. Last entry to the exhibit will be one hour before closing time. \nDiscounted admission of $6 per person for OMSI Members. Children 2 and under visit for free. Member discounts are applied at checkout.
+URL:https://pdxparent.com/event-single/titanic-the-artifact-exhibition-at-omsi/2026-04-20/
+LOCATION:OMSI
+CATEGORIES:Educational,Indoor,Kids Calendar,Museum
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/titanic-at-omsi.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20260323T021123Z
+LAST-MODIFIED:20260323T021208Z
+UID:10057461-1776643200-1776729599@pdxparent.com
+SUMMARY:OMSI Sci-Fi Film Fest
+DESCRIPTION:The Sci-Fi Film Fest is back! For five weeks this spring\, the festival will showcase over 30 of science fiction’s most memorable films on the Empirical Theater’s giant four-story screen. \n\n\nFrom genre classics such as 2001: A Space Odyssey to more recent favorites like Denis Villeneuve’s epic two-part adaptation of Dune\, the festival’s offerings are sure to appeal to science fiction fans of all ages and interests. \n\n\n\n\nThis year’s Opening Night celebration sees the return to the festival of the landmark Keanu Reeves’ starrer The Matrix for the first time since 2019.  Opening Night tickets include movie snacks\, a beverage (either alcoholic or non-alcoholic)\, and door prizes. \n\n\n\n\nAdmission to Opening Night is included with the purchase of a festival pass. \nView the festival schedule by clicking here! \n\n\n\n\n\n\n\nTicket Prices\n\n\n\n\nNON-MEMBERS – $9 Adult (Age 14 – 62) | $8 Senior (Age 63+) | $7 Youth (Ages 3-13)\nOMSI Members receive 50% off admission
+URL:https://pdxparent.com/event-single/omsi-sci-fi-film-fest/2026-04-20/
+LOCATION:OMSI
+CATEGORIES:Family Fun,Indoor,Kids Calendar,Museum,Theater
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/OMSI-sci-fi-film-fest.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20260401T205757Z
+LAST-MODIFIED:20260401T205851Z
+UID:10057958-1776643200-1776729599@pdxparent.com
+SUMMARY:The Portland Mercury's Pizza Week 2026
+DESCRIPTION:Meal planning just got easier! Have a fun and delicious dinner the whole family will love… \nThe Portland Mercury‘s Pizza Week is back\, giving pizza lovers the chance to get special slices from some of Portland’s finest purveyors of pizza pies… for a mere four dollars each! That’s right: Each slice is just FOUR MEASLY DOLLARS or\, at participating venues\, a WHOLE PIE for $25. (You heard correctly: Once again this year certain Pizza Week participants may also be offering $25 whole pies along with slices—or whole pies alone!) (Text credit: The Portland Mercury) \n$4 slice / $25 whole pie / Visit their site for a list of participating restaurants. 
+URL:https://pdxparent.com/event-single/the-portland-mercurys-pizza-week-2026/2026-04-20/
+LOCATION:Washington
+CATEGORIES:Family Fun,Kids Calendar
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/portland-mercurys-pizza-week.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DTSTAMP:20260420T192440
+CREATED:20260414T183629Z
+LAST-MODIFIED:20260414T183629Z
+UID:10058256-1776643200-1776729599@pdxparent.com
+SUMMARY:Period Power Project
+DESCRIPTION:Looking for a simple way to give back as a family this spring? Positive Charge! PDX’s Period Power Project offers an easy\, meaningful opportunity for kids and adults to help others in the community. \nFrom April 11 through May 10\, families can pick up period supplies while shopping and donate them at 20+ drop-off locations across the Portland area. A special part of this project is creating simple\, handmade cards of support — a great at-home activity for kids\, classrooms\, or families to spread kindness and encouragement. \nPeriod products are not covered by programs like SNAP and WIC\, leaving many without access to essential supplies. Donations will be assembled into care kits and distributed through local nonprofit partners. \nFamilies are also welcome to attend a community packing event on May 16. \nLearn more:https://www.PositiveChargePDX.org/PeriodPower2026
+URL:https://pdxparent.com/event-single/period-power-project/2026-04-20/
+LOCATION:Washington
+CATEGORIES:Arts/Crafts,Family Fun,Kids Calendar
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/FINAL-SNAP-WIC-PROMO.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260420T180000
+DTEND;TZID=America/Los_Angeles:20260420T200000
+DTSTAMP:20260420T192440
+CREATED:20260330T001104Z
+LAST-MODIFIED:20260330T001104Z
+UID:10057551-1776708000-1776715200@pdxparent.com
+SUMMARY:Rose City Self Defense Workshop
+DESCRIPTION:The NEW Youth Introductory Class is 3 sessions\, each 2 hours in length. This Empowerment Self-Defense (ESD) class is designed to introduce youth to a variety of self-protective options in a discussion format.  Our student-centered training is designed to help youth identify their risks\, evaluate their strengths\, and explore their options for dealing with the threat of violence.  Topics Include:  Trusting and using your intuition; How bias affects your judgment; Establishing and setting boundaries; Assertive communication; The benefits and risks of various escape options; Healthy Relationships and consent; Physical Self-Defense Strikes and Escapes.  Youth Classes are open to youth ages 11 through 14.  Youth may attend alone or be accompanied by a women-identifying\, non-binary person comfortable in a space that centers on the experiences of girls or LGBTQIA2S+ adult. Snacks provided for all attendees. \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/rose-city-self-defense-workshop/2026-04-20/
+LOCATION:Sellwood Community House\, 1436 SE Spokane St\, Portland\, Oregon\, 97202
+CATEGORIES:Active,Educational,Kids Calendar,LGBTQ+
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Self-Defense-02-scaled.png
+ORGANIZER;CN="Rose City Self Defense":MAILTO:himackenziegray@gmail.com
+GEO:45.4647759;-122.6512239
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Sellwood Community House 1436 SE Spokane St Portland Oregon 97202;X-APPLE-RADIUS=500;X-TITLE=1436 SE Spokane St:geo:-122.6512239,45.4647759
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20251218T213129Z
+LAST-MODIFIED:20251218T213433Z
+UID:10049304-1776729600-1776815999@pdxparent.com
+SUMMARY:Storytime at Washington County Libraries
+DESCRIPTION:There’s a storytime pretty much every day of the week at Washington County Libraries! These range from: Preschool Storytimes\, Family Storytimes\, Toddler Times\, Book Babies\, storytimes in various languages\, and more! Use the Washington County Library events calendar to find one you love. Libraries may be closed on holidays.
+URL:https://pdxparent.com/event-single/storytime-at-washington-county-libraries/2026-04-21/
+LOCATION:Libraries across Washington County
+CATEGORIES:Books/Library,Educational,Inclusive,Indoor,Kids Calendar,Storytime
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Washington-County-Storytimes.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20251218T214206Z
+LAST-MODIFIED:20251218T214206Z
+UID:10049652-1776729600-1776815999@pdxparent.com
+SUMMARY:Storytime at Multnomah County Libraries
+DESCRIPTION:There’s a storytime pretty much every day of the week at Multnomah County Libraries! These include: Tiny Tots\, Family Storytime\, Book Babies\, Black Family Storytime\, Pajama Storytime\, Native Family Storytime\, Toddler Storytime\, storytimes in various languages\, and more! Use the Multnomah County Library events calendar to find one you love. Libraries may be closed on holidays.
+URL:https://pdxparent.com/event-single/storytime-at-multnomah-county-libraries/2026-04-21/
+LOCATION:Libraries across Mulnomah County
+CATEGORIES:Books/Library,Educational,Inclusive,Indoor,Kids Calendar,Storytime
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Multnomah-County-Library-Storytimes.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20260218T215530Z
+LAST-MODIFIED:20260218T215530Z
+UID:10054557-1776729600-1776815999@pdxparent.com
+SUMMARY:2026 Wooden Shoe Tulip Festival
+DESCRIPTION:Mark your calendars! The 2026 Wooden Shoe Tulip Festival is tentatively scheduled for March 20 – April 26. Date specific tickets available in early March. Enjoy 40 acres of 100 varieties of tulips and on 4 acres at Wooden Shoe Gardens. \nThe Tulip Festival is packed with activities for the whole family. From hot air balloons\, a children’s play area\, and endless photo opportunities\, wine tastings\, and their specialty gift shop to our food & craft market\, there’s so much to do in their beautiful setting! \nAll tickets must be purchased online in advance—secure your spot and enjoy a seamless entry to the Wooden Shoe Tulip Festival! \nTickets are available online only to minimize crowds and allow for the best guest experience. \nThe festival is open: \n\nMonday – Thursday: 9 am – 6 pm\nFriday: 9 am – 7 pm\nSaturday: 8 am – 7 pm\nSunday: 8 am – 6 pm\n\nChildren 12 and under may enter the festival free when accompanied by a ticketed adult. 
+URL:https://pdxparent.com/event-single/2026-wooden-shoe-tulip-festival/2026-04-21/
+LOCATION:Wooden Shoe Tulip Festival
+CATEGORIES:Active,Family Fun,Farm,Kids Calendar,Outdoor,Plants & Nature
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/wooden-shoe-tulip-farm.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20260312T195728Z
+LAST-MODIFIED:20260312T203320Z
+UID:10056620-1776729600-1776815999@pdxparent.com
+SUMMARY:Clackamas ESD Regional Art Show
+DESCRIPTION:Join us in celebrating the extraordinary artistic talent of students in our region! Each year\, Clackamas ESD presents diverse artwork from middle and high school students representing all 10 Clackamas County school districts in a juried art show and awards thousands of dollars in prizes at the art show awards ceremony. \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/clackamas-esd-regional-art-show-gallery/2026-04-21/
+LOCATION:Clackamas ESD administrative building\, 13455 SE 97th Avenue\, Clackamas
+CATEGORIES:Arts/Crafts,Indoor,Kids Calendar
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/Art-gallery.jpg
+ORGANIZER;CN="Clackamas Education Service District":MAILTO:kwyatt@clackesd.k12.or.us
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20260319T002109Z
+LAST-MODIFIED:20260319T002433Z
+UID:10056800-1776729600-1776815999@pdxparent.com
+SUMMARY:TITANIC: The Artifact Exhibition at OMSI
+DESCRIPTION:TITANIC: The Artifact Exhibition | March 21\, 2026 to October 18\, 2026 \nHistory comes to life in TITANIC: The Artifact Exhibition. This immersive exhibition offers a rare opportunity for audiences of all ages to explore the innovation\, ambition\, and tragedy of Titanic while connecting personally with the people whose lives were forever changed by her voyage. Step back to April 1912 and assume the role of a passenger on the Ship’s first and final journey. With more than 100 authentic artifacts recovered from the wrecksite\, guests are immersed in life aboard Titanic and the deeply human stories behind one of history’s most enduring legends. \nBe sure to confirm hours on OMSI’s website! \nPlease note: Timed entrance allows guests to join the exhibit queue at their selected time. Please allow time for both queuing and the exhibit experience. Last entry to the exhibit will be one hour before closing time. \nDiscounted admission of $6 per person for OMSI Members. Children 2 and under visit for free. Member discounts are applied at checkout.
+URL:https://pdxparent.com/event-single/titanic-the-artifact-exhibition-at-omsi/2026-04-21/
+LOCATION:OMSI
+CATEGORIES:Educational,Indoor,Kids Calendar,Museum
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/titanic-at-omsi.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20260323T021123Z
+LAST-MODIFIED:20260323T021208Z
+UID:10057462-1776729600-1776815999@pdxparent.com
+SUMMARY:OMSI Sci-Fi Film Fest
+DESCRIPTION:The Sci-Fi Film Fest is back! For five weeks this spring\, the festival will showcase over 30 of science fiction’s most memorable films on the Empirical Theater’s giant four-story screen. \n\n\nFrom genre classics such as 2001: A Space Odyssey to more recent favorites like Denis Villeneuve’s epic two-part adaptation of Dune\, the festival’s offerings are sure to appeal to science fiction fans of all ages and interests. \n\n\n\n\nThis year’s Opening Night celebration sees the return to the festival of the landmark Keanu Reeves’ starrer The Matrix for the first time since 2019.  Opening Night tickets include movie snacks\, a beverage (either alcoholic or non-alcoholic)\, and door prizes. \n\n\n\n\nAdmission to Opening Night is included with the purchase of a festival pass. \nView the festival schedule by clicking here! \n\n\n\n\n\n\n\nTicket Prices\n\n\n\n\nNON-MEMBERS – $9 Adult (Age 14 – 62) | $8 Senior (Age 63+) | $7 Youth (Ages 3-13)\nOMSI Members receive 50% off admission
+URL:https://pdxparent.com/event-single/omsi-sci-fi-film-fest/2026-04-21/
+LOCATION:OMSI
+CATEGORIES:Family Fun,Indoor,Kids Calendar,Museum,Theater
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/OMSI-sci-fi-film-fest.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20260401T205757Z
+LAST-MODIFIED:20260401T205851Z
+UID:10057959-1776729600-1776815999@pdxparent.com
+SUMMARY:The Portland Mercury's Pizza Week 2026
+DESCRIPTION:Meal planning just got easier! Have a fun and delicious dinner the whole family will love… \nThe Portland Mercury‘s Pizza Week is back\, giving pizza lovers the chance to get special slices from some of Portland’s finest purveyors of pizza pies… for a mere four dollars each! That’s right: Each slice is just FOUR MEASLY DOLLARS or\, at participating venues\, a WHOLE PIE for $25. (You heard correctly: Once again this year certain Pizza Week participants may also be offering $25 whole pies along with slices—or whole pies alone!) (Text credit: The Portland Mercury) \n$4 slice / $25 whole pie / Visit their site for a list of participating restaurants. 
+URL:https://pdxparent.com/event-single/the-portland-mercurys-pizza-week-2026/2026-04-21/
+LOCATION:Washington
+CATEGORIES:Family Fun,Kids Calendar
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/portland-mercurys-pizza-week.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+DTSTAMP:20260420T192440
+CREATED:20260414T183629Z
+LAST-MODIFIED:20260414T183629Z
+UID:10058257-1776729600-1776815999@pdxparent.com
+SUMMARY:Period Power Project
+DESCRIPTION:Looking for a simple way to give back as a family this spring? Positive Charge! PDX’s Period Power Project offers an easy\, meaningful opportunity for kids and adults to help others in the community. \nFrom April 11 through May 10\, families can pick up period supplies while shopping and donate them at 20+ drop-off locations across the Portland area. A special part of this project is creating simple\, handmade cards of support — a great at-home activity for kids\, classrooms\, or families to spread kindness and encouragement. \nPeriod products are not covered by programs like SNAP and WIC\, leaving many without access to essential supplies. Donations will be assembled into care kits and distributed through local nonprofit partners. \nFamilies are also welcome to attend a community packing event on May 16. \nLearn more:https://www.PositiveChargePDX.org/PeriodPower2026
+URL:https://pdxparent.com/event-single/period-power-project/2026-04-21/
+LOCATION:Washington
+CATEGORIES:Arts/Crafts,Family Fun,Kids Calendar
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/FINAL-SNAP-WIC-PROMO.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T090000
+DTEND;TZID=America/Los_Angeles:20260421T105000
+DTSTAMP:20260420T192440
+CREATED:20251120T185732Z
+LAST-MODIFIED:20251120T201113Z
+UID:10045998-1776762000-1776768600@pdxparent.com
+SUMMARY:Sing\, Sign & Play @ SWPMA PLAY! In SW Hillsdale
+DESCRIPTION:Join longtime educators Lara and Wally Jones in the padded play space of SWPMA PLAY! every Tuesday and Thursday for weekly meetups for littles ages 0-4. *No class on Thanksgiving Day\, Christmas Day\, or New Year’s Day. Check the event host’s website to confirm that they’re open on the day you want to go. \nThis is a calm\, clean and welcoming space\, where people take the time to visit and play. People can come in as early as 9:00 to play; starting at 9:30\, Lara will pull out her ukulele to sing\, while Wally helps teach the adults new signs – which center on a theme…or whatever signs caretakers care to learn that day. We share fun books\, puppets\, parachute time\, musical instrument exploration and play simple ASL games\, and the children play on age-appropriate toys and equipment to suit their development. \nPlease pre-register and pay here @ sliding-scale donation\, starting at $1: https://southwestportlandmartialarts.com/events/swpma-play/
+URL:https://pdxparent.com/event-single/sing-sign-play-swpma-play-in-sw-hillsdale-2/2026-04-21/
+LOCATION:SWPMA PLAY!\, 6315 SW Capitol Highway\, Portland\, 97239\, United States
+CATEGORIES:Active,Educational,Family Fun,Kids Calendar,Music,Storytime
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Sing-Sign-Play-1-scaled.png
+ORGANIZER;CN="Southwest Portland Martial Arts":MAILTO:info@southwestportlandmartialarts.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T090000
+DTEND;TZID=America/Los_Angeles:20260421T120000
+DTSTAMP:20260420T192440
+CREATED:20260416T225052Z
+LAST-MODIFIED:20260416T225052Z
+UID:10058385-1776762000-1776772800@pdxparent.com
+SUMMARY:PlayLab Open Play
+DESCRIPTION:Bring your little ones for drop-in fun! Drop-in for crafts\, sensory exploration\, open-ended play\, and so much fun! Best suited to kids ages 0-5\, though all are welcome. Children must be accompanied by an adult. \n*Located in the basement of Immanuel Lutheran Church \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/playlab-open-play/2026-04-21/
+LOCATION:Washington
+CATEGORIES:Arts/Crafts,Books/Library,Educational,Family Fun,Inclusive,Indoor,Indoor Play Park,Kids Calendar,LGBTQ+,Playgroup,Storytime
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Untitled-design-9-1-scaled.png
+ORGANIZER;CN="Sellwood Community House":MAILTO:erin@sellwoodcommunityhouse.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T093000
+DTEND;TZID=America/Los_Angeles:20260421T163000
+DTSTAMP:20260420T192440
+CREATED:20260417T153322Z
+LAST-MODIFIED:20260417T153322Z
+UID:10058712-1776763800-1776789000@pdxparent.com
+SUMMARY:Music & Movement Class with Music Together of Portland
+DESCRIPTION:Try a free class with Music Together of Portland this week! Experience the magic of family music-making within a joyful\, welcoming community! Babies classes for pre-crawling infants\, birth to 8 months. Mixed-Age classes for birth to age 5. Rhythm Kids classes in the afternoons for 4 to 8-year-olds. Spaces available in classes Monday through Saturday. Reservations required. Multiple class times available—see the full schedule at https://musictogether-pdx.com/demos.aspx. \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/music-movement-class-with-music-together-of-portland/2026-04-21/
+LOCATION:Portland Metro Area\, Portland\, OR
+CATEGORIES:Educational,Family Fun,Kids Calendar,Music
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Discover-the-Magic-Spring-1.png
+ORGANIZER;CN="Music Together of Portland":MAILTO:julie@musictogether-pdx.com
+GEO:45.515232;-122.6783853
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T100000
+DTEND;TZID=America/Los_Angeles:20260421T113000
+DTSTAMP:20260420T192440
+CREATED:20251222T221601Z
+LAST-MODIFIED:20251222T221601Z
+UID:10050771-1776765600-1776771000@pdxparent.com
+SUMMARY:Chipper's Preschool & Sensory Skate
+DESCRIPTION:Get some morning wiggles out at Oaks Park Roller Rink where kiddos can skate at their own pace during their special toddler skate time on Tuesdays and Wednesdays from 10 AM-11:30 AM. \nEnjoy skating fun\, snack time\, and a visit with Chipper the Squirrel. As part of this specialty session\, Coach Amy teaches a 15-minute group skating lesson that introduces young kids to the principles of body movement while helping toddlers learn to follow directions through fun games. \nSensory Skate\nNow offering a special sensory-sensitive skate time during the Wednesday Preschool Skate. Music volumes will be reduced\, disco lights turned off\, and a quiet sensory play space will be provided. Sensory Skate is open to all children 10 and younger and their families.
+URL:https://pdxparent.com/event-single/chippers-preschool-sensory-skate/2026-04-21/
+LOCATION:Oaks Amusement Park\, 7805 SE Oaks Park Way\, Portland\, OR\, 97202
+CATEGORIES:Active,Kids Calendar
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/preschool-skate-oaks-park-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T100000
+DTEND;TZID=America/Los_Angeles:20260421T120000
+DTSTAMP:20260420T192440
+CREATED:20251003T180107Z
+LAST-MODIFIED:20251211T215510Z
+UID:10040804-1776765600-1776772800@pdxparent.com
+SUMMARY:THPRD Indoor Play Parks
+DESCRIPTION:Indoor Play Parks are officially back! 🎉 Cozy up in the Cedar Hills Recreation Center for a variety of fun games for children under the age of six! Enjoy our mini roller coaster\, ride-on cars\, pedal cars\, mini-trampoline\, mini basketball hoops\, and other play toys! ***Before you go – check THPRD’s website  – activity calendar for facility closures throughout the season. \n\nCedar Hills Recreation Center: Tuesdays/Thursdays 10am-12pm\n$8 out of district\, $5.75 cedar hills/free for adults\n\n 
+URL:https://pdxparent.com/event-single/thprd-indoor-play-parks/2026-04-21/
+LOCATION:Cedar Hill Recreation Center
+CATEGORIES:Active,Indoor,Kids Calendar
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Indoor-play-park-at-cedar-hills-rec-center.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T100000
+DTEND;TZID=America/Los_Angeles:20260421T153000
+DTSTAMP:20260420T192440
+CREATED:20260219T221804Z
+LAST-MODIFIED:20260219T221843Z
+UID:10055129-1776765600-1776785400@pdxparent.com
+SUMMARY:Enduring Impressions: Contemporary Woodblock Prints
+DESCRIPTION:Step into a world where nature-themed prints meet Portland Japanese Garden’s springtime vibrance in Enduring Impressions: Contemporary Woodblock Prints. Featuring the art of mokuhanga (木版画)\, Japanese-style woodblock printmaking\, this exhibition reveals how a centuries-old tradition is experiencing a contemporary revival as artists around the world use the quiet power and unique characteristics of woodblock printmaking to create captivating works of art. \nMokuhanga has been embraced as an environmentally friendly art form that uses wood\, water-based pigments\, and paper made from plant fibers. The exhibition’s featured artists are among the growing international movement where meticulously crafted art prints incorporating these traditional tools and techniques are complemented by alternative printmaking technologies and strategies for contemporary expression. This exhibition marks the Garden’s first collaboration with the Honolulu Museum of Art and is co-curated by Stephen Salel\, the Museum’s Curator of Japanese Art. Across the galleries at Portland Japanese Garden\, Enduring Impressions presents an eclectic range of contemporary prints\, alongside a behind-the-scenes look at the process\, history and future of this iconic art form. \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/enduring-impressions-contemporary-woodblock-prints/2026-04-21/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave.\, Portland\, OR\, 97205
+CATEGORIES:Arts/Crafts,Kids Calendar,Plants & Nature
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/PortlandJapaneseGarden_EnduringImpressions_KeyVisual.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T100000
+DTEND;TZID=America/Los_Angeles:20260421T160000
+DTSTAMP:20260420T192440
+CREATED:20260213T213839Z
+LAST-MODIFIED:20260213T214025Z
+UID:10054316-1776765600-1776787200@pdxparent.com
+SUMMARY:Forest Hope Through Innovation
+DESCRIPTION:Forest Hope Through Innovation is an interdisciplinary art-forest-science exhibition at World Forestry Center’s Discovery Museum that explores how creativity\, research\, and community action can shape a sustainable future for the forests we rely on.\n\nFeaturing work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations.\n\nEach contributor approaches forest health in unexpected and thought-provoking ways.\n\nLearn more: https://worldforestry.org/hopethroughinnovation/\n\nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/forest-hope-through-innovation/2026-04-21/
+LOCATION:Discovery Museum\, 4033 SW Canyon Road World Forestry Center\, Portland\, OR\, 97221\, United States
+CATEGORIES:Educational,Kids Calendar,Museum
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Forest-Hope-Through-Innovation-Graphic.png
+ORGANIZER;CN="World Forestry Center":MAILTO:agannett@worldforestry.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T100000
+DTEND;TZID=America/Los_Angeles:20260421T160000
+DTSTAMP:20260420T192440
+CREATED:20260414T233354Z
+LAST-MODIFIED:20260415T004540Z
+UID:10058292-1776765600-1776787200@pdxparent.com
+SUMMARY:Lilac Days at Hulda Klager Lilac Gardens
+DESCRIPTION:Lilac Days is April 18 – May 10\, 2026. Each year in the spring\, the Hulda Klager Lilac Gardens hosts Lilac Days to celebrate the beauty of lilacs in bloom. Visitors from around the world stroll through the gardens and buy their favorite lilacs. Lilac Days are the 23 days up to and including Mothers’ Day.  \n\n\n\n\n\n\n\n\n\n\nThe gardens are open daily 10:00 a.m. until 4:00 p.m. during Lilac Days and other hours following Lilac Days in the Spring and Summer. See calendar. An admission fee for 2026 Lilac Days of $10 adults is payable at the front gate during Lilac Days. Children 12 years old and under enter free when accompanied by an adult.
+URL:https://pdxparent.com/event-single/lilac-days-at-hulda-klager-lilac-gardens/2026-04-21/
+LOCATION:Hulda Klager Lilac Gardens\, 115 South Pekin Road\, Woodland\, WA\, 98674
+CATEGORIES:Family Fun,Kids Calendar,Plants & Nature
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/lilac-days.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T100000
+DTEND;TZID=America/Los_Angeles:20260421T170000
+DTSTAMP:20260420T192440
+CREATED:20260323T020002Z
+LAST-MODIFIED:20260323T020002Z
+UID:10057445-1776765600-1776790800@pdxparent.com
+SUMMARY:French Prairie Gardens Tulip & Flower Fest
+DESCRIPTION:Don’t miss French Prairie Garden’s Tulip & Flower Fest\, showcasing 10 acres of blooming tulips\, the only U-pick Tulips (U-picks start April 4th) in the Willamette Valley\, and family friendly activities. \nTues – Fri Admission – includes the following ($9.99): \n– Obstacle Course\n– Farm Ninja Course\n– Access to Tulip & Daffodil Fields\n– Photo Ops\n– Bubble Station\n– Tire Swings\n– Tube Slide\n– Tire Pile\n– Hamster Rollers\n– Pedal Carts\n– Farm Animal Sanctuary\n– Small Hay Slides\n– Cornhole\n– Hand-pump Duck Races \nSat-Sun Admission includes the following ($14.99):\n– DOUBLE SUPER MEGA RIDE N’ SLIDE\n– Tractor Wagon Ride\n– Obstacle Course\n– Farm Ninja Course\n– Access to Tulip & Daffodil Fields\n– Photo Ops\n– Bubble Station\n– Tire Swings\n– Tube Slide\n– Tire Pile\n– Hamster Rollers\n– Pedal Carts\n– Farm Animal Sanctuary\n– Small Hay Slides\n– Cornhole\n– Hand-pump Duck Races
+URL:https://pdxparent.com/event-single/french-prairie-gardens-tulip-flower-fest/2026-04-21/
+LOCATION:French Prairie Gardens\, 17673 French Prairie Rd.\, Saint Paul\, OR\, 97137\, United States
+CATEGORIES:Active,Family Fun,Farm,Festival,Kids Calendar,Plants & Nature
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/french-prairie-tulip-fest.jpg
+GEO:45.1758853;-122.9460108
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=French Prairie Gardens 17673 French Prairie Rd. Saint Paul OR 97137 United States;X-APPLE-RADIUS=500;X-TITLE=17673 French Prairie Rd.:geo:-122.9460108,45.1758853
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T100000
+DTEND;TZID=America/Los_Angeles:20260421T183000
+DTSTAMP:20260420T192440
+CREATED:20260319T210957Z
+LAST-MODIFIED:20260319T210957Z
+UID:10057027-1776765600-1776796200@pdxparent.com
+SUMMARY:Mùlán (木蘭): The Magnolia Festival at Lan Su
+DESCRIPTION:This spring\, let magnolias steal the spotlight. Wander through stunning floral displays\, discover the flower’s lasting meaning in Chinese art and literature\, and enjoy seasonal tours and hands-on activities for all ages. \nHighlights\nFree with admission\n• Magnolia Floral Showcase \n• Magnolia Walk in the Garden \n• Magnolia Coloring Activity \n• Floral Artist Meet & Greet / Demo with Lauren Say \n• Magnolia Cultivation Talks \nTickets Required\n• Steep & Paint: Magnolia \nYour inner scholar is calling—follow it to Lan Su! \nParking Address:- 424 NW Third Avenue Portland\, OR 97209 \nThis Event Runs From Mar 20\, 2026\, 10:00am to\nApr 26\, 2026\, 6:30pm Timezone: Pacific Time (US & Canada) \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/mulan-%e6%9c%a8%e8%98%ad-the-magnolia-festival-at-lan-su/2026-04-21/
+LOCATION:Lan Su Chinese Garden\, 239 NW Everett St\, Portland\, OR\, 97209
+CATEGORIES:Arts/Crafts,Kids Calendar,Plants & Nature
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/138709-Mulan-木蘭-The-Magnolia-Festival-at-Lan-Su.jpg
+ORGANIZER;CN="Lan Su Chinese Garden":MAILTO:lilly@lansugarden.org
+GEO:45.5255313;-122.6730382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Lan Su Chinese Garden 239 NW Everett St Portland OR 97209;X-APPLE-RADIUS=500;X-TITLE=239 NW Everett St:geo:-122.6730382,45.5255313
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T101500
+DTEND;TZID=America/Los_Angeles:20260421T140000
+DTSTAMP:20260420T192440
+CREATED:20260119T161703Z
+LAST-MODIFIED:20260119T161703Z
+UID:10052619-1776766500-1776780000@pdxparent.com
+SUMMARY:Sellwood Community House Open Gym
+DESCRIPTION:Let the littles run\, roll\, and explore in our old-school basketball gym! We transform the space with ride-on toys\, balls\, and toddler-friendly equipment for open-ended play. Perfect for burning energy rain or shine. Children must be accompanied by an adult. $8\, $6 for siblings \nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/sellwood-community-house-open-gym/2026-04-21/
+LOCATION:Sellwood Community House\, 1436 SE Spokane St\, Portland\, Oregon\, 97202
+CATEGORIES:Inclusive,Indoor,Indoor Play Park,Kids Calendar
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/PDX-Parent-Cal-12-1.png
+ORGANIZER;CN="Sellwood Community House":MAILTO:erin@sellwoodcommunityhouse.org
+GEO:45.4647759;-122.6512239
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Sellwood Community House 1436 SE Spokane St Portland Oregon 97202;X-APPLE-RADIUS=500;X-TITLE=1436 SE Spokane St:geo:-122.6512239,45.4647759
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T103000
+DTEND;TZID=America/Los_Angeles:20260421T110000
+DTSTAMP:20260420T192440
+CREATED:20260310T170209Z
+LAST-MODIFIED:20260310T170209Z
+UID:10056583-1776767400-1776769200@pdxparent.com
+SUMMARY:Early Childhood Mandarin Music and Movement Class
+DESCRIPTION:Join us for a 30-minute Mandarin Music & Movement class specially designed for young learners. We will sing\, move\, play instruments\, and tell stories. We welcome all levels of Mandarin fluency from absolute beginners to native Mandarin speakers. Recommended for children six and under accompanied by their caregivers. No registration is required and on a first come basis.\n\nHeart Strings Mandarin is an Early Childhood Mandarin Music and Movement program designed for young children. Created by a bilingual language and music educator with professional qualifications in music therapy and mental health\, this program offers a warm\, engaging introduction to Mandarin through music.\n\nEditor’s note: This event is a community submission.
+URL:https://pdxparent.com/event-single/early-childhood-mandarin-music-and-movement-class-20/
+LOCATION:West Linn library\, 1595 Burns St\, West Linn\, O\, 97068\, United States
+CATEGORIES:Educational,Family Fun,Kids Calendar,Music,Storytime
+ATTACH;FMTTYPE=image/jpeg:https://pdxparent.com/wp-content/uploads/westlinnstory.jpeg
+ORGANIZER;CN="Heart Strings Mandarin":MAILTO:heartstringsmandarin@gmail.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260421T110000
+DTEND;TZID=America/Los_Angeles:20260421T120000
+DTSTAMP:20260420T192440
+CREATED:20251022T210652Z
+LAST-MODIFIED:20251120T223716Z
+UID:10042451-1776769200-1776772800@pdxparent.com
+SUMMARY:Family Storytime at Vancouver Mall Public Library
+DESCRIPTION:Hear stories\, sing songs\, and enjoy fun activities for children of all ages and their parents or caregivers. Hosted by the Vancouver Mall Public Library on Tuesdays & Thursdays\, 11am-12pm. Library events and programs are open to the public and provided at no cost. Check the event host’s website for confirm the event is happening when you plan to go!
+URL:https://pdxparent.com/event-single/family-storytime-at-vancouver-mall-public-library/2026-04-21/
+LOCATION:Vancouver Mall
+CATEGORIES:Books/Library,Indoor,Kids Calendar,Storytime
+ATTACH;FMTTYPE=image/png:https://pdxparent.com/wp-content/uploads/Vancouver-Mall-Storytime-at-Free-Little-Library.png
+END:VEVENT
+END:VCALENDAR

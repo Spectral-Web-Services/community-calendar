@@ -1,0 +1,470 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Portland Art Museum - ECPv6.15.13.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Portland Art Museum
+X-ORIGINAL-URL:https://portlandartmuseum.org
+X-WR-CALDESC:Events for Portland Art Museum
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260422T120000
+DTEND;TZID=America/Vancouver:20260422T130000
+DTSTAMP:20260420T192420
+CREATED:20260406T230917Z
+LAST-MODIFIED:20260413T173210Z
+UID:10001473-1776859200-1776862800@portlandartmuseum.org
+SUMMARY:Photography Council’s Lunchtime Talk: Nykelle DeVivo
+DESCRIPTION:Free to the public. People are welcome to bring their lunch. \n\n\n\nA Flash of Spirit \n\n\n\nArtist StatementI use light as a ritual technology for spiritual intervention and ancestral protection. In this presentation\, I’ll trace the evolution of my artistic practice and pay homage to those who guided me forward. From the potentiality in Sun Ra’s astral travels to the void work of decolonial struggles\, I’ll discuss the power of light in all its forms. \n\n\n\nNykelle DeVivo (they/them) is a Portland-based artist whose practice centers on light as a tool for ancestral connection and spiritual revelation. Through photography\, film\, and installation\, they engage in a meditative dialogue with the unseen\, drawing from diasporic traditions of divination\, Afrofuturist methodologies\, and Black Anarchist praxis. DeVivo holds an MFA in Visual Arts from the University of California San Diego and is an inaugural Google Image Equity Fellow. Their work has been presented internationally and is included in numerous public and private collections. They are currently preparing their first monograph\, Tha Crossroads\, a culmination of over a decade of image-making\, slated for release in 2027. \n\n\n\nThe Lunchtime Talk series is a presentation of the Portland Art Museum’sPhotography Council.
+URL:https://portlandartmuseum.org/event/photography-councils-lunchtime-talk-nykelle-devivo/
+LOCATION:Portland Art Museum\, Mark Building\, 1119 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Free & discounted,Lectures & talks
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/04/Nykelle-DeVivo-A-Flash-of-Spirit-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260422T190000
+DTEND;TZID=America/Vancouver:20260422T210000
+DTSTAMP:20260420T192420
+CREATED:20260312T162039Z
+LAST-MODIFIED:20260312T162042Z
+UID:10001424-1776884400-1776891600@portlandartmuseum.org
+SUMMARY:Carte Blanche: Sam Green x The Oldest Person in the World
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/carte-blanche-sam-green-x-the-oldest-person-in-the-world/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Lectures & talks,Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/The-Oldest-Person.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260423T190000
+DTEND;TZID=America/Vancouver:20260423T210000
+DTSTAMP:20260420T192420
+CREATED:20260312T162234Z
+LAST-MODIFIED:20260312T162236Z
+UID:10001425-1776970800-1776978000@portlandartmuseum.org
+SUMMARY:Band of Outsiders x Art & About
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/band-of-outsiders-x-art-about/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Band-of-Outsiders-2-Rialto-Pictures.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260424T110000
+DTEND;TZID=America/Vancouver:20260530T170000
+DTSTAMP:20260420T192420
+CREATED:20260302T170343Z
+LAST-MODIFIED:20260312T223833Z
+UID:10001394-1777028400-1780160400@portlandartmuseum.org
+SUMMARY:Spring Member Artists Show 2026
+DESCRIPTION:We’ll be welcoming more than 200 new works from our Member Artists. Every work will be available for purchase or rental. Find out more at rentalsalesgallery.com. \n\n\n\nJoin us for the opening reception on Friday\, April 24\, from 4-7pm
+URL:https://portlandartmuseum.org/event/spring-member-artists-show-2026/
+LOCATION:Rental Sales Gallery\, 1237 SW 10th Ave\, Portland\, 97205\, United States
+CATEGORIES:Free & discounted
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/RSG-Spring-Show-Paradise-River-Sarah-Bouwsma.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260424T190000
+DTEND;TZID=America/Vancouver:20260424T210000
+DTSTAMP:20260420T192420
+CREATED:20260312T162416Z
+LAST-MODIFIED:20260312T162417Z
+UID:10001426-1777057200-1777064400@portlandartmuseum.org
+SUMMARY:Tough Shit with Oregon Humanities
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/tough-shit-with-oregon-humanities-april26/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Lectures & talks,Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/11/Tough-Shit-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260425T100000
+DTEND;TZID=America/Vancouver:20260425T163000
+DTSTAMP:20260420T192420
+CREATED:20260304T225208Z
+LAST-MODIFIED:20260304T225209Z
+UID:10001403-1777111200-1777134600@portlandartmuseum.org
+SUMMARY:A Maximalist Floral Design Workshop Inspired by Marco Brambilla’s Heaven’s Gate
+DESCRIPTION:About the workshop\n\n\n\n\nMorning session: 10 a.m.  – 12:30 p.m.\n\n\n\nAfternoon session: 2 – 4:30 p.m.\n\n\n\nCost: $150\, materials fee: $100\n\n\n\nAges 18+\n\n\n\nNOTE: Registration closes on April 19\, 2026.\n\n\n\n\nDiscover the art of storytelling through flowers in this hands-on workshop inspired by the rich visuals and layered opulence of Marco Brambilla’s video collage Heaven’s Gate. We’ll explore how flowers can convey drama\, excess\, and narrative\, transforming seasonal blooms into bold\, immersive arrangements. \n\n\n\nThe workshop begins with a guided gallery walk to see the artwork Heaven’s Gate to spark inspiration\, followed by an immersive floral session where you’ll receive all the tools\, tips\, and a curated selection of vibrant\, seasonal flowers to create your own elegant\, maximalist floral still life. No experience is required—just bring your love of flowers\, art\, and imagination. \n\n\n\nLed by Portland-based floral artist Bianca Sparta of Colibri\, celebrated for her eclectic and extravagant designs\, this workshop welcomes every approach—from soft and subtle to daringly dramatic. Together\, we’ll respond to the textures\, colors\, and stories in Brambilla’s artwork to craft arrangements that are as layered\, grandiose\, and captivating as his cinematic world. \n\n\n\n\nregister for morning session\n\n\n\nregister for afternoon session\n\n\n\n\nAbout the teaching artist\n\n\n\n\n\nColibri is Bianca Sparta. With over a decade of experience working with flowers\, Bianca brings her fine art background to intersect with modern day florals\, creating a unique aesthetic and retail environment that stands alone.
+URL:https://portlandartmuseum.org/event/a-maximalist-floral-design-workshop-inspired-by-marco-brambillas-heavens-gate/
+LOCATION:PAM CUT\, 934 SW Salmon St.\, Portland\, OR\, 97205
+CATEGORIES:Classes & camps
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/1_UnStuck_APR-2026_Colibri.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260425T140000
+DTEND;TZID=America/Vancouver:20260425T160000
+DTSTAMP:20260420T192420
+CREATED:20260319T202125Z
+LAST-MODIFIED:20260319T203516Z
+UID:10001449-1777125600-1777132800@portlandartmuseum.org
+SUMMARY:The Red Shoes
+DESCRIPTION:The Red Shoes (1948) Directed by Michael Powell and Emeric Pressburger. 2hr 23min. Not Rated. \n\n\n\nKicking off Pretty\, Witty and Gay is The Red Shoes (1948). A film often celebrated for its lush three-strip Technicolor cinematography\, this film’s incredible color palette—featuring deep reds\, rich blues\, and vibrant tones\, mimics the surreal\, artistic world often seen in Hockney’s work. \n\n\n\nWe do not generally provide advisories about subject matter or potentially triggering content in films\, and films exhibited don’t necessarily reflect the views of PAM CUT or the Portland Art Museum. In addition to the synopses\, trailers\, and other links on our website\, further information about content and age-appropriateness for specific films can be found on sites like Common Sense Media\, IMDb\, and DoesTheDogDie.com.
+URL:https://portlandartmuseum.org/event/the-red-shoes-2/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:PAM CUT @ The Whitsell,Screenings & experiences
+ATTACH;FMTTYPE=image/webp:https://portlandartmuseum.org/wp-content/uploads/2025/03/Red-Shoes_still2.webp
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260425T160000
+DTEND;TZID=America/Vancouver:20260425T180000
+DTSTAMP:20260420T192420
+CREATED:20260312T163521Z
+LAST-MODIFIED:20260312T163524Z
+UID:10001427-1777132800-1777140000@portlandartmuseum.org
+SUMMARY:Forbidden Fruits
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/forbidden-fruits/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/png:https://portlandartmuseum.org/wp-content/uploads/2026/03/Forbidden-Fruits-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260425T190000
+DTEND;TZID=America/Vancouver:20260425T210000
+DTSTAMP:20260420T192420
+CREATED:20260312T163734Z
+LAST-MODIFIED:20260312T163735Z
+UID:10001428-1777143600-1777150800@portlandartmuseum.org
+SUMMARY:Natchez
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/natchez/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/NATCHEZ_parkranger-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260426T100000
+DTEND;TZID=America/Vancouver:20260426T170000
+DTSTAMP:20260420T192420
+CREATED:20260319T182134Z
+LAST-MODIFIED:20260417T191136Z
+UID:10001447-1777197600-1777222800@portlandartmuseum.org
+SUMMARY:The 2026 HeART of Portland: K-12 Arts Showcase + Miller Family Free Day
+DESCRIPTION:Overview\n\n\n\nWelcome to the HeART of Portland: K-12 Arts Showcase + Miller Family Free Day! Enjoy free admission all day in celebration of youth arts and the community partnership between the Museum and city schools. Make art\, see student performances\, and visit the HeART of Portland K-12 Visual Art Exhibition in the new Silver Family Youth and Community Gallery. Explore PAM’s new Rothko Pavilion and the exhibition David Hockney: Works from the Collection of Jordan D. Schnitzer and His Family Foundation which inspired the HeART of Portland collaborative art project.  \n\n\n\nThank you\, Portlanders\, for the Arts Access Fund! Come celebrate more than 10 years marked by the excellence\, wonder\, and curiosity of student artists whose talents have been cultivated by the generosity of Portland taxpayers. The Arts Access Fund provides for elementary arts teachers in the six school districts serving Portland and for expanded access to the arts for all Portlanders. At this free day celebration\, we are thrilled to present student performances from four districts served by the Fund: Centennial\, Parkrose\, Portland Public Schools\, and Riverdale. \n\n\n\nFree tickets can be reserved online one week in advance and are also available at the door. \n\n\n\nMiller Family Free Days are generously supported by Sharon L. Miller and Family. Additional funding is provided by The Lamb Baldwin Foundation. \n\n\n\nRelated events\n\n\n\n\n\n			\n			\n							\n		\n		\n		\n		\n			\n							\n											Free & discounted\n						 x 											Lectures & talks\n															\n						\n							\n											\n												Look With Me												\n									\n						\n							\n										\n														\n								General accessibility							\n						\n										\n					\n		\n						\n			\n																	Apr 26\, 2026 \n			\n						\n							\n										1219 SW Park Ave \n				\n						\n					\n	\n\n\n\n\n			\n			\n							\n		\n		\n		\n		\n			\n							\n											Exhibitions\n															\n						\n							\n											\n												2026 HeART of Portland: A Portland Public Schools K-12 Arts Showcase Visual Art Exhibition												\n									\n						\n					\n		\n						\n			\n																	Apr 15\, 2026 – Sep 20\, 2026 \n			\n						\n							\n										1219 SW Park Ave \n				\n						\n					\n	\n\n\n\n\n			\n			\n							\n		\n		\n		\n		\n			\n							\n											Free & discounted\n						 x 											Partner events\n															\n						\n							\n											\n												2026 HeART of Portland: A Portland Public Schools K-12 Arts Showcase Opening Celebration												\n									\n						\n							\n										\n														\n								General accessibility							\n						\n										\n					\n		\n						\n			\n																	Apr 15\, 2026 \n			\n						\n							\n										1119 SW Park Ave
+URL:https://portlandartmuseum.org/event/heart-of-portland-miller-free-day/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Free & discounted
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2024/04/20230423_MIller-Family-Free-Day-April-2023_0105-Unprocessed-JPEG-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260426T120000
+DTEND;TZID=America/Vancouver:20260426T150000
+DTSTAMP:20260420T192420
+CREATED:20260417T190931Z
+LAST-MODIFIED:20260417T191034Z
+UID:10001491-1777204800-1777215600@portlandartmuseum.org
+SUMMARY:Look With Me
+DESCRIPTION:Your eyes\, your ideas\, one artwork at a time. Slow your pace in the galleries and join a Look With Me conversation. These 20-minute\, drop-in sessions focus on one artwork\, just enough time to notice things you might normally breeze past. Our volunteer guides invite your perspective\, spark questions\, and help the whole group see something new. \n\n\n\nSessions take place every 30 minutes from Noon to 3 p.m. Look for signs in the galleries to join.  \n\n\n\nCome for one session or stay for a few. You’ll be surprised by what you start to notice. \n\n\n\nThird Sundays: Look With Me + Art in ASLOnce a month\, some sessions are led in American Sign Language (ASL) and others in English. Every session includes ASL/English interpretation.
+URL:https://portlandartmuseum.org/event/look-with-me-april26/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Free & discounted,Lectures & talks
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/12/feature-Look-with-Me-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260426T140000
+DTEND;TZID=America/Vancouver:20260426T160000
+DTSTAMP:20260420T192420
+CREATED:20260319T203435Z
+LAST-MODIFIED:20260319T203436Z
+UID:10001450-1777212000-1777219200@portlandartmuseum.org
+SUMMARY:The Long Goodbye
+DESCRIPTION:The Long Goodbye (1973) Directed by Robert Altman. 1hr 52min. Rated R. \n\n\n\nCatch the neo-noir Robert Altman classic The Long Goodbye (1973) as part of our film series Pretty\, Witty and Gay—in conversation with the David Hockney exhibition. The Long Goodbye is set in sun-drenched 1970’s Los Angeles and follows Detective Philip Marlowe as he tries to help a friend who is accused of murdering his wife. \n\n\n\nWe do not generally provide advisories about subject matter or potentially triggering content in films\, and films exhibited don’t necessarily reflect the views of PAM CUT or the Portland Art Museum. In addition to the synopses\, trailers\, and other links on our website\, further information about content and age-appropriateness for specific films can be found on sites like Common Sense Media\, IMDb\, and DoesTheDogDie.com.
+URL:https://portlandartmuseum.org/event/the-long-goodbye/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:PAM CUT @ The Whitsell,Screenings & experiences
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/The-Long-Goodbye.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260426T190000
+DTEND;TZID=America/Vancouver:20260426T210000
+DTSTAMP:20260420T192420
+CREATED:20260312T164005Z
+LAST-MODIFIED:20260312T164030Z
+UID:10001429-1777230000-1777237200@portlandartmuseum.org
+SUMMARY:Once a Braided River
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/once-a-braided-river/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/A-Braided-River-painting.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260430T190000
+DTEND;TZID=America/Vancouver:20260430T210000
+DTSTAMP:20260420T192420
+CREATED:20260312T164221Z
+LAST-MODIFIED:20260312T164222Z
+UID:10001430-1777575600-1777582800@portlandartmuseum.org
+SUMMARY:Coexistence\, My Ass!
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/coexistence-my-ass/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Lectures & talks,Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/png:https://portlandartmuseum.org/wp-content/uploads/2026/03/coexistencemyass.jpg.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260501T190000
+DTEND;TZID=America/Vancouver:20260501T210000
+DTSTAMP:20260420T192420
+CREATED:20260318T203311Z
+LAST-MODIFIED:20260318T203337Z
+UID:10001431-1777662000-1777669200@portlandartmuseum.org
+SUMMARY:By The Skin Of The Wind: A Night of Cinema\, Music\, and Storytelling
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/by-the-skin-of-the-wind-a-night-of-cinema-music-and-storytelling/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Skin-of-the-Wind.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260502T130000
+DTEND;TZID=America/Vancouver:20260502T160000
+DTSTAMP:20260420T192420
+CREATED:20260324T193153Z
+LAST-MODIFIED:20260420T224446Z
+UID:10001460-1777726800-1777737600@portlandartmuseum.org
+SUMMARY:Surface Alchemy // Experiments in Projection Mapping - SOLD OUT
+DESCRIPTION:Workshop overview\n\n\n\nSaturdays\, May 2 & 9\, 1 – 4 p.m.Cost: $135 before April 20\, $150 after Ages 18+\, limited to 18 participants \n\n\n\n\n	\n	\n\n\n\nStep into the process of creating immersive light art in this two-session\, hands-on workshop led by Craig Winslow\, Founder & Chief Creative Officer of Winslow Studio. Designed for adults who want to experiment\, prototype\, and explore new ways to project digital media onto physical spaces\, the workshop emphasizes guided exercises\, collaborative problem-solving\, and iterative making. You’ll learn by doing as you test ideas\, refine techniques\, and develop your own approach to projection mapping. \n\n\n\nMay 2\, 1:00-4:00 PM \n\n\n\nSession 1: Foundations \n\n\n\n\nOverview of Craig Winslow\, Founder & Chief Creative Officer of Winslow Studio artistic practice and body of work.\n\n\n\nIntroduction to the basics of projection mapping using MadMapper. \n\n\n\nWorking in small groups\, we’ll learn to map digital media onto 2D surfaces\, murals\, and 3D objects. \n\n\n\nBrainstorm a concept or prototype to actualize in session 2.\n\n\n\n\nMay 9\, 1:00-4:00 PM \n\n\n\nSession 2: Interaction & Installation \n\n\n\n\nExplore interactive elements like live camera input\, MIDI control\, and sound-reactive visuals. \n\n\n\nLearn mobile projection techniques for versatile sites\, ranging from rooftops to forests\, and refine your prototype on more complex surfaces.\n\n\n\nTips\, tricks\, and best practices for creating light installations.\n\n\n\nDiscuss practical prototyping and field testing. \n\n\n\n\nBy the end\, you’ll leave with practical projection mapping skills\, a working concept or prototype\, and practical strategies to continue your creative exploration\, ready to transform walls\, objects\, and unexpected spaces into luminous\, interactive experiences. \n\n\n\n\nSOLD out – Waitlist only\n\n\n\n\nAbout the teaching artist\n\n\n\n\n\nWinslow Studio is creatively led by light artist Craig Winslow\, who has a foundation in branding\, 3D art\, and industrial design\, giving him a refined eye for sweating the details. His career began at the award winning brand studio JDK Designs\, was awarded the 2016 Adobe Creative Residency\, and has worked with Adobe\, Tim Burton\, Coca-Cola\, NikeLab\, The Neon Museum and more. 
+URL:https://portlandartmuseum.org/event/surface-alchemy-experiments-in-projection-mapping/
+LOCATION:PAM CUT\, 934 SW Salmon St.\, Portland\, OR\, 97205
+CATEGORIES:Classes & camps
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/1_UnStuck-May-2026_Winslow-Studio.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260502T140000
+DTEND;TZID=America/Vancouver:20260502T160000
+DTSTAMP:20260420T192420
+CREATED:20260319T203716Z
+LAST-MODIFIED:20260319T211236Z
+UID:10001451-1777730400-1777737600@portlandartmuseum.org
+SUMMARY:3 Women
+DESCRIPTION:3 Women (1977) Directed by Robert Altman. 2hr 4min. Rated PG. \n\n\n\nCatch Robert Altman’s dreamy 3 Women (1977) as part of our film series Pretty\, Witty and Gay‚—in conversation with the David Hockney exhibition. This visually rich\, impressionistic film is set against the backdrop of the dusty California desert and depicts an eerie portrait of womanhood. \n\n\n\nWe do not generally provide advisories about subject matter or potentially triggering content in films\, and films exhibited don’t necessarily reflect the views of PAM CUT or the Portland Art Museum. In addition to the synopses\, trailers\, and other links on our website\, further information about content and age-appropriateness for specific films can be found on sites like Common Sense Media\, IMDb\, and DoesTheDogDie.com.
+URL:https://portlandartmuseum.org/event/3-women/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:PAM CUT @ The Whitsell,Screenings & experiences
+ATTACH;FMTTYPE=image/png:https://portlandartmuseum.org/wp-content/uploads/2026/03/Screen-Shot-2026-03-19-at-2.09.58-PM-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260502T190000
+DTEND;TZID=America/Vancouver:20260502T210000
+DTSTAMP:20260420T192420
+CREATED:20260318T203654Z
+LAST-MODIFIED:20260318T203655Z
+UID:10001432-1777748400-1777755600@portlandartmuseum.org
+SUMMARY:Carte Blanche: Julio Torres
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/carte-blanche-julio-torres/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Julio-landscape.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260503T120000
+DTEND;TZID=America/Vancouver:20260503T150000
+DTSTAMP:20260420T192420
+CREATED:20260417T191259Z
+LAST-MODIFIED:20260417T191300Z
+UID:10001494-1777809600-1777820400@portlandartmuseum.org
+SUMMARY:Look With Me
+DESCRIPTION:Your eyes\, your ideas\, one artwork at a time. Slow your pace in the galleries and join a Look With Me conversation. These 20-minute\, drop-in sessions focus on one artwork\, just enough time to notice things you might normally breeze past. Our volunteer guides invite your perspective\, spark questions\, and help the whole group see something new. \n\n\n\nSessions take place every 30 minutes from Noon to 3 p.m. Look for signs in the galleries to join.  \n\n\n\nCome for one session or stay for a few. You’ll be surprised by what you start to notice. \n\n\n\nThird Sundays: Look With Me + Art in ASLOnce a month\, some sessions are led in American Sign Language (ASL) and others in English. Every session includes ASL/English interpretation.
+URL:https://portlandartmuseum.org/event/look-with-me-may3/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Lectures & talks
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/12/feature-Look-with-Me-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260503T140000
+DTEND;TZID=America/Vancouver:20260503T160000
+DTSTAMP:20260420T192420
+CREATED:20260319T203949Z
+LAST-MODIFIED:20260319T203951Z
+UID:10001452-1777816800-1777824000@portlandartmuseum.org
+SUMMARY:Singin’ in the Rain
+DESCRIPTION:Singin’ in the Rain (1952) Directed by Gene Kelly and Stanley Donen. 1hr 43min. Rated G. \n\n\n\nGuest programmed by Drag sensation Poison Waters\, catch Singin’ in the Rain (1952) as part of our film series Pretty\, Witty and Gay—in conversation with the David Hockney exhibition. This magical and celebrated musical comedy focuses on the transition from silent films to “talkies”—exploring the visual landscape of Hollywood through vibrant technicolor\, fantastical rain-soaked choreography\, and colorful costumes. \n\n\n\nWe do not generally provide advisories about subject matter or potentially triggering content in films\, and films exhibited don’t necessarily reflect the views of PAM CUT or the Portland Art Museum. In addition to the synopses\, trailers\, and other links on our website\, further information about content and age-appropriateness for specific films can be found on sites like Common Sense Media\, IMDb\, and DoesTheDogDie.com.
+URL:https://portlandartmuseum.org/event/singin-in-the-rain/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:PAM CUT @ The Whitsell,Screenings & experiences
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Singing-in-the-Rain-2-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260503T150000
+DTEND;TZID=America/Vancouver:20260503T170000
+DTSTAMP:20260420T192420
+CREATED:20260318T205156Z
+LAST-MODIFIED:20260318T205201Z
+UID:10001433-1777820400-1777827600@portlandartmuseum.org
+SUMMARY:A Body to Live In w/ Dir. Angelo Madsen Minax
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/a-body-to-live-in-w-dir-angelo-madsen-minax/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/A-Body-to-Live-In-2.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260503T190000
+DTEND;TZID=America/Vancouver:20260503T210000
+DTSTAMP:20260420T192420
+CREATED:20260318T205815Z
+LAST-MODIFIED:20260318T205816Z
+UID:10001434-1777834800-1777842000@portlandartmuseum.org
+SUMMARY:Marc by Sofia
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/marc-by-sofia/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/MARC-BY-SOFIA_01-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260507T100000
+DTEND;TZID=America/Vancouver:20260507T190000
+DTSTAMP:20260420T192420
+CREATED:20260401T172443Z
+LAST-MODIFIED:20260416T212837Z
+UID:10001464-1778148000-1778180400@portlandartmuseum.org
+SUMMARY:Free First Thursday
+DESCRIPTION:Overview\n\n\n\nPortland Art Museum invites the community to join a Free First Thursday event\, offering free admission to the museum for all\, plus DJs and Look With Me tours. This unique day includes a chance to explore the special exhibition David Hockney: Works from the Collections of Jordan D. Schnitzer and His Family Foundation and the 2026 HeART of Portland exhibition\, as well as PAM’s transformed campus and reinstalled permanent collection galleries. \n\n\n\nRelated Events\n\n\n\n\n12-2 & 3-5 p.m. Vinyl Decoration Open Studio\, Finley Learning Studio\n\n\n\n3 & 5 p.m. Documentary screenings\, Whitsell Auditorium\n\n\n\n4-6 p.m. Look with Me\, Various Galleries\n\n\n\n\n\n\n			\n			\n							\n		\n		\n		\n		\n			\n							\n											Free & discounted\n															\n						\n							\n											\n												Museum Sessions – Live DJs at PAM												\n									\n						\n							\n										\n														\n								General accessibility							\n						\n										\n					\n		\n						\n			\n																	May 7\, 2026 \n			\n						\n							\n										1219 SW Park Ave \n				\n						\n					\n	\n\n\n\n\n			\n			\n							\n		\n		\n		\n		\n			\n							\n											Screenings & experiences\n						 x 											Tomorrow Theater\n															\n						\n							\n											\n												TCB – The Toni Cade Bambara School of Organizing												\n									\n						\n							\n										\n														\n								Gender neutral restrooms							\n						\n												\n														\n								General accessibility							\n						\n												\n														\n								Wheelchair accessible restrooms							\n						\n										\n					\n		\n						\n			\n																	May 7\, 2026 \n			\n						\n							\n										3530 SE Division St. \n				\n						\n					\n	\n\n\n\n\nTickets\n\n\n\nFree First Thursday tickets can be reserved online one week in advance and are also available at the door. Tickets to Free First Thursday programs at the Tomorrow Theater are available online. \n\n\n\nFree First Thursdays at the Museum and PAM CUT’s Tomorrow Theater aligns with the revitalization of the long-standing Portland art galleries’ tradition of opening their doors for openings\, receptions\, and events on the first Thursday of each month. In recent months art and culture organizations have joined to bring back this popular activity\, including the Pacific Northwest College of Art and the Oregon Jewish Museum and Center for Holocaust Education in the North Park Blocks. \n\n\n\nGenerous support provided by Art Bridges Foundation’s Access for All program. \n\n\n\n\n\n\n\n\nLearn more about other discounted and free opportunities.
+URL:https://portlandartmuseum.org/event/free-first-thursday-may2026/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Free & discounted
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/11/Rothko-Pavilion-4C_8386_F2-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260507T120000
+DTEND;TZID=America/Vancouver:20260507T190000
+DTSTAMP:20260420T192420
+CREATED:20260401T212210Z
+LAST-MODIFIED:20260406T224701Z
+UID:10001472-1778155200-1778180400@portlandartmuseum.org
+SUMMARY:Museum Sessions – Live DJs at PAM
+DESCRIPTION:For this Free First Thursday\, DJs  from Basement Sessions will curate sets inspired by themes found within the museum’s collection — interpreting artworks\, moods\, histories\, or visual energy through sound.  \n\n\n\nWhat are Basement Sessions? \n\n\n\nThe Basement Sessions is a monthly web series hosted by DJ Rejekt and DJ Chris The Dad\, inviting DJs in the Portland metro area an opportunity to showcase their DJ skills and music curations for one hour. This includes friendly discussions about music\, trading DJ tips and tricks\, and observing and appreciating each other’s styles\, selections\, aesthetics\, and skills. Each Session takes place primarily in DJ Rejekt’s basement\, but has now expanded to include other friends’ and DJs’ basements\, as well as venues willing to host the Sessions. The Sessions are vinyl-only affairs\, featuring two turntables\, a mixer\, and speakers. The Sessions are live-streamed via Twitch and recorded and uploaded to YouTube for public viewing.   \n\n\n\n\n\n\n\nWho are Basement Sessions? \n\n\n\nThe Basement Sessions are hosted by DJ Rejekt (Jesse Johnson) and DJ Chris The Dad (Chris Hanson). Regular guest DJs include DJ Dali and DJ LeMix\, both from Portland. We’ve also had the pleasure of hosting respected Portland DJs\, including DJ Narcissus\, DJ Wags\, DJ Radical John\, DJ Residual Sugar\, and DJ Susan Saranwrap\, at the Basement to showcase their talents. \n\n\n\nWhy? \n\n\n\nThe Basement Sessions was created to contribute to and preserve the long art legacy of vinyl-DJ record playing\, which has existed for nearly eight decades. This legacy includes early 1940’s radio DJs using single turntables to play on the air or at parties\, and the advancement of sound systems and modern DJing\, thanks to Reggae and Hip-Hop artists in the 60’s and 70’s. Contributing to this culture means sharing through playing\, which is why the Sessions is open to all music genres and DJ skill levels. We believe that music connects people and helps us learn about one another\, thereby promoting cultural diversity. 
+URL:https://portlandartmuseum.org/event/museum-sessions/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Free & discounted
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/04/image0.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260507T190000
+DTEND;TZID=America/Vancouver:20260507T210000
+DTSTAMP:20260420T192420
+CREATED:20260318T210007Z
+LAST-MODIFIED:20260318T210008Z
+UID:10001435-1778180400-1778187600@portlandartmuseum.org
+SUMMARY:TCB – The Toni Cade Bambara School of Organizing
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/tcb-the-toni-cade-bambara-school-of-organizing/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Toni-Bambara-1.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260508T190000
+DTEND;TZID=America/Vancouver:20260508T210000
+DTSTAMP:20260420T192420
+CREATED:20260318T210135Z
+LAST-MODIFIED:20260318T210136Z
+UID:10001436-1778266800-1778274000@portlandartmuseum.org
+SUMMARY:Serial Mom Movie Bingo
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/serial-mom-movie-bingo/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2024/12/Serial-Mom-still-2.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260509T140000
+DTEND;TZID=America/Vancouver:20260509T160000
+DTSTAMP:20260420T192420
+CREATED:20260319T204215Z
+LAST-MODIFIED:20260319T204216Z
+UID:10001453-1778335200-1778342400@portlandartmuseum.org
+SUMMARY:Sunset Boulevard
+DESCRIPTION:Sunset Boulevard (1950) Directed by Billy Wilder. 1hr 50min. Not Rated. \n\n\n\nCatch the Billy Wilder comedy noir classic Sunset Boulevard (1950) as part of our film series Pretty\, Witty and Gay— in conversation with the David Hockney exhibition. This film is a masterclass in high contrast\, deep shadows\, adding stardom and the brutal exploitative Hollywood film industry. \n\n\n\nWe do not generally provide advisories about subject matter or potentially triggering content in films\, and films exhibited don’t necessarily reflect the views of PAM CUT or the Portland Art Museum. In addition to the synopses\, trailers\, and other links on our website\, further information about content and age-appropriateness for specific films can be found on sites like Common Sense Media\, IMDb\, and DoesTheDogDie.com.
+URL:https://portlandartmuseum.org/event/sunset-boulevard/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:PAM CUT @ The Whitsell,Screenings & experiences
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Sunset-Blvd.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260509T180000
+DTEND;TZID=America/Vancouver:20260509T200000
+DTSTAMP:20260420T192420
+CREATED:20260318T210355Z
+LAST-MODIFIED:20260318T210356Z
+UID:10001437-1778349600-1778356800@portlandartmuseum.org
+SUMMARY:Twister: CineWhimsy – An Immersive 4D Extravaganza
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/twister-cinewhimsy-an-immersive-4d-extravaganza/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+CATEGORIES:Screenings & experiences,Tomorrow Theater
+ATTACH;FMTTYPE=image/png:https://portlandartmuseum.org/wp-content/uploads/2024/05/Twister.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260510T040000
+DTEND;TZID=America/Vancouver:20260510T180000
+DTSTAMP:20260420T192420
+CREATED:20260318T210750Z
+LAST-MODIFIED:20260318T210751Z
+UID:10001438-1778385600-1778436000@portlandartmuseum.org
+SUMMARY:Multiple Maniacs
+DESCRIPTION:See full details at tomorrowtheater.org.
+URL:https://portlandartmuseum.org/event/multiple-maniacs/
+LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/03/Multiple-Maniacs_horiz.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260510T120000
+DTEND;TZID=America/Vancouver:20260510T150000
+DTSTAMP:20260420T192420
+CREATED:20260417T191328Z
+LAST-MODIFIED:20260417T191329Z
+UID:10001493-1778414400-1778425200@portlandartmuseum.org
+SUMMARY:Look With Me
+DESCRIPTION:Your eyes\, your ideas\, one artwork at a time. Slow your pace in the galleries and join a Look With Me conversation. These 20-minute\, drop-in sessions focus on one artwork\, just enough time to notice things you might normally breeze past. Our volunteer guides invite your perspective\, spark questions\, and help the whole group see something new. \n\n\n\nSessions take place every 30 minutes from Noon to 3 p.m. Look for signs in the galleries to join.  \n\n\n\nCome for one session or stay for a few. You’ll be surprised by what you start to notice. \n\n\n\nThird Sundays: Look With Me + Art in ASLOnce a month\, some sessions are led in American Sign Language (ASL) and others in English. Every session includes ASL/English interpretation.
+URL:https://portlandartmuseum.org/event/look-with-me-may10/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+CATEGORIES:Lectures & talks
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/12/feature-Look-with-Me-scaled.jpg
+END:VEVENT
+END:VCALENDAR
