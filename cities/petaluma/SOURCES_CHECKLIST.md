@@ -8,13 +8,13 @@
 | Aqus Community | MembershipWorks ICS | 87 | ✅ In CI |
 | Petaluma Regional Library | Scraper | 155 | ✅ In CI |
 | Petaluma Chamber of Commerce | GrowthZone Scraper | 80 | ✅ In CI |
-| Mystic Theatre | Scraper | 12 | ✅ In CI |
+| Mystic Theatre | Scraper | 21 | ✅ In CI |
 | ~~Eventbrite Petaluma~~ | ~~Scraper~~ | — | Retired 2026-02-15: scraper broken |
 | Petaluma High School Athletics | MaxPreps Scraper | 9 | ✅ In CI |
 | Casa Grande High School Athletics | MaxPreps Scraper | 8 | ✅ In CI |
 | SRJC Petaluma Campus | LiveWhale ICS | ~10 | ✅ In CI |
 | HenHouse Brewing Petaluma | Scraper | 2-3 | ✅ In CI |
-| ~~Phoenix Theater~~ | ~~Eventbrite Scraper~~ | — | Retired 2026-02-15: Eventbrite-dependent |
+| Phoenix Theater | Eventbrite Scraper | 9 | ✅ In CI (restored 2026-04-20) |
 | Mercury Theater | Squarespace JSON Scraper | 12 | ✅ In CI |
 | Adobe Road Winery | JSON-LD Scraper | 8 | ✅ In CI |
 | The Big Easy | WordPress iCal | ~30 | ✅ In CI |
@@ -39,28 +39,34 @@
 | Meetup: Active 20-30 | ICS | 2 | ✅ In CI |
 | Meetup: Sonoma County Outdoors | ICS | ~10 | ✅ In CI |
 | Meetup: Meditate with a Monk | ICS | ~10 | ✅ In CI |
+| Lagunitas Brewing Petaluma | Scraper | 10 | ✅ In CI (added 2026-04-20) |
+| The Floathouse Petaluma | Squarespace Scraper | ~78 | ✅ In CI (added 2026-04-20) |
+| Petaluma Speedway | WordPress iCal | ~27 | ✅ In CI (added 2026-04-20) |
+| Hall of the Above | Squarespace Scraper | ~16 | ✅ In CI (added 2026-04-20) |
+| Usher Gallery | Scraper | ~2 | ✅ In CI (added 2026-04-20) |
+| Montagne Russe Winery | Vin65 Scraper | ~9 | ✅ In CI (added 2026-04-20) |
+| Copperfield's Books Petaluma | Drupal Scraper | ~15 | ✅ In CI (added 2026-04-20) |
+| UU Petaluma | Google Calendar ICS | many | ✅ In CI (added 2026-04-20) |
+| The Block Petaluma | Elfsight Calendar Scraper | ~51 | ✅ In CI (added 2026-04-20) |
+| Village Network of Petaluma | HelpfulVillage Scraper | ~47 | ✅ In CI (added 2026-04-20) |
+
+### Aggregators
+These curate or republish events from primary venues (which we already scrape directly). They're listed in `AGGREGATORS` in `scripts/combine_ics.py` so primary sources win during cross-source dedup.
+
+| Source | Type | Events | Notes |
+|--------|------|--------|-------|
+| Visit Petaluma | tribe-events Scraper | ~41 | Tourism board's `find-events/` listing; iCal export and Tribe REST API are disabled, so we scrape the rendered listing pages. Heavy overlap with Mystic / Phoenix / Russe / etc. — added 2026-04-20 |
 
 ---
 
 ## To Investigate
 
-### Needs custom scraper
-- Montagne Russe Winery (russewines.com/Events) - Vin65 platform, no structured data, ~6 events
-- Copperfield's Books Petaluma (copperfieldsbooks.com/upcoming-events?tags=2073) - Drupal/IndieCommerce, tags=2073 filters to Petaluma-only (~15 events, author events + storytimes). `antibot_key` URL param appears to be a per-session token, likely droppable. Clean per-event URLs (e.g. /event/2026-04-23/robert-moor) suggest per-page structured data. 2026-04-20
-
-### Google Calendar embed (easy ICS win)
-- UU Petaluma (uupetaluma.org/congregation-news/calendar-events/) - WordPress page embedding Google Calendar. No visible ICS link on page, but once the calendar ID is extracted from the iframe, it plugs into the same Google Calendar ICS pattern already used for Elks Lodge, Garden Club, Brooks Note. Weekly services + committee meetings + Sanctuary Concert Series. 2026-04-20
-
 ### Not yet investigated
-- Village Network of Petaluma (HelpfulVillage platform - events page wouldn't load, needs retry)
 - Sonoma County Regional Parks (parks.sonomacounty.ca.gov/play/calendar/hiking) - no ICS, would need scraper; Tolay Lake hikes may be within radius
-- Petaluma Cycling Club (Wild Apricot - no native ICS)
+- Petaluma Cycling Club / Petaluma Wheelmen (petalumawheelmen.org) — Wild Apricot platform, no native ICS. Homepage links only 2 master event pages (e.g., /event-6641694 "Show and Go from River Front Cafe – Every Tuesday & Thursday 9 AM"); each is a parent event with many child sessions exposed only via `#sessionId` fragments. Would need to crawl `/event-N` pages and expand sessions manually. 2026-04-20
 - Empire Runners Club (Wild Apricot - no native ICS)
 - Sonoma-Marin Fairgrounds (sonoma-marinfair.org/calendar) - WordPress Events Calendar, ICS empty, check closer to fair season
 - Petaluma Wetlands Alliance (petalumawetlands.org/calendar/) - WordPress/Divi, JS-rendered calendar, couldn't see events
-
-### Known issues with existing sources
-- Mystic Theatre scraper underreporting (2026-04-20): checklist shows 12 events but mystictheatre.com/calendar/ currently lists 24 upcoming through Nov 2026. Investigate pagination / date window in scrapers/mystic_theatre.py.
 
 ---
 
@@ -74,7 +80,6 @@
 | Petaluma Wildlife Museum | School tours/private events, not public |
 | Youth sports leagues | Member-only platforms, no public calendar exports (see below) |
 | WonderStump! | Squarespace but no events collection; Ticket Tailor behind Cloudflare |
-| Phoenix Theater (rechecked 2026-04-20) | thephoenixtheater.com "Upcoming Events" section has no server-rendered event data — JS-rendered, platform unclear. Retired 2026-02-15 as Eventbrite-dependent; still not viable unless they've moved platforms. |
 | 350 Petaluma | Squarespace events but dead since Oct 2023 |
 | Petaluma People Services | Squarespace but hand-curated page, not events collection |
 | Rotary Club of Petaluma | ClubRunner site deactivated |
@@ -85,3 +90,16 @@
 ### Youth Sports Research (2026-02-14)
 
 Extensively investigated: Petaluma National/American Little League (BlueSombrero), Leghorns Baseball, AYSO Region 26 (wrong city), Petaluma Youth Soccer (domain dead), Girls Softball (site down), Swim Team (not active), Parks & Rec (Cloudflare), RecDesk (not found). Platforms checked: GameChanger, TeamSnap, SportsEngine, LeagueApps, GotSport, TourneyMachine, ActiveNet, RecDesk. None viable. High school athletics via MaxPreps already covers public-facing school sports.
+
+## More todo 4-20-2026
+
+### Marginal value, defer
+- Petaluma Film Alliance (petalumafilmalliance.org/2026-spring-schedule/) — static spring schedule page, ~12 films parseable from H2 headings (`Month Day: TITLE`). Date-only, no times in headings — would need to fetch each film's individual page or assume a default showtime. 2026-04-20
+- Magic Shop Studios (magicshopstudios.com/open-studio-gallery-shows/) — only quarterly open studios + occasional gallery shows, very low event volume. 2026-04-20
+
+### Deferred
+(none currently)
+
+### Already covered above
+- Cinnabar Theater — see Non-Starters (shows at SSU Warren Theater, outside 8mi radius)
+- Petaluma Museum — already in CI as "Petaluma Historical Library & Museum"

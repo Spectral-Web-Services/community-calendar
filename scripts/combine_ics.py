@@ -1134,6 +1134,7 @@ AGGREGATORS = {
     'CitySpark Bloomington',
     'WFHB Community Calendar',
     'Travel Portland',
+    'Visit Petaluma',
     'LancasterPA.com',
     'Let\'s Go! Bloomington',
     'BloomingtonOnline Events',

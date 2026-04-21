@@ -3,7 +3,7 @@
 Scraper for Lagunitas Brewing Company Petaluma Taproom events.
 
 Usage:
-    python scrapers/lagunitas.py --output cities/santarosa/lagunitas.ics
+    python scrapers/lagunitas.py --output cities/petaluma/lagunitas.ics
 """
 
 import sys

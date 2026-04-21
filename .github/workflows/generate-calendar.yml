@@ -252,7 +252,7 @@ jobs:
         python scrapers/maxpreps.py --school casa-grande-gauchos --output cities/petaluma/maxpreps_casa_grande.ics || true
         # Petaluma Chamber of Commerce (GrowthZone)
         python scrapers/growthzone.py --site petalumachamber --output cities/petaluma/petaluma_chamber.ics || true
-        # HenHouse Brewing and Phoenix Theater
+        # HenHouse Brewing
         python scrapers/henhouse.py > cities/petaluma/henhouse.ics || true
         # Mercury Theater and Adobe Road Winery
         python scrapers/mercury_theater.py --output cities/petaluma/mercury_theater.ics || true
@@ -264,6 +264,26 @@ jobs:
         python scrapers/petaluma_river_park.py --output cities/petaluma/petaluma_river_park.ics || true
         # Blue Zones Project Petaluma (Eventbrite)
         python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/78957912343" --name "Blue Zones Project Petaluma" --output cities/petaluma/bluezones_petaluma.ics || true
+        # Phoenix Theater (Eventbrite organizer; site embeds via Wix widget)
+        python scrapers/eventbrite.py --url "https://www.eventbrite.com/o/phoenix-theater-26319831111" --name "Phoenix Theater" --output cities/petaluma/phoenix_theater.ics || true
+        # Lagunitas Brewing Petaluma Taproom
+        python scrapers/lagunitas.py --output cities/petaluma/lagunitas.ics || true
+        # The Floathouse Petaluma (Squarespace events collection)
+        python scrapers/floathouse.py --output cities/petaluma/floathouse.ics || true
+        # Hall of the Above (Squarespace event-database collection)
+        python scrapers/hall_of_the_above.py --output cities/petaluma/hall_of_the_above.ics || true
+        # Usher Gallery (Shopify AI Event Block widget)
+        python scrapers/usher_gallery.py --output cities/petaluma/usher_gallery.ics || true
+        # Montagne Russe Winery (Vin65 calendar listing with expanded artist schedule)
+        python scrapers/russewines.py --output cities/petaluma/russewines.ics || true
+        # Copperfield's Books Petaluma (Drupal/IndieCommerce, tags=2073 filter)
+        python scrapers/copperfields.py --output cities/petaluma/copperfields.ics || true
+        # The Block Petaluma (Elfsight Event Calendar widget embedded via filesusr.com)
+        python scrapers/the_block_petaluma.py --output cities/petaluma/the_block_petaluma.ics || true
+        # Village Network of Petaluma (HelpfulVillage; bulk JSON index + per-event ICS)
+        python scrapers/village_network.py --output cities/petaluma/village_network.ics || true
+        # Visit Petaluma (tourism board aggregator; tribe-events HTML scrape)
+        python scrapers/visit_petaluma.py --output cities/petaluma/visit_petaluma.ics || true
       continue-on-error: true
 
     - name: Download Petaluma live feeds and combine ICS
@@ -297,10 +317,14 @@ jobs:
         curl -sL "https://www.mcnears.com/event/?ical=1" -o mcnears.ics || true
         # Griffo Distillery (Tockify ICS feed)
         curl -sL "https://tockify.com/api/feeds/ics/tom.l" -o griffo.ics || true
+        # Petaluma Speedway (WordPress Events Manager iCal feed)
+        curl -sL -A "Mozilla/5.0" "https://www.petaluma-speedway.com/schedule/?ical=1" -o petaluma_speedway.ics || true
         # Petaluma Elks Lodge (public Google Calendar ICS feed)
         curl -sL "https://calendar.google.com/calendar/ical/elks0901%40gmail.com/public/basic.ics" -o elks_lodge.ics || true
         # Petaluma Garden Club (public Google Calendar ICS feed)
         curl -sL "https://calendar.google.com/calendar/ical/petalumagardenclub%40gmail.com/public/basic.ics" -o garden_club.ics || true
+        # UU Petaluma (public Google Calendar ICS feed; surfaced via simcal embed on the events page)
+        curl -sL "https://calendar.google.com/calendar/ical/uupetaluma%40gmail.com/public/basic.ics" -o uu_petaluma.ics || true
         # Petaluma Bounty (WordPress Events Manager iCal feed)
         curl -sL "https://petalumabounty.org/events-calendar/?ical=1" -o petaluma_bounty.ics || true
         # Petaluma Historical Library & Museum (WordPress + The Events Calendar iCal feed)
