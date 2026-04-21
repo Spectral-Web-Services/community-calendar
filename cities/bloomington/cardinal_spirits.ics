@@ -5,8 +5,8 @@ X-WR-CALNAME:Cardinal Spirits
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Bingo Brunch: with Alex Sienkiewicz of Sycamore Land Trust
-DTSTART;VALUE=DATE-TIME:20260412T160000Z
-DTEND;VALUE=DATE-TIME:20260412T180000Z
+DTSTART;TZID=America/Los_Angeles:20260412T090000
+DTEND;TZID=America/Los_Angeles:20260412T110000
 UID:69c53c2d1b6eea6f7a5937e3@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -16,8 +16,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bingo Brunch: with Peter Schulz of Little 500
-DTSTART;VALUE=DATE-TIME:20260419T160000Z
-DTEND;VALUE=DATE-TIME:20260419T180000Z
+DTSTART;TZID=America/Los_Angeles:20260419T090000
+DTEND;TZID=America/Los_Angeles:20260419T110000
 UID:69c53c47be6a52569dd2adf0@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -27,8 +27,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bingo Brunch: with Megan MacDonald of Monroe County History Center
-DTSTART;VALUE=DATE-TIME:20260426T160000Z
-DTEND;VALUE=DATE-TIME:20260426T180000Z
+DTSTART;TZID=America/Los_Angeles:20260426T090000
+DTEND;TZID=America/Los_Angeles:20260426T110000
 UID:69c53ce5109bce11d9720f09@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -38,8 +38,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wednesday Trivia
-DTSTART;VALUE=DATE-TIME:20260401T223000Z
-DTEND;VALUE=DATE-TIME:20260402T000000Z
+DTSTART;TZID=America/Los_Angeles:20260401T153000
+DTEND;TZID=America/Los_Angeles:20260401T170000
 UID:69c53ddfdb784e480dc5c1f6@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -49,8 +49,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wednesday Trivia
-DTSTART;VALUE=DATE-TIME:20260408T223000Z
-DTEND;VALUE=DATE-TIME:20260409T000000Z
+DTSTART;TZID=America/Los_Angeles:20260408T153000
+DTEND;TZID=America/Los_Angeles:20260408T170000
 UID:69c53f4f0b918f15c5864103@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -60,8 +60,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wednesday Trivia
-DTSTART;VALUE=DATE-TIME:20260415T223000Z
-DTEND;VALUE=DATE-TIME:20260416T000000Z
+DTSTART;TZID=America/Los_Angeles:20260415T153000
+DTEND;TZID=America/Los_Angeles:20260415T170000
 UID:69c53f68a50e3f4788743f0b@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -71,8 +71,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wednesday Trivia
-DTSTART;VALUE=DATE-TIME:20260422T223000Z
-DTEND;VALUE=DATE-TIME:20260423T000000Z
+DTSTART;TZID=America/Los_Angeles:20260422T153000
+DTEND;TZID=America/Los_Angeles:20260422T170000
 UID:69c53f77dca5d927829f5f80@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -82,8 +82,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wednesday Trivia
-DTSTART;VALUE=DATE-TIME:20260429T223000Z
-DTEND;VALUE=DATE-TIME:20260430T000000Z
+DTSTART;TZID=America/Los_Angeles:20260429T153000
+DTEND;TZID=America/Los_Angeles:20260429T170000
 UID:69c53f89a7a64b7c86fa1389@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -93,8 +93,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Movies &amp\; Martinis: "Love &amp\; Basketball"
-DTSTART;VALUE=DATE-TIME:20260402T230000Z
-DTEND;VALUE=DATE-TIME:20260403T020000Z
+DTSTART;TZID=America/Los_Angeles:20260402T160000
+DTEND;TZID=America/Los_Angeles:20260402T190000
 UID:69baa424e6d59d0535a28475@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -104,8 +104,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Movies &amp\; Martinis: "The Princess Bride"
-DTSTART;VALUE=DATE-TIME:20260416T230000Z
-DTEND;VALUE=DATE-TIME:20260417T020000Z
+DTSTART;TZID=America/Los_Angeles:20260416T160000
+DTEND;TZID=America/Los_Angeles:20260416T190000
 UID:69c54469d1238135e443b7ac@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -115,8 +115,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Movies &amp\; Martinis: "Breaking Away"
-DTSTART;VALUE=DATE-TIME:20260423T230000Z
-DTEND;VALUE=DATE-TIME:20260424T020000Z
+DTSTART;TZID=America/Los_Angeles:20260423T160000
+DTEND;TZID=America/Los_Angeles:20260423T190000
 UID:69c544a11f62e8162aefc998@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -126,8 +126,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Movies &amp\; Martinis: "The Devil Wears Prada"
-DTSTART;VALUE=DATE-TIME:20260430T230000Z
-DTEND;VALUE=DATE-TIME:20260501T020000Z
+DTSTART;TZID=America/Los_Angeles:20260430T160000
+DTEND;TZID=America/Los_Angeles:20260430T190000
 UID:69c544b58a70ae013e0865a2@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -137,8 +137,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sip &amp\; Spin: Vinyl Night with Kashmere Dupree
-DTSTART;VALUE=DATE-TIME:20260409T230000Z
-DTEND;VALUE=DATE-TIME:20260410T010000Z
+DTSTART;TZID=America/Los_Angeles:20260409T160000
+DTEND;TZID=America/Los_Angeles:20260409T180000
 UID:69c5399ac308cb3c7a944b22@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -148,8 +148,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cocktail Class: Spring Sippers
-DTSTART;VALUE=DATE-TIME:20260418T190000Z
-DTEND;VALUE=DATE-TIME:20260418T210000Z
+DTSTART;TZID=America/Los_Angeles:20260418T120000
+DTEND;TZID=America/Los_Angeles:20260418T140000
 UID:69cbd07eebb3e514b0fa4713@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -159,8 +159,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cocktail Class: Spring Sippers
-DTSTART;VALUE=DATE-TIME:20260419T170000Z
-DTEND;VALUE=DATE-TIME:20260419T190000Z
+DTSTART;TZID=America/Los_Angeles:20260419T100000
+DTEND;TZID=America/Los_Angeles:20260419T120000
 UID:69cbd1b9052b4b7e6bc74d73@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States
@@ -170,8 +170,8 @@ ATTACH;FMTTYPE=image/jpeg:http://static1.squarespace.com/static/5249c667e4b085b7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:"That's Entertainment" Trivia Night
-DTSTART;VALUE=DATE-TIME:20260412T230000Z
-DTEND;VALUE=DATE-TIME:20260413T010000Z
+DTSTART;TZID=America/Los_Angeles:20260412T160000
+DTEND;TZID=America/Los_Angeles:20260412T180000
 UID:69aef6d5e3378b04245c48de@squarespace.com
 DESCRIPTION:
 LOCATION:Cardinal Spirits\, 922 South Morton Street\, Bloomington\, IN\, 47403\, United States

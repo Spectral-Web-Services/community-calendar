@@ -1,100 +1,90 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//Institute for Nonprofit News - ECPv6.15.18//NONSGML v1.0//EN
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Institute for Nonprofit News
-X-ORIGINAL-URL:https://inn.org
-X-WR-CALDESC:Events for Institute for Nonprofit News
-REFRESH-INTERVAL;VALUE=DURATION:PT1H
-X-Robots-Tag:noindex
-X-PUBLISHED-TTL:PT1H
-BEGIN:VTIMEZONE
-TZID:America/New_York
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20250309T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20251102T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20260308T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20261101T060000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-TZNAME:EDT
-DTSTART:20270314T070000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-TZNAME:EST
-DTSTART:20271107T060000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260423T130000
-DTEND;TZID=America/New_York:20260423T150000
-DTSTAMP:20260402T222601
-CREATED:20260302T153409Z
-LAST-MODIFIED:20260302T153409Z
-UID:10004847-1776949200-1776956400@inn.org
-SUMMARY:ProJourn Legal Checkup Clinic
-DESCRIPTION:When it comes to a news organization’s legal needs\, understanding how to operate safely and sustainably from a business standpoint is just as important as knowing what challenges might arise in the reporting process. This session\, led by ProJourn\, a program of the Reporters Committee for Freedom of the Press\, will help newsroom leaders assess and prioritize their organization’s legal needs. Attorneys will guide attendees through a checklist\, developed in collaboration with ProJourn partner Davis Wright Tremaine LLP\, of key areas to consider legal risk and needs\, including: \n\nBusiness models and Governance (e.g.\, 501(c)(3)\, compliance with IRS requirements\, tax-exempt status\, incorporation\, fiscal sponsorship\, and/or hybrid entity formation\, news collaboratives and joint ventures);\nIntellectual property\, data protection\, privacy (e.g.\, copyright infringement\, website terms and conditions\, and privacy policies);\nEmployment  (e.g.\, employee handbook; independent journalist contract template);\nMedia Liability (e.g.\, media liability insurance\, defamation risks\, pre-publication review\, and access to records); and\nSafety and Security (e.g.\, protest safety and reporting\, police interaction\, digital security).\n\nParticipation in this clinic does not constitute acceptance of your matter for representation nor a promise to do so and does not create an attorney-client relationship between you and in-house counsel\, the law firm\, the Reporters Committee for Freedom of the Press or any other participating law firm and company\, their employees\, directors or officers. \nPlease note\, slots are limited and will be assigned on a first come first serve basis. If you cancel less than 48 hours before your scheduled Checkup\, your organization will be moved to the bottom of the waiting list. \n\nIf you are not yet a ProJourn client\,  please fill out our eligibility form here: https://forms.office.com/r/S3qpVvg1Mt
-URL:https://inn.org/event/projourn-legal-checkup-clinic/2026-04-23/
-ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2024/06/INN-Events-Operations.jpg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260429T130000
-DTEND;TZID=America/New_York:20260429T140000
-DTSTAMP:20260402T222601
-CREATED:20260316T134527Z
-LAST-MODIFIED:20260316T134527Z
-UID:10004848-1777467600-1777471200@inn.org
-SUMMARY:Collaborating with Smithsonian's rural initiatives
-DESCRIPTION:The Smithsonian is expanding its engagement with rural communities across the country\, and leaders from the Institute for Nonprofit News’ Rural News Network are invited to learn how rural newsrooms can be part of that effort. \nIn this introductory session\, Smithsonian staff will share how the institution is working with rural partners through its Rural Initiative and preview opportunities connected to Our Shared Future: 250\, a nationwide effort leading up to the United States’ 250th anniversary in 2026. The initiative invites communities across the country to reflect on their histories\, highlight local voices and help shape the nation’s shared future. \nThis conversation will explore how rural journalists and community-rooted newsrooms can collaborate with the Smithsonian Institution—from connecting with local museums and cultural organizations to elevating rural stories\, history and perspectives within a national moment of reflection. \nRural newsroom leaders will have the chance to learn more about the Smithsonian’s rural engagement work\, ask questions and discuss potential ways their reporting and community relationships could intersect with these efforts.
-URL:https://inn.org/event/collaborating-with-smithsonians-rural-initiatives/
-ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2026/03/894595c4-772c-4b8f-ac9c-64cf7faa36b3.jpeg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260616
-DTEND;VALUE=DATE:20260619
-DTSTAMP:20260402T222601
-CREATED:20260123T165431Z
-LAST-MODIFIED:20260206T171526Z
-UID:10004840-1781568000-1781827199@inn.org
-SUMMARY:INN Days 2026
-DESCRIPTION:Join the Institute for Nonprofit News in Pittsburgh from June 16-18 for INN Days 2026. \nINN Days brings together news leaders\, technologists and business strategists to identify and solve the nonprofit news field’s toughest challenges. This is an opportunity for decision-makers to dive deep and learn practical strategies for strengthening news as a public good.
-URL:https://inn.org/event/inn-days-2026/
-LOCATION:Wyndham Grand Pittsburgh Downtown\, 600 Commonwealth Pl\, Pittsburgh\, 15222\, United States
-ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260616T170000
-DTEND;TZID=America/New_York:20260616T203000
-DTSTAMP:20260402T222601
-CREATED:20260209T143527Z
-LAST-MODIFIED:20260209T143527Z
-UID:10004844-1781629200-1781641800@inn.org
-SUMMARY:2026 Nonprofit News Awards
-DESCRIPTION:Celebrate the best in nonprofit news at the 2026 Nonprofit News Awards! \nThe evening will begin Tuesday\, June 16\, at 5 p.m. with a reception featuring light hors d’oeuvres and drinks\, followed by the awards ceremony from 6 to 8:30 p.m.\, when the winners will be announced.
-URL:https://inn.org/event/2026-nonprofit-news-awards/
-ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Untitled-600-x-400-px.png
-END:VEVENT
-END:VCALENDAR
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Attention Required! | Cloudflare</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+        <h1 data-translate="block_headline">Sorry, you have been blocked</h1>
+        <h2 class="cf-subheadline"><span data-translate="unable_to_access">You are unable to access</span> wpenginepowered.com</h2>
+      </div><!-- /.header -->
+
+      <div class="cf-section cf-highlight">
+        <div class="cf-wrapper">
+          <div class="cf-screenshot-container cf-screenshot-full">
+            
+              <span class="cf-no-screenshot error"></span>
+            
+          </div>
+        </div>
+      </div><!-- /.captcha-container -->
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="blocked_why_headline">Why have I been blocked?</h2>
+
+            <p data-translate="blocked_why_detail">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="blocked_resolve_headline">What can I do to resolve this?</h2>
+
+            <p data-translate="blocked_resolve_detail">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>
+          </div>
+        </div>
+      </div><!-- /.section -->
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+    <p class="text-13">
+      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ef8f0b7faeae811</strong></span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">135.119.38.59</span>
+        <span class="cf-footer-separator sm:hidden">&bull;</span>
+      </span>
+      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+      
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+  </div><!-- /.error-footer -->
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+    window._cf_translation = {};
+    
+    
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ef8f0b7faeae811',t:'MTc3NjczODM0OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

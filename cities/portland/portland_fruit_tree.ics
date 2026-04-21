@@ -5,8 +5,8 @@ X-WR-CALNAME:Portland Fruit Tree Project
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Mason Bee House Harvesting!
-DTSTART;VALUE=DATE-TIME:20241019T180000Z
-DTEND;VALUE=DATE-TIME:20241019T203000Z
+DTSTART;TZID=America/Los_Angeles:20241019T110000
+DTEND;TZID=America/Los_Angeles:20241019T133000
 UID:670985e66c92ee5dea1b563c@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Community Orchard\, 12505 Northeast Halsey Street\, Port
@@ -18,8 +18,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Free Cider Press and concert by Red Yarn at Leaven Community Cente
  r
-DTSTART;VALUE=DATE-TIME:20241005T180000Z
-DTEND;VALUE=DATE-TIME:20241005T220000Z
+DTSTART;TZID=America/Los_Angeles:20241005T110000
+DTEND;TZID=America/Los_Angeles:20241005T150000
 UID:66eb4cb456cbf07f66492c01@squarespace.com
 DESCRIPTION:
 LOCATION:Portland Fruit Tree Project\, 5431 Northeast 20th Avenue\, Portla
@@ -30,8 +30,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Give!Guide Community Skate with us! 11.26.24
-DTSTART;VALUE=DATE-TIME:20241126T180000Z
-DTEND;VALUE=DATE-TIME:20241127T060000Z
+DTSTART;TZID=America/Los_Angeles:20241126T100000
+DTEND;TZID=America/Los_Angeles:20241126T220000
 UID:67364a8ceaccbb611c1b0d3e@squarespace.com
 DESCRIPTION:
 LOCATION:Winter Ice Rink\, 499 Southwest Naito Parkway\, Portland\, OR\, 9
@@ -42,8 +42,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Let's Jam! 2024 Harvest Preservation Series
-DTSTART;VALUE=DATE-TIME:20241109T190000Z
-DTEND;VALUE=DATE-TIME:20241109T220000Z
+DTSTART;TZID=America/Los_Angeles:20241109T110000
+DTEND;TZID=America/Los_Angeles:20241109T140000
 UID:66955cc7cb07836702265c46@squarespace.com
 DESCRIPTION:
 LOCATION:Food Innovation Center\, 1207 Northwest Naito Parkway\, Portland\
@@ -53,33 +53,9 @@ URL:https://www.portlandfruit.org/event-calendar/2024/11/9/lets-jam-2024-h
 X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Let's Jam! 2024 Harvest Preservation Series
-DTSTART;VALUE=DATE-TIME:20240920T003000Z
-DTEND;VALUE=DATE-TIME:20240920T033000Z
-UID:669190f012a3311ff0b8b56d@squarespace.com
-DESCRIPTION:
-LOCATION:Food Innovation Center\, 1207 Northwest Naito Parkway\, Portland\
- , OR\, 97209\, United States
-URL:https://www.portlandfruit.org/event-calendar/2024/9/19/lets-jam-2024-h
- arvest-preservation-series
-X-SOURCE:Portland Fruit Tree Project
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Free Cider Press At Gabriel Orchard
-DTSTART;VALUE=DATE-TIME:20240927T010000Z
-DTEND;VALUE=DATE-TIME:20240927T023000Z
-UID:66eb4b372314703c1cdf6029@squarespace.com
-DESCRIPTION:
-LOCATION:Gabriel Community Orchard\, 4151 Southwest Canby Street\, Portlan
- d\, OR\, 97219\, United States
-URL:https://www.portlandfruit.org/event-calendar/2024/9/26/free-cider-pres
- s-at-gabriel-orchard
-X-SOURCE:Portland Fruit Tree Project
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FREE Fall Cider Fest at Leaven Community Center!
-DTSTART;VALUE=DATE-TIME:20251025T190000Z
-DTEND;VALUE=DATE-TIME:20251025T220000Z
+DTSTART;TZID=America/Los_Angeles:20251025T120000
+DTEND;TZID=America/Los_Angeles:20251025T150000
 UID:68bf498a5971193d6111ae94@squarespace.com
 DESCRIPTION:
 LOCATION:Portland Fruit Tree Project\, 5431 Northeast 20th Avenue\, Portla
@@ -91,8 +67,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mason Bee House Maker's Workshop at the Rebuilding Center! Include
  s 20 bee cocoons for each person to take home.
-DTSTART;VALUE=DATE-TIME:20250215T210000Z
-DTEND;VALUE=DATE-TIME:20250216T000000Z
+DTSTART;TZID=America/Los_Angeles:20250215T130000
+DTEND;TZID=America/Los_Angeles:20250215T160000
 UID:678593a73edaf24b202ed49d@squarespace.com
 DESCRIPTION:
 LOCATION:Rebuilding Center\, 3625 North Mississippi Avenue\, Portland\, OR
@@ -104,8 +80,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Spring Soil\, Pollinator\, and Pest Sale! 
-DTSTART;VALUE=DATE-TIME:20250315T200000Z
-DTEND;VALUE=DATE-TIME:20250315T210000Z
+DTSTART;TZID=America/Los_Angeles:20250315T130000
+DTEND;TZID=America/Los_Angeles:20250315T140000
 UID:67ca16c1969c7020eb782524@squarespace.com
 DESCRIPTION:
 LOCATION:Portland Fruit Tree Project\, 5431 Northeast 20th Avenue\, Portla
@@ -116,8 +92,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sparrowhawk Native Plant Order! 
-DTSTART;VALUE=DATE-TIME:20250425T160000Z
-DTEND;VALUE=DATE-TIME:20250426T230000Z
+DTSTART;TZID=America/Los_Angeles:20250425T090000
+DTEND;TZID=America/Los_Angeles:20250426T160000
 UID:67c2061c00b29c545c86eb19@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandfruit.org/event-calendar/2025/3/2/sparrowhawk-nati
@@ -126,8 +102,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Parkrose Orchard Free Spring Break Camp!
-DTSTART;VALUE=DATE-TIME:20250324T153000Z
-DTEND;VALUE=DATE-TIME:20250324T230000Z
+DTSTART;TZID=America/Los_Angeles:20250324T083000
+DTEND;TZID=America/Los_Angeles:20250324T160000
 UID:67c2084cdf6c25047437f589@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Community Orchard\, 12505 Northeast Halsey Street\, Port
@@ -138,8 +114,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Parkrose Orchard Free Spring Break Camp! 
-DTSTART;VALUE=DATE-TIME:20250326T153000Z
-DTEND;VALUE=DATE-TIME:20250326T230000Z
+DTSTART;TZID=America/Los_Angeles:20250326T083000
+DTEND;TZID=America/Los_Angeles:20250326T160000
 UID:67c20a50f7adc7666da1606b@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Community Orchard\, 12505 Northeast Halsey Street\, Port
@@ -150,8 +126,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Parkrose Orchard Free Spring Break Camp! 
-DTSTART;VALUE=DATE-TIME:20250328T153000Z
-DTEND;VALUE=DATE-TIME:20250328T230000Z
+DTSTART;TZID=America/Los_Angeles:20250328T083000
+DTEND;TZID=America/Los_Angeles:20250328T160000
 UID:67c20a74eb8e9a1472babcd0@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Community Orchard\, 12505 Northeast Halsey Street\, Port
@@ -162,8 +138,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Parkrose Orchard Free Spring Break Camp! 
-DTSTART;VALUE=DATE-TIME:20250325T153000Z
-DTEND;VALUE=DATE-TIME:20250325T230000Z
+DTSTART;TZID=America/Los_Angeles:20250325T083000
+DTEND;TZID=America/Los_Angeles:20250325T160000
 UID:67c20a3ef2c97613d4757fda@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Community Orchard\, 12505 Northeast Halsey Street\, Port
@@ -174,8 +150,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Parkrose Orchard Free Spring Break Camp!
-DTSTART;VALUE=DATE-TIME:20250327T153000Z
-DTEND;VALUE=DATE-TIME:20250327T230000Z
+DTSTART;TZID=America/Los_Angeles:20250327T083000
+DTEND;TZID=America/Los_Angeles:20250327T160000
 UID:67c20a64ebe6225bd9306609@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Community Orchard\, 12505 Northeast Halsey Street\, Port
@@ -186,8 +162,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Community Pints at Deschutes Brewery!
-DTSTART;VALUE=DATE-TIME:20250304T193000Z
-DTEND;VALUE=DATE-TIME:20250305T050000Z
+DTSTART;TZID=America/Los_Angeles:20250304T113000
+DTEND;TZID=America/Los_Angeles:20250304T210000
 UID:67c203d42c054b0cb4b33013@squarespace.com
 DESCRIPTION:
 LOCATION:Deschutes Brewery\, 210 Northwest 11th Avenue\, Portland\, OR\, 9
@@ -198,8 +174,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Community Pints at Deschutes Brewery! 
-DTSTART;VALUE=DATE-TIME:20250311T183000Z
-DTEND;VALUE=DATE-TIME:20250312T040000Z
+DTSTART;TZID=America/Los_Angeles:20250311T113000
+DTEND;TZID=America/Los_Angeles:20250311T210000
 UID:67c205b500b29c545c86cba6@squarespace.com
 DESCRIPTION:
 LOCATION:Deschutes Brewery\, 210 Northwest 11th Avenue\, Portland\, OR\, 9
@@ -210,8 +186,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Community Pints at Deschutes Brewery!  
-DTSTART;VALUE=DATE-TIME:20250318T183000Z
-DTEND;VALUE=DATE-TIME:20250319T040000Z
+DTSTART;TZID=America/Los_Angeles:20250318T113000
+DTEND;TZID=America/Los_Angeles:20250318T210000
 UID:67c205e8d2bb8238b57906c0@squarespace.com
 DESCRIPTION:
 LOCATION:Deschutes Brewery\, 210 Northwest 11th Avenue\, Portland\, OR\, 9
@@ -222,8 +198,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Community Pints at Deschutes Brewery!  
-DTSTART;VALUE=DATE-TIME:20250325T183000Z
-DTEND;VALUE=DATE-TIME:20250326T040000Z
+DTSTART;TZID=America/Los_Angeles:20250325T113000
+DTEND;TZID=America/Los_Angeles:20250325T210000
 UID:67c205fb4a50922c334b676f@squarespace.com
 DESCRIPTION:
 LOCATION:Deschutes Brewery\, 210 Northwest 11th Avenue\, Portland\, OR\, 9
@@ -234,8 +210,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Join Us At Oakshire Beer Hall on Earth Day 4.22.25
-DTSTART;VALUE=DATE-TIME:20250422T190000Z
-DTEND;VALUE=DATE-TIME:20250423T050000Z
+DTSTART;TZID=America/Los_Angeles:20250422T120000
+DTEND;TZID=America/Los_Angeles:20250422T220000
 UID:67dc93d043e8f412bb2f4e10@squarespace.com
 DESCRIPTION:
 LOCATION:Oakshire Beer Hall\, 5013 NE 42nd Ave.\, Portland\, OR\, 97218\, 
@@ -246,8 +222,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dine IN at Por Que No Hawthorne on 4.23.25 and benefit US!
-DTSTART;VALUE=DATE-TIME:20250423T180000Z
-DTEND;VALUE=DATE-TIME:20250424T050000Z
+DTSTART;TZID=America/Los_Angeles:20250423T110000
+DTEND;TZID=America/Los_Angeles:20250423T220000
 UID:67dc9714b98a6a1eb216bb8f@squarespace.com
 DESCRIPTION:
 LOCATION:Oakshire Beer Hall\, 5013 NE 42nd Ave.\, Portland\, OR\, 97218\, 
@@ -259,8 +235,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:“If You Can’t Beat ’Em\, Eat ’Em!”: Community Blackberry
   Harvest - by Boat!
-DTSTART;VALUE=DATE-TIME:20250727T200000Z
-DTEND;VALUE=DATE-TIME:20250727T210000Z
+DTSTART;TZID=America/Los_Angeles:20250727T130000
+DTEND;TZID=America/Los_Angeles:20250727T140000
 UID:6876ae33c3c05333bcee3b44@squarespace.com
 DESCRIPTION:
 LOCATION:Willamette Park Boat Launch\, S Macadam Avenue and Nebraska Stree
@@ -271,8 +247,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Poppy &amp\; Finch Class to Benefit Portland Fruit Tree Project
-DTSTART;VALUE=DATE-TIME:20250720T000000Z
-DTEND;VALUE=DATE-TIME:20250720T020000Z
+DTSTART;TZID=America/Los_Angeles:20250719T170000
+DTEND;TZID=America/Los_Angeles:20250719T190000
 UID:686c0acb7a8c841a393a369d@squarespace.com
 DESCRIPTION:
 LOCATION:Poppy and Finch\, 8012 Southeast 13th Avenue\, Portland\, OR\, 97
@@ -284,8 +260,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Creating an Edible Landscape - class provided by East Mult. Soil a
  nd Water Conservation District
-DTSTART;VALUE=DATE-TIME:20250920T170000Z
-DTEND;VALUE=DATE-TIME:20250920T193000Z
+DTSTART;TZID=America/Los_Angeles:20250920T100000
+DTEND;TZID=America/Los_Angeles:20250920T123000
 UID:68c078d5d4e80d7475e19383@squarespace.com
 DESCRIPTION:
 LOCATION:Portland Fruit Tree Project\, 5431 Northeast 20th Avenue\, Portla
@@ -298,8 +274,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Intro to Naturescaping - class provided by East Mult. Soil and Wat
  er Conservation District (Copy)
-DTSTART;VALUE=DATE-TIME:20251115T180000Z
-DTEND;VALUE=DATE-TIME:20251115T193000Z
+DTSTART;TZID=America/Los_Angeles:20251115T100000
+DTEND;TZID=America/Los_Angeles:20251115T113000
 UID:68d18cc33281237247f71ac7@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Church and Orchard\, 12505 Northeast Halsey Street\, Por
@@ -311,8 +287,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fruit Preservation Class at Parkrose Orchard!
-DTSTART;VALUE=DATE-TIME:20250920T170000Z
-DTEND;VALUE=DATE-TIME:20250920T200000Z
+DTSTART;TZID=America/Los_Angeles:20250920T100000
+DTEND;TZID=America/Los_Angeles:20250920T130000
 UID:68bb2201aa981116f0a36318@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Orchard and Kitchen\, 12505 Northeast Halsey Street\, Po
@@ -323,8 +299,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fruit Preservation Class at Parkrose Orchard! 
-DTSTART;VALUE=DATE-TIME:20251011T170000Z
-DTEND;VALUE=DATE-TIME:20251011T200000Z
+DTSTART;TZID=America/Los_Angeles:20251011T100000
+DTEND;TZID=America/Los_Angeles:20251011T130000
 UID:68bb2598624d367bd26441a8@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Orchard and Kitchen\, 12505 Northeast Halsey Street\, Po
@@ -335,8 +311,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Fruit Preservation Class at Parkrose Orchard! 
-DTSTART;VALUE=DATE-TIME:20251108T180000Z
-DTEND;VALUE=DATE-TIME:20251108T210000Z
+DTSTART;TZID=America/Los_Angeles:20251108T100000
+DTEND;TZID=America/Los_Angeles:20251108T130000
 UID:68bb259cf979fd60798bec3f@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Orchard and Kitchen\, 12505 Northeast Halsey Street\, Po
@@ -347,8 +323,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Life of Mason Bees: Get a Bee House and Learn how to host!
-DTSTART;VALUE=DATE-TIME:20260307T203000Z
-DTEND;VALUE=DATE-TIME:20260307T223000Z
+DTSTART;TZID=America/Los_Angeles:20260307T123000
+DTEND;TZID=America/Los_Angeles:20260307T143000
 UID:699f3bfb2571a47abfdd7116@squarespace.com
 DESCRIPTION:
 LOCATION:Parkrose Orchard\, 12505 Northeast Halsey Street\, Portland\, OR\
@@ -359,8 +335,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The 12 Days of Earth Day! Join Us\, and Book Your Private Events!
-DTSTART;VALUE=DATE-TIME:20260418T170000Z
-DTEND;VALUE=DATE-TIME:20260418T180000Z
+DTSTART;TZID=America/Los_Angeles:20260418T100000
+DTEND;TZID=America/Los_Angeles:20260418T110000
 UID:69cc0ccab67d7d4f446bfdc3@squarespace.com
 DESCRIPTION:
 LOCATION:Portland Fruit Tree Project
@@ -370,8 +346,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Native Bees for Beginners\, and Book Signing Event!
-DTSTART;VALUE=DATE-TIME:20260309T000000Z
-DTEND;VALUE=DATE-TIME:20260309T010000Z
+DTSTART;TZID=America/Los_Angeles:20260308T170000
+DTEND;TZID=America/Los_Angeles:20260308T180000
 UID:699f4205a89a08276af9609f@squarespace.com
 DESCRIPTION:
 LOCATION:Portland Fruit Tree Project HQ at Leaven Community\, 5431 Northea
@@ -382,8 +358,8 @@ X-SOURCE:Portland Fruit Tree Project
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Friends of Trees + PFTP Tree\, Bush\, Vine and Fruity Sale!
-DTSTART;VALUE=DATE-TIME:20260419T170000Z
-DTEND;VALUE=DATE-TIME:20260419T210000Z
+DTSTART;TZID=America/Los_Angeles:20260419T100000
+DTEND;TZID=America/Los_Angeles:20260419T140000
 UID:699f3ea92c70431254b08c07@squarespace.com
 DESCRIPTION:
 LOCATION:Friends of Trees HQ\, 3117 Northeast Martin Luther King Junior Bo

@@ -5,8 +5,8 @@ X-WR-CALNAME:Hollywood Farmers Market Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Holly-ween Costume Parade
-DTSTART;VALUE=DATE-TIME:20231028T101000Z
-DTEND;VALUE=DATE-TIME:20231029T003000Z
+DTSTART;TZID=America/Los_Angeles:20231028T031000
+DTEND;TZID=America/Los_Angeles:20231028T173000
 UID:655cf760224a8d6d00a129e5@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/event-four-fsslb
@@ -14,8 +14,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HFM Fundraiser at Lucky Horseshoe Lounge!
-DTSTART;VALUE=DATE-TIME:20250817T230000Z
-DTEND;VALUE=DATE-TIME:20250818T050000Z
+DTSTART;TZID=America/Los_Angeles:20250817T160000
+DTEND;TZID=America/Los_Angeles:20250817T220000
 UID:6883d912abf0257d68637f45@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/fundraiser-at-lu
@@ -24,8 +24,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harvest Festival
-DTSTART;VALUE=DATE-TIME:20251011T160000Z
-DTEND;VALUE=DATE-TIME:20251011T200000Z
+DTSTART;TZID=America/Los_Angeles:20251011T090000
+DTEND;TZID=America/Los_Angeles:20251011T130000
 UID:68c095538e66ae447eda1e35@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/harvest-festival
@@ -33,8 +33,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hollyween
-DTSTART;VALUE=DATE-TIME:20241026T160000Z
-DTEND;VALUE=DATE-TIME:20241026T200000Z
+DTSTART;TZID=America/Los_Angeles:20241026T090000
+DTEND;TZID=America/Los_Angeles:20241026T130000
 UID:671025a35a69cd5070759b3f@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/hollyween
@@ -42,8 +42,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hollywood Fun Fest
-DTSTART;VALUE=DATE-TIME:20240817T170000Z
-DTEND;VALUE=DATE-TIME:20240817T200000Z
+DTSTART;TZID=America/Los_Angeles:20240817T100000
+DTEND;TZID=America/Los_Angeles:20240817T130000
 UID:66aaca398b99a43e34612907@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/hollywood-fun-fe
@@ -52,8 +52,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hollywood Theatre Fundraiser
-DTSTART;VALUE=DATE-TIME:20240811T200000Z
-DTEND;VALUE=DATE-TIME:20240811T230000Z
+DTSTART;TZID=America/Los_Angeles:20240811T130000
+DTEND;TZID=America/Los_Angeles:20240811T160000
 UID:66a175e87b06906de3100c48@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/hollywood-theatr
@@ -62,8 +62,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Portland Indigenous Marketplace at HFM
-DTSTART;VALUE=DATE-TIME:20240803T150000Z
-DTEND;VALUE=DATE-TIME:20240803T200000Z
+DTSTART;TZID=America/Los_Angeles:20240803T080000
+DTEND;TZID=America/Los_Angeles:20240803T130000
 UID:6633edef0a03e00b42cafaad@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/indigenous-marke
@@ -72,8 +72,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Indigenous Marketplace at HFM
-DTSTART;VALUE=DATE-TIME:20240706T150000Z
-DTEND;VALUE=DATE-TIME:20240706T200000Z
+DTSTART;TZID=America/Los_Angeles:20240706T080000
+DTEND;TZID=America/Los_Angeles:20240706T130000
 UID:6633ed9e2cf52702fe204454@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/indigenous-marke
@@ -82,8 +82,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Portland Indigenous Marketplace at HFM
-DTSTART;VALUE=DATE-TIME:20240907T150000Z
-DTEND;VALUE=DATE-TIME:20240907T200000Z
+DTSTART;TZID=America/Los_Angeles:20240907T080000
+DTEND;TZID=America/Los_Angeles:20240907T130000
 UID:6633ee50ef3cb7275db2bbb9@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/indigenous-marke
@@ -92,8 +92,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mother's Day Market
-DTSTART;VALUE=DATE-TIME:20240511T150000Z
-DTEND;VALUE=DATE-TIME:20240511T200000Z
+DTSTART;TZID=America/Los_Angeles:20240511T080000
+DTEND;TZID=America/Los_Angeles:20240511T130000
 UID:6633ea32637d5e483d7ddf42@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/mothers-day-mark
@@ -102,8 +102,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mural Repainting Day
-DTSTART;VALUE=DATE-TIME:20230820T233000Z
-DTEND;VALUE=DATE-TIME:20230821T003000Z
+DTSTART;TZID=America/Los_Angeles:20230820T163000
+DTEND;TZID=America/Los_Angeles:20230820T173000
 UID:655cf760224a8d6d00a129e1@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/mural-repainting
@@ -111,8 +111,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Power of Produce (POP) Kids Club
-DTSTART;VALUE=DATE-TIME:20230601T233000Z
-DTEND;VALUE=DATE-TIME:20230901T003000Z
+DTSTART;TZID=America/Los_Angeles:20230601T163000
+DTEND;TZID=America/Los_Angeles:20230831T173000
 UID:655cf760224a8d6d00a129e7@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/pop-club
@@ -120,8 +120,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pumpkin Painting
-DTSTART;VALUE=DATE-TIME:20241019T160000Z
-DTEND;VALUE=DATE-TIME:20241019T200000Z
+DTSTART;TZID=America/Los_Angeles:20241019T090000
+DTEND;TZID=America/Los_Angeles:20241019T130000
 UID:671024b7e22b555149b1f2bf@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/pumpkin-painting
@@ -130,8 +130,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Senior Day
-DTSTART;VALUE=DATE-TIME:20230916T233000Z
-DTEND;VALUE=DATE-TIME:20230917T003000Z
+DTSTART;TZID=America/Los_Angeles:20230916T163000
+DTEND;TZID=America/Los_Angeles:20230916T173000
 UID:655cf760224a8d6d00a129e3@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/senior-day
@@ -139,8 +139,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Senior Day
-DTSTART;VALUE=DATE-TIME:20240810T150000Z
-DTEND;VALUE=DATE-TIME:20240810T200000Z
+DTSTART;TZID=America/Los_Angeles:20240810T080000
+DTEND;TZID=America/Los_Angeles:20240810T130000
 UID:65d67d7a40c8c567fc106224@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/senior-day-2024
@@ -148,8 +148,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Senior Day
-DTSTART;VALUE=DATE-TIME:20250920T150000Z
-DTEND;VALUE=DATE-TIME:20250920T200000Z
+DTSTART;TZID=America/Los_Angeles:20250920T080000
+DTEND;TZID=America/Los_Angeles:20250920T130000
 UID:67dc573b67b3bd3d1b80dab3@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/senior-day-2025
@@ -157,8 +157,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Strawberry Day
-DTSTART;VALUE=DATE-TIME:20230624T233000Z
-DTEND;VALUE=DATE-TIME:20230625T003000Z
+DTSTART;TZID=America/Los_Angeles:20230624T163000
+DTEND;TZID=America/Los_Angeles:20230624T173000
 UID:655cf760224a8d6d00a129df@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/strawberry-day
@@ -166,8 +166,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Strawberry Day
-DTSTART;VALUE=DATE-TIME:20240622T150000Z
-DTEND;VALUE=DATE-TIME:20240622T200000Z
+DTSTART;TZID=America/Los_Angeles:20240622T080000
+DTEND;TZID=America/Los_Angeles:20240622T130000
 UID:6633ecaace1990345ebf06ed@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/strawberry-day-2
@@ -176,8 +176,8 @@ X-SOURCE:Hollywood Farmers Market Events
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Strawberry Day
-DTSTART;VALUE=DATE-TIME:20250614T150000Z
-DTEND;VALUE=DATE-TIME:20250614T200000Z
+DTSTART;TZID=America/Los_Angeles:20250614T080000
+DTEND;TZID=America/Los_Angeles:20250614T130000
 UID:67dc56f1d626ba3016a20780@squarespace.com
 DESCRIPTION:
 URL:https://www.hollywoodfarmersmarket.org/event-schedule/strawberry-day-2

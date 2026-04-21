@@ -1,65 +1,90 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//Poynter - ECPv6.15.11//NONSGML v1.0//EN
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Poynter
-X-ORIGINAL-URL:https://www.poynter.org
-X-WR-CALDESC:Events for Poynter
-REFRESH-INTERVAL;VALUE=DURATION:PT1H
-X-Robots-Tag:noindex
-X-PUBLISHED-TTL:PT1H
-BEGIN:VTIMEZONE
-TZID:Europe/Vilnius
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0300
-TZNAME:EEST
-DTSTART:20250330T010000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0300
-TZOFFSETTO:+0200
-TZNAME:EET
-DTSTART:20251026T010000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0300
-TZNAME:EEST
-DTSTART:20260329T010000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0300
-TZOFFSETTO:+0200
-TZNAME:EET
-DTSTART:20261025T010000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0300
-TZNAME:EEST
-DTSTART:20270328T010000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0300
-TZOFFSETTO:+0200
-TZNAME:EET
-DTSTART:20271031T010000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-DTSTART;TZID=Europe/Vilnius:20260617T080000
-DTEND;TZID=Europe/Vilnius:20260619T170000
-DTSTAMP:20260402T222603
-CREATED:20260219T160726Z
-LAST-MODIFIED:20260326T191621Z
-UID:1189666-1781683200-1781888400@www.poynter.org
-SUMMARY:GlobalFact 2026
-DESCRIPTION:You’re invited to join the world’s largest fact-checking summit\, to be held June 17-19\, 2026\, in Vilnius\, Lithuania.  Presented by the International Fact-Checking Network (IFCN) at the Poynter Institute in partnership with Delfi\, Lithuanian National Radio and Television (LRT) and the European Fact-Checking Standards Network (EFCSN)\, GlobalFact 2026 will empower fact-checkers to uphold the industry’s highest standards of excellence through discussions\, training and networking events with globally renowned fact-checking experts.  Laura Zommer\, center\, sitting on a panel with Patrícia Campos Mello and Jaime Abello\, addresses the crowd at GlobalFact 12 in Rio de Janeiro.  About GlobalFact Since 2014\, more than 4\,000 people have attended GlobalFact in cities around the world including London\, Buenos Aires\, Madrid\, Rome\, Cape Town\, Oslo\, Seoul\, Sarajevo and\, most recently\, Rio de Janeiro. Numerous industry-leading projects and fact-checking advancements have originated through past GlobalFacts\, including International Fact-Checking Day\, the IFCN Code of Principles and partnerships with major tech companies.   GET TICKETS     What to Expect Networking Events Besides summit-wide social activities and events\, GlobalFact allows space to facilitate meaningful connections for attendees looking for professional development\, idea generation\, mentorship and more. This year’s summit will include dedicated time for both regional networking and topical networking.  Interest-driven Tracks Attendees interested in examining a specific area from various industry perspectives can choose to attend sessions categorized by “topics.” Topics this year include artificial intelligence\, information warfare\, sustainability\, methods innovation and public resilience.  Signatory-only Sessions Verified signatories to the IFCN Code of Principles will have exclusive access to members-only sessions to discuss topics such as working with platforms\, protecting independence and database control.  Region-specific Sessions Leaders from Central and Eastern Europe and the surrounding area will discuss the past\, present and future of fact-checking in the region and touch on themes such as war propaganda and state-sponsored disinformation.  Expert-led Discussions Attendees will discuss universal challenges facing fact-checkers today with leaders in journalism\, academia\, misinformation\, technology and more.  The agenda for GlobalFact 2026 will be published on register.globalfactconference.org in May.   Sponsor GlobalFact 2026 If you are interested in sponsoring GlobalFact 2026\, please contact Angie Drobnic Holan\, IFCN director\, for more information.   If you’d like to make an immediate impact\, please click here. Any donation amount supports Poynter’s mission to strengthen journalism in service to democracy.  Questions? We want to hear from you. Please send your inquiries to globalfact@ifcn.org.  Learn More
-URL:https://www.poynter.org/event/global-fact-2026/
-LOCATION:Taškius\, Vilnius\, Lithuania
-CATEGORIES:In-person Event
-ATTACH;FMTTYPE=image/png:https://www.poynter.org/wp-content/uploads/2026/02/Vilnius.png
-END:VEVENT
-END:VCALENDAR
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Attention Required! | Cloudflare</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+        <h1 data-translate="block_headline">Sorry, you have been blocked</h1>
+        <h2 class="cf-subheadline"><span data-translate="unable_to_access">You are unable to access</span> wpenginepowered.com</h2>
+      </div><!-- /.header -->
+
+      <div class="cf-section cf-highlight">
+        <div class="cf-wrapper">
+          <div class="cf-screenshot-container cf-screenshot-full">
+            
+              <span class="cf-no-screenshot error"></span>
+            
+          </div>
+        </div>
+      </div><!-- /.captcha-container -->
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="blocked_why_headline">Why have I been blocked?</h2>
+
+            <p data-translate="blocked_why_detail">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="blocked_resolve_headline">What can I do to resolve this?</h2>
+
+            <p data-translate="blocked_resolve_detail">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>
+          </div>
+        </div>
+      </div><!-- /.section -->
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+    <p class="text-13">
+      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ef8f0b9ca6913cb</strong></span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">135.119.38.59</span>
+        <span class="cf-footer-separator sm:hidden">&bull;</span>
+      </span>
+      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+      
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+  </div><!-- /.error-footer -->
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+    window._cf_translation = {};
+    
+    
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ef8f0b9ca6913cb',t:'MTc3NjczODM0OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

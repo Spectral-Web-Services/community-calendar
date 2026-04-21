@@ -5,8 +5,8 @@ X-WR-CALNAME:Portland Saturday Market
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Pythias Braswell\, Bryan Rahija\, Andrew Grade
-DTSTART;VALUE=DATE-TIME:20250308T190000Z
-DTEND;VALUE=DATE-TIME:20250308T230000Z
+DTSTART;TZID=America/Los_Angeles:20250308T110000
+DTEND;TZID=America/Los_Angeles:20250308T150000
 UID:67c89c94fd673d1dcd14f72e@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490
@@ -15,8 +15,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cody Weathers\, Barrie Dempsey\, Grace Love
-DTSTART;VALUE=DATE-TIME:20250315T180000Z
-DTEND;VALUE=DATE-TIME:20250315T190000Z
+DTSTART;TZID=America/Los_Angeles:20250315T110000
+DTEND;TZID=America/Los_Angeles:20250315T120000
 UID:67c89d11432b657194b5fbdc@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490
@@ -25,8 +25,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Crimulus\, Jackson Warner\, Lane Norberg
-DTSTART;VALUE=DATE-TIME:20250322T180000Z
-DTEND;VALUE=DATE-TIME:20250322T190000Z
+DTSTART;TZID=America/Los_Angeles:20250322T110000
+DTEND;TZID=America/Los_Angeles:20250322T120000
 UID:67c89d36313f8c01e67a4549@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/8sm0ir5jejsiy7dszmqzg490
@@ -35,8 +35,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Adaptive mobility Demonstration and Discussion
-DTSTART;VALUE=DATE-TIME:20241207T210000Z
-DTEND;VALUE=DATE-TIME:20241207T220000Z
+DTSTART;TZID=America/Los_Angeles:20241207T130000
+DTEND;TZID=America/Los_Angeles:20241207T140000
 UID:6747739e5c7c65383d4a25a6@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/adaptive-mobility-demons
@@ -44,9 +44,9 @@ URL:https://www.portlandsaturdaymarket.com/events/adaptive-mobility-demons
 X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CRAFTernoon: Wooden Floral Ornaments 
-DTSTART;VALUE=DATE-TIME:20260425T190000Z
-DTEND;VALUE=DATE-TIME:20260425T210000Z
+SUMMARY:CRAFTernoon: Spring into Art\, wood slice ornaments
+DTSTART;TZID=America/Los_Angeles:20260425T120000
+DTEND;TZID=America/Los_Angeles:20260425T140000
 UID:69cc172984c06406420227db@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/april-crafternoon
@@ -54,8 +54,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Burnside Bridge Birthday Celebration
-DTSTART;VALUE=DATE-TIME:20260530T190000Z
-DTEND;VALUE=DATE-TIME:20260531T000000Z
+DTSTART;TZID=America/Los_Angeles:20260530T120000
+DTEND;TZID=America/Los_Angeles:20260530T170000
 UID:69c55a41124af464e92896eb@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/burnside-bridge-birthday
@@ -64,8 +64,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Crafternoon: Coffee and Color
-DTSTART;VALUE=DATE-TIME:20250426T190000Z
-DTEND;VALUE=DATE-TIME:20250426T210000Z
+DTSTART;TZID=America/Los_Angeles:20250426T120000
+DTEND;TZID=America/Los_Angeles:20250426T140000
 UID:68029377029a505369517330@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/coffee-and-color
@@ -74,8 +74,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CRAFTernoon Collab with Shane Reaney Studios and Olander Earthwork
  s!
-DTSTART;VALUE=DATE-TIME:20250920T190000Z
-DTEND;VALUE=DATE-TIME:20250920T210000Z
+DTSTART;TZID=America/Los_Angeles:20250920T120000
+DTEND;TZID=America/Los_Angeles:20250920T140000
 UID:68ba1f6e4df2f8000034982e@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/crafternoon
@@ -83,8 +83,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CRAFTernoon: Paste a Poem
-DTSTART;VALUE=DATE-TIME:20260328T190000Z
-DTEND;VALUE=DATE-TIME:20260328T210000Z
+DTSTART;TZID=America/Los_Angeles:20260328T120000
+DTEND;TZID=America/Los_Angeles:20260328T140000
 UID:69bad301dd58ec3548caf265@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/crafternoon-paste-a-poem
@@ -92,8 +92,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Crafternoon: Pottery Palooza
-DTSTART;VALUE=DATE-TIME:20250503T180000Z
-DTEND;VALUE=DATE-TIME:20250503T200000Z
+DTSTART;TZID=America/Los_Angeles:20250503T110000
+DTEND;TZID=America/Los_Angeles:20250503T130000
 UID:6807d4703a79857ea6bafa91@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/crafternoon-pottery-palo
@@ -102,8 +102,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FREE Living Museum Tours
-DTSTART;VALUE=DATE-TIME:20260307T183000Z
-DTEND;VALUE=DATE-TIME:20260307T210000Z
+DTSTART;TZID=America/Los_Angeles:20260307T103000
+DTEND;TZID=America/Los_Angeles:20260307T130000
 UID:699e12a3e4ea7812ec347d05@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/free-livining-museum-tou
@@ -112,8 +112,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Halloween EEKstravaganza
-DTSTART;VALUE=DATE-TIME:20251025T170000Z
-DTEND;VALUE=DATE-TIME:20251026T000000Z
+DTSTART;TZID=America/Los_Angeles:20251025T100000
+DTEND;TZID=America/Los_Angeles:20251025T170000
 UID:68e81f29195c1f3c22a3e563@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/halloween-eekstravaganza
@@ -121,27 +121,26 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Helium Comedy Club
-DTSTART;VALUE=DATE-TIME:20250816T170000Z
-DTEND;VALUE=DATE-TIME:20250817T000000Z
+DTSTART;TZID=America/Los_Angeles:20250816T100000
+DTEND;TZID=America/Los_Angeles:20250816T170000
 UID:686ef28c3aa1a52364c7e413@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/helium-comedy-club
 X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Helium Comedy Club Stand-Up Comedy Event 
-DTSTART;VALUE=DATE-TIME:20241130T210000Z
-DTEND;VALUE=DATE-TIME:20241130T223000Z
-UID:673a19bcb327746280a6f1d4@squarespace.com
+SUMMARY:Hey! Thats Not Junk
+DTSTART;TZID=America/Los_Angeles:20260418T120000
+DTEND;TZID=America/Los_Angeles:20260418T140000
+UID:69de6cb32b5e186e12cb7251@squarespace.com
 DESCRIPTION:
-URL:https://www.portlandsaturdaymarket.com/events/helium-comedy-club-stand
- -up-comedy-event
+URL:https://www.portlandsaturdaymarket.com/events/hey-thats-not-junk
 X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Last Market of the 2025 Season
-DTSTART;VALUE=DATE-TIME:20251220T180000Z
-DTEND;VALUE=DATE-TIME:20251221T010000Z
+DTSTART;TZID=America/Los_Angeles:20251220T100000
+DTEND;TZID=America/Los_Angeles:20251220T170000
 UID:68ee97cc7533530e960c35a2@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/last-market-of-the-2025-
@@ -150,8 +149,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mini Makers Market Vendor Application!
-DTSTART;VALUE=DATE-TIME:20260310T200000Z
-DTEND;VALUE=DATE-TIME:20260417T210000Z
+DTSTART;TZID=America/Los_Angeles:20260310T130000
+DTEND;TZID=America/Los_Angeles:20260417T140000
 UID:69b074e5308d2447d4b1644e@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/mini-makers-market-vendo
@@ -160,8 +159,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Group Bike Ride
-DTSTART;VALUE=DATE-TIME:20250712T190000Z
-DTEND;VALUE=DATE-TIME:20250712T210000Z
+DTSTART;TZID=America/Los_Angeles:20250712T120000
+DTEND;TZID=America/Los_Angeles:20250712T140000
 UID:686ef08a8f75c40109e0aa6e@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-r
@@ -170,8 +169,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Group Bike Ride 
-DTSTART;VALUE=DATE-TIME:20250719T190000Z
-DTEND;VALUE=DATE-TIME:20250719T200000Z
+DTSTART;TZID=America/Los_Angeles:20250719T120000
+DTEND;TZID=America/Los_Angeles:20250719T130000
 UID:686ef23e50cdc025d17519ac@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-r
@@ -180,8 +179,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Group Bike Ride 
-DTSTART;VALUE=DATE-TIME:20250802T190000Z
-DTEND;VALUE=DATE-TIME:20250802T200000Z
+DTSTART;TZID=America/Los_Angeles:20250802T120000
+DTEND;TZID=America/Los_Angeles:20250802T130000
 UID:686ef240886a155d3e2a0d95@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/nomad-bikes-group-bike-r
@@ -190,8 +189,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Opening Day of 2026 Portland Saturday Market Season
-DTSTART;VALUE=DATE-TIME:20260307T180000Z
-DTEND;VALUE=DATE-TIME:20260308T010000Z
+DTSTART;TZID=America/Los_Angeles:20260307T100000
+DTEND;TZID=America/Los_Angeles:20260307T170000
 UID:699e1250906dc14fa64516ed@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/openind-day
@@ -199,8 +198,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Opening Day
-DTSTART;VALUE=DATE-TIME:20250301T180000Z
-DTEND;VALUE=DATE-TIME:20250302T010000Z
+DTSTART;TZID=America/Los_Angeles:20250301T100000
+DTEND;TZID=America/Los_Angeles:20250301T170000
 UID:679d2ee3ee7ac906fc9a2f7e@squarespace.com
 DESCRIPTION:
 LOCATION:Portland Saturday Market\, 2 SW Naito Pkwy\, Portland\, OR\, 9720
@@ -209,18 +208,9 @@ URL:https://www.portlandsaturdaymarket.com/events/opening-day
 X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Paint & Sip
-DTSTART;VALUE=DATE-TIME:20241117T210000Z
-DTEND;VALUE=DATE-TIME:20241117T230000Z
-UID:671547f33fdddd5208d5f076@squarespace.com
-DESCRIPTION:
-URL:https://www.portlandsaturdaymarket.com/events/paint-sip
-X-SOURCE:Portland Saturday Market
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:documentary premiere!
-DTSTART;VALUE=DATE-TIME:20250501T020000Z
-DTEND;VALUE=DATE-TIME:20250501T040000Z
+DTSTART;TZID=America/Los_Angeles:20250430T190000
+DTEND;TZID=America/Los_Angeles:20250430T210000
 UID:67cb2e71df3eae093e2de8ba@squarespace.com
 DESCRIPTION:
 LOCATION:Cinema 21\, 616 Northwest 21st Avenue\, Portland\, OR\, 97209\, U
@@ -231,8 +221,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Portland Saturday Market Documentary Announcement
-DTSTART;VALUE=DATE-TIME:20250906T170000Z
-DTEND;VALUE=DATE-TIME:20250907T000000Z
+DTSTART;TZID=America/Los_Angeles:20250906T100000
+DTEND;TZID=America/Los_Angeles:20250906T170000
 UID:68ba20082b3cee36134296ee@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/portland-saturday-market
@@ -241,8 +231,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Portland Saturday Market Mini Makers Market
-DTSTART;VALUE=DATE-TIME:20260509T170000Z
-DTEND;VALUE=DATE-TIME:20260509T193000Z
+DTSTART;TZID=America/Los_Angeles:20260509T100000
+DTEND;TZID=America/Los_Angeles:20260509T123000
 UID:69b076ba63403a315c9654c0@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/portland-saturday-market
@@ -251,8 +241,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pugapalooza
-DTSTART;VALUE=DATE-TIME:20250809T170000Z
-DTEND;VALUE=DATE-TIME:20250810T000000Z
+DTSTART;TZID=America/Los_Angeles:20250809T100000
+DTEND;TZID=America/Los_Angeles:20250809T170000
 UID:686eeef74b6b3502ac7ce218@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/pugapalooza
@@ -260,8 +250,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Put a Bird on It: PSM Collage Workshop
-DTSTART;VALUE=DATE-TIME:20250329T190000Z
-DTEND;VALUE=DATE-TIME:20250329T210000Z
+DTSTART;TZID=America/Los_Angeles:20250329T120000
+DTEND;TZID=America/Los_Angeles:20250329T140000
 UID:67c88896a0cbd16875168f60@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/put-a-bird-on-it-psm-col
@@ -271,8 +261,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:<span class="sqsrte-text-color--accent">August Crafternoon: Quill 
  &amp\; Chill</span>
-DTSTART;VALUE=DATE-TIME:20250830T190000Z
-DTEND;VALUE=DATE-TIME:20250830T211500Z
+DTSTART;TZID=America/Los_Angeles:20250830T120000
+DTEND;TZID=America/Los_Angeles:20250830T141500
 UID:689fb7d6d2ee906c2f338f87@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/quillandchill
@@ -280,8 +270,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dan Gareau\, Richie Bean\, Stanton Yard
-DTSTART;VALUE=DATE-TIME:20250405T180000Z
-DTEND;VALUE=DATE-TIME:20250405T223000Z
+DTSTART;TZID=America/Los_Angeles:20250405T110000
+DTEND;TZID=America/Los_Angeles:20250405T153000
 UID:67cb368a2029c97d21dda027@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-s
@@ -290,8 +280,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jason Grant\, The Skrimps
-DTSTART;VALUE=DATE-TIME:20250412T180000Z
-DTEND;VALUE=DATE-TIME:20250412T223000Z
+DTSTART;TZID=America/Los_Angeles:20250412T110000
+DTEND;TZID=America/Los_Angeles:20250412T153000
 UID:67cb382bead385055d15ab52@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-s
@@ -300,8 +290,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dan Kaufman\, Joseph Konty
-DTSTART;VALUE=DATE-TIME:20250419T180000Z
-DTEND;VALUE=DATE-TIME:20250419T223000Z
+DTSTART;TZID=America/Los_Angeles:20250419T110000
+DTEND;TZID=America/Los_Angeles:20250419T153000
 UID:67cb38fe0b5d531a08211d84@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/richie-bean-dan-gareau-s
@@ -310,17 +300,27 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Crafted Cocktails
-DTSTART;VALUE=DATE-TIME:20241214T180000Z
-DTEND;VALUE=DATE-TIME:20241216T003000Z
+DTSTART;TZID=America/Los_Angeles:20241214T100000
+DTEND;TZID=America/Los_Angeles:20241215T163000
 UID:663555cf03fd734f464482e6@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/spirits-fest
 X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tie-Dye-Tastic CRAFTernoon
+DTSTART;TZID=America/Los_Angeles:20260509T120000
+DTEND;TZID=America/Los_Angeles:20260509T140000
+UID:69e14ca40ef814166d4eaf35@squarespace.com
+DESCRIPTION:
+URL:https://www.portlandsaturdaymarket.com/events/tie-dye-tastic-crafterno
+ on
+X-SOURCE:Portland Saturday Market
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Summer Screams! Watercolor Ghost Workshop
-DTSTART;VALUE=DATE-TIME:20250628T190000Z
-DTEND;VALUE=DATE-TIME:20250628T210000Z
+DTSTART;TZID=America/Los_Angeles:20250628T120000
+DTEND;TZID=America/Los_Angeles:20250628T140000
 UID:684dc908d4d82f14546f7b55@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/wc6jb8e36pkfuoacijery41t
@@ -329,8 +329,8 @@ X-SOURCE:Portland Saturday Market
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:July Crafternoon: Contemporary Folk Art Painting
-DTSTART;VALUE=DATE-TIME:20250726T190000Z
-DTEND;VALUE=DATE-TIME:20250726T210000Z
+DTSTART;TZID=America/Los_Angeles:20250726T120000
+DTEND;TZID=America/Los_Angeles:20250726T140000
 UID:685316c359397e431a41a16e@squarespace.com
 DESCRIPTION:
 URL:https://www.portlandsaturdaymarket.com/events/wc6jb8e36pkfuoacijery41t

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Portland Farmers Market - ECPv6.15.17.1//NONSGML v1.0//EN
+PRODID:-//Portland Farmers Market - ECPv6.15.20//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Portland Farmers Market
@@ -49,41 +49,9 @@ DTSTART:20271107T090000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260404T083000
-DTEND;TZID=America/Los_Angeles:20260404T140000
-DTSTAMP:20260402T192418
-CREATED:20260324T215325Z
-LAST-MODIFIED:20260324T235842Z
-UID:10003089-1775291400-1775311200@www.portlandfarmersmarket.org
-SUMMARY:PSU Farmers Market
-DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
-URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-04-04/
-LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
-CATEGORIES:PSU Farmers Market
-ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
-GEO:45.5128932;-122.6853859
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260411T083000
-DTEND;TZID=America/Los_Angeles:20260411T140000
-DTSTAMP:20260402T192418
-CREATED:20260324T215325Z
-LAST-MODIFIED:20260324T235842Z
-UID:10003094-1775896200-1775916000@www.portlandfarmersmarket.org
-SUMMARY:PSU Farmers Market
-DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
-URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-04-11/
-LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
-CATEGORIES:PSU Farmers Market
-ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
-GEO:45.5128932;-122.6853859
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260418T083000
 DTEND;TZID=America/Los_Angeles:20260418T140000
-DTSTAMP:20260402T192418
+DTSTAMP:20260418T193739
 CREATED:20260324T215325Z
 LAST-MODIFIED:20260324T235842Z
 UID:10003095-1776501000-1776520800@www.portlandfarmersmarket.org
@@ -97,9 +65,25 @@ GEO:45.5128932;-122.6853859
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260418T090000
+DTEND;TZID=America/Los_Angeles:20260418T140000
+DTSTAMP:20260418T193739
+CREATED:20260409T004630Z
+LAST-MODIFIED:20260416T213938Z
+UID:10003305-1776502800-1776520800@www.portlandfarmersmarket.org
+SUMMARY:Earth Day Celebration
+DESCRIPTION:Join us for a day dedicated to local agriculture\, sustainability\, biodiversity\, and community that can lead to a better tomorrow for our planet.\n\n\n\nWe are thrilled to partner with and host SoundsTruck NW at the market for this special event. Their mobile stage will transform into a concert stage\, kitchen\, and learning lab: \n\n\n\n\n\n9 AM — Coffee Talk: Brewing a Better World with Slow Food Coffee Coalition and SUNAO Coffee & Cacao\n\n\n\n10 AM — Farmer’s Talk: Planting Seeds of Resilience with Nick Canino\, Rhythm Seed Farm \n\n\n\n11 AM — Storytime with Live Music: Stories of Earth and Time with Leslie Barnard Booth\n\n\n\n12 PM — Chef’s Talk & Cooking Live Demo: Food as Medicine with Chef Naoko\n\n\n\n1 PM — Live Music: Echoes of Nature – Sounds of Japan with Maido Mind\n\n\n\n\n\nEngage with participating vendors and visiting community partners and anytime between 9 AM to 2 PM: \n\n\n\n\nFood Waves: Learn about food justice and how to grow your own microgreens with Farmer Matt Brown.\n\n\n\nUrban Gleaners: Learn how they reimagine food waste and fight hunger.\n\n\n\nPSU Smallwood Food Pantry: Explore ways you can support community food security. \n\n\n\nThe Xerces Society for Invertebrate Conservation: Don’t miss the chance to make unique pollinator crafts\, engage in fun educational games\, and discover valuable resources for creating your own pollinator-friendly garden.\n\n\n\n\nAnd from 11 am to 1 pm\, our goat milk vendor\, Cottage Hill Farm will have their baby goats!
+URL:https://www.portlandfarmersmarket.org/event/earth-day-celebration/
+LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
+CATEGORIES:PSU Farmers Market
+ATTACH;FMTTYPE=image/png:https://www.portlandfarmersmarket.org/wp-content/uploads/2026/04/earth-day-celebration-2026.png
+GEO:45.5128932;-122.6853859
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260425T083000
 DTEND;TZID=America/Los_Angeles:20260425T140000
-DTSTAMP:20260402T192418
+DTSTAMP:20260418T193739
 CREATED:20260324T215325Z
 LAST-MODIFIED:20260324T235842Z
 UID:10003096-1777105800-1777125600@www.portlandfarmersmarket.org
