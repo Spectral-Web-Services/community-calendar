@@ -9,12 +9,12 @@ used across all city feeds, identified by their PRODID header.
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
 | **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 45 |
-| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 34 |
+| **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 35 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 17 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland | 6 |
+| **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, portland | 4 |
 | **LibCal (Springshare)** | Library event management platform. | bloomington, portland | 3 |
-| **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, portland | 3 |
 | **MaxPreps** | High school sports schedules. | petaluma | 2 |
 | **GrowthZone** | Chamber of commerce / association management platform. | petaluma, roanoke | 2 |
 | **MembershipWorks** | Membership management platform with event calendar. | petaluma | 1 |
@@ -60,7 +60,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **roanoke** (1): hollins_university
 
-### Google Calendar (34 feeds)
+### Google Calendar (35 feeds)
 
 Public Google Calendar ICS export.
 
@@ -68,7 +68,7 @@ Public Google Calendar ICS export.
 
 **jweekly** (4): beth_sholom, ptbe_community, ptbe_education, ptbe_worship
 
-**petaluma** (3): brooksnote, elks_lodge, garden_club
+**petaluma** (4): brooksnote, elks_lodge, garden_club, uu_petaluma
 
 **portland** (6): friends_of_trees_green_space, friends_of_trees_neighborhood, portland_public_schools, portland_thorns, portland_timbers, stumptown_savings
 
@@ -108,6 +108,14 @@ Embeddable calendar widget with public ICS feeds.
 
 **portland** (2): tockify_kptv_calendar, tockify_theoldchurch
 
+### Modern Events Calendar (WordPress) (4 feeds)
+
+WordPress plugin by Webnus. PRODID references wp-events-plugin.com.
+
+**petaluma** (2): petaluma_bounty, petaluma_speedway
+
+**portland** (2): ananda_portland, japanese_garden
+
 ### LibCal (Springshare) (3 feeds)
 
 Library event management platform.
@@ -115,14 +123,6 @@ Library event management platform.
 **bloomington** (2): iu_libcal_scholars_commons, iu_libcal_screening_room
 
 **portland** (1): ohsu_library
-
-### Modern Events Calendar (WordPress) (3 feeds)
-
-WordPress plugin by Webnus. PRODID references wp-events-plugin.com.
-
-**petaluma** (1): petaluma_bounty
-
-**portland** (2): ananda_portland, japanese_garden
 
 ### MaxPreps (2 feeds)
 
