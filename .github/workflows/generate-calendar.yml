@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       locations:
-        description: 'Locations to process (comma-separated: bloomington,petaluma,portland,jweekly,evanston,publisher-resources or "all")'
+        description: 'Locations to process (comma-separated: petaluma,portland,publisher-resources or "all")'
         required: false
         default: 'all'
       regenerate_only:
@@ -65,7 +65,7 @@ jobs:
         if [ -z "$INPUT" ] || [ "$INPUT" = "all" ]; then
           # Derive city list from cities/ directory (any subdir with a feeds.txt)
           # ALL=$(ls -d cities/*/feeds.txt 2>/dev/null | sed 's|cities/||;s|/feeds.txt||' | paste -sd, -)
-            ALL="bloomington,petaluma,publisher-resources,portland"
+            ALL="petaluma,publisher-resources,portland"
           echo "list=$ALL" >> $GITHUB_OUTPUT
         else
           echo "list=$INPUT" >> $GITHUB_OUTPUT
@@ -959,7 +959,7 @@ jobs:
         git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
         # Save generated files before any git operations
-        for city in bloomington petaluma roanoke matsu jweekly evanston portland boston publisher-resources; do
+        for city in petaluma portland publisher-resources; do
           if [ -f "cities/$city/events.json" ]; then
             cp "cities/$city/events.json" "/tmp/${city}_events.json"
           fi
@@ -978,7 +978,7 @@ jobs:
             fi
             echo "Push failed, restoring generated files and retrying..."
             # Restore generated files that may have been clobbered by rebase
-            for city in bloomington petaluma roanoke matsu jweekly evanston portland boston publisher-resources; do
+            for city in petaluma portland publisher-resources; do
               if [ -f "/tmp/${city}_events.json" ]; then
                 cp "/tmp/${city}_events.json" "cities/$city/events.json"
               fi
