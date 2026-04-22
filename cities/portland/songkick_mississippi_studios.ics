@@ -4,18 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Bart Budwig
-DTSTART:20260421T200000
-DTEND:20260421T200000
-UID:fe85982256e08cf37878aa7722d9488b@songkick.com
-DESCRIPTION:Bart Budwig at Mississippi Studios at 2026-04-21T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43166219-bart-budwig-at-mississippi-s
- tudios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:TWEN\, Monsoon
 DTSTART:20260422T200000
 DTEND:20260422T200000
@@ -51,6 +39,18 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43083302-all-them-witches-at-mississi
  ppi-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ESSIE\, Brenna Bruce
+DTSTART:20260426T200000
+DTEND:20260426T200000
+UID:2e8988fd575903730e094efe69530805@songkick.com
+DESCRIPTION:ESSIE at Mississippi Studios at 2026-04-26T20:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100059-essie-at-mississippi-studios
+ ?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR
