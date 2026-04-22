@@ -1,1 +1,101 @@
-<html><head><link rel="icon" href="data:;"><meta http-equiv="refresh" content="0;/.well-known/sgcaptcha/?r=%2Fevents%2F%3Fical%3D1&y=ipr:135.119.38.59:1776738272.690"></meta></head></html>
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vancouver Farmers Market - ECPv6.15.17.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vancouver Farmers Market
+X-ORIGINAL-URL:https://vancouverfarmersmarket.org
+X-WR-CALDESC:Events for Vancouver Farmers Market
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260425T090000
+DTEND;TZID=America/Los_Angeles:20260425T150000
+DTSTAMP:20260421T191234
+CREATED:20250926T220424Z
+LAST-MODIFIED:20260421T064627Z
+UID:9787-1777107600-1777129200@vancouverfarmersmarket.org
+SUMMARY:Downtown Vancouver Farmers Market
+DESCRIPTION:
+URL:https://vancouverfarmersmarket.org/event/downtown-vancouver-farmers-market-25/
+LOCATION:WA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260425T110000
+DTEND;TZID=America/Los_Angeles:20260425T130000
+DTSTAMP:20260421T191234
+CREATED:20260206T014858Z
+LAST-MODIFIED:20260420T064707Z
+UID:13574-1777114800-1777122000@vancouverfarmersmarket.org
+SUMMARY:*Uszd parts* Armando Espinoza at the Vancouver Farmers Market
+DESCRIPTION:Thank you for your interest in performing at the Vancouver Farmers Market (VFM)!  Please select up to TWO performance dates by completing the form below. If you have additional questions\, please email us at bookin@vancouverfarmersmarket.com \nPerformances will take place April-October on Saturdays and Sundays\, from 11am to 1pm. \nDid you put your full band name into the “name” section above?:Yes (Please do this!!) \n📆 Reschedule or cancel this event: https://zcal.co/e/6984e74e8ae10ab04776f478 \nScheduling by zcal.co
+URL:https://vancouverfarmersmarket.org/event/uszd-parts-armando-espinoza-at-the-vancouver-farmers-market/
+LOCATION:605 Esther St\, Vancouver\, WA\, United States
+CATEGORIES:Market Music
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260426T100000
+DTEND;TZID=America/Los_Angeles:20260426T150000
+DTSTAMP:20260421T191234
+CREATED:20250926T220424Z
+LAST-MODIFIED:20260421T064628Z
+UID:9788-1777197600-1777215600@vancouverfarmersmarket.org
+SUMMARY:Downtown Vancouver Farmers Market
+DESCRIPTION:
+URL:https://vancouverfarmersmarket.org/event/downtown-vancouver-farmers-market-26/
+LOCATION:WA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260426T110000
+DTEND;TZID=America/Los_Angeles:20260426T130000
+DTSTAMP:20260421T191234
+CREATED:20260213T021102Z
+LAST-MODIFIED:20260420T064707Z
+UID:13728-1777201200-1777208400@vancouverfarmersmarket.org
+SUMMARY:Flywheel Trio at the Vancouver Farmers Market
+DESCRIPTION:Thank you for your interest in performing at the Vancouver Farmers Market (VFM)!  Please select up to TWO performance dates by completing the form below. If you have additional questions\, please email us at bookin@vancouverfarmersmarket.com \nPerformances will take place April-October on Saturdays and Sundays\, from 11am to 1pm. \nDid you put your full band name into the “name” section above?:Yes (Please do this!!) \n📆 Reschedule or cancel this event: https://zcal.co/e/698e6ceb9882e3515b8befec \nScheduling by zcal.co
+URL:https://vancouverfarmersmarket.org/event/flywheel-trio-at-the-vancouver-farmers-market/
+LOCATION:605 Esther St\, Vancouver\, WA\, United States
+CATEGORIES:Market Music
+END:VEVENT
+END:VCALENDAR
