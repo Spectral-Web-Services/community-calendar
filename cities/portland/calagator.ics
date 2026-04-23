@@ -22,48 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260201T012554Z
-DTEND;VALUE=DATE:20260423
-DTSTART;VALUE=DATE:20260420
-DTSTAMP;VALUE=DATE-TIME:20260201T012554Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260201T012554Z
-UID:http://calagator.org/events/1250482444
-DESCRIPTION:This event runs from Monday\, April 20\, 2026 at midnight thr
- ough Wednesday\, April 22\, 2026 at midnight.\n\nDescription:\nTokioConf
-  2026&#13\;\n&#13\;\nhosted by the Tokio Project ( https://tokio.rs )&#1
- 3\;\n\n\nTags: opensource\, rustlang\, rust\, pdx\, tokio\n\nImported fr
- om: http://calagator.org/events/1250482444
-URL:https://www.tokioconf.com
-SUMMARY:TokioConf 2026
-LOCATION:Hyatt Regency\, Portland: 375 NE Holladay St\, Portland OR 97232
-  USA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260415T005313Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260421T203000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260421T170000
-DTSTAMP;VALUE=DATE-TIME:20260415T005313Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260415T005313Z
-UID:http://calagator.org/events/1250482530
-DESCRIPTION:4/21: Sing em if you got em!&#13\;\n&#13\;\nTecharaoke!&#13\;
- \n&#13\;\nTech meetup / networking event while we Karaoke.&#13\;\n&#13\;
- \n$12 per person - all you can sing!&#13\;\n&#13\;\n5pm - Pay admission 
- and get nametags&#13\;\n5:30pm - Karaoke starts&#13\;\nSing\, dance\, ne
- twork\, hang out\, connect on LinkedIn&#13\;\n8:30pm - Our room reservat
- ion ends grab those connections and head out!&#13\;\n&#13\;\nCome hang o
- ut\, build your network\, build and strengthen our silicon forest commun
- ity!!&#13\;\n&#13\;\nTake the work out of networking!&#13\;\n&#13\;\nTo 
- RSVP / ask questions&#13\;\nemail Jake:&#13\;\n&#13\;\ntecharaoke@gmail.
- com\n\nTags: portland tech\, karaoke\, tech meetup\, tech networking eve
- nt\, silicon forest\n\nImported from: http://calagator.org/events/125048
- 2530
-URL:https://techaraoke.netlify.app/
-SUMMARY:Techaraoke!
-LOCATION:Voicebox Karaoke SE: 734 SE 6th Ave.\, Portland OR 97214 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260416T043929Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260422T200000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260422T173000

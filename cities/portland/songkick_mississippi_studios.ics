@@ -4,18 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:TWEN\, Monsoon
-DTSTART:20260422T200000
-DTEND:20260422T200000
-UID:b9b8f09e2fbda7ada1ddbd0b6ea7c2ac@songkick.com
-DESCRIPTION:TWEN at Mississippi Studios at 2026-04-22T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/42813946-twen-at-mississippi-studios?
- utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Stumpfest 2026
 DTSTART:20260424T200000
 DTEND:20260424T200000
@@ -51,6 +39,19 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43100059-essie-at-mississippi-studios
  ?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Wedding Present
+DTSTART:20260427T220000
+DTEND:20260427T220000
+UID:087410facf41e7259a39d5e7dc9d80cf@songkick.com
+DESCRIPTION:The Wedding Present at Mississippi Studios at 2026-04-27T22:00
+ :00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/42869051-wedding-present-at-mississip
+ pi-studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR
