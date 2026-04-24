@@ -4,16 +4,6 @@ PRODID:-//Portland Public Meetings//portland.gov//
 X-WR-CALNAME:Portland Public Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Arts Access Fund Oversight Committee April Meeting
-DTSTART;TZID=America/Los_Angeles:20260423T180000
-DTEND;TZID=America/Los_Angeles:20260423T180000
-UID:67c171232142cdafa851dd1636194a59@portland.gov
-DESCRIPTION:
-URL:https://www.portland.gov/arts/arts-access-fund/events/2026/4/23/arts-a
- ccess-fund-oversight-committee-april-meeting
-X-SOURCE:Portland Public Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:District 3 Budget Town Hall
 DTSTART;TZID=America/Los_Angeles:20260426T140000
 DTEND;TZID=America/Los_Angeles:20260426T140000
@@ -73,6 +63,16 @@ UID:1d44958e9749d8f24ef5859c88f70ac8@portland.gov
 DESCRIPTION:
 URL:https://www.portland.gov/bps/cleanenergy/grant-committee/events/2026/4
  /29/pcef-committee-meeting-april-29-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parks Levy Oversight Committee (PLOC) Meeting May 2026
+DTSTART;TZID=America/Los_Angeles:20260504T173000
+DTEND;TZID=America/Los_Angeles:20260504T173000
+UID:827e2d61c3c8c4326c77d297baf01bea@portland.gov
+DESCRIPTION:
+URL:https://www.portland.gov/parks/events/2026/5/4/parks-levy-oversight-co
+ mmittee-ploc-meeting-may-2026
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -685,6 +685,20 @@ LOCATION:1900 Building 1900 SW Fourth Avenue Room 2500 Portland\, OR 97201
   Get directions More information about this room
 URL:https://www.portland.gov/bps/planning/planning-commission/events/2026/
  6/23/planning-commission-meeting-june-23-2026
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SPACC TIF District: Community Leadership Committee (CLC) Meeting
+DTSTART;TZID=America/Los_Angeles:20260624T180000
+DTEND;TZID=America/Los_Angeles:20260624T180000
+UID:50b2af65cce89b82d576bf3d463b861f@portland.gov
+DESCRIPTION:The monthly meeting of the SPACC Tax Increment Financing (TIF)
+  District Community Leadership Committee. Attend in person or via Zoom.
+LOCATION:Parkrose School District 10636 NE Prescott St Portland\n         
+                  \, OR\n                           97220 Get directions Mo
+ re about this location
+URL:https://www.portland.gov/phb/tif-district-committees/events/2026/6/24/
+ spacc-tif-district-community-leadership-committee-clc
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 END:VCALENDAR

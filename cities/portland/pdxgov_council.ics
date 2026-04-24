@@ -4,37 +4,6 @@ PRODID:-//Portland Council Meetings//portland.gov//
 X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Finance and Governance Committee of the Whole Meeting
-DTSTART;TZID=America/Los_Angeles:20260423T093000
-DTEND;TZID=America/Los_Angeles:20260423T093000
-UID:e933c71f7d9029847e3167028341985c@portland.gov
-DESCRIPTION:The Finance and Governance Committee of the Whole typically me
- ets the first\, second\, and fourth Thursday of each month at 9:30 a.m. an
- d the third Wednesday of each month at 2:00 p.m.
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/23/financ
- e-and-governance-committee-whole-meeting
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Meeting
-DTSTART;TZID=America/Los_Angeles:20260423T093000
-DTEND;TZID=America/Los_Angeles:20260423T093000
-UID:bdbe1807b35b8b0b938a09eef788c126@portland.gov
-DESCRIPTION:City Council holds regular meetings at 9:30 a.m. on the first\
- , second\, fourth and fifth Wednesday and 6:00 p.m. on the third Wednesday
-  of each month. If there is sufficient business\, additional meetings are 
- held the following Thursday at 2:00 p.m.
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/23/city-c
- ouncil-meeting
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:City Life Committee Meeting
 DTSTART;TZID=America/Los_Angeles:20260428T140000
 DTEND;TZID=America/Los_Angeles:20260428T140000
@@ -67,12 +36,25 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260429T093000
 DTEND;TZID=America/Los_Angeles:20260429T093000
 UID:9c91f646adfa75504c76e8c0af294ed9@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: C
+ ity funds\, operations & administration
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/29/city-c
  ouncil-work-session
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Executive Session
+DTSTART;TZID=America/Los_Angeles:20260429T130000
+DTEND;TZID=America/Los_Angeles:20260429T130000
+UID:9581e2b85a5b639db41ffc73446f15e3@portland.gov
+DESCRIPTION:
+LOCATION:City Hall 1221 SW Fourth Avenue Rose Room Portland\, OR 97204 Get
+  directions More information about this room
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/29/city-c
+ ouncil-executive-session-0
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 BEGIN:VEVENT
@@ -96,7 +78,8 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260430T093000
 DTEND;TZID=America/Los_Angeles:20260430T093000
 UID:3e389e0b8a48056d11db22110d769474@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: P
+ ublic Works #1 (Parks & PBOT)
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
@@ -125,7 +108,8 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260505T093000
 DTEND;TZID=America/Los_Angeles:20260505T093000
 UID:c3cc1cfc7131edcf8dc00480afa46220@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: C
+ ommunity & Public Safety #1
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
@@ -152,7 +136,8 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260506T093000
 DTEND;TZID=America/Los_Angeles:20260506T093000
 UID:af9fa33d8570dbaeb74a2493aec29a68@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: H
+ ousing\, Permitting & Planning
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
@@ -181,7 +166,8 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260507T093000
 DTEND;TZID=America/Los_Angeles:20260507T093000
 UID:6403f1eac56f2d81e6f7133704f28380@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: E
+ conomic Development & Sustainability
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
@@ -194,7 +180,8 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260512T093000
 DTEND;TZID=America/Los_Angeles:20260512T093000
 UID:d38e28f27eb345aebd56cb5c948c9175@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: P
+ ortland Solutions & revenue generating options
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
@@ -207,7 +194,8 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260513T093000
 DTEND;TZID=America/Los_Angeles:20260513T093000
 UID:1d90358d7503077ded4d90cdb993d8f1@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: C
+ ommunity & Public Safety #2
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
@@ -236,7 +224,8 @@ SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260514T093000
 DTEND;TZID=America/Los_Angeles:20260514T093000
 UID:aa54f0683a0c9b355ee42796b37f29ce@portland.gov
-DESCRIPTION:Budget Committee work session for FY2026-27 approved budget
+DESCRIPTION:Budget Committee work session for FY2026-27 approved budget: P
+ ublic Works #2
 LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
  um Portland\,\n                                OR\n                       
                     97204 Get directions More about this location
@@ -652,6 +641,22 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/6/23/city-l
  ife-committee-meeting
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Meeting
+DTSTART;TZID=America/Los_Angeles:20260624T093000
+DTEND;TZID=America/Los_Angeles:20260624T093000
+UID:fbdb33546349c531ade994ed79d6601a@portland.gov
+DESCRIPTION:City Council holds regular meetings at 9:30 a.m. on the first\
+ , second\, fourth and fifth Wednesday and 6:00 p.m. on the third Wednesday
+  of each month. If there is sufficient business\, additional meetings are 
+ held the following Thursday at 2:00 p.m.
+LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
+ um Portland\,\n                                OR\n                       
+                    97204 Get directions More about this location
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/6/24/city-c
+ ouncil-meeting
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 END:VCALENDAR
