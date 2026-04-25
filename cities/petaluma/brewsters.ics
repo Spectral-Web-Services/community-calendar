@@ -4,18 +4,6 @@ PRODID:-//Brewsters Beer Garden//brewstersbeergarden.com//
 X-WR-CALNAME:Brewsters Beer Garden
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:The Workshop
-DTSTART;TZID=America/Los_Angeles:20260423T170000
-DTEND;TZID=America/Los_Angeles:20260423T200000
-UID:ebca536577e608ec71936d13773cba0d@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1771361394639-R8BXWKQ5N817EJ9Y607I/workshop_the.jpg
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/4/23/the-workshop
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Doggone Ornery
 DTSTART;TZID=America/Los_Angeles:20260424T170000
 DTEND;TZID=America/Los_Angeles:20260424T200000
@@ -727,6 +715,19 @@ ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/6/21/wicked-uncle
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Matt Bradford
+DTSTART;TZID=America/Los_Angeles:20260625T170000
+DTEND;TZID=America/Los_Angeles:20260625T200000
+UID:b6bc7dccc1267a41e3117568a9bec302@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1773188158937-RSUAFF22SA3J7VQJZL99/matt_bradford.jp
+ g
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/6/25/matt-bradford
 X-SOURCE:Brewsters Beer Garden
 END:VEVENT
 END:VCALENDAR
