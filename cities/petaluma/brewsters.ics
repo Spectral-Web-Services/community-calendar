@@ -4,33 +4,6 @@ PRODID:-//Brewsters Beer Garden//brewstersbeergarden.com//
 X-WR-CALNAME:Brewsters Beer Garden
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Doggone Ornery
-DTSTART;TZID=America/Los_Angeles:20260424T170000
-DTEND;TZID=America/Los_Angeles:20260424T200000
-UID:30bd5157e045ebececbce9fd30b59959@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1771361441718-CDL1KAF4SL3QJ2I6RK36/doggone_ornery.j
- pg
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/4/24/doggone-ornery
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Chris James & The Showdowns
-DTSTART;TZID=America/Los_Angeles:20260425T130000
-DTEND;TZID=America/Los_Angeles:20260425T160000
-UID:45f498b6b25fc014839fc925784d65e4@brewstersbeergarden.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
- fd49e6d1758ebf902df81c/1771361543412-LI7RZTG77KQRZ9RCNXMV/chris_james_show
- downs.webp
-DESCRIPTION:
-LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
-URL:https://brewstersbeergarden.com/calendar1/2026/4/25/chris-james-the-sh
- owdowns
-X-SOURCE:Brewsters Beer Garden
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Redwood Highway Ramblers
 DTSTART;TZID=America/Los_Angeles:20260425T170000
 DTEND;TZID=America/Los_Angeles:20260425T200000
@@ -728,6 +701,18 @@ ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
 DESCRIPTION:
 LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
 URL:https://brewstersbeergarden.com/calendar1/2026/6/25/matt-bradford
+X-SOURCE:Brewsters Beer Garden
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Heard Eye
+DTSTART;TZID=America/Los_Angeles:20260626T170000
+DTEND;TZID=America/Los_Angeles:20260626T200000
+UID:f1d62b5811ad50aa9113b2700f738f27@brewstersbeergarden.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/57
+ fd49e6d1758ebf902df81c/1773188263298-J8C0K0XIPCV3PE71YUGJ/heard_eye.webp
+DESCRIPTION:
+LOCATION:Brewsters Beer Garden\, 229 Water Street\, Petaluma\, CA\, 94952
+URL:https://brewstersbeergarden.com/calendar1/2026/6/26/the-heard-eye
 X-SOURCE:Brewsters Beer Garden
 END:VEVENT
 END:VCALENDAR
