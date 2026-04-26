@@ -4,20 +4,6 @@ PRODID:-//Visit Petaluma//visitpetaluma.com//
 X-WR-CALNAME:Visit Petaluma
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Live Music Every Saturday at Montagne Russe
-DTSTART;TZID=America/Los_Angeles:20260425T170000
-DTEND;TZID=America/Los_Angeles:20260425T190000
-UID:4fe757f39780866ec6f0db3c09e2909a@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /live-music-sat-MR.png
-DESCRIPTION:Occurs weekly on Saturday — (+34 more occurrences) — More 
- info: https://www.visitpetaluma.com/event/live-music-every-saturday-at-mon
- tagne-russe/
-URL:https://www.visitpetaluma.com/event/live-music-every-saturday-at-monta
- gne-russe/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Petaluma Downriver Run + Optional Refresh Sesh
 DTSTART;TZID=America/Los_Angeles:20260426T110000
 DTEND;TZID=America/Los_Angeles:20260426T130000
@@ -93,6 +79,20 @@ DESCRIPTION:More info: https://www.visitpetaluma.com/event/petaluma-womens
  -chorus-be-the-light-spring-concert/
 URL:https://www.visitpetaluma.com/event/petaluma-womens-chorus-be-the-ligh
  t-spring-concert/
+X-SOURCE:Visit Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Live Music Every Saturday at Montagne Russe
+DTSTART;TZID=America/Los_Angeles:20260502T170000
+DTEND;TZID=America/Los_Angeles:20260502T190000
+UID:843de70321b1303a74ce6528804fbdbe@visitpetaluma.com
+ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
+ /live-music-sat-MR.png
+DESCRIPTION:Occurs weekly on Saturday — (+33 more occurrences) — More 
+ info: https://www.visitpetaluma.com/event/live-music-every-saturday-at-mon
+ tagne-russe/
+URL:https://www.visitpetaluma.com/event/live-music-every-saturday-at-monta
+ gne-russe/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -234,31 +234,6 @@ URL:https://www.visitpetaluma.com/event/fathers-day-picnic-by-the-pond/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dan Agnello Live at Montagne Russe
-DTSTART;TZID=America/Los_Angeles:20260425T190000
-DTEND;TZID=America/Los_Angeles:20260425T210000
-UID:662ff41e84102f57186a8aaea3acfdf0@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /Dan-A-montag.png
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/dan-agnello-liv
- e-at-montagne-russe/
-URL:https://www.visitpetaluma.com/event/dan-agnello-live-at-montagne-russe
- /
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Centennial Open House
-DTSTART;TZID=America/Los_Angeles:20260425T190000
-DTEND;TZID=America/Los_Angeles:20260425T210000
-UID:4c53615f9111cf34a9f8f582a9c550ef@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /Hall-of-above-100-yrs.png
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/centennial-open
- -house/
-URL:https://www.visitpetaluma.com/event/centennial-open-house/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Convergence Ecstatic Dance
 DTSTART;TZID=America/Los_Angeles:20260425T190000
 DTEND;TZID=America/Los_Angeles:20260425T210000
@@ -268,19 +243,6 @@ ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
 DESCRIPTION:More info: https://www.visitpetaluma.com/event/convergence-ecs
  tatic-dance/
 URL:https://www.visitpetaluma.com/event/convergence-ecstatic-dance/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Spring Carnival at The Spring Hill School
-DTSTART;TZID=America/Los_Angeles:20260425T190000
-DTEND;TZID=America/Los_Angeles:20260425T210000
-UID:79f6e46b64958c76e3d42f50b6fca164@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /tug-of-war.jpg
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/spring-carnival
- -at-the-spring-hill-school/
-URL:https://www.visitpetaluma.com/event/spring-carnival-at-the-spring-hill
- -school/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
