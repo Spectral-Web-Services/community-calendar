@@ -16,21 +16,6 @@ CALSCALE:GREGORIAN
 
 BEGIN:VEVENT
 DTSTAMP:20170606T23230Z
-UID:C7un7jKsN4-8225714428@spjnetwork.org
-DTSTART;TZID=America/New_York:20260425T120000
-DTEND;TZID=America/New_York:20260425T140000
-SUMMARY:SPJ Foundation Board of Directors Meeting
-URL:http://calendar.spjnetwork.org/displayevent.php?e=C7un7jKsN4-8225714428
-DESCRIPTION:Board agenda and meeting materials will be added when available: https://www.spj.org/board-resources-meeting-materials-and-live-streams/
-LOCATION:
-END:VEVENT
-
-
-
-
-
-BEGIN:VEVENT
-DTSTAMP:20170606T23231Z
 UID:J31BphdXVn-8225536925@spjnetwork.org
 DTSTART;TZID=America/New_York:20260427
 DTEND;TZID=America/New_York:20260501
@@ -47,7 +32,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T23232Z
+DTSTAMP:20170606T23231Z
 UID:0Bmznnyn2c-8224921144@spjnetwork.org
 DTSTART;TZID=America/New_York:20260428T200000
 DTEND;TZID=America/New_York:20260428T213000
@@ -72,7 +57,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T23233Z
+DTSTAMP:20170606T23232Z
 UID:soB99C81mb-8225609445@spjnetwork.org
 DTSTART;TZID=America/New_York:20260428T190000
 DTEND;TZID=America/New_York:20260428T200000
@@ -87,7 +72,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T23234Z
+DTSTAMP:20170606T23233Z
 UID:nQQQFuUSOo-8225609224@spjnetwork.org
 DTSTART;TZID=America/New_York:20260429T190000
 DTEND;TZID=America/New_York:20260429T200000
@@ -102,7 +87,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T23235Z
+DTSTAMP:20170606T23234Z
 UID:Rsd4Z2Vzot-8223722574@spjnetwork.org
 DTSTART;TZID=America/New_York:20260501T163000
 DTEND;TZID=America/New_York:20260501T183000
@@ -127,7 +112,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T23236Z
+DTSTAMP:20170606T23235Z
 UID:1oCZ107DJK-8224845011@spjnetwork.org
 DTSTART;TZID=America/New_York:20260502T090000
 DTEND;TZID=America/New_York:20260502T113000
@@ -151,7 +136,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T23237Z
+DTSTAMP:20170606T23236Z
 UID:naJjuQ4vP2-8224251358@spjnetwork.org
 DTSTART;TZID=America/New_York:20260504T093000
 DTEND;TZID=America/New_York:20260504T150000
@@ -194,15 +179,28 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T23238Z
-UID:YiDDpXoN9y-8225017278@spjnetwork.org
+DTSTAMP:20170606T23237Z
+UID:0OsETHHAIo-8225017285@spjnetwork.org
 DTSTART;TZID=America/New_York:20260511
 DTEND;TZID=America/New_York:20260511
-SUMMARY:Nomination Deadline: Julie Galvan Outstanding Graduate in Journalism Award
-URL:http://www.spj.org/julie-galvan-outstanding-graduate-in-journalism-award/
-DESCRIPTION:Each of the Society’s campus chapters are encouraged to select one graduate in journalism who is outstanding in his or her class on the basis of character\, service to the community\, scholarship\, proficiency in practical journalism and significant contributions to their SPJ chapter. From this group\, the Society’s leaders will select one graduate who is considered the most outstanding for national recognition.
+SUMMARY:Nomination Deadline: David L. Eshelman Award
+URL:http://www.spj.org/david-l-eshelman-award/
+DESCRIPTION:The Outstanding Campus Chapter Adviser Award\, initiated in 1978\, is presented annually to the person who has made an exceptional contribution to the campus chapter for which he or she serves as SPJ adviser. 
+LOCATION:
+END:VEVENT
 
-The Award is named in memory of Julie Galvan\, a former president of the SPJ San Jose State University Campus Chapter.
+
+
+
+
+BEGIN:VEVENT
+DTSTAMP:20170606T23238Z
+UID:2GtdDqRzTp-8225017291@spjnetwork.org
+DTSTART;TZID=America/New_York:20260511
+DTEND;TZID=America/New_York:20260511
+SUMMARY:Nomination Deadline: Wells Memorial Key
+URL:http://www.spj.org/wells-memorial-key/
+DESCRIPTION:Each year\, a member who is judged to have served the Society in the most outstanding fashion during the preceding year or over a period of years is presented SPJ’s highest honor for a member\, the Wells Memorial Key.
 LOCATION:
 END:VEVENT
 
@@ -230,12 +228,14 @@ END:VEVENT
 
 BEGIN:VEVENT
 DTSTAMP:20170606T232310Z
-UID:2GtdDqRzTp-8225017291@spjnetwork.org
+UID:YiDDpXoN9y-8225017278@spjnetwork.org
 DTSTART;TZID=America/New_York:20260511
 DTEND;TZID=America/New_York:20260511
-SUMMARY:Nomination Deadline: Wells Memorial Key
-URL:http://www.spj.org/wells-memorial-key/
-DESCRIPTION:Each year\, a member who is judged to have served the Society in the most outstanding fashion during the preceding year or over a period of years is presented SPJ’s highest honor for a member\, the Wells Memorial Key.
+SUMMARY:Nomination Deadline: Julie Galvan Outstanding Graduate in Journalism Award
+URL:http://www.spj.org/julie-galvan-outstanding-graduate-in-journalism-award/
+DESCRIPTION:Each of the Society’s campus chapters are encouraged to select one graduate in journalism who is outstanding in his or her class on the basis of character\, service to the community\, scholarship\, proficiency in practical journalism and significant contributions to their SPJ chapter. From this group\, the Society’s leaders will select one graduate who is considered the most outstanding for national recognition.
+
+The Award is named in memory of Julie Galvan\, a former president of the SPJ San Jose State University Campus Chapter.
 LOCATION:
 END:VEVENT
 
@@ -245,21 +245,6 @@ END:VEVENT
 
 BEGIN:VEVENT
 DTSTAMP:20170606T232311Z
-UID:0OsETHHAIo-8225017285@spjnetwork.org
-DTSTART;TZID=America/New_York:20260511
-DTEND;TZID=America/New_York:20260511
-SUMMARY:Nomination Deadline: David L. Eshelman Award
-URL:http://www.spj.org/david-l-eshelman-award/
-DESCRIPTION:The Outstanding Campus Chapter Adviser Award\, initiated in 1978\, is presented annually to the person who has made an exceptional contribution to the campus chapter for which he or she serves as SPJ adviser. 
-LOCATION:
-END:VEVENT
-
-
-
-
-
-BEGIN:VEVENT
-DTSTAMP:20170606T232312Z
 UID:6sHhiqfRN1-8229088514@spjnetwork.org
 DTSTART;TZID=America/New_York:20260602
 DTEND;TZID=America/New_York:20260605
@@ -278,7 +263,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T232313Z
+DTSTAMP:20170606T232312Z
 UID:v5wH6IjvXx-8237188168@spjnetwork.org
 DTSTART;TZID=America/New_York:20260612T160000
 DTEND;TZID=America/New_York:20260612T170000
@@ -300,7 +285,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T232314Z
+DTSTAMP:20170606T232313Z
 UID:WYHZlvv6YW-8229088496@spjnetwork.org
 DTSTART;TZID=America/New_York:20260621
 DTEND;TZID=America/New_York:20260626
@@ -317,7 +302,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T232315Z
+DTSTAMP:20170606T232314Z
 UID:QmNYWPuQHT-8223308934@spjnetwork.org
 DTSTART;TZID=America/New_York:20260629
 DTEND;TZID=America/New_York:20260629
@@ -336,7 +321,7 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-DTSTAMP:20170606T232316Z
+DTSTAMP:20170606T232315Z
 UID:UT8krBDXTy-8223308928@spjnetwork.org
 DTSTART;TZID=America/New_York:20260629
 DTEND;TZID=America/New_York:20260629
