@@ -4,19 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:The Wedding Present
-DTSTART:20260427T220000
-DTEND:20260427T220000
-UID:087410facf41e7259a39d5e7dc9d80cf@songkick.com
-DESCRIPTION:The Wedding Present at Mississippi Studios at 2026-04-27T22:00
- :00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/42869051-wedding-present-at-mississip
- pi-studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Cribs\, Strange Pilgrim
 DTSTART:20260428T200000
 DTEND:20260428T200000
@@ -51,6 +38,18 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43138489-daniel-romanos-outfit-at-mis
  sissippi-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Uni Boys
+DTSTART:20260430T200000
+DTEND:20260430T200000
+UID:6e8dde26e3dbbb26f368c2b76588e414@songkick.com
+DESCRIPTION:Uni Boys at Mississippi Studios at 2026-04-30T20:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100063-uni-boys-at-mississippi-stud
+ ios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

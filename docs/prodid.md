@@ -8,7 +8,7 @@ used across all city feeds, identified by their PRODID header.
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 43 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 41 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 35 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 16 |
@@ -38,7 +38,7 @@ ICS export from meetup.com groups.
 
 **roanoke** (6): meetup_make_roanoke, meetup_pathfinders_greenways, meetup_roanoke_spiritual, meetup_roanoke_valley_net, meetup_shut_up_write, meetup_sw_va_toastmasters
 
-### The Events Calendar (WordPress) (43 feeds)
+### The Events Calendar (WordPress) (41 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
@@ -52,9 +52,9 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **matsu** (3): connect_matsu, skeetawk, visit_palmer
 
-**petaluma** (2): petaluma_museum, polly_klaas
+**petaluma** (1): polly_klaas
 
-**portland** (10): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, vancouver_farmers_market, washington_park
+**portland** (9): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, washington_park
 
 **publisher-resources** (3): ahcj, nlgja, sabew
 
