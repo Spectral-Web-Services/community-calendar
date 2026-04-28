@@ -22,6 +22,32 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260427T211658Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260428T153000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260428T133000
+DTSTAMP;VALUE=DATE-TIME:20260427T211658Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260427T211658Z
+UID:http://calagator.org/events/1250482550
+DESCRIPTION:​Better Futures Club is a weekly event (alternating Tuesdays 
+ and Thursdays) focused on imagining and making better futures.&#13\;\n&#
+ 13\;\nImagine an artist community\, a think tank\, and a research center
+  in the same building. People in all of those fields working alongside e
+ ach other imagining and creating different futures together. Cross polli
+ nation and inspiration. Liberal Arts and STEM and R&amp\;D. Photographer
+ s\, physicists\, authors\, astronomers\, musicians\, makers\, mathematic
+ ians\, designers\, developers\, fashionistas\, climatologists and all ma
+ nner of imaginative optimists.&#13\;\n&#13\;\nAll Better Futures Club ev
+ ents are covered by the Contributor Covenant Code of Conduct (https://ww
+ w.contributor-covenant.org)\n\nTags: ruby\, STEM\, liberal arts\, commun
+ ity\, hacking\, AI\n\nImported from: http://calagator.org/events/1250482
+ 550
+URL:https://betterfutures.club
+SUMMARY:Better Futures Club
+LOCATION:Autumn Coffee Roasting: 3286 NE Killingsworth St\, Portland OR 9
+ 7211 United States
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260424T154010Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260429T110000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260429T100000
@@ -43,6 +69,30 @@ DESCRIPTION:A special fireside chat for startup communities with Brad Fel
 URL:https://community.incorruptible.co/plans/1975971
 SUMMARY:A Fireside Chat for Startup Communities
 LOCATION:Virtual: false
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260427T171502Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260501T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260501T170000
+DTSTAMP;VALUE=DATE-TIME:20260427T171502Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260427T171502Z
+UID:http://calagator.org/events/1250482549
+DESCRIPTION:Kick off the month with First Friday at UpStart Collective\, 
+ a relaxed happy-hour style gathering for good conversation\, new connect
+ ions\, and a little end-of-week celebration. Join the UpStart Collective
+  community on the 5th floor in downtown Portland for an easygoing hour o
+ f meeting people\, catching up\, and easing into the weekend with a fest
+ ive vibe.&#13\;\n&#13\;\n​Whether you’re stopping by after work or makin
+ g this your first Friday tradition\, it’s a great chance to unwind\, sha
+ re what you’re working on\, and enjoy a welcoming space with a lively cr
+ owd. Come as you are\, bring a friend if you’d like\, and settle in for 
+ a fun start to the month.\n\nTags: upstart\, portland\, pdx\n\nImported 
+ from: http://calagator.org/events/1250482549
+URL:https://luma.com/2bb8ftky
+SUMMARY:First Friday at Upstart Collective
+LOCATION:UpStart Collective (westside): 2130 SW 5th Ave\, Portland\, OR 9
+ 7201 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
@@ -213,6 +263,24 @@ SUMMARY:Community Broadband PDX Meetup
 LOCATION:Multnomah County Library Hillsdale Branch: 1525 SW Sunset Boulev
  ard\, Portland Oregon 97239 USA
 SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260427T171027Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260513T200000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260513T180000
+DTSTAMP;VALUE=DATE-TIME:20260427T171027Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260427T171027Z
+UID:http://calagator.org/events/1250482548
+DESCRIPTION:Pull your shorts out of the back of the drawer and don’t forg
+ et the sunscreen! 🍷 &#13\;\n&#13\;\nJoin us on Wednesday\, May 13 at 6:0
+ 0 PM for a golden hour evening with friends\, wine\, and refreshing drin
+ ks at Company Wine Bar in SE Portland.\n\nTags: portland\, pdx\, dmob\n\
+ nImported from: http://calagator.org/events/1250482548
+URL:https://www.aigapdx.org/events/may-dmob-company-wine-bar
+SUMMARY:dMob @ Company Wine Bar
+LOCATION:Company Wine Bar: 916 Southeast 34th Avenue\, Portland OR 97214 
+ US
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260424T165614Z
