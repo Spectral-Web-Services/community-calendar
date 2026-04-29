@@ -4,17 +4,6 @@ PRODID:-//Wonder Ballroom//songkick.com//
 X-WR-CALNAME:Wonder Ballroom
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Patrick Watson
-DTSTART:20260428T200000
-DTEND:20260428T200000
-UID:513bb553d67d09ade9f5d2b5108c67ad@songkick.com
-DESCRIPTION:Patrick Watson at Wonder Ballroom at 2026-04-28T20:00:00-0700
-LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
-URL:http://www.songkick.com/concerts/42779473-patrick-watson-at-wonder-bal
- lroom?utm_medium=organic&utm_source=microformat
-X-SOURCE:Wonder Ballroom
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Jensen McRae
 DTSTART:20260430T200000
 DTEND:20260430T200000
@@ -46,6 +35,18 @@ DESCRIPTION:José González at Wonder Ballroom at 2026-05-02T20:00:00-0700
 LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
 URL:http://www.songkick.com/concerts/42983182-jose-gonzalez-at-wonder-ball
  room?utm_medium=organic&utm_source=microformat
+X-SOURCE:Wonder Ballroom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GOLDEN: A K-Pop Kids Party!
+DTSTART:20260503T110000
+DTEND:20260503T110000
+UID:e112731741c41399c2d64c0add38f441@songkick.com
+DESCRIPTION:GOLDEN: A K-Pop Kids Party! at Wonder Ballroom at 2026-05-03T1
+ 1:00:00-0700
+LOCATION:Wonder Ballroom\, 128 NE Russell\, Portland\, OR\, 97212
+URL:http://www.songkick.com/concerts/43103916-golden-a-kpop-kids-party-at-
+ wonder-ballroom?utm_medium=organic&utm_source=microformat
 X-SOURCE:Wonder Ballroom
 END:VEVENT
 END:VCALENDAR

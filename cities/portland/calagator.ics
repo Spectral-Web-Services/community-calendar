@@ -362,6 +362,24 @@ LOCATION:Multnomah County Library Albina Branch: 205 NE Russell St\, Port
 SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260428T041946Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260521T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260521T190000
+DTSTAMP;VALUE=DATE-TIME:20260428T041946Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260428T041946Z
+UID:http://calagator.org/events/1250482551
+DESCRIPTION:A meeting of folks interested in BSD operating systems and re
+ lated technologies to get together\, eat pizza\, drink beer\, and talk a
+ bout what interesting things have been going on.\n\nTags: DragonFlyBSD\,
+  FreeBSD\, NetBSD\, OpenBSD\, bsd\n\nImported from: http://calagator.org
+ /events/1250482551
+URL:https://bsd.pizza
+SUMMARY:BSD Pizza Night
+LOCATION:48 North Pizzeria: 6500 S Virginia Ave.\, Portland Oregon 97239 
+ USA
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20250918T042835Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260527T210000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260527T183000

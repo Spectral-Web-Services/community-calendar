@@ -4,18 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Pittock Garden Tuesday Volunteer Day
-DTSTART;TZID=America/Los_Angeles:20260428T090000
-DTEND;TZID=America/Los_Angeles:20260428T090000
-UID:b7dfc3e3cf7d80f0654bb8c14fa10d27@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
-  rain or shine\, to tend to the plants on the grounds at Pittock Mansion.
-LOCATION:Pittock Mansion
-URL:https://www.portland.gov/parks/events/2026/4/28/pittock-garden-tuesday
- -volunteer-day
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Spring Garden Park volunteer event
 DTSTART;TZID=America/Los_Angeles:20260429T090000
 DTEND;TZID=America/Los_Angeles:20260429T090000
@@ -115,6 +103,18 @@ URL:https://www.portland.gov/parks/events/2026/5/4/mac-trail-volunteer-day
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lilac Garden at Duniway Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260504T090000
+DTEND;TZID=America/Los_Angeles:20260504T090000
+UID:664e1ea98cd24036ba2b2af9cfe1d973@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
+ at Duniway Park for a morning of plant and garden care.
+LOCATION:Duniway Park
+URL:https://www.portland.gov/parks/events/2026/5/4/lilac-garden-duniway-pa
+ rk-volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260505T090000
 DTEND;TZID=America/Los_Angeles:20260505T090000
@@ -126,6 +126,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/5/5/pittock-garden-tuesday-
  volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260505T090000
+DTEND;TZID=America/Los_Angeles:20260505T090000
+UID:7636ccc72d7e52606dd07b84b0c26412@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/5/5/south-park-blocks-garde
+ ning-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -269,6 +281,18 @@ URL:https://www.portland.gov/parks/events/2026/5/11/mac-trail-volunteer-da
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lilac Garden at Duniway Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260511T090000
+DTEND;TZID=America/Los_Angeles:20260511T090000
+UID:61d5cfc2e051f55e69649c836f067cf9@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
+ at Duniway Park for a morning of plant and garden care.
+LOCATION:Duniway Park
+URL:https://www.portland.gov/parks/events/2026/5/11/lilac-garden-duniway-p
+ ark-volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wilkes Park Pollinator Patch Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260512T090000
 DTEND;TZID=America/Los_Angeles:20260512T090000
@@ -297,6 +321,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/5/12/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260512T090000
+DTEND;TZID=America/Los_Angeles:20260512T090000
+UID:3dd64820e040137fe7843ade0bfb28dd@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/5/12/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -357,6 +393,21 @@ LOCATION:Leach Botanical Garden main entrance 6704 SE 122nd Avenue Portlan
  irections More about this location
 URL:https://www.portland.gov/parks/nas/events/2026/5/13/leach-botanical-ga
  rden-stewardship-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Garden Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260513T090000
+DTEND;TZID=America/Los_Angeles:20260513T090000
+UID:62875c775217a9377ab2371c00898a37@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/nhp_3949.jpg?itok=RC5eqhBO
+DESCRIPTION:Join us for a stewardship event at Spring Garden Park\, this i
+ s a great way to get outside\, enjoy nature\, and help care for your local
+  park.
+LOCATION:Spring Garden Park
+URL:https://www.portland.gov/parks/events/2026/5/13/spring-garden-park-vol
+ unteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -431,6 +482,41 @@ URL:https://www.portland.gov/parks/events/2026/5/18/mac-trail-volunteer-da
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lilac Garden at Duniway Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260518T090000
+DTEND;TZID=America/Los_Angeles:20260518T090000
+UID:458a3fcce037acc59cffc108c0762c6f@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
+ at Duniway Park for a morning of plant and garden care.
+LOCATION:Duniway Park
+URL:https://www.portland.gov/parks/events/2026/5/18/lilac-garden-duniway-p
+ ark-volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260519T090000
+DTEND;TZID=America/Los_Angeles:20260519T090000
+UID:8ba5eec29560cd14225225a56327fc14@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/5/19/south-park-blocks-gard
+ ening-and-turf-crew
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Burlingame Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260519T100000
+DTEND;TZID=America/Los_Angeles:20260519T100000
+UID:d8dc3d0f9a188da53186bfdb44767e26@portland.gov
+DESCRIPTION:Help us keep Burlingame Park a thriving community space!
+LOCATION:Burlingame Park
+URL:https://www.portland.gov/parks/events/2026/5/19/burlingame-park-volunt
+ eer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Luuwit View Park Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260521T090000
 DTEND;TZID=America/Los_Angeles:20260521T090000
@@ -464,6 +550,21 @@ URL:https://www.portland.gov/parks/events/2026/5/22/cloud-forest-volunteer
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Woods Memorial Park Volunteer Trailwork Event
+DTSTART;TZID=America/Los_Angeles:20260523T090000
+DTEND;TZID=America/Los_Angeles:20260523T090000
+UID:54bd413ff2ec87faf8426e2c9808da2b@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/Trillium-at-Wilkes-Creek-Headwaters.JPG?itok=5NSh
+ NSj8
+DESCRIPTION:Join PP&R and Friends of Woods Park for our monthly volunteer 
+ trailwork event.
+LOCATION:Woods Memorial Natural Area
+URL:https://www.portland.gov/parks/nature/events/2026/5/23/woods-memorial-
+ park-volunteer-trailwork-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260526T090000
 DTEND;TZID=America/Los_Angeles:20260526T090000
@@ -475,6 +576,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/5/26/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260526T090000
+DTEND;TZID=America/Los_Angeles:20260526T090000
+UID:1dddabb2f27ae99897e136a4f4f8a9a1@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/5/26/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -492,6 +605,21 @@ LOCATION:Hazeltine Park Label: Park Park location or entrance 5416 SE Flav
                  97206 Get directions More about this location
 URL:https://www.portland.gov/parks/events/2026/5/27/hazeltine-park-tending
  -time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Garden Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260527T090000
+DTEND;TZID=America/Los_Angeles:20260527T090000
+UID:3127b5e1297ec52e500aba6f6668fdf5@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/nhp_3949.jpg?itok=RC5eqhBO
+DESCRIPTION:Join us for a stewardship event at Spring Garden Park\, this i
+ s a great way to get outside\, enjoy nature\, and help care for your local
+  park.
+LOCATION:Spring Garden Park
+URL:https://www.portland.gov/parks/events/2026/5/27/spring-garden-park-vol
+ unteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -522,17 +650,15 @@ URL:https://www.portland.gov/parks/events/2026/5/30/mt-tabor-last-saturday
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marquam Nature Park Volunteer Trail Work Event (Brushing)
-DTSTART;TZID=America/Los_Angeles:20260530T090000
-DTEND;TZID=America/Los_Angeles:20260530T090000
-UID:43c62f40530b3a34e3a0adf889c52962@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2020-04/marquam-nature-park-bridge.jpg?itok=5viqd-0t
-DESCRIPTION:Join PP&R and the Forest Park Conservancy to help maintain the
-  trails in Marquam Nature Park.
-LOCATION:Marquam Nature Park
-URL:https://www.portland.gov/parks/nature/events/2026/5/30/marquam-nature-
- park-volunteer-trail-work-event-brushing
+SUMMARY:Lilac Garden at Duniway Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260601T090000
+DTEND;TZID=America/Los_Angeles:20260601T090000
+UID:c53cc2482c59883ee88f6e9178b7f767@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
+ at Duniway Park for a morning of plant and garden care.
+LOCATION:Duniway Park
+URL:https://www.portland.gov/parks/events/2026/6/1/lilac-garden-duniway-pa
+ rk-volunteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -547,6 +673,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/2/pittock-garden-tuesday-
  volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260602T090000
+DTEND;TZID=America/Los_Angeles:20260602T090000
+UID:a654413195b8b011cdd34fff7bb30273@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/2/south-park-blocks-garde
+ ning-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -583,6 +721,21 @@ LOCATION:Errol Heights Community Garden main entrance 4841 SE Tenino Court
          97206 Get directions More about this location
 URL:https://www.portland.gov/parks/events/2026/6/3/errol-heights-park-tend
  ing-time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Garden Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260603T090000
+DTEND;TZID=America/Los_Angeles:20260603T090000
+UID:a37405829bc220b161ef26860b7874ea@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/nhp_3949.jpg?itok=RC5eqhBO
+DESCRIPTION:Join us for a stewardship event at Spring Garden Park\, this i
+ s a great way to get outside\, enjoy nature\, and help care for your local
+  park.
+LOCATION:Spring Garden Park
+URL:https://www.portland.gov/parks/events/2026/6/3/spring-garden-park-volu
+ nteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -678,6 +831,18 @@ URL:https://www.portland.gov/parks/events/2026/6/6/oaks-bottom-wildlife-re
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Lilac Garden at Duniway Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260608T090000
+DTEND;TZID=America/Los_Angeles:20260608T090000
+UID:05c3a494c593b7e61976bafad80a4a00@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
+ at Duniway Park for a morning of plant and garden care.
+LOCATION:Duniway Park
+URL:https://www.portland.gov/parks/events/2026/6/8/lilac-garden-duniway-pa
+ rk-volunteer-event
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wilkes Park Pollinator Patch Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260609T090000
 DTEND;TZID=America/Los_Angeles:20260609T090000
@@ -709,6 +874,18 @@ URL:https://www.portland.gov/parks/events/2026/6/9/pittock-garden-tuesday-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260609T090000
+DTEND;TZID=America/Los_Angeles:20260609T090000
+UID:3a9e28babd530ec47f0dfe7c08322745@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/9/south-park-blocks-garde
+ ning-and-turf-crew
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Monarchs at the Mansion
 DTSTART;TZID=America/Los_Angeles:20260609T100000
 DTEND;TZID=America/Los_Angeles:20260609T100000
@@ -736,6 +913,21 @@ LOCATION:Laurelhurst Park\, north entrance 3600 SE Ankeny St Portland\n
  ons More about this location Laurelhurst Park
 URL:https://www.portland.gov/parks/events/2026/6/10/laurelhurst-park-commu
  nity-volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spring Garden Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260610T090000
+DTEND;TZID=America/Los_Angeles:20260610T090000
+UID:a63a28a5d3731b628d252b9309c757ac@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/nhp_3949.jpg?itok=RC5eqhBO
+DESCRIPTION:Join us for a stewardship event at Spring Garden Park\, this i
+ s a great way to get outside\, enjoy nature\, and help care for your local
+  park.
+LOCATION:Spring Garden Park
+URL:https://www.portland.gov/parks/events/2026/6/10/spring-garden-park-vol
+ unteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -782,6 +974,29 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/16/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260616T090000
+DTEND;TZID=America/Los_Angeles:20260616T090000
+UID:1dca24303146c56ee6ece20a5aac2aa8@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/16/south-park-blocks-gard
+ ening-and-turf-crew
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Burlingame Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260616T100000
+DTEND;TZID=America/Los_Angeles:20260616T100000
+UID:7b519bbd3ec170b00094f46f85d92e1a@portland.gov
+DESCRIPTION:Help us keep Burlingame Park a thriving community space!
+LOCATION:Burlingame Park
+URL:https://www.portland.gov/parks/events/2026/6/16/burlingame-park-volunt
+ eer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -843,6 +1058,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/23/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260623T090000
+DTEND;TZID=America/Los_Angeles:20260623T090000
+UID:167ce4a1e67b46852ab8c7bc43481198@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/23/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
