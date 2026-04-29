@@ -4,34 +4,6 @@ PRODID:-//Portland Council Meetings//portland.gov//
 X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:City Life Committee Meeting
-DTSTART;TZID=America/Los_Angeles:20260428T140000
-DTEND;TZID=America/Los_Angeles:20260428T140000
-UID:6fcf9ff31ddec6c184e9a06b691c0f1c@portland.gov
-DESCRIPTION:The City Life Committee typically meets the second and fourth 
- Tuesday of each month at 2:00 p.m.
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/28/city-l
- ife-committee-meeting
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Work Session
-DTSTART;TZID=America/Los_Angeles:20260428T130000
-DTEND;TZID=America/Los_Angeles:20260428T130000
-UID:1540dacd099be228fae4977316c27592@portland.gov
-DESCRIPTION:Joint City / County Homelessness to Housing Continuum - FY 202
- 6-27 Budget
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/28/city-c
- ouncil-work-session
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260429T093000
 DTEND;TZID=America/Los_Angeles:20260429T093000
@@ -687,6 +659,17 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/6/25/city-c
  ouncil-meeting-tentative
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Council Recess
+DTSTART;TZID=America/Los_Angeles:20260629T000000
+DTEND;TZID=America/Los_Angeles:20260703T000000
+UID:d8764ea13ab38d2d21704ced665afecb@portland.gov
+DESCRIPTION:City Council will not meet in Committee or as a full Council t
+ he week of June 29-July 3\, 2026
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/6/29/counci
+ l-recess
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 END:VCALENDAR
