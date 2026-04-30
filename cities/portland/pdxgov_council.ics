@@ -5,48 +5,6 @@ X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:City Council Work Session
-DTSTART;TZID=America/Los_Angeles:20260429T093000
-DTEND;TZID=America/Los_Angeles:20260429T093000
-UID:9c91f646adfa75504c76e8c0af294ed9@portland.gov
-DESCRIPTION:Budget Committee work session for FY 2026-27: City funds\, ope
- rations & administration
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/29/city-c
- ouncil-work-session
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Executive Session
-DTSTART;TZID=America/Los_Angeles:20260429T130000
-DTEND;TZID=America/Los_Angeles:20260429T130000
-UID:9581e2b85a5b639db41ffc73446f15e3@portland.gov
-DESCRIPTION:
-LOCATION:City Hall 1221 SW Fourth Avenue Rose Room Portland\, OR 97204 Get
-  directions More information about this room
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/29/city-c
- ouncil-executive-session-0
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Meeting
-DTSTART;TZID=America/Los_Angeles:20260429T093000
-DTEND;TZID=America/Los_Angeles:20260429T093000
-UID:2835f57aa530190c62e05c35b3fe5d92@portland.gov
-DESCRIPTION:City Council holds regular meetings at 9:30 a.m. on the first\
- , second\, fourth and fifth Wednesday and 6:00 p.m. on the third Wednesday
-  of each month. If there is sufficient business\, additional meetings are 
- held the following Thursday at 2:00 p.m.
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/4/29/city-c
- ouncil-meeting
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260430T093000
 DTEND;TZID=America/Los_Angeles:20260430T093000
 UID:3e389e0b8a48056d11db22110d769474@portland.gov
@@ -145,6 +103,18 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/7/city-co
  uncil-work-session
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Executive Session
+DTSTART;TZID=America/Los_Angeles:20260507T143000
+DTEND;TZID=America/Los_Angeles:20260507T143000
+UID:1019c032c1027e138ba7c99573494f74@portland.gov
+DESCRIPTION:
+LOCATION:City Hall 1221 SW Fourth Avenue Rose Room Portland\, OR 97204 Get
+  directions More information about this room
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/7/city-co
+ uncil-executive-session
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 BEGIN:VEVENT

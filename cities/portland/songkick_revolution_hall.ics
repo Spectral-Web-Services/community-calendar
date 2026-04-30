@@ -4,17 +4,6 @@ PRODID:-//Revolution Hall//songkick.com//
 X-WR-CALNAME:Revolution Hall
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Pub Choir
-DTSTART:20260429T200000
-DTEND:20260429T200000
-UID:d798934efbe32d795bb135b26d89789f@songkick.com
-DESCRIPTION:Pub Choir at Revolution Hall at 2026-04-29T20:00:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43100062-pub-choir-at-revolution-hall
- ?utm_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sean Solomon
 DTSTART:20260430T200000
 DTEND:20260430T200000
@@ -45,6 +34,17 @@ DESCRIPTION:Wrabel at Revolution Hall at 2026-05-01T20:00:00-0700
 LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/43100064-wrabel-at-revolution-hall?ut
  m_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La Dispute
+DTSTART:20260502T194500
+DTEND:20260502T194500
+UID:51e7b1a9e18aefc5345b7994f5b4db27@songkick.com
+DESCRIPTION:La Dispute at Revolution Hall at 2026-05-02T19:45:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/42910548-la-dispute-at-revolution-hal
+ l?utm_medium=organic&utm_source=microformat
 X-SOURCE:Revolution Hall
 END:VEVENT
 END:VCALENDAR
