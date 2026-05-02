@@ -4,28 +4,6 @@ PRODID:-//Revolution Hall//songkick.com//
 X-WR-CALNAME:Revolution Hall
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Oh Wonder
-DTSTART:20260501T200000
-DTEND:20260501T200000
-UID:36aa0177192848606fe0dd0188e56b49@songkick.com
-DESCRIPTION:Oh Wonder at Revolution Hall at 2026-05-01T20:00:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43008602-oh-wonder-at-revolution-hall
- ?utm_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Wrabel
-DTSTART:20260501T200000
-DTEND:20260501T200000
-UID:7d5662e18d35f5c655804df270f745a0@songkick.com
-DESCRIPTION:Wrabel at Revolution Hall at 2026-05-01T20:00:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43100064-wrabel-at-revolution-hall?ut
- m_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:La Dispute
 DTSTART:20260502T194500
 DTEND:20260502T194500
@@ -46,6 +24,18 @@ DESCRIPTION:From Indian Lakes at Revolution Hall at 2026-05-02T19:45:00-07
 LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/43100068-from-indian-lakes-at-revolut
  ion-hall?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vincent Neil Emerson\, Kade Hoffman
+DTSTART:20260503T200000
+DTEND:20260503T200000
+UID:f477a1f8844759ce111b7db9b30eb737@songkick.com
+DESCRIPTION:Vincent Neil Emerson and Kade Hoffman at Revolution Hall at 20
+ 26-05-03T20:00:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43021218-vincent-neil-emerson-at-revo
+ lution-hall?utm_medium=organic&utm_source=microformat
 X-SOURCE:Revolution Hall
 END:VEVENT
 END:VCALENDAR

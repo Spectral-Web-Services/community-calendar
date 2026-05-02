@@ -52,9 +52,9 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **matsu** (3): connect_matsu, skeetawk, visit_palmer
 
-**petaluma** (2): petaluma_museum, polly_klaas
+**petaluma** (1): polly_klaas
 
-**portland** (9): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, washington_park
+**portland** (10): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, vancouver_farmers_market, washington_park
 
 **publisher-resources** (3): ahcj, nlgja, sabew
 
