@@ -22,29 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260427T171502Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260501T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260501T170000
-DTSTAMP;VALUE=DATE-TIME:20260427T171502Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260427T171502Z
-UID:http://calagator.org/events/1250482549
-DESCRIPTION:Kick off the month with First Friday at UpStart Collective\, 
- a relaxed happy-hour style gathering for good conversation\, new connect
- ions\, and a little end-of-week celebration. Join the UpStart Collective
-  community on the 5th floor in downtown Portland for an easygoing hour o
- f meeting people\, catching up\, and easing into the weekend with a fest
- ive vibe.&#13\;\n&#13\;\n​Whether you’re stopping by after work or makin
- g this your first Friday tradition\, it’s a great chance to unwind\, sha
- re what you’re working on\, and enjoy a welcoming space with a lively cr
- owd. Come as you are\, bring a friend if you’d like\, and settle in for 
- a fun start to the month.\n\nTags: upstart\, portland\, pdx\n\nImported 
- from: http://calagator.org/events/1250482549
-URL:https://luma.com/2bb8ftky
-SUMMARY:First Friday at Upstart Collective
-LOCATION:Upstart Collective: 111 SW 5th Ave\, Portland Oregon 97204 US
-SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T171318Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260502T130000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260502T100000
@@ -126,6 +103,23 @@ SUMMARY:InventOR Bootcamp Mentor & Judge Opportunities | Support Oregon S
  tudent Innovators
 LOCATION:SEC Event Space: 2130 SW 5th Ave\, Portland OR 97201 United Stat
  es
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260502T170236Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260503T180000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260503T130000
+DTSTAMP;VALUE=DATE-TIME:20260502T170236Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260502T170236Z
+UID:http://calagator.org/events/1250482557
+DESCRIPTION:Portland 503 Day Block Party&#13\;\n&#13\;\nAnkeny Alley&#13\
+ ;\n&#13\;\nfeaturing local vendors + artisans\, a silent disco dance par
+ ty\, live performances&#13\;\n\n\nTags: portland\, pdx\, 503\n\nImported
+  from: http://calagator.org/events/1250482557
+URL:https://www.portlandmercury.com/culture/totally-real-portland-holiday
+ -503-day-returns/
+SUMMARY:Portland 503 Day
+LOCATION:Voodoo Doughnut: 22 SW 3rd Avenue\, Portland Oregon 97204 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
@@ -469,6 +463,47 @@ URL:https://bsd.pizza
 SUMMARY:BSD Pizza Night
 LOCATION:48 North Pizzeria: 6500 S Virginia Ave.\, Portland Oregon 97239 
  USA
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260502T160753Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260527T193000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260527T180000
+DTSTAMP;VALUE=DATE-TIME:20260502T160753Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260502T160753Z
+UID:http://calagator.org/events/1250482556
+DESCRIPTION:#### Topic&#13\;\n&#13\;\nWriting proper alt text is hard. Bu
+ t it doesn’t have to be. There’s a minimum standard and an advanced appr
+ oach. People who need alt text will appreciate you for the former and lo
+ ve you for the latter. There are a number of considerations for writing 
+ great alt text. In this talk\, Mark Wyner outlines the many facets\, and
+  help you give screen readers something to talk about.&#13\;\n&#13\;\n##
+ ## Agenda&#13\;\n&#13\;\nThe event begins at 6 pm\; join early\, startin
+ g at 5:45 pm for networking.&#13\;\n&#13\;\n* 5:45 Networking&#13\;\n* 6
+ :00 Introductions and announcements&#13\;\n* 6:15 Presentation&#13\;\n* 
+ 6:45 Q&amp\;A and discussion&#13\;\n&#13\;\n#### About the presenter&#13
+ \;\n&#13\;\n[Mark Wyner](https://markwyner.com/) is an autodidactic poly
+ math with over two decades of experience in design and development. His 
+ approach prioritizes usability\, accessibility\, and inclusivity. He’s a
+ lso an antifascist humanitarian. So diversity and equity are overarching
+  principles for everything he does in this space. Currently\, as the Lea
+ d Product Designer at BookNook. His pronouns are he/him/his. You can fol
+ low him on Mastodon or his accessibility writings on his website.&#13\;\
+ n&#13\;\n#### Accommodation requests&#13\;\n&#13\;\nIf you have any acco
+ mmodation requests\, don't hesitate to contact us before the event to di
+ scuss.\n\nTags: User Research\, a11y\, accessibility\, accessibility law
+ suits\, accessible technology\, accessible web design\, disability\, hum
+ an rights\, inclusive design\, meetup:event=314591176\, meetup:group=Por
+ tland-Accessibility-and-User-Experience-Meetup\, mobile user experience\
+ , screen reader\, structured negotiation\, technology\, universal design
+ \, usability\, user experience\, wcag\, web accessibility\, web design\n
+ \nImported from: http://calagator.org/events/1250482556
+URL:https://pdxa11yux.org/events/2026/05/27/alt-text-is-the-ocean-you-tho
+ ught-was-a-pond.html
+SUMMARY:Portland Accessibility and User Experience Meetup (PDX A11Y UX) -
+  Alt Text is the Ocean You Thought Was a Pond
+LOCATION:Albina Library\, Community Room 1A: 205 NE Russell St\, Portland
+  OR 97212 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
