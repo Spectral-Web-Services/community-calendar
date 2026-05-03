@@ -1,0 +1,267 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Portland Farmers Market - ECPv6.15.20//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Portland Farmers Market
+X-ORIGINAL-URL:https://www.portlandfarmersmarket.org
+X-WR-CALDESC:Events for Portland Farmers Market
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260502T083000
+DTEND;TZID=America/Los_Angeles:20260502T140000
+DTSTAMP:20260502T194108
+CREATED:20260324T215325Z
+LAST-MODIFIED:20260324T235842Z
+UID:10003097-1777710600-1777730400@www.portlandfarmersmarket.org
+SUMMARY:PSU Farmers Market
+DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
+URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-05-02/
+LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
+CATEGORIES:PSU Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
+GEO:45.5128932;-122.6853859
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260503T100000
+DTEND;TZID=America/Los_Angeles:20260503T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T001110Z
+LAST-MODIFIED:20260325T001111Z
+UID:10003155-1777802400-1777816800@www.portlandfarmersmarket.org
+SUMMARY:King Farmers Market
+DESCRIPTION:King Farmers Market features about 30 farmers and food producers\, offering fresh\, local produce and food\, plus a variety of breakfast and lunch options in a family-friendly setting.
+URL:https://www.portlandfarmersmarket.org/event/king-farmers-market-3/2026-05-03/
+LOCATION:King Farmers Market\, NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211\, Portland\, OR\, 97211\, United States
+CATEGORIES:King Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/King-aug-22-image-close.jpg
+GEO:45.5582344;-122.6590884
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=King Farmers Market NE Wygant St & NE 7th Ave Portland OR 97211 Portland OR 97211 United States;X-APPLE-RADIUS=500;X-TITLE=NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211:geo:-122.6590884,45.5582344
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T100000
+DTEND;TZID=America/Los_Angeles:20260506T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T002215Z
+LAST-MODIFIED:20260325T002217Z
+UID:10003215-1778061600-1778076000@www.portlandfarmersmarket.org
+SUMMARY:Shemanski Park Farmers Market
+DESCRIPTION:A popular destination for downtown residents\, office workers\, tourists\, and chefs\, this market features over 30 vendor booths filled with farm-fresh and locally-made food.
+URL:https://www.portlandfarmersmarket.org/event/shemanski-park-farmers-market-2026/2026-05-06/
+LOCATION:Shemanski Park Farmers Market\, SW Park & Main\, Portland\, OR\, 97205\, United States
+CATEGORIES:Shemanski Park Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2022/10/Shemanski_P1030294-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260509T083000
+DTEND;TZID=America/Los_Angeles:20260509T140000
+DTSTAMP:20260502T194108
+CREATED:20260324T215325Z
+LAST-MODIFIED:20260324T235842Z
+UID:10003098-1778315400-1778335200@www.portlandfarmersmarket.org
+SUMMARY:PSU Farmers Market
+DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
+URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-05-09/
+LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
+CATEGORIES:PSU Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
+GEO:45.5128932;-122.6853859
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260510T100000
+DTEND;TZID=America/Los_Angeles:20260510T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T001110Z
+LAST-MODIFIED:20260325T001111Z
+UID:10003156-1778407200-1778421600@www.portlandfarmersmarket.org
+SUMMARY:King Farmers Market
+DESCRIPTION:King Farmers Market features about 30 farmers and food producers\, offering fresh\, local produce and food\, plus a variety of breakfast and lunch options in a family-friendly setting.
+URL:https://www.portlandfarmersmarket.org/event/king-farmers-market-3/2026-05-10/
+LOCATION:King Farmers Market\, NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211\, Portland\, OR\, 97211\, United States
+CATEGORIES:King Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/King-aug-22-image-close.jpg
+GEO:45.5582344;-122.6590884
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=King Farmers Market NE Wygant St & NE 7th Ave Portland OR 97211 Portland OR 97211 United States;X-APPLE-RADIUS=500;X-TITLE=NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211:geo:-122.6590884,45.5582344
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260513T100000
+DTEND;TZID=America/Los_Angeles:20260513T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T002215Z
+LAST-MODIFIED:20260325T002217Z
+UID:10003216-1778666400-1778680800@www.portlandfarmersmarket.org
+SUMMARY:Shemanski Park Farmers Market
+DESCRIPTION:A popular destination for downtown residents\, office workers\, tourists\, and chefs\, this market features over 30 vendor booths filled with farm-fresh and locally-made food.
+URL:https://www.portlandfarmersmarket.org/event/shemanski-park-farmers-market-2026/2026-05-13/
+LOCATION:Shemanski Park Farmers Market\, SW Park & Main\, Portland\, OR\, 97205\, United States
+CATEGORIES:Shemanski Park Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2022/10/Shemanski_P1030294-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260516T083000
+DTEND;TZID=America/Los_Angeles:20260516T140000
+DTSTAMP:20260502T194108
+CREATED:20260324T215325Z
+LAST-MODIFIED:20260324T235842Z
+UID:10003099-1778920200-1778940000@www.portlandfarmersmarket.org
+SUMMARY:PSU Farmers Market
+DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
+URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-05-16/
+LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
+CATEGORIES:PSU Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
+GEO:45.5128932;-122.6853859
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260517T100000
+DTEND;TZID=America/Los_Angeles:20260517T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T001110Z
+LAST-MODIFIED:20260325T001111Z
+UID:10003157-1779012000-1779026400@www.portlandfarmersmarket.org
+SUMMARY:King Farmers Market
+DESCRIPTION:King Farmers Market features about 30 farmers and food producers\, offering fresh\, local produce and food\, plus a variety of breakfast and lunch options in a family-friendly setting.
+URL:https://www.portlandfarmersmarket.org/event/king-farmers-market-3/2026-05-17/
+LOCATION:King Farmers Market\, NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211\, Portland\, OR\, 97211\, United States
+CATEGORIES:King Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/King-aug-22-image-close.jpg
+GEO:45.5582344;-122.6590884
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=King Farmers Market NE Wygant St & NE 7th Ave Portland OR 97211 Portland OR 97211 United States;X-APPLE-RADIUS=500;X-TITLE=NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211:geo:-122.6590884,45.5582344
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260520T100000
+DTEND;TZID=America/Los_Angeles:20260520T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T002215Z
+LAST-MODIFIED:20260325T002217Z
+UID:10003217-1779271200-1779285600@www.portlandfarmersmarket.org
+SUMMARY:Shemanski Park Farmers Market
+DESCRIPTION:A popular destination for downtown residents\, office workers\, tourists\, and chefs\, this market features over 30 vendor booths filled with farm-fresh and locally-made food.
+URL:https://www.portlandfarmersmarket.org/event/shemanski-park-farmers-market-2026/2026-05-20/
+LOCATION:Shemanski Park Farmers Market\, SW Park & Main\, Portland\, OR\, 97205\, United States
+CATEGORIES:Shemanski Park Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2022/10/Shemanski_P1030294-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260523T083000
+DTEND;TZID=America/Los_Angeles:20260523T140000
+DTSTAMP:20260502T194108
+CREATED:20260324T215325Z
+LAST-MODIFIED:20260324T235842Z
+UID:10003100-1779525000-1779544800@www.portlandfarmersmarket.org
+SUMMARY:PSU Farmers Market
+DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
+URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-05-23/
+LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
+CATEGORIES:PSU Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
+GEO:45.5128932;-122.6853859
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260524T100000
+DTEND;TZID=America/Los_Angeles:20260524T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T001110Z
+LAST-MODIFIED:20260325T001111Z
+UID:10003158-1779616800-1779631200@www.portlandfarmersmarket.org
+SUMMARY:King Farmers Market
+DESCRIPTION:King Farmers Market features about 30 farmers and food producers\, offering fresh\, local produce and food\, plus a variety of breakfast and lunch options in a family-friendly setting.
+URL:https://www.portlandfarmersmarket.org/event/king-farmers-market-3/2026-05-24/
+LOCATION:King Farmers Market\, NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211\, Portland\, OR\, 97211\, United States
+CATEGORIES:King Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/King-aug-22-image-close.jpg
+GEO:45.5582344;-122.6590884
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=King Farmers Market NE Wygant St & NE 7th Ave Portland OR 97211 Portland OR 97211 United States;X-APPLE-RADIUS=500;X-TITLE=NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211:geo:-122.6590884,45.5582344
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260527T100000
+DTEND;TZID=America/Los_Angeles:20260527T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T002215Z
+LAST-MODIFIED:20260325T002217Z
+UID:10003218-1779876000-1779890400@www.portlandfarmersmarket.org
+SUMMARY:Shemanski Park Farmers Market
+DESCRIPTION:A popular destination for downtown residents\, office workers\, tourists\, and chefs\, this market features over 30 vendor booths filled with farm-fresh and locally-made food.
+URL:https://www.portlandfarmersmarket.org/event/shemanski-park-farmers-market-2026/2026-05-27/
+LOCATION:Shemanski Park Farmers Market\, SW Park & Main\, Portland\, OR\, 97205\, United States
+CATEGORIES:Shemanski Park Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2022/10/Shemanski_P1030294-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260530T083000
+DTEND;TZID=America/Los_Angeles:20260530T140000
+DTSTAMP:20260502T194108
+CREATED:20260324T215325Z
+LAST-MODIFIED:20260324T235842Z
+UID:10003101-1780129800-1780149600@www.portlandfarmersmarket.org
+SUMMARY:PSU Farmers Market
+DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
+URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-05-30/
+LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
+CATEGORIES:PSU Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
+GEO:45.5128932;-122.6853859
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260531T100000
+DTEND;TZID=America/Los_Angeles:20260531T140000
+DTSTAMP:20260502T194108
+CREATED:20260325T001110Z
+LAST-MODIFIED:20260325T001111Z
+UID:10003159-1780221600-1780236000@www.portlandfarmersmarket.org
+SUMMARY:King Farmers Market
+DESCRIPTION:King Farmers Market features about 30 farmers and food producers\, offering fresh\, local produce and food\, plus a variety of breakfast and lunch options in a family-friendly setting.
+URL:https://www.portlandfarmersmarket.org/event/king-farmers-market-3/2026-05-31/
+LOCATION:King Farmers Market\, NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211\, Portland\, OR\, 97211\, United States
+CATEGORIES:King Farmers Market
+ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/King-aug-22-image-close.jpg
+GEO:45.5582344;-122.6590884
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=King Farmers Market NE Wygant St & NE 7th Ave Portland OR 97211 Portland OR 97211 United States;X-APPLE-RADIUS=500;X-TITLE=NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211:geo:-122.6590884,45.5582344
+END:VEVENT
+END:VCALENDAR

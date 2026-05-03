@@ -4,57 +4,6 @@ PRODID:-//Visit Petaluma//visitpetaluma.com//
 X-WR-CALNAME:Visit Petaluma
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Film Fest Petaluma
-DTSTART;TZID=America/Los_Angeles:20260502T120000
-DTEND;TZID=America/Los_Angeles:20260502T235900
-UID:99c7a96da68f7b2703788a068b694027@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /MysticExteriorVP.jpg
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/film-fest-petal
- uma/
-URL:https://www.visitpetaluma.com/event/film-fest-petaluma/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Petaluma Women’s Chorus “Be the Light” Spring Concert
-DTSTART;TZID=America/Los_Angeles:20260502T150000
-DTEND;TZID=America/Los_Angeles:20260502T170000
-UID:3214e960edda3bbb7261cfa0195a849a@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /choir.png
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/petaluma-womens
- -chorus-be-the-light-spring-concert/
-URL:https://www.visitpetaluma.com/event/petaluma-womens-chorus-be-the-ligh
- t-spring-concert/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Live Music at Montagne Russe
-DTSTART;TZID=America/Los_Angeles:20260502T170000
-DTEND;TZID=America/Los_Angeles:20260502T190000
-UID:20d1a8b6108c72dbb8e912a699280484@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /live-music-sat-MR.png
-DESCRIPTION:Occurs weekly on Saturday — (+33 more occurrences) — More 
- info: https://www.visitpetaluma.com/event/live-music-every-saturday-at-mon
- tagne-russe/
-URL:https://www.visitpetaluma.com/event/live-music-every-saturday-at-monta
- gne-russe/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Luke Sweeney at Suite G Studio
-DTSTART;TZID=America/Los_Angeles:20260502T193000
-DTEND;TZID=America/Los_Angeles:20260502T213000
-UID:a6b0ec754107b7e8b490d4f7302e3d12@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /RO-ArtistPhoto-Square-LukeSweeney.jpg
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/luke-sweeney-at
- -suite-g-studio/
-URL:https://www.visitpetaluma.com/event/luke-sweeney-at-suite-g-studio/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:East Side Farmers Market
 DTSTART;TZID=America/Los_Angeles:20260505T093000
 DTEND;TZID=America/Los_Angeles:20260505T133000
@@ -112,6 +61,20 @@ ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
 DESCRIPTION:More info: https://www.visitpetaluma.com/event/petaluma-river-
  cruise-3/
 URL:https://www.visitpetaluma.com/event/petaluma-river-cruise-3/
+X-SOURCE:Visit Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Live Music at Montagne Russe
+DTSTART;TZID=America/Los_Angeles:20260509T170000
+DTEND;TZID=America/Los_Angeles:20260509T190000
+UID:b4edf6b7b876643987244955086dbe8a@visitpetaluma.com
+ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
+ /live-music-sat-MR.png
+DESCRIPTION:Occurs weekly on Saturday — (+32 more occurrences) — More 
+ info: https://www.visitpetaluma.com/event/live-music-every-saturday-at-mon
+ tagne-russe/
+URL:https://www.visitpetaluma.com/event/live-music-every-saturday-at-monta
+ gne-russe/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -388,19 +351,6 @@ ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
 DESCRIPTION:More info: https://www.visitpetaluma.com/event/convergence-ecs
  tatic-dance/
 URL:https://www.visitpetaluma.com/event/convergence-ecstatic-dance/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tami Gosnell Live at Montagne Russe Winery & Record Lounge
-DTSTART;TZID=America/Los_Angeles:20260502T190000
-DTEND;TZID=America/Los_Angeles:20260502T210000
-UID:0f37f4e9d318a8739d64d4261fe7a13f@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /Tami-G.png
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/tami-gosnell-li
- ve-at-montagne-russe-winery-record-lounge/
-URL:https://www.visitpetaluma.com/event/tami-gosnell-live-at-montagne-russ
- e-winery-record-lounge/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
