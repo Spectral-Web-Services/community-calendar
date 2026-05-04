@@ -4,18 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Ora Cogan\, mattress
-DTSTART:20260503T200000
-DTEND:20260503T200000
-UID:d84c37d7567b21127c1a80d083d45d65@songkick.com
-DESCRIPTION:Ora Cogan at Mississippi Studios at 2026-05-03T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43100076-ora-cogan-at-mississippi-stu
- dios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Adult.
 DTSTART:20260504T200000
 DTEND:20260504T200000
@@ -49,6 +37,19 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43011335-king-tuff-at-mississippi-stu
  dios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gabriel Bernini
+DTSTART:20260505T200000
+DTEND:20260505T200000
+UID:a5775a87d0e5a56e877e55feb8fcfc10@songkick.com
+DESCRIPTION:Gabriel Bernini at Mississippi Studios at 2026-05-05T20:00:00-
+ 0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100085-gabriel-bernini-at-mississip
+ pi-studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR

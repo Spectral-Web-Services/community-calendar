@@ -4,18 +4,6 @@ PRODID:-//Revolution Hall//songkick.com//
 X-WR-CALNAME:Revolution Hall
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Vincent Neil Emerson\, Kade Hoffman
-DTSTART:20260503T200000
-DTEND:20260503T200000
-UID:f477a1f8844759ce111b7db9b30eb737@songkick.com
-DESCRIPTION:Vincent Neil Emerson and Kade Hoffman at Revolution Hall at 20
- 26-05-03T20:00:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43021218-vincent-neil-emerson-at-revo
- lution-hall?utm_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Wood Brothers
 DTSTART:20260507T200000
 DTEND:20260507T200000
@@ -36,6 +24,28 @@ DESCRIPTION:Olive Klug at Revolution Hall at 2026-05-07T20:00:00-0700
 LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/43100088-olive-klug-at-revolution-hal
  l?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Floozies
+DTSTART:20260508T000000
+DTEND:20260508T000000
+UID:01acdf43e65a6b6f36715058857e3606@songkick.com
+DESCRIPTION:The Floozies at Revolution Hall at 2026-05-08
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43070919-floozies-at-revolution-hall?
+ utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mocha\, Bray Radbury
+DTSTART:20260508T210000
+DTEND:20260508T210000
+UID:8c927be29cdeb08a4dc81ad64dc4532f@songkick.com
+DESCRIPTION:Mocha at Revolution Hall at 2026-05-08T21:00:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43100092-mocha-at-revolution-hall?utm
+ _medium=organic&utm_source=microformat
 X-SOURCE:Revolution Hall
 END:VEVENT
 END:VCALENDAR

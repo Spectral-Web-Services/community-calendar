@@ -16,9 +16,9 @@
     "location": "Aurora Vineyards, 21338 Oak Ln NE, Aurora, OR 97002",
     "count": 20,
     "titles": [
-      "Two Bit Brothers",
-      "Two Bit Brothers",
-      "The Do Rights"
+      "The Do Rights",
+      "The Do Rights",
+      "Gold and Honey"
     ]
   },
   {
@@ -33,6 +33,17 @@
     ]
   },
   {
+    "source": "Stumptown Savings",
+    "source_id": "stumptown_savings",
+    "location": "Rocky Butte Farmers Market, NE Siskiyou and, NE 80th Ave, Port\rland, OR 97213, USA\r",
+    "count": 13,
+    "titles": [
+      "Rocky Butte Farmers Market",
+      "Rocky Butte Farmers Market",
+      "Rocky Butte Farmers Market"
+    ]
+  },
+  {
     "source": "Tockify Kptv Calendar",
     "source_id": "tockify_kptv_calendar",
     "location": "The Landing at Tallman Brewing,2055 Primrose Street, Lebanon, OR 97355, USA",
@@ -44,25 +55,14 @@
     ]
   },
   {
-    "source": "Stumptown Savings",
-    "source_id": "stumptown_savings",
-    "location": "Rocky Butte Farmers Market, NE Siskiyou and, NE 80th Ave, Port\rland, OR 97213, USA\r",
-    "count": 12,
-    "titles": [
-      "Rocky Butte Farmers Market",
-      "Rocky Butte Farmers Market",
-      "Rocky Butte Farmers Market"
-    ]
-  },
-  {
     "source": "Vancouver Farmers Market",
     "source_id": "vancouver_farmers_market",
     "location": "605 Esther St, Vancouver, WA, United States",
-    "count": 10,
+    "count": 9,
     "titles": [
-      "Nick Walker at the Vancouver Farmers Market",
       "The RF's at the Vancouver Farmers Market",
-      "Bill Coones The Swing & Standards  Duo at the Vancouver Farmers Market"
+      "Bill Coones The Swing & Standards  Duo at the Vancouver Farmers Market",
+      "Robert Meade at the Vancouver Farmers Market"
     ]
   },
   {
@@ -77,25 +77,14 @@
     ]
   },
   {
-    "source": "Tockify Kptv Calendar",
-    "source_id": "tockify_kptv_calendar",
-    "location": "Chehalem Cultural Center,415 East Sheridan Street, Newberg, OR 97132, USA",
-    "count": 5,
-    "titles": [
-      " Ordinary Days",
-      " Ordinary Days",
-      " Ordinary Days"
-    ]
-  },
-  {
     "source": "Travelportland",
     "source_id": "travelportland",
-    "location": "Chehalem Cultural Center, 415 E Sheridan St, Newberg, OR 97132",
+    "location": "Guide Dogs For the Blind, 32901 SE Kelso Rd, Boring, OR 97009",
     "count": 5,
     "titles": [
-      "Ordinary Days",
-      "Ordinary Days",
-      "Ordinary Days"
+      "Guide Dogs for the Blind Graduation",
+      "Guide Dogs for the Blind Graduation",
+      "Guide Dogs for the Blind Graduation"
     ]
   },
   {
@@ -112,6 +101,17 @@
   {
     "source": "Tockify Kptv Calendar",
     "source_id": "tockify_kptv_calendar",
+    "location": "Chehalem Cultural Center,415 East Sheridan Street, Newberg, OR 97132, USA",
+    "count": 4,
+    "titles": [
+      " Ordinary Days",
+      " Ordinary Days",
+      " Ordinary Days"
+    ]
+  },
+  {
+    "source": "Tockify Kptv Calendar",
+    "source_id": "tockify_kptv_calendar",
     "location": "Hult Center for Performing Arts,East 7th Avenue & Willamette Street, Eugene, OR, USA",
     "count": 4,
     "titles": [
@@ -123,12 +123,12 @@
   {
     "source": "Travelportland",
     "source_id": "travelportland",
-    "location": "Guide Dogs For the Blind, 32901 SE Kelso Rd, Boring, OR 97009",
+    "location": "Chehalem Cultural Center, 415 E Sheridan St, Newberg, OR 97132",
     "count": 4,
     "titles": [
-      "Guide Dogs for the Blind Graduation",
-      "Guide Dogs for the Blind Graduation",
-      "Guide Dogs for the Blind Graduation"
+      "Ordinary Days",
+      "Ordinary Days",
+      "Ordinary Days"
     ]
   },
   {
@@ -159,9 +159,9 @@
     "location": "Idiot Creek Loop, Idiot Creek Loop, Tillamook, OR 97141, Tillamook, OR",
     "count": 3,
     "titles": [
-      "Private: SP  Wilson River Trail Party - Portland",
+      "Private: WWE Wilson River Trail Party - Portland",
       "Private: SFTO Wilson River Trail Party - Portland",
-      "Private: WWE Wilson River Trail Party - Portland"
+      "Private: SP  Wilson River Trail Party - Portland"
     ]
   },
   {
@@ -222,21 +222,31 @@
   {
     "source": "Eventbrite Nw Trail Alliance",
     "source_id": "eventbrite_nw_trail_alliance",
-    "location": "Rocky Point Mountain Bike Trail Network, 23999 Rocky Point Road, Scappoose, OR 97056, Scappoose, OR",
-    "count": 2,
-    "titles": [
-      "DIG DAY \u2014 Rocky Point\\, Strasser",
-      "Ride Leader Training with NWTA"
-    ]
-  },
-  {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
     "location": "Sandy Ridge Trail System, 62700 East Barlow Trail Road, Brightwood, OR 97011, Brightwood, OR",
     "count": 2,
     "titles": [
       "DIG DAY \u2014 Sandy Ridge:  Let's get Sandy ready for shuttle day",
       "DIG DAY \u2014 Sandy Ridge:  Flow Motion and Middle/Lower Hide and Se"
+    ]
+  },
+  {
+    "source": "Eventbrite Nw Trail Alliance",
+    "source_id": "eventbrite_nw_trail_alliance",
+    "location": "Rocky Point Mountain Bike Trail Network, 23999 Rocky Point Road, Scappoose, OR 97056, Scappoose, OR",
+    "count": 2,
+    "titles": [
+      "Ride Leader Training with NWTA",
+      "DIG DAY \u2014 Rocky Point\\, Strasser"
+    ]
+  },
+  {
+    "source": "Eventbrite Nw Trail Alliance",
+    "source_id": "eventbrite_nw_trail_alliance",
+    "location": "Henry Hagg Lake Eagle Point (34), FQMR+WC8 Cherry Grove, Oregon, Gaston, OR 97119, Gaston, OR",
+    "count": 2,
+    "titles": [
+      "DIG DAY - Hagg Lake",
+      "DIG DAY - Hagg Lake"
     ]
   },
   {
@@ -257,16 +267,6 @@
     "titles": [
       " Kids Market",
       " Kids Market"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
-    "location": "Gallery Theater, 210 NE Ford St, McMinnville, OR 97128",
-    "count": 2,
-    "titles": [
-      "Rosencrantz and Guildenstern Are Dead",
-      "Rosencrantz and Guildenstern Are Dead"
     ]
   },
   {
@@ -301,10 +301,10 @@
   {
     "source": "Eventbrite Nw Trail Alliance",
     "source_id": "eventbrite_nw_trail_alliance",
-    "location": "Klootchy Creek County Park, Klootchy Creek County Park, Cannon Beach, OR 97110, Cannon Beach, OR",
+    "location": "NF - 83 Meeting location, 5W63+9H Cougar, Washington, Cougar, WA 98616, Cougar, WA",
     "count": 1,
     "titles": [
-      "Klootchy Creek | Trail Work Party"
+      "Pine Creek Trail Extension Project"
     ]
   },
   {
@@ -317,21 +317,12 @@
     ]
   },
   {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
-    "location": "Henry Hagg Lake Eagle Point (34), FQMR+WC8 Cherry Grove, Oregon, Gaston, OR 97119, Gaston, OR",
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "Sweet Creek Falls Trailhead, Sweet Creek Road, Mapleton, OR 97453, Mapleton, OR",
     "count": 1,
     "titles": [
-      "DIG DAY - Hagg Lake"
-    ]
-  },
-  {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
-    "location": "NF - 83 Meeting location, 5W63+9H Cougar, Washington, Cougar, WA 98616, Cougar, WA",
-    "count": 1,
-    "titles": [
-      "Pine Creek Trail Extension Project"
+      "Sweet Creek Falls Trail Party - Central Coast"
     ]
   },
   {
@@ -341,15 +332,6 @@
     "count": 1,
     "titles": [
       "Elk Creek Bridge Reinstallation - Portland"
-    ]
-  },
-  {
-    "source": "Eventbrite Trailkeepers",
-    "source_id": "eventbrite_trailkeepers",
-    "location": "Sweet Creek Falls Trailhead, Sweet Creek Road, Mapleton, OR 97453, Mapleton, OR",
-    "count": 1,
-    "titles": [
-      "Sweet Creek Falls Trail Party - Central Coast"
     ]
   },
   {
@@ -400,37 +382,10 @@
   {
     "source": "Pdx Parent",
     "source_id": "pdx_parent",
-    "location": "Chehalem Cultural Center, 415 E Sheridan Street, Newberg, OR, 97132",
+    "location": "Hulda Klager Lilac Gardens, 115 South Pekin Road, Woodland, WA, 98674",
     "count": 1,
     "titles": [
-      "Ordinary Days"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
-    "count": 1,
-    "titles": [
-      "Thorns v. Bay"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "CPKC Stadium, 1460 E Front St, Kansas City, MO 64120, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at Current"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "America First Field, 9256 S State St, Sandy, UT 84070, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at Royals"
+      "Lilac Days at Hulda Klager Lilac Gardens"
     ]
   },
   {
@@ -454,19 +409,10 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
-    "location": "Lynn Family Stadium, 350 Adams St, Louisville, KY 40206, USA",
+    "location": "LPS Centennial Stadium, 4401 E Arapahoe Rd, Littleton, CO 80122, USA",
     "count": 1,
     "titles": [
-      "Thorns at Racing"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at s**ttle"
+      "Thorns at Summit"
     ]
   },
   {
@@ -481,19 +427,46 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
-    "location": "LPS Centennial Stadium, 4401 E Arapahoe Rd, Littleton, CO 80122, USA",
+    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA",
     "count": 1,
     "titles": [
-      "Thorns at Summit"
+      "Thorns at s**ttle"
     ]
   },
   {
-    "source": "Portland Timbers",
-    "source_id": "portland_timbers",
-    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA\r",
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
     "count": 1,
     "titles": [
-      "Timbers at s**ttle"
+      "Thorns v. Bay"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "Lynn Family Stadium, 350 Adams St, Louisville, KY 40206, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Racing"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "CPKC Stadium, 1460 E Front St, Kansas City, MO 64120, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Current"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "America First Field, 9256 S State St, Sandy, UT 84070, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Royals"
     ]
   },
   {
@@ -503,6 +476,15 @@
     "count": 1,
     "titles": [
       "Timbers at Miami"
+    ]
+  },
+  {
+    "source": "Portland Timbers",
+    "source_id": "portland_timbers",
+    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA\r",
+    "count": 1,
+    "titles": [
+      "Timbers at s**ttle"
     ]
   },
   {
@@ -566,24 +548,6 @@
     "count": 1,
     "titles": [
       "Portland State University Football at Eastern Washington"
-    ]
-  },
-  {
-    "source": "Tockify Kptv Calendar",
-    "source_id": "tockify_kptv_calendar",
-    "location": "Marshall House,1301 Officers Row, Vancouver, WA 98661, USA",
-    "count": 1,
-    "titles": [
-      " Secret Spaces Tour"
-    ]
-  },
-  {
-    "source": "Tockify Kptv Calendar",
-    "source_id": "tockify_kptv_calendar",
-    "location": "Carver Event Center,16077 OR-224, Damascus, OR 97089",
-    "count": 1,
-    "titles": [
-      " 3rd Annual Hearts and Hooves Gala"
     ]
   },
   {
@@ -661,19 +625,10 @@
   {
     "source": "Travelportland",
     "source_id": "travelportland",
-    "location": "Balsall Creek, 18430 NE Calkins Ln, Newberg, OR 97132",
+    "location": "Gallery Theater, 210 NE Ford St, McMinnville, OR 97128",
     "count": 1,
     "titles": [
-      "The Aligot\u00e9 Affair"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
-    "location": "Hood River Event Site, Hood River Event Site, Portway Ave, Hood River, OR 97031",
-    "count": 1,
-    "titles": [
-      "Hood River Cider Fest"
+      "Rosencrantz and Guildenstern Are Dead"
     ]
   },
   {
