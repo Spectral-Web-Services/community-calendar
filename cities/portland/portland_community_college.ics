@@ -23,25 +23,6 @@ TZOFFSETTO:-0800
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260503
-DTEND;VALUE=DATE:20260504
-SUMMARY:Two-Five Club
-DESCRIPTION:Come join us! Train to lift 250lbs and run a 2.5k!—Event De
- tails: https://hub.pcc.edu/rsvp?id=382932 (https://hub.pcc.edu/rsvp?id=38
- 2932)
-X-ALT-DESC;FMTTYPE=text/html:Come join us! Train to lift 250lbs and run a
-  2.5k!<br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
- 382932" target="_blank">https://hub.pcc.edu/rsvp?id=382932</a>
-UID:20260503T070000Z-10680@events.pcc.edu
-DTSTAMP:20260417T180120Z
-URL:https://events.pcc.edu/event/10680-two-four-club
-LAST-MODIFIED:20260422T145130Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10680
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-ALL-DAY:1
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260504
 DTEND;VALUE=DATE:20260505
 SUMMARY:Two-Five Club
@@ -128,6 +109,30 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260504T110000
+DTEND;TZID=America/Los_Angeles:20260504T130000
+SUMMARY:Lunch with Advisor Cherise
+DESCRIPTION:Stop by the MC and bring your lunch and your questions! Acade
+ mic Advisor Cherise F. will be here to answer any GENERAL questions about
+  classes\, registration\, transferring and advising. Cherise is also an a
+ dvisor for the Arts\, Humanities\, Communications\, and Design Pathways.�
+ ��Event Details: https://hub.pcc.edu/rsvp?id=383072 (https://hub.pcc.edu/
+ rsvp?id=383072)
+X-ALT-DESC;FMTTYPE=text/html:Stop by the MC and bring your lunch and your
+  questions! Academic Advisor Cherise F. will be here to answer any GENERA
+ L questions about classes\, registration\, transferring and advising. Che
+ rise is also an advisor for the Arts\, Humanities\, Communications\, and 
+ Design Pathways.<br />—<br />Event Details: <a href="https://hub.pcc.ed
+ u/rsvp?id=383072" target="_blank">https://hub.pcc.edu/rsvp?id=383072</a>
+UID:20260504T180000Z-10826@events.pcc.edu
+DTSTAMP:20260426T181612Z
+URL:https://events.pcc.edu/event/10826-lunch-with-advisor-cherise
+LAST-MODIFIED:20260427T011612Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10826
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260504T110000
 DTEND;TZID=America/Los_Angeles:20260504T160000
 SUMMARY:Font Design Workshop 2: Birdfont Basics at the Cascade Create Space
 DESCRIPTION:Font Design Workshop 2: Birdfont BasicsMonday\, Tuesday\, &am
@@ -160,27 +165,22 @@ X-LIVEWHALE-ID:10803
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260504T110000
-DTEND;TZID=America/Los_Angeles:20260504T130000
-SUMMARY:Lunch with Advisor Cherise
-DESCRIPTION:Stop by the MC and bring your lunch and your questions! Acade
- mic Advisor Cherise F. will be here to answer any GENERAL questions about
-  classes\, registration\, transferring and advising. Cherise is also an a
- dvisor for the Arts\, Humanities\, Communications\, and Design Pathways.�
- ��Event Details: https://hub.pcc.edu/rsvp?id=383072 (https://hub.pcc.edu/
- rsvp?id=383072)
-X-ALT-DESC;FMTTYPE=text/html:Stop by the MC and bring your lunch and your
-  questions! Academic Advisor Cherise F. will be here to answer any GENERA
- L questions about classes\, registration\, transferring and advising. Che
- rise is also an advisor for the Arts\, Humanities\, Communications\, and 
- Design Pathways.<br />—<br />Event Details: <a href="https://hub.pcc.ed
- u/rsvp?id=383072" target="_blank">https://hub.pcc.edu/rsvp?id=383072</a>
-UID:20260504T180000Z-10826@events.pcc.edu
-DTSTAMP:20260426T181612Z
-URL:https://events.pcc.edu/event/10826-lunch-with-advisor-cherise
-LAST-MODIFIED:20260427T011612Z
+DTSTART;TZID=America/Los_Angeles:20260504T130000
+DTEND;TZID=America/Los_Angeles:20260504T140000
+SUMMARY:Magic Mondays
+DESCRIPTION:Discover a universe of strategy and fun!BRING YOUR OWN DECK**
+ Some extra decks may be available for learning purposes.—Event Details:
+  https://hub.pcc.edu/rsvp?id=382772 (https://hub.pcc.edu/rsvp?id=382772)
+X-ALT-DESC;FMTTYPE=text/html:Discover a universe of strategy and fun!<br 
+ />BRING YOUR OWN DECK*<br />*Some extra decks may be available for learni
+ ng purposes.<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
+ vp?id=382772" target="_blank">https://hub.pcc.edu/rsvp?id=382772</a>
+UID:20260504T200000Z-10632@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10632-magic-mondays
+LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10826
+X-LIVEWHALE-ID:10632
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -205,25 +205,6 @@ URL:https://events.pcc.edu/event/10074-tt4t-tabletop-for-trans-and-friends
 LAST-MODIFIED:20260305T163650Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10074
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260504T130000
-DTEND;TZID=America/Los_Angeles:20260504T140000
-SUMMARY:Magic Mondays
-DESCRIPTION:Discover a universe of strategy and fun!BRING YOUR OWN DECK**
- Some extra decks may be available for learning purposes.—Event Details:
-  https://hub.pcc.edu/rsvp?id=382772 (https://hub.pcc.edu/rsvp?id=382772)
-X-ALT-DESC;FMTTYPE=text/html:Discover a universe of strategy and fun!<br 
- />BRING YOUR OWN DECK*<br />*Some extra decks may be available for learni
- ng purposes.<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
- vp?id=382772" target="_blank">https://hub.pcc.edu/rsvp?id=382772</a>
-UID:20260504T200000Z-10632@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10632-magic-mondays
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10632
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -354,34 +335,6 @@ DTSTART;TZID=America/Los_Angeles:20260505T100000
 DTEND;TZID=America/Los_Angeles:20260505T110000
 SUMMARY:Take Charge of Your Healing
 DESCRIPTION:This online four-week counseling group focuses on recovery fr
- om trauma and substance abuse using an approach called "Seeking Safety".P
- lease use the meeting link to register for this group.Meeting Link: https
- ://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVT
- q7dSG4-VTirQ/closedform (https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK
- 6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform)—Event Details: h
- ttps://hub.pcc.edu/rsvp?id=382544 (https://hub.pcc.edu/rsvp?id=382544)
-X-ALT-DESC;FMTTYPE=text/html:This online four-week counseling group focus
- es on recovery from trauma and substance abuse using an approach called "
- Seeking Safety".<br />Please use the meeting link to register for this gr
- oup.<br />Meeting Link: <a href="https://docs.google.com/forms/d/e/1FAIpQ
- LSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform" target="_b
- lank">https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9K
- w3c4hAUaxVTq7dSG4-VTirQ/closedform</a><br />—<br />Event Details: <a hr
- ef="https://hub.pcc.edu/rsvp?id=382544" target="_blank">https://hub.pcc.e
- du/rsvp?id=382544</a>
-UID:20260505T170000Z-10169@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10169-take-charge-of-your-healing
-LAST-MODIFIED:20260403T014116Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10169
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260505T100000
-DTEND;TZID=America/Los_Angeles:20260505T110000
-SUMMARY:Take Charge of Your Healing
-DESCRIPTION:This online four-week counseling group focuses on recovery fr
  om trauma and substance abuse using an approach called "Seeking Safety".M
  eeting Link: https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s
  0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform (https://docs.google.com/forms/
@@ -407,23 +360,30 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260505T100000
-DTEND;TZID=America/Los_Angeles:20260505T130000
-SUMMARY:VRC Common Ground Gardening
-DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
- den! No experience necessary!Volunteer hours are every Tuesday\, Thursday
- \, and Friday from 10am-1pm—Event Details: https://hub.pcc.edu/rsvp?id=
- 383044 (https://hub.pcc.edu/rsvp?id=383044)
-X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
- reek Learning Garden! No experience necessary!<br />Volunteer hours are e
- very Tuesday\, Thursday\, and Friday from 10am-1pm<br />—<br />Event De
- tails: <a href="https://hub.pcc.edu/rsvp?id=383044" target="_blank">https
- ://hub.pcc.edu/rsvp?id=383044</a>
-UID:20260505T170000Z-10774@events.pcc.edu
-DTSTAMP:20260422T211142Z
-URL:https://events.pcc.edu/event/10774-vrc-common-ground-gardening
-LAST-MODIFIED:20260423T041142Z
+DTEND;TZID=America/Los_Angeles:20260505T110000
+SUMMARY:Take Charge of Your Healing
+DESCRIPTION:This online four-week counseling group focuses on recovery fr
+ om trauma and substance abuse using an approach called "Seeking Safety".P
+ lease use the meeting link to register for this group.Meeting Link: https
+ ://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVT
+ q7dSG4-VTirQ/closedform (https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK
+ 6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform)—Event Details: h
+ ttps://hub.pcc.edu/rsvp?id=382544 (https://hub.pcc.edu/rsvp?id=382544)
+X-ALT-DESC;FMTTYPE=text/html:This online four-week counseling group focus
+ es on recovery from trauma and substance abuse using an approach called "
+ Seeking Safety".<br />Please use the meeting link to register for this gr
+ oup.<br />Meeting Link: <a href="https://docs.google.com/forms/d/e/1FAIpQ
+ LSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform" target="_b
+ lank">https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9K
+ w3c4hAUaxVTq7dSG4-VTirQ/closedform</a><br />—<br />Event Details: <a hr
+ ef="https://hub.pcc.edu/rsvp?id=382544" target="_blank">https://hub.pcc.e
+ du/rsvp?id=382544</a>
+UID:20260505T170000Z-10169@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10169-take-charge-of-your-healing
+LAST-MODIFIED:20260403T014116Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10774
+X-LIVEWHALE-ID:10169
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -463,6 +423,27 @@ URL:https://events.pcc.edu/event/10773-cascade-cinco-de-mayo-celebration
 LAST-MODIFIED:20260423T041142Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10773
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260505T100000
+DTEND;TZID=America/Los_Angeles:20260505T130000
+SUMMARY:VRC Common Ground Gardening
+DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
+ den! No experience necessary!Volunteer hours are every Tuesday\, Thursday
+ \, and Friday from 10am-1pm—Event Details: https://hub.pcc.edu/rsvp?id=
+ 383044 (https://hub.pcc.edu/rsvp?id=383044)
+X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
+ reek Learning Garden! No experience necessary!<br />Volunteer hours are e
+ very Tuesday\, Thursday\, and Friday from 10am-1pm<br />—<br />Event De
+ tails: <a href="https://hub.pcc.edu/rsvp?id=383044" target="_blank">https
+ ://hub.pcc.edu/rsvp?id=383044</a>
+UID:20260505T170000Z-10774@events.pcc.edu
+DTSTAMP:20260422T211142Z
+URL:https://events.pcc.edu/event/10774-vrc-common-ground-gardening
+LAST-MODIFIED:20260423T041142Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10774
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -595,31 +576,21 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260505T130000
 DTEND;TZID=America/Los_Angeles:20260505T140000
-SUMMARY:Reclaiming Self: Group Healing After Narcissistic Abuse
-DESCRIPTION:This group will explore the emotional and psychological impac
- t of narcissistic abuse while building practical tools for rebuilding sel
- f-trust\, strengthening boundaries\, and restoring self-esteem.Meeting Li
- nk: https://docs.google.com/forms/d/e/1FAIpQLSejjdmfzVSfZbAaHziGudajAWahB
- JVedRnAuAgDS3S0rgNT4g/viewform (https://docs.google.com/forms/d/e/1FAIpQL
- SejjdmfzVSfZbAaHziGudajAWahBJVedRnAuAgDS3S0rgNT4g/viewform)—Event Detai
- ls: https://hub.pcc.edu/rsvp?id=382540 (https://hub.pcc.edu/rsvp?id=38254
- 0)
-X-ALT-DESC;FMTTYPE=text/html:This group will explore the emotional and ps
- ychological impact of narcissistic abuse while building practical tools f
- or rebuilding self-trust\, strengthening boundaries\, and restoring self-
- esteem.<br />Meeting Link: <a href="https://docs.google.com/forms/d/e/1FA
- IpQLSejjdmfzVSfZbAaHziGudajAWahBJVedRnAuAgDS3S0rgNT4g/viewform" target="_
- blank">https://docs.google.com/forms/d/e/1FAIpQLSejjdmfzVSfZbAaHziGudajAW
- ahBJVedRnAuAgDS3S0rgNT4g/viewform</a><br />—<br />Event Details: <a hre
- f="https://hub.pcc.edu/rsvp?id=382540" target="_blank">https://hub.pcc.ed
- u/rsvp?id=382540</a>
-UID:20260505T200000Z-10252@events.pcc.edu
-DTSTAMP:20260401T103807Z
-URL:https://events.pcc.edu/counseling/event/10252-reclaiming-self-group-h
- ealing-after-narcissistic
-LAST-MODIFIED:20260401T180258Z
+SUMMARY:Common Ground Gardening Volunteer Times
+DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
+ den! No experience necessary!—Event Details: https://hub.pcc.edu/rsvp?i
+ d=383033 (https://hub.pcc.edu/rsvp?id=383033)
+X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
+ reek Learning Garden! No experience necessary!<br />—<br />Event Detail
+ s: <a href="https://hub.pcc.edu/rsvp?id=383033" target="_blank">https://h
+ ub.pcc.edu/rsvp?id=383033</a>
+UID:20260505T200000Z-10772@events.pcc.edu
+DTSTAMP:20260422T211142Z
+URL:https://events.pcc.edu/event/10772-common-ground-gardening-volunteer-
+ times
+LAST-MODIFIED:20260423T041142Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10252
+X-LIVEWHALE-ID:10772
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -656,21 +627,31 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260505T130000
 DTEND;TZID=America/Los_Angeles:20260505T140000
-SUMMARY:Common Ground Gardening Volunteer Times
-DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
- den! No experience necessary!—Event Details: https://hub.pcc.edu/rsvp?i
- d=383033 (https://hub.pcc.edu/rsvp?id=383033)
-X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
- reek Learning Garden! No experience necessary!<br />—<br />Event Detail
- s: <a href="https://hub.pcc.edu/rsvp?id=383033" target="_blank">https://h
- ub.pcc.edu/rsvp?id=383033</a>
-UID:20260505T200000Z-10772@events.pcc.edu
-DTSTAMP:20260422T211142Z
-URL:https://events.pcc.edu/event/10772-common-ground-gardening-volunteer-
- times
-LAST-MODIFIED:20260423T041142Z
+SUMMARY:Reclaiming Self: Group Healing After Narcissistic Abuse
+DESCRIPTION:This group will explore the emotional and psychological impac
+ t of narcissistic abuse while building practical tools for rebuilding sel
+ f-trust\, strengthening boundaries\, and restoring self-esteem.Meeting Li
+ nk: https://docs.google.com/forms/d/e/1FAIpQLSejjdmfzVSfZbAaHziGudajAWahB
+ JVedRnAuAgDS3S0rgNT4g/viewform (https://docs.google.com/forms/d/e/1FAIpQL
+ SejjdmfzVSfZbAaHziGudajAWahBJVedRnAuAgDS3S0rgNT4g/viewform)—Event Detai
+ ls: https://hub.pcc.edu/rsvp?id=382540 (https://hub.pcc.edu/rsvp?id=38254
+ 0)
+X-ALT-DESC;FMTTYPE=text/html:This group will explore the emotional and ps
+ ychological impact of narcissistic abuse while building practical tools f
+ or rebuilding self-trust\, strengthening boundaries\, and restoring self-
+ esteem.<br />Meeting Link: <a href="https://docs.google.com/forms/d/e/1FA
+ IpQLSejjdmfzVSfZbAaHziGudajAWahBJVedRnAuAgDS3S0rgNT4g/viewform" target="_
+ blank">https://docs.google.com/forms/d/e/1FAIpQLSejjdmfzVSfZbAaHziGudajAW
+ ahBJVedRnAuAgDS3S0rgNT4g/viewform</a><br />—<br />Event Details: <a hre
+ f="https://hub.pcc.edu/rsvp?id=382540" target="_blank">https://hub.pcc.ed
+ u/rsvp?id=382540</a>
+UID:20260505T200000Z-10252@events.pcc.edu
+DTSTAMP:20260401T103807Z
+URL:https://events.pcc.edu/counseling/event/10252-reclaiming-self-group-h
+ ealing-after-narcissistic
+LAST-MODIFIED:20260401T180258Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10772
+X-LIVEWHALE-ID:10252
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -860,85 +841,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260506T110000
-DTEND;TZID=America/Los_Angeles:20260506T120000
-SUMMARY:Regulate & Recharge: Attending to your Nervous System
-DESCRIPTION:Learn how your nervous system responds to stress using Polyva
- gal Theory. Learn about simple\, evidence-based tools to regulate your ne
- rvous system\, reduce tension\, and improve focus and emotional well-bein
- g.Meeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlan
- dcc.zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3
- 82506 (https://hub.pcc.edu/rsvp?id=382506)
-X-ALT-DESC;FMTTYPE=text/html:Learn how your nervous system responds to st
- ress using Polyvagal Theory. Learn about simple\, evidence-based tools to
-  regulate your nervous system\, reduce tension\, and improve focus and em
- otional well-being.<br />Meeting Link: <a href="https://portlandcc.zoom.u
- s/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294
- </a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38
- 2506" target="_blank">https://hub.pcc.edu/rsvp?id=382506</a>
-UID:20260506T180000Z-10110@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10110-regulate-recharge-attending-to-you
- r-nervous
-LAST-MODIFIED:20260422T145130Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10110
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T110000
-DTEND;TZID=America/Los_Angeles:20260506T120000
-SUMMARY:Regulate & Recharge: Attending to your Nervous System
-DESCRIPTION:Learn how your nervous system responds to stress using Polyva
- gal Theory. Learn about simple\, evidence-based tools to regulate your ne
- rvous system\, reduce tension\, and improve focus and emotional well-bein
- g.Meeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlan
- dcc.zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3
- 82506 (https://hub.pcc.edu/rsvp?id=382506)
-X-ALT-DESC;FMTTYPE=text/html:Learn how your nervous system responds to st
- ress using Polyvagal Theory. Learn about simple\, evidence-based tools to
-  regulate your nervous system\, reduce tension\, and improve focus and em
- otional well-being.<br />Meeting Link: <a href="https://portlandcc.zoom.u
- s/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294
- </a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38
- 2506" target="_blank">https://hub.pcc.edu/rsvp?id=382506</a>
-UID:20260506T180000Z-10262@events.pcc.edu
-DTSTAMP:20260401T103924Z
-URL:https://events.pcc.edu/counseling/event/10262-regulate-recharge-atten
- ding-to-your-nervous
-LAST-MODIFIED:20260401T180340Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10262
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T110000
-DTEND;TZID=America/Los_Angeles:20260506T130000
-SUMMARY:Cascade QRC Spring Picnic
-DESCRIPTION:Join the Cascade QRC outside!! We will be hosting a spring pi
- cnic for folks to help kick off our Pride Days at PCC. We'll have nail po
- lish\, friendship bracelet making\, and card games for folks to enjoy. An
- d what's a picnic without food! We will provide snacks and drinks for fol
- ks to enjoy\, but please feel free to bring your lunches and join us in t
- he sun.—Event Details: https://hub.pcc.edu/rsvp?id=382448 (https://hub.
- pcc.edu/rsvp?id=382448)
-X-ALT-DESC;FMTTYPE=text/html:Join the Cascade QRC outside!! We will be ho
- sting a spring picnic for folks to help kick off our Pride Days at PCC. W
- e'll have nail polish\, friendship bracelet making\, and card games for f
- olks to enjoy. And what's a picnic without food! We will provide snacks a
- nd drinks for folks to enjoy\, but please feel free to bring your lunches
-  and join us in the sun.<br />—<br />Event Details: <a href="https://hu
- b.pcc.edu/rsvp?id=382448" target="_blank">https://hub.pcc.edu/rsvp?id=382
- 448</a>
-UID:20260506T180000Z-10073@events.pcc.edu
-DTSTAMP:20260305T083650Z
-URL:https://events.pcc.edu/event/10073-spring-picnic
-LAST-MODIFIED:20260424T051654Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10073
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T110000
 DTEND;TZID=America/Los_Angeles:20260506T140000
 SUMMARY:Dungeons & Dragons
 DESCRIPTION:Whether you are a seasoned hero or have never touched a 20-si
@@ -994,22 +896,82 @@ X-LIVEWHALE-ID:10801
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T120000
-DTEND;TZID=America/Los_Angeles:20260506T150000
-SUMMARY:Smash Bros at the VRC
-DESCRIPTION:Join the VRC &amp\; QRC in a friendly battle every Wednesday 
- from 12-3pm! All materials will be provided.—Event Details: https://hub
- .pcc.edu/rsvp?id=382883 (https://hub.pcc.edu/rsvp?id=382883)
-X-ALT-DESC;FMTTYPE=text/html:Join the VRC &amp\; QRC in a friendly battle
-  every Wednesday from 12-3pm! All materials will be provided.<br />—<br
-  />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382883" target="_b
- lank">https://hub.pcc.edu/rsvp?id=382883</a>
-UID:20260506T190000Z-10627@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10627-smash-bros-at-the-vrc
-LAST-MODIFIED:20260416T231941Z
+DTSTART;TZID=America/Los_Angeles:20260506T110000
+DTEND;TZID=America/Los_Angeles:20260506T120000
+SUMMARY:Regulate & Recharge: Attending to your Nervous System
+DESCRIPTION:Learn how your nervous system responds to stress using Polyva
+ gal Theory. Learn about simple\, evidence-based tools to regulate your ne
+ rvous system\, reduce tension\, and improve focus and emotional well-bein
+ g.Meeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlan
+ dcc.zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3
+ 82506 (https://hub.pcc.edu/rsvp?id=382506)
+X-ALT-DESC;FMTTYPE=text/html:Learn how your nervous system responds to st
+ ress using Polyvagal Theory. Learn about simple\, evidence-based tools to
+  regulate your nervous system\, reduce tension\, and improve focus and em
+ otional well-being.<br />Meeting Link: <a href="https://portlandcc.zoom.u
+ s/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294
+ </a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38
+ 2506" target="_blank">https://hub.pcc.edu/rsvp?id=382506</a>
+UID:20260506T180000Z-10110@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10110-regulate-recharge-attending-to-you
+ r-nervous
+LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10627
+X-LIVEWHALE-ID:10110
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T110000
+DTEND;TZID=America/Los_Angeles:20260506T130000
+SUMMARY:Cascade QRC Spring Picnic
+DESCRIPTION:Join the Cascade QRC outside!! We will be hosting a spring pi
+ cnic for folks to help kick off our Pride Days at PCC. We'll have nail po
+ lish\, friendship bracelet making\, and card games for folks to enjoy. An
+ d what's a picnic without food! We will provide snacks and drinks for fol
+ ks to enjoy\, but please feel free to bring your lunches and join us in t
+ he sun.—Event Details: https://hub.pcc.edu/rsvp?id=382448 (https://hub.
+ pcc.edu/rsvp?id=382448)
+X-ALT-DESC;FMTTYPE=text/html:Join the Cascade QRC outside!! We will be ho
+ sting a spring picnic for folks to help kick off our Pride Days at PCC. W
+ e'll have nail polish\, friendship bracelet making\, and card games for f
+ olks to enjoy. And what's a picnic without food! We will provide snacks a
+ nd drinks for folks to enjoy\, but please feel free to bring your lunches
+  and join us in the sun.<br />—<br />Event Details: <a href="https://hu
+ b.pcc.edu/rsvp?id=382448" target="_blank">https://hub.pcc.edu/rsvp?id=382
+ 448</a>
+UID:20260506T180000Z-10073@events.pcc.edu
+DTSTAMP:20260305T083650Z
+URL:https://events.pcc.edu/event/10073-spring-picnic
+LAST-MODIFIED:20260424T051654Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10073
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T110000
+DTEND;TZID=America/Los_Angeles:20260506T120000
+SUMMARY:Regulate & Recharge: Attending to your Nervous System
+DESCRIPTION:Learn how your nervous system responds to stress using Polyva
+ gal Theory. Learn about simple\, evidence-based tools to regulate your ne
+ rvous system\, reduce tension\, and improve focus and emotional well-bein
+ g.Meeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlan
+ dcc.zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3
+ 82506 (https://hub.pcc.edu/rsvp?id=382506)
+X-ALT-DESC;FMTTYPE=text/html:Learn how your nervous system responds to st
+ ress using Polyvagal Theory. Learn about simple\, evidence-based tools to
+  regulate your nervous system\, reduce tension\, and improve focus and em
+ otional well-being.<br />Meeting Link: <a href="https://portlandcc.zoom.u
+ s/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294
+ </a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38
+ 2506" target="_blank">https://hub.pcc.edu/rsvp?id=382506</a>
+UID:20260506T180000Z-10262@events.pcc.edu
+DTSTAMP:20260401T103924Z
+URL:https://events.pcc.edu/counseling/event/10262-regulate-recharge-atten
+ ding-to-your-nervous
+LAST-MODIFIED:20260401T180340Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10262
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1068,27 +1030,22 @@ X-LIVEWHALE-ID:10548
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T130000
-DTEND;TZID=America/Los_Angeles:20260506T140000
-SUMMARY:Academic Stress Management Support
-DESCRIPTION:A drop-in opportunity for enrolled students. Create helpful h
- abits and routines while managing the stress of being a student. Get one-
- on-one support.Meeting Link: https://portlandcc.zoom.us/j/96036369743 (ht
- tps://portlandcc.zoom.us/j/96036369743)—Event Details: https://hub.pcc.
- edu/rsvp?id=382562 (https://hub.pcc.edu/rsvp?id=382562)
-X-ALT-DESC;FMTTYPE=text/html:A drop-in opportunity for enrolled students.
-  Create helpful habits and routines while managing the stress of being a 
- student. Get one-on-one support.<br />Meeting Link: <a href="https://port
- landcc.zoom.us/j/96036369743" target="_blank">https://portlandcc.zoom.us/
- j/96036369743</a><br />—<br />Event Details: <a href="https://hub.pcc.e
- du/rsvp?id=382562" target="_blank">https://hub.pcc.edu/rsvp?id=382562</a>
-UID:20260506T200000Z-10206@events.pcc.edu
-DTSTAMP:20260401T102845Z
-URL:https://events.pcc.edu/counseling/event/10206-academic-stress-managem
- ent-support
-LAST-MODIFIED:20260401T172845Z
+DTSTART;TZID=America/Los_Angeles:20260506T120000
+DTEND;TZID=America/Los_Angeles:20260506T150000
+SUMMARY:Smash Bros at the VRC
+DESCRIPTION:Join the VRC &amp\; QRC in a friendly battle every Wednesday 
+ from 12-3pm! All materials will be provided.—Event Details: https://hub
+ .pcc.edu/rsvp?id=382883 (https://hub.pcc.edu/rsvp?id=382883)
+X-ALT-DESC;FMTTYPE=text/html:Join the VRC &amp\; QRC in a friendly battle
+  every Wednesday from 12-3pm! All materials will be provided.<br />—<br
+  />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382883" target="_b
+ lank">https://hub.pcc.edu/rsvp?id=382883</a>
+UID:20260506T190000Z-10627@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10627-smash-bros-at-the-vrc
+LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10206
+X-LIVEWHALE-ID:10627
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1117,6 +1074,30 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260506T130000
 DTEND;TZID=America/Los_Angeles:20260506T140000
+SUMMARY:Academic Stress Management Support
+DESCRIPTION:A drop-in opportunity for enrolled students. Create helpful h
+ abits and routines while managing the stress of being a student. Get one-
+ on-one support.Meeting Link: https://portlandcc.zoom.us/j/96036369743 (ht
+ tps://portlandcc.zoom.us/j/96036369743)—Event Details: https://hub.pcc.
+ edu/rsvp?id=382562 (https://hub.pcc.edu/rsvp?id=382562)
+X-ALT-DESC;FMTTYPE=text/html:A drop-in opportunity for enrolled students.
+  Create helpful habits and routines while managing the stress of being a 
+ student. Get one-on-one support.<br />Meeting Link: <a href="https://port
+ landcc.zoom.us/j/96036369743" target="_blank">https://portlandcc.zoom.us/
+ j/96036369743</a><br />—<br />Event Details: <a href="https://hub.pcc.e
+ du/rsvp?id=382562" target="_blank">https://hub.pcc.edu/rsvp?id=382562</a>
+UID:20260506T200000Z-10206@events.pcc.edu
+DTSTAMP:20260401T102845Z
+URL:https://events.pcc.edu/counseling/event/10206-academic-stress-managem
+ ent-support
+LAST-MODIFIED:20260401T172845Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10206
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T130000
+DTEND;TZID=America/Los_Angeles:20260506T140000
 SUMMARY:Voices of the Huastecas
 DESCRIPTION:Interested in language and culture? Wanting to explore a new 
  interest? Join us at the SE MC center for our Nahuatl linguistic study gr
@@ -1139,32 +1120,6 @@ URL:https://events.pcc.edu/event/10689-voices-of-the-huastecas
 LAST-MODIFIED:20260421T031122Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10689
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T133000
-DTEND;TZID=America/Los_Angeles:20260506T150000
-SUMMARY:SY Happy Birthday Marsha Pride Days Kick-Off
-DESCRIPTION:SY Happy Birthday Marsha Pride Days Kick-OffCupcakes\, refres
- hments\, and birthday cards provided. Watch and discuss the short film Ha
- ppy Birthday\, Marsha. Celebrate the life and memory of trans icon Marsha
-  P. Johnson. Contact us with any questions: qrc@pcc.edu 971-722-8515—Ev
- ent Details: https://hub.pcc.edu/rsvp?id=382458 (https://hub.pcc.edu/rsvp
- ?id=382458)
-X-ALT-DESC;FMTTYPE=text/html:SY Happy Birthday Marsha Pride Days Kick-Off
- <br />Cupcakes\, refreshments\, and birthday cards provided. Watch and di
- scuss the short film Happy Birthday\, Marsha. Celebrate the life and memo
- ry of trans icon Marsha P. Johnson. Contact us with any questions: qrc@pc
- c.edu 971-722-8515<br />—<br />Event Details: <a href="https://hub.pcc.
- edu/rsvp?id=382458" target="_blank">https://hub.pcc.edu/rsvp?id=382458</a
- >
-UID:20260506T203000Z-10090@events.pcc.edu
-DTSTAMP:20260307T084116Z
-URL:https://events.pcc.edu/event/10090-sy-happy-birthday-marsha-pride-day
- s-kick-off
-LAST-MODIFIED:20260418T010120Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10090
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1208,83 +1163,29 @@ X-LIVEWHALE-ID:10353
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T150000
-DTEND;TZID=America/Los_Angeles:20260506T160000
-SUMMARY:Grief & Loss Processing Group
-DESCRIPTION:Join us for a four-week counseling process group about grief 
- and loss. The group is an opportunity for members to share and process ex
- periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
- /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
- ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
- f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
- =382520 (https://hub.pcc.edu/rsvp?id=382520)
-X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
- roup about grief and loss. The group is an opportunity for members to sha
- re and process experiences of grief and loss.<br />Meeting Link: <a href=
- "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
- 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
- rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
- rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
- 382520" target="_blank">https://hub.pcc.edu/rsvp?id=382520</a>
-UID:20260506T220000Z-10266@events.pcc.edu
-DTSTAMP:20260401T103947Z
-URL:https://events.pcc.edu/counseling/event/10266-grief-loss-processing-g
- roup
-LAST-MODIFIED:20260401T173947Z
+DTSTART;TZID=America/Los_Angeles:20260506T133000
+DTEND;TZID=America/Los_Angeles:20260506T150000
+SUMMARY:SY Happy Birthday Marsha Pride Days Kick-Off
+DESCRIPTION:SY Happy Birthday Marsha Pride Days Kick-OffCupcakes\, refres
+ hments\, and birthday cards provided. Watch and discuss the short film Ha
+ ppy Birthday\, Marsha. Celebrate the life and memory of trans icon Marsha
+  P. Johnson. Contact us with any questions: qrc@pcc.edu 971-722-8515—Ev
+ ent Details: https://hub.pcc.edu/rsvp?id=382458 (https://hub.pcc.edu/rsvp
+ ?id=382458)
+X-ALT-DESC;FMTTYPE=text/html:SY Happy Birthday Marsha Pride Days Kick-Off
+ <br />Cupcakes\, refreshments\, and birthday cards provided. Watch and di
+ scuss the short film Happy Birthday\, Marsha. Celebrate the life and memo
+ ry of trans icon Marsha P. Johnson. Contact us with any questions: qrc@pc
+ c.edu 971-722-8515<br />—<br />Event Details: <a href="https://hub.pcc.
+ edu/rsvp?id=382458" target="_blank">https://hub.pcc.edu/rsvp?id=382458</a
+ >
+UID:20260506T203000Z-10090@events.pcc.edu
+DTSTAMP:20260307T084116Z
+URL:https://events.pcc.edu/event/10090-sy-happy-birthday-marsha-pride-day
+ s-kick-off
+LAST-MODIFIED:20260418T010120Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10266
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T150000
-DTEND;TZID=America/Los_Angeles:20260506T160000
-SUMMARY:Grief & Loss Processing Group
-DESCRIPTION:Join us for a four-week counseling process group about grief 
- and loss. The group is an opportunity for members to share and process ex
- periences of grief and loss.Please use the meeting link to register for t
- his group.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQLSeSu38YI
- uiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (https://docs.google
- .com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/c
- losedform)—Event Details: https://hub.pcc.edu/rsvp?id=382520 (https://h
- ub.pcc.edu/rsvp?id=382520)
-X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
- roup about grief and loss. The group is an opportunity for members to sha
- re and process experiences of grief and loss.<br />Please use the meeting
-  link to register for this group.<br />Meeting Link: <a href="https://doc
- s.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYs
- WexUxw/closedform" target="_blank">https://docs.google.com/forms/d/e/1FAI
- pQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform</a><br />
- —<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382520" targ
- et="_blank">https://hub.pcc.edu/rsvp?id=382520</a>
-UID:20260506T220000Z-10167@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10167-grief-loss-processing-group
-LAST-MODIFIED:20260403T014116Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10167
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260506T150000
-DTEND;TZID=America/Los_Angeles:20260506T160000
-SUMMARY:Spring 2026 Accounting Club
-DESCRIPTION:Join us in our weekly virtual gathering to interact with othe
- r students\, faculty\, and guest speakers to start networking\, enrich ou
- r experiences and learn something newMeeting Link: Zoom Meeting ID: 910 2
- 773 6140 | Passcode:503902—Event Details: https://hub.pcc.edu/rsvp?id=3
- 82768 (https://hub.pcc.edu/rsvp?id=382768)
-X-ALT-DESC;FMTTYPE=text/html:Join us in our weekly virtual gathering to i
- nteract with other students\, faculty\, and guest speakers to start netwo
- rking\, enrich our experiences and learn something new<br />Meeting Link:
-  Zoom Meeting ID: 910 2773 6140 | Passcode:503902<br />—<br />Event Det
- ails: <a href="https://hub.pcc.edu/rsvp?id=382768" target="_blank">https:
- //hub.pcc.edu/rsvp?id=382768</a>
-UID:20260506T220000Z-10626@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10626-spring-2026-accounting-club
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10626
+X-LIVEWHALE-ID:10090
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1327,6 +1228,29 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260506T150000
 DTEND;TZID=America/Los_Angeles:20260506T160000
+SUMMARY:Spring 2026 Accounting Club
+DESCRIPTION:Join us in our weekly virtual gathering to interact with othe
+ r students\, faculty\, and guest speakers to start networking\, enrich ou
+ r experiences and learn something newMeeting Link: Zoom Meeting ID: 910 2
+ 773 6140 | Passcode:503902—Event Details: https://hub.pcc.edu/rsvp?id=3
+ 82768 (https://hub.pcc.edu/rsvp?id=382768)
+X-ALT-DESC;FMTTYPE=text/html:Join us in our weekly virtual gathering to i
+ nteract with other students\, faculty\, and guest speakers to start netwo
+ rking\, enrich our experiences and learn something new<br />Meeting Link:
+  Zoom Meeting ID: 910 2773 6140 | Passcode:503902<br />—<br />Event Det
+ ails: <a href="https://hub.pcc.edu/rsvp?id=382768" target="_blank">https:
+ //hub.pcc.edu/rsvp?id=382768</a>
+UID:20260506T220000Z-10626@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10626-spring-2026-accounting-club
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10626
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T150000
+DTEND;TZID=America/Los_Angeles:20260506T160000
 SUMMARY:BIPOC Healing Group
 DESCRIPTION:This counseling group provides a space or Black Indigenous Pe
  ople Of Color (BIPOC) students to discuss lived experiences. The group su
@@ -1357,6 +1281,63 @@ URL:https://events.pcc.edu/counseling/event/10270-bipoc-healing-group
 LAST-MODIFIED:20260401T180130Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10270
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T150000
+DTEND;TZID=America/Los_Angeles:20260506T160000
+SUMMARY:Grief & Loss Processing Group
+DESCRIPTION:Join us for a four-week counseling process group about grief 
+ and loss. The group is an opportunity for members to share and process ex
+ periences of grief and loss.Please use the meeting link to register for t
+ his group.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQLSeSu38YI
+ uiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (https://docs.google
+ .com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/c
+ losedform)—Event Details: https://hub.pcc.edu/rsvp?id=382520 (https://h
+ ub.pcc.edu/rsvp?id=382520)
+X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
+ roup about grief and loss. The group is an opportunity for members to sha
+ re and process experiences of grief and loss.<br />Please use the meeting
+  link to register for this group.<br />Meeting Link: <a href="https://doc
+ s.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYs
+ WexUxw/closedform" target="_blank">https://docs.google.com/forms/d/e/1FAI
+ pQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform</a><br />
+ —<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382520" targ
+ et="_blank">https://hub.pcc.edu/rsvp?id=382520</a>
+UID:20260506T220000Z-10167@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10167-grief-loss-processing-group
+LAST-MODIFIED:20260403T014116Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10167
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T150000
+DTEND;TZID=America/Los_Angeles:20260506T160000
+SUMMARY:Grief & Loss Processing Group
+DESCRIPTION:Join us for a four-week counseling process group about grief 
+ and loss. The group is an opportunity for members to share and process ex
+ periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
+ /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
+ ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
+ f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
+ =382520 (https://hub.pcc.edu/rsvp?id=382520)
+X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
+ roup about grief and loss. The group is an opportunity for members to sha
+ re and process experiences of grief and loss.<br />Meeting Link: <a href=
+ "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
+ 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
+ rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
+ rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
+ 382520" target="_blank">https://hub.pcc.edu/rsvp?id=382520</a>
+UID:20260506T220000Z-10266@events.pcc.edu
+DTSTAMP:20260401T103947Z
+URL:https://events.pcc.edu/counseling/event/10266-grief-loss-processing-g
+ roup
+LAST-MODIFIED:20260401T173947Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10266
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1483,6 +1464,24 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260507T110000
+DTEND;TZID=America/Los_Angeles:20260507T140000
+SUMMARY:Cully Career Connection – Job Fair
+DESCRIPTION:A job fair featuring administrative\, construction\, customer
+  service\, healthcare\, hospitality\, and non-profit careers.
+X-ALT-DESC;FMTTYPE=text/html:<p>  A job fair featuring administrative\, c
+ onstruction\, customer service\, healthcare\, hospitality\, and non-profi
+ t careers.</p>
+UID:20260507T180000Z-10360@events.pcc.edu
+DTSTAMP:20260408T170529Z
+URL:https://events.pcc.edu/live/events/10359-cully-career-connection-job-
+ fair
+LAST-MODIFIED:20260409T000559Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10360
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T110000
 DTEND;TZID=America/Los_Angeles:20260507T120000
 SUMMARY:Network Your Way Into a Job
 DESCRIPTION:There's an old saying when it comes to landing a job: It's no
@@ -1526,54 +1525,6 @@ X-LIVEWHALE-ID:10352
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T110000
-DTEND;TZID=America/Los_Angeles:20260507T140000
-SUMMARY:Cully Career Connection – Job Fair
-DESCRIPTION:A job fair featuring administrative\, construction\, customer
-  service\, healthcare\, hospitality\, and non-profit careers.
-X-ALT-DESC;FMTTYPE=text/html:<p>  A job fair featuring administrative\, c
- onstruction\, customer service\, healthcare\, hospitality\, and non-profi
- t careers.</p>
-UID:20260507T180000Z-10360@events.pcc.edu
-DTSTAMP:20260408T170529Z
-URL:https://events.pcc.edu/live/events/10359-cully-career-connection-job-
- fair
-LAST-MODIFIED:20260409T000559Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10360
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T123000
-DTEND;TZID=America/Los_Angeles:20260507T133000
-SUMMARY:Drop-In Brief Counseling for Students Balancing School & Recovery
-DESCRIPTION:Students balancing school and any type of addiction and/or re
- covery are invited to drop in for a brief chat with a licensed counselor.
-  These drop in sessions are available throughout the Fall term and studen
- ts are welcome to attend as often as is useful for them. No appointment n
- eeded\, just Zoom in during the open drop in hours for a brief\, confiden
- tial and private session.Meeting Link: Drop-In Brief Counseling for Stude
- nts Balancing School &amp\; Recovery—Event Details: https://hub.pcc.edu
- /rsvp?id=382572 (https://hub.pcc.edu/rsvp?id=382572)
-X-ALT-DESC;FMTTYPE=text/html:Students balancing school and any type of ad
- diction and/or recovery are invited to drop in for a brief chat with a li
- censed counselor. These drop in sessions are available throughout the Fal
- l term and students are welcome to attend as often as is useful for them.
-  No appointment needed\, just Zoom in during the open drop in hours for a
-  brief\, confidential and private session.<br />Meeting Link: Drop-In Bri
- ef Counseling for Students Balancing School &amp\; Recovery<br />—<br /
- >Event Details: <a href="https://hub.pcc.edu/rsvp?id=382572" target="_bla
- nk">https://hub.pcc.edu/rsvp?id=382572</a>
-UID:20260507T193000Z-10186@events.pcc.edu
-DTSTAMP:20260331T174037Z
-URL:https://events.pcc.edu/event/10186-drop-in-brief-counseling-for-stude
- nts-balancing
-LAST-MODIFIED:20260401T173139Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10186
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260507T123000
 DTEND;TZID=America/Los_Angeles:20260507T133000
 SUMMARY:Drop-In Brief Counseling for Students Balancing School & Recovery
@@ -1604,65 +1555,33 @@ X-LIVEWHALE-ID:10230
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T130000
-DTEND;TZID=America/Los_Angeles:20260507T150000
-SUMMARY:Reel Access: Disability on Screen
-DESCRIPTION:Join us in the Accessibility Hub on PCC's Southeast Campus ev
- ery Thursday at 1:00 PM for movie day! We'll watch and discuss films that
-  focus on disability and the amazing lives and accomplishments of people 
- with disabilities. SE Mount Tabor Hall\, room 136. Come for the popcorn\,
-  stay for the movie!We'll watch:Code of the Freaks (4/23)The Reason I Jum
- p (4/30)Margarita with a Straw (5/7)Murderball (5/14)Your Friend\, Memphi
- s (5/21)Defiant Lives (5/28)Invitation to Dance (6/4)Including Samuel + s
- hort film Ramped Up (6/11)—Event Details: https://hub.pcc.edu/rsvp?id=3
- 82876 (https://hub.pcc.edu/rsvp?id=382876)
-X-ALT-DESC;FMTTYPE=text/html:Join us in the Accessibility Hub on PCC's So
- utheast Campus every Thursday at 1:00 PM for movie day! We'll watch and d
- iscuss films that focus on disability and the amazing lives and accomplis
- hments of people with disabilities. SE Mount Tabor Hall\, room 136. Come 
- for the popcorn\, stay for the movie!<br />We'll watch:<br />Code of the 
- Freaks (4/23)<br />The Reason I Jump (4/30)<br />Margarita with a Straw (
- 5/7)<br />Murderball (5/14)<br />Your Friend\, Memphis (5/21)<br />Defian
- t Lives (5/28)<br />Invitation to Dance (6/4)<br />Including Samuel + sho
- rt film Ramped Up (6/11)<br />—<br />Event Details: <a href="https://hu
- b.pcc.edu/rsvp?id=382876" target="_blank">https://hub.pcc.edu/rsvp?id=382
- 876</a>
-UID:20260507T200000Z-10624@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10624-reel-access-disability-on-screen
-LAST-MODIFIED:20260416T231941Z
+DTSTART;TZID=America/Los_Angeles:20260507T123000
+DTEND;TZID=America/Los_Angeles:20260507T133000
+SUMMARY:Drop-In Brief Counseling for Students Balancing School & Recovery
+DESCRIPTION:Students balancing school and any type of addiction and/or re
+ covery are invited to drop in for a brief chat with a licensed counselor.
+  These drop in sessions are available throughout the Fall term and studen
+ ts are welcome to attend as often as is useful for them. No appointment n
+ eeded\, just Zoom in during the open drop in hours for a brief\, confiden
+ tial and private session.Meeting Link: Drop-In Brief Counseling for Stude
+ nts Balancing School &amp\; Recovery—Event Details: https://hub.pcc.edu
+ /rsvp?id=382572 (https://hub.pcc.edu/rsvp?id=382572)
+X-ALT-DESC;FMTTYPE=text/html:Students balancing school and any type of ad
+ diction and/or recovery are invited to drop in for a brief chat with a li
+ censed counselor. These drop in sessions are available throughout the Fal
+ l term and students are welcome to attend as often as is useful for them.
+  No appointment needed\, just Zoom in during the open drop in hours for a
+  brief\, confidential and private session.<br />Meeting Link: Drop-In Bri
+ ef Counseling for Students Balancing School &amp\; Recovery<br />—<br /
+ >Event Details: <a href="https://hub.pcc.edu/rsvp?id=382572" target="_bla
+ nk">https://hub.pcc.edu/rsvp?id=382572</a>
+UID:20260507T193000Z-10186@events.pcc.edu
+DTSTAMP:20260331T174037Z
+URL:https://events.pcc.edu/event/10186-drop-in-brief-counseling-for-stude
+ nts-balancing
+LAST-MODIFIED:20260401T173139Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10624
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T130000
-DTEND;TZID=America/Los_Angeles:20260507T140000
-SUMMARY:Queer/Trans/Gender-Expansive Counseling Process Group
-DESCRIPTION:Join us in this online counseling process group welcoming que
- er/trans/gender-expansive PCC students. Common experiences are shared\, d
- ifferences are acknowledged\, and the healing power of community is celeb
- rated.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQLSd0bu2yNkKt-
- 9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform (https://docs.google.com
- /forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/close
- dform)—Event Details: https://hub.pcc.edu/rsvp?id=382536 (https://hub.p
- cc.edu/rsvp?id=382536)
-X-ALT-DESC;FMTTYPE=text/html:Join us in this online counseling process gr
- oup welcoming queer/trans/gender-expansive PCC students. Common experienc
- es are shared\, differences are acknowledged\, and the healing power of c
- ommunity is celebrated.<br />Meeting Link: <a href="https://docs.google.c
- om/forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/clo
- sedform" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSd0bu2y
- NkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform</a><br />—<br />E
- vent Details: <a href="https://hub.pcc.edu/rsvp?id=382536" target="_blank
- ">https://hub.pcc.edu/rsvp?id=382536</a>
-UID:20260507T200000Z-10274@events.pcc.edu
-DTSTAMP:20260401T104027Z
-URL:https://events.pcc.edu/counseling/event/10274-queertransgender-expans
- ive-counseling-process
-LAST-MODIFIED:20260401T174027Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10274
+X-LIVEWHALE-ID:10186
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1718,6 +1637,68 @@ X-LIVEWHALE-ID:10165
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T130000
+DTEND;TZID=America/Los_Angeles:20260507T140000
+SUMMARY:Queer/Trans/Gender-Expansive Counseling Process Group
+DESCRIPTION:Join us in this online counseling process group welcoming que
+ er/trans/gender-expansive PCC students. Common experiences are shared\, d
+ ifferences are acknowledged\, and the healing power of community is celeb
+ rated.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQLSd0bu2yNkKt-
+ 9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform (https://docs.google.com
+ /forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/close
+ dform)—Event Details: https://hub.pcc.edu/rsvp?id=382536 (https://hub.p
+ cc.edu/rsvp?id=382536)
+X-ALT-DESC;FMTTYPE=text/html:Join us in this online counseling process gr
+ oup welcoming queer/trans/gender-expansive PCC students. Common experienc
+ es are shared\, differences are acknowledged\, and the healing power of c
+ ommunity is celebrated.<br />Meeting Link: <a href="https://docs.google.c
+ om/forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/clo
+ sedform" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSd0bu2y
+ NkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform</a><br />—<br />E
+ vent Details: <a href="https://hub.pcc.edu/rsvp?id=382536" target="_blank
+ ">https://hub.pcc.edu/rsvp?id=382536</a>
+UID:20260507T200000Z-10274@events.pcc.edu
+DTSTAMP:20260401T104027Z
+URL:https://events.pcc.edu/counseling/event/10274-queertransgender-expans
+ ive-counseling-process
+LAST-MODIFIED:20260401T174027Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10274
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T130000
+DTEND;TZID=America/Los_Angeles:20260507T150000
+SUMMARY:Reel Access: Disability on Screen
+DESCRIPTION:Join us in the Accessibility Hub on PCC's Southeast Campus ev
+ ery Thursday at 1:00 PM for movie day! We'll watch and discuss films that
+  focus on disability and the amazing lives and accomplishments of people 
+ with disabilities. SE Mount Tabor Hall\, room 136. Come for the popcorn\,
+  stay for the movie!We'll watch:Code of the Freaks (4/23)The Reason I Jum
+ p (4/30)Margarita with a Straw (5/7)Murderball (5/14)Your Friend\, Memphi
+ s (5/21)Defiant Lives (5/28)Invitation to Dance (6/4)Including Samuel + s
+ hort film Ramped Up (6/11)—Event Details: https://hub.pcc.edu/rsvp?id=3
+ 82876 (https://hub.pcc.edu/rsvp?id=382876)
+X-ALT-DESC;FMTTYPE=text/html:Join us in the Accessibility Hub on PCC's So
+ utheast Campus every Thursday at 1:00 PM for movie day! We'll watch and d
+ iscuss films that focus on disability and the amazing lives and accomplis
+ hments of people with disabilities. SE Mount Tabor Hall\, room 136. Come 
+ for the popcorn\, stay for the movie!<br />We'll watch:<br />Code of the 
+ Freaks (4/23)<br />The Reason I Jump (4/30)<br />Margarita with a Straw (
+ 5/7)<br />Murderball (5/14)<br />Your Friend\, Memphis (5/21)<br />Defian
+ t Lives (5/28)<br />Invitation to Dance (6/4)<br />Including Samuel + sho
+ rt film Ramped Up (6/11)<br />—<br />Event Details: <a href="https://hu
+ b.pcc.edu/rsvp?id=382876" target="_blank">https://hub.pcc.edu/rsvp?id=382
+ 876</a>
+UID:20260507T200000Z-10624@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10624-reel-access-disability-on-screen
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10624
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260507T133000
 DTEND;TZID=America/Los_Angeles:20260507T160000
 SUMMARY:SY open gym volleyball
@@ -1734,52 +1715,6 @@ URL:https://events.pcc.edu/event/10853-sy-open-gym-volleyball
 LAST-MODIFIED:20260430T022118Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10853
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T140000
-DTEND;TZID=America/Los_Angeles:20260507T150000
-SUMMARY:Curious about ASD?
-DESCRIPTION:Learn about Autism Spectrum Disorder. This workshop explores 
- common experiences and addresses possible misunderstandings.Meeting Link:
-  https://portlandcc.zoom.us/j/91408331294 (https://portlandcc.zoom.us/j/9
- 1408331294)—Event Details: https://hub.pcc.edu/rsvp?id=382487 (https://
- hub.pcc.edu/rsvp?id=382487)
-X-ALT-DESC;FMTTYPE=text/html:Learn about Autism Spectrum Disorder. This w
- orkshop explores common experiences and addresses possible misunderstandi
- ngs.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j/91408331294
- " target="_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<b
- r />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382487" target="_
- blank">https://hub.pcc.edu/rsvp?id=382487</a>
-UID:20260507T210000Z-10109@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10109-curious-about-asd
-LAST-MODIFIED:20260422T145130Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10109
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T140000
-DTEND;TZID=America/Los_Angeles:20260507T150000
-SUMMARY:Curious about ASD?
-DESCRIPTION:Learn about Autism Spectrum Disorder. This workshop explores 
- common experiences and addresses possible misunderstandings.Meeting Link:
-  https://portlandcc.zoom.us/j/91408331294 (https://portlandcc.zoom.us/j/9
- 1408331294)—Event Details: https://hub.pcc.edu/rsvp?id=382487 (https://
- hub.pcc.edu/rsvp?id=382487)
-X-ALT-DESC;FMTTYPE=text/html:Learn about Autism Spectrum Disorder. This w
- orkshop explores common experiences and addresses possible misunderstandi
- ngs.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j/91408331294
- " target="_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<b
- r />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382487" target="_
- blank">https://hub.pcc.edu/rsvp?id=382487</a>
-UID:20260507T210000Z-10239@events.pcc.edu
-DTSTAMP:20260401T103648Z
-URL:https://events.pcc.edu/counseling/event/10239-curious-about-asd
-LAST-MODIFIED:20260401T180145Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10239
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1807,6 +1742,52 @@ URL:https://events.pcc.edu/event/10750-vrc-movie-viewing
 LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10750
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T140000
+DTEND;TZID=America/Los_Angeles:20260507T150000
+SUMMARY:Curious about ASD?
+DESCRIPTION:Learn about Autism Spectrum Disorder. This workshop explores 
+ common experiences and addresses possible misunderstandings.Meeting Link:
+  https://portlandcc.zoom.us/j/91408331294 (https://portlandcc.zoom.us/j/9
+ 1408331294)—Event Details: https://hub.pcc.edu/rsvp?id=382487 (https://
+ hub.pcc.edu/rsvp?id=382487)
+X-ALT-DESC;FMTTYPE=text/html:Learn about Autism Spectrum Disorder. This w
+ orkshop explores common experiences and addresses possible misunderstandi
+ ngs.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j/91408331294
+ " target="_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<b
+ r />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382487" target="_
+ blank">https://hub.pcc.edu/rsvp?id=382487</a>
+UID:20260507T210000Z-10239@events.pcc.edu
+DTSTAMP:20260401T103648Z
+URL:https://events.pcc.edu/counseling/event/10239-curious-about-asd
+LAST-MODIFIED:20260401T180145Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10239
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260507T140000
+DTEND;TZID=America/Los_Angeles:20260507T150000
+SUMMARY:Curious about ASD?
+DESCRIPTION:Learn about Autism Spectrum Disorder. This workshop explores 
+ common experiences and addresses possible misunderstandings.Meeting Link:
+  https://portlandcc.zoom.us/j/91408331294 (https://portlandcc.zoom.us/j/9
+ 1408331294)—Event Details: https://hub.pcc.edu/rsvp?id=382487 (https://
+ hub.pcc.edu/rsvp?id=382487)
+X-ALT-DESC;FMTTYPE=text/html:Learn about Autism Spectrum Disorder. This w
+ orkshop explores common experiences and addresses possible misunderstandi
+ ngs.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j/91408331294
+ " target="_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<b
+ r />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382487" target="_
+ blank">https://hub.pcc.edu/rsvp?id=382487</a>
+UID:20260507T210000Z-10109@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10109-curious-about-asd
+LAST-MODIFIED:20260422T145130Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10109
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -1872,27 +1853,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260508T100000
-DTEND;TZID=America/Los_Angeles:20260508T130000
-SUMMARY:VRC Common Ground Gardening
-DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
- den! No experience necessary!Volunteer hours are every Tuesday\, Thursday
- \, and Friday from 10am-1pm—Event Details: https://hub.pcc.edu/rsvp?id=
- 383046 (https://hub.pcc.edu/rsvp?id=383046)
-X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
- reek Learning Garden! No experience necessary!<br />Volunteer hours are e
- very Tuesday\, Thursday\, and Friday from 10am-1pm<br />—<br />Event De
- tails: <a href="https://hub.pcc.edu/rsvp?id=383046" target="_blank">https
- ://hub.pcc.edu/rsvp?id=383046</a>
-UID:20260508T170000Z-10769@events.pcc.edu
-DTSTAMP:20260422T211142Z
-URL:https://events.pcc.edu/event/10769-vrc-common-ground-gardening
-LAST-MODIFIED:20260423T041142Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10769
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260508T100000
 DTEND;TZID=America/Los_Angeles:20260508T120000
 SUMMARY:ASPCC Public Meeting
 DESCRIPTION:The Associated Students of Portland Community College meet ev
@@ -1912,6 +1872,27 @@ URL:https://events.pcc.edu/event/7482-aspcc-public-meeting
 LAST-MODIFIED:20260203T181651Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:7482
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260508T100000
+DTEND;TZID=America/Los_Angeles:20260508T130000
+SUMMARY:VRC Common Ground Gardening
+DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
+ den! No experience necessary!Volunteer hours are every Tuesday\, Thursday
+ \, and Friday from 10am-1pm—Event Details: https://hub.pcc.edu/rsvp?id=
+ 383046 (https://hub.pcc.edu/rsvp?id=383046)
+X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
+ reek Learning Garden! No experience necessary!<br />Volunteer hours are e
+ very Tuesday\, Thursday\, and Friday from 10am-1pm<br />—<br />Event De
+ tails: <a href="https://hub.pcc.edu/rsvp?id=383046" target="_blank">https
+ ://hub.pcc.edu/rsvp?id=383046</a>
+UID:20260508T170000Z-10769@events.pcc.edu
+DTSTAMP:20260422T211142Z
+URL:https://events.pcc.edu/event/10769-vrc-common-ground-gardening
+LAST-MODIFIED:20260423T041142Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10769
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2319,23 +2300,23 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260511T160000
-DTEND;TZID=America/Los_Angeles:20260511T172000
-SUMMARY:Bachata Dominicana
-DESCRIPTION:Need a new hobby? Want to learn a new dance? Looking to meet 
- new people? Come join us over at the Southeast Campus in learning Bachata
-  and its roots in resistance\, love\, and community.—Event Details: htt
- ps://hub.pcc.edu/rsvp?id=382678 (https://hub.pcc.edu/rsvp?id=382678)
-X-ALT-DESC;FMTTYPE=text/html:Need a new hobby? Want to learn a new dance?
-  Looking to meet new people? Come join us over at the Southeast Campus in
-  learning Bachata and its roots in resistance\, love\, and community.<br 
- />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382678" ta
- rget="_blank">https://hub.pcc.edu/rsvp?id=382678</a>
-UID:20260511T230000Z-10372@events.pcc.edu
-DTSTAMP:20260409T125123Z
-URL:https://events.pcc.edu/event/10372-bachata-dominicana
-LAST-MODIFIED:20260409T195123Z
+DTEND;TZID=America/Los_Angeles:20260511T170000
+SUMMARY:Untwist your thinking
+DESCRIPTION:Identify and adjust thought distortions and thinking errors.M
+ eeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlandcc
+ .zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3824
+ 88 (https://hub.pcc.edu/rsvp?id=382488)
+X-ALT-DESC;FMTTYPE=text/html:Identify and adjust thought distortions and 
+ thinking errors.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j
+ /91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294</a
+ ><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38248
+ 8" target="_blank">https://hub.pcc.edu/rsvp?id=382488</a>
+UID:20260511T230000Z-10108@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10108-untwist-your-thinking
+LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10372
+X-LIVEWHALE-ID:10108
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2361,23 +2342,23 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260511T160000
-DTEND;TZID=America/Los_Angeles:20260511T170000
-SUMMARY:Untwist your thinking
-DESCRIPTION:Identify and adjust thought distortions and thinking errors.M
- eeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlandcc
- .zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3824
- 88 (https://hub.pcc.edu/rsvp?id=382488)
-X-ALT-DESC;FMTTYPE=text/html:Identify and adjust thought distortions and 
- thinking errors.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j
- /91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294</a
- ><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38248
- 8" target="_blank">https://hub.pcc.edu/rsvp?id=382488</a>
-UID:20260511T230000Z-10108@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10108-untwist-your-thinking
-LAST-MODIFIED:20260422T145130Z
+DTEND;TZID=America/Los_Angeles:20260511T172000
+SUMMARY:Bachata Dominicana
+DESCRIPTION:Need a new hobby? Want to learn a new dance? Looking to meet 
+ new people? Come join us over at the Southeast Campus in learning Bachata
+  and its roots in resistance\, love\, and community.—Event Details: htt
+ ps://hub.pcc.edu/rsvp?id=382678 (https://hub.pcc.edu/rsvp?id=382678)
+X-ALT-DESC;FMTTYPE=text/html:Need a new hobby? Want to learn a new dance?
+  Looking to meet new people? Come join us over at the Southeast Campus in
+  learning Bachata and its roots in resistance\, love\, and community.<br 
+ />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382678" ta
+ rget="_blank">https://hub.pcc.edu/rsvp?id=382678</a>
+UID:20260511T230000Z-10372@events.pcc.edu
+DTSTAMP:20260409T125123Z
+URL:https://events.pcc.edu/event/10372-bachata-dominicana
+LAST-MODIFIED:20260409T195123Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10108
+X-LIVEWHALE-ID:10372
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2478,6 +2459,33 @@ X-ALT-DESC;FMTTYPE=text/html:This online four-week counseling group focus
  qmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform</a><br />—<br />Event De
  tails: <a href="https://hub.pcc.edu/rsvp?id=382545" target="_blank">https
  ://hub.pcc.edu/rsvp?id=382545</a>
+UID:20260512T170000Z-10164@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10164-take-charge-of-your-healing
+LAST-MODIFIED:20260401T173908Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10164
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260512T100000
+DTEND;TZID=America/Los_Angeles:20260512T110000
+SUMMARY:Take Charge of Your Healing
+DESCRIPTION:This online four-week counseling group focuses on recovery fr
+ om trauma and substance abuse using an approach called "Seeking Safety".M
+ eeting Link: https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s
+ 0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform (https://docs.google.com/forms/
+ d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform)�
+ ��Event Details: https://hub.pcc.edu/rsvp?id=382545 (https://hub.pcc.edu/
+ rsvp?id=382545)
+X-ALT-DESC;FMTTYPE=text/html:This online four-week counseling group focus
+ es on recovery from trauma and substance abuse using an approach called "
+ Seeking Safety".<br />Meeting Link: <a href="https://docs.google.com/form
+ s/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform
+ " target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-x
+ qmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform</a><br />—<br />Event De
+ tails: <a href="https://hub.pcc.edu/rsvp?id=382545" target="_blank">https
+ ://hub.pcc.edu/rsvp?id=382545</a>
 UID:20260512T170000Z-10259@events.pcc.edu
 DTSTAMP:20260401T103908Z
 URL:https://events.pcc.edu/counseling/event/10259-take-charge-of-your-hea
@@ -2509,33 +2517,6 @@ X-LIVEWHALE-ID:10766
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260512T100000
-DTEND;TZID=America/Los_Angeles:20260512T110000
-SUMMARY:Take Charge of Your Healing
-DESCRIPTION:This online four-week counseling group focuses on recovery fr
- om trauma and substance abuse using an approach called "Seeking Safety".M
- eeting Link: https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s
- 0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform (https://docs.google.com/forms/
- d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform)�
- ��Event Details: https://hub.pcc.edu/rsvp?id=382545 (https://hub.pcc.edu/
- rsvp?id=382545)
-X-ALT-DESC;FMTTYPE=text/html:This online four-week counseling group focus
- es on recovery from trauma and substance abuse using an approach called "
- Seeking Safety".<br />Meeting Link: <a href="https://docs.google.com/form
- s/d/e/1FAIpQLSfeAiAK6m3mO-xqmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform
- " target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSfeAiAK6m3mO-x
- qmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform</a><br />—<br />Event De
- tails: <a href="https://hub.pcc.edu/rsvp?id=382545" target="_blank">https
- ://hub.pcc.edu/rsvp?id=382545</a>
-UID:20260512T170000Z-10164@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10164-take-charge-of-your-healing
-LAST-MODIFIED:20260401T173908Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10164
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260512T103000
 DTEND;TZID=America/Los_Angeles:20260512T153000
 SUMMARY:Shared Space\, Separate Work
@@ -2561,50 +2542,6 @@ URL:https://events.pcc.edu/event/9602-shared-space-separate-work
 LAST-MODIFIED:20260123T043118Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9602
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260512T110000
-DTEND;TZID=America/Los_Angeles:20260512T140000
-SUMMARY:Multnomah County Mobile Clinic
-DESCRIPTION:The Multnomah County Mobile Clinic will provide medical\, den
- tal\, behavioral health\, and case management services at the Southeast c
- ampus in the courtyard between the Mt. Tabor and Mt. Scott buildings.Serv
- ices are available to students\, staff\, and community members on a first
- -come\, first-served basis\; signups are located in front of the clinic v
- an.The mobile clinic accepts OHP and other insurance plans\, but insuranc
- e is not required to receive services.The mobile clinic can provide healt
- hcare to everyone living in Multnomah county\, whether they are covered b
- y insurance\, paying what they can\, or unable to pay. No one will be tur
- ned away due to inability to pay.The spring term schedule for the Mobile 
- Clinic is 11:00-2:00 on the 2nd and 4th Tuesdays of the month:March 10Apr
- il 14April 28May 12May 26June 9If you have additional questions\, feel fr
- ee to check out the Multnomah County Mobile Clinic website or email us at
-  basicneeds@pcc.edu.—Event Details: https://hub.pcc.edu/rsvp?id=382422 
- (https://hub.pcc.edu/rsvp?id=382422)
-X-ALT-DESC;FMTTYPE=text/html:The Multnomah County Mobile Clinic will prov
- ide medical\, dental\, behavioral health\, and case management services a
- t the Southeast campus in the courtyard between the Mt. Tabor and Mt. Sco
- tt buildings.<br />Services are available to students\, staff\, and commu
- nity members on a first-come\, first-served basis\; signups are located i
- n front of the clinic van.<br />The mobile clinic accepts OHP and other i
- nsurance plans\, but insurance is not required to receive services.The mo
- bile clinic can provide healthcare to everyone living in Multnomah county
- \, whether they are covered by insurance\, paying what they can\, or unab
- le to pay. No one will be turned away due to inability to pay.<br />The s
- pring term schedule for the Mobile Clinic is 11:00-2:00 on the 2nd and 4t
- h Tuesdays of the month:<br />March 10<br />April 14<br />April 28<br />M
- ay 12<br />May 26<br />June 9<br />If you have additional questions\, fee
- l free to check out the Multnomah County Mobile Clinic website or email u
- s at basicneeds@pcc.edu.<br />—<br />Event Details: <a href="https://hu
- b.pcc.edu/rsvp?id=382422" target="_blank">https://hub.pcc.edu/rsvp?id=382
- 422</a>
-UID:20260512T180000Z-10057@events.pcc.edu
-DTSTAMP:20260303T070531Z
-URL:https://events.pcc.edu/event/10057-multnomah-county-mobile-clinic
-LAST-MODIFIED:20260303T150531Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10057
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2655,6 +2592,50 @@ URL:https://events.pcc.edu/event/10621-sva-general-meeting
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10621
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260512T110000
+DTEND;TZID=America/Los_Angeles:20260512T140000
+SUMMARY:Multnomah County Mobile Clinic
+DESCRIPTION:The Multnomah County Mobile Clinic will provide medical\, den
+ tal\, behavioral health\, and case management services at the Southeast c
+ ampus in the courtyard between the Mt. Tabor and Mt. Scott buildings.Serv
+ ices are available to students\, staff\, and community members on a first
+ -come\, first-served basis\; signups are located in front of the clinic v
+ an.The mobile clinic accepts OHP and other insurance plans\, but insuranc
+ e is not required to receive services.The mobile clinic can provide healt
+ hcare to everyone living in Multnomah county\, whether they are covered b
+ y insurance\, paying what they can\, or unable to pay. No one will be tur
+ ned away due to inability to pay.The spring term schedule for the Mobile 
+ Clinic is 11:00-2:00 on the 2nd and 4th Tuesdays of the month:March 10Apr
+ il 14April 28May 12May 26June 9If you have additional questions\, feel fr
+ ee to check out the Multnomah County Mobile Clinic website or email us at
+  basicneeds@pcc.edu.—Event Details: https://hub.pcc.edu/rsvp?id=382422 
+ (https://hub.pcc.edu/rsvp?id=382422)
+X-ALT-DESC;FMTTYPE=text/html:The Multnomah County Mobile Clinic will prov
+ ide medical\, dental\, behavioral health\, and case management services a
+ t the Southeast campus in the courtyard between the Mt. Tabor and Mt. Sco
+ tt buildings.<br />Services are available to students\, staff\, and commu
+ nity members on a first-come\, first-served basis\; signups are located i
+ n front of the clinic van.<br />The mobile clinic accepts OHP and other i
+ nsurance plans\, but insurance is not required to receive services.The mo
+ bile clinic can provide healthcare to everyone living in Multnomah county
+ \, whether they are covered by insurance\, paying what they can\, or unab
+ le to pay. No one will be turned away due to inability to pay.<br />The s
+ pring term schedule for the Mobile Clinic is 11:00-2:00 on the 2nd and 4t
+ h Tuesdays of the month:<br />March 10<br />April 14<br />April 28<br />M
+ ay 12<br />May 26<br />June 9<br />If you have additional questions\, fee
+ l free to check out the Multnomah County Mobile Clinic website or email u
+ s at basicneeds@pcc.edu.<br />—<br />Event Details: <a href="https://hu
+ b.pcc.edu/rsvp?id=382422" target="_blank">https://hub.pcc.edu/rsvp?id=382
+ 422</a>
+UID:20260512T180000Z-10057@events.pcc.edu
+DTSTAMP:20260303T070531Z
+URL:https://events.pcc.edu/event/10057-multnomah-county-mobile-clinic
+LAST-MODIFIED:20260303T150531Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10057
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2724,21 +2705,24 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260512T130000
 DTEND;TZID=America/Los_Angeles:20260512T140000
-SUMMARY:Common Ground Gardening Volunteer Times
-DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
- den! No experience necessary!—Event Details: https://hub.pcc.edu/rsvp?i
- d=383036 (https://hub.pcc.edu/rsvp?id=383036)
-X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
- reek Learning Garden! No experience necessary!<br />—<br />Event Detail
- s: <a href="https://hub.pcc.edu/rsvp?id=383036" target="_blank">https://h
- ub.pcc.edu/rsvp?id=383036</a>
-UID:20260512T200000Z-10765@events.pcc.edu
-DTSTAMP:20260422T211142Z
-URL:https://events.pcc.edu/event/10765-common-ground-gardening-volunteer-
- times
-LAST-MODIFIED:20260423T041142Z
+SUMMARY:Living in the Moment
+DESCRIPTION:Build simple mindfulness skills to stay grounded\, increase f
+ lexibility\, and navigate tough moments more effectively.Meeting Link: ht
+ tps://portlandcc.zoom.us/j/91408331294 (https://portlandcc.zoom.us/j/9140
+ 8331294)—Event Details: https://hub.pcc.edu/rsvp?id=382493 (https://hub
+ .pcc.edu/rsvp?id=382493)
+X-ALT-DESC;FMTTYPE=text/html:Build simple mindfulness skills to stay grou
+ nded\, increase flexibility\, and navigate tough moments more effectively
+ .<br />Meeting Link: <a href="https://portlandcc.zoom.us/j/91408331294" t
+ arget="_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<br /
+ >Event Details: <a href="https://hub.pcc.edu/rsvp?id=382493" target="_bla
+ nk">https://hub.pcc.edu/rsvp?id=382493</a>
+UID:20260512T200000Z-10243@events.pcc.edu
+DTSTAMP:20260401T103719Z
+URL:https://events.pcc.edu/counseling/event/10243-living-in-the-moment
+LAST-MODIFIED:20260401T180218Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10765
+X-LIVEWHALE-ID:10243
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2762,6 +2746,26 @@ URL:https://events.pcc.edu/event/10107-living-in-the-moment
 LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10107
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260512T130000
+DTEND;TZID=America/Los_Angeles:20260512T140000
+SUMMARY:Common Ground Gardening Volunteer Times
+DESCRIPTION:Help us build new garden beds for the Rock Creek Learning Gar
+ den! No experience necessary!—Event Details: https://hub.pcc.edu/rsvp?i
+ d=383036 (https://hub.pcc.edu/rsvp?id=383036)
+X-ALT-DESC;FMTTYPE=text/html:Help us build new garden beds for the Rock C
+ reek Learning Garden! No experience necessary!<br />—<br />Event Detail
+ s: <a href="https://hub.pcc.edu/rsvp?id=383036" target="_blank">https://h
+ ub.pcc.edu/rsvp?id=383036</a>
+UID:20260512T200000Z-10765@events.pcc.edu
+DTSTAMP:20260422T211142Z
+URL:https://events.pcc.edu/event/10765-common-ground-gardening-volunteer-
+ times
+LAST-MODIFIED:20260423T041142Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10765
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2795,26 +2799,22 @@ X-LIVEWHALE-ID:10163
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260512T130000
-DTEND;TZID=America/Los_Angeles:20260512T140000
-SUMMARY:Living in the Moment
-DESCRIPTION:Build simple mindfulness skills to stay grounded\, increase f
- lexibility\, and navigate tough moments more effectively.Meeting Link: ht
- tps://portlandcc.zoom.us/j/91408331294 (https://portlandcc.zoom.us/j/9140
- 8331294)—Event Details: https://hub.pcc.edu/rsvp?id=382493 (https://hub
- .pcc.edu/rsvp?id=382493)
-X-ALT-DESC;FMTTYPE=text/html:Build simple mindfulness skills to stay grou
- nded\, increase flexibility\, and navigate tough moments more effectively
- .<br />Meeting Link: <a href="https://portlandcc.zoom.us/j/91408331294" t
- arget="_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<br /
- >Event Details: <a href="https://hub.pcc.edu/rsvp?id=382493" target="_bla
- nk">https://hub.pcc.edu/rsvp?id=382493</a>
-UID:20260512T200000Z-10243@events.pcc.edu
-DTSTAMP:20260401T103719Z
-URL:https://events.pcc.edu/counseling/event/10243-living-in-the-moment
-LAST-MODIFIED:20260401T180218Z
+DTSTART;TZID=America/Los_Angeles:20260512T133000
+DTEND;TZID=America/Los_Angeles:20260512T160000
+SUMMARY:SY open gym volleyball
+DESCRIPTION:Can you bump\, set\, spike??? Join us for volleyball at the S
+ ylvania Campus.—Event Details: https://hub.pcc.edu/rsvp?id=383093 (http
+ s://hub.pcc.edu/rsvp?id=383093)
+X-ALT-DESC;FMTTYPE=text/html:Can you bump\, set\, spike??? Join us for vo
+ lleyball at the Sylvania Campus.<br />—<br />Event Details: <a href="ht
+ tps://hub.pcc.edu/rsvp?id=383093" target="_blank">https://hub.pcc.edu/rsv
+ p?id=383093</a>
+UID:20260512T203000Z-10852@events.pcc.edu
+DTSTAMP:20260429T192118Z
+URL:https://events.pcc.edu/event/10852-sy-open-gym-volleyball
+LAST-MODIFIED:20260430T022118Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10243
+X-LIVEWHALE-ID:10852
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -2832,25 +2832,6 @@ URL:https://events.pcc.edu/event/10287-aro-ace-discussion-group
 LAST-MODIFIED:20260403T014116Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10287
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260512T133000
-DTEND;TZID=America/Los_Angeles:20260512T160000
-SUMMARY:SY open gym volleyball
-DESCRIPTION:Can you bump\, set\, spike??? Join us for volleyball at the S
- ylvania Campus.—Event Details: https://hub.pcc.edu/rsvp?id=383093 (http
- s://hub.pcc.edu/rsvp?id=383093)
-X-ALT-DESC;FMTTYPE=text/html:Can you bump\, set\, spike??? Join us for vo
- lleyball at the Sylvania Campus.<br />—<br />Event Details: <a href="ht
- tps://hub.pcc.edu/rsvp?id=383093" target="_blank">https://hub.pcc.edu/rsv
- p?id=383093</a>
-UID:20260512T203000Z-10852@events.pcc.edu
-DTSTAMP:20260429T192118Z
-URL:https://events.pcc.edu/event/10852-sy-open-gym-volleyball
-LAST-MODIFIED:20260430T022118Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10852
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -3105,6 +3086,29 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260513T120000
+DTEND;TZID=America/Los_Angeles:20260513T130000
+SUMMARY:Walking Wednesday
+DESCRIPTION:Come join us for a walk every Wednesday at 12 PM.Meet at the 
+ VRC (CC RM 226) and walk various locations around campus. All routes will
+  be accessible and beginner friendly.All are welcome. Light refreshments 
+ will be provided!—Event Details: https://hub.pcc.edu/rsvp?id=382808 (ht
+ tps://hub.pcc.edu/rsvp?id=382808)
+X-ALT-DESC;FMTTYPE=text/html:Come join us for a walk every Wednesday at 1
+ 2 PM.<br />Meet at the VRC (CC RM 226) and walk various locations around 
+ campus. All routes will be accessible and beginner friendly.<br />All are
+  welcome. Light refreshments will be provided!<br />—<br />Event Detail
+ s: <a href="https://hub.pcc.edu/rsvp?id=382808" target="_blank">https://h
+ ub.pcc.edu/rsvp?id=382808</a>
+UID:20260513T190000Z-10618@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10618-walking-wednesday
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10618
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260513T120000
 DTEND;TZID=America/Los_Angeles:20260513T140000
 SUMMARY:Queer + Trans Disability Club
 DESCRIPTION:Come meet other QT Disabled Folks in an accessible space to c
@@ -3134,29 +3138,6 @@ URL:https://events.pcc.edu/event/10348-queer-trans-disability-club
 LAST-MODIFIED:20260408T193330Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10348
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260513T120000
-DTEND;TZID=America/Los_Angeles:20260513T130000
-SUMMARY:Walking Wednesday
-DESCRIPTION:Come join us for a walk every Wednesday at 12 PM.Meet at the 
- VRC (CC RM 226) and walk various locations around campus. All routes will
-  be accessible and beginner friendly.All are welcome. Light refreshments 
- will be provided!—Event Details: https://hub.pcc.edu/rsvp?id=382808 (ht
- tps://hub.pcc.edu/rsvp?id=382808)
-X-ALT-DESC;FMTTYPE=text/html:Come join us for a walk every Wednesday at 1
- 2 PM.<br />Meet at the VRC (CC RM 226) and walk various locations around 
- campus. All routes will be accessible and beginner friendly.<br />All are
-  welcome. Light refreshments will be provided!<br />—<br />Event Detail
- s: <a href="https://hub.pcc.edu/rsvp?id=382808" target="_blank">https://h
- ub.pcc.edu/rsvp?id=382808</a>
-UID:20260513T190000Z-10618@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10618-walking-wednesday
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10618
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -3273,28 +3254,22 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260513T150000
 DTEND;TZID=America/Los_Angeles:20260513T160000
-SUMMARY:Grief & Loss Processing Group
-DESCRIPTION:Join us for a four-week counseling process group about grief 
- and loss. The group is an opportunity for members to share and process ex
- periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
- /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
- ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
- f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
- =382521 (https://hub.pcc.edu/rsvp?id=382521)
-X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
- roup about grief and loss. The group is an opportunity for members to sha
- re and process experiences of grief and loss.<br />Meeting Link: <a href=
- "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
- 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
- rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
- rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
- 382521" target="_blank">https://hub.pcc.edu/rsvp?id=382521</a>
-UID:20260513T220000Z-10162@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10162-grief-loss-processing-group
-LAST-MODIFIED:20260401T173947Z
+SUMMARY:Coping Skills for ADHD
+DESCRIPTION:Curious about ADHD? Learn strategies &amp\; techniques to hel
+ p manage ADHD.Meeting Link: https://portlandcc.zoom.us/j/91408331294 (htt
+ ps://portlandcc.zoom.us/j/91408331294)—Event Details: https://hub.pcc.e
+ du/rsvp?id=382483 (https://hub.pcc.edu/rsvp?id=382483)
+X-ALT-DESC;FMTTYPE=text/html:Curious about ADHD? Learn strategies &amp\; 
+ techniques to help manage ADHD.<br />Meeting Link: <a href="https://portl
+ andcc.zoom.us/j/91408331294" target="_blank">https://portlandcc.zoom.us/j
+ /91408331294</a><br />—<br />Event Details: <a href="https://hub.pcc.ed
+ u/rsvp?id=382483" target="_blank">https://hub.pcc.edu/rsvp?id=382483</a>
+UID:20260513T220000Z-10106@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10106-coping-skills-for-adhd
+LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10162
+X-LIVEWHALE-ID:10106
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -3335,22 +3310,28 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260513T150000
 DTEND;TZID=America/Los_Angeles:20260513T160000
-SUMMARY:Coping Skills for ADHD
-DESCRIPTION:Curious about ADHD? Learn strategies &amp\; techniques to hel
- p manage ADHD.Meeting Link: https://portlandcc.zoom.us/j/91408331294 (htt
- ps://portlandcc.zoom.us/j/91408331294)—Event Details: https://hub.pcc.e
- du/rsvp?id=382483 (https://hub.pcc.edu/rsvp?id=382483)
-X-ALT-DESC;FMTTYPE=text/html:Curious about ADHD? Learn strategies &amp\; 
- techniques to help manage ADHD.<br />Meeting Link: <a href="https://portl
- andcc.zoom.us/j/91408331294" target="_blank">https://portlandcc.zoom.us/j
- /91408331294</a><br />—<br />Event Details: <a href="https://hub.pcc.ed
- u/rsvp?id=382483" target="_blank">https://hub.pcc.edu/rsvp?id=382483</a>
-UID:20260513T220000Z-10106@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10106-coping-skills-for-adhd
-LAST-MODIFIED:20260422T145130Z
+SUMMARY:Grief & Loss Processing Group
+DESCRIPTION:Join us for a four-week counseling process group about grief 
+ and loss. The group is an opportunity for members to share and process ex
+ periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
+ /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
+ ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
+ f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
+ =382521 (https://hub.pcc.edu/rsvp?id=382521)
+X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
+ roup about grief and loss. The group is an opportunity for members to sha
+ re and process experiences of grief and loss.<br />Meeting Link: <a href=
+ "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
+ 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
+ rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
+ rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
+ 382521" target="_blank">https://hub.pcc.edu/rsvp?id=382521</a>
+UID:20260513T220000Z-10162@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10162-grief-loss-processing-group
+LAST-MODIFIED:20260401T173947Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10106
+X-LIVEWHALE-ID:10162
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -3717,23 +3698,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260514T120000
-DTEND;TZID=America/Los_Angeles:20260514T150000
-SUMMARY:Civic Action Workshop
-DESCRIPTION:Civic Action Workshop—Event Details: https://hub.pcc.edu/rs
- vp?id=382594 (https://hub.pcc.edu/rsvp?id=382594)
-X-ALT-DESC;FMTTYPE=text/html:Civic Action Workshop<br />—<br />Event De
- tails: <a href="https://hub.pcc.edu/rsvp?id=382594" target="_blank">https
- ://hub.pcc.edu/rsvp?id=382594</a>
-UID:20260514T190000Z-10860@events.pcc.edu
-DTSTAMP:20260501T210047Z
-URL:https://events.pcc.edu/event/10860-civic-action-workshop
-LAST-MODIFIED:20260502T040047Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10860
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260514T120000
 DTEND;TZID=America/Los_Angeles:20260514T140000
 SUMMARY:Pop-Up Clothing Pantry
 DESCRIPTION:Come browse a selection of free clothing\, open to all studen
@@ -3749,6 +3713,23 @@ URL:https://events.pcc.edu/event/10688-pop-up-clothing-pantry
 LAST-MODIFIED:20260421T031122Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10688
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260514T120000
+DTEND;TZID=America/Los_Angeles:20260514T150000
+SUMMARY:Civic Action Workshop
+DESCRIPTION:Civic Action Workshop—Event Details: https://hub.pcc.edu/rs
+ vp?id=382594 (https://hub.pcc.edu/rsvp?id=382594)
+X-ALT-DESC;FMTTYPE=text/html:Civic Action Workshop<br />—<br />Event De
+ tails: <a href="https://hub.pcc.edu/rsvp?id=382594" target="_blank">https
+ ://hub.pcc.edu/rsvp?id=382594</a>
+UID:20260514T190000Z-10860@events.pcc.edu
+DTSTAMP:20260501T210047Z
+URL:https://events.pcc.edu/event/10860-civic-action-workshop
+LAST-MODIFIED:20260502T040047Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10860
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -3983,13 +3964,13 @@ X-ALT-DESC;FMTTYPE=text/html:Learn how your nervous system responds to st
  s/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294
  </a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38
  2507" target="_blank">https://hub.pcc.edu/rsvp?id=382507</a>
-UID:20260515T170000Z-10105@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10105-regulate-recharge-attending-to-you
- r-nervous
-LAST-MODIFIED:20260422T145130Z
+UID:20260515T170000Z-10261@events.pcc.edu
+DTSTAMP:20260401T103924Z
+URL:https://events.pcc.edu/counseling/event/10261-regulate-recharge-atten
+ ding-to-your-nervous
+LAST-MODIFIED:20260401T180340Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10105
+X-LIVEWHALE-ID:10261
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -4030,13 +4011,13 @@ X-ALT-DESC;FMTTYPE=text/html:Learn how your nervous system responds to st
  s/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294
  </a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38
  2507" target="_blank">https://hub.pcc.edu/rsvp?id=382507</a>
-UID:20260515T170000Z-10261@events.pcc.edu
-DTSTAMP:20260401T103924Z
-URL:https://events.pcc.edu/counseling/event/10261-regulate-recharge-atten
- ding-to-your-nervous
-LAST-MODIFIED:20260401T180340Z
+UID:20260515T170000Z-10105@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10105-regulate-recharge-attending-to-you
+ r-nervous
+LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10261
+X-LIVEWHALE-ID:10105
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -4398,6 +4379,25 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260518T130000
+DTEND;TZID=America/Los_Angeles:20260518T140000
+SUMMARY:Magic Mondays
+DESCRIPTION:Discover a universe of strategy and fun!BRING YOUR OWN DECK**
+ Some extra decks may be available for learning purposes.—Event Details:
+  https://hub.pcc.edu/rsvp?id=382774 (https://hub.pcc.edu/rsvp?id=382774)
+X-ALT-DESC;FMTTYPE=text/html:Discover a universe of strategy and fun!<br 
+ />BRING YOUR OWN DECK*<br />*Some extra decks may be available for learni
+ ng purposes.<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
+ vp?id=382774" target="_blank">https://hub.pcc.edu/rsvp?id=382774</a>
+UID:20260518T200000Z-10612@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10612-magic-mondays
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10612
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260518T130000
 DTEND;TZID=America/Los_Angeles:20260518T150000
 SUMMARY:TT4T: Tabletop for Trans (and friends!)
 DESCRIPTION:Join the Cascade QRC for our bi-weekly event - Tabletop for T
@@ -4418,25 +4418,6 @@ URL:https://events.pcc.edu/event/10071-tt4t-tabletop-for-trans-and-friends
 LAST-MODIFIED:20260305T163650Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10071
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260518T130000
-DTEND;TZID=America/Los_Angeles:20260518T140000
-SUMMARY:Magic Mondays
-DESCRIPTION:Discover a universe of strategy and fun!BRING YOUR OWN DECK**
- Some extra decks may be available for learning purposes.—Event Details:
-  https://hub.pcc.edu/rsvp?id=382774 (https://hub.pcc.edu/rsvp?id=382774)
-X-ALT-DESC;FMTTYPE=text/html:Discover a universe of strategy and fun!<br 
- />BRING YOUR OWN DECK*<br />*Some extra decks may be available for learni
- ng purposes.<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
- vp?id=382774" target="_blank">https://hub.pcc.edu/rsvp?id=382774</a>
-UID:20260518T200000Z-10612@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10612-magic-mondays
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10612
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -4595,12 +4576,13 @@ X-ALT-DESC;FMTTYPE=text/html:This online four-week counseling group focus
  qmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform</a><br />—<br />Event De
  tails: <a href="https://hub.pcc.edu/rsvp?id=382546" target="_blank">https
  ://hub.pcc.edu/rsvp?id=382546</a>
-UID:20260519T170000Z-10159@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10159-take-charge-of-your-healing
-LAST-MODIFIED:20260401T173908Z
+UID:20260519T170000Z-10258@events.pcc.edu
+DTSTAMP:20260401T103908Z
+URL:https://events.pcc.edu/counseling/event/10258-take-charge-of-your-hea
+ ling
+LAST-MODIFIED:20260401T180258Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10159
+X-LIVEWHALE-ID:10258
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -4622,13 +4604,12 @@ X-ALT-DESC;FMTTYPE=text/html:This online four-week counseling group focus
  qmt0s0GmZO9Kw3c4hAUaxVTq7dSG4-VTirQ/closedform</a><br />—<br />Event De
  tails: <a href="https://hub.pcc.edu/rsvp?id=382546" target="_blank">https
  ://hub.pcc.edu/rsvp?id=382546</a>
-UID:20260519T170000Z-10258@events.pcc.edu
-DTSTAMP:20260401T103908Z
-URL:https://events.pcc.edu/counseling/event/10258-take-charge-of-your-hea
- ling
-LAST-MODIFIED:20260401T180258Z
+UID:20260519T170000Z-10159@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10159-take-charge-of-your-healing
+LAST-MODIFIED:20260401T173908Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10258
+X-LIVEWHALE-ID:10159
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -5030,25 +5011,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260520T120000
-DTEND;TZID=America/Los_Angeles:20260520T150000
-SUMMARY:Smash Bros at the VRC
-DESCRIPTION:Join the VRC &amp\; QRC in a friendly battle every Wednesday 
- from 12-3pm! All materials will be provided.—Event Details: https://hub
- .pcc.edu/rsvp?id=382885 (https://hub.pcc.edu/rsvp?id=382885)
-X-ALT-DESC;FMTTYPE=text/html:Join the VRC &amp\; QRC in a friendly battle
-  every Wednesday from 12-3pm! All materials will be provided.<br />—<br
-  />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382885" target="_b
- lank">https://hub.pcc.edu/rsvp?id=382885</a>
-UID:20260520T190000Z-10608@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10608-smash-bros-at-the-vrc
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10608
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260520T120000
 DTEND;TZID=America/Los_Angeles:20260520T130000
 SUMMARY:Walking Wednesday
 DESCRIPTION:Come join us for a walk every Wednesday at 12 PM.Meet at the 
@@ -5068,6 +5030,25 @@ URL:https://events.pcc.edu/event/10609-walking-wednesday
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10609
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260520T120000
+DTEND;TZID=America/Los_Angeles:20260520T150000
+SUMMARY:Smash Bros at the VRC
+DESCRIPTION:Join the VRC &amp\; QRC in a friendly battle every Wednesday 
+ from 12-3pm! All materials will be provided.—Event Details: https://hub
+ .pcc.edu/rsvp?id=382885 (https://hub.pcc.edu/rsvp?id=382885)
+X-ALT-DESC;FMTTYPE=text/html:Join the VRC &amp\; QRC in a friendly battle
+  every Wednesday from 12-3pm! All materials will be provided.<br />—<br
+  />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382885" target="_b
+ lank">https://hub.pcc.edu/rsvp?id=382885</a>
+UID:20260520T190000Z-10608@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10608-smash-bros-at-the-vrc
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10608
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -5144,36 +5125,28 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260520T150000
 DTEND;TZID=America/Los_Angeles:20260520T160000
-SUMMARY:BIPOC Healing Group
-DESCRIPTION:This counseling group provides a space or Black Indigenous Pe
- ople Of Color (BIPOC) students to discuss lived experiences. The group su
- pports students in navigating various challenges with emphasis on collect
- ive support\, connection\, and the healing process within the group. This
-  process group runs for four weeks. Please recognize this space is a plac
- e to gain community support with students that may hold identities differ
- ent than your own.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQL
- Semh9odDoGCLS3Jlu–pi-xyteU2mI9C76ZhW4kEU4tCLgnxA/viewform (https://docs
- .google.com/forms/d/e/1FAIpQLSemh9odDoGCLS3Jlu%E2%80%93pi-xyteU2mI9C76ZhW
- 4kEU4tCLgnxA/viewform)—Event Details: https://hub.pcc.edu/rsvp?id=38252
- 7 (https://hub.pcc.edu/rsvp?id=382527)
-X-ALT-DESC;FMTTYPE=text/html:This counseling group provides a space or Bl
- ack Indigenous People Of Color (BIPOC) students to discuss lived experien
- ces. The group supports students in navigating various challenges with em
- phasis on collective support\, connection\, and the healing process withi
- n the group. This process group runs for four weeks. Please recognize thi
- s space is a place to gain community support with students that may hold 
- identities different than your own.<br />Meeting Link: <a href="https://d
- ocs.google.com/forms/d/e/1FAIpQLSemh9odDoGCLS3Jlu%E2%80%93pi-xyteU2mI9C76
- ZhW4kEU4tCLgnxA/viewform" target="_blank">https://docs.google.com/forms/d
- /e/1FAIpQLSemh9odDoGCLS3Jlu–pi-xyteU2mI9C76ZhW4kEU4tCLgnxA/viewform</a>
- <br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382527
- " target="_blank">https://hub.pcc.edu/rsvp?id=382527</a>
-UID:20260520T220000Z-10268@events.pcc.edu
-DTSTAMP:20260401T104006Z
-URL:https://events.pcc.edu/counseling/event/10268-bipoc-healing-group
-LAST-MODIFIED:20260401T180130Z
+SUMMARY:Grief & Loss Processing Group
+DESCRIPTION:Join us for a four-week counseling process group about grief 
+ and loss. The group is an opportunity for members to share and process ex
+ periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
+ /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
+ ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
+ f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
+ =382522 (https://hub.pcc.edu/rsvp?id=382522)
+X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
+ roup about grief and loss. The group is an opportunity for members to sha
+ re and process experiences of grief and loss.<br />Meeting Link: <a href=
+ "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
+ 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
+ rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
+ rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
+ 382522" target="_blank">https://hub.pcc.edu/rsvp?id=382522</a>
+UID:20260520T220000Z-10157@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10157-grief-loss-processing-group
+LAST-MODIFIED:20260401T173947Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10268
+X-LIVEWHALE-ID:10157
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -5214,28 +5187,36 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260520T150000
 DTEND;TZID=America/Los_Angeles:20260520T160000
-SUMMARY:Grief & Loss Processing Group
-DESCRIPTION:Join us for a four-week counseling process group about grief 
- and loss. The group is an opportunity for members to share and process ex
- periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
- /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
- ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
- f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
- =382522 (https://hub.pcc.edu/rsvp?id=382522)
-X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
- roup about grief and loss. The group is an opportunity for members to sha
- re and process experiences of grief and loss.<br />Meeting Link: <a href=
- "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
- 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
- rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
- rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
- 382522" target="_blank">https://hub.pcc.edu/rsvp?id=382522</a>
-UID:20260520T220000Z-10157@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10157-grief-loss-processing-group
-LAST-MODIFIED:20260401T173947Z
+SUMMARY:BIPOC Healing Group
+DESCRIPTION:This counseling group provides a space or Black Indigenous Pe
+ ople Of Color (BIPOC) students to discuss lived experiences. The group su
+ pports students in navigating various challenges with emphasis on collect
+ ive support\, connection\, and the healing process within the group. This
+  process group runs for four weeks. Please recognize this space is a plac
+ e to gain community support with students that may hold identities differ
+ ent than your own.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQL
+ Semh9odDoGCLS3Jlu–pi-xyteU2mI9C76ZhW4kEU4tCLgnxA/viewform (https://docs
+ .google.com/forms/d/e/1FAIpQLSemh9odDoGCLS3Jlu%E2%80%93pi-xyteU2mI9C76ZhW
+ 4kEU4tCLgnxA/viewform)—Event Details: https://hub.pcc.edu/rsvp?id=38252
+ 7 (https://hub.pcc.edu/rsvp?id=382527)
+X-ALT-DESC;FMTTYPE=text/html:This counseling group provides a space or Bl
+ ack Indigenous People Of Color (BIPOC) students to discuss lived experien
+ ces. The group supports students in navigating various challenges with em
+ phasis on collective support\, connection\, and the healing process withi
+ n the group. This process group runs for four weeks. Please recognize thi
+ s space is a place to gain community support with students that may hold 
+ identities different than your own.<br />Meeting Link: <a href="https://d
+ ocs.google.com/forms/d/e/1FAIpQLSemh9odDoGCLS3Jlu%E2%80%93pi-xyteU2mI9C76
+ ZhW4kEU4tCLgnxA/viewform" target="_blank">https://docs.google.com/forms/d
+ /e/1FAIpQLSemh9odDoGCLS3Jlu–pi-xyteU2mI9C76ZhW4kEU4tCLgnxA/viewform</a>
+ <br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382527
+ " target="_blank">https://hub.pcc.edu/rsvp?id=382527</a>
+UID:20260520T220000Z-10268@events.pcc.edu
+DTSTAMP:20260401T104006Z
+URL:https://events.pcc.edu/counseling/event/10268-bipoc-healing-group
+LAST-MODIFIED:20260401T180130Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10157
+X-LIVEWHALE-ID:10268
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6219,13 +6200,13 @@ X-ALT-DESC;FMTTYPE=text/html:This group will explore the emotional and ps
  ahBJVedRnAuAgDS3S0rgNT4g/viewform</a><br />—<br />Event Details: <a hre
  f="https://hub.pcc.edu/rsvp?id=382543" target="_blank">https://hub.pcc.ed
  u/rsvp?id=382543</a>
-UID:20260526T200000Z-10249@events.pcc.edu
-DTSTAMP:20260401T103807Z
-URL:https://events.pcc.edu/counseling/event/10249-reclaiming-self-group-h
- ealing-after-narcissistic
-LAST-MODIFIED:20260401T180258Z
+UID:20260526T200000Z-10153@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10153-reclaiming-self-group-healing-afte
+ r-narcissistic
+LAST-MODIFIED:20260401T173806Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10249
+X-LIVEWHALE-ID:10153
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6249,13 +6230,13 @@ X-ALT-DESC;FMTTYPE=text/html:This group will explore the emotional and ps
  ahBJVedRnAuAgDS3S0rgNT4g/viewform</a><br />—<br />Event Details: <a hre
  f="https://hub.pcc.edu/rsvp?id=382543" target="_blank">https://hub.pcc.ed
  u/rsvp?id=382543</a>
-UID:20260526T200000Z-10153@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10153-reclaiming-self-group-healing-afte
- r-narcissistic
-LAST-MODIFIED:20260401T173806Z
+UID:20260526T200000Z-10249@events.pcc.edu
+DTSTAMP:20260401T103807Z
+URL:https://events.pcc.edu/counseling/event/10249-reclaiming-self-group-h
+ ealing-after-narcissistic
+LAST-MODIFIED:20260401T180258Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10153
+X-LIVEWHALE-ID:10249
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6554,6 +6535,38 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260527T120000
+DTEND;TZID=America/Los_Angeles:20260527T133000
+SUMMARY:Online Craft Circle
+DESCRIPTION:Join Online Learning Student Success over lunch for a drop-in
+  online crafting session! Come connect with the Online Learning Student A
+ mbassador team and other creative minds. Students\, faculty\, and staff a
+ re all welcome.Bring a craft of your choice to work on\, or some 8.5x11 p
+ aper and scissors to get craft ideas from us. No need to stay the whole t
+ ime if it doesn't work with your schedule – feel free to come and go as
+  you please! You are also welcome to bring your lunch to eat while you cr
+ aft. We are excited to see you and the craft you are working on!—Event 
+ Details: https://hub.pcc.edu/rsvp?id=382746 (https://hub.pcc.edu/rsvp?id=
+ 382746)
+X-ALT-DESC;FMTTYPE=text/html:Join Online Learning Student Success over lu
+ nch for a drop-in online crafting session! Come connect with the Online L
+ earning Student Ambassador team and other creative minds. Students\, facu
+ lty\, and staff are all welcome.<br />Bring a craft of your choice to wor
+ k on\, or some 8.5x11 paper and scissors to get craft ideas from us. No n
+ eed to stay the whole time if it doesn't work with your schedule – feel
+  free to come and go as you please! You are also welcome to bring your lu
+ nch to eat while you craft. We are excited to see you and the craft you a
+ re working on!<br />—<br />Event Details: <a href="https://hub.pcc.edu/
+ rsvp?id=382746" target="_blank">https://hub.pcc.edu/rsvp?id=382746</a>
+UID:20260527T190000Z-10545@events.pcc.edu
+DTSTAMP:20260415T161646Z
+URL:https://events.pcc.edu/event/10545-online-craft-circle
+LAST-MODIFIED:20260415T231646Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10545
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260527T120000
 DTEND;TZID=America/Los_Angeles:20260527T130000
 SUMMARY:Walking Wednesday
 DESCRIPTION:Come join us for a walk every Wednesday at 12 PM.Meet at the 
@@ -6610,38 +6623,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260527T120000
-DTEND;TZID=America/Los_Angeles:20260527T133000
-SUMMARY:Online Craft Circle
-DESCRIPTION:Join Online Learning Student Success over lunch for a drop-in
-  online crafting session! Come connect with the Online Learning Student A
- mbassador team and other creative minds. Students\, faculty\, and staff a
- re all welcome.Bring a craft of your choice to work on\, or some 8.5x11 p
- aper and scissors to get craft ideas from us. No need to stay the whole t
- ime if it doesn't work with your schedule – feel free to come and go as
-  you please! You are also welcome to bring your lunch to eat while you cr
- aft. We are excited to see you and the craft you are working on!—Event 
- Details: https://hub.pcc.edu/rsvp?id=382746 (https://hub.pcc.edu/rsvp?id=
- 382746)
-X-ALT-DESC;FMTTYPE=text/html:Join Online Learning Student Success over lu
- nch for a drop-in online crafting session! Come connect with the Online L
- earning Student Ambassador team and other creative minds. Students\, facu
- lty\, and staff are all welcome.<br />Bring a craft of your choice to wor
- k on\, or some 8.5x11 paper and scissors to get craft ideas from us. No n
- eed to stay the whole time if it doesn't work with your schedule – feel
-  free to come and go as you please! You are also welcome to bring your lu
- nch to eat while you craft. We are excited to see you and the craft you a
- re working on!<br />—<br />Event Details: <a href="https://hub.pcc.edu/
- rsvp?id=382746" target="_blank">https://hub.pcc.edu/rsvp?id=382746</a>
-UID:20260527T190000Z-10545@events.pcc.edu
-DTSTAMP:20260415T161646Z
-URL:https://events.pcc.edu/event/10545-online-craft-circle
-LAST-MODIFIED:20260415T231646Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10545
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260527T120000
 DTEND;TZID=America/Los_Angeles:20260527T150000
 SUMMARY:Smash Bros at the VRC
 DESCRIPTION:Join the VRC &amp\; QRC in a friendly battle every Wednesday 
@@ -6657,6 +6638,29 @@ URL:https://events.pcc.edu/event/10599-smash-bros-at-the-vrc
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10599
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260527T130000
+DTEND;TZID=America/Los_Angeles:20260527T140000
+SUMMARY:Academic Stress Management Support
+DESCRIPTION:A drop-in opportunity for enrolled students. Create helpful h
+ abits and routines while managing the stress of being a student. Get one-
+ on-one support.Meeting Link: https://portlandcc.zoom.us/j/96036369743 (ht
+ tps://portlandcc.zoom.us/j/96036369743)—Event Details: https://hub.pcc.
+ edu/rsvp?id=382565 (https://hub.pcc.edu/rsvp?id=382565)
+X-ALT-DESC;FMTTYPE=text/html:A drop-in opportunity for enrolled students.
+  Create helpful habits and routines while managing the stress of being a 
+ student. Get one-on-one support.<br />Meeting Link: <a href="https://port
+ landcc.zoom.us/j/96036369743" target="_blank">https://portlandcc.zoom.us/
+ j/96036369743</a><br />—<br />Event Details: <a href="https://hub.pcc.e
+ du/rsvp?id=382565" target="_blank">https://hub.pcc.edu/rsvp?id=382565</a>
+UID:20260527T200000Z-10179@events.pcc.edu
+DTSTAMP:20260331T174037Z
+URL:https://events.pcc.edu/event/10179-academic-stress-management-support
+LAST-MODIFIED:20260401T172843Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10179
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6688,29 +6692,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260527T130000
-DTEND;TZID=America/Los_Angeles:20260527T140000
-SUMMARY:Academic Stress Management Support
-DESCRIPTION:A drop-in opportunity for enrolled students. Create helpful h
- abits and routines while managing the stress of being a student. Get one-
- on-one support.Meeting Link: https://portlandcc.zoom.us/j/96036369743 (ht
- tps://portlandcc.zoom.us/j/96036369743)—Event Details: https://hub.pcc.
- edu/rsvp?id=382565 (https://hub.pcc.edu/rsvp?id=382565)
-X-ALT-DESC;FMTTYPE=text/html:A drop-in opportunity for enrolled students.
-  Create helpful habits and routines while managing the stress of being a 
- student. Get one-on-one support.<br />Meeting Link: <a href="https://port
- landcc.zoom.us/j/96036369743" target="_blank">https://portlandcc.zoom.us/
- j/96036369743</a><br />—<br />Event Details: <a href="https://hub.pcc.e
- du/rsvp?id=382565" target="_blank">https://hub.pcc.edu/rsvp?id=382565</a>
-UID:20260527T200000Z-10179@events.pcc.edu
-DTSTAMP:20260331T174037Z
-URL:https://events.pcc.edu/event/10179-academic-stress-management-support
-LAST-MODIFIED:20260401T172843Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10179
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260527T130000
 DTEND;TZID=America/Los_Angeles:20260527T150000
 SUMMARY:Queer Crafting Corner
 DESCRIPTION:Join us every other Wednesday for crafting! Each week we will
@@ -6730,37 +6711,6 @@ URL:https://events.pcc.edu/event/10069-queer-crafting-corner
 LAST-MODIFIED:20260306T163934Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10069
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260527T133000
-DTEND;TZID=America/Los_Angeles:20260527T153000
-SUMMARY:Basic Needs Resource Fair
-DESCRIPTION:The PCC Student Basic Needs Center is excited to invite you t
- o our spring 2026Basic Needs Resource FairWednesday\, May 27th1:30-3:00So
- utheastMt Tabor Great HallThis special event is open to all students\, fa
- culty\, staff\, and community members.Activities include:Free Food Market
-  1:30-2:30Meet representatives from our community partners and learn abou
- t basic needs resources.Get assistance with SNAP and OHP applications!Fre
- e Food\, Giveaways and Prizes!**quantities are limited\, arrive early—E
- vent Details: https://hub.pcc.edu/rsvp?id=382658 (https://hub.pcc.edu/rsv
- p?id=382658)
-X-ALT-DESC;FMTTYPE=text/html:The PCC Student Basic Needs Center is excite
- d to invite you to our spring 2026<br />Basic Needs Resource Fair<br />We
- dnesday\, May 27th<br />1:30-3:00<br />Southeast<br />Mt Tabor Great Hall
- <br />This special event is open to all students\, faculty\, staff\, and 
- community members.<br />Activities include:<br />Free Food Market 1:30-2:
- 30<br />Meet representatives from our community partners and learn about 
- basic needs resources.<br />Get assistance with SNAP and OHP applications
- !<br />Free Food\, Giveaways and Prizes!*<br />*quantities are limited\, 
- arrive early<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
- vp?id=382658" target="_blank">https://hub.pcc.edu/rsvp?id=382658</a>
-UID:20260527T203000Z-10344@events.pcc.edu
-DTSTAMP:20260408T123330Z
-URL:https://events.pcc.edu/event/10344-basic-needs-resource-fair
-LAST-MODIFIED:20260408T193330Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10344
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6792,6 +6742,37 @@ URL:https://events.pcc.edu/event/10040-se-free-food-market-resource-fair
 LAST-MODIFIED:20260227T123250Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10040
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260527T133000
+DTEND;TZID=America/Los_Angeles:20260527T153000
+SUMMARY:Basic Needs Resource Fair
+DESCRIPTION:The PCC Student Basic Needs Center is excited to invite you t
+ o our spring 2026Basic Needs Resource FairWednesday\, May 27th1:30-3:00So
+ utheastMt Tabor Great HallThis special event is open to all students\, fa
+ culty\, staff\, and community members.Activities include:Free Food Market
+  1:30-2:30Meet representatives from our community partners and learn abou
+ t basic needs resources.Get assistance with SNAP and OHP applications!Fre
+ e Food\, Giveaways and Prizes!**quantities are limited\, arrive early—E
+ vent Details: https://hub.pcc.edu/rsvp?id=382658 (https://hub.pcc.edu/rsv
+ p?id=382658)
+X-ALT-DESC;FMTTYPE=text/html:The PCC Student Basic Needs Center is excite
+ d to invite you to our spring 2026<br />Basic Needs Resource Fair<br />We
+ dnesday\, May 27th<br />1:30-3:00<br />Southeast<br />Mt Tabor Great Hall
+ <br />This special event is open to all students\, faculty\, staff\, and 
+ community members.<br />Activities include:<br />Free Food Market 1:30-2:
+ 30<br />Meet representatives from our community partners and learn about 
+ basic needs resources.<br />Get assistance with SNAP and OHP applications
+ !<br />Free Food\, Giveaways and Prizes!*<br />*quantities are limited\, 
+ arrive early<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
+ vp?id=382658" target="_blank">https://hub.pcc.edu/rsvp?id=382658</a>
+UID:20260527T203000Z-10344@events.pcc.edu
+DTSTAMP:20260408T123330Z
+URL:https://events.pcc.edu/event/10344-basic-needs-resource-fair
+LAST-MODIFIED:20260408T193330Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10344
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6846,40 +6827,13 @@ X-ALT-DESC;FMTTYPE=text/html:Feeling overwhelmed by upcoming exams? You'r
  .us/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/914083312
  94</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
  382485" target="_blank">https://hub.pcc.edu/rsvp?id=382485</a>
-UID:20260527T220000Z-10253@events.pcc.edu
-DTSTAMP:20260401T103830Z
-URL:https://events.pcc.edu/counseling/event/10253-stressed-about-tests-jo
- in-our-test-anxiety
-LAST-MODIFIED:20260401T180311Z
+UID:20260527T220000Z-10100@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10100-stressed-about-tests-join-our-test
+ -anxiety
+LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10253
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260527T150000
-DTEND;TZID=America/Los_Angeles:20260527T160000
-SUMMARY:Grief & Loss Processing Group
-DESCRIPTION:Join us for a four-week counseling process group about grief 
- and loss. The group is an opportunity for members to share and process ex
- periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
- /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
- ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
- f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
- =382523 (https://hub.pcc.edu/rsvp?id=382523)
-X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
- roup about grief and loss. The group is an opportunity for members to sha
- re and process experiences of grief and loss.<br />Meeting Link: <a href=
- "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
- 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
- rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
- rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
- 382523" target="_blank">https://hub.pcc.edu/rsvp?id=382523</a>
-UID:20260527T220000Z-10152@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10152-grief-loss-processing-group
-LAST-MODIFIED:20260401T173947Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10152
+X-LIVEWHALE-ID:10100
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6920,6 +6874,33 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260527T150000
 DTEND;TZID=America/Los_Angeles:20260527T160000
+SUMMARY:Grief & Loss Processing Group
+DESCRIPTION:Join us for a four-week counseling process group about grief 
+ and loss. The group is an opportunity for members to share and process ex
+ periences of grief and loss.Meeting Link: https://docs.google.com/forms/d
+ /e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedform (h
+ ttps://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2B
+ f6XEKbTaYsWexUxw/closedform)—Event Details: https://hub.pcc.edu/rsvp?id
+ =382523 (https://hub.pcc.edu/rsvp?id=382523)
+X-ALT-DESC;FMTTYPE=text/html:Join us for a four-week counseling process g
+ roup about grief and loss. The group is an opportunity for members to sha
+ re and process experiences of grief and loss.<br />Meeting Link: <a href=
+ "https://docs.google.com/forms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf
+ 2Bf6XEKbTaYsWexUxw/closedform" target="_blank">https://docs.google.com/fo
+ rms/d/e/1FAIpQLSeSu38YIuiF5dFCs1P0NuCqL_Rr0ZNf2Bf6XEKbTaYsWexUxw/closedfo
+ rm</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
+ 382523" target="_blank">https://hub.pcc.edu/rsvp?id=382523</a>
+UID:20260527T220000Z-10152@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10152-grief-loss-processing-group
+LAST-MODIFIED:20260401T173947Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10152
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260527T150000
+DTEND;TZID=America/Los_Angeles:20260527T160000
 SUMMARY:Stressed About Tests? Join Our Test Anxiety Workshop!
 DESCRIPTION:Feeling overwhelmed by upcoming exams? You're not alone. Come
   learn practical strategies to manage stress\, boost confidence\, and per
@@ -6934,13 +6915,13 @@ X-ALT-DESC;FMTTYPE=text/html:Feeling overwhelmed by upcoming exams? You'r
  .us/j/91408331294" target="_blank">https://portlandcc.zoom.us/j/914083312
  94</a><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
  382485" target="_blank">https://hub.pcc.edu/rsvp?id=382485</a>
-UID:20260527T220000Z-10100@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10100-stressed-about-tests-join-our-test
- -anxiety
-LAST-MODIFIED:20260422T145130Z
+UID:20260527T220000Z-10253@events.pcc.edu
+DTSTAMP:20260401T103830Z
+URL:https://events.pcc.edu/counseling/event/10253-stressed-about-tests-jo
+ in-our-test-anxiety
+LAST-MODIFIED:20260401T180311Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10100
+X-LIVEWHALE-ID:10253
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -6991,13 +6972,12 @@ X-ALT-DESC;FMTTYPE=text/html:Learn about the impact of narcissistic relat
  "_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<br />Event
   Details: <a href="https://hub.pcc.edu/rsvp?id=382495" target="_blank">ht
  tps://hub.pcc.edu/rsvp?id=382495</a>
-UID:20260528T000000Z-10247@events.pcc.edu
-DTSTAMP:20260401T103807Z
-URL:https://events.pcc.edu/counseling/event/10247-healing-from-narcissist
- ic-abuse
-LAST-MODIFIED:20260401T180258Z
+UID:20260528T000000Z-10099@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10099-healing-from-narcissistic-abuse
+LAST-MODIFIED:20260422T145130Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10247
+X-LIVEWHALE-ID:10099
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -7017,12 +6997,13 @@ X-ALT-DESC;FMTTYPE=text/html:Learn about the impact of narcissistic relat
  "_blank">https://portlandcc.zoom.us/j/91408331294</a><br />—<br />Event
   Details: <a href="https://hub.pcc.edu/rsvp?id=382495" target="_blank">ht
  tps://hub.pcc.edu/rsvp?id=382495</a>
-UID:20260528T000000Z-10099@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10099-healing-from-narcissistic-abuse
-LAST-MODIFIED:20260422T145130Z
+UID:20260528T000000Z-10247@events.pcc.edu
+DTSTAMP:20260401T103807Z
+URL:https://events.pcc.edu/counseling/event/10247-healing-from-narcissist
+ ic-abuse
+LAST-MODIFIED:20260401T180258Z
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10099
+X-LIVEWHALE-ID:10247
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -7068,6 +7049,48 @@ URL:https://events.pcc.edu/event/10598-bob-therapy
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10598
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260528T100000
+DTEND;TZID=America/Los_Angeles:20260528T110000
+SUMMARY:Untwist your thinking
+DESCRIPTION:Identify and adjust thought distortions and thinking errors.M
+ eeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlandcc
+ .zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3824
+ 89 (https://hub.pcc.edu/rsvp?id=382489)
+X-ALT-DESC;FMTTYPE=text/html:Identify and adjust thought distortions and 
+ thinking errors.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j
+ /91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294</a
+ ><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38248
+ 9" target="_blank">https://hub.pcc.edu/rsvp?id=382489</a>
+UID:20260528T170000Z-10098@events.pcc.edu
+DTSTAMP:20260311T115301Z
+URL:https://events.pcc.edu/event/10098-untwist-your-thinking
+LAST-MODIFIED:20260422T145130Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10098
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260528T100000
+DTEND;TZID=America/Los_Angeles:20260528T110000
+SUMMARY:Untwist your thinking
+DESCRIPTION:Identify and adjust thought distortions and thinking errors.M
+ eeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlandcc
+ .zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3824
+ 89 (https://hub.pcc.edu/rsvp?id=382489)
+X-ALT-DESC;FMTTYPE=text/html:Identify and adjust thought distortions and 
+ thinking errors.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j
+ /91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294</a
+ ><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38248
+ 9" target="_blank">https://hub.pcc.edu/rsvp?id=382489</a>
+UID:20260528T170000Z-10275@events.pcc.edu
+DTSTAMP:20260401T104045Z
+URL:https://events.pcc.edu/counseling/event/10275-untwist-your-thinking
+LAST-MODIFIED:20260401T180358Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10275
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -7120,48 +7143,6 @@ URL:https://events.pcc.edu/event/10818-memorial-day-in-gratitude
 LAST-MODIFIED:20260425T130709Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10818
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260528T100000
-DTEND;TZID=America/Los_Angeles:20260528T110000
-SUMMARY:Untwist your thinking
-DESCRIPTION:Identify and adjust thought distortions and thinking errors.M
- eeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlandcc
- .zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3824
- 89 (https://hub.pcc.edu/rsvp?id=382489)
-X-ALT-DESC;FMTTYPE=text/html:Identify and adjust thought distortions and 
- thinking errors.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j
- /91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294</a
- ><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38248
- 9" target="_blank">https://hub.pcc.edu/rsvp?id=382489</a>
-UID:20260528T170000Z-10098@events.pcc.edu
-DTSTAMP:20260311T115301Z
-URL:https://events.pcc.edu/event/10098-untwist-your-thinking
-LAST-MODIFIED:20260422T145130Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10098
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260528T100000
-DTEND;TZID=America/Los_Angeles:20260528T110000
-SUMMARY:Untwist your thinking
-DESCRIPTION:Identify and adjust thought distortions and thinking errors.M
- eeting Link: https://portlandcc.zoom.us/j/91408331294 (https://portlandcc
- .zoom.us/j/91408331294)—Event Details: https://hub.pcc.edu/rsvp?id=3824
- 89 (https://hub.pcc.edu/rsvp?id=382489)
-X-ALT-DESC;FMTTYPE=text/html:Identify and adjust thought distortions and 
- thinking errors.<br />Meeting Link: <a href="https://portlandcc.zoom.us/j
- /91408331294" target="_blank">https://portlandcc.zoom.us/j/91408331294</a
- ><br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=38248
- 9" target="_blank">https://hub.pcc.edu/rsvp?id=382489</a>
-UID:20260528T170000Z-10275@events.pcc.edu
-DTSTAMP:20260401T104045Z
-URL:https://events.pcc.edu/counseling/event/10275-untwist-your-thinking
-LAST-MODIFIED:20260401T180358Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10275
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -7221,36 +7202,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260528T130000
-DTEND;TZID=America/Los_Angeles:20260528T140000
-SUMMARY:Queer/Trans/Gender-Expansive Counseling Process Group
-DESCRIPTION:Join us in this online counseling process group welcoming que
- er/trans/gender-expansive PCC students. Common experiences are shared\, d
- ifferences are acknowledged\, and the healing power of community is celeb
- rated.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQLSd0bu2yNkKt-
- 9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform (https://docs.google.com
- /forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/close
- dform)—Event Details: https://hub.pcc.edu/rsvp?id=382539 (https://hub.p
- cc.edu/rsvp?id=382539)
-X-ALT-DESC;FMTTYPE=text/html:Join us in this online counseling process gr
- oup welcoming queer/trans/gender-expansive PCC students. Common experienc
- es are shared\, differences are acknowledged\, and the healing power of c
- ommunity is celebrated.<br />Meeting Link: <a href="https://docs.google.c
- om/forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/clo
- sedform" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSd0bu2y
- NkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform</a><br />—<br />E
- vent Details: <a href="https://hub.pcc.edu/rsvp?id=382539" target="_blank
- ">https://hub.pcc.edu/rsvp?id=382539</a>
-UID:20260528T200000Z-10150@events.pcc.edu
-DTSTAMP:20260330T171607Z
-URL:https://events.pcc.edu/event/10150-queertransgender-expansive-counsel
- ing-process
-LAST-MODIFIED:20260401T174027Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10150
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260528T130000
 DTEND;TZID=America/Los_Angeles:20260528T150000
 SUMMARY:Reel Access: Disability on Screen
 DESCRIPTION:Join us in the Accessibility Hub on PCC's Southeast Campus ev
@@ -7279,6 +7230,36 @@ URL:https://events.pcc.edu/event/10597-reel-access-disability-on-screen
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10597
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260528T130000
+DTEND;TZID=America/Los_Angeles:20260528T140000
+SUMMARY:Queer/Trans/Gender-Expansive Counseling Process Group
+DESCRIPTION:Join us in this online counseling process group welcoming que
+ er/trans/gender-expansive PCC students. Common experiences are shared\, d
+ ifferences are acknowledged\, and the healing power of community is celeb
+ rated.Meeting Link: https://docs.google.com/forms/d/e/1FAIpQLSd0bu2yNkKt-
+ 9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform (https://docs.google.com
+ /forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/close
+ dform)—Event Details: https://hub.pcc.edu/rsvp?id=382539 (https://hub.p
+ cc.edu/rsvp?id=382539)
+X-ALT-DESC;FMTTYPE=text/html:Join us in this online counseling process gr
+ oup welcoming queer/trans/gender-expansive PCC students. Common experienc
+ es are shared\, differences are acknowledged\, and the healing power of c
+ ommunity is celebrated.<br />Meeting Link: <a href="https://docs.google.c
+ om/forms/d/e/1FAIpQLSd0bu2yNkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/clo
+ sedform" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSd0bu2y
+ NkKt-9wjtGs0K3P9o_2ay4YIu9EV-kX4ObzAGA2ITQ/closedform</a><br />—<br />E
+ vent Details: <a href="https://hub.pcc.edu/rsvp?id=382539" target="_blank
+ ">https://hub.pcc.edu/rsvp?id=382539</a>
+UID:20260528T200000Z-10150@events.pcc.edu
+DTSTAMP:20260330T171607Z
+URL:https://events.pcc.edu/event/10150-queertransgender-expansive-counsel
+ ing-process
+LAST-MODIFIED:20260401T174027Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10150
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -7525,25 +7506,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260601T130000
-DTEND;TZID=America/Los_Angeles:20260601T140000
-SUMMARY:Magic Mondays
-DESCRIPTION:Discover a universe of strategy and fun!BRING YOUR OWN DECK**
- Some extra decks may be available for learning purposes.—Event Details:
-  https://hub.pcc.edu/rsvp?id=382776 (https://hub.pcc.edu/rsvp?id=382776)
-X-ALT-DESC;FMTTYPE=text/html:Discover a universe of strategy and fun!<br 
- />BRING YOUR OWN DECK*<br />*Some extra decks may be available for learni
- ng purposes.<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
- vp?id=382776" target="_blank">https://hub.pcc.edu/rsvp?id=382776</a>
-UID:20260601T200000Z-10595@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10595-magic-mondays
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10595
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260601T130000
 DTEND;TZID=America/Los_Angeles:20260601T150000
 SUMMARY:TT4T: Tabletop for Trans (and friends!)
 DESCRIPTION:Join the Cascade QRC for our bi-weekly event - Tabletop for T
@@ -7564,6 +7526,25 @@ URL:https://events.pcc.edu/event/10068-tt4t-tabletop-for-trans-and-friends
 LAST-MODIFIED:20260305T163650Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10068
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260601T130000
+DTEND;TZID=America/Los_Angeles:20260601T140000
+SUMMARY:Magic Mondays
+DESCRIPTION:Discover a universe of strategy and fun!BRING YOUR OWN DECK**
+ Some extra decks may be available for learning purposes.—Event Details:
+  https://hub.pcc.edu/rsvp?id=382776 (https://hub.pcc.edu/rsvp?id=382776)
+X-ALT-DESC;FMTTYPE=text/html:Discover a universe of strategy and fun!<br 
+ />BRING YOUR OWN DECK*<br />*Some extra decks may be available for learni
+ ng purposes.<br />—<br />Event Details: <a href="https://hub.pcc.edu/rs
+ vp?id=382776" target="_blank">https://hub.pcc.edu/rsvp?id=382776</a>
+UID:20260601T200000Z-10595@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10595-magic-mondays
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10595
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -7685,6 +7666,25 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 X-LIVEWHALE-ALL-DAY:1
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Two-Five Club
+DESCRIPTION:Come join us! Train to lift 250lbs and run a 2.5k!—Event De
+ tails: https://hub.pcc.edu/rsvp?id=382932 (https://hub.pcc.edu/rsvp?id=38
+ 2932)
+X-ALT-DESC;FMTTYPE=text/html:Come join us! Train to lift 250lbs and run a
+  2.5k!<br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
+ 382932" target="_blank">https://hub.pcc.edu/rsvp?id=382932</a>
+UID:20260602T070000Z-10680@events.pcc.edu
+DTSTAMP:20260417T180120Z
+URL:https://events.pcc.edu/event/10680-two-four-club
+LAST-MODIFIED:20260422T145130Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10680
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-ALL-DAY:1
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260602T000000
 DTEND;TZID=America/Los_Angeles:20260602T010000
 SUMMARY:Coming Soon: Drive2Thrive Grand Prix!
@@ -7722,25 +7722,6 @@ LAST-MODIFIED:20260218T011927Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:9985
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260603
-SUMMARY:Two-Five Club
-DESCRIPTION:Come join us! Train to lift 250lbs and run a 2.5k!—Event De
- tails: https://hub.pcc.edu/rsvp?id=382932 (https://hub.pcc.edu/rsvp?id=38
- 2932)
-X-ALT-DESC;FMTTYPE=text/html:Come join us! Train to lift 250lbs and run a
-  2.5k!<br />—<br />Event Details: <a href="https://hub.pcc.edu/rsvp?id=
- 382932" target="_blank">https://hub.pcc.edu/rsvp?id=382932</a>
-UID:20260602T070000Z-10680@events.pcc.edu
-DTSTAMP:20260417T180120Z
-URL:https://events.pcc.edu/event/10680-two-four-club
-LAST-MODIFIED:20260422T145130Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10680
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-ALL-DAY:1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260602T100000
@@ -7954,25 +7935,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260603T120000
-DTEND;TZID=America/Los_Angeles:20260603T150000
-SUMMARY:Smash Bros at the VRC
-DESCRIPTION:Join the VRC &amp\; QRC in a friendly battle every Wednesday 
- from 12-3pm! All materials will be provided.—Event Details: https://hub
- .pcc.edu/rsvp?id=382887 (https://hub.pcc.edu/rsvp?id=382887)
-X-ALT-DESC;FMTTYPE=text/html:Join the VRC &amp\; QRC in a friendly battle
-  every Wednesday from 12-3pm! All materials will be provided.<br />—<br
-  />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382887" target="_b
- lank">https://hub.pcc.edu/rsvp?id=382887</a>
-UID:20260603T190000Z-10591@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10591-smash-bros-at-the-vrc
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10591
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260603T120000
 DTEND;TZID=America/Los_Angeles:20260603T130000
 SUMMARY:Walking Wednesday
 DESCRIPTION:Come join us for a walk every Wednesday at 12 PM.Meet at the 
@@ -7992,6 +7954,48 @@ URL:https://events.pcc.edu/event/10592-walking-wednesday
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10592
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260603T120000
+DTEND;TZID=America/Los_Angeles:20260603T150000
+SUMMARY:Smash Bros at the VRC
+DESCRIPTION:Join the VRC &amp\; QRC in a friendly battle every Wednesday 
+ from 12-3pm! All materials will be provided.—Event Details: https://hub
+ .pcc.edu/rsvp?id=382887 (https://hub.pcc.edu/rsvp?id=382887)
+X-ALT-DESC;FMTTYPE=text/html:Join the VRC &amp\; QRC in a friendly battle
+  every Wednesday from 12-3pm! All materials will be provided.<br />—<br
+  />Event Details: <a href="https://hub.pcc.edu/rsvp?id=382887" target="_b
+ lank">https://hub.pcc.edu/rsvp?id=382887</a>
+UID:20260603T190000Z-10591@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10591-smash-bros-at-the-vrc
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10591
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260603T130000
+DTEND;TZID=America/Los_Angeles:20260603T140000
+SUMMARY:Academic Stress Management Support
+DESCRIPTION:A drop-in opportunity for enrolled students. Create helpful h
+ abits and routines while managing the stress of being a student. Get one-
+ on-one support.Meeting Link: https://portlandcc.zoom.us/j/96036369743 (ht
+ tps://portlandcc.zoom.us/j/96036369743)—Event Details: https://hub.pcc.
+ edu/rsvp?id=382566 (https://hub.pcc.edu/rsvp?id=382566)
+X-ALT-DESC;FMTTYPE=text/html:A drop-in opportunity for enrolled students.
+  Create helpful habits and routines while managing the stress of being a 
+ student. Get one-on-one support.<br />Meeting Link: <a href="https://port
+ landcc.zoom.us/j/96036369743" target="_blank">https://portlandcc.zoom.us/
+ j/96036369743</a><br />—<br />Event Details: <a href="https://hub.pcc.e
+ du/rsvp?id=382566" target="_blank">https://hub.pcc.edu/rsvp?id=382566</a>
+UID:20260603T200000Z-10176@events.pcc.edu
+DTSTAMP:20260331T174037Z
+URL:https://events.pcc.edu/event/10176-academic-stress-management-support
+LAST-MODIFIED:20260401T172843Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10176
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -8019,29 +8023,6 @@ URL:https://events.pcc.edu/event/10685-voices-of-the-huastecas
 LAST-MODIFIED:20260421T031122Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10685
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260603T130000
-DTEND;TZID=America/Los_Angeles:20260603T140000
-SUMMARY:Academic Stress Management Support
-DESCRIPTION:A drop-in opportunity for enrolled students. Create helpful h
- abits and routines while managing the stress of being a student. Get one-
- on-one support.Meeting Link: https://portlandcc.zoom.us/j/96036369743 (ht
- tps://portlandcc.zoom.us/j/96036369743)—Event Details: https://hub.pcc.
- edu/rsvp?id=382566 (https://hub.pcc.edu/rsvp?id=382566)
-X-ALT-DESC;FMTTYPE=text/html:A drop-in opportunity for enrolled students.
-  Create helpful habits and routines while managing the stress of being a 
- student. Get one-on-one support.<br />Meeting Link: <a href="https://port
- landcc.zoom.us/j/96036369743" target="_blank">https://portlandcc.zoom.us/
- j/96036369743</a><br />—<br />Event Details: <a href="https://hub.pcc.e
- du/rsvp?id=382566" target="_blank">https://hub.pcc.edu/rsvp?id=382566</a>
-UID:20260603T200000Z-10176@events.pcc.edu
-DTSTAMP:20260331T174037Z
-URL:https://events.pcc.edu/event/10176-academic-stress-management-support
-LAST-MODIFIED:20260401T172843Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10176
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -8709,6 +8690,50 @@ X-LIVEWHALE-ALL-DAY:1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260609T110000
+DTEND;TZID=America/Los_Angeles:20260609T140000
+SUMMARY:Multnomah County Mobile Clinic
+DESCRIPTION:The Multnomah County Mobile Clinic will provide medical\, den
+ tal\, behavioral health\, and case management services at the Southeast c
+ ampus in the courtyard between the Mt. Tabor and Mt. Scott buildings.Serv
+ ices are available to students\, staff\, and community members on a first
+ -come\, first-served basis\; signups are located in front of the clinic v
+ an.The mobile clinic accepts OHP and other insurance plans\, but insuranc
+ e is not required to receive services.The mobile clinic can provide healt
+ hcare to everyone living in Multnomah county\, whether they are covered b
+ y insurance\, paying what they can\, or unable to pay. No one will be tur
+ ned away due to inability to pay.The spring term schedule for the Mobile 
+ Clinic is 11:00-2:00 on the 2nd and 4th Tuesdays of the month:March 10Apr
+ il 14April 28May 12May 26June 9If you have additional questions\, feel fr
+ ee to check out the Multnomah County Mobile Clinic website or email us at
+  basicneeds@pcc.edu.—Event Details: https://hub.pcc.edu/rsvp?id=382424 
+ (https://hub.pcc.edu/rsvp?id=382424)
+X-ALT-DESC;FMTTYPE=text/html:The Multnomah County Mobile Clinic will prov
+ ide medical\, dental\, behavioral health\, and case management services a
+ t the Southeast campus in the courtyard between the Mt. Tabor and Mt. Sco
+ tt buildings.<br />Services are available to students\, staff\, and commu
+ nity members on a first-come\, first-served basis\; signups are located i
+ n front of the clinic van.<br />The mobile clinic accepts OHP and other i
+ nsurance plans\, but insurance is not required to receive services.The mo
+ bile clinic can provide healthcare to everyone living in Multnomah county
+ \, whether they are covered by insurance\, paying what they can\, or unab
+ le to pay. No one will be turned away due to inability to pay.<br />The s
+ pring term schedule for the Mobile Clinic is 11:00-2:00 on the 2nd and 4t
+ h Tuesdays of the month:<br />March 10<br />April 14<br />April 28<br />M
+ ay 12<br />May 26<br />June 9<br />If you have additional questions\, fee
+ l free to check out the Multnomah County Mobile Clinic website or email u
+ s at basicneeds@pcc.edu.<br />—<br />Event Details: <a href="https://hu
+ b.pcc.edu/rsvp?id=382424" target="_blank">https://hub.pcc.edu/rsvp?id=382
+ 424</a>
+UID:20260609T180000Z-10055@events.pcc.edu
+DTSTAMP:20260303T070531Z
+URL:https://events.pcc.edu/event/10055-multnomah-county-mobile-clinic
+LAST-MODIFIED:20260303T150531Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10055
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260609T110000
 DTEND;TZID=America/Los_Angeles:20260609T120000
 SUMMARY:SVA General Meeting
 DESCRIPTION:General PCC SVA MeetingMeeting Link: PCC SVA General Body Mee
@@ -8755,50 +8780,6 @@ URL:https://events.pcc.edu/event/10587-sva-general-meeting
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10587
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260609T110000
-DTEND;TZID=America/Los_Angeles:20260609T140000
-SUMMARY:Multnomah County Mobile Clinic
-DESCRIPTION:The Multnomah County Mobile Clinic will provide medical\, den
- tal\, behavioral health\, and case management services at the Southeast c
- ampus in the courtyard between the Mt. Tabor and Mt. Scott buildings.Serv
- ices are available to students\, staff\, and community members on a first
- -come\, first-served basis\; signups are located in front of the clinic v
- an.The mobile clinic accepts OHP and other insurance plans\, but insuranc
- e is not required to receive services.The mobile clinic can provide healt
- hcare to everyone living in Multnomah county\, whether they are covered b
- y insurance\, paying what they can\, or unable to pay. No one will be tur
- ned away due to inability to pay.The spring term schedule for the Mobile 
- Clinic is 11:00-2:00 on the 2nd and 4th Tuesdays of the month:March 10Apr
- il 14April 28May 12May 26June 9If you have additional questions\, feel fr
- ee to check out the Multnomah County Mobile Clinic website or email us at
-  basicneeds@pcc.edu.—Event Details: https://hub.pcc.edu/rsvp?id=382424 
- (https://hub.pcc.edu/rsvp?id=382424)
-X-ALT-DESC;FMTTYPE=text/html:The Multnomah County Mobile Clinic will prov
- ide medical\, dental\, behavioral health\, and case management services a
- t the Southeast campus in the courtyard between the Mt. Tabor and Mt. Sco
- tt buildings.<br />Services are available to students\, staff\, and commu
- nity members on a first-come\, first-served basis\; signups are located i
- n front of the clinic van.<br />The mobile clinic accepts OHP and other i
- nsurance plans\, but insurance is not required to receive services.The mo
- bile clinic can provide healthcare to everyone living in Multnomah county
- \, whether they are covered by insurance\, paying what they can\, or unab
- le to pay. No one will be turned away due to inability to pay.<br />The s
- pring term schedule for the Mobile Clinic is 11:00-2:00 on the 2nd and 4t
- h Tuesdays of the month:<br />March 10<br />April 14<br />April 28<br />M
- ay 12<br />May 26<br />June 9<br />If you have additional questions\, fee
- l free to check out the Multnomah County Mobile Clinic website or email u
- s at basicneeds@pcc.edu.<br />—<br />Event Details: <a href="https://hu
- b.pcc.edu/rsvp?id=382424" target="_blank">https://hub.pcc.edu/rsvp?id=382
- 424</a>
-UID:20260609T180000Z-10055@events.pcc.edu
-DTSTAMP:20260303T070531Z
-URL:https://events.pcc.edu/event/10055-multnomah-county-mobile-clinic
-LAST-MODIFIED:20260303T150531Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10055
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
@@ -9336,31 +9317,6 @@ DESCRIPTION:General PCC SVA MeetingMeeting Link: PCC SVA General Body Mee
  eles Google Meet joining info Video call link: https://meet.google.com/qg
  z-rtwm-hdk (https://meet.google.com/qgz-rtwm-hdk) Or dial: ‪(US) +1 510
  -957-3210‬ PIN: ‪824 374 847‬#—Event Details: https://hub.pcc.edu
- /rsvp?id=382816 (https://hub.pcc.edu/rsvp?id=382816)
-X-ALT-DESC;FMTTYPE=text/html:General PCC SVA Meeting<br />Meeting Link: P
- CC SVA General Body Meeting Tuesday\, April 28 · 11:00am – 12:00pm Tim
- e zone: America/Los_Angeles Google Meet joining info Video call link: <a 
- href="https://meet.google.com/qgz-rtwm-hdk" target="_blank">https://meet.
- google.com/qgz-rtwm-hdk</a> Or dial: ‪(US) +1 510-957-3210‬ PIN: ‪8
- 24 374 847‬#<br />—<br />Event Details: <a href="https://hub.pcc.edu/
- rsvp?id=382816" target="_blank">https://hub.pcc.edu/rsvp?id=382816</a>
-UID:20260623T180000Z-10579@events.pcc.edu
-DTSTAMP:20260416T161941Z
-URL:https://events.pcc.edu/event/10579-sva-general-meeting
-LAST-MODIFIED:20260416T231941Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:10579
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260623T110000
-DTEND;TZID=America/Los_Angeles:20260623T120000
-SUMMARY:SVA General Meeting
-DESCRIPTION:General PCC SVA MeetingMeeting Link: PCC SVA General Body Mee
- ting Tuesday\, April 28 · 11:00am – 12:00pm Time zone: America/Los_Ang
- eles Google Meet joining info Video call link: https://meet.google.com/qg
- z-rtwm-hdk (https://meet.google.com/qgz-rtwm-hdk) Or dial: ‪(US) +1 510
- -957-3210‬ PIN: ‪824 374 847‬#—Event Details: https://hub.pcc.edu
  /rsvp?id=382848 (https://hub.pcc.edu/rsvp?id=382848)
 X-ALT-DESC;FMTTYPE=text/html:General PCC SVA Meeting<br />Meeting Link: P
  CC SVA General Body Meeting Tuesday\, April 28 · 11:00am – 12:00pm Tim
@@ -9375,6 +9331,31 @@ URL:https://events.pcc.edu/event/10578-sva-general-meeting
 LAST-MODIFIED:20260416T231941Z
 X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:10578
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260623T110000
+DTEND;TZID=America/Los_Angeles:20260623T120000
+SUMMARY:SVA General Meeting
+DESCRIPTION:General PCC SVA MeetingMeeting Link: PCC SVA General Body Mee
+ ting Tuesday\, April 28 · 11:00am – 12:00pm Time zone: America/Los_Ang
+ eles Google Meet joining info Video call link: https://meet.google.com/qg
+ z-rtwm-hdk (https://meet.google.com/qgz-rtwm-hdk) Or dial: ‪(US) +1 510
+ -957-3210‬ PIN: ‪824 374 847‬#—Event Details: https://hub.pcc.edu
+ /rsvp?id=382816 (https://hub.pcc.edu/rsvp?id=382816)
+X-ALT-DESC;FMTTYPE=text/html:General PCC SVA Meeting<br />Meeting Link: P
+ CC SVA General Body Meeting Tuesday\, April 28 · 11:00am – 12:00pm Tim
+ e zone: America/Los_Angeles Google Meet joining info Video call link: <a 
+ href="https://meet.google.com/qgz-rtwm-hdk" target="_blank">https://meet.
+ google.com/qgz-rtwm-hdk</a> Or dial: ‪(US) +1 510-957-3210‬ PIN: ‪8
+ 24 374 847‬#<br />—<br />Event Details: <a href="https://hub.pcc.edu/
+ rsvp?id=382816" target="_blank">https://hub.pcc.edu/rsvp?id=382816</a>
+UID:20260623T180000Z-10579@events.pcc.edu
+DTSTAMP:20260416T161941Z
+URL:https://events.pcc.edu/event/10579-sva-general-meeting
+LAST-MODIFIED:20260416T231941Z
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:10579
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 END:VEVENT
 BEGIN:VEVENT
