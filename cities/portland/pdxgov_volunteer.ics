@@ -4,27 +4,17 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:MAC Trail volunteer day in Washington Park
-DTSTART;TZID=America/Los_Angeles:20260504T090000
-DTEND;TZID=America/Los_Angeles:20260504T090000
-UID:3ba550a80ca1b960052998b7e19d3076@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
- MAC Trail in Washington Park!
-LOCATION:Washington Park
-URL:https://www.portland.gov/parks/events/2026/5/4/mac-trail-volunteer-day
- -washington-park
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lilac Garden at Duniway Park volunteer event
-DTSTART;TZID=America/Los_Angeles:20260504T090000
-DTEND;TZID=America/Los_Angeles:20260504T090000
-UID:664e1ea98cd24036ba2b2af9cfe1d973@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
- at Duniway Park for a morning of plant and garden care.
-LOCATION:Duniway Park
-URL:https://www.portland.gov/parks/events/2026/5/4/lilac-garden-duniway-pa
- rk-volunteer-event
+SUMMARY:Pittock Garden Tuesday Volunteer Day
+DTSTART;TZID=America/Los_Angeles:20260505T090000
+DTEND;TZID=America/Los_Angeles:20260505T090000
+UID:3d01ba6d0dcb5131be5c59f0256e4bec@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/IMG_0070.jpeg?itok=zEuAsgFN
+DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
+  rain or shine\, to tend to the plants on the grounds at Pittock Mansion.
+LOCATION:Pittock Mansion
+URL:https://www.portland.gov/parks/events/2026/5/5/pittock-garden-tuesday-
+ volunteer-day
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -37,20 +27,6 @@ DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
 LOCATION:South Park Blocks
 URL:https://www.portland.gov/parks/events/2026/5/5/south-park-blocks-garde
  ning-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pittock Garden Tuesday Volunteer Day
-DTSTART;TZID=America/Los_Angeles:20260505T090000
-DTEND;TZID=America/Los_Angeles:20260505T090000
-UID:3d01ba6d0dcb5131be5c59f0256e4bec@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/IMG_0070.jpeg?itok=zEuAsgFN
-DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
-  rain or shine\, to tend to the plants on the grounds at Pittock Mansion.
-LOCATION:Pittock Mansion
-URL:https://www.portland.gov/parks/events/2026/5/5/pittock-garden-tuesday-
- volunteer-day
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -223,18 +199,6 @@ URL:https://www.portland.gov/parks/events/2026/5/12/wilkes-park-pollinator
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260512T090000
-DTEND;TZID=America/Los_Angeles:20260512T090000
-UID:3dd64820e040137fe7843ade0bfb28dd@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/5/12/south-park-blocks-gard
- ening-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260512T090000
 DTEND;TZID=America/Los_Angeles:20260512T090000
@@ -246,6 +210,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/5/12/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260512T090000
+DTEND;TZID=America/Los_Angeles:20260512T090000
+UID:3dd64820e040137fe7843ade0bfb28dd@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/5/12/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -478,18 +454,6 @@ URL:https://www.portland.gov/parks/nature/events/2026/5/23/woods-memorial-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260526T090000
-DTEND;TZID=America/Los_Angeles:20260526T090000
-UID:1dddabb2f27ae99897e136a4f4f8a9a1@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/5/26/south-park-blocks-gard
- ening-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260526T090000
 DTEND;TZID=America/Los_Angeles:20260526T090000
@@ -501,6 +465,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/5/26/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260526T090000
+DTEND;TZID=America/Los_Angeles:20260526T090000
+UID:1dddabb2f27ae99897e136a4f4f8a9a1@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/5/26/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -575,18 +551,6 @@ URL:https://www.portland.gov/parks/events/2026/6/1/lilac-garden-duniway-pa
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260602T090000
-DTEND;TZID=America/Los_Angeles:20260602T090000
-UID:a654413195b8b011cdd34fff7bb30273@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/6/2/south-park-blocks-garde
- ning-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260602T090000
 DTEND;TZID=America/Los_Angeles:20260602T090000
@@ -598,6 +562,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/2/pittock-garden-tuesday-
  volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260602T090000
+DTEND;TZID=America/Los_Angeles:20260602T090000
+UID:a654413195b8b011cdd34fff7bb30273@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/2/south-park-blocks-garde
+ ning-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -773,18 +749,6 @@ URL:https://www.portland.gov/parks/events/2026/6/9/wilkes-park-pollinator-
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260609T090000
-DTEND;TZID=America/Los_Angeles:20260609T090000
-UID:3a9e28babd530ec47f0dfe7c08322745@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/6/9/south-park-blocks-garde
- ning-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260609T090000
 DTEND;TZID=America/Los_Angeles:20260609T090000
@@ -796,6 +760,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/9/pittock-garden-tuesday-
  volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260609T090000
+DTEND;TZID=America/Los_Angeles:20260609T090000
+UID:3a9e28babd530ec47f0dfe7c08322745@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/9/south-park-blocks-garde
+ ning-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -876,18 +852,6 @@ URL:https://www.portland.gov/parks/volunteer/events/2026/6/13/saturday-ten
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260616T090000
-DTEND;TZID=America/Los_Angeles:20260616T090000
-UID:1dca24303146c56ee6ece20a5aac2aa8@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/6/16/south-park-blocks-gard
- ening-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260616T090000
 DTEND;TZID=America/Los_Angeles:20260616T090000
@@ -899,6 +863,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/16/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260616T090000
+DTEND;TZID=America/Los_Angeles:20260616T090000
+UID:1dca24303146c56ee6ece20a5aac2aa8@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/16/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -960,18 +936,6 @@ URL:https://www.portland.gov/parks/nas/events/2026/6/20/hoyt-arboretum-vol
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260623T090000
-DTEND;TZID=America/Los_Angeles:20260623T090000
-UID:167ce4a1e67b46852ab8c7bc43481198@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/6/23/south-park-blocks-gard
- ening-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260623T090000
 DTEND;TZID=America/Los_Angeles:20260623T090000
@@ -983,6 +947,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/23/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260623T090000
+DTEND;TZID=America/Los_Angeles:20260623T090000
+UID:167ce4a1e67b46852ab8c7bc43481198@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/23/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -1035,18 +1011,6 @@ URL:https://www.portland.gov/parks/volunteer/events/2026/6/27/saturday-ten
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260630T090000
-DTEND;TZID=America/Los_Angeles:20260630T090000
-UID:fced58aabfc184deb060a28b1cc941ec@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/6/30/south-park-blocks-gard
- ening-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pittock Garden Tuesday Volunteer Day
 DTSTART;TZID=America/Los_Angeles:20260630T090000
 DTEND;TZID=America/Los_Angeles:20260630T090000
@@ -1058,6 +1022,18 @@ DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/6/30/pittock-garden-tuesday
  -volunteer-day
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:South Park Blocks Gardening and Turf Crew
+DTSTART;TZID=America/Los_Angeles:20260630T090000
+DTEND;TZID=America/Los_Angeles:20260630T090000
+UID:fced58aabfc184deb060a28b1cc941ec@portland.gov
+DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
+ k!
+LOCATION:South Park Blocks
+URL:https://www.portland.gov/parks/events/2026/6/30/south-park-blocks-gard
+ ening-and-turf-crew
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT

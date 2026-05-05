@@ -22,23 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260502T170236Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260503T180000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260503T130000
-DTSTAMP;VALUE=DATE-TIME:20260502T170236Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260502T170236Z
-UID:http://calagator.org/events/1250482557
-DESCRIPTION:Portland 503 Day Block Party&#13\;\n&#13\;\nAnkeny Alley&#13\
- ;\n&#13\;\nfeaturing local vendors + artisans\, a silent disco dance par
- ty\, live performances&#13\;\n\n\nTags: portland\, pdx\, 503\, 503day\n\
- nImported from: http://calagator.org/events/1250482557
-URL:https://www.portlandmercury.com/culture/totally-real-portland-holiday
- -503-day-returns/
-SUMMARY:Portland 503 Day
-LOCATION:Voodoo Doughnut: 22 SW 3rd Avenue\, Portland Oregon 97204 US
-SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260425T050735Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260505T193000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260505T180000
@@ -127,6 +110,39 @@ URL:https://www.tickettailor.com/events/oregonbioscienceincubator/2154276
 SUMMARY:Think and Drink Trivia Night
 LOCATION:Oregon Bioscience Incubator (OBI): 4640 SW Macadam Avenue\, Suit
  e 270\, Portland or 97239 us
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260504T112129Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T190000
+DTSTAMP;VALUE=DATE-TIME:20260504T112129Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260504T112129Z
+UID:http://calagator.org/events/1250482558
+DESCRIPTION:&#13\;\nSummary:&#13\;\n&#13\;\nSecure Boot and how to deal w
+ ith the upcoming certificate updates that are going to be required when 
+ the old Microsoft CA expires in June. Many systems will need this update
+ .&#13\;\n&#13\;\n&quot\;I am hoping to go into the details of both insta
+ lling your own certificates if you don't want to use the Microsoft certi
+ ficates and how to deal with the Microsoft CA when you need to such as f
+ ulling the IT requirements for your employeer when you want to run Linux
+  as your main operating system. I've had to deal with that to get my pri
+ mary work laptop dual-boot enabled and with working Nvidia drivers that 
+ needed to be signed with a MOK.&quot\;&#13\;\n&#13\;\nBio:&#13\;\n&#13\;
+ \n&quot\;While I got to play with my first Sun Workstation running Solar
+ is back in 1996\, but it was getting Red Hat Linux where my interest rea
+ lly took off. Since then\, I have moved to better options and have spent
+  some time contributing to various distributions and even a little time 
+ with FreeBSD ports. My primary job revolves around embedded engineering 
+ of some sort. I am currently working at Intel and am one of the very few
+  people on the floor with an IT-approved Linux desktop for my primary wo
+ rkstation.&quot\;\n\nTags: plug\, linux\, Expiring secure boot certifica
+ tes\n\nImported from: http://calagator.org/events/1250482558
+URL:https://pdxlinux.org/
+SUMMARY:Portland Linux/Unix Group General Monthly Meeting: Expiring MS Ce
+ rtificates and Secure Boot with Loren Lang
+LOCATION:Portland State University Fourth Avenue Building (FAB) Room FAB 
+ 86-01: 1900 Southwest 4th Avenue\, Portland OR 97201 US
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT

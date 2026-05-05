@@ -10,6 +10,45 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-Robots-Tag:noindex
 X-PUBLISHED-TTL:PT1H
 BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:DAYLIGHT
 TZOFFSETFROM:-0500
@@ -49,9 +88,35 @@ DTSTART:20271107T060000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260509T180000
+DTEND;TZID=America/Los_Angeles:20260509T210000
+DTSTAMP:20260504T222932
+CREATED:20260503T131138Z
+LAST-MODIFIED:20260504T131647Z
+UID:17054-1778349600-1778360400@www.nlgja.org
+SUMMARY:LA Press Pride Prom
+DESCRIPTION:This year\, our LA chapter’s annual benefit and awards ceremony is dedicated to the queer and trans folks who came before us\, resisting\, loving\, thriving and setting the stage for the next generation to continue building on that legacy. \nWe’ve been here\, and we’ll always be here. Now\, let’s party! \n\n\n\n\n\nGet Your Tickets Today! \n\n\n\n\nJoin us at Press Pride Prom as we honor Southern California’s LGBTQ+ history and celebrate the journalists documenting queer and trans life today! \nNow more than ever\, it’s imperative that we get to document and tell our stories. With your help\, we can raise money to provide scholarships for emerging LGBTQ+ journalists and continue to develop programming that centers the needs of Southern California’s queer and trans media types of all stripes. \nPress Pride Prom is a celebration with purpose. Your support fuels our mission — get your tickets today!
+URL:https://www.nlgja.org/event/17054/
+LOCATION:LA LGBT Center
+CATEGORIES:Chapters
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260606T150000
+DTEND;TZID=America/New_York:20260606T170000
+DTSTAMP:20260504T222932
+CREATED:20260504T130939Z
+LAST-MODIFIED:20260504T130939Z
+UID:17053-1780758000-1780765200@www.nlgja.org
+SUMMARY:NLGJA-DC Pride Happy Hour
+DESCRIPTION:Join our DC Chapter for their biggest event of the year — their annual Pride Happy Hour! Come to Trade for an afternoon of celebration\, networking and fun with your fellow queer media professionals. \n\nRSVP here!
+URL:https://www.nlgja.org/event/nlgja-dc-pride-happy-hour/
+LOCATION:Trade\, 1410 14th Street Northwest\, Washington\, DC\, 20009\, United States
+CATEGORIES:Chapters
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260503T224130
+DTSTAMP:20260504T222932
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
