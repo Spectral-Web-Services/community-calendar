@@ -83,24 +83,6 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260504T173000
-DTEND;TZID=America/Los_Angeles:20260504T183000
-LOCATION:Legal Research Center- Student Lounge
-GEO:45.45177;-122.677216
-SUMMARY:AALS Wine & Walk in the Woods
-UID:20260505T003000Z-390559@www.lclark.edu
-DTSTAMP:20260415T135723Z
-URL:https://www.lclark.edu/calendars/events/event/390559-aals-wine-walk-i
- n-the-woods
-LAST-MODIFIED:20260419T140602Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:390559
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-SUMMARY:<p>\n  <a href="https://engage.lclark.edu/register/Wi
- neWalkinWoods">RSVP here:</a><br />\n  https://engage.lclark.edu/register
- /WineWalkinWoods\n</p>
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260505T120000
 DTEND;TZID=America/Los_Angeles:20260505T130000
 LOCATION:Zoom
@@ -362,6 +344,64 @@ X-LIVEWHALE-SUMMARY:<p>\n  Come pick up your Cap &amp\; Gown for Commence
  ment in the Council Chamber!\n</p>
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260506T120000
+DTEND;TZID=America/Los_Angeles:20260506T140000
+LOCATION:Location TBD
+SUMMARY:L&C Marketing Video Matinee
+DESCRIPTION:Take a creative break with your peers and some popcorn as we 
+ celebrate the work of the student videographers who produce marketing vid
+ eos for Lewis &amp\; Clark.&#160\;  Student creators will explain the sto
+ rytelling behind their cinematic choices + answer questions from the audi
+ ence.Grace Kelley BA'26 is a Rhetoric and Media Studies major and a Video
+  Production Assistant in the Office of Communications.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Take a creative break with your peers a
+ nd some popcorn as we celebrate the work of the student videographers who
+  produce marketing videos for Lewis &amp\; Clark.&#160\;</p><p>  Student 
+ creators will explain the storytelling behind their cinematic choices + a
+ nswer questions from the audience.</p><p><picture class="lw_image lw_imag
+ e113039  lw_align_left"><source media="(max-width: 500px)" type="image/we
+ bp" srcset="https://www.lclark.edu/live/image/gid/220/width/500/height/407/113039_Screenshot_20
+ 26-05-04_at_12.04.50PM.rev.1777921615.webp 1x" data-origin="responsive"/>
+ <source media="(max-width: 500px)" type="image/png" srcset="https://www.lclark.edu/live/image/g
+ id/220/width/500/height/407/113039_Screenshot_2026-05-04_at_12.04.50PM.re
+ v.1777921615.png 1x" data-origin="responsive"/><source media="(min-width:
+  501px)" type="image/webp" srcset="https://www.lclark.edu/live/image/gid/220/width/573/height/4
+ 66/113039_Screenshot_2026-05-04_at_12.04.50PM.rev.1777921615.webp 1x" dat
+ a-origin="responsive"/><source media="(min-width: 501px)" type="image/png
+ " srcset="https://www.lclark.edu/live/image/gid/220/width/573/height/466/113039_Screenshot_2026
+ -05-04_at_12.04.50PM.rev.1777921615.png 1x" data-origin="responsive"/><im
+ g width="573" height="466" alt="Grace Kelley BA'26 is a Rhetoric and Medi
+ a Studies major and a Video Production Assistant in the Office of Communi
+ cations. " data-alt="Grace Kelley BA'26 is a Rhetoric and Media Studies m
+ ajor and a Video Production Assistant in the Office of Communications." d
+ ata-caption="Grace Kelley BA&#x2019\;26 is a Rhetoric and Media Studies m
+ ajor and a Video Production Assistant in the Office of Communications." s
+ rc="/live/image/gid/220/width/573/height/466/113039_Screenshot_2026-05-04
+ _at_12.04.50PM.rev.1777921615.png" title="Grace Kelley" data-max-w="736" 
+ data-max-h="598" loading="lazy" data-optimized="true"/></picture><span cl
+ ass="lw_image_caption lw_align_left" style="width: 573px">Grace Kelley BA
+ '26 is a Rhetoric and Media Studies major and a Video Production Assistan
+ t in the Office of Communications.</span></p><div id="lw_cal_event_detail
+ _rightcol"><div id="lw_cal_event_detail_options" class="lw_cal_event_deta
+ il_block"><div id="lw_cal_add_to_calendar"></div><div id="lw_cal_event_ed
+ it" class="lw_cal_event_edit"></div></div></div>
+UID:20260506T190000Z-392518@www.lclark.edu
+DTSTAMP:20260504T115801Z
+URL:https://www.lclark.edu/calendars/events/event/392518-lampc-marketing-
+ video-matinee
+LAST-MODIFIED:20260504T191455Z
+ATTACH:https://www.lclark.edu/live/image/gid/220/width/80/height/80/crop/
+ 1/src_region/0,0,1667,1667/91532_LC_Shield.rev.1637342319.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:392518
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/220/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,1667\,1667/91532_LC_Shield.rev.1637342319.j
+ pg
+X-LIVEWHALE-SUMMARY:<p>\n  Meet the students behind L&amp\;C's marketing 
+ magic!&#160\;\n</p>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260506T130000
 DTEND;TZID=America/Los_Angeles:20260506T140000
 LOCATION:Zoom
@@ -525,7 +565,7 @@ UID:20260507T150000Z-392140@www.lclark.edu
 DTSTAMP:20260430T184100Z
 URL:https://www.lclark.edu/calendars/events/event/392140-student-move-out
  -swap-shop-for-free
-LAST-MODIFIED:20260501T014342Z
+LAST-MODIFIED:20260504T180148Z
 RRULE:FREQ=DAILY;UNTIL=20260508T150000Z;INTERVAL=1
 ATTACH:https://www.lclark.edu/live/image/gid/184/width/80/height/80/crop/
  1/src_region/0,0,697,393/78073_donate_2.rev.1555024824.jpg
@@ -2144,6 +2184,34 @@ X-LIVEWHALE-SUMMARY:<p>\n  $940 for General Public<br />\n  $695 for L&am
 X-LIVEWHALE-TAGS:Training Trips|WFR
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260518T090000
+DTEND;TZID=America/Los_Angeles:20260518T160000
+LOCATION:Albany
+GEO:45.451415;-122.668211
+SUMMARY:Annual Faculty Technology Institute
+UID:20260518T160000Z-392498@www.lclark.edu
+DTSTAMP:20260504T102747Z
+URL:https://www.lclark.edu/information_technology/client_services/faculty
+ _technology_institute/
+LAST-MODIFIED:20260504T172927Z
+RRULE:FREQ=DAILY;UNTIL=20260522T160000Z;INTERVAL=1
+ATTACH:https://www.lclark.edu/live/image/gid/8/width/80/height/80/crop/1/
+ src_region/180,0,420,240/52345_faculty-technology-institute.rev.142714826
+ 4.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:392498
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/8/width/80/height
+ /80/crop/1/src_region/180\,0\,420\,240/52345_faculty-technology-institute
+ .rev.1427148264.jpg
+X-LIVEWHALE-IMAGE-CAPTION:Faculty Technology Institute
+X-LIVEWHALE-SUMMARY:<p>\n  Registration is open for the Faculty Technolog
+ y Institute—a week where colleagues from all three schools come togethe
+ r to explore\, experiment\, and share how they're using technology in tea
+ ching\, learning and research.&#160\;\n</p>
+X-LIVEWHALE-REPEATS-UNTIL:2026-05-22 16:00:00
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260518T113000
 DTEND;TZID=America/Los_Angeles:20260518T130000
 LOCATION:Fowler Student Center - Room 350
@@ -3098,7 +3166,7 @@ UID:20260604T223000Z-391891@www.lclark.edu
 DTSTAMP:20260428T101740Z
 URL:https://www.lclark.edu/calendars/events/event/391891-boston-happy-hou
  r-with-associate-professor-of-economi
-LAST-MODIFIED:20260501T224333Z
+LAST-MODIFIED:20260504T201849Z
 ATTACH:https://www.lclark.edu/live/image/gid/45/width/80/height/80/crop/1
  /src_region/0,0,225,225/113008_AreaFour2.rev.1777568128.jpg
 X-LIVEWHALE-TYPE:events
@@ -3110,9 +3178,9 @@ X-LIVEWHALE-CONTACT-INFO:<p>\n  alumni@lclark.edu\n</p>
 X-LIVEWHALE-SUMMARY:<p>\n  The New England Alumni Chapter is excited for 
  all alumni in Boston to join them for a Happy Hour in Kendall Square to c
  atch up\, make new connections\, and hear from Associate Professor of Eco
- nomics Aine McCarthy! First drinks and appetizers are free! Joe Hewa\, Di
- rector of the L&amp\;C Career Accelerator and Senior Advancement Officer 
- Hank Coates will also be in attendance.\n</p>
+ nomics Aine McCarthy! First drinks and appetizers are free! Joe Hewa\, Ex
+ ecutive Director of the L&amp\;C Career Accelerator and Senior Advancemen
+ t Officer Hank Coates will also be in attendance.\n</p>
 X-LIVEWHALE-TAGS:alumni|New England Chapter
 END:VEVENT
 BEGIN:VEVENT
@@ -4870,7 +4938,7 @@ UID:20260709T070000Z-388399@www.lclark.edu
 DTSTAMP:20260327T103436Z
 URL:https://www.lclark.edu/calendars/events/event/388399-cultivating-spac
  iousness-and-abundance-courage-to-lea
-LAST-MODIFIED:20260430T202035Z
+LAST-MODIFIED:20260504T220707Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,3200,2133/112590_ralphs_fotos-flowers-3598555.rev.1774635
  315.jpg
@@ -6168,31 +6236,52 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  With changin
  &#x2019\; registrations are for current students only and <strong>do not<
  /strong> include continuing education credit (CEU/PDUs)</em></p></div></l
  i></ul></div><hr /><h2><strong>About the Instructor</strong></h2><p style
- ="line-height: 1.5\;"><strong>Carson Varnum\, MEd\,</strong> (he/him) is 
- a community builder and educator with an expertise in sexual health\, sex
- ualities\, peer education\, and community development. Carson specializes
-  in building capacity in sex educators\, creating sexuality education and
-  leadership development programming for adolescents\, and developing prog
- rams that center Queer and Trans communities. Carson works at Lewis &amp\
- ; Clark Graduate School as TransActives's Head of Education and Outreach\
- , where he supports transgender\, non-binary\, and other gender expansive
-  youth by strengthening the systems that surround them. He received his M
- asters of Education in Human Sexuality from Widener University in 2012 an
- d is currently a PhD student in Education and Leadership at Pacific Unive
- rsity. Carson is a big fan of being on mountains\, in rivers\, and with f
- riends.&#160\;</p><div id="lw_widget_470b39ba" class="lw_widget lw_widget
- _type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widge
- t_pagination"><ul class="lw_widget_results lw_widget_results_blurbs"><li 
- class="lw_item_1"><div class="lw_blurbs_body"><p style="line-height: 1.5\
- ;"><em><strong>New workshops and trainings are added to our calendar regu
- larly.</strong> For the latest on professional development related to you
- r specific interests\, <a href="https://lclark.tfaforms.net/4735441">sign
-  up for our mailing list!</a></em></p></div></li></ul></div>
+ ="line-height: 1.5\;"><strong><picture class="lw_image lw_image113043 lw_
+ align_right"><source type="image/webp" srcset="https://www.lclark.edu/liv
+ e/image/scale/2x/gid/91/width/220/height/220/crop/1/src_region/9\,106\,15
+ 21\,1620/113043_2025-Carson_Varnum-5386_2.webp 2x\, https://www.lclark.ed
+ u/live/image/scale/3x/gid/91/width/220/height/220/crop/1/src_region/9\,10
+ 6\,1521\,1620/113043_2025-Carson_Varnum-5386_2.webp 3x" data-origin="resp
+ onsive"/><source type="image/jpeg" srcset="https://www.lclark.edu/live/im
+ age/scale/2x/gid/91/width/220/height/220/crop/1/src_region/9\,106\,1521\,
+ 1620/113043_2025-Carson_Varnum-5386_2.rev.1777927705.jpg 2x\, https://www
+ .lclark.edu/live/image/scale/3x/gid/91/width/220/height/220/crop/1/src_re
+ gion/9\,106\,1521\,1620/113043_2025-Carson_Varnum-5386_2.rev.1777927705.j
+ pg 3x" data-origin="responsive"/><img width="220" height="220" alt="" dat
+ a-alt="" data-decoration="true" src="https://www.lclark.edu/live/image/gi
+ d/91/width/220/height/220/crop/1/src_region/9\,106\,1521\,1620/113043_202
+ 5-Carson_Varnum-5386_2.rev.1777927705.jpg" title="2025-Carson Varnum-5386
+  2" srcset="https://www.lclark.edu/live/image/scale/2x/gid/91/width/220/h
+ eight/220/crop/1/src_region/9\,106\,1521\,1620/113043_2025-Carson_Varnum-
+ 5386_2.rev.1777927705.jpg 2x\, https://www.lclark.edu/live/image/scale/3x
+ /gid/91/width/220/height/220/crop/1/src_region/9\,106\,1521\,1620/113043_
+ 2025-Carson_Varnum-5386_2.rev.1777927705.jpg 3x" data-max-w="1512" data-m
+ ax-h="1514" loading="lazy" data-optimized="true"/></picture>Carson Varnum
+ \, MEd\,</strong> (he/him) is a community builder and educator with an ex
+ pertise in sexual health\, sexualities\, peer education\, and community d
+ evelopment. Carson specializes in building capacity in sex educators\, cr
+ eating sexuality education and leadership development programming for ado
+ lescents\, and developing programs that center Queer and Trans communitie
+ s. Carson works at Lewis &amp\; Clark Graduate School as TransActives's H
+ ead of Education and Outreach\, where he supports transgender\, non-binar
+ y\, and other gender expansive youth by strengthening the systems that su
+ rround them. He received his Masters of Education in Human Sexuality from
+  Widener University in 2012 and is currently a PhD student in Education a
+ nd Leadership at Pacific University. Carson is a big fan of being on moun
+ tains\, in rivers\, and with friends.&#160\;</p><div id="lw_widget_470b39
+ ba" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_
+ 3994 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_results 
+ lw_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_bod
+ y"><p style="line-height: 1.5\;"><em><strong>New workshops and trainings 
+ are added to our calendar regularly.</strong> For the latest on professio
+ nal development related to your specific interests\, <a href="https://lcl
+ ark.tfaforms.net/4735441">sign up for our mailing list!</a></em></p></div
+ ></li></ul></div>
 UID:20260804T170000Z-387629@www.lclark.edu
 DTSTAMP:20260320T112853Z
 URL:https://www.lclark.edu/calendars/events/event/387629-strengthening-su
  pport-for-lgbtq-students-in-challengi
-LAST-MODIFIED:20260422T173916Z
+LAST-MODIFIED:20260504T204938Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/960,0,3091,2133/112654_pexels-george-pak-7972542.rev.17750818
  16.jpg
@@ -7387,50 +7476,50 @@ DESCRIPTION:Where do you feel called to create new possibilities in your
  lark Graduate School\, 615 S. Palatine Hill Road\, Portland\, ORFacilitat
  ors: Dawn Montgomery\, EdD\; Matsya SiosalRegistration: $425. Includes 16
   PDUs or CEUs. Registration fees include Friday and Saturday lunch\, and 
- all supplies\, snacks\, and beverages.Online Registration Coming SoonLodg
- ing: Please note that this is not a residential retreat. The Lakeshore In
- n (https://www.thelakeshoreinn.com/) is the closest lodging option to cam
- pus\, and other options with rates for L&amp\;C visitors can be found her
- e (https://www.lclark.edu/visit/places_to_stay/).Accessibility: We are co
- mmitted to making our events accessible to all needs and abilities. When 
- registering\, please let us know your access needs. Contact us at 503-768
- -6040 or cce@lclark.edu with questions.Scholarship Fund: We strive to kee
- p our Courage retreats accessible to all who wish to participate. Please 
- consider making a tax-deductible donation (https://engage.lclark.edu/regi
- ster/gsecgiving?sys:gift:fund=4dfb9f4e-7351-4d84-91fe-531631c248c7&amp\;s
- ys:gift:notes=Courage%20and%20Renewal%20Retreats%20Scholarship%20Fund) to
-  our scholarship fund.About the Facilitators Dawn Montgomery\, EdD is a c
- hange facilitator and insightful thought partner. She supports leaders fr
- om a wide variety of fields\, including educators\, nonprofit executives\
- , and community administrators as they find their way in challenging time
- s. Assisting humans in their discovery and reconnection to their deepest 
- longings has been a passion for many years. Her background in K-12 and co
- llege education as teacher\, principal\, and district leader support her 
- coaching practice and team facilitation. She believes transformation is b
- orn when a circle of humans sit together to listen\, to speak their deepe
- st truths and to share their wildest imaginations for the world. She is e
- xpert at holding space for both individual leaders and teams as an execut
- ive coach\, conflict mediator\, equity-focused professional developer and
-  a certified Courage &amp\; Renewal facilitator. She is committed to maki
- ng a difference in the lives of individuals and their communities. Matsya
-  Siosal has developed her skills in leadership and facilitation for over 
- 25 years\, including roles with small and large for-profit corporations\,
-  mission-driven consumer goods companies\, higher education\, and as a co
- nsultant and entrepreneur. She has served as the director of the Center f
- or Community Engagement at Lewis &amp\; Clark since 2015\, after joining 
- the department in 2010 to work in marketing and program management. Matsy
- a is also co-founder and managing partner of Sea-O-Salt Bath Company (htt
- p://www.seaosalt.com/). Matsya is an experienced certified facilitator of
-  Courage &amp\; Renewal programs. She has facilitated Circle of Trust\, C
- ourage to Lead\, and Leading Together workshops and retreats since 2019\,
-  and is trained as a SoulCollage® (https://soulcollage.com/) facilitator
- . As a facilitator and coach\, Matsya supports mission-driven leaders in 
- accessing their authentic voice\, and finding clarity and self-trust so t
- hey can show up with wholeheartedness and sustainability in their lives a
- nd work.New workshops and trainings are added to our calendar regularly. 
- For the latest on professional development related to your specific inter
- ests\, sign up for our mailing list! (https://lclark.tfaforms.net/4735441
- )
+ all supplies\, snacks and beverages.Register Online (https://lclark.tfafo
+ rms.net/4735427?epid=a1aUY000002h2zt)Lodging: Please note that this is no
+ t a residential retreat. The Lakeshore Inn (https://www.thelakeshoreinn.c
+ om/) is the closest lodging option to campus\, and other options with rat
+ es for L&amp\;C visitors can be found here (https://www.lclark.edu/visit/
+ places_to_stay/).Accessibility: We are committed to making our events acc
+ essible to all needs and abilities. When registering\, please let us know
+  your access needs. Contact us at 503-768-6040 or cce@lclark.edu with que
+ stions.Scholarship Fund: We strive to keep our Courage retreats accessibl
+ e to all who wish to participate. Please consider making a tax-deductible
+  donation (https://engage.lclark.edu/register/gsecgiving?sys:gift:fund=4d
+ fb9f4e-7351-4d84-91fe-531631c248c7&amp\;sys:gift:notes=Courage%20and%20Re
+ newal%20Retreats%20Scholarship%20Fund) to our scholarship fund.About the 
+ Facilitators Dawn Montgomery\, EdD is a change facilitator and insightful
+  thought partner. She supports leaders from a wide variety of fields\, in
+ cluding educators\, nonprofit executives\, and community administrators a
+ s they find their way in challenging times. Assisting humans in their dis
+ covery and reconnection to their deepest longings has been a passion for 
+ many years. Her background in K-12 and college education as teacher\, pri
+ ncipal\, and district leader support her coaching practice and team facil
+ itation. She believes transformation is born when a circle of humans sit 
+ together to listen\, to speak their deepest truths and to share their wil
+ dest imaginations for the world. She is expert at holding space for both 
+ individual leaders and teams as an executive coach\, conflict mediator\, 
+ equity-focused professional developer and a certified Courage &amp\; Rene
+ wal facilitator. She is committed to making a difference in the lives of 
+ individuals and their communities. Matsya Siosal has developed her skills
+  in leadership and facilitation for over 25 years\, including roles with 
+ small and large for-profit corporations\, mission-driven consumer goods c
+ ompanies\, higher education\, and as a consultant and entrepreneur. She h
+ as served as the director of the Center for Community Engagement at Lewis
+  &amp\; Clark since 2015\, after joining the department in 2010 to work i
+ n marketing and program management. Matsya is also co-founder and managin
+ g partner of Sea-O-Salt Bath Company (http://www.seaosalt.com/). Matsya i
+ s an experienced certified facilitator of Courage &amp\; Renewal programs
+ . She has facilitated Circle of Trust\, Courage to Lead\, and Leading Tog
+ ether workshops and retreats since 2019\, and is trained as a SoulCollage
+ ® (https://soulcollage.com/) facilitator. As a facilitator and coach\, M
+ atsya supports mission-driven leaders in accessing their authentic voice\
+ , and finding clarity and self-trust so they can show up with wholehearte
+ dness and sustainability in their lives and work.New workshops and traini
+ ngs are added to our calendar regularly. For the latest on professional d
+ evelopment related to your specific interests\, sign up for our mailing l
+ ist! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;"><em>Where do y
  ou feel called to create new possibilities in your life\, community\, or 
  leadership?</em></p><p style="line-height: 1.5\;"><em>What role does refl
@@ -7480,113 +7569,114 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;"><em>Where do y
  t: 1.5\;"><strong>Facilitators:</strong> Dawn Montgomery\, EdD\; Matsya S
  iosal</p><p style="line-height: 1.5\;"><strong>Registration:</strong> $42
  5. Includes 16 PDUs or CEUs. Registration fees include Friday and Saturda
- y lunch\, and all supplies\, snacks\, and beverages.</p><p style="line-he
- ight: 1.5\;"><strong><em>Online Registration Coming Soon</em></strong></p
- ><p style="line-height: 1.5\;"><strong>Lodging:</strong> Please note that
-  this <span style="text-decoration: underline\;"><strong>is not</strong><
- /span> a residential retreat. <a href="https://www.thelakeshoreinn.com/">
- The Lakeshore Inn</a> is the closest lodging option to campus\, and other
-  options with rates for L&amp\;C visitors can be <a href="https://www.lcl
- ark.edu/visit/places_to_stay/" target="_blank" rel="noopener">found here<
- /a>.</p><p class="p1" style="font-size: 14px\; line-height: 1.5\;"><stron
- g>Accessibility:</strong> We are committed to making our events accessibl
- e to all needs and abilities. When registering\, please let us know your 
- access needs. Contact us at 503-768-6040 or cce@lclark.edu with questions
- .</p><p class="p1" style="font-size: 14px\; line-height: 1.5\;"><strong>S
- cholarship Fund:</strong> We strive to keep our Courage retreats accessib
- le to all who wish to participate. Please consider making a <a href="http
- s://engage.lclark.edu/register/gsecgiving?sys:gift:fund=4dfb9f4e-7351-4d8
- 4-91fe-531631c248c7&amp\;sys:gift:notes=Courage%20and%20Renewal%20Retreat
- s%20Scholarship%20Fund">tax-deductible donation</a> to our scholarship fu
- nd.</p><hr /><h2 style="line-height: 1.6\;"><strong>About the Facilitator
- s</strong></h2><p style="line-height: 1.5\;"><strong><picture class="lw_i
- mage lw_image94721 lw_align_right"><source type="image/webp" srcset="http
- s://www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200/crop/1
- /src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.41_PM.web
- p 2x\, https://www.lclark.edu/live/image/scale/3x/gid/91/width/200/height
- /200/crop/1/src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.1
- 5.41_PM.webp 3x" data-origin="responsive"/><source type="image/png" srcse
- t="https://www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200
- /crop/1/src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.41
- _PM.rev.1656104803.png 2x\, https://www.lclark.edu/live/image/scale/3x/gi
- d/91/width/200/height/200/crop/1/src_region/6\,0\,765\,760/94721_Screen_S
- hot_2022-06-24_at_2.15.41_PM.rev.1656104803.png 3x" data-origin="responsi
- ve"/><img width="200" height="200" alt="" data-alt="" data-decoration="tr
- ue" src="https://www.lclark.edu/live/image/gid/91/width/200/height/200/cr
+ y lunch\, and all supplies\, snacks and beverages.</p><p style="line-heig
+ ht: 1.5\;"><strong><a class="btn-small-style-1" href="https://lclark.tfaf
+ orms.net/4735427?epid=a1aUY000002h2zt">Register Online</a></strong></p><p
+  style="line-height: 1.5\;"><strong>Lodging:</strong> Please note that th
+ is <span style="text-decoration: underline\;"><strong>is not</strong></sp
+ an> a residential retreat. <a href="https://www.thelakeshoreinn.com/">The
+  Lakeshore Inn</a> is the closest lodging option to campus\, and other op
+ tions with rates for L&amp\;C visitors can be <a href="https://www.lclark
+ .edu/visit/places_to_stay/" target="_blank" rel="noopener">found here</a>
+ .</p><p class="p1" style="font-size: 14px\; line-height: 1.5\;"><strong>A
+ ccessibility:</strong> We are committed to making our events accessible t
+ o all needs and abilities. When registering\, please let us know your acc
+ ess needs. Contact us at 503-768-6040 or cce@lclark.edu with questions.</
+ p><p class="p1" style="font-size: 14px\; line-height: 1.5\;"><strong>Scho
+ larship Fund:</strong> We strive to keep our Courage retreats accessible 
+ to all who wish to participate. Please consider making a <a href="https:/
+ /engage.lclark.edu/register/gsecgiving?sys:gift:fund=4dfb9f4e-7351-4d84-9
+ 1fe-531631c248c7&amp\;sys:gift:notes=Courage%20and%20Renewal%20Retreats%2
+ 0Scholarship%20Fund">tax-deductible donation</a> to our scholarship fund.
+ </p><hr /><h2 style="line-height: 1.6\;"><strong>About the Facilitators</
+ strong></h2><p style="line-height: 1.5\;"><strong><picture class="lw_imag
+ e lw_image94721 lw_align_right"><source type="image/webp" srcset="https:/
+ /www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200/crop/1/sr
+ c_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.41_PM.webp 2
+ x\, https://www.lclark.edu/live/image/scale/3x/gid/91/width/200/height/20
+ 0/crop/1/src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.4
+ 1_PM.webp 3x" data-origin="responsive"/><source type="image/png" srcset="
+ https://www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200/cr
  op/1/src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.41_PM
- .rev.1656104803.png" title="Screen Shot 2022-06-24 at 2.15.41 PM" srcset=
- "https://www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200/c
- rop/1/src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.41_P
- M.rev.1656104803.png 2x\, https://www.lclark.edu/live/image/scale/3x/gid/
- 91/width/200/height/200/crop/1/src_region/6\,0\,765\,760/94721_Screen_Sho
- t_2022-06-24_at_2.15.41_PM.rev.1656104803.png 3x" data-max-w="759" data-m
- ax-h="760" loading="lazy" data-optimized="true"/></picture> Dawn Montgome
- ry\, EdD</strong> is a change facilitator and insightful thought partner.
-  She supports leaders from a wide variety of fields\, including educators
- \, nonprofit executives\, and community administrators as they find their
-  way in challenging times. Assisting humans in their discovery and reconn
- ection to their deepest longings has been a passion for many years. Her b
- ackground in K-12 and college education as teacher\, principal\, and dist
- rict leader support her coaching practice and team facilitation. She beli
- eves transformation is born when a circle of humans sit together to liste
- n\, to speak their deepest truths and to share their wildest imaginations
-  for the world. She is expert at holding space for both individual leader
- s and teams as an executive coach\, conflict mediator\, equity-focused pr
- ofessional developer and a certified Courage &amp\; Renewal facilitator. 
- She is committed to making a difference in the lives of individuals and t
- heir communities.</p><p style="line-height: 1.5\;"><strong><picture class
- ="lw_image lw_image95419 lw_align_right"><source type="image/webp" srcset
- ="https://www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200/
- crop/1/src_region/0\,111\,1200\,1310/95419_siosalmatsya-mug.webp 2x\, htt
- ps://www.lclark.edu/live/image/scale/3x/gid/91/width/200/height/200/crop/
- 1/src_region/0\,111\,1200\,1310/95419_siosalmatsya-mug.webp 3x" data-orig
- in="responsive"/><source type="image/jpeg" srcset="https://www.lclark.edu
- /live/image/scale/2x/gid/91/width/200/height/200/crop/1/src_region/0\,111
- \,1200\,1310/95419_siosalmatsya-mug.rev.1661345780.jpg 2x\, https://www.l
- clark.edu/live/image/scale/3x/gid/91/width/200/height/200/crop/1/src_regi
- on/0\,111\,1200\,1310/95419_siosalmatsya-mug.rev.1661345780.jpg 3x" data-
- origin="responsive"/><img width="200" height="200" alt="" data-alt="" dat
- a-decoration="true" src="https://www.lclark.edu/live/image/gid/91/width/2
- 00/height/200/crop/1/src_region/0\,111\,1200\,1310/95419_siosalmatsya-mug
- .rev.1661345780.jpg" srcset="https://www.lclark.edu/live/image/scale/2x/g
- id/91/width/200/height/200/crop/1/src_region/0\,111\,1200\,1310/95419_sio
- salmatsya-mug.rev.1661345780.jpg 2x\, https://www.lclark.edu/live/image/s
- cale/3x/gid/91/width/200/height/200/crop/1/src_region/0\,111\,1200\,1310/
- 95419_siosalmatsya-mug.rev.1661345780.jpg 3x" data-max-w="1200" data-max-
- h="1199" loading="lazy" data-optimized="true"/></picture> Matsya Siosal</
- strong> has developed her skills in leadership and facilitation for over 
- 25 years\, including roles with small and large for-profit corporations\,
-  mission-driven consumer goods companies\, higher education\, and as a co
- nsultant and entrepreneur. She has served as the director of the Center f
- or Community Engagement at Lewis &amp\; Clark since 2015\, after joining 
- the department in 2010 to work in marketing and program management. Matsy
- a is also co-founder and managing partner of <a href="http://www.seaosalt
- .com/" target="_blank" rel="noopener" data-saferedirecturl="https://www.g
- oogle.com/url?q=http://www.seaosalt.com&amp\;source=gmail&amp\;ust=175338
- 3044078000&amp\;usg=AOvVaw1p78DjRJB9GSrWHhA6LGkP">Sea-O-Salt Bath Company
- </a>. Matsya is an experienced certified facilitator of Courage &amp\; Re
- newal programs. She has facilitated Circle of Trust\, Courage to Lead\, a
- nd Leading Together workshops and retreats since 2019\, and is trained as
-  a <a href="https://soulcollage.com/" target="_blank" rel="noopener" data
- -saferedirecturl="https://www.google.com/url?q=https://soulcollage.com/&a
- mp\;source=gmail&amp\;ust=1753383044078000&amp\;usg=AOvVaw0R2GoVMeEDJcNYa
- bHL8_ee">SoulCollage®</a> facilitator. As a facilitator and coach\, Mats
- ya supports mission-driven leaders in accessing their authentic voice\, a
- nd finding clarity and self-trust so they can show up with wholeheartedne
- ss and sustainability in their lives and work.</p><div id="lw_widget_470b
- 39ba" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widget_i
- d_3994 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_result
- s lw_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_b
- ody"><p style="line-height: 1.5\;"><em><strong>New workshops and training
- s are added to our calendar regularly.</strong> For the latest on profess
- ional development related to your specific interests\, <a href="https://l
- clark.tfaforms.net/4735441">sign up for our mailing list!</a></em></p></d
- iv></li></ul></div>
+ .rev.1656104803.png 2x\, https://www.lclark.edu/live/image/scale/3x/gid/9
+ 1/width/200/height/200/crop/1/src_region/6\,0\,765\,760/94721_Screen_Shot
+ _2022-06-24_at_2.15.41_PM.rev.1656104803.png 3x" data-origin="responsive"
+ /><img width="200" height="200" alt="" data-alt="" data-decoration="true"
+  src="https://www.lclark.edu/live/image/gid/91/width/200/height/200/crop/
+ 1/src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.41_PM.re
+ v.1656104803.png" title="Screen Shot 2022-06-24 at 2.15.41 PM" srcset="ht
+ tps://www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200/crop
+ /1/src_region/6\,0\,765\,760/94721_Screen_Shot_2022-06-24_at_2.15.41_PM.r
+ ev.1656104803.png 2x\, https://www.lclark.edu/live/image/scale/3x/gid/91/
+ width/200/height/200/crop/1/src_region/6\,0\,765\,760/94721_Screen_Shot_2
+ 022-06-24_at_2.15.41_PM.rev.1656104803.png 3x" data-max-w="759" data-max-
+ h="760" loading="lazy" data-optimized="true"/></picture> Dawn Montgomery\
+ , EdD</strong> is a change facilitator and insightful thought partner. Sh
+ e supports leaders from a wide variety of fields\, including educators\, 
+ nonprofit executives\, and community administrators as they find their wa
+ y in challenging times. Assisting humans in their discovery and reconnect
+ ion to their deepest longings has been a passion for many years. Her back
+ ground in K-12 and college education as teacher\, principal\, and distric
+ t leader support her coaching practice and team facilitation. She believe
+ s transformation is born when a circle of humans sit together to listen\,
+  to speak their deepest truths and to share their wildest imaginations fo
+ r the world. She is expert at holding space for both individual leaders a
+ nd teams as an executive coach\, conflict mediator\, equity-focused profe
+ ssional developer and a certified Courage &amp\; Renewal facilitator. She
+  is committed to making a difference in the lives of individuals and thei
+ r communities.</p><p style="line-height: 1.5\;"><strong><picture class="l
+ w_image lw_image95419 lw_align_right"><source type="image/webp" srcset="h
+ ttps://www.lclark.edu/live/image/scale/2x/gid/91/width/200/height/200/cro
+ p/1/src_region/0\,111\,1200\,1310/95419_siosalmatsya-mug.webp 2x\, https:
+ //www.lclark.edu/live/image/scale/3x/gid/91/width/200/height/200/crop/1/s
+ rc_region/0\,111\,1200\,1310/95419_siosalmatsya-mug.webp 3x" data-origin=
+ "responsive"/><source type="image/jpeg" srcset="https://www.lclark.edu/li
+ ve/image/scale/2x/gid/91/width/200/height/200/crop/1/src_region/0\,111\,1
+ 200\,1310/95419_siosalmatsya-mug.rev.1661345780.jpg 2x\, https://www.lcla
+ rk.edu/live/image/scale/3x/gid/91/width/200/height/200/crop/1/src_region/
+ 0\,111\,1200\,1310/95419_siosalmatsya-mug.rev.1661345780.jpg 3x" data-ori
+ gin="responsive"/><img width="200" height="200" alt="" data-alt="" data-d
+ ecoration="true" src="https://www.lclark.edu/live/image/gid/91/width/200/
+ height/200/crop/1/src_region/0\,111\,1200\,1310/95419_siosalmatsya-mug.re
+ v.1661345780.jpg" srcset="https://www.lclark.edu/live/image/scale/2x/gid/
+ 91/width/200/height/200/crop/1/src_region/0\,111\,1200\,1310/95419_siosal
+ matsya-mug.rev.1661345780.jpg 2x\, https://www.lclark.edu/live/image/scal
+ e/3x/gid/91/width/200/height/200/crop/1/src_region/0\,111\,1200\,1310/954
+ 19_siosalmatsya-mug.rev.1661345780.jpg 3x" data-max-w="1200" data-max-h="
+ 1199" loading="lazy" data-optimized="true"/></picture> Matsya Siosal</str
+ ong> has developed her skills in leadership and facilitation for over 25 
+ years\, including roles with small and large for-profit corporations\, mi
+ ssion-driven consumer goods companies\, higher education\, and as a consu
+ ltant and entrepreneur. She has served as the director of the Center for 
+ Community Engagement at Lewis &amp\; Clark since 2015\, after joining the
+  department in 2010 to work in marketing and program management. Matsya i
+ s also co-founder and managing partner of <a href="http://www.seaosalt.co
+ m/" target="_blank" rel="noopener" data-saferedirecturl="https://www.goog
+ le.com/url?q=http://www.seaosalt.com&amp\;source=gmail&amp\;ust=175338304
+ 4078000&amp\;usg=AOvVaw1p78DjRJB9GSrWHhA6LGkP">Sea-O-Salt Bath Company</a
+ >. Matsya is an experienced certified facilitator of Courage &amp\; Renew
+ al programs. She has facilitated Circle of Trust\, Courage to Lead\, and 
+ Leading Together workshops and retreats since 2019\, and is trained as a 
+ <a href="https://soulcollage.com/" target="_blank" rel="noopener" data-sa
+ feredirecturl="https://www.google.com/url?q=https://soulcollage.com/&amp\
+ ;source=gmail&amp\;ust=1753383044078000&amp\;usg=AOvVaw0R2GoVMeEDJcNYabHL
+ 8_ee">SoulCollage®</a> facilitator. As a facilitator and coach\, Matsya 
+ supports mission-driven leaders in accessing their authentic voice\, and 
+ finding clarity and self-trust so they can show up with wholeheartedness 
+ and sustainability in their lives and work.</p><div id="lw_widget_470b39b
+ a" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_3
+ 994 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_results l
+ w_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_body
+ "><p style="line-height: 1.5\;"><em><strong>New workshops and trainings a
+ re added to our calendar regularly.</strong> For the latest on profession
+ al development related to your specific interests\, <a href="https://lcla
+ rk.tfaforms.net/4735441">sign up for our mailing list!</a></em></p></div>
+ </li></ul></div>
 UID:20261002T070000Z-391789@www.lclark.edu
 DTSTAMP:20260427T114825Z
 URL:https://www.lclark.edu/calendars/events/event/391789-writing-into-pre
  sence-reflective-practices-for-courag
-LAST-MODIFIED:20260430T202020Z
+LAST-MODIFIED:20260504T210208Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,3200,2133/112978_pexels-connorscottmcmanus-14297616.rev.1
  777318673.jpg
@@ -7742,36 +7832,66 @@ SUMMARY:Class Reunions - 2026
 DESCRIPTION:It's time to step away from the billable hours and the briefs
  . The Lewis &amp\; Clark Law reunions are back\, and we're rolling out th
  e red carpet for the "6" years. If this is your class\, grab your classma
- tes and come and join us!        1966              1976              1986
-               1996              2006              2016        Please RSVP
-  HERE (https://engage.lclark.edu/register/?id=0c1dd8ce-c23c-4221-9d3c-1fa
- 9c532c571)!  Your classmates are currently working on behind the scenes o
- n a "Class Specific" activity – stay tuned for the RSVP link and the fu
- ll itinerary.&#160\;Do you want to help plan? Email lawalum@lclark.edu (m
- ailto:lawalum@lclark.edu).  We look forward to seeing you!
+ tes and come and join us!  This year\, we're excited to offer a fun and f
+ amily-friendly event so bring the whole family! We're exploring bringing 
+ a bounce house and food trucks to campus. And as always\, you can count o
+ n a campus tour provided by a current law student and for the law booksto
+ re to be open so you can gear up with your River Otter merch!&#160\;  Ple
+ ase RSVP HERE (https://engage.lclark.edu/register/?id=0c1dd8ce-c23c-4221-
+ 9d3c-1fa9c532c571)!  Your classmates are currently working on behind the 
+ scenes on a "Class Specific" activity – here is what has been planned s
+ o far:Class YearDateTimeLocation        1976              Saturday\, Aug.
+  22nd              4-8:30PM              Blueberry Hills estate          
+     1986              TBD              &#160\;              &#160\;      
+         1996              TBD              &#160\;              &#160\;  
+             2006              TBD              &#160\;              &#160
+ \;              2016              Saturday\, Oct. 17th              6-8PM
+               Steeplejack (2nd floor)      Do you want to help plan? Emai
+ l lawalum@lclark.edu (mailto:lawalum@lclark.edu).  We look forward to see
+ ing you!
 X-ALT-DESC;FMTTYPE=text/html:<p>  It's time to step away from the billabl
  e hours and the briefs. The Lewis &amp\; Clark Law reunions are back\, an
  d we're rolling out the red carpet for the <strong>"6" years</strong>. If
-  this is your class\, grab your classmates and come and join us!</p><tabl
- e style="border-collapse: collapse\; width: 97.3466%\; border-color: #000
- 000\; border-style: solid\;" border="2"><tbody><tr><td style="width: 13.7
- 714%\;">        1966      </td><td style="width: 13.7714%\;">        1976
-       </td><td style="width: 13.7714%\;">        1986      </td><td style
- ="width: 13.7714%\;">        1996      </td><td style="width: 13.7714%\;"
- >        2006      </td><td style="width: 13.7714%\;">        2016      <
- /td></tr></tbody></table><p class="">  Please <strong><a href="https://en
- gage.lclark.edu/register/?id=0c1dd8ce-c23c-4221-9d3c-1fa9c532c571" target
- ="_blank" rel="noopener">RSVP HERE</a></strong>!</p><p class="">  Your cl
- assmates are currently working on behind the scenes on a "Class Specific"
-  activity – stay tuned for the RSVP link and the full itinerary.&#160\;
- </p><p class=""><span style="background-color: transparent\;">Do you want
-  to help plan? Email <a href="mailto:lawalum@lclark.edu">lawalum@lclark.e
- du</a>.</span></p><p>  We look forward to seeing you!</p>
+  this is your class\, grab your classmates and come and join us!</p><p>  
+ This year\, we're excited to offer a fun and family-friendly event so bri
+ ng the whole family! We're exploring bringing a bounce house and food tru
+ cks to campus. And as always\, you can count on a campus tour provided by
+  a current law student and for the law bookstore to be open so you can ge
+ ar up with your River Otter merch!&#160\;</p><p class="" style="text-alig
+ n: center\;">  Please <strong><a href="https://engage.lclark.edu/register
+ /?id=0c1dd8ce-c23c-4221-9d3c-1fa9c532c571" target="_blank" rel="noopener"
+ >RSVP HERE</a></strong>!</p><p class="">  Your classmates are currently w
+ orking on behind the scenes on a "Class Specific" activity – here is wh
+ at has been planned so far:</p><table style="border-collapse: collapse\; 
+ width: 97.3466%\; border-color: #000000\; border-style: solid\;" border="
+ 1"><tbody><tr><td style="width: 24.4721%\;"><strong>Class Year</strong></
+ td><td style="width: 24.4721%\;"><strong>Date</strong></td><td style="wid
+ th: 24.4721%\;"><strong>Time</strong></td><td style="width: 24.4721%\;"><
+ strong>Location</strong></td></tr><tr><td style="width: 24.4721%\;">     
+    1976      </td><td style="width: 24.4721%\;">        Saturday\, Aug. 2
+ 2nd      </td><td style="width: 24.4721%\;">        4-8:30PM      </td><t
+ d style="width: 24.4721%\;">        Blueberry Hills estate      </td></tr
+ ><tr><td style="width: 24.4721%\;">        1986      </td><td style="widt
+ h: 24.4721%\;">        TBD      </td><td style="width: 24.4721%\;">      
+   &#160\;      </td><td style="width: 24.4721%\;">        &#160\;      </
+ td></tr><tr><td style="width: 24.4721%\;">        1996      </td><td styl
+ e="width: 24.4721%\;">        TBD      </td><td style="width: 24.4721%\;"
+ >        &#160\;      </td><td style="width: 24.4721%\;">        &#160\; 
+      </td></tr><tr><td style="width: 24.4721%\;">        2006      </td><
+ td style="width: 24.4721%\;">        TBD      </td><td style="width: 24.4
+ 721%\;">        &#160\;      </td><td style="width: 24.4721%\;">        &
+ #160\;      </td></tr><tr><td style="width: 24.4721%\;">        2016     
+  </td><td style="width: 24.4721%\;">        Saturday\, Oct. 17th      </t
+ d><td style="width: 24.4721%\;">        6-8PM      </td><td style="width:
+  24.4721%\;">        Steeplejack (2nd floor)      </td></tr></tbody></tab
+ le><p class=""><span style="background-color: transparent\;">Do you want 
+ to help plan? Email <a href="mailto:lawalum@lclark.edu">lawalum@lclark.ed
+ u</a>.</span></p><p>  We look forward to seeing you!</p>
 UID:20261017T220000Z-385282@www.lclark.edu
 DTSTAMP:20260227T101154Z
 URL:https://www.lclark.edu/calendars/events/event/385282-class-reunions-2
  026
-LAST-MODIFIED:20260423T185031Z
+LAST-MODIFIED:20260504T231905Z
 ATTACH:https://www.lclark.edu/live/image/gid/194/width/80/height/80/crop/
  1/src_region/0,0,1080,1080/107167_Class_Reunions_Save_the_Date.rev.173887
  0822.jpg

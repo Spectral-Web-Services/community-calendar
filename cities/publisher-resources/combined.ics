@@ -7,67 +7,45 @@ X-WR-CALNAME:Publisher Resources Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/inma-world-congress-of-news-media-may-4-8,257997"}
-X-SOURCE-ID:editor_publisher
-SUMMARY:INMA World Congress of News Media
-DTSTART:20260504T000000
-DTEND:20260508T000000
-UID:d3f251252da300d6e00c22c9e925a039@editorandpublisher.com
-DESCRIPTION:
-URL:https://www.editorandpublisher.com/stories/inma-world-congress-of-news
- -media-may-4-8,257997
-X-SOURCE:Editor & Publisher
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Journalism Conferences": "https://www.inma.org/modules/event/2026WorldCongress/"}
-X-SOURCE-ID:journalism_conferences
-SUMMARY:World Congress of News Media 2026
-DTSTART:20260504T000000
-DTEND:20260508T000000
-UID:5c9f7c64a921296a691da281d54ce8d0@journalism.wtf
-DESCRIPTION:Host: International News Media Association\nFormat: In Person
-LOCATION:Berlin\, Germany
-URL:https://www.inma.org/modules/event/2026WorldCongress/
-X-SOURCE:Journalism Conferences
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/news-reimagined-creator-journalism-summit", "Society of Professional Journalists": "http://www.eventbrite.com/e/news-reimagined-the-creator-journalism-summit-tickets-1986838877567?aff=oddtdtcreator&keep_tld=true"}
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/news-reimagined-creator-journalism-summit"}
-X-SOURCE-ID:sej
+X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.eventbrite.com/e/news-reimagined-the-creator-journalism-summit-tickets-1986838877567?aff=oddtdtcreator&keep_tld=true"}
+X-SOURCE-ID:spj
+X-SOURCE:Society of Professional Journalists
+DTSTAMP:20170606T23230Z
+UID:naJjuQ4vP2-8224251358@spjnetwork.org
+DTSTART;TZID=America/New_York:20260504T093000
+DTEND;TZID=America/New_York:20260504T150000
 SUMMARY:News Reimagined: The Creator Journalism Summit
-DTSTART;TZID=America/New_York:20260504T000000
-DTEND;TZID=America/New_York:20260504T000000
-UID:ac04e8a92bbd72cad626fec68eb36d2f@sej.org
-DESCRIPTION:The half-day summit at the National Press Club is a collaborat
- ion with URL Media\, a network supporting Black and Brown journalists and 
- media orgs.\n\nCategories: National (U.S.)\, Mid-Atlantic (DC DE MD PA VA 
- WV)\, Professional Meetings\, Journalism & Media
-URL:https://www.sej.org/calendar/news-reimagined-creator-journalism-summit
-X-SOURCE:Society of Environmental Journalists, Society of Professional Journalists
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"NewsGuild-CWA": "https://us06web.zoom.us/meeting/register/0H7ydxorSKGK7-oju-ifaA#/registration"}
-X-SOURCE-ID:newsguild
-X-SOURCE:NewsGuild-CWA
-URL:https://us06web.zoom.us/meeting/register/0H7ydxorSKGK7-oju-ifaA#/registration
-SUMMARY:Train The Trainer - Weingarten Rights For Members
-DTSTART;TZID=America/New_York:20260504T190000
-DTEND;TZID=America/New_York:20260504T210000
-DTSTAMP:20260504T024133Z
-UID:49p6qo86ua8r7j1e8q92g2u5ho@google.com
-RECURRENCE-ID;TZID=America/New_York:20260504T190000
-SEQUENCE:1
-CREATED:20260427T233830Z
-DESCRIPTION:Stewards across our union are training to act as union represe
- ntatives when members assert their Weingarten rights. This workshop is a "
- train the trainer" equipping stewards to educate members on best practices
-  for asserting rights and demystifying what will happen after they do. Joi
- n us by registering via this link<br><br><a href="https://us06web.zoom.us/
- meeting/register/0H7ydxorSKGK7-oju-ifaA#/registration">https://us06web.zoo
- m.us/meeting/register/0H7ydxorSKGK7-oju-ifaA#/registration</a>
-LAST-MODIFIED:20260501T224550Z
-STATUS:CONFIRMED
-TRANSP:OPAQUE
+URL:http://www.eventbrite.com/e/news-reimagined-the-creator-journalism-summit-tickets-1986838877567?aff=oddtdtcreator&#38;keep_tld=true
+DESCRIPTION:Journalism isn’t just evolving. It’s being rebuilt in real time. News Reimagined is where that transformation comes to life. This one-day experience brings together journalists\, creators\, and newsroom leaders who are figuring out how to grow audiences\, build trust\, and make this work sustainable.
+
+We kick things off with mainstage speakers Bianca Graulau and Nick Valencia\, whose independent reporting has reached millions and redefined what it means to connect with an audience. They’ll set the tone for a day focused on bold ideas\, real talk\, and practical takeaways.
+
+Whether you’re a newsroom leader hoping to work with creators or a creator-journalist who wants to scale up your business\, we have you covered.
+
+For newsrooms & publishers:
+
+You know creators matter. Now what?
+
+This track gets into the how. What does smart partnership actually look like? How do you budget for it? What are you paying for\, and how do you measure success? We’ll dig into real examples\, unpack agreements and contracts\, and tackle the big questions around ethics\, standards\, and trust when working with creators who may not come from traditional newsrooms.
+
+For journalists & creators:
+
+You’ve got the skills. It’s time to build something of your own.
+
+This track is all about turning your journalism into a sustainable business. Learn how to grow an audience\, choose the right platforms\, price your work\, negotiate with confidence\, and create multiple revenue streams. Whether you’re just starting out or scaling up\, you’ll leave with tools you can use immediately.
+
+At its core\, this summit is about one thing: relationships. The future of journalism will be built through collaboration: between creators and newsrooms\, journalists and audiences\, ideas and opportunity. This is where those connections start.
+
+Confirmed speakers include:
+
+Bianca Graulau\, independent journalist from Puerto Rico
+Michael Jones\, independent national political reporter\, Once Upon a Hill
+S. Mitra Kalita\, co-founder/ CEO\, URL Media
+Ryan Y. Kellett\, co-founder\, The Independent Journalism Atlas
+Adrienne Johnson Martin\, co-executive director\, MLK50
+Nick Valencia\, founder\, Nick Valencia News
+Krysta Villeda\, chief operating officer\, Pulso
+LOCATION:National Press Club\, Washington\, D.C.
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://www.rightscon.org/"}
@@ -196,7 +174,7 @@ X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;VALUE=DATE:20260506
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260503T224132
+DTSTAMP:20260504T222934
 CREATED:20260226T160353Z
 LAST-MODIFIED:20260407T182252Z
 UID:70005-1778025600-1778371199@sabew.org
@@ -214,7 +192,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260506T160000
 DTEND;TZID=America/Chicago:20260506T170000
-DTSTAMP:20260504T024132Z
+DTSTAMP:20260505T022935Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260506
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -256,7 +234,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:Member Organizer Biannual Meeting
 DTSTART;TZID=America/New_York:20260506T190000
 DTEND;TZID=America/New_York:20260506T203000
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:5iboh4auknqolgkmvsm1umh6je@google.com
 RECURRENCE-ID;TZID=America/New_York:20260506T190000
 SEQUENCE:0
@@ -305,7 +283,7 @@ X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260510
-DTSTAMP:20260503T224132
+DTSTAMP:20260504T222934
 CREATED:20250730T220320Z
 LAST-MODIFIED:20260501T013615Z
 UID:66733-1778112000-1778371199@sabew.org
@@ -420,7 +398,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://jobs.dayforcehcm.com/en-US/gannett/GANNETTINTERNSHIPS/jobs/88235
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:3jcg91b3f8jtebfsb7novenca8@google.com
 CREATED:20260428T013452Z
 DESCRIPTION:See the full program description: <a href="https://jobs.dayforc
@@ -435,6 +413,37 @@ SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:USA Today's 2026 Summer AI Creation Video Internship
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-climate-newsroom-ccnow"}
+X-SOURCE-ID:sej
+SUMMARY:The Climate Newsroom\, CCNow
+DTSTART;TZID=America/New_York:20260508T000000
+DTEND;TZID=America/New_York:20260508T000000
+UID:26de1e210bf7ab034aa1605297bc64e6@sej.org
+DESCRIPTION:Free training! CCNow is accepting applications for the spring 
+ cohort of The Climate Newsroom\, our free three-session training program f
+ or US-based journalists. Training begins the week of May 12. Apply by May 
+ 8.\n\nCategories: National (U.S.)\, Workshops and Fellowships\, Journalism
+  & Media
+URL:https://www.sej.org/calendar/deadline-climate-newsroom-ccnow
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Assoc. of LGBTQ+ Journalists": "https://www.nlgja.org/event/17054/"}
+X-SOURCE-ID:nlgja
+X-SOURCE:Assoc. of LGBTQ+ Journalists
+DTSTART;TZID=America/Los_Angeles:20260509T180000
+DTEND;TZID=America/Los_Angeles:20260509T210000
+DTSTAMP:20260504T222932
+CREATED:20260503T131138Z
+LAST-MODIFIED:20260504T131647Z
+UID:17054-1778349600-1778360400@www.nlgja.org
+SUMMARY:LA Press Pride Prom
+DESCRIPTION:This year\, our LA chapter’s annual benefit and awards ceremony is dedicated to the queer and trans folks who came before us\, resisting\, loving\, thriving and setting the stage for the next generation to continue building on that legacy. \nWe’ve been here\, and we’ll always be here. Now\, let’s party! \n\n\n\n\n\nGet Your Tickets Today! \n\n\n\n\nJoin us at Press Pride Prom as we honor Southern California’s LGBTQ+ history and celebrate the journalists documenting queer and trans life today! \nNow more than ever\, it’s imperative that we get to document and tell our stories. With your help\, we can raise money to provide scholarships for emerging LGBTQ+ journalists and continue to develop programming that centers the needs of Southern California’s queer and trans media types of all stripes. \nPress Pride Prom is a celebration with purpose. Your support fuels our mission — get your tickets today!
+URL:https://www.nlgja.org/event/17054/
+LOCATION:LA LGBT Center
+CATEGORIES:Chapters
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Poynter Institute Training": "https://www.poynter.org/shop/leadership/essential-skills-for-new-managers-may-2026/"}
@@ -548,7 +557,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.journalismjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-health-journalism
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:1n82i80sglr79joj1t1mbfqaj2@google.com
 CREATED:20260428T013123Z
 DESCRIPTION:See the full program description: <a href="https://www.journali
@@ -573,7 +582,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.motherjones.com/careers/digital-engagement-fellow/
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:7sqc7u2g7ev4t6bnmk17uls1h2@google.com
 CREATED:20260428T012905Z
 DESCRIPTION:See the full program description: <a href="https://www.motherjo
@@ -596,7 +605,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://luma.com/hh-aijournalismsummit-2026?ref=hackshackers.com
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260515
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:0d7c7cq4fttkgc3je3tu7uv1o9@google.com
 CREATED:20260428T012714Z
 DESCRIPTION:See the full conference description: <a href="https://luma.com/
@@ -673,31 +682,32 @@ X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/86552943689?
 X-SOURCE-ID:tiny_news_members_only
 X-SOURCE:Tiny News Members Only
 URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
-SUMMARY:Founder Show and Tell: Monthly meeting
+SUMMARY:Founder Show and Tell: How to pilot a walking tour 
 DTSTART;TZID=America/New_York:20260513T160000
 DTEND;TZID=America/New_York:20260513T170000
-DTSTAMP:20260504T024132Z
+DTSTAMP:20260505T022935Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260513
 SEQUENCE:1
 CREATED:20251212T131931Z
-DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
- nnect with others who are building early-stage news organizations. This sp
- ace is focused on sharing challenges\, strategies and real approaches you
- ’re testing in your own newsroom. Any founder can volunteer to facilitat
- e the conversation.</p><p>Tiny News Collective is inviting you to a schedu
- led Zoom meeting.</p><br>Topic: Founders Show and Tell<br>Time: Mar 11\, 2
- 026 04:00 PM Eastern Time (US and Canada)<br>Join Zoom Meeting<br><a href=
- "https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.
- 1" target="_blank">https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoi
- javBBGgNV74zZa60P.1</a><br><br>Meeting ID: 865 5294 3689<br>Passcode: 3137
- 29<br><br>---<br><br>One tap mobile<br>+13052241968\,\,86552943689#\,\,\,\
- ,*313729# US<br>+13092053325\,\,86552943689#\,\,\,\,*313729# US<br><br>Joi
- n instructions<br><a href="https://us06web.zoom.us/meetings/86552943689/in
- vitations?signature=zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI" target="_
- blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
- zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
- br></b>
-LAST-MODIFIED:20260427T235144Z
+DESCRIPTION:<p dir="ltr">Join us and learn from Cara Kuhlman\, founder of 
+ Future Tides\, about how your organization can pilot walking tours! </p><
+ p dir="ltr">Cara will share the guide she developed during her RJI fellows
+ hip. She’ll explain why walking tours are a medium for local journalism 
+ and how news organizations can test tours as a way to engage with their au
+ dience and generate revenue while still sharing news and information.  <
+ /p><p><br></p><p>Join us here! </p>Topic: Founders Show and Tell<br>Time:
+  Mar 11\, 2026 04:00 PM Eastern Time (US and Canada)<br>Join Zoom Meeting<
+ br><a href="https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGg
+ NV74zZa60P.1" target="_blank">https://us06web.zoom.us/j/86552943689?pwd=t4
+ x9gaGynZjoijavBBGgNV74zZa60P.1</a><br><br>Meeting ID: 865 5294 3689<br>Pas
+ scode: 313729<br><br>---<br><br>One tap mobile<br>+13052241968\,\,86552943
+ 689#\,\,\,\,*313729# US<br>+13092053325\,\,86552943689#\,\,\,\,*313729# US
+ <br><br>Join instructions<br><a href="https://us06web.zoom.us/meetings/865
+ 52943689/invitations?signature=zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI
+ " target="_blank">https://us06web.zoom.us/meetings/86552943689/invitations
+ ?signature=zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br><
+ /b><br><b><br></b>
+LAST-MODIFIED:20260504T204234Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -785,7 +795,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://thenewsletterconference.com/
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:2rel4an2o6sqgv9hcpneptrelf@google.com
 CREATED:20260428T013851Z
 DESCRIPTION:See the full conference description: <a href="https://thenewsle
@@ -917,7 +927,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:How to Unite and Win at Work in NYC
 DTSTART;TZID=America/New_York:20260518T190000
 DTEND;TZID=America/New_York:20260518T203000
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:02fca9p5kumqikme1c8au9ss3h@google.com
 RECURRENCE-ID;TZID=America/New_York:20260518T190000
 SEQUENCE:0
@@ -993,6 +1003,23 @@ DESCRIPTION:In today’s rapidly evolving media landscape\, journalists an
 URL:https://journalismcourses.org/product/substack-for-journalists-growing
  -your-audience-and-impact/
 X-SOURCE:Knight Center for Journalism
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-0"}
+X-SOURCE-ID:sej
+SUMMARY:Maynard Regional Training\, Chicago\, June 4-5\, 2026
+DTSTART;TZID=America/New_York:20260520T000000
+DTEND;TZID=America/New_York:20260520T000000
+UID:7f9504b592944c23daed9fe51b65d105@sej.org
+DESCRIPTION:The Maynard Regional Training Series brings in-person\, weeken
+ d-long leadership and management training to journalists across the U.S. I
+ n partnership with universities\, these sessions give entry- and mid-level
+  editors and managers the tools and confidence they need to traverse the c
+ omplexities of newsroom leadership. Deadline to register: May 20\, 2026\n\
+ nCategories: National (U.S.)\, Professional Meetings\, Workshops and Fello
+ wships\, Journalism & Media
+URL:https://www.sej.org/calendar/deadline-0
+X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Sunlight Research": "https://us02web.zoom.us/meeting/register/pXrQU2xCQpOTnpsyPQ0hvQ"}
@@ -1100,7 +1127,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj, Journalism Conferences
 DTSTART;TZID=America/New_York:20260527T000000
 DTEND;TZID=America/New_York:20260530T235959
-DTSTAMP:20260503T224131
+DTSTAMP:20260504T222933
 CREATED:20260121T224600Z
 LAST-MODIFIED:20260121T224603Z
 UID:62297-1779840000-1780185599@healthjournalism.org
@@ -1203,7 +1230,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260606
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:38vhr0gb8vnlj42tr2rpgdgtnu@google.com
 CREATED:20260302T030352Z
 DESCRIPTION:See the full conference description: <a href="https://ewa.org/e
@@ -1247,7 +1274,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260603T160000
 DTEND;TZID=America/Chicago:20260603T170000
-DTSTAMP:20260504T024132Z
+DTSTAMP:20260505T022935Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260603
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -1341,6 +1368,22 @@ URL:https://journalists.org/events/housing-journalism-for-everyone
 X-SOURCE:Online News Association
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Assoc. of LGBTQ+ Journalists": "https://www.nlgja.org/event/nlgja-dc-pride-happy-hour/"}
+X-SOURCE-ID:nlgja
+X-SOURCE:Assoc. of LGBTQ+ Journalists
+DTSTART;TZID=America/New_York:20260606T150000
+DTEND;TZID=America/New_York:20260606T170000
+DTSTAMP:20260504T222932
+CREATED:20260504T130939Z
+LAST-MODIFIED:20260504T130939Z
+UID:17053-1780758000-1780765200@www.nlgja.org
+SUMMARY:NLGJA-DC Pride Happy Hour
+DESCRIPTION:Join our DC Chapter for their biggest event of the year — their annual Pride Happy Hour! Come to Trade for an afternoon of celebration\, networking and fun with your fellow queer media professionals. \n\nRSVP here!
+URL:https://www.nlgja.org/event/nlgja-dc-pride-happy-hour/
+LOCATION:Trade\, 1410 14th Street Northwest\, Washington\, DC\, 20009\, United States
+CATEGORIES:Chapters
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://srccon.org/"}
 X-SOURCE-ID:journalism_conferences
 SUMMARY:SRCCON 2026
@@ -1352,24 +1395,6 @@ DESCRIPTION:Host: Open News\nAttendance: Lottery Registration\nScope: Nati
 LOCATION:Minneapolis\, Minnesota\, United States
 URL:https://srccon.org/
 X-SOURCE:Journalism Conferences
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-planet-forward-correspondent-program"}
-X-SOURCE-ID:sej
-SUMMARY:Planet Forward Correspondent Program
-DTSTART;TZID=America/New_York:20260608T000000
-DTEND;TZID=America/New_York:20260608T000000
-UID:f99da5cadf7f6c078e9ffa6f3838fc66@sej.org
-DESCRIPTION:Planet Forward Correspondents are talented students from acros
- s the country looking to apply themselves to tell the ongoing story of cli
- mate change\, with an eye toward solutions and hope. You must be currently
-  enrolled in a graduate or undergraduate program – or starting one in th
- e upcoming school year – to apply. EXTENDED DEADLINE: Apply by June 8\,
-  2026.\n\nCategories: National (U.S.)\, International\, Workshops and Fell
- owships\, Journalism & Media
-URL:https://www.sej.org/calendar/deadline-planet-forward-correspondent-pro
- gram
-X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Poynter Institute Training": "https://www.poynter.org/shop/ethics/trauma-informed-reporting-for-mental-health/"}
@@ -1430,7 +1455,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260610T160000
 DTEND;TZID=America/New_York:20260610T170000
-DTSTAMP:20260504T024132Z
+DTSTAMP:20260505T022935Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260610
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -1475,7 +1500,7 @@ URL:https://labornotes.org/2026
 SUMMARY:Labor Notes
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260615
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:3ltobipevuhqp320p6rmj07p2q@google.com
 RECURRENCE-ID;VALUE=DATE:20260612
 SEQUENCE:1
@@ -1645,7 +1670,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.ire.org/training/conferences/ire-2026/
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260622
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:4onag31t66iv7lht4jcddi2iub@google.com
 CREATED:20260226T021319Z
 DESCRIPTION:See the full conference description: <a href="https://www.ire.o
@@ -1676,24 +1701,6 @@ URL:https://us02web.zoom.us/meeting/register/pDv8lZSnR9CywwAi3G9h5Q
 X-SOURCE:Sunlight Research
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/institute-independent-journalists-business-freelancing-workshop"}
-X-SOURCE-ID:sej
-SUMMARY:Institute for Independent Journalists’ Business of Freelancing w
- orkshop
-DTSTART;TZID=America/New_York:20260619T000000
-DTEND;TZID=America/New_York:20260619T000000
-UID:f01c9d755c309cbefe3c505645d584e0@sej.org
-DESCRIPTION:The workshop will take place on Friday\, June 19\, from 9:00 a
- m to 6:00 pm ET at the annual Investigative Reporters and Editors (IRE) co
- nference at the Gaylord National D.C.. It's free for IRE conference attend
- ees and only $59 until April 30. After that it's $79.\n\nCategories: Natio
- nal (U.S.)\, Mid-Atlantic (DC DE MD PA VA WV)\, Workshops and Fellowships\
- , Journalism & Media
-URL:https://www.sej.org/calendar/institute-independent-journalists-busines
- s-freelancing-workshop
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.freedomforum.org/al-neuharth-free-spirit-and-journalism-conference/?utm_source=spjnetwork&utm_medium=Posting&utm_campaign=FSC2026&utm_content=Calendar"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
@@ -1714,7 +1721,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:How to Unite and Win at Work in NYC
 DTSTART;TZID=America/New_York:20260621T130000
 DTEND;TZID=America/New_York:20260621T150000
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:4ml1nu0j5cq65j8jiqi7jmkmau@google.com
 RECURRENCE-ID;TZID=America/New_York:20260621T130000
 SEQUENCE:0
@@ -1890,7 +1897,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260708T160000
 DTEND;TZID=America/Chicago:20260708T170000
-DTSTAMP:20260504T024132Z
+DTSTAMP:20260505T022935Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260708
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -1934,7 +1941,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T170000
-DTSTAMP:20260504T024132Z
+DTSTAMP:20260505T022935Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260715
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -1991,7 +1998,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260503T224130
+DTSTAMP:20260504T222932
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
@@ -2008,7 +2015,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://transom.org/transom25/
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260920
-DTSTAMP:20260504T024133Z
+DTSTAMP:20260505T022935Z
 UID:1jutch8e3t2ghbnh59jmkdoe3b@google.com
 CREATED:20260428T014331Z
 DESCRIPTION:See the full festival description: <a href="https://transom.org
