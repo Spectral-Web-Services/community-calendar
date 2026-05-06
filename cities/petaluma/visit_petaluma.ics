@@ -4,18 +4,6 @@ PRODID:-//Visit Petaluma//visitpetaluma.com//
 X-WR-CALNAME:Visit Petaluma
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:East Side Farmers Market
-DTSTART;TZID=America/Los_Angeles:20260505T093000
-DTEND;TZID=America/Los_Angeles:20260505T133000
-UID:2ef665785d23b8f82d5e66a782dd57f3@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /Untitled-design-30-1.png
-DESCRIPTION:Occurs weekly on Tuesday — (+25 more occurrences) — More i
- nfo: https://www.visitpetaluma.com/event/east-side-farmers-market/
-URL:https://www.visitpetaluma.com/event/east-side-farmers-market/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Petaluma River Cruise
 DTSTART;TZID=America/Los_Angeles:20260509T090000
 DTEND;TZID=America/Los_Angeles:20260509T110000
@@ -176,6 +164,18 @@ ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
 DESCRIPTION:More info: https://www.visitpetaluma.com/event/mothers-day-bea
  tles-singalong/
 URL:https://www.visitpetaluma.com/event/mothers-day-beatles-singalong/
+X-SOURCE:Visit Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:East Side Farmers Market
+DTSTART;TZID=America/Los_Angeles:20260512T093000
+DTEND;TZID=America/Los_Angeles:20260512T133000
+UID:213e6928894d44c846a98d1410a5a7af@visitpetaluma.com
+ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
+ /Untitled-design-30-1.png
+DESCRIPTION:Occurs weekly on Tuesday — (+24 more occurrences) — More i
+ nfo: https://www.visitpetaluma.com/event/east-side-farmers-market/
+URL:https://www.visitpetaluma.com/event/east-side-farmers-market/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -440,18 +440,6 @@ ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
 DESCRIPTION:More info: https://www.visitpetaluma.com/event/historical-down
  town-walking-tours/
 URL:https://www.visitpetaluma.com/event/historical-downtown-walking-tours/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kameron Marlowe at the Mystic
-DTSTART;TZID=America/Los_Angeles:20260505T190000
-DTEND;TZID=America/Los_Angeles:20260505T210000
-UID:5b9ee6cc19c9112bc3264d7b1a153bbd@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /Kameron-Marlow.png
-DESCRIPTION:More info: https://www.visitpetaluma.com/event/kameron-marlowe
- -at-mystic-theatre/
-URL:https://www.visitpetaluma.com/event/kameron-marlowe-at-mystic-theatre/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
