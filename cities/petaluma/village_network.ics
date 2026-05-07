@@ -4,47 +4,6 @@ PRODID:-//Village Network of Petaluma//villagenetworkofpetaluma.org//
 X-WR-CALNAME:Village Network of Petaluma
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Women's Tuesday Circle
-DTSTART;TZID=America/Los_Angeles:20260505T141500
-DTEND;TZID=America/Los_Angeles:20260505T151500
-UID:0e09b497a5020c8183ce8abf359554de@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Village Room 11\, 410 D Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7702
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The D Street Men’s Group
-DTSTART;TZID=America/Los_Angeles:20260504T141500
-DTEND;TZID=America/Los_Angeles:20260504T154500
-UID:d60ea5bda308c39115883cc9d2cc6fa9@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7700
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Village Garden & Chat Group
-DTSTART;TZID=America/Los_Angeles:20260505T120000
-DTEND;TZID=America/Los_Angeles:20260505T130000
-UID:00532c6d2d0c64c3e59af251634bdd9b@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Various Member's Gardens
-URL:https://www.villagenetworkofpetaluma.org/events/7710
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Healthy At Any Age Chair Workout - In Person
-DTSTART;TZID=America/Los_Angeles:20260504T110000
-DTEND;TZID=America/Los_Angeles:20260504T120000
-UID:b5468feed8186db5862ce213d27f9050@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:United Methodist Church - Social Hall\, 410  D Street\, Petaluma\
- , CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7631
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:What's Your Story?
 DTSTART;TZID=America/Los_Angeles:20260505T100000
 DTEND;TZID=America/Los_Angeles:20260505T111500
@@ -65,6 +24,26 @@ URL:https://www.villagenetworkofpetaluma.org/events/7646
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Drop-in Mindfulness Meditation Group
+DTSTART;TZID=America/Los_Angeles:20260506T093000
+DTEND;TZID=America/Los_Angeles:20260506T103000
+UID:53e42f8db48799ca6fcd36296f7e2ebb@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Online Zoom Event
+URL:https://www.villagenetworkofpetaluma.org/events/7656
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Women's Tuesday Circle
+DTSTART;TZID=America/Los_Angeles:20260505T141500
+DTEND;TZID=America/Los_Angeles:20260505T151500
+UID:0e09b497a5020c8183ce8abf359554de@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Village Room 11\, 410 D Street\, Petaluma\, CA 94952
+URL:https://www.villagenetworkofpetaluma.org/events/7702
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Conversations For The Curious
 DTSTART;TZID=America/Los_Angeles:20260505T123000
 DTEND;TZID=America/Los_Angeles:20260505T140000
@@ -75,13 +54,24 @@ URL:https://www.villagenetworkofpetaluma.org/events/7641
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ellen & Anthony - Vol Tracking Training
-DTSTART;TZID=America/Los_Angeles:20260504T140000
-DTEND;TZID=America/Los_Angeles:20260504T150000
-UID:0507d6218566009f71269d8bd29c35e2@villagenetworkofpetaluma.org
+SUMMARY:Bocce Ball
+DTSTART;TZID=America/Los_Angeles:20260506T160000
+DTEND;TZID=America/Los_Angeles:20260506T170000
+UID:9497e0d01ecc00cc9849148b048234ab@villagenetworkofpetaluma.org
 DESCRIPTION:
-LOCATION:Village Room Eleven\, 410 D Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7726
+LOCATION:Leghorn Park Bocce Courts\, 690 Sonoma Mountain Parkway\, Petalum
+ a\, CA 94954
+URL:https://www.villagenetworkofpetaluma.org/events/7704
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Village Garden & Chat Group
+DTSTART;TZID=America/Los_Angeles:20260505T120000
+DTEND;TZID=America/Los_Angeles:20260505T130000
+UID:00532c6d2d0c64c3e59af251634bdd9b@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Various Member's Gardens
+URL:https://www.villagenetworkofpetaluma.org/events/7710
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -102,27 +92,6 @@ UID:2a690e5816cf4646e809b661c05a0041@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Lucchesi Park\, 320 N. McDowell Blvd.\, Petaluma\, CA 94954
 URL:https://www.villagenetworkofpetaluma.org/events/7671
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Drop-in Mindfulness Meditation Group
-DTSTART;TZID=America/Los_Angeles:20260506T093000
-DTEND;TZID=America/Los_Angeles:20260506T103000
-UID:53e42f8db48799ca6fcd36296f7e2ebb@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Online Zoom Event
-URL:https://www.villagenetworkofpetaluma.org/events/7656
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bocce Ball
-DTSTART;TZID=America/Los_Angeles:20260506T160000
-DTEND;TZID=America/Los_Angeles:20260506T170000
-UID:9497e0d01ecc00cc9849148b048234ab@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Leghorn Park Bocce Courts\, 690 Sonoma Mountain Parkway\, Petalum
- a\, CA 94954
-URL:https://www.villagenetworkofpetaluma.org/events/7704
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -176,6 +145,16 @@ URL:https://www.villagenetworkofpetaluma.org/events/7706
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Monday Men's Group
+DTSTART;TZID=America/Los_Angeles:20260511T110000
+DTEND;TZID=America/Los_Angeles:20260511T123000
+UID:3a31c91ab4ebf5d2191df4eddb78c756@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Room 11\, 410 D Street\, Petaluma\, CA 94952
+URL:https://www.villagenetworkofpetaluma.org/events/7696
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Healthy At Any Age Chair Workout - In Person
 DTSTART;TZID=America/Los_Angeles:20260511T110000
 DTEND;TZID=America/Los_Angeles:20260511T120000
@@ -197,16 +176,6 @@ URL:https://www.villagenetworkofpetaluma.org/events/7699
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Monday Men's Group
-DTSTART;TZID=America/Los_Angeles:20260511T110000
-DTEND;TZID=America/Los_Angeles:20260511T123000
-UID:3a31c91ab4ebf5d2191df4eddb78c756@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Room 11\, 410 D Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7696
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Village Book Group
 DTSTART;TZID=America/Los_Angeles:20260511T141500
 DTEND;TZID=America/Los_Angeles:20260511T151500
@@ -214,16 +183,6 @@ UID:fdcc80e4f6ca191f30eb5c5bcf08c3d9@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Village Conference Room\, 410 D Street\, Petaluma\, CA 94952
 URL:https://www.villagenetworkofpetaluma.org/events/7708
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Joy of Writing Group
-DTSTART;TZID=America/Los_Angeles:20260512T100000
-DTEND;TZID=America/Los_Angeles:20260512T110000
-UID:4f9f7f07fdc92860bf2d6d864bcbe819@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Zoom - Online Meeting
-URL:https://www.villagenetworkofpetaluma.org/events/7647
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -237,13 +196,13 @@ URL:https://www.villagenetworkofpetaluma.org/events/7652
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Conversations For The Curious
-DTSTART;TZID=America/Los_Angeles:20260512T123000
-DTEND;TZID=America/Los_Angeles:20260512T140000
-UID:0b5c005debc567ae5d79eda2b3b763da@villagenetworkofpetaluma.org
+SUMMARY:Joy of Writing Group
+DTSTART;TZID=America/Los_Angeles:20260512T100000
+DTEND;TZID=America/Los_Angeles:20260512T110000
+UID:4f9f7f07fdc92860bf2d6d864bcbe819@villagenetworkofpetaluma.org
 DESCRIPTION:
-LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7642
+LOCATION:Zoom - Online Meeting
+URL:https://www.villagenetworkofpetaluma.org/events/7647
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -257,13 +216,13 @@ URL:https://www.villagenetworkofpetaluma.org/events/7712
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dine & Donate Spring Gathering
-DTSTART;TZID=America/Los_Angeles:20260513T090000
-DTEND;TZID=America/Los_Angeles:20260513T140000
-UID:4cfd1bbf096fe63308db07a3acab84d8@villagenetworkofpetaluma.org
+SUMMARY:Conversations For The Curious
+DTSTART;TZID=America/Los_Angeles:20260512T123000
+DTEND;TZID=America/Los_Angeles:20260512T140000
+UID:0b5c005debc567ae5d79eda2b3b763da@villagenetworkofpetaluma.org
 DESCRIPTION:
-LOCATION:River Front Cafe\, 224 B Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7572
+LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
+URL:https://www.villagenetworkofpetaluma.org/events/7642
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -277,13 +236,13 @@ URL:https://www.villagenetworkofpetaluma.org/events/7662
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Volunteer Orientation
-DTSTART;TZID=America/Los_Angeles:20260513T130000
-DTEND;TZID=America/Los_Angeles:20260513T143000
-UID:56d21bd5bddc1a7ad13baba7c96b2631@villagenetworkofpetaluma.org
+SUMMARY:Dine & Donate Spring Gathering
+DTSTART;TZID=America/Los_Angeles:20260513T090000
+DTEND;TZID=America/Los_Angeles:20260513T140000
+UID:4cfd1bbf096fe63308db07a3acab84d8@villagenetworkofpetaluma.org
 DESCRIPTION:
-LOCATION:Join us on Zoom
-URL:https://www.villagenetworkofpetaluma.org/events/7358
+LOCATION:River Front Cafe\, 224 B Street\, Petaluma\, CA 94952
+URL:https://www.villagenetworkofpetaluma.org/events/7572
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -297,13 +256,13 @@ URL:https://www.villagenetworkofpetaluma.org/events/7657
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Westside Walking Group
-DTSTART;TZID=America/Los_Angeles:20260514T090000
-DTEND;TZID=America/Los_Angeles:20260514T100000
-UID:e2ce95356762d8cf27a44db6fa5963d3@villagenetworkofpetaluma.org
+SUMMARY:Volunteer Orientation
+DTSTART;TZID=America/Los_Angeles:20260513T130000
+DTEND;TZID=America/Los_Angeles:20260513T143000
+UID:56d21bd5bddc1a7ad13baba7c96b2631@villagenetworkofpetaluma.org
 DESCRIPTION:
-LOCATION:Walnut Park
-URL:https://www.villagenetworkofpetaluma.org/events/7677
+LOCATION:Join us on Zoom
+URL:https://www.villagenetworkofpetaluma.org/events/7358
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -314,6 +273,16 @@ UID:0cfcd25d0cbe03942a38f07f9ae7caa2@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Lucchesi Park\, 320 N. McDowell Blvd.\, Petaluma\, CA 94954
 URL:https://www.villagenetworkofpetaluma.org/events/7672
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Westside Walking Group
+DTSTART;TZID=America/Los_Angeles:20260514T090000
+DTEND;TZID=America/Los_Angeles:20260514T100000
+UID:e2ce95356762d8cf27a44db6fa5963d3@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Walnut Park
+URL:https://www.villagenetworkofpetaluma.org/events/7677
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -337,16 +306,6 @@ URL:https://www.villagenetworkofpetaluma.org/events/7667
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Coffee Hour @ Sarmentine
-DTSTART;TZID=America/Los_Angeles:20260515T100000
-DTEND;TZID=America/Los_Angeles:20260515T110000
-UID:bb490398ca2d9da75f371600cd233396@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Sarmentine\, 840 Petaluma Blvd North\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7692
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Volunteer Driver Gathering – Celebrate\, Connect & Shape What’
  s Next
 DTSTART;TZID=America/Los_Angeles:20260515T090000
@@ -355,6 +314,16 @@ UID:9cd63264061394b29b24eab7c232bc92@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Village Social Hall\, 410 D Street\, Petaluma\, CA 94952
 URL:https://www.villagenetworkofpetaluma.org/events/7468
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Hour @ Sarmentine
+DTSTART;TZID=America/Los_Angeles:20260515T100000
+DTEND;TZID=America/Los_Angeles:20260515T110000
+UID:bb490398ca2d9da75f371600cd233396@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Sarmentine\, 840 Petaluma Blvd North\, Petaluma\, CA 94952
+URL:https://www.villagenetworkofpetaluma.org/events/7692
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -390,16 +359,6 @@ URL:https://www.villagenetworkofpetaluma.org/events/7701
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:What's Your Story?
-DTSTART;TZID=America/Los_Angeles:20260519T100000
-DTEND;TZID=America/Los_Angeles:20260519T111500
-UID:5068b942dd2894cbfee4648e7c586122@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7653
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Joy of Writing Group
 DTSTART;TZID=America/Los_Angeles:20260519T100000
 DTEND;TZID=America/Los_Angeles:20260519T110000
@@ -407,6 +366,16 @@ UID:39cb4403de7306b7216e745381f56fda@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Zoom - Online Meeting
 URL:https://www.villagenetworkofpetaluma.org/events/7648
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What's Your Story?
+DTSTART;TZID=America/Los_Angeles:20260519T100000
+DTEND;TZID=America/Los_Angeles:20260519T111500
+UID:5068b942dd2894cbfee4648e7c586122@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
+URL:https://www.villagenetworkofpetaluma.org/events/7653
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -470,16 +439,6 @@ URL:https://www.villagenetworkofpetaluma.org/events/7705
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Eastside Walking Group
-DTSTART;TZID=America/Los_Angeles:20260521T090000
-DTEND;TZID=America/Los_Angeles:20260521T100000
-UID:84d4160210b6e7da4facff4f3bd9264d@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Lucchesi Park\, 320 N. McDowell Blvd.\, Petaluma\, CA 94954
-URL:https://www.villagenetworkofpetaluma.org/events/7673
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Westside Walking Group
 DTSTART;TZID=America/Los_Angeles:20260521T090000
 DTEND;TZID=America/Los_Angeles:20260521T100000
@@ -487,6 +446,16 @@ UID:66e51baad790ec62b93ad99e09d9187e@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Walnut Park
 URL:https://www.villagenetworkofpetaluma.org/events/7678
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eastside Walking Group
+DTSTART;TZID=America/Los_Angeles:20260521T090000
+DTEND;TZID=America/Los_Angeles:20260521T100000
+UID:84d4160210b6e7da4facff4f3bd9264d@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Lucchesi Park\, 320 N. McDowell Blvd.\, Petaluma\, CA 94954
+URL:https://www.villagenetworkofpetaluma.org/events/7673
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -501,16 +470,6 @@ URL:https://www.villagenetworkofpetaluma.org/events/7238
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Craft Maker's Circle
-DTSTART;TZID=America/Los_Angeles:20260521T130000
-DTEND;TZID=America/Los_Angeles:20260521T143000
-UID:2ed641e49dbae0ab477e0e92ee1d6f5e@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
-URL:https://www.villagenetworkofpetaluma.org/events/7668
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Healthy At Any Age Chair Workout - Online Class
 DTSTART;TZID=America/Los_Angeles:20260521T110000
 DTEND;TZID=America/Los_Angeles:20260521T120000
@@ -518,6 +477,16 @@ UID:882268eae218300285971d8657118269@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Zoom - Online Class
 URL:https://www.villagenetworkofpetaluma.org/events/7688
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Craft Maker's Circle
+DTSTART;TZID=America/Los_Angeles:20260521T130000
+DTEND;TZID=America/Los_Angeles:20260521T143000
+UID:2ed641e49dbae0ab477e0e92ee1d6f5e@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
+URL:https://www.villagenetworkofpetaluma.org/events/7668
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -552,6 +521,15 @@ URL:https://www.villagenetworkofpetaluma.org/events/7697
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Office Closed - Memorial Day Holiday
+DTSTART;TZID=America/Los_Angeles:20260525T113000
+DTEND;TZID=America/Los_Angeles:20260525T123000
+UID:27edcc70cde4cccafd1a35bdf167bd90@villagenetworkofpetaluma.org
+DESCRIPTION:
+URL:https://www.villagenetworkofpetaluma.org/events/7128
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tech Help Drop In
 DTSTART;TZID=America/Los_Angeles:20260525T120000
 DTEND;TZID=America/Los_Angeles:20260525T130000
@@ -559,15 +537,6 @@ UID:44159af90cdd0d105b7c7297e8b80152@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
 URL:https://www.villagenetworkofpetaluma.org/events/7698
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Office Closed - Memorial Day Holiday
-DTSTART;TZID=America/Los_Angeles:20260525T113000
-DTEND;TZID=America/Los_Angeles:20260525T123000
-UID:27edcc70cde4cccafd1a35bdf167bd90@villagenetworkofpetaluma.org
-DESCRIPTION:
-URL:https://www.villagenetworkofpetaluma.org/events/7128
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -642,16 +611,6 @@ URL:https://www.villagenetworkofpetaluma.org/events/7659
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Westside Walking Group
-DTSTART;TZID=America/Los_Angeles:20260528T090000
-DTEND;TZID=America/Los_Angeles:20260528T100000
-UID:75375ba38915336d096f8e7c3a7acfce@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Walnut Park
-URL:https://www.villagenetworkofpetaluma.org/events/7679
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Eastside Walking Group
 DTSTART;TZID=America/Los_Angeles:20260528T090000
 DTEND;TZID=America/Los_Angeles:20260528T100000
@@ -659,6 +618,16 @@ UID:3b895938e31481c6f35ee54f289bcda5@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Lucchesi Park\, 320 N. McDowell Blvd.\, Petaluma\, CA 94954
 URL:https://www.villagenetworkofpetaluma.org/events/7674
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Westside Walking Group
+DTSTART;TZID=America/Los_Angeles:20260528T090000
+DTEND;TZID=America/Los_Angeles:20260528T100000
+UID:75375ba38915336d096f8e7c3a7acfce@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Walnut Park
+URL:https://www.villagenetworkofpetaluma.org/events/7679
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -804,16 +773,6 @@ URL:https://www.villagenetworkofpetaluma.org/events/7717
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Eastside Walking Group
-DTSTART;TZID=America/Los_Angeles:20260604T090000
-DTEND;TZID=America/Los_Angeles:20260604T100000
-UID:2794793081fc8afe89fc60ffb079f610@villagenetworkofpetaluma.org
-DESCRIPTION:
-LOCATION:Lucchesi Park\, 320 N. McDowell Blvd.\, Petaluma\, CA 94954
-URL:https://www.villagenetworkofpetaluma.org/events/7675
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Westside Walking Group
 DTSTART;TZID=America/Los_Angeles:20260604T090000
 DTEND;TZID=America/Los_Angeles:20260604T100000
@@ -844,13 +803,13 @@ URL:https://www.villagenetworkofpetaluma.org/events/7670
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Volunteer Orientation
-DTSTART;TZID=America/Los_Angeles:20260610T130000
-DTEND;TZID=America/Los_Angeles:20260610T143000
-UID:00febf548ddddb85e70a65dd9c593716@villagenetworkofpetaluma.org
+SUMMARY:Eastside Walking Group
+DTSTART;TZID=America/Los_Angeles:20260604T090000
+DTEND;TZID=America/Los_Angeles:20260604T100000
+UID:2794793081fc8afe89fc60ffb079f610@villagenetworkofpetaluma.org
 DESCRIPTION:
-LOCATION:Join us on Zoom
-URL:https://www.villagenetworkofpetaluma.org/events/7447
+LOCATION:Lucchesi Park\, 320 N. McDowell Blvd.\, Petaluma\, CA 94954
+URL:https://www.villagenetworkofpetaluma.org/events/7675
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -864,6 +823,16 @@ URL:https://www.villagenetworkofpetaluma.org/events/7695
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Volunteer Orientation
+DTSTART;TZID=America/Los_Angeles:20260610T130000
+DTEND;TZID=America/Los_Angeles:20260610T143000
+UID:00febf548ddddb85e70a65dd9c593716@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Join us on Zoom
+URL:https://www.villagenetworkofpetaluma.org/events/7447
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:“Meet and Greet” - New Member and Volunteer Quarterly Social
 DTSTART;TZID=America/Los_Angeles:20260612T130000
 DTEND;TZID=America/Los_Angeles:20260612T143000
@@ -871,15 +840,6 @@ UID:8a807f0d5dc2778cbd1af57cbeb7c632@villagenetworkofpetaluma.org
 DESCRIPTION:
 LOCATION:Village Community Room\, 410 D Street\, Petaluma\, CA 94952
 URL:https://www.villagenetworkofpetaluma.org/events/7532
-X-SOURCE:Village Network of Petaluma
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Village Appreciation
-DTSTART;TZID=America/Los_Angeles:20260618T140000
-DTEND;TZID=America/Los_Angeles:20260618T160000
-UID:2c812783485bee7de8dbbc28dbe834ca@villagenetworkofpetaluma.org
-DESCRIPTION:
-URL:https://www.villagenetworkofpetaluma.org/events/7469
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -893,14 +853,12 @@ URL:https://www.villagenetworkofpetaluma.org/events/7579
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Get to Know the Village Meeting
-DTSTART;TZID=America/Los_Angeles:20260625T100000
-DTEND;TZID=America/Los_Angeles:20260625T111500
-UID:0e33344c1455b72b7486d8ad7044a070@villagenetworkofpetaluma.org
+SUMMARY:Village Appreciation
+DTSTART;TZID=America/Los_Angeles:20260618T140000
+DTEND;TZID=America/Los_Angeles:20260618T160000
+UID:2c812783485bee7de8dbbc28dbe834ca@villagenetworkofpetaluma.org
 DESCRIPTION:
-LOCATION:Village Community Room OR Zoom\, 410 D Street\, Petaluma\, CA 949
- 52
-URL:https://www.villagenetworkofpetaluma.org/events/7448
+URL:https://www.villagenetworkofpetaluma.org/events/7469
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 BEGIN:VEVENT
@@ -910,6 +868,17 @@ DTEND;TZID=America/Los_Angeles:20260703T123000
 UID:2d0dc1408548880c502160fb9e90c563@villagenetworkofpetaluma.org
 DESCRIPTION:
 URL:https://www.villagenetworkofpetaluma.org/events/7129
+X-SOURCE:Village Network of Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Get to Know the Village Meeting
+DTSTART;TZID=America/Los_Angeles:20260625T100000
+DTEND;TZID=America/Los_Angeles:20260625T111500
+UID:0e33344c1455b72b7486d8ad7044a070@villagenetworkofpetaluma.org
+DESCRIPTION:
+LOCATION:Village Community Room OR Zoom\, 410 D Street\, Petaluma\, CA 949
+ 52
+URL:https://www.villagenetworkofpetaluma.org/events/7448
 X-SOURCE:Village Network of Petaluma
 END:VEVENT
 END:VCALENDAR

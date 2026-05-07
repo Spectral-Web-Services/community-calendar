@@ -22,47 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260425T050735Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260505T193000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260505T180000
-DTSTAMP;VALUE=DATE-TIME:20260425T050735Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260425T050735Z
-UID:http://calagator.org/events/1250482547
-DESCRIPTION:Come join your fellow idealists\, builders\, and shitposters 
- for another meetup about the atmosphere! Together\, we’re doing our part
-  to create a more social web so the internet belongs to The People and n
- ot the oligarchs.&#13\;\n&#13\;\nCo-organizer Brittany Ellich will give 
- us a preview of the AT Proto 101 talk she’s presenting at [CascadiaJS Ju
- ne 2nd](https://cascadiajs.com/) - including a raffle for a ✨ free ticke
- t to the conference ✨. And\, since we got lots of love re: the open\, co
- llaborative style of our last meetup\, we’re doing it again!&#13\;\n&#13
- \;\n**How it will work:**&#13\;\n&#13\;\n- [@BrittanyEllich.com](https:/
- /bsky.app/profile/brittanyellich.com) \, will kick the meeting off with 
- her AT Proto talk\, including:&#13\;\n  - The problem with social media&
- #13\;\n  - What is the atmosphere?&#13\;\n  - Overview of DIDs/lexicons/
- etc&#13\;\n  - How we can get involved&#13\;\n- We’ll ask for 3 -4 volun
- teers to lead a discussion group&#13\;\n- Then\, we’ll break out into hu
- ddles\, and everyone can join their chosen discussion group&#13\;\n&#13\
- ;\n**Example discussion ideas:**&#13\;\n&#13\;\n- How to Make ATProto No
- rmie-Friendly&#13\;\n- Here’s how I built XYZ&#13\;\n- My Experience Wor
- king on ATProto as an Absolute Beginner&#13\;\n- Let’s Discuss: Getting 
- Funding for Our Projects&#13\;\n&#13\;\n**Agenda:**&#13\;\n&#13\;\n- 6:0
- 0 - 6:10 (ish) | Snacks\, hangout\, shooting the shit\, whatevs&#13\;\n-
-  6:10 - 6:40 (ish) | AT Protocol 101 by Brittany Ellich&#13\;\n- 6:40 - 
- 6:45 (ish) | Discussion huddle ideas&#13\;\n- 6:45 - 7:15 (ish) | Huddle
-  breakout&#13\;\n- 7:15 - 7:30 | Regroup and discuss&#13\;\n- 7:30 | Clo
- se\, announce raffle winner\, and after-hangout at a nearby bar&#13\;\n&
- #13\;\nSpecial thanks to [@jason.energy](https://bsky.app/profile/jason.
- energy) for offering his CodeTV studio for our meetup space!&#13\;\nHope
-  to see you all there!\n\nImported from: http://calagator.org/events/125
- 0482547
-URL:https://platform.openmeet.net/events/atproto-pdx-ckrem2
-SUMMARY:ATProto 101 + Hangout with your favorite ATmosphere nerds!
-LOCATION:CodeTV studio: 1551 SE Poplar Avenue\, Portland OR 97214 United 
- States
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260501T202656Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T160000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T150000
@@ -427,6 +386,30 @@ LOCATION:Reperio Health: 4784 SE 17th Ave Suite 120\, Portland OR 97202 U
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260506T211136Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T180000
+DTSTAMP;VALUE=DATE-TIME:20260506T211136Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260506T211136Z
+UID:http://calagator.org/events/1250482564
+DESCRIPTION:The Portland Linux Kernel Meetup for May 2026 will be at...&#
+ 13\;\n&#13\;\n  * Date: Thursday\, May 14\, 2026&#13\;\n  * Time: 06:00 
+ PM to 09:00 PM US/Pacific&#13\;\n  * Location: Lucky Labrador Beer Hall\
+ , 1945 NW Quimby St\, Portland\, Oregon 97209 US&#13\;\n&#13\;\nCome enj
+ oy a beverage and chat with other people who are interested in the&#13\;
+ \nLinux kernel. All experience levels are welcome. This is a friendly an
+ d casual&#13\;\nmeetup. Look for a table with a plush Tux penguin.&#13\;
+ \n&#13\;\nTo get timely reminders of Portland Linux Kernel Meetups\, see
+ &#13\;\nhttps://ikluft.github.io/pdx-lkmu/subscribing-to-pdx-lkmu-events
+ .html.\n\nTags: PDXLKMU\, kernel\, linux\n\nImported from: http://calaga
+ tor.org/events/1250482564
+URL:https://ikluft.github.io/pdx-lkmu/
+SUMMARY:May 2026 Portland Linux Kernel Meetup
+LOCATION:Lucky Labrador Beer Hall\, 1945 NW Quimby St\, Portland\, Oregon
+  97209 US: false
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260505T182608Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T210000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T190000
@@ -610,6 +593,33 @@ DESCRIPTION:This event runs from Saturday\, May 30\, 2026 at 10am through
 URL:https://pigcon.pigsquad.com/
 SUMMARY:Portland Indie Game Convention (PIGCON)
 LOCATION:Norse Hall: 111 NE 11th Ave\, Portland OR 97232 US
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260506T173936Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260604T190000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260604T173000
+DTSTAMP;VALUE=DATE-TIME:20260506T173936Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260506T173936Z
+UID:http://calagator.org/events/1250482563
+DESCRIPTION:Join us for OBI’s Accelerate Biotech Happy Hour on Thursday\,
+  June 4\, from 5:30 to 7:00 PM.&#13\;\n&#13\;\nKick off June with OBI’s 
+ Accelerate Happy Hour! Good conversations\, great people\, and a relaxed
+  space to connect. This month’s happy hour is fueled by our beverage spo
+ nsors\, Ramsey Cox Media Relations and Public Affairs and Nucleate.&#13\
+ ;\n&#13\;\nIt’s a chance to connect with others in the community\, build
+  new relationships\, and share ideas that move your work forward.&#13\;\
+ n&#13\;\nWhether you’re new to OBI or have been part of the community fo
+ r a while\, we’d love to see you there.&#13\;\n&#13\;\nWhen: Thursday\, 
+ June 4 | 5:30 to 7:00 PM&#13\;\nWhere: OBI Event Space | Suite 230&#13\;
+ \n&#13\;\nRSVP and join us for an easy\, welcoming evening built around 
+ connection and good company.\n\nTags: networking\, happy hour\, biotech\
+ , bioscience\, portland\n\nImported from: http://calagator.org/events/12
+ 50482563
+URL:https://www.tickettailor.com/events/oregonbioscienceincubator/2198772
+SUMMARY:6-4-26 Accelerate Biotech Happy Hour
+LOCATION:Oregon Bioscience Incubator (OBI): 4640 SW Macadam Avenue\, Suit
+ e 270\, Portland or 97239 us
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT

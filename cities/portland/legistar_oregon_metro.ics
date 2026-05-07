@@ -3,21 +3,6 @@ VERSION:2.0
 PRODID:-//Community Calendar//Legistar Scraper//EN
 X-WR-CALNAME:Oregon Metro
 BEGIN:VEVENT
-UID:c5eba76888d0254d22ce9dc53d854dc2@legistar.com
-DTSTART:20260506T123000
-DTEND:20260506T143000
-SUMMARY:Metropolitan Exposition Recreation Commission (MERC)
-LOCATION:Oregon Convention Center\,\, 777 NE Martin Luther King Jr. Blvd. P
- ortland\, Oregon\, 97232\, Room F150\, | https://us02web.zoom.us/j/8146490
- 9852
-DESCRIPTION:Board/Commission: Metropolitan Exposition Recreation Commission
-  (MERC)\\nAgenda: https://oregonmetro.legistar1.com/oregonmetro/meetings/2
- 026/5/3629_A_Metropolitan_Exposition_Recreation_Commission_%28MERC%29_26-0
- 5-06_Agenda.pdf\\n\nSource: Oregon Metro
-URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3629&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260506T022638Z
-END:VEVENT
-BEGIN:VEVENT
 UID:bb0c09e9dfba1b27d2033182ce1f6e09@legistar.com
 DTSTART:20260507T100000
 DTEND:20260507T120000
@@ -29,7 +14,7 @@ DESCRIPTION:Board/Commission: Council meeting\\nAgenda: https://oregonmetro
  .legistar1.com/oregonmetro/meetings/2026/5/3623_A_Council_meeting_26-05-07
  _Agenda.pdf\\n\nSource: Oregon Metro
 URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3623&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260506T022638Z
+DTSTAMP:20260507T022832Z
 END:VEVENT
 BEGIN:VEVENT
 UID:16bb56dcd4338d038721918facfe1dbb@legistar.com
@@ -42,7 +27,19 @@ DESCRIPTION:Board/Commission: Executive Session\\nAgenda: https://oregonmet
  ro.legistar1.com/oregonmetro/meetings/2026/5/3633_A_Executive_Session_26-0
  5-07_Agenda.pdf\\n\nSource: Oregon Metro
 URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3633&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260506T022638Z
+DTSTAMP:20260507T022832Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a366954d89fe324fff814595070e7c2f@legistar.com
+DTSTART:20260512T100000
+DTEND:20260512T120000
+SUMMARY:Council work session
+LOCATION:Metro Regional Center\, Council Chamber\; https://zoom.us/j/615079
+ 992 (Webinar ID: 615079992) or 253-205-0468 (toll free)\, https://www.yout
+ ube.com/watch?v=dzjF7C61O-A
+DESCRIPTION:Board/Commission: Council work session\\n\nSource: Oregon Metro
+URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3625&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
+DTSTAMP:20260507T022832Z
 END:VEVENT
 BEGIN:VEVENT
 UID:2a87919b7ee8a81d549401e4db789036@legistar.com
@@ -55,6 +52,23 @@ DESCRIPTION:Board/Commission: Executive Session\\nAgenda: https://oregonmet
  ro.legistar1.com/oregonmetro/meetings/2026/5/3634_A_Executive_Session_26-0
  5-12_Agenda.pdf\\n\nSource: Oregon Metro
 URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3634&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
-DTSTAMP:20260506T022638Z
+DTSTAMP:20260507T022832Z
+END:VEVENT
+BEGIN:VEVENT
+UID:249b0ee6765df64bb8ab926e6148fcb3@legistar.com
+DTSTART:20260513T150000
+DTEND:20260513T170000
+SUMMARY:Supportive Housing Services Regional Policy Oversight Committee (SH
+ S RPOC)
+LOCATION:Metro Regional Center\, Zoom Meeting ID: 992 8075 2363 Meeting pas
+ sword: 137066 Meeting phone: 971-247-1195 \, 888-475-4499\; https://zoom.u
+ s/j/99280752363
+DESCRIPTION:Board/Commission: Supportive Housing Services Regional Policy O
+ versight Committee (SHS RPOC)\\nAgenda: https://oregonmetro.legistar1.com/
+ oregonmetro/meetings/2026/5/3620_A_Supportive_Housing_Services_Regional_Po
+ licy_Oversight_Committee_%28SHS_RPOC%29_26-05-13_Agenda.pdf\\n\nSource: Or
+ egon Metro
+URL:https://oregonmetro.legistar.com/MeetingDetail.aspx?LEGID=3620&GID=641&G=7309CF62-5730-456F-B280-2DEB3B0BE132
+DTSTAMP:20260507T022832Z
 END:VEVENT
 END:VCALENDAR
