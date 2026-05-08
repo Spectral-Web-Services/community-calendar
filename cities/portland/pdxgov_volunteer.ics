@@ -4,40 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Mill Park Volunteer Day
-DTSTART;TZID=America/Los_Angeles:20260507T090000
-DTEND;TZID=America/Los_Angeles:20260507T090000
-UID:d80fd8b9e080ccdd4e0c10eb0acab684@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/Mill-Park-summer-2025--34-.JPG?itok=Dt9AT1j3
-DESCRIPTION:Join us for gardening activities and to help keep Mill Park in
-  bloom!
-LOCATION:Mill Park Label: Park Park location or entrance 1949 SE 122nd Ave
-  Portland\, OR 97216 Get directions Mill Park main entrance 1949 SE 122nd 
- Ave Portland\n                          \, OR\n                           
- 97216 Get directions More about this location
-URL:https://www.portland.gov/parks/events/2026/5/7/mill-park-volunteer-day
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Argay Park Volunteer Day
-DTSTART;TZID=America/Los_Angeles:20260507T100000
-DTEND;TZID=America/Los_Angeles:20260507T100000
-UID:f3daba880bbe4e92956ab26848978eec@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/Kinnikinnick.jpg?itok=5TYGBCGw
-DESCRIPTION:Join us to help maintain the park sign garden bed and keep pol
- linator-friendly plants blooming!
-LOCATION:Argay Park Label: Park Park location or entrance NE 141st Avenue 
- and Failing Street Portland\, OR 97230 Get directions Argay Park main entr
- ance NE 141st Avenue and Failing Street Portland\n                        
-   \, OR\n                           97230 Get directions More about this l
- ocation
-URL:https://www.portland.gov/parks/events/2026/5/7/argay-park-volunteer-da
- y
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cloud Forest volunteer day in Washington Park
 DTSTART;TZID=America/Los_Angeles:20260508T100000
 DTEND;TZID=America/Los_Angeles:20260508T100000
@@ -1113,6 +1079,23 @@ DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the
 LOCATION:Washington Park
 URL:https://www.portland.gov/parks/events/2026/7/6/mac-trail-volunteer-day
  -washington-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laurelhurst Park Community Volunteer Day
+DTSTART;TZID=America/Los_Angeles:20260708T090000
+DTEND;TZID=America/Los_Angeles:20260708T090000
+UID:c99c25b2ccfbb2b3aee0b2323d5e62da@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/2025-End-of-Season-Laurelhurst-Volunteers.jpg?ito
+ k=bzacYco_
+DESCRIPTION:Bee a friend to the park! Join the Friends of Laurelhurst Park
+  and PP&R to help with monthly gardening and land care activities!
+LOCATION:Laurelhurst Park\, north entrance 3600 SE Ankeny St Portland\n   
+                        \, OR\n                           97214 Get directi
+ ons More about this location Laurelhurst Park
+URL:https://www.portland.gov/parks/events/2026/7/8/laurelhurst-park-commun
+ ity-volunteer-day
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 END:VCALENDAR
