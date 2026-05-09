@@ -5,20 +5,6 @@ X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:City Council Work Session
-DTSTART;TZID=America/Los_Angeles:20260508T093000
-DTEND;TZID=America/Los_Angeles:20260508T093000
-UID:9decea5cac06f831950b16a8d3928f73@portland.gov
-DESCRIPTION:Budget Committee Work Session for FY 2026-2027: Labor - realig
- nment\, contracting\, span of control
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/8/city-co
- uncil-work-session
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Work Session
 DTSTART;TZID=America/Los_Angeles:20260512T093000
 DTEND;TZID=America/Los_Angeles:20260512T093000
 UID:d38e28f27eb345aebd56cb5c948c9175@portland.gov
@@ -550,6 +536,30 @@ DESCRIPTION:City Council will not meet in Committee or as a full Council t
  he week of June 29-July 3\, 2026
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/6/29/counci
  l-recess
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Executive Session
+DTSTART;TZID=America/Los_Angeles:20260709T140000
+DTEND;TZID=America/Los_Angeles:20260709T140000
+UID:b233f3c39dbe194093b4a105a9b52da7@portland.gov
+DESCRIPTION:
+LOCATION:City Hall 1221 SW Fourth Avenue Rose Room Portland\, OR 97204 Get
+  directions More information about this room
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/7/9/city-co
+ uncil-executive-session-0
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Executive Session
+DTSTART;TZID=America/Los_Angeles:20260709T143000
+DTEND;TZID=America/Los_Angeles:20260709T143000
+UID:41a284f9c73bb9bcd1d0268122436a07@portland.gov
+DESCRIPTION:
+LOCATION:City Hall 1221 SW Fourth Avenue Rose Room Portland\, OR 97204 Get
+  directions More information about this room
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/7/9/city-co
+ uncil-executive-session
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 END:VCALENDAR

@@ -22,115 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260501T202656Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T160000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T150000
-DTSTAMP;VALUE=DATE-TIME:20260501T202656Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260501T202656Z
-UID:http://calagator.org/events/1250482555
-DESCRIPTION:Join us for a brief overview of Pitch Latino\, a signature en
- trepreneurial showcase and pitch competition produced by Latino Founders
- . Designed to celebrate Latino entrepreneurship\, innovation\, and commu
- nity impact\, Pitch Latino provides founders with visibility\, mentorshi
- p\, and access to powerful networks and resources.&#13\;\n&#13\;\nThis w
- ebinar will walk through what Pitch Latino is\, who it’s for\, and how i
- t works. We’ll also answer your questions live and guide you through how
-  to participate—from eligibility to application tips.&#13\;\n&#13\;\nPit
- ch Latino is industry-agnostic and open to Latino entrepreneurs across a
- ll sectors.\n\nImported from: http://calagator.org/events/1250482555
-URL:https://us06web.zoom.us/webinar/register/WN_qPAVKX-9TUmqgItho8CeNQ#/r
- egistration
-SUMMARY:Pitch Latino 2026 Q&A
-LOCATION:Virtual: false
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260415T160806Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T200000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T173000
-DTSTAMP;VALUE=DATE-TIME:20260415T160806Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260415T160806Z
-UID:http://calagator.org/events/1250482531
-DESCRIPTION:Think &amp\; Drink Trivia Night returns to OBI&#13\;\n&#13\;\
- nJoin us at the Oregon Bioscience Incubator for an evening of dinner\, d
- rinks\, and friendly competition. Whether you come solo or with friends\
- , we'll form teams of four or fewer to keep things fair and fun\, so bri
- ng your A-game!&#13\;\n&#13\;\nYour ticket includes a delicious catered 
- dinner and two drink tickets to keep your mind sharp and your energy up.
- &#13\;\n&#13\;\nGet ready for classic pub-style trivia with a mix of gen
- eral knowledge questions. Not too tricky\, not too simple\, and just cha
- llenging enough to keep the competition lively.&#13\;\n&#13\;\nDoors ope
- n at 5:30 PM for networking and mingling. Trivia starts promptly at 6:00
-  PM and yes\, there will be prizes worth bragging about.&#13\;\n&#13\;\n
- Come for the trivia. Stay for the community. Leave with bragging rights.
- \n\nTags: networking\, trivia\, biotech\, bioscience\, portland\n\nImpor
- ted from: http://calagator.org/events/1250482531
-URL:https://www.tickettailor.com/events/oregonbioscienceincubator/2154276
-SUMMARY:Think and Drink Trivia Night
-LOCATION:Oregon Bioscience Incubator (OBI): 4640 SW Macadam Avenue\, Suit
- e 270\, Portland or 97239 us
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260506T014932Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T200000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T180000
-DTSTAMP;VALUE=DATE-TIME:20260506T014932Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260506T014932Z
-UID:http://calagator.org/events/1250482562
-DESCRIPTION:​Better Futures Club is a weekly event (alternating Tuesdays 
- and Thursdays) focused on imagining and making better futures.&#13\;\n&#
- 13\;\nImagine an artist community\, a think tank\, and a research center
-  in the same building. People in all of those fields working alongside e
- ach other imagining and creating different futures together. Cross polli
- nation and inspiration. Liberal Arts and STEM and R&amp\;D. Photographer
- s\, physicists\, authors\, astronomers\, musicians\, makers\, mathematic
- ians\, designers\, developers\, fashionistas\, climatologists and all ma
- nner of imaginative optimists.&#13\;\n&#13\;\nAll Better Futures Club ev
- ents are covered by the Contributor Covenant Code of Conduct (https://ww
- w.contributor-covenant.org)\n\nTags: ruby\, STEM\, liberal arts\, commun
- ity\, hacking\, AI\n\nImported from: http://calagator.org/events/1250482
- 562
-URL:https://betterfutures.club
-SUMMARY:Better Futures Club
-LOCATION:Fernhill Park NE Portland: NE 37th Avenue and Ainsworth Street\,
-  Portland OR 97211 United States
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260504T112129Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260507T190000
-DTSTAMP;VALUE=DATE-TIME:20260504T112129Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260504T112129Z
-UID:http://calagator.org/events/1250482558
-DESCRIPTION:&#13\;\nSummary:&#13\;\n&#13\;\nSecure Boot and how to deal w
- ith the upcoming certificate updates that are going to be required when 
- the old Microsoft CA expires in June. Many systems will need this update
- .&#13\;\n&#13\;\n&quot\;I am hoping to go into the details of both insta
- lling your own certificates if you don't want to use the Microsoft certi
- ficates and how to deal with the Microsoft CA when you need to such as f
- ulling the IT requirements for your employeer when you want to run Linux
-  as your main operating system. I've had to deal with that to get my pri
- mary work laptop dual-boot enabled and with working Nvidia drivers that 
- needed to be signed with a MOK.&quot\;&#13\;\n&#13\;\nBio:&#13\;\n&#13\;
- \n&quot\;While I got to play with my first Sun Workstation running Solar
- is back in 1996\, but it was getting Red Hat Linux where my interest rea
- lly took off. Since then\, I have moved to better options and have spent
-  some time contributing to various distributions and even a little time 
- with FreeBSD ports. My primary job revolves around embedded engineering 
- of some sort. I am currently working at Intel and am one of the very few
-  people on the floor with an IT-approved Linux desktop for my primary wo
- rkstation.&quot\;\n\nTags: plug\, linux\, Expiring secure boot certifica
- tes\n\nImported from: http://calagator.org/events/1250482558
-URL:https://pdxlinux.org/
-SUMMARY:Portland Linux/Unix Group General Monthly Meeting: Expiring MS Ce
- rtificates and Secure Boot with Loren Lang
-LOCATION:Portland State University Fourth Avenue Building (FAB) Room FAB 
- 86-01: 1900 Southwest 4th Avenue\, Portland OR 97201 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260505T234549Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260511T213000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260511T183000
@@ -575,38 +466,44 @@ DTSTAMP;VALUE=DATE-TIME:20260502T160753Z
 LAST-MODIFIED;VALUE=DATE-TIME:20260502T160753Z
 UID:http://calagator.org/events/1250482556
 DESCRIPTION:#### Topic&#13\;\n&#13\;\nWriting proper alt text is hard. Bu
- t it doesn’t have to be. There’s a minimum standard and an advanced appr
+ t it doesn't have to be. There's a minimum standard and an advanced appr
  oach. People who need alt text will appreciate you for the former and lo
- ve you for the latter. There are a number of considerations for writing 
- great alt text. In this talk\, Mark Wyner outlines the many facets\, and
-  help you give screen readers something to talk about.&#13\;\n&#13\;\n##
- ## Agenda&#13\;\n&#13\;\nThe event begins at 6 pm\; join early\, startin
- g at 5:45 pm for networking.&#13\;\n&#13\;\n* 5:45 Networking&#13\;\n* 6
- :00 Introductions and announcements&#13\;\n* 6:15 Presentation&#13\;\n* 
- 6:45 Q&amp\;A and discussion&#13\;\n&#13\;\n#### About the presenter&#13
- \;\n&#13\;\n[Mark Wyner](https://markwyner.com/) is an autodidactic poly
- math with over two decades of experience in design and development. His 
- approach prioritizes usability\, accessibility\, and inclusivity. He’s a
- lso an antifascist humanitarian. So diversity and equity are overarching
-  principles for everything he does in this space. Currently\, as the Lea
- d Product Designer at BookNook. His pronouns are he/him/his. You can fol
- low him on Mastodon or his accessibility writings on his website.&#13\;\
- n&#13\;\n#### Accommodation requests&#13\;\n&#13\;\nIf you have any acco
- mmodation requests\, don't hesitate to contact us before the event to di
- scuss.\n\nTags: User Research\, a11y\, accessibility\, accessibility law
- suits\, accessible technology\, accessible web design\, disability\, hum
- an rights\, inclusive design\, meetup:event=314591176\, meetup:group=Por
- tland-Accessibility-and-User-Experience-Meetup\, mobile user experience\
- , screen reader\, structured negotiation\, technology\, universal design
- \, usability\, user experience\, wcag\, web accessibility\, web design\n
- \nImported from: http://calagator.org/events/1250482556
+ ve you for the latter. Alt text is also a whole lot more than the `alt` 
+ attribute. That's just one of the many ways to make content accessible. 
+ In fact\, there are a number of considerations for writing great alt tex
+ t.&#13\;\n&#13\;\nIn this presentation\, Mark Wyner will help you unders
+ tand the spectrum of options so you can take good care of your audience.
+  We'll walk through implementation methods\, phonetics\, composition\, c
+ omplex sources\, and tackling social media.&#13\;\n&#13\;\nLet’s give sc
+ reen readers and other assistive technologies something to *talk* about.
+ &#13\;\n&#13\;\n#### Agenda&#13\;\n&#13\;\nThe event begins at 6 pm\; jo
+ in early\, starting at 5:45 pm for networking.&#13\;\n&#13\;\n* 5:45 Net
+ working&#13\;\n* 6:00 Introductions and announcements&#13\;\n* 6:15 Pres
+ entation&#13\;\n* 6:45 Q&amp\;A and discussion&#13\;\n&#13\;\n#### About
+  the presenter&#13\;\n&#13\;\n[Mark Wyner](https://markwyner.com/) is an
+  autodidactic polymath with over two decades of experience in design and
+  development. His approach prioritizes usability\, accessibility\, and i
+ nclusivity. He’s also an antifascist humanitarian. So diversity and equi
+ ty are overarching principles for everything he does in this space. Curr
+ ently\, as the Lead Product Designer at BookNook. His pronouns are he/hi
+ m/his. You can follow him on Mastodon or his accessibility writings on h
+ is website.&#13\;\n&#13\;\n#### Accommodation requests&#13\;\n&#13\;\nIf
+  you have any accommodation requests\, don't hesitate to contact us befo
+ re the event to discuss.\n\nTags: User Research\, a11y\, accessibility\,
+  accessibility lawsuits\, accessible technology\, accessible web design\
+ , disability\, human rights\, inclusive design\, meetup:event=314591176\
+ , meetup:group=Portland-Accessibility-and-User-Experience-Meetup\, mobil
+ e user experience\, screen reader\, structured negotiation\, technology\
+ , universal design\, usability\, user experience\, wcag\, web accessibil
+ ity\, web design\n\nImported from: http://calagator.org/events/125048255
+ 6
 URL:https://pdxa11yux.org/events/2026/05/27/alt-text-is-the-ocean-you-tho
  ught-was-a-pond.html
 SUMMARY:Portland Accessibility and User Experience Meetup (PDX A11Y UX) -
   Alt Text is the Ocean You Thought Was a Pond
 LOCATION:Albina Library\, Community Room 1A: 205 NE Russell St\, Portland
   OR 97212 US
-SEQUENCE:1
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20250918T042835Z

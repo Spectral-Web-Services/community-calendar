@@ -83,8 +83,8 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260507T080000
-DTEND;TZID=America/Los_Angeles:20260507T220000
+DTSTART;TZID=America/Los_Angeles:20260508T080000
+DTEND;TZID=America/Los_Angeles:20260508T220000
 LOCATION:Fowler - Room 215
 SUMMARY:Student Move Out Swap: Shop for Free
 DESCRIPTION:All campus community members are welcome to come and shop at 
@@ -116,16 +116,16 @@ X-ALT-DESC;FMTTYPE=text/html:<h4>  All campus community members are welco
  t Amy Dvorak <a href="mailto:advorak@lclark.edu">advorak@lclark.edu</a> o
  r 503-768-7794.</p><h3>  Follow us on social:</h3><p>  @sustainableLC or 
  use #MoveOutTreasures for updates about exciting new donations.</p>
-UID:20260507T150000Z-392140@www.lclark.edu
+UID:20260508T150000Z-392141@www.lclark.edu
 DTSTAMP:20260430T184100Z
-URL:https://www.lclark.edu/calendars/events/event/392140-student-move-out
+URL:https://www.lclark.edu/calendars/events/event/392141-student-move-out
  -swap-shop-for-free
 LAST-MODIFIED:20260504T180148Z
 RRULE:FREQ=DAILY;UNTIL=20260508T150000Z;INTERVAL=1
 ATTACH:https://www.lclark.edu/live/image/gid/184/width/80/height/80/crop/
  1/src_region/0,0,697,393/78073_donate_2.rev.1555024824.jpg
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:392140
+X-LIVEWHALE-ID:392141
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/184/width/80/heig
  ht/80/crop/1/src_region/0\,0\,697\,393/78073_donate_2.rev.1555024824.jpg
@@ -135,149 +135,6 @@ X-LIVEWHALE-SUMMARY:<p>\n  May 5–8\, students can drop items in good co
  rt\, and Fowler 215 (game room). The swap—where everyone is welcome to 
  shop for free—will be held May 7–8 in Fowler 215.\n</p>
 X-LIVEWHALE-REPEATS-UNTIL:2026-05-08 15:00:00
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260508
-DTEND;VALUE=DATE:20260509
-SUMMARY:Vacation period begins
-UID:20260508T070000Z-369002@www.lclark.edu
-DTSTAMP:20250521T164622Z
-URL:https://www.lclark.edu/calendars/events/event/369002-vacation-period-
- begins
-LAST-MODIFIED:20250521T234622Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:369002
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-ALL-DAY:1
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260508T090000
-DTEND;TZID=America/Los_Angeles:20260508T110000
-LOCATION:Albany foyer
-SUMMARY:ENVS Senior Brunch
-UID:20260508T160000Z-368753@www.lclark.edu
-DTSTAMP:20250509T044644Z
-URL:https://www.lclark.edu/calendars/events/event/368753-envs-senior-brunch
-LAST-MODIFIED:20250513T203105Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:368753
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-CONTACT-INFO:<p><a href="mailto:envs@lclark.edu">envs@lclark.
- edu<br />\n5</a>03-768-7790</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260508T110000
-DTEND;TZID=America/Los_Angeles:20260508T123000
-LOCATION:Fowler Student Center\; Stamm
-GEO:45.44918;-122.670969
-SUMMARY:Phi Beta Kappa Induction Ceremony
-DESCRIPTION:Please consult the listed contacts for more information!
-X-ALT-DESC;FMTTYPE=text/html:<p>  Please consult the listed contacts for 
- more information!</p>
-UID:20260508T180000Z-386786@www.lclark.edu
-DTSTAMP:20260312T124054Z
-URL:https://www.lclark.edu/calendars/events/event/386786-phi-beta-kappa-i
- nduction-ceremony
-LAST-MODIFIED:20260312T194216Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:386786
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-CONTACT-INFO:<p>\n  <a class="email" href="mailto:casdean@lcl
- ark.edu">casdean@lclark.edu</a>\n</p>\n<p>\n  503-768-7100\n</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260508T120000
-DTEND;TZID=America/Los_Angeles:20260508T130000
-SUMMARY:Halls close for Non-Graduating Residents: Noon on Friday May 8\, 
- 2026
-UID:20260508T190000Z-369471@www.lclark.edu
-DTSTAMP:20250602T065531Z
-URL:https://www.lclark.edu/calendars/events/event/369471-halls-close-for-
- non-graduating-residents-noon-on
-LAST-MODIFIED:20250602T135531Z
-ATTACH:https://www.lclark.edu/live/image/gid/241/width/80/height/80/crop/
- 1/src_region/0,0,1600,694/108756_Screenshot_2025-06-02_at_9.39.36AM.rev.1
- 748871618.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:369471
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/241/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1600\,694/108756_Screenshot_2025-06-02_at_9
- .39.36AM.rev.1748871618.png
-X-LIVEWHALE-IMAGE-CAPTION:Campus Living
-X-LIVEWHALE-SUMMARY:<p>All residents who are not remaining on-campus for 
- summer 2026 are required to move out by 12pm on Friday\, May 8th.&#160\;<
- /p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260508T120000
-DTEND;TZID=America/Los_Angeles:20260508T130000
-LOCATION:Alumni Gatehouse
-GEO:45.450497;-122.672267
-SUMMARY:CAS Commencement Name Reader Office Hours
-DESCRIPTION:Visit the CAS Commencement name reader\, Amanda Valley\, in t
- he Alumni Gatehouse if you wish to communicate the correct pronunciation 
- of your name in person.
-X-ALT-DESC;FMTTYPE=text/html:<p>  Visit the CAS Commencement name reader\
- , Amanda Valley\, in the Alumni Gatehouse if you wish to communicate the 
- correct pronunciation of your name in person.</p>
-UID:20260508T190000Z-392603@www.lclark.edu
-DTSTAMP:20260505T104751Z
-URL:https://www.lclark.edu/calendars/events/event/392603-cas-commencement
- -name-reader-office-hours
-LAST-MODIFIED:20260505T174827Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:392603
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260508T130000
-DTEND;TZID=America/Los_Angeles:20260508T150000
-LOCATION:Fowler Student Center\; Council Chamber
-GEO:45.44918;-122.670969
-SUMMARY:Posse Graduation Celebration
-DESCRIPTION:Please consult the listed contacts for more information!
-X-ALT-DESC;FMTTYPE=text/html:<p>  Please consult the listed contacts for 
- more information!</p>
-UID:20260508T200000Z-386785@www.lclark.edu
-DTSTAMP:20260312T123805Z
-URL:https://www.lclark.edu/calendars/events/event/386785-posse-graduation
- -celebration
-LAST-MODIFIED:20260421T195830Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:386785
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-CONTACT-INFO:<p>\n  <a href="mailto:admissions@lclark.edu">ad
- missions@lclark.edu</a>&#160\;<br />\n  <br />\n  503-768-7900\n</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260508T150000
-DTEND;TZID=America/Los_Angeles:20260508T160000
-LOCATION:Agnes Flanagan Chapel
-GEO:45.450821;-122.671419
-SUMMARY:Honors Convocation
-DESCRIPTION:If you have questions about this event\, please contact Debbi
- e Richman in the Dean's office at drichman@lclark.edu (mailto:drichman@lc
- lark.edu) or (503) 768-7198
-X-ALT-DESC;FMTTYPE=text/html:<p>  If you have questions about this event\
- , please contact Debbie Richman in the Dean's office at <a href="mailto:d
- richman@lclark.edu">drichman@lclark.edu</a> or (503) 768-7198</p>
-UID:20260508T220000Z-384767@www.lclark.edu
-DTSTAMP:20260223T155054Z
-URL:https://www.lclark.edu/calendars/events/event/384767-honors-convocation
-LAST-MODIFIED:20260226T180439Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:384767
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-CONTACT-INFO:<p>\n  <a href="mailto:drichman@lclark.edu">dric
- hman@lclark.edu</a><br />\n  (503) 768-7198\n</p>
-X-LIVEWHALE-SUMMARY:<p>\n  Each year Lewis &amp\; Clark College recognize
- s the achievements of students receiving departmental honors\, the Senior
-  Recognition Award\, and the Rena J. Ratte Memorial Award at the annual H
- onors Convocation ceremony.<br />\n  <br />\n  We invite all family and f
- riends to attend and celebrate the award recipients. Registration for thi
- s event is not required.<br />\n  <br />\n  Congratulations to each of ou
- r honors students!\n</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260509T100000
@@ -3319,6 +3176,161 @@ X-LIVEWHALE-SUMMARY:<p>\n  Prepare for the unexpected with this engaging\
  ly close to medical resources\, work at wilderness camps\, enjoy weekend 
  family outdoor activities\, or recreate outdoors\, this course is for you
  .\n</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260611T173000
+DTEND;TZID=America/Los_Angeles:20260611T183000
+SUMMARY:Alumni Weekend Night at the Portland Pickles Baseball Game
+DESCRIPTION:Join alumni across the decades at the Portland Pickles baseba
+ ll game on Thursday\, June 11\, 2026!&#160\;Alumni Weekend (https://colle
+ ge.lclark.edu/offices/alumni/reunions/) Night at the Portland Pickles (ht
+ tps://www.portlandpicklesbaseball.com/who-are-the-pickles) baseball game 
+  Thursday\, June 11\, 2026Walker Stadium (http://google.com/maps?entry=mc
+ &amp\;output=search&amp\;q=walker%20stadium&amp\;sa=X&amp\;sca_esv=579237
+ 292&amp\;source=lnms&amp\;sqi=2&amp\;ved=2ahUKEwji3svI5aiCAxVhD0QIHfugBjE
+ Q0pQJegQICxAB)\, The Hot Corner (https://www.portlandpicklesbaseball.com/
+ seating-chart)  &#160\;4727 SE 92nd Avenue&#160\;  Portland\, OR 97266  C
+ heck in starts at 5:30 p.m.  Stadium opens at 5:45 p.m.  First pitch is a
+ t 7:05 p.m.  Tickets - $30/person  Sponsored by the Class of 2021\, and t
+ heir classmate\, Pickles GM Courtney Schmidt (https://www.portlandpickles
+ baseball.com/news/courtney-schmidt-promoted-to-general-manager-of-the-por
+ tland-pickles)\, alumni will enjoy watching the game at Walker Stadium fr
+ om the private\, covered venue the "Hot Corner" along the third base line
+ . Show your L&amp\;C spirit in orange and black while enjoying that eveni
+ ng's theme "Spooky Scary Haunted Night".&#160\;Purchase your tickets toda
+ y (https://engage.lclark.edu/register/?id=305437e0-2ea5-4e1a-9319-3ebfd4f
+ 8e661)  Do you have questions about this event?  Take a look below and if
+  you don't find an answer\, email Amanda Valley (avalley@lclark.edu (mail
+ to:avalley@lclark.edu)) for more information.  How do I get my ticket for
+  game day?Instead of physical tickets\, your name will be on a list to ga
+ in entry into the "Hot Corner".  Staff will be available at Walker Stadiu
+ m starting at 5:30 p.m. to assist you with checking in and finding your s
+ eats.  Access to the "Hot Corner" is ADA compliant.&#160\;  Seating in th
+ e "Hot Corner" is not assigned and will be first come\, first seated.    
+ How do I get to Walker Stadium?Walker Stadium is located in Southeast Por
+ tland within Lents Park. 4727 SE 92nd Ave\, Portland\, OR 97266  You can 
+ find the location on Google Maps by following this link (https://www.goog
+ le.com/maps?entry=mc&amp\;output=search&amp\;q=walker%20stadium&amp\;sa=X
+ &amp\;sca_esv=579237292&amp\;source=lnms&amp\;sqi=2&amp\;ved=2ahUKEwji3sv
+ I5aiCAxVhD0QIHfugBjEQ0pQJegQICxAB).&#160\;  Tri Met's #17 bus easily acce
+ sses Lents Park and using a rideshare (Lyft or Uber) is also encouraged. 
+  Coming from the 2011 Pre-Pickles Social at The Zed? Here is a map with w
+ alking directions to Walker Stadium (https://www.lclark.edu/live/files/38
+ 036-2011-social-at-the-zed-to-walker-stadium).    Where do I park?Walker 
+ Stadium has limited parking spaces in lots located around Lents Park. Mos
+ t parking options are on-street\, predominately along SE 92nd Avenue. See
+  the map (https://www.google.com/maps/place/Walker+Stadium+-+Portland+Pic
+ kles+Baseball/@45.488401\,-122.5716889\,17.25z/data=!4m6!3m5!1s0x5495a02f
+ e2904ecb:0xfb951684341a7986!8m2!3d45.488337!4d-122.5695783!16s%2Fg%2F11cp
+ 7g_fly?entry=ttu&amp\;g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D) for deta
+ ils on lot locations.  ADA parking is available in Lents Park lots. Arriv
+ ing before 5:45 p.m. is recommended to secure one of these spaces.    Can
+  I purchase additional tickets for other classmates\, friends\, or family
+  members?We expect this event to sell out\, but tickets are available for
+  purchase through the Alumni Weekend registration (https://engage.lclark.
+ edu/register/?id=305437e0-2ea5-4e1a-9319-3ebfd4f8e661).  Online purchasin
+ g ends on June 4\, 2026 at 11:59 p.m. and cost $30 per person.  Tickets p
+ urchased after June 4\, 2026 are $35 per person. Please email avalley@lcl
+ ark.edu (mailto:avalley@lclark.edu) to check on availability.  Walk-in pu
+ rchasing may be available but is not guaranteed. Email avalley@lclark.edu
+  (mailto:avalley@lclark.edu) or call 503-768-7941 to check availability.
+X-ALT-DESC;FMTTYPE=text/html:<h3 style="text-align: left\;">  Join alumni
+  across the decades at the Portland Pickles baseball game on Thursday\, J
+ une 11\, 2026!&#160\;</h3><h3 style="text-align: center\;"><br /><a href=
+ "https://college.lclark.edu/offices/alumni/reunions/" target="_blank" rel
+ ="noopener">Alumni Weekend</a> Night at the <a href="https://www.portland
+ picklesbaseball.com/who-are-the-pickles" target="_blank" rel="noopener">P
+ ortland Pickles</a> baseball game<br />  Thursday\, June 11\, 2026<br /><
+ a href="http://google.com/maps?entry=mc&amp\;output=search&amp\;q=walker%
+ 20stadium&amp\;sa=X&amp\;sca_esv=579237292&amp\;source=lnms&amp\;sqi=2&am
+ p\;ved=2ahUKEwji3svI5aiCAxVhD0QIHfugBjEQ0pQJegQICxAB" target="_blank" rel
+ ="noopener">Walker Stadium</a>\, <a href="https://www.portlandpicklesbase
+ ball.com/seating-chart" target="_blank" rel="noopener">The Hot Corner</a>
+ <br />  &#160\;4727 SE 92nd Avenue&#160\;<br />  Portland\, OR 97266<br /
+ ><br />  Check in starts at 5:30 p.m.<br />  Stadium opens at 5:45 p.m.<b
+ r />  First pitch is at 7:05 p.m.<br />  Tickets - $30/person</h3><p>  Sp
+ onsored by the Class of 2021\, and their classmate\, Pickles GM <a href="
+ https://www.portlandpicklesbaseball.com/news/courtney-schmidt-promoted-to
+ -general-manager-of-the-portland-pickles" target="_blank" rel="noopener">
+ Courtney Schmidt</a>\, alumni will enjoy watching the game at Walker Stad
+ ium from the private\, covered venue the "Hot Corner" along the third bas
+ e line. Show your L&amp\;C spirit in orange and black while enjoying that
+  evening's theme "Spooky Scary Haunted Night".&#160\;</p><p style="text-a
+ lign: center\;"><a class="btn-small-style-1 btn-small-style-1 btn-small-s
+ tyle-1" href="https://engage.lclark.edu/register/?id=305437e0-2ea5-4e1a-9
+ 319-3ebfd4f8e661" target="_blank" rel="noopener">Purchase your tickets to
+ day</a></p><p style="text-align: center\;"><picture class="lw_image lw_im
+ age112636 lw_align_center lw_block"><source type="image/webp" srcset="htt
+ ps://www.lclark.edu/live/image/scale/2x/gid/45/width/400/height/400/crop/
+ 1/src_region/466\,0\,1490\,1024/112636_20220810-DSC04881-2_1.webp 2x" dat
+ a-origin="responsive"/><source type="image/jpeg" srcset="https://www.lcla
+ rk.edu/live/image/scale/2x/gid/45/width/400/height/400/crop/1/src_region/
+ 466\,0\,1490\,1024/112636_20220810-DSC04881-2_1.rev.1775061995.jpg 2x" da
+ ta-origin="responsive"/><img width="400" height="400" alt="" data-alt="" 
+ data-decoration="true" src="https://www.lclark.edu/live/image/gid/45/widt
+ h/400/height/400/crop/1/src_region/466\,0\,1490\,1024/112636_20220810-DSC
+ 04881-2_1.rev.1775061995.jpg" title="20220810-DSC04881-2 1" srcset="https
+ ://www.lclark.edu/live/image/scale/2x/gid/45/width/400/height/400/crop/1/
+ src_region/466\,0\,1490\,1024/112636_20220810-DSC04881-2_1.rev.1775061995
+ .jpg 2x" data-max-w="1024" data-max-h="1024" loading="lazy" data-optimize
+ d="true"/></picture></p><h3 style="text-align: left\;">  Do you have ques
+ tions about this event?</h3><p style="text-align: left\;">  Take a look b
+ elow and if you don't find an answer\, email Amanda Valley (<a href="mail
+ to:avalley@lclark.edu">avalley@lclark.edu</a>) for more information.</p><
+ p>  How do I get my ticket for game day?</p><ul><li>Instead of physical t
+ ickets\, your name will be on a list to gain entry into the "Hot Corner".
+   </li><li>Staff will be available at Walker Stadium starting at 5:30 p.m
+ . to assist you with checking in and finding your seats.  </li><li>Access
+  to the "Hot Corner" is ADA compliant.&#160\;  </li><li>Seating in the "H
+ ot Corner" is not assigned and will be first come\, first seated.  </li><
+ /ul><p>  How do I get to Walker Stadium?</p><ul><li>Walker Stadium is loc
+ ated in Southeast Portland within Lents Park. 4727 SE 92nd Ave\, Portland
+ \, OR 97266  </li><li>You can find the location on Google Maps by <a href
+ ="https://www.google.com/maps?entry=mc&amp\;output=search&amp\;q=walker%2
+ 0stadium&amp\;sa=X&amp\;sca_esv=579237292&amp\;source=lnms&amp\;sqi=2&amp
+ \;ved=2ahUKEwji3svI5aiCAxVhD0QIHfugBjEQ0pQJegQICxAB" target="_blank" rel=
+ "noopener">following this link</a>.&#160\;  </li><li>Tri Met's #17 bus ea
+ sily accesses Lents Park and using a rideshare (Lyft or Uber) is also enc
+ ouraged.  </li><li>Coming from the 2011 Pre-Pickles Social at The Zed? <a
+  href="https://www.lclark.edu/live/files/38036-2011-social-at-the-zed-to-
+ walker-stadium" target="_blank" rel="noopener">Here is a map with walking
+  directions to Walker Stadium</a>.  </li></ul><p>  Where do I park?</p><u
+ l><li>Walker Stadium has limited parking spaces in lots located around Le
+ nts Park. Most parking options are on-street\, predominately along SE 92n
+ d Avenue. <a href="https://www.google.com/maps/place/Walker+Stadium+-+Por
+ tland+Pickles+Baseball/@45.488401\,-122.5716889\,17.25z/data=!4m6!3m5!1s0
+ x5495a02fe2904ecb:0xfb951684341a7986!8m2!3d45.488337!4d-122.5695783!16s%2
+ Fg%2F11cp7g_fly?entry=ttu&amp\;g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D"
+  target="_blank" rel="noopener">See the map</a> for details on lot locati
+ ons.  </li><li>ADA parking is available in Lents Park lots. Arriving befo
+ re 5:45 p.m. is recommended to secure one of these spaces.  </li></ul><p>
+   Can I purchase additional tickets for other classmates\, friends\, or f
+ amily members?</p><ul><li>We expect this event to sell out\, but tickets 
+ are available for purchase through the <a href="https://engage.lclark.edu
+ /register/?id=305437e0-2ea5-4e1a-9319-3ebfd4f8e661" target="_blank" rel="
+ noopener">Alumni Weekend registration</a>.  </li><li><strong>Online purch
+ asing ends on June 4\, 2026</strong> at 11:59 p.m. and cost $30 per perso
+ n.  </li><li>Tickets purchased after June 4\, 2026 are <strong>$35 per pe
+ rson</strong>. Please email <a href="mailto:avalley@lclark.edu">avalley@l
+ clark.edu</a> to check on availability.  </li><li>Walk-in purchasing may 
+ be available but is not guaranteed. Email <a href="mailto:avalley@lclark.
+ edu">avalley@lclark.edu</a> or call 503-768-7941 to check availability.  
+ </li></ul>
+UID:20260612T003000Z-388887@www.lclark.edu
+DTSTAMP:20260331T120034Z
+URL:https://www.lclark.edu/calendars/events/event/388887-alumni-weekend-n
+ ight-at-the-portland-pickles
+LAST-MODIFIED:20260508T222605Z
+ATTACH:https://www.lclark.edu/live/image/gid/45/width/80/height/80/crop/1
+ /src_region/0,0,2000,2000/112634_Untitled_design_1.rev.1775061707.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:388887
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/45/width/80/heigh
+ t/80/crop/1/src_region/0\,0\,2000\,2000/112634_Untitled_design_1.rev.1775
+ 061707.png
+X-LIVEWHALE-SUMMARY:<p>\n  In-person event\n</p>
+X-LIVEWHALE-TAGS:alumni
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260614T080000
