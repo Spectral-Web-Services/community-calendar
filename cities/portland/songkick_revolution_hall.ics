@@ -4,17 +4,6 @@ PRODID:-//Revolution Hall//songkick.com//
 X-WR-CALNAME:Revolution Hall
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Mocha\, Bray Radbury
-DTSTART:20260508T210000
-DTEND:20260508T210000
-UID:8c927be29cdeb08a4dc81ad64dc4532f@songkick.com
-DESCRIPTION:Mocha at Revolution Hall at 2026-05-08T21:00:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43100092-mocha-at-revolution-hall?utm
- _medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:E. Ellison\, Lily Breshears
 DTSTART:20260509T190000
 DTEND:20260509T190000
@@ -23,6 +12,29 @@ DESCRIPTION:E. Ellison at Revolution Hall at 2026-05-09T19:00:00-0700
 LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/43104712-e-ellison-at-revolution-hall
  ?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allie X
+DTSTART:20260512T200000
+DTEND:20260512T200000
+UID:60660739745f1db9bfec3f5d8505b278@songkick.com
+DESCRIPTION:Allie X at Revolution Hall at 2026-05-12T20:00:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/42910536-allie-x-at-revolution-hall?u
+ tm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Echo & The Bunnymen
+DTSTART:20260513T190000
+DTEND:20260513T190000
+UID:f2cce6eef7a17494809f92d8a6015147@songkick.com
+DESCRIPTION:Echo & The Bunnymen at Revolution Hall at 2026-05-13T19:00:00-
+ 0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/42929611-echo-and-the-bunnymen-at-rev
+ olution-hall?utm_medium=organic&utm_source=microformat
 X-SOURCE:Revolution Hall
 END:VEVENT
 END:VCALENDAR

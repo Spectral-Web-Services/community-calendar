@@ -4,17 +4,6 @@ PRODID:-//Aladdin Theater//songkick.com//
 X-WR-CALNAME:Aladdin Theater
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Sir Woman\, Oh He Dead
-DTSTART:20260508T200000
-DTEND:20260508T200000
-UID:5b75c9c31e89d8df1377fabdd7726b92@songkick.com
-DESCRIPTION:Sir Woman at Aladdin Theater at 2026-05-08T20:00:00-0700
-LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
-URL:http://www.songkick.com/concerts/43100089-sir-woman-at-aladdin-theater
- ?utm_medium=organic&utm_source=microformat
-X-SOURCE:Aladdin Theater
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The New Pornographers\, Will Sheff
 DTSTART:20260509T200000
 DTEND:20260509T200000
@@ -46,6 +35,17 @@ DESCRIPTION:Protoje at Aladdin Theater at 2026-05-12T20:00:00-0700
 LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
 URL:http://www.songkick.com/concerts/43011343-protoje-at-aladdin-theater?u
  tm_medium=organic&utm_source=microformat
+X-SOURCE:Aladdin Theater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yumi Zouma
+DTSTART:20260514T200000
+DTEND:20260514T200000
+UID:f97a41d3f103634ad89bfbf38eec2c25@songkick.com
+DESCRIPTION:Yumi Zouma at Aladdin Theater at 2026-05-14T20:00:00-0700
+LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
+URL:http://www.songkick.com/concerts/43036987-yumi-zouma-at-aladdin-theate
+ r?utm_medium=organic&utm_source=microformat
 X-SOURCE:Aladdin Theater
 END:VEVENT
 END:VCALENDAR

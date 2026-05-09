@@ -1,90 +1,142 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Attention Required! | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-  <div id="cf-wrapper">
-    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-    <div id="cf-error-details" class="cf-error-details-wrapper">
-      <div class="cf-wrapper cf-header cf-error-overview">
-        <h1 data-translate="block_headline">Sorry, you have been blocked</h1>
-        <h2 class="cf-subheadline"><span data-translate="unable_to_access">You are unable to access</span> wpenginepowered.com</h2>
-      </div><!-- /.header -->
-
-      <div class="cf-section cf-highlight">
-        <div class="cf-wrapper">
-          <div class="cf-screenshot-container cf-screenshot-full">
-            
-              <span class="cf-no-screenshot error"></span>
-            
-          </div>
-        </div>
-      </div><!-- /.captcha-container -->
-
-      <div class="cf-section cf-wrapper">
-        <div class="cf-columns two">
-          <div class="cf-column">
-            <h2 data-translate="blocked_why_headline">Why have I been blocked?</h2>
-
-            <p data-translate="blocked_why_detail">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>
-          </div>
-
-          <div class="cf-column">
-            <h2 data-translate="blocked_resolve_headline">What can I do to resolve this?</h2>
-
-            <p data-translate="blocked_resolve_detail">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>
-          </div>
-        </div>
-      </div><!-- /.section -->
-
-      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9f8529690e64a295</strong></span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-        Your IP:
-        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-        <span class="hidden" id="cf-footer-ip">20.168.115.113</span>
-        <span class="cf-footer-separator sm:hidden">&bull;</span>
-      </span>
-      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-      
-    </p>
-    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-  </div><!-- /.error-footer -->
-
-    </div><!-- /#cf-error-details -->
-  </div><!-- /#cf-wrapper -->
-
-  <script>
-    window._cf_translation = {};
-    
-    
-  </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f8529690e64a295',t:'MTc3ODIwODY3Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Institute for Nonprofit News - ECPv6.15.20//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Institute for Nonprofit News
+X-ORIGINAL-URL:https://inn.org
+X-WR-CALDESC:Events for Institute for Nonprofit News
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260513T130000
+DTEND;TZID=America/New_York:20260513T140000
+DTSTAMP:20260508T224255
+CREATED:20260430T172534Z
+LAST-MODIFIED:20260430T172534Z
+UID:10004858-1778677200-1778680800@inn.org
+SUMMARY:Streamlining newsletter production: A peer-learning opportunity
+DESCRIPTION:Assembling a newsletter\, especially a daily\, can be tedious and time-consuming — pulling links\, writing summaries\, formatting\, scheduling\, and proofreading can eat up hours. But it doesn’t have to. Learn from INN members who have streamlined the process using a mix of automation\, AI assistance\, templates\, and smart editorial workflows — some getting their daily build down to mere minutes. Come prepared to show and tell your current process\, your pain points\, and any tools or hacks you’ve found useful. You’ll leave with practical ideas you can put to work in your newsroom.
+URL:https://inn.org/event/streamlining-newsletter-production-a-peer-learning-opportunity/
+ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2024/06/INN-Events-Audience-Development-e1778081176865.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260514T133000
+DTEND;TZID=America/New_York:20260514T140000
+DTSTAMP:20260508T224255
+CREATED:20260409T200328Z
+LAST-MODIFIED:20260409T200328Z
+UID:10004853-1778765400-1778767200@inn.org
+SUMMARY:RNN Onboarding: Getting Started with Sunlight Research Desk
+DESCRIPTION:Join us for a brief onboarding session to kick off the Rural News Network’s partnership with MuckRock and the Sunlight Research Desk. We’ll walk through your new premium benefits—including research support\, investigative tools\, workshops and office hours — and show you how to access and make the most of these resources as you cover the upcoming midterm elections. There will be time for questions and a quick demo to get your newsroom set up for success.
+URL:https://inn.org/event/rnn-onboarding-getting-started-with-sunlight-research-desk-4/
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/04/5c11c7ad-af4b-4f89-864c-910bfa1bf816.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260619
+DTSTAMP:20260508T224255
+CREATED:20260123T165431Z
+LAST-MODIFIED:20260206T171526Z
+UID:10004840-1781568000-1781827199@inn.org
+SUMMARY:INN Days 2026
+DESCRIPTION:Join the Institute for Nonprofit News in Pittsburgh from June 16-18 for INN Days 2026. \nINN Days brings together news leaders\, technologists and business strategists to identify and solve the nonprofit news field’s toughest challenges. This is an opportunity for decision-makers to dive deep and learn practical strategies for strengthening news as a public good.
+URL:https://inn.org/event/inn-days-2026/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260616T090000
+DTEND;TZID=America/New_York:20260616T140000
+DTSTAMP:20260508T224255
+CREATED:20260415T145355Z
+LAST-MODIFIED:20260415T183752Z
+UID:10004855-1781600400-1781618400@inn.org
+SUMMARY:Pre-conference Workshop: Field Safety Planning for Newsroom Leaders
+DESCRIPTION:An INN Days 2026 pre-conference field safety workshop for newsroom leaders\nAs protests\, upcoming elections\, and a rapidly evolving political climate drive an increase in high-stakes newsworthy events\, news leaders face growing pressure to safely manage and deploy staff and freelancers in the field. The frontlines for journalists are expanding\, reaching beyond traditional danger zones into everyday beats and topics where journalists are increasingly finding themselves vulnerable. \nJoin us before INN Days on Tuesday\, June 16 from 9 a.m. to 2 p.m. at the conference venue for this hands-on session led by the Journalist Assistance Network (JAN). \nRegister\nRegister by June 2\, 2026. Tickets are $49 and include a light breakfast and full lunch. \nDuring the workshop\, you’ll learn about best practices for deploying journalists safely in the field\, with structured time to exchange strategies with fellow leaders and to work through a practical safety planning template covering what to do before\, during\, and after a safety incident in the field.  \n\nIdeal for: Executive Directors\, Editors-in-Chief\, Chief Operating Officers\, Board Members\, and other newsroom leaders responsible for staff safety and organizational policy\nKey Takeaways: A draft field safety plan built collaboratively with experts\, an understanding of gaps in your current protocols\, and practical strategies for filling them\nFormat & Experience: Facilitated small group breakouts with safety experts\, peer-to-peer exchange\, and sharebacks; opt-in informal AMA with safety experts over lunch\nTopics Covered: Data and device protection\, legal protection\, physical field safety\, digital security\, online harassment response\, and psychosocial support\nSchedule: This workshop will be from 9 to 2 p.m. on Tuesday\, June 16. The INN Days conference will begin at 3:30 p.m.\n\nLed by Journalist Assistance Network which includes Freedom of the Press Foundation\, the Committee to Protect Journalists\, the Reporter’s Committee for Freedom of the Press\, PEN America\, and the International Women’s Media Foundation. \nThis pre-conference workshop is separate from INN Days and requires its own registration. If you are planning to also attend INN Days\, you must register separately here. \nRegister by June 2\, 2026. Tickets are $49 and include a light breakfast and full lunch. \nFor questions\, please contact gatherings@inn.org.
+URL:https://inn.org/event/pre-conference-field-safety-planning-for-newsroom-leaders/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+CATEGORIES:Conference
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260616T110000
+DTEND;TZID=America/New_York:20260616T140000
+DTSTAMP:20260508T224255
+CREATED:20260415T145351Z
+LAST-MODIFIED:20260415T183826Z
+UID:10004856-1781607600-1781618400@inn.org
+SUMMARY:Pre-conference Workshop: Building A Board Development Plan
+DESCRIPTION:An INN Days 2026 pre-conference board development workshop for executive directors\nBoards are critical to nonprofit resilience Yet for many newsroom leaders\, moving their board to the next level to meet their needs is a lot easier said than done. The challenge is finding the time and space to step back\, assess where your board actually stands\, and identify realistic next steps you can act on in the near term. This pre-conference workshop is designed to help you cut through that\, offering a practical framework to build a clear path forward. \nJoin us before INN Days on Tuesday\, June 16 from 11 to 2 p.m. at the conference venue for this hands-on session led by Arizona State University’s Knight Center for the Future of News. \nRegister\nRegister by June 2\, 2026. Tickets are $29 and include lunch. \nThis 3-hour workshop will guide leaders through a research-based framework of the three phases of board development. You’ll be able to identify which stage your board is in\, what common challenges exist at each phase\, and identify concrete steps to move forward across a series of topics. \n\nIdeal for: Executive Directors\, Publishers\, Board Chairs\, and others responsible for managing or working with their organization’s board \nKey Takeaways: Understanding of your board’s current stage of development\, common challenges at each phase\, tactics to work through them\, and an actionable six-month plan\nFormat & Experience: Research-based presentations\, small group discussions\, and a guided near term action planning\nTopics Covered: The three phases of board development\, governance literacy and board composition\, editorial independence and ethics\, fiduciary oversight and fundraising\, and enterprise risk management including safety\, legal\, financial\, and AI-related risks\nSchedule: This workshop will be from 11 to 2 p.m. on Tuesday\, June 16. The INN Days conference will begin at 3:30 p.m.\n\nThis pre-conference workshop is separate from INN Days and requires its own registration. If you are planning to also attend INN Days\, you must register separately here. \n A condensed version of this session with limited capacity will be featured as part of the INN Days conference. \nFor questions\, please contact gatherings@inn.org.
+URL:https://inn.org/event/pre-conference-workshop-building-a-board-development-plan/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+CATEGORIES:Conference
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260616T110000
+DTEND;TZID=America/New_York:20260616T140000
+DTSTAMP:20260508T224255
+CREATED:20260415T145359Z
+LAST-MODIFIED:20260415T183749Z
+UID:10004854-1781607600-1781618400@inn.org
+SUMMARY:Pre-conference Workshop: The Rural Election Data Sprint
+DESCRIPTION:An INN Days 2026 pre-conference workshop on turning election research and data into local reporting for Rural News Network (RNN) newsrooms\nWith the midterms just months away\, many rural newsrooms are being asked to cover increasingly complex elections without the time\, tools or staff to fully track the money\, networks and influence shaping local races. This pre-conference session is designed to help close that gap—offering a hands-on\, working lab where journalists can begin turning national data resources into local\, actionable reporting. \nJoin us before INN Days on Tuesday\, June 16 from 11 a.m. to 2 p.m. at the conference venue for this hands-on session led by INN’s Rural News Network alongside INN members MuckRock’s Sunlight Research and OpenSecrets.  \nRegister\nRegister by June 2\, 2026. Tickets are $29 and include lunch. \nIn this interactive session\, participants will work in small groups using tools from Sunlight Research and OpenSecrets to identify story angles\, surface key data points and map out next steps for reporting. With guidance from experienced editors and data experts\, attendees will move beyond theory and start building real election coverage grounded in their communities. \n\nIdeal for: Reporters\, editors\, and data journalists at INN member rural newsrooms \nKey Takeaways: Understanding of how Sunlight Research and OpenSecret’s resources can help you cover candidates and campaign finance\, as well as potential story leads to jumpstart your elections coverage\nFormat & Experience: Walk-thrus of using candidate research and data tools\, small group discussion\, brainstorming activities to identify story leads and topics\nTopics Covered: Campaign finance\, outside money\, candidate research and rural elections dynamics.\nSchedule: This workshop will be from 11 a.m. to 2 p.m. on Tuesday\, June 16. The INN Days conference will begin at 3:30 p.m.\n\nThis pre-conference workshop is separate from INN Days and requires its own registration. If you are planning to also attend INN Days\, you must register separately here. \nRegister by June 2\, 2026. Tickets are $29 and include lunch. \nFor questions\, please contact alana@inn.org.
+URL:https://inn.org/event/pre-conference-the-rural-election-data-sprint/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+CATEGORIES:Conference
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260616T170000
+DTEND;TZID=America/New_York:20260616T203000
+DTSTAMP:20260508T224255
+CREATED:20260209T143527Z
+LAST-MODIFIED:20260504T171820Z
+UID:10004844-1781629200-1781641800@inn.org
+SUMMARY:2026 Nonprofit News Awards
+DESCRIPTION:Celebrate the best in nonprofit news at the 2026 Nonprofit News Awards! \nThe evening will begin Tuesday\, June 16\, at 5 p.m. with a reception featuring light hors d’oeuvres and drinks\, followed by the awards ceremony from 6 to 8:30 p.m.\, when the winners will be announced.
+URL:https://inn.org/event/2026-nonprofit-news-awards/
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Untitled-600-x-400-px.png
+END:VEVENT
+END:VCALENDAR

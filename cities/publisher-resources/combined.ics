@@ -7,63 +7,12 @@ X-WR-CALNAME:Publisher Resources Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Journalism Conferences": "https://mediaparty.org/conferences/media-party-new-york-2026/"}
-X-SOURCE-ID:journalism_conferences
-SUMMARY:Media Party 2026 - New York
-DTSTART:20260508T000000
-DTEND:20260510T000000
-UID:43ee47ab1aca920430da50f879a70ee9@journalism.wtf
-DESCRIPTION:Host: Media Party\nAttendance: Open Registration\nScope: Inter
- national\nFormat: In Person
-LOCATION:New York City\, New York\, United States
-URL:https://mediaparty.org/conferences/media-party-new-york-2026/
-X-SOURCE:Journalism Conferences
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://jobs.dayforcehcm.com/en-US/gannett/GANNETTINTERNSHIPS/jobs/88235"}
-X-SOURCE-ID:journalism_deadlines
-X-SOURCE:Journalism Internship & Fellowship Deadlines
-URL:https://jobs.dayforcehcm.com/en-US/gannett/GANNETTINTERNSHIPS/jobs/88235
-DTSTART;VALUE=DATE:20260508
-DTEND;VALUE=DATE:20260509
-DTSTAMP:20260508T025122Z
-UID:3jcg91b3f8jtebfsb7novenca8@google.com
-CREATED:20260428T013452Z
-DESCRIPTION:See the full program description: <a href="https://jobs.dayforc
- ehcm.com/en-US/gannett/GANNETTINTERNSHIPS/jobs/88235">https://jobs.dayforce
- hcm.com/en-US/gannett/GANNETTINTERNSHIPS/jobs/88235</a><br><br>Pay: $18 / h
- our<br><br>Apply by May 8.<br><br>Sign up for even more journalism jobs ope
- nings via the Journalism jobs and a photo of my dog newsletter: <a href="ht
- tps://journojobs.substack.com/subscribe" target="_blank"><u><u><u><u><u><u>
- https://journojobs.substack.com/subscribe</u></u></u></u></u></u></a>
-LAST-MODIFIED:20260428T013452Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:USA Today's 2026 Summer AI Creation Video Internship
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-climate-newsroom-ccnow"}
-X-SOURCE-ID:sej
-SUMMARY:The Climate Newsroom\, CCNow
-DTSTART;TZID=America/New_York:20260508T000000
-DTEND;TZID=America/New_York:20260508T000000
-UID:26de1e210bf7ab034aa1605297bc64e6@sej.org
-DESCRIPTION:Free training! CCNow is accepting applications for the spring 
- cohort of The Climate Newsroom\, our free three-session training program f
- or US-based journalists. Training begins the week of May 12. Apply by May 
- 8.\n\nCategories: National (U.S.)\, Workshops and Fellowships\, Journalism
-  & Media
-URL:https://www.sej.org/calendar/deadline-climate-newsroom-ccnow
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Assoc. of LGBTQ+ Journalists": "https://www.nlgja.org/event/17054/"}
 X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/Los_Angeles:20260509T180000
 DTEND;TZID=America/Los_Angeles:20260509T210000
-DTSTAMP:20260507T225119
+DTSTAMP:20260508T224257
 CREATED:20260503T131138Z
 LAST-MODIFIED:20260504T131647Z
 UID:17054-1778349600-1778360400@www.nlgja.org
@@ -179,38 +128,13 @@ URL:https://luma.com/hh-aijournalismsummit-2026
 X-SOURCE:Hackshackers, Journalism Conferences
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://www.journalismjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-health-journalism"}
-X-SOURCE-ID:journalism_deadlines
-X-SOURCE:Journalism Internship & Fellowship Deadlines
-URL:https://www.journalismjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-health-journalism
-DTSTART;VALUE=DATE:20260512
-DTEND;VALUE=DATE:20260513
-DTSTAMP:20260508T025122Z
-UID:1n82i80sglr79joj1t1mbfqaj2@google.com
-CREATED:20260428T013123Z
-DESCRIPTION:See the full program description: <a href="https://www.journali
- smjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-ann
- enberg-center-for-health-journalism">https://www.journalismjobs.com/1692958
- -center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-
- health-journalism</a><br><br>Apply by May 12.<br><br>Sign up for even more 
- journalism jobs openings via the Journalism jobs and a photo of my dog news
- letter: <a href="https://journojobs.substack.com/subscribe" target="_blank"
- ><u><u><u><u><u>https://journojobs.substack.com/subscribe</u></u></u></u></
- u></a>
-LAST-MODIFIED:20260428T013123Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Center for Health Journalism Impact Fund Grants
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://luma.com/hh-aijournalismsummit-2026?ref=hackshackers.com"}
 X-SOURCE-ID:journalism_deadlines
 X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://luma.com/hh-aijournalismsummit-2026?ref=hackshackers.com
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260515
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024301Z
 UID:0d7c7cq4fttkgc3je3tu7uv1o9@google.com
 CREATED:20260428T012714Z
 DESCRIPTION:See the full conference description: <a href="https://luma.com/
@@ -234,7 +158,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.motherjones.com/careers/digital-engagement-fellow/
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024301Z
 UID:7sqc7u2g7ev4t6bnmk17uls1h2@google.com
 CREATED:20260428T012905Z
 DESCRIPTION:See the full program description: <a href="https://www.motherjo
@@ -248,6 +172,31 @@ LAST-MODIFIED:20260428T012905Z
 SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:Center for Investigative Reporting Digital Engagement Fellow
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://www.journalismjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-health-journalism"}
+X-SOURCE-ID:journalism_deadlines
+X-SOURCE:Journalism Internship & Fellowship Deadlines
+URL:https://www.journalismjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-health-journalism
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+DTSTAMP:20260509T024301Z
+UID:1n82i80sglr79joj1t1mbfqaj2@google.com
+CREATED:20260428T013123Z
+DESCRIPTION:See the full program description: <a href="https://www.journali
+ smjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-ann
+ enberg-center-for-health-journalism">https://www.journalismjobs.com/1692958
+ -center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-
+ health-journalism</a><br><br>Apply by May 12.<br><br>Sign up for even more 
+ journalism jobs openings via the Journalism jobs and a photo of my dog news
+ letter: <a href="https://journojobs.substack.com/subscribe" target="_blank"
+ ><u><u><u><u><u>https://journojobs.substack.com/subscribe</u></u></u></u></
+ u></a>
+LAST-MODIFIED:20260428T013123Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Center for Health Journalism Impact Fund Grants
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -269,6 +218,79 @@ URL:https://www.sej.org/calendar/deadline-usc-annenberg-impact-fund-report
 X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Rji": "https://calendar.missouri.edu/rji/event/17473-q-a-open-government-toolkit-for-journalists"}
+X-SOURCE-ID:rji
+X-SOURCE:Rji
+DTSTART;TZID=America/Chicago:20260512T113000
+DTEND;TZID=America/Chicago:20260512T123000
+SUMMARY:Q & A: Open Government Toolkit for Journalists
+DESCRIPTION:Learn about&#160\;The Open Government Toolkit. This toolkit w
+ ill be an online resource that provides journalists state-by-state inform
+ ation about how to overcome information blockades erected by government a
+ gencies and their private contractors. It will answer key questions about
+  a wide range of obstructions journalists encounter\, and offer real-time
+  advice about how to extract information that by law everyone is entitled
+  to obtain.  This project is a partnership between the Reynolds Journalis
+ m Institute\, MuckRock and Miranda Spivack.  We would love to show you a 
+ prototype to get feedback and ideas for features journalists will need as
+  we build it out!  Speakers        Kat Duncan | Director of Innovation\,R
+ eynolds Journalism Institute (https://bit.ly/rjiteam)          As Directo
+ r of Innovation Kat Duncan leads RJI's innovation team and their initiati
+ ves\, programs and workshops.        Miranda Spivack | Independent Journa
+ list              Miranda Spivack is a veteran reporter and editor who sp
+ ecializes in stories about government accountability and secrecy\, urban 
+ development\, and immigration.        Michael Morisy | Chief Executive Of
+ ficer\,MuckRock (https://www.muckrock.com/)          Cofounder Michael Mo
+ risy is MuckRock's Chief Executive Officer. He's led hundreds of training
+ s on transparency\, investigative journalism and civic engagement.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Learn about&#160\;The Open Government T
+ oolkit. This toolkit will be an online resource that provides journalists
+  state-by-state information about how to overcome information blockades e
+ rected by government agencies and their private contractors. It will answ
+ er key questions about a wide range of obstructions journalists encounter
+ \, and offer real-time advice about how to extract information that by la
+ w everyone is entitled to obtain.</p><p>  This project is a partnership b
+ etween the Reynolds Journalism Institute\, MuckRock and Miranda Spivack.<
+ /p><p>  We would love to show you a prototype to get feedback and ideas f
+ or features journalists will need as we build it out!</p><p>  Speakers</p
+ ><ul><li class="pdb-md pdb-lg" data-v-c4354c02=""><div data-v-c4354c02=""
+  class="info-new mgl-lg"><p class="name" data-v-c4354c02="">        Kat D
+ uncan | <span data-v-c4354c02="">Director of Innovation\,</span><span dat
+ a-v-c4354c02=""><a class="org" href="https://bit.ly/rjiteam" target="_bla
+ nk" rel="noopener" data-v-c4354c02="">Reynolds Journalism Institute</a></
+ span></p><div data-v-c4354c02="" class="info-comment"><p class="comment c
+ omment0" data-v-c4354c02="">          As Director of Innovation Kat Dunca
+ n leads RJI's innovation team and their initiatives\, programs and worksh
+ ops.        </p></div></div></li><li class="pdb-md pdb-lg" data-v-c4354c0
+ 2="">Miranda Spivack | Independent Journalist    <div data-v-c4354c02="" 
+ class="info-new mgl-lg"><div data-v-c4354c02="" class="info-comment"><p c
+ lass="comment comment1" data-v-c4354c02="">          Miranda Spivack is a
+  veteran reporter and editor who specializes in stories about government 
+ accountability and secrecy\, urban development\, and immigration.        
+ </p></div></div></li><li class="pdb-md pdb-lg" data-v-c4354c02="">Michael
+  Morisy | <span data-v-c4354c02="">Chief Executive Officer\,</span><span 
+ data-v-c4354c02=""><a class="org" href="https://www.muckrock.com/" target
+ ="_blank" rel="noopener" data-v-c4354c02="">MuckRock</a></span><div data-
+ v-c4354c02="" class="info-new mgl-lg"><div data-v-c4354c02="" class="info
+ -comment"><p class="comment comment2" data-v-c4354c02="">          Cofoun
+ der Michael Morisy is MuckRock's Chief Executive Officer. He's led hundre
+ ds of trainings on transparency\, investigative journalism and civic enga
+ gement.        </p></div></div></li></ul>
+UID:20260512T163000Z-17473@calendar.missouri.edu
+DTSTAMP:20260508T184016Z
+URL:https://calendar.missouri.edu/rji/event/17473-q-a-open-government-too
+ lkit-for-journalists
+LAST-MODIFIED:20260508T234016Z
+ATTACH:https://calendar.missouri.edu/live/image/gid/56/width/80/height/80
+ /crop/1/src_region/0,0,900,900/665_Community_convo-2.rev.1778283608.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:17473
+X-LIVEWHALE-TIMEZONE:America/Chicago
+X-LIVEWHALE-IMAGE:https://calendar.missouri.edu/live/image/gid/56/width/8
+ 0/height/80/crop/1/src_region/0\,0\,900\,900/665_Community_convo-2.rev.17
+ 78283608.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/ai-innovator-collaborative---may-2026"}
 X-SOURCE-ID:ona_events
 SUMMARY:AI Innovator Collaborative - May 2026
@@ -280,31 +302,46 @@ URL:https://journalists.org/events/ai-innovator-collaborative---may-2026
 X-SOURCE:Online News Association
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/digital-open-source-investigations-chronolocation-webinar/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260512T180000
+DTEND;TZID=America/New_York:20260512T193000
+DTSTAMP:20260503T034002
+CREATED:20260305T181716Z
+LAST-MODIFIED:20260305T181716Z
+UID:25615-1778608800-1778614200@nahj.org
+SUMMARY:Digital Open-Source Investigations: Chronolocation Webinar
+DESCRIPTION:An NAHJ webinar training series for 2026: Digital Open-Source Investigations and OSINT for Journalism\n\nChronolocation \nParticipants will learn how to verify images and videos by finding approximately when they were recorded using geolocation\, sunlight\, and shadows. \nWhen: Tuesday\, May 12\, 2026\nTime: 6:00 PM – 7:15 PM EST\nRegister: https://nahj.memberclicks.net/OSINTchrono \nPresented by: OSINT Reporting Lab at USC Annenberg School for Communication and Journalism  \n  \n 
+URL:https://nahj.org/event/digital-open-source-investigations-chronolocation-webinar/
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/03/NAHJ_OpenSource-9.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-ID:newsguild
 X-SOURCE:NewsGuild-CWA
 SUMMARY:Labor and Nonprofit Caucus Town Hall
 DTSTART;TZID=America/New_York:20260512T190000
 DTEND;TZID=America/New_York:20260512T200000
-DTSTAMP:20260508T025123Z
+DTSTAMP:20260509T024301Z
 UID:6d9e7q5o1k6f97elrt3cd9ujpb@google.com
 RECURRENCE-ID;TZID=America/New_York:20260512T190000
 SEQUENCE:0
 CREATED:20260506T173525Z
 DESCRIPTION:<b>Bargaining to “Trump-Proof” Your Organization<br></b><b
  r><a href="https://us06web.zoom.us/meeting/register/EExCf-rrRbOUwd7FQx0HaQ
- "><b>REGISTER HERE</b></a><br><br>How CWA Collective Bargaining Campaigns 
- can bring Union and Management together to secure a non-profit’s vision 
- and help the organization thrive.Non-Profit Workers Across CWA are coming 
- together. <br><br>In this TownHall\, workers from the Southern Poverty Law
-  Center\, PushBlack\, and Local Progress will present the issues that were
-  central in their contract campaigns: how they fought and are fighting the
- m. Non-profit Unions fight on two fronts: for sustainable working conditio
- ns\, for holding the non-profit accountable to its stated vision and princ
- iples. You will hear how workers are helping their organizations thrive wh
- ile securing sustainable working conditions. <br><br>Come meet and hear fr
- om non-profit workers across CWA\, share stories\, and make plans to secur
- e our work.
-LAST-MODIFIED:20260506T173525Z
+ " target="_blank"><b>REGISTER HERE</b></a><br><br>In this town hall\, non-
+ profit workers across CWA are coming together. We'll cover how CWA Collect
+ ive Bargaining Campaigns can bring Union and Management together to secure
+  a non-profit’s vision and help the organization thrive.<br><br>Workers 
+ from the Southern Poverty Law Center\, PushBlack\, and Local Progress will
+  present the issues that were central in their contract campaigns: how the
+ y fought and are fighting them. Non-profit Unions fight on two fronts: for
+  sustainable working conditions\, and for holding the non-profit accountab
+ le to its stated vision and principles. You will hear how workers are help
+ ing their organizations thrive while securing sustainable working conditio
+ ns. <br><br>Come meet and hear from non-profit workers across CWA\, share 
+ stories\, and make plans to secure our work.
+LAST-MODIFIED:20260508T153521Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -340,15 +377,30 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260513T130000
 DTEND;TZID=America/New_York:20260513T140000
-DTSTAMP:20260507T225120
+DTSTAMP:20260508T224258
 CREATED:20260507T221224Z
-LAST-MODIFIED:20260507T221227Z
+LAST-MODIFIED:20260508T131720Z
 UID:63590-1778677200-1778680800@healthjournalism.org
 SUMMARY:Maternal Tdap vaccine: The evidence behind it and how to tell the story
-DESCRIPTION:Pertussis (whooping cough) cases are on the rise\, and infants remain the most vulnerable population. Tdap vaccination during pregnancy is one of the most effective tools we have to protect newborns before they are old enough to be vaccinated themselves. In this webinar\, you will hear from two expert groups working at the forefront of vaccine communication and evidence translation.  \n\n\n\nThe Vaccine Integrity Project will present their evidence review of the current data on Tdap safety and efficacy in pregnancy\, and The Evidence Collective will share the most common questions they hear from communities both on- and offline and discuss practical strategies for addressing them effectively. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModerator\n\n\n\n\nTara Haelle\n\n\n\nAHCJ Health Beat Leader for Infectious Diseases and Medical StudiesTara Haelle is AHCJ’s health beat leader for infectious diseases and medical studies. She’s an independent science/health journalist\, author\, speaker\, and photographer. Her work has appeared in the National Geographic\, Scientific American\, Texas Monthly\, Science News\, Medscape/WebMD\, The New York Times\, Wired\, and O Magazine\, among others. She specializes in public health and medical research\, particularly vaccines\, infectious disease\, maternal and pediatric health\, mental health\, healthcare disparities\, and misinformation. She also covers medical research conferences and edits Long COVID Connection on Medium. Haelle earned a master’s in photojournalism from the University of Texas at Austin\, and her images have appeared in Texas Monthly\, NPR\, the\, Chicago Sun-Times and elsewhere. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmily Senerth\, M.S.\, MPH\n\n\n\nConsultant researcher\, Evidence FoundationEmily Senerth\, M.S.\, MPH\, is a Consultant Researcher for Evidence Foundation\, a registered nonprofit organization based in Cleveland\, Ohio whose mission is to support evidence-based health care through training\, mentorship\, education\, and collaboration. Emily managed the development of a rapid systematic review and meta-analysis on the effectiveness and safety of Tdap vaccination during pregnancy commissioned by the Vaccine Integrity Project. \n\n\n\nShe has also led methodological reviews to investigate systematic review approaches and decision-making frameworks in environmental and occupational health\, systematic reviews on the health effects of noise annoyance and the impact of socioeconomic status on faltering weight\, and technical reviews to support the development of guideline recommendations on left atrial appendage occlusion\, management of chronic venous disease\, diagnosis and treatment of pediatric urinary tract infection\, and lung cancer screening. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRochelle Walensky\, M.D.\, MPH\n\n\n\nProfessor of medicine\, Harvard Medical SchoolMedical affairs adviser\, Vaccine Integrity ProjectDr. Rochelle Walensky is a professor of medicine at Harvard Medical School and the medical affairs adviser for the Vaccine Integrity Project. \n\n\n\nDr. Walensky served as the 19th Director of the Centers for Disease Control and Prevention (2021-23)\, Professor of Medicine\, Harvard Medical School (2012-2021)\, and Chief of the Division of Infectious Diseases\, Massachusetts General Hospital (2017-2021). Dr. Walensky is a board-certified infectious disease clinician whose research and over 300 peer-reviewed publications has focused on infectious diseases and HIV/AIDS policy\, including cost-effective strategies for HIV screening\, treatment\, and prevention\, both in the U.S. and around the globe. \n\n\n\nDr. Walensky is a member of the American Academy of Physicians\, National Academy of Medicine\, and Council on Foreign Relations. She currently serves on the Board of Trustees at the Doris Duke Foundation and The Carter Center. She is also a founding member and Medical Affairs Advisor at the Vaccine Integrity Project\, which is dedicated to providing trusted\, science-based information for informed vaccine choices. \n\n\n\nDr. Walensky received her BA (Biochemistry and Molecular Biology\, 1991) from Washington University in St. Louis; her MD from the Johns Hopkins School of Medicine (1995) and her MPH from the Harvard School of Public Health (Clinical Effectiveness\, 2001). She completed her Internal Medicine residency at the Johns Hopkins Hospital (1995-1998) and her Infectious Disease fellowship at the Massachusetts General/Brigham and Women’s Hospital combined program (1998-2001).
+DESCRIPTION:Pertussis (whooping cough) cases are on the rise\, and infants remain the most vulnerable population. Tdap vaccination during pregnancy is one of the most effective tools we have to protect newborns before they are old enough to be vaccinated themselves. In this webinar\, you will hear from two expert groups working at the forefront of vaccine communication and evidence translation.  \n\n\n\nThe Vaccine Integrity Project will present their evidence review of the current data on Tdap safety and efficacy in pregnancy\, and The Evidence Collective will share the most common questions they hear from communities both on- and offline and discuss practical strategies for addressing them effectively. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModerator\n\n\n\n\nTara Haelle\n\n\n\nAHCJ Health Beat Leader for Infectious Diseases and Medical StudiesTara Haelle is AHCJ’s health beat leader for infectious diseases and medical studies. She’s an independent science/health journalist\, author\, speaker\, and photographer. Her work has appeared in the National Geographic\, Scientific American\, Texas Monthly\, Science News\, Medscape/WebMD\, The New York Times\, Wired\, and O Magazine\, among others. She specializes in public health and medical research\, particularly vaccines\, infectious disease\, maternal and pediatric health\, mental health\, healthcare disparities\, and misinformation. She also covers medical research conferences and edits Long COVID Connection on Medium. Haelle earned a master’s in photojournalism from the University of Texas at Austin\, and her images have appeared in Texas Monthly\, NPR\, the\, Chicago Sun-Times and elsewhere. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBertha A. Hidalgo\, Ph.D.\, MPH\, FACE\n\n\n\nSteering committee\, The Evidence CollectiveDr. Bertha Hidalgo an Associate Professor with tenure in the Department of Epidemiology and Associate Dean for the Office of Access and Engagement at the UAB School of Public Health. She holds degrees from Stanford University\, the University of Southern California and the University of Alabama at Birmingham. She leads research programs in genetic epidemiology and dissemination science.  \n\n\n\nDr. Hidalgo has a highly productive record of peer-reviewed research in relevant research areas with publications as lead or co-lead author in high-impact journals including Nature\, Scientific Reports\, Diabetes\, American Journal of Public Health\, with over 100 publications in total as lead\, co-author or senior author. She has attained research funding from the Robert Wood Johnson Foundation\, National Institutes of Health\, the American Heart Association\, and internal funding from UAB.  \n\n\n\nDr. Hidalgo is the past chair of the Minority Affairs committee and current President of theAmerican College of Epidemiology\, as well as a long-standing member on the NHLBI Board of External Experts. Dr. Hidalgo is also a recipient of the 2019 Robert Wood Johnson Foundation Early Career Achievement Award. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElisabeth Marnik\, Ph.D.\n\n\n\nExecutive director\, The Evidence CollectiveDr. Elisabeth Adkins Marnik is a science communicator and immunologist working at the intersection of public trust\, science\, and public health. She earned her PhD in genetics and immunology from Tufts University. \n\n\n\nRaised in a family that distrusted science and vaccines\, Liz brings a personal understanding of hesitancy to her work. During the COVID-19 pandemic\, she launched Science Whiz Liz to help the public navigate emerging health information\, combining lived experience with scientific expertise. Liz now leads national efforts to translate evidence into clear\, responsible\, and empathetic public communication. She is an inaugural member of the National Academy of Medicine’s Action Collaborative on Building Trust in Health Science Through Community Partnership and Lived Experience and was named to Mainebiz’s 2025 40 Under 40 for her leadership in science education and public engagement. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmily Senerth\, M.S.\, MPH\n\n\n\nConsultant researcher\, Evidence FoundationEmily Senerth\, M.S.\, MPH\, is a Consultant Researcher for Evidence Foundation\, a registered nonprofit organization based in Cleveland\, Ohio whose mission is to support evidence-based health care through training\, mentorship\, education\, and collaboration. Emily managed the development of a rapid systematic review and meta-analysis on the effectiveness and safety of Tdap vaccination during pregnancy commissioned by the Vaccine Integrity Project. \n\n\n\nShe has also led methodological reviews to investigate systematic review approaches and decision-making frameworks in environmental and occupational health\, systematic reviews on the health effects of noise annoyance and the impact of socioeconomic status on faltering weight\, and technical reviews to support the development of guideline recommendations on left atrial appendage occlusion\, management of chronic venous disease\, diagnosis and treatment of pediatric urinary tract infection\, and lung cancer screening. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRochelle Walensky\, M.D.\, MPH\n\n\n\nProfessor of medicine\, Harvard Medical SchoolMedical affairs adviser\, Vaccine Integrity ProjectDr. Rochelle Walensky is a professor of medicine at Harvard Medical School and the medical affairs adviser for the Vaccine Integrity Project. \n\n\n\nDr. Walensky served as the 19th Director of the Centers for Disease Control and Prevention (2021-23)\, Professor of Medicine\, Harvard Medical School (2012-2021)\, and Chief of the Division of Infectious Diseases\, Massachusetts General Hospital (2017-2021). Dr. Walensky is a board-certified infectious disease clinician whose research and over 300 peer-reviewed publications has focused on infectious diseases and HIV/AIDS policy\, including cost-effective strategies for HIV screening\, treatment\, and prevention\, both in the U.S. and around the globe. \n\n\n\nDr. Walensky is a member of the American Academy of Physicians\, National Academy of Medicine\, and Council on Foreign Relations. She currently serves on the Board of Trustees at the Doris Duke Foundation and The Carter Center. She is also a founding member and Medical Affairs Advisor at the Vaccine Integrity Project\, which is dedicated to providing trusted\, science-based information for informed vaccine choices. \n\n\n\nDr. Walensky received her BA (Biochemistry and Molecular Biology\, 1991) from Washington University in St. Louis; her MD from the Johns Hopkins School of Medicine (1995) and her MPH from the Harvard School of Public Health (Clinical Effectiveness\, 2001). She completed her Internal Medicine residency at the Johns Hopkins Hospital (1995-1998) and her Infectious Disease fellowship at the Massachusetts General/Brigham and Women’s Hospital combined program (1998-2001).
 URL:https://healthjournalism.org/event/maternal-tdap-vaccine-the-evidence-behind-it-and-how-to-tell-the-story/
 CATEGORIES:Event,Infectious Diseases,Webinar
-ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2026/05/maternal-tdap-vaccine-webinar-image-1.png
+ATTACH;FMTTYPE=image/png:https://healthjournalism.org/wp-content/uploads/2026/05/maternal-tdap-vaccine-webinar-image-2.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/streamlining-newsletter-production-a-peer-learning-opportunity/"}
+X-SOURCE-ID:inn
+X-SOURCE:Institute for Nonprofit News
+DTSTART;TZID=America/New_York:20260513T130000
+DTEND;TZID=America/New_York:20260513T140000
+DTSTAMP:20260508T224255
+CREATED:20260430T172534Z
+LAST-MODIFIED:20260430T172534Z
+UID:10004858-1778677200-1778680800@inn.org
+SUMMARY:Streamlining newsletter production: A peer-learning opportunity
+DESCRIPTION:Assembling a newsletter\, especially a daily\, can be tedious and time-consuming — pulling links\, writing summaries\, formatting\, scheduling\, and proofreading can eat up hours. But it doesn’t have to. Learn from INN members who have streamlined the process using a mix of automation\, AI assistance\, templates\, and smart editorial workflows — some getting their daily build down to mere minutes. Come prepared to show and tell your current process\, your pain points\, and any tools or hacks you’ve found useful. You’ll leave with practical ideas you can put to work in your newsroom.
+URL:https://inn.org/event/streamlining-newsletter-production-a-peer-learning-opportunity/
+ATTACH;FMTTYPE=image/jpeg:https://inn.org/wp-content/uploads/2024/06/INN-Events-Audience-Development-e1778081176865.jpg
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1"}
@@ -358,7 +410,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: How to pilot a walking tour 
 DTSTART;TZID=America/New_York:20260513T160000
 DTEND;TZID=America/New_York:20260513T170000
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024300Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260513
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -380,7 +432,7 @@ DESCRIPTION:<p dir="ltr">Join us and learn from Cara Kuhlman\, founder of
  " target="_blank">https://us06web.zoom.us/meetings/86552943689/invitations
  ?signature=zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br><
  /b><br><b><br></b>
-LAST-MODIFIED:20260507T151159Z
+LAST-MODIFIED:20260508T125324Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -431,6 +483,21 @@ URL:https://www.eventbrite.com/e/youth-local-news-and-civic-resilience-ama
 X-SOURCE:American Press Institute
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/rnn-onboarding-getting-started-with-sunlight-research-desk-4/"}
+X-SOURCE-ID:inn
+X-SOURCE:Institute for Nonprofit News
+DTSTART;TZID=America/New_York:20260514T133000
+DTEND;TZID=America/New_York:20260514T140000
+DTSTAMP:20260508T224255
+CREATED:20260409T200328Z
+LAST-MODIFIED:20260409T200328Z
+UID:10004853-1778765400-1778767200@inn.org
+SUMMARY:RNN Onboarding: Getting Started with Sunlight Research Desk
+DESCRIPTION:Join us for a brief onboarding session to kick off the Rural News Network’s partnership with MuckRock and the Sunlight Research Desk. We’ll walk through your new premium benefits—including research support\, investigative tools\, workshops and office hours — and show you how to access and make the most of these resources as you cover the upcoming midterm elections. There will be time for questions and a quick demo to get your newsroom set up for success.
+URL:https://inn.org/event/rnn-onboarding-getting-started-with-sunlight-research-desk-4/
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/04/5c11c7ad-af4b-4f89-864c-910bfa1bf816.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Cooperative Media Eventbrite": "https://www.eventbrite.com/e/2026-collaborative-journalism-summit-tickets-1977919688031"}
 X-SOURCE-ID:cooperative_media_eventbrite
 SUMMARY:2026 Collaborative Journalism Summit
@@ -468,7 +535,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://thenewsletterconference.com/
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024301Z
 UID:2rel4an2o6sqgv9hcpneptrelf@google.com
 CREATED:20260428T013851Z
 DESCRIPTION:See the full conference description: <a href="https://thenewsle
@@ -635,7 +702,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:How to Unite and Win at Work in NYC
 DTSTART;TZID=America/New_York:20260518T190000
 DTEND;TZID=America/New_York:20260518T203000
-DTSTAMP:20260508T025123Z
+DTSTAMP:20260509T024301Z
 UID:02fca9p5kumqikme1c8au9ss3h@google.com
 RECURRENCE-ID;TZID=America/New_York:20260518T190000
 SEQUENCE:0
@@ -763,6 +830,22 @@ URL:https://us02web.zoom.us/meeting/register/pXrQU2xCQpOTnpsyPQ0hvQ
 X-SOURCE:Sunlight Research
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Sjn": "https://www.n3con.com/2026/"}
+X-SOURCE-ID:sjn
+SUMMARY:AAJA’s New.Now.Next Media Conference 2026
+DTSTART;TZID=America/New_York:20260521T000000
+DTEND;TZID=America/New_York:20260523T000000
+UID:be30d6050766e954b699fea6a62b9805@solutionsjournalism.org
+DESCRIPTION:Bangkok\, Thailand\nThe AAJA-Asia N3Con returns to Bangkok. On
+  May 22\, Kyuwon Lee\, SJN's training and curriculum manager\, will host t
+ he panel discussion “Stories for Impact and Change: Insights from Field 
+ Experts in Solutions Journalism” with journalist and trainer Anupama Cha
+ ndrasekaran and journalist Nithin Coca.
+LOCATION:Bangkok\, Thailand
+URL:https://www.n3con.com/2026/
+X-SOURCE:Solutions Journalism Network
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Sjn": "https://us06web.zoom.us/meeting/register/5-jrs4mPSyezTFfrCwoPdw?mc_cid=9d4c8b8c83&mc_eid=f6b9d64e2d#/registration"}
 X-SOURCE-ID:sjn
 SUMMARY:Find Your People: Engagement Strategies for Bringing Solutions Rep
@@ -810,6 +893,21 @@ DESCRIPTION:Online\nAI is both a tool transforming newsrooms and a story-s
 LOCATION:Online
 URL:https://uri-edu.zoom.us/meeting/register/5BFu_GsqT3qDJjYz_ijy0g
 X-SOURCE:Solutions Journalism Network
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/de-la-naturaleza-a-la-noticia-webinar/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20260521T180000
+DTEND;TZID=America/New_York:20260521T190000
+DTSTAMP:20260503T034002
+CREATED:20260409T185420Z
+LAST-MODIFIED:20260409T190226Z
+UID:25937-1779386400-1779390000@nahj.org
+SUMMARY:De la naturaleza a la noticia (Webinar)
+DESCRIPTION:De la naturaleza a la noticia: cómo cubrir soluciones climáticas reales\n\nDate/Time: Thursday\, May 21 @ 6pm ET\nRegister here: https://nahj.memberclicks.net/sachamamanahjclimaticasreales#/ \nSummary: Las soluciones basadas en la naturaleza se están convirtiendo en una de las estrategias más importantes frente al cambio climático. En este webinar\, Paula Caballero explicará qué son\, por qué están ganando relevancia en la agenda climática global y cómo pueden transformar ciudades\, ecosistemas y comunidades.  Junto a ella\, la periodista climática Tais Gadea Lara compartirá cómo identificar estas historias en el terreno\, cómo convertirlas en reportajes atractivos para audiencias amplias y cómo presentarlas en las redacciones.  \nLos participantes aprenderán a:  \n\nidentificar historias de soluciones climáticas en sus comunidades\nconectar naturaleza\, ciudades y vida cotidiana\nconstruir pitches editoriales sólidos sobre clima en un contexto mediático complejo.\n\nSpeaker(s)\n \n\nConnie Schulte (Moderator)\, environmental journalist and multimedia host\, Univision\nPaula Caballero (Panelist)\, Directora Ejecutiva Regional para America Latina\, The Nature Conservancy\nTais Gadea-Lara (Panelist)\, Multimedia climate journalist\, ICFG Fellow
+URL:https://nahj.org/event/de-la-naturaleza-a-la-noticia-webinar/
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/04/Sachamama-Webinar-Newsletter.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.eventbrite.com/e/an-inside-look-at-creator-journalism-tickets-1988732588708?aff=oddtdtcreator"}
@@ -865,6 +963,21 @@ URL:https://www.nationalgeographic.org/society/grants-and-investments/rfp-
 X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/mdrnet-community-meeting-bay-area"}
+X-SOURCE-ID:sej
+SUMMARY:MDRnet Community Meeting Bay Area
+DTSTART;TZID=America/New_York:20260526T000000
+DTEND;TZID=America/New_York:20260526T000000
+UID:5d1c57a3fcae2221919f900001868e95@sej.org
+DESCRIPTION:The Media Resilience Network invites journalists\, freelancers
+  and media leaders based in Northern California interested in joining a gu
+ ided community space to reflect on trauma\, grief and burnout connected to
+  media work.\n\nCategories: California\, Other Events\, Professional Meeti
+ ngs\, Journalism & Media
+URL:https://www.sej.org/calendar/mdrnet-community-meeting-bay-area
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Cooperative Media Eventbrite": "https://www.eventbrite.com/e/how-journalism-collaboratives-can-track-impact-tickets-1988440464958"}
 X-SOURCE-ID:cooperative_media_eventbrite
 SUMMARY:How journalism collaboratives can track impact
@@ -904,7 +1017,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj, Journalism Conferences
 DTSTART;TZID=America/New_York:20260527T000000
 DTEND;TZID=America/New_York:20260530T235959
-DTSTAMP:20260507T225120
+DTSTAMP:20260508T224258
 CREATED:20260121T224600Z
 LAST-MODIFIED:20260121T224603Z
 UID:62297-1779840000-1780185599@healthjournalism.org
@@ -933,6 +1046,25 @@ DESCRIPTION:Minneapolis\, Minnesota\, United States\nJoin the Association
 LOCATION:Minneapolis\, Minnesota\, United States
 URL:https://healthjournalism.org/training-events/health-journalism-2026/
 X-SOURCE:Solutions Journalism Network
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Cooperative Media Eventbrite": "https://www.eventbrite.com/e/press-briefing-immigration-enforcement-and-its-impact-on-nj-families-tickets-1989029380420"}
+X-SOURCE-ID:cooperative_media_eventbrite
+SUMMARY:Press briefing: Immigration enforcement and its impact on NJ famil
+ ies
+DTSTART;TZID=America/New_York:20260527T140000
+DTEND;TZID=America/New_York:20260527T150000
+UID:1840fcce06b5447a5fdad3ea1556974a@eventbrite.com
+ATTACH;FMTTYPE=image/jpeg:https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.co
+ m%2Fimages%2F1184047936%2F230377467245%2F1%2Foriginal.20260507-183452?crop
+ =focalpoint&fit=crop&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&f
+ p-y=0.5&s=c7903be0a6f487417f1b0938e5eb4da4
+DESCRIPTION:Join us on Wednesday\, 5/ 27\, for a press briefing on how exp
+ anded security checks and U.S. Supreme Court decision on TPS uproot immigr
+ ants.
+URL:https://www.eventbrite.com/e/press-briefing-immigration-enforcement-an
+ d-its-impact-on-nj-families-tickets-1989029380420
+X-SOURCE:Center for Cooperative Media
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://dataharvest.eu/"}
@@ -1020,7 +1152,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260606
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024301Z
 UID:38vhr0gb8vnlj42tr2rpgdgtnu@google.com
 CREATED:20260302T030352Z
 DESCRIPTION:See the full conference description: <a href="https://ewa.org/e
@@ -1038,6 +1170,25 @@ SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:2026 EWA National Seminar
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-knight-risser-prize-western-environmental-journalism"}
+X-SOURCE-ID:sej
+SUMMARY:Knight-Risser Prize for Western Environmental Journalism
+DTSTART;TZID=America/New_York:20260602T000000
+DTEND;TZID=America/New_York:20260602T000000
+UID:cba8b8fe0682ebb7759123268d56fd51@sej.org
+DESCRIPTION:Up to $10\,000 is available to support an enterprise or invest
+ igative environmental story set in the western United States\, which is de
+ fined as all states west of the Mississippi River\, including Hawaii and A
+ laska. Applications open May 6\, and close June 2\, with a winner selecte
+ d in early July 2026.\n\nCategories: National (U.S.)\, Alaska and Hawaii\,
+  California\, Great Lakes (IL IN MI MN OH WI)\, Great Plains (IA KS ND NE 
+ MO SD)\, Mountain West (CO ID MT NV UT WY)\, Northwest (OR WA)\, Southwest
+  (AZ NM OK TX)\, Canada\, Mexico\, Awards and Grants
+URL:https://www.sej.org/calendar/deadline-knight-risser-prize-western-envi
+ ronmental-journalism
+X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar"}
@@ -1064,7 +1215,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260603T160000
 DTEND;TZID=America/Chicago:20260603T170000
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024300Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260603
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -1163,7 +1314,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260606T150000
 DTEND;TZID=America/New_York:20260606T170000
-DTSTAMP:20260507T225119
+DTSTAMP:20260508T224257
 CREATED:20260504T130939Z
 LAST-MODIFIED:20260504T130939Z
 UID:17053-1780758000-1780765200@www.nlgja.org
@@ -1185,6 +1336,24 @@ DESCRIPTION:Host: Open News\nAttendance: Lottery Registration\nScope: Nati
 LOCATION:Minneapolis\, Minnesota\, United States
 URL:https://srccon.org/
 X-SOURCE:Journalism Conferences
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-planet-forward-correspondent-program"}
+X-SOURCE-ID:sej
+SUMMARY:Planet Forward Correspondent Program
+DTSTART;TZID=America/New_York:20260608T000000
+DTEND;TZID=America/New_York:20260608T000000
+UID:f99da5cadf7f6c078e9ffa6f3838fc66@sej.org
+DESCRIPTION:Planet Forward Correspondents are talented students from acros
+ s the country looking to apply themselves to tell the ongoing story of cli
+ mate change\, with an eye toward solutions and hope. You must be currently
+  enrolled in a graduate or undergraduate program – or starting one in th
+ e upcoming school year – to apply. EXTENDED DEADLINE: Apply by June 8\,
+  2026.\n\nCategories: National (U.S.)\, International\, Workshops and Fell
+ owships\, Journalism & Media
+URL:https://www.sej.org/calendar/deadline-planet-forward-correspondent-pro
+ gram
+X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Poynter Institute Training": "https://www.poynter.org/shop/ethics/trauma-informed-reporting-for-mental-health/"}
@@ -1257,7 +1426,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260610T160000
 DTEND;TZID=America/New_York:20260610T170000
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024300Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260610
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -1278,7 +1447,7 @@ DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
  blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
  zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
  br></b>
-LAST-MODIFIED:20260427T235144Z
+LAST-MODIFIED:20260508T125324Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1302,7 +1471,7 @@ URL:https://labornotes.org/2026
 SUMMARY:Labor Notes
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260615
-DTSTAMP:20260508T025123Z
+DTSTAMP:20260509T024301Z
 UID:3ltobipevuhqp320p6rmj07p2q@google.com
 RECURRENCE-ID;VALUE=DATE:20260612
 SEQUENCE:1
@@ -1354,6 +1523,23 @@ URL:https://www.solutionsjournalismwithoutborders.com/guatemala-program-20
 X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/inn-days-2026/", "Journalism Conferences": "https://inn.org/about/our-work/inn-days/"}
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/inn-days-2026/"}
+X-SOURCE-ID:inn
+X-SOURCE:Institute for Nonprofit News, Journalism Conferences
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260619
+DTSTAMP:20260508T224255
+CREATED:20260123T165431Z
+LAST-MODIFIED:20260206T171526Z
+UID:10004840-1781568000-1781827199@inn.org
+SUMMARY:INN Days 2026
+DESCRIPTION:Join the Institute for Nonprofit News in Pittsburgh from June 16-18 for INN Days 2026. \nINN Days brings together news leaders\, technologists and business strategists to identify and solve the nonprofit news field’s toughest challenges. This is an opportunity for decision-makers to dive deep and learn practical strategies for strengthening news as a public good.
+URL:https://inn.org/event/inn-days-2026/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://www.catholicmediaconference.org/"}
 X-SOURCE-ID:journalism_conferences
 SUMMARY:Catholic Media Conference '26
@@ -1363,19 +1549,6 @@ UID:4ae93293ba8fdb5fc6f5ef128b511744@journalism.wtf
 DESCRIPTION:Host: Catholic Media Conference\nFormat: In Person
 LOCATION:Atlantic City\, New Jersey\, United States
 URL:https://www.catholicmediaconference.org/
-X-SOURCE:Journalism Conferences
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Journalism Conferences": "https://inn.org/about/our-work/inn-days/"}
-X-SOURCE-ID:journalism_conferences
-SUMMARY:INN Days 2026
-DTSTART:20260616T000000
-DTEND:20260618T000000
-UID:18602b5f8d675059ddd2bb4b76a14424@journalism.wtf
-DESCRIPTION:Host: Institute for Nonprofit News\nAttendance: Open Registrat
- ion\nScope: National\nFormat: In Person
-LOCATION:Pittsburgh\, Pennsylvania\, United States
-URL:https://inn.org/about/our-work/inn-days/
 X-SOURCE:Journalism Conferences
 END:VEVENT
 BEGIN:VEVENT
@@ -1398,6 +1571,72 @@ DESCRIPTION:Online (Zoom)\nThis one-hour Solutions Journalism Network webi
 LOCATION:Online (Zoom)
 URL:https://us06web.zoom.us/webinar/register/WN_gprWuTStQuCfSolCUzOSsw
 X-SOURCE:Solutions Journalism Network
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/pre-conference-field-safety-planning-for-newsroom-leaders/"}
+X-SOURCE-ID:inn
+X-SOURCE:Institute for Nonprofit News
+DTSTART;TZID=America/New_York:20260616T090000
+DTEND;TZID=America/New_York:20260616T140000
+DTSTAMP:20260508T224255
+CREATED:20260415T145355Z
+LAST-MODIFIED:20260415T183752Z
+UID:10004855-1781600400-1781618400@inn.org
+SUMMARY:Pre-conference Workshop: Field Safety Planning for Newsroom Leaders
+DESCRIPTION:An INN Days 2026 pre-conference field safety workshop for newsroom leaders\nAs protests\, upcoming elections\, and a rapidly evolving political climate drive an increase in high-stakes newsworthy events\, news leaders face growing pressure to safely manage and deploy staff and freelancers in the field. The frontlines for journalists are expanding\, reaching beyond traditional danger zones into everyday beats and topics where journalists are increasingly finding themselves vulnerable. \nJoin us before INN Days on Tuesday\, June 16 from 9 a.m. to 2 p.m. at the conference venue for this hands-on session led by the Journalist Assistance Network (JAN). \nRegister\nRegister by June 2\, 2026. Tickets are $49 and include a light breakfast and full lunch. \nDuring the workshop\, you’ll learn about best practices for deploying journalists safely in the field\, with structured time to exchange strategies with fellow leaders and to work through a practical safety planning template covering what to do before\, during\, and after a safety incident in the field.  \n\nIdeal for: Executive Directors\, Editors-in-Chief\, Chief Operating Officers\, Board Members\, and other newsroom leaders responsible for staff safety and organizational policy\nKey Takeaways: A draft field safety plan built collaboratively with experts\, an understanding of gaps in your current protocols\, and practical strategies for filling them\nFormat & Experience: Facilitated small group breakouts with safety experts\, peer-to-peer exchange\, and sharebacks; opt-in informal AMA with safety experts over lunch\nTopics Covered: Data and device protection\, legal protection\, physical field safety\, digital security\, online harassment response\, and psychosocial support\nSchedule: This workshop will be from 9 to 2 p.m. on Tuesday\, June 16. The INN Days conference will begin at 3:30 p.m.\n\nLed by Journalist Assistance Network which includes Freedom of the Press Foundation\, the Committee to Protect Journalists\, the Reporter’s Committee for Freedom of the Press\, PEN America\, and the International Women’s Media Foundation. \nThis pre-conference workshop is separate from INN Days and requires its own registration. If you are planning to also attend INN Days\, you must register separately here. \nRegister by June 2\, 2026. Tickets are $49 and include a light breakfast and full lunch. \nFor questions\, please contact gatherings@inn.org.
+URL:https://inn.org/event/pre-conference-field-safety-planning-for-newsroom-leaders/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+CATEGORIES:Conference
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/pre-conference-workshop-building-a-board-development-plan/"}
+X-SOURCE-ID:inn
+X-SOURCE:Institute for Nonprofit News
+DTSTART;TZID=America/New_York:20260616T110000
+DTEND;TZID=America/New_York:20260616T140000
+DTSTAMP:20260508T224255
+CREATED:20260415T145351Z
+LAST-MODIFIED:20260415T183826Z
+UID:10004856-1781607600-1781618400@inn.org
+SUMMARY:Pre-conference Workshop: Building A Board Development Plan
+DESCRIPTION:An INN Days 2026 pre-conference board development workshop for executive directors\nBoards are critical to nonprofit resilience Yet for many newsroom leaders\, moving their board to the next level to meet their needs is a lot easier said than done. The challenge is finding the time and space to step back\, assess where your board actually stands\, and identify realistic next steps you can act on in the near term. This pre-conference workshop is designed to help you cut through that\, offering a practical framework to build a clear path forward. \nJoin us before INN Days on Tuesday\, June 16 from 11 to 2 p.m. at the conference venue for this hands-on session led by Arizona State University’s Knight Center for the Future of News. \nRegister\nRegister by June 2\, 2026. Tickets are $29 and include lunch. \nThis 3-hour workshop will guide leaders through a research-based framework of the three phases of board development. You’ll be able to identify which stage your board is in\, what common challenges exist at each phase\, and identify concrete steps to move forward across a series of topics. \n\nIdeal for: Executive Directors\, Publishers\, Board Chairs\, and others responsible for managing or working with their organization’s board \nKey Takeaways: Understanding of your board’s current stage of development\, common challenges at each phase\, tactics to work through them\, and an actionable six-month plan\nFormat & Experience: Research-based presentations\, small group discussions\, and a guided near term action planning\nTopics Covered: The three phases of board development\, governance literacy and board composition\, editorial independence and ethics\, fiduciary oversight and fundraising\, and enterprise risk management including safety\, legal\, financial\, and AI-related risks\nSchedule: This workshop will be from 11 to 2 p.m. on Tuesday\, June 16. The INN Days conference will begin at 3:30 p.m.\n\nThis pre-conference workshop is separate from INN Days and requires its own registration. If you are planning to also attend INN Days\, you must register separately here. \n A condensed version of this session with limited capacity will be featured as part of the INN Days conference. \nFor questions\, please contact gatherings@inn.org.
+URL:https://inn.org/event/pre-conference-workshop-building-a-board-development-plan/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+CATEGORIES:Conference
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/pre-conference-the-rural-election-data-sprint/"}
+X-SOURCE-ID:inn
+X-SOURCE:Institute for Nonprofit News
+DTSTART;TZID=America/New_York:20260616T110000
+DTEND;TZID=America/New_York:20260616T140000
+DTSTAMP:20260508T224255
+CREATED:20260415T145359Z
+LAST-MODIFIED:20260415T183749Z
+UID:10004854-1781607600-1781618400@inn.org
+SUMMARY:Pre-conference Workshop: The Rural Election Data Sprint
+DESCRIPTION:An INN Days 2026 pre-conference workshop on turning election research and data into local reporting for Rural News Network (RNN) newsrooms\nWith the midterms just months away\, many rural newsrooms are being asked to cover increasingly complex elections without the time\, tools or staff to fully track the money\, networks and influence shaping local races. This pre-conference session is designed to help close that gap—offering a hands-on\, working lab where journalists can begin turning national data resources into local\, actionable reporting. \nJoin us before INN Days on Tuesday\, June 16 from 11 a.m. to 2 p.m. at the conference venue for this hands-on session led by INN’s Rural News Network alongside INN members MuckRock’s Sunlight Research and OpenSecrets.  \nRegister\nRegister by June 2\, 2026. Tickets are $29 and include lunch. \nIn this interactive session\, participants will work in small groups using tools from Sunlight Research and OpenSecrets to identify story angles\, surface key data points and map out next steps for reporting. With guidance from experienced editors and data experts\, attendees will move beyond theory and start building real election coverage grounded in their communities. \n\nIdeal for: Reporters\, editors\, and data journalists at INN member rural newsrooms \nKey Takeaways: Understanding of how Sunlight Research and OpenSecret’s resources can help you cover candidates and campaign finance\, as well as potential story leads to jumpstart your elections coverage\nFormat & Experience: Walk-thrus of using candidate research and data tools\, small group discussion\, brainstorming activities to identify story leads and topics\nTopics Covered: Campaign finance\, outside money\, candidate research and rural elections dynamics.\nSchedule: This workshop will be from 11 a.m. to 2 p.m. on Tuesday\, June 16. The INN Days conference will begin at 3:30 p.m.\n\nThis pre-conference workshop is separate from INN Days and requires its own registration. If you are planning to also attend INN Days\, you must register separately here. \nRegister by June 2\, 2026. Tickets are $29 and include lunch. \nFor questions\, please contact alana@inn.org.
+URL:https://inn.org/event/pre-conference-the-rural-election-data-sprint/
+LOCATION:Wyndham Grand Pittsburgh Downtown
+CATEGORIES:Conference
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Final_INN-Days_2026_INN-Days-2026_Tagline_HORI_2-color-scaled.png
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Institute for Nonprofit News": "https://inn.org/event/2026-nonprofit-news-awards/"}
+X-SOURCE-ID:inn
+X-SOURCE:Institute for Nonprofit News
+DTSTART;TZID=America/New_York:20260616T170000
+DTEND;TZID=America/New_York:20260616T203000
+DTSTAMP:20260508T224255
+CREATED:20260209T143527Z
+LAST-MODIFIED:20260504T171820Z
+UID:10004844-1781629200-1781641800@inn.org
+SUMMARY:2026 Nonprofit News Awards
+DESCRIPTION:Celebrate the best in nonprofit news at the 2026 Nonprofit News Awards! \nThe evening will begin Tuesday\, June 16\, at 5 p.m. with a reception featuring light hors d’oeuvres and drinks\, followed by the awards ceremony from 6 to 8:30 p.m.\, when the winners will be announced.
+URL:https://inn.org/event/2026-nonprofit-news-awards/
+ATTACH;FMTTYPE=image/png:https://inn.org/wp-content/uploads/2026/01/Untitled-600-x-400-px.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://www.publishing-congress.com/?lang=en"}
@@ -1472,7 +1711,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.ire.org/training/conferences/ire-2026/
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260622
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024301Z
 UID:4onag31t66iv7lht4jcddi2iub@google.com
 CREATED:20260226T021319Z
 DESCRIPTION:See the full conference description: <a href="https://www.ire.o
@@ -1539,7 +1778,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:How to Unite and Win at Work in NYC
 DTSTART;TZID=America/New_York:20260621T130000
 DTEND;TZID=America/New_York:20260621T150000
-DTSTAMP:20260508T025123Z
+DTSTAMP:20260509T024301Z
 UID:4ml1nu0j5cq65j8jiqi7jmkmau@google.com
 RECURRENCE-ID;TZID=America/New_York:20260621T130000
 SEQUENCE:0
@@ -1762,7 +2001,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260708T160000
 DTEND;TZID=America/Chicago:20260708T170000
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024300Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260708
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -1819,7 +2058,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T170000
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024300Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260715
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -1840,9 +2079,26 @@ DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
  blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
  zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
  br></b>
-LAST-MODIFIED:20260427T235144Z
+LAST-MODIFIED:20260508T125324Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/nahj-conference-expo-new-orleans-2026/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+DTSTAMP:20260503T034002
+CREATED:20251223T073000Z
+LAST-MODIFIED:20260324T231800Z
+UID:24798-1784678400-1784764799@nahj.org
+SUMMARY:NAHJ Conference & Expo — New Orleans 2026
+DESCRIPTION:The NAHJ national conference\, offers unparalleled career development opportunities with leading Hispanic journalists and media professionals. This annual gathering features workshops and panels that provide essential tools for career growth in a rapidly evolving industry. Attendees gain valuable insights on storytelling\, media trends\, and diversity in journalism\, making it a must-attend event for professionals and students alike. It’s taking place July 22-25 in New Orleans\, Louisiana. \nEarly bird registration ends on March 31! Register now and save. \nFor more information visit: https://nahjconference.org.
+URL:https://nahj.org/event/nahj-conference-expo-new-orleans-2026/
+LOCATION:New Orleans Marriott\, 555 Canal St.\, New Orleans\, LA\, United States
+CATEGORIES:Conference,Networking
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2025/12/NAHJ26_SocialMediaKit-7-Web-Banner-Conference-Invite-1.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09"}
@@ -1852,7 +2108,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260805T160000
 DTEND;TZID=America/Chicago:20260805T170000
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024300Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260805
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -1920,7 +2176,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260507T225119
+DTSTAMP:20260508T224257
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
@@ -1937,7 +2193,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://transom.org/transom25/
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260920
-DTSTAMP:20260508T025122Z
+DTSTAMP:20260509T024301Z
 UID:1jutch8e3t2ghbnh59jmkdoe3b@google.com
 CREATED:20260428T014331Z
 DESCRIPTION:See the full festival description: <a href="https://transom.org
@@ -1953,5 +2209,22 @@ SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:Transom25
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"National Assoc. of Hispanic Journalists": "https://nahj.org/event/25925/"}
+X-SOURCE-ID:nahj
+X-SOURCE:National Assoc. of Hispanic Journalists
+DTSTART;TZID=America/New_York:20261117T190000
+DTEND;TZID=America/New_York:20261117T220000
+DTSTAMP:20260503T034002
+CREATED:20260408T133127Z
+LAST-MODIFIED:20260408T133218Z
+UID:25925-1794942000-1794952800@nahj.org
+SUMMARY:Excelencia Awards & NextGen Benefit
+DESCRIPTION:Excelencia Awards & NextGen Benefit \nJoin NAHJ on November 17\, 2026\, for an evening celebrating excellence in journalism and supporting the next generation of Latino storytellers. \nThis annual event honors leaders across journalism\, communications and education who are advancing press freedom\, uplifting diverse voices and investing in the future of the field. \nProceeds support NAHJ scholarships\, internships\, mentorship and training programs that help build more representative and impactful newsrooms. \nYou can fin more information here: https://nahj.org/excelencia/ \nTickets can be purchased here: https://givebutter.com/Excelencia26 \nFor sponsorship opportunities\, please visit: https://nahj.org/excelencia/sponsors/
+URL:https://nahj.org/event/25925/
+LOCATION:583 Park Ave\, 583 Park Avenue\, New York\, NY\, 10065\, United States
+CATEGORIES:Awards,Next Generation
+ATTACH;FMTTYPE=image/png:https://nahj.org/wp-content/uploads/2026/04/EA26_SaveTheDate-11-Thumbnail.png
 END:VEVENT
 END:VCALENDAR
