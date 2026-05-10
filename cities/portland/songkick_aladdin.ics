@@ -4,18 +4,6 @@ PRODID:-//Aladdin Theater//songkick.com//
 X-WR-CALNAME:Aladdin Theater
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:The New Pornographers\, Will Sheff
-DTSTART:20260509T200000
-DTEND:20260509T200000
-UID:030c92d15304720c08939623f52c3080@songkick.com
-DESCRIPTION:The New Pornographers at Aladdin Theater at 2026-05-09T20:00:0
- 0-0700
-LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
-URL:http://www.songkick.com/concerts/42895122-new-pornographers-at-aladdin
- -theater?utm_medium=organic&utm_source=microformat
-X-SOURCE:Aladdin Theater
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Faetooth\, Iress\, Nightosphere
 DTSTART:20260511T193000
 DTEND:20260511T193000
@@ -46,6 +34,17 @@ DESCRIPTION:Yumi Zouma at Aladdin Theater at 2026-05-14T20:00:00-0700
 LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
 URL:http://www.songkick.com/concerts/43036987-yumi-zouma-at-aladdin-theate
  r?utm_medium=organic&utm_source=microformat
+X-SOURCE:Aladdin Theater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ducks Ltd.
+DTSTART:20260514T200000
+DTEND:20260514T200000
+UID:75495d9080da82b93f5be6089cf4a8e7@songkick.com
+DESCRIPTION:Ducks Ltd. at Aladdin Theater at 2026-05-14T20:00:00-0700
+LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
+URL:http://www.songkick.com/concerts/43100104-ducks-ltd-at-aladdin-theater
+ ?utm_medium=organic&utm_source=microformat
 X-SOURCE:Aladdin Theater
 END:VEVENT
 END:VCALENDAR

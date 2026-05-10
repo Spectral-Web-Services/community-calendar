@@ -211,7 +211,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lake Oswego Open Garden Tour 
 DTSTART;TZID=America/Los_Angeles:20260530T100000
-DTEND;TZID=America/Los_Angeles:20260530T130000
+DTEND;TZID=America/Los_Angeles:20260530T120000
 UID:69bc12e7637e946942ad75a5@squarespace.com
 DESCRIPTION:
 LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
@@ -257,18 +257,6 @@ URL:https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4
 X-SOURCE:Friends of Tryon Creek
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Open Nature Classroom: Spring
-DTSTART;TZID=America/Los_Angeles:20260320T100000
-DTEND;TZID=America/Los_Angeles:20260320T123000
-UID:6973c04e39f34c22b6021ddf@squarespace.com
-DESCRIPTION:
-LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
- land\, OR\, 97219\, United States
-URL:https://www.tryonfriends.org/calendar/open-nature-classroom-j68ha-29w4
- b-f96kh-ngjds-d5y6b-6yhpp-n6gfx-a6crl
-X-SOURCE:Friends of Tryon Creek
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:“Phenology Friday” Plant Walks
 DTSTART;TZID=America/Los_Angeles:20260508T093000
 DTEND;TZID=America/Los_Angeles:20260508T110000
@@ -277,6 +265,18 @@ DESCRIPTION:
 LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
  land\, OR\, 97219\, United States
 URL:https://www.tryonfriends.org/calendar/phenology-friday-plant-walks
+X-SOURCE:Friends of Tryon Creek
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:“Phenology Friday” Plant Walks 
+DTSTART;TZID=America/Los_Angeles:20260710T093000
+DTEND;TZID=America/Los_Angeles:20260710T110000
+UID:69ea9c2823b9db71a739b11e@squarespace.com
+DESCRIPTION:
+LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
+ land\, OR\, 97219\, United States
+URL:https://www.tryonfriends.org/calendar/phenology-friday-plant-walks-wky
+ jr
 X-SOURCE:Friends of Tryon Creek
 END:VEVENT
 BEGIN:VEVENT
@@ -358,18 +358,6 @@ URL:https://www.tryonfriends.org/calendar/ranger-bird-walk-ywdnh
 X-SOURCE:Friends of Tryon Creek
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Saturday Guided Hike - Trees
-DTSTART;TZID=America/Los_Angeles:20260314T100000
-DTEND;TZID=America/Los_Angeles:20260314T110000
-UID:6973be881ce3b047c244e5fd@squarespace.com
-DESCRIPTION:
-LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
- land\, OR\, 97219\, United States
-URL:https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig
- -id-ccss3-8xxtw-k5wng
-X-SOURCE:Friends of Tryon Creek
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Saturday Guided Hike - Hiking Essentials
 DTSTART;TZID=America/Los_Angeles:20260321T100000
 DTEND;TZID=America/Los_Angeles:20260321T110000
@@ -391,17 +379,6 @@ LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
  land\, OR\, 97219\, United States
 URL:https://www.tryonfriends.org/calendar/saturday-guided-hike-winter-twig
  -id-ccss3-8xxtw-k5wng-n8b44-4der2
-X-SOURCE:Friends of Tryon Creek
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Stewardship Day - Boones Ferry 
-DTSTART;TZID=America/Los_Angeles:20260319T090000
-DTEND;TZID=America/Los_Angeles:20260319T120000
-UID:69867eb810e97f2d0b5a80f6@squarespace.com
-DESCRIPTION:
-LOCATION:Tryon Creek State Natural Area
-URL:https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry-2cg
- 3y
 X-SOURCE:Friends of Tryon Creek
 END:VEVENT
 BEGIN:VEVENT
@@ -446,19 +423,6 @@ DESCRIPTION:
 LOCATION:Tryon Creek State Natural Area
 URL:https://www.tryonfriends.org/calendar/stewardship-day-boones-ferry-2cg
  3y-55h6s-w86eh-a3a4w
-X-SOURCE:Friends of Tryon Creek
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Watershed Wide -Volunteer Land Tending
-DTSTART;TZID=America/Los_Angeles:20260314T090000
-DTEND;TZID=America/Los_Angeles:20260314T120000
-UID:6973bfd9c9cd704f4709eac6@squarespace.com
-DESCRIPTION:
-LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
- land\, OR\, 97219\, United States
-URL:https://www.tryonfriends.org/calendar/stewardship-thursdays-xtwde-2jhe
- h-e4eds-mx8h9-ggtex-5jhls-dtf47-t8h3l-j8zr2-5sawz-pdghw-63h3z-pecgs-bbjbx-
- 4lzyr-texym-fl4b6-mjy33-9h7l4-29bwx
 X-SOURCE:Friends of Tryon Creek
 END:VEVENT
 BEGIN:VEVENT
@@ -638,17 +602,6 @@ LOCATION:Tryon Creek State Natural Area\, 11321 South Terwilliger Boulevar
  d\, Portland\, OR\, 97219\, United States
 URL:https://www.tryonfriends.org/calendar/volunteer-trail-crew-1-z5st9-mkx
  fk-jkzb3-k5d6z
-X-SOURCE:Friends of Tryon Creek
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Núun ken' witnéewit: Weaving Workshops
-DTSTART;TZID=America/Los_Angeles:20260613T100000
-DTEND;TZID=America/Los_Angeles:20260613T160000
-UID:69d927b6fc896a6feed66156@squarespace.com
-DESCRIPTION:
-LOCATION:Friends of Tryon Creek\, 11321 South Terwilliger Boulevard\, Port
- land\, OR\, 97219\, United States
-URL:https://www.tryonfriends.org/calendar/weaving2-sl56t-3pkws
 X-SOURCE:Friends of Tryon Creek
 END:VEVENT
 END:VCALENDAR
