@@ -4,17 +4,6 @@ PRODID:-//Revolution Hall//songkick.com//
 X-WR-CALNAME:Revolution Hall
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:E. Ellison\, Lily Breshears
-DTSTART:20260509T190000
-DTEND:20260509T190000
-UID:1bf49da0963377a970454d0fcc8e155c@songkick.com
-DESCRIPTION:E. Ellison at Revolution Hall at 2026-05-09T19:00:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43104712-e-ellison-at-revolution-hall
- ?utm_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Allie X
 DTSTART:20260512T200000
 DTEND:20260512T200000
@@ -35,6 +24,29 @@ DESCRIPTION:Echo & The Bunnymen at Revolution Hall at 2026-05-13T19:00:00-
 LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/42929611-echo-and-the-bunnymen-at-rev
  olution-hall?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Cosmic Tones Research Trio
+DTSTART:20260513T200000
+DTEND:20260513T200000
+UID:061d4bb3af1bf6c67721aa64416e9643@songkick.com
+DESCRIPTION:The Cosmic Tones Research Trio at Revolution Hall at 2026-05-1
+ 3T20:00:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43192153-cosmic-tones-research-trio-a
+ t-revolution-hall?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wild Nothing\, Lunar Vacation
+DTSTART:20260514T200000
+DTEND:20260514T200000
+UID:ccaca4c4c4728c63402619c07d697b28@songkick.com
+DESCRIPTION:Wild Nothing at Revolution Hall at 2026-05-14T20:00:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/42984715-wild-nothing-at-revolution-h
+ all?utm_medium=organic&utm_source=microformat
 X-SOURCE:Revolution Hall
 END:VEVENT
 END:VCALENDAR
