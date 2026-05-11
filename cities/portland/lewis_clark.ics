@@ -83,28 +83,6 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260510T120000
-DTEND;TZID=America/Los_Angeles:20260510T130000
-SUMMARY:Halls close for Graduating Seniors: Noon on Sunday\, May 10\, 2026
-UID:20260510T190000Z-369472@www.lclark.edu
-DTSTAMP:20250602T065633Z
-URL:https://www.lclark.edu/calendars/events/event/369472-halls-close-for-
- graduating-seniors-noon-on-sunday-may
-LAST-MODIFIED:20250602T151352Z
-ATTACH:https://www.lclark.edu/live/image/gid/241/width/80/height/80/crop/
- 1/src_region/0,0,1600,694/108756_Screenshot_2025-06-02_at_9.39.36AM.rev.1
- 748871618.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:369472
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/241/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1600\,694/108756_Screenshot_2025-06-02_at_9
- .39.36AM.rev.1748871618.png
-X-LIVEWHALE-IMAGE-CAPTION:Campus Living&#160\;
-X-LIVEWHALE-SUMMARY:<p>\n  Graduating Seniors move-out is Sunday\, May 10
- th by 12pm.&#160\;\n</p>
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 LOCATION:Fowler Student Center

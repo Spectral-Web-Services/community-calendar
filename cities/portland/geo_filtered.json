@@ -16,9 +16,9 @@
     "location": "Aurora Vineyards, 21338 Oak Ln NE, Aurora, OR 97002",
     "count": 20,
     "titles": [
-      "Gold and Honey",
       "Knotty Sangria",
-      "Knotty Sangria"
+      "Knotty Sangria",
+      "Boat Drinks"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "source": "Stumptown Savings",
     "source_id": "stumptown_savings",
     "location": "Rocky Butte Farmers Market, NE Siskiyou and, NE 80th Ave, Port\rland, OR 97213, USA\r",
-    "count": 12,
+    "count": 13,
     "titles": [
       "Rocky Butte Farmers Market",
       "Rocky Butte Farmers Market",
@@ -47,11 +47,22 @@
     "source": "Tockify Kptv Calendar",
     "source_id": "tockify_kptv_calendar",
     "location": "The Landing at Tallman Brewing,2055 Primrose Street, Lebanon, OR 97355, USA",
-    "count": 12,
+    "count": 11,
     "titles": [
-      " Karaoke Night at Tallman Brewing",
       " Bingo Benefiting Charity",
-      " Tallman's Tappin' Talent Series Returns @ Tallman Brewing!"
+      " Tallman's Tappin' Talent Series Returns @ Tallman Brewing!",
+      " Live Music at Tallman Brewing - Let it Roll"
+    ]
+  },
+  {
+    "source": "Vancouver Farmers Market",
+    "source_id": "vancouver_farmers_market",
+    "location": "605 Esther St, Vancouver, WA, United States",
+    "count": 7,
+    "titles": [
+      "Robert Meade at the Vancouver Farmers Market",
+      "*Uszd parts* Armando Espinoza at the Vancouver Farmers Market",
+      "Dumpster Joe at the Vancouver Farmers Market"
     ]
   },
   {
@@ -68,17 +79,6 @@
   {
     "source": "Travelportland",
     "source_id": "travelportland",
-    "location": "Guide Dogs For the Blind, 32901 SE Kelso Rd, Boring, OR 97009",
-    "count": 5,
-    "titles": [
-      "Guide Dogs for the Blind Graduation",
-      "Guide Dogs for the Blind Graduation",
-      "Guide Dogs for the Blind Graduation"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
     "location": "McMinnville, McMinnville, OR 97128",
     "count": 4,
     "titles": [
@@ -90,23 +90,23 @@
   {
     "source": "Travelportland",
     "source_id": "travelportland",
+    "location": "Guide Dogs For the Blind, 32901 SE Kelso Rd, Boring, OR 97009",
+    "count": 4,
+    "titles": [
+      "Guide Dogs for the Blind Graduation",
+      "Guide Dogs for the Blind Graduation",
+      "Guide Dogs for the Blind Graduation"
+    ]
+  },
+  {
+    "source": "Travelportland",
+    "source_id": "travelportland",
     "location": "Milo McIver State Park, Milo McIver State Park, Estacada, OR 97023",
     "count": 4,
     "titles": [
       "Northwest Disc Golf Championship",
       "Northwest Disc Golf Championship",
       "Northwest Disc Golf Championship"
-    ]
-  },
-  {
-    "source": "Eventbrite Trailkeepers",
-    "source_id": "eventbrite_trailkeepers",
-    "location": "Idiot Creek Loop, Idiot Creek Loop, Tillamook, OR 97141, Tillamook, OR",
-    "count": 3,
-    "titles": [
-      "Private: SP  Wilson River Trail Party - Portland",
-      "Wilson River Trail Party - Portland",
-      "Private: WWE Wilson River Trail Party - Portland"
     ]
   },
   {
@@ -207,23 +207,13 @@
     ]
   },
   {
-    "source": "Tockify Kptv Calendar",
-    "source_id": "tockify_kptv_calendar",
-    "location": "Chehalem Cultural Center,415 East Sheridan Street, Newberg, OR 97132, USA",
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "Idiot Creek Loop, Idiot Creek Loop, Tillamook, OR 97141, Tillamook, OR",
     "count": 2,
     "titles": [
-      " Ordinary Days",
-      " Ordinary Days"
-    ]
-  },
-  {
-    "source": "Tockify Kptv Calendar",
-    "source_id": "tockify_kptv_calendar",
-    "location": "Hult Center for Performing Arts,East 7th Avenue & Willamette Street, Eugene, OR, USA",
-    "count": 2,
-    "titles": [
-      " As You Like It: A Wild West Ballet",
-      " As You Like It: A Wild West Ballet"
+      "Private: SP  Wilson River Trail Party - Portland",
+      "Wilson River Trail Party - Portland"
     ]
   },
   {
@@ -234,16 +224,6 @@
     "titles": [
       "Mother's Day Brunch at the Resort",
       "Winemaker\u2019s Dinner Featuring Silverback Estate Winery"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
-    "location": "Chehalem Cultural Center, 415 E Sheridan St, Newberg, OR 97132",
-    "count": 2,
-    "titles": [
-      "Ordinary Days",
-      "Ordinary Days"
     ]
   },
   {
@@ -268,6 +248,15 @@
   {
     "source": "Eventbrite Nw Trail Alliance",
     "source_id": "eventbrite_nw_trail_alliance",
+    "location": "NF - 83 Meeting location, 5W63+9H Cougar, Washington, Cougar, WA 98616, Cougar, WA",
+    "count": 1,
+    "titles": [
+      "Pine Creek Trail Extension Project"
+    ]
+  },
+  {
+    "source": "Eventbrite Nw Trail Alliance",
+    "source_id": "eventbrite_nw_trail_alliance",
     "location": "Rocky Point Mountain Bike Trail Network, 23999 Rocky Point Road, Scappoose, OR 97056, Scappoose, OR",
     "count": 1,
     "titles": [
@@ -281,15 +270,6 @@
     "count": 1,
     "titles": [
       "DIG DAY \u2014 Sandy Ridge:  Let's get Sandy ready for shuttle day"
-    ]
-  },
-  {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
-    "location": "Stub Stewart State Park Hilltop Day Use Area, LL Stub Stewart State Park, Buxton, OR 97109, Buxton, OR",
-    "count": 1,
-    "titles": [
-      "NW Trail Sisters' Women's Beginner Ride at Stub Stewart"
     ]
   },
   {
@@ -313,10 +293,19 @@
   {
     "source": "Eventbrite Nw Trail Alliance",
     "source_id": "eventbrite_nw_trail_alliance",
-    "location": "NF - 83 Meeting location, 5W63+9H Cougar, Washington, Cougar, WA 98616, Cougar, WA",
+    "location": "Stub Stewart State Park Hilltop Day Use Area, LL Stub Stewart State Park, Buxton, OR 97109, Buxton, OR",
     "count": 1,
     "titles": [
-      "Pine Creek Trail Extension Project"
+      "NW Trail Sisters' Women's Beginner Ride at Stub Stewart"
+    ]
+  },
+  {
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "Sweet Creek Falls Trailhead, Sweet Creek Road, Mapleton, OR 97453, Mapleton, OR",
+    "count": 1,
+    "titles": [
+      "Sweet Creek Falls Trail Party - Central Coast"
     ]
   },
   {
@@ -331,10 +320,19 @@
   {
     "source": "Eventbrite Trailkeepers",
     "source_id": "eventbrite_trailkeepers",
-    "location": "Sweet Creek Falls Trailhead, Sweet Creek Road, Mapleton, OR 97453, Mapleton, OR",
+    "location": "Eagle Fern Park, 27505 Southeast Eagle Fern Road, Eagle Creek, OR 97022, Eagle Creek, OR",
     "count": 1,
     "titles": [
-      "Sweet Creek Falls Trail Party - Central Coast"
+      "Eagle Fern County Park--PDX (trail rehabilitation)"
+    ]
+  },
+  {
+    "source": "Jamo",
+    "source_id": "jamo",
+    "location": "Eastern Oregon University, One University Blvd, La Grande, Oregon, 97850",
+    "count": 1,
+    "titles": [
+      "2026 Ethnic Studies Summer Institute"
     ]
   },
   {
@@ -356,39 +354,12 @@
     ]
   },
   {
-    "source": "Pdx Parent",
-    "source_id": "pdx_parent",
-    "location": "Magenta Theater, 1108 Main Street, Vancouver, Wa, 98660",
-    "count": 1,
-    "titles": [
-      "Footloose"
-    ]
-  },
-  {
-    "source": "Pdx Parent",
-    "source_id": "pdx_parent",
-    "location": "Chehalem Cultural Center, 415 E Sheridan Street, Newberg, OR, 97132",
-    "count": 1,
-    "titles": [
-      "Ordinary Days"
-    ]
-  },
-  {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
-    "location": "LPS Centennial Stadium, 4401 E Arapahoe Rd, Littleton, CO 80122, USA",
+    "location": "America First Field, 9256 S State St, Sandy, UT 84070, USA",
     "count": 1,
     "titles": [
-      "Thorns at Summit"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
-    "count": 1,
-    "titles": [
-      "Thorns v. Bay"
+      "Thorns at Royals"
     ]
   },
   {
@@ -403,6 +374,15 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
+    "location": "LPS Centennial Stadium, 4401 E Arapahoe Rd, Littleton, CO 80122, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Summit"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
     "location": "Inter & Co Stadium, 655 W Church St, Orlando, FL 32805, USA",
     "count": 1,
     "titles": [
@@ -412,10 +392,10 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
-    "location": "America First Field, 9256 S State St, Sandy, UT 84070, USA",
+    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA",
     "count": 1,
     "titles": [
-      "Thorns at Royals"
+      "Thorns at s**ttle"
     ]
   },
   {
@@ -430,10 +410,10 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
-    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA",
+    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
     "count": 1,
     "titles": [
-      "Thorns at s**ttle"
+      "Thorns v. Bay"
     ]
   },
   {
@@ -511,10 +491,19 @@
   {
     "source": "Tockify Kptv Calendar",
     "source_id": "tockify_kptv_calendar",
-    "location": "Holley Park,1000 East 4th Street, La Center, WA 98629, USA",
+    "location": "Chehalem Cultural Center,415 East Sheridan Street, Newberg, OR 97132, USA",
     "count": 1,
     "titles": [
-      " 3rd Annual La Center Arts Fair"
+      " Ordinary Days"
+    ]
+  },
+  {
+    "source": "Tockify Kptv Calendar",
+    "source_id": "tockify_kptv_calendar",
+    "location": "Hult Center for Performing Arts,East 7th Avenue & Willamette Street, Eugene, OR, USA",
+    "count": 1,
+    "titles": [
+      " As You Like It: A Wild West Ballet"
     ]
   },
   {
@@ -610,19 +599,10 @@
   {
     "source": "Travelportland",
     "source_id": "travelportland",
-    "location": "Champoeg State Park, Champoeg State Park, 8239 Champoeg Rd NE, St Paul, OR 97137",
+    "location": "Chehalem Cultural Center, 415 E Sheridan St, Newberg, OR 97132",
     "count": 1,
     "titles": [
-      "Hippie Chick Half Marathon"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
-    "location": "Clatskanie Cultural Center | Birkenfeld Theatre, 75 S Nehalem St, Clatskanie, OR 97016",
-    "count": 1,
-    "titles": [
-      "Raymond Carver Writing Festival"
+      "Ordinary Days"
     ]
   },
   {
@@ -686,6 +666,24 @@
     "count": 1,
     "titles": [
       "Queer Wine Fest"
+    ]
+  },
+  {
+    "source": "Travelportland",
+    "source_id": "travelportland",
+    "location": "Western Antique Aeroplane and Automobile Museum (WAAAM), 1600 Air Museum Rd, Hood River, OR 97031",
+    "count": 1,
+    "titles": [
+      "WAAAM Traffic Jam"
+    ]
+  },
+  {
+    "source": "Vancouver Farmers Market",
+    "source_id": "vancouver_farmers_market",
+    "location": "2904 E Evergreen Blvd, Vancouver, WA, United States",
+    "count": 1,
+    "titles": [
+      "Mat Pilates"
     ]
   },
   {
