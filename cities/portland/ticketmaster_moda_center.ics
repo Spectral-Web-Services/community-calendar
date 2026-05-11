@@ -4,19 +4,6 @@ PRODID:-//Moda Center//ticketmaster.com//
 X-WR-CALNAME:Moda Center
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Portland Fire vs. Chicago Sky
-DTSTART;TZID=America/Los_Angeles:20260509T180000
-DTEND;TZID=America/Los_Angeles:20260509T180000
-UID:71c4261a115d479cc6de3e88b8954b8c@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/cd2/d1df13b2-f278-4
- 244-add4-52a168fcacd2_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
-URL:https://www.ticketmaster.com/portland-fire-vs-chicago-sky-portland-ore
- gon-05-09-2026/event/0F006474E274CB6B
-X-SOURCE:Moda Center
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Portland Fire vs. New York Liberty
 DTSTART;TZID=America/Los_Angeles:20260512T190000
 DTEND;TZID=America/Los_Angeles:20260512T190000
@@ -209,6 +196,19 @@ DESCRIPTION:
 LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
 URL:https://www.ticketmaster.com/portland-fire-vs-las-vegas-aces-portland-
  oregon-07-09-2026/event/0F006474E2DFCBCC
+X-SOURCE:Moda Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Forrest Frank:  The Jesus Generation Tour
+DTSTART;TZID=America/Los_Angeles:20260711T190000
+DTEND;TZID=America/Los_Angeles:20260711T190000
+UID:03d47c3b9c99c3980d0d5a38e1452882@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/7cf/e3601527-01f0-4
+ ad7-a104-208869fe87cf_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
+URL:https://www.ticketmaster.com/forrest-frank-the-jesus-generation-tour-p
+ ortland-oregon-07-11-2026/event/0F006383D9DF8F99
 X-SOURCE:Moda Center
 END:VEVENT
 END:VCALENDAR
