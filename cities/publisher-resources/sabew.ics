@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SABEW - ECPv6.15.20//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SABEW
+X-ORIGINAL-URL:https://sabew.org
+X-WR-CALDESC:Events for SABEW
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260528T190000
+DTEND;TZID=America/New_York:20260528T203000
+DTSTAMP:20260511T224829
+CREATED:20260511T212220Z
+LAST-MODIFIED:20260511T212229Z
+UID:71199-1779994800-1780000200@sabew.org
+SUMMARY:SABEW Canada Best in Business Awards Celebration
+DESCRIPTION:Come recognize excellence\, celebrate with your friends and colleagues\, and indulge in a little healthy competition at SABEW Canada’s annual Best in Business Awards. Food and two drink tickets are included with your registration. \nRegister by 11:59 p.m. ET\, May 21\, to take advantage of the early-bird price of $40 (USD). Once the early-bird deadline passes\, the registration fee will then be $45 (USD). \nWhen: Thursday\, May 28\, 2026\, 7 p.m.\nWhere: The Pilot\, 22 Cumberland St.\, Toronto\nHow: Complete the form below to purchase tickets
+URL:https://sabew.org/event/sabew-canada-best-in-business-awards-celebration-2/
+CATEGORIES:Best in Business,SABEW Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260623T130000
+DTEND;TZID=America/New_York:20260623T140000
+DTSTAMP:20260511T224829
+CREATED:20260511T170558Z
+LAST-MODIFIED:20260511T171843Z
+UID:71194-1782219600-1782223200@sabew.org
+SUMMARY:Freelancing 101: How to establish yourself -- and thrive -- as an independent journalist
+DESCRIPTION:Freelance writing offers many benefits\, including flexibility and the opportunity to be your own boss. But the freelance landscape has shifted\, especially as many journalists transition to independent writing after layoffs. Where are the best freelance opportunities today\, and how can you position yourself to stand out in an increasingly crowded field? \nOur panel will discuss what it takes to be successful when stepping out on your own. You’ll learn from seasoned freelancers and receive practical tips on how to court clients\, craft pitches and carry out the business aspects of operating as an independent journalist. Whether you’ve been freelancing for years or you’re new to independent writing\, this session is for you. \nPanelists:\nMallika Mitra\, business and financial freelance journalist\nChris Morris\, contributing writer at Fortune Magazine\, Inc.\, Fast Company\, AARP\nChris Taylor\, personal finance journalist \nModerator:\nEllen Sheng\, founder and principal\, Sheng Media LLC \nRegistration fees:\n$0 for SABEW members\n$10 for nonmembers \nOnce you register for the event\, you will receive an email with the Zoom link to join the webinar.
+URL:https://sabew.org/event/freelancing-101-how-to-establish-yourself-and-thrive-as-an-independent-journalist/
+CATEGORIES:Virtual Training
+END:VEVENT
+END:VCALENDAR
