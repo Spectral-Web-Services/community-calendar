@@ -1,2158 +1,1942 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:University of Portland Calendar
+PRODID:icalendar-ruby
 CALSCALE:GREGORIAN
-PRODID:iCalendar-Ruby
+X-WR-CALNAME:University of Portland Calendar
+X-WR-TIMEZONE:Pacific Time (US & Canada)
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs John Knight Twi
- light
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260410
-LOCATION:Monmouth\, Ore.\, McArthur Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs John Knight Twiligh
- t
-UID:tag:localist.com\,2008:EventInstance_51335563323325
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-john-knight-twilight
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs John Knight T
- wilight
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260410
-LOCATION:Monmouth\, Ore.\, McArthur Field
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs John Knight Twili
- ght
-UID:tag:localist.com\,2008:EventInstance_51335563300790
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-john-knight-twilight
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260410T193500Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260410T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591017929
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Gonzaga\nStreaming Video: ht
- tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west-
- coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferences
-DTEND:20260411T040000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260411T010000Z
-LOCATION:Spokane\, Wash.\, Patterson Baseball Complex
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Gonzaga
-UID:tag:localist.com\,2008:EventInstance_50831364402962
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-gonzag
- a
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260411T033000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260411T023000Z
-GEO:45.573252;-122.728181
-LOCATION:Mago Hunt Center
-SEQUENCE:0
-SUMMARY:The Lightning Thief: The Percy Jackson Musical
-UID:tag:localist.com\,2008:EventInstance_52339988333283
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Rowing vs Portland Invite
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260411
-LOCATION:Vancouver\, Wash.\, Vancouver Lake
-SEQUENCE:0
-SUMMARY:University of Portland Rowing vs Portland Invite
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50849067800083
-URL:https://calendar.up.edu/event/university-of-portland-rowing-vs-portland
- -invite
+DTSTART;VALUE=DATE:20260411
+DESCRIPTION:University of Portland Rowing vs Portland Invite
+LOCATION:Vancouver\, Wash.\, Vancouver Lake
+SUMMARY:University of Portland Rowing vs Portland Invite
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-rowing-v
+ s-portland-invite
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Soccer vs Seattle\nStreaming Video
- : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/w
- est-coast-conference
-DTEND:20260411T210000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260411T190000Z
-LOCATION:Portland\, Ore.\, Lower Soccer Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Soccer vs Seattle
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_52344179656905
-URL:https://calendar.up.edu/event/university-of-portland-mens-soccer-vs-sea
- ttle
+DTSTART:20260411T190000Z
+DTEND:20260411T210000Z
+DESCRIPTION:University of Portland Men's Soccer vs Seattle\nStreaming Video
+ : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/
+ west-coast-conference
+LOCATION:Portland\, Ore.\, Lower Soccer Field
+SUMMARY:University of Portland Men's Soccer vs Seattle
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-soc
+ cer-vs-seattle
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364418329
+DTSTART:20260411T190000Z
+DTEND:20260411T220000Z
 DESCRIPTION:University of Portland Women's Tennis at Gonzaga\nStreaming Vid
  eo: https://gozags.com/sports/2019/1/15/live-tennis-video-and-stats.aspx
-DTEND:20260411T220000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260411T190000Z
 LOCATION:Spokane\, Wash.\, Stevens Center
-SEQUENCE:0
 SUMMARY:University of Portland Women's Tennis at Gonzaga
-UID:tag:localist.com\,2008:EventInstance_50831364418329
-URL:https://calendar.up.edu/event/university-of-portland-womens-tennis-at-g
- onzaga
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ ennis-at-gonzaga
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Soccer at Oregon
-DTEND:20260411T220000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260411T200000Z
-LOCATION:Eugene\, OR\, Papé Field
-SEQUENCE:0
-SUMMARY:University of Portland Women's Soccer at Oregon
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_52131834347888
-URL:https://calendar.up.edu/event/university-of-portland-womens-soccer-at-o
- regon-2249
+DTSTART:20260411T200000Z
+DTEND:20260411T220000Z
+DESCRIPTION:University of Portland Women's Soccer at Oregon
+LOCATION:Eugene\, OR\, Papé Field
+SUMMARY:University of Portland Women's Soccer at Oregon
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-s
+ occer-at-oregon-2249
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Soccer vs Washington\nStreaming Vi
- deo: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e96
- 7/west-coast-conference
-DTEND:20260411T230000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260411T210000Z
-LOCATION:Portland\, Ore.\, Lower Soccer Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Soccer vs Washington
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_52344179721427
-URL:https://calendar.up.edu/event/university-of-portland-mens-soccer-vs-was
- hington-9723
-END:VEVENT
-BEGIN:VEVENT
+DTSTART:20260411T210000Z
+DTEND:20260411T230000Z
+DESCRIPTION:University of Portland Men's Soccer vs Washington\nStreaming Vi
+ deo: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e9
+ 67/west-coast-conference
+LOCATION:Portland\, Ore.\, Lower Soccer Field
+SUMMARY:University of Portland Men's Soccer vs Washington
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-soc
+ cer-vs-washington-9723
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Gonzaga\nStreaming Video: ht
- tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west-
- coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferences
-DTEND:20260412T040000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260412T010000Z
-LOCATION:Spokane\, Wash.\, Patterson Baseball Complex
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Gonzaga
-UID:tag:localist.com\,2008:EventInstance_50831364436768
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-gonzag
- a-8526
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260412T033000Z
-DTSTAMP:20260511T025308Z
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364436768
+DTSTART:20260412T010000Z
+DTEND:20260412T040000Z
+DESCRIPTION:University of Portland Baseball at Gonzaga\nStreaming Video: ht
+ tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west
+ -coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conference
+ s
+LOCATION:Spokane\, Wash.\, Patterson Baseball Complex
+SUMMARY:University of Portland Baseball at Gonzaga
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-gonzaga-8526
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52339988334308
 DTSTART:20260412T023000Z
+DTEND:20260412T033000Z
+DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage 
+ rock musical adapted from Rick Riordan’s best-selling novel\, where youn
+ g people learn that the things that make us different are the things that 
+ make us strong. \n \nDemigod Percy Jackson has always struggled with fitti
+ ng in. When his single mom must send him where she can’t follow\, he end
+ s up at a summer camp for kids like him – half Greek god\, half mortal. 
+ Joined by a daughter of Athena trying to prove her worth and a satyr tryin
+ g to make up for past tragedies\, the trio journeys into the underworld an
+ d back to reclaim Zeus’s stolen lightning bolt and stop a war between th
+ e gods. With a whole host of mythological creatures chasing after them\, c
+ an these unlikely heroes shoulder the fate of the world? Maybe Percy can f
+ inally find a place where he belongs...if he doesn’t die first. This ele
+ ctric coming-of-age story will resonate with anyone who’s had trouble fi
+ nding the courage to stand strong in a world full of monsters.\n\nTickets 
+ are on sale now for this incredible show\, running April 8-12 and 15-19. T
+ he Lightning Thief will be the raucous conclusion to an amazing UPTheater 
+ season! Get your tickets now before they’re gone! 💙 Use code 'FIRST50
+ ' for $5 tickets\, and 'PRESALE' for $10 tickets!
 GEO:45.573252;-122.728181
 LOCATION:Mago Hunt Center
-SEQUENCE:0
 SUMMARY:The Lightning Thief: The Percy Jackson Musical
-UID:tag:localist.com\,2008:EventInstance_52339988334308
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
+URL;VALUE=URI:https://calendar.up.edu/event/the-lightning-thief-the-percy-j
+ ackson-musical
+CATEGORIES:Performance
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50539538353819
+DTSTART:20260412T170000Z
+DTEND:20260412T200000Z
 DESCRIPTION:University of Portland Men's Tennis vs Saint Mary's\nStreaming 
  Video: https://web.playsight.com/live/university-of-portland/102
-DTEND:20260412T200000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260412T170000Z
 GEO:45.571486;-122.728683
 LOCATION:Louisiana-Pacific Tennis Center
-SEQUENCE:0
 SUMMARY:University of Portland Men's Tennis vs Saint Mary's
-UID:tag:localist.com\,2008:EventInstance_50539538353819
-URL:https://calendar.up.edu/event/university-of-portland-mens-tennis-vs-sai
- nt-marys
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-ten
+ nis-vs-saint-marys
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827309959316
+DTSTART:20260412T173000Z
+DTEND:20260413T063000Z
 DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
  bration of Mass in the Chapel of Christ the Teacher. All are welcome.
-DTEND:20260413T063000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260412T173000Z
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Sunday Mass 
-UID:tag:localist.com\,2008:EventInstance_50827309959316
-URL:https://calendar.up.edu/event/sunday-mass
+URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364452135
+DTSTART:20260412T180000Z
+DTEND:20260412T210000Z
 DESCRIPTION:University of Portland Women's Tennis at Washington State\nStre
  aming Video: https://wsucougars.com/sports/2025/1/9/tennis-live-video
-DTEND:20260412T210000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260412T180000Z
 LOCATION:Pullman\, Wash.\, WSU Outdoor Tennis Courts
-SEQUENCE:0
 SUMMARY:University of Portland Women's Tennis at Washington State
-UID:tag:localist.com\,2008:EventInstance_50831364452135
-URL:https://calendar.up.edu/event/university-of-portland-womens-tennis-at-w
- ashington-state
-END:VEVENT
-BEGIN:VEVENT
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ ennis-at-washington-state
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Gonzaga\nStreaming Video: ht
- tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west-
- coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferences
-DTEND:20260412T230000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260412T200000Z
-LOCATION:Spokane\, Wash.\, Patterson Baseball Complex
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Gonzaga
-UID:tag:localist.com\,2008:EventInstance_50831364482866
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-gonzag
- a-573
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260412T220000Z
-DTSTAMP:20260511T025308Z
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364482866
+DTSTART:20260412T200000Z
+DTEND:20260412T230000Z
+DESCRIPTION:University of Portland Baseball at Gonzaga\nStreaming Video: ht
+ tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west
+ -coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conference
+ s
+LOCATION:Spokane\, Wash.\, Patterson Baseball Complex
+SUMMARY:University of Portland Baseball at Gonzaga
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-gonzaga-573
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52339988335333
 DTSTART:20260412T210000Z
+DTEND:20260412T220000Z
+DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage 
+ rock musical adapted from Rick Riordan’s best-selling novel\, where youn
+ g people learn that the things that make us different are the things that 
+ make us strong. \n \nDemigod Percy Jackson has always struggled with fitti
+ ng in. When his single mom must send him where she can’t follow\, he end
+ s up at a summer camp for kids like him – half Greek god\, half mortal. 
+ Joined by a daughter of Athena trying to prove her worth and a satyr tryin
+ g to make up for past tragedies\, the trio journeys into the underworld an
+ d back to reclaim Zeus’s stolen lightning bolt and stop a war between th
+ e gods. With a whole host of mythological creatures chasing after them\, c
+ an these unlikely heroes shoulder the fate of the world? Maybe Percy can f
+ inally find a place where he belongs...if he doesn’t die first. This ele
+ ctric coming-of-age story will resonate with anyone who’s had trouble fi
+ nding the courage to stand strong in a world full of monsters.\n\nTickets 
+ are on sale now for this incredible show\, running April 8-12 and 15-19. T
+ he Lightning Thief will be the raucous conclusion to an amazing UPTheater 
+ season! Get your tickets now before they’re gone! 💙 Use code 'FIRST50
+ ' for $5 tickets\, and 'PRESALE' for $10 tickets!
 GEO:45.573252;-122.728181
 LOCATION:Mago Hunt Center
-SEQUENCE:0
 SUMMARY:The Lightning Thief: The Percy Jackson Musical
-UID:tag:localist.com\,2008:EventInstance_52339988335333
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
+URL;VALUE=URI:https://calendar.up.edu/event/the-lightning-thief-the-percy-j
+ ackson-musical
+CATEGORIES:Performance
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827322819746
+DTSTART:20260412T231500Z
+DTEND:20260413T001500Z
 DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
  bration of Mass in the Chapel of Christ the Teacher. All are welcome.
-DTEND:20260413T001500Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260412T231500Z
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Sunday Mass 
-UID:tag:localist.com\,2008:EventInstance_50827322819746
-URL:https://calendar.up.edu/event/sunday-mass-3864
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Last day to withdraw from course\, change to P/NP
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260413
-LOCATION:
-SEQUENCE:0
-SUMMARY:Spring Course Withdrawal
-UID:tag:localist.com\,2008:EventInstance_50835904979189
-URL:https://calendar.up.edu/event/spring-course-withdrawal
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Washington State
-DTEND:20260413T220000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260413T190000Z
-LOCATION:Pullman\, Wash.\, Bailey-Brayton Field
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Washington State
-UID:tag:localist.com\,2008:EventInstance_50831364498233
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-washin
- gton-state
-END:VEVENT
-BEGIN:VEVENT
+URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass-3864
 CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260413T193500Z
-DTSTAMP:20260511T025308Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50835904979189
+DTSTART;VALUE=DATE:20260413
+DESCRIPTION:Last day to withdraw from course\, change to P/NP
+LOCATION:
+SUMMARY:Spring Course Withdrawal
+URL;VALUE=URI:https://calendar.up.edu/event/spring-course-withdrawal
+CATEGORIES:Academic Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364498233
+DTSTART:20260413T190000Z
+DTEND:20260413T220000Z
+DESCRIPTION:University of Portland Baseball at Washington State
+LOCATION:Pullman\, Wash.\, Bailey-Brayton Field
+SUMMARY:University of Portland Baseball at Washington State
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-washington-state
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591019980
 DTSTART:20260413T190500Z
+DTEND:20260413T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591019980
-URL:https://calendar.up.edu/event/daily-mass
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52579059623171
+DTSTART;VALUE=DATE:20260414
 DESCRIPTION:Scholarship Day (special schedule) - classes after 4pm in sessi
  on
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260414
 LOCATION:
-SEQUENCE:0
 SUMMARY:Scholarship Day
-UID:tag:localist.com\,2008:EventInstance_52579059623171
-URL:https://calendar.up.edu/event/scholarship-day
+URL;VALUE=URI:https://calendar.up.edu/event/scholarship-day
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260414T193500Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260414T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50827591021005
-URL:https://calendar.up.edu/event/daily-mass
+DTSTART:20260414T190500Z
+DTEND:20260414T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball vs Corban (DH)
-DTEND:20260415T200000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260415T180000Z
-LOCATION:Portland\, Ore.\, Tom and Meg Names Family Foundation Beach Volley
- ball Courts
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball vs Corban (DH)
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51963727573487
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-v
- s-corban-dh
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260415T193500Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260415T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591021006
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTART:20260415T180000Z
+DTEND:20260415T200000Z
 DESCRIPTION:University of Portland Beach Volleyball vs Corban (DH)
-DTEND:20260415T230000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260415T210000Z
 LOCATION:Portland\, Ore.\, Tom and Meg Names Family Foundation Beach Volley
  ball Courts
-SEQUENCE:0
 SUMMARY:University of Portland Beach Volleyball vs Corban (DH)
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-vs-corban-dh
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591021006
+DTSTART:20260415T190500Z
+DTEND:20260415T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51963727586806
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-v
- s-corban-dh-3262
+DTSTART:20260415T210000Z
+DTEND:20260415T230000Z
+DESCRIPTION:University of Portland Beach Volleyball vs Corban (DH)
+LOCATION:Portland\, Ore.\, Tom and Meg Names Family Foundation Beach Volley
+ ball Courts
+SUMMARY:University of Portland Beach Volleyball vs Corban (DH)
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-vs-corban-dh-3262
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260416T033000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260416T023000Z
-GEO:45.573252;-122.728181
-LOCATION:Mago Hunt Center
-SEQUENCE:0
-SUMMARY:The Lightning Thief: The Percy Jackson Musical
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_52339988335334
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
+DTSTART:20260416T023000Z
+DTEND:20260416T033000Z
+DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage 
+ rock musical adapted from Rick Riordan’s best-selling novel\, where youn
+ g people learn that the things that make us different are the things that 
+ make us strong. \n \nDemigod Percy Jackson has always struggled with fitti
+ ng in. When his single mom must send him where she can’t follow\, he end
+ s up at a summer camp for kids like him – half Greek god\, half mortal. 
+ Joined by a daughter of Athena trying to prove her worth and a satyr tryin
+ g to make up for past tragedies\, the trio journeys into the underworld an
+ d back to reclaim Zeus’s stolen lightning bolt and stop a war between th
+ e gods. With a whole host of mythological creatures chasing after them\, c
+ an these unlikely heroes shoulder the fate of the world? Maybe Percy can f
+ inally find a place where he belongs...if he doesn’t die first. This ele
+ ctric coming-of-age story will resonate with anyone who’s had trouble fi
+ nding the courage to stand strong in a world full of monsters.\n\nTickets 
+ are on sale now for this incredible show\, running April 8-12 and 15-19. T
+ he Lightning Thief will be the raucous conclusion to an amazing UPTheater 
+ season! Get your tickets now before they’re gone! 💙 Use code 'FIRST50
+ ' for $5 tickets\, and 'PRESALE' for $10 tickets!
+GEO:45.573252;-122.728181
+LOCATION:Mago Hunt Center
+SUMMARY:The Lightning Thief: The Percy Jackson Musical
+URL;VALUE=URI:https://calendar.up.edu/event/the-lightning-thief-the-percy-j
+ ackson-musical
+CATEGORIES:Performance
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs Bryan Clay Invi
- tational
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260416
-LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs Bryan Clay Invitati
- onal
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335563556826
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-bryan-clay-invitational
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTART;VALUE=DATE:20260416
 DESCRIPTION:University of Portland Men's Track and Field vs Bryan Clay Invi
  tational
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260416
 LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs Bryan Clay Invitati
  onal
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-bryan-clay-invitational
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_52441465770021
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-bryan-clay-invitational-3280
+DTSTART;VALUE=DATE:20260416
+DESCRIPTION:University of Portland Men's Track and Field vs Bryan Clay Invi
+ tational
+LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
+SUMMARY:University of Portland Men's Track and Field vs Bryan Clay Invitati
+ onal
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-bryan-clay-invitational-3280
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs Leopard Invitat
- ional
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260416
-LOCATION:La Verne\, Calif.\, Ortmayer Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs Leopard Invitationa
- l
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335563660258
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-leopard-invitational
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs Bryan Clay In
- vitational
-DTSTAMP:20260511T025308Z
 DTSTART;VALUE=DATE:20260416
-LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs Bryan Clay Invita
- tional
-UID:tag:localist.com\,2008:EventInstance_51335563438026
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-bryan-clay-invitational
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs Leopard Invit
- ational
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260416
-LOCATION:La Verne\, Calif.\, Ortmayer Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs Leopard Invitatio
- nal
-UID:tag:localist.com\,2008:EventInstance_51335563487186
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-leopard-invitational
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260416T193500Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260416T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591022031
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260417T033000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260417T023000Z
-GEO:45.573252;-122.728181
-LOCATION:Mago Hunt Center
-SEQUENCE:0
-SUMMARY:The Lightning Thief: The Percy Jackson Musical
-UID:tag:localist.com\,2008:EventInstance_52339988336359
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs Bryan Clay Invi
- tational
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260417
-LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs Bryan Clay Invitati
- onal
-UID:tag:localist.com\,2008:EventInstance_51335563593695
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-bryan-clay-invitational
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs Bryan Clay Invi
- tational
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260417
-LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs Bryan Clay Invitati
- onal
-UID:tag:localist.com\,2008:EventInstance_52441465789482
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-bryan-clay-invitational-3280
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
 DESCRIPTION:University of Portland Men's Track and Field vs Leopard Invitat
  ional
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260417
 LOCATION:La Verne\, Calif.\, Ortmayer Stadium
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs Leopard Invitationa
  l
-UID:tag:localist.com\,2008:EventInstance_51335563696103
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-leopard-invitational
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-leopard-invitational
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335563438026
+DTSTART;VALUE=DATE:20260416
 DESCRIPTION:University of Portland Women's Track and Field vs Bryan Clay In
  vitational
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260417
 LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
-SEQUENCE:0
 SUMMARY:University of Portland Women's Track and Field vs Bryan Clay Invita
  tional
-UID:tag:localist.com\,2008:EventInstance_51335563453391
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-bryan-clay-invitational
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-bryan-clay-invitational
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335563487186
+DTSTART;VALUE=DATE:20260416
 DESCRIPTION:University of Portland Women's Track and Field vs Leopard Invit
  ational
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260417
 LOCATION:La Verne\, Calif.\, Ortmayer Stadium
-SEQUENCE:0
 SUMMARY:University of Portland Women's Track and Field vs Leopard Invitatio
  nal
-UID:tag:localist.com\,2008:EventInstance_51335563506647
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-leopard-invitational
-END:VEVENT
-BEGIN:VEVENT
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-leopard-invitational
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball vs Boise State
-DTEND:20260417T190000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260417T170000Z
-LOCATION:Seattle\, Wash.\, Alki Beach
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball vs Boise State
-UID:tag:localist.com\,2008:EventInstance_51901865454174
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-a
- t-washington
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591022031
+DTSTART:20260416T190500Z
+DTEND:20260416T193500Z
 DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260417T193500Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260417T190500Z
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591023056
-URL:https://calendar.up.edu/event/daily-mass
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball at Washington
-DTEND:20260417T213000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260417T193000Z
-LOCATION:Seattle\, Wash.\, Alki Beach
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball at Washington
-UID:tag:localist.com\,2008:EventInstance_51963727624702
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-a
- t-washington-3277
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs San Francisco\nTV: KUNP-TV\n
- Streaming Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63
- -66993e29e967/west-coast-conference
-DTEND:20260418T040000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260418T010000Z
-LOCATION:Portland\, Ore.\, Joe Etzel Field
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs San Francisco
-UID:tag:localist.com\,2008:EventInstance_50831364512576
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-san-fr
- ancisco
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260418T033000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260418T023000Z
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52339988336359
+DTSTART:20260417T023000Z
+DTEND:20260417T033000Z
+DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage 
+ rock musical adapted from Rick Riordan’s best-selling novel\, where youn
+ g people learn that the things that make us different are the things that 
+ make us strong. \n \nDemigod Percy Jackson has always struggled with fitti
+ ng in. When his single mom must send him where she can’t follow\, he end
+ s up at a summer camp for kids like him – half Greek god\, half mortal. 
+ Joined by a daughter of Athena trying to prove her worth and a satyr tryin
+ g to make up for past tragedies\, the trio journeys into the underworld an
+ d back to reclaim Zeus’s stolen lightning bolt and stop a war between th
+ e gods. With a whole host of mythological creatures chasing after them\, c
+ an these unlikely heroes shoulder the fate of the world? Maybe Percy can f
+ inally find a place where he belongs...if he doesn’t die first. This ele
+ ctric coming-of-age story will resonate with anyone who’s had trouble fi
+ nding the courage to stand strong in a world full of monsters.\n\nTickets 
+ are on sale now for this incredible show\, running April 8-12 and 15-19. T
+ he Lightning Thief will be the raucous conclusion to an amazing UPTheater 
+ season! Get your tickets now before they’re gone! 💙 Use code 'FIRST50
+ ' for $5 tickets\, and 'PRESALE' for $10 tickets!
 GEO:45.573252;-122.728181
 LOCATION:Mago Hunt Center
-SEQUENCE:0
 SUMMARY:The Lightning Thief: The Percy Jackson Musical
-UID:tag:localist.com\,2008:EventInstance_52339988337384
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
+URL;VALUE=URI:https://calendar.up.edu/event/the-lightning-thief-the-percy-j
+ ackson-musical
+CATEGORIES:Performance
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335563593695
+DTSTART;VALUE=DATE:20260417
+DESCRIPTION:University of Portland Men's Track and Field vs Bryan Clay Invi
+ tational
+LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
+SUMMARY:University of Portland Men's Track and Field vs Bryan Clay Invitati
+ onal
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-bryan-clay-invitational
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball at Washington
-DTSTAMP:20260511T025308Z
-DTSTART;VALUE=DATE:20260418
-LOCATION:Seattle\, Washington\, Alki Beach
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball at Washington
-UID:tag:localist.com\,2008:EventInstance_51901865481830
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-a
- t-washington-480
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52441465789482
+DTSTART;VALUE=DATE:20260417
+DESCRIPTION:University of Portland Men's Track and Field vs Bryan Clay Invi
+ tational
+LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
+SUMMARY:University of Portland Men's Track and Field vs Bryan Clay Invitati
+ onal
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-bryan-clay-invitational-3280
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball vs Florida Atlantic
-DTEND:20260418T190000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260418T170000Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335563696103
+DTSTART;VALUE=DATE:20260417
+DESCRIPTION:University of Portland Men's Track and Field vs Leopard Invitat
+ ional
+LOCATION:La Verne\, Calif.\, Ortmayer Stadium
+SUMMARY:University of Portland Men's Track and Field vs Leopard Invitationa
+ l
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-leopard-invitational
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335563453391
+DTSTART;VALUE=DATE:20260417
+DESCRIPTION:University of Portland Women's Track and Field vs Bryan Clay In
+ vitational
+LOCATION:Azusa\, Calif.\, Cougar Athletic Stadium
+SUMMARY:University of Portland Women's Track and Field vs Bryan Clay Invita
+ tional
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-bryan-clay-invitational
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335563506647
+DTSTART;VALUE=DATE:20260417
+DESCRIPTION:University of Portland Women's Track and Field vs Leopard Invit
+ ational
+LOCATION:La Verne\, Calif.\, Ortmayer Stadium
+SUMMARY:University of Portland Women's Track and Field vs Leopard Invitatio
+ nal
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-leopard-invitational
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51901865454174
+DTSTART:20260417T170000Z
+DTEND:20260417T190000Z
+DESCRIPTION:University of Portland Beach Volleyball vs Boise State
 LOCATION:Seattle\, Wash.\, Alki Beach
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball vs Florida Atlantic
-UID:tag:localist.com\,2008:EventInstance_51963727648262
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-v
- s-florida-atlantic
+SUMMARY:University of Portland Beach Volleyball vs Boise State
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-at-washington
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591023056
+DTSTART:20260417T190500Z
+DTEND:20260417T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51963727624702
+DTSTART:20260417T193000Z
+DTEND:20260417T213000Z
+DESCRIPTION:University of Portland Beach Volleyball at Washington
+LOCATION:Seattle\, Wash.\, Alki Beach
+SUMMARY:University of Portland Beach Volleyball at Washington
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-at-washington-3277
 CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364512576
+DTSTART:20260418T010000Z
+DTEND:20260418T040000Z
+DESCRIPTION:University of Portland Baseball vs San Francisco\nTV: KUNP-TV\n
+ Streaming Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be6
+ 3-66993e29e967/west-coast-conference
+LOCATION:Portland\, Ore.\, Joe Etzel Field
+SUMMARY:University of Portland Baseball vs San Francisco
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-san-francisco
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52339988337384
+DTSTART:20260418T023000Z
+DTEND:20260418T033000Z
+DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage 
+ rock musical adapted from Rick Riordan’s best-selling novel\, where youn
+ g people learn that the things that make us different are the things that 
+ make us strong. \n \nDemigod Percy Jackson has always struggled with fitti
+ ng in. When his single mom must send him where she can’t follow\, he end
+ s up at a summer camp for kids like him – half Greek god\, half mortal. 
+ Joined by a daughter of Athena trying to prove her worth and a satyr tryin
+ g to make up for past tragedies\, the trio journeys into the underworld an
+ d back to reclaim Zeus’s stolen lightning bolt and stop a war between th
+ e gods. With a whole host of mythological creatures chasing after them\, c
+ an these unlikely heroes shoulder the fate of the world? Maybe Percy can f
+ inally find a place where he belongs...if he doesn’t die first. This ele
+ ctric coming-of-age story will resonate with anyone who’s had trouble fi
+ nding the courage to stand strong in a world full of monsters.\n\nTickets 
+ are on sale now for this incredible show\, running April 8-12 and 15-19. T
+ he Lightning Thief will be the raucous conclusion to an amazing UPTheater 
+ season! Get your tickets now before they’re gone! 💙 Use code 'FIRST50
+ ' for $5 tickets\, and 'PRESALE' for $10 tickets!
+GEO:45.573252;-122.728181
+LOCATION:Mago Hunt Center
+SUMMARY:The Lightning Thief: The Percy Jackson Musical
+URL;VALUE=URI:https://calendar.up.edu/event/the-lightning-thief-the-percy-j
+ ackson-musical
+CATEGORIES:Performance
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51901865481830
+DTSTART;VALUE=DATE:20260418
+DESCRIPTION:University of Portland Beach Volleyball at Washington
+LOCATION:Seattle\, Washington\, Alki Beach
+SUMMARY:University of Portland Beach Volleyball at Washington
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-at-washington-480
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51963727648262
+DTSTART:20260418T170000Z
+DTEND:20260418T190000Z
+DESCRIPTION:University of Portland Beach Volleyball vs Florida Atlantic
+LOCATION:Seattle\, Wash.\, Alki Beach
+SUMMARY:University of Portland Beach Volleyball vs Florida Atlantic
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-vs-florida-atlantic
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50539538378402
+DTSTART:20260418T170000Z
+DTEND:20260418T200000Z
 DESCRIPTION:University of Portland Men's Tennis vs Gonzaga\nStreaming Video
  : https://web.playsight.com/live/university-of-portland/102
-DTEND:20260418T200000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260418T170000Z
 GEO:45.571486;-122.728683
 LOCATION:Louisiana-Pacific Tennis Center
-SEQUENCE:0
 SUMMARY:University of Portland Men's Tennis vs Gonzaga
-UID:tag:localist.com\,2008:EventInstance_50539538378402
-URL:https://calendar.up.edu/event/university-of-portland-mens-tennis-vs-gon
- zaga
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-ten
+ nis-vs-gonzaga
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball vs Oregon
-DTEND:20260418T213000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260418T193000Z
-LOCATION:Seattle\, Wash.\, Alki Beach
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball vs Oregon
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51963727671822
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-v
- s-oregon-2092
+DTSTART:20260418T193000Z
+DTEND:20260418T213000Z
+DESCRIPTION:University of Portland Beach Volleyball vs Oregon
+LOCATION:Seattle\, Wash.\, Alki Beach
+SUMMARY:University of Portland Beach Volleyball vs Oregon
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-vs-oregon-2092
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs San Francisco\nStreaming Vid
- eo: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967
- /west-coast-conference
-DTEND:20260419T010000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260418T220000Z
-LOCATION:Portland\, Ore.\, Joe Etzel Field
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs San Francisco
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364556623
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-san-fr
- ancisco-3835
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Soccer vs Western Washington\nSt
- reaming Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-6
- 6993e29e967/west-coast-conference
-DTEND:20260419T000000Z
-DTSTAMP:20260511T025308Z
 DTSTART:20260418T220000Z
-LOCATION:Portland\, Ore.\, Merlo Field at the Clive Charles Soccer Complex
-SEQUENCE:0
-SUMMARY:University of Portland Women's Soccer vs Western Washington
-UID:tag:localist.com\,2008:EventInstance_52131834560901
-URL:https://calendar.up.edu/event/university-of-portland-womens-soccer-vs-w
- estern-washington
+DTEND:20260419T010000Z
+DESCRIPTION:University of Portland Baseball vs San Francisco\nStreaming Vid
+ eo: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e96
+ 7/west-coast-conference
+LOCATION:Portland\, Ore.\, Joe Etzel Field
+SUMMARY:University of Portland Baseball vs San Francisco
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-san-francisco-3835
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52131834560901
+DTSTART:20260418T220000Z
+DTEND:20260419T000000Z
+DESCRIPTION:University of Portland Women's Soccer vs Western Washington\nSt
+ reaming Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-
+ 66993e29e967/west-coast-conference
+LOCATION:Portland\, Ore.\, Merlo Field at the Clive Charles Soccer Complex
+SUMMARY:University of Portland Women's Soccer vs Western Washington
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-s
+ occer-vs-western-washington
 CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51008303063239
+DTSTART:20260418T220000Z
+DTEND:20260419T010000Z
 DESCRIPTION:University of Portland Women's Tennis vs Seattle U\nStreaming V
  ideo: https://web.playsight.com/live/university-of-portland/102
-DTEND:20260419T010000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260418T220000Z
 GEO:45.571486;-122.728683
 LOCATION:Louisiana-Pacific Tennis Center
-SEQUENCE:0
 SUMMARY:University of Portland Women's Tennis vs Seattle U
-UID:tag:localist.com\,2008:EventInstance_51008303063239
-URL:https://calendar.up.edu/event/university-of-portland-womens-tennis-vs-s
- eattle-u
-END:VEVENT
-BEGIN:VEVENT
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ ennis-vs-seattle-u
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Soccer vs Western Oregon \nStreami
- ng Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e
- 29e967/west-coast-conference
-DTEND:20260419T030000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260419T010000Z
-LOCATION:Portland\, Ore.\, Lower Soccer Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Soccer vs Western Oregon
-UID:tag:localist.com\,2008:EventInstance_52627181877311
-URL:https://calendar.up.edu/event/university-of-portland-mens-soccer-vs-wes
- tern-oregon
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Performance,Social Gathering / Reception
-DESCRIPTION:Ticket show holders for UP's theater production of The Lightnin
- g Thief may enjoy a complimentary small bites reception and an expert pre-s
- how panel discussion. Ticket purchase HERE. Saturday\, April 18\, Mago Hunt
-  Center. Reception at 6:15pm\; Panel Discussion from 6:45-7:15pm\; Show at 
- 7:30pm. For more information and ADA accommodations contact garaventa@up.ed
- u and 503-943-7702.\n\nAbout The Lightning Thief: “As the half-blood son of
-  a Greek god\, Percy Jackson has newly-discovered powers he can't control\,
-  a destiny he doesn't want\, and a mythology textbook's worth of monsters o
- n his trail. When Zeus's master lightning bolt is stolen and Percy becomes 
- the prime suspect\, he has to find and return the bolt to prove his innocen
- ce and prevent a war between the gods…Adapted from the best-selling book Th
- e Lightning Thief by Rick Riordan and featuring a thrilling original rock s
- core\, The Lightning Thief: The Percy Jackson Musical is an action-packed m
- ythical adventure "worthy of the gods" (Time Out New York).
-DTEND:20260419T021500Z
-DTSTAMP:20260511T025308Z
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52627181877311
+DTSTART:20260419T010000Z
+DTEND:20260419T030000Z
+DESCRIPTION:University of Portland Men's Soccer vs Western Oregon \nStreami
+ ng Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993
+ e29e967/west-coast-conference
+LOCATION:Portland\, Ore.\, Lower Soccer Field
+SUMMARY:University of Portland Men's Soccer vs Western Oregon
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-soc
+ cer-vs-western-oregon
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51763879205860
 DTSTART:20260419T011500Z
+DTEND:20260419T021500Z
+DESCRIPTION:Ticket show holders for UP's theater production of The Lightnin
+ g Thief may enjoy a complimentary small bites reception and an expert pre-
+ show panel discussion. Ticket purchase HERE. Saturday\, April 18\, Mago Hu
+ nt Center. Reception at 6:15pm\; Panel Discussion from 6:45-7:15pm\; Show 
+ at 7:30pm. For more information and ADA accommodations contact garaventa@u
+ p.edu and 503-943-7702.\n\nAbout The Lightning Thief: “As the half-blood
+  son of a Greek god\, Percy Jackson has newly-discovered powers he can't c
+ ontrol\, a destiny he doesn't want\, and a mythology textbook's worth of m
+ onsters on his trail. When Zeus's master lightning bolt is stolen and Perc
+ y becomes the prime suspect\, he has to find and return the bolt to prove 
+ his innocence and prevent a war between the gods…Adapted from the best-s
+ elling book The Lightning Thief by Rick Riordan and featuring a thrilling 
+ original rock score\, The Lightning Thief: The Percy Jackson Musical is an
+  action-packed mythical adventure "worthy of the gods" (Time Out New York)
+ .
 GEO:45.573252;-122.728181
 LOCATION:Mago Hunt Center\, Lobby and Theater
-SEQUENCE:0
 SUMMARY:Theater Pre-Play Reception & Panel: "The Lightning Thief: The Percy
   Jackson Musical"
-UID:tag:localist.com\,2008:EventInstance_51763879205860
-URL:https://calendar.up.edu/event/copy-of-theater-pre-play-reception-panel-
- the-revolutionists
+URL;VALUE=URI:https://calendar.up.edu/event/copy-of-theater-pre-play-recept
+ ion-panel-the-revolutionists
+CATEGORIES:Performance
+CATEGORIES:Social Gathering / Reception
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260419T033000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260419T023000Z
-GEO:45.573252;-122.728181
-LOCATION:Mago Hunt Center
-SEQUENCE:0
-SUMMARY:The Lightning Thief: The Percy Jackson Musical
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_52339988338409
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
- bration of Mass in the Chapel of Christ the Teacher. All are welcome.
-DTEND:20260420T063000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260419T173000Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Sunday Mass 
-UID:tag:localist.com\,2008:EventInstance_50827309960341
-URL:https://calendar.up.edu/event/sunday-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs San Francisco\nStreaming Vid
- eo: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967
- /west-coast-conference
-DTEND:20260419T230000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260419T200000Z
-LOCATION:Portland\, Ore.\, Joe Etzel Field
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs San Francisco
-UID:tag:localist.com\,2008:EventInstance_50831364571990
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-san-fr
- ancisco-3725
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Performance
-DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage rock
-  musical adapted from Rick Riordan’s best-selling novel\, where young peopl
- e learn that the things that make us different are the things that make us 
- strong. \n \nDemigod Percy Jackson has always struggled with fitting in. Wh
- en his single mom must send him where she can’t follow\, he ends up at a su
- mmer camp for kids like him – half Greek god\, half mortal. Joined by a dau
- ghter of Athena trying to prove her worth and a satyr trying to make up for
-  past tragedies\, the trio journeys into the underworld and back to reclaim
-  Zeus’s stolen lightning bolt and stop a war between the gods. With a whole
-  host of mythological creatures chasing after them\, can these unlikely her
- oes shoulder the fate of the world? Maybe Percy can finally find a place wh
- ere he belongs...if he doesn’t die first. This electric coming-of-age story
-  will resonate with anyone who’s had trouble finding the courage to stand s
- trong in a world full of monsters.\n\nTickets are on sale now for this incr
- edible show\, running April 8-12 and 15-19. The Lightning Thief will be the
-  raucous conclusion to an amazing UPTheater season! Get your tickets now be
- fore they’re gone! 💙 Use code 'FIRST50' for $5 tickets\, and 'PRESALE' for 
- $10 tickets!
-DTEND:20260419T220000Z
-DTSTAMP:20260511T025308Z
-DTSTART:20260419T210000Z
+DTSTART:20260419T023000Z
+DTEND:20260419T033000Z
+DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage 
+ rock musical adapted from Rick Riordan’s best-selling novel\, where youn
+ g people learn that the things that make us different are the things that 
+ make us strong. \n \nDemigod Percy Jackson has always struggled with fitti
+ ng in. When his single mom must send him where she can’t follow\, he end
+ s up at a summer camp for kids like him – half Greek god\, half mortal. 
+ Joined by a daughter of Athena trying to prove her worth and a satyr tryin
+ g to make up for past tragedies\, the trio journeys into the underworld an
+ d back to reclaim Zeus’s stolen lightning bolt and stop a war between th
+ e gods. With a whole host of mythological creatures chasing after them\, c
+ an these unlikely heroes shoulder the fate of the world? Maybe Percy can f
+ inally find a place where he belongs...if he doesn’t die first. This ele
+ ctric coming-of-age story will resonate with anyone who’s had trouble fi
+ nding the courage to stand strong in a world full of monsters.\n\nTickets 
+ are on sale now for this incredible show\, running April 8-12 and 15-19. T
+ he Lightning Thief will be the raucous conclusion to an amazing UPTheater 
+ season! Get your tickets now before they’re gone! 💙 Use code 'FIRST50
+ ' for $5 tickets\, and 'PRESALE' for $10 tickets!
 GEO:45.573252;-122.728181
 LOCATION:Mago Hunt Center
-SEQUENCE:0
 SUMMARY:The Lightning Thief: The Percy Jackson Musical
-UID:tag:localist.com\,2008:EventInstance_52339988338410
-URL:https://calendar.up.edu/event/the-lightning-thief-the-percy-jackson-mus
- ical
+URL;VALUE=URI:https://calendar.up.edu/event/the-lightning-thief-the-percy-j
+ ackson-musical
+CATEGORIES:Performance
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827309960341
+DTSTART:20260419T173000Z
+DTEND:20260420T063000Z
 DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
  bration of Mass in the Chapel of Christ the Teacher. All are welcome.
-DTEND:20260420T001500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260419T231500Z
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Sunday Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364571990
+DTSTART:20260419T200000Z
+DTEND:20260419T230000Z
+DESCRIPTION:University of Portland Baseball vs San Francisco\nStreaming Vid
+ eo: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e96
+ 7/west-coast-conference
+LOCATION:Portland\, Ore.\, Joe Etzel Field
+SUMMARY:University of Portland Baseball vs San Francisco
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-san-francisco-3725
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52339988338410
+DTSTART:20260419T210000Z
+DTEND:20260419T220000Z
+DESCRIPTION:⚡️Ancient myth and teen angst collide in this high-voltage 
+ rock musical adapted from Rick Riordan’s best-selling novel\, where youn
+ g people learn that the things that make us different are the things that 
+ make us strong. \n \nDemigod Percy Jackson has always struggled with fitti
+ ng in. When his single mom must send him where she can’t follow\, he end
+ s up at a summer camp for kids like him – half Greek god\, half mortal. 
+ Joined by a daughter of Athena trying to prove her worth and a satyr tryin
+ g to make up for past tragedies\, the trio journeys into the underworld an
+ d back to reclaim Zeus’s stolen lightning bolt and stop a war between th
+ e gods. With a whole host of mythological creatures chasing after them\, c
+ an these unlikely heroes shoulder the fate of the world? Maybe Percy can f
+ inally find a place where he belongs...if he doesn’t die first. This ele
+ ctric coming-of-age story will resonate with anyone who’s had trouble fi
+ nding the courage to stand strong in a world full of monsters.\n\nTickets 
+ are on sale now for this incredible show\, running April 8-12 and 15-19. T
+ he Lightning Thief will be the raucous conclusion to an amazing UPTheater 
+ season! Get your tickets now before they’re gone! 💙 Use code 'FIRST50
+ ' for $5 tickets\, and 'PRESALE' for $10 tickets!
+GEO:45.573252;-122.728181
+LOCATION:Mago Hunt Center
+SUMMARY:The Lightning Thief: The Percy Jackson Musical
+URL;VALUE=URI:https://calendar.up.edu/event/the-lightning-thief-the-percy-j
+ ackson-musical
+CATEGORIES:Performance
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50827322820771
-URL:https://calendar.up.edu/event/sunday-mass-3864
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260420T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260420T190500Z
+DTSTART:20260419T231500Z
+DTEND:20260420T001500Z
+DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
+ bration of Mass in the Chapel of Christ the Teacher. All are welcome.
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
+SUMMARY:Sunday Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass-3864
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50827591025107
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
+DTSTART:20260420T190500Z
+DTEND:20260420T193500Z
 DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260421T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260421T190500Z
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50827591026132
-URL:https://calendar.up.edu/event/daily-mass
+DTSTART:20260421T190500Z
+DTEND:20260421T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs Washington\nStreaming Video:
-  https://www.youtube.com/live/1ew8b7G1U1U\nTickets: https://ridgefieldrapto
- rs.com/nwbca-college-classic/
-DTEND:20260422T040000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260422T010000Z
-LOCATION:Ridgefield\, Wash.\, Ridgefield Outdoor Recreational Complex
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs Washington
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364588381
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-washin
- gton
+DTSTART:20260422T010000Z
+DTEND:20260422T040000Z
+DESCRIPTION:University of Portland Baseball vs Washington\nStreaming Video:
+  https://www.youtube.com/live/1ew8b7G1U1U\nTickets: https://ridgefieldrapt
+ ors.com/nwbca-college-classic/
+LOCATION:Ridgefield\, Wash.\, Ridgefield Outdoor Recreational Complex
+SUMMARY:University of Portland Baseball vs Washington
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-washington
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260422T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260422T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50827591026133
-URL:https://calendar.up.edu/event/daily-mass
+DTSTART:20260422T190500Z
+DTEND:20260422T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball at WCC Championships
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260423
-LOCATION:Santa Monica\, Calif.\, Ocean Park Beach
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball at WCC Championships
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51901865560690
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-a
- t-wcc-championships
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Tennis vs #55 LMU\nStreaming Video
- : https://web.track.tennis/#/@public-cLZF4en_6dQ/@public-cLZF4en_6dQ/evt-TF
- 2g66a5W7w
-DTEND:20260423T190000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260423T160000Z
-LOCATION:Fairfield\, Calif.\, Green Valley Country Club
-SEQUENCE:0
-SUMMARY:University of Portland Men's Tennis vs #55 LMU
-UID:tag:localist.com\,2008:EventInstance_50831364648816
-URL:https://calendar.up.edu/event/university-of-portland-mens-tennis-vs-wcc
- -championships
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Beach Volleyball vs Pepperdine\nStreamin
- g Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e2
- 9e967/west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_C
- onferences
-DTEND:20260423T203000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260423T183000Z
+DTSTART;VALUE=DATE:20260423
+DESCRIPTION:University of Portland Beach Volleyball at WCC Championships
 LOCATION:Santa Monica\, Calif.\, Ocean Park Beach
-SEQUENCE:0
-SUMMARY:University of Portland Beach Volleyball vs Pepperdine
-UID:tag:localist.com\,2008:EventInstance_52680252364977
-URL:https://calendar.up.edu/event/university-of-portland-beach-volleyball-v
- s-pepperdine
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260423T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260423T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591027158
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
+SUMMARY:University of Portland Beach Volleyball at WCC Championships
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-at-wcc-championships
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Tennis vs LMU\nStreaming Video: 
- https://web.track.tennis/#/@public-cLZF4en_6dQ/@public-cLZF4en_6dQ/evt-TF2g
- 66a5W7w
-DTEND:20260424T010000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260423T220000Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364648816
+DTSTART:20260423T160000Z
+DTEND:20260423T190000Z
+DESCRIPTION:University of Portland Men's Tennis vs #55 LMU\nStreaming Video
+ : https://web.track.tennis/#/@public-cLZF4en_6dQ/@public-cLZF4en_6dQ/evt-T
+ F2g66a5W7w
 LOCATION:Fairfield\, Calif.\, Green Valley Country Club
-SEQUENCE:0
-SUMMARY:University of Portland Women's Tennis vs LMU
-UID:tag:localist.com\,2008:EventInstance_50831364607844
-URL:https://calendar.up.edu/event/university-of-portland-womens-tennis-vs-w
- cc-championships
+SUMMARY:University of Portland Men's Tennis vs #55 LMU
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-ten
+ nis-vs-wcc-championships
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Last day of classes
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260424
-LOCATION:
-SEQUENCE:0
-SUMMARY:Spring Last Day of Classes
-UID:tag:localist.com\,2008:EventInstance_50835905053955
-URL:https://calendar.up.edu/event/spring-last-day-of-classes
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52680252364977
+DTSTART:20260423T183000Z
+DTEND:20260423T203000Z
+DESCRIPTION:University of Portland Beach Volleyball vs Pepperdine\nStreamin
+ g Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e
+ 29e967/west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top
+ _Conferences
+LOCATION:Santa Monica\, Calif.\, Ocean Park Beach
+SUMMARY:University of Portland Beach Volleyball vs Pepperdine
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-beach-vo
+ lleyball-vs-pepperdine
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591027158
+DTSTART:20260423T190500Z
+DTEND:20260423T193500Z
 DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260424T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260424T190500Z
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591028183
-URL:https://calendar.up.edu/event/daily-mass
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:
-DESCRIPTION:Join the Donald P. Shiley School of Engineering as we showcase 
- our Senior Capstone Projects! Student teams will be sharing their final pro
- ject designs\, plans\, and prototypes in 20-minute presentations.
-DTEND:20260425T010000Z
-DTSTAMP:20260511T025309Z
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364607844
+DTSTART:20260423T220000Z
+DTEND:20260424T010000Z
+DESCRIPTION:University of Portland Women's Tennis vs LMU\nStreaming Video: 
+ https://web.track.tennis/#/@public-cLZF4en_6dQ/@public-cLZF4en_6dQ/evt-TF2
+ g66a5W7w
+LOCATION:Fairfield\, Calif.\, Green Valley Country Club
+SUMMARY:University of Portland Women's Tennis vs LMU
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ ennis-vs-wcc-championships
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50835905053955
+DTSTART;VALUE=DATE:20260424
+DESCRIPTION:Last day of classes
+LOCATION:
+SUMMARY:Spring Last Day of Classes
+URL;VALUE=URI:https://calendar.up.edu/event/spring-last-day-of-classes
+CATEGORIES:Academic Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591028183
+DTSTART:20260424T190500Z
+DTEND:20260424T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51888349287670
 DTSTART:20260424T220000Z
+DTEND:20260425T010000Z
+DESCRIPTION:Join the Donald P. Shiley School of Engineering as we showcase 
+ our Senior Capstone Projects! Student teams will be sharing their final pr
+ oject designs\, plans\, and prototypes in 20-minute presentations.
 GEO:45.571758;-122.727965
 LOCATION:Shiley Hall
-SEQUENCE:0
 SUMMARY:Shiley Showcase
-UID:tag:localist.com\,2008:EventInstance_51888349287670
-URL:https://calendar.up.edu/event/shiley-showcase
+URL;VALUE=URI:https://calendar.up.edu/event/shiley-showcase
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Santa Clara\nStreaming Video
- : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/w
- est-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferen
- ceshttps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/
- west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confere
- nces
-DTEND:20260425T040000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260425T010000Z
-LOCATION:Santa Clara\, Calif.\, Schott Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Santa Clara
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364686716
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-santa-
- clara
+DTSTART:20260425T010000Z
+DTEND:20260425T040000Z
+DESCRIPTION:University of Portland Baseball at Santa Clara\nStreaming Video
+ : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/
+ west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confer
+ enceshttps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e9
+ 67/west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Con
+ ferences
+LOCATION:Santa Clara\, Calif.\, Schott Stadium
+SUMMARY:University of Portland Baseball at Santa Clara
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-santa-clara
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Rowing at Triton Invitational
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260425
-LOCATION:Chula Vista\, Calif.\, Elite Athlete Training Center
-SEQUENCE:0
-SUMMARY:University of Portland Rowing at Triton Invitational
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50849068034630
-URL:https://calendar.up.edu/event/university-of-portland-rowing-at-triton-i
- nvitational
+DTSTART;VALUE=DATE:20260425
+DESCRIPTION:University of Portland Rowing at Triton Invitational
+LOCATION:Chula Vista\, Calif.\, Elite Athlete Training Center
+SUMMARY:University of Portland Rowing at Triton Invitational
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-rowing-a
+ t-triton-invitational
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Santa Clara\nStreaming Video
- : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/w
- est-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferen
- ces
-DTEND:20260425T230000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260425T200000Z
-LOCATION:Santa Clara\, Calif.\, Schott Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Santa Clara
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364700035
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-santa-
- clara-5806
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
- bration of Mass in the Chapel of Christ the Teacher. All are welcome.
-DTEND:20260427T063000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260426T173000Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Sunday Mass 
-UID:tag:localist.com\,2008:EventInstance_50827309961366
-URL:https://calendar.up.edu/event/sunday-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTART:20260425T200000Z
+DTEND:20260425T230000Z
 DESCRIPTION:University of Portland Baseball at Santa Clara\nStreaming Video
- : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/w
- est-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferen
- ces
-DTEND:20260426T220000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260426T190000Z
+ : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/
+ west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confer
+ ences
 LOCATION:Santa Clara\, Calif.\, Schott Stadium
-SEQUENCE:0
 SUMMARY:University of Portland Baseball at Santa Clara
-UID:tag:localist.com\,2008:EventInstance_50831364714378
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-santa-
- clara-2633
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-santa-clara-5806
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827309961366
+DTSTART:20260426T173000Z
+DTEND:20260427T063000Z
 DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
  bration of Mass in the Chapel of Christ the Teacher. All are welcome.
-DTEND:20260427T001500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260426T231500Z
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Sunday Mass 
-UID:tag:localist.com\,2008:EventInstance_50827322821796
-URL:https://calendar.up.edu/event/sunday-mass-3864
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Semester examinations
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260427
-LOCATION:
-SEQUENCE:0
-SUMMARY:Spring Finals Week
-UID:tag:localist.com\,2008:EventInstance_50835905107210
-URL:https://calendar.up.edu/event/spring-finals-week
-END:VEVENT
-BEGIN:VEVENT
+URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass
 CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260427T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260427T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591029210
-URL:https://calendar.up.edu/event/daily-mass
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Semester examinations
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260428
-LOCATION:
-SEQUENCE:0
-SUMMARY:Spring Finals Week
-UID:tag:localist.com\,2008:EventInstance_50835905128716
-URL:https://calendar.up.edu/event/spring-finals-week
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260428T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260428T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591030235
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Semester examinations
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260429
-LOCATION:
-SEQUENCE:0
-SUMMARY:Spring Finals Week
-UID:tag:localist.com\,2008:EventInstance_50835905143053
-URL:https://calendar.up.edu/event/spring-finals-week
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260429T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260429T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591031260
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Semester examinations
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260430
-LOCATION:
-SEQUENCE:0
-SUMMARY:Spring Finals Week
-UID:tag:localist.com\,2008:EventInstance_50835905158414
-URL:https://calendar.up.edu/event/spring-finals-week
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260430T193500Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260430T190500Z
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
-SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591032285
-URL:https://calendar.up.edu/event/daily-mass
-END:VEVENT
-BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364714378
+DTSTART:20260426T190000Z
+DTEND:20260426T220000Z
+DESCRIPTION:University of Portland Baseball at Santa Clara\nStreaming Video
+ : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/
+ west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confer
+ ences
+LOCATION:Santa Clara\, Calif.\, Schott Stadium
+SUMMARY:University of Portland Baseball at Santa Clara
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-santa-clara-2633
 CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs San Diego\nStreaming Video: 
- https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/wes
- t-coast-conference
-DTEND:20260501T040000Z
-DTSTAMP:20260511T025309Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827322821796
+DTSTART:20260426T231500Z
+DTEND:20260427T001500Z
+DESCRIPTION:Join the campus community every Sunday at 10:30 am for the cele
+ bration of Mass in the Chapel of Christ the Teacher. All are welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Sunday Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass-3864
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50835905107210
+DTSTART;VALUE=DATE:20260427
+DESCRIPTION:Semester examinations
+LOCATION:
+SUMMARY:Spring Finals Week
+URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
+CATEGORIES:Academic Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591029210
+DTSTART:20260427T190500Z
+DTEND:20260427T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50835905128716
+DTSTART;VALUE=DATE:20260428
+DESCRIPTION:Semester examinations
+LOCATION:
+SUMMARY:Spring Finals Week
+URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
+CATEGORIES:Academic Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591030235
+DTSTART:20260428T190500Z
+DTEND:20260428T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50835905143053
+DTSTART;VALUE=DATE:20260429
+DESCRIPTION:Semester examinations
+LOCATION:
+SUMMARY:Spring Finals Week
+URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
+CATEGORIES:Academic Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591031260
+DTSTART:20260429T190500Z
+DTEND:20260429T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50835905158414
+DTSTART;VALUE=DATE:20260430
+DESCRIPTION:Semester examinations
+LOCATION:
+SUMMARY:Spring Finals Week
+URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
+CATEGORIES:Academic Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591032285
+DTSTART:20260430T190500Z
+DTEND:20260430T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
+GEO:45.57891;-122.726745
+LOCATION:Chapel of Christ the Teacher
+SUMMARY:Daily Mass 
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364728721
 DTSTART:20260501T010000Z
+DTEND:20260501T040000Z
+DESCRIPTION:University of Portland Baseball vs San Diego\nStreaming Video: 
+ https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/we
+ st-coast-conference
 GEO:45.574398;-122.729067
 LOCATION:Joe Etzel Field
-SEQUENCE:0
 SUMMARY:University of Portland Baseball vs San Diego
-UID:tag:localist.com\,2008:EventInstance_50831364728721
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-san-di
- ego
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-san-diego
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564184571
+DTSTART;VALUE=DATE:20260501
 DESCRIPTION:University of Portland Men's Track and Field vs OSU High Perfor
  mance
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260501
 LOCATION:Corvallis\, Ore.\, Whyte Track and Field Center
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs OSU High Performanc
  e
-UID:tag:localist.com\,2008:EventInstance_51335564184571
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-osu-high-performance
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-osu-high-performance
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564167156
+DTSTART;VALUE=DATE:20260501
 DESCRIPTION:University of Portland Women's Track and Field vs OSU High Perf
  ormance
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260501
 LOCATION:Corvallis\, Ore.\, Whyte Track and Field Center
-SEQUENCE:0
 SUMMARY:University of Portland Women's Track and Field vs OSU High Performa
  nce
-UID:tag:localist.com\,2008:EventInstance_51335564167156
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-osu-high-performance
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-osu-high-performance
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Religious/Spiritual
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All are
-  welcome.
-DTEND:20260501T193500Z
-DTSTAMP:20260511T025309Z
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50827591032286
 DTSTART:20260501T190500Z
+DTEND:20260501T193500Z
+DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
+  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
+ e welcome.
 GEO:45.57891;-122.726745
 LOCATION:Chapel of Christ the Teacher
-SEQUENCE:0
 SUMMARY:Daily Mass 
-UID:tag:localist.com\,2008:EventInstance_50827591032286
-URL:https://calendar.up.edu/event/daily-mass
+URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
+CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs San Diego\nStreaming Video: 
- https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/wes
- t-coast-conference
-DTEND:20260502T040000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260502T010000Z
-LOCATION:Portland\, Ore.\, Joe Etzel Field
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs San Diego
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364741016
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-san-di
- ego-3728
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:
-DESCRIPTION:Commencement Weekend Schedule of Events\n\n \n\nSaturday\, May 
- 2\, 2026\n\nGraduate School Commencement Ceremony\nChiles Center\n1:00 p.m.
- \n\nDoors open to the public at 12:15 p.m.No tickets required.Sunday\, May 
- 3\, 2026\n\nUndergraduate Commencement Ceremony\nChiles Center\n11:00 a.m.\
- n\nDoors open to the public at 9:30 a.m.Tickets required. \n\nFind complete
-  information on all ceremonies and schedules here: Commencement - Event Sch
- edules\n\nInformation for families and visitors can be found here: Commence
- ment - Information for Guests\n\n \n\nCongratulations to all of our Pilot g
- raduates!
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260502
-GEO:45.575097;-122.728206
-LOCATION:Chiles Center
-SEQUENCE:0
-SUMMARY:Commencement
-UID:tag:localist.com\,2008:EventInstance_50835905229076
-URL:https://calendar.up.edu/event/commencement
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTART:20260502T010000Z
+DTEND:20260502T040000Z
 DESCRIPTION:University of Portland Baseball vs San Diego\nStreaming Video: 
- https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/wes
- t-coast-conference
-DTEND:20260502T220000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260502T190000Z
+ https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/we
+ st-coast-conference
 LOCATION:Portland\, Ore.\, Joe Etzel Field
-SEQUENCE:0
 SUMMARY:University of Portland Baseball vs San Diego
-UID:tag:localist.com\,2008:EventInstance_50831364756383
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-san-di
- ego-225
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-san-diego-3728
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50835905229076
+DTSTART;VALUE=DATE:20260502
 DESCRIPTION:Commencement Weekend Schedule of Events\n\n \n\nSaturday\, May 
- 2\, 2026\n\nGraduate School Commencement Ceremony\nChiles Center\n1:00 p.m.
- \n\nDoors open to the public at 12:15 p.m.No tickets required.Sunday\, May 
- 3\, 2026\n\nUndergraduate Commencement Ceremony\nChiles Center\n11:00 a.m.\
- n\nDoors open to the public at 9:30 a.m.Tickets required. \n\nFind complete
-  information on all ceremonies and schedules here: Commencement - Event Sch
- edules\n\nInformation for families and visitors can be found here: Commence
- ment - Information for Guests\n\n \n\nCongratulations to all of our Pilot g
- raduates!
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260503
+ 2\, 2026\n\nGraduate School Commencement Ceremony\nChiles Center\n1:00 p.m
+ .\n\nDoors open to the public at 12:15 p.m.No tickets required.Sunday\, Ma
+ y 3\, 2026\n\nUndergraduate Commencement Ceremony\nChiles Center\n11:00 a.
+ m.\n\nDoors open to the public at 9:30 a.m.Tickets required. \n\nFind comp
+ lete information on all ceremonies and schedules here: Commencement - Even
+ t Schedules\n\nInformation for families and visitors can be found here: Co
+ mmencement - Information for Guests\n\n \n\nCongratulations to all of our 
+ Pilot graduates!
 GEO:45.575097;-122.728206
 LOCATION:Chiles Center
-SEQUENCE:0
 SUMMARY:Commencement
+URL;VALUE=URI:https://calendar.up.edu/event/commencement
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364756383
+DTSTART:20260502T190000Z
+DTEND:20260502T220000Z
+DESCRIPTION:University of Portland Baseball vs San Diego\nStreaming Video: 
+ https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/we
+ st-coast-conference
+LOCATION:Portland\, Ore.\, Joe Etzel Field
+SUMMARY:University of Portland Baseball vs San Diego
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-san-diego-225
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905243414
-URL:https://calendar.up.edu/event/commencement
+DTSTART;VALUE=DATE:20260503
+DESCRIPTION:Commencement Weekend Schedule of Events\n\n \n\nSaturday\, May 
+ 2\, 2026\n\nGraduate School Commencement Ceremony\nChiles Center\n1:00 p.m
+ .\n\nDoors open to the public at 12:15 p.m.No tickets required.Sunday\, Ma
+ y 3\, 2026\n\nUndergraduate Commencement Ceremony\nChiles Center\n11:00 a.
+ m.\n\nDoors open to the public at 9:30 a.m.Tickets required. \n\nFind comp
+ lete information on all ceremonies and schedules here: Commencement - Even
+ t Schedules\n\nInformation for families and visitors can be found here: Co
+ mmencement - Information for Guests\n\n \n\nCongratulations to all of our 
+ Pilot graduates!
+GEO:45.575097;-122.728206
+LOCATION:Chiles Center
+SUMMARY:Commencement
+URL;VALUE=URI:https://calendar.up.edu/event/commencement
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:All grades due in Registrar's Office 9am
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260505
-LOCATION:
-SEQUENCE:0
-SUMMARY:Spring Grades Due
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905290524
-URL:https://calendar.up.edu/event/spring-grades-due
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:All grades due in Registrar's Office 9am
+LOCATION:
+SUMMARY:Spring Grades Due
+URL;VALUE=URI:https://calendar.up.edu/event/spring-grades-due
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs Oregon State\nTV: KUNP-TV\nS
- treaming Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-
- 66993e29e967/west-coast-conference
-DTEND:20260506T040000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260506T010000Z
-LOCATION:Hillsboro\, Ore.\, Hillsboro Ballpark
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs Oregon State
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_52016823627175
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-oregon
- -state-8108
+DTSTART:20260506T010000Z
+DTEND:20260506T040000Z
+DESCRIPTION:University of Portland Baseball vs Oregon State\nTV: KUNP-TV\nS
+ treaming Video: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63
+ -66993e29e967/west-coast-conference
+LOCATION:Hillsboro\, Ore.\, Hillsboro Ballpark
+SUMMARY:University of Portland Baseball vs Oregon State
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-oregon-state-8108
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs Oregon Twilight
- \nStreaming Video: https://oregontwilight.runnerspace.com/eprofile.php?even
- t_id=17&do=videos&video_id=455670
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260508
-LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs Oregon Twilight
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564265477
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-oregon-preview
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs Oregon Twilig
- ht\nStreaming Video: https://oregontwilight.runnerspace.com/eprofile.php?ev
- ent_id=17&do=videos&video_id=455670
-DTSTAMP:20260511T025309Z
 DTSTART;VALUE=DATE:20260508
+DESCRIPTION:University of Portland Men's Track and Field vs Oregon Twilight
+ \nStreaming Video: https://oregontwilight.runnerspace.com/eprofile.php?eve
+ nt_id=17&do=videos&video_id=455670
 LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs Oregon Twilight
+SUMMARY:University of Portland Men's Track and Field vs Oregon Twilight
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-oregon-preview
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564305420
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-oregon-preview
+DTSTART;VALUE=DATE:20260508
+DESCRIPTION:University of Portland Women's Track and Field vs Oregon Twilig
+ ht\nStreaming Video: https://oregontwilight.runnerspace.com/eprofile.php?e
+ vent_id=17&do=videos&video_id=455670
+LOCATION:Eugene\, Ore.\, Hayward Field
+SUMMARY:University of Portland Women's Track and Field vs Oregon Twilight
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-oregon-preview
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Pepperdine\nStreaming Video:
-  https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/we
- st-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferenc
- es
-DTEND:20260509T010000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260508T220000Z
-LOCATION:Malibu\, Calif.\, Eddy D. Field Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Pepperdine
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364785069
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-pepper
- dine
+DTSTART:20260508T220000Z
+DTEND:20260509T010000Z
+DESCRIPTION:University of Portland Baseball at Pepperdine\nStreaming Video:
+  https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/w
+ est-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confere
+ nces
+LOCATION:Malibu\, Calif.\, Eddy D. Field Stadium
+SUMMARY:University of Portland Baseball at Pepperdine
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-pepperdine
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564386331
+DTSTART;VALUE=DATE:20260509
 DESCRIPTION:University of Portland Men's Track and Field vs Portland Twilig
  ht
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260509
 LOCATION:Portland\, Ore.\, Eldon Fix Track
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs Portland Twilight
-UID:tag:localist.com\,2008:EventInstance_51335564386331
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-portland-twilight-107
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-portland-twilight-107
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_52441466118211
+DTSTART;VALUE=DATE:20260509
 DESCRIPTION:University of Portland Men's Track and Field vs Portland Twilig
  ht \nStreaming Video: https://portland-twilight.runnerspace.com/
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260509
 LOCATION:Portland\, Ore.\, Eldon Fix Track
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs Portland Twilight
-UID:tag:localist.com\,2008:EventInstance_52441466118211
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-portland-twilight-5467
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-portland-twilight-5467
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564367892
+DTSTART;VALUE=DATE:20260509
 DESCRIPTION:University of Portland Women's Track and Field vs Portland Twil
  ight \nStreaming Video: https://portland-twilight.runnerspace.com/
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260509
 LOCATION:Portland\, Ore.\, Eldon Fix Track
-SEQUENCE:0
 SUMMARY:University of Portland Women's Track and Field vs Portland Twilight
-UID:tag:localist.com\,2008:EventInstance_51335564367892
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-portland-twilight-1286
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-portland-twilight-1286
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Pepperdine\nStreaming Video:
-  https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/we
- st-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferenc
- es
-DTEND:20260510T000000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260509T210000Z
-LOCATION:Malibu\, Calif.\, Eddy D. Field Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Pepperdine
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364799412
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-pepper
- dine-9730
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTART:20260509T210000Z
+DTEND:20260510T000000Z
 DESCRIPTION:University of Portland Baseball at Pepperdine\nStreaming Video:
-  https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/we
- st-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Conferenc
- es
-DTEND:20260510T220000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260510T190000Z
-LOCATION:Malibu\, Calif.\, Eddy D. Field Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Pepperdine
-UID:tag:localist.com\,2008:EventInstance_50831364815803
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-pepper
- dine-4914
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball at Oregon State\nStreaming Vide
- o: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/
- west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confere
+  https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/w
+ est-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confere
  nces
-DTEND:20260513T033000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260513T003000Z
-LOCATION:Corvallis\, Ore.\, Goss Stadium
-SEQUENCE:0
-SUMMARY:University of Portland Baseball at Oregon State
-UID:tag:localist.com\,2008:EventInstance_50840279919927
-URL:https://calendar.up.edu/event/university-of-portland-baseball-at-oregon
- -state-1189
+LOCATION:Malibu\, Calif.\, Eddy D. Field Stadium
+SUMMARY:University of Portland Baseball at Pepperdine
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-pepperdine-9730
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364815803
+DTSTART:20260510T190000Z
+DTEND:20260510T220000Z
+DESCRIPTION:University of Portland Baseball at Pepperdine\nStreaming Video:
+  https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/w
+ est-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confere
+ nces
+LOCATION:Malibu\, Calif.\, Eddy D. Field Stadium
+SUMMARY:University of Portland Baseball at Pepperdine
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-pepperdine-4914
 CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50840279919927
+DTSTART:20260513T003000Z
+DTEND:20260513T033000Z
+DESCRIPTION:University of Portland Baseball at Oregon State\nStreaming Vide
+ o: https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967
+ /west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confe
+ rences
+LOCATION:Corvallis\, Ore.\, Goss Stadium
+SUMMARY:University of Portland Baseball at Oregon State
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -at-oregon-state-1189
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564474405
+DTSTART;VALUE=DATE:20260514
 DESCRIPTION:University of Portland Men's Track and Field vs George Fox Fina
  l Qualifier
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260514
 LOCATION:Newberg\, Ore.\, Stoffer Family Stadium
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs George Fox Final Qu
  alifier
-UID:tag:localist.com\,2008:EventInstance_51335564474405
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-george-fox-final-qualifier-737
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-george-fox-final-qualifier-737
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564491820
+DTSTART;VALUE=DATE:20260514
 DESCRIPTION:University of Portland Women's Track and Field vs George Fox Fi
  nal Qualifier
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260514
 LOCATION:Newberg\, Ore.\, Stoffer Family Stadium
-SEQUENCE:0
 SUMMARY:University of Portland Women's Track and Field vs George Fox Final 
  Qualifier
-UID:tag:localist.com\,2008:EventInstance_51335564491820
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-george-fox-final-qualifier
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-george-fox-final-qualifier
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs Pacific\nStreaming Video: ht
- tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west-
- coast-conference
-DTEND:20260515T040000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260515T010000Z
-GEO:45.574398;-122.729067
-LOCATION:Joe Etzel Field
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs Pacific
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364872137
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-pacifi
- c
+DTSTART:20260515T010000Z
+DTEND:20260515T040000Z
+DESCRIPTION:University of Portland Baseball vs Pacific\nStreaming Video: ht
+ tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west
+ -coast-conference
+GEO:45.574398;-122.729067
+LOCATION:Joe Etzel Field
+SUMMARY:University of Portland Baseball vs Pacific
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-pacific
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Rowing at WCC Championships Day 1
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260515
-LOCATION:Gold River\, Calif.\, Lake Natoma
-SEQUENCE:0
-SUMMARY:University of Portland Rowing at WCC Championships Day 1
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50849068186233
-URL:https://calendar.up.edu/event/university-of-portland-rowing-at-wcc-cham
- pionships-day-1
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Baseball vs Pacific\nStreaming Video: ht
- tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west-
- coast-conference
-DTEND:20260516T040000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260516T010000Z
-GEO:45.574398;-122.729067
-LOCATION:Joe Etzel Field
-SEQUENCE:0
-SUMMARY:University of Portland Baseball vs Pacific
-UID:tag:localist.com\,2008:EventInstance_50831364892624
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-pacifi
- c-8493
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Rowing at WCC Championships Day 2
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260516
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:University of Portland Rowing at WCC Championships Day 1
 LOCATION:Gold River\, Calif.\, Lake Natoma
-SEQUENCE:0
-SUMMARY:University of Portland Rowing at WCC Championships Day 2
-UID:tag:localist.com\,2008:EventInstance_50849068213892
-URL:https://calendar.up.edu/event/university-of-portland-rowing-at-wcc-cham
- pionships-day-2
+SUMMARY:University of Portland Rowing at WCC Championships Day 1
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-rowing-a
+ t-wcc-championships-day-1
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50831364892624
+DTSTART:20260516T010000Z
+DTEND:20260516T040000Z
 DESCRIPTION:University of Portland Baseball vs Pacific\nStreaming Video: ht
- tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west-
- coast-conference
-DTEND:20260516T230000Z
-DTSTAMP:20260511T025309Z
-DTSTART:20260516T200000Z
+ tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west
+ -coast-conference
 GEO:45.574398;-122.729067
 LOCATION:Joe Etzel Field
-SEQUENCE:0
 SUMMARY:University of Portland Baseball vs Pacific
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-pacific-8493
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_50849068213892
+DTSTART;VALUE=DATE:20260516
+DESCRIPTION:University of Portland Rowing at WCC Championships Day 2
+LOCATION:Gold River\, Calif.\, Lake Natoma
+SUMMARY:University of Portland Rowing at WCC Championships Day 2
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-rowing-a
+ t-wcc-championships-day-2
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50831364905943
-URL:https://calendar.up.edu/event/university-of-portland-baseball-vs-pacifi
- c-8653
+DTSTART:20260516T200000Z
+DTEND:20260516T230000Z
+DESCRIPTION:University of Portland Baseball vs Pacific\nStreaming Video: ht
+ tps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/west
+ -coast-conference
+GEO:45.574398;-122.729067
+LOCATION:Joe Etzel Field
+SUMMARY:University of Portland Baseball vs Pacific
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
+ -vs-pacific-8653
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:First 6 Week session starts
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260518
-LOCATION:
-SEQUENCE:0
-SUMMARY:First Summer Session Begins
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905321251
-URL:https://calendar.up.edu/event/first-summer-session-begins
+DTSTART;VALUE=DATE:20260518
+DESCRIPTION:First 6 Week session starts
+LOCATION:
+SUMMARY:First Summer Session Begins
+URL;VALUE=URI:https://calendar.up.edu/event/first-summer-session-begins
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Memorial Day - University Closed
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260525
-LOCATION:
-SEQUENCE:0
-SUMMARY:Memorial Day
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905350954
-URL:https://calendar.up.edu/event/memorial-day
+DTSTART;VALUE=DATE:20260525
+DESCRIPTION:Memorial Day - University Closed
+LOCATION:
+SUMMARY:Memorial Day
+URL;VALUE=URI:https://calendar.up.edu/event/memorial-day
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
-  Round
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260527
-LOCATION:Fayetteville\, Ark.\, John McDonnell Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs NCAA West First Rou
- nd
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564643391
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-ncaa-west-first-round-7526
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
- st Round
-DTSTAMP:20260511T025309Z
 DTSTART;VALUE=DATE:20260527
+DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
+  Round
 LOCATION:Fayetteville\, Ark.\, John McDonnell Field
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs NCAA West First R
- ound
+SUMMARY:University of Portland Men's Track and Field vs NCAA West First Rou
+ nd
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-ncaa-west-first-round-7526
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564563510
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-ncaa-west-first-round-9853
+DTSTART;VALUE=DATE:20260527
+DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
+ st Round
+LOCATION:Fayetteville\, Ark.\, John McDonnell Field
+SUMMARY:University of Portland Women's Track and Field vs NCAA West First R
+ ound
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-ncaa-west-first-round-9853
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
-  Round
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260528
-LOCATION:Fayetteville\, Ark.\, John McDonnell Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs NCAA West First Rou
- nd
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564664900
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-ncaa-west-first-round-7526
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
- st Round
-DTSTAMP:20260511T025309Z
 DTSTART;VALUE=DATE:20260528
-LOCATION:Fayetteville\, Ark.\, John McDonnell Field
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs NCAA West First R
- ound
-UID:tag:localist.com\,2008:EventInstance_51335564581947
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-ncaa-west-first-round-9853
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
   Round
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260529
 LOCATION:Fayetteville\, Ark.\, John McDonnell Field
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs NCAA West First Rou
  nd
-UID:tag:localist.com\,2008:EventInstance_51335564722245
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-ncaa-west-first-round-7526
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-ncaa-west-first-round-7526
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564581947
+DTSTART;VALUE=DATE:20260528
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
  st Round
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260529
 LOCATION:Fayetteville\, Ark.\, John McDonnell Field
-SEQUENCE:0
 SUMMARY:University of Portland Women's Track and Field vs NCAA West First R
  ound
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-ncaa-west-first-round-9853
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564722245
+DTSTART;VALUE=DATE:20260529
+DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
+  Round
+LOCATION:Fayetteville\, Ark.\, John McDonnell Field
+SUMMARY:University of Portland Men's Track and Field vs NCAA West First Rou
+ nd
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-ncaa-west-first-round-7526
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564595260
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-ncaa-west-first-round-9853
+DTSTART;VALUE=DATE:20260529
+DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
+ st Round
+LOCATION:Fayetteville\, Ark.\, John McDonnell Field
+SUMMARY:University of Portland Women's Track and Field vs NCAA West First R
+ ound
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-ncaa-west-first-round-9853
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic,Conference / Symposium
-DESCRIPTION:REGISTRATION IS OPEN!\n\nEarly Bird Registration is happening n
- ow and affordable\, on campus lodging is available to reserve until May 15t
- h! \n\n \n\nBuilding on Our Foundation: From Principles to Practice \n\nFol
- lowing our inaugural conference's resounding success with participants from
-  19 Catholic institutions\, we return with deeper insights and practical to
- ols as AI reshapes education at inhuman speed. Since our first gathering in
-  October of 2024\, AI has fundamentally transformed academic landscapes—fro
- m research methodologies to student services\, from classroom instruction t
- o campus operations. \n\nThis year's conference emphasizes hands-on learnin
- g and specialized application\, featuring expanded workshops and targeted b
- reakout sessions designed for your specific role and discipline\, ensuring 
- you leave with immediately applicable strategies and tools. \n\n \n\nWHAT'S
-  NEW FOR 2026\n\nWe've designed a highly curated schedule offering hands-on
-  workshops and interactive sessions designed to equip educators and leaders
-  with practical AI strategies. Highlights include:\n\nWorkshops on ethical 
- AI integration\, practical AI literacy for non-technical audiences\, and va
- lues-driven engagement with AI tools.\n\nCase studies and tutorials focused
-  on supporting first-generation students\, building AI literacy\, and align
- ing institutional mission with AI strategy.\n\nImmersive sessions on reflec
- tive AI use\, leadership formation\, and the integration of Catholic educat
- ional values in technology adoption.\n\nWhether you're seeking to deepen yo
- ur understanding of AI in education or looking for actionable tools to brin
- g back to your institution\, our workshop-heavy program offers something fo
- r everyone\n\n \n\nThe College of Arts and Sciences and the Dundon-Berchtol
- d Institute for Moral Formation and Applied Ethics at the University of Por
- tland are pleased to host this essential gathering. As an independently gov
- erned Catholic university guided by the Congregation of Holy Cross\, the Un
- iversity of Portland continues its mission of teaching and learning\, faith
-  and formation\, and service and leadership in addressing the critical inte
- rsection of technology and human dignity. \n\n \n\nThank you to our confere
- nce sponsors!
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260603
-GEO:45.571791;-122.724529
-LOCATION:University of Portland
-SEQUENCE:0
-SUMMARY:Catholic Education and Artificial Intelligence: Principled Educatio
- nal Leadership for the AI Revolution 
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51082552012963
-URL:https://calendar.up.edu/event/catholic-education-and-artificial-intelli
- gence
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Academic,Conference / Symposium
+DTSTART;VALUE=DATE:20260603
 DESCRIPTION:REGISTRATION IS OPEN!\n\nEarly Bird Registration is happening n
- ow and affordable\, on campus lodging is available to reserve until May 15t
- h! \n\n \n\nBuilding on Our Foundation: From Principles to Practice \n\nFol
- lowing our inaugural conference's resounding success with participants from
-  19 Catholic institutions\, we return with deeper insights and practical to
- ols as AI reshapes education at inhuman speed. Since our first gathering in
-  October of 2024\, AI has fundamentally transformed academic landscapes—fro
- m research methodologies to student services\, from classroom instruction t
- o campus operations. \n\nThis year's conference emphasizes hands-on learnin
- g and specialized application\, featuring expanded workshops and targeted b
- reakout sessions designed for your specific role and discipline\, ensuring 
- you leave with immediately applicable strategies and tools. \n\n \n\nWHAT'S
-  NEW FOR 2026\n\nWe've designed a highly curated schedule offering hands-on
-  workshops and interactive sessions designed to equip educators and leaders
-  with practical AI strategies. Highlights include:\n\nWorkshops on ethical 
- AI integration\, practical AI literacy for non-technical audiences\, and va
- lues-driven engagement with AI tools.\n\nCase studies and tutorials focused
-  on supporting first-generation students\, building AI literacy\, and align
- ing institutional mission with AI strategy.\n\nImmersive sessions on reflec
- tive AI use\, leadership formation\, and the integration of Catholic educat
- ional values in technology adoption.\n\nWhether you're seeking to deepen yo
- ur understanding of AI in education or looking for actionable tools to brin
- g back to your institution\, our workshop-heavy program offers something fo
- r everyone\n\n \n\nThe College of Arts and Sciences and the Dundon-Berchtol
- d Institute for Moral Formation and Applied Ethics at the University of Por
- tland are pleased to host this essential gathering. As an independently gov
- erned Catholic university guided by the Congregation of Holy Cross\, the Un
- iversity of Portland continues its mission of teaching and learning\, faith
-  and formation\, and service and leadership in addressing the critical inte
- rsection of technology and human dignity. \n\n \n\nThank you to our confere
- nce sponsors!
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260604
+ ow and affordable\, on campus lodging is available to reserve until May 15
+ th! \n\n \n\nBuilding on Our Foundation: From Principles to Practice \n\nF
+ ollowing our inaugural conference's resounding success with participants f
+ rom 19 Catholic institutions\, we return with deeper insights and practica
+ l tools as AI reshapes education at inhuman speed. Since our first gatheri
+ ng in October of 2024\, AI has fundamentally transformed academic landscap
+ es—from research methodologies to student services\, from classroom inst
+ ruction to campus operations. \n\nThis year's conference emphasizes hands-
+ on learning and specialized application\, featuring expanded workshops and
+  targeted breakout sessions designed for your specific role and discipline
+ \, ensuring you leave with immediately applicable strategies and tools. \n
+ \n \n\nWHAT'S NEW FOR 2026\n\nWe've designed a highly curated schedule off
+ ering hands-on workshops and interactive sessions designed to equip educat
+ ors and leaders with practical AI strategies. Highlights include:\n\nWorks
+ hops on ethical AI integration\, practical AI literacy for non-technical a
+ udiences\, and values-driven engagement with AI tools.\n\nCase studies and
+  tutorials focused on supporting first-generation students\, building AI l
+ iteracy\, and aligning institutional mission with AI strategy.\n\nImmersiv
+ e sessions on reflective AI use\, leadership formation\, and the integrati
+ on of Catholic educational values in technology adoption.\n\nWhether you'r
+ e seeking to deepen your understanding of AI in education or looking for a
+ ctionable tools to bring back to your institution\, our workshop-heavy pro
+ gram offers something for everyone\n\n \n\nThe College of Arts and Science
+ s and the Dundon-Berchtold Institute for Moral Formation and Applied Ethic
+ s at the University of Portland are pleased to host this essential gatheri
+ ng. As an independently governed Catholic university guided by the Congreg
+ ation of Holy Cross\, the University of Portland continues its mission of 
+ teaching and learning\, faith and formation\, and service and leadership i
+ n addressing the critical intersection of technology and human dignity. \n
+ \n \n\nThank you to our conference sponsors!
 GEO:45.571791;-122.724529
 LOCATION:University of Portland
-SEQUENCE:0
 SUMMARY:Catholic Education and Artificial Intelligence: Principled Educatio
  nal Leadership for the AI Revolution 
+URL;VALUE=URI:https://calendar.up.edu/event/catholic-education-and-artifici
+ al-intelligence
+CATEGORIES:Academic
+CATEGORIES:Conference / Symposium
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51082552013988
-URL:https://calendar.up.edu/event/catholic-education-and-artificial-intelli
- gence
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Academic,Conference / Symposium
+DTSTART;VALUE=DATE:20260604
 DESCRIPTION:REGISTRATION IS OPEN!\n\nEarly Bird Registration is happening n
- ow and affordable\, on campus lodging is available to reserve until May 15t
- h! \n\n \n\nBuilding on Our Foundation: From Principles to Practice \n\nFol
- lowing our inaugural conference's resounding success with participants from
-  19 Catholic institutions\, we return with deeper insights and practical to
- ols as AI reshapes education at inhuman speed. Since our first gathering in
-  October of 2024\, AI has fundamentally transformed academic landscapes—fro
- m research methodologies to student services\, from classroom instruction t
- o campus operations. \n\nThis year's conference emphasizes hands-on learnin
- g and specialized application\, featuring expanded workshops and targeted b
- reakout sessions designed for your specific role and discipline\, ensuring 
- you leave with immediately applicable strategies and tools. \n\n \n\nWHAT'S
-  NEW FOR 2026\n\nWe've designed a highly curated schedule offering hands-on
-  workshops and interactive sessions designed to equip educators and leaders
-  with practical AI strategies. Highlights include:\n\nWorkshops on ethical 
- AI integration\, practical AI literacy for non-technical audiences\, and va
- lues-driven engagement with AI tools.\n\nCase studies and tutorials focused
-  on supporting first-generation students\, building AI literacy\, and align
- ing institutional mission with AI strategy.\n\nImmersive sessions on reflec
- tive AI use\, leadership formation\, and the integration of Catholic educat
- ional values in technology adoption.\n\nWhether you're seeking to deepen yo
- ur understanding of AI in education or looking for actionable tools to brin
- g back to your institution\, our workshop-heavy program offers something fo
- r everyone\n\n \n\nThe College of Arts and Sciences and the Dundon-Berchtol
- d Institute for Moral Formation and Applied Ethics at the University of Por
- tland are pleased to host this essential gathering. As an independently gov
- erned Catholic university guided by the Congregation of Holy Cross\, the Un
- iversity of Portland continues its mission of teaching and learning\, faith
-  and formation\, and service and leadership in addressing the critical inte
- rsection of technology and human dignity. \n\n \n\nThank you to our confere
- nce sponsors!
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260605
+ ow and affordable\, on campus lodging is available to reserve until May 15
+ th! \n\n \n\nBuilding on Our Foundation: From Principles to Practice \n\nF
+ ollowing our inaugural conference's resounding success with participants f
+ rom 19 Catholic institutions\, we return with deeper insights and practica
+ l tools as AI reshapes education at inhuman speed. Since our first gatheri
+ ng in October of 2024\, AI has fundamentally transformed academic landscap
+ es—from research methodologies to student services\, from classroom inst
+ ruction to campus operations. \n\nThis year's conference emphasizes hands-
+ on learning and specialized application\, featuring expanded workshops and
+  targeted breakout sessions designed for your specific role and discipline
+ \, ensuring you leave with immediately applicable strategies and tools. \n
+ \n \n\nWHAT'S NEW FOR 2026\n\nWe've designed a highly curated schedule off
+ ering hands-on workshops and interactive sessions designed to equip educat
+ ors and leaders with practical AI strategies. Highlights include:\n\nWorks
+ hops on ethical AI integration\, practical AI literacy for non-technical a
+ udiences\, and values-driven engagement with AI tools.\n\nCase studies and
+  tutorials focused on supporting first-generation students\, building AI l
+ iteracy\, and aligning institutional mission with AI strategy.\n\nImmersiv
+ e sessions on reflective AI use\, leadership formation\, and the integrati
+ on of Catholic educational values in technology adoption.\n\nWhether you'r
+ e seeking to deepen your understanding of AI in education or looking for a
+ ctionable tools to bring back to your institution\, our workshop-heavy pro
+ gram offers something for everyone\n\n \n\nThe College of Arts and Science
+ s and the Dundon-Berchtold Institute for Moral Formation and Applied Ethic
+ s at the University of Portland are pleased to host this essential gatheri
+ ng. As an independently governed Catholic university guided by the Congreg
+ ation of Holy Cross\, the University of Portland continues its mission of 
+ teaching and learning\, faith and formation\, and service and leadership i
+ n addressing the critical intersection of technology and human dignity. \n
+ \n \n\nThank you to our conference sponsors!
 GEO:45.571791;-122.724529
 LOCATION:University of Portland
-SEQUENCE:0
 SUMMARY:Catholic Education and Artificial Intelligence: Principled Educatio
  nal Leadership for the AI Revolution 
+URL;VALUE=URI:https://calendar.up.edu/event/catholic-education-and-artifici
+ al-intelligence
+CATEGORIES:Academic
+CATEGORIES:Conference / Symposium
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51082552015013
-URL:https://calendar.up.edu/event/catholic-education-and-artificial-intelli
- gence
+DTSTART;VALUE=DATE:20260605
+DESCRIPTION:REGISTRATION IS OPEN!\n\nEarly Bird Registration is happening n
+ ow and affordable\, on campus lodging is available to reserve until May 15
+ th! \n\n \n\nBuilding on Our Foundation: From Principles to Practice \n\nF
+ ollowing our inaugural conference's resounding success with participants f
+ rom 19 Catholic institutions\, we return with deeper insights and practica
+ l tools as AI reshapes education at inhuman speed. Since our first gatheri
+ ng in October of 2024\, AI has fundamentally transformed academic landscap
+ es—from research methodologies to student services\, from classroom inst
+ ruction to campus operations. \n\nThis year's conference emphasizes hands-
+ on learning and specialized application\, featuring expanded workshops and
+  targeted breakout sessions designed for your specific role and discipline
+ \, ensuring you leave with immediately applicable strategies and tools. \n
+ \n \n\nWHAT'S NEW FOR 2026\n\nWe've designed a highly curated schedule off
+ ering hands-on workshops and interactive sessions designed to equip educat
+ ors and leaders with practical AI strategies. Highlights include:\n\nWorks
+ hops on ethical AI integration\, practical AI literacy for non-technical a
+ udiences\, and values-driven engagement with AI tools.\n\nCase studies and
+  tutorials focused on supporting first-generation students\, building AI l
+ iteracy\, and aligning institutional mission with AI strategy.\n\nImmersiv
+ e sessions on reflective AI use\, leadership formation\, and the integrati
+ on of Catholic educational values in technology adoption.\n\nWhether you'r
+ e seeking to deepen your understanding of AI in education or looking for a
+ ctionable tools to bring back to your institution\, our workshop-heavy pro
+ gram offers something for everyone\n\n \n\nThe College of Arts and Science
+ s and the Dundon-Berchtold Institute for Moral Formation and Applied Ethic
+ s at the University of Portland are pleased to host this essential gatheri
+ ng. As an independently governed Catholic university guided by the Congreg
+ ation of Holy Cross\, the University of Portland continues its mission of 
+ teaching and learning\, faith and formation\, and service and leadership i
+ n addressing the critical intersection of technology and human dignity. \n
+ \n \n\nThank you to our conference sponsors!
+GEO:45.571791;-122.724529
+LOCATION:University of Portland
+SUMMARY:Catholic Education and Artificial Intelligence: Principled Educatio
+ nal Leadership for the AI Revolution 
+URL;VALUE=URI:https://calendar.up.edu/event/catholic-education-and-artifici
+ al-intelligence
+CATEGORIES:Academic
+CATEGORIES:Conference / Symposium
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
- eld Championships
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260610
-LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs NCAA Track & Field 
- Championships
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564832840
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-ncaa-track-field-championships
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
- Field Championships
-DTSTAMP:20260511T025309Z
 DTSTART;VALUE=DATE:20260610
+DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
+ eld Championships
 LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs NCAA Track & Fiel
- d Championships
+SUMMARY:University of Portland Men's Track and Field vs NCAA Track & Field 
+ Championships
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-ncaa-track-field-championships
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564940369
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-ncaa-track-field-championships
+DTSTART;VALUE=DATE:20260610
+DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
+ Field Championships
+LOCATION:Eugene\, Ore.\, Hayward Field
+SUMMARY:University of Portland Women's Track and Field vs NCAA Track & Fiel
+ d Championships
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-ncaa-track-field-championships
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
- eld Championships
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260611
-LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
-SUMMARY:University of Portland Men's Track and Field vs NCAA Track & Field 
- Championships
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564850253
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-ncaa-track-field-championships
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
-DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
- Field Championships
-DTSTAMP:20260511T025309Z
 DTSTART;VALUE=DATE:20260611
-LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
-SUMMARY:University of Portland Women's Track and Field vs NCAA Track & Fiel
- d Championships
-UID:tag:localist.com\,2008:EventInstance_51335564969046
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-ncaa-track-field-championships
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
  eld Championships
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260612
 LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
 SUMMARY:University of Portland Men's Track and Field vs NCAA Track & Field 
  Championships
-UID:tag:localist.com\,2008:EventInstance_51335564866638
-URL:https://calendar.up.edu/event/university-of-portland-mens-track-and-fie
- ld-vs-ncaa-track-field-championships
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-ncaa-track-field-championships
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Pilot Athletics
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564969046
+DTSTART;VALUE=DATE:20260611
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
  Field Championships
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260612
 LOCATION:Eugene\, Ore.\, Hayward Field
-SEQUENCE:0
 SUMMARY:University of Portland Women's Track and Field vs NCAA Track & Fiel
  d Championships
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-ncaa-track-field-championships
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
+UID:tag:localist.com\,2008:EventInstance_51335564866638
+DTSTART;VALUE=DATE:20260612
+DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
+ eld Championships
+LOCATION:Eugene\, Ore.\, Hayward Field
+SUMMARY:University of Portland Men's Track and Field vs NCAA Track & Field 
+ Championships
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
+ ck-and-field-vs-ncaa-track-field-championships
+CATEGORIES:Pilot Athletics
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_51335564984407
-URL:https://calendar.up.edu/event/university-of-portland-womens-track-and-f
- ield-vs-ncaa-track-field-championships
+DTSTART;VALUE=DATE:20260612
+DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
+ Field Championships
+LOCATION:Eugene\, Ore.\, Hayward Field
+SUMMARY:University of Portland Women's Track and Field vs NCAA Track & Fiel
+ d Championships
+URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
+ rack-and-field-vs-ncaa-track-field-championships
+CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Juneteenth - University closed
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260619
-LOCATION:
-SEQUENCE:0
-SUMMARY:Juneteenth
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905376561
-URL:https://calendar.up.edu/event/juneteenth
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:Juneteenth - University closed
+LOCATION:
+SUMMARY:Juneteenth
+URL;VALUE=URI:https://calendar.up.edu/event/juneteenth
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:First 6 Week session ends
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260625
-LOCATION:
-SEQUENCE:0
-SUMMARY:First Summer Session Ends
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905403192
-URL:https://calendar.up.edu/event/first-summer-session-ends
+DTSTART;VALUE=DATE:20260625
+DESCRIPTION:First 6 Week session ends
+LOCATION:
+SUMMARY:First Summer Session Ends
+URL;VALUE=URI:https://calendar.up.edu/event/first-summer-session-ends
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Second 6 Week session begins
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260629
-LOCATION:
-SEQUENCE:0
-SUMMARY:Second Summer Session Begins
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905452351
-URL:https://calendar.up.edu/event/second-summer-session-begins
+DTSTART;VALUE=DATE:20260629
+DESCRIPTION:Second 6 Week session begins
+LOCATION:
+SUMMARY:Second Summer Session Begins
+URL;VALUE=URI:https://calendar.up.edu/event/second-summer-session-begins
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Independence Day observed - University closed
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260704
-LOCATION:
-SEQUENCE:0
-SUMMARY:Independence Day (Observed)
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905477958
-URL:https://calendar.up.edu/event/independence-day-observed
+DTSTART;VALUE=DATE:20260704
+DESCRIPTION:Independence Day observed - University closed
+LOCATION:
+SUMMARY:Independence Day (Observed)
+URL;VALUE=URI:https://calendar.up.edu/event/independence-day-observed
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Last day of classes
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260806
-LOCATION:
-SEQUENCE:0
-SUMMARY:Summer Last Day of Classes
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905503565
-URL:https://calendar.up.edu/event/summer-last-day-of-classes
+DTSTART;VALUE=DATE:20260806
+DESCRIPTION:Last day of classes
+LOCATION:
+SUMMARY:Summer Last Day of Classes
+URL;VALUE=URI:https://calendar.up.edu/event/summer-last-day-of-classes
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:All grades due in Registrar's Office 9am
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260811
-LOCATION:
-SEQUENCE:0
-SUMMARY:Summer Grades Due
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905530196
-URL:https://calendar.up.edu/event/summer-grades-due
+DTSTART;VALUE=DATE:20260811
+DESCRIPTION:All grades due in Registrar's Office 9am
+LOCATION:
+SUMMARY:Summer Grades Due
+URL;VALUE=URI:https://calendar.up.edu/event/summer-grades-due
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Late registration begins
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260824
-LOCATION:
-SEQUENCE:0
-SUMMARY:Fall Late Registration Begins
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905562971
-URL:https://calendar.up.edu/event/fall-late-registration-begins
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Semester begins - class starts at 8:10
-DTSTAMP:20260511T025309Z
 DTSTART;VALUE=DATE:20260824
+DESCRIPTION:Late registration begins
 LOCATION:
-SEQUENCE:0
-SUMMARY:Fall Semester Begins
+SUMMARY:Fall Late Registration Begins
+URL;VALUE=URI:https://calendar.up.edu/event/fall-late-registration-begins
+CATEGORIES:Academic Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905588578
-URL:https://calendar.up.edu/event/fall-semester-begins
+DTSTART;VALUE=DATE:20260824
+DESCRIPTION:Semester begins - class starts at 8:10
+LOCATION:
+SUMMARY:Fall Semester Begins
+URL;VALUE=URI:https://calendar.up.edu/event/fall-semester-begins
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Last day to register or change (add/drop)
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260828
-LOCATION:
-SEQUENCE:0
-SUMMARY:Fall Last Day to Register
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905627497
-URL:https://calendar.up.edu/event/fall-last-day-to-register
+DTSTART;VALUE=DATE:20260828
+DESCRIPTION:Last day to register or change (add/drop)
+LOCATION:
+SUMMARY:Fall Last Day to Register
+URL;VALUE=URI:https://calendar.up.edu/event/fall-last-day-to-register
+CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Academic Calendar
-DESCRIPTION:Labor Day (classes in session\, offices closed)
-DTSTAMP:20260511T025309Z
-DTSTART;VALUE=DATE:20260907
-LOCATION:
-SEQUENCE:0
-SUMMARY:Labor Day
+DTSTAMP:20260512T024658Z
 UID:tag:localist.com\,2008:EventInstance_50835905658224
-URL:https://calendar.up.edu/event/labor-day
+DTSTART;VALUE=DATE:20260907
+DESCRIPTION:Labor Day (classes in session\, offices closed)
+LOCATION:
+SUMMARY:Labor Day
+URL;VALUE=URI:https://calendar.up.edu/event/labor-day
+CATEGORIES:Academic Calendar
 END:VEVENT
 END:VCALENDAR

@@ -7,98 +7,6 @@ X-WR-CALNAME:Publisher Resources Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Poynter Institute Training": "https://www.poynter.org/shop/leadership/essential-skills-for-new-managers-may-2026/"}
-X-SOURCE-ID:poynter_shop
-SUMMARY:Essential Skills for New Managers (May 2026)
-DTSTART:20260511T000000
-DTEND:20260515T000000
-UID:06a22e94a9b8cdca840d1a2a9c561e2b@poynter.org
-DESCRIPTION:Instructor(s): Tony Elkins
-LOCATION:Online
-URL:https://www.poynter.org/shop/leadership/essential-skills-for-new-manag
- ers-may-2026/
-X-SOURCE:Poynter Institute Training
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-european-journalist-retreat-trauma-resilience-and-ethical-reporting"}
-X-SOURCE-ID:sej
-SUMMARY:European Journalist Retreat on Trauma\, Resilience and Ethical Rep
- orting
-DTSTART;TZID=America/New_York:20260511T000000
-DTEND;TZID=America/New_York:20260511T000000
-UID:4e2d4250d5d088f253f72ad75ba49c7a@sej.org
-DESCRIPTION:The Global Center for Journalism and Trauma (GCJT)\, in partne
- rship with iMEdD’s Ideas Zone\, invites applications for a four-day Euro
- pean Journalist Retreat to be held 14–18 October 2026 in Vamvakou\, Laco
- nia\, Greece. This retreat will bring together 16 reporters\, editors\, so
- cial media editors\, photographers\, and multimedia journalists from acros
- s Europe working on the front lines of today’s most challenging stories
- —from conflict and political polarization to displacement\, climate cris
- es\, and disinformation. The deadline for applications is 11 May\, 2026 a
- t 6pm GMT.\n\nCategories: International\, Europe\, Workshops and Fellowshi
- ps\, Journalism & Media
-URL:https://www.sej.org/calendar/deadline-european-journalist-retreat-trau
- ma-resilience-and-ethical-reporting
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/david-l-eshelman-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23230Z
-UID:0OsETHHAIo-8225017285@spjnetwork.org
-DTSTART;TZID=America/New_York:20260511
-DTEND;TZID=America/New_York:20260511
-SUMMARY:Nomination Deadline: David L. Eshelman Award
-URL:http://www.spj.org/david-l-eshelman-award/
-DESCRIPTION:The Outstanding Campus Chapter Adviser Award\, initiated in 1978\, is presented annually to the person who has made an exceptional contribution to the campus chapter for which he or she serves as SPJ adviser. 
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/wells-memorial-key/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23231Z
-UID:2GtdDqRzTp-8225017291@spjnetwork.org
-DTSTART;TZID=America/New_York:20260511
-DTEND;TZID=America/New_York:20260511
-SUMMARY:Nomination Deadline: Wells Memorial Key
-URL:http://www.spj.org/wells-memorial-key/
-DESCRIPTION:Each year\, a member who is judged to have served the Society in the most outstanding fashion during the preceding year or over a period of years is presented SPJ’s highest honor for a member\, the Wells Memorial Key.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/howard-s-dubin-outstanding-pro-member-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23232Z
-UID:ilIEgz4JxI-8225017315@spjnetwork.org
-DTSTART;TZID=America/New_York:20260511
-DTEND;TZID=America/New_York:20260511
-SUMMARY:Nomination Deadline: Howard S. Dubin Outstanding Pro Member Award
-URL:http://www.spj.org/howard-s-dubin-outstanding-pro-member-award/
-DESCRIPTION:Annually\, the Society salutes individual members who have made significant contributions to their SPJ chapters.
-
-The Award honors Howard Dubin who has shown outstanding membership with his service to the Society. While he contributes great sums of time\, energy and money to the national Society\, Mr. Dubin continues grassroots service at the chapter level.
-
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/julie-galvan-outstanding-graduate-in-journalism-award/"}
-X-SOURCE-ID:spj
-X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23233Z
-UID:YiDDpXoN9y-8225017278@spjnetwork.org
-DTSTART;TZID=America/New_York:20260511
-DTEND;TZID=America/New_York:20260511
-SUMMARY:Nomination Deadline: Julie Galvan Outstanding Graduate in Journalism Award
-URL:http://www.spj.org/julie-galvan-outstanding-graduate-in-journalism-award/
-DESCRIPTION:Each of the Society’s campus chapters are encouraged to select one graduate in journalism who is outstanding in his or her class on the basis of character\, service to the community\, scholarship\, proficiency in practical journalism and significant contributions to their SPJ chapter. From this group\, the Society’s leaders will select one graduate who is considered the most outstanding for national recognition.
-
-The Award is named in memory of Julie Galvan\, a former president of the SPJ San Jose State University Campus Chapter.
-LOCATION:
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Hackshackers": "https://luma.com/hh-aijournalismsummit-2026", "Journalism Conferences": "https://luma.com/hh-aijournalismsummit-2026"}
 X-SOURCE-URLS:{"Hackshackers": "https://luma.com/hh-aijournalismsummit-2026"}
 X-SOURCE-ID:hackshackers
@@ -106,7 +14,7 @@ X-SOURCE:Hackshackers, Journalism Conferences
 URL:https://luma.com/hh-aijournalismsummit-2026
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260515
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024829Z
 ORGANIZER;CN="Paul Cheung":MAILTO:calendar-invite@lu.ma
 UID:evt-1KgaVILYnDGG7Ig@events.lu.ma
 SUMMARY:Hacks/Hackers AI x Journalism Summit 2026
@@ -115,31 +23,30 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/hh-aijournalis
  ed States\n\nHosted by Paul Cheung & 3 others
 LOCATION:The Real News Network, 231 Holliday St, Baltimore, MD 21202, USA
 GEO:39.292193999999995;-76.61019569999999
-SEQUENCE:200631287
+SEQUENCE:200717309
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://luma.com/hh-aijournalismsummit-2026?ref=hackshackers.com"}
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://www.motherjones.com/careers/digital-engagement-fellow/"}
 X-SOURCE-ID:journalism_deadlines
 X-SOURCE:Journalism Internship & Fellowship Deadlines
-URL:https://luma.com/hh-aijournalismsummit-2026?ref=hackshackers.com
+URL:https://www.motherjones.com/careers/digital-engagement-fellow/
 DTSTART;VALUE=DATE:20260512
-DTEND;VALUE=DATE:20260515
-DTSTAMP:20260511T025447Z
-UID:0d7c7cq4fttkgc3je3tu7uv1o9@google.com
-CREATED:20260428T012714Z
-DESCRIPTION:See the full conference description: <a href="https://luma.com/
- hh-aijournalismsummit-2026?ref=hackshackers.com">https://luma.com/hh-aijour
- nalismsummit-2026?ref=hackshackers.com</a><br><br>Runs May 12-14.<br><p>Sig
- n up for even more journalism jobs openings via the Journalism jobs and a p
- hoto of my dog newsletter: <a href="https://journojobs.substack.com/subscri
- be" target="_blank"><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><
- u>https://journojobs.substack.com/subscribe</u></u></u></u></u></u></u></u>
- </u></u></u></u></u></u></u></u></u></u></u></a></p>
-LAST-MODIFIED:20260428T012714Z
+DTEND;VALUE=DATE:20260513
+DTSTAMP:20260512T024830Z
+UID:7sqc7u2g7ev4t6bnmk17uls1h2@google.com
+CREATED:20260428T012905Z
+DESCRIPTION:See the full program description: <a href="https://www.motherjo
+ nes.com/careers/digital-engagement-fellow/">https://www.motherjones.com/car
+ eers/digital-engagement-fellow/</a><br><br>Pay: $27.47 / hour<br><br>Apply 
+ by May 12.<br><br>Sign up for even more journalism jobs openings via the Jo
+ urnalism jobs and a photo of my dog newsletter: <a href="https://journojobs
+ .substack.com/subscribe" target="_blank"><u><u><u><u><u>https://journojobs.
+ substack.com/subscribe</u></u></u></u></u></a>
+LAST-MODIFIED:20260428T012905Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Hacks/Hackers AI x Journalism Summit 2026 May 12
+SUMMARY:Center for Investigative Reporting Digital Engagement Fellow
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -149,7 +56,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.journalismjobs.com/1692958-center-for-health-journalism-impact-fund-grantee-usc-annenberg-center-for-health-journalism
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:1n82i80sglr79joj1t1mbfqaj2@google.com
 CREATED:20260428T013123Z
 DESCRIPTION:See the full program description: <a href="https://www.journali
@@ -168,26 +75,27 @@ SUMMARY:Center for Health Journalism Impact Fund Grants
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://www.motherjones.com/careers/digital-engagement-fellow/"}
+X-SOURCE-URLS:{"Journalism Internship & Fellowship Deadlines": "https://luma.com/hh-aijournalismsummit-2026?ref=hackshackers.com"}
 X-SOURCE-ID:journalism_deadlines
 X-SOURCE:Journalism Internship & Fellowship Deadlines
-URL:https://www.motherjones.com/careers/digital-engagement-fellow/
+URL:https://luma.com/hh-aijournalismsummit-2026?ref=hackshackers.com
 DTSTART;VALUE=DATE:20260512
-DTEND;VALUE=DATE:20260513
-DTSTAMP:20260511T025447Z
-UID:7sqc7u2g7ev4t6bnmk17uls1h2@google.com
-CREATED:20260428T012905Z
-DESCRIPTION:See the full program description: <a href="https://www.motherjo
- nes.com/careers/digital-engagement-fellow/">https://www.motherjones.com/car
- eers/digital-engagement-fellow/</a><br><br>Pay: $27.47 / hour<br><br>Apply 
- by May 12.<br><br>Sign up for even more journalism jobs openings via the Jo
- urnalism jobs and a photo of my dog newsletter: <a href="https://journojobs
- .substack.com/subscribe" target="_blank"><u><u><u><u><u>https://journojobs.
- substack.com/subscribe</u></u></u></u></u></a>
-LAST-MODIFIED:20260428T012905Z
+DTEND;VALUE=DATE:20260515
+DTSTAMP:20260512T024830Z
+UID:0d7c7cq4fttkgc3je3tu7uv1o9@google.com
+CREATED:20260428T012714Z
+DESCRIPTION:See the full conference description: <a href="https://luma.com/
+ hh-aijournalismsummit-2026?ref=hackshackers.com">https://luma.com/hh-aijour
+ nalismsummit-2026?ref=hackshackers.com</a><br><br>Runs May 12-14.<br><p>Sig
+ n up for even more journalism jobs openings via the Journalism jobs and a p
+ hoto of my dog newsletter: <a href="https://journojobs.substack.com/subscri
+ be" target="_blank"><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><u><
+ u>https://journojobs.substack.com/subscribe</u></u></u></u></u></u></u></u>
+ </u></u></u></u></u></u></u></u></u></u></u></a></p>
+LAST-MODIFIED:20260428T012714Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Center for Investigative Reporting Digital Engagement Fellow
+SUMMARY:Hacks/Hackers AI x Journalism Summit 2026 May 12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -298,7 +206,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:Labor and Nonprofit Caucus Town Hall
 DTSTART;TZID=America/New_York:20260512T190000
 DTEND;TZID=America/New_York:20260512T200000
-DTSTAMP:20260511T025448Z
+DTSTAMP:20260512T024830Z
 UID:6d9e7q5o1k6f97elrt3cd9ujpb@google.com
 RECURRENCE-ID;TZID=America/New_York:20260512T190000
 SEQUENCE:0
@@ -317,7 +225,7 @@ DESCRIPTION:<b>Bargaining to “Trump-Proof” Your Organization<br></b><b
  ing their organizations thrive while securing sustainable working conditio
  ns. <br><br>Come meet and hear from non-profit workers across CWA\, share 
  stories\, and make plans to secure our work.
-LAST-MODIFIED:20260508T153521Z
+LAST-MODIFIED:20260511T160417Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -353,7 +261,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj
 DTSTART;TZID=America/New_York:20260513T130000
 DTEND;TZID=America/New_York:20260513T140000
-DTSTAMP:20260510T225445
+DTSTAMP:20260511T224827
 CREATED:20260507T221224Z
 LAST-MODIFIED:20260508T131720Z
 UID:63590-1778677200-1778680800@healthjournalism.org
@@ -369,7 +277,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260513T130000
 DTEND;TZID=America/New_York:20260513T140000
-DTSTAMP:20260510T225442
+DTSTAMP:20260511T224823
 CREATED:20260430T172534Z
 LAST-MODIFIED:20260430T172534Z
 UID:10004858-1778677200-1778680800@inn.org
@@ -386,7 +294,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: How to pilot a walking tour 
 DTSTART;TZID=America/New_York:20260513T160000
 DTEND;TZID=America/New_York:20260513T170000
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260513
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -408,7 +316,7 @@ DESCRIPTION:<p dir="ltr">Join us and learn from Cara Kuhlman\, founder of
  " target="_blank">https://us06web.zoom.us/meetings/86552943689/invitations
  ?signature=zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br><
  /b><br><b><br></b>
-LAST-MODIFIED:20260509T200034Z
+LAST-MODIFIED:20260511T113737Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -464,7 +372,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260514T133000
 DTEND;TZID=America/New_York:20260514T140000
-DTSTAMP:20260510T225442
+DTSTAMP:20260511T224823
 CREATED:20260409T200328Z
 LAST-MODIFIED:20260409T200328Z
 UID:10004853-1778765400-1778767200@inn.org
@@ -511,7 +419,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://thenewsletterconference.com/
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:2rel4an2o6sqgv9hcpneptrelf@google.com
 CREATED:20260428T013851Z
 DESCRIPTION:See the full conference description: <a href="https://thenewsle
@@ -526,6 +434,48 @@ SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:The Newsletter Conference
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-maynard-institutes-fire-entrepreneurship-program"}
+X-SOURCE-ID:sej
+SUMMARY:Maynard Institute's Fire Up Entrepreneurship Program
+DTSTART;TZID=America/New_York:20260515T000000
+DTEND;TZID=America/New_York:20260515T000000
+UID:652e50cc5cb4a6deaee1b608de24f124@sej.org
+DESCRIPTION:The Robert C. Maynard Institute for Journalism Education is la
+ unching a pilot cohort to support journalism entrepreneurs as part of the 
+ California Propel Local News Initiative\, an effort to strengthen the stat
+ e’s multi-lingual media ecosystem\, ensuring long-term sustainability of
+  local public service journalism for underserved localities. The Fire Up E
+ ntrepreneur Program\, as part of the Propel Initiative\, will train up to 
+ 16 people representing eight news organizations in revenue\, audience\, pr
+ oduct and community with a focus on ensuring sustainability. Participants 
+ will work with experts in business\, audience strategy and other topics.\n
+ For California-serving newsrooms. Deadline May 15.\n\nCategories: Californ
+ ia\, Workshops and Fellowships\, Journalism & Media
+URL:https://www.sej.org/calendar/deadline-maynard-institutes-fire-entrepre
+ neurship-program
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-migration-changing-climates-playa-prax-spring-creek-project-fellowship"}
+X-SOURCE-ID:sej
+SUMMARY:Migration in Changing Climates — A PLAYA + PRAx + Spring Creek P
+ roject Fellowship
+DTSTART;TZID=America/New_York:20260515T000000
+DTEND;TZID=America/New_York:20260515T000000
+UID:1ee2ee0b75aa398a295f4a5919afa5b0@sej.org
+DESCRIPTION:Eight fellows from a variety of disciplines (including visual 
+ art\, writing\, philosophy\, ethics\, performing arts\, sound and multidis
+ ciplinary genres) will each complete a project that engages with the vital
+  topic of migration — of birds\, mammals\, plants and/or people — acro
+ ss landscapes undergoing rapid change in the Pacific Northwest and Great B
+ asin.\n\nCategories: National (U.S.)\, Workshops and Fellowships\, Biodive
+ rsity\, Climate Change\, Environmental Studies\, Journalism & Media\, Wild
+ life
+URL:https://www.sej.org/calendar/deadline-migration-changing-climates-play
+ a-prax-spring-creek-project-fellowship
+X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/photo-contest-regenerative-agriculture-fostering-resilient-landscapes-and-livelihoods"}
@@ -665,8 +615,8 @@ DTSTART;TZID=America/New_York:20260518T000000
 DTEND;TZID=America/New_York:20260520T000000
 UID:9a78a1de5f9f66066c48f6ee03853aae@solutionsjournalism.org
 DESCRIPTION:Philadelphia\, Pennsylvania\, United States\nHeading to Philly
-  for Lenfest? Keep an eye out for Linda Shaw\, SJN's program manager for c
- ommunities of practice.
+  for Lenfest? Keep an eye out for Linda Shaw and Melissa Cassutt from SJN'
+ s communities of practice team.
 LOCATION:Philadelphia\, Pennsylvania\, United States
 URL:https://www.lenfestinstitute.org/solutions-resources/save-the-date-202
  6-lenfest-news-philanthropy-summit/
@@ -678,7 +628,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:How to Unite and Win at Work in NYC
 DTSTART;TZID=America/New_York:20260518T190000
 DTEND;TZID=America/New_York:20260518T203000
-DTSTAMP:20260511T025448Z
+DTSTAMP:20260512T024830Z
 UID:02fca9p5kumqikme1c8au9ss3h@google.com
 RECURRENCE-ID;TZID=America/New_York:20260518T190000
 SEQUENCE:0
@@ -756,23 +706,6 @@ URL:https://journalismcourses.org/product/substack-for-journalists-growing
 X-SOURCE:Knight Center for Journalism
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-0"}
-X-SOURCE-ID:sej
-SUMMARY:Maynard Regional Training\, Chicago\, June 4-5\, 2026
-DTSTART;TZID=America/New_York:20260520T000000
-DTEND;TZID=America/New_York:20260520T000000
-UID:7f9504b592944c23daed9fe51b65d105@sej.org
-DESCRIPTION:The Maynard Regional Training Series brings in-person\, weeken
- d-long leadership and management training to journalists across the U.S. I
- n partnership with universities\, these sessions give entry- and mid-level
-  editors and managers the tools and confidence they need to traverse the c
- omplexities of newsroom leadership. Deadline to register: May 20\, 2026\n\
- nCategories: National (U.S.)\, Professional Meetings\, Workshops and Fello
- wships\, Journalism & Media
-URL:https://www.sej.org/calendar/deadline-0
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-splcs-new-voices-student-leaders-institute"}
 X-SOURCE-ID:sej
 SUMMARY:SPLC's New Voices Student Leaders Institute
@@ -794,6 +727,56 @@ URL:https://www.sej.org/calendar/deadline-splcs-new-voices-student-leaders
 X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-0"}
+X-SOURCE-ID:sej
+SUMMARY:Maynard Regional Training\, Chicago\, June 4-5\, 2026
+DTSTART;TZID=America/New_York:20260520T000000
+DTEND;TZID=America/New_York:20260520T000000
+UID:7f9504b592944c23daed9fe51b65d105@sej.org
+DESCRIPTION:The Maynard Regional Training Series brings in-person\, weeken
+ d-long leadership and management training to journalists across the U.S. I
+ n partnership with universities\, these sessions give entry- and mid-level
+  editors and managers the tools and confidence they need to traverse the c
+ omplexities of newsroom leadership. Deadline to register: May 20\, 2026\n\
+ nCategories: National (U.S.)\, Professional Meetings\, Workshops and Fello
+ wships\, Journalism & Media
+URL:https://www.sej.org/calendar/deadline-0
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Rji": "https://calendar.missouri.edu/rji/event/17590-arts-journalism-initiative-launch"}
+X-SOURCE-ID:rji
+X-SOURCE:Rji
+DTSTART;TZID=America/Chicago:20260520T120000
+DTEND;TZID=America/Chicago:20260520T130000
+SUMMARY:Arts Journalism Initiative Launch
+DESCRIPTION:The Arts Journalism Initiative is launching May 20th! Come le
+ arn more about the templates\, grants database and funding tips provided 
+ in this dynamic platform to increase arts coverage in your community.  Th
+ e Initiative is developed by 2025-'26 RJI Fellow Rebecca Ritzel (https://
+ rjionline.org/?s=&amp\;post_type=post&amp\;person_id=30262).
+X-ALT-DESC;FMTTYPE=text/html:<p>  The Arts Journalism Initiative is launc
+ hing May 20th! Come learn more about the templates\, grants database and 
+ funding tips provided in this dynamic platform to increase arts coverage 
+ in your community.<br /><br />  The Initiative is developed by 2025-'26 R
+ JI Fellow <a href="https://rjionline.org/?s=&amp\;post_type=post&amp\;per
+ son_id=30262">Rebecca Ritzel</a>.</p>
+UID:20260520T170000Z-17590@calendar.missouri.edu
+DTSTAMP:20260511T144716Z
+URL:https://calendar.missouri.edu/rji/event/17590-arts-journalism-initiat
+ ive-launch
+CATEGORIES:Open to Public
+LAST-MODIFIED:20260511T194716Z
+ATTACH:https://calendar.missouri.edu/live/image/gid/56/width/80/height/80
+ /crop/1/src_region/0,0,900,900/685_Community_convo-3.rev.1778528812.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:17590
+X-LIVEWHALE-TIMEZONE:America/Chicago
+X-LIVEWHALE-IMAGE:https://calendar.missouri.edu/live/image/gid/56/width/8
+ 0/height/80/crop/1/src_region/0\,0\,900\,900/685_Community_convo-3.rev.17
+ 78528812.png
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Sunlight Research": "https://us02web.zoom.us/meeting/register/pXrQU2xCQpOTnpsyPQ0hvQ"}
 X-SOURCE-ID:sunlight_research
 SUMMARY:Keeping ChatGPT from eating your lunch Using AI with Intention
@@ -804,6 +787,22 @@ DESCRIPTION:
 LOCATION:Online
 URL:https://us02web.zoom.us/meeting/register/pXrQU2xCQpOTnpsyPQ0hvQ
 X-SOURCE:Sunlight Research
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Sjn": "https://www.n3con.com/2026/"}
+X-SOURCE-ID:sjn
+SUMMARY:AAJA’s New.Now.Next Media Conference 2026
+DTSTART;TZID=America/New_York:20260521T000000
+DTEND;TZID=America/New_York:20260523T000000
+UID:be30d6050766e954b699fea6a62b9805@solutionsjournalism.org
+DESCRIPTION:Bangkok\, Thailand\nThe AAJA-Asia N3Con returns to Bangkok. On
+  May 22\, Kyuwon Lee\, SJN's training and curriculum manager\, will host t
+ he panel discussion “Stories for Impact and Change: Insights from Field 
+ Experts in Solutions Journalism” with journalist and trainer Anupama Cha
+ ndrasekaran and journalist Nithin Coca.
+LOCATION:Bangkok\, Thailand
+URL:https://www.n3con.com/2026/
+X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Sjn": "https://us06web.zoom.us/meeting/register/5-jrs4mPSyezTFfrCwoPdw?mc_cid=9d4c8b8c83&mc_eid=f6b9d64e2d#/registration"}
@@ -855,20 +854,55 @@ URL:https://uri-edu.zoom.us/meeting/register/5BFu_GsqT3qDJjYz_ijy0g
 X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Sjn": "https://www.n3con.com/2026/"}
-X-SOURCE-ID:sjn
-SUMMARY:AAJA’s New.Now.Next Media Conference 2026
-DTSTART;TZID=America/New_York:20260521T000000
-DTEND;TZID=America/New_York:20260523T000000
-UID:be30d6050766e954b699fea6a62b9805@solutionsjournalism.org
-DESCRIPTION:Bangkok\, Thailand\nThe AAJA-Asia N3Con returns to Bangkok. On
-  May 22\, Kyuwon Lee\, SJN's training and curriculum manager\, will host t
- he panel discussion “Stories for Impact and Change: Insights from Field 
- Experts in Solutions Journalism” with journalist and trainer Anupama Cha
- ndrasekaran and journalist Nithin Coca.
-LOCATION:Bangkok\, Thailand
-URL:https://www.n3con.com/2026/
-X-SOURCE:Solutions Journalism Network
+X-SOURCE-URLS:{"Rji": "https://calendar.missouri.edu/rji/event/17616-how-to-grow-your-small-donors-rji-community"}
+X-SOURCE-ID:rji
+X-SOURCE:Rji
+DTSTART;TZID=America/Chicago:20260521T140000
+DTEND;TZID=America/Chicago:20260521T150000
+SUMMARY:How to grow your small donors | RJI Community Conversation
+DESCRIPTION:Join Innovation Team Project Manager Sriya Reddy (https://rji
+ online.org/person/sriya-reddy/) in conversation with Kimberly Griffin and
+  Penny Riordan to talk about small dollar donors and best practices to gr
+ ow them.  Speakers:Kimberly Griffin (https://www.linkedin.com/in/kimberly
+ dgriffin) helps nonprofit newsrooms close the gap between strategy and re
+ sults. From CRM implementation to major donor cultivation and membership 
+ growth\, she rolls up her sleeves alongside small teams to get fundraisin
+ g programs off the ground and generate revenue.Penny Riordan (https://www
+ .davidarkinconsulting.com/about/#penny) is an audience\, product\, and te
+ chnology leader with more than 20 years of experience working for and wit
+ h local media organizations. She is currently helping local media compani
+ es solve their biggest challenges in audience\, tech stack\, newsletters 
+ and revenue working as a fractional consultant with David Arkin Consultin
+ g.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Join Innovation Team Project Manager <a
+  href="https://rjionline.org/person/sriya-reddy/">Sriya Reddy</a> in conv
+ ersation with Kimberly Griffin and Penny Riordan to talk about small doll
+ ar donors and best practices to grow them.<br /><br />  Speakers:<br /><a
+  href="https://www.linkedin.com/in/kimberlydgriffin">Kimberly Griffin</a>
+  helps nonprofit newsrooms close the gap between strategy and results. Fr
+ om CRM implementation to major donor cultivation and membership growth\, 
+ she rolls up her sleeves alongside small teams to get fundraising program
+ s off the ground and generate revenue.<br /><br /><a href="https://www.da
+ vidarkinconsulting.com/about/#penny">Penny Riordan</a> is an audience\, p
+ roduct\, and technology leader with more than 20 years of experience work
+ ing for and with local media organizations. She is currently helping loca
+ l media companies solve their biggest challenges in audience\, tech stack
+ \, newsletters and revenue working as a fractional consultant with David 
+ Arkin Consulting.</p>
+UID:20260521T190000Z-17616@calendar.missouri.edu
+DTSTAMP:20260511T155900Z
+URL:https://calendar.missouri.edu/rji/event/17616-how-to-grow-your-small-
+ donors-rji-community
+CATEGORIES:Open to Public
+LAST-MODIFIED:20260511T205900Z
+ATTACH:https://calendar.missouri.edu/live/image/gid/56/width/80/height/80
+ /crop/1/src_region/0,0,2160,2160/689_Repro_Panel_Promo.rev.1778533131.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:17616
+X-LIVEWHALE-TIMEZONE:America/Chicago
+X-LIVEWHALE-IMAGE:https://calendar.missouri.edu/live/image/gid/56/width/8
+ 0/height/80/crop/1/src_region/0\,0\,2160\,2160/689_Repro_Panel_Promo.rev.
+ 1778533131.png
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.eventbrite.com/e/an-inside-look-at-creator-journalism-tickets-1988732588708?aff=oddtdtcreator"}
@@ -978,7 +1012,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj, Journalism Conferences
 DTSTART;TZID=America/New_York:20260527T000000
 DTEND;TZID=America/New_York:20260530T235959
-DTSTAMP:20260510T225445
+DTSTAMP:20260511T224827
 CREATED:20260121T224600Z
 LAST-MODIFIED:20260121T224603Z
 UID:62297-1779840000-1780185599@healthjournalism.org
@@ -1041,6 +1075,21 @@ URL:https://dataharvest.eu/
 X-SOURCE:Journalism Conferences
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/sabew-canada-best-in-business-awards-celebration-2/"}
+X-SOURCE-ID:sabew
+X-SOURCE:Sabew
+DTSTART;TZID=America/New_York:20260528T190000
+DTEND;TZID=America/New_York:20260528T203000
+DTSTAMP:20260511T224829
+CREATED:20260511T212220Z
+LAST-MODIFIED:20260511T212229Z
+UID:71199-1779994800-1780000200@sabew.org
+SUMMARY:SABEW Canada Best in Business Awards Celebration
+DESCRIPTION:Come recognize excellence\, celebrate with your friends and colleagues\, and indulge in a little healthy competition at SABEW Canada’s annual Best in Business Awards. Food and two drink tickets are included with your registration. \nRegister by 11:59 p.m. ET\, May 21\, to take advantage of the early-bird price of $40 (USD). Once the early-bird deadline passes\, the registration fee will then be $45 (USD). \nWhen: Thursday\, May 28\, 2026\, 7 p.m.\nWhere: The Pilot\, 22 Cumberland St.\, Toronto\nHow: Complete the form below to purchase tickets
+URL:https://sabew.org/event/sabew-canada-best-in-business-awards-celebration-2/
+CATEGORIES:Best in Business,SABEW Canada
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://citymag.org/2025-annual-conference/"}
 X-SOURCE-ID:journalism_conferences
 SUMMARY:City & Regional Magazine Association Conference
@@ -1094,10 +1143,42 @@ URL:https://journalismcourses.org/product/periodismo-climatico-curso-onlin
 X-SOURCE:Knight Center for Journalism
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/spj-foundation-grants/"}
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-praxs-public-lands-collaborative-residency"}
+X-SOURCE-ID:sej
+SUMMARY:PRAx's Public Lands Collaborative Residency
+DTSTART;TZID=America/New_York:20260601T000000
+DTEND;TZID=America/New_York:20260601T000000
+UID:5ed704f1dac3e59241983b479aea2b79@sej.org
+DESCRIPTION:The Public Lands Collaborative Residency supports creative tea
+ ms engaged in storytelling projects that have the potential to help re-ima
+ gine and shape the future of public lands in the United States. Apply by J
+ une 1.\n\nCategories: National (U.S.)\, Workshops and Fellowships\, Biodiv
+ ersity\, Climate Change\, Environmental Studies\, Journalism & Media\, Oth
+ er or All\, Science\, Wildlife
+URL:https://www.sej.org/calendar/deadline-praxs-public-lands-collaborative
+ -residency
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Professional Journalists": "http://spj26.org"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
 DTSTAMP:20170606T23236Z
+UID:hyfmTgXxfI-8221463842@spjnetwork.org
+DTSTART;TZID=America/New_York:20260601
+DTEND;TZID=America/New_York:20260601
+SUMMARY:SPJ26 Call for Proposals Deadline
+URL:http://spj26.org
+DESCRIPTION:Have an idea for a session at the SPJ26 convention? A panel you wish existed? A conversation the industry needs right now? Submit a proposal -- we want to hear it. You don’t have to be an SPJ member to pitch. Send in your submissions by June 1 to receive consideration for your proposals.
+
+
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/spj-foundation-grants/"}
+X-SOURCE-ID:spj
+X-SOURCE:Society of Professional Journalists
+DTSTAMP:20170606T23237Z
 UID:2ZARtfqkzL-8222498712@spjnetwork.org
 DTSTART;TZID=America/New_York:20260601
 DTEND;TZID=America/New_York:20260601
@@ -1127,7 +1208,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260606
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:38vhr0gb8vnlj42tr2rpgdgtnu@google.com
 CREATED:20260302T030352Z
 DESCRIPTION:See the full conference description: <a href="https://ewa.org/e
@@ -1147,29 +1228,10 @@ SUMMARY:2026 EWA National Seminar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-knight-risser-prize-western-environmental-journalism"}
-X-SOURCE-ID:sej
-SUMMARY:Knight-Risser Prize for Western Environmental Journalism
-DTSTART;TZID=America/New_York:20260602T000000
-DTEND;TZID=America/New_York:20260602T000000
-UID:cba8b8fe0682ebb7759123268d56fd51@sej.org
-DESCRIPTION:Up to $10\,000 is available to support an enterprise or invest
- igative environmental story set in the western United States\, which is de
- fined as all states west of the Mississippi River\, including Hawaii and A
- laska. Applications open May 6\, and close June 2\, with a winner selecte
- d in early July 2026.\n\nCategories: National (U.S.)\, Alaska and Hawaii\,
-  California\, Great Lakes (IL IN MI MN OH WI)\, Great Plains (IA KS ND NE 
- MO SD)\, Mountain West (CO ID MT NV UT WY)\, Northwest (OR WA)\, Southwest
-  (AZ NM OK TX)\, Canada\, Mexico\, Awards and Grants
-URL:https://www.sej.org/calendar/deadline-knight-risser-prize-western-envi
- ronmental-journalism
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23237Z
+DTSTAMP:20170606T23238Z
 UID:klTx3X17nt-8222596849@spjnetwork.org
 DTSTART;TZID=America/New_York:20260602
 DTEND;TZID=America/New_York:20260605
@@ -1190,7 +1252,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260603T160000
 DTEND;TZID=America/Chicago:20260603T170000
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260603
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -1289,7 +1351,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260606T150000
 DTEND;TZID=America/New_York:20260606T170000
-DTSTAMP:20260510T225444
+DTSTAMP:20260511T224825
 CREATED:20260504T130939Z
 LAST-MODIFIED:20260504T130939Z
 UID:17053-1780758000-1780765200@www.nlgja.org
@@ -1311,24 +1373,6 @@ DESCRIPTION:Host: Open News\nAttendance: Lottery Registration\nScope: Nati
 LOCATION:Minneapolis\, Minnesota\, United States
 URL:https://srccon.org/
 X-SOURCE:Journalism Conferences
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-planet-forward-correspondent-program"}
-X-SOURCE-ID:sej
-SUMMARY:Planet Forward Correspondent Program
-DTSTART;TZID=America/New_York:20260608T000000
-DTEND;TZID=America/New_York:20260608T000000
-UID:f99da5cadf7f6c078e9ffa6f3838fc66@sej.org
-DESCRIPTION:Planet Forward Correspondents are talented students from acros
- s the country looking to apply themselves to tell the ongoing story of cli
- mate change\, with an eye toward solutions and hope. You must be currently
-  enrolled in a graduate or undergraduate program – or starting one in th
- e upcoming school year – to apply. EXTENDED DEADLINE: Apply by June 8\,
-  2026.\n\nCategories: National (U.S.)\, International\, Workshops and Fell
- owships\, Journalism & Media
-URL:https://www.sej.org/calendar/deadline-planet-forward-correspondent-pro
- gram
-X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Poynter Institute Training": "https://www.poynter.org/shop/ethics/trauma-informed-reporting-for-mental-health/"}
@@ -1384,7 +1428,7 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://us02web.zoom.us/webinar/register/WN_lQAJzIBOR0iuMSUZoNGMaQ"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23238Z
+DTSTAMP:20170606T23239Z
 UID:ajORGWzsar-8222498805@spjnetwork.org
 DTSTART;TZID=America/New_York:20260610T120000
 DTEND;TZID=America/New_York:20260610T130000
@@ -1401,7 +1445,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260610T160000
 DTEND;TZID=America/New_York:20260610T170000
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260610
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -1422,7 +1466,7 @@ DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
  blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
  zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
  br></b>
-LAST-MODIFIED:20260508T125324Z
+LAST-MODIFIED:20260511T113737Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1446,7 +1490,7 @@ URL:https://labornotes.org/2026
 SUMMARY:Labor Notes
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260615
-DTSTAMP:20260511T025448Z
+DTSTAMP:20260512T024830Z
 UID:3ltobipevuhqp320p6rmj07p2q@google.com
 RECURRENCE-ID;VALUE=DATE:20260612
 SEQUENCE:1
@@ -1462,7 +1506,7 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://us02web.zoom.us/meeting/register/Mv1mwwaDQ5O6OCsEMnRQzg"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T23239Z
+DTSTAMP:20170606T232310Z
 UID:v5wH6IjvXx-8237188168@spjnetwork.org
 DTSTART;TZID=America/New_York:20260612T160000
 DTEND;TZID=America/New_York:20260612T170000
@@ -1504,7 +1548,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News, Journalism Conferences
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260619
-DTSTAMP:20260510T225442
+DTSTAMP:20260511T224823
 CREATED:20260123T165431Z
 LAST-MODIFIED:20260206T171526Z
 UID:10004840-1781568000-1781827199@inn.org
@@ -1553,7 +1597,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260616T090000
 DTEND;TZID=America/New_York:20260616T140000
-DTSTAMP:20260510T225442
+DTSTAMP:20260511T224823
 CREATED:20260415T145355Z
 LAST-MODIFIED:20260415T183752Z
 UID:10004855-1781600400-1781618400@inn.org
@@ -1570,7 +1614,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260616T110000
 DTEND;TZID=America/New_York:20260616T140000
-DTSTAMP:20260510T225442
+DTSTAMP:20260511T224823
 CREATED:20260415T145351Z
 LAST-MODIFIED:20260415T183826Z
 UID:10004856-1781607600-1781618400@inn.org
@@ -1587,7 +1631,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260616T110000
 DTEND;TZID=America/New_York:20260616T140000
-DTSTAMP:20260510T225442
+DTSTAMP:20260511T224823
 CREATED:20260415T145359Z
 LAST-MODIFIED:20260415T183749Z
 UID:10004854-1781607600-1781618400@inn.org
@@ -1604,7 +1648,7 @@ X-SOURCE-ID:inn
 X-SOURCE:Institute for Nonprofit News
 DTSTART;TZID=America/New_York:20260616T170000
 DTEND;TZID=America/New_York:20260616T203000
-DTSTAMP:20260510T225442
+DTSTAMP:20260511T224823
 CREATED:20260209T143527Z
 LAST-MODIFIED:20260504T171820Z
 UID:10004844-1781629200-1781641800@inn.org
@@ -1686,7 +1730,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.ire.org/training/conferences/ire-2026/
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260622
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:4onag31t66iv7lht4jcddi2iub@google.com
 CREATED:20260226T021319Z
 DESCRIPTION:See the full conference description: <a href="https://www.ire.o
@@ -1733,28 +1777,10 @@ URL:https://us02web.zoom.us/meeting/register/pDv8lZSnR9CywwAi3G9h5Q
 X-SOURCE:Sunlight Research
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/institute-independent-journalists-business-freelancing-workshop"}
-X-SOURCE-ID:sej
-SUMMARY:Institute for Independent Journalists’ Business of Freelancing w
- orkshop
-DTSTART;TZID=America/New_York:20260619T000000
-DTEND;TZID=America/New_York:20260619T000000
-UID:f01c9d755c309cbefe3c505645d584e0@sej.org
-DESCRIPTION:The workshop will take place on Friday\, June 19\, from 9:00 a
- m to 6:00 pm ET at the annual Investigative Reporters and Editors (IRE) co
- nference at the Gaylord National D.C.. It's free for IRE conference attend
- ees and only $59 until April 30. After that it's $79.\n\nCategories: Natio
- nal (U.S.)\, Mid-Atlantic (DC DE MD PA VA WV)\, Workshops and Fellowships\
- , Journalism & Media
-URL:https://www.sej.org/calendar/institute-independent-journalists-busines
- s-freelancing-workshop
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.freedomforum.org/al-neuharth-free-spirit-and-journalism-conference/?utm_source=spjnetwork&utm_medium=Posting&utm_campaign=FSC2026&utm_content=Calendar"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232310Z
+DTSTAMP:20170606T232311Z
 UID:WYHZlvv6YW-8229088496@spjnetwork.org
 DTSTART;TZID=America/New_York:20260621
 DTEND;TZID=America/New_York:20260626
@@ -1771,7 +1797,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:How to Unite and Win at Work in NYC
 DTSTART;TZID=America/New_York:20260621T130000
 DTEND;TZID=America/New_York:20260621T150000
-DTSTAMP:20260511T025448Z
+DTSTAMP:20260512T024830Z
 UID:4ml1nu0j5cq65j8jiqi7jmkmau@google.com
 RECURRENCE-ID;TZID=America/New_York:20260621T130000
 SEQUENCE:0
@@ -1811,6 +1837,21 @@ DESCRIPTION:Host: Deutsche Welle\nAttendance: Open Registration\nScope: In
 LOCATION:Bonn\, Germany
 URL:https://corporate.dw.com/en/gmf26-save-the-date/a-74553173
 X-SOURCE:Journalism Conferences
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Sabew": "https://sabew.org/event/freelancing-101-how-to-establish-yourself-and-thrive-as-an-independent-journalist/"}
+X-SOURCE-ID:sabew
+X-SOURCE:Sabew
+DTSTART;TZID=America/New_York:20260623T130000
+DTEND;TZID=America/New_York:20260623T140000
+DTSTAMP:20260511T224829
+CREATED:20260511T170558Z
+LAST-MODIFIED:20260511T171843Z
+UID:71194-1782219600-1782223200@sabew.org
+SUMMARY:Freelancing 101: How to establish yourself -- and thrive -- as an independent journalist
+DESCRIPTION:Freelance writing offers many benefits\, including flexibility and the opportunity to be your own boss. But the freelance landscape has shifted\, especially as many journalists transition to independent writing after layoffs. Where are the best freelance opportunities today\, and how can you position yourself to stand out in an increasingly crowded field? \nOur panel will discuss what it takes to be successful when stepping out on your own. You’ll learn from seasoned freelancers and receive practical tips on how to court clients\, craft pitches and carry out the business aspects of operating as an independent journalist. Whether you’ve been freelancing for years or you’re new to independent writing\, this session is for you. \nPanelists:\nMallika Mitra\, business and financial freelance journalist\nChris Morris\, contributing writer at Fortune Magazine\, Inc.\, Fast Company\, AARP\nChris Taylor\, personal finance journalist \nModerator:\nEllen Sheng\, founder and principal\, Sheng Media LLC \nRegistration fees:\n$0 for SABEW members\n$10 for nonmembers \nOnce you register for the event\, you will receive an email with the Zoom link to join the webinar.
+URL:https://sabew.org/event/freelancing-101-how-to-establish-yourself-and-thrive-as-an-independent-journalist/
+CATEGORIES:Virtual Training
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://www.aaja.org/"}
@@ -1891,7 +1932,7 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/eugene-s-pulliam-first-amendment-award/"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232311Z
+DTSTAMP:20170606T232312Z
 UID:QmNYWPuQHT-8223308934@spjnetwork.org
 DTSTART;TZID=America/New_York:20260629
 DTEND;TZID=America/New_York:20260629
@@ -1908,7 +1949,7 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/eugene-c-pulliam-fellowship-for-public-service-journalism/"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232312Z
+DTSTAMP:20170606T232313Z
 UID:UT8krBDXTy-8223308928@spjnetwork.org
 DTSTART;TZID=America/New_York:20260629
 DTEND;TZID=America/New_York:20260629
@@ -1925,7 +1966,7 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/the-spj-news/"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232313Z
+DTSTAMP:20170606T232314Z
 UID:Ze4xJVaIuE-8222596470@spjnetwork.org
 DTSTART;TZID=America/New_York:20260630
 DTEND;TZID=America/New_York:20260630
@@ -1994,7 +2035,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260708T160000
 DTEND;TZID=America/Chicago:20260708T170000
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260708
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -2051,7 +2092,7 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T170000
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260715
 SEQUENCE:1
 CREATED:20251212T131931Z
@@ -2072,7 +2113,7 @@ DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
  blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
  zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
  br></b>
-LAST-MODIFIED:20260508T125324Z
+LAST-MODIFIED:20260511T113737Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -2084,7 +2125,7 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260805T160000
 DTEND;TZID=America/Chicago:20260805T170000
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260805
 SEQUENCE:1
 CREATED:20250102T172959Z
@@ -2124,7 +2165,7 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://www.spj.org/spj-foundation-grants/"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232314Z
+DTSTAMP:20170606T232315Z
 UID:XUk9K2b8xX-8222498952@spjnetwork.org
 DTSTART;TZID=America/New_York:20260813T000000
 DTEND;TZID=America/New_York:20260813T000000
@@ -2137,7 +2178,7 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Professional Journalists": "http://houstonspjorg.wordpress.com/spj-region-8-conference/"}
 X-SOURCE-ID:spj
 X-SOURCE:Society of Professional Journalists
-DTSTAMP:20170606T232315Z
+DTSTAMP:20170606T232316Z
 UID:58JD6OGOf7-8222436392@spjnetwork.org
 DTSTART;TZID=America/Chicago:20260905T080000
 DTEND;TZID=America/Chicago:20260905T170000
@@ -2152,7 +2193,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260510T225444
+DTSTAMP:20260511T224825
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
@@ -2169,7 +2210,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://transom.org/transom25/
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260920
-DTSTAMP:20260511T025447Z
+DTSTAMP:20260512T024830Z
 UID:1jutch8e3t2ghbnh59jmkdoe3b@google.com
 CREATED:20260428T014331Z
 DESCRIPTION:See the full festival description: <a href="https://transom.org
@@ -2185,5 +2226,18 @@ SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:Transom25
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Professional Journalists": "http://spj26.org"}
+X-SOURCE-ID:spj
+X-SOURCE:Society of Professional Journalists
+DTSTAMP:20170606T232317Z
+UID:395SZpTKrD-8221463309@spjnetwork.org
+DTSTART;TZID=America/New_York:20261001
+DTEND;TZID=America/New_York:20261004
+SUMMARY:SPJ26
+URL:http://spj26.org
+DESCRIPTION:SPJ26 heads to Columbus\, Ohio\, Oct. 1-4\, at the Hilton Columbus Downtown. 
+LOCATION:
 END:VEVENT
 END:VCALENDAR
