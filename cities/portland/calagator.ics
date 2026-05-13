@@ -22,50 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260505T234549Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260511T213000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260511T183000
-DTSTAMP;VALUE=DATE-TIME:20260505T234549Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260505T234549Z
-UID:http://calagator.org/events/1250482561
-DESCRIPTION:People doing strange things with electricity (and code)!&#13\
- ;\n&#13\;\nDorkbotPDX is a laid-back meetup and show-and-tell for those 
- who make\, modify and use technical tools to weird and imaginative ends.
-  You might run into creative coders\, electronic artists\, circuit desig
- ners\, retro computing archaeologists\, video game devs\, modular synth 
- gearheads and cyberpunk DIYers.&#13\;\n&#13\;\nBring your electronic won
- ders\, monsters\, and works-in-progress to show off\, or come see what o
- thers have been working on! Code or circuits\, electronic creativity of 
- all sorts is welcome here.&#13\;\n&#13\;\nMost of Dorkbot is a freewheel
- ing hangout\, but each month we feature a short talk about a cool projec
- t or teaching some esoteric wizardry.&#13\;\n&#13\;\nThis month\, Matthe
- w Nielsen is sharing: A novel\, super efficient data compression techniq
- ue used for audio time stretching (and more!). The intended audience is 
- not just synthesizer/sampling nerds but anyone with an interest in digit
- al signal processing\, particularly the efficient embedded variety. I've
-  successfully applied this to weather data\, GPS/IMU\, and a range of in
- dustrial transmitters. See demo here https://www.youtube.com/watch?v=hQ3
- FgaHN-ig&#13\;\n&#13\;\nTable space with power will be available for pro
- ject show-and-tell\; we have a table for drinks and snacks\, feel free t
- o contribute to the communal cache/BYOB.&#13\;\n&#13\;\nWe do this every
-  month\, usually on the second Monday night (check the site for upcoming
-  dates to be sure)&#13\;\n&#13\;\nNote: We may be famous for the free pa
- rts cart…but the pile has gotten unruly\, so we’re not accepting new stu
- ff. If you have things to give away\, check the Discord offer/ask channe
- l to see if anyone would like to claim them. Feel free to exchange items
-  at Dorkbot\, just no leftovers please!&#13\;\n&#13\;\nYou can subscribe
-  to our calendar and mailing list\, join the Discord and find our social
-  links on https://www.dorkbotpdx.org (It also has our Code of Conduct\, 
- which we'd like you to check out while you're there)\n\nTags: maker\, mi
- crocontrollers\, programming\, 3dprinting\, diy\, electronics\, engineer
- ing\, arduino\n\nImported from: http://calagator.org/events/1250482561
-URL:https://dorkbotpdx.org
-SUMMARY:Dorkbot PDX: May Edition
-LOCATION:Ctrl-H / PDX Hackerspace: 7608 N Interstate Ave\, Portland OR 97
- 217 us
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260430T165120Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260512T170000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260512T150000
@@ -179,16 +135,16 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260513T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260513T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002900Z
 UID:http://calagator.org/events/1250482565
 DESCRIPTION:Get up-to-date information at: https://luma.com/76lre84o\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482565
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260505T033053Z
@@ -297,7 +253,7 @@ CREATED;VALUE=DATE-TIME:20260506T211136Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T210000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T180000
 DTSTAMP;VALUE=DATE-TIME:20260506T211136Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260506T211136Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T004210Z
 UID:http://calagator.org/events/1250482564
 DESCRIPTION:The Portland Linux Kernel Meetup for May 2026 will be at...&#
  13\;\n&#13\;\n  * Date: Thursday\, May 14\, 2026&#13\;\n  * Time: 06:00 
@@ -312,9 +268,8 @@ DESCRIPTION:The Portland Linux Kernel Meetup for May 2026 will be at...&#
  tor.org/events/1250482564
 URL:https://ikluft.github.io/pdx-lkmu/
 SUMMARY:May 2026 Portland Linux Kernel Meetup
-LOCATION:Lucky Labrador Beer Hall\, 1945 NW Quimby St\, Portland\, Oregon
-  97209 US: false
-SEQUENCE:2
+LOCATION:Lucky Labrador Beer Hall: 1945 NW Quimby\, Portland OR 97209 US
+SEQUENCE:3
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260505T182608Z
@@ -369,6 +324,23 @@ URL:https://www.meetup.com/portland-code-coffee/
 SUMMARY:Code & Coffee @ Roseline Café
 LOCATION:Roseline Cafe: false
 SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260512T213619Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T170000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T153000
+DTSTAMP;VALUE=DATE-TIME:20260512T213619Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260512T213619Z
+UID:http://calagator.org/events/1250482575
+DESCRIPTION:Come join Community Broadband PDX to talk about building a pu
+ blicly owned broadband network here in Portland. &#13\;\n&#13\;\n&#13\;\
+ n&#13\;\nSee you there!\n\nTags: broadband\, internet\, utility\n\nImpor
+ ted from: http://calagator.org/events/1250482575
+URL:https://communitybroadbandpdx.org
+SUMMARY:Community Broadband PDX Meetup
+LOCATION:Multnomah County Library Albina Branch: 205 NE Russell St\, Port
+ land OR 97212 US
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260420T032541Z
@@ -639,16 +611,16 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260610T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260610T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002900Z
 UID:http://calagator.org/events/1250482566
 DESCRIPTION:Get up-to-date information at: https://luma.com/dltup2wh\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482566
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172028Z
@@ -714,16 +686,16 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260715T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260715T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002900Z
 UID:http://calagator.org/events/1250482567
 DESCRIPTION:Get up-to-date information at: https://luma.com/ok3tf9ls\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482567
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T171925Z
@@ -789,16 +761,16 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260812T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260812T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002900Z
 UID:http://calagator.org/events/1250482568
 DESCRIPTION:Get up-to-date information at: https://luma.com/weiq3t3f\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482568
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172121Z
@@ -864,16 +836,16 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260909T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260909T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002900Z
 UID:http://calagator.org/events/1250482569
 DESCRIPTION:Get up-to-date information at: https://luma.com/fgpd1gc8\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482569
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172235Z
@@ -939,16 +911,16 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20261014T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20261014T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002900Z
 UID:http://calagator.org/events/1250482570
 DESCRIPTION:Get up-to-date information at: https://luma.com/3e2o26k9\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482570
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172307Z
@@ -1014,16 +986,16 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20261111T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20261111T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002901Z
 UID:http://calagator.org/events/1250482571
 DESCRIPTION:Get up-to-date information at: https://luma.com/wf629e9l\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482571
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172325Z
@@ -1089,15 +1061,15 @@ CREATED;VALUE=DATE-TIME:20260507T202616Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20261209T203000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20261209T183000
 DTSTAMP;VALUE=DATE-TIME:20260507T202616Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260507T202616Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260513T002901Z
 UID:http://calagator.org/events/1250482572
 DESCRIPTION:Get up-to-date information at: https://luma.com/waifbpzl\n\nA
  ddress:\nHawthorne Asylum Food Cart Pod\nPortland\, Oregon\nUnited State
  s\n\nHosted by Erin M Miles Rasmussen\n\nImported from: http://calagator
  .org/events/1250482572
 SUMMARY:Portland Drupal User Group
-LOCATION:Hawthorne Asylum Food Cart Pod\, SE 10th Ave &\, 1080 SE Madison
-  St\, Portland\, OR 97214\, USA: false
-SEQUENCE:1
+LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
+  97214 US
+SEQUENCE:2
 END:VEVENT
 END:VCALENDAR

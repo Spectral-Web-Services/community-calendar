@@ -23,26 +23,6 @@ TZOFFSETTO:-0800
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
-TZID:America/Chicago
-BEGIN:DAYLIGHT
-TZNAME:CDT
-DTSTART:20260308T080000
-RDATE:20260308T080000
-TZOFFSETFROM:-0600
-TZOFFSETTO:-0500
-END:DAYLIGHT
-END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:America/Chicago
-BEGIN:STANDARD
-TZNAME:CST
-DTSTART:20261101T070000
-RDATE:20261101T070000
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0600
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:America/Detroit
 BEGIN:DAYLIGHT
 TZNAME:EDT
@@ -82,209 +62,6 @@ TZOFFSETFROM:-0400
 TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260511
-DTEND;VALUE=DATE:20260512
-LOCATION:Fowler Student Center
-GEO:45.44918;-122.670969
-SUMMARY:May 2026 Wilderness First Responder (WFR) - FULL
-UID:20260511T070000Z-335270@www.lclark.edu
-DTSTAMP:20220222T114841Z
-URL:https://www.lclark.edu/live/profiles/12615-wilderness-first-responder
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260509T201452Z
-ATTACH:https://www.lclark.edu/live/image/gid/258/width/80/height/80/crop/
- 1/src_region/0,0,1651,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:335270
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/258/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1651\,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Students pretend to be injured for a wilderness
-  rescue practice scenario
-X-LIVEWHALE-ALL-DAY:1
-X-LIVEWHALE-SUMMARY:<p>\n  $940 for General Public<br />\n  $695 for L&am
- p\;C Undergrad Students\n</p>
-X-LIVEWHALE-TAGS:Training Trips|WFR
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260512
-DTEND;VALUE=DATE:20260513
-LOCATION:Fowler Student Center
-GEO:45.44918;-122.670969
-SUMMARY:May 2026 Wilderness First Responder (WFR) - FULL
-UID:20260512T070000Z-335270@www.lclark.edu
-DTSTAMP:20220222T114841Z
-URL:https://www.lclark.edu/live/profiles/12615-wilderness-first-responder
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260509T201452Z
-ATTACH:https://www.lclark.edu/live/image/gid/258/width/80/height/80/crop/
- 1/src_region/0,0,1651,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:335270
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/258/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1651\,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Students pretend to be injured for a wilderness
-  rescue practice scenario
-X-LIVEWHALE-ALL-DAY:1
-X-LIVEWHALE-SUMMARY:<p>\n  $940 for General Public<br />\n  $695 for L&am
- p\;C Undergrad Students\n</p>
-X-LIVEWHALE-TAGS:Training Trips|WFR
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260512T170000
-DTEND;TZID=America/Chicago:20260512T183000
-LOCATION:Touché Bar
-GEO:29.956309;-90.065242
-SUMMARY:New Orleans Alumni Happy Hour!
-DESCRIPTION:NOLA alums\, you are invited to join Alumni Board Member Ally
-  McLain '18 (https://mx.technolutions.net/ss/c/u001.zYLOgsfDYOMYSBLXk8xvM
- c7Zn7exrDOHJgTX4XNkNf348u-u_Vy8x96lfTWavVe2NdBeAZS3VgHJwXxwBkmjPw/4ps/FzR
- zA9PBTii5AgXXEVQHQg/h0/h001.YZNOMjo9MJBIPbJbgexpuhh9IdTq0267Udg6f1CvQgw) 
- for a casual alumni happy hour meet-up! Ally will be in town for a confer
- ence and she is looking forward to connecting with the local NOLA alumni 
- community.  It's a great chance to network\, hear campus updates\, and en
- joy a drink on a Tuesday afternoon.When: Tuesday\, May 12th at 5 PM (CT) 
-    Where:Touché Bar (https://www.omnihotels.com/hotels/new-orleans-royal
- -orleans/dining/touche-bar) ┃Omni Royal Orleans (621 St. Louis St.)    
- RSVP: Please RSVP HERE (https://engage.lclark.edu/register/?id=46f80d19-4
- 8e0-4784-a9ff-41f3b35f95c1) so Ally knows to look for you!
-X-ALT-DESC;FMTTYPE=text/html:<p>  NOLA alums\, you are invited to join <a
-  title="https://law.lclark.edu/live/news/50235-ally-mclain-18" href="http
- s://mx.technolutions.net/ss/c/u001.zYLOgsfDYOMYSBLXk8xvMc7Zn7exrDOHJgTX4X
- NkNf348u-u_Vy8x96lfTWavVe2NdBeAZS3VgHJwXxwBkmjPw/4ps/FzRzA9PBTii5AgXXEVQH
- Qg/h0/h001.YZNOMjo9MJBIPbJbgexpuhh9IdTq0267Udg6f1CvQgw" target="_blank" r
- el="noopener" data-saferedirecturl="https://www.google.com/url?q=https://
- mx.technolutions.net/ss/c/u001.zYLOgsfDYOMYSBLXk8xvMc7Zn7exrDOHJgTX4XNkNf
- 348u-u_Vy8x96lfTWavVe2NdBeAZS3VgHJwXxwBkmjPw/4ps/FzRzA9PBTii5AgXXEVQHQg/h
- 0/h001.YZNOMjo9MJBIPbJbgexpuhh9IdTq0267Udg6f1CvQgw&amp\;source=gmail&amp\
- ;ust=1776272090178000&amp\;usg=AOvVaw0alz1k6AiMCk0mpLnTBrhc">Alumni Board
-  Member Ally McLain '18</a> for a casual alumni happy hour meet-up! Ally 
- will be in town for a conference and she is looking forward to connecting
-  with the local NOLA alumni community.</p><p>  It's a great chance to net
- work\, hear campus updates\, and enjoy a drink on a Tuesday afternoon.</p
- ><ul data-path-to-node="8"><li><p data-path-to-node="8\,0\,0"><strong dat
- a-index-in-node="0" data-path-to-node="8\,0\,0">When:</strong> Tuesday\, 
- May 12th at 5 PM (CT)    </p></li><li><p data-path-to-node="8\,1\,0"><str
- ong data-index-in-node="0" data-path-to-node="8\,1\,0">Where:</strong><a 
- href="https://www.omnihotels.com/hotels/new-orleans-royal-orleans/dining/
- touche-bar" target="_blank" rel="noopener">Touché Bar</a> ┃Omni Royal 
- Orleans (621 St. Louis St.)    </p></li><li><p data-path-to-node="8\,2\,0
- "><strong data-index-in-node="0" data-path-to-node="8\,2\,0">RSVP:</stron
- g> Please <a href="https://engage.lclark.edu/register/?id=46f80d19-48e0-4
- 784-a9ff-41f3b35f95c1" target="_blank" rel="noopener">RSVP HERE</a> so Al
- ly knows to look for you!    </p></li></ul>
-UID:20260512T220000Z-390431@www.lclark.edu
-DTSTAMP:20260414T095405Z
-URL:https://www.lclark.edu/calendars/events/event/390431-new-orleans-alum
- ni-happy-hour
-LAST-MODIFIED:20260414T182032Z
-ATTACH:https://www.lclark.edu/live/image/gid/194/width/80/height/80/crop/
- 1/src_region/0,0,1080,1350/112779_Ally_McLain_in_New_Orleans_.rev.1776185
- 733.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:390431
-X-LIVEWHALE-TIMEZONE:America/Chicago
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/194/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1080\,1350/112779_Ally_McLain_in_New_Orlean
- s_.rev.1776185733.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Ally McLain in New Orleans!
-X-LIVEWHALE-COST:Free
-X-LIVEWHALE-CONTACT-INFO:<p>\n  Office of Law Alumni Relations<br />\n  (
- 503) 768-6890<br />\n  lawalum@lclark.edu\n</p>
-X-LIVEWHALE-SUMMARY:<p>\n  Come and meet Alumni Board Member Ally McLain 
- '18 while she's in town!\n</p>
-X-LIVEWHALE-TAGS:law Alumni
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260512T150000
-DTEND;TZID=America/Los_Angeles:20260512T170000
-LOCATION:Wood Hall
-GEO:45.452617;-122.678466
-SUMMARY:Retirement Celebrations: Brian Blum\, Bill Chin\, Lydia Loren
-DESCRIPTION:RSVP (https://engage.lclark.edu/register/RetirementCelebratio
- n)  Please RSVP by April 30th.
-X-ALT-DESC;FMTTYPE=text/html:<p style="text-align: center\;"><a class="bt
- n-small-style-1" href="https://engage.lclark.edu/register/RetirementCeleb
- ration">RSVP</a></p><p style="text-align: center\;">  Please RSVP by Apri
- l 30th.</p><p><picture class="lw_image lw_image112806  lw_align_left"><so
- urce media="(max-width: 500px)" type="image/webp" srcset="https://www.lcl
- ark.edu/live/image/scale/2x/gid/32/width/500/height/700/112806_Green_and_
- Gold_Elegant_Retirement_Party_Invitation_1.webp 2x" data-origin="responsi
- ve"/><source media="(max-width: 500px)" type="image/png" srcset="https://
- www.lclark.edu/live/image/scale/2x/gid/32/width/500/height/700/112806_Gre
- en_and_Gold_Elegant_Retirement_Party_Invitation_1.rev.1776372482.png 2x" 
- data-origin="responsive"/><source media="(min-width: 501px)" type="image/
- webp" srcset="https://www.lclark.edu/live/image/scale/2x/gid/32/width/608
- /height/851/112806_Green_and_Gold_Elegant_Retirement_Party_Invitation_1.w
- ebp 2x" data-origin="responsive"/><source media="(min-width: 501px)" type
- ="image/png" srcset="https://www.lclark.edu/live/image/scale/2x/gid/32/wi
- dth/608/height/851/112806_Green_and_Gold_Elegant_Retirement_Party_Invitat
- ion_1.rev.1776372482.png 2x" data-origin="responsive"/><img width="608" h
- eight="851" alt="" data-alt="" data-caption="Retirement Celebration" src=
- "https://www.lclark.edu/live/image/gid/32/width/608/height/851/112806_Gre
- en_and_Gold_Elegant_Retirement_Party_Invitation_1.rev.1776372482.png" tit
- le="Green and Gold Elegant Retirement Party Invitation - 1" srcset="https
- ://www.lclark.edu/live/image/scale/2x/gid/32/width/608/height/851/112806_
- Green_and_Gold_Elegant_Retirement_Party_Invitation_1.rev.1776372482.png 2
- x" data-max-w="1429" data-max-h="2000" loading="lazy" data-optimized="tru
- e"/></picture></p>
-UID:20260512T220000Z-390670@www.lclark.edu
-DTSTAMP:20260416T134722Z
-URL:https://www.lclark.edu/calendars/events/event/390670-retirement-celeb
- rations-brian-blum-bill-chin-lydia
-LAST-MODIFIED:20260416T205029Z
-ATTACH:https://www.lclark.edu/live/image/gid/32/width/80/height/80/crop/1
- /src_region/1157,0,7551,6390/112805_Celebrating_Three_Distinguished_Profe
- ssors_5.rev.1776372174.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:390670
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/32/width/80/heigh
- t/80/crop/1/src_region/1157\,0\,7551\,6390/112805_Celebrating_Three_Disti
- nguished_Professors_5.rev.1776372174.png
-X-LIVEWHALE-IMAGE-CAPTION:Bill Chin\, Lydia Loren\, Brian Blum
-X-LIVEWHALE-SUMMARY:<h3 data-end="209" data-start="0">\n  Join us to cele
- brate the remarkable careers of Brian Blum\, Bill Chin\, and Lydia Loren 
- on May 12th from 3:00 - 5:00 pm in the Wood Hall Lounge!\n</h3>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260512T180000
-DTEND;TZID=America/Los_Angeles:20260512T190000
-SUMMARY:Monthly Series: Ask A Healthcare Student! (copy)
-UID:20260513T010000Z-373029@www.lclark.edu
-DTSTAMP:20251109T144032Z
-URL:https://www.lclark.edu/calendars/events/event/373029-monthly-series-a
- sk-a-healthcare-student-copy
-LAST-MODIFIED:20260313T202239Z
-ATTACH:https://www.lclark.edu/live/image/gid/660/width/80/height/80/crop/
- 1/src_region/0,0,538,532/110380_Screenshot_2025-10-27_124117.rev.17615940
- 99.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:373029
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/660/width/80/heig
- ht/80/crop/1/src_region/0\,0\,538\,532/110380_Screenshot_2025-10-27_12411
- 7.rev.1761594099.png
-X-LIVEWHALE-IMAGE-CAPTION:AHEC
-X-LIVEWHALE-SUMMARY:<p>\n  • Are you interested in exploring a career i
- n healthcare?<br />\n  • Want to talk to someone who has been through t
- he process?<br />\n  <br />\n  Oregon <span class="il">AHEC</span> is hos
- ting a monthly virtual panel series for undergrad students and high schoo
- l students interested in careers in healthcare. The panels are composed o
- f a rotating mix of <span class="il">AHEC</span> Scholars and other gradu
- ate level students\, with a facilitator keeping the conversation flowing.
-  These are informal discussions and a fun\, informative way to learn abou
- t what different careers and pathways can look like\, and tips to navigat
- e the path.<br />\n  <br />\n  <a href="https://ohsu.ca1.qualtrics.com/jf
- e/form/SV_6ffB7Sk7vISodgi" target="_blank" rel="noopener">Register here</
- a>!<br />\n  <br />\n  For more information\, contact Kate Hubbard at <a 
- href="mailto:hubbarka@ohsu.edu">hubbarka@ohsu.edu</a>. If you need an acc
- ommodation to participate in this event please contact <a href="mailto:ah
- ec@ohsu.edu">ahec@ohsu.edu</a> at least five business days prior to the e
- vent.\n</p>
-END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260513
 DTEND;VALUE=DATE:20260514
@@ -682,33 +459,30 @@ DESCRIPTION:This online course is designed for current and future supervi
  ided 'offline' training\, and interactive group discussion. Participants 
  will have the opportunity to discuss actual supervisory highlights and ch
  allenges and experience common scenarios in a supportive atmosphere.Detai
- ls &amp\; RegistrationThis course is currently full.Add your name to the 
- waitlist (https://lclark.tfaforms.net/4735424/?epid=a1aUY000002AgXt) to b
- e notified if space becomes available.  &#160\;Dates and Times: Thursday-
- Friday\, May 14-15 &amp\; 21-22\, 2026\, 8:30 a.m.-5 p.m. PT\, OnlineInst
- ructor: James Gurule\, MA\, LPCCost: $525\, includes 30 CEUs. Lewis &amp\
- ; Clark Alumni save 20%GSEC Clinical Mental Health Supervisors: Please em
- ail cce@lclark.edu (mailto:cce@lclark.edu) to request no-cost registratio
- nAccessibility: We are committed to making our events accessible to all n
- eeds and abilities. When registering\, please let us know your access nee
- ds. Contact us at 503-768-6040 or cce@lclark.edu (mailto:cce@lclark.edu)&
- #160\;with questions.Please note: Discounted &#x2018\;Student Rate&#x2019
- \; registrations are for current students only and do not include continu
- ing education credit (CEU/PDUs)About the InstructorJames Gurule\, MA\, LP
- C is a Licensed Professional Counselor with over four decades of clinical
-  experience working in community mental health settings. In addition to c
- linical work as a Child and Family Therapist\, James also provided clinic
- al supervision with agency staff and was designated as an agency Lead Ris
- k Manager at Lifeworks NW.  James also regularly provides professional tr
- ainings in ethics\, solution focused clinical supervision and other stren
- gth-based supervisory practices through the Center for Community Engageme
- nt at Lewis &amp\; Clark Graduate School in Portland\, Oregon. James has 
- provided additional courses at the Lewis &amp\; Clark Graduate School as 
- part of their Professional Mental Health Counseling and School Psychology
-  programs.New workshops and trainings are added to our calendar regularly
- . For the latest on professional development related to your specific int
- erests\, sign up for our mailing list! (https://lclark.tfaforms.net/47354
- 41)
+ ls &amp\; RegistrationDates and Times: Thursday-Friday\, May 14-15 &amp\;
+  21-22\, 2026\, 8:30 a.m.-5 p.m. PT\, OnlineInstructor: James Gurule\, MA
+ \, LPCCost: $525\, includes 30 CEUs. Lewis &amp\; Clark Alumni save 20%GS
+ EC Clinical Mental Health Supervisors: Please email cce@lclark.edu (mailt
+ o:cce@lclark.edu) to request no-cost registrationAccessibility: We are co
+ mmitted to making our events accessible to all needs and abilities. When 
+ registering\, please let us know your access needs. Contact us at 503-768
+ -6040 or cce@lclark.edu (mailto:cce@lclark.edu)&#160\;with questions.Plea
+ se note: Discounted &#x2018\;Student Rate&#x2019\; registrations are for 
+ current students only and do not include continuing education credit (CEU
+ /PDUs)About the InstructorJames Gurule\, MA\, LPC is a Licensed Professio
+ nal Counselor with over four decades of clinical experience working in co
+ mmunity mental health settings. In addition to clinical work as a Child a
+ nd Family Therapist\, James also provided clinical supervision with agenc
+ y staff and was designated as an agency Lead Risk Manager at Lifeworks NW
+ .  James also regularly provides professional trainings in ethics\, solut
+ ion focused clinical supervision and other strength-based supervisory pra
+ ctices through the Center for Community Engagement at Lewis &amp\; Clark 
+ Graduate School in Portland\, Oregon. James has provided additional cours
+ es at the Lewis &amp\; Clark Graduate School as part of their Professiona
+ l Mental Health Counseling and School Psychology programs.New workshops a
+ nd trainings are added to our calendar regularly. For the latest on profe
+ ssional development related to your specific interests\, sign up for our 
+ mailing list! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This online 
  course is designed for current and future supervisors of graduate interns
  \, clinical staff\, and licensure candidates\, and gives clinicians the i
@@ -731,55 +505,51 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This online
  interactive group discussion. Participants will have the opportunity to d
  iscuss actual supervisory highlights and challenges and experience common
   scenarios in a supportive atmosphere.</p><hr /><h3><strong>Details &amp\
- ; Registration</strong></h3><h5 style="line-height: 1.5\;"><strong>This c
- ourse is currently full.</strong><a href="https://lclark.tfaforms.net/473
- 5424/?epid=a1aUY000002AgXt" target="_blank" rel="noopener">Add your name 
- to the waitlist</a> to be notified if space becomes available.</h5><p sty
- le="line-height: 1.5\;">  &#160\;</p><p style="line-height: 1.5\;"><stron
- g>Dates and Times:</strong> Thursday-Friday\, May 14-15 &amp\; 21-22\, 20
- 26\, 8:30 a.m.-5 p.m. PT\, Online</p><p style="line-height: 1.5\;"><stron
- g>Instructor:</strong> James Gurule\, MA\, LPC</p><p style="line-height: 
- 1.5\;"><strong>Cost:</strong> $525\, includes 30 CEUs. Lewis &amp\; Clark
-  Alumni save 20%</p><p style="line-height: 1.5\;"><strong>GSEC Clinical M
- ental Health Supervisors:</strong> Please email <a href="mailto:cce@lclar
- k.edu">cce@lclark.edu</a> to request no-cost registration</p><div id="lw_
- widget_30f0017c" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs 
- lw_widget_id_7119 lw_widget_accessibility_statement lw_widget_pagination"
- ><ul class="lw_widget_results lw_widget_results_blurbs"><li class="lw_ite
- m_1"><div class="lw_blurbs_body"><p class="p1" style="font-size: 15px\; l
- ine-height: 1.5\;"><em><strong>Accessibility:</strong> We are committed t
- o making our events accessible to all needs and abilities. When registeri
- ng\, please let us know your access needs. Contact us at 503-768-6040 or 
- <a href="mailto:cce@lclark.edu">cce@lclark.edu</a>&#160\;with questions.<
- br/></em></p><p class="p1" style="font-size: 15px\; line-height: 1.5\;"><
- em><strong>Please note:</strong> Discounted &#x2018\;Student Rate&#x2019\
- ; registrations are for current students only and <strong>do not</strong>
-  include continuing education credit (CEU/PDUs)</em></p></div></li></ul><
- /div><hr /><h3><strong>About the Instructor</strong></h3><p style="line-h
- eight: 1.5\;"><strong>James Gurule\, MA\, LPC</strong> is a Licensed Prof
- essional Counselor with over four decades of clinical experience working 
- in community mental health settings. In addition to clinical work as a Ch
- ild and Family Therapist\, James also provided clinical supervision with 
- agency staff and was designated as an agency Lead Risk Manager at Lifewor
- ks NW.</p><p style="line-height: 1.5\;">  James also regularly provides p
- rofessional trainings in ethics\, solution focused clinical supervision a
- nd other strength-based supervisory practices through the Center for Comm
- unity Engagement at Lewis &amp\; Clark Graduate School in Portland\, Oreg
- on. James has provided additional courses at the Lewis &amp\; Clark Gradu
- ate School as part of their Professional Mental Health Counseling and Sch
- ool Psychology programs.</p><div id="lw_widget_470b39ba" class="lw_widget
-  lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_i
- n lw_widget_pagination"><ul class="lw_widget_results lw_widget_results_bl
- urbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p style="line-he
- ight: 1.5\;"><em><strong>New workshops and trainings are added to our cal
- endar regularly.</strong> For the latest on professional development rela
- ted to your specific interests\, <a href="https://lclark.tfaforms.net/473
- 5441">sign up for our mailing list!</a></em></p></div></li></ul></div>
+ ; Registration</strong></h3><p style="line-height: 1.5\;"><strong>Dates a
+ nd Times:</strong> Thursday-Friday\, May 14-15 &amp\; 21-22\, 2026\, 8:30
+  a.m.-5 p.m. PT\, Online</p><p style="line-height: 1.5\;"><strong>Instruc
+ tor:</strong> James Gurule\, MA\, LPC</p><p style="line-height: 1.5\;"><s
+ trong>Cost:</strong> $525\, includes 30 CEUs. Lewis &amp\; Clark Alumni s
+ ave 20%</p><p style="line-height: 1.5\;"><strong>GSEC Clinical Mental Hea
+ lth Supervisors:</strong> Please email <a href="mailto:cce@lclark.edu">cc
+ e@lclark.edu</a> to request no-cost registration</p><div id="lw_widget_30
+ f0017c" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widget
+ _id_7119 lw_widget_accessibility_statement lw_widget_pagination"><ul clas
+ s="lw_widget_results lw_widget_results_blurbs"><li class="lw_item_1"><div
+  class="lw_blurbs_body"><p class="p1" style="font-size: 15px\; line-heigh
+ t: 1.5\;"><em><strong>Accessibility:</strong> We are committed to making 
+ our events accessible to all needs and abilities. When registering\, plea
+ se let us know your access needs. Contact us at 503-768-6040 or <a href="
+ mailto:cce@lclark.edu">cce@lclark.edu</a>&#160\;with questions.<br/></em>
+ </p><p class="p1" style="font-size: 15px\; line-height: 1.5\;"><em><stron
+ g>Please note:</strong> Discounted &#x2018\;Student Rate&#x2019\; registr
+ ations are for current students only and <strong>do not</strong> include 
+ continuing education credit (CEU/PDUs)</em></p></div></li></ul></div><hr 
+ /><h3><strong>About the Instructor</strong></h3><p style="line-height: 1.
+ 5\;"><strong>James Gurule\, MA\, LPC</strong> is a Licensed Professional 
+ Counselor with over four decades of clinical experience working in commun
+ ity mental health settings. In addition to clinical work as a Child and F
+ amily Therapist\, James also provided clinical supervision with agency st
+ aff and was designated as an agency Lead Risk Manager at Lifeworks NW.</p
+ ><p style="line-height: 1.5\;">  James also regularly provides profession
+ al trainings in ethics\, solution focused clinical supervision and other 
+ strength-based supervisory practices through the Center for Community Eng
+ agement at Lewis &amp\; Clark Graduate School in Portland\, Oregon. James
+  has provided additional courses at the Lewis &amp\; Clark Graduate Schoo
+ l as part of their Professional Mental Health Counseling and School Psych
+ ology programs.</p><div id="lw_widget_470b39ba" class="lw_widget lw_widge
+ t_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widg
+ et_pagination"><ul class="lw_widget_results lw_widget_results_blurbs"><li
+  class="lw_item_1"><div class="lw_blurbs_body"><p style="line-height: 1.5
+ \;"><em><strong>New workshops and trainings are added to our calendar reg
+ ularly.</strong> For the latest on professional development related to yo
+ ur specific interests\, <a href="https://lclark.tfaforms.net/4735441">sig
+ n up for our mailing list!</a></em></p></div></li></ul></div>
 UID:20260514T153000Z-377153@www.lclark.edu
 DTSTAMP:20251218T113550Z
 URL:https://www.lclark.edu/calendars/events/event/377153-clinical-supervi
  sion-online
-LAST-MODIFIED:20260430T225337Z
+LAST-MODIFIED:20260512T164356Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,3200,2129/96367_pexels-bich-tran-916023.rev.1666829452.jp
  g
