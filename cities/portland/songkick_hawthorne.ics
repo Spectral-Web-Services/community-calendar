@@ -4,17 +4,6 @@ PRODID:-//Hawthorne Theatre//songkick.com//
 X-WR-CALNAME:Hawthorne Theatre
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Vana
-DTSTART:20260513T190000
-DTEND:20260513T190000
-UID:3b1ae51397b56ed7b79e3809011cd899@songkick.com
-DESCRIPTION:Vana at Hawthorne Theatre at 2026-05-13T19:00:00-0700
-LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43179143-vana-at-hawthorne-theatre?ut
- m_medium=organic&utm_source=microformat
-X-SOURCE:Hawthorne Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Cryptopsy
 DTSTART:20260516T000000
 DTEND:20260516T000000
@@ -46,6 +35,17 @@ DESCRIPTION:Feng at Hawthorne Theatre at 2026-05-21T20:30:00-0700
 LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/43106738-feng-at-hawthorne-theatre?ut
  m_medium=organic&utm_source=microformat
+X-SOURCE:Hawthorne Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jessica Baio
+DTSTART:20260527T200000
+DTEND:20260527T200000
+UID:3aa434825d55dce2a0b453c7bc8fa0cd@songkick.com
+DESCRIPTION:Jessica Baio at Hawthorne Theatre at 2026-05-27T20:00:00-0700
+LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43075681-jessica-baio-at-hawthorne-th
+ eatre?utm_medium=organic&utm_source=microformat
 X-SOURCE:Hawthorne Theatre
 END:VEVENT
 END:VCALENDAR

@@ -4,19 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Léna Bartels
-DTSTART:20260513T200000
-DTEND:20260513T200000
-UID:07222a34177ec9c6eeaad26b20947934@songkick.com
-DESCRIPTION:Léna Bartels at Mississippi Studios at 2026-05-13T20:00:00-07
- 00
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43100101-lena-bartels-at-mississippi-
- studios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Robert Lester Folsom\, Kassi Valazza
 DTSTART:20260514T200000
 DTEND:20260514T200000
@@ -40,6 +27,19 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/42929636-glen-phillips-at-mississippi
  -studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Garrison Starr
+DTSTART:20260515T210000
+DTEND:20260515T210000
+UID:9c1adcb3c3850407b3876df028b0931e@songkick.com
+DESCRIPTION:Garrison Starr at Mississippi Studios at 2026-05-15T21:00:00-0
+ 700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43100106-garrison-starr-at-mississipp
+ i-studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR
