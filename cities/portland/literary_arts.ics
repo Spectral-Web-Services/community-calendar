@@ -49,24 +49,9 @@ DTSTART:20271107T090000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260512T173000
-DTEND;TZID=America/Los_Angeles:20260512T200000
-DTSTAMP:20260512T195259
-CREATED:20260407T201242Z
-LAST-MODIFIED:20260512T170012Z
-UID:10005680-1778607000-1778616000@literary-arts.org
-SUMMARY:May Write-In: Light
-DESCRIPTION:Join us at the Literary Arts Bookstore & Cafe for our monthly write-in. \nAt last\, the long night has ended\, and we’re ready for Spring! With a bookseller-curated mix of songs featuring sunlight and brightness\, we’ll be channeling brighter days as we lock-in for a focused writing session. \nOur Food and Beverage Assistant Manager\, Miah\, cooked up a new special called Lemon Illumination.  For one night only\, we are bringing back the lemon thyme latte! This is one of our favorite seasonal specials. It’s lemony\, herby\, and all around delicious.
-URL:https://literary-arts.org/event/may-write-in-light/
-LOCATION:Literary Arts
-CATEGORIES:Free Events,Bookstore
-ATTACH;FMTTYPE=image/jpeg:https://literary-arts.org/wp-content/uploads/2026/04/IMG_3769-scaled.jpg
-GEO:45.5213897;-122.6810304
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260514T183000
 DTEND;TZID=America/Los_Angeles:20260514T183000
-DTSTAMP:20260512T195259
+DTSTAMP:20260513T195341
 CREATED:20260109T212218Z
 LAST-MODIFIED:20260512T225758Z
 UID:10005606-1778783400-1778783400@literary-arts.org
@@ -81,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260515T183000
 DTEND;TZID=America/Los_Angeles:20260515T200000
-DTSTAMP:20260512T195259
+DTSTAMP:20260513T195341
 CREATED:20260407T203112Z
 LAST-MODIFIED:20260512T170203Z
 UID:10005684-1778869800-1778875200@literary-arts.org
@@ -96,7 +81,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260519T183000
 DTEND;TZID=America/Los_Angeles:20260519T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260407T204918Z
 LAST-MODIFIED:20260512T170216Z
 UID:10005685-1779215400-1779220800@literary-arts.org
@@ -111,7 +96,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260521T190000
 DTEND;TZID=America/Los_Angeles:20260521T210000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260407T201756Z
 LAST-MODIFIED:20260407T201823Z
 UID:10005681-1779390000-1779397200@literary-arts.org
@@ -126,7 +111,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260521T200000
 DTEND;TZID=America/Los_Angeles:20260521T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260406T235805Z
 LAST-MODIFIED:20260409T175520Z
 UID:10005676-1779393600-1779393600@literary-arts.org
@@ -142,7 +127,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260526T183000
 DTEND;TZID=America/Los_Angeles:20260526T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260403T164138Z
 LAST-MODIFIED:20260410T220231Z
 UID:10005674-1779820200-1779825600@literary-arts.org
@@ -157,7 +142,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260527T190000
 DTEND;TZID=America/Los_Angeles:20260527T210000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260407T202149Z
 LAST-MODIFIED:20260407T202149Z
 UID:10005682-1779908400-1779915600@literary-arts.org
@@ -172,7 +157,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260602T180000
 DTEND;TZID=America/Los_Angeles:20260602T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260331T210857Z
 LAST-MODIFIED:20260402T134101Z
 UID:10005672-1780423200-1780430400@literary-arts.org
@@ -187,7 +172,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260602T183000
 DTEND;TZID=America/Los_Angeles:20260602T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260409T172426Z
 LAST-MODIFIED:20260512T192154Z
 UID:10005687-1780425000-1780430400@literary-arts.org
@@ -202,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260603T180000
 DTEND;TZID=America/Los_Angeles:20260603T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260406T220000Z
 LAST-MODIFIED:20260428T233738Z
 UID:10005675-1780509600-1780516800@literary-arts.org
@@ -217,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260603T180000
 DTEND;TZID=America/Los_Angeles:20260603T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260423T174143Z
 LAST-MODIFIED:20260424T184824Z
 UID:10005701-1780509600-1780516800@literary-arts.org
@@ -230,9 +215,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260603T183000
 DTEND;TZID=America/Los_Angeles:20260603T203000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260506T204640Z
-LAST-MODIFIED:20260511T230250Z
+LAST-MODIFIED:20260513T172916Z
 UID:10005718-1780511400-1780518600@literary-arts.org
 SUMMARY:One Page Wednesday - June
 DESCRIPTION:***NEW START TIME*** \nStarting in June\, One Page Wednesday will begin at 6:30 PM\, with open mic sign-ups opening at 6:00 PM.  \nHere is an opportunity to share or listen to one page of work in progress from talented writers from everywhere. Come with a single page of work and sign up to read – or come to listen and prepare to be inspired. \nJune’s One Page Wednesday will be hosted by special guest Armin Tolentino. \nThe featured reader for June is Evan P. Schneider.
@@ -243,12 +228,12 @@ ATTACH;FMTTYPE=image/jpeg:https://literary-arts.org/wp-content/uploads/2026/05/O
 GEO:45.5213897;-122.6810304
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260604T080000
-DTEND;TZID=America/Los_Angeles:20260604T170000
-DTSTAMP:20260512T195300
+DTSTART;TZID=America/Los_Angeles:20260604T170000
+DTEND;TZID=America/Los_Angeles:20260604T190000
+DTSTAMP:20260513T195341
 CREATED:20260511T230943Z
-LAST-MODIFIED:20260512T192604Z
-UID:10005722-1780560000-1780592400@literary-arts.org
+LAST-MODIFIED:20260513T204010Z
+UID:10005722-1780592400-1780599600@literary-arts.org
 SUMMARY:June Hand-Sewing Social with SCRAP PDX
 DESCRIPTION:  \nThe Literary Arts Bookstore and Cafe is thrilled to partner with SCRAP PDX for monthly crafting events. \nJoin us at The Literary Arts Bookstore and Cafe to hand-sew decorative plush to celebrate the start of PICNIC season! Sew felt berries\, sandwiches\, flowers\, and more; customize a felt charcuterie board! Bring a friend! Make a friend! Grab a beverage\, browse the books\, and gather round to sew some incredible (inedible) felt picnic pleasures! \nTraceable templates & embroidery stitch print-outs provided. Self-guided & beginner-friendly. A SCRAP educator will be ready to assist newer sewists with hand-sewing basics! \nThis is a ticketed event. Drop-ins welcome. Get tickets here.
 URL:https://literary-arts.org/event/june-hand-sewing-social-with-scrap-pdx/
@@ -260,7 +245,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260604T180000
 DTEND;TZID=America/Los_Angeles:20260604T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260414T220247Z
 LAST-MODIFIED:20260512T220439Z
 UID:10005691-1780596000-1780603200@literary-arts.org
@@ -273,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260606T100000
 DTEND;TZID=America/Los_Angeles:20260606T120000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260417T225420Z
 LAST-MODIFIED:20260429T181911Z
 UID:10005700-1780740000-1780747200@literary-arts.org
@@ -288,7 +273,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260606T110000
 DTEND;TZID=America/Los_Angeles:20260606T140000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260409T000423Z
 LAST-MODIFIED:20260417T225236Z
 UID:10005686-1780743600-1780754400@literary-arts.org
@@ -303,7 +288,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260609T173000
 DTEND;TZID=America/Los_Angeles:20260609T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260512T214948Z
 LAST-MODIFIED:20260512T224506Z
 UID:10005725-1781026200-1781035200@literary-arts.org
@@ -318,7 +303,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260610T183000
 DTEND;TZID=America/Los_Angeles:20260610T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260428T212210Z
 LAST-MODIFIED:20260512T192220Z
 UID:10005709-1781116200-1781121600@literary-arts.org
@@ -333,7 +318,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260612T180000
 DTEND;TZID=America/Los_Angeles:20260612T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260430T221323Z
 LAST-MODIFIED:20260430T221451Z
 UID:10005716-1781287200-1781294400@literary-arts.org
@@ -347,7 +332,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260614T163000
 DTEND;TZID=America/Los_Angeles:20260614T183000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260323T215747Z
 LAST-MODIFIED:20260324T165455Z
 UID:10005669-1781454600-1781461800@literary-arts.org
@@ -362,7 +347,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260616T183000
 DTEND;TZID=America/Los_Angeles:20260616T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260409T173454Z
 LAST-MODIFIED:20260512T192249Z
 UID:10005688-1781634600-1781640000@literary-arts.org
@@ -377,7 +362,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260618T190000
 DTEND;TZID=America/Los_Angeles:20260618T210000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260506T205411Z
 LAST-MODIFIED:20260506T205411Z
 UID:10005719-1781809200-1781816400@literary-arts.org
@@ -392,7 +377,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260620T130000
 DTEND;TZID=America/Los_Angeles:20260620T160000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260427T205356Z
 LAST-MODIFIED:20260429T175622Z
 UID:10005708-1781960400-1781971200@literary-arts.org
@@ -405,7 +390,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260621T180000
 DTEND;TZID=America/Los_Angeles:20260621T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260415T214953Z
 LAST-MODIFIED:20260504T163450Z
 UID:10005695-1782064800-1782072000@literary-arts.org
@@ -420,7 +405,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260622T180000
 DTEND;TZID=America/Los_Angeles:20260622T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260323T213751Z
 LAST-MODIFIED:20260403T164616Z
 UID:10005668-1782151200-1782158400@literary-arts.org
@@ -434,12 +419,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260623T173000
 DTEND;TZID=America/Los_Angeles:20260623T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260511T234055Z
-LAST-MODIFIED:20260512T215521Z
+LAST-MODIFIED:20260513T204412Z
 UID:10005723-1782235800-1782244800@literary-arts.org
 SUMMARY:June Write-In: PRIDE
-DESCRIPTION:Join us at the Literary Arts Bookstore & Cafe for our monthly write-in. This month’s theme is PRIDE. Enjoy a night of community writing and light socializing. \nAll are welcome! \n\nAbout write-ins:\nWrite-ins are community gatherings where writers come together to share space\, write\, and make connections. Whether you’re here to hit word count or make a new friend\, we’re here to support you!
+DESCRIPTION:Join us at the Literary Arts Bookstore & Cafe for our monthly write-in. This month’s theme is Pride. Enjoy a night of community writing and light socializing. \nAll are welcome! \n\nAbout write-ins:\nWrite-ins are community gatherings where writers come together to share space\, write\, and make connections. Whether you’re here to hit word count or make a new friend\, we’re here to support you!
 URL:https://literary-arts.org/event/june-write-in-pride/
 LOCATION:Literary Arts
 CATEGORIES:Free Events,Bookstore
@@ -449,7 +434,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260623T180000
 DTEND;TZID=America/Los_Angeles:20260623T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260417T223913Z
 LAST-MODIFIED:20260417T223913Z
 UID:10005699-1782237600-1782244800@literary-arts.org
@@ -464,7 +449,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260624T180000
 DTEND;TZID=America/Los_Angeles:20260624T200000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260402T231739Z
 LAST-MODIFIED:20260402T231918Z
 UID:10005673-1782324000-1782331200@literary-arts.org
@@ -477,7 +462,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260624T183000
 DTEND;TZID=America/Los_Angeles:20260624T203000
-DTSTAMP:20260512T195300
+DTSTAMP:20260513T195341
 CREATED:20260506T205826Z
 LAST-MODIFIED:20260506T205826Z
 UID:10005720-1782325800-1782333000@literary-arts.org
@@ -487,6 +472,21 @@ URL:https://literary-arts.org/event/bipoc-reading-series-june-3/
 LOCATION:Literary Arts
 CATEGORIES:Free Events,In-person
 ATTACH;FMTTYPE=image/jpeg:https://literary-arts.org/wp-content/uploads/2025/08/BookstoreEvents_Evergreen-Templates_600x900_BIPOCRS.jpg
+GEO:45.5213897;-122.6810304
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260625T183000
+DTEND;TZID=America/Los_Angeles:20260625T200000
+DTSTAMP:20260513T195341
+CREATED:20260409T174404Z
+LAST-MODIFIED:20260512T165806Z
+UID:10005689-1782412200-1782417600@literary-arts.org
+SUMMARY:Michelle St. Roman in conversation Sandra Freels
+DESCRIPTION:The Literary Arts Bookstore & Cafe is pleased to welcome Michelle St. Roman to celebrate her debut novel\, Song of Belonging. Michelle will be in conversation with Sandra Freels. \n\nAbout the book:  \n\nFor fans of Kate Morton\, Amy Harmon\, and Sally Page comes a multigenerational novel infused with touches of magical realism about a woman’s journey to find her place in an uncertain world as she unravels her family’s legacy. \nIn 1934\, a child’s death tears open a family and shakes the small town of Richarme\, Louisiana. Recalling her grandmother’s hidden gifts that had been shut down decades earlier\, Grace Paschal begins writing to her deceased daughter as she navigates grief and guilt for Lily’s death\, which will haunt their French community for generations. \n\n\nIn 2019\, Alice\, Grace’s great-granddaughter\, awakens in her apartment in Berkeley and opens a jewelry box given to her decades earlier upon Grace’s death. When she explores its contents\, the lines between past and present fade. As she works to meet the demands of her career\, her life turns upside-down when new and frequent memories that aren’t her own rise to the surface—memories that cause her to question everything about the life she has chosen. \nA haunting and magical story of a family with hidden gifts and secrets\, Song of Belonging follows Alice as she embarks on a journey to discover the truth about her ancestors and find her place in a lineage of women healers who protect the waters that surround their Louisiana home.
+URL:https://literary-arts.org/event/michelle-st-roman/
+LOCATION:Literary Arts
+CATEGORIES:Free Events,Bookstore
+ATTACH;FMTTYPE=image/jpeg:https://literary-arts.org/wp-content/uploads/2026/04/stromaine_600x900-scaled.jpg
 GEO:45.5213897;-122.6810304
 END:VEVENT
 END:VCALENDAR

@@ -24,23 +24,23 @@
   {
     "source": "Stumptown Savings",
     "source_id": "stumptown_savings",
-    "location": "Aloha Community Farmers' Market, 17675 SW Farmington Rd, Aloha\\\r, OR 97007, USA\r",
-    "count": 13,
-    "titles": [
-      "Aloha Community Farmers' Market",
-      "Aloha Community Farmers' Market",
-      "Aloha Community Farmers' Market"
-    ]
-  },
-  {
-    "source": "Stumptown Savings",
-    "source_id": "stumptown_savings",
     "location": "Rocky Butte Farmers Market, NE Siskiyou and, NE 80th Ave, Port\rland, OR 97213, USA\r",
     "count": 13,
     "titles": [
       "Rocky Butte Farmers Market",
       "Rocky Butte Farmers Market",
       "Rocky Butte Farmers Market"
+    ]
+  },
+  {
+    "source": "Stumptown Savings",
+    "source_id": "stumptown_savings",
+    "location": "Aloha Community Farmers' Market, 17675 SW Farmington Rd, Aloha\\\r, OR 97007, USA\r",
+    "count": 13,
+    "titles": [
+      "Aloha Community Farmers' Market",
+      "Aloha Community Farmers' Market",
+      "Aloha Community Farmers' Market"
     ]
   },
   {
@@ -55,6 +55,17 @@
     ]
   },
   {
+    "source": "Travelportland",
+    "source_id": "travelportland",
+    "location": "Theatre In the Grove, 2028 Pacific Ave, Forest Grove, OR 97116",
+    "count": 9,
+    "titles": [
+      "Mojada: A Medea in Los Angeles",
+      "Mojada: A Medea in Los Angeles",
+      "Mojada: A Medea in Los Angeles"
+    ]
+  },
+  {
     "source": "Vancouver Farmers Market",
     "source_id": "vancouver_farmers_market",
     "location": "605 Esther St, Vancouver, WA, United States",
@@ -63,17 +74,6 @@
       "*Uszd parts* Armando Espinoza at the Vancouver Farmers Market",
       "Dumpster Joe at the Vancouver Farmers Market",
       "Jim Marcotte Music at the Vancouver Farmers Market"
-    ]
-  },
-  {
-    "source": "Wccls Library",
-    "source_id": "wccls_library",
-    "location": "North Plains Public Library, 31334 NW Commercial St, North Plains, OR 97133",
-    "count": 5,
-    "titles": [
-      "Watercolor Wednesday",
-      "ABC's 123's Letters and Sounds",
-      "ABC's 123's Letters and Sounds"
     ]
   },
   {
@@ -118,6 +118,17 @@
       "Summer Reading with StudioAwesome",
       "Golden Road Art",
       "Summer Reading Kick-off & WCCLS Birthday with Aztec Dance Huitzilo"
+    ]
+  },
+  {
+    "source": "Wccls Library",
+    "source_id": "wccls_library",
+    "location": "North Plains Public Library, 31334 NW Commercial St, North Plains, OR 97133",
+    "count": 4,
+    "titles": [
+      "ABC's 123's Letters and Sounds",
+      "ABC's 123's Letters and Sounds",
+      "ABC's 123's Letters and Sounds"
     ]
   },
   {
@@ -199,16 +210,6 @@
   {
     "source": "Eventbrite Trailkeepers",
     "source_id": "eventbrite_trailkeepers",
-    "location": "Oneonta Trailhead, HWQC+75, Dodson, OR 97031, Dodson, OR",
-    "count": 2,
-    "titles": [
-      "Oneonta Trail - Gorge",
-      "Oneonta Trail - Gorge"
-    ]
-  },
-  {
-    "source": "Eventbrite Trailkeepers",
-    "source_id": "eventbrite_trailkeepers",
     "location": "Shellburg Falls, Shellburg Road, Stayton, OR 97358, Stayton, OR",
     "count": 2,
     "titles": [
@@ -224,6 +225,16 @@
     "titles": [
       "Wilson River Trail Party - Portland",
       "Private: SP  Wilson River Trail Party - Portland"
+    ]
+  },
+  {
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "Oneonta Trailhead, HWQC+75, Dodson, OR 97031, Dodson, OR",
+    "count": 2,
+    "titles": [
+      "Oneonta Trail - Gorge",
+      "Oneonta Trail - Gorge"
     ]
   },
   {
@@ -267,28 +278,10 @@
   {
     "source": "Eventbrite Nw Trail Alliance",
     "source_id": "eventbrite_nw_trail_alliance",
-    "location": "Stub Stewart State Park Hilltop Day Use Area, LL Stub Stewart State Park, Buxton, OR 97109, Buxton, OR",
-    "count": 1,
-    "titles": [
-      "NW Trail Sisters' Women's Beginner Ride at Stub Stewart"
-    ]
-  },
-  {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
     "location": "NF - 83 Meeting location, 5W63+9H Cougar, Washington, Cougar, WA 98616, Cougar, WA",
     "count": 1,
     "titles": [
       "Pine Creek Trail Extension Project"
-    ]
-  },
-  {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
-    "location": "199 Cramblett Way, 199 Cramblett Way, Cascade Locks, OR 97014, Cascade Locks, OR",
-    "count": 1,
-    "titles": [
-      "LapQuest  2026 - Social ride event with a challenge"
     ]
   },
   {
@@ -303,19 +296,28 @@
   {
     "source": "Eventbrite Nw Trail Alliance",
     "source_id": "eventbrite_nw_trail_alliance",
+    "location": "Stub Stewart State Park Hilltop Day Use Area, LL Stub Stewart State Park, Buxton, OR 97109, Buxton, OR",
+    "count": 1,
+    "titles": [
+      "NW Trail Sisters' Women's Beginner Ride at Stub Stewart"
+    ]
+  },
+  {
+    "source": "Eventbrite Nw Trail Alliance",
+    "source_id": "eventbrite_nw_trail_alliance",
+    "location": "199 Cramblett Way, 199 Cramblett Way, Cascade Locks, OR 97014, Cascade Locks, OR",
+    "count": 1,
+    "titles": [
+      "LapQuest  2026 - Social ride event with a challenge"
+    ]
+  },
+  {
+    "source": "Eventbrite Nw Trail Alliance",
+    "source_id": "eventbrite_nw_trail_alliance",
     "location": "Sandy Ridge Trail System, 62700 East Barlow Trail Road, Brightwood, OR 97011, Brightwood, OR",
     "count": 1,
     "titles": [
       "DIG DAY \u2014 Sandy Ridge:  Let's get Sandy ready for shuttle day"
-    ]
-  },
-  {
-    "source": "Eventbrite Trailkeepers",
-    "source_id": "eventbrite_trailkeepers",
-    "location": "South Slough National Estuarine Research Reserve, 61907 Seven Devils Road, Charleston, OR 97420, Charleston, OR",
-    "count": 1,
-    "titles": [
-      "South Slough Trail Party- South Coast"
     ]
   },
   {
@@ -334,6 +336,24 @@
     "count": 1,
     "titles": [
       "Wahkeena Trail - Gorge"
+    ]
+  },
+  {
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "Gold Beach Visitor's Center, 94080 Shirley Lane, Gold Beach, OR 97444, Gold Beach, OR",
+    "count": 1,
+    "titles": [
+      "Gold Beach Mobility Mat Installation - South Coast"
+    ]
+  },
+  {
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "South Slough National Estuarine Research Reserve, 61907 Seven Devils Road, Charleston, OR 97420, Charleston, OR",
+    "count": 1,
+    "titles": [
+      "South Slough Trail Party- South Coast"
     ]
   },
   {
@@ -366,55 +386,19 @@
   {
     "source": "Pdx Parent",
     "source_id": "pdx_parent",
-    "location": "The Well Church, 4340 N Lombard St, Porland, OR, 97203, United States",
+    "location": "McMenamins Hotel Oregon, 310 NE Evans Street, McMinnville, Oregon, 97128",
     "count": 1,
     "titles": [
-      "Pop Up Play"
+      "26th Annual UFO Festival"
     ]
   },
   {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
+    "source": "Pdx Parent",
+    "source_id": "pdx_parent",
+    "location": "Reynold\u2019s High School Fine Arts Building, 1690 SW Northstar Loop, Troutdale, Oregon, 97060",
     "count": 1,
     "titles": [
-      "Thorns v. Bay"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "CPKC Stadium, 1460 E Front St, Kansas City, MO 64120, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at Current"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "Inter & Co Stadium, 655 W Church St, Orlando, FL 32805, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at Pride"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "Shell Energy Stadium, 2200 Texas Ave, Houston, TX 77003, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at Dash"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "America First Field, 9256 S State St, Sandy, UT 84070, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at Royals"
+      "Midsummer Night's Dream"
     ]
   },
   {
@@ -429,10 +413,55 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
+    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
+    "count": 1,
+    "titles": [
+      "Thorns v. Bay"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "Shell Energy Stadium, 2200 Texas Ave, Houston, TX 77003, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Dash"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "Inter & Co Stadium, 655 W Church St, Orlando, FL 32805, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Pride"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "CPKC Stadium, 1460 E Front St, Kansas City, MO 64120, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Current"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
     "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA",
     "count": 1,
     "titles": [
       "Thorns at s**ttle"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "America First Field, 9256 S State St, Sandy, UT 84070, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Royals"
     ]
   },
   {
@@ -685,6 +714,15 @@
     "count": 1,
     "titles": [
       "WAAAM Traffic Jam"
+    ]
+  },
+  {
+    "source": "Wccls Library",
+    "source_id": "wccls_library",
+    "location": "Sherwood Public Library, Cannery Square, Sherwood, OR  22622 SW Pine St, Sherwood, OR 97140",
+    "count": 1,
+    "titles": [
+      "Andy Z - Music for Kids"
     ]
   },
   {

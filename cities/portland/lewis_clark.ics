@@ -63,357 +63,6 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260513
-DTEND;VALUE=DATE:20260514
-LOCATION:Fowler Student Center
-GEO:45.44918;-122.670969
-SUMMARY:May 2026 Wilderness First Responder (WFR) - FULL
-UID:20260513T070000Z-335270@www.lclark.edu
-DTSTAMP:20220222T114841Z
-URL:https://www.lclark.edu/live/profiles/12615-wilderness-first-responder
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260509T201452Z
-ATTACH:https://www.lclark.edu/live/image/gid/258/width/80/height/80/crop/
- 1/src_region/0,0,1651,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:335270
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/258/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1651\,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Students pretend to be injured for a wilderness
-  rescue practice scenario
-X-LIVEWHALE-ALL-DAY:1
-X-LIVEWHALE-SUMMARY:<p>\n  $940 for General Public<br />\n  $695 for L&am
- p\;C Undergrad Students\n</p>
-X-LIVEWHALE-TAGS:Training Trips|WFR
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260513T130000
-DTEND;TZID=America/Los_Angeles:20260513T140000
-LOCATION:Zoom
-SUMMARY:LiveWhale Office Hours
-DESCRIPTION:Questions about LiveWhale? Join us Wednesdays at 1pm for help
- .https://zoom.us/j/97714598655 (https://zoom.us/j/97714598655)
-X-ALT-DESC;FMTTYPE=text/html:<p>  Questions about LiveWhale? Join us Wedn
- esdays at 1pm for help.</p><p><a href="https://zoom.us/j/97714598655">htt
- ps://zoom.us/j/97714598655</a></p>
-UID:20260513T200000Z-368896@www.lclark.edu
-DTSTAMP:20250512T155430Z
-URL:https://www.lclark.edu/live/events/368393-livewhale-office-hours
-LAST-MODIFIED:20250512T225507Z
-RRULE:FREQ=WEEKLY;UNTIL=20260527T200000Z;INTERVAL=1
-EXDATE:20240117T210000Z,20240124T210000Z,20240131T210000Z,20240207T210000
- Z,20240214T210000Z,20240221T210000Z,20240228T210000Z,20240306T210000Z,202
- 40313T200000Z,20240320T200000Z,20240327T200000Z,20240403T200000Z,20240410
- T200000Z,20240417T200000Z,20240424T200000Z,20240501T200000Z,20240508T2000
- 00Z,20240515T200000Z,20240522T200000Z,20240529T200000Z,20240605T200000Z,2
- 0240612T200000Z,20240619T200000Z,20240626T200000Z,20240703T200000Z,202407
- 10T200000Z,20240717T200000Z,20240724T200000Z,20240731T200000Z,20240807T20
- 0000Z,20240814T200000Z,20240821T200000Z,20240828T200000Z,20240904T200000Z
- ,20240911T200000Z,20240918T200000Z,20240925T200000Z,20241002T200000Z,2024
- 1009T200000Z,20241016T200000Z,20241023T200000Z,20241030T200000Z,20241106T
- 210000Z,20241113T210000Z,20241120T210000Z,20241127T210000Z,20241204T21000
- 0Z,20241211T210000Z,20241218T210000Z,20241225T210000Z,20250101T210000Z,20
- 250108T210000Z,20250115T210000Z,20250122T210000Z,20250129T210000Z,2025020
- 5T210000Z,20250212T210000Z,20250219T210000Z,20250226T210000Z,20250305T210
- 000Z,20250312T200000Z,20250319T200000Z,20250326T200000Z,20250402T200000Z,
- 20250409T200000Z,20250416T200000Z,20250423T200000Z,20250430T200000Z,20250
- 507T200000Z,20251224T210000Z,20251231T210000Z
-ATTACH:https://www.lclark.edu/live/image/gid/409/width/80/height/80/crop/
- 1/src_region/0,0,546,544/82076_Screen_Shot_2020-01-22_at_9.04.46_AM.rev.1
- 579712737.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:368896
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/409/width/80/heig
- ht/80/crop/1/src_region/0\,0\,546\,544/82076_Screen_Shot_2020-01-22_at_9.
- 04.46_AM.rev.1579712737.png
-X-LIVEWHALE-SUMMARY:<p>\n  <a href="https://zoom.us/j/97714598655">Join o
- ur Zoom @1pm Wednesdays</a>\n</p>\n<p>\n  Meeting ID: 965 8651 7108<br />
- \n  Pass: 247846\n</p>
-X-LIVEWHALE-IS-ONLINE:1
-X-LIVEWHALE-ONLINE-TYPE:Online only
-X-LIVEWHALE-ONLINE-URL:https://zoom.us/j/97714598655
-X-LIVEWHALE-REPEATS-UNTIL:2026-05-27 20:00:00
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260513T150000
-DTEND;TZID=America/Los_Angeles:20260513T160000
-SUMMARY:Academic English Studies tutoring hour
-UID:20260513T220000Z-383459@www.lclark.edu
-DTSTAMP:20260126T143118Z
-URL:https://www.lclark.edu/calendars/events/event/383459-academic-english
- -studies-tutoring-hour
-LAST-MODIFIED:20260408T210111Z
-RRULE:FREQ=WEEKLY;UNTIL=20260512T220000Z;INTERVAL=1;BYDAY=WE
-EXDATE:20260128T230000Z,20260204T230000Z,20260211T230000Z,20260218T230000
- Z,20260225T230000Z,20260304T230000Z,20260311T220000Z,20260318T220000Z,202
- 60325T220000Z,20260401T220000Z,20260408T220000Z
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:383459
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-REPEATS-UNTIL:2026-05-12 22:00:00
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260513T150000
-DTEND;TZID=America/Los_Angeles:20260513T170000
-LOCATION:Rogers Hall
-GEO:45.4451229714821;-122.671580079346
-SUMMARY:Lightbourn Dissertation Defense
-DESCRIPTION:Yvette Lightbourn\, a candidate in the Doctor of Education in
-  Leadership Program\, will defend her dissertation at 3:00 PM on Wednesda
- y\, May 13\, 2026 in Rogers 219.  Her dissertation is titled "Reframing D
- isproportionality: An Intersectional Analysis of Special Education Placem
- ent and Discipline Across Educational Systems" and the chair of her commi
- ttee is Dr. Mollie Galloway.  This event is open to the public.  The pres
- entation may be viewed via Zoom (https://lclark-edu.zoom.us/j/84344008513
- ?pwd=DYfr6Aocluu2ilZgYcCEF1JSZoZwCN.1).
-X-ALT-DESC;FMTTYPE=text/html:<p>  Yvette Lightbourn\, a candidate in the 
- Doctor of Education in Leadership Program\, will defend her dissertation 
- at 3:00 PM on Wednesday\, May 13\, 2026 in Rogers 219.</p><p>  Her disser
- tation is titled "Reframing Disproportionality: An Intersectional Analysi
- s of Special Education Placement and Discipline Across Educational System
- s" and the chair of her committee is Dr. Mollie Galloway.</p><p>  This ev
- ent is open to the public.</p><p>  The presentation may be viewed <a href
- ="https://lclark-edu.zoom.us/j/84344008513?pwd=DYfr6Aocluu2ilZgYcCEF1JSZo
- ZwCN.1" target="_blank" rel="noopener">via Zoom</a>.</p>
-UID:20260513T220000Z-393200@www.lclark.edu
-DTSTAMP:20260511T121518Z
-URL:https://www.lclark.edu/calendars/events/event/lightbourn-dissertation
- -defense
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260511T193455Z
-ATTACH:https://www.lclark.edu/live/image/gid/54/width/80/height/80/crop/1
- /src_region/0,0,1556,2000/96212_Ed_Leadership_Graphic_22.rev.1666048141.p
- ng
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:393200
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/54/width/80/heigh
- t/80/crop/1/src_region/0\,0\,1556\,2000/96212_Ed_Leadership_Graphic_22.re
- v.1666048141.png
-X-LIVEWHALE-IMAGE-CAPTION:Educational Leadership at GSEC
-X-LIVEWHALE-COST:Free
-X-LIVEWHALE-CONTACT-INFO:<p>\n  Leadership Studies Office eda@lclark.edu\
- n</p>
-X-LIVEWHALE-SUMMARY:<p>\n  Yvette Lightbourn&#160\; will defend her disse
- rtation titled "Reframing Disproportionality: An Intersectional Analysis 
- of Special Education Placement and Discipline Across Educational Systems.
- "\n</p>
-X-LIVEWHALE-TAGS:dissertation defense educational leadership|Doctor of Ed
- ucational Leadership|Doctoral Program|Ed.D.
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260513T160000
-DTEND;TZID=America/Los_Angeles:20260513T170000
-SUMMARY:May Lewis & Clark Virtual JD Information Session
-UID:20260513T230000Z-389929@www.lclark.edu
-DTSTAMP:20260409T123653Z
-URL:https://forms.lsac-unite.org/4384/JD_Virtual_Info_Session.html
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260430T211035Z
-ATTACH:https://www.lclark.edu/live/image/gid/188/width/80/height/80/crop/
- 1/src_region/0,0,3000,2000/102623_L-PEO-C2-0921-0001.rev.1707854735.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:389929
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/188/width/80/heig
- ht/80/crop/1/src_region/0\,0\,3000\,2000/102623_L-PEO-C2-0921-0001.rev.17
- 07854735.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Students at Lewis &amp\; Clark Law School
-X-LIVEWHALE-SUMMARY:<p>\n  Virtual Information Session and Q&amp\;A with 
- Admissions\n</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260513T160000
-DTEND;TZID=America/Los_Angeles:20260513T170000
-LOCATION:Zoom
-SUMMARY:Alumni Virtual Town Hall
-DESCRIPTION:Hard to believe it's already been a year! Dean Alicia Ouellet
- te has hit the ground running\, and she's eager to connect with our alumn
- i community to share the law school's latest milestones\, future vision\,
-  and – most importantly – hear directly from you.  Join us to hear ab
- out Dean Ouellette's strategic plan for the law school (https://www.lclar
- k.edu/about/strategic-plan/) as well as the school's progress. If you'd l
- ike to submit your question ahead of time to Dean Ouellette\, please fill
-  out our form here (https://engage.lclark.edu/register/?id=65036112-45ef-
- 4953-a9e5-9ce86dae51c8).&#160\;  You must register in advance in order to
-  receive the Zoom link:RSVP here to receive Zoom information (https://lcl
- ark-edu.zoom.us/meeting/register/_FkNXQpzSrmrSVGj1Ar7LA).&#160\;  After r
- egistering\, you will receive a confirmation email containing information
-  about joining the meeting.
-X-ALT-DESC;FMTTYPE=text/html:<p>  Hard to believe it's already been a yea
- r! <strong>Dean Alicia Ouellette</strong> has hit the ground running\, an
- d she's eager to connect with our alumni community to share the law schoo
- l's latest milestones\, future vision\, and – most importantly – hear
-  directly from <strong>you</strong>.</p><p>  Join us to hear about Dean O
- uellette's <a href="https://www.lclark.edu/about/strategic-plan/" target=
- "_blank" rel="noopener">strategic plan for the law school</a> as well as 
- the school's progress. If you'd like to submit your question ahead of tim
- e to Dean Ouellette\, please fill out our form <a href="https://engage.lc
- lark.edu/register/?id=65036112-45ef-4953-a9e5-9ce86dae51c8" target="_blan
- k" rel="noopener">here</a>.&#160\;</p><p>  You must register in advance i
- n order to receive the Zoom link:</p><p><strong><a href="https://lclark-e
- du.zoom.us/meeting/register/_FkNXQpzSrmrSVGj1Ar7LA" target="_blank" rel="
- noopener">RSVP here to receive Zoom information</a>.&#160\;</strong><br /
- ><br /></p><p>  After registering\, you will receive a confirmation email
-  containing information about joining the meeting.</p>
-UID:20260513T230000Z-390668@www.lclark.edu
-DTSTAMP:20260416T124032Z
-URL:https://www.lclark.edu/calendars/events/event/390668-alumni-virtual-t
- own-hall
-LAST-MODIFIED:20260420T170143Z
-ATTACH:https://www.lclark.edu/live/image/gid/194/width/80/height/80/crop/
- 1/src_region/0,0,1080,1080/112869_Virtual_Town_Hall_Meeting_v.4.rev.17767
- 04433.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:390668
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/194/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1080\,1080/112869_Virtual_Town_Hall_Meeting
- _v.4.rev.1776704433.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Alumni Town Hall Meeting – May 2026
-X-LIVEWHALE-COST:Free
-X-LIVEWHALE-CONTACT-INFO:<p>\n  Office of Law Alumni<br />\n  Email: <a h
- ref="mailto:lawalum@lclark.edu">lawalum@lclark.edu</a><br />\n  Phone: <a
-  href="tel:+15037686890" target="_blank" rel="noopener">(503) 768-6890</a
- >\n</p>
-X-LIVEWHALE-SUMMARY:<p>\n  Join us for the Alumni Town Hall!\n</p>
-X-LIVEWHALE-TAGS:alumni event|law Alumni|law event|law
-X-LIVEWHALE-IS-ONLINE:1
-X-LIVEWHALE-ONLINE-TYPE:Online only
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260513T170000
-DTEND;TZID=America/Los_Angeles:20260513T190000
-LOCATION:Miller Hall\, Room 105 (Lindner Auditorium)
-GEO:45.450858;-122.668265
-SUMMARY:4 at 5 Lecture Series Featuring Pamplin Professor Emeritus Stephe
- n Dow Beckham – The Pig War and Series Closing Reception
-DESCRIPTION:The Pig War: The San Juan Islands in ConflictFollowed by Lect
- ure Series Closing Reception  In-person at L&amp\;CLindner Auditorium\, M
- iller Center for Humanities (Miller 105)Livestream hosted by the L&amp\;C
-  Washington Alumni Chapter  Livestream link shared upon registration  Wed
- nesday\, May 13\, 2026  5:00 - 7:00 P.M. (in-person)  5:00 - 6:00 P.M. (o
- nline)Click to Register (https://engage.lclark.edu/register/?id=c195d64c-
- 93d8-4b90-b942-106ba20ba031)Times for those joining remotely from other t
- ime zones:8 - 9 P.M. Eastern ● 7 - 8 P.M Central ● 6 - 7 P.M. Mountai
- n  4 - 5 P.M. Alaska ● 2 - 3 P.M. Hawaii  This lecture series takes pla
- ce the second Wednesday of every month\, February-May.About the Lecture  
- Professor Beckham presents "The Pig War: San Juan Islands in Conflict\, 1
- 859–1872\," a lecture detailing the international controversy in Puget 
- Sound that nearly brought the United States and Great Britain to war. Thi
- s historical event resonates with modern tensions regarding the 49th para
- llel boundary\, tariffs\, and sovereign rights.  Prof. Beckham examines h
- ow the killing of a pig on San Juan Island precipitated an outrageous exp
- losion of conflict over the exact location of the boundary between Canada
-  and the United States. The "Pig War" led to a significant build-up of ar
- my and navy forces and the construction of fortifications\, with tensions
-  only ultimately resolved through international arbitration by Kaiser Wil
- helm I of Germany.  Using historical photographs\, watercolors\, and maps
- \, Prof. Beckham places the San Juan Islands conflict within the broader 
- context of the American Civil War\, boundary disputes in the Stikine Rive
- r watershed\, fisheries off the coast of Nova Scotia\, and American claim
- s against England regarding the sinking of Union vessels by the British-b
- uilt\, Confederate-operated CSS Alabama.About the PresenterStephen Dow Be
- ckham is Pamplin Professor Emeritus of History at Lewis &amp\; Clark Coll
- ege\, where he served for forty-two years. A preeminent authority on the 
- American West and the Lewis &amp\; Clark Expedition\, Professor Beckham d
- edicated the majority of his career to teaching undergraduate students in
-  the College of Arts and Sciences\, while also contributing his expertise
-  to the Law School's Indian Law Program.  Renowned for his immersive teac
- hing\, he famously led field-based courses retracing the Lewis &amp\; Cla
- rk trail on horseback and sailing the Northwest Coast. Beyond the classro
- om\, he has served as an expert witness in over forty tribal rights cases
-  and currently chairs the Oregon Committee on Historic Preservation. A fo
- rmer Oregon Professor of the Year and recipient of the American Historica
- l Association's Asher Distinguished Teaching Award\, Professor Beckham al
- so serves on the board of the Theodore Roosevelt Presidential Library\, c
- ontinuing his lifelong commitment to historical scholarship and conservat
- ion.  &#160\;
-X-ALT-DESC;FMTTYPE=text/html:<p style="text-align: center\;"><strong>The 
- Pig War: The San Juan Islands in Conflict</strong></p><p style="text-alig
- n: center\;"><strong>Followed by Lecture Series Closing Reception<br /><b
- r />  In-person at L&amp\;C<br /></strong>Lindner Auditorium\, Miller Cen
- ter for Humanities (Miller 105)</p><p style="text-align: center\;"><stron
- g>Livestream hosted by the L&amp\;C Washington Alumni Chapter</strong><br
-  />  Livestream link shared upon registration<strong><br /></strong></p><
- p style="text-align: center\;">  Wednesday\, May 13\, 2026<br />  5:00 - 
- 7:00 P.M. (in-person)<br />  5:00 - 6:00 P.M. (online)</p><p style="text-
- align: center\;"><strong><a class="btn-small-style-1 btn-small-style-1" h
- ref="https://engage.lclark.edu/register/?id=c195d64c-93d8-4b90-b942-106ba
- 20ba031" target="_blank" rel="noopener">Click to Register</a></strong></p
- ><p style="text-align: center\;"><strong>Times for those joining remotely
-  from other time zones:<br /></strong>8 - 9 P.M. Eastern ● 7 - 8 P.M Ce
- ntral ● 6 - 7 P.M. Mountain<br />  4 - 5 P.M. Alaska ● 2 - 3 P.M. Haw
- aii</p><p style="text-align: left\;">  This lecture series takes place th
- e second Wednesday of every month\, February-May.</p><p><strong>About the
-  Lecture</strong></p><p data-path-to-node="3">  Professor Beckham present
- s <strong data-path-to-node="3" data-index-in-node="35">"The Pig War: San
-  Juan Islands in Conflict\, 1859–1872\,"</strong> a lecture detailing t
- he international controversy in Puget Sound that nearly brought the Unite
- d States and Great Britain to war. This historical event resonates with m
- odern tensions regarding the 49th parallel boundary\, tariffs\, and sover
- eign rights.</p><p data-path-to-node="4">  Prof. Beckham examines how the
-  killing of a pig on San Juan Island precipitated an outrageous explosion
-  of conflict over the exact location of the boundary between Canada and t
- he United States. The "Pig War" led to a significant build-up of army and
-  navy forces and the construction of fortifications\, with tensions only 
- ultimately resolved through international arbitration by Kaiser Wilhelm I
-  of Germany.</p><p data-path-to-node="5">  Using historical photographs\,
-  watercolors\, and maps\, Prof. Beckham places the San Juan Islands confl
- ict within the broader context of the American Civil War\, boundary dispu
- tes in the <strong data-path-to-node="5" data-index-in-node="183">Stikine
-  River</strong> watershed\, fisheries off the coast of Nova Scotia\, and 
- American claims against England regarding the sinking of Union vessels by
-  the British-built\, Confederate-operated <strong data-path-to-node="5" d
- ata-index-in-node="366">CSS Alabama</strong>.</p><p><strong>About the Pre
- senter</strong></p><p data-path-to-node="1"><strong data-path-to-node="1"
-  data-index-in-node="0">Stephen Dow Beckham</strong> is Pamplin Professor
-  Emeritus of History at Lewis &amp\; Clark College\, where he served for 
- forty-two years. A preeminent authority on the American West and the Lewi
- s &amp\; Clark Expedition\, Professor Beckham dedicated the majority of h
- is career to teaching undergraduate students in the College of Arts and S
- ciences\, while also contributing his expertise to the Law School's India
- n Law Program.</p><p data-path-to-node="2">  Renowned for his immersive t
- eaching\, he famously led field-based courses retracing the Lewis &amp\; 
- Clark trail on horseback and sailing the Northwest Coast. Beyond the clas
- sroom\, he has served as an expert witness in over forty tribal rights ca
- ses and currently chairs the Oregon Committee on Historic Preservation. A
-  former Oregon Professor of the Year and recipient of the American Histor
- ical Association's Asher Distinguished Teaching Award\, Professor Beckham
-  also serves on the board of the Theodore Roosevelt Presidential Library\
- , continuing his lifelong commitment to historical scholarship and conser
- vation.</p><p style="text-align: center\;">  &#160\;</p>
-UID:20260514T000000Z-381635@www.lclark.edu
-DTSTAMP:20260127T170855Z
-URL:https://www.lclark.edu/calendars/events/event/381635-4-at-5-lecture-s
- eries-featuring-pamplin-professor-eme
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260429T163352Z
-ATTACH:https://www.lclark.edu/live/image/gid/45/width/80/height/80/crop/1
- /src_region/0,0,854,854/111391_Beckham-Stephen-20251007-TRPL-Board-Headsh
- ot-WEB.jpg_1.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:381635
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/45/width/80/heigh
- t/80/crop/1/src_region/0\,0\,854\,854/111391_Beckham-Stephen-20251007-TRP
- L-Board-Headshot-WEB.jpg_1.jpg
-X-LIVEWHALE-CONTACT-INFO:<p>\n  alumni@lclark.edu\n</p>
-X-LIVEWHALE-SUMMARY:<p>\n  Join us for the <em><strong>4 at 5 Lecture Ser
- ies Featuring Pamplin Professor Emeritus Stephen Dow Beckham</strong></em
- >\, an exciting collection of four history lectures presented at 5:00 P.M
- . the second Wednesday of each month. This series offers an historical de
- ep dive into people and events associated with a variety of geographical 
- regions with the aim of bringing our community together from across the n
- ation to embark on a journey of discovery\, bridging the past and present
-  through the expert guidance of one of our institution's most cherished a
- cademic luminaries.\n</p>
-X-LIVEWHALE-TAGS:alumni weekend|alumni|history|political science|washingt
- on chapter
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 LOCATION:Fowler Student Center
@@ -1370,7 +1019,7 @@ UID:20260518T183000Z-391923@www.lclark.edu
 DTSTAMP:20260428T154216Z
 URL:https://www.lclark.edu/calendars/events/event/391923-managing-menopau
  se-expert-panel-complimentary
-LAST-MODIFIED:20260511T175918Z
+LAST-MODIFIED:20260513T233415Z
 ATTACH:https://www.lclark.edu/live/image/gid/220/width/80/height/80/crop/
  1/src_region/0,0,520,420/112988_Screenshot_2026-04-28_at_3.50.21PM.rev.17
  77417239.png
@@ -1497,6 +1146,55 @@ X-LIVEWHALE-SUMMARY:<p>\n  Join the folks in McAfee as we celebrate this
  quarter century anniversary—acknowledging the staying power of a triple
  -wide that refused to be temporary. Stop by for birthday cake\, coffee\, 
  tea\, and raffle prizes!\n</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260520T130000
+DTEND;TZID=America/Los_Angeles:20260520T140000
+LOCATION:Zoom
+SUMMARY:LiveWhale Office Hours
+DESCRIPTION:Questions about LiveWhale? Join us Wednesdays at 1pm for help
+ .https://zoom.us/j/97714598655 (https://zoom.us/j/97714598655)
+X-ALT-DESC;FMTTYPE=text/html:<p>  Questions about LiveWhale? Join us Wedn
+ esdays at 1pm for help.</p><p><a href="https://zoom.us/j/97714598655">htt
+ ps://zoom.us/j/97714598655</a></p>
+UID:20260520T200000Z-368897@www.lclark.edu
+DTSTAMP:20250512T155430Z
+URL:https://www.lclark.edu/live/events/368394-livewhale-office-hours
+LAST-MODIFIED:20250512T225507Z
+RRULE:FREQ=WEEKLY;UNTIL=20260527T200000Z;INTERVAL=1
+EXDATE:20240117T210000Z,20240124T210000Z,20240131T210000Z,20240207T210000
+ Z,20240214T210000Z,20240221T210000Z,20240228T210000Z,20240306T210000Z,202
+ 40313T200000Z,20240320T200000Z,20240327T200000Z,20240403T200000Z,20240410
+ T200000Z,20240417T200000Z,20240424T200000Z,20240501T200000Z,20240508T2000
+ 00Z,20240515T200000Z,20240522T200000Z,20240529T200000Z,20240605T200000Z,2
+ 0240612T200000Z,20240619T200000Z,20240626T200000Z,20240703T200000Z,202407
+ 10T200000Z,20240717T200000Z,20240724T200000Z,20240731T200000Z,20240807T20
+ 0000Z,20240814T200000Z,20240821T200000Z,20240828T200000Z,20240904T200000Z
+ ,20240911T200000Z,20240918T200000Z,20240925T200000Z,20241002T200000Z,2024
+ 1009T200000Z,20241016T200000Z,20241023T200000Z,20241030T200000Z,20241106T
+ 210000Z,20241113T210000Z,20241120T210000Z,20241127T210000Z,20241204T21000
+ 0Z,20241211T210000Z,20241218T210000Z,20241225T210000Z,20250101T210000Z,20
+ 250108T210000Z,20250115T210000Z,20250122T210000Z,20250129T210000Z,2025020
+ 5T210000Z,20250212T210000Z,20250219T210000Z,20250226T210000Z,20250305T210
+ 000Z,20250312T200000Z,20250319T200000Z,20250326T200000Z,20250402T200000Z,
+ 20250409T200000Z,20250416T200000Z,20250423T200000Z,20250430T200000Z,20250
+ 507T200000Z,20251224T210000Z,20251231T210000Z
+ATTACH:https://www.lclark.edu/live/image/gid/409/width/80/height/80/crop/
+ 1/src_region/0,0,546,544/82076_Screen_Shot_2020-01-22_at_9.04.46_AM.rev.1
+ 579712737.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:368897
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/409/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,546\,544/82076_Screen_Shot_2020-01-22_at_9.
+ 04.46_AM.rev.1579712737.png
+X-LIVEWHALE-SUMMARY:<p>\n  <a href="https://zoom.us/j/97714598655">Join o
+ ur Zoom @1pm Wednesdays</a>\n</p>\n<p>\n  Meeting ID: 965 8651 7108<br />
+ \n  Pass: 247846\n</p>
+X-LIVEWHALE-IS-ONLINE:1
+X-LIVEWHALE-ONLINE-TYPE:Online only
+X-LIVEWHALE-ONLINE-URL:https://zoom.us/j/97714598655
+X-LIVEWHALE-REPEATS-UNTIL:2026-05-27 20:00:00
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Detroit:20260520T170000
@@ -2447,25 +2145,25 @@ DESCRIPTION:This course will offer an in-depth overview of the causal and
  vents accessible to all needs and abilities. If you have a disability tha
  t may impact your academic performance\, you may request accommodations b
  y meeting with the Office of Student Accessibility staff and submitting d
- ocumentation on the Office of Student Accessibility website (/offices/stu
- dent-accessibility/). Please be aware that the process for evaluation and
-  implementation of accommodations could take 2-3 weeks\, so please be in 
- touch with the OSA as soon as possible. Email access@lclark.edu (mailto:a
- ccess@lclark.edu) with any additional questions or concerns.About the Ins
- tructor Abby Ernst\, LPC\, LMHC (she/her) is a Licensed Professional Coun
- selor in Oregon and Licensed Mental Health Counselor in Washington. She w
- orks at her Private Practice Cloudburst Counseling and specializes in wor
- king with young adults and teens with eating disorders\, body image distr
- ess\, and anxiety. She received her Eating Disorder Certification from Le
- wis and Clark\, where she completed her Master's degree\, and has previou
- sly worked in residential and outpatient eating disorder care. Abby is a 
- board member of the Columbia River Eating Disorder Network and is passion
- ate about eating disorder education for therapists. Abby is committed to 
- fat liberation\, body neutrality\, and operates from a Health at Every Si
- ze lens.New workshops and trainings are added to our calendar regularly. 
- For the latest on professional development related to your specific inter
- ests\, sign up for our mailing list! (https://lclark.tfaforms.net/4735441
- )
+ ocumentation on the Office of Student Accessibility website (https://www.
+ lclark.edu/offices/student-accessibility/). Please be aware that the proc
+ ess for evaluation and implementation of accommodations could take 2-3 we
+ eks\, so please be in touch with the OSA as soon as possible. Email acces
+ s@lclark.edu (mailto:access@lclark.edu) with any additional questions or 
+ concerns.About the Instructor Abby Ernst\, LPC\, LMHC (she/her) is a Lice
+ nsed Professional Counselor in Oregon and Licensed Mental Health Counselo
+ r in Washington. She works at her Private Practice Cloudburst Counseling 
+ and specializes in working with young adults and teens with eating disord
+ ers\, body image distress\, and anxiety. She received her Eating Disorder
+  Certification from Lewis and Clark\, where she completed her Master's de
+ gree\, and has previously worked in residential and outpatient eating dis
+ order care. Abby is a board member of the Columbia River Eating Disorder 
+ Network and is passionate about eating disorder education for therapists.
+  Abby is committed to fat liberation\, body neutrality\, and operates fro
+ m a Health at Every Size lens.New workshops and trainings are added to ou
+ r calendar regularly. For the latest on professional development related 
+ to your specific interests\, sign up for our mailing list! (https://lclar
+ k.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course 
  will offer an in-depth overview of the causal and maintenance factors inv
  olved in the development of clinically significant negative body image.</
@@ -2500,46 +2198,47 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course
  bilities.</strong> If you have a disability that may impact your academic
   performance\, you may request accommodations by meeting with the Office 
  of Student Accessibility staff and submitting documentation on the <a hre
- f="/offices/student-accessibility/" target="_blank" rel="noopener">Office
-  of Student Accessibility website</a>. Please be aware that the process f
- or evaluation and implementation of accommodations could take 2-3 weeks\,
-  so please be in touch with the OSA as soon as possible. Email <a href="m
- ailto:access@lclark.edu">access@lclark.edu</a> with any additional questi
- ons or concerns.</p></div></li></ul></div><hr /><h2><strong>About the Ins
- tructor</strong></h2><p style="line-height: 1.5\;"><strong><picture class
- ="lw_image lw_image107261  lw_align_right"><source type="image/webp" srcs
- et="https://www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/25
- 0/107261_Pink_1_copy.webp 2x\, https://www.lclark.edu/live/image/scale/3x
- /gid/91/width/250/height/250/107261_Pink_1_copy.webp 3x" data-origin="res
- ponsive"/><source type="image/jpeg" srcset="https://www.lclark.edu/live/i
- mage/scale/2x/gid/91/width/250/height/250/107261_Pink_1_copy.rev.17394847
- 83.jpg 2x\, https://www.lclark.edu/live/image/scale/3x/gid/91/width/250/h
- eight/250/107261_Pink_1_copy.rev.1739484783.jpg 3x" data-origin="responsi
- ve"/><img width="250" height="250" alt="" data-alt="" data-decoration="tr
- ue" src="https://www.lclark.edu/live/image/gid/91/width/250/height/250/10
- 7261_Pink_1_copy.rev.1739484783.jpg" title="Pink 1 copy" srcset="https://
- www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/107261_Pin
- k_1_copy.rev.1739484783.jpg 2x\, https://www.lclark.edu/live/image/scale/
- 3x/gid/91/width/250/height/250/107261_Pink_1_copy.rev.1739484783.jpg 3x" 
- data-max-w="2018" data-max-h="2016" loading="lazy" data-optimized="true"/
- ></picture> Abby Ernst\, LPC\, LMHC</strong> (she/her) is a Licensed Prof
- essional Counselor in Oregon and Licensed Mental Health Counselor in Wash
- ington. She works at her Private Practice Cloudburst Counseling and speci
- alizes in working with young adults and teens with eating disorders\, bod
- y image distress\, and anxiety. She received her Eating Disorder Certific
- ation from Lewis and Clark\, where she completed her Master's degree\, an
- d has previously worked in residential and outpatient eating disorder car
- e. Abby is a board member of the Columbia River Eating Disorder Network a
- nd is passionate about eating disorder education for therapists. Abby is 
- committed to fat liberation\, body neutrality\, and operates from a Healt
- h at Every Size lens.</p><div id="lw_widget_470b39ba" class="lw_widget lw
- _widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in l
- w_widget_pagination"><ul class="lw_widget_results lw_widget_results_blurb
- s"><li class="lw_item_1"><div class="lw_blurbs_body"><p style="line-heigh
- t: 1.5\;"><em><strong>New workshops and trainings are added to our calend
- ar regularly.</strong> For the latest on professional development related
-  to your specific interests\, <a href="https://lclark.tfaforms.net/473544
- 1">sign up for our mailing list!</a></em></p></div></li></ul></div>
+ f="https://www.lclark.edu/offices/student-accessibility/" target="_blank"
+  rel="noopener">Office of Student Accessibility website</a>. Please be aw
+ are that the process for evaluation and implementation of accommodations 
+ could take 2-3 weeks\, so please be in touch with the OSA as soon as poss
+ ible. Email <a href="mailto:access@lclark.edu">access@lclark.edu</a> with
+  any additional questions or concerns.</p></div></li></ul></div><hr /><h2
+ ><strong>About the Instructor</strong></h2><p style="line-height: 1.5\;">
+ <strong><picture class="lw_image lw_image107261  lw_align_right"><source 
+ type="image/webp" srcset="https://www.lclark.edu/live/image/scale/2x/gid/
+ 91/width/250/height/250/107261_Pink_1_copy.webp 2x\, https://www.lclark.e
+ du/live/image/scale/3x/gid/91/width/250/height/250/107261_Pink_1_copy.web
+ p 3x" data-origin="responsive"/><source type="image/jpeg" srcset="https:/
+ /www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/107261_Pi
+ nk_1_copy.rev.1739484783.jpg 2x\, https://www.lclark.edu/live/image/scale
+ /3x/gid/91/width/250/height/250/107261_Pink_1_copy.rev.1739484783.jpg 3x"
+  data-origin="responsive"/><img width="250" height="250" alt="" data-alt=
+ "" data-decoration="true" src="https://www.lclark.edu/live/image/gid/91/w
+ idth/250/height/250/107261_Pink_1_copy.rev.1739484783.jpg" title="Pink 1 
+ copy" srcset="https://www.lclark.edu/live/image/scale/2x/gid/91/width/250
+ /height/250/107261_Pink_1_copy.rev.1739484783.jpg 2x\, https://www.lclark
+ .edu/live/image/scale/3x/gid/91/width/250/height/250/107261_Pink_1_copy.r
+ ev.1739484783.jpg 3x" data-max-w="2018" data-max-h="2016" loading="lazy" 
+ data-optimized="true"/></picture> Abby Ernst\, LPC\, LMHC</strong> (she/h
+ er) is a Licensed Professional Counselor in Oregon and Licensed Mental He
+ alth Counselor in Washington. She works at her Private Practice Cloudburs
+ t Counseling and specializes in working with young adults and teens with 
+ eating disorders\, body image distress\, and anxiety. She received her Ea
+ ting Disorder Certification from Lewis and Clark\, where she completed he
+ r Master's degree\, and has previously worked in residential and outpatie
+ nt eating disorder care. Abby is a board member of the Columbia River Eat
+ ing Disorder Network and is passionate about eating disorder education fo
+ r therapists. Abby is committed to fat liberation\, body neutrality\, and
+  operates from a Health at Every Size lens.</p><div id="lw_widget_470b39b
+ a" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_3
+ 994 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_results l
+ w_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_body
+ "><p style="line-height: 1.5\;"><em><strong>New workshops and trainings a
+ re added to our calendar regularly.</strong> For the latest on profession
+ al development related to your specific interests\, <a href="https://lcla
+ rk.tfaforms.net/4735441">sign up for our mailing list!</a></em></p></div>
+ </li></ul></div>
 UID:20260605T160000Z-366801@www.lclark.edu
 DTSTAMP:20250212T133552Z
 URL:https://www.lclark.edu/calendars/events/event/366801-treatment-of-neg
@@ -3030,19 +2729,19 @@ DESCRIPTION:This course will introduce visual journals as an instrument f
   all needs and abilities. If you have a disability that may impact your a
  cademic performance\, you may request accommodations by meeting with the 
  Office of Student Accessibility staff and submitting documentation on the
-  Office of Student Accessibility website (/offices/student-accessibility/
- ). Please be aware that the process for evaluation and implementation of 
- accommodations could take 2-3 weeks\, so please be in touch with the OSA 
- as soon as possible. Email access@lclark.edu (mailto:access@lclark.edu) w
- ith any additional questions or concerns.About the InstructorMichael Dods
- on has taught art at French Prairie Middle School for 27 years. He has le
- d workshops and sessions on using visual journals in the classroom at sta
- te and national educator conferences. Michael is a past-president of the 
- Oregon Art Education Association\, and was named Oregon Art Educator of t
- he Year in 2018.  &#160\;New workshops and trainings are added to our cal
- endar regularly. For the latest on professional development related to yo
- ur specific interests\, sign up for our mailing list! (https://lclark.tfa
- forms.net/4735441)
+  Office of Student Accessibility website (https://www.lclark.edu/offices/
+ student-accessibility/). Please be aware that the process for evaluation 
+ and implementation of accommodations could take 2-3 weeks\, so please be 
+ in touch with the OSA as soon as possible. Email access@lclark.edu (mailt
+ o:access@lclark.edu) with any additional questions or concerns.About the 
+ InstructorMichael Dodson has taught art at French Prairie Middle School f
+ or 27 years. He has led workshops and sessions on using visual journals i
+ n the classroom at state and national educator conferences. Michael is a 
+ past-president of the Oregon Art Education Association\, and was named Or
+ egon Art Educator of the Year in 2018.  &#160\;New workshops and training
+ s are added to our calendar regularly. For the latest on professional dev
+ elopment related to your specific interests\, sign up for our mailing lis
+ t! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course 
  will introduce visual journals as an instrument for generating ideas and 
  documenting the creative process.<br /><br />  Participants will have the
@@ -3076,26 +2775,26 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course
  nts accessible to all needs and abilities.</strong> If you have a disabil
  ity that may impact your academic performance\, you may request accommoda
  tions by meeting with the Office of Student Accessibility staff and submi
- tting documentation on the <a href="https://www.lclark.edu/offices/student-accessibility/" targ
- et="_blank" rel="noopener">Office of Student Accessibility website</a>. P
- lease be aware that the process for evaluation and implementation of acco
- mmodations could take 2-3 weeks\, so please be in touch with the OSA as s
- oon as possible. Email <a href="mailto:access@lclark.edu">access@lclark.e
- du</a> with any additional questions or concerns.</p></div></li></ul></di
- v><hr /><h2><strong>About the Instructor</strong></h2><p style="line-heig
- ht: 1.5\;"><strong>Michael Dodson</strong> has taught art at French Prair
- ie Middle School for 27 years. He has led workshops and sessions on using
-  visual journals in the classroom at state and national educator conferen
- ces. Michael is a past-president of the Oregon Art Education Association\
- , and was named Oregon Art Educator of the Year in 2018.</p><p>  &#160\;<
- /p><div id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs lw
- _widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"><
- ul class="lw_widget_results lw_widget_results_blurbs"><li class="lw_item_
- 1"><div class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><strong>
- New workshops and trainings are added to our calendar regularly.</strong>
-  For the latest on professional development related to your specific inte
- rests\, <a href="https://lclark.tfaforms.net/4735441">sign up for our mai
- ling list!</a></em></p></div></li></ul></div>
+ tting documentation on the <a href="https://www.lclark.edu/offices/studen
+ t-accessibility/" target="_blank" rel="noopener">Office of Student Access
+ ibility website</a>. Please be aware that the process for evaluation and 
+ implementation of accommodations could take 2-3 weeks\, so please be in t
+ ouch with the OSA as soon as possible. Email <a href="mailto:access@lclar
+ k.edu">access@lclark.edu</a> with any additional questions or concerns.</
+ p></div></li></ul></div><hr /><h2><strong>About the Instructor</strong></
+ h2><p style="line-height: 1.5\;"><strong>Michael Dodson</strong> has taug
+ ht art at French Prairie Middle School for 27 years. He has led workshops
+  and sessions on using visual journals in the classroom at state and nati
+ onal educator conferences. Michael is a past-president of the Oregon Art 
+ Education Association\, and was named Oregon Art Educator of the Year in 
+ 2018.</p><p>  &#160\;</p><div id="lw_widget_470b39ba" class="lw_widget lw
+ _widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in l
+ w_widget_pagination"><ul class="lw_widget_results lw_widget_results_blurb
+ s"><li class="lw_item_1"><div class="lw_blurbs_body"><p style="line-heigh
+ t: 1.5\;"><em><strong>New workshops and trainings are added to our calend
+ ar regularly.</strong> For the latest on professional development related
+  to your specific interests\, <a href="https://lclark.tfaforms.net/473544
+ 1">sign up for our mailing list!</a></em></p></div></li></ul></div>
 UID:20260617T160000Z-383526@www.lclark.edu
 DTSTAMP:20260212T094104Z
 URL:https://www.lclark.edu/calendars/events/event/383526-visual-journals-
@@ -3148,33 +2847,34 @@ DESCRIPTION:This experiential workshop introduces clinicians to trauma-in
  egrate breathwork and somatic awareness into existing clinical models.  D
  etails &amp\; RegistrationDate: Thursday\, June 18\, 2026\, 1-5 p.m. PT\,
   OnlineInstructor: Caroline McGrath\, LPC\, NCCDetails: $105\, includes 4
-  CEUs. Alumni and Adjuncts save 20%. $45 GSEC Student Rate.Register Onlin
- e (https://lclark.tfaforms.net/wf1W4MQ?epid=a1aUY000002ULDx)  Limited no-
- cost registrations for GSEC Clinical Mental Health Supervisors\, Faculty\
- , and Staff. Email cce@lclark.edu (mailto:cce@lclark.edu).Registration cl
- oses after Monday\, June 15thAccessibility: We are committed to making ou
- r events accessible to all needs and abilities. When registering\, please
-  let us know your access needs. Contact us at 503-768-6040 or cce@lclark.
- edu (mailto:cce@lclark.edu)&#160\;with questions.Please note: Discounted 
- &#x2018\;Student Rate&#x2019\; registrations are for current students onl
- y and do not include continuing education credit (CEU/PDUs)About the Inst
- ructorCaroline McGrath\, LPC\, NCC is a Licensed Professional Counselor\,
-  Certified Trauma-Informed Breathwork and HypnoBreathwork Facilitator\, C
- ertified Somatic Jungian Coach\, and Certified TRE® Provider. She is the
-  founder of Soul of the Lotus®\, a practice devoted to somatic healing\,
-  depth psychology\, and embodied transformation.  Caroline's work integra
- tes clinical counseling\, nervous system regulation\, breathwork\, and in
- ner child–informed approaches to support deep\, lasting change. She wor
- ks with college students\, young adults\, and midlife women navigating an
- xiety\, identity shifts\, and life transitions.  In addition to her clini
- cal practice\, she leads professional trainings for therapists and helpin
- g professionals\, as well as retreats and transformational programs for m
- idlife women. Her teaching emphasizes experiential learning\, trauma-info
- rmed practice\, and practical somatic tools that clinicians can confident
- ly integrate into their work.New workshops and trainings are added to our
-  calendar regularly. For the latest on professional development related t
- o your specific interests\, sign up for our mailing list! (https://lclark
- .tfaforms.net/4735441)
+  CEUs. Alumni and Adjuncts save 20%.&#160\;Register Online (https://lclar
+ k.tfaforms.net/wf1W4MQ?epid=a1aUY000002ULDx)  $45 GSEC Student rate regis
+ trations (join waitlist (https://lclark.tfaforms.net/4735424/?epid=a1aUY0
+ 00002ULDx))  Limited no-cost registrations for GSEC Clinical Mental Healt
+ h Supervisors\, Faculty\, and Staff. Email cce@lclark.edu (mailto:cce@lcl
+ ark.edu).Registration closes after Monday\, June 15thAccessibility: We ar
+ e committed to making our events accessible to all needs and abilities. W
+ hen registering\, please let us know your access needs. Contact us at 503
+ -768-6040 or cce@lclark.edu (mailto:cce@lclark.edu)&#160\;with questions.
+ Please note: Discounted &#x2018\;Student Rate&#x2019\; registrations are 
+ for current students only and do not include continuing education credit 
+ (CEU/PDUs)About the InstructorCaroline McGrath\, LPC\, NCC is a Licensed 
+ Professional Counselor\, Certified Trauma-Informed Breathwork and HypnoBr
+ eathwork Facilitator\, Certified Somatic Jungian Coach\, and Certified TR
+ E® Provider. She is the founder of Soul of the Lotus®\, a practice devo
+ ted to somatic healing\, depth psychology\, and embodied transformation. 
+  Caroline's work integrates clinical counseling\, nervous system regulati
+ on\, breathwork\, and inner child–informed approaches to support deep\,
+  lasting change. She works with college students\, young adults\, and mid
+ life women navigating anxiety\, identity shifts\, and life transitions.  
+ In addition to her clinical practice\, she leads professional trainings f
+ or therapists and helping professionals\, as well as retreats and transfo
+ rmational programs for midlife women. Her teaching emphasizes experientia
+ l learning\, trauma-informed practice\, and practical somatic tools that 
+ clinicians can confidently integrate into their work.New workshops and tr
+ ainings are added to our calendar regularly. For the latest on profession
+ al development related to your specific interests\, sign up for our maili
+ ng list! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This experie
  ntial workshop introduces clinicians to trauma-informed breathwork as a p
  ractical\, ethical\, and accessible tool for nervous system regulation in
@@ -3211,54 +2911,56 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This experie
   p.m. PT\, Online</p><p style="line-height: 1.5\;"><strong>Instructor:</s
  trong> Caroline McGrath\, LPC\, NCC</p><p style="line-height: 1.5\;"><str
  ong>Details:</strong> $105\, includes 4 CEUs. Alumni and Adjuncts save 20
- %. $45 GSEC Student Rate.</p><p style="line-height: 1.5\;"><strong><a cla
- ss="btn-small-style-1" href="https://lclark.tfaforms.net/wf1W4MQ?epid=a1a
- UY000002ULDx" target="_blank" rel="noopener">Register Online</a></strong>
- </p><p style="line-height: 1.5\;">  Limited no-cost registrations for GSE
- C Clinical Mental Health Supervisors\, Faculty\, and Staff. Email <a href
- ="mailto:cce@lclark.edu">cce@lclark.edu</a>.</p><p style="line-height: 1.
- 5\;"><em><strong>Registration closes after Monday\, June 15th</strong></e
- m></p><div id="lw_widget_30f0017c" class="lw_widget lw_widget_type_blurbs
-  lw_widget_blurbs lw_widget_id_7119 lw_widget_accessibility_statement lw_
- widget_pagination"><ul class="lw_widget_results lw_widget_results_blurbs"
- ><li class="lw_item_1"><div class="lw_blurbs_body"><p class="p1" style="f
- ont-size: 15px\; line-height: 1.5\;"><em><strong>Accessibility:</strong> 
- We are committed to making our events accessible to all needs and abiliti
- es. When registering\, please let us know your access needs. Contact us a
- t 503-768-6040 or <a href="mailto:cce@lclark.edu">cce@lclark.edu</a>&#160
- \;with questions.<br/></em></p><p class="p1" style="font-size: 15px\; lin
- e-height: 1.5\;"><em><strong>Please note:</strong> Discounted &#x2018\;St
- udent Rate&#x2019\; registrations are for current students only and <stro
- ng>do not</strong> include continuing education credit (CEU/PDUs)</em></p
- ></div></li></ul></div><hr /><h3><strong>About the Instructor</strong></h
- 3><p style="line-height: 1.5\;"><strong>Caroline McGrath\, LPC\, NCC</str
- ong> is a Licensed Professional Counselor\, Certified Trauma-Informed Bre
- athwork and HypnoBreathwork Facilitator\, Certified Somatic Jungian Coach
- \, and Certified TRE® Provider. She is the founder of Soul of the Lotus�
- �\, a practice devoted to somatic healing\, depth psychology\, and embodi
- ed transformation.</p><p style="line-height: 1.5\;">  Caroline's work int
- egrates clinical counseling\, nervous system regulation\, breathwork\, an
- d inner child–informed approaches to support deep\, lasting change. She
-  works with college students\, young adults\, and midlife women navigatin
- g anxiety\, identity shifts\, and life transitions.</p><p style="line-hei
- ght: 1.5\;">  In addition to her clinical practice\, she leads profession
- al trainings for therapists and helping professionals\, as well as retrea
- ts and transformational programs for midlife women. Her teaching emphasiz
- es experiential learning\, trauma-informed practice\, and practical somat
- ic tools that clinicians can confidently integrate into their work.</p><d
- iv id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs lw_widg
- et_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"><ul cl
- ass="lw_widget_results lw_widget_results_blurbs"><li class="lw_item_1"><d
- iv class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><strong>New w
- orkshops and trainings are added to our calendar regularly.</strong> For 
- the latest on professional development related to your specific interests
- \, <a href="https://lclark.tfaforms.net/4735441">sign up for our mailing 
- list!</a></em></p></div></li></ul></div>
+ %.&#160\;</p><p style="line-height: 1.5\;"><strong><a class="btn-small-st
+ yle-1" href="https://lclark.tfaforms.net/wf1W4MQ?epid=a1aUY000002ULDx" ta
+ rget="_blank" rel="noopener">Register Online</a></strong></p><p style="li
+ ne-height: 1.5\;">  $45 GSEC Student rate registrations (<a href="https:/
+ /lclark.tfaforms.net/4735424/?epid=a1aUY000002ULDx" target="_blank" rel="
+ noopener">join waitlist</a>)</p><p style="line-height: 1.5\;">  Limited n
+ o-cost registrations for GSEC Clinical Mental Health Supervisors\, Facult
+ y\, and Staff. Email <a href="mailto:cce@lclark.edu">cce@lclark.edu</a>.<
+ /p><p style="line-height: 1.5\;"><em><strong>Registration closes after Mo
+ nday\, June 15th</strong></em></p><div id="lw_widget_30f0017c" class="lw_
+ widget lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_7119 lw_widget
+ _accessibility_statement lw_widget_pagination"><ul class="lw_widget_resul
+ ts lw_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_
+ body"><p class="p1" style="font-size: 15px\; line-height: 1.5\;"><em><str
+ ong>Accessibility:</strong> We are committed to making our events accessi
+ ble to all needs and abilities. When registering\, please let us know you
+ r access needs. Contact us at 503-768-6040 or <a href="mailto:cce@lclark.
+ edu">cce@lclark.edu</a>&#160\;with questions.<br/></em></p><p class="p1" 
+ style="font-size: 15px\; line-height: 1.5\;"><em><strong>Please note:</st
+ rong> Discounted &#x2018\;Student Rate&#x2019\; registrations are for cur
+ rent students only and <strong>do not</strong> include continuing educati
+ on credit (CEU/PDUs)</em></p></div></li></ul></div><hr /><h3><strong>Abou
+ t the Instructor</strong></h3><p style="line-height: 1.5\;"><strong>Carol
+ ine McGrath\, LPC\, NCC</strong> is a Licensed Professional Counselor\, C
+ ertified Trauma-Informed Breathwork and HypnoBreathwork Facilitator\, Cer
+ tified Somatic Jungian Coach\, and Certified TRE® Provider. She is the f
+ ounder of Soul of the Lotus®\, a practice devoted to somatic healing\, d
+ epth psychology\, and embodied transformation.</p><p style="line-height: 
+ 1.5\;">  Caroline's work integrates clinical counseling\, nervous system 
+ regulation\, breathwork\, and inner child–informed approaches to suppor
+ t deep\, lasting change. She works with college students\, young adults\,
+  and midlife women navigating anxiety\, identity shifts\, and life transi
+ tions.</p><p style="line-height: 1.5\;">  In addition to her clinical pra
+ ctice\, she leads professional trainings for therapists and helping profe
+ ssionals\, as well as retreats and transformational programs for midlife 
+ women. Her teaching emphasizes experiential learning\, trauma-informed pr
+ actice\, and practical somatic tools that clinicians can confidently inte
+ grate into their work.</p><div id="lw_widget_470b39ba" class="lw_widget l
+ w_widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in 
+ lw_widget_pagination"><ul class="lw_widget_results lw_widget_results_blur
+ bs"><li class="lw_item_1"><div class="lw_blurbs_body"><p style="line-heig
+ ht: 1.5\;"><em><strong>New workshops and trainings are added to our calen
+ dar regularly.</strong> For the latest on professional development relate
+ d to your specific interests\, <a href="https://lclark.tfaforms.net/47354
+ 41">sign up for our mailing list!</a></em></p></div></li></ul></div>
 UID:20260618T200000Z-386898@www.lclark.edu
 DTSTAMP:20260313T111411Z
 URL:https://www.lclark.edu/calendars/events/event/386898-trauma-informed-
  breathwork-for-nervous-system-regulat
-LAST-MODIFIED:20260420T214352Z
+LAST-MODIFIED:20260513T215029Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/72,38,900,866/112655_Caroline_McGrath_LPC.rev.1775082949.png
 X-LIVEWHALE-TYPE:events
@@ -3296,29 +2998,29 @@ DESCRIPTION:This course will cover the topic of disordered eating and eat
  sability that may impact your academic performance\, you may request acco
  mmodations by meeting with the Office of Student Accessibility staff and 
  submitting documentation on the Office of Student Accessibility website (
- /offices/student-accessibility/). Please be aware that the process for ev
- aluation and implementation of accommodations could take 2-3 weeks\, so p
- lease be in touch with the OSA as soon as possible. Email access@lclark.e
- du (mailto:access@lclark.edu) with any additional questions or concerns.A
- bout the Instructor  Dianne Lamberty Rogers\, LMFT\, CADC has been a ther
- apist serving kids\, families and adults since completing her Masters in 
- Marriage Couple and Family Therapy at Lewis and Clark Graduate School in 
- 2015. Dianne has specialized in working with disordered eating and body i
- mage issues\, families of clients with eating disorders\, and Spanish spe
- aking families.  Dianne has worked with youth and families in school base
- d\, intensive in-home\, and outpatient settings providing drug\, alcohol\
- , and mental health treatment\, and also in intensive outpatient and part
- ial hospitalization settings for eating disorders. Dianne's work has incl
- uded working with incarcerated youth\, DHS-involved families\, and foster
-  and adopted youth.  Dianne conducts all of her work using a trauma infor
- med and culturally competent lens as well as a body liberation standpoint
- . Dianne teaches the Family Therapy in the Treatment of Eating Disorders 
- course in the Eating Disorders Certificate Program at Lewis &amp\; Clark 
- Graduate School. She is also a Clinical Supervisor to Lewis and Clark and
-  other graduate interns at Youth Contact Inc.New workshops and trainings 
- are added to our calendar regularly. For the latest on professional devel
- opment related to your specific interests\, sign up for our mailing list!
-  (https://lclark.tfaforms.net/4735441)
+ https://www.lclark.edu/offices/student-accessibility/). Please be aware t
+ hat the process for evaluation and implementation of accommodations could
+  take 2-3 weeks\, so please be in touch with the OSA as soon as possible.
+  Email access@lclark.edu (mailto:access@lclark.edu) with any additional q
+ uestions or concerns.About the Instructor  Dianne Lamberty Rogers\, LMFT\
+ , CADC has been a therapist serving kids\, families and adults since comp
+ leting her Masters in Marriage Couple and Family Therapy at Lewis and Cla
+ rk Graduate School in 2015. Dianne has specialized in working with disord
+ ered eating and body image issues\, families of clients with eating disor
+ ders\, and Spanish speaking families.  Dianne has worked with youth and f
+ amilies in school based\, intensive in-home\, and outpatient settings pro
+ viding drug\, alcohol\, and mental health treatment\, and also in intensi
+ ve outpatient and partial hospitalization settings for eating disorders. 
+ Dianne's work has included working with incarcerated youth\, DHS-involved
+  families\, and foster and adopted youth.  Dianne conducts all of her wor
+ k using a trauma informed and culturally competent lens as well as a body
+  liberation standpoint. Dianne teaches the Family Therapy in the Treatmen
+ t of Eating Disorders course in the Eating Disorders Certificate Program 
+ at Lewis &amp\; Clark Graduate School. She is also a Clinical Supervisor 
+ to Lewis and Clark and other graduate interns at Youth Contact Inc.New wo
+ rkshops and trainings are added to our calendar regularly. For the latest
+  on professional development related to your specific interests\, sign up
+  for our mailing list! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course 
  will cover the topic of disordered eating and eating disorders in childre
  n.</p><p style="line-height: 1.5\;">  Family therapy treatment strategies
@@ -3351,38 +3053,38 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course
  accessible to all needs and abilities.</strong> If you have a disability 
  that may impact your academic performance\, you may request accommodation
  s by meeting with the Office of Student Accessibility staff and submittin
- g documentation on the <a href="https://www.lclark.edu/offices/student-accessibility/" target="
- _blank" rel="noopener">Office of Student Accessibility website</a>. Pleas
- e be aware that the process for evaluation and implementation of accommod
- ations could take 2-3 weeks\, so please be in touch with the OSA as soon 
- as possible. Email <a href="mailto:access@lclark.edu">access@lclark.edu</
- a> with any additional questions or concerns.</p></div></li></ul></div><h
- r /><h2><strong>About the Instructor</strong></h2><p style="line-height: 
- 1.5\;">  Dianne Lamberty Rogers\, LMFT\, CADC has been a therapist servin
- g kids\, families and adults since completing her Masters in Marriage Cou
- ple and Family Therapy at Lewis and Clark Graduate School in 2015. Dianne
-  has specialized in working with disordered eating and body image issues\
- , families of clients with eating disorders\, and Spanish speaking famili
- es.</p><p style="line-height: 1.5\;">  Dianne has worked with youth and f
- amilies in school based\, intensive in-home\, and outpatient settings pro
- viding drug\, alcohol\, and mental health treatment\, and also in intensi
- ve outpatient and partial hospitalization settings for eating disorders. 
- Dianne's work has included working with incarcerated youth\, DHS-involved
-  families\, and foster and adopted youth.</p><p style="line-height: 1.5\;
- ">  Dianne conducts all of her work using a trauma informed and culturall
- y competent lens as well as a body liberation standpoint. Dianne teaches 
- the Family Therapy in the Treatment of Eating Disorders course in the Eat
- ing Disorders Certificate Program at Lewis &amp\; Clark Graduate School. 
- She is also a Clinical Supervisor to Lewis and Clark and other graduate i
- nterns at Youth Contact Inc.</p><div id="lw_widget_470b39ba" class="lw_wi
- dget lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_o
- pt_in lw_widget_pagination"><ul class="lw_widget_results lw_widget_result
- s_blurbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p style="lin
- e-height: 1.5\;"><em><strong>New workshops and trainings are added to our
-  calendar regularly.</strong> For the latest on professional development 
- related to your specific interests\, <a href="https://lclark.tfaforms.net
- /4735441">sign up for our mailing list!</a></em></p></div></li></ul></div
- >
+ g documentation on the <a href="https://www.lclark.edu/offices/student-ac
+ cessibility/" target="_blank" rel="noopener">Office of Student Accessibil
+ ity website</a>. Please be aware that the process for evaluation and impl
+ ementation of accommodations could take 2-3 weeks\, so please be in touch
+  with the OSA as soon as possible. Email <a href="mailto:access@lclark.ed
+ u">access@lclark.edu</a> with any additional questions or concerns.</p></
+ div></li></ul></div><hr /><h2><strong>About the Instructor</strong></h2><
+ p style="line-height: 1.5\;">  Dianne Lamberty Rogers\, LMFT\, CADC has b
+ een a therapist serving kids\, families and adults since completing her M
+ asters in Marriage Couple and Family Therapy at Lewis and Clark Graduate 
+ School in 2015. Dianne has specialized in working with disordered eating 
+ and body image issues\, families of clients with eating disorders\, and S
+ panish speaking families.</p><p style="line-height: 1.5\;">  Dianne has w
+ orked with youth and families in school based\, intensive in-home\, and o
+ utpatient settings providing drug\, alcohol\, and mental health treatment
+ \, and also in intensive outpatient and partial hospitalization settings 
+ for eating disorders. Dianne's work has included working with incarcerate
+ d youth\, DHS-involved families\, and foster and adopted youth.</p><p sty
+ le="line-height: 1.5\;">  Dianne conducts all of her work using a trauma 
+ informed and culturally competent lens as well as a body liberation stand
+ point. Dianne teaches the Family Therapy in the Treatment of Eating Disor
+ ders course in the Eating Disorders Certificate Program at Lewis &amp\; C
+ lark Graduate School. She is also a Clinical Supervisor to Lewis and Clar
+ k and other graduate interns at Youth Contact Inc.</p><div id="lw_widget_
+ 470b39ba" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widg
+ et_id_3994 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_re
+ sults lw_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blur
+ bs_body"><p style="line-height: 1.5\;"><em><strong>New workshops and trai
+ nings are added to our calendar regularly.</strong> For the latest on pro
+ fessional development related to your specific interests\, <a href="https
+ ://lclark.tfaforms.net/4735441">sign up for our mailing list!</a></em></p
+ ></div></li></ul></div>
 UID:20260620T160000Z-380080@www.lclark.edu
 DTSTAMP:20260115T113514Z
 URL:https://www.lclark.edu/calendars/events/event/380080-family-therapy-i
@@ -3640,28 +3342,28 @@ DESCRIPTION:Georgia O'Keeffe once said\, "I found I could say things with
  ities. If you have a disability that may impact your academic performance
  \, you may request accommodations by meeting with the Office of Student A
  ccessibility staff and submitting documentation on the Office of Student 
- Accessibility website (/offices/student-accessibility/). Please be aware 
- that the process for evaluation and implementation of accommodations coul
- d take 2-3 weeks\, so please be in touch with the OSA as soon as possible
- . Email access@lclark.edu (mailto:access@lclark.edu) with any additional 
- questions or concerns.About the Instructor  Kendra Larson grew up in Sale
- m\, OR. She received her MFA in Painting at University of Wisconsin\, Mad
- ison and has shown her work in venues including the Whatcom Museum (Belli
- ngham\, WA)\, the University of Minnesota's Nash Gallery (Minneapolis\, M
- N)\, Boise State University (Boise\, ID)\, and Overture Center for the Ar
- ts (Madison\, WI). Her work invites viewers to reimagine their relationsh
- ip with the natural world\, reignite a sense of wonder\, and advocate for
-  environmental care through the language of paint.  Her work has appeared
-  in publications such as The Bear Deluxe and Tree Sap Magazine. Larson is
-  a past artist in residence at Caldera (Sisters\, Oregon)\, New Pacific S
- tudios (Masterton\, New Zealand)\, and Fish Factory Creative Centre of St
- öðvarfjörður (Iceland). When not in the studio\, she teaches at Clark
-  College and is the Archer Gallery and Clark Art Talks Director. She is r
- epresented by Augen Gallery in Portland\, OR and AMcE Creative Arts in Se
- attle\, WA.&#160\;New workshops and trainings are added to our calendar r
- egularly. For the latest on professional development related to your spec
- ific interests\, sign up for our mailing list! (https://lclark.tfaforms.n
- et/4735441)
+ Accessibility website (https://www.lclark.edu/offices/student-accessibili
+ ty/). Please be aware that the process for evaluation and implementation 
+ of accommodations could take 2-3 weeks\, so please be in touch with the O
+ SA as soon as possible. Email access@lclark.edu (mailto:access@lclark.edu
+ ) with any additional questions or concerns.About the Instructor  Kendra 
+ Larson grew up in Salem\, OR. She received her MFA in Painting at Univers
+ ity of Wisconsin\, Madison and has shown her work in venues including the
+  Whatcom Museum (Bellingham\, WA)\, the University of Minnesota's Nash Ga
+ llery (Minneapolis\, MN)\, Boise State University (Boise\, ID)\, and Over
+ ture Center for the Arts (Madison\, WI). Her work invites viewers to reim
+ agine their relationship with the natural world\, reignite a sense of won
+ der\, and advocate for environmental care through the language of paint. 
+  Her work has appeared in publications such as The Bear Deluxe and Tree S
+ ap Magazine. Larson is a past artist in residence at Caldera (Sisters\, O
+ regon)\, New Pacific Studios (Masterton\, New Zealand)\, and Fish Factory
+  Creative Centre of Stöðvarfjörður (Iceland). When not in the studio\
+ , she teaches at Clark College and is the Archer Gallery and Clark Art Ta
+ lks Director. She is represented by Augen Gallery in Portland\, OR and AM
+ cE Creative Arts in Seattle\, WA.&#160\;New workshops and trainings are a
+ dded to our calendar regularly. For the latest on professional developmen
+ t related to your specific interests\, sign up for our mailing list! (htt
+ ps://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  Georgia O'Ke
  effe once said\, "I found I could say things with color and shapes that I
   couldn't say any other way—things I had no words for." She is not alon
@@ -3690,45 +3392,45 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  Georgia O'Ke
   committed to making our events accessible to all needs and abilities.</s
  trong> If you have a disability that may impact your academic performance
  \, you may request accommodations by meeting with the Office of Student A
- ccessibility staff and submitting documentation on the <a href="https://www.lclark.edu/offices/
- student-accessibility/" target="_blank" rel="noopener">Office of Student 
- Accessibility website</a>. Please be aware that the process for evaluatio
- n and implementation of accommodations could take 2-3 weeks\, so please b
- e in touch with the OSA as soon as possible. Email <a href="mailto:access
- @lclark.edu">access@lclark.edu</a> with any additional questions or conce
- rns.</p></div></li></ul></div><hr /><h2><strong>About the Instructor</str
- ong></h2><p style="line-height: 1.5\;"><picture class="lw_image lw_image7
- 1793 lw_align_right"><source type="image/webp" srcset="https://www.lclark
- .edu/live/image/gid/91/width/200/height/200/71793_klarson.webp 1x" data-o
- rigin="responsive"/><source type="image/jpeg" srcset="https://www.lclark.
- edu/live/image/gid/91/width/200/height/200/71793_klarson.rev.1523565364.j
- pg 1x" data-origin="responsive"/><img alt="" width="200" height="200" dat
- a-alt="" data-decoration="true" src="https://www.lclark.edu/live/image/gi
- d/91/width/200/height/200/71793_klarson.rev.1523565364.jpg" title="KLarso
- n" data-max-w="225" data-max-h="225" loading="lazy" data-optimized="true"
- /></picture></p><p style="line-height: 1.5\;">  Kendra Larson grew up in 
- Salem\, OR. She received her MFA in Painting at University of Wisconsin\,
-  Madison and has shown her work in venues including the Whatcom Museum (B
- ellingham\, WA)\, the University of Minnesota's Nash Gallery (Minneapolis
- \, MN)\, Boise State University (Boise\, ID)\, and Overture Center for th
- e Arts (Madison\, WI). Her work invites viewers to reimagine their relati
- onship with the natural world\, reignite a sense of wonder\, and advocate
-  for environmental care through the language of paint.</p><p style="line-
- height: 1.5\;">  Her work has appeared in publications such as <em>The Be
- ar Deluxe</em> and <em>Tree Sap Magazine</em>. Larson is a past artist in
-  residence at Caldera (Sisters\, Oregon)\, New Pacific Studios (Masterton
- \, New Zealand)\, and Fish Factory Creative Centre of Stöðvarfjörður 
- (Iceland). When not in the studio\, she teaches at Clark College and is t
- he Archer Gallery and Clark Art Talks Director. She is represented by Aug
- en Gallery in Portland\, OR and AMcE Creative Arts in Seattle\, WA.&#160\
- ;</p><div id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs 
- lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"
- ><ul class="lw_widget_results lw_widget_results_blurbs"><li class="lw_ite
- m_1"><div class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><stron
- g>New workshops and trainings are added to our calendar regularly.</stron
- g> For the latest on professional development related to your specific in
- terests\, <a href="https://lclark.tfaforms.net/4735441">sign up for our m
- ailing list!</a></em></p></div></li></ul></div>
+ ccessibility staff and submitting documentation on the <a href="https://w
+ ww.lclark.edu/offices/student-accessibility/" target="_blank" rel="noopen
+ er">Office of Student Accessibility website</a>. Please be aware that the
+  process for evaluation and implementation of accommodations could take 2
+ -3 weeks\, so please be in touch with the OSA as soon as possible. Email 
+ <a href="mailto:access@lclark.edu">access@lclark.edu</a> with any additio
+ nal questions or concerns.</p></div></li></ul></div><hr /><h2><strong>Abo
+ ut the Instructor</strong></h2><p style="line-height: 1.5\;"><picture cla
+ ss="lw_image lw_image71793 lw_align_right"><source type="image/webp" srcs
+ et="https://www.lclark.edu/live/image/gid/91/width/200/height/200/71793_k
+ larson.webp 1x" data-origin="responsive"/><source type="image/jpeg" srcse
+ t="https://www.lclark.edu/live/image/gid/91/width/200/height/200/71793_kl
+ arson.rev.1523565364.jpg 1x" data-origin="responsive"/><img alt="" width=
+ "200" height="200" data-alt="" data-decoration="true" src="https://www.lc
+ lark.edu/live/image/gid/91/width/200/height/200/71793_klarson.rev.1523565
+ 364.jpg" title="KLarson" data-max-w="225" data-max-h="225" loading="lazy"
+  data-optimized="true"/></picture></p><p style="line-height: 1.5\;">  Ken
+ dra Larson grew up in Salem\, OR. She received her MFA in Painting at Uni
+ versity of Wisconsin\, Madison and has shown her work in venues including
+  the Whatcom Museum (Bellingham\, WA)\, the University of Minnesota's Nas
+ h Gallery (Minneapolis\, MN)\, Boise State University (Boise\, ID)\, and 
+ Overture Center for the Arts (Madison\, WI). Her work invites viewers to 
+ reimagine their relationship with the natural world\, reignite a sense of
+  wonder\, and advocate for environmental care through the language of pai
+ nt.</p><p style="line-height: 1.5\;">  Her work has appeared in publicati
+ ons such as <em>The Bear Deluxe</em> and <em>Tree Sap Magazine</em>. Lars
+ on is a past artist in residence at Caldera (Sisters\, Oregon)\, New Paci
+ fic Studios (Masterton\, New Zealand)\, and Fish Factory Creative Centre 
+ of Stöðvarfjörður (Iceland). When not in the studio\, she teaches at 
+ Clark College and is the Archer Gallery and Clark Art Talks Director. She
+  is represented by Augen Gallery in Portland\, OR and AMcE Creative Arts 
+ in Seattle\, WA.&#160\;</p><div id="lw_widget_470b39ba" class="lw_widget 
+ lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in
+  lw_widget_pagination"><ul class="lw_widget_results lw_widget_results_blu
+ rbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p style="line-hei
+ ght: 1.5\;"><em><strong>New workshops and trainings are added to our cale
+ ndar regularly.</strong> For the latest on professional development relat
+ ed to your specific interests\, <a href="https://lclark.tfaforms.net/4735
+ 441">sign up for our mailing list!</a></em></p></div></li></ul></div>
 UID:20260625T160000Z-368158@www.lclark.edu
 DTSTAMP:20250416T121951Z
 URL:https://www.lclark.edu/calendars/events/event/368158-drawing-and-pain
@@ -3945,29 +3647,29 @@ DESCRIPTION:As clinicians\, we need to be prepared to help clients decons
   needs and abilities. If you have a disability that may impact your acade
  mic performance\, you may request accommodations by meeting with the Offi
  ce of Student Accessibility staff and submitting documentation on the Off
- ice of Student Accessibility website (/offices/student-accessibility/). P
- lease be aware that the process for evaluation and implementation of acco
- mmodations could take 2-3 weeks\, so please be in touch with the OSA as s
- oon as possible. Email access@lclark.edu (mailto:access@lclark.edu) with 
- any additional questions or concerns.About the Instructor Krystal Marcink
- iewicz\, MA\, LPC\, LMHC is a Licensed Professional Counselor and Clinica
- l Supervisor\, having earned her Masters Degree in Professional Mental He
- alth Counseling from Lewis &amp\; Clark College in 2018. Drawing from an 
- integrative feminist approach\, her work is grounded in person-centered v
- alues\, emphasizing authentic connection\, and collaborative engagement. 
- Her primary clinical focus is supporting clients in navigating identity d
- evelopment\, body politics\, neurodivergence\, emotional codependency\, h
- ighly sensitive personalities and other complex emotional experiences.  I
- n addition to clinical work\, Krystal is also passionate in training and 
- mentoring emerging counselors. She is an adjunct professor\, teaching a w
- ide variety of graduate counseling courses with an underlying emphasis on
-  counselor identity development\, reflective practice\, and cultivating p
- rofessional resilience.  In both the classroom\, and her clinical work\, 
- Krystal is committed to creating affirming spaces that honor intersection
- al identities and lived experience.New workshops and trainings are added 
- to our calendar regularly. For the latest on professional development rel
- ated to your specific interests\, sign up for our mailing list! (https://
- lclark.tfaforms.net/4735441)
+ ice of Student Accessibility website (https://www.lclark.edu/offices/stud
+ ent-accessibility/). Please be aware that the process for evaluation and 
+ implementation of accommodations could take 2-3 weeks\, so please be in t
+ ouch with the OSA as soon as possible. Email access@lclark.edu (mailto:ac
+ cess@lclark.edu) with any additional questions or concerns.About the Inst
+ ructor Krystal Marcinkiewicz\, MA\, LPC\, LMHC is a Licensed Professional
+  Counselor and Clinical Supervisor\, having earned her Masters Degree in 
+ Professional Mental Health Counseling from Lewis &amp\; Clark College in 
+ 2018. Drawing from an integrative feminist approach\, her work is grounde
+ d in person-centered values\, emphasizing authentic connection\, and coll
+ aborative engagement. Her primary clinical focus is supporting clients in
+  navigating identity development\, body politics\, neurodivergence\, emot
+ ional codependency\, highly sensitive personalities and other complex emo
+ tional experiences.  In addition to clinical work\, Krystal is also passi
+ onate in training and mentoring emerging counselors. She is an adjunct pr
+ ofessor\, teaching a wide variety of graduate counseling courses with an 
+ underlying emphasis on counselor identity development\, reflective practi
+ ce\, and cultivating professional resilience.  In both the classroom\, an
+ d her clinical work\, Krystal is committed to creating affirming spaces t
+ hat honor intersectional identities and lived experience.New workshops an
+ d trainings are added to our calendar regularly. For the latest on profes
+ sional development related to your specific interests\, sign up for our m
+ ailing list! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  As clinician
  s\, we need to be prepared to help clients deconstruct how their bodies h
  ave been storied.</p><p style="line-height: 1.5\;">  This includes raisin
@@ -4008,59 +3710,59 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  As clinician
  e to all needs and abilities.</strong> If you have a disability that may 
  impact your academic performance\, you may request accommodations by meet
  ing with the Office of Student Accessibility staff and submitting documen
- tation on the <a href="https://www.lclark.edu/offices/student-accessibility/" target="_blank" r
- el="noopener">Office of Student Accessibility website</a>. Please be awar
- e that the process for evaluation and implementation of accommodations co
- uld take 2-3 weeks\, so please be in touch with the OSA as soon as possib
- le. Email <a href="mailto:access@lclark.edu">access@lclark.edu</a> with a
- ny additional questions or concerns.</p></div></li></ul></div><hr /><h2 s
- tyle="line-height: 1.6\;"><strong>About the Instructor</strong></h2><p st
- yle="line-height: 1.6\;"><picture class="lw_image lw_image112280 lw_align
- _right"><source type="image/webp" srcset="https://www.lclark.edu/live/ima
- ge/scale/2x/gid/91/width/250/height/250/crop/1/src_region/751\,145\,1606\
- ,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.webp 2x\, https://www.
- lclark.edu/live/image/scale/3x/gid/91/width/250/height/250/crop/1/src_reg
- ion/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.web
- p 3x" data-origin="responsive"/><source type="image/jpeg" srcset="https:/
- /www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/crop/1/sr
- c_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_
- 2.rev.1772576613.jpg 2x\, https://www.lclark.edu/live/image/scale/3x/gid/
- 91/width/250/height/250/crop/1/src_region/751\,145\,1606\,1001/112280_202
- 5-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg 3x" data-origin="re
- sponsive"/><img width="250" height="250" alt="" data-alt="" data-decorati
- on="true" src="https://www.lclark.edu/live/image/gid/91/width/250/height/
- 250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcin
- kiewicz-6326_2.rev.1772576613.jpg" title="2025-web-Krystal Marcinkiewicz-
- 6326 2" srcset="https://www.lclark.edu/live/image/scale/2x/gid/91/width/2
- 50/height/250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Krys
- tal_Marcinkiewicz-6326_2.rev.1772576613.jpg 2x\, https://www.lclark.edu/l
- ive/image/scale/3x/gid/91/width/250/height/250/crop/1/src_region/751\,145
- \,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.
- jpg 3x" data-max-w="855" data-max-h="856" loading="lazy" data-optimized="
- true"/></picture> Krystal Marcinkiewicz\, MA\, LPC\, LMHC is a Licensed P
- rofessional Counselor and Clinical Supervisor\, having earned her Masters
-  Degree in Professional Mental Health Counseling from Lewis &amp\; Clark 
- College in 2018. Drawing from an integrative feminist approach\, her work
-  is grounded in person-centered values\, emphasizing authentic connection
- \, and collaborative engagement. Her primary clinical focus is supporting
-  clients in navigating identity development\, body politics\, neurodiverg
- ence\, emotional codependency\, highly sensitive personalities and other 
- complex emotional experiences.</p><p style="line-height: 1.6\;">  In addi
- tion to clinical work\, Krystal is also passionate in training and mentor
- ing emerging counselors. She is an adjunct professor\, teaching a wide va
- riety of graduate counseling courses with an underlying emphasis on couns
- elor identity development\, reflective practice\, and cultivating profess
- ional resilience.</p><p style="line-height: 1.6\;">  In both the classroo
- m\, and her clinical work\, Krystal is committed to creating affirming sp
- aces that honor intersectional identities and lived experience.</p><div i
- d="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs lw_widget_b
- lurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"><ul class=
- "lw_widget_results lw_widget_results_blurbs"><li class="lw_item_1"><div c
- lass="lw_blurbs_body"><p style="line-height: 1.5\;"><em><strong>New works
- hops and trainings are added to our calendar regularly.</strong> For the 
- latest on professional development related to your specific interests\, <
- a href="https://lclark.tfaforms.net/4735441">sign up for our mailing list
- !</a></em></p></div></li></ul></div>
+ tation on the <a href="https://www.lclark.edu/offices/student-accessibili
+ ty/" target="_blank" rel="noopener">Office of Student Accessibility websi
+ te</a>. Please be aware that the process for evaluation and implementatio
+ n of accommodations could take 2-3 weeks\, so please be in touch with the
+  OSA as soon as possible. Email <a href="mailto:access@lclark.edu">access
+ @lclark.edu</a> with any additional questions or concerns.</p></div></li>
+ </ul></div><hr /><h2 style="line-height: 1.6\;"><strong>About the Instruc
+ tor</strong></h2><p style="line-height: 1.6\;"><picture class="lw_image l
+ w_image112280 lw_align_right"><source type="image/webp" srcset="https://w
+ ww.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/crop/1/src_
+ region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.
+ webp 2x\, https://www.lclark.edu/live/image/scale/3x/gid/91/width/250/hei
+ ght/250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Ma
+ rcinkiewicz-6326_2.webp 3x" data-origin="responsive"/><source type="image
+ /jpeg" srcset="https://www.lclark.edu/live/image/scale/2x/gid/91/width/25
+ 0/height/250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Kryst
+ al_Marcinkiewicz-6326_2.rev.1772576613.jpg 2x\, https://www.lclark.edu/li
+ ve/image/scale/3x/gid/91/width/250/height/250/crop/1/src_region/751\,145\
+ ,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.j
+ pg 3x" data-origin="responsive"/><img width="250" height="250" alt="" dat
+ a-alt="" data-decoration="true" src="https://www.lclark.edu/live/image/gi
+ d/91/width/250/height/250/crop/1/src_region/751\,145\,1606\,1001/112280_2
+ 025-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg" title="2025-web-
+ Krystal Marcinkiewicz-6326 2" srcset="https://www.lclark.edu/live/image/s
+ cale/2x/gid/91/width/250/height/250/crop/1/src_region/751\,145\,1606\,100
+ 1/112280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg 2x\, ht
+ tps://www.lclark.edu/live/image/scale/3x/gid/91/width/250/height/250/crop
+ /1/src_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-
+ 6326_2.rev.1772576613.jpg 3x" data-max-w="855" data-max-h="856" loading="
+ lazy" data-optimized="true"/></picture> Krystal Marcinkiewicz\, MA\, LPC\
+ , LMHC is a Licensed Professional Counselor and Clinical Supervisor\, hav
+ ing earned her Masters Degree in Professional Mental Health Counseling fr
+ om Lewis &amp\; Clark College in 2018. Drawing from an integrative femini
+ st approach\, her work is grounded in person-centered values\, emphasizin
+ g authentic connection\, and collaborative engagement. Her primary clinic
+ al focus is supporting clients in navigating identity development\, body 
+ politics\, neurodivergence\, emotional codependency\, highly sensitive pe
+ rsonalities and other complex emotional experiences.</p><p style="line-he
+ ight: 1.6\;">  In addition to clinical work\, Krystal is also passionate 
+ in training and mentoring emerging counselors. She is an adjunct professo
+ r\, teaching a wide variety of graduate counseling courses with an underl
+ ying emphasis on counselor identity development\, reflective practice\, a
+ nd cultivating professional resilience.</p><p style="line-height: 1.6\;">
+   In both the classroom\, and her clinical work\, Krystal is committed to
+  creating affirming spaces that honor intersectional identities and lived
+  experience.</p><div id="lw_widget_470b39ba" class="lw_widget lw_widget_t
+ ype_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_
+ pagination"><ul class="lw_widget_results lw_widget_results_blurbs"><li cl
+ ass="lw_item_1"><div class="lw_blurbs_body"><p style="line-height: 1.5\;"
+ ><em><strong>New workshops and trainings are added to our calendar regula
+ rly.</strong> For the latest on professional development related to your 
+ specific interests\, <a href="https://lclark.tfaforms.net/4735441">sign u
+ p for our mailing list!</a></em></p></div></li></ul></div>
 UID:20260627T160000Z-375747@www.lclark.edu
 DTSTAMP:20251204T105337Z
 URL:https://www.lclark.edu/calendars/events/event/375747-body-politics-on
@@ -4502,24 +4204,25 @@ DESCRIPTION:This course will offer an in-depth overview of the causal and
  le to all needs and abilities. If you have a disability that may impact y
  our academic performance\, you may request accommodations by meeting with
   the Office of Student Accessibility staff and submitting documentation o
- n the Office of Student Accessibility website (/offices/student-accessibi
- lity/). Please be aware that the process for evaluation and implementatio
- n of accommodations could take 2-3 weeks\, so please be in touch with the
-  OSA as soon as possible. Email access@lclark.edu (mailto:access@lclark.e
- du) with any additional questions or concerns.About the Instructor Abby E
- rnst\, LPC\, LMHC (she/her) is a Licensed Professional Counselor in Orego
- n and Licensed Mental Health Counselor in Washington. She works at her Pr
- ivate Practice Cloudburst Counseling and specializes in working with youn
- g adults and teens with eating disorders\, body image distress\, and anxi
- ety. She received her Eating Disorder Certification from Lewis and Clark\
- , where she completed her Master's degree\, and has previously worked in 
- residential and outpatient eating disorder care. Abby is a board member o
- f the Columbia River Eating Disorder Network and is passionate about eati
- ng disorder education for therapists. Abby is committed to fat liberation
- \, body neutrality\, and operates from a Health at Every Size lens.New wo
- rkshops and trainings are added to our calendar regularly. For the latest
-  on professional development related to your specific interests\, sign up
-  for our mailing list! (https://lclark.tfaforms.net/4735441)
+ n the Office of Student Accessibility website (https://www.lclark.edu/off
+ ices/student-accessibility/). Please be aware that the process for evalua
+ tion and implementation of accommodations could take 2-3 weeks\, so pleas
+ e be in touch with the OSA as soon as possible. Email access@lclark.edu (
+ mailto:access@lclark.edu) with any additional questions or concerns.About
+  the Instructor Abby Ernst\, LPC\, LMHC (she/her) is a Licensed Professio
+ nal Counselor in Oregon and Licensed Mental Health Counselor in Washingto
+ n. She works at her Private Practice Cloudburst Counseling and specialize
+ s in working with young adults and teens with eating disorders\, body ima
+ ge distress\, and anxiety. She received her Eating Disorder Certification
+  from Lewis and Clark\, where she completed her Master's degree\, and has
+  previously worked in residential and outpatient eating disorder care. Ab
+ by is a board member of the Columbia River Eating Disorder Network and is
+  passionate about eating disorder education for therapists. Abby is commi
+ tted to fat liberation\, body neutrality\, and operates from a Health at 
+ Every Size lens.New workshops and trainings are added to our calendar reg
+ ularly. For the latest on professional development related to your specif
+ ic interests\, sign up for our mailing list! (https://lclark.tfaforms.net
+ /4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course 
  will offer an in-depth overview of the causal and maintenance factors inv
  olved in the development of clinically significant negative body image.</
@@ -4554,46 +4257,47 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course
   and abilities.</strong> If you have a disability that may impact your ac
  ademic performance\, you may request accommodations by meeting with the O
  ffice of Student Accessibility staff and submitting documentation on the 
- <a href="https://www.lclark.edu/offices/student-accessibility/" target="_blank" rel="noopener">
- Office of Student Accessibility website</a>. Please be aware that the pro
- cess for evaluation and implementation of accommodations could take 2-3 w
- eeks\, so please be in touch with the OSA as soon as possible. Email <a h
- ref="mailto:access@lclark.edu">access@lclark.edu</a> with any additional 
- questions or concerns.</p></div></li></ul></div><hr /><h2><strong>About t
- he Instructor</strong></h2><p style="line-height: 1.5\;"><strong><picture
-  class="lw_image lw_image107261  lw_align_right"><source type="image/webp
- " srcset="https://www.lclark.edu/live/image/scale/2x/gid/91/width/250/hei
- ght/250/107261_Pink_1_copy.webp 2x\, https://www.lclark.edu/live/image/sc
- ale/3x/gid/91/width/250/height/250/107261_Pink_1_copy.webp 3x" data-origi
- n="responsive"/><source type="image/jpeg" srcset="https://www.lclark.edu/
- live/image/scale/2x/gid/91/width/250/height/250/107261_Pink_1_copy.rev.17
- 39484783.jpg 2x\, https://www.lclark.edu/live/image/scale/3x/gid/91/width
- /250/height/250/107261_Pink_1_copy.rev.1739484783.jpg 3x" data-origin="re
- sponsive"/><img width="250" height="250" alt="" data-alt="" data-decorati
- on="true" src="https://www.lclark.edu/live/image/gid/91/width/250/height/
- 250/107261_Pink_1_copy.rev.1739484783.jpg" title="Pink 1 copy" srcset="ht
- tps://www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/1072
- 61_Pink_1_copy.rev.1739484783.jpg 2x\, https://www.lclark.edu/live/image/
- scale/3x/gid/91/width/250/height/250/107261_Pink_1_copy.rev.1739484783.jp
- g 3x" data-max-w="2018" data-max-h="2016" loading="lazy" data-optimized="
- true"/></picture> Abby Ernst\, LPC\, LMHC</strong> (she/her) is a License
- d Professional Counselor in Oregon and Licensed Mental Health Counselor i
- n Washington. She works at her Private Practice Cloudburst Counseling and
-  specializes in working with young adults and teens with eating disorders
- \, body image distress\, and anxiety. She received her Eating Disorder Ce
- rtification from Lewis and Clark\, where she completed her Master's degre
- e\, and has previously worked in residential and outpatient eating disord
- er care. Abby is a board member of the Columbia River Eating Disorder Net
- work and is passionate about eating disorder education for therapists. Ab
- by is committed to fat liberation\, body neutrality\, and operates from a
-  Health at Every Size lens.</p><div id="lw_widget_470b39ba" class="lw_wid
- get lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_op
- t_in lw_widget_pagination"><ul class="lw_widget_results lw_widget_results
- _blurbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p style="line
- -height: 1.5\;"><em><strong>New workshops and trainings are added to our 
- calendar regularly.</strong> For the latest on professional development r
- elated to your specific interests\, <a href="https://lclark.tfaforms.net/
- 4735441">sign up for our mailing list!</a></em></p></div></li></ul></div>
+ <a href="https://www.lclark.edu/offices/student-accessibility/" target="_
+ blank" rel="noopener">Office of Student Accessibility website</a>. Please
+  be aware that the process for evaluation and implementation of accommoda
+ tions could take 2-3 weeks\, so please be in touch with the OSA as soon a
+ s possible. Email <a href="mailto:access@lclark.edu">access@lclark.edu</a
+ > with any additional questions or concerns.</p></div></li></ul></div><hr
+  /><h2><strong>About the Instructor</strong></h2><p style="line-height: 1
+ .5\;"><strong><picture class="lw_image lw_image107261  lw_align_right"><s
+ ource type="image/webp" srcset="https://www.lclark.edu/live/image/scale/2
+ x/gid/91/width/250/height/250/107261_Pink_1_copy.webp 2x\, https://www.lc
+ lark.edu/live/image/scale/3x/gid/91/width/250/height/250/107261_Pink_1_co
+ py.webp 3x" data-origin="responsive"/><source type="image/jpeg" srcset="h
+ ttps://www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/107
+ 261_Pink_1_copy.rev.1739484783.jpg 2x\, https://www.lclark.edu/live/image
+ /scale/3x/gid/91/width/250/height/250/107261_Pink_1_copy.rev.1739484783.j
+ pg 3x" data-origin="responsive"/><img width="250" height="250" alt="" dat
+ a-alt="" data-decoration="true" src="https://www.lclark.edu/live/image/gi
+ d/91/width/250/height/250/107261_Pink_1_copy.rev.1739484783.jpg" title="P
+ ink 1 copy" srcset="https://www.lclark.edu/live/image/scale/2x/gid/91/wid
+ th/250/height/250/107261_Pink_1_copy.rev.1739484783.jpg 2x\, https://www.
+ lclark.edu/live/image/scale/3x/gid/91/width/250/height/250/107261_Pink_1_
+ copy.rev.1739484783.jpg 3x" data-max-w="2018" data-max-h="2016" loading="
+ lazy" data-optimized="true"/></picture> Abby Ernst\, LPC\, LMHC</strong> 
+ (she/her) is a Licensed Professional Counselor in Oregon and Licensed Men
+ tal Health Counselor in Washington. She works at her Private Practice Clo
+ udburst Counseling and specializes in working with young adults and teens
+  with eating disorders\, body image distress\, and anxiety. She received 
+ her Eating Disorder Certification from Lewis and Clark\, where she comple
+ ted her Master's degree\, and has previously worked in residential and ou
+ tpatient eating disorder care. Abby is a board member of the Columbia Riv
+ er Eating Disorder Network and is passionate about eating disorder educat
+ ion for therapists. Abby is committed to fat liberation\, body neutrality
+ \, and operates from a Health at Every Size lens.</p><div id="lw_widget_4
+ 70b39ba" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widge
+ t_id_3994 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_res
+ ults lw_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blurb
+ s_body"><p style="line-height: 1.5\;"><em><strong>New workshops and train
+ ings are added to our calendar regularly.</strong> For the latest on prof
+ essional development related to your specific interests\, <a href="https:
+ //lclark.tfaforms.net/4735441">sign up for our mailing list!</a></em></p>
+ </div></li></ul></div>
 UID:20260710T160000Z-366800@www.lclark.edu
 DTSTAMP:20250212T133552Z
 URL:https://www.lclark.edu/calendars/events/event/366800-treatment-of-neg
@@ -4643,29 +4347,29 @@ DESCRIPTION:As clinicians\, we need to be prepared to help clients decons
  e to all needs and abilities. If you have a disability that may impact yo
  ur academic performance\, you may request accommodations by meeting with 
  the Office of Student Accessibility staff and submitting documentation on
-  the Office of Student Accessibility website (/offices/student-accessibil
- ity/). Please be aware that the process for evaluation and implementation
-  of accommodations could take 2-3 weeks\, so please be in touch with the 
- OSA as soon as possible. Email access@lclark.edu (mailto:access@lclark.ed
- u) with any additional questions or concerns.About the Instructor Krystal
-  Marcinkiewicz\, MA\, LPC\, LMHC is a Licensed Professional Counselor and
-  Clinical Supervisor\, having earned her Masters Degree in Professional M
- ental Health Counseling from Lewis &amp\; Clark College in 2018. Drawing 
- from an integrative feminist approach\, her work is grounded in person-ce
- ntered values\, emphasizing authentic connection\, and collaborative enga
- gement. Her primary clinical focus is supporting clients in navigating id
- entity development\, body politics\, neurodivergence\, emotional codepend
- ency\, highly sensitive personalities and other complex emotional experie
- nces.  In addition to clinical work\, Krystal is also passionate in train
- ing and mentoring emerging counselors. She is an adjunct professor\, teac
- hing a wide variety of graduate counseling courses with an underlying emp
- hasis on counselor identity development\, reflective practice\, and culti
- vating professional resilience.  In both the classroom\, and her clinical
-  work\, Krystal is committed to creating affirming spaces that honor inte
- rsectional identities and lived experience.New workshops and trainings ar
- e added to our calendar regularly. For the latest on professional develop
- ment related to your specific interests\, sign up for our mailing list! (
- https://lclark.tfaforms.net/4735441)
+  the Office of Student Accessibility website (https://www.lclark.edu/offi
+ ces/student-accessibility/). Please be aware that the process for evaluat
+ ion and implementation of accommodations could take 2-3 weeks\, so please
+  be in touch with the OSA as soon as possible. Email access@lclark.edu (m
+ ailto:access@lclark.edu) with any additional questions or concerns.About 
+ the Instructor Krystal Marcinkiewicz\, MA\, LPC\, LMHC is a Licensed Prof
+ essional Counselor and Clinical Supervisor\, having earned her Masters De
+ gree in Professional Mental Health Counseling from Lewis &amp\; Clark Col
+ lege in 2018. Drawing from an integrative feminist approach\, her work is
+  grounded in person-centered values\, emphasizing authentic connection\, 
+ and collaborative engagement. Her primary clinical focus is supporting cl
+ ients in navigating identity development\, body politics\, neurodivergenc
+ e\, emotional codependency\, highly sensitive personalities and other com
+ plex emotional experiences.  In addition to clinical work\, Krystal is al
+ so passionate in training and mentoring emerging counselors. She is an ad
+ junct professor\, teaching a wide variety of graduate counseling courses 
+ with an underlying emphasis on counselor identity development\, reflectiv
+ e practice\, and cultivating professional resilience.  In both the classr
+ oom\, and her clinical work\, Krystal is committed to creating affirming 
+ spaces that honor intersectional identities and lived experience.New work
+ shops and trainings are added to our calendar regularly. For the latest o
+ n professional development related to your specific interests\, sign up f
+ or our mailing list! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  As clinician
  s\, we need to be prepared to help clients deconstruct how their bodies h
  ave been storied.</p><p style="line-height: 1.5\;">  This includes raisin
@@ -4706,59 +4410,59 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  As clinician
  ccessible to all needs and abilities.</strong> If you have a disability t
  hat may impact your academic performance\, you may request accommodations
   by meeting with the Office of Student Accessibility staff and submitting
-  documentation on the <a href="https://www.lclark.edu/offices/student-accessibility/" target="_
- blank" rel="noopener">Office of Student Accessibility website</a>. Please
-  be aware that the process for evaluation and implementation of accommoda
- tions could take 2-3 weeks\, so please be in touch with the OSA as soon a
- s possible. Email <a href="mailto:access@lclark.edu">access@lclark.edu</a
- > with any additional questions or concerns.</p></div></li></ul></div><hr
-  /><h2 style="line-height: 1.6\;"><strong>About the Instructor</strong></
- h2><p style="line-height: 1.6\;"><picture class="lw_image lw_image112280 
- lw_align_right"><source type="image/webp" srcset="https://www.lclark.edu/
- live/image/scale/2x/gid/91/width/250/height/250/crop/1/src_region/751\,14
- 5\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.webp 2x\, http
- s://www.lclark.edu/live/image/scale/3x/gid/91/width/250/height/250/crop/1
- /src_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-63
- 26_2.webp 3x" data-origin="responsive"/><source type="image/jpeg" srcset=
- "https://www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/c
- rop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewi
- cz-6326_2.rev.1772576613.jpg 2x\, https://www.lclark.edu/live/image/scale
- /3x/gid/91/width/250/height/250/crop/1/src_region/751\,145\,1606\,1001/11
- 2280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg 3x" data-or
- igin="responsive"/><img width="250" height="250" alt="" data-alt="" data-
- decoration="true" src="https://www.lclark.edu/live/image/gid/91/width/250
- /height/250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Krysta
- l_Marcinkiewicz-6326_2.rev.1772576613.jpg" title="2025-web-Krystal Marcin
- kiewicz-6326 2" srcset="https://www.lclark.edu/live/image/scale/2x/gid/91
- /width/250/height/250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-
- web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg 2x\, https://www.lcla
- rk.edu/live/image/scale/3x/gid/91/width/250/height/250/crop/1/src_region/
- 751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.177
- 2576613.jpg 3x" data-max-w="855" data-max-h="856" loading="lazy" data-opt
- imized="true"/></picture> Krystal Marcinkiewicz\, MA\, LPC\, LMHC is a Li
- censed Professional Counselor and Clinical Supervisor\, having earned her
-  Masters Degree in Professional Mental Health Counseling from Lewis &amp\
- ; Clark College in 2018. Drawing from an integrative feminist approach\, 
- her work is grounded in person-centered values\, emphasizing authentic co
- nnection\, and collaborative engagement. Her primary clinical focus is su
- pporting clients in navigating identity development\, body politics\, neu
- rodivergence\, emotional codependency\, highly sensitive personalities an
- d other complex emotional experiences.</p><p style="line-height: 1.6\;"> 
-  In addition to clinical work\, Krystal is also passionate in training an
- d mentoring emerging counselors. She is an adjunct professor\, teaching a
-  wide variety of graduate counseling courses with an underlying emphasis 
- on counselor identity development\, reflective practice\, and cultivating
-  professional resilience.</p><p style="line-height: 1.6\;">  In both the 
- classroom\, and her clinical work\, Krystal is committed to creating affi
- rming spaces that honor intersectional identities and lived experience.</
- p><div id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs lw_
- widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"><u
- l class="lw_widget_results lw_widget_results_blurbs"><li class="lw_item_1
- "><div class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><strong>N
- ew workshops and trainings are added to our calendar regularly.</strong> 
- For the latest on professional development related to your specific inter
- ests\, <a href="https://lclark.tfaforms.net/4735441">sign up for our mail
- ing list!</a></em></p></div></li></ul></div>
+  documentation on the <a href="https://www.lclark.edu/offices/student-acc
+ essibility/" target="_blank" rel="noopener">Office of Student Accessibili
+ ty website</a>. Please be aware that the process for evaluation and imple
+ mentation of accommodations could take 2-3 weeks\, so please be in touch 
+ with the OSA as soon as possible. Email <a href="mailto:access@lclark.edu
+ ">access@lclark.edu</a> with any additional questions or concerns.</p></d
+ iv></li></ul></div><hr /><h2 style="line-height: 1.6\;"><strong>About the
+  Instructor</strong></h2><p style="line-height: 1.6\;"><picture class="lw
+ _image lw_image112280 lw_align_right"><source type="image/webp" srcset="h
+ ttps://www.lclark.edu/live/image/scale/2x/gid/91/width/250/height/250/cro
+ p/1/src_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz
+ -6326_2.webp 2x\, https://www.lclark.edu/live/image/scale/3x/gid/91/width
+ /250/height/250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Kr
+ ystal_Marcinkiewicz-6326_2.webp 3x" data-origin="responsive"/><source typ
+ e="image/jpeg" srcset="https://www.lclark.edu/live/image/scale/2x/gid/91/
+ width/250/height/250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-w
+ eb-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg 2x\, https://www.lclar
+ k.edu/live/image/scale/3x/gid/91/width/250/height/250/crop/1/src_region/7
+ 51\,145\,1606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.1772
+ 576613.jpg 3x" data-origin="responsive"/><img width="250" height="250" al
+ t="" data-alt="" data-decoration="true" src="https://www.lclark.edu/live/
+ image/gid/91/width/250/height/250/crop/1/src_region/751\,145\,1606\,1001/
+ 112280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg" title="2
+ 025-web-Krystal Marcinkiewicz-6326 2" srcset="https://www.lclark.edu/live
+ /image/scale/2x/gid/91/width/250/height/250/crop/1/src_region/751\,145\,1
+ 606\,1001/112280_2025-web-Krystal_Marcinkiewicz-6326_2.rev.1772576613.jpg
+  2x\, https://www.lclark.edu/live/image/scale/3x/gid/91/width/250/height/
+ 250/crop/1/src_region/751\,145\,1606\,1001/112280_2025-web-Krystal_Marcin
+ kiewicz-6326_2.rev.1772576613.jpg 3x" data-max-w="855" data-max-h="856" l
+ oading="lazy" data-optimized="true"/></picture> Krystal Marcinkiewicz\, M
+ A\, LPC\, LMHC is a Licensed Professional Counselor and Clinical Supervis
+ or\, having earned her Masters Degree in Professional Mental Health Couns
+ eling from Lewis &amp\; Clark College in 2018. Drawing from an integrativ
+ e feminist approach\, her work is grounded in person-centered values\, em
+ phasizing authentic connection\, and collaborative engagement. Her primar
+ y clinical focus is supporting clients in navigating identity development
+ \, body politics\, neurodivergence\, emotional codependency\, highly sens
+ itive personalities and other complex emotional experiences.</p><p style=
+ "line-height: 1.6\;">  In addition to clinical work\, Krystal is also pas
+ sionate in training and mentoring emerging counselors. She is an adjunct 
+ professor\, teaching a wide variety of graduate counseling courses with a
+ n underlying emphasis on counselor identity development\, reflective prac
+ tice\, and cultivating professional resilience.</p><p style="line-height:
+  1.6\;">  In both the classroom\, and her clinical work\, Krystal is comm
+ itted to creating affirming spaces that honor intersectional identities a
+ nd lived experience.</p><div id="lw_widget_470b39ba" class="lw_widget lw_
+ widget_type_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw
+ _widget_pagination"><ul class="lw_widget_results lw_widget_results_blurbs
+ "><li class="lw_item_1"><div class="lw_blurbs_body"><p style="line-height
+ : 1.5\;"><em><strong>New workshops and trainings are added to our calenda
+ r regularly.</strong> For the latest on professional development related 
+ to your specific interests\, <a href="https://lclark.tfaforms.net/4735441
+ ">sign up for our mailing list!</a></em></p></div></li></ul></div>
 UID:20260711T160000Z-375748@www.lclark.edu
 DTSTAMP:20251204T105338Z
 URL:https://www.lclark.edu/calendars/events/event/375748-body-politics-on
@@ -4862,30 +4566,30 @@ DESCRIPTION:This course will cover the topic of disordered eating and eat
  ccessible to all needs and abilities. If you have a disability that may i
  mpact your academic performance\, you may request accommodations by meeti
  ng with the Office of Student Accessibility staff and submitting document
- ation on the Office of Student Accessibility website (/offices/student-ac
- cessibility/). Please be aware that the process for evaluation and implem
- entation of accommodations could take 2-3 weeks\, so please be in touch w
- ith the OSA as soon as possible. Email access@lclark.edu (mailto:access@l
- clark.edu) with any additional questions or concerns.About the Instructor
-   Dianne Lamberty Rogers\, LMFT\, CADC has been a therapist serving kids\
- , families and adults since completing her Masters in Marriage Couple and
-  Family Therapy at Lewis and Clark Graduate School in 2015. Dianne has sp
- ecialized in working with disordered eating and body image issues\, famil
- ies of clients with eating disorders\, and Spanish speaking families.  Di
- anne has worked with youth and families in school based\, intensive in-ho
- me\, and outpatient settings providing drug\, alcohol\, and mental health
-  treatment\, and also in intensive outpatient and partial hospitalization
-  settings for eating disorders. Dianne's work has included working with i
- ncarcerated youth\, DHS-involved families\, and foster and adopted youth.
-   Dianne conducts all of her work using a trauma informed and culturally 
- competent lens as well as a body liberation standpoint. Dianne teaches th
- e Family Therapy in the Treatment of Eating Disorders course in the Eatin
- g Disorders Certificate Program at Lewis &amp\; Clark Graduate School. Sh
- e is also a Clinical Supervisor to Lewis and Clark and other graduate int
- erns at Youth Contact Inc.New workshops and trainings are added to our ca
- lendar regularly. For the latest on professional development related to y
- our specific interests\, sign up for our mailing list! (https://lclark.tf
- aforms.net/4735441)
+ ation on the Office of Student Accessibility website (https://www.lclark.
+ edu/offices/student-accessibility/). Please be aware that the process for
+  evaluation and implementation of accommodations could take 2-3 weeks\, s
+ o please be in touch with the OSA as soon as possible. Email access@lclar
+ k.edu (mailto:access@lclark.edu) with any additional questions or concern
+ s.About the Instructor  Dianne Lamberty Rogers\, LMFT\, CADC has been a t
+ herapist serving kids\, families and adults since completing her Masters 
+ in Marriage Couple and Family Therapy at Lewis and Clark Graduate School 
+ in 2015. Dianne has specialized in working with disordered eating and bod
+ y image issues\, families of clients with eating disorders\, and Spanish 
+ speaking families.  Dianne has worked with youth and families in school b
+ ased\, intensive in-home\, and outpatient settings providing drug\, alcoh
+ ol\, and mental health treatment\, and also in intensive outpatient and p
+ artial hospitalization settings for eating disorders. Dianne's work has i
+ ncluded working with incarcerated youth\, DHS-involved families\, and fos
+ ter and adopted youth.  Dianne conducts all of her work using a trauma in
+ formed and culturally competent lens as well as a body liberation standpo
+ int. Dianne teaches the Family Therapy in the Treatment of Eating Disorde
+ rs course in the Eating Disorders Certificate Program at Lewis &amp\; Cla
+ rk Graduate School. She is also a Clinical Supervisor to Lewis and Clark 
+ and other graduate interns at Youth Contact Inc.New workshops and trainin
+ gs are added to our calendar regularly. For the latest on professional de
+ velopment related to your specific interests\, sign up for our mailing li
+ st! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course 
  will cover the topic of disordered eating and eating disorders in childre
  n.</p><p style="line-height: 1.5\;">  Family therapy treatment strategies
@@ -4918,38 +4622,38 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This course
  ng our events accessible to all needs and abilities.</strong> If you have
   a disability that may impact your academic performance\, you may request
   accommodations by meeting with the Office of Student Accessibility staff
-  and submitting documentation on the <a href="https://www.lclark.edu/offices/student-accessibil
- ity/" target="_blank" rel="noopener">Office of Student Accessibility webs
- ite</a>. Please be aware that the process for evaluation and implementati
- on of accommodations could take 2-3 weeks\, so please be in touch with th
- e OSA as soon as possible. Email <a href="mailto:access@lclark.edu">acces
- s@lclark.edu</a> with any additional questions or concerns.</p></div></li
- ></ul></div><hr /><h2><strong>About the Instructor</strong></h2><p style=
- "line-height: 1.5\;">  Dianne Lamberty Rogers\, LMFT\, CADC has been a th
- erapist serving kids\, families and adults since completing her Masters i
- n Marriage Couple and Family Therapy at Lewis and Clark Graduate School i
- n 2015. Dianne has specialized in working with disordered eating and body
-  image issues\, families of clients with eating disorders\, and Spanish s
- peaking families.</p><p style="line-height: 1.5\;">  Dianne has worked wi
- th youth and families in school based\, intensive in-home\, and outpatien
- t settings providing drug\, alcohol\, and mental health treatment\, and a
- lso in intensive outpatient and partial hospitalization settings for eati
- ng disorders. Dianne's work has included working with incarcerated youth\
- , DHS-involved families\, and foster and adopted youth.</p><p style="line
- -height: 1.5\;">  Dianne conducts all of her work using a trauma informed
-  and culturally competent lens as well as a body liberation standpoint. D
- ianne teaches the Family Therapy in the Treatment of Eating Disorders cou
- rse in the Eating Disorders Certificate Program at Lewis &amp\; Clark Gra
- duate School. She is also a Clinical Supervisor to Lewis and Clark and ot
- her graduate interns at Youth Contact Inc.</p><div id="lw_widget_470b39ba
- " class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_39
- 94 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_results lw
- _widget_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_body"
- ><p style="line-height: 1.5\;"><em><strong>New workshops and trainings ar
- e added to our calendar regularly.</strong> For the latest on professiona
- l development related to your specific interests\, <a href="https://lclar
- k.tfaforms.net/4735441">sign up for our mailing list!</a></em></p></div><
- /li></ul></div>
+  and submitting documentation on the <a href="https://www.lclark.edu/offi
+ ces/student-accessibility/" target="_blank" rel="noopener">Office of Stud
+ ent Accessibility website</a>. Please be aware that the process for evalu
+ ation and implementation of accommodations could take 2-3 weeks\, so plea
+ se be in touch with the OSA as soon as possible. Email <a href="mailto:ac
+ cess@lclark.edu">access@lclark.edu</a> with any additional questions or c
+ oncerns.</p></div></li></ul></div><hr /><h2><strong>About the Instructor<
+ /strong></h2><p style="line-height: 1.5\;">  Dianne Lamberty Rogers\, LMF
+ T\, CADC has been a therapist serving kids\, families and adults since co
+ mpleting her Masters in Marriage Couple and Family Therapy at Lewis and C
+ lark Graduate School in 2015. Dianne has specialized in working with diso
+ rdered eating and body image issues\, families of clients with eating dis
+ orders\, and Spanish speaking families.</p><p style="line-height: 1.5\;">
+   Dianne has worked with youth and families in school based\, intensive i
+ n-home\, and outpatient settings providing drug\, alcohol\, and mental he
+ alth treatment\, and also in intensive outpatient and partial hospitaliza
+ tion settings for eating disorders. Dianne's work has included working wi
+ th incarcerated youth\, DHS-involved families\, and foster and adopted yo
+ uth.</p><p style="line-height: 1.5\;">  Dianne conducts all of her work u
+ sing a trauma informed and culturally competent lens as well as a body li
+ beration standpoint. Dianne teaches the Family Therapy in the Treatment o
+ f Eating Disorders course in the Eating Disorders Certificate Program at 
+ Lewis &amp\; Clark Graduate School. She is also a Clinical Supervisor to 
+ Lewis and Clark and other graduate interns at Youth Contact Inc.</p><div 
+ id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blurbs lw_widget_
+ blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pagination"><ul class
+ ="lw_widget_results lw_widget_results_blurbs"><li class="lw_item_1"><div 
+ class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><strong>New work
+ shops and trainings are added to our calendar regularly.</strong> For the
+  latest on professional development related to your specific interests\, 
+ <a href="https://lclark.tfaforms.net/4735441">sign up for our mailing lis
+ t!</a></em></p></div></li></ul></div>
 UID:20260718T160000Z-380079@www.lclark.edu
 DTSTAMP:20260115T113514Z
 URL:https://www.lclark.edu/calendars/events/event/380079-family-therapy-i
@@ -6762,6 +6466,136 @@ X-LIVEWHALE-TAGS:All Courses Upcoming|clinical supervision|Counselors Upc
  oming|cpsy|september|workshops
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260925T100000
+DTEND;TZID=America/Los_Angeles:20260925T110000
+LOCATION:Online
+SUMMARY:Foundations of Kink and Non-Monogamy for Counseling Professionals
+  (Online)
+DESCRIPTION:This comprehensive workshop for mental health practitioners i
+ s designed to address issues of difference\, power\, and discrimination t
+ o help foster a deeper understanding of kink and non-monogamous relations
+ hips.  Through case studies and role-playing exercises\, practitioners wi
+ ll gain insight into systemic biases in counseling and the unique challen
+ ges faced by kinky and non-monogamous clients. Participants will learn ef
+ fective strategies to help support individuals in alternative relationshi
+ p styles and provide empathetic care\, while gaining awareness into ident
+ ifying and challenging their own personal biases.  This training will hel
+ p support practitioners in becoming a more inclusive and supportive pract
+ itioners\, and enhance their clinical skillset.Participants in this train
+ ing will:      Identify and describe six essential concepts related to ki
+ nk\, including consent\, BDSM\, power dynamics\, and safety          Comp
+ are and contrast various frameworks of non-monogamous relationship styles
+  and the diverse agreements between partners          Assess biases in co
+ unseling and analyze how individuals and relationships encounter discrimi
+ nation          Evaluate the clinical challenges faced by kinky and non-m
+ onogamous clients          Develop and implement effective strategies to 
+ support individuals in alternative relationship styles    Details &amp\; 
+ RegistrationDate and Time: Friday\, September 25\, 2026\, 10 a.m.-2:30 p.
+ m.\, PT\, OnlinePresenter: Katelyn Bessette\, LPC\, CADCIIICost and Credi
+ ts: $105\, includes 4.5 CEUs. GSEC Alumni and Adjuncts save 20%. $50 stud
+ ent rate.Register Online (https://lclark.tfaforms.net/wf1W4MQ?epid=a1aUY0
+ 00002jR4X)  No-cost registration available for GSEC Clinical Mental Healt
+ h Supervisors\, Faculty\, and Staff. Email cce@lclark.edu (mailto:cce@lcl
+ ark.ed) with your request to register.Accessibility: We are committed to 
+ making our events accessible to all needs and abilities. When registering
+ \, please let us know your access needs. Contact us at 503-768-6040 or cc
+ e@lclark.edu (mailto:cce@lclark.edu)&#160\;with questions.Please note: Di
+ scounted &#x2018\;Student Rate&#x2019\; registrations are for current stu
+ dents only and do not include continuing education credit (CEU/PDUs)About
+  the PresenterKatelyn Bessette has been working as a therapist for over 1
+ 3 years. She has extensive experience with addictions\, trauma\, complex 
+ mental health issues as well as sex and relationships. As a Certified Sex
+  Therapist specializing in non-monogamy\, she has a unique perspective an
+ d provides education desperately needed in the counseling world. Addition
+ ally\, Katelyn was adjunct Faculty at Lewis &amp\; Clark Graduate School'
+ s Professional Mental Health Master's Program\, and currently supervises 
+ LPC interns.New workshops and trainings are added to our calendar regular
+ ly. For the latest on professional development related to your specific i
+ nterests\, sign up for our mailing list! (https://lclark.tfaforms.net/473
+ 5441)
+X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This compreh
+ ensive workshop for mental health practitioners is designed to address is
+ sues of difference\, power\, and discrimination to help foster a deeper u
+ nderstanding of kink and non-monogamous relationships.</p><p style="line-
+ height: 1.5\;">  Through case studies and role-playing exercises\, practi
+ tioners will gain insight into systemic biases in counseling and the uniq
+ ue challenges faced by kinky and non-monogamous clients. Participants wil
+ l learn effective strategies to help support individuals in alternative r
+ elationship styles and provide empathetic care\, while gaining awareness 
+ into identifying and challenging their own personal biases.</p><p style="
+ line-height: 1.5\;">  This training will help support practitioners in be
+ coming a more inclusive and supportive practitioners\, and enhance their 
+ clinical skillset.</p><p style="line-height: 1.5\;"><strong>Participants 
+ in this training will:</strong></p><ul><li><p style="line-height: 1.5\;">
+       Identify and describe six essential concepts related to kink\, incl
+ uding consent\, BDSM\, power dynamics\, and safety    </p></li><li><p sty
+ le="line-height: 1.5\;">      Compare and contrast various frameworks of 
+ non-monogamous relationship styles and the diverse agreements between par
+ tners    </p></li><li><p style="line-height: 1.5\;">      Assess biases i
+ n counseling and analyze how individuals and relationships encounter disc
+ rimination    </p></li><li><p style="line-height: 1.5\;">      Evaluate t
+ he clinical challenges faced by kinky and non-monogamous clients    </p><
+ /li><li><p style="line-height: 1.5\;">      Develop and implement effecti
+ ve strategies to support individuals in alternative relationship styles  
+   </p></li></ul><hr /><h2><strong>Details &amp\; Registration</strong></h
+ 2><p style="line-height: 1.5\;"><strong>Date and Time:</strong> Friday\, 
+ September 25\, 2026\, 10 a.m.-2:30 p.m.\, PT\, Online</p><p style="line-h
+ eight: 1.5\;"><strong>Presenter:</strong> Katelyn Bessette\, LPC\, CADCII
+ I</p><p style="line-height: 1.5\;"><strong>Cost and Credits:</strong> $10
+ 5\, includes 4.5 CEUs. GSEC Alumni and Adjuncts save 20%. $50 student rat
+ e.</p><p style="line-height: 1.5\;"><a class="btn-small-style-1" href="ht
+ tps://lclark.tfaforms.net/wf1W4MQ?epid=a1aUY000002jR4X" target="_blank" r
+ el="noopener">Register Online</a></p><p style="line-height: 1.5\;">  No-c
+ ost registration available for GSEC Clinical Mental Health Supervisors\, 
+ Faculty\, and Staff. Email <a href="mailto:cce@lclark.ed">cce@lclark.edu<
+ /a> with your request to register.</p><div id="lw_widget_30f0017c" class=
+ "lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_widget_id_7119 lw_wi
+ dget_accessibility_statement lw_widget_pagination"><ul class="lw_widget_r
+ esults lw_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blu
+ rbs_body"><p class="p1" style="font-size: 15px\; line-height: 1.5\;"><em>
+ <strong>Accessibility:</strong> We are committed to making our events acc
+ essible to all needs and abilities. When registering\, please let us know
+  your access needs. Contact us at 503-768-6040 or <a href="mailto:cce@lcl
+ ark.edu">cce@lclark.edu</a>&#160\;with questions.<br/></em></p><p class="
+ p1" style="font-size: 15px\; line-height: 1.5\;"><em><strong>Please note:
+ </strong> Discounted &#x2018\;Student Rate&#x2019\; registrations are for
+  current students only and <strong>do not</strong> include continuing edu
+ cation credit (CEU/PDUs)</em></p></div></li></ul></div><hr /><h2><strong>
+ About the Presenter</strong></h2><p style="line-height: 1.5\;"><strong>Ka
+ telyn Bessette</strong> has been working as a therapist for over 13 years
+ . She has extensive experience with addictions\, trauma\, complex mental 
+ health issues as well as sex and relationships. As a Certified Sex Therap
+ ist specializing in non-monogamy\, she has a unique perspective and provi
+ des education desperately needed in the counseling world. Additionally\, 
+ Katelyn was adjunct Faculty at Lewis &amp\; Clark Graduate School's Profe
+ ssional Mental Health Master's Program\, and currently supervises LPC int
+ erns.</p><div id="lw_widget_470b39ba" class="lw_widget lw_widget_type_blu
+ rbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_paginat
+ ion"><ul class="lw_widget_results lw_widget_results_blurbs"><li class="lw
+ _item_1"><div class="lw_blurbs_body"><p style="line-height: 1.5\;"><em><s
+ trong>New workshops and trainings are added to our calendar regularly.</s
+ trong> For the latest on professional development related to your specifi
+ c interests\, <a href="https://lclark.tfaforms.net/4735441">sign up for o
+ ur mailing list!</a></em></p></div></li></ul></div>
+UID:20260925T170000Z-392928@www.lclark.edu
+DTSTAMP:20260508T122723Z
+URL:https://www.lclark.edu/calendars/events/event/392928-foundations-of-k
+ ink-and-non-monogamy-for-counseling-p
+LAST-MODIFIED:20260513T184328Z
+ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
+ /src_region/159,0,1919,1761/104316_Portraits_21.rev.1719332487.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:392928
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/91/width/80/heigh
+ t/80/crop/1/src_region/159\,0\,1919\,1761/104316_Portraits_21.rev.1719332
+ 487.jpg
+X-LIVEWHALE-SUMMARY:<p>\n  Friday\, September 25\, 2026\, 10 a.m.-2:30 p.
+ m.\, PT\, Online&#160\; |&#160\; 4.5 CEUs\n</p>
+X-LIVEWHALE-TAGS:All Courses Upcoming|Counselors Upcoming|cpsy|send-to-gr
+ aduate|september|student|workshops
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:29th Annual ENVX Symposium
@@ -7242,21 +7076,20 @@ DESCRIPTION:It's time to step away from the billable hours and the briefs
  amily-friendly event so bring the whole family! We're exploring bringing 
  a bounce house and food trucks to campus. And as always\, you can count o
  n a campus tour provided by a current law student and for the law booksto
- re to be open so you can gear up with your River Otter merch!&#160\;  Ple
- ase RSVP HERE (https://engage.lclark.edu/register/?id=0c1dd8ce-c23c-4221-
- 9d3c-1fa9c532c571)!  Your classmates are currently working on behind the 
- scenes on a "Class Specific" activity – here is what has been planned s
- o far:Class YearDateTimeLocation        1976                Saturday\, Au
- g. 22nd\;                  AND                  Saturday\, Oct. 17th     
-              4-8:30PM                  &#160\;                  12 - 2PM 
-                  Blueberry Hills estate\;                  &#160\;       
-            Lunch &amp\; Learn @ L&amp\;C Law                1986         
-      TBD              &#160\;              &#160\;              1996     
-          TBD              &#160\;              &#160\;              2006 
-              TBD              &#160\;              &#160\;              2
- 016              Saturday\, Oct. 17th              6-8PM              Ste
- eplejack (2nd floor)      Do you want to help plan? Email lawalum@lclark.
- edu (mailto:lawalum@lclark.edu).  We look forward to seeing you!
+ re to be open so you can gear up with your River Otter merch!&#160\;RSVP 
+ HERE (https://engage.lclark.edu/register/?id=0c1dd8ce-c23c-4221-9d3c-1fa9
+ c532c571)  Your classmates are currently working on behind the scenes on 
+ a "Class Specific" activity – here is what has been planned so far:1976
+         Date: Saturday\, August 22              Time: 4–8:30 p.m.      
+         Location: Blueberry Hills Estate              AND              Da
+ te: Saturday\, October 17              Time: 12–2 p.m.              Loc
+ ation: Blueberry Hills Estate      1986        Date: TBD              Tim
+ e: TBD              Location: TBD      1996        Date: TBD             
+  Time: TBD              Location: TBD      2006        Date: TBD         
+      Time: TBD              Location: TBD      2016        Date: Saturday
+ \, October 17              Time: 6–8 p.m.              Location: Steepl
+ ejack (2nd floor)      Do you want to help plan? Email lawalum@lclark.edu
+  (mailto:lawalum@lclark.edu).  We look forward to seeing you!
 X-ALT-DESC;FMTTYPE=text/html:<p>  It's time to step away from the billabl
  e hours and the briefs. The Lewis &amp\; Clark Law reunions are back\, an
  d we're rolling out the red carpet for the <strong>"6" years</strong>. If
@@ -7266,44 +7099,44 @@ X-ALT-DESC;FMTTYPE=text/html:<p>  It's time to step away from the billabl
  cks to campus. And as always\, you can count on a campus tour provided by
   a current law student and for the law bookstore to be open so you can ge
  ar up with your River Otter merch!&#160\;</p><p class="" style="text-alig
- n: center\;">  Please <strong><a href="https://engage.lclark.edu/register
- /?id=0c1dd8ce-c23c-4221-9d3c-1fa9c532c571" target="_blank" rel="noopener"
- >RSVP HERE</a></strong>!</p><p class="">  Your classmates are currently w
- orking on behind the scenes on a "Class Specific" activity – here is wh
- at has been planned so far:</p><table style="border-collapse: collapse\; 
- width: 97.3466%\; border-color: #000000\; border-style: solid\;" border="
- 1"><tbody><tr><td style="width: 24.4721%\;"><strong>Class Year</strong></
- td><td style="width: 24.4721%\;"><strong>Date</strong></td><td style="wid
- th: 24.4721%\;"><strong>Time</strong></td><td style="width: 24.4721%\;"><
- strong>Location</strong></td></tr><tr><td style="width: 24.4721%\;">     
-    1976      </td><td style="width: 24.4721%\;"><p>          Saturday\, A
- ug. 22nd\;        </p><p>          AND        </p><p>          Saturday\,
-  Oct. 17th        </p></td><td style="width: 24.4721%\;"><p>          4-8
- :30PM        </p><p>          &#160\;        </p><p>          12 - 2PM   
-      </p></td><td style="width: 24.4721%\;"><p>          Blueberry Hills 
- estate\;        </p><p>          &#160\;        </p><p>          Lunch &a
- mp\; Learn @ L&amp\;C Law        </p></td></tr><tr><td style="width: 24.4
- 721%\;">        1986      </td><td style="width: 24.4721%\;">        TBD 
-      </td><td style="width: 24.4721%\;">        &#160\;      </td><td sty
- le="width: 24.4721%\;">        &#160\;      </td></tr><tr><td style="widt
- h: 24.4721%\;">        1996      </td><td style="width: 24.4721%\;">     
-    TBD      </td><td style="width: 24.4721%\;">        &#160\;      </td>
- <td style="width: 24.4721%\;">        &#160\;      </td></tr><tr><td styl
- e="width: 24.4721%\;">        2006      </td><td style="width: 24.4721%\;
- ">        TBD      </td><td style="width: 24.4721%\;">        &#160\;    
-   </td><td style="width: 24.4721%\;">        &#160\;      </td></tr><tr><
- td style="width: 24.4721%\;">        2016      </td><td style="width: 24.
- 4721%\;">        Saturday\, Oct. 17th      </td><td style="width: 24.4721
- %\;">        6-8PM      </td><td style="width: 24.4721%\;">        Steepl
- ejack (2nd floor)      </td></tr></tbody></table><p class=""><span style=
- "background-color: transparent\;">Do you want to help plan? Email <a href
- ="mailto:lawalum@lclark.edu">lawalum@lclark.edu</a>.</span></p><p>  We lo
- ok forward to seeing you!</p>
+ n: center\;"><strong><a class="btn-small-style-1" href="https://engage.lc
+ lark.edu/register/?id=0c1dd8ce-c23c-4221-9d3c-1fa9c532c571" target="_blan
+ k" rel="noopener">RSVP HERE</a></strong></p><p class="">  Your classmates
+  are currently working on behind the scenes on a "Class Specific" activit
+ y – here is what has been planned so far:</p><div class="lw_accordion">
+ <section class="lw_accordion_block"><h4 class="lw_accordion_block_title">
+ <button aria-expanded="false" type="button">1976</button></h4><div class=
+ "lw_accordion_block_content" aria-hidden="true"><p>        Date: Saturday
+ \, August 22      </p><p>        Time: 4–8:30 p.m.      </p><p>        
+ Location: Blueberry Hills Estate      </p><p>        AND      </p><p>    
+     Date: Saturday\, October 17      </p><p>        Time: 12–2 p.m.    
+   </p><p>        Location: Blueberry Hills Estate      </p></div></sectio
+ n><section class="lw_accordion_block"><h4 class="lw_accordion_block_title
+ "><button aria-expanded="false" type="button">1986</button></h4><div clas
+ s="lw_accordion_block_content" aria-hidden="true"><p>        Date: TBD   
+    </p><p>        Time: TBD      </p><p>        Location: TBD      </p></
+ div></section><section class="lw_accordion_block"><h4 class="lw_accordion
+ _block_title"><button aria-expanded="false" type="button">1996</button></
+ h4><div class="lw_accordion_block_content" aria-hidden="true"><p>        
+ Date: TBD      </p><p>        Time: TBD      </p><p>        Location: TBD
+       </p></div></section><section class="lw_accordion_block"><h4 class="
+ lw_accordion_block_title"><button aria-expanded="false" type="button">200
+ 6</button></h4><div class="lw_accordion_block_content" aria-hidden="true"
+ ><p>        Date: TBD      </p><p>        Time: TBD      </p><p>        L
+ ocation: TBD      </p></div></section><section class="lw_accordion_block"
+ ><h4 class="lw_accordion_block_title"><button aria-expanded="false" type=
+ "button">2016</button></h4><div class="lw_accordion_block_content" aria-h
+ idden="true"><p>        Date: Saturday\, October 17      </p><p>        T
+ ime: 6–8 p.m.      </p><p>        Location: Steeplejack (2nd floor)    
+   </p></div></section></div><p class=""><span style="background-color: tr
+ ansparent\;">Do you want to help plan? Email <a href="mailto:lawalum@lcla
+ rk.edu">lawalum@lclark.edu</a>.</span></p><p>  We look forward to seeing 
+ you!</p>
 UID:20261017T220000Z-385282@www.lclark.edu
 DTSTAMP:20260227T101154Z
 URL:https://www.lclark.edu/calendars/events/event/385282-class-reunions-2
  026
-LAST-MODIFIED:20260505T172204Z
+LAST-MODIFIED:20260513T222650Z
 ATTACH:https://www.lclark.edu/live/image/gid/194/width/80/height/80/crop/
  1/src_region/0,0,1080,1080/107167_Class_Reunions_Save_the_Date.rev.173887
  0822.jpg
