@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Portland Art Museum - ECPv6.16.1//NONSGML v1.0//EN
+PRODID:-//Portland Art Museum - ECPv6.16.2//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Portland Art Museum
@@ -51,7 +51,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260424T110000
 DTEND;TZID=America/Vancouver:20260530T170000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260302T170343Z
 LAST-MODIFIED:20260312T223833Z
 UID:10001394-1777028400-1780160400@portlandartmuseum.org
@@ -65,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260514T190000
 DTEND;TZID=America/Vancouver:20260514T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260318T211736Z
 LAST-MODIFIED:20260318T211737Z
 UID:10001440-1778785200-1778792400@portlandartmuseum.org
@@ -79,7 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260515T190000
 DTEND;TZID=America/Vancouver:20260515T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260401T190736Z
 LAST-MODIFIED:20260401T190737Z
 UID:10001466-1778871600-1778878800@portlandartmuseum.org
@@ -93,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260516T100000
 DTEND;TZID=America/Vancouver:20260516T143000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260324T193835Z
 LAST-MODIFIED:20260429T190611Z
 UID:10001461-1778925600-1778941800@portlandartmuseum.org
@@ -107,7 +107,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260516T140000
 DTEND;TZID=America/Vancouver:20260516T160000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260319T204628Z
 LAST-MODIFIED:20260402T175408Z
 UID:10001455-1778940000-1778947200@portlandartmuseum.org
@@ -121,7 +121,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260516T160000
 DTEND;TZID=America/Vancouver:20260516T180000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260415T204438Z
 LAST-MODIFIED:20260415T204439Z
 UID:10001482-1778947200-1778954400@portlandartmuseum.org
@@ -135,7 +135,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260516T190000
 DTEND;TZID=America/Vancouver:20260516T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260401T191026Z
 LAST-MODIFIED:20260401T191028Z
 UID:10001467-1778958000-1778965200@portlandartmuseum.org
@@ -149,7 +149,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260517T120000
 DTEND;TZID=America/Vancouver:20260517T170000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260113T175540Z
 LAST-MODIFIED:20260113T194119Z
 UID:10001338-1779019200-1779037200@portlandartmuseum.org
@@ -163,7 +163,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260517T140000
 DTEND;TZID=America/Vancouver:20260517T160000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260319T204920Z
 LAST-MODIFIED:20260508T175622Z
 UID:10001456-1779026400-1779033600@portlandartmuseum.org
@@ -177,7 +177,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260517T160000
 DTEND;TZID=America/Vancouver:20260517T180000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260318T213136Z
 LAST-MODIFIED:20260318T213138Z
 UID:10001441-1779033600-1779040800@portlandartmuseum.org
@@ -191,7 +191,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260517T190000
 DTEND;TZID=America/Vancouver:20260517T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260401T191228Z
 LAST-MODIFIED:20260401T191229Z
 UID:10001468-1779044400-1779051600@portlandartmuseum.org
@@ -205,7 +205,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260521T180000
 DTEND;TZID=America/Vancouver:20260521T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260416T162013Z
 LAST-MODIFIED:20260506T182021Z
 UID:10001483-1779386400-1779397200@portlandartmuseum.org
@@ -219,12 +219,12 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260521T180000
 DTEND;TZID=America/Vancouver:20260521T220000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260410T180157Z
-LAST-MODIFIED:20260513T175507Z
+LAST-MODIFIED:20260514T202524Z
 UID:10001474-1779386400-1779400800@portlandartmuseum.org
 SUMMARY:The Maker’s Table | A Winemaker Dinner Series
-DESCRIPTION:Portland Art Museum Venues invites you to The Maker’s Table—an intimate evening series bringing together Oregon winemakers and visual artists for a one-of-a-kind experience of wine\, art and conversation. \n\n\n\nHeld after hours in the Museum’s stunning new Rothko Pavillion\, each evening explores the creative process behind both disciplines. Guests are invited not to simply taste and observe\, but to engage; discovering how inspiration takes shape\, how tension fuels beauty\, and how artistry evolves over time.   \n\n\n\nThis season of our Maker’s Table Series will include five unforgettable events—each featuring a different visual artist represented by the Portland Art Museum’s Rental Sales Gallery paired with an Oregon winery. \n\n\n\nGuests may choose from three experiences: the Tasting Experience (6 – 8 p.m.)\, the Maker’s Table Dinner (Tasting + Dinner)\, or for the Collector’s Table Dinner Series\, which includes tickets to all five events. \n\n\n\n Tasting Experience (6 – 8 p.m.) | $135 \n\n\n\nA conversation driven\, walk-around tasting in the Rothko Pavillion’s Community Commons featuring curated wine pours\, seasonal passed appetizers\, and artwork on view throughout the space.  The experience includes a moderated conversation between the featured winemaker and visual artist.  \n\n\n\nMaker’s Table Dinner (Tasting + Dinner) | $295  \n\n\n\nBegin the evening with the Pre-Dinner Tasting followed by a three-course\, plated dinner with curated wine pairings\, and a chef-driven menu.  \n\n\n\nThis meal will take place in the Rothko Pavillion’s third floor gallery\, overlooking both the city and the museum’s magnificent Grand Gallery.  Guests will be joined by that evening’s featured winemaker and visual artist for a more intimate continuation of the conversation. \n\n\n\nThe Maker’s Table Season Lineup \n\n\n\nMay 21\, 2026 | Alexana Winery – Winemaker Tresider Burns + Visual Artist: Hazel Schlesinger (RSG Artist) \n\n\n\nJune 18\, 2026 | Big Table Farm – Winemaker Brian Marcy & Clare Carver + Visual Artist: Clare Carver (of Big Table Farm) \n\n\n\nJuly 16\, 2026 | Antica Terra– Winemaker Maggie Harrison \n\n\n\nAugust 20\, 2026 | Cristom Vineyards – Winemaker Daniel Estrin \n\n\n\nSeptember 17\, 2026 | Soter Vineyards – Winemaker Tony Soter \n\n\n\n*Participating Visual artists to be announced in the coming months\, in partnership with Portland Art Museum’s Rental Sales Gallery. \n\n\n\nSeating is limited for each event. We encourage early booking. \n\n\n\nProceeds from The Maker’s Table series help the mission of the Portland Art Museum
+DESCRIPTION:Portland Art Museum Venues invites you to The Maker’s Table—an intimate evening series bringing together Oregon winemakers and visual artists for a one-of-a-kind experience of wine\, art and conversation. \n\n\n\nHeld after hours in the Museum’s stunning new Rothko Pavillion\, each evening explores the creative process behind both disciplines. Guests are invited not to simply taste and observe\, but to engage; discovering how inspiration takes shape\, how tension fuels beauty\, and how artistry evolves over time.   \n\n\n\nThis season of our Maker’s Table Series will include five unforgettable events—each featuring a different visual artist represented by the Portland Art Museum’s Rental Sales Gallery paired with an Oregon winery. \n\n\n\nGuests may choose from two experiences: the Tasting Experience (6 – 8 p.m.) or the Maker’s Table Dinner (Tasting + Dinner). \n\n\n\nTasting Experience (6 – 8 p.m.) | $135 \n\n\n\nA conversation driven\, walk-around tasting in the Rothko Pavillion’s Community Commons featuring curated wine pours\, seasonal passed appetizers\, and artwork on view throughout the space.  The experience includes a moderated conversation between the featured winemaker and visual artist.  \n\n\n\nMaker’s Table Dinner (Tasting + Dinner) | $295  \n\n\n\nBegin the evening with the Pre-Dinner Tasting followed by a three-course\, plated dinner with curated wine pairings\, and a chef-driven menu.  \n\n\n\nThis meal will take place in the Rothko Pavillion’s third floor gallery\, overlooking both the city and the museum’s magnificent Grand Gallery.  Guests will be joined by that evening’s featured winemaker and visual artist for a more intimate continuation of the conversation. \n\n\n\nThe Maker’s Table Season Lineup \n\n\n\nMay 21\, 2026 | Alexana Winery – Winemaker Tresider Burns + Visual Artist: Hazel Schlesinger (RSG Artist) \n\n\n\nJune 18\, 2026 | Big Table Farm – Winemaker Brian Marcy & Clare Carver + Visual Artist: Clare Carver (of Big Table Farm) \n\n\n\nJuly 16\, 2026 | Antica Terra– Winemaker Maggie Harrison \n\n\n\nAugust 20\, 2026 | Cristom Vineyards – Winemaker Daniel Estrin + Visual Artist: Satoko Motouji  \n\n\n\nSeptember 17\, 2026 | Soter Vineyards – Winemaker Tony Soter \n\n\n\n*Participating Visual artists to be announced in the coming months\, in partnership with Portland Art Museum’s Rental Sales Gallery. \n\n\n\nSeating is limited for each event. We encourage early booking. \n\n\n\nProceeds from The Maker’s Table series help the mission of the Portland Art Museum
 URL:https://portlandartmuseum.org/event/the-makers-table-may-21/
 LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
 ATTACH;FMTTYPE=image/png:https://portlandartmuseum.org/wp-content/uploads/2026/04/3.2026-Rothko-Insider-Event-Cristom-Wine-Bottles-scaled.png
@@ -232,7 +232,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260521T190000
 DTEND;TZID=America/Vancouver:20260521T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260401T191426Z
 LAST-MODIFIED:20260401T191427Z
 UID:10001469-1779390000-1779397200@portlandartmuseum.org
@@ -246,7 +246,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260522T130000
 DTEND;TZID=America/Vancouver:20260522T140000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260423T195256Z
 LAST-MODIFIED:20260512T201523Z
 UID:10001498-1779454800-1779458400@portlandartmuseum.org
@@ -260,7 +260,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260522T190000
 DTEND;TZID=America/Vancouver:20260522T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260401T191611Z
 LAST-MODIFIED:20260401T191614Z
 UID:10001470-1779476400-1779483600@portlandartmuseum.org
@@ -274,7 +274,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260523T000000
 DTEND;TZID=America/Vancouver:20260531T235959
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260421T140000Z
 LAST-MODIFIED:20260421T161608Z
 UID:10001485-1779494400-1780271999@portlandartmuseum.org
@@ -288,7 +288,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260523T100000
 DTEND;TZID=America/Vancouver:20260523T140000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260324T194251Z
 LAST-MODIFIED:20260324T215255Z
 UID:10001462-1779530400-1779544800@portlandartmuseum.org
@@ -302,7 +302,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260523T140000
 DTEND;TZID=America/Vancouver:20260523T153000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260421T140000Z
 LAST-MODIFIED:20260421T165736Z
 UID:10001486-1779544800-1779550200@portlandartmuseum.org
@@ -316,7 +316,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260524T140000
 DTEND;TZID=America/Vancouver:20260524T153000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260421T140000Z
 LAST-MODIFIED:20260421T165809Z
 UID:10001487-1779631200-1779636600@portlandartmuseum.org
@@ -330,7 +330,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260524T160000
 DTEND;TZID=America/Vancouver:20260524T180000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260318T213817Z
 LAST-MODIFIED:20260318T213819Z
 UID:10001442-1779638400-1779645600@portlandartmuseum.org
@@ -344,7 +344,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260524T190000
 DTEND;TZID=America/Vancouver:20260524T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260318T214027Z
 LAST-MODIFIED:20260318T214028Z
 UID:10001443-1779649200-1779656400@portlandartmuseum.org
@@ -358,7 +358,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260527T190000
 DTEND;TZID=America/Vancouver:20260527T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260401T192433Z
 LAST-MODIFIED:20260401T192435Z
 UID:10001471-1779908400-1779915600@portlandartmuseum.org
@@ -372,7 +372,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260528T190000
 DTEND;TZID=America/Vancouver:20260528T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260318T214216Z
 LAST-MODIFIED:20260318T214219Z
 UID:10001444-1779994800-1780002000@portlandartmuseum.org
@@ -386,7 +386,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260529T000000
 DTEND;TZID=America/Vancouver:20260531T235959
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260421T140000Z
 LAST-MODIFIED:20260430T212952Z
 UID:10001490-1780012800-1780271999@portlandartmuseum.org
@@ -400,7 +400,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260529T180000
 DTEND;TZID=America/Vancouver:20260529T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260219T175416Z
 LAST-MODIFIED:20260507T212230Z
 UID:10001391-1780077600-1780088400@portlandartmuseum.org
@@ -411,9 +411,22 @@ LOCATION:Portland Art Museum\, Mark Building\, 1119 SW Park Ave\, Portland\, OR\
 ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/02/CUA-2026.jpg
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20260530T120000
+DTEND;TZID=America/Vancouver:20260530T150000
+DTSTAMP:20260514T195349
+CREATED:20260514T205227Z
+LAST-MODIFIED:20260514T205247Z
+UID:10001528-1780142400-1780153200@portlandartmuseum.org
+SUMMARY:Open Studio
+DESCRIPTION:The Finley Learning Studio is open for film inspired drop-in artmaking! With the Criterion Mobile Closet open to visitors on the Park blocks\, the Finley offers a space within the museum to gather\, reflect\, and create in response to the film frenzy. \n\n\n\nStoryboard your own scene! Imagine and create a new iconic film still!  \n\n\n\nDrop into the studio any time during our open hours to make and take home your own film-inspired artwork.
+URL:https://portlandartmuseum.org/event/open-studio/
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
+ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/05/11222025_Opening_Saturday_015-Press-Kit-JPG-2400-Max-PPI.jpg
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260530T140000
 DTEND;TZID=America/Vancouver:20260530T160000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260421T140000Z
 LAST-MODIFIED:20260506T182011Z
 UID:10001488-1780149600-1780156800@portlandartmuseum.org
@@ -427,7 +440,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260530T140000
 DTEND;TZID=America/Vancouver:20260530T163000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260421T153559Z
 LAST-MODIFIED:20260421T155154Z
 UID:10001497-1780149600-1780158600@portlandartmuseum.org
@@ -441,7 +454,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Vancouver:20260530T190000
 DTEND;TZID=America/Vancouver:20260530T210000
-DTSTAMP:20260513T195339
+DTSTAMP:20260514T195349
 CREATED:20260421T153226Z
 LAST-MODIFIED:20260421T155213Z
 UID:10001496-1780167600-1780174800@portlandartmuseum.org
@@ -451,19 +464,5 @@ URL:https://portlandartmuseum.org/event/holy-shit-improv-w-ify-nwadiwe-jordan-my
 LOCATION:PAM CUT’s Tomorrow Theater\, 3530 SE Division St.\, Portland\, OR\, 97202\, United States
 CATEGORIES:Screenings & experiences,Tomorrow Theater
 ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2026/04/Holy-Shit.jpg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Vancouver:20260531T120000
-DTEND;TZID=America/Vancouver:20260531T150000
-DTSTAMP:20260513T195339
-CREATED:20260417T191400Z
-LAST-MODIFIED:20260417T191401Z
-UID:10001492-1780228800-1780239600@portlandartmuseum.org
-SUMMARY:Look With Me
-DESCRIPTION:Your eyes\, your ideas\, one artwork at a time. Slow your pace in the galleries and join a Look With Me conversation. These 20-minute\, drop-in sessions focus on one artwork\, just enough time to notice things you might normally breeze past. Our volunteer guides invite your perspective\, spark questions\, and help the whole group see something new. \n\n\n\nSessions take place every 30 minutes from Noon to 3 p.m. Look for signs in the galleries to join.  \n\n\n\nCome for one session or stay for a few. You’ll be surprised by what you start to notice. \n\n\n\nThird Sundays: Look With Me + Art in ASLOnce a month\, some sessions are led in American Sign Language (ASL) and others in English. Every session includes ASL/English interpretation.
-URL:https://portlandartmuseum.org/event/look-with-me-may31/
-LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR\, 97205
-CATEGORIES:Lectures & talks
-ATTACH;FMTTYPE=image/jpeg:https://portlandartmuseum.org/wp-content/uploads/2025/12/feature-Look-with-Me-scaled.jpg
 END:VEVENT
 END:VCALENDAR

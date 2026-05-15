@@ -51,7 +51,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260301T100000
 DTEND;TZID=America/Los_Angeles:20260731T160000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260209T191513Z
 LAST-MODIFIED:20260305T005048Z
 UID:10003056-1772359200-1785513600@explorewashingtonpark.org
@@ -63,7 +63,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260615T160000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260127T223907Z
 LAST-MODIFIED:20260317T232621Z
 UID:10003039-1772877600-1781539200@explorewashingtonpark.org
@@ -75,9 +75,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260512T100000
 DTEND;TZID=America/Los_Angeles:20260517T160000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260318T213610Z
-LAST-MODIFIED:20260415T212842Z
+LAST-MODIFIED:20260515T002004Z
 UID:10003173-1778580000-1779033600@explorewashingtonpark.org
 SUMMARY:Forest Hope Through Innovation
 DESCRIPTION:Forest Hope Through Innovation is an interdisciplinary art-forest-science exhibition at World Forestry Center’s Discovery Museum that explores how creativity\, research\, and community action can shape a sustainable future for the forests we rely on. Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations.  Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations. In this moment of climate uncertainty\, World Forestry Center is leveraging creativity\, art\, and storytelling to spotlight forest-based solutions as an optimistic path forward. Forest Hope Through Innovation is designed to spark climate hope and inspire community-based approaches that support resilient forests for generations to come. Included with museum admission.
@@ -85,21 +85,9 @@ URL:https://explorewashingtonpark.org/event/forest-hope-through-innovation-13/
 LOCATION:Discovery Museum\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260514T130000
-DTEND;TZID=America/Los_Angeles:20260514T150000
-DTSTAMP:20260513T190549
-CREATED:20260401T214950Z
-LAST-MODIFIED:20260415T212843Z
-UID:10003220-1778763600-1778770800@explorewashingtonpark.org
-SUMMARY:Forest Field Day: Tree ID
-DESCRIPTION:Hoyt Arboretum has over 2\,300 types of trees – can you tell one tree from another?   This can take many years to learn\, but we want to help get your tree ID journey started!  Join our Forest Field Day in May to learn the basics of how to know what tree you are looking at.  Is it tall?  Does is have big\, flat leaves?  Is the bark smooth or rough?  There are so many characteristics to observe and explore as you become a tree ID expert! This event is coordinated by Hoyt Arboretum and registration is required through their website.
-URL:https://explorewashingtonpark.org/event/forest-field-day-tree-id-2/
-LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260515T100000
 DTEND;TZID=America/Los_Angeles:20260515T120000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260305T011142Z
 LAST-MODIFIED:20260415T212942Z
 UID:10003139-1778839200-1778846400@explorewashingtonpark.org
@@ -109,11 +97,35 @@ URL:https://explorewashingtonpark.org/event/cloud-forest-volunteers-25/
 LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260515T100000
+DTEND;TZID=America/Los_Angeles:20260515T120000
+DTSTAMP:20260514T192053
+CREATED:20260515T002104Z
+LAST-MODIFIED:20260515T002104Z
+UID:10003283-1778839200-1778846400@explorewashingtonpark.org
+SUMMARY:Cloud Forest Fridays in Washington Park
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest in Washington Park most Fridays\, rain or shine. Spend a couple of hours with us\, weeding\, mulching\, planting\, and learning about invasive plant management. We will meet near the restroom building at the Oregon Holocaust Memorial and the project site is located right across from here. Registration required.
+URL:https://explorewashingtonpark.org/event/cloud-forest-fridays-in-washington-park-2/
+LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260515T110000
+DTEND;TZID=America/Los_Angeles:20260516T140000
+DTSTAMP:20260514T192053
+CREATED:20260515T002103Z
+LAST-MODIFIED:20260515T002103Z
+UID:10003282-1778842800-1778940000@explorewashingtonpark.org
+SUMMARY:Savor Japan: A Food Pop-Up at Portland Japanese Garden
+DESCRIPTION:Experience the delicious side of Japanese culture at Portland Japanese Garden’s second-ever Japanese Food Pop-Up! Explore a curated selection of ready-to-enjoy Japanese and Japan-inspired dishes\, offered by a group of acclaimed local and regional culinary partners. Whether you are craving the comforting flavors of street food or are eager to try something new\, this event celebrates the rich diversity of Japanese cuisine and offers something for every taste. Enjoy your food surrounded by the Garden’s natural beauty and immerse yourself in the seasonal spirit of summer.
+URL:https://explorewashingtonpark.org/event/savor-japan-a-food-pop-up-at-portland-japanese-garden-2/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260515T131500
 DTEND;TZID=America/Los_Angeles:20260515T143000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260212T231327Z
-LAST-MODIFIED:20260415T212942Z
+LAST-MODIFIED:20260515T002103Z
 UID:10003087-1778850900-1778855400@explorewashingtonpark.org
 SUMMARY:Cultural Performance: Koto by Mitsuki Dazai
 DESCRIPTION:Enjoy a free koto performance by Mitsuki Dazai at 1:15pm at the Cathy Rudd Cultural Corner in the Jordan Schnitzer Japanese Arts Learning Center. Mitsuki Dazai is a graduate of Tokyo’s Kunitachi College of Music\, studied koto with virtuoso Kazue Sawai\, and received her koto instruction certificate at Sawai Koto Institute. She moved to Oregon in 2002\, served as a guest lecturer\, and toured throughout the US\, Europe\, South America\, and Japan. In 2010\, Dazai was featured on Oregon Art Beat and released two CDs — Autumn\, Music for Solo Koto (2007) and Far Away…Romances for Koto (2010) with Grammy-nominated composer Michael Hoppe. She also appears on Shanti Samsara: World Music for Environmental Consciousness\, produced by Grammy-winning Ricky Kej. In 2016\, she performed at the 21C Music Festival in Toronto. This event is included with garden admission.
@@ -123,9 +135,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260515T193000
 DTEND;TZID=America/Los_Angeles:20260515T210000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260212T231328Z
-LAST-MODIFIED:20260415T212942Z
+LAST-MODIFIED:20260515T002104Z
 UID:10003088-1778873400-1778878800@explorewashingtonpark.org
 SUMMARY:Eras
 DESCRIPTION:World Forestry Center is honored to partner with Oregon Repertory Singers Youth Choir and Third Angle New Music to present Eras—a world premiere wildfire oratorio exploring the intersection of past\, present\, and future for both people and planet.  The creative journey of Eras began in April 2025\, when students from the ORS Youth Choir and Third Angle Ensemble visited our exhibit Following Fire\, a powerful collaboration between photographer David Paul Bayles and ecologist Frederick J. Swanson. Guided by Bayles and Swanson\, the students reflected on images of charred landscapes and the resilient signs of regrowth. Inspired by their experience\, the students wrote original poetry while seated on the exhibit floor—poetry that later became the source text for composers Iman Habibi\, Michael-Thomas Foumai\, and Kirsten Volness. Their resulting oratorio for youth choir and small ensemble now stands as the heart of this moving program.
@@ -135,9 +147,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260516T090000
 DTEND;TZID=America/Los_Angeles:20260516T120000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260212T231426Z
-LAST-MODIFIED:20260415T212943Z
+LAST-MODIFIED:20260515T002203Z
 UID:10003089-1778922000-1778932800@explorewashingtonpark.org
 SUMMARY:Saturday Crew
 DESCRIPTION:Volunteer to care for Hoyt Arboretum’s trees and trails with the Saturday Crew! With 189-acres and more than 6\,000 trees along 12 miles of trails\, volunteers are incredibly important to maintaining Hoyt Arboretum’s tree collection and trail system\, and it’s a unique opportunity for volunteers to learn about and care for rare and unusual trees and plants from around the world. No previous stewardship crew experience is required; training\, tools\, gloves\, and volunteer parking passes are provided. Registration is required through the Hoyt Arboretum website.
@@ -145,11 +157,23 @@ URL:https://explorewashingtonpark.org/event/saturday-crew-37/
 LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260516T100000
+DTEND;TZID=America/Los_Angeles:20260516T111500
+DTSTAMP:20260514T192053
+CREATED:20260515T002204Z
+LAST-MODIFIED:20260515T002204Z
+UID:10003284-1778925600-1778930100@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one.  Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-349/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260516T103000
 DTEND;TZID=America/Los_Angeles:20260516T123000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260401T215050Z
-LAST-MODIFIED:20260415T212943Z
+LAST-MODIFIED:20260515T002204Z
 UID:10003221-1778927400-1778934600@explorewashingtonpark.org
 SUMMARY:Brainy Birds: Spring
 DESCRIPTION:Birds are incredible and have adapted to survive in dynamic & changing environments. Every species has unique traits and sometimes quite specialized strategies. Using the backdrop of seasonal changes at Hoyt Arboretum\, Dr. Kiki Sanford will facilitate discovery of the many ways it is connected to its avian inhabitants. Winter classes will center on adaptations for surviving intense seasonal conditions. Spring brings the frenzy of breeding season. Summer includes juvenile development and the onset of the next annual cycle. And\, Autumn classes will focus on the fall migration. Each seasonal class will highlight the various birds present in the Arboretum\, and include observation & discussion of specific aspects of how their brains & bodies lead to certain behaviors useful in the Hoyt habitats. Short informal lectures and group discussions will be followed by exploratory bird-watching hikes to observe these processes in action. This event is coordinated by Hoyt Arboretum and registration is required through their website.
@@ -159,7 +183,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260516T131500
 DTEND;TZID=America/Los_Angeles:20260516T141500
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260212T231426Z
 LAST-MODIFIED:20260212T231426Z
 UID:10003090-1778937300-1778940900@explorewashingtonpark.org
@@ -171,9 +195,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260516T131500
 DTEND;TZID=America/Los_Angeles:20260516T141500
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260305T011343Z
-LAST-MODIFIED:20260415T213042Z
+LAST-MODIFIED:20260515T002204Z
 UID:10003140-1778937300-1778940900@explorewashingtonpark.org
 SUMMARY:Cultural Demonstration: Kashintei Tea Ceremony
 DESCRIPTION:Portland Japanese Garden will offer a free public demonstration of Chado\, the Way of Tea\, in the Kashintei Tea House (in the Tea Garden) from 1:15 – 2:15pm. The Way of Tea is intrinsically linked to Japanese gardens and understanding the kokoro (heart) of Japanese gardening. Kashintei (literally “Flower-Heart Room”) is the name of the authentic Tea House that sits in the heart of our Tea Garden. The structure was made in Japan\, shipped in pieces\, and reassembled in the Garden. Tea houses are composed of several strictly defined spaces: the anteroom [mizuya]\, where the utensils for the ceremony are readied beforehand; the sitting room [zashiki]\, where the tea ceremony is performed; the alcove [tokonoma] where flowers and a calligraphy scroll are displayed.  Four-and-a-half tatami mats\, which are the standard dimensions of a traditional tea house\, cover the floor. Included with garden admission.
@@ -183,9 +207,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260517T080000
 DTEND;TZID=America/Los_Angeles:20260517T084500
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260401T215150Z
-LAST-MODIFIED:20260415T213142Z
+LAST-MODIFIED:20260515T002304Z
 UID:10003222-1779004800-1779007500@explorewashingtonpark.org
 SUMMARY:Early Member Morning
 DESCRIPTION:Enjoy the sights and sounds of the animal kingdom before the zoo opens to the public! Grab a coffee or breakfast from the Cascade Cafe and stroll through the grounds at your own pace as the zoo wakes up around you. This members-only experience is available on select weekend dates from May 17 through August 29. Early entry ends promptly at 8:45 a.m. Guests arriving later must wait until the zoo opens at 9 a.m.
@@ -194,10 +218,22 @@ LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR\, 97221\, United States
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260517T100000
+DTEND;TZID=America/Los_Angeles:20260517T110000
+DTSTAMP:20260514T192053
+CREATED:20260515T002303Z
+LAST-MODIFIED:20260515T002303Z
+UID:10003285-1779012000-1779015600@explorewashingtonpark.org
+SUMMARY:Trees For All: Paved Trail Public Tour
+DESCRIPTION:The Trees For All Public Tour explores Hoyt Arboretum from accessible paved trails. The tour loops around the Visitor Center and parking lot and then continutes onto the Overlook Trail. A gentle incline leads to an optional lookout point with a (weather-permitting) view of Mt. Saint Helens and Mt. Rainier. Tour highlights include oaks\, beeches\, native shrubs and conifers\, and an overview of the conservation and community science work conducted by the Arboretum. This tour is reserved for people who are disabled\, chronically ill\, neurodivergent\, and/or have lived experience of any disability\, broadly defined. Supportive family\, friends\, and caregivers are also welcome. This tour is coordinated by Hoyt Arboretum and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/trees-for-all-paved-trail-public-tour-2/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260517T100000
 DTEND;TZID=America/Los_Angeles:20260517T160000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260212T231427Z
-LAST-MODIFIED:20260415T213042Z
+LAST-MODIFIED:20260515T002204Z
 UID:10003091-1779012000-1779033600@explorewashingtonpark.org
 SUMMARY:Be Wildfire Aware: Free Day at the Discovery Museum
 DESCRIPTION:As wildfire risk continues to increase across our region\, understanding how to prepare has never been more important. Be Wildfire Aware is a free\, community-focused event designed to help individuals and families learn practical ways to reduce wildfire risk and build resilience. Whether you live in an urban neighborhood\, a suburban community\, or a rural area\, this event will offer useful tools and information to help you protect your home and loved ones. This day is part of our Free Day Series at the Discovery Museum celebrating 60 years of World Forestry Center.
@@ -207,9 +243,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260517T103000
 DTEND;TZID=America/Los_Angeles:20260517T123000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260415T213042Z
-LAST-MODIFIED:20260415T213042Z
+LAST-MODIFIED:20260515T002303Z
 UID:10003242-1779013800-1779021000@explorewashingtonpark.org
 SUMMARY:All About Angiosperms: Walk and Talk
 DESCRIPTION:Spring flowers abound in the Arboretum! Depending on bloom time\, we’ll explore the rose or magnolia collections to learn the reason for flowers and dive into how flowering plants evolved across the globe.\nBring a camera or a sketch book on this slow-paced stroll to stop and enjoy the flowers. This event is coordinated by Hoyt Arboretum and registration is required through their website.
@@ -219,9 +255,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260517T103000
 DTEND;TZID=America/Los_Angeles:20260517T123000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260415T213043Z
-LAST-MODIFIED:20260415T213043Z
+LAST-MODIFIED:20260515T002303Z
 UID:10003243-1779013800-1779021000@explorewashingtonpark.org
 SUMMARY:The Art and Science of Tree Care: Pruning
 DESCRIPTION:Thinking about pruning your trees but unsure where to begin?  Join Hoyt’s Nursery and Planting Specialist Brett Rousseau to discover the next steps.  Brett will walk you through why we prune\, what to prune\, and how to adjust your pruning technique depending on the type of tree and season. We’ll look at tree structure\, types of growth patterns\, and how to make good pruning cuts. She’ll discuss proactive vs reactive tree care and how to ensure your trees are living their best life. This event is coordinated by Hoyt Arboretum and registration is required through their website.
@@ -231,9 +267,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260517T110000
 DTEND;TZID=America/Los_Angeles:20260517T120000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260318T213710Z
-LAST-MODIFIED:20260415T213043Z
+LAST-MODIFIED:20260515T002304Z
 UID:10003174-1779015600-1779019200@explorewashingtonpark.org
 SUMMARY:Public Tour
 DESCRIPTION:Explore one of Hoyt Arboretum’s three nationally-accredited collections with a knowledgeable guide. Public Tours will follow seasonal routes to highlight the flowering trees and the Magnolia Collection in the spring\, the Conifer Collection in the summer\, and fall color and the Maple Collection in the fall. Public tours are free and coordinated by Hoyt Arboretum Friends. There is no fee to attend\, but donations are appreciated and support education programs at Hoyt Arboretum. Sign up in person at the Visitor Center on the day of the tour.
@@ -243,9 +279,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260517T131500
 DTEND;TZID=America/Los_Angeles:20260517T143000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260212T231427Z
-LAST-MODIFIED:20260415T213143Z
+LAST-MODIFIED:20260515T002406Z
 UID:10003092-1779023700-1779028200@explorewashingtonpark.org
 SUMMARY:Cultural Performance: Oregon Koto-Kai
 DESCRIPTION:Enjoy a free koto performance by Oregon Koto-Kai at 1:15pm at the Cathy Rudd Cultural Corner in the Jordan Schnitzer Japanese Arts Learning Center. Oregon Koto-Kai is a group passionate about the Japanese koto\, a 13-stringed zither with over 1000 years of history. Founded by Mitsuki Dazai in February 2012\, the ensemble performed its first concert in Portland\, Oregon. Since then\, they have performed throughout the state at venues like the Portland Japanese Garden\, Portland Rose Festival\, and Oregon Shakespeare Festival in Ashland. Their mission is to introduce Japanese koto music to the broader community by providing concerts and lessons. They collaborate with local musicians\, improve players’ skills\, and contribute to the cultural landscape. This performance is included with garden admission.
@@ -253,11 +289,35 @@ URL:https://explorewashingtonpark.org/event/cultural-performance-oregon-koto-kai
 LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260518T090000
+DTEND;TZID=America/Los_Angeles:20260518T110000
+DTSTAMP:20260514T192053
+CREATED:20260515T002408Z
+LAST-MODIFIED:20260515T002408Z
+UID:10003287-1779094800-1779102000@explorewashingtonpark.org
+SUMMARY:MAC Trail Mondays in Washington Park
+DESCRIPTION:Join Portland Parks & Recreation on the MAC Trail in Washington Park most Mondays\, rain or shine. The MAC Trail winds its way through the park\, connecting community and visitors to the parks many amenities and attractions.  Spend a couple of hours with us\, weeding\, mulching\, planting\, and learning about invasive plant management. Registration required.
+URL:https://explorewashingtonpark.org/event/mac-trail-mondays-in-washington-park-2/
+LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260518T100000
+DTEND;TZID=America/Los_Angeles:20260518T111500
+DTSTAMP:20260514T192053
+CREATED:20260515T002407Z
+LAST-MODIFIED:20260515T002407Z
+UID:10003286-1779098400-1779102900@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one.  Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-350/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260519T100000
 DTEND;TZID=America/Los_Angeles:20260524T160000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260318T213710Z
-LAST-MODIFIED:20260415T213143Z
+LAST-MODIFIED:20260515T002409Z
 UID:10003175-1779184800-1779638400@explorewashingtonpark.org
 SUMMARY:Forest Hope Through Innovation
 DESCRIPTION:Forest Hope Through Innovation is an interdisciplinary art-forest-science exhibition at World Forestry Center’s Discovery Museum that explores how creativity\, research\, and community action can shape a sustainable future for the forests we rely on. Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations.  Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations. In this moment of climate uncertainty\, World Forestry Center is leveraging creativity\, art\, and storytelling to spotlight forest-based solutions as an optimistic path forward. Forest Hope Through Innovation is designed to spark climate hope and inspire community-based approaches that support resilient forests for generations to come. Included with museum admission.
@@ -267,9 +327,9 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260519T130000
 DTEND;TZID=America/Los_Angeles:20260519T150000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260401T215151Z
-LAST-MODIFIED:20260415T213143Z
+LAST-MODIFIED:20260515T002409Z
 UID:10003223-1779195600-1779202800@explorewashingtonpark.org
 SUMMARY:Forest Bathing
 DESCRIPTION:Experience a guided forest bathing walk through Hoyt Arboretum’s unique tree collection and forested areas. Forest Bathing offers many health benefits from stress relief to immune system and mood support. Forest therapy is a research-based framework for supporting healing and wellness through immersion in forests and other natural environments. Forest therapy is inspired by the Japanese practice of Shinrin-Yoku\, which translates to “forest bathing.” Studies have demonstrated a wide array of health benefits\, especially in the cardiovascular and immune systems\, and for stabilizing and improving mood and cognition. We build on those benefits and look beyond\, to what happens when people remember that we are a part of nature\, not separate from it\, and are related to all other beings in fundamental ways. This event is coordinated by Hoyt Arboretum and registration is required through their website.
@@ -277,9 +337,33 @@ URL:https://explorewashingtonpark.org/event/forest-bathing-44/
 LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260520T140000
+DTEND;TZID=America/Los_Angeles:20260520T153000
+DTSTAMP:20260514T192053
+CREATED:20260515T002503Z
+LAST-MODIFIED:20260515T002503Z
+UID:10003288-1779285600-1779291000@explorewashingtonpark.org
+SUMMARY:Tea Ceremony Demonstration Featuring Mashiko Ceramics
+DESCRIPTION:Portland Japanese Garden will offer a free\, public demonstration of Chadō\, the Way of Tea\, at the Cathy Rudd Cultural Corner in the Jordan Schnitzer Japanese Arts Learning Center from 2:00 PM – 3:30 pm. The Way of Tea is intrinsically linked to Japanese gardens and understanding the kokoro (heart) of Japanese gardening. This afternoon’s demonstration will also touch on the art of tea ceramics through a special display of vessels and signed wooden boxes crafted by contemporary artisans from Mashiko\, Japan\, a town well known for its pottery tradition. Three visiting Mashiko-based potters\, Douglas Black\, Andrew Gemrich\, and Yoshiji Onuki\, will also offer remarks before the demonstration about their work and inspiration and the ties between the art of ceramics and tea ceremony. The work of these artists and more are showcased in the Many Bridges exhibition\, celebrating Asian American\, Native Hawaiian\, Pacific Islanders Heritage (AANHPI) Month on view at Blackfish Gallery from May 6 –30. Included with garden admission.
+URL:https://explorewashingtonpark.org/event/tea-ceremony-demonstration-featuring-mashiko-ceramics/
+LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260521T100000
+DTEND;TZID=America/Los_Angeles:20260521T110000
+DTSTAMP:20260514T192053
+CREATED:20260515T002504Z
+LAST-MODIFIED:20260515T002504Z
+UID:10003289-1779357600-1779361200@explorewashingtonpark.org
+SUMMARY:Trees For All: Paved Trail Public Tour
+DESCRIPTION:The Trees For All Public Tour explores Hoyt Arboretum from accessible paved trails. The tour loops around the Visitor Center and parking lot and then continutes onto the Overlook Trail. A gentle incline leads to an optional lookout point with a (weather-permitting) view of Mt. Saint Helens and Mt. Rainier. Tour highlights include oaks\, beeches\, native shrubs and conifers\, and an overview of the conservation and community science work conducted by the Arboretum. This tour is reserved for people who are disabled\, chronically ill\, neurodivergent\, and/or have lived experience of any disability\, broadly defined. Supportive family\, friends\, and caregivers are also welcome. This tour is coordinated by Hoyt Arboretum and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/trees-for-all-paved-trail-public-tour-3/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260522T100000
 DTEND;TZID=America/Los_Angeles:20260522T120000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260305T011343Z
 LAST-MODIFIED:20260415T213143Z
 UID:10003141-1779444000-1779451200@explorewashingtonpark.org
@@ -289,123 +373,39 @@ URL:https://explorewashingtonpark.org/event/cloud-forest-volunteers-26/
 LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260522T100000
+DTEND;TZID=America/Los_Angeles:20260522T120000
+DTSTAMP:20260514T192053
+CREATED:20260515T002504Z
+LAST-MODIFIED:20260515T002504Z
+UID:10003290-1779444000-1779451200@explorewashingtonpark.org
+SUMMARY:Cloud Forest Fridays in Washington Park
+DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest in Washington Park most Fridays\, rain or shine. Spend a couple of hours with us\, weeding\, mulching\, planting\, and learning about invasive plant management. We will meet near the restroom building at the Oregon Holocaust Memorial and the project site is located right across from here. Registration required.
+URL:https://explorewashingtonpark.org/event/cloud-forest-fridays-in-washington-park-3/
+LOCATION:Washington Park\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260523T100000
+DTEND;TZID=America/Los_Angeles:20260523T111500
+DTSTAMP:20260514T192053
+CREATED:20260515T002505Z
+LAST-MODIFIED:20260515T002505Z
+UID:10003291-1779530400-1779534900@explorewashingtonpark.org
+SUMMARY:Tree Time! Preschool Walk
+DESCRIPTION:Tree Time! preschool walks are a safe and fun way to get outside with your little one.  Come join us for a story and guided walk on the trails at Hoyt Arboretum. We will use all of our senses to explore the natural surroundings and maybe even get our hands dirty! Staff and trained Arboretum volunteers will introduce you and your family to the plants\, trees\, insects\, mushrooms\, and more found at Hoyt Arboretum. This event is coordinated by Hoyt Arboretum and registration is required through their website.
+URL:https://explorewashingtonpark.org/event/tree-time-preschool-walk-351/
+LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260523T100000
 DTEND;TZID=America/Los_Angeles:20260524T170000
-DTSTAMP:20260513T190549
+DTSTAMP:20260514T192053
 CREATED:20260415T213248Z
-LAST-MODIFIED:20260415T213248Z
+LAST-MODIFIED:20260515T002603Z
 UID:10003245-1779530400-1779642000@explorewashingtonpark.org
 SUMMARY:Sogetsu Portland Rose Show
 DESCRIPTION:See stunning works created by local ikebana artists featuring Portland‘s favorite flower as the city celebrates its beloved tradition\, the Rose Festival. The Sogetsu School of Ikebana believes ikebana can be practiced anytime\, anywhere\, by anyone. Local artists from the Sogetsu Portland Branch will create a wide range of styles from basic to abstract which use objects of sculptural intent and character. The three main elements designers use are line\, mass\, and color\, with an emphasis on the designer’s individual artistic expression and creativity. Visit the Garden to see how their arrangements both suit and enhance the Yanai Classroom in the Jordan Schnitzer Japanese Arts Learning Center.  Included with garden admission.
 URL:https://explorewashingtonpark.org/event/sogetsu-portland-rose-show/
 LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260523T103000
-DTEND;TZID=America/Los_Angeles:20260523T123000
-DTSTAMP:20260513T190549
-CREATED:20260415T213248Z
-LAST-MODIFIED:20260415T213248Z
-UID:10003244-1779532200-1779539400@explorewashingtonpark.org
-SUMMARY:Ivy Basket Making Workshop
-DESCRIPTION:Using invasive English ivy\, we’ll transform this ubiquitous plant into something unique.  Using a basic basket making technique\, we’ll create artistic and useful objects.  You will leave the workshop with your ivy creation\, and the know-how to make interesting things from one of the Pacific Northwest’s most problematic introduced plants. This event is coordinated by Hoyt Arboretum and registration is required through their website.
-URL:https://explorewashingtonpark.org/event/ivy-basket-making-workshop/
-LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260524T090000
-DTEND;TZID=America/Los_Angeles:20260524T100000
-DTSTAMP:20260513T190549
-CREATED:20260212T231427Z
-LAST-MODIFIED:20260415T213248Z
-UID:10003093-1779613200-1779616800@explorewashingtonpark.org
-SUMMARY:Member Only Mindfulness Tour
-DESCRIPTION:This intimate tour focuses not on meditation\, but instead on learning to bring mindful awareness to oneself\, and the world around us\, through intentional observation and connections. An experienced guide will provide a foundation for the art of contemplative exploration throughout various Garden spaces\, and gently guide awareness away from the busyness of everyday life\, back toward the connection to nature and experience of peace. Each tour will be slightly unique to focus on the current season\, weather (occurs rain or shine)\, and garden spaces. However\, these tours are designed and intended to help members continue to enhance future Garden visits through independent mindful practice through all seasons. Reservations required.
-URL:https://explorewashingtonpark.org/event/member-only-mindfulness-tour-20/
-LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260524T110000
-DTEND;TZID=America/Los_Angeles:20260524T120000
-DTSTAMP:20260513T190549
-CREATED:20260318T213810Z
-LAST-MODIFIED:20260415T213248Z
-UID:10003176-1779620400-1779624000@explorewashingtonpark.org
-SUMMARY:Public Tour
-DESCRIPTION:Explore one of Hoyt Arboretum’s three nationally-accredited collections with a knowledgeable guide. Public Tours will follow seasonal routes to highlight the flowering trees and the Magnolia Collection in the spring\, the Conifer Collection in the summer\, and fall color and the Maple Collection in the fall. Public tours are free and coordinated by Hoyt Arboretum Friends. There is no fee to attend\, but donations are appreciated and support education programs at Hoyt Arboretum. Sign up in person at the Visitor Center on the day of the tour.
-URL:https://explorewashingtonpark.org/event/public-tour-49/
-LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260524T131500
-DTEND;TZID=America/Los_Angeles:20260524T143000
-DTSTAMP:20260513T190549
-CREATED:20260212T231603Z
-LAST-MODIFIED:20260415T213248Z
-UID:10003094-1779628500-1779633000@explorewashingtonpark.org
-SUMMARY:Cultural Demonstration: Ikebana by Nana Bellerud
-DESCRIPTION:Ikebana\, the Japanese art of flower arranging\, has been translated as “living flowers” or “giving life to flowers.” Join us from 1:15-2:15pm for an ikebana presentation by Nana Bellerud from the Sogetsu School of Ikebana in the Jordan Schnitzer Japanese Arts Learning Center. The Sogetsu School is known for its willingness to explore new ideas and materials. The founder\, Sofu Teshigahara\, broke away from tradition in 1927 to establish his new school based on the belief that anyone can create ikebana anywhere\, and with almost anything. The Sogetsu philosophy advocates that ikebana should be part of a lifestyle\, appreciated by many people from all over the world\, rather than being considered an exclusive aspect of Japanese culture to be enjoyed by a limited number of people. This demonstration is included with garden admission.
-URL:https://explorewashingtonpark.org/event/cultural-demonstration-ikebana-by-nana-bellerud-2/
-LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260525T100000
-DTEND;TZID=America/Los_Angeles:20260525T120000
-DTSTAMP:20260513T190549
-CREATED:20260415T213448Z
-LAST-MODIFIED:20260415T213448Z
-UID:10003246-1779703200-1779710400@explorewashingtonpark.org
-SUMMARY:Queer & Trans Community Forest Bathing
-DESCRIPTION:Experience a guided forest bathing walk through Hoyt Arboretum’s unique tree collection and forested areas. Forest Bathing (also known as Forest Therapy) offers many health benefits from stress relief to immune system and mood support. Forest therapy is a research-based framework for supporting healing and wellness through immersion in forests and other natural environments. Forest therapy is inspired by the Japanese practice of Shinrin-Yoku\, which translates to “forest bathing.” Studies have demonstrated a wide array of health benefits\, especially in the cardiovascular and immune systems\, and for stabilizing and improving mood and cognition. We build on those benefits and look beyond\, to what happens when people remember that we are a part of nature\, not separate from it\, and are related to all other beings in fundamental ways. Note: Please only register for this workshop if you identify as queer or trans. This event is coordinated by Hoyt Arboretum and registration is required through their website.
-URL:https://explorewashingtonpark.org/event/queer-trans-community-forest-bathing-4/
-LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260526T100000
-DTEND;TZID=America/Los_Angeles:20260531T160000
-DTSTAMP:20260513T190549
-CREATED:20260318T213810Z
-LAST-MODIFIED:20260415T213449Z
-UID:10003177-1779789600-1780243200@explorewashingtonpark.org
-SUMMARY:Forest Hope Through Innovation
-DESCRIPTION:Forest Hope Through Innovation is an interdisciplinary art-forest-science exhibition at World Forestry Center’s Discovery Museum that explores how creativity\, research\, and community action can shape a sustainable future for the forests we rely on. Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations.  Featuring work by more than twelve innovators\, the exhibition highlights the aesthetics of emerging forest-based research—from technology and engineering to design and artist-scientist collaborations. In this moment of climate uncertainty\, World Forestry Center is leveraging creativity\, art\, and storytelling to spotlight forest-based solutions as an optimistic path forward. Forest Hope Through Innovation is designed to spark climate hope and inspire community-based approaches that support resilient forests for generations to come. Included with museum admission.
-URL:https://explorewashingtonpark.org/event/forest-hope-through-innovation-15/
-LOCATION:Discovery Museum\, 4033 SW Canyon Rd\, Portland\, OR\, 97221\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260529T131500
-DTEND;TZID=America/Los_Angeles:20260529T143000
-DTSTAMP:20260513T190549
-CREATED:20260305T011544Z
-LAST-MODIFIED:20260415T213449Z
-UID:10003142-1780060500-1780065000@explorewashingtonpark.org
-SUMMARY:Cultural Demonstration: Tea Ceremony
-DESCRIPTION:Portland Japanese Garden will offer free public demonstrations of Chadō\, the Way of Tea\, at the Cathy Rudd Cultural Corner in the Jordan Schnitzer Japanese Arts Learning Center from 1:15 – 2:15pm. The Way of Tea is intrinsically linked to Japanese gardens and understanding the kokoro (heart) of Japanese gardening. The traditional Japanese tea ceremony is a manner of preparing and drinking a bowl of tea. More than just making tea\, it reflects the Japanese sense of omotenashi\, or wholehearted hospitality. It involves choreographed movements where both the host and guest escape the fast pace of life and experience calm. Included with garden admission.
-URL:https://explorewashingtonpark.org/event/cultural-demonstration-tea-ceremony-147/
-LOCATION:Portland Japanese Garden\, 611 SW Kingston Ave\, Portland\, OR\, 97205\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260531T080000
-DTEND;TZID=America/Los_Angeles:20260531T084500
-DTSTAMP:20260513T190549
-CREATED:20260401T215350Z
-LAST-MODIFIED:20260415T213649Z
-UID:10003224-1780214400-1780217100@explorewashingtonpark.org
-SUMMARY:Early Member Morning
-DESCRIPTION:Enjoy the sights and sounds of the animal kingdom before the zoo opens to the public! Grab a coffee or breakfast from the Cascade Cafe and stroll through the grounds at your own pace as the zoo wakes up around you. This members-only experience is available on select weekend dates from May 17 through August 29. Early entry ends promptly at 8:45 a.m. Guests arriving later must wait until the zoo opens at 9 a.m.
-URL:https://explorewashingtonpark.org/event/early-member-morning-2/
-LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR\, 97221\, United States
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260531T110000
-DTEND;TZID=America/Los_Angeles:20260531T120000
-DTSTAMP:20260513T190549
-CREATED:20260318T213910Z
-LAST-MODIFIED:20260415T213449Z
-UID:10003178-1780225200-1780228800@explorewashingtonpark.org
-SUMMARY:Public Tour
-DESCRIPTION:Explore one of Hoyt Arboretum’s three nationally-accredited collections with a knowledgeable guide. Public Tours will follow seasonal routes to highlight the flowering trees and the Magnolia Collection in the spring\, the Conifer Collection in the summer\, and fall color and the Maple Collection in the fall. Public tours are free and coordinated by Hoyt Arboretum Friends. There is no fee to attend\, but donations are appreciated and support education programs at Hoyt Arboretum. Sign up in person at the Visitor Center on the day of the tour.
-URL:https://explorewashingtonpark.org/event/public-tour-50/
-LOCATION:Hoyt Arboretum\, 4000 SW Fairview Blvd\, Portland\, OR\, 97221\, United States
 END:VEVENT
 END:VCALENDAR
