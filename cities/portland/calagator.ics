@@ -22,180 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260505T033053Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T133000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T110000
-DTSTAMP;VALUE=DATE-TIME:20260505T033053Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260505T033053Z
-UID:http://calagator.org/events/1250482559
-DESCRIPTION:**Note:** Your RSVP is required in order to attend this event
- .&#13\;\n&#13\;\nLet’s get together for an informal BEAM PDX hangout: co
- ffee\, conversation\, and light co-working.&#13\;\n&#13\;\nThis is a low
- -key monthly meetup for folks working with **Elixir\, Erlang\, Gleam**\,
-  and other **BEAM languages**\, aimed at reconnecting the local communit
- y and rebuilding momentum after a long quiet stretch. We'll holding this
-  on the second Thursday of each month.&#13\;\n&#13\;\nThere will be oppo
- rtunities to:&#13\;\n&#13\;\n- Ask questions about Elixir and other BEAM
-  languages&#13\;\n- Share what you’ve been working on (or stuck on)&#13\
- ;\n- Get help with programming or design problems&#13\;\n- Co-work: get 
- things done with like-minded folks nearby&#13\;\n- Brainstorm ideas for 
- future talk-based meetups and identify potential speakers&#13\;\n- Bring
-  your laptop if you’d like. It's totally optional.&#13\;\n&#13\;\nNew to
-  BEAM languages\, or just curious? You’re very welcome.&#13\;\n&#13\;\nP
- lease RSVP so we know roughly how many people to expect. If your plans c
- hange\, un-RSVP when you can.&#13\;\n&#13\;\nThis meetup is also part of
-  our transition away from Meetup to a new home for the group\, where we’
- ll be organizing future events.\n\nTags: elixir\, erlang\, functional pr
- ogramming\n\nImported from: http://calagator.org/events/1250482559
-URL:https://beam-pdx.groupflow.app/events/12489
-SUMMARY:Portland Monthly BEAM Meet & Chat
-LOCATION:Inner SE Portland: \, Portland Oregon  United States
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260513T213559Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T153000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T133000
-DTSTAMP;VALUE=DATE-TIME:20260513T213559Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260513T213559Z
-UID:http://calagator.org/events/1250482577
-DESCRIPTION:​Better Futures Club is a weekly event (alternating Tuesdays 
- and Thursdays) focused on imagining and making better futures.&#13\;\n&#
- 13\;\nImagine an artist community\, a think tank\, and a research center
-  in the same building. People in all of those fields working alongside e
- ach other imagining and creating different futures together. Cross polli
- nation and inspiration. Liberal Arts and STEM and R&amp\;D. Photographer
- s\, physicists\, authors\, astronomers\, musicians\, makers\, mathematic
- ians\, designers\, developers\, fashionistas\, climatologists and all ma
- nner of imaginative optimists.&#13\;\n&#13\;\nAll Better Futures Club ev
- ents are covered by the Contributor Covenant Code of Conduct (https://ww
- w.contributor-covenant.org)\n\nTags: ruby\, STEM\, liberal arts\, commun
- ity\, hacking\, AI\n\nImported from: http://calagator.org/events/1250482
- 577
-URL:https://betterfutures.club
-SUMMARY:Better Futures Club
-LOCATION:Autumn Coffee Roasting: 3286 NE Killingsworth St\, Portland OR 9
- 7211 United States
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260424T165614Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T190000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T173000
-DTSTAMP;VALUE=DATE-TIME:20260424T165614Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260424T165614Z
-UID:http://calagator.org/events/1250482543
-DESCRIPTION:This presentation introduces D3.js as a powerful tool for tra
- nsforming complex data into clear\, meaningful visual stories which non-
- technical audiences can understand and use. It explains what D3.js is\, 
- how it works with web technologies and why visualization is essential fo
- r revealing patterns and insights raw data alone cannot show.&#13\;\n&#1
- 3\;\nThis talk emphasizes designing visualizations with the audience in 
- mind while also covering core D3 concepts such as data binding\, scales\
- , layouts and interactive graphics. Through examples\, case studies\, de
- sign principles and practical tips\, this presentation demonstrates how 
- builders can use D3.js to communicate ideas effectively and empower peop
- le to discover insights from data.\n\nTags: portland design thinkers\, d
- ata visualizations\, UX research\, problem solving\, collaboration\, inn
- ovation\n\nImported from: http://calagator.org/events/1250482543
-URL:https://www.meetup.com/portland-design-thinkers/events/314420080/
-SUMMARY:Building D3.js Visualizations For Non-Technical Audiences
-LOCATION:Virtual: false
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260430T222445Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T193000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T173000
-DTSTAMP;VALUE=DATE-TIME:20260430T222445Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260430T222445Z
-UID:http://calagator.org/events/1250482554
-DESCRIPTION:Cloud Native PDX May: Change-driven Architecture and Serving 
- Inference at Scale&#13\;\n&#13\;\nThis May is all about scaling\; scalin
- g your infrastructure management\, or scaling your LLM inference serving
- . Join us to find out about some open source tools to make managing larg
- e modern stacks easier.&#13\;\n&#13\;\nDate: Thursday\, May 14&#13\;\nTi
- me: 5:30–7:30 PM&#13\;\nLocation: Reperio Health\, 4784 SE 17th Ave Suit
- e 120\, Portland\, OR&#13\;\n&#13\;\nRecording: Talks are typically reco
- rded (opt-in by speakers)&#13\;\n&#13\;\nA big thank you to Microsoft fo
- r sponsoring food &amp\; beverage\, and to Reperio Health\, our venue ho
- st.&#13\;\n&#13\;\nDrasi\, a new take on Change Driven Architectures: Am
- an Singh\, Microsoft&#13\;\n&#13\;\nModern cloud-native systems constant
- ly generate data changes\, and applications often need to react to them.
-  Building change-driven solutions that respond to specific changes in di
- stributed data is challenging. This talk introduces Drasi\, a CNCF Sandb
- ox project that simplifies the design and implementation of change-drive
- n architectures using Graph Queries and pluggable components. For exampl
- e\, with Drasi you can declaratively write automation to detect and resp
- ond to running containers with newly identified vulnerabilities across p
- ods and deployments in a Kubernetes cluster. Join us for a walkthrough o
- f real-world use cases that show how Drasi’s approach brings structure a
- nd responsiveness to complex distributed environments - without writing 
- custom code.&#13\;\n&#13\;\nDynamo: Large Scale Distributed Inference&#1
- 3\;\nDavid Zeir\, Director\, DL System Software\, Nvidia&#13\;\nNeelay S
- hah\, Distinguished Engineer\, Nvidia&#13\;\n&#13\;\nThis talk introduce
- s Dynamo\, NVIDIA's open-source Kubernetes-native distributed inference 
- platform. We'll cover the problem space\, walk through Dynamo's architec
- ture — disaggregated prefill/decode\, KV-cache-aware routing\, and a tra
- nsport layer that moves KV blocks directly between GPUs — and dig into t
- he Kubernetes integration for scheduling\, autoscaling\, and graceful fa
- ilure handling. We'll close with a demo of Dynamo serving a real workloa
- d.\n\nTags: kubernetes\, containers\, cloud\, intrastructure\, devops\, 
- LLM\, inference\n\nImported from: http://calagator.org/events/1250482554
-URL:https://www.meetup.com/cloud-native-pdx/events/314391212
-SUMMARY:Cloud Native May Meetup: Change-driven Architecture and Serving I
- nference at Scale
-LOCATION:Reperio Health: 4784 SE 17th Ave Suite 120\, Portland OR 97202 U
- SA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260506T211136Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T180000
-DTSTAMP;VALUE=DATE-TIME:20260506T211136Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260513T004210Z
-UID:http://calagator.org/events/1250482564
-DESCRIPTION:The Portland Linux Kernel Meetup for May 2026 will be at...&#
- 13\;\n&#13\;\n  * Date: Thursday\, May 14\, 2026&#13\;\n  * Time: 06:00 
- PM to 09:00 PM US/Pacific&#13\;\n  * Location: Lucky Labrador Beer Hall\
- , 1945 NW Quimby St\, Portland\, Oregon 97209 US&#13\;\n&#13\;\nCome enj
- oy a beverage and chat with other people who are interested in the&#13\;
- \nLinux kernel. All experience levels are welcome. This is a friendly an
- d casual&#13\;\nmeetup. Look for a table with a plush Tux penguin.&#13\;
- \n&#13\;\nTo get timely reminders of Portland Linux Kernel Meetups\, see
- &#13\;\nhttps://ikluft.github.io/pdx-lkmu/subscribing-to-pdx-lkmu-events
- .html.\n\nTags: PDXLKMU\, kernel\, linux\n\nImported from: http://calaga
- tor.org/events/1250482564
-URL:https://ikluft.github.io/pdx-lkmu/
-SUMMARY:May 2026 Portland Linux Kernel Meetup
-LOCATION:Lucky Labrador Beer Hall: 1945 NW Quimby\, Portland OR 97209 US
-SEQUENCE:3
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260505T182608Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260514T190000
-DTSTAMP;VALUE=DATE-TIME:20260505T182608Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260505T182608Z
-UID:http://calagator.org/events/1250482560
-DESCRIPTION:Join us for our very first Gresham Vibecoders Meetup! We'll k
- ick things off with introductions — who you are\, what you're building (
- only if you want to share)\, and what tools you're using. From there\, w
- e'll do an open show-and-tell where anyone can demo a project they've be
- en working on\, no matter how finished (or unfinished) it is. We'll swap
-  tips\, talk about what's working\, what's broken\, and what we're figur
- ing out as we go.&#13\;\n&#13\;\nExpect good conversation\, a few laughs
- \, and maybe a spark for your next build. Come as you are — beginner\, b
- uilder\, or just AI-curious. All are welcome!\n\nTags: meetup\, Vibecodi
- ng\n\nImported from: http://calagator.org/events/1250482560
-URL:https://www.meetup.com/gresham-vibecoders/events/314634192/
-SUMMARY:Gresham Vibecoders Unite!
-LOCATION:Lolo's Boss Pizza: 21817 Northeast Halsey Street\, Fairview OR 9
- 7024 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T171903Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T123000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T100000
@@ -628,6 +454,78 @@ URL:https://www.meetup.com/portland-code-coffee/
 SUMMARY:Code & Coffee @ Roseline Café
 LOCATION:Roseline Cafe: false
 SEQUENCE:3
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260515T175327Z
+DTEND;VALUE=DATE:20260728
+DTSTART;VALUE=DATE:20260723
+DTSTAMP;VALUE=DATE-TIME:20260515T175327Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260515T175327Z
+UID:http://calagator.org/events/1250482578
+DESCRIPTION:This event runs from Thursday\, July 23\, 2026 at 4pm through
+  Monday\, July 27\, 2026 at 6am.\n\nDescription:\nThe ALL Nurses' Sympos
+ ium: On Land &amp\; Sea\, hosted by the Human Growth Foundation (HGF)\, 
+ is more than an event — it’s a journey designed to honor\, empower\, and
+  uplift the heart of healthcare. This symposium combines on‑land learnin
+ g with a sea‑bound experience\, giving you a chance to grow professional
+ ly and restore your sense of purpose and well‑being.&#13\;\n&#13\;\nYou 
+ will embark on a voyage that brings together dynamic education\, meaning
+ ful connection\, and much‑needed rejuvenation. From expert‑led sessions 
+ and hands‑on workshops to collaborative discussions and networking oppor
+ tunities\, every moment is crafted to strengthen clinical excellence and
+  leadership. And as the symposium transitions from land to sea\, partici
+ pants are invited to breathe\, reset\, and rediscover the joy that fuels
+  your calling.&#13\;\n&#13\;\nThis is a space where you can learn\, conn
+ ect\, and recharge — surrounded by peers who understand the challenges a
+ nd triumphs of the profession. The ALL Nurses' Symposium: On Land &amp\;
+  Sea is not just a conference\; It’s a celebration of nursing\, a cataly
+ st for growth\, and a reminder that caring for others begins with caring
+  for ourselves.&#13\;\n&#13\;\nJoin us on a voyage that elevates your pr
+ actice\, expands your community\, and renews your spirit.\n\nTags: healt
+ h\, Endocrinology\n\nImported from: http://calagator.org/events/12504825
+ 78
+URL:https://www.hgfound.org/land-and-sea
+SUMMARY:Human Growth Foundation's ALL Nurses' Symposium: On Land & Sea
+LOCATION:Courtyard by Marriott Miami Downtown/Brickell Area Room: Royal B
+ allroom | Floor: 1 200 SE 2nd Ave Miami\, FL 33131: Miami Downtown/Brick
+ ell Area\, Miami Florida 33131 United States
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260515T175958Z
+DTEND;VALUE=DATE:20260728
+DTSTART;VALUE=DATE:20260723
+DTSTAMP;VALUE=DATE-TIME:20260515T175958Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260515T175958Z
+UID:http://calagator.org/events/1250482579
+DESCRIPTION:This event runs from Thursday\, July 23\, 2026 at 4pm through
+  Monday\, July 27\, 2026 at 5pm.\n\nDescription:\nThe ALL Nurses' Sympos
+ ium: On Land &amp\; Sea\, hosted by the Human Growth Foundation (HGF)\, 
+ is more than an event — it’s a journey designed to honor\, empower\, and
+  uplift the heart of healthcare. This symposium combines on‑land learnin
+ g with a sea‑bound experience\, giving you a chance to grow professional
+ ly and restore your sense of purpose and well‑being.&#13\;\n&#13\;\nYou 
+ will embark on a voyage that brings together dynamic education\, meaning
+ ful connection\, and much‑needed rejuvenation. From expert‑led sessions 
+ and hands‑on workshops to collaborative discussions and networking oppor
+ tunities\, every moment is crafted to strengthen clinical excellence and
+  leadership. And as the symposium transitions from land to sea\, partici
+ pants are invited to breathe\, reset\, and rediscover the joy that fuels
+  your calling.&#13\;\n&#13\;\nThis is a space where you can learn\, conn
+ ect\, and recharge — surrounded by peers who understand the challenges a
+ nd triumphs of the profession. The ALL Nurses' Symposium: On Land &amp\;
+  Sea is not just a conference\; It’s a celebration of nursing\, a cataly
+ st for growth\, and a reminder that caring for others begins with caring
+  for ourselves.&#13\;\n&#13\;\nJoin us on a voyage that elevates your pr
+ actice\, expands your community\, and renews your spirit\n\nTags: health
+ \, Endocrinology\n\nImported from: http://calagator.org/events/125048257
+ 9
+URL:https://www.hgfound.org/land-and-sea
+SUMMARY:Human Growth Foundation's ALL Nurses' Symposium: On Land & Sea
+LOCATION:Courtyard by Marriott Miami Downtown/Brickell Area Room: Royal B
+ allroom | Floor: 1 200 SE 2nd Ave Miami\, FL 33131: Miami Downtown/Brick
+ ell Area\, Miami Florida 33131 United States
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T171449Z
