@@ -4,22 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Cloud Forest volunteer day in Washington Park
-DTSTART;TZID=America/Los_Angeles:20260515T100000
-DTEND;TZID=America/Los_Angeles:20260515T100000
-UID:e4e369e1bd1da8d4c586a19dddfba8cc@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2025/Spring25A.jpg?itok=1G31bBX0
-DESCRIPTION:Join Portland Parks & Recreation in the Cloud Forest at Washin
- gton Park!
-LOCATION:Oregon Holocaust Memorial main entrance SW Washington Way and Wri
- ght Avenue Portland\n                          \, OR\n                    
-        97204 Get directions More about this location Washington Park
-URL:https://www.portland.gov/parks/events/2026/5/15/cloud-forest-volunteer
- -day-washington-park
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hoyt Arboretum Volunteer Event
 DTSTART;TZID=America/Los_Angeles:20260516T090000
 DTEND;TZID=America/Los_Angeles:20260516T090000
@@ -985,6 +969,23 @@ DESCRIPTION:Join Portland Parks & Recreation and The Portland Monarchs for
   a morning in the butterfly habitat at the viewpoint at Pittock Mansion.
 LOCATION:Pittock Mansion
 URL:https://www.portland.gov/parks/events/2026/7/14/monarchs-mansion
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Luuwit View Park Volunteer Day
+DTSTART;TZID=America/Los_Angeles:20260716T090000
+DTEND;TZID=America/Los_Angeles:20260716T090000
+UID:c61b958a1ece7b1cbdb86b023ab9f24c@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2024/luuwitview_planningforparks.jpg?itok=b48iOXsx
+DESCRIPTION:Join us to help with gardening tasks at Luuwit View Park!
+LOCATION:Luuwit View Park Label: Park Park location or entrance NE 127th A
+ venue and NE Fremont Street Portland\, OR 97230 Get directions Luuwit View
+  Park main entrance NE 127th Avenue and NE Fremont Street Portland\n      
+                     \, OR\n                           97230 Get directions
+  More about this location
+URL:https://www.portland.gov/parks/events/2026/7/16/luuwit-view-park-volun
+ teer-day
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 END:VCALENDAR
