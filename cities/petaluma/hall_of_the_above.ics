@@ -4,33 +4,6 @@ PRODID:-//Hall of the Above//halloftheabove.com//
 X-WR-CALNAME:Hall of the Above
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Open House: Cruisin’ the Boulevard
-DTSTART;TZID=America/Los_Angeles:20260516T110000
-DTEND;TZID=America/Los_Angeles:20260516T170000
-UID:1b5bc14849c168cb22075d7a226971d4@halloftheabove.com
-ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/65
- e7b41cb81a714e1d9fdd57/1778190655194-HX4AE7CYCFNRZHPNZMZ2/HOTA+Eventbrite+
- banner_Sock+Hop.jpg
-DESCRIPTION:Our building will be open Saturday\, May 16 for Petaluma's Sal
- ute to American Graffiti car show. Stop in for a soda pop\, a place to sit
-  down\, and tickets for that night’s Spike Sikes show! See you there! #b
- lock-9588f3b31063513da9cb { --stroke-style: none\;--stroke-thickness: 6px\
- ; --tweak-text-block-background-color: initial\; } #block-9588f3b31063513d
- a9cb .sqs-html-content { --tweak-text-block-padding: 6% 6% 6% 6%\; --tweak
- -text-block-padding: initial\; } #block-9588f3b31063513da9cb { mix-blend-m
- ode: var(--tweak-text-block-blend )\; border-radius: var(--tweak-text-bloc
- k-radius)\; } #block-9588f3b31063513da9cb { --tweak-text-block-radius: 0px
-  0px 0px 0px\; } #block-9588f3b31063513da9cb { } @media screen and (max-wi
- dth: 767px) { #block-9588f3b31063513da9cb { } } @media screen and (max-wid
- th: 767px) { #block-9588f3b31063513da9cb .sqs-html-content { } } @media sc
- reen and (max-width: 767px) { }
-LOCATION:Hall of the Above\, 199 Petaluma Boulevard North\, Petaluma\, CA\
- , 94952
-URL:https://www.halloftheabove.com/event-database/salute-to-american-graff
- iti-spike-sikes-double-feature-event-pn93a
-X-SOURCE:Hall of the Above
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Spike Sikes and his awesome hotcakes - Salute to American Graffiti
   edition
 DTSTART;TZID=America/Los_Angeles:20260516T193000
@@ -257,6 +230,19 @@ DESCRIPTION:
 LOCATION:Hall of the Above\, 401 N McDowell Blvd\, Petaluma\, CA 94954
 URL:https://www.halloftheabove.com/event-database/private-event-5-zr4ll-ez
  95h-cw8bn-ryksw
+X-SOURCE:Hall of the Above
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Private Event
+DTSTART;TZID=America/Los_Angeles:20260717T090000
+DTEND;TZID=America/Los_Angeles:20260717T100000
+UID:792da0c298fce8614aadd182bfe9cb6d@halloftheabove.com
+ATTACH;FMTTYPE=image/jpeg:https://images.squarespace-cdn.com/content/v1/65
+ e7b41cb81a714e1d9fdd57/1739476815027-LATAFD0D5KEQL5T526SL/Artboard+1.png
+DESCRIPTION:
+LOCATION:Hall of the Above\, 401 N McDowell Blvd\, Petaluma\, CA 94954
+URL:https://www.halloftheabove.com/event-database/private-event-5-zr4ll-ez
+ 95h-cw8bn-ryksw-hybxj
 X-SOURCE:Hall of the Above
 END:VEVENT
 END:VCALENDAR
