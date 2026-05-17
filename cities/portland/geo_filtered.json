@@ -16,20 +16,9 @@
     "location": "Aurora Vineyards, 21338 Oak Ln NE, Aurora, OR 97002",
     "count": 20,
     "titles": [
-      "Knotty Sangria",
-      "Knotty Sangria",
+      "Boat Drinks",
+      "Boat Drinks",
       "Boat Drinks"
-    ]
-  },
-  {
-    "source": "Stumptown Savings",
-    "source_id": "stumptown_savings",
-    "location": "Rocky Butte Farmers Market, NE Siskiyou and, NE 80th Ave, Port\rland, OR 97213, USA\r",
-    "count": 13,
-    "titles": [
-      "Rocky Butte Farmers Market",
-      "Rocky Butte Farmers Market",
-      "Rocky Butte Farmers Market"
     ]
   },
   {
@@ -44,14 +33,14 @@
     ]
   },
   {
-    "source": "Tockify Kptv Calendar",
-    "source_id": "tockify_kptv_calendar",
-    "location": "The Landing at Tallman Brewing,2055 Primrose Street, Lebanon, OR 97355, USA",
-    "count": 9,
+    "source": "Stumptown Savings",
+    "source_id": "stumptown_savings",
+    "location": "Rocky Butte Farmers Market, NE Siskiyou and, NE 80th Ave, Port\rland, OR 97213, USA\r",
+    "count": 12,
     "titles": [
-      " Live Music at Tallman Brewing - Let it Roll",
-      " Live Music at Tallman Brewing - KrizyMonas",
-      " Bingo Benefiting Charity"
+      "Rocky Butte Farmers Market",
+      "Rocky Butte Farmers Market",
+      "Rocky Butte Farmers Market"
     ]
   },
   {
@@ -66,14 +55,25 @@
     ]
   },
   {
+    "source": "Tockify Kptv Calendar",
+    "source_id": "tockify_kptv_calendar",
+    "location": "The Landing at Tallman Brewing,2055 Primrose Street, Lebanon, OR 97355, USA",
+    "count": 8,
+    "titles": [
+      " Live Music at Tallman Brewing - KrizyMonas",
+      " Bingo Benefiting Charity",
+      " Warrior Wrestling Bingo at Tallman Brewing"
+    ]
+  },
+  {
     "source": "Vancouver Farmers Market",
     "source_id": "vancouver_farmers_market",
     "location": "605 Esther St, Vancouver, WA, United States",
-    "count": 6,
+    "count": 5,
     "titles": [
-      "*Uszd parts* Armando Espinoza at the Vancouver Farmers Market",
       "Dumpster Joe at the Vancouver Farmers Market",
-      "Jim Marcotte Music at the Vancouver Farmers Market"
+      "Jim Marcotte Music at the Vancouver Farmers Market",
+      "Amber Fiedler at the Vancouver Farmers Market"
     ]
   },
   {
@@ -85,17 +85,6 @@
       "Summer Reading with Perch Wildlife Education",
       "Summer Reading with StudioAwesome",
       "Golden Road Art"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
-    "location": "McMinnville, McMinnville, OR 97128",
-    "count": 4,
-    "titles": [
-      "UFO Fest Vendor Fair",
-      "UFO Festival Parade",
-      "UFO Festival"
     ]
   },
   {
@@ -154,17 +143,6 @@
     ]
   },
   {
-    "source": "Eventbrite Trailkeepers",
-    "source_id": "eventbrite_trailkeepers",
-    "location": "Shellburg Falls, Shellburg Road, Stayton, OR 97358, Stayton, OR",
-    "count": 3,
-    "titles": [
-      "Shellburg Falls Trail Party - Willamette Valley",
-      "Shellburg Falls Trail Party - Willamette Valley",
-      "Shellburg Falls Trail Party - Willamette Valley"
-    ]
-  },
-  {
     "source": "Tockify Kptv Calendar",
     "source_id": "tockify_kptv_calendar",
     "location": "Salem Scottish Rite Center,4090 Commercial St S",
@@ -189,33 +167,12 @@
   {
     "source": "Travelportland",
     "source_id": "travelportland",
-    "location": "McMenamins Hotel Oregon, 310 NE Evans St, McMinnville, OR 97128",
-    "count": 3,
-    "titles": [
-      "UFO Fest Landing Party",
-      "UFO Fest Alien Costume Contest",
-      "UFO Fest Alien Costume Ball"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
     "location": "Dick Hannah Chevrolet, 36936-26, Sandy, OR 97055",
     "count": 3,
     "titles": [
       "Sandy Invitational Chainsaw Competition and Forest Festival",
       "Sandy Invitational Chainsaw Competition and Forest Festival",
       "Sandy Invitational Chainsaw Competition and Forest Festival"
-    ]
-  },
-  {
-    "source": "Calagator",
-    "source_id": "calagator",
-    "location": "Courtyard by Marriott Miami Downtown/Brickell Area Room: Royal Ballroom | Floor: 1 200 SE 2nd Ave Miami, FL 33131: Miami Downtown/Brickell Area, Miami Florida 33131 United States",
-    "count": 2,
-    "titles": [
-      "Human Growth Foundation's ALL Nurses' Symposium: On Land & Sea",
-      "Human Growth Foundation's ALL Nurses' Symposium: On Land & Sea"
     ]
   },
   {
@@ -241,11 +198,41 @@
   {
     "source": "Eventbrite Trailkeepers",
     "source_id": "eventbrite_trailkeepers",
+    "location": "Shellburg Falls, Shellburg Road, Stayton, OR 97358, Stayton, OR",
+    "count": 2,
+    "titles": [
+      "Shellburg Falls Trail Party - Willamette Valley",
+      "Shellburg Falls Trail Party - Willamette Valley"
+    ]
+  },
+  {
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
     "location": "Idiot Creek Loop, Idiot Creek Loop, Tillamook, OR 97141, Tillamook, OR",
     "count": 2,
     "titles": [
       "Wilson River Trail Party - Portland",
       "Wilson River Trail Party - Portland"
+    ]
+  },
+  {
+    "source": "Travelportland",
+    "source_id": "travelportland",
+    "location": "McMinnville, McMinnville, OR 97128",
+    "count": 2,
+    "titles": [
+      "UFO Festival Parade",
+      "UFO Festival"
+    ]
+  },
+  {
+    "source": "Travelportland",
+    "source_id": "travelportland",
+    "location": "McMenamins Hotel Oregon, 310 NE Evans St, McMinnville, OR 97128",
+    "count": 2,
+    "titles": [
+      "UFO Fest Alien Costume Contest",
+      "UFO Fest Alien Costume Ball"
     ]
   },
   {
@@ -259,6 +246,16 @@
     ]
   },
   {
+    "source": "Travelportland",
+    "source_id": "travelportland",
+    "location": "Camp Tasty's, Mc Kinnon Airpark, 12960 Southeast Ten Eyck Road Sandy, OR, 97055",
+    "count": 2,
+    "titles": [
+      "Shady Pines Festival",
+      "Shady Pines Festival"
+    ]
+  },
+  {
     "source": "Wccls Library",
     "source_id": "wccls_library",
     "location": "North Plains Public Library, Sunset Ridge Park 10315 NW 293rd Ave, North Plains, OR 97133",
@@ -269,12 +266,12 @@
     ]
   },
   {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
-    "location": "Sandy Ridge Trail System, 62700 East Barlow Trail Road, Brightwood, OR 97011, Brightwood, OR",
+    "source": "Calagator",
+    "source_id": "calagator",
+    "location": "The Chicago Firehouse Restaurant: The Chicago Firehouse Restaurant, 1401 South Michigan Avenue, Chicago, IL 60605, The Chicago Firehouse Restaurant, 1401 South Michigan Avenue, Chicago, IL 60605 The Chicago Firehouse Restaurant, 1401 South Michigan Avenue, Chicago, IL 60605 60605 USA",
     "count": 1,
     "titles": [
-      "DIG DAY \u2014 Sandy Ridge:  Let's get Sandy ready for shuttle day"
+      "HGF Pediatric Bone Symposium - Chicago\\, Illinois"
     ]
   },
   {
@@ -289,19 +286,10 @@
   {
     "source": "Eventbrite Nw Trail Alliance",
     "source_id": "eventbrite_nw_trail_alliance",
-    "location": "NF - 83 Meeting location, 5W63+9H Cougar, Washington, Cougar, WA 98616, Cougar, WA",
+    "location": "Sandy Ridge Trail System, 62700 East Barlow Trail Road, Brightwood, OR 97011, Brightwood, OR",
     "count": 1,
     "titles": [
-      "Pine Creek Trail Extension Project"
-    ]
-  },
-  {
-    "source": "Eventbrite Nw Trail Alliance",
-    "source_id": "eventbrite_nw_trail_alliance",
-    "location": "Sandy Ridge Trail System, 62700 East Barlow Trail Road, Sandy, OR 97011, Sandy, OR",
-    "count": 1,
-    "titles": [
-      "NW Trail Sisters' Women's Beginner Ride at Sandy Ridge"
+      "DIG DAY \u2014 Sandy Ridge:  Let's get Sandy ready for shuttle day"
     ]
   },
   {
@@ -311,6 +299,33 @@
     "count": 1,
     "titles": [
       "LapQuest  2026 - Social ride event with a challenge"
+    ]
+  },
+  {
+    "source": "Eventbrite Nw Trail Alliance",
+    "source_id": "eventbrite_nw_trail_alliance",
+    "location": "NF - 83 Meeting location, 5W63+9H Cougar, Washington, Cougar, WA 98616, Cougar, WA",
+    "count": 1,
+    "titles": [
+      "Pine Creek Trail Extension Project"
+    ]
+  },
+  {
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "20024 Silver Falls Hwy SE, 20024 Silver Falls Highway Southeast, Sublimity, OR 97385, Sublimity, OR",
+    "count": 1,
+    "titles": [
+      "Silver Falls Trail Party - Central Valley"
+    ]
+  },
+  {
+    "source": "Eventbrite Trailkeepers",
+    "source_id": "eventbrite_trailkeepers",
+    "location": "Eagle Fern Park, 27505 Southeast Eagle Fern Road, Eagle Creek, OR 97022, Eagle Creek, OR",
+    "count": 1,
+    "titles": [
+      "Eagle Fern County Park--PDX (trail rehabilitation)"
     ]
   },
   {
@@ -329,15 +344,6 @@
     "count": 1,
     "titles": [
       "Gold Beach Mobility Mat Installation - South Coast"
-    ]
-  },
-  {
-    "source": "Eventbrite Trailkeepers",
-    "source_id": "eventbrite_trailkeepers",
-    "location": "Eagle Fern Park, 27505 Southeast Eagle Fern Road, Eagle Creek, OR 97022, Eagle Creek, OR",
-    "count": 1,
-    "titles": [
-      "Eagle Fern County Park--PDX (trail rehabilitation)"
     ]
   },
   {
@@ -379,15 +385,6 @@
   {
     "source": "Pdx Parent",
     "source_id": "pdx_parent",
-    "location": "McMenamins Hotel Oregon, 310 NE Evans Street, McMinnville, Oregon, 97128",
-    "count": 1,
-    "titles": [
-      "26th Annual UFO Festival"
-    ]
-  },
-  {
-    "source": "Pdx Parent",
-    "source_id": "pdx_parent",
     "location": "Reynold\u2019s High School Fine Arts Building, 1690 SW Northstar Loop, Troutdale, Oregon, 97060",
     "count": 1,
     "titles": [
@@ -397,37 +394,10 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
-    "location": "LPS Centennial Stadium, 4401 E Arapahoe Rd, Littleton, CO 80122, USA",
+    "location": "CPKC Stadium, 1460 E Front St, Kansas City, MO 64120, USA",
     "count": 1,
     "titles": [
-      "Thorns at Summit"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "Shell Energy Stadium, 2200 Texas Ave, Houston, TX 77003, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at Dash"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA",
-    "count": 1,
-    "titles": [
-      "Thorns at s**ttle"
-    ]
-  },
-  {
-    "source": "Portland Thorns",
-    "source_id": "portland_thorns",
-    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
-    "count": 1,
-    "titles": [
-      "Thorns v. Bay"
+      "Thorns at Current"
     ]
   },
   {
@@ -442,10 +412,37 @@
   {
     "source": "Portland Thorns",
     "source_id": "portland_thorns",
-    "location": "CPKC Stadium, 1460 E Front St, Kansas City, MO 64120, USA",
+    "location": "LPS Centennial Stadium, 4401 E Arapahoe Rd, Littleton, CO 80122, USA",
     "count": 1,
     "titles": [
-      "Thorns at Current"
+      "Thorns at Summit"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "Lumen Field, 800 Occidental Ave S, Seattle, WA 98134, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at s**ttle"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "Shell Energy Stadium, 2200 Texas Ave, Houston, TX 77003, USA",
+    "count": 1,
+    "titles": [
+      "Thorns at Dash"
+    ]
+  },
+  {
+    "source": "Portland Thorns",
+    "source_id": "portland_thorns",
+    "location": "PayPal Park, 1123 Coleman Ave, San Jose, CA 95110, USA",
+    "count": 1,
+    "titles": [
+      "Thorns v. Bay"
     ]
   },
   {
@@ -743,15 +740,6 @@
     "count": 1,
     "titles": [
       "WAAAM Traffic Jam"
-    ]
-  },
-  {
-    "source": "Travelportland",
-    "source_id": "travelportland",
-    "location": "Camp Tasty's, Mc Kinnon Airpark, 12960 Southeast Ten Eyck Road Sandy, OR, 97055",
-    "count": 1,
-    "titles": [
-      "Shady Pines Festival"
     ]
   },
   {
