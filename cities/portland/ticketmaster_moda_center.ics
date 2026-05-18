@@ -4,19 +4,6 @@ PRODID:-//Moda Center//ticketmaster.com//
 X-WR-CALNAME:Moda Center
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:YUNGBLUD: IDOLS - THE WORLD TOUR
-DTSTART;TZID=America/Los_Angeles:20260516T200000
-DTEND;TZID=America/Los_Angeles:20260516T200000
-UID:c770bde74ef5a91c25c29fc6dc307a18@ticketmaster.com
-ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/5ce/474ba3bd-ed06-4
- 1b3-b712-0d0975dac5ce_RETINA_PORTRAIT_16_9.jpg
-DESCRIPTION:
-LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
-URL:https://www.ticketmaster.com/yungblud-idols-the-world-tour-portland-or
- egon-05-16-2026/event/0F006341EFC37E8B
-X-SOURCE:Moda Center
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Portland Fire vs. Connecticut Sun
 DTSTART;TZID=America/Los_Angeles:20260518T190000
 DTEND;TZID=America/Los_Angeles:20260518T190000
@@ -170,6 +157,19 @@ DESCRIPTION:
 LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
 URL:https://www.ticketmaster.com/forrest-frank-the-jesus-generation-tour-p
  ortland-oregon-07-11-2026/event/0F006383D9DF8F99
+X-SOURCE:Moda Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JOJI: SOLARIS
+DTSTART;TZID=America/Los_Angeles:20260718T183000
+DTEND;TZID=America/Los_Angeles:20260718T183000
+UID:6e3f3b4dd50bb7c4cc6ccab3a4380b2a@ticketmaster.com
+ATTACH;FMTTYPE=image/jpeg:https://s1.ticketm.net/dam/a/5ea/21cc5630-a6aa-4
+ 92c-9c8d-03951757f5ea_RETINA_PORTRAIT_16_9.jpg
+DESCRIPTION:
+LOCATION:Moda Center\, One Center Court\, Suite 100\, Portland\, OR
+URL:https://www.ticketmaster.com/joji-solaris-portland-oregon-07-18-2026/e
+ vent/0F006454CF043825
 X-SOURCE:Moda Center
 END:VEVENT
 END:VCALENDAR

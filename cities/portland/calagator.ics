@@ -22,54 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20251109T171903Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T123000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T100000
-DTSTAMP;VALUE=DATE-TIME:20251109T171903Z
-LAST-MODIFIED;VALUE=DATE-TIME:20251109T171903Z
-UID:http://calagator.org/events/1250482298
-DESCRIPTION:Details&#13\;\n## What to Expect:&#13\;\nCode and Coffee is a
- n inclusive\, informal co-working session. Drink some coffee\, bring you
- r laptop\, and have engaging conversations. This is a great opportunity 
- to learn from others\, share your knowledge\, and possibly collaborate o
- n side projects\, online courses\, or even your day-to-day work tasks.&#
- 13\;\nStill uncertain? Let's chat on Discord!&#13\;\n## Venue:&#13\;\nTh
- e Venue is at Roseline Café\, who is graciously allowing us to host a sp
- ace. WIFI\, power outlets&#13\;\nRecommended Parking: Smart Park\, $7 al
- l day https://www.portland.gov/transportation/parking/smartpark&#13\;\n&
- #13\;\n## Coffee:&#13\;\nRoseline Café has drip coffee and fixings avail
- able for it&#13\;\n&#13\;\n## Agenda:&#13\;\n10 AM - Arrival&#13\;\n10:1
- 5 AM - Introductions:&#13\;\nShare your name&#13\;\nDiscuss your current
-  projects or interests. If you don’t have a specific project\, share wha
- t intrigues you!&#13\;\nMention your expertise and how you can assist ot
- hers.&#13\;\nAre you job hunting or hiring? Let us know!&#13\;\nCommunit
- y events you wanna plug. If none\, that's cool too.&#13\;\n12:30 AM - Wr
- apping Up: You can stay longer\, but we'll officially be done! We usuall
- y grab lunch as a group at near by food carts\n\nImported from: http://c
- alagator.org/events/1250482298
-URL:https://www.meetup.com/portland-code-coffee/
-SUMMARY:Code & Coffee @ Roseline Café
-LOCATION:Roseline Cafe: false
-SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260512T213619Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T170000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260516T153000
-DTSTAMP;VALUE=DATE-TIME:20260512T213619Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260512T213619Z
-UID:http://calagator.org/events/1250482575
-DESCRIPTION:Come join Community Broadband PDX to talk about building a pu
- blicly owned broadband network here in Portland. &#13\;\n&#13\;\n&#13\;\
- n&#13\;\nSee you there!\n\nTags: broadband\, internet\, utility\n\nImpor
- ted from: http://calagator.org/events/1250482575
-URL:https://communitybroadbandpdx.org
-SUMMARY:Community Broadband PDX Meetup
-LOCATION:Multnomah County Library Albina Branch: 205 NE Russell St\, Port
- land OR 97212 US
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260420T032541Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260517T170000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260517T130000
@@ -348,29 +300,6 @@ SUMMARY:Portland Drupal User Group
 LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
   97214 US
 SEQUENCE:2
-END:VEVENT
-BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260516T144435Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260613T150000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260613T130000
-DTSTAMP;VALUE=DATE-TIME:20260516T144435Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260516T144435Z
-UID:http://calagator.org/events/1250482580
-DESCRIPTION:Step into the future of pediatric bone health at the Human Gr
- owth Foundation’s Pediatric Bone Symposium\, the most anticipated and en
- ergizing session of the day. While other sessions skim the surface\, thi
- s one dives deep into real-world breakthroughs shaping care for children
-  with skeletal dysplasia and metabolic bone disease.\n\nTags: pediatric\
- , bone health\, Endocrinology\, medical conference\, children\, health\n
- \nImported from: http://calagator.org/events/1250482580
-URL:https://www.hgfound.org/events
-SUMMARY:HGF Pediatric Bone Symposium - Chicago\, Illinois
-LOCATION:The Chicago Firehouse Restaurant: The Chicago Firehouse Restaura
- nt\, 1401 South Michigan Avenue\, Chicago\, IL 60605\, The Chicago Fireh
- ouse Restaurant\, 1401 South Michigan Avenue\, Chicago\, IL 60605 The Ch
- icago Firehouse Restaurant\, 1401 South Michigan Avenue\, Chicago\, IL 6
- 0605 60605 USA
-SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172028Z
