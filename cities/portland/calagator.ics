@@ -22,27 +22,56 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260420T032541Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260517T170000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260517T130000
-DTSTAMP;VALUE=DATE-TIME:20260420T032541Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260420T032541Z
-UID:http://calagator.org/events/1250482537
-DESCRIPTION:That PLUG Clinic you like is coming back into style!&#13\;\n&
- #13\;\nThe PLUG Clinic returns again this month on May 17\, from 1pm-5pm
- . Note the different venue this month\, we are back at the Albina Branch
-  Library. If you need help with your Linux computer\, or want to offer h
- elp\, you are welcome!&#13\;\n&#13\;\nVolunteer helpers are as desirable
-  as helpees. Helping is fun and rewarding. If you've ever helped out at 
- a PLUG Clinic before\, come checkout the space!&#13\;\n&#13\;\nThanks to
-  the taxpayers of Multnomah County for the beautiful new building!\n\nTa
- gs: Linux Help\, plug\, clinic\n\nImported from: http://calagator.org/ev
- ents/1250482537
-URL:https://pdxlinux.org/
-SUMMARY:Portland Linux/Unix Group's Monthly Linux Clinic
-LOCATION:Multnomah County Library Albina Branch: 205 NE Russell St\, Port
- land OR 97212 US
-SEQUENCE:2
+CREATED;VALUE=DATE-TIME:20260519T021701Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260519T153000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260519T133000
+DTSTAMP;VALUE=DATE-TIME:20260519T021701Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260519T021701Z
+UID:http://calagator.org/events/1250482585
+DESCRIPTION:​Better Futures Club is a weekly event (alternating Tuesdays 
+ and Thursdays) focused on imagining and making better futures.&#13\;\n&#
+ 13\;\nImagine an artist community\, a think tank\, and a research center
+  in the same building. People in all of those fields working alongside e
+ ach other imagining and creating different futures together. Cross polli
+ nation and inspiration. Liberal Arts and STEM and R&amp\;D. Photographer
+ s\, physicists\, authors\, astronomers\, musicians\, makers\, mathematic
+ ians\, designers\, developers\, fashionistas\, climatologists and all ma
+ nner of imaginative optimists.&#13\;\n&#13\;\nAll Better Futures Club ev
+ ents are covered by the Contributor Covenant Code of Conduct (https://ww
+ w.contributor-covenant.org)\n\nTags: ruby\, STEM\, liberal arts\, commun
+ ity\, hacking\, AI\n\nImported from: http://calagator.org/events/1250482
+ 585
+URL:https://betterfutures.club
+SUMMARY:Better Futures Club
+LOCATION:Autumn Coffee Roasting: 3286 NE Killingsworth St\, Portland OR 9
+ 7211 United States
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260518T181513Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260520T190000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260520T163000
+DTSTAMP;VALUE=DATE-TIME:20260518T181513Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260518T181513Z
+UID:http://calagator.org/events/1250482582
+DESCRIPTION:Join us for our free Spring Maseeh Exchange\, and see how  ad
+ vances in AI are being applied to real-world challenges at Maseeh Colleg
+ e. As these technologies move from research into everyday use\, they are
+  reshaping how engineers\, scientists\, and organizations approach desig
+ n\, analysis\, and decision-making.  Across disciplines\, our researcher
+ s are translating complex information into practical decisions — improvi
+ ng systems\, informing design\, strengthening infrastructure\, and expan
+ ding what’s possible through thoughtful application of emerging technolo
+ gies. Spring features the works of A Creative and Emerging Technology In
+ stitute (CETI). This event brings our community together to explore the 
+ role of creativity\, critical thinking\, and technical expertise in shap
+ ing solutions that matter.\n\nTags: networking\, technology\, profession
+ als\n\nImported from: http://calagator.org/events/1250482582
+URL:https://www.pdx.edu/engineering/exchange
+SUMMARY:Maseeh Exchange - Beyond the Hype: AI For Real
+LOCATION:PSU Engineering Building\, 1930 SW 4th Avenue: 1930 SW 4th Ave\,
+  Portland Oregon 97201 USA
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260428T041946Z
@@ -300,6 +329,39 @@ SUMMARY:Portland Drupal User Group
 LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
   97214 US
 SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260519T002729Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260615T193000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260615T173000
+DTSTAMP;VALUE=DATE-TIME:20260519T002729Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260519T002729Z
+UID:http://calagator.org/events/1250482583
+DESCRIPTION:The PNSQC and Portland AWS User Group are joining forces this
+  June at ProFocus Headquarters for an evening of technical learning with
+  cloud\, security\, and quality professionals from across the region.&#1
+ 3\;\n&#13\;\nThis month\, Trevor Gudeman\, Senior Software Engineer at P
+ acific Northwest National Laboratory\, takes us inside how AWS can level
+  up code quality across CI/CD workflows. With a focus on CodeBuild and C
+ odePipeline\, Trevor will show how AWS-native tools can take the manual 
+ effort out of key quality checks — think linting\, unit testing\, code c
+ overage\, static analysis\, security scanning\, and quality gates — so y
+ our team can catch issues earlier and ship with more confidence.&#13\;\n
+ &#13\;\nThis will be a hybrid meetup\, so mingle in person or tune in on
+ line. Doors (and virtual lobby) open at 5:30pm for a half hour of pre-ta
+ lk networking.&#13\;\n&#13\;\nDrinks provided by ProFocus. Free to atten
+ d!&#13\;\n‎&#13\;\nSchedule:&#13\;\n&#13\;\n5:30pm - 6pm Networking&#13\
+ ;\n6pm - 7:30pm Tech Talk\n\nTags: aws\, ci\, CD\, devops\, agile\, auto
+ mation\, engineer\, networking\, qa\, quality assurance\, software\, sof
+ tware quality\, software testing\, tech\, technologies\, technology\, te
+ st\, testing\, tooling\n\nImported from: http://calagator.org/events/125
+ 0482583
+URL:https://www.meetup.com/pnw-software-quality-professionals-pnsqc/event
+ s/314759099
+SUMMARY:PNSQC June Meetup: Tech Talk Team Up with Portland AWS User Group
+LOCATION:ProFocus: 10200 Southwest Eastridge Street\, Portland OR 97225 U
+ S
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172028Z
@@ -675,6 +737,60 @@ SUMMARY:Portland Drupal User Group
 LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
   97214 US
 SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260519T003528Z
+DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20261112
+DTSTAMP;VALUE=DATE-TIME:20260519T003528Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260519T003528Z
+UID:http://calagator.org/events/1250482584
+DESCRIPTION:This event runs from Thursday\, November 12\, 2026 at 9am thr
+ ough Friday\, November 13\, 2026 at 4pm.\n\nDescription:\nDigiMarCon Roc
+ ky Mountains – The #1 Digital Marketing\, Media and Advertising Conferen
+ ce &amp\; Exhibition in the Rocky Mountains.&#13\;\n&#13\;\nGet ready to
+  be inspired and informed at DigiMarCon Rocky Mountains\, the premier an
+ nual conference and exhibition for digital marketing\, media\, advertisi
+ ng and business professionals in the Rocky Mountains\, returning Novembe
+ r 12-13\, 2026 to the Hilton Salt Lake City Center in Salt Lake City\, U
+ tah. Experience three action-packed days including keynotes\, master cla
+ sses and panels from experts and thought leaders with cutting-edge strat
+ egies and numerous networking opportunities. Also check out the next gen
+ eration of technology &amp\; innovation\; Internet\, Mobile\, AdTech\, M
+ arTech &amp\; SaaS Technology. Attend in-person or online to access the 
+ next wave of digital innovation\, including insights in AI and ChatGPT\,
+  marketing automation\, content creation\, growth hacking\, social media
+  marketing\, SEO\, and more.&#13\;\n&#13\;\nHighlights:&#13\;\n     •   
+ Top Industry Keynotes: Hear from visionary speakers who push the boundar
+ ies of digital marketing.&#13\;\n     •   Networking Opportunities: Conn
+ ect with thought leaders\, reunite with your peers\, and expand your pro
+ fessional network.&#13\;\n     •   Emerging Trends: Discover strategies 
+ and latest technologies to move your business to the next level.&#13\;\n
+      •   Hands-On Learning: Master classes\, case studies\, and strategy
+  sessions to equip you with practical solutions for immediate impact.&#1
+ 3\;\n&#13\;\nThis year’s edition will feature topics such as:&#13\;\n   
+   •   Artificial Intelligence\, ChatGPT\, and Marketing Automation&#13\;
+ \n     •   Content Marketing\, Email Marketing\, Social Media Marketing\
+ , and Influencer Marketing&#13\;\n     •   Conversion Rate Optimization\
+ , Mobile Marketing\, and Video Marketing&#13\;\n     •   Data Science\, 
+ Big Data\, Programmatic Advertising and Predictive Analytics&#13\;\n    
+  •   UI / UX Design\, User Experience\, Omnichannel Marketing\, and much
+  more!&#13\;\n&#13\;\nChallenge traditional ideas\, gain actionable insi
+ ghts\, and discover how to thrive and succeed as a marketer in a rapidly
+  evolving digital world. See why people keep coming back year after year
+  to this must-attend event for any marketer wanting to stay ahead! &#13\
+ ;\n&#13\;\nRegister and secure your seat today at https://digimarconrock
+ ymountains.com.&#13\;\n\n\nTags: digital marketing\, marketing\, social 
+ media marketing\, digital media\, email marketing\, inbound marketing\, 
+ search marketing\, content marketing\, advertising\, Mobile Marketing\, 
+ cleveland\, ohio\n\nImported from: http://calagator.org/events/125048258
+ 4
+URL:https://digimarconrockymountains.com
+SUMMARY:DigiMarCon Rocky Mountains 2026 - Digital Marketing\, Media and A
+ dvertising Conference & Exhibition
+LOCATION:Hilton Salt Lake City Center: \, Salt Lake City UT 84101 United 
+ States
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172325Z

@@ -4,18 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Jaguar Sun\, Kurt Travis
-DTSTART:20260518T200000
-DTEND:20260518T200000
-UID:6bbe9d78a1adab284ceb2df306f6ee56@songkick.com
-DESCRIPTION:Jaguar Sun at Mississippi Studios at 2026-05-18T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43054938-jaguar-sun-at-mississippi-st
- udios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Amos Heart
 DTSTART:20260519T200000
 DTEND:20260519T200000
@@ -51,6 +39,18 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43100119-marisa-anderson-at-mississip
  pi-studios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dug
+DTSTART:20260523T210000
+DTEND:20260523T210000
+UID:2695dc843082f0cc9fe7bc570626dd0d@songkick.com
+DESCRIPTION:Dug at Mississippi Studios at 2026-05-23T21:00:00-0700
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43168464-dug-at-mississippi-studios?u
+ tm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR
