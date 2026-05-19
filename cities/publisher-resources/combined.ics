@@ -7,69 +7,6 @@ X-WR-CALNAME:Publisher Resources Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Poynter Institute Training": "https://www.poynter.org/shop/writing/breaking-into-books-a-non-fiction-writing-workshop-for-journalists-may-2026/"}
-X-SOURCE-ID:poynter_shop
-SUMMARY:Breaking Into Books: A Non-Fiction Writing Workshop for Journalist
- s (May 2026)
-DTSTART:20260518T000000
-DTEND:20260520T000000
-UID:36fbdb45935a3ba6056cd56b244faec2@poynter.org
-DESCRIPTION:Instructor(s): Kristen Hare\, Amaris Castillo
-LOCATION:St. Petersburg\, Fla.
-URL:https://www.poynter.org/shop/writing/breaking-into-books-a-non-fiction
- -writing-workshop-for-journalists-may-2026/
-X-SOURCE:Poynter Institute Training
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Sjn": "https://www.lenfestinstitute.org/solutions-resources/save-the-date-2026-lenfest-news-philanthropy-summit/"}
-X-SOURCE-ID:sjn
-SUMMARY:2026 Lenfest News Philanthropy Summit
-DTSTART;TZID=America/New_York:20260518T000000
-DTEND;TZID=America/New_York:20260520T000000
-UID:9a78a1de5f9f66066c48f6ee03853aae@solutionsjournalism.org
-DESCRIPTION:Philadelphia\, Pennsylvania\, United States\nHeading to Philly
-  for Lenfest? Keep an eye out for Linda Shaw and Melissa Cassutt from SJN'
- s communities of practice team.
-LOCATION:Philadelphia\, Pennsylvania\, United States
-URL:https://www.lenfestinstitute.org/solutions-resources/save-the-date-202
- 6-lenfest-news-philanthropy-summit/
-X-SOURCE:Solutions Journalism Network
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:newsguild
-X-SOURCE:NewsGuild-CWA
-SUMMARY:How to Unite and Win at Work in NYC
-DTSTART;TZID=America/New_York:20260518T190000
-DTEND;TZID=America/New_York:20260518T203000
-DTSTAMP:20260518T030313Z
-UID:02fca9p5kumqikme1c8au9ss3h@google.com
-RECURRENCE-ID;TZID=America/New_York:20260518T190000
-SEQUENCE:0
-CREATED:20260312T181022Z
-DESCRIPTION:<h4>Start: <span style="font-weight: normal\;">Saturday\, May
-  18\, 2026•07:00 PM</span></h4><h4>Location: <span style="font-weight: 
- normal\;">Brooklyn Public Library Williamsburg • 240 Division Ave.\, a
- t Marcy Ave\, New York\, NY 11211 US</span><br><br>Zohran Mamdani’s elec
- tion as mayor proved that New Yorkers can work together and win against im
- possible odds. <span style="font-weight: normal\;">He successfully campai
- gned on a message of an affordable city that workers in New York deserve. 
- To realize that vision\, we’ve got to keep organizing not just with ou
- r neighbors but also in our workplaces.</span><br><br><a href="https://wor
- kerorganizing.org/training/nyc/#form"><u><u>We can win together. Sign up t
- oday.</u></u></a></h4><h4><br><p><span style="font-weight: normal\;">EWOC 
- will help you build the skills and give you the resources you and your co-
- workers need to demand what you deserve.</span></p><p><span style="font-we
- ight: normal\;">RSVP for our “Unite &amp\; Win at Work” training below
- . Food service workers\, warehouse workers\, office workers\, public-sect
- or workers\, and anyone with a job is welcome (except your boss).</span></
- p><p><span style="font-weight: normal\;">An affordable New York means lowe
- r costs and more money in your wallet\, and it starts with talking with yo
- ur co-workers.</span></p></h4>
-LAST-MODIFIED:20260312T181022Z
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Api Eventbrite": "https://www.eventbrite.com/e/trauma-informed-leadership-workshop-tickets-1986928553791"}
 X-SOURCE-ID:api_eventbrite
 SUMMARY:Trauma-informed leadership workshop
@@ -94,7 +31,7 @@ URL:https://us06web.zoom.us/j/88089952275?pwd=YhlBR0xdjYVuqhbfYJabn3gYm7MOcr.1
 SUMMARY:The Power and Purpose of Community Listening
 DTSTART;TZID=America/Los_Angeles:20260519T130000
 DTEND;TZID=America/Los_Angeles:20260519T140000
-DTSTAMP:20260518T030312Z
+DTSTAMP:20260519T025955Z
 UID:5ej8bcsqm4t9grca90kpdvg2hd@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20260519T130000
 SEQUENCE:0
@@ -141,7 +78,7 @@ DESCRIPTION:<p dir="ltr">For small\, independent local newsrooms\, communi
  /meetings/88089952275/invitations?signature=VeF9i8X5nssrZRqJb8dNUPIkx0h_g6
  VsuNyPx3zxT5Q">https://us06web.zoom.us/meetings/88089952275/invitations?si
  gnature=VeF9i8X5nssrZRqJb8dNUPIkx0h_g6VsuNyPx3zxT5Q</a>
-LAST-MODIFIED:20260516T224058Z
+LAST-MODIFIED:20260519T020806Z
 LOCATION:https://us06web.zoom.us/j/88089952275?pwd=YhlBR0xdjYVuqhbfYJabn3g
  Ym7MOcr.1
 STATUS:CONFIRMED
@@ -245,6 +182,28 @@ URL:https://us02web.zoom.us/meeting/register/pXrQU2xCQpOTnpsyPQ0hvQ
 X-SOURCE:Sunlight Research
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Sjn": "https://uri-edu.zoom.us/meeting/register/5BFu_GsqT3qDJjYz_ijy0g"}
+X-SOURCE-ID:sjn
+SUMMARY:Covering the Planet with the Tools That Tax It: AI for Climate\, S
+ cience and Environmental Journalists
+DTSTART;TZID=America/New_York:20260521T000000
+DTEND;TZID=America/New_York:20260521T000000
+UID:3cc7ebffa03e25798c7ec36852a0625e@solutionsjournalism.org
+DESCRIPTION:Online\nAI is both a tool transforming newsrooms and a story-s
+ haping force in public life. How should journalists approach both with rig
+ or?\nJoin us for a one-hour session with journalist and SF State Universit
+ y Professor Yumi Wilson. We'll talk about AI using the solutions journalis
+ m framework. We'll examine what AI actually does in newsrooms (response)\,
+  what the evidence shows about its costs and benefits (evidence)\, what re
+ porters are learning about its best uses (insight) and where AI falls shor
+ t (limitations). You'll come away with a clearer understanding of how AI i
+ s shaping journalism worldwide and a practical prompting structure you can
+  start using on the beat.
+LOCATION:Online
+URL:https://uri-edu.zoom.us/meeting/register/5BFu_GsqT3qDJjYz_ijy0g
+X-SOURCE:Solutions Journalism Network
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Sjn": "https://us06web.zoom.us/meeting/register/5-jrs4mPSyezTFfrCwoPdw?mc_cid=9d4c8b8c83&mc_eid=f6b9d64e2d#/registration"}
 X-SOURCE-ID:sjn
 SUMMARY:Find Your People: Engagement Strategies for Bringing Solutions Rep
@@ -285,28 +244,6 @@ DESCRIPTION:Bangkok\, Thailand\nThe AAJA-Asia N3Con returns to Bangkok. On
  ndrasekaran and journalist Nithin Coca.
 LOCATION:Bangkok\, Thailand
 URL:https://www.n3con.com/2026/
-X-SOURCE:Solutions Journalism Network
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Sjn": "https://uri-edu.zoom.us/meeting/register/5BFu_GsqT3qDJjYz_ijy0g"}
-X-SOURCE-ID:sjn
-SUMMARY:Covering the Planet with the Tools That Tax It: AI for Climate\, S
- cience and Environmental Journalists
-DTSTART;TZID=America/New_York:20260521T000000
-DTEND;TZID=America/New_York:20260521T000000
-UID:3cc7ebffa03e25798c7ec36852a0625e@solutionsjournalism.org
-DESCRIPTION:Online\nAI is both a tool transforming newsrooms and a story-s
- haping force in public life. How should journalists approach both with rig
- or?\nJoin us for a one-hour session with journalist and SF State Universit
- y Professor Yumi Wilson. We'll talk about AI using the solutions journalis
- m framework. We'll examine what AI actually does in newsrooms (response)\,
-  what the evidence shows about its costs and benefits (evidence)\, what re
- porters are learning about its best uses (insight) and where AI falls shor
- t (limitations). You'll come away with a clearer understanding of how AI i
- s shaping journalism worldwide and a practical prompting structure you can
-  start using on the beat.
-LOCATION:Online
-URL:https://uri-edu.zoom.us/meeting/register/5BFu_GsqT3qDJjYz_ijy0g
 X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
@@ -446,7 +383,7 @@ X-SOURCE-ID:ahcj
 X-SOURCE:Ahcj, Journalism Conferences
 DTSTART;TZID=America/New_York:20260527T000000
 DTEND;TZID=America/New_York:20260530T235959
-DTSTAMP:20260517T230311
+DTSTAMP:20260518T225953
 CREATED:20260121T224600Z
 LAST-MODIFIED:20260121T224603Z
 UID:62297-1779840000-1780185599@healthjournalism.org
@@ -496,6 +433,18 @@ URL:https://www.eventbrite.com/e/press-briefing-immigration-enforcement-an
 X-SOURCE:Center for Cooperative Media
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/webinar-ai-driven-crm-strategies-for-publishers,261690"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:WEBINAR: AI-Driven CRM strategies for publishers
+DTSTART:20260528T000000
+DTEND:20260528T000000
+UID:45a776fa8ccfb14374e6e04f96597df5@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/webinar-ai-driven-crm-strat
+ egies-for-publishers,261690
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://dataharvest.eu/"}
 X-SOURCE-ID:journalism_conferences
 SUMMARY:Data Harvest 2026
@@ -529,7 +478,7 @@ X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;TZID=America/New_York:20260528T190000
 DTEND;TZID=America/New_York:20260528T210000
-DTSTAMP:20260517T230312
+DTSTAMP:20260518T225954
 CREATED:20260511T212220Z
 LAST-MODIFIED:20260512T140129Z
 UID:71199-1779994800-1780002000@sabew.org
@@ -629,7 +578,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://ewa.org/events/upcoming-events/2026-education-writers-association-national-seminar
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260606
-DTSTAMP:20260518T030313Z
+DTSTAMP:20260519T025955Z
 UID:38vhr0gb8vnlj42tr2rpgdgtnu@google.com
 CREATED:20260302T030352Z
 DESCRIPTION:See the full conference description: <a href="https://ewa.org/e
@@ -668,6 +617,26 @@ URL:https://www.sej.org/calendar/deadline-knight-risser-prize-western-envi
 X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/deadline-ccnow-social-first-climate-journalism-workshops"}
+X-SOURCE-ID:sej
+SUMMARY:CCNow Social-First Climate Journalism Workshops
+DTSTART;TZID=America/New_York:20260602T000000
+DTEND;TZID=America/New_York:20260602T000000
+UID:1c67aebe3930b1176c5c039c7cf04fa0@sej.org
+DESCRIPTION:This June\, join Covering Climate Now for a series of free\, h
+ ands-on online workshops designed for climate journalists looking to impro
+ ve their social media content and grow their online audience.\n\nCategorie
+ s: National (U.S.)\, Alaska and Hawaii\, California\, Great Lakes (IL IN M
+ I MN OH WI)\, Great Plains (IA KS ND NE MO SD)\, Mid-Atlantic (DC DE MD PA
+  VA WV)\, Mountain West (CO ID MT NV UT WY)\, Northeast (CT MA ME NH NJ NY
+  RI VT)\, Northwest (OR WA)\, SE (AL AR FL GA KY LA MS NC PR SC TN)\, Sout
+ hwest (AZ NM OK TX)\, International\, Workshops and Fellowships\, Journali
+ sm & Media
+URL:https://www.sej.org/calendar/deadline-ccnow-social-first-climate-journ
+ alism-workshops
+X-SOURCE:Society of Environmental Journalists
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/siwis-water-communications-2026-training-series"}
 X-SOURCE-ID:sej
 SUMMARY:SIWI's Water in Communications 2026 Training Series
@@ -692,8 +661,8 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260603T160000
 DTEND;TZID=America/Chicago:20260603T170000
-DTSTAMP:20260518T030312Z
-UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260603
+DTSTAMP:20260519T025955Z
+UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260603T210000@google.com__20260603
 SEQUENCE:1
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and p
@@ -724,7 +693,7 @@ DESCRIPTION:<p>Our monthly Collective Call is part collective update and p
  eting ID: 928 2949 1964<br>Passcode: 687155<br><br>Find your local number:
   <a href="https://us06web.zoom.us/u/kbdovsDm91" target="_blank">https://us
  06web.zoom.us/u/kbdovsDm91</a>
-LAST-MODIFIED:20260512T190000Z
+LAST-MODIFIED:20260518T185851Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -752,6 +721,20 @@ DESCRIPTION:Host: International Communication Association\nAttendance: Ope
 LOCATION:Cape Town\, South Africa
 URL:https://www.icahdq.org/page/annual-conference
 X-SOURCE:Journalism Conferences
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/ccnow-basics-reporting-solutions"}
+X-SOURCE-ID:sej
+SUMMARY:CCNow Basics: Reporting Solutions
+DTSTART;TZID=America/New_York:20260604T000000
+DTEND;TZID=America/New_York:20260604T000000
+UID:5c7da93eb33231b7474ae47b44166629@sej.org
+DESCRIPTION:Join us on Thursday\, June 4\, for a CCNow Basics session abou
+ t reporting solutions — and tell the whole climate story.\n\nCategories:
+  National (U.S.)\, International\, Workshops and Fellowships\, Journalism 
+ & Media
+URL:https://www.sej.org/calendar/ccnow-basics-reporting-solutions
+X-SOURCE:Society of Environmental Journalists
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Cooperative Media Eventbrite": "https://www.eventbrite.com/e/workshop-reporting-and-story-editing-for-impact-with-pro-news-coaches-tickets-1988177728105"}
@@ -791,7 +774,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;TZID=America/New_York:20260606T150000
 DTEND;TZID=America/New_York:20260606T170000
-DTSTAMP:20260517T230310
+DTSTAMP:20260518T225952
 CREATED:20260504T130939Z
 LAST-MODIFIED:20260504T130939Z
 UID:17053-1780758000-1780765200@www.nlgja.org
@@ -800,6 +783,29 @@ DESCRIPTION:Join our DC Chapter for their biggest event of the year — their an
 URL:https://www.nlgja.org/event/nlgja-dc-pride-happy-hour/
 LOCATION:Trade\, 1410 14th Street Northwest\, Washington\, DC\, 20009\, United States
 CATEGORIES:Chapters
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Sjn": "https://docs.google.com/forms/d/e/1FAIpQLSfQVupQXrW1bCkdvveBHVJyPmz6RaVtG69TQDnKLtPHKZuVIA/viewform"}
+X-SOURCE-ID:sjn
+SUMMARY:⭐ APPLY NOW: Train-the-Trainers (July 2026 Cohort)
+DTSTART;TZID=America/New_York:20260607T000000
+DTEND;TZID=America/New_York:20260607T000000
+UID:fa17565b28f84d4130002c848d07dcce@solutionsjournalism.org
+DESCRIPTION:Online\nA new round of the SJN’s Train-the-Trainers program 
+ is open now. For those accepted\, you’ll get extensive solutions journal
+ ism training over the course of five sessions in July. That training will 
+ deeply cover the fundamentals of solutions journalism before exploring bes
+ t practices in teaching and training others in it.\nThe hosts for this rou
+ nd will be Kyuwon Lee and Sharon Bloyd-Peshkin\, SJN's Training & Curricul
+ um Managers\, and Raoul Junior Lorfils\, an accredited trainer in Haiti an
+ d Canada. We'll also be joined by multiple SJN staff members and accomplis
+ hed trainers from our network\, who will provide insight into their work i
+ n solutions journalism. The deadline to apply is June 7\, soget all the de
+ tails\, timing\, requirements and the full application all in one place.
+LOCATION:Online
+URL:https://docs.google.com/forms/d/e/1FAIpQLSfQVupQXrW1bCkdvveBHVJyPmz6Ra
+ VtG69TQDnKLtPHKZuVIA/viewform
+X-SOURCE:Solutions Journalism Network
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Journalism Conferences": "https://srccon.org/"}
@@ -890,8 +896,8 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260610T160000
 DTEND;TZID=America/New_York:20260610T170000
-DTSTAMP:20260518T030312Z
-UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260610
+DTSTAMP:20260519T025955Z
+UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260610T200000@google.com__20260610
 SEQUENCE:1
 CREATED:20251212T131931Z
 DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
@@ -911,7 +917,7 @@ DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
  blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
  zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
  br></b>
-LAST-MODIFIED:20260511T113737Z
+LAST-MODIFIED:20260518T185923Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -949,7 +955,7 @@ URL:https://labornotes.org/2026
 SUMMARY:Labor Notes
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260615
-DTSTAMP:20260518T030313Z
+DTSTAMP:20260519T025955Z
 UID:3ltobipevuhqp320p6rmj07p2q@google.com
 RECURRENCE-ID;VALUE=DATE:20260612
 SEQUENCE:1
@@ -1099,7 +1105,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://www.ire.org/training/conferences/ire-2026/
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260622
-DTSTAMP:20260518T030313Z
+DTSTAMP:20260519T025955Z
 UID:4onag31t66iv7lht4jcddi2iub@google.com
 CREATED:20260226T021319Z
 DESCRIPTION:See the full conference description: <a href="https://www.ire.o
@@ -1169,7 +1175,7 @@ X-SOURCE:NewsGuild-CWA
 SUMMARY:How to Unite and Win at Work in NYC
 DTSTART;TZID=America/New_York:20260621T130000
 DTEND;TZID=America/New_York:20260621T150000
-DTSTAMP:20260518T030313Z
+DTSTAMP:20260519T025955Z
 UID:4ml1nu0j5cq65j8jiqi7jmkmau@google.com
 RECURRENCE-ID;TZID=America/New_York:20260621T130000
 SEQUENCE:0
@@ -1216,7 +1222,7 @@ X-SOURCE-ID:sabew
 X-SOURCE:Sabew
 DTSTART;TZID=America/New_York:20260623T130000
 DTEND;TZID=America/New_York:20260623T140000
-DTSTAMP:20260517T230312
+DTSTAMP:20260518T225954
 CREATED:20260511T170558Z
 LAST-MODIFIED:20260511T171843Z
 UID:71194-1782219600-1782223200@sabew.org
@@ -1273,6 +1279,18 @@ UID:b86a04f6d10f4a5008fe96f9a5c1058f@editorandpublisher.com
 DESCRIPTION:
 URL:https://www.editorandpublisher.com/stories/alabama-press-association-s
  ummer-convention-awards-banquet-june-25-27,257999
+X-SOURCE:Editor & Publisher
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Editor & Publisher": "https://www.editorandpublisher.com/stories/arkansas-press-association-convention-june-25-27,261702"}
+X-SOURCE-ID:editor_publisher
+SUMMARY:Arkansas Press Association Convention
+DTSTART:20260625T000000
+DTEND:20260627T000000
+UID:d8af5b0e1fa0264c70f7e99bb22070a9@editorandpublisher.com
+DESCRIPTION:
+URL:https://www.editorandpublisher.com/stories/arkansas-press-association-
+ convention-june-25-27,261702
 X-SOURCE:Editor & Publisher
 END:VEVENT
 BEGIN:VEVENT
@@ -1354,8 +1372,8 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260708T160000
 DTEND;TZID=America/Chicago:20260708T170000
-DTSTAMP:20260518T030312Z
-UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260708
+DTSTAMP:20260519T025955Z
+UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260603T210000@google.com__20260708
 SEQUENCE:1
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and p
@@ -1386,7 +1404,7 @@ DESCRIPTION:<p>Our monthly Collective Call is part collective update and p
  eting ID: 928 2949 1964<br>Passcode: 687155<br><br>Find your local number:
   <a href="https://us06web.zoom.us/u/kbdovsDm91" target="_blank">https://us
  06web.zoom.us/u/kbdovsDm91</a>
-LAST-MODIFIED:20260512T190000Z
+LAST-MODIFIED:20260518T212551Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1431,23 +1449,6 @@ URL:https://www.poynter.org/shop/business-work/business-basics-for-journal
 X-SOURCE:Poynter Institute Training
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/poynters-business-journalism-skills-smarter-decision-making"}
-X-SOURCE-ID:sej
-SUMMARY:Poynter's The Business of Journalism: Skills for Smarter Decision-
- Making
-DTSTART;TZID=America/New_York:20260714T000000
-DTEND;TZID=America/New_York:20260728T000000
-UID:87efc74fcdc5783c49b6192d97b4968a@sej.org
-DESCRIPTION:Understand the business of journalism and make smarter decisio
- ns. A practical course for journalists ready to grow their impact and infl
- uence. Join a three-part live course on July 14\, 21 and 28\, 11 a.m. to 
- 12:30 p.m. ET.\n\nCategories: National (U.S.)\, International\, Workshops 
- and Fellowships\, Journalism & Media
-URL:https://www.sej.org/calendar/poynters-business-journalism-skills-smart
- er-decision-making
-X-SOURCE:Society of Environmental Journalists
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Online News Association": "https://journalists.org/events/ai-innovator-collaborative---july-2026"}
 X-SOURCE-ID:ona_events
 SUMMARY:AI Innovator Collaborative —July 2026: Chatbots and their inform
@@ -1480,8 +1481,8 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260715T160000
 DTEND;TZID=America/New_York:20260715T170000
-DTSTAMP:20260518T030312Z
-UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260715
+DTSTAMP:20260519T025955Z
+UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260610T200000@google.com__20260715
 SEQUENCE:1
 CREATED:20251212T131931Z
 DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
@@ -1501,7 +1502,7 @@ DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
  blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
  zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
  br></b>
-LAST-MODIFIED:20260511T113737Z
+LAST-MODIFIED:20260518T185923Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1519,20 +1520,16 @@ URL:https://www.poynter.org/shop/reporting-editing/vertical-video-for-crea
 X-SOURCE:Poynter Institute Training
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Society of Environmental Journalists": "https://www.sej.org/calendar/poynters-vertical-video-creators-and-journalists"}
-X-SOURCE-ID:sej
-SUMMARY:Poynter's Vertical Video for Creators and Journalists
-DTSTART;TZID=America/New_York:20260716T000000
-DTEND;TZID=America/New_York:20260730T000000
-UID:c3ea3f18acec144da6c2c99d568601db@sej.org
-DESCRIPTION:Create vertical video that reaches and engages your audience. 
- A hands-on course from trusted experts for journalists and creators ready 
- to show up where it matters most. $249\; 2-3:30 P.M. Eastern on July 16\,
-  23 and 30.\n\nCategories: National (U.S.)\, International\, Workshops and
-  Fellowships\, Journalism & Media
-URL:https://www.sej.org/calendar/poynters-vertical-video-creators-and-jour
- nalists
-X-SOURCE:Society of Environmental Journalists
+X-SOURCE-URLS:{"Journalism Conferences": "https://www.inma.org/event-detail.cfm?eventId=31338"}
+X-SOURCE-ID:journalism_conferences
+SUMMARY:South Asia News Media Festival
+DTSTART:20260720T000000
+DTEND:20260723T000000
+UID:12dc7fa8ce6492310d5760ea38c7fab8@journalism.wtf
+DESCRIPTION:Host: International News Media Association
+LOCATION:New Delhi\, India
+URL:https://www.inma.org/event-detail.cfm?eventId=31338
+X-SOURCE:Journalism Conferences
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Tiny News Members Only": "https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09"}
@@ -1542,8 +1539,8 @@ URL:https://us06web.zoom.us/j/92829491964?pwd=Sm1oYW9KYmFPWGJFVW1UN3Y1TVpKZz09
 SUMMARY:TNC Monthly Collective Call
 DTSTART;TZID=America/Chicago:20260805T160000
 DTEND;TZID=America/Chicago:20260805T170000
-DTSTAMP:20260518T030312Z
-UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260506T210000@google.com__20260805
+DTSTAMP:20260519T025955Z
+UID:4jg70vrpsq4dhvmmpi2q37v4nq_R20260603T210000@google.com__20260805
 SEQUENCE:1
 CREATED:20250102T172959Z
 DESCRIPTION:<p>Our monthly Collective Call is part collective update and p
@@ -1574,7 +1571,7 @@ DESCRIPTION:<p>Our monthly Collective Call is part collective update and p
  eting ID: 928 2949 1964<br>Passcode: 687155<br><br>Find your local number:
   <a href="https://us06web.zoom.us/u/kbdovsDm91" target="_blank">https://us
  06web.zoom.us/u/kbdovsDm91</a>
-LAST-MODIFIED:20260512T190000Z
+LAST-MODIFIED:20260518T185851Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1586,8 +1583,8 @@ URL:https://us06web.zoom.us/j/86552943689?pwd=t4x9gaGynZjoijavBBGgNV74zZa60P.1
 SUMMARY:Founder Show and Tell: Monthly meeting
 DTSTART;TZID=America/New_York:20260812T160000
 DTEND;TZID=America/New_York:20260812T170000
-DTSTAMP:20260518T030312Z
-UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260513T200000@google.com__20260812
+DTSTAMP:20260519T025955Z
+UID:1n5k0jj3qlpjp2rrcusgp7kcq8_R20260610T200000@google.com__20260812
 SEQUENCE:1
 CREATED:20251212T131931Z
 DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
@@ -1607,7 +1604,7 @@ DESCRIPTION:<p>A monthly conversation just for founders\, where you can co
  blank">https://us06web.zoom.us/meetings/86552943689/invitations?signature=
  zG9hTHI0UHT25lEhR7WKstpH11b9b477bryLIBs2nSI</a><br><br><b><br></b><br><b><
  br></b>
-LAST-MODIFIED:20260511T113737Z
+LAST-MODIFIED:20260518T185923Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -1617,7 +1614,7 @@ X-SOURCE-ID:nlgja
 X-SOURCE:Assoc. of LGBTQ+ Journalists
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260517T230310
+DTSTAMP:20260518T225952
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
@@ -1634,7 +1631,7 @@ X-SOURCE:Journalism Internship & Fellowship Deadlines
 URL:https://transom.org/transom25/
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260920
-DTSTAMP:20260518T030313Z
+DTSTAMP:20260519T025955Z
 UID:1jutch8e3t2ghbnh59jmkdoe3b@google.com
 CREATED:20260428T014331Z
 DESCRIPTION:See the full festival description: <a href="https://transom.org

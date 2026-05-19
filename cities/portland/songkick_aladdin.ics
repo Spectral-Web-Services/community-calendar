@@ -4,29 +4,6 @@ PRODID:-//Aladdin Theater//songkick.com//
 X-WR-CALNAME:Aladdin Theater
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Elias Rønnenfelt
-DTSTART:20260518T190000
-DTEND:20260518T190000
-UID:65ff4ce577755956265bc76ff31c5df6@songkick.com
-DESCRIPTION:Elias Rønnenfelt at Aladdin Theater at 2026-05-18T19:00:00-07
- 00
-LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
-URL:http://www.songkick.com/concerts/43179159-elias-ronnenfelt-at-aladdin-
- theater?utm_medium=organic&utm_source=microformat
-X-SOURCE:Aladdin Theater
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:John FM
-DTSTART:20260518T190000
-DTEND:20260518T190000
-UID:677299e3caeb6f7aabb8fc79c8986824@songkick.com
-DESCRIPTION:John FM at Aladdin Theater at 2026-05-18T19:00:00-0700
-LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
-URL:http://www.songkick.com/concerts/43100110-john-fm-at-aladdin-theater?u
- tm_medium=organic&utm_source=microformat
-X-SOURCE:Aladdin Theater
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Weather Machine
 DTSTART:20260523T200000
 DTEND:20260523T200000
@@ -48,6 +25,17 @@ DESCRIPTION:Reb & the Good News at Aladdin Theater at 2026-05-23T20:00:00-
 LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
 URL:http://www.songkick.com/concerts/43100123-reb-and-the-good-news-at-ala
  ddin-theater?utm_medium=organic&utm_source=microformat
+X-SOURCE:Aladdin Theater
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chapterhouse
+DTSTART:20260526T200000
+DTEND:20260526T200000
+UID:a364d22fea5e52c52c491ecfbc0c7e61@songkick.com
+DESCRIPTION:Chapterhouse at Aladdin Theater at 2026-05-26T20:00:00-0700
+LOCATION:Aladdin Theater\, 3017 SE Milwaukie Ave.\, Portland\, OR\, 97202
+URL:http://www.songkick.com/concerts/43122151-chapterhouse-at-aladdin-thea
+ ter?utm_medium=organic&utm_source=microformat
 X-SOURCE:Aladdin Theater
 END:VEVENT
 END:VCALENDAR
