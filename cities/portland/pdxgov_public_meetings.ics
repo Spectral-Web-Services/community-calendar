@@ -4,17 +4,6 @@ PRODID:-//Portland Public Meetings//portland.gov//
 X-WR-CALNAME:Portland Public Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Portland Pedestrian Advisory Committee - May 2026 Meeting
-DTSTART;TZID=America/Los_Angeles:20260519T180000
-DTEND;TZID=America/Los_Angeles:20260519T180000
-UID:f1db75d127ad80b4551370a426501c1c@portland.gov
-DESCRIPTION:May 2026 meeting of the Portland Pedestrian Advisory Committee
- .
-URL:https://www.portland.gov/transportation/pedestrian-committee/events/20
- 26/5/19/portland-pedestrian-advisory-committee-may
-X-SOURCE:Portland Public Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Revenue Division Appeals Board Meeting
 DTSTART;TZID=America/Los_Angeles:20260520T090000
 DTEND;TZID=America/Los_Angeles:20260520T090000
@@ -107,6 +96,19 @@ UID:99c023ebe8af9af0850462de9dea522b@portland.gov
 DESCRIPTION:Portland Utility Board Meeting
 URL:https://www.portland.gov/pub/events/2026/5/21/portland-utility-board-m
  eeting
+X-SOURCE:Portland Public Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:River Community Advisory Committee
+DTSTART;TZID=America/Los_Angeles:20260521T113000
+DTEND;TZID=America/Los_Angeles:20260521T113000
+UID:6a07f2dd79ba10248885619aa311bb5d@portland.gov
+DESCRIPTION:The River Community Advisory Committee is comprised of six mem
+ bers who represent a variety of interests relating to floating structures.
+  It assists with the development of procedures and administrative guidelin
+ es for implementing city code relating to floating structures.
+URL:https://www.portland.gov/ppd/river-committee/events/2026/5/21/river-co
+ mmunity-advisory-committee
 X-SOURCE:Portland Public Meetings
 END:VEVENT
 BEGIN:VEVENT
