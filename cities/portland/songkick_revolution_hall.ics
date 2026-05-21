@@ -4,17 +4,6 @@ PRODID:-//Revolution Hall//songkick.com//
 X-WR-CALNAME:Revolution Hall
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:St. Lucia
-DTSTART:20260520T200000
-DTEND:20260520T200000
-UID:ee503e9e239ea1f8b45a03fb77da2cfb@songkick.com
-DESCRIPTION:St. Lucia at Revolution Hall at 2026-05-20T20:00:00-0700
-LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/42928615-st-lucia-at-revolution-hall?
- utm_medium=organic&utm_source=microformat
-X-SOURCE:Revolution Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Melody's Echo Chamber
 DTSTART:20260522T200000
 DTEND:20260522T200000
@@ -35,6 +24,28 @@ DESCRIPTION:Strange Lot at Revolution Hall at 2026-05-22T20:00:00-0700
 LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/43100120-strange-lot-at-revolution-ha
  ll?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Purity Ring
+DTSTART:20260524T200000
+DTEND:20260524T200000
+UID:8862fa3b050d70bfc8a87a9cf6663836@songkick.com
+DESCRIPTION:Purity Ring at Revolution Hall at 2026-05-24T20:00:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43003751-purity-ring-at-revolution-ha
+ ll?utm_medium=organic&utm_source=microformat
+X-SOURCE:Revolution Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Indigo Girls
+DTSTART:20260526T193000
+DTEND:20260526T193000
+UID:944400920c151efde417ddd7d31e5e0f@songkick.com
+DESCRIPTION:Indigo Girls at Revolution Hall at 2026-05-26T19:30:00-0700
+LOCATION:Revolution Hall\, 1300 SE Stark St.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43021273-indigo-girls-at-revolution-h
+ all?utm_medium=organic&utm_source=microformat
 X-SOURCE:Revolution Hall
 END:VEVENT
 END:VCALENDAR
