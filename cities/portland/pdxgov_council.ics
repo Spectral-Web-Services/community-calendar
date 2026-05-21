@@ -4,21 +4,6 @@ PRODID:-//Portland Council Meetings//portland.gov//
 X-WR-CALNAME:Portland Council Meetings
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:City Budget Committee Meeting: FY 2026-27 Approved Hearing Day 3
-DTSTART;TZID=America/Los_Angeles:20260520T093000
-DTEND;TZID=America/Los_Angeles:20260520T093000
-UID:b1501e27e225018a767d5e97cf12681d@portland.gov
-DESCRIPTION:The City Council will meet as the City Budget Committee to con
- sider the FY 2026-2027 Budget. Learn more about the City’s budget proces
- s at portland.gov/budget/join.
-LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
- um Portland\,\n                                OR\n                       
-                    97204 Get directions More about this location
-URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/20/city-b
- udget-committee-meeting-fy-2026-27-approved-hearing
-X-SOURCE:Portland Council Meetings
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Public Works Committee Meeting
 DTSTART;TZID=America/Los_Angeles:20260526T093000
 DTEND;TZID=America/Los_Angeles:20260526T093000
@@ -75,6 +60,18 @@ LOCATION:City Council Chambers 1221 SW Fourth Avenue Second Floor Auditori
                     97204 Get directions More about this location
 URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/28/financ
  e-and-governance-committee-whole-meeting
+X-SOURCE:Portland Council Meetings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Executive Session
+DTSTART;TZID=America/Los_Angeles:20260528T140000
+DTEND;TZID=America/Los_Angeles:20260528T140000
+UID:1084c4eeecab0cb5790630d61f30d4e5@portland.gov
+DESCRIPTION:
+LOCATION:City Hall 1221 SW Fourth Avenue Rose Room Portland\, OR 97204 Get
+  directions More information about this room
+URL:https://www.portland.gov/auditor/council-clerk/events/2026/5/28/city-c
+ ouncil-executive-session-0
 X-SOURCE:Portland Council Meetings
 END:VEVENT
 BEGIN:VEVENT

@@ -23,26 +23,6 @@ TZOFFSETTO:-0800
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
-TZID:America/Detroit
-BEGIN:DAYLIGHT
-TZNAME:EDT
-DTSTART:20260308T070000
-RDATE:20260308T070000
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
-END:DAYLIGHT
-END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:America/Detroit
-BEGIN:STANDARD
-TZNAME:EST
-DTSTART:20261101T060000
-RDATE:20261101T060000
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:DAYLIGHT
 TZNAME:EDT
@@ -63,37 +43,12 @@ TZOFFSETTO:-0500
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260520
-DTEND;VALUE=DATE:20260521
-LOCATION:Fowler Student Center
-GEO:45.44918;-122.670969
-SUMMARY:May 2026 Wilderness First Responder (WFR) - FULL
-UID:20260520T070000Z-335270@www.lclark.edu
-DTSTAMP:20220222T114841Z
-URL:https://www.lclark.edu/live/profiles/12615-wilderness-first-responder
-CATEGORIES:Open to the Public
-LAST-MODIFIED:20260509T201452Z
-ATTACH:https://www.lclark.edu/live/image/gid/258/width/80/height/80/crop/
- 1/src_region/0,0,1651,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:335270
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/258/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1651\,1238/38131_wfr.rev.1373935873.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Students pretend to be injured for a wilderness
-  rescue practice scenario
-X-LIVEWHALE-ALL-DAY:1
-X-LIVEWHALE-SUMMARY:<p>\n  $940 for General Public<br />\n  $695 for L&am
- p\;C Undergrad Students\n</p>
-X-LIVEWHALE-TAGS:Training Trips|WFR
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260520T090000
-DTEND;TZID=America/Los_Angeles:20260520T160000
+DTSTART;TZID=America/Los_Angeles:20260521T090000
+DTEND;TZID=America/Los_Angeles:20260521T160000
 LOCATION:Albany
 GEO:45.451415;-122.668211
 SUMMARY:Annual Faculty Technology Institute
-UID:20260520T160000Z-392500@www.lclark.edu
+UID:20260521T160000Z-392501@www.lclark.edu
 DTSTAMP:20260504T102747Z
 URL:https://www.lclark.edu/information_technology/client_services/faculty
  _technology_institute/
@@ -102,7 +57,7 @@ RRULE:FREQ=DAILY;UNTIL=20260522T160000Z;INTERVAL=1
 ATTACH:https://www.lclark.edu/live/image/gid/8/width/80/height/80/crop/1/
  src_region/0,0,1642,1642/113100_FTI26_WEB2.rev.1778102320.jpg
 X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:392500
+X-LIVEWHALE-ID:392501
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/8/width/80/height
  /80/crop/1/src_region/0\,0\,1642\,1642/113100_FTI26_WEB2.rev.1778102320.j
@@ -112,342 +67,6 @@ X-LIVEWHALE-SUMMARY:<p>\n  Registration is open for the Faculty Technolog
  r to explore\, experiment\, and share how they're using technology in tea
  ching\, learning and research.&#160\;\n</p>
 X-LIVEWHALE-REPEATS-UNTIL:2026-05-22 16:00:00
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260520T120000
-DTEND;TZID=America/Los_Angeles:20260520T140000
-LOCATION:McAfee
-GEO:45.4479004644199;-122.669466498642
-SUMMARY:McAfee Open House: Celebrating 25 Years!
-DESCRIPTION:The McAfee Building: From Temporary to Timeless  McAfee arriv
- ed on campus in 2001 as a prefabricated single-story office building with
-  a basement storeroom. It was never meant to be a permanent fixture on ca
- mpus\, but over the years\, a funny thing happened: we added a room here\
- , a renovation there\, and somewhere between the first coat of paint and 
- constructing several additional offices\, the building put down permanent
-  roots.  McAfee's offices now include: Advancement (https://college.lclar
- k.edu/giving/contact_us/)\, Communications (https://www.lclark.edu/office
- s/communications/staff/)\, Equity and Inclusion (https://www.lclark.edu/a
- bout/equity-and-inclusion/staff/)\, Human Resources (https://www.lclark.e
- du/offices/human_resources/staff/)\, and the Mailroom (https://www.lclark
- .edu/offices/mail_services/).  It turns out that when you fill a space wi
- th enough history\, heart\, and coffee spills\, it becomes impossible to 
- move.&#160\;  What: Open House Birthday Party  Where: McAfee (https://map
- .lclark.edu/?id=2086#!ct/70889\,73849?m/762277?s/mcaf)  When: Wednesday\,
-  May 20\, noon to 2 p.m.  What: Birthday cake\, coffee\, tea\, and raffle
-  prizes!
-X-ALT-DESC;FMTTYPE=text/html:<h4>  The McAfee Building: From Temporary to
-  Timeless</h4><p>  McAfee arrived on campus in 2001 as a prefabricated si
- ngle-story office building with a basement storeroom. It was never meant 
- to be a permanent fixture on campus\, but over the years\, a funny thing 
- happened: we added a room here\, a renovation there\, and somewhere betwe
- en the first coat of paint and constructing several additional offices\, 
- the building put down permanent roots.</p><p>  McAfee's offices now inclu
- de: <a href="https://college.lclark.edu/giving/contact_us/">Advancement</
- a>\, <a href="https://www.lclark.edu/offices/communications/staff/">Commu
- nications</a>\, <a href="https://www.lclark.edu/about/equity-and-inclusio
- n/staff/">Equity and Inclusion</a>\, <a href="https://www.lclark.edu/offi
- ces/human_resources/staff/">Human Resources</a>\, and the <a href="https:
- //www.lclark.edu/offices/mail_services/">Mailroom</a>.</p><p>  It turns o
- ut that when you fill a space with enough history\, heart\, and coffee sp
- ills\, it becomes impossible to move.&#160\;</p><p>  What: Open House Bir
- thday Party</p><p>  Where: <a href="https://map.lclark.edu/?id=2086#!ct/7
- 0889\,73849?m/762277?s/mcaf" target="_blank" rel="noopener">McAfee</a></p
- ><p>  When: Wednesday\, May 20\, noon to 2 p.m.</p><p>  What: Birthday ca
- ke\, coffee\, tea\, and raffle prizes!</p>
-UID:20260520T190000Z-386455@www.lclark.edu
-DTSTAMP:20260310T093113Z
-URL:https://www.lclark.edu/live/events/375368-mcafee-is-turning-25-come-f
- or-the-tour-stay-for-the-c
-LAST-MODIFIED:20260430T235418Z
-ATTACH:https://www.lclark.edu/live/image/gid/220/width/80/height/80/crop/
- 1/src_region/0,0,210,136/110981_Screenshot_2025-12-01_at_1.04.16PM.rev.17
- 64623172.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:386455
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/220/width/80/heig
- ht/80/crop/1/src_region/0\,0\,210\,136/110981_Screenshot_2025-12-01_at_1.
- 04.16PM.rev.1764623172.png
-X-LIVEWHALE-IMAGE-CAPTION:Birthday Cake
-X-LIVEWHALE-SUMMARY:<p>\n  Join the folks in McAfee as we celebrate this 
- quarter century anniversary—acknowledging the staying power of a triple
- -wide that refused to be temporary. Stop by for birthday cake\, coffee\, 
- tea\, and raffle prizes!\n</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260520T130000
-DTEND;TZID=America/Los_Angeles:20260520T140000
-LOCATION:Zoom
-SUMMARY:LiveWhale Office Hours
-DESCRIPTION:Questions about LiveWhale? Join us Wednesdays at 1pm for help
- .https://zoom.us/j/97714598655 (https://zoom.us/j/97714598655)
-X-ALT-DESC;FMTTYPE=text/html:<p>  Questions about LiveWhale? Join us Wedn
- esdays at 1pm for help.</p><p><a href="https://zoom.us/j/97714598655">htt
- ps://zoom.us/j/97714598655</a></p>
-UID:20260520T200000Z-368897@www.lclark.edu
-DTSTAMP:20250512T155430Z
-URL:https://www.lclark.edu/live/events/368394-livewhale-office-hours
-LAST-MODIFIED:20250512T225507Z
-RRULE:FREQ=WEEKLY;UNTIL=20260527T200000Z;INTERVAL=1
-EXDATE:20240117T210000Z,20240124T210000Z,20240131T210000Z,20240207T210000
- Z,20240214T210000Z,20240221T210000Z,20240228T210000Z,20240306T210000Z,202
- 40313T200000Z,20240320T200000Z,20240327T200000Z,20240403T200000Z,20240410
- T200000Z,20240417T200000Z,20240424T200000Z,20240501T200000Z,20240508T2000
- 00Z,20240515T200000Z,20240522T200000Z,20240529T200000Z,20240605T200000Z,2
- 0240612T200000Z,20240619T200000Z,20240626T200000Z,20240703T200000Z,202407
- 10T200000Z,20240717T200000Z,20240724T200000Z,20240731T200000Z,20240807T20
- 0000Z,20240814T200000Z,20240821T200000Z,20240828T200000Z,20240904T200000Z
- ,20240911T200000Z,20240918T200000Z,20240925T200000Z,20241002T200000Z,2024
- 1009T200000Z,20241016T200000Z,20241023T200000Z,20241030T200000Z,20241106T
- 210000Z,20241113T210000Z,20241120T210000Z,20241127T210000Z,20241204T21000
- 0Z,20241211T210000Z,20241218T210000Z,20241225T210000Z,20250101T210000Z,20
- 250108T210000Z,20250115T210000Z,20250122T210000Z,20250129T210000Z,2025020
- 5T210000Z,20250212T210000Z,20250219T210000Z,20250226T210000Z,20250305T210
- 000Z,20250312T200000Z,20250319T200000Z,20250326T200000Z,20250402T200000Z,
- 20250409T200000Z,20250416T200000Z,20250423T200000Z,20250430T200000Z,20250
- 507T200000Z,20251224T210000Z,20251231T210000Z
-ATTACH:https://www.lclark.edu/live/image/gid/409/width/80/height/80/crop/
- 1/src_region/0,0,546,544/82076_Screen_Shot_2020-01-22_at_9.04.46_AM.rev.1
- 579712737.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:368897
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/409/width/80/heig
- ht/80/crop/1/src_region/0\,0\,546\,544/82076_Screen_Shot_2020-01-22_at_9.
- 04.46_AM.rev.1579712737.png
-X-LIVEWHALE-SUMMARY:<p>\n  <a href="https://zoom.us/j/97714598655">Join o
- ur Zoom @1pm Wednesdays</a>\n</p>\n<p>\n  Meeting ID: 965 8651 7108<br />
- \n  Pass: 247846\n</p>
-X-LIVEWHALE-IS-ONLINE:1
-X-LIVEWHALE-ONLINE-TYPE:Online only
-X-LIVEWHALE-ONLINE-URL:https://zoom.us/j/97714598655
-X-LIVEWHALE-REPEATS-UNTIL:2026-05-27 20:00:00
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Detroit:20260520T170000
-DTEND;TZID=America/Detroit:20260520T190000
-LOCATION:Causa / Amazonia
-GEO:38.906911;-77.024796
-SUMMARY:D.C. Alumni Happy Hour!
-DESCRIPTION:You are invited to join Dean Alicia Ouellette (http://)\, Pro
- fessor Craig Johnston '85 (https://mx.technolutions.net/ss/c/u001.zYLOgsf
- DYOMYSBLXk8xvMc7Zn7exrDOHJgTX4XNkNf2jYnU7n0Bs14_bxj4QdRU-8lla5KmZjY_i9mhp
- kUO-Iw/4ps/2YKZ7ryNRA2j7fKTUbwR7w/h0/h001.3-a1b-AanmSucMcmjLgAkplbx_9YPXI
- 9lrflqYsp55E) and your fellow alums&#160\;for a casual happy hour! It's a
-  great chance to reconnect\, hear the latest campus updates\, celebrate t
- he upcoming 30th anniversary of Earthrise (https://mx.technolutions.net/s
- s/c/u001.zYLOgsfDYOMYSBLXk8xvMYF4hOX3Oy4KfaKcjz60_5BDERjpgu91wr7TKP_Eiv0B
- m5nUxXCAz9-EMV6l8S1tHQ/4ps/2YKZ7ryNRA2j7fKTUbwR7w/h1/h001.ccFx_zrWRgjNpAc
- iceAmjYFqCSFh_P7PNXZPJAlz1_A)\, and enjoy a drink on a Wednesday evening.
- Appetizers and first round of drinks on us!When: Wednesday\, May 20th at 
- 5 PM - 7 PM (EST)    Where: Causa ┃Amazonia* (920 Blagden Alley\, Washi
- ngton DC)      *Please join us upstairs at the Amazonia Side Bar.    RSVP
- : Please RSVP HERE (https://engage.lclark.edu/register/?id=85b19a3b-d034-
- 4c5d-a359-df99cfa8ec75) so we know to expect you!    Bonus: We will be ra
- ffling off a new River Otter (https://college.lclark.edu/live/profiles/24
- 414-river-otter) t-shirt to one lucky attendee!
-X-ALT-DESC;FMTTYPE=text/html:<p>  You are invited to join <a href="http:/
- /" target="_blank" rel="noopener">Dean Alicia Ouellette</a>\, <a title="h
- ttps://law.lclark.edu/live/profiles/279-craig-johnston" href="https://mx.
- technolutions.net/ss/c/u001.zYLOgsfDYOMYSBLXk8xvMc7Zn7exrDOHJgTX4XNkNf2jY
- nU7n0Bs14_bxj4QdRU-8lla5KmZjY_i9mhpkUO-Iw/4ps/2YKZ7ryNRA2j7fKTUbwR7w/h0/h
- 001.3-a1b-AanmSucMcmjLgAkplbx_9YPXI9lrflqYsp55E" target="_blank" rel="noo
- pener" data-saferedirecturl="https://www.google.com/url?q=https://mx.tech
- nolutions.net/ss/c/u001.zYLOgsfDYOMYSBLXk8xvMc7Zn7exrDOHJgTX4XNkNf2jYnU7n
- 0Bs14_bxj4QdRU-8lla5KmZjY_i9mhpkUO-Iw/4ps/2YKZ7ryNRA2j7fKTUbwR7w/h0/h001.
- 3-a1b-AanmSucMcmjLgAkplbx_9YPXI9lrflqYsp55E&amp\;source=gmail&amp\;ust=17
- 76286612354000&amp\;usg=AOvVaw11DjUvvN5rL9s7T_y-nJe5">Professor Craig Joh
- nston '85</a> and your fellow alums&#160\;for a casual happy hour! It's a
-  great chance to reconnect\, hear the latest campus updates\, celebrate t
- he upcoming 30th anniversary of <a title="https://law.lclark.edu/centers/
- earthrise/" href="https://mx.technolutions.net/ss/c/u001.zYLOgsfDYOMYSBLX
- k8xvMYF4hOX3Oy4KfaKcjz60_5BDERjpgu91wr7TKP_Eiv0Bm5nUxXCAz9-EMV6l8S1tHQ/4p
- s/2YKZ7ryNRA2j7fKTUbwR7w/h1/h001.ccFx_zrWRgjNpAciceAmjYFqCSFh_P7PNXZPJAlz
- 1_A" target="_blank" rel="noopener" data-saferedirecturl="https://www.goo
- gle.com/url?q=https://mx.technolutions.net/ss/c/u001.zYLOgsfDYOMYSBLXk8xv
- MYF4hOX3Oy4KfaKcjz60_5BDERjpgu91wr7TKP_Eiv0Bm5nUxXCAz9-EMV6l8S1tHQ/4ps/2Y
- KZ7ryNRA2j7fKTUbwR7w/h1/h001.ccFx_zrWRgjNpAciceAmjYFqCSFh_P7PNXZPJAlz1_A&
- amp\;source=gmail&amp\;ust=1776286612354000&amp\;usg=AOvVaw1ZSIiAdIqyObIu
- 4Wz8lVo_">Earthrise</a>\, and enjoy a drink on a Wednesday evening.</p><p
- ><strong>Appetizers and first round of drinks on us!</strong></p><ul data
- -path-to-node="8"><li><p data-path-to-node="8\,0\,0"><strong data-index-i
- n-node="0" data-path-to-node="8\,0\,0">When:</strong> Wednesday\, May 20t
- h at 5 PM - 7 PM (EST)    </p></li><li><p data-path-to-node="8\,1\,0"><st
- rong data-index-in-node="0" data-path-to-node="8\,1\,0">Where:</strong> C
- ausa ┃Amazonia* (920 Blagden Alley\, Washington DC)<br />      *Please 
- join us upstairs at the Amazonia Side Bar.    </p></li><li><p data-path-t
- o-node="8\,2\,0"><strong data-index-in-node="0" data-path-to-node="8\,2\,
- 0">RSVP:</strong> Please <a href="https://engage.lclark.edu/register/?id=
- 85b19a3b-d034-4c5d-a359-df99cfa8ec75" target="_blank" rel="noopener">RSVP
-  HERE</a> so we know to expect you!    </p></li></ul><p><strong>Bonus</st
- rong>: We will be raffling off a new <a href="https://college.lclark.edu/
- live/profiles/24414-river-otter" target="_blank" rel="noopener">River Ott
- er</a> t-shirt to one lucky attendee!</p>
-UID:20260520T210000Z-390432@www.lclark.edu
-DTSTAMP:20260414T100603Z
-URL:https://www.lclark.edu/calendars/events/event/390432-dc-alumni-happy-
- hour
-LAST-MODIFIED:20260506T185614Z
-ATTACH:https://www.lclark.edu/live/image/gid/194/width/80/height/80/crop/
- 1/src_region/0,0,1000,300/113081_Alicia_and_Craig.rev.1778093766.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:390432
-X-LIVEWHALE-TIMEZONE:America/Detroit
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/194/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1000\,300/113081_Alicia_and_Craig.rev.17780
- 93766.jpg
-X-LIVEWHALE-IMAGE-CAPTION:Law Alumni Reception in DC!
-X-LIVEWHALE-COST:Free
-X-LIVEWHALE-CONTACT-INFO:<p>\n  Office of Law Alumni Relations<br />\n  (
- 503) 768-6890<br />\n  lawalum@lclark.edu\n</p>
-X-LIVEWHALE-SUMMARY:<p>\n  DC alums\, Lewis &amp\; Clark Law School is co
- ming to town!\n</p>
-X-LIVEWHALE-TAGS:law Alumni
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260520T143000
-DTEND;TZID=America/Los_Angeles:20260520T160000
-LOCATION:Gregg Pavilion
-GEO:45.4506477144909;-122.671172383575
-SUMMARY:Relax and Rejuvenate: Sound Bath and Meditation
-DESCRIPTION:Sound Bath Experience  Allow yourself to surrender to the hea
- ling power of sound\, creating space for peace\, renewal\, and deep inner
-  harmony. This offering begins with a brief guided meditation\, followed 
- by an extended Sound Bath featuring the resonant tones of crystal bowls a
- nd other healing instruments. The soothing frequencies help promote deep 
- relaxation\, renewal\, and overall physical and emotional well-being.What
-  to Expect:Introduction and Intention Setting – A short meditation to c
- enter the mind and prepare for the journey.  Sound Bath – Experience th
- e immersive power of sound as vibrations wash over you\, supporting deep 
- rest and energetic balance.  Closing and Integration – Time for reflect
- ion\, gentle reawakening\, and optional sharing.  What to Bring:  To enha
- nce your comfort\, we recommend bringing:A yoga mat\, blanket\, pillow\, 
- and eye mask—whatever supports you in fully relaxing while lying down f
- or an hour.  A small personal item for the altar to honor someone or some
- thing\, set an intention\, or infuse with positive energy.  Seats are lim
- ited! We have room for 15 faculty/staff participants for this event. We w
- ill enable a waitlist if we reach that cap.
-X-ALT-DESC;FMTTYPE=text/html:<p style="font-weight: 400\;"><strong>Sound 
- Bath Experience</strong></p><p style="font-weight: 400\;">  Allow yoursel
- f to surrender to the healing power of sound\, creating space for peace\,
-  renewal\, and deep inner harmony. This offering begins with a brief guid
- ed meditation\, followed by an extended Sound Bath featuring the resonant
-  tones of crystal bowls and other healing instruments. The soothing frequ
- encies help promote deep relaxation\, renewal\, and overall physical and 
- emotional well-being.</p><p><strong>What to Expect:</strong></p><ul><li><
- strong>Introduction and Intention Setting</strong> – A short meditation
-  to center the mind and prepare for the journey.  </li><li><strong>Sound 
- Bath</strong> – Experience the immersive power of sound as vibrations w
- ash over you\, supporting deep rest and energetic balance.  </li><li><str
- ong>Closing and Integration</strong> – Time for reflection\, gentle rea
- wakening\, and optional sharing.  </li></ul><p><strong>What to Bring:</st
- rong></p><p>  To enhance your comfort\, we recommend bringing:</p><ul><li
- >A yoga mat\, blanket\, pillow\, and eye mask—whatever supports you in 
- fully relaxing while lying down for an hour.  </li><li>A small personal i
- tem for the altar to honor someone or something\, set an intention\, or i
- nfuse with positive energy.  </li></ul><p><em><strong>Seats are limited! 
- We have room for 15 faculty/staff participants for this event. We will en
- able a waitlist if we reach that cap.</strong></em></p>
-UID:20260520T213000Z-390774@www.lclark.edu
-DTSTAMP:20260417T113123Z
-URL:https://www.lclark.edu/live/events/389944-relax-and-rejuvenate-sound-
- bath-and-meditation
-LAST-MODIFIED:20260430T211331Z
-ATTACH:https://www.lclark.edu/live/image/gid/482/width/80/height/80/crop/
- 1/src_region/0,0,1500,1500/112754_Relax_and_Rejuvenate_Sound_Bath_and_Med
- itation.rev.1775849503.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:390774
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/482/width/80/heig
- ht/80/crop/1/src_region/0\,0\,1500\,1500/112754_Relax_and_Rejuvenate_Soun
- d_Bath_and_Meditation.rev.1775849503.png
-X-LIVEWHALE-IMAGE-CAPTION:relax and rejuvenate sound bath
-X-LIVEWHALE-COST:Free
-X-LIVEWHALE-SUMMARY:<p>\n  As the semester has come to an end\, the Offic
- e of Equity and Inclusion invites faculty and staff to reflect on the aca
- demic year\, relax\, and build community with a year end sound bath and m
- editation opportunity.<br />\n  <br />\n  The session will be led by <a h
- ref="https://crownandhearthealing.com/">Laura Yee of Crown &amp\; Heart H
- ealing</a>\, on May 20 from 2:30–4:00 p.m. in Gregg Pavilion. Space is 
- limited\, RSVP if you would like to attend!\n</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260520T170000
-DTEND;TZID=America/Los_Angeles:20260520T180000
-LOCATION:Zoom
-SUMMARY:2026 L&C Athletics Virtual Series: Wednesdays at 5
-DESCRIPTION:From season previews and recruiting updates to stories of int
- ernational competition and professional careers in the NBA and beyond\, t
- hese sessions celebrate the journey of the student-athlete and the enduri
- ng strength of the L&amp\;C network. Whether you are a fan\, a former ath
- lete\, or a supporter of the program\, tune in to hear how we are buildin
- g a championship culture on the field\, in the classroom\, and throughout
-  our community.  This series has two day/time slots: the third Wednesday 
- of every month at 5:00 PM Pacific Time and Thursdays at 12:00 Pacific Tim
- e - January 22nd and then the third Thursdays.Click to Register for one o
- r more of the Wednesday sessions (https://engage.lclark.edu/register/?id=
- fa8548f3-e4ce-433f-b0f9-b53e925dea22)Session Dates and Topics:January 21 
- 5:00-6:00 PM PT: The Unified Front: From Local Leadership to the World St
- age  February 18 5:00-6:00 PM PT: Chasing Greatness: Recruitment\, Resear
- ch\, and the Road to Pro  March 18 5:00-6:00 PM PT: The Big League Path: 
- From Campus Internships to the NBA Front Office  April 15 5:00-6:00 PM PT
- : Stepping Up to the Plate: Leadership Lessons from L&amp\;C Athletics  M
- ay 20 5:00-6:00 PM PT: Leading from the Circle: Empowerment and Excellenc
- e in Sport  Additionally to learn more and register for one or more of th
- e sessions taking place on Thursdays at 12:00 Pacific Time\, visit this l
- ink (https://engage.lclark.edu/register/?id=3f52191c-dccb-40e3-ab98-a0794
- a499ce5).
-X-ALT-DESC;FMTTYPE=text/html:<p>  From <strong>season previews</strong> a
- nd <strong>recruiting updates</strong> to <strong>stories of internationa
- l competition and professional careers in the NBA</strong> and beyond\, t
- hese sessions celebrate the journey of the student-athlete and the enduri
- ng strength of the L&amp\;C network. Whether you are a fan\, a former ath
- lete\, or a supporter of the program\, tune in to hear how we are buildin
- g a championship culture on the field\, in the classroom\, and throughout
-  our community.</p><p>  This series has two day/time slots: the third Wed
- nesday of every month at 5:00 PM Pacific Time and Thursdays at 12:00 Paci
- fic Time - January 22nd and then the third Thursdays.<br /><a class="btn-
- small-style-1 btn-small-style-1 btn-small-style-1" href="https://engage.l
- clark.edu/register/?id=fa8548f3-e4ce-433f-b0f9-b53e925dea22" target="_bla
- nk" rel="noopener">Click to Register for one or more of the Wednesday ses
- sions</a><br /><strong>Session Dates and Topics:</strong><br /><strong>Ja
- nuary 21 5:00-6:00 PM PT: The Unified Front:</strong> From Local Leadersh
- ip to the World Stage<strong><br />  February 18 5:00-6:00 PM PT: Chasing
-  Greatness:</strong> Recruitment\, Research\, and the Road to Pro<strong>
- <br />  March 18 5:00-6:00 PM PT: The Big League Path:</strong> From Camp
- us Internships to the NBA Front Office<strong><br />  April 15 5:00-6:00 
- PM PT: Stepping Up to the Plate:</strong> Leadership Lessons from L&amp\;
- C Athletics<strong><br />  May 20 5:00-6:00 PM PT: Leading from the Circl
- e:</strong> Empowerment and Excellence in Sport</p><p>  Additionally to l
- earn more and register for one or more of the sessions taking place on <a
-  href="https://engage.lclark.edu/register/?id=3f52191c-dccb-40e3-ab98-a07
- 94a499ce5" data-cke-saved-href="https://engage.lclark.edu/register/?id=3f
- 52191c-dccb-40e3-ab98-a0794a499ce5">Thursdays at 12:00 Pacific Time\, vis
- it this link</a>.</p>
-UID:20260521T000000Z-377588@www.lclark.edu
-DTSTAMP:20251222T155522Z
-URL:https://www.lclark.edu/calendars/events/event/377588-2026-lampc-athle
- tics-virtual-series
-LAST-MODIFIED:20260105T233120Z
-RRULE:FREQ=MONTHLY;COUNT=5;INTERVAL=1;BYDAY=4WE
-ATTACH:https://www.lclark.edu/live/image/gid/45/width/80/height/80/crop/1
- /src_region/0,0,500,500/111344_Untitled_design_7.rev.1766080771.png
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:377588
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/45/width/80/heigh
- t/80/crop/1/src_region/0\,0\,500\,500/111344_Untitled_design_7.rev.176608
- 0771.png
-X-LIVEWHALE-SUMMARY:<p>\n  Join us for the <strong>2026 L&amp\;C Athletic
- s Virtual Series</strong>\, a dynamic collection of conversations that br
- ing the L&amp\;C community together from across the globe. This series of
- fers an insider's look at the <strong>"Pursuit of Excellence" within L&am
- p\;C Athletics\, featuring a unique 360-degree perspective from our dedic
- ated coaches\, inspiring current student-athletes\, and successful alumni
- .</strong>\n</p>
-X-LIVEWHALE-TAGS:alumni|athletics
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260521T120000
@@ -729,6 +348,55 @@ X-LIVEWHALE-ALL-DAY:1
 X-LIVEWHALE-SUMMARY:<p>Details to come!</p>
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260527T130000
+DTEND;TZID=America/Los_Angeles:20260527T140000
+LOCATION:Zoom
+SUMMARY:LiveWhale Office Hours
+DESCRIPTION:Questions about LiveWhale? Join us Wednesdays at 1pm for help
+ .https://zoom.us/j/97714598655 (https://zoom.us/j/97714598655)
+X-ALT-DESC;FMTTYPE=text/html:<p>  Questions about LiveWhale? Join us Wedn
+ esdays at 1pm for help.</p><p><a href="https://zoom.us/j/97714598655">htt
+ ps://zoom.us/j/97714598655</a></p>
+UID:20260527T200000Z-368898@www.lclark.edu
+DTSTAMP:20250512T155430Z
+URL:https://www.lclark.edu/live/events/368396-livewhale-office-hours
+LAST-MODIFIED:20250512T225507Z
+RRULE:FREQ=WEEKLY;UNTIL=20260527T200000Z;INTERVAL=1
+EXDATE:20240117T210000Z,20240124T210000Z,20240131T210000Z,20240207T210000
+ Z,20240214T210000Z,20240221T210000Z,20240228T210000Z,20240306T210000Z,202
+ 40313T200000Z,20240320T200000Z,20240327T200000Z,20240403T200000Z,20240410
+ T200000Z,20240417T200000Z,20240424T200000Z,20240501T200000Z,20240508T2000
+ 00Z,20240515T200000Z,20240522T200000Z,20240529T200000Z,20240605T200000Z,2
+ 0240612T200000Z,20240619T200000Z,20240626T200000Z,20240703T200000Z,202407
+ 10T200000Z,20240717T200000Z,20240724T200000Z,20240731T200000Z,20240807T20
+ 0000Z,20240814T200000Z,20240821T200000Z,20240828T200000Z,20240904T200000Z
+ ,20240911T200000Z,20240918T200000Z,20240925T200000Z,20241002T200000Z,2024
+ 1009T200000Z,20241016T200000Z,20241023T200000Z,20241030T200000Z,20241106T
+ 210000Z,20241113T210000Z,20241120T210000Z,20241127T210000Z,20241204T21000
+ 0Z,20241211T210000Z,20241218T210000Z,20241225T210000Z,20250101T210000Z,20
+ 250108T210000Z,20250115T210000Z,20250122T210000Z,20250129T210000Z,2025020
+ 5T210000Z,20250212T210000Z,20250219T210000Z,20250226T210000Z,20250305T210
+ 000Z,20250312T200000Z,20250319T200000Z,20250326T200000Z,20250402T200000Z,
+ 20250409T200000Z,20250416T200000Z,20250423T200000Z,20250430T200000Z,20250
+ 507T200000Z,20251224T210000Z,20251231T210000Z
+ATTACH:https://www.lclark.edu/live/image/gid/409/width/80/height/80/crop/
+ 1/src_region/0,0,546,544/82076_Screen_Shot_2020-01-22_at_9.04.46_AM.rev.1
+ 579712737.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:368898
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/409/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,546\,544/82076_Screen_Shot_2020-01-22_at_9.
+ 04.46_AM.rev.1579712737.png
+X-LIVEWHALE-SUMMARY:<p>\n  <a href="https://zoom.us/j/97714598655">Join o
+ ur Zoom @1pm Wednesdays</a>\n</p>\n<p>\n  Meeting ID: 965 8651 7108<br />
+ \n  Pass: 247846\n</p>
+X-LIVEWHALE-IS-ONLINE:1
+X-LIVEWHALE-ONLINE-TYPE:Online only
+X-LIVEWHALE-ONLINE-URL:https://zoom.us/j/97714598655
+X-LIVEWHALE-REPEATS-UNTIL:2026-05-27 20:00:00
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 LOCATION:Law Campus
@@ -862,43 +530,40 @@ DESCRIPTION:This interactive\, in-person workshop will help participants
   CEUs or PDUs\, GSEC Alumni and Adjuncts save 20%Current GSEC Supervisors
  : $112\, includes 6 CEUs or PDUsRegister Online (https://lclark.tfaforms.
  net/wf1W4MQ?epid=a1aUY000002P22H)Workshop registration ends May 26\, 2026
-   Community (no CEUs or PDUs) registration spots are currently full. Add 
- your name to the waitlist (https://lclark.tfaforms.net/4735424/?epid=a1aU
- Y000002P22H).  No-cost registrations available for GSEC Faculty and Staff
-  are full. Email cce@lclark.edu (mailto:cce@lclark.edu) to join the waitl
- ist.Accessibility: We are committed to making our events accessible to al
- l needs and abilities. When registering\, please let us know your access 
- needs. Contact us at 503-768-6040 or cce@lclark.edu (mailto:cce@lclark.ed
- u)&#160\;with questions.Please note: Discounted &#x2018\;Student Rate&#x2
- 019\; registrations are for current students only and do not include cont
- inuing education credit (CEU/PDUs)About the InstructorsCarson Varnum\, ME
- d\, (he/him) is a community builder and educator with an expertise in sex
- ual health\, sexualities\, peer education\, and community development. Ca
- rson specializes in building capacity in sex educators\, creating sexuali
- ty education and leadership development programming for adolescents\, and
-  developing programs that center Queer and Trans communities. Carson work
- s at Lewis &amp\; Clark Graduate School as TransActives's Head of Educati
- on and Outreach\, where he supports transgender\, non-binary\, and other 
- gender expansive youth by strengthening the systems that surround them. H
- e received his Masters of Education in Human Sexuality from Widener Unive
- rsity in 2012 and is currently a PhD student in Education and Leadership 
- at Pacific University. Carson is a big fan of being on mountains\, in riv
- ers\, and with friends.&#160\;Finn Johnson\, PhD (he/him) recently earned
-  their doctorate in Women\, Gender\, and Sexuality Studies and Ethnic Stu
- dies at Oregon State University\, and is a law student at Lewis &amp\; Cl
- ark Law School. He holds an MA in Women\, Gender\, and Sexuality Studies 
- from Oregon State and a BA in Sexuality\, Gender\, and Queer Studies from
-  Portland State University. Before law school\, Finn taught and developed
-  undergraduate courses in Women\, Gender\, and Sexuality Studies at Orego
- n State\, focusing on queer and trans studies. He also publishes scholars
- hip in Critical Race Theory\, Critical Legal Studies\, and LGBTQIA+ STEM 
- Studies. His doctoral research has examined anti-transgender legislation 
- in the U.S. since 2016. Beyond research\, he has extensive experience as 
- an activist\, lobbyist\, and community educator in LGBTQIA+ and reproduct
- ive justice policy.New workshops and trainings are added to our calendar 
- regularly. For the latest on professional development related to your spe
- cific interests\, sign up for our mailing list! (https://lclark.tfaforms.
- net/4735441)
+   No-cost registrations available for GSEC Faculty and Staff are full. Em
+ ail cce@lclark.edu (mailto:cce@lclark.edu) to join the waitlist.Accessibi
+ lity: We are committed to making our events accessible to all needs and a
+ bilities. When registering\, please let us know your access needs. Contac
+ t us at 503-768-6040 or cce@lclark.edu (mailto:cce@lclark.edu)&#160\;with
+  questions.Please note: Discounted &#x2018\;Student Rate&#x2019\; registr
+ ations are for current students only and do not include continuing educat
+ ion credit (CEU/PDUs)About the InstructorsCarson Varnum\, MEd\, (he/him) 
+ is a community builder and educator with an expertise in sexual health\, 
+ sexualities\, peer education\, and community development. Carson speciali
+ zes in building capacity in sex educators\, creating sexuality education 
+ and leadership development programming for adolescents\, and developing p
+ rograms that center Queer and Trans communities. Carson works at Lewis &a
+ mp\; Clark Graduate School as TransActives's Head of Education and Outrea
+ ch\, where he supports transgender\, non-binary\, and other gender expans
+ ive youth by strengthening the systems that surround them. He received hi
+ s Masters of Education in Human Sexuality from Widener University in 2012
+  and is currently a PhD student in Education and Leadership at Pacific Un
+ iversity. Carson is a big fan of being on mountains\, in rivers\, and wit
+ h friends.&#160\;Finn Johnson\, PhD (he/him) recently earned their doctor
+ ate in Women\, Gender\, and Sexuality Studies and Ethnic Studies at Orego
+ n State University\, and is a law student at Lewis &amp\; Clark Law Schoo
+ l. He holds an MA in Women\, Gender\, and Sexuality Studies from Oregon S
+ tate and a BA in Sexuality\, Gender\, and Queer Studies from Portland Sta
+ te University. Before law school\, Finn taught and developed undergraduat
+ e courses in Women\, Gender\, and Sexuality Studies at Oregon State\, foc
+ using on queer and trans studies. He also publishes scholarship in Critic
+ al Race Theory\, Critical Legal Studies\, and LGBTQIA+ STEM Studies. His 
+ doctoral research has examined anti-transgender legislation in the U.S. s
+ ince 2016. Beyond research\, he has extensive experience as an activist\,
+  lobbyist\, and community educator in LGBTQIA+ and reproductive justice p
+ olicy.New workshops and trainings are added to our calendar regularly. Fo
+ r the latest on professional development related to your specific interes
+ ts\, sign up for our mailing list! (https://lclark.tfaforms.net/4735441)
 X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This interac
  tive\, in-person workshop will help participants to build a clear underst
  anding of the current political climate we are experiencing\, and how we 
@@ -951,62 +616,60 @@ X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  This interac
  urrent GSEC Supervisors:</strong> $112\, includes 6 CEUs or PDUs</p><p><a
   class="btn-small-style-1" href="https://lclark.tfaforms.net/wf1W4MQ?epid
  =a1aUY000002P22H" target="_blank" rel="noopener">Register Online</a></p><
- p><em>Workshop registration ends May 26\, 2026</em></p><p>  Community (no
-  CEUs or PDUs) registration spots are currently full. <a href="https://lc
- lark.tfaforms.net/4735424/?epid=a1aUY000002P22H">Add your name to the wai
- tlist</a>.</p><p>  No-cost registrations available for GSEC Faculty and S
- taff are full. Email <a href="mailto:cce@lclark.edu">cce@lclark.edu</a> t
- o join the waitlist.</p><div id="lw_widget_30f0017c" class="lw_widget lw_
- widget_type_blurbs lw_widget_blurbs lw_widget_id_7119 lw_widget_accessibi
- lity_statement lw_widget_pagination"><ul class="lw_widget_results lw_widg
- et_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p c
- lass="p1" style="font-size: 15px\; line-height: 1.5\;"><em><strong>Access
- ibility:</strong> We are committed to making our events accessible to all
-  needs and abilities. When registering\, please let us know your access n
- eeds. Contact us at 503-768-6040 or <a href="mailto:cce@lclark.edu">cce@l
- clark.edu</a>&#160\;with questions.<br/></em></p><p class="p1" style="fon
- t-size: 15px\; line-height: 1.5\;"><em><strong>Please note:</strong> Disc
- ounted &#x2018\;Student Rate&#x2019\; registrations are for current stude
- nts only and <strong>do not</strong> include continuing education credit 
- (CEU/PDUs)</em></p></div></li></ul></div><hr /><h2><strong>About the Inst
- ructors</strong></h2><p style="line-height: 1.5\;"><strong>Carson Varnum\
- , MEd\,</strong> (he/him) is a community builder and educator with an exp
- ertise in sexual health\, sexualities\, peer education\, and community de
- velopment. Carson specializes in building capacity in sex educators\, cre
- ating sexuality education and leadership development programming for adol
- escents\, and developing programs that center Queer and Trans communities
- . Carson works at Lewis &amp\; Clark Graduate School as TransActives's He
- ad of Education and Outreach\, where he supports transgender\, non-binary
- \, and other gender expansive youth by strengthening the systems that sur
- round them. He received his Masters of Education in Human Sexuality from 
- Widener University in 2012 and is currently a PhD student in Education an
- d Leadership at Pacific University. Carson is a big fan of being on mount
- ains\, in rivers\, and with friends.&#160\;</p><p style="line-height: 1.5
- \;"><strong>Finn Johnson\, PhD</strong> (he/him) recently earned their do
- ctorate in Women\, Gender\, and Sexuality Studies and Ethnic Studies at O
- regon State University\, and is a law student at Lewis &amp\; Clark Law S
- chool. He holds an MA in Women\, Gender\, and Sexuality Studies from Oreg
- on State and a BA in Sexuality\, Gender\, and Queer Studies from Portland
-  State University. Before law school\, Finn taught and developed undergra
- duate courses in Women\, Gender\, and Sexuality Studies at Oregon State\,
-  focusing on queer and trans studies. He also publishes scholarship in Cr
- itical Race Theory\, Critical Legal Studies\, and LGBTQIA+ STEM Studies. 
- His doctoral research has examined anti-transgender legislation in the U.
- S. since 2016. Beyond research\, he has extensive experience as an activi
- st\, lobbyist\, and community educator in LGBTQIA+ and reproductive justi
- ce policy.</p><div id="lw_widget_470b39ba" class="lw_widget lw_widget_typ
- e_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_pa
- gination"><ul class="lw_widget_results lw_widget_results_blurbs"><li clas
- s="lw_item_1"><div class="lw_blurbs_body"><p style="line-height: 1.5\;"><
- em><strong>New workshops and trainings are added to our calendar regularl
- y.</strong> For the latest on professional development related to your sp
- ecific interests\, <a href="https://lclark.tfaforms.net/4735441">sign up 
- for our mailing list!</a></em></p></div></li></ul></div>
+ p><em>Workshop registration ends May 26\, 2026</em></p><p>  No-cost regis
+ trations available for GSEC Faculty and Staff are full. Email <a href="ma
+ ilto:cce@lclark.edu">cce@lclark.edu</a> to join the waitlist.</p><div id=
+ "lw_widget_30f0017c" class="lw_widget lw_widget_type_blurbs lw_widget_blu
+ rbs lw_widget_id_7119 lw_widget_accessibility_statement lw_widget_paginat
+ ion"><ul class="lw_widget_results lw_widget_results_blurbs"><li class="lw
+ _item_1"><div class="lw_blurbs_body"><p class="p1" style="font-size: 15px
+ \; line-height: 1.5\;"><em><strong>Accessibility:</strong> We are committ
+ ed to making our events accessible to all needs and abilities. When regis
+ tering\, please let us know your access needs. Contact us at 503-768-6040
+  or <a href="mailto:cce@lclark.edu">cce@lclark.edu</a>&#160\;with questio
+ ns.<br/></em></p><p class="p1" style="font-size: 15px\; line-height: 1.5\
+ ;"><em><strong>Please note:</strong> Discounted &#x2018\;Student Rate&#x2
+ 019\; registrations are for current students only and <strong>do not</str
+ ong> include continuing education credit (CEU/PDUs)</em></p></div></li></
+ ul></div><hr /><h2><strong>About the Instructors</strong></h2><p style="l
+ ine-height: 1.5\;"><strong>Carson Varnum\, MEd\,</strong> (he/him) is a c
+ ommunity builder and educator with an expertise in sexual health\, sexual
+ ities\, peer education\, and community development. Carson specializes in
+  building capacity in sex educators\, creating sexuality education and le
+ adership development programming for adolescents\, and developing program
+ s that center Queer and Trans communities. Carson works at Lewis &amp\; C
+ lark Graduate School as TransActives's Head of Education and Outreach\, w
+ here he supports transgender\, non-binary\, and other gender expansive yo
+ uth by strengthening the systems that surround them. He received his Mast
+ ers of Education in Human Sexuality from Widener University in 2012 and i
+ s currently a PhD student in Education and Leadership at Pacific Universi
+ ty. Carson is a big fan of being on mountains\, in rivers\, and with frie
+ nds.&#160\;</p><p style="line-height: 1.5\;"><strong>Finn Johnson\, PhD</
+ strong> (he/him) recently earned their doctorate in Women\, Gender\, and 
+ Sexuality Studies and Ethnic Studies at Oregon State University\, and is 
+ a law student at Lewis &amp\; Clark Law School. He holds an MA in Women\,
+  Gender\, and Sexuality Studies from Oregon State and a BA in Sexuality\,
+  Gender\, and Queer Studies from Portland State University. Before law sc
+ hool\, Finn taught and developed undergraduate courses in Women\, Gender\
+ , and Sexuality Studies at Oregon State\, focusing on queer and trans stu
+ dies. He also publishes scholarship in Critical Race Theory\, Critical Le
+ gal Studies\, and LGBTQIA+ STEM Studies. His doctoral research has examin
+ ed anti-transgender legislation in the U.S. since 2016. Beyond research\,
+  he has extensive experience as an activist\, lobbyist\, and community ed
+ ucator in LGBTQIA+ and reproductive justice policy.</p><div id="lw_widget
+ _470b39ba" class="lw_widget lw_widget_type_blurbs lw_widget_blurbs lw_wid
+ get_id_3994 lw_widget_opt_in lw_widget_pagination"><ul class="lw_widget_r
+ esults lw_widget_results_blurbs"><li class="lw_item_1"><div class="lw_blu
+ rbs_body"><p style="line-height: 1.5\;"><em><strong>New workshops and tra
+ inings are added to our calendar regularly.</strong> For the latest on pr
+ ofessional development related to your specific interests\, <a href="http
+ s://lclark.tfaforms.net/4735441">sign up for our mailing list!</a></em></
+ p></div></li></ul></div>
 UID:20260530T160000Z-384894@www.lclark.edu
 DTSTAMP:20260224T155624Z
 URL:https://www.lclark.edu/calendars/events/event/384894-trans-form-groun
  ding-into-trans-history-liberation-an
-LAST-MODIFIED:20260515T162302Z
+LAST-MODIFIED:20260520T212801Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,852,853/112366_pezibear-anemone-4237425_1280.rev.17732540
  51.jpg
@@ -1768,7 +1431,7 @@ UID:20260612T003000Z-388887@www.lclark.edu
 DTSTAMP:20260331T120034Z
 URL:https://www.lclark.edu/calendars/events/event/388887-alumni-weekend-n
  ight-at-the-portland-pickles
-LAST-MODIFIED:20260508T222605Z
+LAST-MODIFIED:20260520T214112Z
 ATTACH:https://www.lclark.edu/live/image/gid/45/width/80/height/80/crop/1
  /src_region/0,0,2000,2000/112634_Untitled_design_1.rev.1775061707.png
 X-LIVEWHALE-TYPE:events
@@ -1850,6 +1513,38 @@ X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/45/width/80/heigh
 X-LIVEWHALE-IMAGE-CAPTION:Aerials May 2016
 X-LIVEWHALE-SUMMARY:<p>\n  In-person event.\n</p>
 X-LIVEWHALE-TAGS:alumni|Board of Alumni|In-person Event
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260614T120000
+DTEND;TZID=America/Los_Angeles:20260614T160000
+LOCATION:Lillis-Albina Park
+SUMMARY:Soul Walk North
+DESCRIPTION:Join us next to Lillis-Albina Park for a street party featuri
+ ng community orgs\, local food vendors\, music\, and a gathering space wh
+ ere you can begin the walk. Start the tour with us here.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Join us next to Lillis-Albina Park for 
+ a street party featuring community orgs\, local food vendors\, music\, an
+ d a gathering space where you can begin the walk. Start the tour with us 
+ here.</p>
+UID:20260614T190000Z-394139@www.lclark.edu
+DTSTAMP:20260520T141646Z
+URL:https://www.lclark.edu/live/events/394136-soul-walk-north
+CATEGORIES:Open to the Public
+LAST-MODIFIED:20260520T234017Z
+ATTACH:https://www.lclark.edu/live/image/gid/723/width/80/height/80/crop/
+ 1/src_region/0,0,1048,1398/113364_Soul_Walk_North_Block_Party_2026.rev.17
+ 79311624.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:394139
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/723/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,1048\,1398/113364_Soul_Walk_North_Block_Par
+ ty_2026.rev.1779311624.png
+X-LIVEWHALE-IMAGE-CAPTION:Soul Walk North Block Party 2026
+X-LIVEWHALE-SUMMARY:<p>\n  <strong><i>Soul Walk North</i></strong> invite
+ s you to visit historic landmarks where music thrived in Portland's Black
+  community. Learn about Albina's past\, listen to the music that built it
+ s legacy\, and hear from those helping to shape its future.&#160\;\n</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260617T090000
@@ -2832,6 +2527,48 @@ X-LIVEWHALE-SUMMARY:<p>\n  Friday &amp\; Saturday\, June 26-27\, 2026\, 8
  :30 a.m.-4:30 p.m. | 15 CEUs or PDUs (NASP-Approved)\n</p>
 X-LIVEWHALE-TAGS:All Courses Upcoming|Counselors Upcoming|cpsy|Educators 
  Upcoming|homepage|june|send-to-graduate|workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260627T070000
+DTEND;TZID=America/Los_Angeles:20260627T200000
+SUMMARY:Volunteers Needed: Albina Vision Trust Reclaim The District
+DESCRIPTION:Saturday\, June 27th Albina Vision Trust and Good in the Hood
+  are teaming up to "Reclaim the District" with an all-day block party at 
+ Lillis-Albina Park.  We are currently looking for volunteers to help make
+  the event possible. If you are interested\, please fill out this form (h
+ ttps://forms.office.com/pages/responsepage.aspx?id=kvM0AZ9_bUmzy7vf3wKhnu
+ QhKEWuAVxFnQQovcyYnGJUOVI5OVFCMzA2S1A1VDU0R1VKSDFUVFdDMC4u&amp\;route=sho
+ rturl).
+X-ALT-DESC;FMTTYPE=text/html:<p><strong>Saturday\, June 27th Albina Visio
+ n Trust and Good in the Hood are teaming up to "Reclaim the District"</st
+ rong> with an all-day block party at Lillis-Albina Park.</p><p>  We are c
+ urrently looking for volunteers to help make the event possible. If you a
+ re interested\, please fill out this <a href="https://forms.office.com/pa
+ ges/responsepage.aspx?id=kvM0AZ9_bUmzy7vf3wKhnuQhKEWuAVxFnQQovcyYnGJUOVI5
+ OVFCMzA2S1A1VDU0R1VKSDFUVFdDMC4u&amp\;route=shorturl" target="_blank" rel
+ ="noopener" data-saferedirecturl="https://www.google.com/url?q=https://fo
+ rms.office.com/pages/responsepage.aspx?id%3DkvM0AZ9_bUmzy7vf3wKhnuQhKEWuA
+ VxFnQQovcyYnGJUOVI5OVFCMzA2S1A1VDU0R1VKSDFUVFdDMC4u%26route%3Dshorturl&am
+ p\;source=gmail&amp\;ust=1779397892138000&amp\;usg=AOvVaw2ehA6OkKlZDSljid
+ bTUg-J">form</a>.</p>
+UID:20260627T140000Z-394208@www.lclark.edu
+DTSTAMP:20260520T164121Z
+URL:https://www.lclark.edu/live/events/394198-volunteers-needed-albina-vi
+ sion-trust-reclaim-the
+CATEGORIES:Open to the Public
+LAST-MODIFIED:20260520T234121Z
+RRULE:FREQ=DAILY;UNTIL=20260628T140000Z;INTERVAL=1
+ATTACH:https://www.lclark.edu/live/image/gid/723/width/80/height/80/crop/
+ 1/src_region/0,0,1080,1350/113368_Reclaim_the_District_2026.rev.177932024
+ 6.png
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:394208
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/723/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,1080\,1350/113368_Reclaim_the_District_2026
+ .rev.1779320246.png
+X-LIVEWHALE-IMAGE-CAPTION:Reclaim the District 2026
+X-LIVEWHALE-REPEATS-UNTIL:2026-06-28 14:00:00
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260627T090000
@@ -5690,6 +5427,66 @@ X-LIVEWHALE-TYPE:events
 X-LIVEWHALE-ID:393942
 X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 X-LIVEWHALE-ALL-DAY:1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+LOCATION:1010 SE Powell Blvd Portland\, OR 97202
+GEO:45.501127;-122.655366
+SUMMARY:Classic Pianos / Lewis & Clark Piano Sale
+DESCRIPTION:Visit the Classic Pianos Portland showroom at 1010 SE Powell 
+ Blvd for their annual piano sale between September 17th and 20th and peru
+ se a selection of premium pre-owned pianos including Yamaha\, Bösendorfe
+ r\, Schimmel\, Estonia\, Steinway &amp\; Sons\, Kawai\, Mason &amp\; Haml
+ in\, Petrof\, Baldwin\, and more.  Each piano will be offered at reduced 
+ pricing and directly supports the Lewis &amp\; Clark Department of Music 
+ in covering the high cost of maintaining its current piano inventory as w
+ ell as other needs of the department. This sale also helps ensure LC facu
+ lty and students have the best instruments on which to perform\, teach\, 
+ and learn.You have two options for attending the sale:Make a private appo
+ intment for Thursday\, Friday\, or Saturday\, September 17-19 by calling:
+  (971) 400-8383. This assures you the best selection and pricing in advan
+ ce of the public sale.  Attend the public sale on Sunday\, September 20 f
+ rom noon–5pm.
+X-ALT-DESC;FMTTYPE=text/html:<p>  Visit the Classic Pianos Portland showr
+ oom at 1010 SE Powell Blvd for their annual piano sale between September 
+ 17th and 20th and peruse a selection of premium pre-owned pianos includin
+ g Yamaha\, Bösendorfer\, Schimmel\, Estonia\, Steinway &amp\; Sons\, Kaw
+ ai\, Mason &amp\; Hamlin\, Petrof\, Baldwin\, and more.</p><p>  Each pian
+ o will be offered at reduced pricing and directly supports the Lewis &amp
+ \; Clark Department of Music in covering the high cost of maintaining its
+  current piano inventory as well as other needs of the department. This s
+ ale also helps ensure LC faculty and students have the best instruments o
+ n which to perform\, teach\, and learn.</p><p><strong>You have two option
+ s for attending the sale:</strong></p><ol><li>Make a private appointment 
+ for Thursday\, Friday\, or Saturday\, September 17-19 by calling: (971) 4
+ 00-8383. This assures you the best selection and pricing in advance of th
+ e public sale.  </li><li>Attend the public sale on Sunday\, September 20 
+ from noon–5pm.  </li></ol>
+UID:20260917T070000Z-394121@www.lclark.edu
+DTSTAMP:20260520T121513Z
+URL:https://www.lclark.edu/calendars/events/event/394121-classic-pianos-l
+ ewis-clark-piano-sale
+CATEGORIES:Open to the Public
+LAST-MODIFIED:20260520T191622Z
+RRULE:FREQ=DAILY;UNTIL=20260920T000000Z;INTERVAL=1
+ATTACH:https://www.lclark.edu/live/image/gid/76/width/80/height/80/crop/1
+ /src_region/0,0,646,579/109397_Classic_Pianos_Logo.JPG
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:394121
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/76/width/80/heigh
+ t/80/crop/1/src_region/0\,0\,646\,579/109397_Classic_Pianos_Logo.JPG
+X-LIVEWHALE-IMAGE-CAPTION:&#160\;
+X-LIVEWHALE-ALL-DAY:1
+X-LIVEWHALE-CONTACT-INFO:<p>\n  For more information call Classic Pianos 
+ at: (971) 400-8383\n</p>
+X-LIVEWHALE-SUMMARY:<p>\n  In the market for a new or used piano? <a href
+ ="https://portland.classicpianos.net/" target="_blank" rel="noopener">Cla
+ ssic Pianos Portland</a> will be hosting a special piano sale at their sh
+ owroom which benefits the Lewis &amp\; Clark Department of Music between 
+ September 17th - 20th!\n</p>
+X-LIVEWHALE-REPEATS-UNTIL:2026-09-20 07:00:00
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260917T083000

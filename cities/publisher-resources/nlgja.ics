@@ -51,7 +51,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260606T150000
 DTEND;TZID=America/New_York:20260606T170000
-DTSTAMP:20260519T230048
+DTSTAMP:20260520T230426
 CREATED:20260504T130939Z
 LAST-MODIFIED:20260504T130939Z
 UID:17053-1780758000-1780765200@www.nlgja.org
@@ -62,9 +62,22 @@ LOCATION:Trade\, 1410 14th Street Northwest\, Washington\, DC\, 20009\, United S
 CATEGORIES:Chapters
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260609T180000
+DTEND;TZID=America/New_York:20260609T210000
+DTSTAMP:20260520T230426
+CREATED:20260520T155134Z
+LAST-MODIFIED:20260520T155134Z
+UID:17146-1781028000-1781038800@www.nlgja.org
+SUMMARY:NLGJA x PRSA NYC LGBTQ+ Pride Panel and Mixer
+DESCRIPTION:Join the NYC chapters of NLGJA: The Association of LGBTQ+ Journalists and PRSA for a joint mixer and brief panel discussion to kick off Pride month! \n🏳️‍🌈🏳️‍⚧️ Drinks and bites will be made possible through support from our incredible sponsors: NLGJA\, M Booth\, MSW\, Global Gateway Advisors\, and Interdependence. Thank you all for graciously supporting this event! \n🚨 All are welcome at this gathering\, so please share with friends and colleagues\, but please do RSVP in the event we need to limit attendance due to space. 🚨 \nVERS NYC – 714 9th Ave\, New York\, NY\nTuesday\, June 9\n6:00–8:00 PM \nRSVP HERE
+URL:https://www.nlgja.org/event/nlgja-x-prsa-nyc-lgbtq-pride-panel-and-mixer/
+LOCATION:VERS NYC\, 714 9th Ave\, New York City\, NY
+CATEGORIES:Chapters
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260519T230048
+DTSTAMP:20260520T230426
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
