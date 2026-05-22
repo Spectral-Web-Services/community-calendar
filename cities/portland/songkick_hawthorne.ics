@@ -4,17 +4,6 @@ PRODID:-//Hawthorne Theatre//songkick.com//
 X-WR-CALNAME:Hawthorne Theatre
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Feng
-DTSTART:20260521T203000
-DTEND:20260521T203000
-UID:7e5f68c99c7d900179fb2a21dfef4d61@songkick.com
-DESCRIPTION:Feng at Hawthorne Theatre at 2026-05-21T20:30:00-0700
-LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
-URL:http://www.songkick.com/concerts/43106738-feng-at-hawthorne-theatre?ut
- m_medium=organic&utm_source=microformat
-X-SOURCE:Hawthorne Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Jessica Baio
 DTSTART:20260527T200000
 DTEND:20260527T200000
@@ -46,6 +35,17 @@ DESCRIPTION:Kenny Mason at Hawthorne Theatre at 2026-05-30T20:00:00-0700
 LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
 URL:http://www.songkick.com/concerts/43179198-kenny-mason-at-hawthorne-the
  atre?utm_medium=organic&utm_source=microformat
+X-SOURCE:Hawthorne Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yung Bleu
+DTSTART:20260604T200000
+DTEND:20260604T200000
+UID:a348325e15db1c538e06b6f1effc27d0@songkick.com
+DESCRIPTION:Yung Bleu at Hawthorne Theatre at 2026-06-04T20:00:00-0700
+LOCATION:Hawthorne Theatre\, 1507 SE 39th Ave.\, Portland\, OR\, 97214
+URL:http://www.songkick.com/concerts/43179204-yung-bleu-at-hawthorne-theat
+ re?utm_medium=organic&utm_source=microformat
 X-SOURCE:Hawthorne Theatre
 END:VEVENT
 END:VCALENDAR
