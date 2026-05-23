@@ -22,24 +22,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED;VALUE=DATE-TIME:20260428T041946Z
-DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260521T210000
-DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260521T190000
-DTSTAMP;VALUE=DATE-TIME:20260428T041946Z
-LAST-MODIFIED;VALUE=DATE-TIME:20260428T041946Z
-UID:http://calagator.org/events/1250482551
-DESCRIPTION:A meeting of folks interested in BSD operating systems and re
- lated technologies to get together\, eat pizza\, drink beer\, and talk a
- bout what interesting things have been going on.\n\nTags: DragonFlyBSD\,
-  FreeBSD\, NetBSD\, OpenBSD\, bsd\n\nImported from: http://calagator.org
- /events/1250482551
-URL:https://bsd.pizza
-SUMMARY:BSD Pizza Night
-LOCATION:48 North Pizzeria: 6500 S Virginia Ave.\, Portland Oregon 97239 
- USA
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260508T001525Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260526T193000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260526T180000
@@ -279,6 +261,26 @@ LOCATION:Hawthorne Asylum Food Cart Pod: 1080 SE Madison St\, Portland OR
 SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260522T085714Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260614T220000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260614T190000
+DTSTAMP;VALUE=DATE-TIME:20260522T085714Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260522T085714Z
+UID:http://calagator.org/events/1250482589
+DESCRIPTION:Prepare to lose concentration...&#13\;\n&#13\;\nD&amp\;D &amp
+ \; DOUBLE Ds is set to return for its third year\, and the story has onl
+ y gotten more delicious. Don't be surprised if you find yourself Charmed
+ \, Stunned\, and Prone - this is exactly the kind of rhinestone ritual t
+ he party warned you about.&#13\;\n&#13\;\nSeats will vanish faster than 
+ a rogue in dim light\, so secure yours now!\n\nTags: burlesque\, drag\, 
+ dnd\n\nImported from: http://calagator.org/events/1250482589
+URL:https://www.jacklondonrevue.com/tm-event/d-d-double-ds-fantasy-cabare
+ t/
+SUMMARY:D&D & Double Ds Fantasy Cabaret
+LOCATION:Jack London Revue: 529 SW 4th Ave\, Portland OR 97204 USA
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20260519T002729Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260615T193000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260615T173000
@@ -312,6 +314,24 @@ LOCATION:ProFocus: 10200 Southwest Eastridge Street\, Portland OR 97225 U
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260523T000232Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260618T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260618T190000
+DTSTAMP;VALUE=DATE-TIME:20260523T000232Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260523T000232Z
+UID:http://calagator.org/events/1250482592
+DESCRIPTION:A meeting of folks interested in BSD operating systems and re
+ lated technologies to get together\, eat pizza\, drink beer\, and talk a
+ bout what interesting things have been going on.\n\nTags: DragonFlyBSD\,
+  FreeBSD\, NetBSD\, OpenBSD\, bsd\n\nImported from: http://calagator.org
+ /events/1250482592
+URL:https://bsd.pizza
+SUMMARY:BSD Pizza Night
+LOCATION:Stark Street Pizza Company: 9234 SE Stark St\, Portland Oregon 9
+ 7216 USA
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 CREATED;VALUE=DATE-TIME:20251109T172028Z
 DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260620T123000
 DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260620T100000
@@ -340,6 +360,29 @@ DESCRIPTION:Details&#13\;\n## What to Expect:&#13\;\nCode and Coffee is a
 URL:https://www.meetup.com/portland-code-coffee/
 SUMMARY:Code & Coffee @ Roseline Café
 LOCATION:Roseline Cafe: false
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20260522T224151Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260621T170000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20260621T130000
+DTSTAMP;VALUE=DATE-TIME:20260522T224151Z
+LAST-MODIFIED;VALUE=DATE-TIME:20260522T224151Z
+UID:http://calagator.org/events/1250482591
+DESCRIPTION:That PLUG Clinic you like is coming back into style!&#13\;\n&
+ #13\;\nThe PLUG Clinic returns again this month on June 21\, from 1pm-5p
+ m. Note the different venue this month\, we are back at the Albina Branc
+ h Library. If you need help with your Linux computer\, or want to offer 
+ help\, you are welcome!&#13\;\n&#13\;\nVolunteer helpers are as desirabl
+ e as helpees. Helping is fun and rewarding. If you've ever helped out at
+  a PLUG Clinic before\, come checkout the space!&#13\;\n&#13\;\nThanks t
+ o the taxpayers of Multnomah County for the beautiful new building!\n\nT
+ ags: Linux Help\, plug\, clinic\n\nImported from: http://calagator.org/e
+ vents/1250482591
+URL:https://pdxlinux.org/
+SUMMARY:Portland Linux/Unix Group's Monthly Linux Clinic
+LOCATION:Multnomah County Library Albina Branch: 205 NE Russell St\, Port
+ land OR 97212 US
 SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT

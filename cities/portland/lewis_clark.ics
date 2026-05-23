@@ -78,32 +78,6 @@ X-LIVEWHALE-SUMMARY:<p>\n  $395 for General Public<br />\n  $325 for L&am
 X-LIVEWHALE-TAGS:Training Trips|WFR-R
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260522T090000
-DTEND;TZID=America/Los_Angeles:20260522T160000
-LOCATION:Albany
-GEO:45.451415;-122.668211
-SUMMARY:Annual Faculty Technology Institute
-UID:20260522T160000Z-392502@www.lclark.edu
-DTSTAMP:20260504T102747Z
-URL:https://www.lclark.edu/information_technology/client_services/faculty
- _technology_institute/
-LAST-MODIFIED:20260506T212202Z
-RRULE:FREQ=DAILY;UNTIL=20260522T160000Z;INTERVAL=1
-ATTACH:https://www.lclark.edu/live/image/gid/8/width/80/height/80/crop/1/
- src_region/0,0,1642,1642/113100_FTI26_WEB2.rev.1778102320.jpg
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:392502
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/8/width/80/height
- /80/crop/1/src_region/0\,0\,1642\,1642/113100_FTI26_WEB2.rev.1778102320.j
- pg
-X-LIVEWHALE-SUMMARY:<p>\n  Registration is open for the Faculty Technolog
- y Institute—a week where colleagues from all three schools come togethe
- r to explore\, experiment\, and share how they're using technology in tea
- ching\, learning and research.&#160\;\n</p>
-X-LIVEWHALE-REPEATS-UNTIL:2026-05-22 16:00:00
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260523
 DTEND;VALUE=DATE:20260524
 LOCATION:Fowler Student Center
@@ -7040,5 +7014,71 @@ X-LIVEWHALE-SUMMARY:<p>\n  Friday\, November 13\, 2026\, 9 a.m.-1 p.m. PS
  T&#160\; |&#160\; 4 CEUs\n</p>
 X-LIVEWHALE-TAGS:All Courses Upcoming|CC CE|clinical supervision|Counselo
  rs Upcoming|cpsy|november|workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+LOCATION:Fowler Student Center
+GEO:45.44918;-122.670969
+SUMMARY:Nov 2026 Wilderness First Responder Hybrid Recertification (HWFR-R)
+DESCRIPTION:Learn (https://www.lclark.edu/live/profiles/12616-wilderness-
+ first-responder-re-certification)more about how to re-certify your Wilder
+ ness First Responder (WFR) credentials! (https://www.lclark.edu/live/prof
+ iles/12616-1)
+X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://www.lclark.edu/live/prof
+ iles/12616-wilderness-first-responder-re-certification">Learn</a><a href=
+ "https://www.lclark.edu/live/profiles/12616-1">more about how to re-certi
+ fy your Wilderness First Responder (WFR) credentials!</a></p>
+UID:20261121T080000Z-385650@www.lclark.edu
+DTSTAMP:20260302T140554Z
+URL:https://www.lclark.edu/live/profiles/12616-wilderness-first-responder
+ -re-certification
+CATEGORIES:Open to the Public
+LAST-MODIFIED:20260306T203701Z
+ATTACH:https://www.lclark.edu/live/image/gid/258/width/80/height/80/crop/
+ 1/src_region/0,0,320,240/78980_WFR_5_.JPG
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:385650
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/258/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,320\,240/78980_WFR_5_.JPG
+X-LIVEWHALE-IMAGE-CAPTION:Wilderness First Responder
+X-LIVEWHALE-ALL-DAY:1
+X-LIVEWHALE-SUMMARY:<p>\n  $395 for General Public<br />\n  $325 for L&am
+ p\;C Undergrad Students\n</p>
+X-LIVEWHALE-TAGS:Training Trips|WFR-R
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+LOCATION:Fowler Student Center
+GEO:45.44918;-122.670969
+SUMMARY:Nov 2026 Wilderness First Responder Hybrid Recertification (HWFR-R)
+DESCRIPTION:Learn (https://www.lclark.edu/live/profiles/12616-wilderness-
+ first-responder-re-certification)more about how to re-certify your Wilder
+ ness First Responder (WFR) credentials! (https://www.lclark.edu/live/prof
+ iles/12616-1)
+X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://www.lclark.edu/live/prof
+ iles/12616-wilderness-first-responder-re-certification">Learn</a><a href=
+ "https://www.lclark.edu/live/profiles/12616-1">more about how to re-certi
+ fy your Wilderness First Responder (WFR) credentials!</a></p>
+UID:20261122T080000Z-385650@www.lclark.edu
+DTSTAMP:20260302T140554Z
+URL:https://www.lclark.edu/live/profiles/12616-wilderness-first-responder
+ -re-certification
+CATEGORIES:Open to the Public
+LAST-MODIFIED:20260306T203701Z
+ATTACH:https://www.lclark.edu/live/image/gid/258/width/80/height/80/crop/
+ 1/src_region/0,0,320,240/78980_WFR_5_.JPG
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:385650
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/258/width/80/heig
+ ht/80/crop/1/src_region/0\,0\,320\,240/78980_WFR_5_.JPG
+X-LIVEWHALE-IMAGE-CAPTION:Wilderness First Responder
+X-LIVEWHALE-ALL-DAY:1
+X-LIVEWHALE-SUMMARY:<p>\n  $395 for General Public<br />\n  $325 for L&am
+ p\;C Undergrad Students\n</p>
+X-LIVEWHALE-TAGS:Training Trips|WFR-R
 END:VEVENT
 END:VCALENDAR

@@ -8,7 +8,7 @@ used across all city feeds, identified by their PRODID header.
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 46 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 45 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 35 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston | 15 |
@@ -38,7 +38,7 @@ ICS export from meetup.com groups.
 
 **roanoke** (6): meetup_make_roanoke, meetup_pathfinders_greenways, meetup_roanoke_spiritual, meetup_roanoke_valley_net, meetup_shut_up_write, meetup_sw_va_toastmasters
 
-### The Events Calendar (WordPress) (46 feeds)
+### The Events Calendar (WordPress) (45 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
@@ -56,7 +56,7 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **portland** (11): crystal_ballroom, jamo, lan_su_garden, literary_arts, oc_farmers_market, pdx_parent, pioneer_square, portland_art_museum, portland_farmers_market, vancouver_farmers_market, washington_park
 
-**publisher-resources** (4): ahcj, nahj, nlgja, sabew
+**publisher-resources** (3): ahcj, nlgja, sabew
 
 **roanoke** (1): hollins_university
 
