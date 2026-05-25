@@ -4,18 +4,6 @@ PRODID:-//Mississippi Studios//songkick.com//
 X-WR-CALNAME:Mississippi Studios
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Accessory\, Facing
-DTSTART:20260524T200000
-DTEND:20260524T200000
-UID:f7089c7090784340d41bdcf040737d3e@songkick.com
-DESCRIPTION:Accessory at Mississippi Studios at 2026-05-24T20:00:00-0700
-LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
- 97227
-URL:http://www.songkick.com/concerts/43000237-accessory-at-mississippi-stu
- dios?utm_medium=organic&utm_source=microformat
-X-SOURCE:Mississippi Studios
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bob Log III
 DTSTART:20260526T200000
 DTEND:20260526T200000
@@ -49,6 +37,19 @@ LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\,
  97227
 URL:http://www.songkick.com/concerts/43136919-camp-crush-at-mississippi-st
  udios?utm_medium=organic&utm_source=microformat
+X-SOURCE:Mississippi Studios
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:John Craigie
+DTSTART:20260602T200000
+DTEND:20260602T200000
+UID:352e3547aa179acca0ebb730c478f186@songkick.com
+DESCRIPTION:John Craigie at Mississippi Studios at 2026-06-02T20:00:00-070
+ 0
+LOCATION:Mississippi Studios\, 3939 N. Mississippi Ave.\, Portland\, OR\, 
+ 97227
+URL:http://www.songkick.com/concerts/43143647-john-craigie-at-mississippi-
+ studios?utm_medium=organic&utm_source=microformat
 X-SOURCE:Mississippi Studios
 END:VEVENT
 END:VCALENDAR
