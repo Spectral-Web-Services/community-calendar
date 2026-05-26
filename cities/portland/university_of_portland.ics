@@ -5,61 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:University of Portland Calendar
 X-WR-TIMEZONE:Pacific Time (US & Canada)
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
-UID:tag:localist.com\,2008:EventInstance_50835905053955
-DTSTART;VALUE=DATE:20260424
-DESCRIPTION:Last day of classes
-LOCATION:
-SUMMARY:Spring Last Day of Classes
-URL;VALUE=URI:https://calendar.up.edu/event/spring-last-day-of-classes
-CATEGORIES:Academic Calendar
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
-UID:tag:localist.com\,2008:EventInstance_50827591028183
-DTSTART:20260424T190500Z
-DTEND:20260424T193500Z
-DESCRIPTION:Join the campus community Monday through Friday at 12:05 pm for
-  the daily celebration of Mass in the Chapel of Christ the Teacher. All ar
- e welcome.
-GEO:45.57891;-122.726745
-LOCATION:Chapel of Christ the Teacher
-SUMMARY:Daily Mass 
-URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
-CATEGORIES:Religious/Spiritual
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
-UID:tag:localist.com\,2008:EventInstance_51888349287670
-DTSTART:20260424T220000Z
-DTEND:20260425T010000Z
-DESCRIPTION:Join the Donald P. Shiley School of Engineering as we showcase 
- our Senior Capstone Projects! Student teams will be sharing their final pr
- oject designs\, plans\, and prototypes in 20-minute presentations.
-GEO:45.571758;-122.727965
-LOCATION:Shiley Hall
-SUMMARY:Shiley Showcase
-URL;VALUE=URI:https://calendar.up.edu/event/shiley-showcase
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
-UID:tag:localist.com\,2008:EventInstance_50831364686716
-DTSTART:20260425T010000Z
-DTEND:20260425T040000Z
-DESCRIPTION:University of Portland Baseball at Santa Clara\nStreaming Video
- : https://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e967/
- west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Confer
- enceshttps://www.espn.com/watch/catalog/c1cfeaa3-abb2-43bf-be63-66993e29e9
- 67/west-coast-conference#bucketId=29784&sourceCollection=Browse_By_Top_Con
- ferences
-LOCATION:Santa Clara\, Calif.\, Schott Stadium
-SUMMARY:University of Portland Baseball at Santa Clara
-URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
- -at-santa-clara
-CATEGORIES:Pilot Athletics
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50849068034630
 DTSTART;VALUE=DATE:20260425
 DESCRIPTION:University of Portland Rowing at Triton Invitational
@@ -70,7 +16,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-rowing-a
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364700035
 DTSTART:20260425T200000Z
 DTEND:20260425T230000Z
@@ -85,7 +31,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50827309961366
 DTSTART:20260426T173000Z
 DTEND:20260427T063000Z
@@ -98,7 +44,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass
 CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364714378
 DTSTART:20260426T190000Z
 DTEND:20260426T220000Z
@@ -113,7 +59,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50827322821796
 DTSTART:20260426T231500Z
 DTEND:20260427T001500Z
@@ -126,7 +72,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/sunday-mass-3864
 CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905107210
 DTSTART;VALUE=DATE:20260427
 DESCRIPTION:Semester examinations
@@ -136,7 +82,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50827591029210
 DTSTART:20260427T190500Z
 DTEND:20260427T193500Z
@@ -150,7 +96,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
 CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905128716
 DTSTART;VALUE=DATE:20260428
 DESCRIPTION:Semester examinations
@@ -160,7 +106,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50827591030235
 DTSTART:20260428T190500Z
 DTEND:20260428T193500Z
@@ -174,7 +120,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
 CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905143053
 DTSTART;VALUE=DATE:20260429
 DESCRIPTION:Semester examinations
@@ -184,7 +130,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50827591031260
 DTSTART:20260429T190500Z
 DTEND:20260429T193500Z
@@ -198,7 +144,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
 CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905158414
 DTSTART;VALUE=DATE:20260430
 DESCRIPTION:Semester examinations
@@ -208,7 +154,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/spring-finals-week
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50827591032285
 DTSTART:20260430T190500Z
 DTEND:20260430T193500Z
@@ -222,7 +168,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
 CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364728721
 DTSTART:20260501T010000Z
 DTEND:20260501T040000Z
@@ -237,7 +183,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564184571
 DTSTART;VALUE=DATE:20260501
 DESCRIPTION:University of Portland Men's Track and Field vs OSU High Perfor
@@ -250,7 +196,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564167156
 DTSTART;VALUE=DATE:20260501
 DESCRIPTION:University of Portland Women's Track and Field vs OSU High Perf
@@ -263,7 +209,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50827591032286
 DTSTART:20260501T190500Z
 DTEND:20260501T193500Z
@@ -277,7 +223,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/daily-mass
 CATEGORIES:Religious/Spiritual
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364741016
 DTSTART:20260502T010000Z
 DTEND:20260502T040000Z
@@ -291,7 +237,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905229076
 DTSTART;VALUE=DATE:20260502
 DESCRIPTION:Commencement Weekend Schedule of Events\n\n \n\nSaturday\, May 
@@ -309,7 +255,7 @@ SUMMARY:Commencement
 URL;VALUE=URI:https://calendar.up.edu/event/commencement
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364756383
 DTSTART:20260502T190000Z
 DTEND:20260502T220000Z
@@ -323,7 +269,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905243414
 DTSTART;VALUE=DATE:20260503
 DESCRIPTION:Commencement Weekend Schedule of Events\n\n \n\nSaturday\, May 
@@ -341,7 +287,7 @@ SUMMARY:Commencement
 URL;VALUE=URI:https://calendar.up.edu/event/commencement
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905290524
 DTSTART;VALUE=DATE:20260505
 DESCRIPTION:All grades due in Registrar's Office 9am
@@ -351,7 +297,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/spring-grades-due
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_52016823627175
 DTSTART:20260506T010000Z
 DTEND:20260506T040000Z
@@ -365,7 +311,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564265477
 DTSTART;VALUE=DATE:20260508
 DESCRIPTION:University of Portland Men's Track and Field vs Oregon Twilight
@@ -378,7 +324,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564305420
 DTSTART;VALUE=DATE:20260508
 DESCRIPTION:University of Portland Women's Track and Field vs Oregon Twilig
@@ -391,7 +337,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364785069
 DTSTART:20260508T220000Z
 DTEND:20260509T010000Z
@@ -406,7 +352,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_52441466118211
 DTSTART;VALUE=DATE:20260509
 DESCRIPTION:University of Portland Men's Track and Field vs Portland Twilig
@@ -418,7 +364,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564386331
 DTSTART;VALUE=DATE:20260509
 DESCRIPTION:University of Portland Men's Track and Field vs Portland Twilig
@@ -430,7 +376,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564367892
 DTSTART;VALUE=DATE:20260509
 DESCRIPTION:University of Portland Women's Track and Field vs Portland Twil
@@ -442,7 +388,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364799412
 DTSTART:20260509T210000Z
 DTEND:20260510T000000Z
@@ -457,7 +403,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364815803
 DTSTART:20260510T190000Z
 DTEND:20260510T220000Z
@@ -472,7 +418,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50840279919927
 DTSTART:20260513T003000Z
 DTEND:20260513T033000Z
@@ -486,7 +432,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564474405
 DTSTART;VALUE=DATE:20260514
 DESCRIPTION:University of Portland Men's Track and Field vs George Fox Fina
@@ -499,7 +445,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564491820
 DTSTART;VALUE=DATE:20260514
 DESCRIPTION:University of Portland Women's Track and Field vs George Fox Fi
@@ -512,7 +458,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364872137
 DTSTART:20260515T010000Z
 DTEND:20260515T040000Z
@@ -527,7 +473,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50849068186233
 DTSTART;VALUE=DATE:20260515
 DESCRIPTION:University of Portland Rowing at WCC Championships Day 1\nStrea
@@ -540,7 +486,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-rowing-a
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364892624
 DTSTART:20260516T010000Z
 DTEND:20260516T040000Z
@@ -555,7 +501,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50849068213892
 DTSTART;VALUE=DATE:20260516
 DESCRIPTION:University of Portland Rowing at WCC Championships Day 2\nStrea
@@ -568,7 +514,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-rowing-a
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50831364905943
 DTSTART:20260516T200000Z
 DTEND:20260516T230000Z
@@ -583,7 +529,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905321251
 DTSTART;VALUE=DATE:20260518
 DESCRIPTION:First 6 Week session starts
@@ -593,7 +539,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/first-summer-session-begins
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_52892470712844
 DTSTART;VALUE=DATE:20260521
 DESCRIPTION:University of Portland Baseball vs WCC Tournament\nStreaming Vi
@@ -606,7 +552,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_52951406968054
 DTSTART:20260521T140000Z
 DTEND:20260521T190000Z
@@ -620,7 +566,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/2026-catholic-education-ai-conf
  erence-n-registration-welcome-opening-remarks
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_52892470724109
 DTSTART;VALUE=DATE:20260522
 DESCRIPTION:University of Portland Baseball vs WCC Tournament\nStreaming Vi
@@ -633,7 +579,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-baseball
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905350954
 DTSTART;VALUE=DATE:20260525
 DESCRIPTION:Memorial Day - University Closed
@@ -643,7 +589,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/memorial-day
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564643391
 DTSTART;VALUE=DATE:20260527
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
@@ -656,7 +602,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564563510
 DTSTART;VALUE=DATE:20260527
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
@@ -669,7 +615,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564664900
 DTSTART;VALUE=DATE:20260528
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
@@ -682,7 +628,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564581947
 DTSTART;VALUE=DATE:20260528
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
@@ -695,7 +641,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564722245
 DTSTART;VALUE=DATE:20260529
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA West First
@@ -708,7 +654,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564595260
 DTSTART;VALUE=DATE:20260529
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA West Fir
@@ -721,39 +667,39 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51082552012963
 DTSTART;VALUE=DATE:20260603
-DESCRIPTION:REGISTRATION CLOSES FRIDAY\, 5/22 !\n\n \n\nClick here to acces
- s the conference schedule.\n\n \n\nBuilding on Our Foundation: From Princi
- ples to Practice \n\nFollowing our inaugural conference's resounding succe
- ss with participants from 19 Catholic institutions\, we return with deeper
-  insights and practical tools as AI reshapes education at inhuman speed. S
- ince our first gathering in October of 2024\, AI has fundamentally transfo
- rmed academic landscapes—from research methodologies to student services
- \, from classroom instruction to campus operations. \n\nThis year's confer
- ence emphasizes hands-on learning and specialized application\, featuring 
- expanded workshops and targeted breakout sessions designed for your specif
- ic role and discipline\, ensuring you leave with immediately applicable st
- rategies and tools. \n\n \n\nWHAT'S NEW FOR 2026\n\nWe've designed a highl
- y curated schedule offering hands-on workshops and interactive sessions de
- signed to equip educators and leaders with practical AI strategies. Highli
- ghts include:\n\nWorkshops on ethical AI integration\, practical AI litera
- cy for non-technical audiences\, and values-driven engagement with AI tool
- s.\n\nCase studies and tutorials focused on supporting first-generation st
- udents\, building AI literacy\, and aligning institutional mission with AI
-  strategy.\n\nImmersive sessions on reflective AI use\, leadership formati
- on\, and the integration of Catholic educational values in technology adop
- tion.\n\nWhether you're seeking to deepen your understanding of AI in educ
- ation or looking for actionable tools to bring back to your institution\, 
- our workshop-heavy program offers something for everyone\n\n \n\nThe Colle
- ge of Arts and Sciences and the Dundon-Berchtold Institute for Moral Forma
- tion and Applied Ethics at the University of Portland are pleased to host 
- this essential gathering. As an independently governed Catholic university
-  guided by the Congregation of Holy Cross\, the University of Portland con
- tinues its mission of teaching and learning\, faith and formation\, and se
- rvice and leadership in addressing the critical intersection of technology
-  and human dignity. \n\n \n\nThank you to our conference sponsors!
+DESCRIPTION:Click here to access the conference schedule.\n\n \n\nBuilding 
+ on Our Foundation: From Principles to Practice \n\nFollowing our inaugural
+  conference's resounding success with participants from 19 Catholic instit
+ utions\, we return with deeper insights and practical tools as AI reshapes
+  education at inhuman speed. Since our first gathering in October of 2024\
+ , AI has fundamentally transformed academic landscapes—from research met
+ hodologies to student services\, from classroom instruction to campus oper
+ ations. \n\nThis year's conference emphasizes hands-on learning and specia
+ lized application\, featuring expanded workshops and targeted breakout ses
+ sions designed for your specific role and discipline\, ensuring you leave 
+ with immediately applicable strategies and tools. \n\n \n\nWHAT'S NEW FOR 
+ 2026\n\nWe've designed a highly curated schedule offering hands-on worksho
+ ps and interactive sessions designed to equip educators and leaders with p
+ ractical AI strategies. Highlights include:\n\nWorkshops on ethical AI int
+ egration\, practical AI literacy for non-technical audiences\, and values-
+ driven engagement with AI tools.\n\nCase studies and tutorials focused on 
+ supporting first-generation students\, building AI literacy\, and aligning
+  institutional mission with AI strategy.\n\nImmersive sessions on reflecti
+ ve AI use\, leadership formation\, and the integration of Catholic educati
+ onal values in technology adoption.\n\nWhether you're seeking to deepen yo
+ ur understanding of AI in education or looking for actionable tools to bri
+ ng back to your institution\, our workshop-heavy program offers something 
+ for everyone\n\n \n\nThe College of Arts and Sciences and the Dundon-Berch
+ told Institute for Moral Formation and Applied Ethics at the University of
+  Portland are pleased to host this essential gathering. As an independentl
+ y governed Catholic university guided by the Congregation of Holy Cross\, 
+ the University of Portland continues its mission of teaching and learning\
+ , faith and formation\, and service and leadership in addressing the criti
+ cal intersection of technology and human dignity. \n\n \n\nThank you to ou
+ r conference sponsors!
 GEO:45.571791;-122.724529
 LOCATION:University of Portland
 SUMMARY:Catholic Education and Artificial Intelligence: Principled Educatio
@@ -764,39 +710,39 @@ CATEGORIES:Academic
 CATEGORIES:Conference / Symposium
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51082552013988
 DTSTART;VALUE=DATE:20260604
-DESCRIPTION:REGISTRATION CLOSES FRIDAY\, 5/22 !\n\n \n\nClick here to acces
- s the conference schedule.\n\n \n\nBuilding on Our Foundation: From Princi
- ples to Practice \n\nFollowing our inaugural conference's resounding succe
- ss with participants from 19 Catholic institutions\, we return with deeper
-  insights and practical tools as AI reshapes education at inhuman speed. S
- ince our first gathering in October of 2024\, AI has fundamentally transfo
- rmed academic landscapes—from research methodologies to student services
- \, from classroom instruction to campus operations. \n\nThis year's confer
- ence emphasizes hands-on learning and specialized application\, featuring 
- expanded workshops and targeted breakout sessions designed for your specif
- ic role and discipline\, ensuring you leave with immediately applicable st
- rategies and tools. \n\n \n\nWHAT'S NEW FOR 2026\n\nWe've designed a highl
- y curated schedule offering hands-on workshops and interactive sessions de
- signed to equip educators and leaders with practical AI strategies. Highli
- ghts include:\n\nWorkshops on ethical AI integration\, practical AI litera
- cy for non-technical audiences\, and values-driven engagement with AI tool
- s.\n\nCase studies and tutorials focused on supporting first-generation st
- udents\, building AI literacy\, and aligning institutional mission with AI
-  strategy.\n\nImmersive sessions on reflective AI use\, leadership formati
- on\, and the integration of Catholic educational values in technology adop
- tion.\n\nWhether you're seeking to deepen your understanding of AI in educ
- ation or looking for actionable tools to bring back to your institution\, 
- our workshop-heavy program offers something for everyone\n\n \n\nThe Colle
- ge of Arts and Sciences and the Dundon-Berchtold Institute for Moral Forma
- tion and Applied Ethics at the University of Portland are pleased to host 
- this essential gathering. As an independently governed Catholic university
-  guided by the Congregation of Holy Cross\, the University of Portland con
- tinues its mission of teaching and learning\, faith and formation\, and se
- rvice and leadership in addressing the critical intersection of technology
-  and human dignity. \n\n \n\nThank you to our conference sponsors!
+DESCRIPTION:Click here to access the conference schedule.\n\n \n\nBuilding 
+ on Our Foundation: From Principles to Practice \n\nFollowing our inaugural
+  conference's resounding success with participants from 19 Catholic instit
+ utions\, we return with deeper insights and practical tools as AI reshapes
+  education at inhuman speed. Since our first gathering in October of 2024\
+ , AI has fundamentally transformed academic landscapes—from research met
+ hodologies to student services\, from classroom instruction to campus oper
+ ations. \n\nThis year's conference emphasizes hands-on learning and specia
+ lized application\, featuring expanded workshops and targeted breakout ses
+ sions designed for your specific role and discipline\, ensuring you leave 
+ with immediately applicable strategies and tools. \n\n \n\nWHAT'S NEW FOR 
+ 2026\n\nWe've designed a highly curated schedule offering hands-on worksho
+ ps and interactive sessions designed to equip educators and leaders with p
+ ractical AI strategies. Highlights include:\n\nWorkshops on ethical AI int
+ egration\, practical AI literacy for non-technical audiences\, and values-
+ driven engagement with AI tools.\n\nCase studies and tutorials focused on 
+ supporting first-generation students\, building AI literacy\, and aligning
+  institutional mission with AI strategy.\n\nImmersive sessions on reflecti
+ ve AI use\, leadership formation\, and the integration of Catholic educati
+ onal values in technology adoption.\n\nWhether you're seeking to deepen yo
+ ur understanding of AI in education or looking for actionable tools to bri
+ ng back to your institution\, our workshop-heavy program offers something 
+ for everyone\n\n \n\nThe College of Arts and Sciences and the Dundon-Berch
+ told Institute for Moral Formation and Applied Ethics at the University of
+  Portland are pleased to host this essential gathering. As an independentl
+ y governed Catholic university guided by the Congregation of Holy Cross\, 
+ the University of Portland continues its mission of teaching and learning\
+ , faith and formation\, and service and leadership in addressing the criti
+ cal intersection of technology and human dignity. \n\n \n\nThank you to ou
+ r conference sponsors!
 GEO:45.571791;-122.724529
 LOCATION:University of Portland
 SUMMARY:Catholic Education and Artificial Intelligence: Principled Educatio
@@ -807,39 +753,39 @@ CATEGORIES:Academic
 CATEGORIES:Conference / Symposium
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51082552015013
 DTSTART;VALUE=DATE:20260605
-DESCRIPTION:REGISTRATION CLOSES FRIDAY\, 5/22 !\n\n \n\nClick here to acces
- s the conference schedule.\n\n \n\nBuilding on Our Foundation: From Princi
- ples to Practice \n\nFollowing our inaugural conference's resounding succe
- ss with participants from 19 Catholic institutions\, we return with deeper
-  insights and practical tools as AI reshapes education at inhuman speed. S
- ince our first gathering in October of 2024\, AI has fundamentally transfo
- rmed academic landscapes—from research methodologies to student services
- \, from classroom instruction to campus operations. \n\nThis year's confer
- ence emphasizes hands-on learning and specialized application\, featuring 
- expanded workshops and targeted breakout sessions designed for your specif
- ic role and discipline\, ensuring you leave with immediately applicable st
- rategies and tools. \n\n \n\nWHAT'S NEW FOR 2026\n\nWe've designed a highl
- y curated schedule offering hands-on workshops and interactive sessions de
- signed to equip educators and leaders with practical AI strategies. Highli
- ghts include:\n\nWorkshops on ethical AI integration\, practical AI litera
- cy for non-technical audiences\, and values-driven engagement with AI tool
- s.\n\nCase studies and tutorials focused on supporting first-generation st
- udents\, building AI literacy\, and aligning institutional mission with AI
-  strategy.\n\nImmersive sessions on reflective AI use\, leadership formati
- on\, and the integration of Catholic educational values in technology adop
- tion.\n\nWhether you're seeking to deepen your understanding of AI in educ
- ation or looking for actionable tools to bring back to your institution\, 
- our workshop-heavy program offers something for everyone\n\n \n\nThe Colle
- ge of Arts and Sciences and the Dundon-Berchtold Institute for Moral Forma
- tion and Applied Ethics at the University of Portland are pleased to host 
- this essential gathering. As an independently governed Catholic university
-  guided by the Congregation of Holy Cross\, the University of Portland con
- tinues its mission of teaching and learning\, faith and formation\, and se
- rvice and leadership in addressing the critical intersection of technology
-  and human dignity. \n\n \n\nThank you to our conference sponsors!
+DESCRIPTION:Click here to access the conference schedule.\n\n \n\nBuilding 
+ on Our Foundation: From Principles to Practice \n\nFollowing our inaugural
+  conference's resounding success with participants from 19 Catholic instit
+ utions\, we return with deeper insights and practical tools as AI reshapes
+  education at inhuman speed. Since our first gathering in October of 2024\
+ , AI has fundamentally transformed academic landscapes—from research met
+ hodologies to student services\, from classroom instruction to campus oper
+ ations. \n\nThis year's conference emphasizes hands-on learning and specia
+ lized application\, featuring expanded workshops and targeted breakout ses
+ sions designed for your specific role and discipline\, ensuring you leave 
+ with immediately applicable strategies and tools. \n\n \n\nWHAT'S NEW FOR 
+ 2026\n\nWe've designed a highly curated schedule offering hands-on worksho
+ ps and interactive sessions designed to equip educators and leaders with p
+ ractical AI strategies. Highlights include:\n\nWorkshops on ethical AI int
+ egration\, practical AI literacy for non-technical audiences\, and values-
+ driven engagement with AI tools.\n\nCase studies and tutorials focused on 
+ supporting first-generation students\, building AI literacy\, and aligning
+  institutional mission with AI strategy.\n\nImmersive sessions on reflecti
+ ve AI use\, leadership formation\, and the integration of Catholic educati
+ onal values in technology adoption.\n\nWhether you're seeking to deepen yo
+ ur understanding of AI in education or looking for actionable tools to bri
+ ng back to your institution\, our workshop-heavy program offers something 
+ for everyone\n\n \n\nThe College of Arts and Sciences and the Dundon-Berch
+ told Institute for Moral Formation and Applied Ethics at the University of
+  Portland are pleased to host this essential gathering. As an independentl
+ y governed Catholic university guided by the Congregation of Holy Cross\, 
+ the University of Portland continues its mission of teaching and learning\
+ , faith and formation\, and service and leadership in addressing the criti
+ cal intersection of technology and human dignity. \n\n \n\nThank you to ou
+ r conference sponsors!
 GEO:45.571791;-122.724529
 LOCATION:University of Portland
 SUMMARY:Catholic Education and Artificial Intelligence: Principled Educatio
@@ -850,7 +796,7 @@ CATEGORIES:Academic
 CATEGORIES:Conference / Symposium
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564832840
 DTSTART;VALUE=DATE:20260610
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
@@ -863,7 +809,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564940369
 DTSTART;VALUE=DATE:20260610
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
@@ -876,7 +822,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564850253
 DTSTART;VALUE=DATE:20260611
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
@@ -889,7 +835,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564969046
 DTSTART;VALUE=DATE:20260611
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
@@ -902,7 +848,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564866638
 DTSTART;VALUE=DATE:20260612
 DESCRIPTION:University of Portland Men's Track and Field vs NCAA Track & Fi
@@ -915,7 +861,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-mens-tra
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_51335564984407
 DTSTART;VALUE=DATE:20260612
 DESCRIPTION:University of Portland Women's Track and Field vs NCAA Track & 
@@ -928,7 +874,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/university-of-portland-womens-t
 CATEGORIES:Pilot Athletics
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905376561
 DTSTART;VALUE=DATE:20260619
 DESCRIPTION:Juneteenth - University closed
@@ -938,7 +884,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/juneteenth
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905403192
 DTSTART;VALUE=DATE:20260625
 DESCRIPTION:First 6 Week session ends
@@ -948,7 +894,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/first-summer-session-ends
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905452351
 DTSTART;VALUE=DATE:20260629
 DESCRIPTION:Second 6 Week session begins
@@ -958,7 +904,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/second-summer-session-begins
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905477958
 DTSTART;VALUE=DATE:20260704
 DESCRIPTION:Independence Day observed - University closed
@@ -968,7 +914,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/independence-day-observed
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905503565
 DTSTART;VALUE=DATE:20260806
 DESCRIPTION:Last day of classes
@@ -978,7 +924,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/summer-last-day-of-classes
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905530196
 DTSTART;VALUE=DATE:20260811
 DESCRIPTION:All grades due in Registrar's Office 9am
@@ -988,7 +934,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/summer-grades-due
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905562971
 DTSTART;VALUE=DATE:20260824
 DESCRIPTION:Late registration begins
@@ -998,7 +944,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/fall-late-registration-begins
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905588578
 DTSTART;VALUE=DATE:20260824
 DESCRIPTION:Semester begins - class starts at 8:10
@@ -1008,7 +954,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/fall-semester-begins
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905627497
 DTSTART;VALUE=DATE:20260828
 DESCRIPTION:Last day to register or change (add/drop)
@@ -1018,7 +964,7 @@ URL;VALUE=URI:https://calendar.up.edu/event/fall-last-day-to-register
 CATEGORIES:Academic Calendar
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260525T025840Z
+DTSTAMP:20260526T025602Z
 UID:tag:localist.com\,2008:EventInstance_50835905658224
 DTSTART;VALUE=DATE:20260907
 DESCRIPTION:Labor Day (classes in session\, offices closed)
