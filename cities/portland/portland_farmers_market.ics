@@ -49,41 +49,9 @@ DTSTART:20271107T090000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260523T083000
-DTEND;TZID=America/Los_Angeles:20260523T140000
-DTSTAMP:20260523T195743
-CREATED:20260324T215325Z
-LAST-MODIFIED:20260324T235842Z
-UID:10003100-1779525000-1779544800@www.portlandfarmersmarket.org
-SUMMARY:PSU Farmers Market
-DESCRIPTION:Our year-round flagship farmers market at Portland State University average 90 local farmers and food producers every Saturday.
-URL:https://www.portlandfarmersmarket.org/event/psu-farmers-market/2026-05-23/
-LOCATION:PSU Farmers Market\, SW Park & Montgomery\, Portland\, OR\, 97201\, United States
-CATEGORIES:PSU Farmers Market
-ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/psu-jun23.jpg
-GEO:45.5128932;-122.6853859
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=PSU Farmers Market SW Park & Montgomery Portland OR 97201 United States;X-APPLE-RADIUS=500;X-TITLE=SW Park & Montgomery:geo:-122.6853859,45.5128932
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260524T100000
-DTEND;TZID=America/Los_Angeles:20260524T140000
-DTSTAMP:20260523T195743
-CREATED:20260325T001110Z
-LAST-MODIFIED:20260325T001111Z
-UID:10003158-1779616800-1779631200@www.portlandfarmersmarket.org
-SUMMARY:King Farmers Market
-DESCRIPTION:King Farmers Market features about 30 farmers and food producers\, offering fresh\, local produce and food\, plus a variety of breakfast and lunch options in a family-friendly setting.
-URL:https://www.portlandfarmersmarket.org/event/king-farmers-market-3/2026-05-24/
-LOCATION:King Farmers Market\, NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211\, Portland\, OR\, 97211\, United States
-CATEGORIES:King Farmers Market
-ATTACH;FMTTYPE=image/jpeg:https://www.portlandfarmersmarket.org/wp-content/uploads/2023/08/King-aug-22-image-close.jpg
-GEO:45.5582344;-122.6590884
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=King Farmers Market NE Wygant St & NE 7th Ave Portland OR 97211 Portland OR 97211 United States;X-APPLE-RADIUS=500;X-TITLE=NE Wygant St &\, NE 7th Ave\, Portland\, OR 97211:geo:-122.6590884,45.5582344
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260527T100000
 DTEND;TZID=America/Los_Angeles:20260527T140000
-DTSTAMP:20260523T195743
+DTSTAMP:20260525T195630
 CREATED:20260325T002215Z
 LAST-MODIFIED:20260325T002217Z
 UID:10003218-1779876000-1779890400@www.portlandfarmersmarket.org
@@ -97,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260530T083000
 DTEND;TZID=America/Los_Angeles:20260530T140000
-DTSTAMP:20260523T195743
+DTSTAMP:20260525T195630
 CREATED:20260324T215325Z
 LAST-MODIFIED:20260324T235842Z
 UID:10003101-1780129800-1780149600@www.portlandfarmersmarket.org
@@ -113,7 +81,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260531T100000
 DTEND;TZID=America/Los_Angeles:20260531T140000
-DTSTAMP:20260523T195743
+DTSTAMP:20260525T195630
 CREATED:20260325T001110Z
 LAST-MODIFIED:20260325T001111Z
 UID:10003159-1780221600-1780236000@www.portlandfarmersmarket.org
