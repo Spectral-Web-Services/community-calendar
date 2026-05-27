@@ -4,18 +4,6 @@ PRODID:-//Visit Petaluma//visitpetaluma.com//
 X-WR-CALNAME:Visit Petaluma
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:East Side Farmers Market
-DTSTART;TZID=America/Los_Angeles:20260526T093000
-DTEND;TZID=America/Los_Angeles:20260526T133000
-UID:5aa3caebc572c12d9a68cb66ce4b0359@visitpetaluma.com
-ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
- /Untitled-design-30-1.png
-DESCRIPTION:Occurs weekly on Tuesday — (+22 more occurrences) — More i
- nfo: https://www.visitpetaluma.com/event/east-side-farmers-market/
-URL:https://www.visitpetaluma.com/event/east-side-farmers-market/
-X-SOURCE:Visit Petaluma
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Preserving National History Locally: Tour of the Petaluma Woman’
  s Club
 DTSTART;TZID=America/Los_Angeles:20260527T170000
@@ -155,6 +143,18 @@ ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
 DESCRIPTION:More info: https://www.visitpetaluma.com/event/petnat-release-
  party/
 URL:https://www.visitpetaluma.com/event/petnat-release-party/
+X-SOURCE:Visit Petaluma
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:East Side Farmers Market
+DTSTART;TZID=America/Los_Angeles:20260602T093000
+DTEND;TZID=America/Los_Angeles:20260602T133000
+UID:5df9f0c4d8120a88d7f9a612d264a81c@visitpetaluma.com
+ATTACH;FMTTYPE=image/jpeg:https://www.visitpetaluma.com/wp-content/uploads
+ /Untitled-design-30-1.png
+DESCRIPTION:Occurs weekly on Tuesday — (+21 more occurrences) — More i
+ nfo: https://www.visitpetaluma.com/event/east-side-farmers-market/
+URL:https://www.visitpetaluma.com/event/east-side-farmers-market/
 X-SOURCE:Visit Petaluma
 END:VEVENT
 BEGIN:VEVENT
