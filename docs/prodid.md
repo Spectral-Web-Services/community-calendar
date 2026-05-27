@@ -10,11 +10,11 @@ used across all city feeds, identified by their PRODID header.
 | **Meetup** | ICS export from meetup.com groups. | bloomington, evanston, jweekly, petaluma, portland, roanoke | 52 |
 | **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, boston, evanston, jweekly, matsu, petaluma, portland, publisher-resources, roanoke | 43 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, jweekly, petaluma, portland, publisher-resources, roanoke | 35 |
-| **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston, portland | 19 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | evanston, matsu, roanoke | 18 |
+| **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, evanston | 15 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, evanston, petaluma, portland | 6 |
-| **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, portland | 4 |
 | **LibCal (Springshare)** | Library event management platform. | bloomington, portland | 3 |
+| **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, portland | 3 |
 | **MaxPreps** | High school sports schedules. | petaluma | 2 |
 | **GrowthZone** | Chamber of commerce / association management platform. | petaluma, roanoke | 2 |
 | **MembershipWorks** | Membership management platform with event calendar. | petaluma | 1 |
@@ -76,16 +76,6 @@ Public Google Calendar ICS export.
 
 **roanoke** (1): berglund_center
 
-### Localist (19 feeds)
-
-Campus/community event platform by Concept3D (Indiana University instance).
-
-**bloomington** (16): iu_arts_humanities, iu_asian_culture, iu_auditorium, iu_black_film, iu_cinema, iu_eskenazi_museum, iu_first_nations, iu_hamilton_lugar, iu_jacobs_music, iu_kelley_business, iu_la_casa, iu_lgbtq_culture, iu_libraries, iu_maurer_law, iu_neal_marshall, iu_theatre_dance
-
-**evanston** (1): oakton_college
-
-**portland** (2): reed_college, university_of_portland
-
 ### CivicPlus (ical.net) (18 feeds)
 
 Government CMS using ical.net library. Common for city/county websites.
@@ -95,6 +85,14 @@ Government CMS using ical.net library. Common for city/county websites.
 **matsu** (6): wasilla_airport_advisory, wasilla_city_council, wasilla_library, wasilla_menard_center, wasilla_parks_rec, wasilla_planning
 
 **roanoke** (9): roanoke_boards_commissions, roanoke_city_council, roanoke_neighborhood_events, roanoke_public_events, roanoke_special_events, salem_civic_center, salem_government_meetings, salem_main_calendar, salem_parks_rec
+
+### Localist (15 feeds)
+
+Campus/community event platform by Concept3D (Indiana University instance).
+
+**bloomington** (14): iu_arts_humanities, iu_asian_culture, iu_auditorium, iu_cinema, iu_eskenazi_museum, iu_first_nations, iu_hamilton_lugar, iu_jacobs_music, iu_kelley_business, iu_la_casa, iu_lgbtq_culture, iu_libraries, iu_maurer_law, iu_theatre_dance
+
+**evanston** (1): oakton_college
 
 ### Tockify (6 feeds)
 
@@ -108,14 +106,6 @@ Embeddable calendar widget with public ICS feeds.
 
 **portland** (2): tockify_kptv_calendar, tockify_theoldchurch
 
-### Modern Events Calendar (WordPress) (4 feeds)
-
-WordPress plugin by Webnus. PRODID references wp-events-plugin.com.
-
-**petaluma** (2): petaluma_bounty, petaluma_speedway
-
-**portland** (2): ananda_portland, japanese_garden
-
 ### LibCal (Springshare) (3 feeds)
 
 Library event management platform.
@@ -123,6 +113,14 @@ Library event management platform.
 **bloomington** (2): iu_libcal_scholars_commons, iu_libcal_screening_room
 
 **portland** (1): ohsu_library
+
+### Modern Events Calendar (WordPress) (3 feeds)
+
+WordPress plugin by Webnus. PRODID references wp-events-plugin.com.
+
+**petaluma** (1): petaluma_speedway
+
+**portland** (2): ananda_portland, japanese_garden
 
 ### MaxPreps (2 feeds)
 
@@ -161,7 +159,6 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//172.66.146.53//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | wfhb |
 | `-//173.236.243.198//NONSGML kigkonsult.se iCalcreator 2.26.9//` | bloomington | writersguildbloomington |
 | `-//Homeschool + Hue//eventbrite.com//` | evanston | eb_homeschool_hue |
-| `-//Indivisible Central Indiana (Mobilize)//mobilize.us//` | bloomington | mobilize_indivisible_central_indiana |
 | `-//Lewis & Clark//NONSGML v1.0//EN` | portland | lewis_clark |
 | `-//Luma//Hacks/Hackers//EN` | publisher-resources | hackshackers |
 | `-//Monroe County Public Library//Event Calendar//EN` | bloomington | mcpl |
@@ -179,3 +176,4 @@ own scrapers, add a pattern to `OUR_SCRAPERS`.
 | `-//YWCA Evanston/North Shore//eventbrite.com//` | evanston | eb_ywca |
 | `X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN` | portland | calagator |
 | `icalendar-ruby` | matsu | matsuk12 |
+| `icalendar-ruby` | portland | university_of_portland |

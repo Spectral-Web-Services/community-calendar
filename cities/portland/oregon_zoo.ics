@@ -5,9 +5,9 @@ X-WR-CALNAME:Oregon Zoo
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
 SUMMARY:Early Member Mornings
-DTSTART;TZID=America/Los_Angeles:20260517T080000
-DTEND;TZID=America/Los_Angeles:20260517T084500
-UID:af2f52f87cb66abec3c6058075a3e8e9@oregonzoo.org
+DTSTART;TZID=America/Los_Angeles:20260531T080000
+DTEND;TZID=America/Los_Angeles:20260531T084500
+UID:99b98c01a61eafffa572fef8e8d01235@oregonzoo.org
 ATTACH;FMTTYPE=image/jpeg:https://www.oregonzoo.org/sites/default/files/20
  23-08/h-mountain-goat-rock.jpg
 DESCRIPTION:Enjoy the sights and sounds of the animal kingdom before the z
@@ -24,8 +24,8 @@ DTEND;TZID=America/Los_Angeles:20260605T220000
 UID:c59a9cc8370a200b9dc965e85597ba75@oregonzoo.org
 ATTACH;FMTTYPE=image/jpeg:https://www.oregonzoo.org/sites/default/files/20
  25-04/h-clinking-zoobrew.jpg
-DESCRIPTION:ZooBrew is back! This 21+ festival features more than 50 brewe
- ries and cideries\, along with food carts\, lawn games and live music.
+DESCRIPTION:ZooBrew is back! This 21+ festival features dozens of brewerie
+ s and cideries\, along with food carts\, lawn games and live music.
 LOCATION:Oregon Zoo\, 4001 SW Canyon Road\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/brew
 X-SOURCE:Oregon Zoo
@@ -54,6 +54,19 @@ DESCRIPTION:Celebrate summer Friday evenings at the zoo with live music\,
  food carts\, keeper chats and activities for all ages.
 LOCATION:Oregon Zoo\, 4001 SW Canyon Road\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/nights
+X-SOURCE:Oregon Zoo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wild Wednesdays
+DTSTART;TZID=America/Los_Angeles:20260701T180000
+DTEND;TZID=America/Los_Angeles:20260701T210000
+UID:0ff02a230183fed3754f59d9a4ff41bd@oregonzoo.org
+ATTACH;FMTTYPE=image/jpeg:https://www.oregonzoo.org/sites/default/files/20
+ 26-05/couple-lawn-ZB24.jpg
+DESCRIPTION:Experience the zoo after hours\, without daytime crowds or kid
+ s.
+LOCATION:Oregon Zoo\, 4001 SW Canyon Road\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/Wednesdays
 X-SOURCE:Oregon Zoo
 END:VEVENT
 END:VCALENDAR

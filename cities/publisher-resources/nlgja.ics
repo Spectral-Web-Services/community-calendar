@@ -48,75 +48,36 @@ TZNAME:EST
 DTSTART:20271107T060000
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:America/Chicago
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0600
-TZOFFSETTO:-0500
-TZNAME:CDT
-DTSTART:20250309T080000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0600
-TZNAME:CST
-DTSTART:20251102T070000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0600
-TZOFFSETTO:-0500
-TZNAME:CDT
-DTSTART:20260308T080000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0600
-TZNAME:CST
-DTSTART:20261101T070000
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0600
-TZOFFSETTO:-0500
-TZNAME:CDT
-DTSTART:20270314T080000
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0600
-TZNAME:CST
-DTSTART:20271107T070000
-END:STANDARD
-END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20260421T180000
-DTEND;TZID=America/New_York:20260421T200000
-DTSTAMP:20260420T222558
-CREATED:20260331T154542Z
-LAST-MODIFIED:20260331T154542Z
-UID:16928-1776794400-1776801600@www.nlgja.org
-SUMMARY:Game Night and Happy Hour at Her Diner
-DESCRIPTION:Registration is now open for NLGJA DC’s game night and happy hour at Her Diner! This event is part of NLGJA’s Our Community event series\, where chapters across the country host events grounded in community\, support and feedback. The goal is to create spaces where journalists can come together\, uplift one another and help shape the future of NLGJA’s advocacy. \nFood\, drinks and games will be provided\, though you’re also welcome to bring your own favorite game to share! RSVP today for a fun night with your fellow DMV queer journalists and media pros. Register here!
-URL:https://www.nlgja.org/event/game-night-and-happy-hour-at-her-diner/
-LOCATION:Her Diner
+DTSTART;TZID=America/New_York:20260606T150000
+DTEND;TZID=America/New_York:20260606T170000
+DTSTAMP:20260526T230706
+CREATED:20260504T130939Z
+LAST-MODIFIED:20260504T130939Z
+UID:17053-1780758000-1780765200@www.nlgja.org
+SUMMARY:NLGJA-DC Pride Happy Hour
+DESCRIPTION:Join our DC Chapter for their biggest event of the year — their annual Pride Happy Hour! Come to Trade for an afternoon of celebration\, networking and fun with your fellow queer media professionals. \n\nRSVP here!
+URL:https://www.nlgja.org/event/nlgja-dc-pride-happy-hour/
+LOCATION:Trade\, 1410 14th Street Northwest\, Washington\, DC\, 20009\, United States
 CATEGORIES:Chapters
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260423T180000
-DTEND;TZID=America/Chicago:20260423T203000
-DTSTAMP:20260420T222558
-CREATED:20260413T150959Z
-LAST-MODIFIED:20260413T150959Z
-UID:16996-1776967200-1776976200@www.nlgja.org
-SUMMARY:Chicago LGBTQ+ Journalists Mixer
-DESCRIPTION:Meet\, mingle and build community with LGBTQ+ journalists\, allies and other media pros — tacos are on us! This event marks the start of NLGJA Chicago’s 2026 programming. Open to journalists\, student journalists\, PR and communications professionals\, media-adjacent professionals\, allies and more. Tacos and appetizers will be provided on a first come\, first served basis. A cash bar will be available. Bring a friend or colleague.
-URL:https://www.nlgja.org/event/chicago-lgbtq-journalists-mixer-2/
-LOCATION:Barcocina Lakeview\, 2901 N. Sheffield Ave.\, Chicago\, IL\, United States
+DTSTART;TZID=America/New_York:20260609T180000
+DTEND;TZID=America/New_York:20260609T210000
+DTSTAMP:20260526T230706
+CREATED:20260520T155134Z
+LAST-MODIFIED:20260520T155134Z
+UID:17146-1781028000-1781038800@www.nlgja.org
+SUMMARY:NLGJA x PRSA NYC LGBTQ+ Pride Panel and Mixer
+DESCRIPTION:Join the NYC chapters of NLGJA: The Association of LGBTQ+ Journalists and PRSA for a joint mixer and brief panel discussion to kick off Pride month! \n🏳️‍🌈🏳️‍⚧️ Drinks and bites will be made possible through support from our incredible sponsors: NLGJA\, M Booth\, MSW\, Global Gateway Advisors\, and Interdependence. Thank you all for graciously supporting this event! \n🚨 All are welcome at this gathering\, so please share with friends and colleagues\, but please do RSVP in the event we need to limit attendance due to space. 🚨 \nVERS NYC – 714 9th Ave\, New York\, NY\nTuesday\, June 9\n6:00–8:00 PM \nRSVP HERE
+URL:https://www.nlgja.org/event/nlgja-x-prsa-nyc-lgbtq-pride-panel-and-mixer/
+LOCATION:VERS NYC\, 714 9th Ave\, New York City\, NY
 CATEGORIES:Chapters
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260420T222558
+DTSTAMP:20260526T230706
 CREATED:20251017T201309Z
 LAST-MODIFIED:20260218T182432Z
 UID:16643-1788998400-1789343999@www.nlgja.org
