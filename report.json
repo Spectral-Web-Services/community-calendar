@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T19:07:01.820264",
+  "generated": "2026-05-27T19:15:45.676532",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -49905,16 +49905,11 @@
         }
       },
       "url_quality": {
-        "total_with_url": 1147,
+        "total_with_url": 1026,
         "total_events": 1228,
-        "unique_urls": 859,
-        "generic_count": 187,
+        "unique_urls": 858,
+        "generic_count": 66,
         "generic_domains": [
-          {
-            "domain": "elks901.org",
-            "events": 121,
-            "url": "https://elks901.org/calendar-of-events/"
-          },
           {
             "domain": "brooksnotewinery.com",
             "events": 26,
@@ -49944,12 +49939,6 @@
             "events": 240,
             "unique_urls": 240,
             "specificity_pct": 100
-          },
-          {
-            "source": "Petaluma Elks Lodge",
-            "events": 121,
-            "unique_urls": 1,
-            "specificity_pct": 1
           },
           {
             "source": "SRJC Petaluma Campus",
@@ -50028,6 +50017,12 @@
             "events": 14,
             "unique_urls": 1,
             "specificity_pct": 7
+          },
+          {
+            "source": "Uu Petaluma",
+            "events": 13,
+            "unique_urls": 1,
+            "specificity_pct": 8
           }
         ]
       },
@@ -50046,7 +50041,7 @@
         },
         {
           "category": "Community / Social",
-          "count": 138
+          "count": 139
         },
         {
           "category": "Family / Kids",
@@ -50097,15 +50092,15 @@
           "count": 6
         },
         {
-          "category": "(uncategorized)",
-          "count": 5
-        },
-        {
           "category": "History / Heritage",
           "count": 4
         },
         {
           "category": "LGBTQ+ / Gender",
+          "count": 4
+        },
+        {
+          "category": "(uncategorized)",
           "count": 4
         }
       ],
