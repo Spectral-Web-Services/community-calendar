@@ -1462,7 +1462,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><strong>RSVP's are required by Friday\, J
 UID:20260618T183000Z-393637@www.lclark.edu
 DTSTAMP:20260515T142057Z
 URL:https://www.lclark.edu/live/events/393624-employee-appreciation-picnic
-LAST-MODIFIED:20260515T234855Z
+LAST-MODIFIED:20260526T220347Z
 ATTACH:https://www.lclark.edu/live/image/gid/218/width/80/height/80/crop/
  1/src_region/0,0,1080,1350/113331_Green_and_White_Bold_Minimal_World_Foot
  ball_Day_Instagram_Post.rev.1778876979.png
@@ -3226,24 +3226,26 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 LOCATION:Fowler Student Center
-SUMMARY:Save the Date! July 13! Empowering Local Climate Action: Educatio
- n\, Policy and Practice
+SUMMARY:Register - July 13 - Empowering Local Climate Action: Education\,
+  Policy and Practice
 DESCRIPTION:Inspired by John Doerr's Speed &amp\; Scale: An Action Plan f
  or Solving Our Climate Crisis Now\, we will enjoy panels and workshops fo
  cused on:  Electrifying Transportation  Decarbonizing the Grid and Infras
- tructure  Fix Food  Protect Nature  Clean Up Industry  Remove Carbon from
-  the Atmosphere  Enjoy a key note at 5:30 pm.
+ tructure  Fixing Food  Protecting Nature  Cleaning Up Industry  A lunch w
+ ill be provided\, with vegan\, vegetarian and gluten-free options.  Enjoy
+  a key note from Protect Our Winters at 5:30 pm.
 X-ALT-DESC;FMTTYPE=text/html:<p>  Inspired by John Doerr's Speed &amp\; S
  cale: An Action Plan for Solving Our Climate Crisis Now\, we will enjoy p
  anels and workshops focused on:</p><p>  Electrifying Transportation</p><p
- >  Decarbonizing the Grid and Infrastructure</p><p>  Fix Food</p><p>  Pro
- tect Nature</p><p>  Clean Up Industry</p><p>  Remove Carbon from the Atmo
- sphere</p><p>  Enjoy a key note at 5:30 pm.</p>
+ >  Decarbonizing the Grid and Infrastructure</p><p>  Fixing Food</p><p>  
+ Protecting Nature</p><p>  Cleaning Up Industry</p><p>  A lunch will be pr
+ ovided\, with vegan\, vegetarian and gluten-free options.</p><p>  Enjoy a
+  key note from Protect Our Winters at 5:30 pm.</p>
 UID:20260713T070000Z-391995@www.lclark.edu
 DTSTAMP:20260429T115808Z
-URL:https://www.lclark.edu/calendars/events/event/391995-save-the-date-ju
- ly-13-empowering-local-climate-action
-LAST-MODIFIED:20260512T000445Z
+URL:https://www.lclark.edu/calendars/events/event/pnw-climate-summit
+CATEGORIES:Open to the Public
+LAST-MODIFIED:20260526T213928Z
 ATTACH:https://www.lclark.edu/live/image/gid/486/width/80/height/80/crop/
  1/src_region/0,0,240,320/113146_-79345069452523950664.rev.1778543818.jpg
 X-LIVEWHALE-TYPE:events
@@ -3260,6 +3262,7 @@ X-LIVEWHALE-SUMMARY:<p>\n  It's time to take solutions into our own hands
  . Enjoy the company of others who are ready to race to save the planet. W
  e are breaking the day into the sectors we must target while maintaining 
  hope and optimism.\n</p>
+X-LIVEWHALE-RSVP:1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260715T160000
@@ -3792,7 +3795,7 @@ UID:20260728T160000Z-388400@www.lclark.edu
 DTSTAMP:20260327T114416Z
 URL:https://www.lclark.edu/calendars/events/event/388400-supporting-ukrai
  nians-through-trauma-informed-cultura
-LAST-MODIFIED:20260521T202609Z
+LAST-MODIFIED:20260526T205747Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,1799,3199/112591_zt_oscar-ukraine-8973937.rev.1774640898.
  jpg
@@ -3936,7 +3939,7 @@ UID:20260729T160000Z-387972@www.lclark.edu
 DTSTAMP:20260323T115408Z
 URL:https://www.lclark.edu/calendars/events/event/387972-ai-in-education-
  practical-ethical-and-equitable-ai-in
-LAST-MODIFIED:20260408T230614Z
+LAST-MODIFIED:20260526T223111Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,2305,2396/112588_Headshot-1.rev.1774543158.gif
 X-LIVEWHALE-TYPE:events
@@ -5184,6 +5187,34 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 X-LIVEWHALE-ALL-DAY:1
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260914T130000
+DTEND;TZID=America/Los_Angeles:20260914T150000
+SUMMARY:CAC Drop-Ins
+UID:20260914T200000Z-394886@www.lclark.edu
+DTSTAMP:20260526T134630Z
+URL:https://www.lclark.edu/calendars/events/event/394886-cac-drop-ins
+LAST-MODIFIED:20260526T204630Z
+RRULE:FREQ=WEEKLY;UNTIL=20261208T210000Z;INTERVAL=1;BYDAY=MO
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:394886
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-REPEATS-UNTIL:2026-12-08 21:00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260915T130000
+DTEND;TZID=America/Los_Angeles:20260915T150000
+SUMMARY:CAC Drop-Ins
+UID:20260915T200000Z-394873@www.lclark.edu
+DTSTAMP:20260526T134630Z
+URL:https://www.lclark.edu/calendars/events/event/394873-cac-drop-ins
+LAST-MODIFIED:20260526T204630Z
+RRULE:FREQ=WEEKLY;UNTIL=20261209T210000Z;INTERVAL=1;BYDAY=TU
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:394873
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-REPEATS-UNTIL:2026-12-09 21:00:00
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 LOCATION:1010 SE Powell Blvd Portland\, OR 97202
@@ -5368,6 +5399,163 @@ X-LIVEWHALE-SUMMARY:<p>\n  Thursday-Friday\, September 17-18\, 24 &amp\;
  25\, 2026\, 8:30 a.m.-5 p.m. PT\, Online&#160\; |&#160\; 30 CEUs\n</p>
 X-LIVEWHALE-TAGS:All Courses Upcoming|clinical supervision|Counselors Upc
  oming|cpsy|september|workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260917T130000
+DTEND;TZID=America/Los_Angeles:20260917T150000
+SUMMARY:CAC Drop-Ins
+UID:20260917T200000Z-394859@www.lclark.edu
+DTSTAMP:20260526T134630Z
+URL:https://www.lclark.edu/calendars/events/event/394859-cac-drop-ins
+LAST-MODIFIED:20260526T204630Z
+RRULE:FREQ=WEEKLY;UNTIL=20261211T210000Z;INTERVAL=1;BYDAY=TH
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:394859
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-REPEATS-UNTIL:2026-12-11 21:00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260918T130000
+DTEND;TZID=America/Los_Angeles:20260918T170000
+LOCATION:Online
+SUMMARY:Trauma-Informed Care Starts with You: Integrative Self-Inquiry fo
+ r Therapists and Counselors (Online)
+DESCRIPTION:In response to an era of extreme burnout and societal fragmen
+ tation\, this three-part workshop series for therapists and counselors fo
+ cuses on experiential practice\, integrative self-inquiry and contemplati
+ on in community.  Moving beyond theory\, clinicians will meet over the co
+ urse of three sessions and engage in self-inquiry practices that deepen t
+ heir capacity to be more insightful\, embodied\, and authenticâ€”the esse
+ ntial foundation for solid trauma-informed care. Together\, we will culti
+ vate awareness and resilience by integrating mindfulness\, developmental 
+ insight\, and trauma-informed principles.  The primary goal of this commu
+ nity of practice is to nurture the therapist as a whole person\, fosterin
+ g clinicians who are grounded\, present\, and ethicalâ€”and better able t
+ o bring their own depth and growth into meaningful therapeutic work.Durin
+ g this series\, participants will:Participate in trauma-informed self-inq
+ uiry focused on professional ethics\, countertransference\, and moral inj
+ ury to strengthen clinical authenticity and self-trust.  Analyze the prac
+ tical challenges of maintaining embodied presence and authentic connectio
+ n when applying trauma-informed principles in clinical settings.  Apply s
+ elf-awareness and insight tools to enhance personal wellbeing and ethical
+ ly integrate these practices into client-focused therapeutic work.  Detai
+ ls &amp\; RegistrationDates and Time: Fridays\, September 18\, October 16
+ \, November 20\, 2026\, 9-10:30 a.m.\, PT\, OnlineInstructor:&#160\;Julia
+ nna Vermeys\, LPCDetails: $165\, includes 6 CEUs. Alumni\, Adjuncts\, and
+  GSEC Clinical Mental Health Supervisors save 20%.&#160\;Register Online 
+ (https://lclark.tfaforms.net/wf1W4MQ?epid=a1aUY000002l0TF)Accessibility: 
+ We are committed to making our events accessible to all needs and abiliti
+ es. When registering\, please let us know your access needs. Contact us a
+ t 503-768-6040 or cce@lclark.edu (mailto:cce@lclark.edu)&#160\;with quest
+ ions.Please note: Discounted &#x2018\;Student Rate&#x2019\; registrations
+  are for current students only and do not include continuing education cr
+ edit (CEU/PDUs)About the InstructorJulianna Vermeys\, LPC has been practi
+ cing integrative somatic psychotherapy since 2006. She is dedicated to of
+ fering trauma-informed\, holistic therapy that addresses systemic\, envir
+ onmental and relational impacts through one's lifespan. Julianna offers e
+ quitable\, existential and somatic oriented supervision clinical supervis
+ ion as an approved supervisor for the OBLPCT. She is inspired by family/r
+ elationship dynamics\, attachment\, human development\, trauma-informed h
+ ealing and wellness\, and client-centered therapy rooted in compassion an
+ d unconditional positive regard. She has specialized training in trauma-i
+ nformed counseling\, mindfulness\, and body-based therapies.  Julianna is
+  registered with Yoga Alliance as RYT 500-hr and is excited by the collec
+ tive considerations of how we can embrace ancient practices from other cu
+ ltures with ethical\, conscious care. She teaches graduate classes as an 
+ adjunct faculty member at the Lewis &amp\; Clark Graduate School in the C
+ ounseling Program\, and offers trainings for clinicians in trauma informe
+ d embodiment practices to inform ethical clinical work and integrated som
+ atic psychotherapy.New workshops and trainings are added to our calendar 
+ regularly. For the latest on professional development related to your spe
+ cific interests\, sign up for our mailing list! (https://lclark.tfaforms.
+ net/4735441)
+X-ALT-DESC;FMTTYPE=text/html:<p style="line-height: 1.5\;">  In response 
+ to an era of extreme burnout and societal fragmentation\, this three-part
+  workshop series for therapists and counselors focuses on experiential pr
+ actice\, integrative self-inquiry and contemplation in community.</p><p s
+ tyle="line-height: 1.5\;">  Moving beyond theory\, clinicians will meet o
+ ver the course of three sessions and engage in self-inquiry practices tha
+ t deepen their capacity to be more insightful\, embodied\, and authenticâ
+ €”the essential foundation for solid trauma-informed care. Together\, we 
+ will cultivate awareness and resilience by integrating mindfulness\, deve
+ lopmental insight\, and trauma-informed principles.</p><p style="line-hei
+ ght: 1.5\;">  The primary goal of this community of practice is to nurtur
+ e the therapist as a whole person\, fostering clinicians who are grounded
+ \, present\, and ethicalâ€”and better able to bring their own depth and g
+ rowth into meaningful therapeutic work.</p><p><strong>During this series\
+ , participants will:</strong></p><ul><li style="line-height: 1.5\;">Parti
+ cipate in trauma-informed self-inquiry focused on professional ethics\, c
+ ountertransference\, and moral injury to strengthen clinical authenticity
+  and self-trust.  </li><li style="line-height: 1.5\;">Analyze the practic
+ al challenges of maintaining embodied presence and authentic connection w
+ hen applying trauma-informed principles in clinical settings.  </li><li s
+ tyle="line-height: 1.5\;">Apply self-awareness and insight tools to enhan
+ ce personal wellbeing and ethically integrate these practices into client
+ -focused therapeutic work.  </li></ul><hr /><h2><strong>Details &amp\; Re
+ gistration</strong></h2><p style="line-height: 1.5\;"><strong>Dates and T
+ ime:</strong> Fridays\, September 18\, October 16\, November 20\, 2026\, 
+ 9-10:30 a.m.\, PT\, Online</p><p style="line-height: 1.5\;"><strong>Instr
+ uctor:</strong>&#160\;Julianna Vermeys\, LPC</p><p style="line-height: 1.
+ 5\;"><strong>Details:</strong> $165\, includes 6 CEUs. Alumni\, Adjuncts\
+ , and GSEC Clinical Mental Health Supervisors save 20%.&#160\;</p><p styl
+ e="line-height: 1.5\;"><a class="btn-small-style-1" href="https://lclark.
+ tfaforms.net/wf1W4MQ?epid=a1aUY000002l0TF" target="_blank" rel="noopener"
+ >Register Online</a></p><div id="lw_widget_30f0017c" class="lw_widget lw_
+ widget_type_blurbs lw_widget_blurbs lw_widget_id_7119 lw_widget_accessibi
+ lity_statement lw_widget_pagination"><ul class="lw_widget_results lw_widg
+ et_results_blurbs"><li class="lw_item_1"><div class="lw_blurbs_body"><p c
+ lass="p1" style="font-size: 15px\; line-height: 1.5\;"><em><strong>Access
+ ibility:</strong> We are committed to making our events accessible to all
+  needs and abilities. When registering\, please let us know your access n
+ eeds. Contact us at 503-768-6040 or <a href="mailto:cce@lclark.edu">cce@l
+ clark.edu</a>&#160\;with questions.<br/></em></p><p class="p1" style="fon
+ t-size: 15px\; line-height: 1.5\;"><em><strong>Please note:</strong> Disc
+ ounted &#x2018\;Student Rate&#x2019\; registrations are for current stude
+ nts only and <strong>do not</strong> include continuing education credit 
+ (CEU/PDUs)</em></p></div></li></ul></div><hr /><h3><strong>About the Inst
+ ructor</strong></h3><p style="line-height: 1.5\;"><strong>Julianna Vermey
+ s\, LPC</strong> has been practicing integrative somatic psychotherapy si
+ nce 2006. She is dedicated to offering trauma-informed\, holistic therapy
+  that addresses systemic\, environmental and relational impacts through o
+ ne's lifespan. Julianna offers equitable\, existential and somatic orient
+ ed supervision clinical supervision as an approved supervisor for the OBL
+ PCT. She is inspired by family/relationship dynamics\, attachment\, human
+  development\, trauma-informed healing and wellness\, and client-centered
+  therapy rooted in compassion and unconditional positive regard. She has 
+ specialized training in trauma-informed counseling\, mindfulness\, and bo
+ dy-based therapies.</p><p style="line-height: 1.5\;">  Julianna is regist
+ ered with Yoga Alliance as RYT 500-hr and is excited by the collective co
+ nsiderations of how we can embrace ancient practices from other cultures 
+ with ethical\, conscious care. She teaches graduate classes as an adjunct
+  faculty member at the Lewis &amp\; Clark Graduate School in the Counseli
+ ng Program\, and offers trainings for clinicians in trauma informed embod
+ iment practices to inform ethical clinical work and integrated somatic ps
+ ychotherapy.</p><div id="lw_widget_470b39ba" class="lw_widget lw_widget_t
+ ype_blurbs lw_widget_blurbs lw_widget_id_3994 lw_widget_opt_in lw_widget_
+ pagination"><ul class="lw_widget_results lw_widget_results_blurbs"><li cl
+ ass="lw_item_1"><div class="lw_blurbs_body"><p style="line-height: 1.5\;"
+ ><em><strong>New workshops and trainings are added to our calendar regula
+ rly.</strong> For the latest on professional development related to your 
+ specific interests\, <a href="https://lclark.tfaforms.net/4735441">sign u
+ p for our mailing list!</a></em></p></div></li></ul></div>
+UID:20260918T200000Z-394299@www.lclark.edu
+DTSTAMP:20260521T120257Z
+URL:https://www.lclark.edu/calendars/events/event/394299-trauma-informed-
+ care-starts-with-you-integrative-self
+LAST-MODIFIED:20260526T205702Z
+ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
+ /src_region/326,121,2717,2515/86005_Julianna_Vermeys.rev.1603837759.jpg
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:394299
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://www.lclark.edu/live/image/gid/91/width/80/heigh
+ t/80/crop/1/src_region/326\,121\,2717\,2515/86005_Julianna_Vermeys.rev.16
+ 03837759.jpg
+X-LIVEWHALE-SUMMARY:<p style="line-height: 1.5\;">\n  Fridays\, September
+  18\,&#160\;October 16\, November 20\, 2026\, 9-10:30 a.m.\, PT\, Online&
+ #160\; |&#160\; 6 CEUs\n</p>
+X-LIVEWHALE-TAGS:All Courses Upcoming|Counselors Upcoming|cpsy|homepage|s
+ eptember|workshops
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260925T100000
@@ -6098,7 +6286,7 @@ UID:20261002T070000Z-391789@www.lclark.edu
 DTSTAMP:20260427T114825Z
 URL:https://www.lclark.edu/calendars/events/event/391789-writing-into-pre
  sence-reflective-practices-for-courag
-LAST-MODIFIED:20260505T182431Z
+LAST-MODIFIED:20260526T191114Z
 ATTACH:https://www.lclark.edu/live/image/gid/91/width/80/height/80/crop/1
  /src_region/0,0,3200,2133/113062_112978_pexels-connorscottmcmanus-1429761
  6.rev.1778005463.jpg

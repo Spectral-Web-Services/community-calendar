@@ -4,32 +4,6 @@ PRODID:-//Portland Volunteer Events//portland.gov//
 X-WR-CALNAME:Portland Volunteer Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:Pittock Garden Tuesday Volunteer Day
-DTSTART;TZID=America/Los_Angeles:20260526T090000
-DTEND;TZID=America/Los_Angeles:20260526T090000
-UID:f119e2a45c9574e688bd6530177ab258@portland.gov
-ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
- les/facebook/public/2026/IMG_0070.jpeg?itok=zEuAsgFN
-DESCRIPTION:Join Portland Parks & Recreation in the garden every Tuesday\,
-  rain or shine\, to tend to the plants on the grounds at Pittock Mansion.
-LOCATION:Pittock Mansion
-URL:https://www.portland.gov/parks/events/2026/5/26/pittock-garden-tuesday
- -volunteer-day
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:South Park Blocks Gardening and Turf Crew
-DTSTART;TZID=America/Los_Angeles:20260526T090000
-DTEND;TZID=America/Los_Angeles:20260526T090000
-UID:1dddabb2f27ae99897e136a4f4f8a9a1@portland.gov
-DESCRIPTION:Join the Friends of South Park Blocks for a morning in the par
- k!
-LOCATION:South Park Blocks
-URL:https://www.portland.gov/parks/events/2026/5/26/south-park-blocks-gard
- ening-and-turf-crew
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hazeltine Park Tending Time
 DTSTART;TZID=America/Los_Angeles:20260527T090000
 DTEND;TZID=America/Los_Angeles:20260527T090000
@@ -89,18 +63,6 @@ URL:https://www.portland.gov/parks/events/2026/5/30/mt-tabor-last-saturday
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lilac Garden at Duniway Park volunteer event
-DTSTART;TZID=America/Los_Angeles:20260601T090000
-DTEND;TZID=America/Los_Angeles:20260601T090000
-UID:c53cc2482c59883ee88f6e9178b7f767@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
- at Duniway Park for a morning of plant and garden care.
-LOCATION:Duniway Park
-URL:https://www.portland.gov/parks/events/2026/6/1/lilac-garden-duniway-pa
- rk-volunteer-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=America/Los_Angeles:20260601T090000
 DTEND;TZID=America/Los_Angeles:20260601T090000
@@ -112,6 +74,18 @@ DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the
 LOCATION:Washington Park
 URL:https://www.portland.gov/parks/events/2026/6/1/mac-trail-volunteer-day
  -washington-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilac Garden at Duniway Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260601T090000
+DTEND;TZID=America/Los_Angeles:20260601T090000
+UID:c53cc2482c59883ee88f6e9178b7f767@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
+ at Duniway Park for a morning of plant and garden care.
+LOCATION:Duniway Park
+URL:https://www.portland.gov/parks/events/2026/6/1/lilac-garden-duniway-pa
+ rk-volunteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -141,22 +115,6 @@ URL:https://www.portland.gov/parks/events/2026/6/2/south-park-blocks-garde
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Parklane Park Garden of Weedin'
-DTSTART;TZID=America/Los_Angeles:20260603T090000
-DTEND;TZID=America/Los_Angeles:20260603T090000
-UID:871ad1209c87609e1c5454f3f92147dc@portland.gov
-DESCRIPTION:Join the Garden of Weedin' and help us keep Parklane Park in b
- loom!
-LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
- ue and Main Street Portland\, OR 97233 Get directions Parklane Park main e
- ntrance SE 155th Avenue and Main Street Portland\n                        
-   \, OR\n                           97233 Get directions More about this l
- ocation
-URL:https://www.portland.gov/parks/events/2026/6/3/parklane-park-garden-we
- edin
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Errol Heights Park Tending Time
 DTSTART;TZID=America/Los_Angeles:20260603T090000
 DTEND;TZID=America/Los_Angeles:20260603T090000
@@ -174,6 +132,22 @@ LOCATION:Errol Heights Community Garden main entrance 4841 SE Tenino Court
          97206 Get directions More about this location
 URL:https://www.portland.gov/parks/events/2026/6/3/errol-heights-park-tend
  ing-time
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Parklane Park Garden of Weedin'
+DTSTART;TZID=America/Los_Angeles:20260603T090000
+DTEND;TZID=America/Los_Angeles:20260603T090000
+UID:871ad1209c87609e1c5454f3f92147dc@portland.gov
+DESCRIPTION:Join the Garden of Weedin' and help us keep Parklane Park in b
+ loom!
+LOCATION:Parklane Park Label: Park Park location or entrance SE 155th Aven
+ ue and Main Street Portland\, OR 97233 Get directions Parklane Park main e
+ ntrance SE 155th Avenue and Main Street Portland\n                        
+   \, OR\n                           97233 Get directions More about this l
+ ocation
+URL:https://www.portland.gov/parks/events/2026/6/3/parklane-park-garden-we
+ edin
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -284,18 +258,6 @@ URL:https://www.portland.gov/parks/events/2026/6/6/oaks-bottom-wildlife-re
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lilac Garden at Duniway Park volunteer event
-DTSTART;TZID=America/Los_Angeles:20260608T090000
-DTEND;TZID=America/Los_Angeles:20260608T090000
-UID:05c3a494c593b7e61976bafad80a4a00@portland.gov
-DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
- at Duniway Park for a morning of plant and garden care.
-LOCATION:Duniway Park
-URL:https://www.portland.gov/parks/events/2026/6/8/lilac-garden-duniway-pa
- rk-volunteer-event
-X-SOURCE:Portland Volunteer Events
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:MAC Trail volunteer day in Washington Park
 DTSTART;TZID=America/Los_Angeles:20260608T090000
 DTEND;TZID=America/Los_Angeles:20260608T090000
@@ -307,6 +269,18 @@ DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the
 LOCATION:Washington Park
 URL:https://www.portland.gov/parks/events/2026/6/8/mac-trail-volunteer-day
  -washington-park
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilac Garden at Duniway Park volunteer event
+DTSTART;TZID=America/Los_Angeles:20260608T090000
+DTEND;TZID=America/Los_Angeles:20260608T090000
+UID:05c3a494c593b7e61976bafad80a4a00@portland.gov
+DESCRIPTION:Join Portland Parks & Recreation in the historic Lilac Garden 
+ at Duniway Park for a morning of plant and garden care.
+LOCATION:Duniway Park
+URL:https://www.portland.gov/parks/events/2026/6/8/lilac-garden-duniway-pa
+ rk-volunteer-event
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -627,6 +601,20 @@ DESCRIPTION:Second and Fourth Saturdays of the month. We invite our commun
 LOCATION:Native Gathering Garden
 URL:https://www.portland.gov/parks/volunteer/events/2026/6/27/saturday-ten
  ding-days-native-gathering-garden
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tabling at East Portland Sunday Parkways
+DTSTART;TZID=America/Los_Angeles:20260628T103000
+DTEND;TZID=America/Los_Angeles:20260628T103000
+UID:012bea6703ab6996f2ebfd4d2d033231@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2025/DSC06733.jpg?h=7408020c&itok=J0C16mnf
+DESCRIPTION:Join Urban Forestry at this Sunday Parkways event to help shar
+ e info and promote Urban Forestry's free tree planting and care programs.
+LOCATION:Fernhill Park Kʰunamokwst Park Wellington Park Roseway Parkway
+URL:https://www.portland.gov/trees/get-involved/events/2026/6/28/tabling-e
+ ast-portland-sunday-parkways
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 BEGIN:VEVENT
@@ -951,6 +939,20 @@ DESCRIPTION:Second and Fourth Saturdays of the month. We invite our commun
 LOCATION:Native Gathering Garden
 URL:https://www.portland.gov/parks/volunteer/events/2026/7/25/saturday-ten
  ding-days-native-gathering-garden
+X-SOURCE:Portland Volunteer Events
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MAC Trail volunteer day in Washington Park
+DTSTART;TZID=America/Los_Angeles:20260727T090000
+DTEND;TZID=America/Los_Angeles:20260727T090000
+UID:d730b1cdbbdb8e19af305d6b47eb2968@portland.gov
+ATTACH;FMTTYPE=image/jpeg:https://www.portland.gov/sites/default/files/sty
+ les/facebook/public/2026/IMG_0056.jpeg?h=4f56d0e6&itok=_ZjY0h-O
+DESCRIPTION:Join Portland Parks & Recreation for a volunteer event on the 
+ MAC Trail in Washington Park!
+LOCATION:Washington Park
+URL:https://www.portland.gov/parks/events/2026/7/27/mac-trail-volunteer-da
+ y-washington-park
 X-SOURCE:Portland Volunteer Events
 END:VEVENT
 END:VCALENDAR
