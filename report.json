@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T03:07:42.503240",
+  "generated": "2026-05-27T19:07:01.820264",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -37287,7 +37287,7 @@
             },
             {
               "date": "2026-05-27",
-              "count": 0
+              "count": 11
             }
           ]
         },
@@ -39375,7 +39375,7 @@
             },
             {
               "date": "2026-05-27",
-              "count": 7
+              "count": 10
             }
           ]
         },
@@ -40767,7 +40767,7 @@
             },
             {
               "date": "2026-05-27",
-              "count": 90
+              "count": 92
             }
           ]
         },
@@ -47379,7 +47379,7 @@
             },
             {
               "date": "2026-05-27",
-              "count": 197
+              "count": 198
             }
           ]
         },
@@ -49631,7 +49631,7 @@
             },
             {
               "date": "2026-05-27",
-              "count": 84
+              "count": 79
             }
           ]
         },
@@ -49783,7 +49783,7 @@
             },
             {
               "date": "2026-05-27",
-              "count": 36
+              "count": 40
             }
           ]
         },
@@ -49905,9 +49905,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 1136,
-        "total_events": 1217,
-        "unique_urls": 853,
+        "total_with_url": 1147,
+        "total_events": 1228,
+        "unique_urls": 859,
         "generic_count": 187,
         "generic_domains": [
           {
@@ -49959,20 +49959,20 @@
           },
           {
             "source": "Petaluma Regional Library",
-            "events": 90,
-            "unique_urls": 90,
+            "events": 92,
+            "unique_urls": 92,
             "specificity_pct": 100
           },
           {
             "source": "Village Network of Petaluma",
-            "events": 83,
-            "unique_urls": 83,
+            "events": 78,
+            "unique_urls": 78,
             "specificity_pct": 100
           },
           {
             "source": "Aqus Community",
-            "events": 76,
-            "unique_urls": 76,
+            "events": 75,
+            "unique_urls": 75,
             "specificity_pct": 100
           },
           {
@@ -50007,8 +50007,8 @@
           },
           {
             "source": "Visit Petaluma",
-            "events": 22,
-            "unique_urls": 22,
+            "events": 25,
+            "unique_urls": 25,
             "specificity_pct": 100
           },
           {
@@ -50034,23 +50034,23 @@
       "categories": [
         {
           "category": "Food / Drink",
-          "count": 330
+          "count": 340
         },
         {
           "category": "Music / Concerts",
-          "count": 175
-        },
-        {
-          "category": "Community / Social",
-          "count": 140
+          "count": 178
         },
         {
           "category": "Arts / Culture",
-          "count": 140
+          "count": 139
+        },
+        {
+          "category": "Community / Social",
+          "count": 138
         },
         {
           "category": "Family / Kids",
-          "count": 67
+          "count": 69
         },
         {
           "category": "Health / Wellness",
@@ -50058,7 +50058,7 @@
         },
         {
           "category": "Nature / Outdoors / Recreation",
-          "count": 56
+          "count": 57
         },
         {
           "category": "Education / Workshops",
@@ -50078,11 +50078,11 @@
         },
         {
           "category": "Sports / Fitness",
-          "count": 34
+          "count": 33
         },
         {
           "category": "Books / Literature / Poetry",
-          "count": 24
+          "count": 23
         },
         {
           "category": "Dance / Performance",
@@ -50110,8 +50110,8 @@
         }
       ],
       "images": {
-        "total": 1217,
-        "with_image": 703,
+        "total": 1228,
+        "with_image": 706,
         "by_source": [
           {
             "source": "Griffo Distillery",
@@ -50124,14 +50124,14 @@
             "with_image": 104
           },
           {
-            "source": "Aqus Community",
-            "total": 76,
-            "with_image": 74
-          },
-          {
             "source": "Petaluma Downtown Association",
             "total": 74,
             "with_image": 74
+          },
+          {
+            "source": "Aqus Community",
+            "total": 75,
+            "with_image": 73
           },
           {
             "source": "Brewsters Beer Garden",
@@ -50145,8 +50145,8 @@
           },
           {
             "source": "Visit Petaluma",
-            "total": 22,
-            "with_image": 22
+            "total": 25,
+            "with_image": 25
           },
           {
             "source": "Petaluma River Park",
@@ -50159,17 +50159,17 @@
             "with_image": 12
           },
           {
-            "source": "Meetup Meditate Monk",
-            "total": 10,
-            "with_image": 10
-          },
-          {
             "source": "Meetup: Mindful Petaluma",
             "total": 10,
             "with_image": 10
           },
           {
             "source": "Meetup: Candlelight Yoga Petaluma",
+            "total": 10,
+            "with_image": 10
+          },
+          {
+            "source": "Meetup Meditate Monk",
             "total": 10,
             "with_image": 10
           },
@@ -50262,6 +50262,11 @@
             "source": "Petaluma Downtown Association, The Floathouse Petaluma, Visit Petaluma",
             "total": 1,
             "with_image": 1
+          },
+          {
+            "source": "Aqus Community, Visit Petaluma",
+            "total": 1,
+            "with_image": 1
           }
         ]
       },
@@ -50293,7 +50298,7 @@
         "tzids": [
           {
             "tzid": "UTC (Z suffix)",
-            "count": 1418,
+            "count": 1416,
             "files": 8,
             "matches_city": false,
             "sample_files": [
@@ -50306,7 +50311,7 @@
           },
           {
             "tzid": "America/Los_Angeles",
-            "count": 781,
+            "count": 785,
             "files": 28,
             "matches_city": true,
             "sample_files": [
@@ -50319,15 +50324,15 @@
           },
           {
             "tzid": "(bare \u2014 assumes city tz)",
-            "count": 78,
-            "files": 17,
+            "count": 89,
+            "files": 18,
             "matches_city": false,
             "sample_files": [
+              "adobe_road.ics",
               "elks_lodge.ics",
               "garden_club.ics",
               "lagunitas.ics",
-              "mcnears.ics",
-              "meetup_book_brew.ics"
+              "mcnears.ics"
             ]
           },
           {
@@ -109751,31 +109756,5 @@
       "feed": "vancouver_farmers_market"
     }
   ],
-  "errors": [
-    {
-      "date": "2026-05-27",
-      "line": "requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.portlandsaturdaymarket.com/stage-performances",
-      "source": "models"
-    },
-    {
-      "date": "2026-05-27",
-      "line": "requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://portlandfruit.org/event-calendar",
-      "source": "models"
-    },
-    {
-      "date": "2026-05-27",
-      "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://ire-nicar-conference-schedules.s3.us-east-2.amazonaws.com/ire-2026/ire-2026-schedule.json",
-      "source": "models"
-    },
-    {
-      "date": "2026-05-27",
-      "line": "2026-05-27 03:06:46,672 - PENAmericaScraper - WARNING - Failed to load locations: 403 Client Error: Forbidden for url: https://pen.org/wp-json/wp/v2/event-location?per_page=100",
-      "source": null
-    },
-    {
-      "date": "2026-05-27",
-      "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://pen.org/wp-json/wp/v2/event?per_page=100&page=1&orderby=date&order=desc",
-      "source": "models"
-    }
-  ]
+  "errors": []
 }
