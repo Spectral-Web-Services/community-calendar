@@ -172,7 +172,6 @@ SOURCE_NAMES = {
     'cool_petaluma': 'Cool Petaluma',
     'mcnears': "McNear's Saloon",
     'griffo': 'Griffo Distillery',
-    'elks_lodge': 'Petaluma Elks Lodge',
     'garden_club': 'Petaluma Garden Club',
     'petaluma_bounty': 'Petaluma Bounty',
 
@@ -426,7 +425,6 @@ SOURCE_NAMES = {
     'petalumamuseum': 'Petaluma Museum',
     'calendar_livewhale': 'Santa Rosa Junior College',
     'gcal_c_69dcaa6c13b06c1111a1706565ebb272c3d24290c650a9378bdbd37bff886879': 'Petaluma Community Center',
-    'gcal_elks0901': 'Petaluma Elks Lodge',
     'gcal_petalumagardenclub': 'Petaluma Garden Club',
     # Davis - live feed slugs (slugify-generated)
     'meetup_intercultural_mosaics': 'Meetup: Intercultural Mosaics',
@@ -589,7 +587,6 @@ SOURCE_URLS = {
     'cool_petaluma': 'https://coolpetaluma.org/events',
     'mcnears': 'https://www.mcnears.com/event/',
     'griffo': 'https://griffodistillery.com/pages/calendar',
-    'elks_lodge': 'https://elks901.org/calendar-of-events/',
     'garden_club': 'https://petalumagardenclub.org/calendar/',
     'petaluma_bounty': 'https://petalumabounty.org/events-calendar/',
     # Toronto

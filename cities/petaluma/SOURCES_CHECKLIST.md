@@ -25,7 +25,6 @@
 | Cool Petaluma | Squarespace Scraper | ~6 | ✅ In CI |
 | McNear's Saloon | WordPress iCal | ~2 | ✅ In CI |
 | Griffo Distillery | Tockify ICS | ~20 | ✅ In CI |
-| Petaluma Elks Lodge | Google Calendar ICS | ~568 | ✅ In CI |
 | Petaluma Garden Club | Google Calendar ICS | ~131 | ✅ In CI |
 | Petaluma Bounty | WordPress iCal | ~19 | ✅ In CI |
 | Petaluma River Park | Squarespace Scraper | ~8 | ✅ In CI |

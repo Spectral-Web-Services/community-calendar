@@ -68,7 +68,7 @@ Public Google Calendar ICS export.
 
 **jweekly** (4): beth_sholom, ptbe_community, ptbe_education, ptbe_worship
 
-**petaluma** (4): brooksnote, elks_lodge, garden_club, uu_petaluma
+**petaluma** (4): brooksnote, garden_club, uu_petaluma
 
 **portland** (6): friends_of_trees_green_space, friends_of_trees_neighborhood, portland_public_schools, portland_thorns, portland_timbers, stumptown_savings
 

@@ -319,8 +319,6 @@ jobs:
         curl -sL "https://tockify.com/api/feeds/ics/tom.l" -o griffo.ics || true
         # Petaluma Speedway (WordPress Events Manager iCal feed)
         curl -sL -A "Mozilla/5.0" "https://www.petaluma-speedway.com/schedule/?ical=1" -o petaluma_speedway.ics || true
-        # Petaluma Elks Lodge (public Google Calendar ICS feed)
-        curl -sL "https://calendar.google.com/calendar/ical/elks0901%40gmail.com/public/basic.ics" -o elks_lodge.ics || true
         # Petaluma Garden Club (public Google Calendar ICS feed)
         curl -sL "https://calendar.google.com/calendar/ical/petalumagardenclub%40gmail.com/public/basic.ics" -o garden_club.ics || true
         # UU Petaluma (public Google Calendar ICS feed; surfaced via simcal embed on the events page)
